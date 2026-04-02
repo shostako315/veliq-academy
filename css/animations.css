@@ -1,0 +1,215 @@
+/* animations.css — トランジション・アニメーション */
+
+/* ── スケルトンシマー ── */
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ── タイピングバウンス ── */
+@keyframes typing-bounce {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-8px); }
+}
+
+/* ── フェードイン ── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ── スケールイン ── */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ── パルス（ゴールド輝き） ── */
+@keyframes goldPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(201,168,76,0.4); }
+  50% { box-shadow: 0 0 20px 4px rgba(201,168,76,0.2); }
+}
+
+/* ── バッジ獲得 ── */
+@keyframes badgeUnlock {
+  0% {
+    transform: scale(0) rotate(-30deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2) rotate(5deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+/* ── スライドイン（AI パネル） ── */
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideOutRight {
+  from { transform: translateX(0); }
+  to { transform: translateX(100%); }
+}
+
+/* ── プログレスバーアニメーション ── */
+@keyframes progressFill {
+  from { width: 0; }
+}
+
+/* ── 正解フラッシュ ── */
+@keyframes correctFlash {
+  0% { background: rgba(74,139,92,0.3); }
+  100% { background: transparent; }
+}
+
+@keyframes incorrectFlash {
+  0% { background: rgba(139,74,74,0.3); }
+  100% { background: transparent; }
+}
+
+/* ── ローディングスピン ── */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ── アニメーション適用クラス ── */
+.anim-fade-in {
+  animation: fadeIn var(--transition-base) ease-out;
+}
+
+.anim-fade-in-up {
+  animation: fadeInUp var(--transition-slow) ease-out;
+}
+
+.anim-fade-in-down {
+  animation: fadeInDown var(--transition-slow) ease-out;
+}
+
+.anim-fade-in-left {
+  animation: fadeInLeft var(--transition-slow) ease-out;
+}
+
+.anim-fade-in-right {
+  animation: fadeInRight var(--transition-slow) ease-out;
+}
+
+.anim-scale-in {
+  animation: scaleIn var(--transition-base) ease-out;
+}
+
+.anim-gold-pulse {
+  animation: goldPulse 2s ease-in-out infinite;
+}
+
+.anim-badge-unlock {
+  animation: badgeUnlock 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.anim-correct {
+  animation: correctFlash 0.5s ease-out;
+}
+
+.anim-incorrect {
+  animation: incorrectFlash 0.5s ease-out;
+}
+
+.anim-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* ── スタッガードアニメーション ── */
+.stagger-children > * {
+  animation: fadeInUp var(--transition-slow) ease-out both;
+}
+
+.stagger-children > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-children > *:nth-child(2) { animation-delay: 80ms; }
+.stagger-children > *:nth-child(3) { animation-delay: 160ms; }
+.stagger-children > *:nth-child(4) { animation-delay: 240ms; }
+.stagger-children > *:nth-child(5) { animation-delay: 320ms; }
+.stagger-children > *:nth-child(6) { animation-delay: 400ms; }
+.stagger-children > *:nth-child(7) { animation-delay: 480ms; }
+.stagger-children > *:nth-child(8) { animation-delay: 560ms; }
+.stagger-children > *:nth-child(9) { animation-delay: 640ms; }
+
+/* ── ページ遷移 ── */
+.page-enter {
+  animation: fadeIn 200ms ease-out;
+}
+
+/* ── ホバーエフェクト（カスタム） ── */
+.hover-glow:hover {
+  box-shadow: var(--shadow-gold);
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
