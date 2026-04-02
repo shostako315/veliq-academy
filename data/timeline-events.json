@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "te-001",
+    "year": 1397,
+    "category": "cultural",
+    "title": "朝鮮王朝の建国",
+    "description": "李成桂が朝鮮王朝を建国。東アジアの文化圏に大きな影響を与えた。",
+    "era": "renaissance",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-002",
+    "year": 1440,
+    "category": "scientific",
+    "title": "グーテンベルクの活版印刷術",
+    "description": "ヨハネス・グーテンベルクが活版印刷術を発明。楽譜の普及にも革命的な影響を与えた。",
+    "era": "renaissance",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-003",
+    "year": 1453,
+    "category": "political",
+    "title": "東ローマ帝国の滅亡",
+    "description": "コンスタンティノープルがオスマン帝国により陥落。ビザンツ文化の西欧流入が加速した。",
+    "era": "renaissance",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-004",
+    "year": 1473,
+    "category": "scientific",
+    "title": "コペルニクス誕生",
+    "description": "地動説を唱えたニコラウス・コペルニクスが誕生。科学革命の先駆者となった。",
+    "era": "renaissance",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-005",
+    "year": 1492,
+    "category": "political",
+    "title": "コロンブスのアメリカ大陸到達",
+    "description": "クリストファー・コロンブスがアメリカ大陸に到達。大航海時代が本格化した。",
+    "era": "renaissance",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-006",
+    "year": 1498,
+    "category": "publication",
+    "title": "オッタヴィアーノ・ペトルッチの楽譜印刷",
+    "description": "ペトルッチが活版印刷による多声音楽の楽譜集を出版。音楽出版の歴史が始まった。",
+    "era": "renaissance",
+    "type": "music",
+    "relatedIds": []
+  },
+  {
+    "id": "te-007",
+    "year": 1517,
+    "category": "political",
+    "title": "宗教改革の開始",
+    "description": "マルティン・ルターが95か条の論題を発表。プロテスタント教会音楽の発展につながった。",
+    "era": "renaissance",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-008",
+    "year": 1543,
+    "category": "scientific",
+    "title": "コペルニクスの地動説発表",
+    "description": "コペルニクスが『天球の回転について』を出版。近代科学の幕開けとなった。",
+    "era": "renaissance",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-009",
+    "year": 1567,
+    "category": "publication",
+    "title": "パレストリーナ「教皇マルチェルスのミサ」出版",
+    "description": "パレストリーナの代表作が出版。対抗宗教改革期のカトリック教会音楽の模範とされた。",
+    "era": "renaissance",
+    "type": "music",
+    "relatedIds": []
+  },
+  {
+    "id": "te-010",
+    "year": 1588,
+    "category": "political",
+    "title": "スペイン無敵艦隊の敗北",
+    "description": "イングランドがスペイン無敵艦隊を撃破。英国の海洋覇権時代が始まった。",
+    "era": "renaissance",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-011",
+    "year": 1597,
+    "category": "premiere",
+    "title": "最初のオペラ「ダフネ」初演",
+    "description": "ヤコポ・ペーリの「ダフネ」がフィレンツェで初演。オペラというジャンルが誕生した。",
+    "era": "renaissance",
+    "type": "music",
+    "relatedIds": []
+  },
+  {
+    "id": "te-012",
+    "year": 1600,
+    "category": "political",
+    "title": "関ヶ原の戦い",
+    "description": "徳川家康が関ヶ原の戦いに勝利。日本の江戸時代が幕を開けた。",
+    "era": "baroque",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-013",
+    "year": 1607,
+    "category": "premiere",
+    "title": "モンテヴェルディ「オルフェオ」初演",
+    "description": "クラウディオ・モンテヴェルディの「オルフェオ」が初演。オペラ史上最初の傑作とされる。",
+    "era": "baroque",
+    "type": "music",
+    "relatedIds": []
+  },
+  {
+    "id": "te-014",
+    "year": 1618,
+    "category": "political",
+    "title": "三十年戦争の勃発",
+    "description": "ヨーロッパ全土を巻き込む三十年戦争が勃発。音楽文化にも甚大な影響を与えた。",
+    "era": "baroque",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-015",
+    "year": 1637,
+    "category": "founding",
+    "title": "ヴェネツィアに世界初の公開オペラ劇場開設",
+    "description": "サン・カッシアーノ劇場がヴェネツィアに開場。オペラが一般市民にも開かれた。",
+    "era": "baroque",
+    "type": "music",
+    "relatedIds": []
+  },
+  {
+    "id": "te-016",
+    "year": 1637,
+    "category": "birth",
+    "title": "ブクステフーデ誕生",
+    "description": "ディートリヒ・ブクステフーデが誕生。北ドイツ・オルガン楽派の巨匠となった。",
+    "era": "baroque",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "buxtehude" }]
+  },
+  {
+    "id": "te-017",
+    "year": 1643,
+    "category": "political",
+    "title": "ルイ14世即位",
+    "description": "フランスのルイ14世が即位。ヴェルサイユ宮殿を中心にフランス音楽が大きく花開いた。",
+    "era": "baroque",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-018",
+    "year": 1648,
+    "category": "political",
+    "title": "ウェストファリア条約",
+    "description": "三十年戦争が終結。ヨーロッパの新たな秩序の下で音楽文化が復興した。",
+    "era": "baroque",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-019",
+    "year": 1653,
+    "category": "premiere",
+    "title": "リュリがルイ14世の宮廷作曲家に",
+    "description": "ジャン=バティスト・リュリがフランス宮廷音楽の中心人物となった。フランス・オペラの礎を築いた。",
+    "era": "baroque",
+    "type": "music",
+    "relatedIds": []
+  },
+  {
+    "id": "te-020",
+    "year": 1659,
+    "category": "birth",
+    "title": "パーセル誕生",
+    "description": "ヘンリー・パーセルがロンドンに誕生。英国バロック音楽の最大の作曲家となった。",
+    "era": "baroque",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "purcell" }]
+  },
+  {
+    "id": "te-021",
+    "year": 1668,
+    "category": "birth",
+    "title": "クープラン誕生",
+    "description": "フランソワ・クープランがパリに誕生。フランス・クラヴサン音楽の大家となった。",
+    "era": "baroque",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "couperin" }]
+  },
+  {
+    "id": "te-022",
+    "year": 1678,
+    "category": "birth",
+    "title": "ヴィヴァルディ誕生",
+    "description": "アントニオ・ヴィヴァルディがヴェネツィアに誕生。「四季」で知られるバロックの巨匠となった。",
+    "era": "baroque",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "vivaldi" }]
+  },
+  {
+    "id": "te-023",
+    "year": 1681,
+    "category": "birth",
+    "title": "テレマン誕生",
+    "description": "ゲオルク・フィリップ・テレマンがマクデブルクに誕生。バロック時代最も多作な作曲家の一人となった。",
+    "era": "baroque",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "telemann" }]
+  },
+  {
+    "id": "te-024",
+    "year": 1683,
+    "category": "birth",
+    "title": "ラモー誕生",
+    "description": "ジャン=フィリップ・ラモーがディジョンに誕生。和声論と壮大なオペラで知られる。",
+    "era": "baroque",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "rameau" }]
+  },
+  {
+    "id": "te-025",
+    "year": 1685,
+    "category": "birth",
+    "title": "バッハ誕生",
+    "description": "ヨハン・ゼバスティアン・バッハ、アイゼナハに誕生。西洋音楽史上最大の作曲家の一人となった。",
+    "era": "baroque",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "bach-js" }]
+  },
+  {
+    "id": "te-026",
+    "year": 1685,
+    "category": "birth",
+    "title": "ヘンデル誕生",
+    "description": "ゲオルク・フリードリヒ・ヘンデルがハレに誕生。オラトリオ「メサイア」で不朽の名声を得た。",
+    "era": "baroque",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "handel" }]
+  },
+  {
+    "id": "te-027",
+    "year": 1687,
+    "category": "scientific",
+    "title": "ニュートン「プリンキピア」出版",
+    "description": "アイザック・ニュートンが『自然哲学の数学的諸原理』を出版。近代物理学の基礎を築いた。",
+    "era": "baroque",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-028",
+    "year": 1689,
+    "category": "premiere",
+    "title": "パーセル「ダイドーとエネアス」初演",
+    "description": "パーセルのオペラ「ダイドーとエネアス」がロンドンで初演。英語オペラの最高傑作とされる。",
+    "era": "baroque",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "purcell" }]
+  },
+  {
+    "id": "te-029",
+    "year": 1695,
+    "category": "death",
+    "title": "パーセル死去",
+    "description": "ヘンリー・パーセルがロンドンで死去。わずか36歳の短い生涯であった。",
+    "era": "baroque",
+    "type": "death",
+    "relatedIds": [{ "type": "composer", "id": "purcell" }]
+  },
+  {
+    "id": "te-030",
+    "year": 1707,
+    "category": "death",
+    "title": "ブクステフーデ死去",
+    "description": "ディートリヒ・ブクステフーデがリューベックで死去。若きバッハに大きな影響を与えた。",
+    "era": "baroque",
+    "type": "death",
+    "relatedIds": [{ "type": "composer", "id": "buxtehude" }]
+  },
+  {
+    "id": "te-031",
+    "year": 1714,
+    "category": "birth",
+    "title": "C.P.E.バッハ誕生",
+    "description": "カール・フィリップ・エマヌエル・バッハがヴァイマルに誕生。古典派への橋渡し役を担った。",
+    "era": "baroque",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "bach-cpe" }]
+  },
+  {
+    "id": "te-032",
+    "year": 1714,
+    "category": "birth",
+    "title": "グルック誕生",
+    "description": "クリストフ・ヴィリバルト・グルックが誕生。オペラ改革の先駆者となった。",
+    "era": "baroque",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "gluck" }]
+  },
+  {
+    "id": "te-033",
+    "year": 1725,
+    "category": "publication",
+    "title": "ヴィヴァルディ「四季」出版",
+    "description": "ヴィヴァルディの「和声と創意の試み」（四季を含む）が出版。バロック協奏曲の最高傑作。",
+    "era": "baroque",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "vivaldi" }]
+  },
+  {
+    "id": "te-034",
+    "year": 1732,
+    "category": "birth",
+    "title": "ハイドン誕生",
+    "description": "フランツ・ヨーゼフ・ハイドンがローラウに誕生。「交響曲の父」として知られる。",
+    "era": "classical",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "haydn" }]
+  },
+  {
+    "id": "te-035",
+    "year": 1741,
+    "category": "premiere",
+    "title": "ヘンデル「メサイア」初演",
+    "description": "ヘンデルのオラトリオ「メサイア」がダブリンで初演。「ハレルヤ」合唱は特に有名。",
+    "era": "baroque",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "handel" }]
+  },
+  {
+    "id": "te-036",
+    "year": 1743,
+    "category": "founding",
+    "title": "ライプツィヒ・ゲヴァントハウス管弦楽団の前身設立",
+    "description": "ライプツィヒで市民コンサート団体が設立。後に世界最古の市民オーケストラとなった。",
+    "era": "baroque",
+    "type": "music",
+    "relatedIds": []
+  },
+  {
+    "id": "te-037",
+    "year": 1750,
+    "category": "death",
+    "title": "バッハ死去",
+    "description": "ヨハン・ゼバスティアン・バッハがライプツィヒで死去。バロック時代の終焉を象徴する出来事。",
+    "era": "baroque",
+    "type": "death",
+    "relatedIds": [{ "type": "composer", "id": "bach-js" }]
+  },
+  {
+    "id": "te-038",
+    "year": 1750,
+    "category": "birth",
+    "title": "サリエリ誕生",
+    "description": "アントニオ・サリエリがレニャーゴに誕生。ウィーン宮廷楽長として多くの弟子を育てた。",
+    "era": "classical",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "salieri" }]
+  },
+  {
+    "id": "te-039",
+    "year": 1752,
+    "category": "birth",
+    "title": "クレメンティ誕生",
+    "description": "ムツィオ・クレメンティがローマに誕生。ピアノ演奏技法と教育に多大な貢献をした。",
+    "era": "classical",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "clementi" }]
+  },
+  {
+    "id": "te-040",
+    "year": 1743,
+    "category": "birth",
+    "title": "ボッケリーニ誕生",
+    "description": "ルイジ・ボッケリーニがルッカに誕生。室内楽の分野で優れた作品を残した。",
+    "era": "classical",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "boccherini" }]
+  },
+  {
+    "id": "te-041",
+    "year": 1756,
+    "category": "birth",
+    "title": "モーツァルト誕生",
+    "description": "ヴォルフガング・アマデウス・モーツァルトがザルツブルクに誕生。神童として幼少期から活躍した。",
+    "era": "classical",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "mozart-wa" }]
+  },
+  {
+    "id": "te-042",
+    "year": 1759,
+    "category": "death",
+    "title": "ヘンデル死去",
+    "description": "ゲオルク・フリードリヒ・ヘンデルがロンドンで死去。バロック・オペラとオラトリオの巨匠であった。",
+    "era": "baroque",
+    "type": "death",
+    "relatedIds": [{ "type": "composer", "id": "handel" }]
+  },
+  {
+    "id": "te-043",
+    "year": 1762,
+    "category": "premiere",
+    "title": "グルック「オルフェオとエウリディーチェ」初演",
+    "description": "グルックのオペラ改革作品がウィーンで初演。オペラの劇的真実性を追求した。",
+    "era": "classical",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "gluck" }]
+  },
+  {
+    "id": "te-044",
+    "year": 1770,
+    "category": "birth",
+    "title": "ベートーヴェン誕生",
+    "description": "ルートヴィヒ・ヴァン・ベートーヴェンがボンに誕生。古典派からロマン派への橋渡し役となった。",
+    "era": "classical",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "beethoven" }]
+  },
+  {
+    "id": "te-045",
+    "year": 1776,
+    "category": "political",
+    "title": "アメリカ独立宣言",
+    "description": "アメリカ合衆国が独立を宣言。啓蒙思想の広まりは音楽のあり方にも影響を与えた。",
+    "era": "classical",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-046",
+    "year": 1786,
+    "category": "premiere",
+    "title": "モーツァルト「フィガロの結婚」初演",
+    "description": "モーツァルトのオペラ「フィガロの結婚」がウィーンで初演。オペラ・ブッファの最高傑作。",
+    "era": "classical",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "mozart-wa" }]
+  },
+  {
+    "id": "te-047",
+    "year": 1789,
+    "category": "political",
+    "title": "フランス革命勃発",
+    "description": "フランス革命が勃発。市民社会の成立は音楽の大衆化に大きな影響を与えた。",
+    "era": "classical",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-048",
+    "year": 1791,
+    "category": "death",
+    "title": "モーツァルト死去",
+    "description": "ヴォルフガング・アマデウス・モーツァルトがウィーンで死去。35歳の短い生涯に600以上の作品を残した。",
+    "era": "classical",
+    "type": "death",
+    "relatedIds": [{ "type": "composer", "id": "mozart-wa" }]
+  },
+  {
+    "id": "te-049",
+    "year": 1797,
+    "category": "birth",
+    "title": "シューベルト誕生",
+    "description": "フランツ・シューベルトがウィーンに誕生。「歌曲の王」として600以上のリートを作曲した。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "schubert" }]
+  },
+  {
+    "id": "te-050",
+    "year": 1803,
+    "category": "premiere",
+    "title": "ベートーヴェン交響曲第3番「英雄」完成",
+    "description": "ベートーヴェンが交響曲第3番「英雄」を完成。交響曲の概念を根本的に変えた記念碑的作品。",
+    "era": "classical",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "beethoven" }]
+  },
+  {
+    "id": "te-051",
+    "year": 1809,
+    "category": "death",
+    "title": "ハイドン死去",
+    "description": "フランツ・ヨーゼフ・ハイドンがウィーンで死去。104曲の交響曲を残した。",
+    "era": "classical",
+    "type": "death",
+    "relatedIds": [{ "type": "composer", "id": "haydn" }]
+  },
+  {
+    "id": "te-052",
+    "year": 1809,
+    "category": "birth",
+    "title": "メンデルスゾーン誕生",
+    "description": "フェリックス・メンデルスゾーンがハンブルクに誕生。バッハの再評価にも大きく貢献した。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "mendelssohn" }]
+  },
+  {
+    "id": "te-053",
+    "year": 1810,
+    "category": "birth",
+    "title": "ショパン誕生",
+    "description": "フレデリック・ショパンがジェラゾヴァ・ヴォラに誕生。「ピアノの詩人」と称される。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "chopin" }]
+  },
+  {
+    "id": "te-054",
+    "year": 1810,
+    "category": "birth",
+    "title": "シューマン誕生",
+    "description": "ロベルト・シューマンがツヴィッカウに誕生。ロマン派を代表する作曲家・音楽評論家となった。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "schumann-r" }]
+  },
+  {
+    "id": "te-055",
+    "year": 1811,
+    "category": "birth",
+    "title": "リスト誕生",
+    "description": "フランツ・リストがライディングに誕生。史上最大のピアノ・ヴィルトゥオーゾとなった。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "liszt" }]
+  },
+  {
+    "id": "te-056",
+    "year": 1813,
+    "category": "birth",
+    "title": "ワーグナー誕生",
+    "description": "リヒャルト・ワーグナーがライプツィヒに誕生。楽劇の創始者としてオペラ史を変革した。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "wagner" }]
+  },
+  {
+    "id": "te-057",
+    "year": 1813,
+    "category": "birth",
+    "title": "ヴェルディ誕生",
+    "description": "ジュゼッペ・ヴェルディがレ・ロンコーレに誕生。イタリア・オペラの最大の巨匠となった。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "verdi" }]
+  },
+  {
+    "id": "te-058",
+    "year": 1815,
+    "category": "political",
+    "title": "ウィーン会議終結",
+    "description": "ナポレオン戦争後のヨーロッパ秩序がウィーン会議で再編された。ウィーンは音楽の都としての地位を確立。",
+    "era": "romantic",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-059",
+    "year": 1824,
+    "category": "premiere",
+    "title": "ベートーヴェン交響曲第9番初演",
+    "description": "ベートーヴェンの交響曲第9番「合唱」がウィーンで初演。人類の兄弟愛を歌い上げた不朽の名作。",
+    "era": "romantic",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "beethoven" }]
+  },
+  {
+    "id": "te-060",
+    "year": 1824,
+    "category": "birth",
+    "title": "ブルックナー誕生",
+    "description": "アントン・ブルックナーがアンスフェルデンに誕生。壮大な交響曲で後期ロマン派を代表した。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "bruckner" }]
+  },
+  {
+    "id": "te-061",
+    "year": 1827,
+    "category": "death",
+    "title": "ベートーヴェン死去",
+    "description": "ルートヴィヒ・ヴァン・ベートーヴェンがウィーンで死去。古典派を完成させロマン派を切り開いた。",
+    "era": "romantic",
+    "type": "death",
+    "relatedIds": [{ "type": "composer", "id": "beethoven" }]
+  },
+  {
+    "id": "te-062",
+    "year": 1829,
+    "category": "premiere",
+    "title": "メンデルスゾーンによるバッハ「マタイ受難曲」復活演奏",
+    "description": "メンデルスゾーンがベルリンでバッハの「マタイ受難曲」を復活上演。バッハ復興運動の契機となった。",
+    "era": "romantic",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "mendelssohn" }, { "type": "composer", "id": "bach-js" }]
+  },
+  {
+    "id": "te-063",
+    "year": 1830,
+    "category": "premiere",
+    "title": "ベルリオーズ「幻想交響曲」初演",
+    "description": "エクトル・ベルリオーズの「幻想交響曲」がパリで初演。標題音楽の新時代を切り開いた。",
+    "era": "romantic",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "berlioz" }]
+  },
+  {
+    "id": "te-064",
+    "year": 1833,
+    "category": "birth",
+    "title": "ブラームス誕生",
+    "description": "ヨハネス・ブラームスがハンブルクに誕生。古典的形式とロマン的情感を融合させた。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "brahms" }]
+  },
+  {
+    "id": "te-065",
+    "year": 1835,
+    "category": "birth",
+    "title": "サン=サーンス誕生",
+    "description": "カミーユ・サン=サーンスがパリに誕生。多才な作曲家として幅広いジャンルで活躍した。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "saint-saens" }]
+  },
+  {
+    "id": "te-066",
+    "year": 1840,
+    "category": "birth",
+    "title": "チャイコフスキー誕生",
+    "description": "ピョートル・チャイコフスキーがヴォトキンスクに誕生。ロシアを代表する作曲家となった。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "tchaikovsky" }]
+  },
+  {
+    "id": "te-067",
+    "year": 1841,
+    "category": "birth",
+    "title": "ドヴォルザーク誕生",
+    "description": "アントニン・ドヴォルザークがネラホゼヴェスに誕生。チェコ国民楽派を代表する作曲家となった。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "dvorak" }]
+  },
+  {
+    "id": "te-068",
+    "year": 1843,
+    "category": "birth",
+    "title": "グリーグ誕生",
+    "description": "エドヴァルド・グリーグがベルゲンに誕生。ノルウェー国民楽派の代表的存在となった。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "grieg" }]
+  },
+  {
+    "id": "te-069",
+    "year": 1848,
+    "category": "political",
+    "title": "ヨーロッパ諸国の革命",
+    "description": "ヨーロッパ各地で市民革命が勃発。ナショナリズムの高揚は国民楽派の台頭を促した。",
+    "era": "romantic",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-070",
+    "year": 1858,
+    "category": "birth",
+    "title": "プッチーニ誕生",
+    "description": "ジャコモ・プッチーニがルッカに誕生。「蝶々夫人」「トゥーランドット」で世界的に愛されている。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "puccini" }]
+  },
+  {
+    "id": "te-071",
+    "year": 1860,
+    "category": "birth",
+    "title": "マーラー誕生",
+    "description": "グスタフ・マーラーがカリシュトに誕生。壮大な交響曲でロマン派の極限を追求した。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "mahler" }]
+  },
+  {
+    "id": "te-072",
+    "year": 1862,
+    "category": "birth",
+    "title": "ドビュッシー誕生",
+    "description": "クロード・ドビュッシーがサン=ジェルマン=アン=レーに誕生。印象主義音楽の創始者となった。",
+    "era": "modern",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "debussy" }]
+  },
+  {
+    "id": "te-073",
+    "year": 1864,
+    "category": "birth",
+    "title": "R.シュトラウス誕生",
+    "description": "リヒャルト・シュトラウスがミュンヘンに誕生。交響詩とオペラで後期ロマン派を牽引した。",
+    "era": "romantic",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "strauss-r" }]
+  },
+  {
+    "id": "te-074",
+    "year": 1865,
+    "category": "birth",
+    "title": "シベリウス誕生",
+    "description": "ジャン・シベリウスがハメーンリンナに誕生。フィンランドの国民的作曲家として活躍した。",
+    "era": "modern",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "sibelius" }]
+  },
+  {
+    "id": "te-075",
+    "year": 1869,
+    "category": "founding",
+    "title": "ウィーン国立歌劇場開場",
+    "description": "ウィーン宮廷歌劇場（現ウィーン国立歌劇場）が新築開場。世界有数のオペラハウスとなった。",
+    "era": "romantic",
+    "type": "music",
+    "relatedIds": []
+  },
+  {
+    "id": "te-076",
+    "year": 1874,
+    "category": "birth",
+    "title": "シェーンベルク誕生",
+    "description": "アルノルト・シェーンベルクがウィーンに誕生。十二音技法を確立し現代音楽の道を切り開いた。",
+    "era": "modern",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "schoenberg" }]
+  },
+  {
+    "id": "te-077",
+    "year": 1875,
+    "category": "birth",
+    "title": "ラヴェル誕生",
+    "description": "モーリス・ラヴェルがシブールに誕生。精緻なオーケストレーションで知られる。",
+    "era": "modern",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "ravel" }]
+  },
+  {
+    "id": "te-078",
+    "year": 1876,
+    "category": "premiere",
+    "title": "ワーグナー「ニーベルングの指環」全曲初演",
+    "description": "ワーグナーの楽劇「ニーベルングの指環」4部作がバイロイト祝祭劇場で全曲初演された。",
+    "era": "romantic",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "wagner" }]
+  },
+  {
+    "id": "te-079",
+    "year": 1877,
+    "category": "scientific",
+    "title": "エジソンの蓄音機発明",
+    "description": "トーマス・エジソンが蓄音機を発明。音楽の記録と再生が可能となり音楽文化を一変させた。",
+    "era": "romantic",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-080",
+    "year": 1881,
+    "category": "birth",
+    "title": "バルトーク誕生",
+    "description": "バルトーク・ベーラがナジセントミクローシュに誕生。民族音楽研究と作曲を融合させた。",
+    "era": "modern",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "bartok" }]
+  },
+  {
+    "id": "te-081",
+    "year": 1882,
+    "category": "birth",
+    "title": "ストラヴィンスキー誕生",
+    "description": "イーゴリ・ストラヴィンスキーがオラニエンバウムに誕生。20世紀音楽に革命をもたらした。",
+    "era": "modern",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "stravinsky" }]
+  },
+  {
+    "id": "te-082",
+    "year": 1891,
+    "category": "founding",
+    "title": "カーネギーホール開場",
+    "description": "ニューヨークのカーネギーホールが開場。チャイコフスキーが開場記念演奏会を指揮した。",
+    "era": "romantic",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "tchaikovsky" }]
+  },
+  {
+    "id": "te-083",
+    "year": 1891,
+    "category": "birth",
+    "title": "プロコフィエフ誕生",
+    "description": "セルゲイ・プロコフィエフがソンツォフカに誕生。新古典主義的な作風で多くの傑作を残した。",
+    "era": "modern",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "prokofiev" }]
+  },
+  {
+    "id": "te-084",
+    "year": 1893,
+    "category": "premiere",
+    "title": "ドヴォルザーク交響曲第9番「新世界より」初演",
+    "description": "ドヴォルザークの交響曲第9番がニューヨークで初演。アメリカの民俗音楽への敬意が込められている。",
+    "era": "romantic",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "dvorak" }]
+  },
+  {
+    "id": "te-085",
+    "year": 1894,
+    "category": "premiere",
+    "title": "ドビュッシー「牧神の午後への前奏曲」初演",
+    "description": "ドビュッシーの「牧神の午後への前奏曲」がパリで初演。印象主義音楽の幕開けとなった。",
+    "era": "modern",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "debussy" }]
+  },
+  {
+    "id": "te-086",
+    "year": 1906,
+    "category": "birth",
+    "title": "ショスタコーヴィチ誕生",
+    "description": "ドミートリイ・ショスタコーヴィチがサンクトペテルブルクに誕生。ソビエト時代を代表する作曲家となった。",
+    "era": "modern",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "shostakovich" }]
+  },
+  {
+    "id": "te-087",
+    "year": 1908,
+    "category": "birth",
+    "title": "メシアン誕生",
+    "description": "オリヴィエ・メシアンがアヴィニョンに誕生。鳥の歌やリズムの革新で独自の音楽世界を構築した。",
+    "era": "modern",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "messiaen" }]
+  },
+  {
+    "id": "te-088",
+    "year": 1913,
+    "category": "premiere",
+    "title": "ストラヴィンスキー「春の祭典」初演",
+    "description": "ストラヴィンスキーの「春の祭典」がパリで初演。観客の暴動を引き起こすほどの衝撃を与えた。",
+    "era": "modern",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "stravinsky" }]
+  },
+  {
+    "id": "te-089",
+    "year": 1914,
+    "category": "political",
+    "title": "第一次世界大戦勃発",
+    "description": "第一次世界大戦が勃発。ヨーロッパの文化・芸術のあり方に根本的な変化をもたらした。",
+    "era": "modern",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-090",
+    "year": 1923,
+    "category": "birth",
+    "title": "リゲティ誕生",
+    "description": "ジェルジ・リゲティがディチェーセントマールトンに誕生。音群技法など革新的な手法を開拓した。",
+    "era": "contemporary",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "ligeti" }]
+  },
+  {
+    "id": "te-091",
+    "year": 1930,
+    "category": "birth",
+    "title": "武満徹誕生",
+    "description": "武満徹が東京に誕生。日本の伝統と西洋の前衛を融合させ国際的に高い評価を受けた。",
+    "era": "contemporary",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "takemitsu" }]
+  },
+  {
+    "id": "te-092",
+    "year": 1933,
+    "category": "birth",
+    "title": "ペンデレツキ誕生",
+    "description": "クシシュトフ・ペンデレツキがデンビツァに誕生。トーン・クラスターなど前衛的技法で注目された。",
+    "era": "contemporary",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "penderecki" }]
+  },
+  {
+    "id": "te-093",
+    "year": 1935,
+    "category": "birth",
+    "title": "ペルト誕生",
+    "description": "アルヴォ・ペルトがパイデに誕生。ティンティナブリ様式と呼ばれる独自の作曲技法を確立した。",
+    "era": "contemporary",
+    "type": "birth",
+    "relatedIds": [{ "type": "composer", "id": "part" }]
+  },
+  {
+    "id": "te-094",
+    "year": 1939,
+    "category": "political",
+    "title": "第二次世界大戦勃発",
+    "description": "第二次世界大戦が勃発。多くの音楽家が亡命を余儀なくされ、音楽の中心がアメリカへ移った。",
+    "era": "modern",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-095",
+    "year": 1945,
+    "category": "political",
+    "title": "第二次世界大戦終結",
+    "description": "第二次世界大戦が終結。戦後の前衛音楽運動がダルムシュタットなどで花開いた。",
+    "era": "modern",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-096",
+    "year": 1957,
+    "category": "scientific",
+    "title": "スプートニク打ち上げ",
+    "description": "ソ連が世界初の人工衛星スプートニクを打ち上げ。宇宙時代の幕開けは芸術にも影響を与えた。",
+    "era": "contemporary",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-097",
+    "year": 1960,
+    "category": "premiere",
+    "title": "ペンデレツキ「広島の犠牲者に捧げる哀歌」初演",
+    "description": "ペンデレツキの弦楽のための作品が初演。トーン・クラスター技法の代表作として知られる。",
+    "era": "contemporary",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "penderecki" }]
+  },
+  {
+    "id": "te-098",
+    "year": 1967,
+    "category": "premiere",
+    "title": "武満徹「ノヴェンバー・ステップス」初演",
+    "description": "武満徹の「ノヴェンバー・ステップス」がニューヨーク・フィルにより初演。琵琶と尺八がオーケストラと共演した。",
+    "era": "contemporary",
+    "type": "music",
+    "relatedIds": [{ "type": "composer", "id": "takemitsu" }]
+  },
+  {
+    "id": "te-099",
+    "year": 1989,
+    "category": "political",
+    "title": "ベルリンの壁崩壊",
+    "description": "ベルリンの壁が崩壊。バーンスタインが「第九」を指揮し歴史的な記念演奏会が行われた。",
+    "era": "contemporary",
+    "type": "history",
+    "relatedIds": []
+  },
+  {
+    "id": "te-100",
+    "year": 2001,
+    "category": "founding",
+    "title": "エルプフィルハーモニー構想発表",
+    "description": "ハンブルクのエルプフィルハーモニーの建設構想が発表された。2017年に開場し世界的な注目を集めた。",
+    "era": "contemporary",
+    "type": "music",
+    "relatedIds": []
+  }
+]

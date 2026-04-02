@@ -1,0 +1,276 @@
+[
+  {
+    "id": "path-fast-track",
+    "title": "Fast Track：ビジネス教養12時間コース",
+    "subtitle": "接待・会食・コンサートでクラシックを語れるようになる最短ルート",
+    "level": "beginner",
+    "estimatedHours": 12,
+    "icon": "→",
+    "lessons": [
+      {
+        "id": "ft-01",
+        "order": 1,
+        "title": "クラシック音楽とは何か：5分で掴む全体像",
+        "type": "article",
+        "contentId": "article-what-is-classical",
+        "estimatedMinutes": 10,
+        "required": true
+      },
+      {
+        "id": "ft-02",
+        "order": 2,
+        "title": "バッハ〜ベートーヴェン：教養人が知るべき3人",
+        "type": "multi-composer",
+        "composerIds": ["bach-js", "mozart-wa", "beethoven"],
+        "estimatedMinutes": 30,
+        "required": true
+      },
+      {
+        "id": "ft-03",
+        "order": 3,
+        "title": "交響曲の基礎：4楽章の構造を知る",
+        "type": "concept",
+        "contentId": "concept-symphony",
+        "estimatedMinutes": 15,
+        "required": true
+      },
+      {
+        "id": "ft-04",
+        "order": 4,
+        "title": "ベートーヴェン「運命」を聴く",
+        "type": "listening",
+        "workId": "beethoven-symphony-5",
+        "estimatedMinutes": 40,
+        "required": true
+      },
+      {
+        "id": "ft-05",
+        "order": 5,
+        "title": "バロックの世界：バッハとヴィヴァルディ",
+        "type": "era",
+        "eraId": "baroque",
+        "estimatedMinutes": 20,
+        "required": true
+      },
+      {
+        "id": "ft-06",
+        "order": 6,
+        "title": "ロマン派入門：ショパンとリスト",
+        "type": "multi-composer",
+        "composerIds": ["chopin", "liszt"],
+        "estimatedMinutes": 25,
+        "required": true
+      },
+      {
+        "id": "ft-07",
+        "order": 7,
+        "title": "オペラの基礎：ヴェルディとプッチーニ",
+        "type": "multi-composer",
+        "composerIds": ["verdi", "puccini"],
+        "estimatedMinutes": 25,
+        "required": false
+      },
+      {
+        "id": "ft-08",
+        "order": 8,
+        "title": "コンサートの楽しみ方ガイド",
+        "type": "article",
+        "contentId": "article-concert-guide",
+        "estimatedMinutes": 10,
+        "required": true
+      },
+      {
+        "id": "ft-09",
+        "order": 9,
+        "title": "会食で使えるクラシック音楽の話題",
+        "type": "article",
+        "contentId": "article-dinner-topics",
+        "estimatedMinutes": 15,
+        "required": true
+      },
+      {
+        "id": "ft-10",
+        "order": 10,
+        "title": "総合クイズ：教養力チェック",
+        "type": "quiz",
+        "quizIds": ["q-baroque-001", "q-baroque-002", "q-classical-001", "q-classical-002", "q-romantic-001"],
+        "estimatedMinutes": 10,
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "path-deep-baroque",
+    "title": "バロック音楽マスター",
+    "subtitle": "対位法と通奏低音の黄金時代を深く学ぶ",
+    "level": "intermediate",
+    "estimatedHours": 8,
+    "icon": "♩",
+    "lessons": [
+      {
+        "id": "db-01",
+        "order": 1,
+        "title": "バロック時代の全体像",
+        "type": "era",
+        "eraId": "baroque",
+        "estimatedMinutes": 30,
+        "required": true
+      },
+      {
+        "id": "db-02",
+        "order": 2,
+        "title": "J.S.バッハ：対位法の頂点",
+        "type": "composer",
+        "composerId": "bach-js",
+        "estimatedMinutes": 45,
+        "required": true
+      },
+      {
+        "id": "db-03",
+        "order": 3,
+        "title": "ヘンデル：オペラとオラトリオの巨匠",
+        "type": "composer",
+        "composerId": "handel",
+        "estimatedMinutes": 30,
+        "required": true
+      },
+      {
+        "id": "db-04",
+        "order": 4,
+        "title": "ヴィヴァルディと協奏曲の確立",
+        "type": "composer",
+        "composerId": "vivaldi",
+        "estimatedMinutes": 25,
+        "required": true
+      },
+      {
+        "id": "db-05",
+        "order": 5,
+        "title": "バロック・クイズ",
+        "type": "quiz",
+        "quizIds": ["q-baroque-001", "q-baroque-002", "q-baroque-003"],
+        "estimatedMinutes": 10,
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "path-romantic-journey",
+    "title": "ロマン派への旅",
+    "subtitle": "感情表現の革命を体験する",
+    "level": "intermediate",
+    "estimatedHours": 10,
+    "icon": "◆",
+    "lessons": [
+      {
+        "id": "rj-01",
+        "order": 1,
+        "title": "ロマン派の全体像",
+        "type": "era",
+        "eraId": "romantic",
+        "estimatedMinutes": 30,
+        "required": true
+      },
+      {
+        "id": "rj-02",
+        "order": 2,
+        "title": "ショパン：ピアノの詩人",
+        "type": "composer",
+        "composerId": "chopin",
+        "estimatedMinutes": 40,
+        "required": true
+      },
+      {
+        "id": "rj-03",
+        "order": 3,
+        "title": "ブラームス：古典とロマンの融合",
+        "type": "composer",
+        "composerId": "brahms",
+        "estimatedMinutes": 35,
+        "required": true
+      },
+      {
+        "id": "rj-04",
+        "order": 4,
+        "title": "ワーグナー：総合芸術の夢",
+        "type": "composer",
+        "composerId": "wagner",
+        "estimatedMinutes": 40,
+        "required": true
+      },
+      {
+        "id": "rj-05",
+        "order": 5,
+        "title": "チャイコフスキーとロシア音楽",
+        "type": "composer",
+        "composerId": "tchaikovsky",
+        "estimatedMinutes": 30,
+        "required": true
+      },
+      {
+        "id": "rj-06",
+        "order": 6,
+        "title": "ロマン派クイズ",
+        "type": "quiz",
+        "quizIds": ["q-romantic-001", "q-romantic-002", "q-romantic-003"],
+        "estimatedMinutes": 10,
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "path-modern-adventure",
+    "title": "近代音楽の冒険",
+    "subtitle": "調性の崩壊から新しい音の世界へ",
+    "level": "advanced",
+    "estimatedHours": 8,
+    "icon": "◇",
+    "lessons": [
+      {
+        "id": "ma-01",
+        "order": 1,
+        "title": "近代音楽の全体像",
+        "type": "era",
+        "eraId": "modern",
+        "estimatedMinutes": 30,
+        "required": true
+      },
+      {
+        "id": "ma-02",
+        "order": 2,
+        "title": "ドビュッシー：印象主義の創始者",
+        "type": "composer",
+        "composerId": "debussy",
+        "estimatedMinutes": 35,
+        "required": true
+      },
+      {
+        "id": "ma-03",
+        "order": 3,
+        "title": "ストラヴィンスキー：リズムの革命",
+        "type": "composer",
+        "composerId": "stravinsky",
+        "estimatedMinutes": 35,
+        "required": true
+      },
+      {
+        "id": "ma-04",
+        "order": 4,
+        "title": "シェーンベルクと十二音技法",
+        "type": "composer",
+        "composerId": "schoenberg",
+        "estimatedMinutes": 30,
+        "required": true
+      },
+      {
+        "id": "ma-05",
+        "order": 5,
+        "title": "近代音楽クイズ",
+        "type": "quiz",
+        "quizIds": ["q-modern-001", "q-modern-002", "q-modern-003"],
+        "estimatedMinutes": 10,
+        "required": true
+      }
+    ]
+  }
+]

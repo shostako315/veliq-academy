@@ -1,0 +1,98 @@
+[
+  {
+    "id": "concept-sonata-form",
+    "title": "ソナタ形式",
+    "titleEn": "Sonata Form",
+    "category": "form",
+    "difficulty": 2,
+    "shortDescription": "提示部・展開部・再現部の三部構成。古典派以降の最も重要な楽曲形式。",
+    "body": "ソナタ形式は古典派音楽の中心的な形式原理です。提示部では2つの対照的な主題が提示され、展開部でそれらが変形・発展し、再現部で主題が再び現れて統合されます。この形式はハイドン、モーツァルト、ベートーヴェンによって確立され、交響曲・ソナタ・室内楽の第1楽章に広く用いられました。",
+    "relatedConcepts": ["concept-symphony", "concept-key-tonality"],
+    "relatedComposers": ["haydn", "mozart-wa", "beethoven"],
+    "tags": ["form", "classical", "structure"]
+  },
+  {
+    "id": "concept-symphony",
+    "title": "交響曲",
+    "titleEn": "Symphony",
+    "category": "genre",
+    "difficulty": 1,
+    "shortDescription": "オーケストラのための大規模な多楽章作品。クラシック音楽の「王道」。",
+    "body": "交響曲はオーケストラのための最も重要なジャンルです。通常4楽章で構成され、第1楽章はソナタ形式のアレグロ、第2楽章は緩徐楽章、第3楽章はメヌエットまたはスケルツォ、第4楽章はフィナーレです。ハイドンが形式を確立し、ベートーヴェンが拡大し、マーラーが極限まで巨大化させました。",
+    "relatedConcepts": ["concept-sonata-form", "concept-orchestra"],
+    "relatedComposers": ["haydn", "beethoven", "mahler"],
+    "tags": ["genre", "orchestral", "classical"]
+  },
+  {
+    "id": "concept-fugue",
+    "title": "フーガ",
+    "titleEn": "Fugue",
+    "category": "form",
+    "difficulty": 3,
+    "shortDescription": "一つの主題が複数の声部で順次模倣される対位法の最高形式。",
+    "body": "フーガは一つの主題（テーマ）が複数の声部で順番に現れ、互いに模倣し合いながら発展していく対位法の最高形式です。バッハの「フーガの技法」や「平均律クラヴィーア曲集」が最高傑作とされます。主題の提示（エクスポジション）、自由な展開、ストレッタ（主題の重なり）などの技法があります。",
+    "relatedConcepts": ["concept-counterpoint"],
+    "relatedComposers": ["bach-js"],
+    "tags": ["form", "baroque", "counterpoint"]
+  },
+  {
+    "id": "concept-counterpoint",
+    "title": "対位法",
+    "titleEn": "Counterpoint",
+    "category": "technique",
+    "difficulty": 3,
+    "shortDescription": "複数の独立した旋律を同時に組み合わせる作曲技法。",
+    "body": "対位法は複数の旋律線が独立して動きながらも調和する作曲技法です。ルネサンスのパレストリーナが確立し、バロックのバッハが極限まで発展させました。「対位法的思考」は、個々の声部の独立性と全体の調和を両立させる高度な知的作業です。",
+    "relatedConcepts": ["concept-fugue"],
+    "relatedComposers": ["bach-js", "handel"],
+    "tags": ["technique", "baroque", "composition"]
+  },
+  {
+    "id": "concept-key-tonality",
+    "title": "調性",
+    "titleEn": "Tonality",
+    "category": "theory",
+    "difficulty": 2,
+    "shortDescription": "長調・短調を中心とした音楽の組織原理。西洋音楽の基盤。",
+    "body": "調性とは、ある音（主音）を中心に音階と和声が組織される体系です。長調は明るく、短調は暗い印象を与えます。バロックから後期ロマン派まで西洋音楽の基盤でしたが、20世紀にシェーンベルクの無調音楽によって根本から問い直されました。",
+    "relatedConcepts": ["concept-sonata-form"],
+    "relatedComposers": ["schoenberg", "debussy"],
+    "tags": ["theory", "fundamental", "harmony"]
+  },
+  {
+    "id": "concept-orchestra",
+    "title": "オーケストラ",
+    "titleEn": "Orchestra",
+    "category": "ensemble",
+    "difficulty": 1,
+    "shortDescription": "弦楽器・管楽器・打楽器で構成される大編成のアンサンブル。",
+    "body": "現代のフルオーケストラは約60〜100名の奏者で構成されます。弦楽器群（ヴァイオリン、ヴィオラ、チェロ、コントラバス）を基盤に、木管楽器、金管楽器、打楽器が加わります。バロック時代の30人程度の編成から、ロマン派を経てマーラーやR.シュトラウスの時代には100人を超える巨大な編成に発展しました。",
+    "relatedConcepts": ["concept-symphony"],
+    "relatedComposers": ["haydn", "beethoven", "mahler", "strauss-r"],
+    "tags": ["ensemble", "orchestral", "fundamental"]
+  },
+  {
+    "id": "concept-opera",
+    "title": "オペラ",
+    "titleEn": "Opera",
+    "category": "genre",
+    "difficulty": 2,
+    "shortDescription": "音楽・歌唱・演劇・舞台美術を統合した総合芸術。",
+    "body": "オペラは歌手がオーケストラの伴奏で演技しながら歌う舞台芸術です。1600年頃のフィレンツェで誕生し、モーツァルト、ヴェルディ、ワーグナー、プッチーニらが発展させました。アリア（独唱）、レチタティーヴォ（語り歌い）、アンサンブル、合唱で構成されます。",
+    "relatedConcepts": [],
+    "relatedComposers": ["verdi", "wagner", "puccini", "mozart-wa"],
+    "tags": ["genre", "vocal", "theater"]
+  },
+  {
+    "id": "concept-concerto",
+    "title": "協奏曲",
+    "titleEn": "Concerto",
+    "category": "genre",
+    "difficulty": 2,
+    "shortDescription": "独奏楽器とオーケストラの「対話」による管弦楽作品。",
+    "body": "協奏曲は独奏楽器（ピアノ、ヴァイオリンなど）とオーケストラが対話・競演する形式です。通常3楽章（急-緩-急）で構成されます。ヴィヴァルディがバロック期に確立し、モーツァルト、ベートーヴェンが古典派で発展させ、チャイコフスキー、ラフマニノフらがロマン派で華麗に展開しました。",
+    "relatedConcepts": ["concept-orchestra"],
+    "relatedComposers": ["vivaldi", "mozart-wa", "beethoven", "tchaikovsky"],
+    "tags": ["genre", "orchestral", "solo"]
+  }
+]

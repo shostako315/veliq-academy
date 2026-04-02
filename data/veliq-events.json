@@ -1,0 +1,45 @@
+[
+  {
+    "id": "event-2026-05",
+    "title": "VariOrchestra Spring Concert 2026",
+    "subtitle": "ブラームス交響曲全曲演奏 Vol.1",
+    "date": "2026-05-10",
+    "venue": "すみだトリフォニーホール",
+    "program": [
+      { "composerId": "brahms", "workId": "brahms-symphony-1", "title": "交響曲第1番ハ短調 Op.68" },
+      { "composerId": "brahms", "workId": "brahms-symphony-2", "title": "交響曲第2番ニ長調 Op.73" }
+    ],
+    "ticketUrl": "https://shostako315.github.io/veliq-club/#contact",
+    "bannerColor": "#4A3C20",
+    "conductor": "佐藤 瑛吾",
+    "studyPathId": "path-brahms-special"
+  },
+  {
+    "id": "event-2026-09",
+    "title": "VariOrchestra Autumn Concert 2026",
+    "subtitle": "ベートーヴェン交響曲第9番「合唱」",
+    "date": "2026-09-20",
+    "venue": "東京芸術劇場 コンサートホール",
+    "program": [
+      { "composerId": "beethoven", "workId": "beethoven-symphony-9", "title": "交響曲第9番ニ短調 Op.125「合唱」" }
+    ],
+    "ticketUrl": "https://shostako315.github.io/veliq-club/#contact",
+    "bannerColor": "#4A3C20",
+    "conductor": "佐藤 瑛吾",
+    "studyPathId": null
+  },
+  {
+    "id": "event-2026-12",
+    "title": "VariOrchestra 年末特別公演",
+    "subtitle": "チャイコフスキー「くるみ割り人形」全曲",
+    "date": "2026-12-15",
+    "venue": "サントリーホール",
+    "program": [
+      { "composerId": "tchaikovsky", "workId": "tchaikovsky-nutcracker", "title": "バレエ「くるみ割り人形」Op.71 全曲" }
+    ],
+    "ticketUrl": "https://shostako315.github.io/veliq-club/#contact",
+    "bannerColor": "#4A3C20",
+    "conductor": "佐藤 瑛吾",
+    "studyPathId": null
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "id": "q-ancient-001",
+    "era": "ancient",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "グレゴリオ聖歌の特徴として正しいものはどれですか？",
+    "options": [
+      { "id": "a", "text": "単旋律（モノフォニー）である", "correct": true },
+      { "id": "b", "text": "4声部のポリフォニーである", "correct": false },
+      { "id": "c", "text": "オーケストラ伴奏がある", "correct": false },
+      { "id": "d", "text": "日本語の歌詞で歌われる", "correct": false }
+    ],
+    "explanation": "グレゴリオ聖歌は単旋律（モノフォニー）のラテン語聖歌で、カトリック教会の典礼で歌われました。楽器伴奏なしの「ア・カペラ」が基本です。",
+    "relatedId": null
+  },
+  {
+    "id": "q-ancient-002",
+    "era": "ancient",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "「ドレミファソラシド」の原型を考案したとされる中世の音楽理論家は誰ですか？",
+    "options": [
+      { "id": "a", "text": "グイード・ダレッツォ", "correct": true },
+      { "id": "b", "text": "ピタゴラス", "correct": false },
+      { "id": "c", "text": "ボエティウス", "correct": false },
+      { "id": "d", "text": "教皇グレゴリウス1世", "correct": false }
+    ],
+    "explanation": "11世紀のイタリアの修道士グイード・ダレッツォが、ラテン語の讃歌「聖ヨハネ賛歌」の各行の最初の音節（Ut, Re, Mi, Fa, Sol, La）を音名として使用することを提案しました。",
+    "relatedId": null
+  },
+  {
+    "id": "q-ancient-003",
+    "era": "ancient",
+    "difficulty": 2,
+    "type": "true-false",
+    "question": "ピタゴラスは弦の長さと音程の関係を数学的に発見した。",
+    "options": [
+      { "id": "a", "text": "○（正しい）", "correct": true },
+      { "id": "b", "text": "×（誤り）", "correct": false }
+    ],
+    "explanation": "ピタゴラスは弦の長さの比率と音程の関係を発見しました。例えば、弦の長さを2:1にするとオクターヴ、3:2にすると完全5度になります。",
+    "relatedId": null
+  },
+  {
+    "id": "q-renaissance-001",
+    "era": "renaissance",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "ルネサンス音楽の最大の特徴は何ですか？",
+    "options": [
+      { "id": "a", "text": "ポリフォニー（多声音楽）の完成", "correct": true },
+      { "id": "b", "text": "電子楽器の使用", "correct": false },
+      { "id": "c", "text": "ジャズの影響", "correct": false },
+      { "id": "d", "text": "ソナタ形式の確立", "correct": false }
+    ],
+    "explanation": "ルネサンス期は4声から6声以上のポリフォニーが極限の美に達した時代です。パレストリーナやジョスカン・デ・プレの作品が代表的です。",
+    "relatedId": null
+  },
+  {
+    "id": "q-renaissance-002",
+    "era": "renaissance",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "「マドリガル」とはどのような音楽形式ですか？",
+    "options": [
+      { "id": "a", "text": "イタリア生まれの世俗的な多声歌曲", "correct": true },
+      { "id": "b", "text": "教会で歌われるミサ曲", "correct": false },
+      { "id": "c", "text": "器楽のみの室内楽", "correct": false },
+      { "id": "d", "text": "一人で歌うアリア", "correct": false }
+    ],
+    "explanation": "マドリガルはイタリアで生まれた世俗的（非宗教的）な多声歌曲で、歌詞の内容を音楽で描写する「語絵（ワード・ペインティング）」の技法が発達しました。",
+    "relatedId": null
+  },
+  {
+    "id": "q-renaissance-003",
+    "era": "renaissance",
+    "difficulty": 3,
+    "type": "multiple-choice",
+    "question": "対抗宗教改革の中で、明澄なポリフォニーを追求したイタリアの作曲家は？",
+    "options": [
+      { "id": "a", "text": "パレストリーナ", "correct": true },
+      { "id": "b", "text": "ジョスカン・デ・プレ", "correct": false },
+      { "id": "c", "text": "ギヨーム・デュファイ", "correct": false },
+      { "id": "d", "text": "オルランド・ディ・ラッソ", "correct": false }
+    ],
+    "explanation": "パレストリーナはカトリック教会の対抗宗教改革の時代に、歌詞が明瞭に聞き取れる透明なポリフォニーを書き、教会音楽の模範とされました。",
+    "relatedId": null
+  },
+  {
+    "id": "q-baroque-001",
+    "era": "baroque",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "バッハが生涯の大半を過ごし、カントル（教会音楽長）として仕えた都市はどこですか？",
+    "options": [
+      { "id": "a", "text": "ライプツィヒ", "correct": true },
+      { "id": "b", "text": "ハンブルク", "correct": false },
+      { "id": "c", "text": "ウィーン", "correct": false },
+      { "id": "d", "text": "ドレスデン", "correct": false }
+    ],
+    "explanation": "バッハは1723年から死ぬまでの27年間、ライプツィヒの聖トーマス教会のカントルとして仕えました。この時期に多くの教会カンタータが作曲されました。",
+    "relatedId": { "type": "composer", "id": "bach-js" }
+  },
+  {
+    "id": "q-baroque-002",
+    "era": "baroque",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "「四季」で有名なバロックの作曲家は誰ですか？",
+    "options": [
+      { "id": "a", "text": "ヴィヴァルディ", "correct": true },
+      { "id": "b", "text": "バッハ", "correct": false },
+      { "id": "c", "text": "ヘンデル", "correct": false },
+      { "id": "d", "text": "テレマン", "correct": false }
+    ],
+    "explanation": "アントニオ・ヴィヴァルディの「四季」は、4つの協奏曲からなる作品で、各季節の情景を音楽で描写したプログラム音楽の先駆的作品です。",
+    "relatedId": { "type": "composer", "id": "vivaldi" }
+  },
+  {
+    "id": "q-baroque-003",
+    "era": "baroque",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "バロック音楽の基本的な伴奏方法「通奏低音」で主に使われた楽器は？",
+    "options": [
+      { "id": "a", "text": "チェンバロとチェロ", "correct": true },
+      { "id": "b", "text": "ピアノとコントラバス", "correct": false },
+      { "id": "c", "text": "ギターとドラム", "correct": false },
+      { "id": "d", "text": "トランペットとティンパニ", "correct": false }
+    ],
+    "explanation": "通奏低音（バッソ・コンティヌオ）ではチェンバロやオルガンが和声を填め、チェロやファゴットがベースラインを担当しました。バロック音楽の根幹をなす演奏慣習です。",
+    "relatedId": null
+  },
+  {
+    "id": "q-classical-001",
+    "era": "classical",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "「交響曲の父」と呼ばれる作曲家は誰ですか？",
+    "options": [
+      { "id": "a", "text": "ハイドン", "correct": true },
+      { "id": "b", "text": "モーツァルト", "correct": false },
+      { "id": "c", "text": "ベートーヴェン", "correct": false },
+      { "id": "d", "text": "バッハ", "correct": false }
+    ],
+    "explanation": "フランツ・ヨーゼフ・ハイドンは100曲以上の交響曲と68曲の弦楽四重奏曲を作曲し、これらの形式を確立したことから「交響曲の父」「弦楽四重奏曲の父」と呼ばれます。",
+    "relatedId": { "type": "composer", "id": "haydn" }
+  },
+  {
+    "id": "q-classical-002",
+    "era": "classical",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "ベートーヴェンの交響曲第5番の通称は？",
+    "options": [
+      { "id": "a", "text": "「運命」", "correct": true },
+      { "id": "b", "text": "「英雄」", "correct": false },
+      { "id": "c", "text": "「田園」", "correct": false },
+      { "id": "d", "text": "「合唱」", "correct": false }
+    ],
+    "explanation": "交響曲第5番ハ短調Op.67は「運命」という通称で知られます。冒頭の「ダダダダーン」というモチーフは世界で最も有名な音楽フレーズの一つです。「英雄」は第3番、「田園」は第6番、「合唱」は第9番です。",
+    "relatedId": { "type": "work", "id": "beethoven-symphony-5" }
+  },
+  {
+    "id": "q-classical-003",
+    "era": "classical",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "古典派音楽の中心的な形式「ソナタ形式」の3つの部分は？",
+    "options": [
+      { "id": "a", "text": "提示部・展開部・再現部", "correct": true },
+      { "id": "b", "text": "序曲・間奏・終曲", "correct": false },
+      { "id": "c", "text": "第1楽章・第2楽章・第3楽章", "correct": false },
+      { "id": "d", "text": "前奏・本編・コーダ", "correct": false }
+    ],
+    "explanation": "ソナタ形式は提示部（2つの主題を提示）、展開部（主題を変形・発展）、再現部（主題を再び提示）の三部から成ります。古典派音楽の最も重要な構造原理です。",
+    "relatedId": null
+  },
+  {
+    "id": "q-romantic-001",
+    "era": "romantic",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "「ピアノの詩人」と呼ばれるロマン派の作曲家は？",
+    "options": [
+      { "id": "a", "text": "ショパン", "correct": true },
+      { "id": "b", "text": "リスト", "correct": false },
+      { "id": "c", "text": "シューマン", "correct": false },
+      { "id": "d", "text": "ブラームス", "correct": false }
+    ],
+    "explanation": "フレデリック・ショパンは生涯のほぼ全ての作品をピアノのために書き、ノクターン、バラード、エチュードなど、ピアノ音楽の可能性を極限まで追求したことから「ピアノの詩人」と呼ばれます。",
+    "relatedId": { "type": "composer", "id": "chopin" }
+  },
+  {
+    "id": "q-romantic-002",
+    "era": "romantic",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "ワーグナーが提唱した、音楽・演劇・美術を統合した芸術概念は？",
+    "options": [
+      { "id": "a", "text": "総合芸術作品（Gesamtkunstwerk）", "correct": true },
+      { "id": "b", "text": "絶対音楽（Absolute Musik）", "correct": false },
+      { "id": "c", "text": "標題音楽（Programmusik）", "correct": false },
+      { "id": "d", "text": "印象主義（Impressionism）", "correct": false }
+    ],
+    "explanation": "ワーグナーは楽劇（Musikdrama）において、音楽・詩・演劇・美術が一体となった「総合芸術作品」（Gesamtkunstwerk）を追求しました。バイロイト祝祭劇場はこの理想を実現するために建設されました。",
+    "relatedId": { "type": "composer", "id": "wagner" }
+  },
+  {
+    "id": "q-romantic-003",
+    "era": "romantic",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "チャイコフスキーのバレエ音楽として正しくないものは？",
+    "options": [
+      { "id": "a", "text": "「春の祭典」", "correct": true },
+      { "id": "b", "text": "「白鳥の湖」", "correct": false },
+      { "id": "c", "text": "「くるみ割り人形」", "correct": false },
+      { "id": "d", "text": "「眠れる森の美女」", "correct": false }
+    ],
+    "explanation": "「春の祭典」はストラヴィンスキーの作品です。チャイコフスキーの三大バレエは「白鳥の湖」「眠れる森の美女」「くるみ割り人形」です。",
+    "relatedId": { "type": "composer", "id": "tchaikovsky" }
+  },
+  {
+    "id": "q-modern-001",
+    "era": "modern",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "印象主義音楽の代表的作曲家は誰ですか？",
+    "options": [
+      { "id": "a", "text": "ドビュッシー", "correct": true },
+      { "id": "b", "text": "ベートーヴェン", "correct": false },
+      { "id": "c", "text": "バッハ", "correct": false },
+      { "id": "d", "text": "ブラームス", "correct": false }
+    ],
+    "explanation": "クロード・ドビュッシーは印象主義音楽の創始者とされます。「牧神の午後への前奏曲」「月の光」などで、従来の調性にとらわれない色彩的な和声を追求しました。",
+    "relatedId": { "type": "composer", "id": "debussy" }
+  },
+  {
+    "id": "q-modern-002",
+    "era": "modern",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "初演時に聴衆が暴動を起こしたと言われるストラヴィンスキーの作品は？",
+    "options": [
+      { "id": "a", "text": "「春の祭典」", "correct": true },
+      { "id": "b", "text": "「火の鳥」", "correct": false },
+      { "id": "c", "text": "「ペトルーシュカ」", "correct": false },
+      { "id": "d", "text": "「プルチネッラ」", "correct": false }
+    ],
+    "explanation": "1913年5月29日、パリのシャンゼリゼ劇場での「春の祭典」初演は、その原始的なリズムと不協和音に聴衆が激しく反応し、賛否両論の「暴動」となった伝説的な事件です。",
+    "relatedId": { "type": "composer", "id": "stravinsky" }
+  },
+  {
+    "id": "q-modern-003",
+    "era": "modern",
+    "difficulty": 3,
+    "type": "multiple-choice",
+    "question": "シェーンベルクが開発した、12の半音を平等に扱う作曲技法は？",
+    "options": [
+      { "id": "a", "text": "十二音技法", "correct": true },
+      { "id": "b", "text": "印象主義", "correct": false },
+      { "id": "c", "text": "ミニマリズム", "correct": false },
+      { "id": "d", "text": "新古典主義", "correct": false }
+    ],
+    "explanation": "アルノルト・シェーンベルクは1920年代に十二音技法（ドデカフォニー）を開発しました。12の半音を全て一度ずつ使う「音列」を基に作曲する技法で、調性音楽の根本原理を覆す革命でした。",
+    "relatedId": { "type": "composer", "id": "schoenberg" }
+  },
+  {
+    "id": "q-contemporary-001",
+    "era": "contemporary",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "ジョン・ケージの「4分33秒」はどのような作品ですか？",
+    "options": [
+      { "id": "a", "text": "演奏者が一音も演奏しない「沈黙」の作品", "correct": true },
+      { "id": "b", "text": "4分33秒の激しいピアノ独奏曲", "correct": false },
+      { "id": "c", "text": "電子音楽の先駆的作品", "correct": false },
+      { "id": "d", "text": "オーケストラのための協奏曲", "correct": false }
+    ],
+    "explanation": "1952年初演の「4分33秒」は、3楽章構成ながら演奏者が一音も出さない作品です。ケージは会場の環境音こそが「音楽」であると主張し、音楽の定義そのものに挑戦しました。",
+    "relatedId": null
+  },
+  {
+    "id": "q-contemporary-002",
+    "era": "contemporary",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "尺八と琵琶をオーケストラと共演させた「ノヴェンバー・ステップス」の作曲家は？",
+    "options": [
+      { "id": "a", "text": "武満徹", "correct": true },
+      { "id": "b", "text": "細川俊夫", "correct": false },
+      { "id": "c", "text": "山田耕筰", "correct": false },
+      { "id": "d", "text": "團伊玖磨", "correct": false }
+    ],
+    "explanation": "武満徹の「ノヴェンバー・ステップス」（1967年）は、ニューヨーク・フィルハーモニックの委嘱により作曲され、日本の伝統楽器と西洋オーケストラの対話を実現した画期的な作品です。",
+    "relatedId": { "type": "composer", "id": "takemitsu" }
+  },
+  {
+    "id": "q-contemporary-003",
+    "era": "contemporary",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "反復と漸次的変化を特徴とする現代音楽の潮流は？",
+    "options": [
+      { "id": "a", "text": "ミニマリズム", "correct": true },
+      { "id": "b", "text": "セリアリスム", "correct": false },
+      { "id": "c", "text": "新ロマン主義", "correct": false },
+      { "id": "d", "text": "表現主義", "correct": false }
+    ],
+    "explanation": "ミニマル・ミュージックはスティーヴ・ライヒ、フィリップ・グラス、テリー・ライリーらが推進した潮流で、短い音型の反復と緩やかな変化を特徴とします。テクノやアンビエント音楽にも大きな影響を与えました。",
+    "relatedId": null
+  }
+]
