@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Veliq Academy — クラシック音楽史の教養を深める、ビジネスエグゼクティブのための学習プラットフォーム">
+  <title>Veliq Academy — The Art of Listening</title>
+
+  <!-- Webフォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;700&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/design-tokens.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-veliq-academy.svg">
+</head>
+<body>
+
+  <!-- ローディング画面 -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loading-logo">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48">
+        <defs>
+          <linearGradient id="gold-grad-load" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#E2C675"/>
+            <stop offset="50%" style="stop-color:#C9A84C"/>
+            <stop offset="100%" style="stop-color:#8B6F2E"/>
+          </linearGradient>
+        </defs>
+        <g fill="url(#gold-grad-load)">
+          <path d="M8 8 L18 38 L28 8 L24 8 L18 28 L12 8 Z"/>
+          <text x="34" y="30" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#C9A84C" letter-spacing="1">eliq</text>
+          <text x="34" y="44" font-family="Georgia, serif" font-size="10" font-weight="400" fill="#8B6F2E" letter-spacing="3">ACADEMY</text>
+        </g>
+      </svg>
+      <p class="loading-text">Veliq Academy</p>
+      <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- アプリシェル -->
+  <div id="app" class="app-shell" style="display:none;">
+
+    <!-- サイドバー -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-logo">
+        <a href="#/dashboard">
+          <img src="assets/img/logo-veliq-academy.svg" alt="Veliq Academy" class="logo-img">
+        </a>
+      </div>
+
+      <nav class="sidebar-nav">
+        <ul class="nav-list">
+          <li class="nav-item" data-route="dashboard">
+            <a href="#/dashboard" class="nav-link">
+              <span class="nav-icon">◈</span>
+              <span class="nav-label">ダッシュボード</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="timeline">
+            <a href="#/timeline" class="nav-link">
+              <span class="nav-icon">◉</span>
+              <span class="nav-label">時代年表</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="composers">
+            <a href="#/composers" class="nav-link">
+              <span class="nav-icon">♪</span>
+              <span class="nav-label">作曲家図鑑</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="works">
+            <a href="#/works" class="nav-link">
+              <span class="nav-icon">♩</span>
+              <span class="nav-label">作品カタログ</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="eras">
+            <a href="#/eras" class="nav-link">
+              <span class="nav-icon">◆</span>
+              <span class="nav-label">時代を学ぶ</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="concepts">
+            <a href="#/concepts" class="nav-link">
+              <span class="nav-icon">◇</span>
+              <span class="nav-label">概念アカデミー</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="listening">
+            <a href="#/listening" class="nav-link">
+              <span class="nav-icon">◎</span>
+              <span class="nav-label">鑑賞ラボ</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="paths">
+            <a href="#/paths" class="nav-link">
+              <span class="nav-icon">→</span>
+              <span class="nav-label">学習パス</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="quiz">
+            <a href="#/quiz" class="nav-link">
+              <span class="nav-icon">？</span>
+              <span class="nav-label">クイズ</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="concert">
+            <a href="#/concert" class="nav-link">
+              <span class="nav-icon">♦</span>
+              <span class="nav-label">コンサート準備</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="score">
+            <a href="#/score" class="nav-link">
+              <span class="nav-icon">♫</span>
+              <span class="nav-label">楽譜入門</span>
+            </a>
+          </li>
+          <li class="nav-item" data-route="progress">
+            <a href="#/progress" class="nav-link">
+              <span class="nav-icon">⊛</span>
+              <span class="nav-label">学習進捗</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- AI Maestroボタン -->
+      <div class="sidebar-ai-btn">
+        <button id="open-ai-maestro" class="btn-ai-maestro">
+          <span class="ai-icon">✦</span>
+          <span>AI Maestroに聞く</span>
+        </button>
+      </div>
+
+      <!-- Veliq Eventsバナー -->
+      <div class="sidebar-events-banner" id="events-banner"></div>
+
+      <!-- ユーザー進捗サマリー -->
+      <div class="sidebar-progress">
+        <div class="progress-user" id="progress-user-summary"></div>
+      </div>
+    </aside>
+
+    <!-- メインエリア -->
+    <main id="main-content" class="main-content">
+
+      <!-- グローバルヘッダー（モバイル用） -->
+      <header id="global-header" class="global-header">
+        <button id="sidebar-toggle" class="sidebar-toggle" aria-label="メニュー">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="header-title" id="header-title"></div>
+        <div class="header-search">
+          <input type="search" id="global-search" placeholder="作曲家・作品を検索..." autocomplete="off">
+          <div id="search-results" class="search-dropdown" hidden></div>
+        </div>
+      </header>
+
+      <!-- ページコンテンツ -->
+      <div id="page-content" class="page-content"></div>
+    </main>
+
+    <!-- AI Maestroパネル -->
+    <div id="ai-maestro-panel" class="ai-panel" hidden>
+      <div class="ai-panel-header">
+        <h2 class="ai-panel-title">✦ AI Maestro</h2>
+        <button id="close-ai-maestro" class="btn-icon" aria-label="閉じる">×</button>
+      </div>
+      <div class="ai-panel-context" id="ai-context-info"></div>
+      <div class="ai-chat-messages" id="ai-messages"></div>
+      <div class="ai-panel-footer">
+        <div class="ai-quick-actions" id="ai-quick-actions"></div>
+        <div class="ai-input-area">
+          <textarea id="ai-input" rows="2" placeholder="音楽史について何でも聞いてください..."></textarea>
+          <button id="ai-send" class="btn-send">送信</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 検索オーバーレイ -->
+    <div id="search-overlay" class="search-overlay" hidden></div>
+
+    <!-- トースト通知 -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+  </div>
+
+  <!-- ライブラリ -->
+  <script src="js/lib/d3.min.js"></script>
+  <script src="js/lib/marked.min.js"></script>
+
+  <!-- コアJS（順序重要） -->
+  <script src="js/state.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/router.js"></script>
+
+  <!-- モジュール -->
+  <script src="js/modules/dashboard.js"></script>
+  <script src="js/modules/timeline.js"></script>
+  <script src="js/modules/composer-library.js"></script>
+  <script src="js/modules/composer-graph.js"></script>
+  <script src="js/modules/works-catalog.js"></script>
+  <script src="js/modules/era-deep-dive.js"></script>
+  <script src="js/modules/concept-academy.js"></script>
+  <script src="js/modules/context-engine.js"></script>
+  <script src="js/modules/listening-lab.js"></script>
+  <script src="js/modules/learning-paths.js"></script>
+  <script src="js/modules/quiz.js"></script>
+  <script src="js/modules/concert-companion.js"></script>
+  <script src="js/modules/score-literacy.js"></script>
+  <script src="js/modules/ai-maestro.js"></script>
+  <script src="js/modules/veliq-events.js"></script>
+  <script src="js/modules/progress.js"></script>
+
+  <!-- アプリ起動 -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>
