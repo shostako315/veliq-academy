@@ -14,19 +14,72 @@
     "difficulty": 2,
     "shortDescription": "弦楽器のみで構成される華やかなバロック合奏協奏曲。バッハの器楽作品の中でも最も生気に満ちた名作。",
     "movements": [
-      { "number": 1, "title": "Allegro", "tempo": "Allegro", "key": "G-major", "duration": 5, "description": "3群の弦楽器が対話する活力あふれる楽章。", "highlights": ["3群の弦の掛け合い", "リトルネッロ形式"], "youtubeId": null },
-      { "number": 2, "title": "Adagio", "tempo": "Adagio", "key": "e-minor", "duration": 1, "description": "わずか2つの和音からなる極めて短い楽章。", "highlights": ["即興的カデンツァ"], "youtubeId": null },
-      { "number": 3, "title": "Allegro", "tempo": "Allegro", "key": "G-major", "duration": 5, "description": "ジーグ風の快活なフィナーレ。", "highlights": ["舞曲風リズム"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "G-major",
+        "duration": 5,
+        "description": "3群の弦楽器が対話する活力あふれる楽章。",
+        "highlights": [
+          "3群の弦の掛け合い",
+          "リトルネッロ形式"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio",
+        "tempo": "Adagio",
+        "key": "e-minor",
+        "duration": 1,
+        "description": "わずか2つの和音からなる極めて短い楽章。",
+        "highlights": [
+          "即興的カデンツァ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "G-major",
+        "duration": 5,
+        "description": "ジーグ風の快活なフィナーレ。",
+        "highlights": [
+          "舞曲風リズム"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "1721年にブランデンブルク辺境伯クリスティアン・ルートヴィヒに献呈された6曲の協奏曲集の第3番。バッハのケーテン時代の傑作。",
     "musicalAnalysis": "3群の弦楽器（各ヴァイオリン、ヴィオラ、チェロ）が対等に活躍する合奏協奏曲。バロックの協奏様式の粋を集めた作品。",
     "emotionalJourney": "明朗→瞑想→歓喜",
     "businessInsight": "3つの独立したチームが対等に対話しながら一つの目標に向かう——理想的なプロジェクトチームのモデル。",
-    "listeningGuide": { "totalTime": "11分", "recommendedVersion": "トレヴァー・ピノック指揮 イングリッシュ・コンサート", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "3群の弦楽器が一斉に主題を開始" }] },
-    "relatedWorks": ["bach-goldberg"],
-    "relatedComposers": ["vivaldi", "handel"],
-    "tags": ["concerto", "baroque", "orchestral", "famous"],
-    "difficulty": 2
+    "listeningGuide": {
+      "totalTime": "11分",
+      "recommendedVersion": "トレヴァー・ピノック指揮 イングリッシュ・コンサート",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "3群の弦楽器が一斉に主題を開始"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "bach-goldberg"
+    ],
+    "relatedComposers": [
+      "vivaldi",
+      "handel"
+    ],
+    "tags": [
+      "concerto",
+      "baroque",
+      "orchestral",
+      "famous"
+    ]
   },
   {
     "id": "bach-goldberg",
@@ -43,17 +96,44 @@
     "difficulty": 4,
     "shortDescription": "アリアと30の変奏曲からなるバッハのクラヴィーア音楽の最高傑作。知的構築美と深い精神性を兼ね備える。",
     "movements": [
-      { "number": 1, "title": "Aria", "tempo": "Andante", "key": "G-major", "duration": 4, "description": "全体の基礎となる優美なアリア。", "highlights": ["サラバンドのリズム", "32小節の主題"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Aria",
+        "tempo": "Andante",
+        "key": "G-major",
+        "duration": 4,
+        "description": "全体の基礎となる優美なアリア。",
+        "highlights": [
+          "サラバンドのリズム",
+          "32小節の主題"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "不眠に悩むカイザーリンク伯爵のために書かれたという伝説がある。バッハ晩年の鍵盤作品。",
     "musicalAnalysis": "32小節の低音主題に基づく30の変奏。3の倍数ごとにカノン（1度〜10度）が配置される壮大な知的建築。",
     "emotionalJourney": "静寂→多彩な展開→原点回帰",
     "businessInsight": "一つのテーマから30の全く異なるバリエーションを生み出す——「一つの核心アイデアの無限の展開力」を体現。",
-    "listeningGuide": { "totalTime": "75分", "recommendedVersion": "グレン・グールド（1981年録音）", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "アリア：全体の基礎となる主題" }] },
-    "relatedWorks": ["bach-brandenberg"],
+    "listeningGuide": {
+      "totalTime": "75分",
+      "recommendedVersion": "グレン・グールド（1981年録音）",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "アリア：全体の基礎となる主題"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "bach-brandenberg"
+    ],
     "relatedComposers": [],
-    "tags": ["keyboard", "baroque", "masterpiece"],
-    "difficulty": 4
+    "tags": [
+      "keyboard",
+      "baroque",
+      "masterpiece"
+    ]
   },
   {
     "id": "vivaldi-four-seasons",
@@ -70,17 +150,47 @@
     "difficulty": 1,
     "shortDescription": "春夏秋冬の四季を描いた、クラシック音楽史上最も有名な協奏曲。描写音楽の先駆的傑作。",
     "movements": [
-      { "number": 1, "title": "春 - Allegro", "tempo": "Allegro", "key": "E-major", "duration": 3, "description": "鳥のさえずり、小川のせせらぎ、春の嵐を描写。", "highlights": ["鳥のトリル", "嵐の描写"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "春 - Allegro",
+        "tempo": "Allegro",
+        "key": "E-major",
+        "duration": 3,
+        "description": "鳥のさえずり、小川のせせらぎ、春の嵐を描写。",
+        "highlights": [
+          "鳥のトリル",
+          "嵐の描写"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "1725年出版の「和声と創意の試み」Op.8の最初の4曲。各曲にソネット（詩）が付けられた初期のプログラム音楽。",
     "musicalAnalysis": "各季節に3楽章の協奏曲を配し、ソネットの内容を音楽で忠実に描写する革新的な試み。",
     "emotionalJourney": "自然の喜び→夏の激しさ→秋の実り→冬の厳しさ",
     "businessInsight": "音楽に「物語」を付けることで聴衆の理解を飛躍的に深めた——プレゼンにストーリーを添える技法の原点。",
-    "listeningGuide": { "totalTime": "42分", "recommendedVersion": "イル・ジャルディーノ・アルモニコ", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "春の到来を告げる明るい主題" }] },
-    "relatedWorks": ["bach-brandenberg"],
-    "relatedComposers": ["bach-js"],
-    "tags": ["concerto", "baroque", "famous", "descriptive"],
-    "difficulty": 1
+    "listeningGuide": {
+      "totalTime": "42分",
+      "recommendedVersion": "イル・ジャルディーノ・アルモニコ",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "春の到来を告げる明るい主題"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "bach-brandenberg"
+    ],
+    "relatedComposers": [
+      "bach-js"
+    ],
+    "tags": [
+      "concerto",
+      "baroque",
+      "famous",
+      "descriptive"
+    ]
   },
   {
     "id": "handel-messiah",
@@ -97,17 +207,44 @@
     "difficulty": 2,
     "shortDescription": "「ハレルヤ」コーラスで知られる、西洋音楽史上最も有名なオラトリオ。キリストの生涯を壮大に描く。",
     "movements": [
-      { "number": 1, "title": "Overture", "tempo": "Grave - Allegro moderato", "key": "e-minor", "duration": 4, "description": "荘厳な序曲。フランス風序曲形式。", "highlights": ["フランス風序曲"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Overture",
+        "tempo": "Grave - Allegro moderato",
+        "key": "e-minor",
+        "duration": 4,
+        "description": "荘厳な序曲。フランス風序曲形式。",
+        "highlights": [
+          "フランス風序曲"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "1741年にわずか24日間で作曲されたと伝えられる。1742年ダブリンで初演。",
     "musicalAnalysis": "3部構成でキリストの預言・受難・復活を描く。合唱・独唱・管弦楽が織りなす壮大なドラマ。",
     "emotionalJourney": "期待→苦悩→栄光の勝利",
     "businessInsight": "24日間で傑作を完成させたヘンデルの集中力——「デッドラインが創造性を加速する」の好例。",
-    "listeningGuide": { "totalTime": "150分", "recommendedVersion": "ジョン・エリオット・ガーディナー指揮 イングリッシュ・バロック・ソロイスツ", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "荘厳な序曲の開始" }] },
+    "listeningGuide": {
+      "totalTime": "150分",
+      "recommendedVersion": "ジョン・エリオット・ガーディナー指揮 イングリッシュ・バロック・ソロイスツ",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "荘厳な序曲の開始"
+        }
+      ]
+    },
     "relatedWorks": [],
-    "relatedComposers": ["bach-js"],
-    "tags": ["choral", "baroque", "famous", "religious"],
-    "difficulty": 2
+    "relatedComposers": [
+      "bach-js"
+    ],
+    "tags": [
+      "choral",
+      "baroque",
+      "famous",
+      "religious"
+    ]
   },
   {
     "id": "mozart-requiem",
@@ -124,17 +261,47 @@
     "difficulty": 2,
     "shortDescription": "モーツァルト最後の未完の傑作。死の影に包まれた神秘的で崇高な音楽。弟子ジュースマイヤーが補筆完成。",
     "movements": [
-      { "number": 1, "title": "Introitus: Requiem aeternam", "tempo": "Adagio", "key": "d-minor", "duration": 5, "description": "永遠の安息を求める厳粛な冒頭。", "highlights": ["バセットホルンの暗い響き", "合唱の荘厳な入り"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Introitus: Requiem aeternam",
+        "tempo": "Adagio",
+        "key": "d-minor",
+        "duration": 5,
+        "description": "永遠の安息を求める厳粛な冒頭。",
+        "highlights": [
+          "バセットホルンの暗い響き",
+          "合唱の荘厳な入り"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "匿名の依頼主（後にヴァルゼッグ伯爵と判明）からの委嘱。モーツァルトは完成を見ずに1791年12月5日に死去。",
     "musicalAnalysis": "ニ短調の暗い色調と対位法的書法が融合。「ラクリモサ」の8小節目でモーツァルトの筆は途絶えた。",
     "emotionalJourney": "畏敬→恐怖→嘆き→希望",
     "businessInsight": "未完の遺作でありながら最高傑作——「完璧」よりも「本質」が人の心を動かすことの証明。",
-    "listeningGuide": { "totalTime": "55分", "recommendedVersion": "カール・ベーム指揮 ウィーン・フィルハーモニー管弦楽団", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "暗いニ短調の冒頭" }] },
-    "relatedWorks": ["mozart-symphony-41"],
-    "relatedComposers": ["beethoven"],
-    "tags": ["choral", "classical", "famous", "religious"],
-    "difficulty": 2
+    "listeningGuide": {
+      "totalTime": "55分",
+      "recommendedVersion": "カール・ベーム指揮 ウィーン・フィルハーモニー管弦楽団",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "暗いニ短調の冒頭"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "mozart-symphony-41"
+    ],
+    "relatedComposers": [
+      "beethoven"
+    ],
+    "tags": [
+      "choral",
+      "classical",
+      "famous",
+      "religious"
+    ]
   },
   {
     "id": "mozart-symphony-40",
@@ -151,17 +318,49 @@
     "difficulty": 1,
     "shortDescription": "モーツァルトの交響曲中最も劇的で情熱的な作品。短調の緊張感と美しい旋律が交錯する。",
     "movements": [
-      { "number": 1, "title": "Molto allegro", "tempo": "Molto allegro", "key": "g-minor", "duration": 8, "description": "ヴィオラの伴奏に乗って現れる有名な主題。", "highlights": ["冒頭の切迫した主題", "展開部の劇的な転調"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Molto allegro",
+        "tempo": "Molto allegro",
+        "key": "g-minor",
+        "duration": 8,
+        "description": "ヴィオラの伴奏に乗って現れる有名な主題。",
+        "highlights": [
+          "冒頭の切迫した主題",
+          "展開部の劇的な転調"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "1788年の夏、わずか2ヶ月で最後の3大交響曲（第39・40・41番）を一気に作曲。生涯最後の夏の奇跡。",
     "musicalAnalysis": "全楽章を貫くト短調の緊張感。古典的形式の中に深い感情表現を実現した名作。",
     "emotionalJourney": "焦燥→苦悩→一時の安らぎ→激烈なフィナーレ",
     "businessInsight": "制約（短調・小編成）の中でこそ最高の表現が生まれる——リソースの限界が創造性を引き出す好例。",
-    "listeningGuide": { "totalTime": "28分", "recommendedVersion": "ニコラウス・アーノンクール指揮 ウィーン・コンツェントゥス・ムジクス", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "有名な冒頭主題" }] },
-    "relatedWorks": ["mozart-symphony-41", "mozart-requiem"],
-    "relatedComposers": ["haydn", "beethoven"],
-    "tags": ["symphony", "classical", "famous", "dramatic"],
-    "difficulty": 1
+    "listeningGuide": {
+      "totalTime": "28分",
+      "recommendedVersion": "ニコラウス・アーノンクール指揮 ウィーン・コンツェントゥス・ムジクス",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "有名な冒頭主題"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "mozart-symphony-41",
+      "mozart-requiem"
+    ],
+    "relatedComposers": [
+      "haydn",
+      "beethoven"
+    ],
+    "tags": [
+      "symphony",
+      "classical",
+      "famous",
+      "dramatic"
+    ]
   },
   {
     "id": "mozart-symphony-41",
@@ -178,17 +377,48 @@
     "difficulty": 2,
     "shortDescription": "モーツァルト最後の交響曲。フィナーレの5声フーガは交響曲史上最も壮大な対位法的クライマックス。",
     "movements": [
-      { "number": 1, "title": "Allegro vivace", "tempo": "Allegro vivace", "key": "C-major", "duration": 9, "description": "壮麗なハ長調で開始。力強さと優美さが共存。", "highlights": ["祝祭的な冒頭", "対比的な副主題"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Allegro vivace",
+        "tempo": "Allegro vivace",
+        "key": "C-major",
+        "duration": 9,
+        "description": "壮麗なハ長調で開始。力強さと優美さが共存。",
+        "highlights": [
+          "祝祭的な冒頭",
+          "対比的な副主題"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "1788年8月10日完成。モーツァルトの最後の交響曲。「ジュピター」の名は後世に付けられた。",
     "musicalAnalysis": "第4楽章で5つの主題を同時に組み合わせるフーガは、古典派とバロック対位法の見事な統合。",
     "emotionalJourney": "祝祭→深い内省→軽やかさ→壮大な統合",
     "businessInsight": "5つの異なるテーマを一つに統合するフィナーレは、M&Aや組織統合における「統合のビジョン」の音楽的体現。",
-    "listeningGuide": { "totalTime": "33分", "recommendedVersion": "ジョージ・セル指揮 クリーヴランド管弦楽団", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "壮麗なハ長調の開始" }] },
-    "relatedWorks": ["mozart-symphony-40"],
-    "relatedComposers": ["haydn", "beethoven"],
-    "tags": ["symphony", "classical", "famous", "counterpoint"],
-    "difficulty": 2
+    "listeningGuide": {
+      "totalTime": "33分",
+      "recommendedVersion": "ジョージ・セル指揮 クリーヴランド管弦楽団",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "壮麗なハ長調の開始"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "mozart-symphony-40"
+    ],
+    "relatedComposers": [
+      "haydn",
+      "beethoven"
+    ],
+    "tags": [
+      "symphony",
+      "classical",
+      "famous",
+      "counterpoint"
+    ]
   },
   {
     "id": "beethoven-symphony-5",
@@ -205,20 +435,92 @@
     "difficulty": 1,
     "shortDescription": "「ダダダダーン」で始まる、クラシック音楽史上最も有名な交響曲。苦悩から勝利への壮大な物語。",
     "movements": [
-      { "number": 1, "title": "Allegro con brio", "tempo": "Allegro con brio", "key": "c-minor", "duration": 7, "description": "冒頭の「運命の動機」から始まる激烈な第1楽章。", "highlights": ["冒頭のモチーフ（短短短長）", "第2主題の明るいEs-dur", "展開部の緊張感"], "youtubeId": null },
-      { "number": 2, "title": "Andante con moto", "tempo": "Andante con moto", "key": "Ab-major", "duration": 10, "description": "変奏曲形式の穏やかな緩徐楽章。", "highlights": ["英雄的なファンファーレ"], "youtubeId": null },
-      { "number": 3, "title": "Scherzo: Allegro", "tempo": "Allegro", "key": "c-minor", "duration": 5, "description": "暗いスケルツォから第4楽章へアタッカで接続。", "highlights": ["不気味なホルン主題", "第4楽章への橋渡し"], "youtubeId": null },
-      { "number": 4, "title": "Allegro", "tempo": "Allegro", "key": "C-major", "duration": 11, "description": "ハ長調の輝かしい勝利のフィナーレ。", "highlights": ["暗闇から光への劇的転換", "歓喜の爆発"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Allegro con brio",
+        "tempo": "Allegro con brio",
+        "key": "c-minor",
+        "duration": 7,
+        "description": "冒頭の「運命の動機」から始まる激烈な第1楽章。",
+        "highlights": [
+          "冒頭のモチーフ（短短短長）",
+          "第2主題の明るいEs-dur",
+          "展開部の緊張感"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante con moto",
+        "tempo": "Andante con moto",
+        "key": "Ab-major",
+        "duration": 10,
+        "description": "変奏曲形式の穏やかな緩徐楽章。",
+        "highlights": [
+          "英雄的なファンファーレ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scherzo: Allegro",
+        "tempo": "Allegro",
+        "key": "c-minor",
+        "duration": 5,
+        "description": "暗いスケルツォから第4楽章へアタッカで接続。",
+        "highlights": [
+          "不気味なホルン主題",
+          "第4楽章への橋渡し"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "C-major",
+        "duration": 11,
+        "description": "ハ長調の輝かしい勝利のフィナーレ。",
+        "highlights": [
+          "暗闇から光への劇的転換",
+          "歓喜の爆発"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "1804年から1808年にかけて作曲。ナポレオン戦争の渦中で書かれた、苦悩と闘争の記録。",
     "musicalAnalysis": "全4楽章を貫く「運命の動機」により、交響曲の有機的統一を達成した革命的作品。",
     "emotionalJourney": "暗闇→苦悩→模索→輝かしい勝利",
     "businessInsight": "4音のモチーフが全体を支配する——「シンプルな核心メッセージ」がブランドの一貫性を生む好例。",
-    "listeningGuide": { "totalTime": "33分", "recommendedVersion": "カルロス・クライバー指揮 ウィーン・フィルハーモニー管弦楽団（1974）", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "冒頭の運命モチーフ" }, { "time": "1:23", "description": "第2主題（明るくEs-durに転調）" }] },
-    "relatedWorks": ["beethoven-symphony-3", "beethoven-symphony-9"],
-    "relatedComposers": ["brahms", "schubert"],
-    "tags": ["symphony", "classical", "famous", "dramatic"],
-    "difficulty": 1
+    "listeningGuide": {
+      "totalTime": "33分",
+      "recommendedVersion": "カルロス・クライバー指揮 ウィーン・フィルハーモニー管弦楽団（1974）",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "冒頭の運命モチーフ"
+        },
+        {
+          "time": "1:23",
+          "description": "第2主題（明るくEs-durに転調）"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "beethoven-symphony-3",
+      "beethoven-symphony-9"
+    ],
+    "relatedComposers": [
+      "brahms",
+      "schubert"
+    ],
+    "tags": [
+      "symphony",
+      "classical",
+      "famous",
+      "dramatic"
+    ]
   },
   {
     "id": "beethoven-symphony-3",
@@ -235,17 +537,46 @@
     "difficulty": 2,
     "shortDescription": "音楽史の転換点。ベートーヴェンがナポレオンに捧げようとした革命的交響曲。ロマン派への扉を開いた。",
     "movements": [
-      { "number": 1, "title": "Allegro con brio", "tempo": "Allegro con brio", "key": "Eb-major", "duration": 18, "description": "前例のない規模と野心を持つソナタ形式。", "highlights": ["2つの力強い和音", "「新しい主題」の出現"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Allegro con brio",
+        "tempo": "Allegro con brio",
+        "key": "Eb-major",
+        "duration": 18,
+        "description": "前例のない規模と野心を持つソナタ形式。",
+        "highlights": [
+          "2つの力強い和音",
+          "「新しい主題」の出現"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "当初ナポレオンに献呈予定だったが、皇帝即位を知り激怒して表紙を破り「ある偉大な人物の思い出に」と変更。",
     "musicalAnalysis": "第1楽章だけで18分という前例のない規模。葬送行進曲を第2楽章に配置する大胆な構成。",
     "emotionalJourney": "英雄的闘争→葬送の哀悼→躍動→勝利の祝祭",
     "businessInsight": "理想に裏切られても作品は完成させる——リーダーは「ビジョン」を人物ではなく理念に結びつけるべき。",
-    "listeningGuide": { "totalTime": "50分", "recommendedVersion": "フルトヴェングラー指揮 ウィーン・フィル（1952年）", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "2つの力強いEb-durの和音" }] },
-    "relatedWorks": ["beethoven-symphony-5", "beethoven-symphony-9"],
+    "listeningGuide": {
+      "totalTime": "50分",
+      "recommendedVersion": "フルトヴェングラー指揮 ウィーン・フィル（1952年）",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "2つの力強いEb-durの和音"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "beethoven-symphony-5",
+      "beethoven-symphony-9"
+    ],
     "relatedComposers": [],
-    "tags": ["symphony", "classical", "famous", "heroic"],
-    "difficulty": 2
+    "tags": [
+      "symphony",
+      "classical",
+      "famous",
+      "heroic"
+    ]
   },
   {
     "id": "beethoven-symphony-9",
@@ -262,17 +593,49 @@
     "difficulty": 2,
     "shortDescription": "「歓喜の歌」で知られる人類の至宝。交響曲に初めて声楽を導入した、ベートーヴェン最後の交響曲。",
     "movements": [
-      { "number": 1, "title": "Allegro ma non troppo, un poco maestoso", "tempo": "Allegro ma non troppo", "key": "d-minor", "duration": 16, "description": "混沌から秩序が生まれるかのような壮大な開始。", "highlights": ["霧の中からの主題出現"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Allegro ma non troppo, un poco maestoso",
+        "tempo": "Allegro ma non troppo",
+        "key": "d-minor",
+        "duration": 16,
+        "description": "混沌から秩序が生まれるかのような壮大な開始。",
+        "highlights": [
+          "霧の中からの主題出現"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "完全に聴覚を失った状態で作曲。1824年ウィーンでの初演後、聴衆の喝采に気づかず、ソリストが振り向かせたという逸話。",
     "musicalAnalysis": "第4楽章にシラーの「歓喜に寄す」の合唱を導入。器楽と声楽の壮大な統合。",
     "emotionalJourney": "混沌→闘争→安らぎ→歓喜→人類の兄弟愛",
     "businessInsight": "聴覚を失ってなお最高傑作を生んだ——「制約はイノベーションの母」の究極の証明。",
-    "listeningGuide": { "totalTime": "70分", "recommendedVersion": "フルトヴェングラー指揮 バイロイト祝祭管弦楽団（1951年）", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "霧のようなトレモロから主題が浮かび上がる" }] },
-    "relatedWorks": ["beethoven-symphony-5", "beethoven-symphony-3"],
-    "relatedComposers": ["brahms", "mahler"],
-    "tags": ["symphony", "classical", "famous", "choral", "masterpiece"],
-    "difficulty": 2
+    "listeningGuide": {
+      "totalTime": "70分",
+      "recommendedVersion": "フルトヴェングラー指揮 バイロイト祝祭管弦楽団（1951年）",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "霧のようなトレモロから主題が浮かび上がる"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "beethoven-symphony-5",
+      "beethoven-symphony-3"
+    ],
+    "relatedComposers": [
+      "brahms",
+      "mahler"
+    ],
+    "tags": [
+      "symphony",
+      "classical",
+      "famous",
+      "choral",
+      "masterpiece"
+    ]
   },
   {
     "id": "chopin-ballade-1",
@@ -288,16 +651,48 @@
     "duration": 10,
     "difficulty": 3,
     "shortDescription": "ショパンのピアノ作品の最高傑作の一つ。詩的な物語性と壮絶な技巧が融合した劇的な作品。",
-    "movements": [{ "number": 1, "title": "Largo - Moderato", "tempo": "Largo - Moderato", "key": "g-minor", "duration": 10, "description": "ゆったりとした導入から、徐々にドラマチックに展開し、嵐のようなコーダで締めくくる。", "highlights": ["第1主題の哀愁", "第2主題の甘美さ", "壮絶なコーダ"], "youtubeId": null }],
+    "movements": [
+      {
+        "number": 1,
+        "title": "Largo - Moderato",
+        "tempo": "Largo - Moderato",
+        "key": "g-minor",
+        "duration": 10,
+        "description": "ゆったりとした導入から、徐々にドラマチックに展開し、嵐のようなコーダで締めくくる。",
+        "highlights": [
+          "第1主題の哀愁",
+          "第2主題の甘美さ",
+          "壮絶なコーダ"
+        ],
+        "youtubeId": null
+      }
+    ],
     "historicalBackground": "ミツキェヴィチのポーランド叙事詩に着想を得たとされる。パリ時代の傑作。",
     "musicalAnalysis": "ソナタ形式とロンド形式を自由に融合した独創的な構成。",
     "emotionalJourney": "物語的な静けさ→抒情→劇的高揚→壮絶な結末",
     "businessInsight": "起承転結の物語構造——プレゼンテーションの「引き込み→展開→クライマックス」の理想形。",
-    "listeningGuide": { "totalTime": "10分", "recommendedVersion": "クリスティアン・ツィメルマン", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "ゆったりとした瞑想的な導入" }] },
+    "listeningGuide": {
+      "totalTime": "10分",
+      "recommendedVersion": "クリスティアン・ツィメルマン",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "ゆったりとした瞑想的な導入"
+        }
+      ]
+    },
     "relatedWorks": [],
-    "relatedComposers": ["liszt", "schumann-r"],
-    "tags": ["piano", "romantic", "famous", "dramatic"],
-    "difficulty": 3
+    "relatedComposers": [
+      "liszt",
+      "schumann-r"
+    ],
+    "tags": [
+      "piano",
+      "romantic",
+      "famous",
+      "dramatic"
+    ]
   },
   {
     "id": "brahms-symphony-4",
@@ -314,17 +709,46 @@
     "difficulty": 3,
     "shortDescription": "ブラームス最後の交響曲。秋の哀愁と知的な構築美が共存する、ロマン派交響曲の最高到達点の一つ。",
     "movements": [
-      { "number": 1, "title": "Allegro non troppo", "tempo": "Allegro non troppo", "key": "e-minor", "duration": 13, "description": "3度の音程で下降する哀愁の主題。", "highlights": ["下降3度の主題", "展開部の壮大さ"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Allegro non troppo",
+        "tempo": "Allegro non troppo",
+        "key": "e-minor",
+        "duration": 13,
+        "description": "3度の音程で下降する哀愁の主題。",
+        "highlights": [
+          "下降3度の主題",
+          "展開部の壮大さ"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "1885年マイニンゲンで初演。第4楽章はバッハのカンタータから着想を得たパッサカリア。",
     "musicalAnalysis": "バロックの対位法的技法（パッサカリア）をロマン派の交響曲に統合した知的冒険。",
     "emotionalJourney": "秋の哀愁→情熱→軽妙→壮大なパッサカリア",
     "businessInsight": "古い技法（パッサカリア）を新しい文脈で活用する——「温故知新」型イノベーションの好例。",
-    "listeningGuide": { "totalTime": "42分", "recommendedVersion": "カルロス・クライバー指揮 ウィーン・フィル", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "3度下降の哀愁の主題" }] },
+    "listeningGuide": {
+      "totalTime": "42分",
+      "recommendedVersion": "カルロス・クライバー指揮 ウィーン・フィル",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "3度下降の哀愁の主題"
+        }
+      ]
+    },
     "relatedWorks": [],
-    "relatedComposers": ["beethoven", "wagner"],
-    "tags": ["symphony", "romantic", "famous", "counterpoint"],
-    "difficulty": 3
+    "relatedComposers": [
+      "beethoven",
+      "wagner"
+    ],
+    "tags": [
+      "symphony",
+      "romantic",
+      "famous",
+      "counterpoint"
+    ]
   },
   {
     "id": "tchaikovsky-symphony-6",
@@ -341,17 +765,45 @@
     "difficulty": 2,
     "shortDescription": "チャイコフスキー最後の交響曲。終楽章が緩徐楽章という異例の構成で、静かな絶望の中に消えゆく。",
     "movements": [
-      { "number": 1, "title": "Adagio - Allegro non troppo", "tempo": "Adagio - Allegro non troppo", "key": "b-minor", "duration": 18, "description": "暗い導入から情熱的な主題が展開。", "highlights": ["第2主題の美しいメロディー"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Adagio - Allegro non troppo",
+        "tempo": "Adagio - Allegro non troppo",
+        "key": "b-minor",
+        "duration": 18,
+        "description": "暗い導入から情熱的な主題が展開。",
+        "highlights": [
+          "第2主題の美しいメロディー"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "初演の9日後にチャイコフスキーは急死。「悲愴」の副題は作曲者自身が付けた。",
     "musicalAnalysis": "終楽章を緩徐楽章（アダージョ・ラメントーソ）とする革新的構成。交響曲が「死」で終わる前例のない試み。",
     "emotionalJourney": "苦悩→爆発的エネルギー→ワルツ→消え入る悲哀",
     "businessInsight": "常識（フィナーレは華やかに）を覆す大胆な構成——「当たり前を疑う」ことが革新を生む。",
-    "listeningGuide": { "totalTime": "46分", "recommendedVersion": "ムラヴィンスキー指揮 レニングラード・フィル", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "暗いファゴットの冒頭" }] },
+    "listeningGuide": {
+      "totalTime": "46分",
+      "recommendedVersion": "ムラヴィンスキー指揮 レニングラード・フィル",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "暗いファゴットの冒頭"
+        }
+      ]
+    },
     "relatedWorks": [],
-    "relatedComposers": ["brahms", "mahler"],
-    "tags": ["symphony", "romantic", "famous", "dramatic"],
-    "difficulty": 2
+    "relatedComposers": [
+      "brahms",
+      "mahler"
+    ],
+    "tags": [
+      "symphony",
+      "romantic",
+      "famous",
+      "dramatic"
+    ]
   },
   {
     "id": "debussy-prelude-afternoon",
@@ -367,16 +819,47 @@
     "duration": 10,
     "difficulty": 2,
     "shortDescription": "印象主義音楽の幕開けを告げた作品。マラルメの詩に霊感を得た、色彩的で官能的な管弦楽曲。",
-    "movements": [{ "number": 1, "title": "Très modéré", "tempo": "Très modéré", "key": "various", "duration": 10, "description": "フルートの夢幻的な独奏で始まる、色彩と光のタペストリー。", "highlights": ["冒頭のフルート独奏", "全音階的和声", "色彩的なオーケストレーション"], "youtubeId": null }],
+    "movements": [
+      {
+        "number": 1,
+        "title": "Très modéré",
+        "tempo": "Très modéré",
+        "key": "various",
+        "duration": 10,
+        "description": "フルートの夢幻的な独奏で始まる、色彩と光のタペストリー。",
+        "highlights": [
+          "冒頭のフルート独奏",
+          "全音階的和声",
+          "色彩的なオーケストレーション"
+        ],
+        "youtubeId": null
+      }
+    ],
     "historicalBackground": "マラルメの詩「牧神の午後」に基づく。1894年初演。ブーレーズは「近代音楽はこの作品のフルートから始まった」と述べた。",
     "musicalAnalysis": "従来の調性機能に縛られない自由な和声。全音音階や教会旋法を駆使した色彩的な音楽。",
     "emotionalJourney": "夢幻→官能→陶酔→夢への回帰",
     "businessInsight": "ルールを破るのではなく「新しいルール」を作る——既存市場のディスラプションではなく新市場の創造。",
-    "listeningGuide": { "totalTime": "10分", "recommendedVersion": "ブーレーズ指揮 クリーヴランド管弦楽団", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "フルートの夢幻的な冒頭" }] },
+    "listeningGuide": {
+      "totalTime": "10分",
+      "recommendedVersion": "ブーレーズ指揮 クリーヴランド管弦楽団",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "フルートの夢幻的な冒頭"
+        }
+      ]
+    },
     "relatedWorks": [],
-    "relatedComposers": ["ravel"],
-    "tags": ["orchestral", "modern", "famous", "impressionism"],
-    "difficulty": 2
+    "relatedComposers": [
+      "ravel"
+    ],
+    "tags": [
+      "orchestral",
+      "modern",
+      "famous",
+      "impressionism"
+    ]
   },
   {
     "id": "stravinsky-rite-of-spring",
@@ -393,17 +876,47 @@
     "difficulty": 3,
     "shortDescription": "初演で暴動を引き起こした伝説的作品。原始的なリズムと不協和音が音楽の概念を根本から覆した。",
     "movements": [
-      { "number": 1, "title": "第1部：大地の礼賛", "tempo": "various", "key": "various", "duration": 16, "description": "春の目覚めから始まり、原始的な儀式の音楽が展開。", "highlights": ["冒頭のファゴット独奏", "「春の兆し」の衝撃的なリズム"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "第1部：大地の礼賛",
+        "tempo": "various",
+        "key": "various",
+        "duration": 16,
+        "description": "春の目覚めから始まり、原始的な儀式の音楽が展開。",
+        "highlights": [
+          "冒頭のファゴット独奏",
+          "「春の兆し」の衝撃的なリズム"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "1913年5月29日パリ初演時、聴衆が暴動を起こした伝説的事件。振付はニジンスキー。",
     "musicalAnalysis": "不規則なアクセント、多調性、原始的リズムの反復。20世紀音楽最大の革命的作品。",
     "emotionalJourney": "原始の目覚め→狂騒→犠牲の舞→陶酔的消滅",
     "businessInsight": "初演で暴動になった作品が100年後の「定番」に——破壊的イノベーションは最初は拒絶される。",
-    "listeningGuide": { "totalTime": "35分", "recommendedVersion": "ブーレーズ指揮 クリーヴランド管弦楽団", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "高音域のファゴット独奏" }] },
+    "listeningGuide": {
+      "totalTime": "35分",
+      "recommendedVersion": "ブーレーズ指揮 クリーヴランド管弦楽団",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "高音域のファゴット独奏"
+        }
+      ]
+    },
     "relatedWorks": [],
-    "relatedComposers": ["debussy", "bartok"],
-    "tags": ["orchestral", "modern", "famous", "revolutionary", "ballet"],
-    "difficulty": 3
+    "relatedComposers": [
+      "debussy",
+      "bartok"
+    ],
+    "tags": [
+      "orchestral",
+      "modern",
+      "famous",
+      "revolutionary",
+      "ballet"
+    ]
   },
   {
     "id": "mahler-symphony-2",
@@ -420,16 +933,3185 @@
     "difficulty": 3,
     "shortDescription": "死と復活をテーマにした壮大な交響曲。終楽章の合唱「復活」は圧倒的なカタルシスをもたらす。",
     "movements": [
-      { "number": 1, "title": "Allegro maestoso", "tempo": "Allegro maestoso", "key": "c-minor", "duration": 22, "description": "葬送行進曲。英雄の死を描く。", "highlights": ["冒頭の低弦のトレモロ"], "youtubeId": null }
+      {
+        "number": 1,
+        "title": "Allegro maestoso",
+        "tempo": "Allegro maestoso",
+        "key": "c-minor",
+        "duration": 22,
+        "description": "葬送行進曲。英雄の死を描く。",
+        "highlights": [
+          "冒頭の低弦のトレモロ"
+        ],
+        "youtubeId": null
+      }
     ],
     "historicalBackground": "「英雄を埋葬する」第1楽章から「復活」の終楽章へ。人間の存在の意味を問いかける巨大な作品。",
     "musicalAnalysis": "5楽章構成で80分以上。巨大なオーケストラ、合唱、独唱を駆使した「宇宙的」スケール。",
     "emotionalJourney": "死→回想→皮肉→祈り→復活の栄光",
     "businessInsight": "「なぜ我々は存在するのか」という根源的な問いに挑む——Purpose-driven leadershipの音楽的表現。",
-    "listeningGuide": { "totalTime": "80分", "recommendedVersion": "バーンスタイン指揮 ニューヨーク・フィル", "youtubeId": null, "checkpoints": [{ "time": "0:00", "description": "激烈な低弦の冒頭" }] },
+    "listeningGuide": {
+      "totalTime": "80分",
+      "recommendedVersion": "バーンスタイン指揮 ニューヨーク・フィル",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "激烈な低弦の冒頭"
+        }
+      ]
+    },
     "relatedWorks": [],
-    "relatedComposers": ["bruckner", "strauss-r"],
-    "tags": ["symphony", "modern", "famous", "choral", "monumental"],
-    "difficulty": 3
+    "relatedComposers": [
+      "bruckner",
+      "strauss-r"
+    ],
+    "tags": [
+      "symphony",
+      "modern",
+      "famous",
+      "choral",
+      "monumental"
+    ]
+  },
+  {
+    "id": "bach-wtc1",
+    "composerId": "bach-js",
+    "title": "平均律クラヴィーア曲集 第1巻",
+    "titleEn": "Well-Tempered Clavier Book 1",
+    "year": 1722,
+    "genre": "piano",
+    "era": "baroque",
+    "duration": 120,
+    "difficulty": 4,
+    "shortDescription": "全24調の前奏曲とフーガ。鍵盤音楽の旧約聖書。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Prelude No.1",
+        "tempo": "Moderato",
+        "key": "C-major",
+        "duration": 4,
+        "description": "有名なアルペジオ前奏曲。",
+        "highlights": [
+          "アルペジオ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1722年完成。",
+    "musicalAnalysis": "24調を体系的に網羅。",
+    "emotionalJourney": "知的探求",
+    "businessInsight": "体系的な知の構築。",
+    "listeningGuide": {
+      "totalTime": "120分",
+      "recommendedVersion": "グールド",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "ハ長調前奏曲"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "bach-goldberg"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "keyboard",
+      "baroque"
+    ]
+  },
+  {
+    "id": "bach-bwv1004",
+    "composerId": "bach-js",
+    "title": "無伴奏Vnパルティータ第2番",
+    "titleEn": "Partita No.2 BWV1004",
+    "year": 1720,
+    "genre": "chamber",
+    "era": "baroque",
+    "duration": 30,
+    "difficulty": 4,
+    "shortDescription": "シャコンヌはバッハ器楽の最高峰。",
+    "movements": [
+      {
+        "number": 5,
+        "title": "Ciaccona",
+        "tempo": "Varied",
+        "key": "d-minor",
+        "duration": 15,
+        "description": "64変奏のシャコンヌ。",
+        "highlights": [
+          "64変奏"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1720年ケーテンで作曲。",
+    "musicalAnalysis": "単独ヴァイオリンの多声的書法。",
+    "emotionalJourney": "厳粛→激情→悲哀",
+    "businessInsight": "個の力の極限。",
+    "listeningGuide": {
+      "totalTime": "30分",
+      "recommendedVersion": "ハーン",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "15:00",
+          "description": "シャコンヌ"
+        }
+      ]
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "chamber",
+      "baroque",
+      "violin"
+    ]
+  },
+  {
+    "id": "bach-mass-b",
+    "composerId": "bach-js",
+    "title": "ミサ曲ロ短調",
+    "titleEn": "Mass in B minor",
+    "year": 1749,
+    "genre": "choral",
+    "era": "baroque",
+    "duration": 110,
+    "difficulty": 4,
+    "shortDescription": "バッハ声楽の集大成。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Kyrie",
+        "tempo": "Adagio",
+        "key": "b-minor",
+        "duration": 10,
+        "description": "5声のキリエ。",
+        "highlights": [
+          "5声フーガ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "バッハ晩年の傑作。",
+    "musicalAnalysis": "バロック様式の総決算。",
+    "emotionalJourney": "嘆願→栄光→平和",
+    "businessInsight": "普遍的価値の創造。",
+    "listeningGuide": {
+      "totalTime": "110分",
+      "recommendedVersion": "ガーディナー",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "キリエ"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "handel-messiah"
+    ],
+    "relatedComposers": [
+      "handel"
+    ],
+    "tags": [
+      "choral",
+      "baroque"
+    ]
+  },
+  {
+    "id": "handel-water",
+    "composerId": "handel",
+    "title": "水上の音楽",
+    "titleEn": "Water Music",
+    "year": 1717,
+    "genre": "orchestral",
+    "era": "baroque",
+    "duration": 55,
+    "difficulty": 1,
+    "shortDescription": "テムズ川の船遊びのための華やかな組曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Overture",
+        "tempo": "Allegro",
+        "key": "F-major",
+        "duration": 5,
+        "description": "壮大な序曲。",
+        "highlights": [
+          "ホルン"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1717年ジョージ1世のために演奏。",
+    "musicalAnalysis": "華やかな野外音楽。",
+    "emotionalJourney": "祝祭→優雅",
+    "businessInsight": "場を演出するイベントプロデュース。",
+    "listeningGuide": {
+      "totalTime": "55分",
+      "recommendedVersion": "ピノック",
+      "youtubeId": null,
+      "checkpoints": [
+        {
+          "time": "0:00",
+          "description": "序曲"
+        }
+      ]
+    },
+    "relatedWorks": [
+      "handel-messiah"
+    ],
+    "relatedComposers": [
+      "bach-js"
+    ],
+    "tags": [
+      "orchestral",
+      "baroque",
+      "famous"
+    ]
+  },
+  {
+    "id": "bach-wtc1",
+    "composerId": "bach-js",
+    "title": "平均律クラヴィーア曲集 第1巻",
+    "titleEn": "Well-Tempered Clavier Book 1",
+    "year": 1722,
+    "genre": "piano",
+    "era": "baroque",
+    "duration": 120,
+    "difficulty": 4,
+    "shortDescription": "全24調の前奏曲とフーガ。鍵盤音楽の旧約聖書。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 120,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1722年ケーテンで完成。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "体系的な知の構築。",
+    "listeningGuide": {
+      "totalTime": "120分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "keyboard",
+      "baroque"
+    ]
+  },
+  {
+    "id": "bach-bwv1004",
+    "composerId": "bach-js",
+    "title": "無伴奏Vnパルティータ第2番",
+    "titleEn": "Partita No.2 BWV1004",
+    "year": 1720,
+    "genre": "chamber",
+    "era": "baroque",
+    "duration": 30,
+    "difficulty": 4,
+    "shortDescription": "シャコンヌはバッハ器楽の最高峰。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 30,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1720年ケーテンで作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "個の力の極限。",
+    "listeningGuide": {
+      "totalTime": "30分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "chamber",
+      "baroque",
+      "violin"
+    ]
+  },
+  {
+    "id": "bach-mass-b",
+    "composerId": "bach-js",
+    "title": "ミサ曲ロ短調",
+    "titleEn": "Mass in B minor",
+    "year": 1749,
+    "genre": "choral",
+    "era": "baroque",
+    "duration": 110,
+    "difficulty": 4,
+    "shortDescription": "バッハ声楽の集大成。宗教音楽の最高傑作。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 110,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "バッハ晩年の傑作。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "普遍的価値の創造。",
+    "listeningGuide": {
+      "totalTime": "110分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "choral",
+      "baroque"
+    ]
+  },
+  {
+    "id": "handel-water",
+    "composerId": "handel",
+    "title": "水上の音楽",
+    "titleEn": "Water Music",
+    "year": 1717,
+    "genre": "orchestral",
+    "era": "baroque",
+    "duration": 55,
+    "difficulty": 1,
+    "shortDescription": "テムズ川の船遊びのための華やかな管弦楽組曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 55,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1717年ジョージ1世のために。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "場を演出するイベントプロデュース。",
+    "listeningGuide": {
+      "totalTime": "55分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "baroque"
+    ]
+  },
+  {
+    "id": "telemann-tafelmusik",
+    "composerId": "telemann",
+    "title": "ターフェルムジーク",
+    "titleEn": "Tafelmusik",
+    "year": 1733,
+    "genre": "orchestral",
+    "era": "baroque",
+    "duration": 60,
+    "difficulty": 2,
+    "shortDescription": "食卓の音楽。バロック組曲の百科全書。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 60,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1733年出版。テレマン最大の器楽作品集。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "おもてなしの音楽。",
+    "listeningGuide": {
+      "totalTime": "60分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "baroque"
+    ]
+  },
+  {
+    "id": "purcell-dido",
+    "composerId": "purcell",
+    "title": "ディドとエネアス",
+    "titleEn": "Dido and Aeneas",
+    "year": 1689,
+    "genre": "opera",
+    "era": "baroque",
+    "duration": 60,
+    "difficulty": 2,
+    "shortDescription": "英語オペラの最高傑作。ディドの嘆きは音楽史上最も美しいアリア。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 60,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1689年初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "簡潔さの中の深い感動。",
+    "listeningGuide": {
+      "totalTime": "60分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "baroque"
+    ]
+  },
+  {
+    "id": "haydn-creation",
+    "composerId": "haydn",
+    "title": "天地創造",
+    "titleEn": "The Creation",
+    "year": 1798,
+    "genre": "choral",
+    "era": "classical",
+    "duration": 100,
+    "difficulty": 2,
+    "shortDescription": "「光あれ」は音楽史上最も劇的な瞬間の一つ。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 100,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ハイドン晩年の傑作。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "混沌から秩序を創造するスタートアップ。",
+    "listeningGuide": {
+      "totalTime": "100分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "choral",
+      "classical"
+    ]
+  },
+  {
+    "id": "haydn-sym94",
+    "composerId": "haydn",
+    "title": "交響曲第94番 驚愕",
+    "titleEn": "Symphony No.94 Surprise",
+    "year": 1791,
+    "genre": "symphony",
+    "era": "classical",
+    "duration": 23,
+    "difficulty": 1,
+    "shortDescription": "突然のffで聴衆を起こした有名交響曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 23,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1791年ロンドン公演用。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "予想を裏切るつかみの技法。",
+    "listeningGuide": {
+      "totalTime": "23分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "classical",
+      "famous"
+    ]
+  },
+  {
+    "id": "mozart-figaro",
+    "composerId": "mozart-wa",
+    "title": "フィガロの結婚",
+    "titleEn": "Le nozze di Figaro",
+    "year": 1786,
+    "genre": "opera",
+    "era": "classical",
+    "duration": 180,
+    "difficulty": 2,
+    "shortDescription": "身分制度への風刺と人間愛のモーツァルト最高傑作オペラ。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 180,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1786年ウィーン初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "ボトムアップ・イノベーション。",
+    "listeningGuide": {
+      "totalTime": "180分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "classical",
+      "famous"
+    ]
+  },
+  {
+    "id": "mozart-eine-kleine",
+    "composerId": "mozart-wa",
+    "title": "アイネ・クライネ・ナハトムジーク",
+    "titleEn": "Eine kleine Nachtmusik",
+    "year": 1787,
+    "genre": "chamber",
+    "era": "classical",
+    "duration": 18,
+    "difficulty": 1,
+    "shortDescription": "世界で最も有名なクラシック曲の一つ。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 18,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1787年作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "最高の製品は最もシンプル。",
+    "listeningGuide": {
+      "totalTime": "18分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "chamber",
+      "classical",
+      "famous"
+    ]
+  },
+  {
+    "id": "mozart-magic-flute",
+    "composerId": "mozart-wa",
+    "title": "魔笛",
+    "titleEn": "Die Zauberflöte",
+    "year": 1791,
+    "genre": "opera",
+    "era": "classical",
+    "duration": 150,
+    "difficulty": 2,
+    "shortDescription": "光と闇、愛と試練の寓話。モーツァルト最後のオペラ。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 150,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1791年ウィーン初演。フリーメイソンの象徴。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "試練を乗り越えてこそ真の知恵。",
+    "listeningGuide": {
+      "totalTime": "150分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "classical",
+      "famous"
+    ]
+  },
+  {
+    "id": "mozart-pc21",
+    "composerId": "mozart-wa",
+    "title": "ピアノ協奏曲第21番",
+    "titleEn": "Piano Concerto No.21",
+    "year": 1785,
+    "genre": "concerto",
+    "era": "classical",
+    "duration": 28,
+    "difficulty": 1,
+    "shortDescription": "第2楽章は映画「みじかくも美しく燃え」で有名。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 28,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1785年ウィーンで初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "美しさは永遠のブランド価値。",
+    "listeningGuide": {
+      "totalTime": "28分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "classical",
+      "famous",
+      "piano"
+    ]
+  },
+  {
+    "id": "beethoven-moonlight",
+    "composerId": "beethoven",
+    "title": "月光ソナタ",
+    "titleEn": "Moonlight Sonata",
+    "year": 1801,
+    "genre": "piano",
+    "era": "classical",
+    "duration": 15,
+    "difficulty": 2,
+    "shortDescription": "三連符アルペジオの第1楽章はクラシック最有名旋律。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 15,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1801年ジュリエッタに捧げた。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "静と動のコントラスト。",
+    "listeningGuide": {
+      "totalTime": "15分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "piano",
+      "classical",
+      "famous"
+    ]
+  },
+  {
+    "id": "beethoven-emperor",
+    "composerId": "beethoven",
+    "title": "ピアノ協奏曲第5番 皇帝",
+    "titleEn": "Emperor Concerto",
+    "year": 1809,
+    "genre": "concerto",
+    "era": "classical",
+    "duration": 38,
+    "difficulty": 2,
+    "shortDescription": "壮大なベートーヴェン最後のピアノ協奏曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 38,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1809年ウィーン砲撃中に作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "自信と優雅さの両立。",
+    "listeningGuide": {
+      "totalTime": "38分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "classical",
+      "famous"
+    ]
+  },
+  {
+    "id": "beethoven-pathetique",
+    "composerId": "beethoven",
+    "title": "ピアノソナタ第8番 悲愴",
+    "titleEn": "Pathétique Sonata",
+    "year": 1798,
+    "genre": "piano",
+    "era": "classical",
+    "duration": 18,
+    "difficulty": 2,
+    "shortDescription": "悲劇的な情熱と美しい緩徐楽章で知られる初期の傑作。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 18,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1798年作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "感情を論理的に構成する力。",
+    "listeningGuide": {
+      "totalTime": "18分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "piano",
+      "classical",
+      "famous"
+    ]
+  },
+  {
+    "id": "gluck-orfeo",
+    "composerId": "gluck",
+    "title": "オルフェオとエウリディーチェ",
+    "titleEn": "Orfeo ed Euridice",
+    "year": 1762,
+    "genre": "opera",
+    "era": "classical",
+    "duration": 90,
+    "difficulty": 2,
+    "shortDescription": "オペラ改革の先駆的作品。精霊の踊りは永遠の名旋律。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 90,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1762年ウィーン初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "シンプルさへの回帰がイノベーションを生む。",
+    "listeningGuide": {
+      "totalTime": "90分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "classical"
+    ]
+  },
+  {
+    "id": "schubert-winterreise",
+    "composerId": "schubert",
+    "title": "冬の旅",
+    "titleEn": "Winterreise",
+    "year": 1827,
+    "genre": "vocal",
+    "era": "romantic",
+    "duration": 72,
+    "difficulty": 3,
+    "shortDescription": "ドイツ・リートの最高傑作。失恋の放浪。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 72,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1827年死の前年作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "孤独なリーダーの旅。",
+    "listeningGuide": {
+      "totalTime": "72分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "vocal",
+      "romantic",
+      "masterpiece"
+    ]
+  },
+  {
+    "id": "schubert-unfinished",
+    "composerId": "schubert",
+    "title": "未完成交響曲",
+    "titleEn": "Unfinished Symphony",
+    "year": 1822,
+    "genre": "symphony",
+    "era": "romantic",
+    "duration": 25,
+    "difficulty": 1,
+    "shortDescription": "2楽章のみの謎の交響曲。未完ながら完璧。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 25,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1822年中断。理由は謎。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "完璧より行動。MVP思想。",
+    "listeningGuide": {
+      "totalTime": "25分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "schubert-trout",
+    "composerId": "schubert",
+    "title": "ピアノ五重奏曲 ます",
+    "titleEn": "Trout Quintet",
+    "year": 1819,
+    "genre": "chamber",
+    "era": "romantic",
+    "duration": 38,
+    "difficulty": 1,
+    "shortDescription": "第4楽章は歌曲「ます」の変奏曲。室内楽の人気曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 38,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1819年夏の旅行中に作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "チームの多様性が生む豊かな響き。",
+    "listeningGuide": {
+      "totalTime": "38分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "chamber",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "chopin-nocturne2",
+    "composerId": "chopin",
+    "title": "ノクターン第2番",
+    "titleEn": "Nocturne Op.9-2",
+    "year": 1832,
+    "genre": "piano",
+    "era": "romantic",
+    "duration": 5,
+    "difficulty": 1,
+    "shortDescription": "ショパン最有名のノクターン。ピアノの詩情。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 5,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1832年出版。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "Less is More。",
+    "listeningGuide": {
+      "totalTime": "5分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "piano",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "chopin-concerto1",
+    "composerId": "chopin",
+    "title": "ピアノ協奏曲第1番",
+    "titleEn": "Piano Concerto No.1",
+    "year": 1830,
+    "genre": "concerto",
+    "era": "romantic",
+    "duration": 40,
+    "difficulty": 3,
+    "shortDescription": "20歳の情熱が結晶した華麗な協奏曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 40,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1830年ワルシャワ出発前に作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "若さの大胆さと繊細さ。",
+    "listeningGuide": {
+      "totalTime": "40分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "romantic",
+      "piano"
+    ]
+  },
+  {
+    "id": "chopin-etudes",
+    "composerId": "chopin",
+    "title": "練習曲集 Op.10",
+    "titleEn": "Études Op.10",
+    "year": 1833,
+    "genre": "piano",
+    "era": "romantic",
+    "duration": 25,
+    "difficulty": 5,
+    "shortDescription": "革命のエチュードを含む。技巧と芸術の完璧な融合。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 25,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1833年出版。リストに献呈。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "基礎訓練が最高の芸術になる。",
+    "listeningGuide": {
+      "totalTime": "25分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "piano",
+      "romantic"
+    ]
+  },
+  {
+    "id": "liszt-sonata",
+    "composerId": "liszt",
+    "title": "ピアノソナタ ロ短調",
+    "titleEn": "Piano Sonata in B minor",
+    "year": 1853,
+    "genre": "piano",
+    "era": "romantic",
+    "duration": 30,
+    "difficulty": 5,
+    "shortDescription": "単一楽章30分。ピアノ史上最も野心的。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 30,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1853年完成。シューマンに献呈。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "形式の再発明。",
+    "listeningGuide": {
+      "totalTime": "30分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "piano",
+      "romantic",
+      "masterpiece"
+    ]
+  },
+  {
+    "id": "liszt-hungarian2",
+    "composerId": "liszt",
+    "title": "ハンガリー狂詩曲第2番",
+    "titleEn": "Hungarian Rhapsody No.2",
+    "year": 1847,
+    "genre": "piano",
+    "era": "romantic",
+    "duration": 10,
+    "difficulty": 3,
+    "shortDescription": "リストの超絶技巧を代表する華麗な作品。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 10,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1847年作曲。ハンガリーの民族音楽に基づく。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "エンターテインメントのプロフェッショナリズム。",
+    "listeningGuide": {
+      "totalTime": "10分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "piano",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "brahms-sym1",
+    "composerId": "brahms",
+    "title": "交響曲第1番",
+    "titleEn": "Symphony No.1",
+    "year": 1876,
+    "genre": "symphony",
+    "era": "romantic",
+    "duration": 45,
+    "difficulty": 2,
+    "shortDescription": "21年かけた渾身作。ベートーヴェンの第10番。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 45,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "21年かけて完成。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "長期ビジョンの忍耐。",
+    "listeningGuide": {
+      "totalTime": "45分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "brahms-pc1",
+    "composerId": "brahms",
+    "title": "ピアノ協奏曲第1番",
+    "titleEn": "Piano Concerto No.1",
+    "year": 1858,
+    "genre": "concerto",
+    "era": "romantic",
+    "duration": 48,
+    "difficulty": 3,
+    "shortDescription": "交響曲的スケールの壮大なピアノ協奏曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 48,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1858年初演は失敗だったが後に高く評価。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "失敗から学び次に繋げる力。",
+    "listeningGuide": {
+      "totalTime": "48分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "romantic",
+      "piano"
+    ]
+  },
+  {
+    "id": "wagner-tristan",
+    "composerId": "wagner",
+    "title": "トリスタンとイゾルデ",
+    "titleEn": "Tristan und Isolde",
+    "year": 1865,
+    "genre": "opera",
+    "era": "romantic",
+    "duration": 240,
+    "difficulty": 4,
+    "shortDescription": "調性の限界を突破した革命的オペラ。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 240,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1865年ミュンヘン初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "限界を試すイノベーター。",
+    "listeningGuide": {
+      "totalTime": "240分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "romantic",
+      "revolutionary"
+    ]
+  },
+  {
+    "id": "wagner-ring-walkure",
+    "composerId": "wagner",
+    "title": "ワルキューレの騎行",
+    "titleEn": "Ride of the Valkyries",
+    "year": 1870,
+    "genre": "orchestral",
+    "era": "romantic",
+    "duration": 5,
+    "difficulty": 1,
+    "shortDescription": "ニーベルングの指環より。映画「地獄の黙示録」で有名。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 5,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1870年初演。ワーグナー楽劇の象徴的場面。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "インパクトのあるオープニング。",
+    "listeningGuide": {
+      "totalTime": "5分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "berlioz-fantastique",
+    "composerId": "berlioz",
+    "title": "幻想交響曲",
+    "titleEn": "Symphonie fantastique",
+    "year": 1830,
+    "genre": "symphony",
+    "era": "romantic",
+    "duration": 55,
+    "difficulty": 2,
+    "shortDescription": "失恋の幻覚を描いた革命的標題交響曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 55,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1830年初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "ストーリーテリングの力。",
+    "listeningGuide": {
+      "totalTime": "55分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "mendelssohn-vc",
+    "composerId": "mendelssohn",
+    "title": "ヴァイオリン協奏曲",
+    "titleEn": "Violin Concerto",
+    "year": 1844,
+    "genre": "concerto",
+    "era": "romantic",
+    "duration": 28,
+    "difficulty": 1,
+    "shortDescription": "冒頭からVnが歌うロマン派最高傑作。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 28,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "友人ダーヴィトのために。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "結論ファーストのプレゼン。",
+    "listeningGuide": {
+      "totalTime": "28分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "romantic",
+      "famous",
+      "violin"
+    ]
+  },
+  {
+    "id": "mendelssohn-mnd",
+    "composerId": "mendelssohn",
+    "title": "真夏の夜の夢 序曲",
+    "titleEn": "A Midsummer Night's Dream Overture",
+    "year": 1826,
+    "genre": "orchestral",
+    "era": "romantic",
+    "duration": 12,
+    "difficulty": 1,
+    "shortDescription": "17歳で書かれた天才の証。シェイクスピアの妖精世界を描く。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 12,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1826年、17歳のメンデルスゾーンが作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "若い才能を信じる力。",
+    "listeningGuide": {
+      "totalTime": "12分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "schumann-pc",
+    "composerId": "schumann-r",
+    "title": "ピアノ協奏曲",
+    "titleEn": "Piano Concerto",
+    "year": 1845,
+    "genre": "concerto",
+    "era": "romantic",
+    "duration": 31,
+    "difficulty": 2,
+    "shortDescription": "クララへの愛の結晶。詩的な協奏曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 31,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "クララが初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "派手さより実質のリーダーシップ。",
+    "listeningGuide": {
+      "totalTime": "31分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "romantic",
+      "piano"
+    ]
+  },
+  {
+    "id": "schumann-dichterliebe",
+    "composerId": "schumann-r",
+    "title": "詩人の恋",
+    "titleEn": "Dichterliebe",
+    "year": 1840,
+    "genre": "vocal",
+    "era": "romantic",
+    "duration": 27,
+    "difficulty": 2,
+    "shortDescription": "ハイネの詩による16曲の歌曲集。ドイツ・リートの傑作。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 27,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1840年クララとの結婚年に作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "言葉と音楽の理想的なパートナーシップ。",
+    "listeningGuide": {
+      "totalTime": "27分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "vocal",
+      "romantic"
+    ]
+  },
+  {
+    "id": "dvorak-sym9",
+    "composerId": "dvorak",
+    "title": "新世界より",
+    "titleEn": "From the New World",
+    "year": 1893,
+    "genre": "symphony",
+    "era": "romantic",
+    "duration": 42,
+    "difficulty": 1,
+    "shortDescription": "郷愁の旋律は全人類共通の感動。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 42,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1893年NY滞在中に作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "異文化で自社らしさを再発見。",
+    "listeningGuide": {
+      "totalTime": "42分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "dvorak-vc",
+    "composerId": "dvorak",
+    "title": "チェロ協奏曲",
+    "titleEn": "Cello Concerto",
+    "year": 1895,
+    "genre": "concerto",
+    "era": "romantic",
+    "duration": 40,
+    "difficulty": 2,
+    "shortDescription": "ブラームスが嫉妬したチェロ協奏曲の最高傑作。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 40,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1895年アメリカで作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "トップが認める仕事が本物。",
+    "listeningGuide": {
+      "totalTime": "40分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "romantic",
+      "cello"
+    ]
+  },
+  {
+    "id": "verdi-traviata",
+    "composerId": "verdi",
+    "title": "椿姫",
+    "titleEn": "La traviata",
+    "year": 1853,
+    "genre": "opera",
+    "era": "romantic",
+    "duration": 130,
+    "difficulty": 1,
+    "shortDescription": "乾杯の歌で有名。高級娼婦の悲恋。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 130,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1853年ヴェネツィア初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "華やかさの裏の犠牲。",
+    "listeningGuide": {
+      "totalTime": "130分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "verdi-aida",
+    "composerId": "verdi",
+    "title": "アイーダ",
+    "titleEn": "Aida",
+    "year": 1871,
+    "genre": "opera",
+    "era": "romantic",
+    "duration": 150,
+    "difficulty": 2,
+    "shortDescription": "凱旋行進曲で有名。エジプトを舞台にした壮大なオペラ。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 150,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1871年カイロ初演。スエズ運河開通記念。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "国家プロジェクトの芸術。",
+    "listeningGuide": {
+      "totalTime": "150分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "puccini-boheme",
+    "composerId": "puccini",
+    "title": "ラ・ボエーム",
+    "titleEn": "La bohème",
+    "year": 1896,
+    "genre": "opera",
+    "era": "romantic",
+    "duration": 110,
+    "difficulty": 1,
+    "shortDescription": "パリの貧しい芸術家の青春と悲恋。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 110,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1896年トリノ初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "限られたリソースの創造性。",
+    "listeningGuide": {
+      "totalTime": "110分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "puccini-butterfly",
+    "composerId": "puccini",
+    "title": "蝶々夫人",
+    "titleEn": "Madama Butterfly",
+    "year": 1904,
+    "genre": "opera",
+    "era": "romantic",
+    "duration": 135,
+    "difficulty": 2,
+    "shortDescription": "日本を舞台にしたプッチーニの代表作。異文化の悲劇。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 135,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1904年ミラノ初演（改訂版1904年）。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "異文化理解の重要性。",
+    "listeningGuide": {
+      "totalTime": "135分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "tchaikovsky-pc1",
+    "composerId": "tchaikovsky",
+    "title": "ピアノ協奏曲第1番",
+    "titleEn": "Piano Concerto No.1",
+    "year": 1875,
+    "genre": "concerto",
+    "era": "romantic",
+    "duration": 35,
+    "difficulty": 1,
+    "shortDescription": "壮大なホルン序奏の世界最有名ピアノ協奏曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 35,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "師に酷評されたが大成功。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "権威に左右されない自信。",
+    "listeningGuide": {
+      "totalTime": "35分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "romantic",
+      "famous",
+      "piano"
+    ]
+  },
+  {
+    "id": "tchaikovsky-swan",
+    "composerId": "tchaikovsky",
+    "title": "白鳥の湖",
+    "titleEn": "Swan Lake",
+    "year": 1877,
+    "genre": "orchestral",
+    "era": "romantic",
+    "duration": 150,
+    "difficulty": 1,
+    "shortDescription": "バレエ最高傑作。白鳥の主題は最有名メロディー。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 150,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "初演失敗から復活。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "ピボットの重要性。",
+    "listeningGuide": {
+      "totalTime": "150分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "romantic",
+      "famous",
+      "ballet"
+    ]
+  },
+  {
+    "id": "tchaikovsky-1812",
+    "composerId": "tchaikovsky",
+    "title": "序曲「1812年」",
+    "titleEn": "1812 Overture",
+    "year": 1882,
+    "genre": "orchestral",
+    "era": "romantic",
+    "duration": 15,
+    "difficulty": 1,
+    "shortDescription": "大砲も使われる壮大な管弦楽曲。ナポレオン撃退を描く。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 15,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1882年初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "スケールの大きなビジョン。",
+    "listeningGuide": {
+      "totalTime": "15分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "grieg-pc",
+    "composerId": "grieg",
+    "title": "ピアノ協奏曲",
+    "titleEn": "Piano Concerto",
+    "year": 1868,
+    "genre": "concerto",
+    "era": "romantic",
+    "duration": 30,
+    "difficulty": 1,
+    "shortDescription": "北欧の壮大な冒頭の名作。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 30,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "25歳で作曲。リスト絶賛。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "ローカルからグローバルへ。",
+    "listeningGuide": {
+      "totalTime": "30分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "grieg-peer-gynt",
+    "composerId": "grieg",
+    "title": "ペール・ギュント組曲",
+    "titleEn": "Peer Gynt Suite",
+    "year": 1875,
+    "genre": "orchestral",
+    "era": "romantic",
+    "duration": 30,
+    "difficulty": 1,
+    "shortDescription": "朝、山の魔王の宮殿で。イプセンの劇付随音楽。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 30,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1875年イプセンの戯曲のために作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "物語に音楽の力を添える。",
+    "listeningGuide": {
+      "totalTime": "30分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "saint-saens-organ",
+    "composerId": "saint-saens",
+    "title": "交響曲第3番 オルガン付き",
+    "titleEn": "Organ Symphony",
+    "year": 1886,
+    "genre": "symphony",
+    "era": "romantic",
+    "duration": 36,
+    "difficulty": 2,
+    "shortDescription": "オルガンとピアノを加えた壮大な交響曲。映画「ベイブ」で有名。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 36,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1886年ロンドン初演。サン=サーンスの代表作。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "異なる要素の統合が新しい価値を生む。",
+    "listeningGuide": {
+      "totalTime": "36分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "saint-saens-carnival",
+    "composerId": "saint-saens",
+    "title": "動物の謝肉祭",
+    "titleEn": "Carnival of the Animals",
+    "year": 1886,
+    "genre": "chamber",
+    "era": "romantic",
+    "duration": 25,
+    "difficulty": 1,
+    "shortDescription": "「白鳥」で有名。動物たちのユーモラスな音楽的肖像。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 25,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1886年作曲。生前は公開を禁じた。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "ユーモアも真剣な芸術になる。",
+    "listeningGuide": {
+      "totalTime": "25分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "chamber",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "bruckner-sym7",
+    "composerId": "bruckner",
+    "title": "交響曲第7番",
+    "titleEn": "Symphony No.7",
+    "year": 1883,
+    "genre": "symphony",
+    "era": "romantic",
+    "duration": 65,
+    "difficulty": 3,
+    "shortDescription": "ブルックナーの最も人気のある交響曲。ワーグナー追悼のアダージョ。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 65,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1883年完成。第2楽章はワーグナーの死を悼んで書かれた。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "巨大なビジョンを粘り強く実現する。",
+    "listeningGuide": {
+      "totalTime": "65分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "romantic"
+    ]
+  },
+  {
+    "id": "ravel-bolero",
+    "composerId": "ravel",
+    "title": "ボレロ",
+    "titleEn": "Boléro",
+    "year": 1928,
+    "genre": "orchestral",
+    "era": "modern",
+    "duration": 17,
+    "difficulty": 1,
+    "shortDescription": "同じ旋律の延々たる繰り返しとクレッシェンド。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 17,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1928年バレリーナの依頼。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "小さく始めてスケールアップ。",
+    "listeningGuide": {
+      "totalTime": "17分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "modern",
+      "famous"
+    ]
+  },
+  {
+    "id": "ravel-daphnis",
+    "composerId": "ravel",
+    "title": "ダフニスとクロエ",
+    "titleEn": "Daphnis et Chloé",
+    "year": 1912,
+    "genre": "orchestral",
+    "era": "modern",
+    "duration": 55,
+    "difficulty": 3,
+    "shortDescription": "ラヴェルの最高傑作。オーケストレーションの極致。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 55,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1912年ディアギレフのバレエ・リュスのために。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "細部への徹底的なこだわり。",
+    "listeningGuide": {
+      "totalTime": "55分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "modern",
+      "masterpiece"
+    ]
+  },
+  {
+    "id": "debussy-clair",
+    "composerId": "debussy",
+    "title": "月の光",
+    "titleEn": "Clair de lune",
+    "year": 1905,
+    "genre": "piano",
+    "era": "modern",
+    "duration": 5,
+    "difficulty": 1,
+    "shortDescription": "月光が揺れる幻想的ピアノ曲。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 5,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ヴェルレーヌの詩に霊感。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "雰囲気で伝えるリーダーシップ。",
+    "listeningGuide": {
+      "totalTime": "5分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "piano",
+      "modern",
+      "famous"
+    ]
+  },
+  {
+    "id": "debussy-la-mer",
+    "composerId": "debussy",
+    "title": "海",
+    "titleEn": "La Mer",
+    "year": 1905,
+    "genre": "orchestral",
+    "era": "modern",
+    "duration": 24,
+    "difficulty": 3,
+    "shortDescription": "3つの交響的素描。印象主義オーケストラの頂点。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 24,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1905年完成。海への深い愛着。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "抽象的なビジョンを具体的に表現する力。",
+    "listeningGuide": {
+      "totalTime": "24分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "modern"
+    ]
+  },
+  {
+    "id": "mahler-sym5",
+    "composerId": "mahler",
+    "title": "交響曲第5番",
+    "titleEn": "Symphony No.5",
+    "year": 1902,
+    "genre": "symphony",
+    "era": "modern",
+    "duration": 72,
+    "difficulty": 3,
+    "shortDescription": "アダージェットは映画ヴェニスに死すで有名。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 72,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1902年完成。アルマへの愛。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "V字回復。",
+    "listeningGuide": {
+      "totalTime": "72分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "modern",
+      "famous"
+    ]
+  },
+  {
+    "id": "mahler-das-lied",
+    "composerId": "mahler",
+    "title": "大地の歌",
+    "titleEn": "Das Lied von der Erde",
+    "year": 1909,
+    "genre": "symphony",
+    "era": "modern",
+    "duration": 65,
+    "difficulty": 4,
+    "shortDescription": "交響曲と歌曲の融合。東洋の詩に基づく別れの音楽。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 65,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1909年完成。「第9番」を避けた迷信。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "東西文化の融合による新しい表現。",
+    "listeningGuide": {
+      "totalTime": "65分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "modern",
+      "masterpiece"
+    ]
+  },
+  {
+    "id": "strauss-zarathustra",
+    "composerId": "strauss-r",
+    "title": "ツァラトゥストラはかく語りき",
+    "titleEn": "Also sprach Zarathustra",
+    "year": 1896,
+    "genre": "orchestral",
+    "era": "modern",
+    "duration": 33,
+    "difficulty": 2,
+    "shortDescription": "2001年宇宙の旅で使われた壮大な冒頭。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 33,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ニーチェに基づく。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "第一印象の重要性。",
+    "listeningGuide": {
+      "totalTime": "33分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "modern",
+      "famous"
+    ]
+  },
+  {
+    "id": "strauss-rosenkavalier",
+    "composerId": "strauss-r",
+    "title": "ばらの騎士",
+    "titleEn": "Der Rosenkavalier",
+    "year": 1911,
+    "genre": "opera",
+    "era": "modern",
+    "duration": 190,
+    "difficulty": 3,
+    "shortDescription": "ウィーンの優雅さと哀愁に満ちたR.シュトラウスの代表的オペラ。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 190,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1911年ドレスデン初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "時代の終わりを優雅に受け入れる成熟。",
+    "listeningGuide": {
+      "totalTime": "190分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "modern"
+    ]
+  },
+  {
+    "id": "schoenberg-verklarte",
+    "composerId": "schoenberg",
+    "title": "浄夜",
+    "titleEn": "Verklärte Nacht",
+    "year": 1899,
+    "genre": "chamber",
+    "era": "modern",
+    "duration": 30,
+    "difficulty": 3,
+    "shortDescription": "後期ロマン派の抒情性と前衛への橋渡し。弦楽六重奏の傑作。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 30,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1899年作曲。デーメルの詩に基づく。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "過去と未来を繋ぐ架け橋。",
+    "listeningGuide": {
+      "totalTime": "30分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "chamber",
+      "modern"
+    ]
+  },
+  {
+    "id": "stravinsky-firebird",
+    "composerId": "stravinsky",
+    "title": "火の鳥",
+    "titleEn": "The Firebird",
+    "year": 1910,
+    "genre": "orchestral",
+    "era": "modern",
+    "duration": 45,
+    "difficulty": 2,
+    "shortDescription": "ストラヴィンスキーの出世作。華麗なオーケストレーション。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 45,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1910年パリ初演。ディアギレフのバレエ・リュス。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "デビュー作の重要性。",
+    "listeningGuide": {
+      "totalTime": "45分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "modern",
+      "famous",
+      "ballet"
+    ]
+  },
+  {
+    "id": "bartok-strings",
+    "composerId": "bartok",
+    "title": "弦楽器、打楽器とチェレスタのための音楽",
+    "titleEn": "Music for Strings, Percussion and Celesta",
+    "year": 1936,
+    "genre": "orchestral",
+    "era": "modern",
+    "duration": 26,
+    "difficulty": 4,
+    "shortDescription": "バルトーク最高傑作の一つ。建築的な構造美。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 26,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1936年バーゼル室内管弦楽団の委嘱。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "構造的な美しさが力になる。",
+    "listeningGuide": {
+      "totalTime": "26分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "modern",
+      "masterpiece"
+    ]
+  },
+  {
+    "id": "prokofiev-pc3",
+    "composerId": "prokofiev",
+    "title": "ピアノ協奏曲第3番",
+    "titleEn": "Piano Concerto No.3",
+    "year": 1921,
+    "genre": "concerto",
+    "era": "modern",
+    "duration": 28,
+    "difficulty": 3,
+    "shortDescription": "躍動感と抒情性が融合したプロコフィエフの代表作。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 28,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1921年完成。10年間のスケッチの集大成。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "長期的な準備が花開く瞬間。",
+    "listeningGuide": {
+      "totalTime": "28分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "modern",
+      "piano"
+    ]
+  },
+  {
+    "id": "prokofiev-romeo",
+    "composerId": "prokofiev",
+    "title": "ロミオとジュリエット",
+    "titleEn": "Romeo and Juliet",
+    "year": 1936,
+    "genre": "orchestral",
+    "era": "modern",
+    "duration": 50,
+    "difficulty": 2,
+    "shortDescription": "騎士たちの踊りは世界的に有名。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 50,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1936年作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "文化の衝突と融合。",
+    "listeningGuide": {
+      "totalTime": "50分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "modern",
+      "famous",
+      "ballet"
+    ]
+  },
+  {
+    "id": "shostakovich-sym5",
+    "composerId": "shostakovich",
+    "title": "交響曲第5番",
+    "titleEn": "Symphony No.5",
+    "year": 1937,
+    "genre": "symphony",
+    "era": "modern",
+    "duration": 45,
+    "difficulty": 2,
+    "shortDescription": "スターリン粛清下の「強いられた歓喜」。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 45,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1937年プラウダ批判後。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "制約の中で真意を伝える。",
+    "listeningGuide": {
+      "totalTime": "45分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "modern",
+      "famous"
+    ]
+  },
+  {
+    "id": "shostakovich-sq8",
+    "composerId": "shostakovich",
+    "title": "弦楽四重奏曲第8番",
+    "titleEn": "String Quartet No.8",
+    "year": 1960,
+    "genre": "chamber",
+    "era": "modern",
+    "duration": 20,
+    "difficulty": 3,
+    "shortDescription": "3日間で書かれた自伝的作品。DSCH音型が全体を貫く。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 20,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1960年ドレスデン訪問中に作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "個人の経験を普遍的芸術に昇華。",
+    "listeningGuide": {
+      "totalTime": "20分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "chamber",
+      "modern"
+    ]
+  },
+  {
+    "id": "sibelius-finlandia",
+    "composerId": "sibelius",
+    "title": "フィンランディア",
+    "titleEn": "Finlandia",
+    "year": 1899,
+    "genre": "orchestral",
+    "era": "modern",
+    "duration": 8,
+    "difficulty": 1,
+    "shortDescription": "フィンランド独立の象徴。第二の国歌。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 8,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1899年ロシアへの抵抗。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "ピンチはチャンス。",
+    "listeningGuide": {
+      "totalTime": "8分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "modern",
+      "famous"
+    ]
+  },
+  {
+    "id": "sibelius-vc",
+    "composerId": "sibelius",
+    "title": "ヴァイオリン協奏曲",
+    "titleEn": "Violin Concerto",
+    "year": 1903,
+    "genre": "concerto",
+    "era": "modern",
+    "duration": 32,
+    "difficulty": 3,
+    "shortDescription": "北欧の寒さと情熱が共存するヴァイオリン協奏曲の傑作。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 32,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1903年作曲。シベリウス自身がヴァイオリニストを諦めた経験。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "夢を形を変えて実現する力。",
+    "listeningGuide": {
+      "totalTime": "32分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "modern",
+      "violin"
+    ]
+  },
+  {
+    "id": "messiaen-turangalila",
+    "composerId": "messiaen",
+    "title": "トゥーランガリーラ交響曲",
+    "titleEn": "Turangalîla-Symphonie",
+    "year": 1948,
+    "genre": "symphony",
+    "era": "contemporary",
+    "duration": 80,
+    "difficulty": 4,
+    "shortDescription": "愛と歓喜のメシアン最大の管弦楽作品。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 80,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1948年委嘱。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "東西文化融合のイノベーション。",
+    "listeningGuide": {
+      "totalTime": "80分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "contemporary"
+    ]
+  },
+  {
+    "id": "messiaen-quartet",
+    "composerId": "messiaen",
+    "title": "世の終わりのための四重奏曲",
+    "titleEn": "Quatuor pour la fin du temps",
+    "year": 1941,
+    "genre": "chamber",
+    "era": "contemporary",
+    "duration": 50,
+    "difficulty": 4,
+    "shortDescription": "捕虜収容所で作曲・初演された奇跡の作品。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 50,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1941年ドイツの捕虜収容所で初演。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "極限状況での創造力。",
+    "listeningGuide": {
+      "totalTime": "50分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "chamber",
+      "contemporary",
+      "masterpiece"
+    ]
+  },
+  {
+    "id": "ligeti-atmospheres",
+    "composerId": "ligeti",
+    "title": "アトモスフェール",
+    "titleEn": "Atmosphères",
+    "year": 1961,
+    "genre": "orchestral",
+    "era": "contemporary",
+    "duration": 9,
+    "difficulty": 4,
+    "shortDescription": "メロディーもリズムもない音の雲。映画「2001年宇宙の旅」使用。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 9,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1961年作曲。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "既存の概念を全て捨てる勇気。",
+    "listeningGuide": {
+      "totalTime": "9分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "contemporary"
+    ]
+  },
+  {
+    "id": "penderecki-threnody",
+    "composerId": "penderecki",
+    "title": "広島の犠牲者に捧げる哀歌",
+    "titleEn": "Threnody for the Victims of Hiroshima",
+    "year": 1960,
+    "genre": "orchestral",
+    "era": "contemporary",
+    "duration": 9,
+    "difficulty": 4,
+    "shortDescription": "52の弦楽器が生み出す極限的な音響。反核のメッセージ。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 9,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1960年作曲。当初は「8分37秒」という無題だった。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "芸術による社会的メッセージ。",
+    "listeningGuide": {
+      "totalTime": "9分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "contemporary"
+    ]
+  },
+  {
+    "id": "part-spiegel",
+    "composerId": "part",
+    "title": "鏡の中の鏡",
+    "titleEn": "Spiegel im Spiegel",
+    "year": 1978,
+    "genre": "chamber",
+    "era": "contemporary",
+    "duration": 10,
+    "difficulty": 1,
+    "shortDescription": "究極のミニマル。無限の静寂を描く。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 10,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ティンティナブリ様式の傑作。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "引き算のデザイン。本質が現れる。",
+    "listeningGuide": {
+      "totalTime": "10分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "chamber",
+      "contemporary",
+      "minimalism"
+    ]
+  },
+  {
+    "id": "part-tabula",
+    "composerId": "part",
+    "title": "タブラ・ラサ",
+    "titleEn": "Tabula Rasa",
+    "year": 1977,
+    "genre": "orchestral",
+    "era": "contemporary",
+    "duration": 26,
+    "difficulty": 3,
+    "shortDescription": "白紙への回帰。ティンティナブリ様式の確立を告げる作品。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 26,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1977年作曲。ペルトの新しい出発点。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "リセットして再出発する力。",
+    "listeningGuide": {
+      "totalTime": "26分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "contemporary"
+    ]
+  },
+  {
+    "id": "takemitsu-november",
+    "composerId": "takemitsu",
+    "title": "ノヴェンバー・ステップス",
+    "titleEn": "November Steps",
+    "year": 1967,
+    "genre": "orchestral",
+    "era": "contemporary",
+    "duration": 20,
+    "difficulty": 4,
+    "shortDescription": "尺八と琵琶をオーケストラと共演させた武満徹の代表作。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 20,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1967年NYフィル125周年委嘱。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "対話のダイバーシティ経営。",
+    "listeningGuide": {
+      "totalTime": "20分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "contemporary",
+      "japanese"
+    ]
+  },
+  {
+    "id": "takemitsu-flock",
+    "composerId": "takemitsu",
+    "title": "鳥は星形の庭に降りる",
+    "titleEn": "A Flock Descends into the Pentagonal Garden",
+    "year": 1977,
+    "genre": "orchestral",
+    "era": "contemporary",
+    "duration": 12,
+    "difficulty": 3,
+    "shortDescription": "夢から着想を得た武満徹の代表的管弦楽作品。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": 12,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1977年作曲。夢の中で聴いた音楽。",
+    "musicalAnalysis": "",
+    "emotionalJourney": "",
+    "businessInsight": "無意識からのインスピレーション。",
+    "listeningGuide": {
+      "totalTime": "12分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "contemporary",
+      "japanese"
+    ]
   }
 ]
