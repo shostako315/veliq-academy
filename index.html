@@ -20,7 +20,20 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="assets/img/logo-veliq-academy.svg">
-</head>
+<style>
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.26s}
+@media(prefers-reduced-motion:reduce){
+::view-transition-old(root),::view-transition-new(root){animation:none}}
+@supports (animation-timeline: view()){
+ @media(prefers-reduced-motion:no-preference){
+  .card,.ans,.method,.note,.tw{animation:vq-rise .6s cubic-bezier(.22,1,.36,1) both;
+  animation-timeline:view();animation-range:entry 0% entry 38%}}}
+@keyframes vq-rise{from{opacity:.01;transform:translateY(13px)}to{opacity:1;transform:none}}
+h1,h2,h3{text-wrap:balance}
+::selection{background:rgba(184,152,78,.26)}
+:focus-visible{outline:2px solid #B8984E;outline-offset:2px;border-radius:2px}
+</style></head>
 <body>
 
   <!-- ローディング画面 -->
@@ -223,5 +236,5 @@
   <!-- アプリ起動 -->
   <script src="js/app.js"></script>
 
-</body>
+<footer style="padding:28px 20px;font-size:.72rem;opacity:.8;text-align:center"><a href="https://veliq.jp" style="color:inherit;border-bottom:1px solid currentColor;text-decoration:none">VELIQ</a><span style="opacity:.75"> — 何気ない日常を、豊かに</span></footer></body>
 </html>
