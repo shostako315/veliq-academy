@@ -161,6 +161,7 @@ const WorksCatalogModule = (() => {
             ${VeliqUI.badge(VeliqUI.eraName(work.era), 'era-' + work.era)}
             ${VeliqUI.badge(work.genre || '', 'default')}
             ${VeliqUI.keyName(work.key) ? VeliqUI.badge(VeliqUI.keyName(work.key), 'default') : ''}
+            ${work.opus && work.opus !== 'various' ? VeliqUI.badge(work.opus, 'default') : ''}
           </div>
           <h1 style="font-family:var(--font-serif); font-size:var(--font-size-3xl); color:var(--color-text-primary); margin-bottom:var(--space-2);">
             ${VeliqUI.escape(work.title)}
