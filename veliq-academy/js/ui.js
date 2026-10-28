@@ -188,6 +188,14 @@ const VeliqUI = (() => {
    * @param {string} eraId
    * @returns {string}
    */
+  // 調の表記：データの英字コード（e-minor, Eb-major, c#-minor）を日本語（ホ短調・変ホ長調・嬰ハ短調）にする
+  function keyName(k) {
+    const m = String(k || '').match(/^([A-Ga-g])(b|#)?-(major|minor)$/);
+    if (!m) return k === 'various' ? '' : String(k || '');
+    const J = { C: 'ハ', D: 'ニ', E: 'ホ', F: 'ヘ', G: 'ト', A: 'イ', B: 'ロ' };
+    return (m[2] === 'b' ? '変' : m[2] === '#' ? '嬰' : '') + J[m[1].toUpperCase()] + (m[3] === 'major' ? '長調' : '短調');
+  }
+
   function eraName(eraId) {
     const map = {
       ancient: '古代・中世',
@@ -279,7 +287,7 @@ const VeliqUI = (() => {
 
   return {
     render, escape, sanitize, skeleton, card, badge,
-    toast, modal, progressBar, eraColor, eraName, setTitle,
+    toast, modal, progressBar, eraColor, eraName, keyName, setTitle,
     loadData, startStudyTimer, formatStudyTime, initCardLinks, renderMarkdown
   };
 })();

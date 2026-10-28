@@ -160,7 +160,7 @@ const WorksCatalogModule = (() => {
           <div style="display:flex; gap:var(--space-3); margin-bottom:var(--space-4); flex-wrap:wrap;">
             ${VeliqUI.badge(VeliqUI.eraName(work.era), 'era-' + work.era)}
             ${VeliqUI.badge(work.genre || '', 'default')}
-            ${work.key ? VeliqUI.badge(work.key, 'default') : ''}
+            ${VeliqUI.keyName(work.key) ? VeliqUI.badge(VeliqUI.keyName(work.key), 'default') : ''}
           </div>
           <h1 style="font-family:var(--font-serif); font-size:var(--font-size-3xl); color:var(--color-text-primary); margin-bottom:var(--space-2);">
             ${VeliqUI.escape(work.title)}
@@ -193,7 +193,7 @@ const WorksCatalogModule = (() => {
                     </h4>
                     ${m.duration ? `<span style="font-size:var(--font-size-xs); color:var(--color-text-muted);">約${m.duration}分</span>` : ''}
                   </div>
-                  ${m.key ? `<p style="font-size:var(--font-size-xs); color:var(--color-gold-muted);">${VeliqUI.escape(m.key)}</p>` : ''}
+                  ${VeliqUI.keyName(m.key) ? `<p style="font-size:var(--font-size-xs); color:var(--color-gold-muted);">${VeliqUI.escape(VeliqUI.keyName(m.key))}</p>` : ''}
                   ${m.description ? `<p style="font-size:var(--font-size-sm); color:var(--color-text-secondary); margin-top:var(--space-2); line-height:var(--line-height-base);">${VeliqUI.escape(m.description)}</p>` : ''}
                   ${m.highlights && m.highlights.length > 0 ? `
                     <div class="tag-list" style="margin-top:var(--space-2);">
