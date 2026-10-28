@@ -3,8 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Veliq Academy — クラシック音楽史の教養を深める、ビジネスエグゼクティブのための学習プラットフォーム">
+  <meta name="description" content="Veliq Academy — クラシック音楽史を、時代年表・作曲家図鑑・作品カタログ・クイズで学ぶ学習サイト。運営：一般社団法人VariOrchestra">
   <title>Veliq Academy — The Art of Listening</title>
+  <link rel="canonical" href="https://veliq-academy.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Veliq Academy">
+  <meta property="og:title" content="Veliq Academy — The Art of Listening">
+  <meta property="og:description" content="クラシック音楽史を、時代年表・作曲家図鑑・作品カタログ・クイズで学ぶ学習サイト。">
+  <meta property="og:url" content="https://veliq-academy.com/">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
 
   <!-- Webフォント -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -146,14 +154,6 @@ h1,h2,h3{text-wrap:balance}
         </ul>
       </nav>
 
-      <!-- AI Maestroボタン -->
-      <div class="sidebar-ai-btn">
-        <button id="open-ai-maestro" class="btn-ai-maestro">
-          <span class="ai-icon">✦</span>
-          <span>AI Maestroに聞く</span>
-        </button>
-      </div>
-
       <!-- Veliq Eventsバナー -->
       <div class="sidebar-events-banner" id="events-banner"></div>
 
@@ -180,24 +180,14 @@ h1,h2,h3{text-wrap:balance}
 
       <!-- ページコンテンツ -->
       <div id="page-content" class="page-content"></div>
-    </main>
 
-    <!-- AI Maestroパネル -->
-    <div id="ai-maestro-panel" class="ai-panel" hidden>
-      <div class="ai-panel-header">
-        <h2 class="ai-panel-title">✦ AI Maestro</h2>
-        <button id="close-ai-maestro" class="btn-icon" aria-label="閉じる">×</button>
-      </div>
-      <div class="ai-panel-context" id="ai-context-info"></div>
-      <div class="ai-chat-messages" id="ai-messages"></div>
-      <div class="ai-panel-footer">
-        <div class="ai-quick-actions" id="ai-quick-actions"></div>
-        <div class="ai-input-area">
-          <textarea id="ai-input" rows="2" placeholder="音楽史について何でも聞いてください..."></textarea>
-          <button id="ai-send" class="btn-send">送信</button>
-        </div>
-      </div>
-    </div>
+      <footer class="site-footer">
+        <p>運営：一般社団法人VariOrchestra｜お問い合わせ：<a href="mailto:info@variorchestra.com">info@variorchestra.com</a>｜<a href="privacy.html">プライバシーポリシー</a></p>
+        <p>学習の記録はこの端末のブラウザにのみ保存され、運営者には送信されません。</p>
+        <p><a href="https://veliq-club.com/">Veliq Club に入会する</a></p>
+        <p class="site-footer-brand"><a href="https://veliq.jp">VELIQ</a><span> — 何気ない日常を、豊かに</span></p>
+      </footer>
+    </main>
 
     <!-- 検索オーバーレイ -->
     <div id="search-overlay" class="search-overlay" hidden></div>
@@ -229,12 +219,11 @@ h1,h2,h3{text-wrap:balance}
   <script src="js/modules/quiz.js"></script>
   <script src="js/modules/concert-companion.js"></script>
   <script src="js/modules/score-literacy.js"></script>
-  <script src="js/modules/ai-maestro.js"></script>
   <script src="js/modules/veliq-events.js"></script>
   <script src="js/modules/progress.js"></script>
 
   <!-- アプリ起動 -->
   <script src="js/app.js"></script>
 
-<footer style="padding:28px 20px;font-size:.72rem;opacity:.8;text-align:center"><a href="https://veliq.jp" style="color:inherit;border-bottom:1px solid currentColor;text-decoration:none">VELIQ</a><span style="opacity:.75"> — 何気ない日常を、豊かに</span></footer></body>
+</body>
 </html>

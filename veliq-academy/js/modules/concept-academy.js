@@ -194,23 +194,12 @@ const ConceptAcademyModule = (() => {
           </section>
         ` : ''}
 
-        <section class="section" style="text-align:center;">
-          <button class="btn-gold btn-lg" id="concept-ai-cta">
-            ✦ AI Maestroに${VeliqUI.escape(concept.title)}について聞く
-          </button>
-        </section>
       </div>
     `;
 
     VeliqUI.render(html);
     VeliqUI.initCardLinks(document.getElementById('page-content'));
 
-    document.getElementById('concept-ai-cta')?.addEventListener('click', () => {
-      if (typeof AIMaestroModule !== 'undefined') {
-        AIMaestroModule.openPanel();
-        AIMaestroModule.setContext('ユーザーは概念「' + concept.title + '」のページを閲覧中です。');
-      }
-    });
 
     VeliqState.update('progress.completedModules', m => {
       const list = m || [];

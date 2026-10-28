@@ -17,7 +17,7 @@ const WorksCatalogModule = (() => {
       <div class="works-list anim-fade-in">
         <section class="hero">
           <h1 class="hero-title">作品カタログ</h1>
-          <p class="hero-subtitle">${works.length}作品の名曲ガイド</p>
+          <p class="hero-subtitle">${works.length}作品を収録</p>
         </section>
 
         <div class="tab-filter" id="genre-filter">
@@ -281,23 +281,12 @@ const WorksCatalogModule = (() => {
           </section>
         ` : ''}
 
-        <section class="section" style="text-align:center;">
-          <button class="btn-gold btn-lg" id="work-ai-cta">
-            ✦ AI Maestroにこの曲について聞く
-          </button>
-        </section>
       </div>
     `;
 
     VeliqUI.render(html);
     VeliqUI.initCardLinks(document.getElementById('page-content'));
 
-    document.getElementById('work-ai-cta')?.addEventListener('click', () => {
-      if (typeof AIMaestroModule !== 'undefined') {
-        AIMaestroModule.openPanel();
-        AIMaestroModule.setContext(`ユーザーは作品「${work.title}」（${composer?.name || ''}作曲、${work.year || ''}年）のページを閲覧中です。`);
-      }
-    });
 
     return stopTimer;
   }

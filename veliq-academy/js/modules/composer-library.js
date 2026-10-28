@@ -16,7 +16,7 @@ const ComposerLibraryModule = (() => {
       <div class="composers-list anim-fade-in">
         <section class="hero">
           <h1 class="hero-title">作曲家図鑑</h1>
-          <p class="hero-subtitle">${composers.length}名の偉大な作曲家たちの世界</p>
+          <p class="hero-subtitle">${composers.length}名を収録</p>
         </section>
 
         <div class="tab-filter" id="era-filter">
@@ -241,23 +241,12 @@ const ComposerLibraryModule = (() => {
           </section>
         ` : ''}
 
-        <section class="section" style="text-align:center;">
-          <button class="btn-gold btn-lg" id="composer-ai-cta">
-            ✦ AI Maestroに${VeliqUI.escape(composer.name)}について聞く
-          </button>
-        </section>
       </div>
     `;
 
     VeliqUI.render(html);
     VeliqUI.initCardLinks(document.getElementById('page-content'));
 
-    document.getElementById('composer-ai-cta')?.addEventListener('click', () => {
-      if (typeof AIMaestroModule !== 'undefined') {
-        AIMaestroModule.openPanel();
-        AIMaestroModule.setContext(`ユーザーは作曲家「${composer.name}」のページを閲覧中です。`);
-      }
-    });
 
     VeliqState.update('progress.completedModules', m => {
       const list = m || [];

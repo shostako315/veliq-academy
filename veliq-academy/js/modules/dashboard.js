@@ -19,7 +19,6 @@ const DashboardModule = (() => {
         <!-- ウェルカムヒーロー -->
         <section class="dashboard-hero card card--hero">
           <h1 class="hero-title">ようこそ、${VeliqUI.escape(userName)}さん</h1>
-          <p class="hero-subtitle">${getDailyGreeting()}</p>
         </section>
 
         <!-- 学習統計 -->
@@ -219,20 +218,6 @@ const DashboardModule = (() => {
     `;
   }
 
-  function getDailyGreeting() {
-    const greetings = [
-      '音楽は時間の芸術。今日も新しい発見を。',
-      '偉大な作曲家たちの世界へようこそ。',
-      '知識は最高の教養。今日の学びを楽しんでください。',
-      '音楽を知ることは、人間を知ること。',
-      'クラシック音楽の旅を続けましょう。',
-      '音の向こうに広がる歴史を探求しよう。',
-      '今日も素晴らしい音楽体験を。',
-    ];
-    const dayIndex = Math.floor(Date.now() / 86400000) % greetings.length;
-    return greetings[dayIndex];
-  }
-
   /**
    * 初回セットアップウィザード
    */
@@ -296,7 +281,7 @@ const DashboardModule = (() => {
       VeliqState.set('user.createdAt', Date.now());
 
       modal.remove();
-      VeliqUI.toast('セットアップ完了！学習を始めましょう。', 'success');
+      if (typeof ProgressModule !== 'undefined') ProgressModule.updateSidebar();
       render();
     });
   }

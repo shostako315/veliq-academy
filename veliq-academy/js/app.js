@@ -68,6 +68,11 @@ async function initApp() {
     if (typeof ProgressModule !== 'undefined') {
       ProgressModule.checkBadges();
       ProgressModule.updateSidebar();
+      let sidebarTimer;
+      VeliqState.on('*', () => {
+        clearTimeout(sidebarTimer);
+        sidebarTimer = setTimeout(() => ProgressModule.updateSidebar(), 100);
+      });
     }
 
     if (typeof VeliqEventsModule !== 'undefined') {
@@ -84,13 +89,6 @@ async function initApp() {
 }
 
 function initGlobalEvents() {
-  document.getElementById('open-ai-maestro')?.addEventListener('click', () => {
-    if (typeof AIMaestroModule !== 'undefined') AIMaestroModule.openPanel();
-  });
-  document.getElementById('close-ai-maestro')?.addEventListener('click', () => {
-    if (typeof AIMaestroModule !== 'undefined') AIMaestroModule.closePanel();
-  });
-
   document.getElementById('sidebar-toggle')?.addEventListener('click', () => {
     document.getElementById('sidebar').classList.toggle('open');
   });

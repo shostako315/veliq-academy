@@ -21,22 +21,9 @@ const ConcertCompanionModule = (() => {
       <div class="anim-fade-in">
         <section class="hero">
           <h1 class="hero-title">コンサート準備</h1>
-          <p class="hero-subtitle">コンサートをより深く楽しむための事前ブリーフィング</p>
+          <p class="hero-subtitle">今後の公演の曲目と、作品の検索</p>
         </section>
 
-        <section class="section">
-          <h2 class="section-title">プログラムからブリーフィングを生成</h2>
-          <p style="color:var(--color-text-secondary); margin-bottom:var(--space-4);">
-            コンサートのプログラムをペーストすると、AI Maestroが聴きどころや背景知識をまとめます。
-          </p>
-          <div style="margin-bottom:var(--space-4);">
-            <textarea id="concert-program-input" class="form-input"
-              rows="6" placeholder="例：&#10;ベートーヴェン：交響曲第5番ハ短調 Op.67&#10;ブラームス：交響曲第1番ハ短調 Op.68"
-              style="width:100%; resize:vertical;"></textarea>
-          </div>
-          <button class="btn-gold" id="generate-brief-btn">ブリーフィングを生成</button>
-          <div id="brief-result" style="margin-top:var(--space-6);"></div>
-        </section>
 
         <section class="section">
           <h2 class="section-title">作品を検索</h2>
@@ -69,7 +56,7 @@ const ConcertCompanionModule = (() => {
                     <div style="margin-top:var(--space-3);">
                       <h4 style="font-size:var(--font-size-sm); color:var(--color-gold-primary); margin-bottom:var(--space-2);">プログラム</h4>
                       ${ev.program.map(item => `
-                        <div class="card card--compact card--clickable" data-href="#/works/${VeliqUI.escape(item.workId || '')}"
+                        <div class="card card--compact${item.workId ? ' card--clickable' : ''}"${item.workId ? ` data-href="#/works/${VeliqUI.escape(item.workId)}"` : ''}
                              style="margin-bottom:var(--space-2);">
                           <p style="color:var(--color-text-primary); font-size:var(--font-size-sm);">${VeliqUI.escape(item.title)}</p>
                         </div>
@@ -96,39 +83,6 @@ const ConcertCompanionModule = (() => {
     const pageContent = document.getElementById('page-content');
     VeliqUI.initCardLinks(pageContent);
 
-    document.getElementById('generate-brief-btn')?.addEventListener('click', () => {
-      const textarea = document.getElementById('concert-program-input');
-      const resultDiv = document.getElementById('brief-result');
-      if (!textarea || !resultDiv) return;
-      const text = textarea.value.trim();
-      if (!text) {
-        VeliqUI.toast('プログラムを入力してください', 'warning');
-        return;
-      }
-      resultDiv.innerHTML = VeliqUI.skeleton(6);
-
-      if (typeof AIMaestroModule !== 'undefined' && AIMaestroModule.generateConcertBrief) {
-        AIMaestroModule.generateConcertBrief(text).then(() => {
-          resultDiv.innerHTML = `
-            <div class="card card--gold">
-              <p style="color:var(--color-text-secondary);">ブリーフィングがAI Maestroパネルに表示されます。パネルをご確認ください。</p>
-            </div>
-          `;
-        }).catch(() => {
-          resultDiv.innerHTML = `
-            <div class="card">
-              <p style="color:var(--color-text-muted);">ブリーフィングの生成に失敗しました。AI Maestroの設定を確認してください。</p>
-            </div>
-          `;
-        });
-      } else {
-        resultDiv.innerHTML = `
-          <div class="card">
-            <p style="color:var(--color-text-muted);">AI Maestroモジュールが利用できません。</p>
-          </div>
-        `;
-      }
-    });
 
     const searchInput = document.getElementById('work-search-input');
     if (searchInput) {

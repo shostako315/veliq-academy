@@ -1,6 +1,6 @@
 /**
  * learning-paths.js — 学習パス
- * URL: #/learning-paths, #/learning-paths/:id
+ * URL: #/paths, #/paths/:id
  */
 const LearningPathsModule = (() => {
 
@@ -104,10 +104,10 @@ const LearningPathsModule = (() => {
               ${paths.filter(p => enrolled.includes(p.id)).map(p => {
                 const prog = getPathProgress(p);
                 return `
-                  <div class="card card--clickable card--gold" data-href="#/learning-paths/${VeliqUI.escape(p.id)}">
+                  <div class="card card--clickable card--gold" data-href="#/paths/${VeliqUI.escape(p.id)}">
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:var(--space-2);">
                       ${VeliqUI.badge(levelLabels[p.level] || p.level, 'default')}
-                      <span style="font-size:var(--font-size-xs); color:var(--color-text-muted);">${VeliqUI.escape(String(p.estimatedHours))}時間</span>
+                      <span style="font-size:var(--font-size-xs); color:var(--color-text-muted);">約${VeliqUI.formatStudyTime(p.lessons.reduce((t, l) => t + (l.estimatedMinutes || 0), 0) * 60)}</span>
                     </div>
                     <h3 class="card-title">${VeliqUI.escape(p.title)}</h3>
                     <p class="card-subtitle">${VeliqUI.escape(p.subtitle)}</p>
@@ -126,7 +126,7 @@ const LearningPathsModule = (() => {
               const prog = getPathProgress(p);
               const enrolledFlag = enrolled.includes(p.id);
               return `
-                <div class="card card--clickable" data-href="#/learning-paths/${VeliqUI.escape(p.id)}"
+                <div class="card card--clickable" data-href="#/paths/${VeliqUI.escape(p.id)}"
                      style="border-left:3px solid var(--color-gold-primary);">
                   <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:var(--space-2);">
                     <div style="display:flex; gap:var(--space-2); align-items:center;">
@@ -134,7 +134,7 @@ const LearningPathsModule = (() => {
                       ${VeliqUI.badge(levelLabels[p.level] || p.level, 'default')}
                     </div>
                     <span style="font-size:var(--font-size-xs); color:var(--color-text-muted);">
-                      ${VeliqUI.escape(String(p.estimatedHours))}時間 / ${VeliqUI.escape(String(p.lessons.length))}レッスン
+                      約${VeliqUI.formatStudyTime(p.lessons.reduce((t, l) => t + (l.estimatedMinutes || 0), 0) * 60)} / ${VeliqUI.escape(String(p.lessons.length))}レッスン
                     </span>
                   </div>
                   <h3 class="card-title">${VeliqUI.escape(p.title)}</h3>
@@ -170,7 +170,7 @@ const LearningPathsModule = (() => {
 
     const html = `
       <div class="anim-fade-in">
-        <a href="#/learning-paths" style="display:inline-flex; align-items:center; gap:var(--space-2); color:var(--color-text-muted); font-size:var(--font-size-sm); margin-bottom:var(--space-6);">
+        <a href="#/paths" style="display:inline-flex; align-items:center; gap:var(--space-2); color:var(--color-text-muted); font-size:var(--font-size-sm); margin-bottom:var(--space-6);">
           ← 学習パス一覧に戻る
         </a>
 
@@ -179,7 +179,7 @@ const LearningPathsModule = (() => {
             <span style="font-size:var(--font-size-3xl);">${VeliqUI.escape(path.icon)}</span>
             ${VeliqUI.badge(levelLabels[path.level] || path.level, 'default')}
             <span style="font-size:var(--font-size-sm); color:var(--color-text-muted);">
-              約${VeliqUI.escape(String(path.estimatedHours))}時間
+              約${VeliqUI.formatStudyTime(path.lessons.reduce((t, l) => t + (l.estimatedMinutes || 0), 0) * 60)}
             </span>
           </div>
           <h1 style="font-family:var(--font-serif); font-size:var(--font-size-3xl); color:var(--color-text-primary); margin-bottom:var(--space-2);">

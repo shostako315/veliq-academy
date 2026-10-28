@@ -1,0 +1,21 @@
+# Veliq Academy
+
+> クラシック音楽史を、時代年表・作曲家図鑑・作品カタログ・クイズで学ぶ日本語の学習サイト。運営:一般社団法人VariOrchestra(info@variorchestra.com)。
+
+本体は1ページのWebアプリ(https://veliq-academy.com/)で、画面は「#/」以下のハッシュで切り替わります。内容はすべて次のJSONファイルから読み込んでおり、機械可読の形で参照できます。
+
+## データ
+- [作曲家](https://veliq-academy.com/data/composers.json): 49名。生没年・出身地・時代・略歴・代表作・師弟関係
+- [作品](https://veliq-academy.com/data/works.json): 92作品。作曲年・ジャンル・楽章・歴史的背景・聴きどころ
+- [時代](https://veliq-academy.com/data/eras.json): 古代・中世(〜1400年)/ルネサンス(1400–1600)/バロック(1600–1750)/古典派(1750–1820)/ロマン派(1820–1900)/近代(1900–1945)/現代(1945〜)の7区分
+- [年表](https://veliq-academy.com/data/timeline-events.json): 年表の出来事100件
+- [概念](https://veliq-academy.com/data/concepts.json): 対位法・ソナタ形式など8項目
+- [学習パス](https://veliq-academy.com/data/learning-paths.json): 4コース
+- [クイズ](https://veliq-academy.com/data/quiz-questions.json): 115問(4択、解説つき)
+
+## 画面
+- [ダッシュボード](https://veliq-academy.com/#/dashboard) / [時代年表](https://veliq-academy.com/#/timeline) / [作曲家図鑑](https://veliq-academy.com/#/composers) / [作品カタログ](https://veliq-academy.com/#/works) / [時代を学ぶ](https://veliq-academy.com/#/eras) / [概念アカデミー](https://veliq-academy.com/#/concepts) / [鑑賞ラボ](https://veliq-academy.com/#/listening) / [学習パス](https://veliq-academy.com/#/paths) / [クイズ](https://veliq-academy.com/#/quiz) / [コンサート準備](https://veliq-academy.com/#/concert) / [楽譜入門](https://veliq-academy.com/#/score)
+
+## 運営
+- [プライバシーポリシー](https://veliq-academy.com/privacy.html): 学習の記録はブラウザのlocalStorageにのみ保存し、運営者には送信しません
+- 姉妹サイト: [VELIQ](https://veliq.jp/) / [Veliq Club](https://veliq-club.com/)

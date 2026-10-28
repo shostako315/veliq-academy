@@ -14,7 +14,7 @@ const EraDeepDiveModule = (() => {
       <div class="eras-list anim-fade-in">
         <section class="hero">
           <h1 class="hero-title">時代を学ぶ</h1>
-          <p class="hero-subtitle">古代から現代まで、音楽史の壮大な物語を辿る</p>
+          <p class="hero-subtitle">古代から現代まで、7つの時代</p>
         </section>
 
         <div class="card-grid stagger-children">
@@ -222,24 +222,12 @@ const EraDeepDiveModule = (() => {
           ` : '<div style="flex:1;"></div>'}
         </section>
 
-        <!-- AI Maestro CTA -->
-        <section class="section" style="text-align:center;">
-          <button class="btn-gold btn-lg" id="era-ai-cta">
-            ✦ AI Maestroにこの時代について聞く
-          </button>
-        </section>
       </div>
     `;
 
     VeliqUI.render(html);
     VeliqUI.initCardLinks(document.getElementById('page-content'));
 
-    document.getElementById('era-ai-cta')?.addEventListener('click', () => {
-      if (typeof AIMaestroModule !== 'undefined') {
-        AIMaestroModule.openPanel();
-        AIMaestroModule.setContext(`ユーザーは「${era.name}（${era.period}）」のページを閲覧中です。`);
-      }
-    });
 
     markModuleCompleted('era-' + eraId);
     return stopTimer;

@@ -18,7 +18,7 @@ const QuizModule = (() => {
       <div class="quiz-page anim-fade-in">
         <section class="hero">
           <h1 class="hero-title">クイズ</h1>
-          <p class="hero-subtitle">知識を試して理解を深めよう</p>
+          <p class="hero-subtitle">${(window.VA_DATA?.quizQuestions || []).length}問から10問を出題します</p>
         </section>
 
         <div id="quiz-setup">
@@ -27,6 +27,8 @@ const QuizModule = (() => {
               <h4 style="color:var(--color-gold-primary); margin-bottom:var(--space-3);">時代を選ぶ</h4>
               <div class="tab-filter" id="quiz-era-filter" style="margin-bottom:0;">
                 <button class="tab-filter-btn active" data-era="all">すべて</button>
+                <button class="tab-filter-btn" data-era="ancient">古代・中世</button>
+                <button class="tab-filter-btn" data-era="renaissance">ルネサンス</button>
                 <button class="tab-filter-btn" data-era="baroque">バロック</button>
                 <button class="tab-filter-btn" data-era="classical">古典派</button>
                 <button class="tab-filter-btn" data-era="romantic">ロマン派</button>
@@ -226,11 +228,6 @@ const QuizModule = (() => {
     result.hidden = false;
 
     const pct = Math.round((score / currentQuestions.length) * 100);
-    let message = '';
-    if (pct >= 90) message = '素晴らしい！音楽史の教養は申し分ありません。';
-    else if (pct >= 70) message = 'よくできました！さらに深く学んでいきましょう。';
-    else if (pct >= 50) message = '基礎は身についています。復習で知識を固めましょう。';
-    else message = '学びの旅はまだ始まったばかり。各時代のページで復習しましょう。';
 
     result.innerHTML = `
       <div class="anim-scale-in" style="text-align:center;">
@@ -240,9 +237,6 @@ const QuizModule = (() => {
           </h2>
           <div class="stat-value" style="font-size:4rem;">${score} / ${currentQuestions.length}</div>
           <div style="font-size:var(--font-size-2xl); color:var(--color-text-secondary); margin:var(--space-3) 0;">${pct}%</div>
-          <p style="font-size:var(--font-size-base); color:var(--color-text-secondary); line-height:var(--line-height-base);">
-            ${VeliqUI.escape(message)}
-          </p>
         </div>
 
         <div style="display:flex; gap:var(--space-4); justify-content:center; flex-wrap:wrap;">

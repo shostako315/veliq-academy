@@ -190,7 +190,7 @@ const VeliqUI = (() => {
    */
   function eraName(eraId) {
     const map = {
-      ancient: '古代',
+      ancient: '古代・中世',
       renaissance: 'ルネサンス',
       baroque: 'バロック',
       classical: '古典派',

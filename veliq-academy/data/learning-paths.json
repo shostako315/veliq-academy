@@ -1,33 +1,28 @@
 [
   {
     "id": "path-fast-track",
-    "title": "Fast Track：ビジネス教養12時間コース",
+    "title": "Fast Track：ビジネス教養コース",
     "subtitle": "接待・会食・コンサートでクラシックを語れるようになる最短ルート",
     "level": "beginner",
-    "estimatedHours": 12,
+    "estimatedHours": 2.8,
     "icon": "→",
     "lessons": [
       {
-        "id": "ft-01",
-        "order": 1,
-        "title": "クラシック音楽とは何か：5分で掴む全体像",
-        "type": "article",
-        "contentId": "article-what-is-classical",
-        "estimatedMinutes": 10,
-        "required": true
-      },
-      {
         "id": "ft-02",
-        "order": 2,
+        "order": 1,
         "title": "バッハ〜ベートーヴェン：教養人が知るべき3人",
         "type": "multi-composer",
-        "composerIds": ["bach-js", "mozart-wa", "beethoven"],
+        "composerIds": [
+          "bach-js",
+          "mozart-wa",
+          "beethoven"
+        ],
         "estimatedMinutes": 30,
         "required": true
       },
       {
         "id": "ft-03",
-        "order": 3,
+        "order": 2,
         "title": "交響曲の基礎：4楽章の構造を知る",
         "type": "concept",
         "contentId": "concept-symphony",
@@ -36,7 +31,7 @@
       },
       {
         "id": "ft-04",
-        "order": 4,
+        "order": 3,
         "title": "ベートーヴェン「運命」を聴く",
         "type": "listening",
         "workId": "beethoven-symphony-5",
@@ -45,7 +40,7 @@
       },
       {
         "id": "ft-05",
-        "order": 5,
+        "order": 4,
         "title": "バロックの世界：バッハとヴィヴァルディ",
         "type": "era",
         "eraId": "baroque",
@@ -54,46 +49,40 @@
       },
       {
         "id": "ft-06",
-        "order": 6,
+        "order": 5,
         "title": "ロマン派入門：ショパンとリスト",
         "type": "multi-composer",
-        "composerIds": ["chopin", "liszt"],
+        "composerIds": [
+          "chopin",
+          "liszt"
+        ],
         "estimatedMinutes": 25,
         "required": true
       },
       {
         "id": "ft-07",
-        "order": 7,
+        "order": 6,
         "title": "オペラの基礎：ヴェルディとプッチーニ",
         "type": "multi-composer",
-        "composerIds": ["verdi", "puccini"],
+        "composerIds": [
+          "verdi",
+          "puccini"
+        ],
         "estimatedMinutes": 25,
         "required": false
       },
       {
-        "id": "ft-08",
-        "order": 8,
-        "title": "コンサートの楽しみ方ガイド",
-        "type": "article",
-        "contentId": "article-concert-guide",
-        "estimatedMinutes": 10,
-        "required": true
-      },
-      {
-        "id": "ft-09",
-        "order": 9,
-        "title": "会食で使えるクラシック音楽の話題",
-        "type": "article",
-        "contentId": "article-dinner-topics",
-        "estimatedMinutes": 15,
-        "required": true
-      },
-      {
         "id": "ft-10",
-        "order": 10,
+        "order": 7,
         "title": "総合クイズ：教養力チェック",
         "type": "quiz",
-        "quizIds": ["q-baroque-001", "q-baroque-002", "q-classical-001", "q-classical-002", "q-romantic-001"],
+        "quizIds": [
+          "q-baroque-001",
+          "q-baroque-002",
+          "q-classical-001",
+          "q-classical-002",
+          "q-romantic-001"
+        ],
         "estimatedMinutes": 10,
         "required": true
       }
@@ -104,7 +93,7 @@
     "title": "バロック音楽マスター",
     "subtitle": "対位法と通奏低音の黄金時代を深く学ぶ",
     "level": "intermediate",
-    "estimatedHours": 8,
+    "estimatedHours": 2.3,
     "icon": "♩",
     "lessons": [
       {
@@ -148,7 +137,11 @@
         "order": 5,
         "title": "バロック・クイズ",
         "type": "quiz",
-        "quizIds": ["q-baroque-001", "q-baroque-002", "q-baroque-003"],
+        "quizIds": [
+          "q-baroque-001",
+          "q-baroque-002",
+          "q-baroque-003"
+        ],
         "estimatedMinutes": 10,
         "required": true
       }
@@ -159,7 +152,7 @@
     "title": "ロマン派への旅",
     "subtitle": "感情表現の革命を体験する",
     "level": "intermediate",
-    "estimatedHours": 10,
+    "estimatedHours": 3.1,
     "icon": "◆",
     "lessons": [
       {
@@ -212,7 +205,11 @@
         "order": 6,
         "title": "ロマン派クイズ",
         "type": "quiz",
-        "quizIds": ["q-romantic-001", "q-romantic-002", "q-romantic-003"],
+        "quizIds": [
+          "q-romantic-001",
+          "q-romantic-002",
+          "q-romantic-003"
+        ],
         "estimatedMinutes": 10,
         "required": true
       }
@@ -223,7 +220,7 @@
     "title": "近代音楽の冒険",
     "subtitle": "調性の崩壊から新しい音の世界へ",
     "level": "advanced",
-    "estimatedHours": 8,
+    "estimatedHours": 2.3,
     "icon": "◇",
     "lessons": [
       {
@@ -267,7 +264,11 @@
         "order": 5,
         "title": "近代音楽クイズ",
         "type": "quiz",
-        "quizIds": ["q-modern-001", "q-modern-002", "q-modern-003"],
+        "quizIds": [
+          "q-modern-001",
+          "q-modern-002",
+          "q-modern-003"
+        ],
         "estimatedMinutes": 10,
         "required": true
       }

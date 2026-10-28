@@ -4,7 +4,7 @@
     {
       "name": "veliq-academy",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["http-server", ".", "-p", "8080", "-c-1", "--cors"],
+      "runtimeArgs": ["http-server", "veliq-academy", "-p", "8080", "-c-1", "--cors"],
       "port": 8080
     }
   ]

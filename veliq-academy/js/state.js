@@ -36,16 +36,9 @@ const defaultState = {
     notes: {},
   },
 
-  aiMaestro: {
-    history: [],
-    sessionContext: null,
-    apiKey: '',
-  },
-
   ui: {
     sidebarOpen: true,
     currentRoute: 'dashboard',
-    aiPanelOpen: false,
     theme: 'dark',
   }
 };
@@ -57,6 +50,12 @@ const VeliqState = (() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
       state = saved ? deepMerge(defaultState, JSON.parse(saved)) : deepCopy(defaultState);
+      // 旧版で保存されたAI Maestroのデータ（APIキー・会話履歴）は消去する
+      if (state.aiMaestro || (state.ui && 'aiPanelOpen' in state.ui)) {
+        delete state.aiMaestro;
+        if (state.ui) delete state.ui.aiPanelOpen;
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      }
     } catch {
       state = deepCopy(defaultState);
     }

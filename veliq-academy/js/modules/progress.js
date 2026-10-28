@@ -47,7 +47,7 @@ const ProgressModule = (() => {
       <div class="progress-page anim-fade-in">
         <section class="hero">
           <h1 class="hero-title">学習進捗</h1>
-          <p class="hero-subtitle">あなたの学習の歩みを確認しましょう</p>
+          <p class="hero-subtitle">この端末に保存された記録です</p>
         </section>
 
         <!-- 統計 -->

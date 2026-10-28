@@ -74,11 +74,6 @@ const ScoreLiteracyModule = (() => {
           `).join('')}
         </div>
 
-        <section class="section" style="margin-top:var(--space-10); text-align:center;">
-          <button class="btn-gold btn-lg" id="score-ai-cta">
-            ✦ AI Maestroに楽譜について聞く
-          </button>
-        </section>
       </div>
     `;
 
@@ -97,12 +92,6 @@ const ScoreLiteracyModule = (() => {
       });
     });
 
-    document.getElementById('score-ai-cta')?.addEventListener('click', () => {
-      if (typeof AIMaestroModule !== 'undefined') {
-        AIMaestroModule.openPanel();
-        AIMaestroModule.setContext('ユーザーは「楽譜入門」ページを閲覧中です。');
-      }
-    });
 
     return stopTimer;
   }

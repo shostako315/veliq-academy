@@ -243,6 +243,22 @@
   margin: 0 auto;
 }
 
+/* ── フッター（運営者表記） ── */
+.site-footer {
+  max-width: var(--content-max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-10) var(--space-10);
+  border-top: 1px solid var(--color-border-primary);
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-base);
+  color: var(--color-text-muted);
+}
+.site-footer p + p { margin-top: var(--space-2); }
+.site-footer a { color: var(--color-text-secondary); text-decoration: underline; text-underline-offset: 2px; }
+.site-footer a:hover { color: var(--color-gold-primary); }
+.site-footer-brand a { text-decoration: none; border-bottom: 1px solid currentColor; }
+
 /* ── カードグリッド ── */
 .card-grid {
   display: grid;
@@ -513,6 +529,10 @@
 
   .page-content {
     padding: var(--space-4) var(--space-4);
+  }
+
+  .site-footer {
+    padding: var(--space-6) var(--space-4) var(--space-8);
   }
 
   .ai-panel {
