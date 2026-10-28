@@ -4,14 +4,30 @@
     "era": "ancient",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "グレゴリオ聖歌の特徴として正しいものはどれですか？",
+    "question": "グレゴリオ聖歌の歌い方として正しいものはどれでしょう。",
     "options": [
-      { "id": "a", "text": "単旋律（モノフォニー）である", "correct": true },
-      { "id": "b", "text": "4声部のポリフォニーである", "correct": false },
-      { "id": "c", "text": "オーケストラ伴奏がある", "correct": false },
-      { "id": "d", "text": "日本語の歌詞で歌われる", "correct": false }
+      {
+        "id": "a",
+        "text": "四声部の合唱",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "各地の言葉による斉唱",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "オルガン伴奏付きの独唱",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "伴奏なしの単旋律",
+        "correct": true
+      }
     ],
-    "explanation": "グレゴリオ聖歌は単旋律（モノフォニー）のラテン語聖歌で、カトリック教会の典礼で歌われました。楽器伴奏なしの「ア・カペラ」が基本です。",
+    "explanation": "グレゴリオ聖歌は、伴奏なしの単旋律で歌われるラテン語の聖歌です。名は教皇グレゴリウス1世にちなみますが、今の形にまとまったのは8世紀以降とされます。",
     "relatedId": null
   },
   {
@@ -19,59 +35,123 @@
     "era": "ancient",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "「ドレミファソラシド」の原型を考案したとされる中世の音楽理論家は誰ですか？",
+    "question": "ドレミの階名のもとを考案したとされる中世の修道士の名前は何でしょう。",
     "options": [
-      { "id": "a", "text": "グイード・ダレッツォ", "correct": true },
-      { "id": "b", "text": "ピタゴラス", "correct": false },
-      { "id": "c", "text": "ボエティウス", "correct": false },
-      { "id": "d", "text": "教皇グレゴリウス1世", "correct": false }
+      {
+        "id": "a",
+        "text": "ペロタン",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "レオナン",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ボエティウス",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "グイード・ダレッツォ",
+        "correct": true
+      }
     ],
-    "explanation": "11世紀のイタリアの修道士グイード・ダレッツォが、ラテン語の讃歌「聖ヨハネ賛歌」の各行の最初の音節（Ut, Re, Mi, Fa, Sol, La）を音名として使用することを提案しました。",
+    "explanation": "11世紀イタリアの修道士グイードは、聖歌「Ut queant laxis」の各句の頭の音節Ut・Re・Mi・Fa・Sol・Laを階名に用いました。Utは後にDoに替わります。",
     "relatedId": null
   },
   {
     "id": "q-ancient-003",
     "era": "ancient",
-    "difficulty": 2,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "ピタゴラスは弦の長さと音程の関係を数学的に発見した。この発見に該当するものはどれですか？",
+    "question": "弦の長さを2:1にすると生まれる音程はどれでしょう。",
     "options": [
-      { "id": "a", "text": "弦の長さを2:1にするとオクターヴになる", "correct": true },
-      { "id": "b", "text": "弦の太さだけが音高を決定する", "correct": false },
-      { "id": "c", "text": "弦の色によって音色が変わる", "correct": false },
-      { "id": "d", "text": "弦の素材に関係なく同じ音が出る", "correct": false }
+      {
+        "id": "a",
+        "text": "長3度",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "完全5度",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "オクターヴ",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "完全4度",
+        "correct": false
+      }
     ],
-    "explanation": "ピタゴラスは弦の長さの比率と音程の関係を発見しました。例えば、弦の長さを2:1にするとオクターヴ、3:2にすると完全5度になります。",
+    "explanation": "弦の長さを半分にすると1オクターヴ高い音になり、3:2では完全5度、4:3では完全4度になります。この比の発見はピタゴラスのものと伝えられますが、確かな記録はありません。",
     "relatedId": null
   },
   {
     "id": "q-ancient-004",
     "era": "ancient",
-    "difficulty": 3,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "中世ヨーロッパにおけるネウマ譜の役割として正しいものはどれですか？",
+    "question": "9世紀ごろに現れた初期のネウマ譜が主に示したものはどれでしょう。",
     "options": [
-      { "id": "a", "text": "旋律の上下動を視覚的に示す記譜法", "correct": true },
-      { "id": "b", "text": "和声進行を正確に記録する記譜法", "correct": false },
-      { "id": "c", "text": "リズムを正確に記録するための記譜法", "correct": false },
-      { "id": "d", "text": "楽器の指使いを記録する記譜法", "correct": false }
+      {
+        "id": "a",
+        "text": "楽器の指使い",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "旋律の上がり下がり",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "和音の進行",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "正確なリズム",
+        "correct": false
+      }
     ],
-    "explanation": "ネウマ譜は9世紀頃から使われた初期の記譜法で、音符の正確な高さやリズムではなく、旋律の大まかな上下動を示すものでした。グイード・ダレッツォの譜線の導入により、より正確な記譜が可能になりました。",
+    "explanation": "初期のネウマ譜は、正確な音高やリズムではなく旋律の大まかな動きを示し、耳で覚えた旋律を思い出す手がかりでした。後にグイードが譜線で音の高さを示す記譜を発展させます。",
     "relatedId": null
   },
   {
     "id": "q-ancient-005",
     "era": "ancient",
-    "difficulty": 3,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "中世の教会旋法（モード）の数として正しいものはどれですか？",
+    "question": "中世の教会旋法の数として正しいものはどれでしょう。",
     "options": [
-      { "id": "a", "text": "8つ", "correct": true },
-      { "id": "b", "text": "4つ", "correct": false },
-      { "id": "c", "text": "12つ", "correct": false },
-      { "id": "d", "text": "2つ", "correct": false }
+      {
+        "id": "a",
+        "text": "4つ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "10",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "6つ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "8つ",
+        "correct": true
+      }
     ],
-    "explanation": "中世の教会旋法は正格旋法4つと変格旋法4つの合計8つでした。後にグラレアヌスが4つの旋法を追加して12旋法体系を提唱しましたが、それは16世紀のことです。",
+    "explanation": "中世の教会旋法は、正格旋法4つと変格旋法4つの計8つです。1547年にはグラレアヌスが著書『ドデカコルドン』で4つを加え、12の旋法を唱えました。",
     "relatedId": null
   },
   {
@@ -79,14 +159,30 @@
     "era": "renaissance",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "ルネサンス音楽の最大の特徴は何ですか？",
+    "question": "「ア・カペラ」が指す演奏の形はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ポリフォニー（多声音楽）の完成", "correct": true },
-      { "id": "b", "text": "電子楽器の使用", "correct": false },
-      { "id": "c", "text": "ジャズの影響", "correct": false },
-      { "id": "d", "text": "ソナタ形式の確立", "correct": false }
+      {
+        "id": "a",
+        "text": "伴奏なしの声だけの演奏",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "一人で歌う独唱",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "屋外で行う演奏",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "チェンバロ伴奏付きの歌",
+        "correct": false
+      }
     ],
-    "explanation": "ルネサンス期は4声から6声以上のポリフォニーが極限の美に達した時代です。パレストリーナやジョスカン・デ・プレの作品が代表的です。",
+    "explanation": "「ア・カペラ」はイタリア語で「礼拝堂風に」の意味で、伴奏のない声楽を指します。ただしルネサンスの教会では、声部を楽器やオルガンで重ねて演奏することもよくありました。",
     "relatedId": null
   },
   {
@@ -94,14 +190,30 @@
     "era": "renaissance",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "「マドリガル」とはどのような音楽形式ですか？",
+    "question": "ルネサンス期に大きく発展した書法はどれでしょう。",
     "options": [
-      { "id": "a", "text": "イタリア生まれの世俗的な多声歌曲", "correct": true },
-      { "id": "b", "text": "教会で歌われるミサ曲", "correct": false },
-      { "id": "c", "text": "器楽のみの室内楽", "correct": false },
-      { "id": "d", "text": "一人で歌うアリア", "correct": false }
+      {
+        "id": "a",
+        "text": "十二音技法",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ポリフォニー（多声音楽）",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "通奏低音",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ソナタ形式",
+        "correct": false
+      }
     ],
-    "explanation": "マドリガルはイタリアで生まれた世俗的（非宗教的）な多声歌曲で、歌詞の内容を音楽で描写する「語絵（ワード・ペインティング）」の技法が発達しました。",
+    "explanation": "複数の旋律を同時に重ねるポリフォニーは、ルネサンス期に4〜6声の均整のとれた書法へと発展しました。ジョスカン・デ・プレやパレストリーナが代表的な作曲家です。",
     "relatedId": null
   },
   {
@@ -109,59 +221,123 @@
     "era": "renaissance",
     "difficulty": 3,
     "type": "multiple-choice",
-    "question": "対抗宗教改革の中で、明澄なポリフォニーを追求したイタリアの作曲家は？",
+    "question": "16世紀のイタリアで栄えた世俗の多声歌曲はどれでしょう。",
     "options": [
-      { "id": "a", "text": "パレストリーナ", "correct": true },
-      { "id": "b", "text": "ジョスカン・デ・プレ", "correct": false },
-      { "id": "c", "text": "ギヨーム・デュファイ", "correct": false },
-      { "id": "d", "text": "オルランド・ディ・ラッソ", "correct": false }
+      {
+        "id": "a",
+        "text": "モテット",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "マドリガル",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "オラトリオ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ミサ曲",
+        "correct": false
+      }
     ],
-    "explanation": "パレストリーナはカトリック教会の対抗宗教改革の時代に、歌詞が明瞭に聞き取れる透明なポリフォニーを書き、教会音楽の模範とされました。",
+    "explanation": "マドリガルは1520年代のイタリアで生まれた世俗の多声歌曲です。「笑い」に速い音型、「ため息」に下がる音を当てるように、歌詞の意味を音で描く技法が発達しました。",
     "relatedId": null
   },
   {
     "id": "q-renaissance-004",
     "era": "renaissance",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "ルネサンス期の音楽で「ア・カペラ」とは何を意味しますか？",
+    "question": "フランドル楽派を代表するルネサンスの作曲家はどれでしょう。",
     "options": [
-      { "id": "a", "text": "楽器伴奏なしの声楽のみの演奏", "correct": true },
-      { "id": "b", "text": "チェンバロ伴奏付きの歌曲", "correct": false },
-      { "id": "c", "text": "教会の外で演奏すること", "correct": false },
-      { "id": "d", "text": "ソロ歌手による独唱", "correct": false }
+      {
+        "id": "a",
+        "text": "トマス・タリス",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ジョヴァンニ・ガブリエリ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ジョスカン・デ・プレ",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "モンテヴェルディ",
+        "correct": false
+      }
     ],
-    "explanation": "「ア・カペラ」はイタリア語で「礼拝堂風に」という意味で、楽器伴奏を伴わない声楽のみの演奏形態を指します。ルネサンス期の教会音楽の重要な演奏スタイルでした。",
+    "explanation": "ジョスカン・デ・プレはフランドル楽派（フランコ＝フレミッシュ楽派）の中心人物です。没後も名声が続いた最初の作曲家ともいわれ、マルティン・ルターも彼を高く評価しました。",
     "relatedId": null
   },
   {
     "id": "q-renaissance-005",
     "era": "renaissance",
-    "difficulty": 2,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "ルネサンス期にヨーロッパで広く使われた撥弦楽器はどれですか？",
+    "question": "対抗宗教改革期のローマで活躍した教会音楽家はどれでしょう。",
     "options": [
-      { "id": "a", "text": "リュート", "correct": true },
-      { "id": "b", "text": "ピアノ", "correct": false },
-      { "id": "c", "text": "ヴァイオリン", "correct": false },
-      { "id": "d", "text": "クラリネット", "correct": false }
+      {
+        "id": "a",
+        "text": "ギヨーム・デュファイ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "パレストリーナ",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "ウィリアム・バード",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ジョスカン・デ・プレ",
+        "correct": false
+      }
     ],
-    "explanation": "リュートはルネサンス期に最も人気のあった撥弦楽器で、独奏や歌の伴奏に広く使われました。洋梨を半分に切ったような形の胴体が特徴的です。",
+    "explanation": "パレストリーナは16世紀のローマで教会音楽を書き、その明晰な多声書法は後世の手本とされました。「教皇マルチェルスのミサ」が教会の多声音楽を救ったという話は、伝説とされます。",
     "relatedId": null
   },
   {
     "id": "q-renaissance-006",
     "era": "renaissance",
-    "difficulty": 3,
+    "difficulty": 1,
     "type": "multiple-choice",
-    "question": "ルネサンス期のフランドル楽派（フランコ＝フレミッシュ楽派）の代表的作曲家は？",
+    "question": "ルネサンス期のヨーロッパで広く弾かれた撥弦楽器はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ジョスカン・デ・プレ", "correct": true },
-      { "id": "b", "text": "クラウディオ・モンテヴェルディ", "correct": false },
-      { "id": "c", "text": "ジョヴァンニ・ガブリエリ", "correct": false },
-      { "id": "d", "text": "トマス・タリス", "correct": false }
+      {
+        "id": "a",
+        "text": "ヴィオラ・ダ・ガンバ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "サックバット",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "リュート",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "リコーダー",
+        "correct": false
+      }
     ],
-    "explanation": "ジョスカン・デ・プレはルネサンス期のフランドル楽派を代表する作曲家で、対位法の技巧と表現力を兼ね備えた作品を残しました。同時代の人々から「音楽の王」と呼ばれました。",
+    "explanation": "リュートは16世紀を代表する独奏楽器で、歌の伴奏にも使われました。名はアラビアの撥弦楽器ウード（al-ʿūd）に由来するとされます。ヴィオラ・ダ・ガンバは弓で弾く楽器です。",
     "relatedId": null
   },
   {
@@ -169,29 +345,123 @@
     "era": "renaissance",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "ルネサンス期に発明され、音楽の大量普及を可能にした技術は？",
+    "question": "オペラが生まれた国はどれでしょう。",
     "options": [
-      { "id": "a", "text": "活版印刷による楽譜の出版", "correct": true },
-      { "id": "b", "text": "蓄音機の発明", "correct": false },
-      { "id": "c", "text": "ラジオ放送の開始", "correct": false },
-      { "id": "d", "text": "磁気テープの開発", "correct": false }
+      {
+        "id": "a",
+        "text": "イタリア",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "イギリス",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ドイツ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "フランス",
+        "correct": false
+      }
     ],
-    "explanation": "15世紀のグーテンベルクの活版印刷術の発明を受けて、1501年にペトルッチが初めて楽譜の印刷出版を行いました。これにより音楽が広く普及するようになりました。",
+    "explanation": "オペラは16世紀末のイタリア・フィレンツェで生まれました。1598年のペーリらによる「ダフネ」が最初のオペラとされますが、その音楽は断片しか残っていません。",
     "relatedId": null
   },
   {
     "id": "q-renaissance-008",
     "era": "renaissance",
+    "difficulty": 3,
+    "type": "multiple-choice",
+    "question": "1501年に初めて多声音楽の楽譜集を活字で印刷・出版した人物はどれでしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "アルド・マヌーツィオ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ツァルリーノ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ペトルッチ",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "グーテンベルク",
+        "correct": false
+      }
+    ],
+    "explanation": "ヴェネツィアのペトルッチが1501年に出した『オデカトン』は、知られる限り最初の印刷された多声音楽の楽譜集です。聖歌の楽譜はそれ以前から印刷されていました。",
+    "relatedId": null
+  },
+  {
+    "id": "q-renaissance-009",
+    "era": "renaissance",
     "difficulty": 4,
     "type": "multiple-choice",
-    "question": "ルネサンス末期にフィレンツェの「カメラータ」が追求した理想は何ですか？",
+    "question": "16世紀末フィレンツェの「カメラータ」が目指したものはどれでしょう。",
     "options": [
-      { "id": "a", "text": "古代ギリシャの演劇を音楽で復興すること", "correct": true },
-      { "id": "b", "text": "教会音楽をより壮大にすること", "correct": false },
-      { "id": "c", "text": "器楽音楽を声楽より優位にすること", "correct": false },
-      { "id": "d", "text": "民謡を芸術音楽に昇華すること", "correct": false }
+      {
+        "id": "a",
+        "text": "器楽合奏の確立",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "民謡の収集",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "古代ギリシャ劇の復興",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "教会音楽の改革",
+        "correct": false
+      }
     ],
-    "explanation": "フィレンツェのカメラータは16世紀末の知識人サロンで、古代ギリシャ劇の復興を目指しました。この活動からモノディ様式が生まれ、やがてオペラの誕生へとつながりました。",
+    "explanation": "カメラータはバルディ伯の邸に集った文人・音楽家の会で、古代ギリシャ劇の復興を目指しました。そこから独唱と伴奏によるモノディが生まれ、オペラへとつながります。",
+    "relatedId": null
+  },
+  {
+    "id": "q-renaissance-010",
+    "era": "renaissance",
+    "difficulty": 5,
+    "type": "multiple-choice",
+    "question": "モンテヴェルディの「オルフェオ」が1607年に初演された都市はどれでしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "マントヴァ",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "フィレンツェ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ヴェネツィア",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ローマ",
+        "correct": false
+      }
+    ],
+    "explanation": "「オルフェオ」は1607年、マントヴァのゴンザーガ家の宮廷で謝肉祭の時期に初演されました。今も定期的に上演されるオペラの中で、最も古い作品とされます。",
     "relatedId": null
   },
   {
@@ -199,89 +469,185 @@
     "era": "baroque",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "バッハが生涯の大半を過ごし、カントル（教会音楽長）として仕えた都市はどこですか？",
+    "question": "バッハが1723年から亡くなるまでカントルを務めた都市はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ライプツィヒ", "correct": true },
-      { "id": "b", "text": "ハンブルク", "correct": false },
-      { "id": "c", "text": "ウィーン", "correct": false },
-      { "id": "d", "text": "ドレスデン", "correct": false }
+      {
+        "id": "a",
+        "text": "ライプツィヒ",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "ハンブルク",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ヴァイマル",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ドレスデン",
+        "correct": false
+      }
     ],
-    "explanation": "バッハは1723年から死ぬまでの27年間、ライプツィヒの聖トーマス教会のカントルとして仕えました。この時期に多くの教会カンタータが作曲されました。",
-    "relatedId": { "type": "composer", "id": "bach-js" }
+    "explanation": "バッハは1723年から1750年に没するまで、ライプツィヒの聖トーマス教会のカントルを務めました。教会カンタータの多くはこの時期に書かれています。",
+    "relatedId": null
   },
   {
     "id": "q-baroque-002",
     "era": "baroque",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple-choice",
-    "question": "「四季」で有名なバロックの作曲家は誰ですか？",
+    "question": "一つの主題を複数の声部が順に模倣していく楽曲はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ヴィヴァルディ", "correct": true },
-      { "id": "b", "text": "バッハ", "correct": false },
-      { "id": "c", "text": "ヘンデル", "correct": false },
-      { "id": "d", "text": "テレマン", "correct": false }
+      {
+        "id": "a",
+        "text": "ロンド",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "セレナード",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "フーガ",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "ソナタ",
+        "correct": false
+      }
     ],
-    "explanation": "アントニオ・ヴィヴァルディの「四季」は、4つの協奏曲からなる作品で、各季節の情景を音楽で描写したプログラム音楽の先駆的作品です。",
-    "relatedId": { "type": "composer", "id": "vivaldi" }
+    "explanation": "フーガは、主題を各声部が次々に受け継いで展開していく対位法の楽曲です。バッハは鍵盤曲からミサ曲まで、さまざまな作品にフーガを書きました。",
+    "relatedId": null
   },
   {
     "id": "q-baroque-003",
     "era": "baroque",
-    "difficulty": 2,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "バロック音楽の基本的な伴奏方法「通奏低音」で主に使われた楽器は？",
+    "question": "「平均律クラヴィーア曲集」全2巻の前奏曲とフーガは何組でしょう。",
     "options": [
-      { "id": "a", "text": "チェンバロとチェロ", "correct": true },
-      { "id": "b", "text": "ピアノとコントラバス", "correct": false },
-      { "id": "c", "text": "ギターとドラム", "correct": false },
-      { "id": "d", "text": "トランペットとティンパニ", "correct": false }
+      {
+        "id": "a",
+        "text": "36組",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "12組",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "24組",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "48組",
+        "correct": true
+      }
     ],
-    "explanation": "通奏低音（バッソ・コンティヌオ）ではチェンバロやオルガンが和声を填め、チェロやファゴットがベースラインを担当しました。バロック音楽の根幹をなす演奏慣習です。",
+    "explanation": "第1巻（1722年）と第2巻（1742年）に、24の長調・短調すべての前奏曲とフーガが1組ずつ入り、計48組です。ハンス・フォン・ビューローは音楽の「旧約聖書」と呼びました。",
     "relatedId": null
   },
   {
     "id": "q-baroque-004",
     "era": "baroque",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "ヘンデルの代表作で、「ハレルヤ・コーラス」が含まれるオラトリオは何ですか？",
+    "question": "1829年にベルリンで「マタイ受難曲」を上演した作曲家はどれでしょう。",
     "options": [
-      { "id": "a", "text": "「メサイア」", "correct": true },
-      { "id": "b", "text": "「天地創造」", "correct": false },
-      { "id": "c", "text": "「マタイ受難曲」", "correct": false },
-      { "id": "d", "text": "「レクイエム」", "correct": false }
+      {
+        "id": "a",
+        "text": "シューマン",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "メンデルスゾーン",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "ブラームス",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "リスト",
+        "correct": false
+      }
     ],
-    "explanation": "ヘンデルのオラトリオ「メサイア」（1741年）はキリストの生涯を題材にした作品で、第2部の「ハレルヤ・コーラス」は世界で最も有名な合唱曲の一つです。",
-    "relatedId": { "type": "composer", "id": "handel" }
+    "explanation": "「マタイ受難曲」は1727年の聖金曜日にライプツィヒで初演されたとされます。1829年、20歳のメンデルスゾーンがベルリンで上演し、ライプツィヒ以外での初演となりました。",
+    "relatedId": null
   },
   {
     "id": "q-baroque-005",
     "era": "baroque",
-    "difficulty": 2,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "バッハの「平均律クラヴィーア曲集」は全何曲で構成されていますか？",
+    "question": "バッハが「音楽の捧げもの」を書いたきっかけはどれでしょう。",
     "options": [
-      { "id": "a", "text": "48曲（前奏曲とフーガ24組×2巻）", "correct": true },
-      { "id": "b", "text": "24曲", "correct": false },
-      { "id": "c", "text": "12曲", "correct": false },
-      { "id": "d", "text": "96曲", "correct": false }
+      {
+        "id": "a",
+        "text": "教会の典礼に必要だった",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "息子の就職祝いに書いた",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ライプツィヒ市から委嘱された",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "フリードリヒ大王に主題を与えられた",
+        "correct": true
+      }
     ],
-    "explanation": "「平均律クラヴィーア曲集」は第1巻と第2巻からなり、各巻に全24の長短調による前奏曲とフーガが含まれます。合計48曲で、「旧約聖書」とも称される鍵盤音楽の最高峰です。",
-    "relatedId": { "type": "composer", "id": "bach-js" }
+    "explanation": "1747年、バッハはポツダムの宮廷を訪ね、フリードリヒ大王が示した主題で即興のフーガを弾きました。息子C.P.E.バッハがこの宮廷に仕えていたことが訪問の縁です。",
+    "relatedId": null
   },
   {
     "id": "q-baroque-006",
     "era": "baroque",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "オペラが最初に誕生した国はどこですか？",
+    "question": "「四季」で知られるバロックの作曲家はどれでしょう。",
     "options": [
-      { "id": "a", "text": "イタリア", "correct": true },
-      { "id": "b", "text": "ドイツ", "correct": false },
-      { "id": "c", "text": "フランス", "correct": false },
-      { "id": "d", "text": "イギリス", "correct": false }
+      {
+        "id": "a",
+        "text": "テレマン",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ヘンデル",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ヴィヴァルディ",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "バッハ",
+        "correct": false
+      }
     ],
-    "explanation": "オペラは1600年頃にイタリアのフィレンツェで誕生しました。カメラータと呼ばれる知識人グループが古代ギリシャ劇の復興を目指したことがきっかけです。",
+    "explanation": "「四季」は1725年にアムステルダムで出版された協奏曲集「和声と創意の試み」作品8の最初の4曲です。各曲には季節の情景を描いたソネットが添えられています。",
     "relatedId": null
   },
   {
@@ -289,134 +655,278 @@
     "era": "baroque",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "バロック時代の「フーガ」の特徴として正しいものはどれですか？",
+    "question": "「ハレルヤ」コーラスを含むヘンデルのオラトリオはどれでしょう。",
     "options": [
-      { "id": "a", "text": "一つの主題が複数の声部で模倣される対位法的楽曲", "correct": true },
-      { "id": "b", "text": "独奏楽器とオーケストラが交互に演奏する協奏曲", "correct": false },
-      { "id": "c", "text": "歌手が一人で歌う叙情的な歌", "correct": false },
-      { "id": "d", "text": "踊りのための組曲", "correct": false }
+      {
+        "id": "a",
+        "text": "「マタイ受難曲」",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "「天地創造」",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "「メサイア」",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "「エリヤ」",
+        "correct": false
+      }
     ],
-    "explanation": "フーガは一つの主題（テーマ）が複数の声部で順番に模倣・展開される対位法的な楽曲形式です。バッハがこの形式の最高峰に達しました。",
-    "relatedId": { "type": "composer", "id": "bach-js" }
+    "explanation": "「メサイア」は1741年8月から9月にかけてロンドンで書かれ、翌1742年4月にダブリンで初演されました。「ハレルヤ」コーラスは第2部の終わりに置かれています。",
+    "relatedId": null
   },
   {
     "id": "q-baroque-008",
     "era": "baroque",
     "difficulty": 3,
     "type": "multiple-choice",
-    "question": "バロック時代の「コンチェルト・グロッソ」の特徴は何ですか？",
+    "question": "ドイツ生まれのヘンデルが帰化した国はどれでしょう。",
     "options": [
-      { "id": "a", "text": "小編成の独奏グループと大編成の合奏が交替する形式", "correct": true },
-      { "id": "b", "text": "ピアノ独奏とオーケストラの競演", "correct": false },
-      { "id": "c", "text": "合唱とオーケストラの大規模な作品", "correct": false },
-      { "id": "d", "text": "弦楽四重奏のための作品", "correct": false }
+      {
+        "id": "a",
+        "text": "フランス",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "イギリス",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "オーストリア",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "イタリア",
+        "correct": false
+      }
     ],
-    "explanation": "コンチェルト・グロッソは独奏群（コンチェルティーノ）と合奏群（リピエーノ）が交替する協奏曲形式です。コレッリやヴィヴァルディ、バッハの「ブランデンブルク協奏曲」が代表的です。",
+    "explanation": "ヘンデルは1712年からロンドンに定住し、1727年にイギリスに帰化しました。英語のオラトリオを数多く書き、1759年にロンドンで亡くなっています。",
     "relatedId": null
   },
   {
     "id": "q-baroque-009",
     "era": "baroque",
-    "difficulty": 2,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "ヴィヴァルディが司祭を務め、音楽教育を行った施設は何ですか？",
+    "question": "ヘンデルの「水上の音楽」が演奏された場面はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ヴェネツィアのピエタ慈善院", "correct": true },
-      { "id": "b", "text": "ローマのサン・ピエトロ大聖堂", "correct": false },
-      { "id": "c", "text": "ウィーンの宮廷楽団", "correct": false },
-      { "id": "d", "text": "ライプツィヒの聖トーマス教会", "correct": false }
+      {
+        "id": "a",
+        "text": "劇場の開場式",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "宮廷の舞踏会",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "教会のミサ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "国王のテムズ川の舟遊び",
+        "correct": true
+      }
     ],
-    "explanation": "ヴィヴァルディはヴェネツィアのピエタ慈善院（孤児院）で音楽教師・作曲家として長年活動しました。ここの少女たちのオーケストラはヨーロッパ中で有名でした。",
-    "relatedId": { "type": "composer", "id": "vivaldi" }
+    "explanation": "「水上の音楽」は1717年7月、国王ジョージ1世がテムズ川で舟遊びをした際に演奏されました。屋外でよく響くよう、ホルンやトランペットなどの管楽器が活躍します。",
+    "relatedId": null
   },
   {
     "id": "q-baroque-010",
     "era": "baroque",
-    "difficulty": 3,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "バッハの「マタイ受難曲」はどの福音書に基づいていますか？",
+    "question": "ヴィヴァルディが長く音楽を教えたヴェネツィアの施設はどれでしょう。",
     "options": [
-      { "id": "a", "text": "マタイによる福音書", "correct": true },
-      { "id": "b", "text": "ヨハネによる福音書", "correct": false },
-      { "id": "c", "text": "ルカによる福音書", "correct": false },
-      { "id": "d", "text": "マルコによる福音書", "correct": false }
+      {
+        "id": "a",
+        "text": "ピエタ慈善院",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "フェニーチェ劇場",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "サン・マルコ大聖堂",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ドゥカーレ宮殿",
+        "correct": false
+      }
     ],
-    "explanation": "「マタイ受難曲」BWV244は新約聖書のマタイによる福音書第26〜27章のイエスの受難を題材にした大規模な声楽作品で、バッハの最高傑作の一つとされます。",
-    "relatedId": { "type": "composer", "id": "bach-js" }
+    "explanation": "ヴィヴァルディは1703年に司祭となり、同年から孤児院ピエタ慈善院でヴァイオリンを教えました。「赤毛の司祭」の愛称で知られ、1741年にウィーンで亡くなっています。",
+    "relatedId": null
   },
   {
     "id": "q-baroque-011",
     "era": "baroque",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "ヘンデルが後半生を過ごし、帰化した国はどこですか？",
+    "question": "通奏低音で和音を受け持った楽器はどれでしょう。",
     "options": [
-      { "id": "a", "text": "イギリス", "correct": true },
-      { "id": "b", "text": "イタリア", "correct": false },
-      { "id": "c", "text": "フランス", "correct": false },
-      { "id": "d", "text": "オーストリア", "correct": false }
+      {
+        "id": "a",
+        "text": "クラリネット",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "チェンバロ",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "ティンパニ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ホルン",
+        "correct": false
+      }
     ],
-    "explanation": "ドイツ生まれのヘンデルは1712年にロンドンに定住し、1727年にイギリスに帰化しました。英語のオラトリオを数多く作曲し、イギリス音楽界に大きな影響を与えました。",
-    "relatedId": { "type": "composer", "id": "handel" }
+    "explanation": "通奏低音では、チェロやヴィオラ・ダ・ガンバが低音を弾き、チェンバロやオルガン、リュートが和音を補いました。奏者は数字付きの低音を見て和音を即興で付けます。",
+    "relatedId": null
   },
   {
     "id": "q-baroque-012",
     "era": "baroque",
-    "difficulty": 3,
+    "difficulty": 2,
     "type": "multiple-choice",
-    "question": "バロック時代の舞踏組曲に含まれない舞曲はどれですか？",
+    "question": "バロックの舞踏組曲に含まれない舞曲はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ワルツ", "correct": true },
-      { "id": "b", "text": "アルマンド", "correct": false },
-      { "id": "c", "text": "クーラント", "correct": false },
-      { "id": "d", "text": "サラバンド", "correct": false }
+      {
+        "id": "a",
+        "text": "アルマンド",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ワルツ",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "サラバンド",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "クーラント",
+        "correct": false
+      }
     ],
-    "explanation": "バロック組曲の基本構成はアルマンド、クーラント、サラバンド、ジーグの4曲です。ワルツは18世紀後半以降に流行した3拍子の舞曲で、バロック組曲には含まれません。",
+    "explanation": "バロックの組曲はアルマンド、クーラント、サラバンド、ジーグの順が基本で、メヌエットなどが加わることもあります。ワルツが広まるのは18世紀の終わりごろからです。",
     "relatedId": null
   },
   {
     "id": "q-baroque-013",
     "era": "baroque",
-    "difficulty": 4,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "バッハが「音楽の捧げもの」を作曲するきっかけとなった出来事は？",
+    "question": "「バロック」という語の語源とされるものはどれでしょう。",
     "options": [
-      { "id": "a", "text": "プロイセンのフリードリヒ大王から主題を与えられた", "correct": true },
-      { "id": "b", "text": "ライプツィヒ市から委嘱を受けた", "correct": false },
-      { "id": "c", "text": "息子C.P.E.バッハへの贈り物として作曲した", "correct": false },
-      { "id": "d", "text": "教会の典礼のために作曲した", "correct": false }
+      {
+        "id": "a",
+        "text": "教会の鐘",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "宮廷の舞踏会",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "古代ローマの円柱",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "いびつな形の真珠",
+        "correct": true
+      }
     ],
-    "explanation": "1747年にバッハがポツダム宮殿を訪問した際、フリードリヒ大王が主題を提示し、即興でフーガを弾くよう求めました。バッハはこの「王の主題」を基に精緻な対位法作品集を作曲しました。",
-    "relatedId": { "type": "composer", "id": "bach-js" }
+    "explanation": "「バロック」は、形のいびつな真珠を指すポルトガル語barrocoに由来するとされます。音楽では当初「奇妙で過剰」という否定的な意味で使われた言葉でした。",
+    "relatedId": null
   },
   {
     "id": "q-baroque-014",
     "era": "baroque",
-    "difficulty": 2,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "ヘンデルの「水上の音楽」はどのような場面のために作曲されましたか？",
+    "question": "コンチェルト・グロッソで独奏群と交替する合奏群の呼び名は何でしょう。",
     "options": [
-      { "id": "a", "text": "イギリス国王のテムズ川での船遊びのため", "correct": true },
-      { "id": "b", "text": "教会のミサのため", "correct": false },
-      { "id": "c", "text": "宮廷の舞踏会のため", "correct": false },
-      { "id": "d", "text": "オペラハウスの開場記念のため", "correct": false }
+      {
+        "id": "a",
+        "text": "リピエーノ",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "コンチェルティーノ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "カデンツァ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "オブリガート",
+        "correct": false
+      }
     ],
-    "explanation": "「水上の音楽」は1717年にジョージ1世のテムズ川での船遊びの際に演奏するために作曲されました。屋外演奏のため管楽器を多用した華やかな組曲です。",
-    "relatedId": { "type": "composer", "id": "handel" }
+    "explanation": "コンチェルト・グロッソは、小さな独奏群コンチェルティーノと合奏群リピエーノが交替する協奏曲です。1714年に出版されたコレッリの作品6の12曲が代表例です。",
+    "relatedId": null
   },
   {
     "id": "q-baroque-015",
     "era": "baroque",
-    "difficulty": 4,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "バロック音楽における「アフェクト（情感）論」とは何ですか？",
+    "question": "バロックの「アフェクト論」の考え方として正しいものはどれでしょう。",
     "options": [
-      { "id": "a", "text": "特定の感情を音楽的手法で表現する理論", "correct": true },
-      { "id": "b", "text": "楽器の調律方法に関する理論", "correct": false },
-      { "id": "c", "text": "対位法の規則に関する理論", "correct": false },
-      { "id": "d", "text": "声楽の発声法に関する理論", "correct": false }
+      {
+        "id": "a",
+        "text": "対位法の禁則を定める",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "発声法を体系化する",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "調律を数の比で決める",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "感情を音楽の手法で表し分ける",
+        "correct": true
+      }
     ],
-    "explanation": "アフェクト論はバロック時代の美学理論で、喜び・悲しみ・怒りなどの特定の感情をそれぞれ固有の音楽的手法（調性、リズム、テンポなど）で表現できるという考え方です。",
+    "explanation": "アフェクト論は、喜びや悲しみなどの感情を音程・リズム・調で表し分けられるとする考え方です。マッテゾンは、喜びには広い音程、悲しみには狭い音程が合うと説きました。",
     "relatedId": null
   },
   {
@@ -424,539 +934,1115 @@
     "era": "classical",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "「交響曲の父」と呼ばれる作曲家は誰ですか？",
+    "question": "「交響曲の父」と呼ばれる作曲家はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ハイドン", "correct": true },
-      { "id": "b", "text": "モーツァルト", "correct": false },
-      { "id": "c", "text": "ベートーヴェン", "correct": false },
-      { "id": "d", "text": "バッハ", "correct": false }
+      {
+        "id": "a",
+        "text": "モーツァルト",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "バッハ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ベートーヴェン",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ハイドン",
+        "correct": true
+      }
     ],
-    "explanation": "フランツ・ヨーゼフ・ハイドンは100曲以上の交響曲と68曲の弦楽四重奏曲を作曲し、これらの形式を確立したことから「交響曲の父」「弦楽四重奏曲の父」と呼ばれます。",
-    "relatedId": { "type": "composer", "id": "haydn" }
+    "explanation": "ハイドンは番号付きだけで104曲の交響曲を書き、この形式の土台を築いたことからそう呼ばれます。68曲の弦楽四重奏曲も残し、「弦楽四重奏曲の父」とも呼ばれます。",
+    "relatedId": null
   },
   {
     "id": "q-classical-002",
     "era": "classical",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple-choice",
-    "question": "ベートーヴェンの交響曲第5番の通称は？",
+    "question": "弦楽四重奏の標準的な編成はどれでしょう。",
     "options": [
-      { "id": "a", "text": "「運命」", "correct": true },
-      { "id": "b", "text": "「英雄」", "correct": false },
-      { "id": "c", "text": "「田園」", "correct": false },
-      { "id": "d", "text": "「合唱」", "correct": false }
+      {
+        "id": "a",
+        "text": "ヴァイオリン2・チェロ2",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ヴァイオリン3・チェロ1",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ヴァイオリン1・ヴィオラ2・チェロ1",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ヴァイオリン2・ヴィオラ1・チェロ1",
+        "correct": true
+      }
     ],
-    "explanation": "交響曲第5番ハ短調Op.67は「運命」という通称で知られます。冒頭の「ダダダダーン」というモチーフは世界で最も有名な音楽フレーズの一つです。「英雄」は第3番、「田園」は第6番、「合唱」は第9番です。",
-    "relatedId": { "type": "composer", "id": "beethoven" }
+    "explanation": "第1・第2ヴァイオリン、ヴィオラ、チェロの4人で演奏します。ハイドンがこの編成の書法を固め、モーツァルトは1785年に6曲の四重奏曲をハイドンに献呈しています。",
+    "relatedId": null
   },
   {
     "id": "q-classical-003",
     "era": "classical",
-    "difficulty": 2,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "古典派音楽の中心的な形式「ソナタ形式」の3つの部分は？",
+    "question": "古典派の交響曲で標準となった楽章の数は何でしょう。",
     "options": [
-      { "id": "a", "text": "提示部・展開部・再現部", "correct": true },
-      { "id": "b", "text": "序曲・間奏・終曲", "correct": false },
-      { "id": "c", "text": "第1楽章・第2楽章・第3楽章", "correct": false },
-      { "id": "d", "text": "前奏・本編・コーダ", "correct": false }
+      {
+        "id": "a",
+        "text": "4楽章",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "5楽章",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "2楽章",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "3楽章",
+        "correct": false
+      }
     ],
-    "explanation": "ソナタ形式は提示部（2つの主題を提示）、展開部（主題を変形・発展）、再現部（主題を再び提示）の三部から成ります。古典派音楽の最も重要な構造原理です。",
+    "explanation": "速い第1楽章、緩やかな第2楽章、メヌエットの第3楽章、速い終楽章という4楽章の形が定着しました。初期の交響曲には、メヌエットのない3楽章のものも多くあります。",
     "relatedId": null
   },
   {
     "id": "q-classical-004",
     "era": "classical",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "モーツァルトのオペラ「フィガロの結婚」の原作者は誰ですか？",
+    "question": "ソナタ形式を構成する3つの部分はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ボーマルシェ", "correct": true },
-      { "id": "b", "text": "シェイクスピア", "correct": false },
-      { "id": "c", "text": "ゲーテ", "correct": false },
-      { "id": "d", "text": "シラー", "correct": false }
+      {
+        "id": "a",
+        "text": "提示部・展開部・再現部",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "主題・変奏・終結",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "序曲・間奏曲・終曲",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "前奏・本編・後奏",
+        "correct": false
+      }
     ],
-    "explanation": "「フィガロの結婚」はフランスの劇作家ボーマルシェの戯曲を原作とし、ダ・ポンテが台本を書いたモーツァルトのオペラ・ブッファ（喜歌劇）です。1786年にウィーンで初演されました。",
-    "relatedId": { "type": "composer", "id": "mozart-wa" }
+    "explanation": "提示部で主題を示し、展開部で転調しながら変形し、再現部で主調に戻して再び示します。前に序奏、後ろにコーダが付くこともあり、交響曲の第1楽章の多くがこの形です。",
+    "relatedId": null
   },
   {
     "id": "q-classical-005",
     "era": "classical",
-    "difficulty": 2,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "ベートーヴェンが晩年に苦しんだ身体的障害は何ですか？",
+    "question": "ハイドンが約30年仕えたハンガリーの名門貴族はどれでしょう。",
     "options": [
-      { "id": "a", "text": "聴覚障害（難聴）", "correct": true },
-      { "id": "b", "text": "視覚障害", "correct": false },
-      { "id": "c", "text": "歩行障害", "correct": false },
-      { "id": "d", "text": "言語障害", "correct": false }
+      {
+        "id": "a",
+        "text": "シュヴァルツェンベルク家",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ロプコヴィッツ家",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "エステルハージ家",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "リヒノフスキー家",
+        "correct": false
+      }
     ],
-    "explanation": "ベートーヴェンは20代後半から聴力の低下に悩まされ、晩年にはほぼ完全に聴力を失いました。それにもかかわらず、交響曲第9番などの傑作を生み出し続けました。",
-    "relatedId": { "type": "composer", "id": "beethoven" }
+    "explanation": "ハイドンは1761年にエステルハージ家の副楽長となり、1766年に楽長に昇格しました。ハンガリーのエステルハーザ宮殿などで、宮廷楽団のために交響曲やオペラを書き続けました。",
+    "relatedId": null
   },
   {
     "id": "q-classical-006",
     "era": "classical",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "モーツァルトが亡くなった年齢は何歳ですか？",
+    "question": "モーツァルトが生まれた町はどれでしょう。",
     "options": [
-      { "id": "a", "text": "35歳", "correct": true },
-      { "id": "b", "text": "45歳", "correct": false },
-      { "id": "c", "text": "56歳", "correct": false },
-      { "id": "d", "text": "27歳", "correct": false }
+      {
+        "id": "a",
+        "text": "プラハ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ボン",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ザルツブルク",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "ウィーン",
+        "correct": false
+      }
     ],
-    "explanation": "モーツァルトは1756年に生まれ、1791年に35歳の若さで亡くなりました。短い生涯で600曲以上の作品を残し、あらゆるジャンルで傑作を生み出しました。",
-    "relatedId": { "type": "composer", "id": "mozart-wa" }
+    "explanation": "1756年1月27日、ザルツブルクのゲトライデガッセ9番地に生まれました。当時は大司教が治める領邦で、現在のオーストリアです。父レオポルトも宮廷楽団の音楽家でした。",
+    "relatedId": null
   },
   {
     "id": "q-classical-007",
     "era": "classical",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "ハイドンが長年仕えたハンガリーの貴族は誰ですか？",
+    "question": "モーツァルトが亡くなった年齢は何歳でしょう。",
     "options": [
-      { "id": "a", "text": "エステルハージ侯爵", "correct": true },
-      { "id": "b", "text": "ロプコヴィッツ侯爵", "correct": false },
-      { "id": "c", "text": "リヒノフスキー侯爵", "correct": false },
-      { "id": "d", "text": "ヴァルトシュテッテン男爵", "correct": false }
+      {
+        "id": "a",
+        "text": "56歳",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "35歳",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "27歳",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "45歳",
+        "correct": false
+      }
     ],
-    "explanation": "ハイドンは約30年間エステルハージ侯爵家の宮廷楽長として仕えました。宮殿の楽団のために膨大な数の交響曲、弦楽四重奏曲、オペラなどを作曲しました。",
-    "relatedId": { "type": "composer", "id": "haydn" }
+    "explanation": "1756年に生まれ、1791年12月5日にウィーンで亡くなりました。35歳でした。選択肢の56歳は、1827年に亡くなったベートーヴェンの没年齢です。",
+    "relatedId": null
   },
   {
     "id": "q-classical-008",
     "era": "classical",
     "difficulty": 3,
     "type": "multiple-choice",
-    "question": "ベートーヴェンの交響曲第3番「英雄」は当初誰に献呈される予定でしたか？",
+    "question": "「フィガロの結婚」の原作を書いた劇作家はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ナポレオン・ボナパルト", "correct": true },
-      { "id": "b", "text": "フリードリヒ大王", "correct": false },
-      { "id": "c", "text": "ヨーゼフ2世", "correct": false },
-      { "id": "d", "text": "ゲーテ", "correct": false }
+      {
+        "id": "a",
+        "text": "シラー",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "シェイクスピア",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ゲーテ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ボーマルシェ",
+        "correct": true
+      }
     ],
-    "explanation": "ベートーヴェンは当初この交響曲をナポレオンに献呈する予定でしたが、ナポレオンが皇帝に即位したことに激怒し、献辞を破り取ったと伝えられています。",
-    "relatedId": { "type": "composer", "id": "beethoven" }
+    "explanation": "フランスのボーマルシェの喜劇をもとに、ダ・ポンテがイタリア語の台本を書きました。1786年5月1日にウィーンのブルク劇場で初演されたオペラ・ブッファです。",
+    "relatedId": null
   },
   {
     "id": "q-classical-009",
     "era": "classical",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "モーツァルトの最後のオペラ作品は何ですか？",
+    "question": "モーツァルトの死の約2か月前に初演されたオペラはどれでしょう。",
     "options": [
-      { "id": "a", "text": "「魔笛」", "correct": true },
-      { "id": "b", "text": "「フィガロの結婚」", "correct": false },
-      { "id": "c", "text": "「ドン・ジョヴァンニ」", "correct": false },
-      { "id": "d", "text": "「コジ・ファン・トゥッテ」", "correct": false }
+      {
+        "id": "a",
+        "text": "「ドン・ジョヴァンニ」",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "「コジ・ファン・トゥッテ」",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "「フィガロの結婚」",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "「魔笛」",
+        "correct": true
+      }
     ],
-    "explanation": "「魔笛」は1791年にモーツァルトが亡くなる数ヶ月前に完成・初演されたジングシュピール（歌芝居）です。フリーメイソンの思想が反映された寓意的な作品です。",
-    "relatedId": { "type": "composer", "id": "mozart-wa" }
+    "explanation": "1791年9月30日、シカネーダーの台本でウィーンのアウフ・デア・ヴィーデン劇場で初演されました。歌と台詞で進むジングシュピールで、フリーメイソンを象徴する「3」が随所に現れます。",
+    "relatedId": null
   },
   {
     "id": "q-classical-010",
     "era": "classical",
-    "difficulty": 2,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "古典派の交響曲は通常何楽章で構成されますか？",
+    "question": "モーツァルトが未完のまま遺した作品はどれでしょう。",
     "options": [
-      { "id": "a", "text": "4楽章", "correct": true },
-      { "id": "b", "text": "3楽章", "correct": false },
-      { "id": "c", "text": "5楽章", "correct": false },
-      { "id": "d", "text": "2楽章", "correct": false }
+      {
+        "id": "a",
+        "text": "交響曲第41番「ジュピター」",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "クラリネット協奏曲",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "「レクイエム」",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "「魔笛」",
+        "correct": false
+      }
     ],
-    "explanation": "古典派の交響曲は通常4楽章構成で、第1楽章が速いテンポのソナタ形式、第2楽章が緩徐楽章、第3楽章がメヌエット（またはスケルツォ）、第4楽章が快速な終楽章という形式が標準です。",
+    "explanation": "ニ短調K.626は、ヴァルゼック伯爵の匿名の依頼で書き始められ、1791年12月の死で途絶えました。アイブラーが補筆を試みたのち、弟子のジュスマイヤーが完成させました。",
     "relatedId": null
   },
   {
     "id": "q-classical-011",
     "era": "classical",
-    "difficulty": 3,
+    "difficulty": 1,
     "type": "multiple-choice",
-    "question": "ベートーヴェンの交響曲第9番の終楽章に使われたシラーの詩は？",
+    "question": "ベートーヴェンを20代から苦しめた身体の不調は何でしょう。",
     "options": [
-      { "id": "a", "text": "「歓喜に寄す」", "correct": true },
-      { "id": "b", "text": "「魔王」", "correct": false },
-      { "id": "c", "text": "「野ばら」", "correct": false },
-      { "id": "d", "text": "「月に寄す」", "correct": false }
+      {
+        "id": "a",
+        "text": "視力の低下",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "難聴",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "足の麻痺",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "言葉の障害",
+        "correct": false
+      }
     ],
-    "explanation": "交響曲第9番の終楽章では、フリードリヒ・シラーの詩「歓喜に寄す」が独唱と合唱で歌われます。交響曲に声楽を導入した画期的な作品で、EUの歌にも採用されています。",
-    "relatedId": { "type": "composer", "id": "beethoven" }
+    "explanation": "本人によれば1798年、27歳頃から耳が聞こえにくくなりました。晩年は会話帳での筆談に頼りましたが、完全に聞こえなくなったわけではなく、低い音や大きな音は感じ取れたとされます。",
+    "relatedId": null
   },
   {
     "id": "q-classical-012",
     "era": "classical",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "ハイドンの交響曲第94番の通称は何ですか？",
+    "question": "ベートーヴェンの時代にチェンバロに代わって広まった鍵盤楽器は何でしょう。",
     "options": [
-      { "id": "a", "text": "「驚愕」", "correct": true },
-      { "id": "b", "text": "「告別」", "correct": false },
-      { "id": "c", "text": "「時計」", "correct": false },
-      { "id": "d", "text": "「軍隊」", "correct": false }
+      {
+        "id": "a",
+        "text": "パイプオルガン",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ハルモニウム",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "クラヴィコード",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "フォルテピアノ",
+        "correct": true
+      }
     ],
-    "explanation": "第2楽章の静かな旋律の中に突然フォルティッシモの大音量が入ることから「驚愕」と呼ばれます。居眠りする聴衆を起こすためにハイドンが仕掛けたという逸話があります。",
-    "relatedId": { "type": "composer", "id": "haydn" }
+    "explanation": "1700年頃にフィレンツェのクリストフォリが考案し、弾く強さで音量を変えられます。ベートーヴェンの楽器は音域が広がり続け、晩年の作品は約6オクターヴ半の楽器のために書かれました。",
+    "relatedId": null
   },
   {
     "id": "q-classical-013",
     "era": "classical",
     "difficulty": 3,
     "type": "multiple-choice",
-    "question": "モーツァルトの最後の未完成作品は何ですか？",
+    "question": "「ハイリゲンシュタットの遺書」に記された内容はどれでしょう。",
     "options": [
-      { "id": "a", "text": "「レクイエム」", "correct": true },
-      { "id": "b", "text": "「魔笛」", "correct": false },
-      { "id": "c", "text": "交響曲第41番「ジュピター」", "correct": false },
-      { "id": "d", "text": "クラリネット協奏曲", "correct": false }
+      {
+        "id": "a",
+        "text": "出版社との楽譜の契約",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "遺産の分け方の取り決め",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "弟子に向けた作曲の教え",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "難聴への絶望と生きる決意",
+        "correct": true
+      }
     ],
-    "explanation": "モーツァルトは「レクイエム」ニ短調K.626を未完のまま1791年に亡くなりました。弟子のジュスマイヤーが残された素描をもとに補筆完成させました。",
-    "relatedId": { "type": "composer", "id": "mozart-wa" }
+    "explanation": "1802年10月6日、ウィーン郊外のハイリゲンシュタットで、弟カールとヨハンに宛てて書かれました。送られることはなく、1827年の死後に遺品の書類の中から見つかりました。",
+    "relatedId": null
   },
   {
     "id": "q-classical-014",
     "era": "classical",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "古典派の時代に最も発展した鍵盤楽器は何ですか？",
+    "question": "ベートーヴェンが交響曲でメヌエットに代えて多く用いた楽章はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ピアノ（フォルテピアノ）", "correct": true },
-      { "id": "b", "text": "チェンバロ", "correct": false },
-      { "id": "c", "text": "オルガン", "correct": false },
-      { "id": "d", "text": "クラヴィコード", "correct": false }
+      {
+        "id": "a",
+        "text": "スケルツォ",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "行進曲",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "変奏曲",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ロンド",
+        "correct": false
+      }
     ],
-    "explanation": "古典派の時代にピアノ（当時はフォルテピアノ）がチェンバロに代わる主要な鍵盤楽器となりました。強弱の変化が自在にできることが最大の特徴で、古典派の表現に不可欠でした。",
+    "explanation": "スケルツォはイタリア語で「冗談」の意味で、速く勢いのある3拍子の楽章です。先にハイドンも、1781年の弦楽四重奏曲作品33でメヌエットの代わりに用いています。",
     "relatedId": null
   },
   {
     "id": "q-classical-015",
     "era": "classical",
-    "difficulty": 4,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "ベートーヴェンのピアノソナタ第14番「月光」の第1楽章の速度標語は？",
+    "question": "第九の終楽章で歌われるシラーの詩はどれでしょう。",
     "options": [
-      { "id": "a", "text": "アダージョ・ソステヌート", "correct": true },
-      { "id": "b", "text": "アレグロ・コン・ブリオ", "correct": false },
-      { "id": "c", "text": "アンダンテ・カンタービレ", "correct": false },
-      { "id": "d", "text": "プレスト・アジタート", "correct": false }
+      {
+        "id": "a",
+        "text": "「歓喜に寄す」",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "「魔王」",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "「野ばら」",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "「月に寄す」",
+        "correct": false
+      }
     ],
-    "explanation": "ピアノソナタ第14番嬰ハ短調Op.27-2「月光」の第1楽章は「アダージョ・ソステヌート」（ゆっくりと、音を保持して）と指示されています。三連符の伴奏に乗る静謐な旋律が特徴です。",
-    "relatedId": { "type": "composer", "id": "beethoven" }
+    "explanation": "1785年にシラーが書いた詩を、ベートーヴェンは独唱と合唱で歌わせました。初演は1824年5月7日、ウィーンのケルントナートーア劇場です。旋律は歌詞なしで「欧州の歌」に採用されています。",
+    "relatedId": null
   },
   {
     "id": "q-classical-016",
     "era": "classical",
-    "difficulty": 2,
+    "difficulty": 1,
     "type": "multiple-choice",
-    "question": "モーツァルトの交響曲第41番の通称は？",
+    "question": "ベートーヴェンの交響曲第5番の通称はどれでしょう。",
     "options": [
-      { "id": "a", "text": "「ジュピター」", "correct": true },
-      { "id": "b", "text": "「プラハ」", "correct": false },
-      { "id": "c", "text": "「リンツ」", "correct": false },
-      { "id": "d", "text": "「パリ」", "correct": false }
+      {
+        "id": "a",
+        "text": "「合唱」",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "「運命」",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "「田園」",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "「英雄」",
+        "correct": false
+      }
     ],
-    "explanation": "交響曲第41番ハ長調K.551は「ジュピター」の通称で知られます。終楽章の壮大なフーガが特徴で、モーツァルトの最後の交響曲です。この通称はモーツァルト自身ではなく後世につけられました。",
-    "relatedId": { "type": "composer", "id": "mozart-wa" }
+    "explanation": "ハ短調作品67の通称は、弟子シンドラーが伝えた「運命はこのように扉をたたく」という言葉に由来します。この呼び名は主に日本で使われています。「英雄」は第3番、「田園」は第6番です。",
+    "relatedId": null
   },
   {
     "id": "q-classical-017",
     "era": "classical",
-    "difficulty": 3,
+    "difficulty": 2,
     "type": "multiple-choice",
-    "question": "古典派の弦楽四重奏曲の標準的な編成は？",
+    "question": "モーツァルトの交響曲第41番の通称はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ヴァイオリン2、ヴィオラ1、チェロ1", "correct": true },
-      { "id": "b", "text": "ヴァイオリン3、チェロ1", "correct": false },
-      { "id": "c", "text": "ヴァイオリン2、チェロ2", "correct": false },
-      { "id": "d", "text": "ヴァイオリン1、ヴィオラ2、チェロ1", "correct": false }
+      {
+        "id": "a",
+        "text": "「リンツ」",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "「プラハ」",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "「パリ」",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "「ジュピター」",
+        "correct": true
+      }
     ],
-    "explanation": "弦楽四重奏曲は第1ヴァイオリン、第2ヴァイオリン、ヴィオラ、チェロの4パートで構成されます。ハイドンがこの編成を確立し、モーツァルトとベートーヴェンが発展させました。",
+    "explanation": "1788年8月10日に完成した、モーツァルト最後の交響曲です。通称は作曲者ではなく、興行師ザロモンが付けたとされます。終楽章の終わり近くでは5つの主題が同時に組み合わされます。",
     "relatedId": null
   },
   {
     "id": "q-classical-018",
     "era": "classical",
-    "difficulty": 4,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "ベートーヴェンの「ハイリゲンシュタットの遺書」とは何ですか？",
+    "question": "ハイドンの交響曲第94番の通称はどれでしょう。",
     "options": [
-      { "id": "a", "text": "聴覚障害への絶望と音楽への決意を記した手紙", "correct": true },
-      { "id": "b", "text": "遺産分配に関する法的文書", "correct": false },
-      { "id": "c", "text": "出版社への楽譜の契約書", "correct": false },
-      { "id": "d", "text": "弟子への音楽理論の教科書", "correct": false }
+      {
+        "id": "a",
+        "text": "「時計」",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "「驚愕」",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "「告別」",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "「軍隊」",
+        "correct": false
+      }
     ],
-    "explanation": "1802年にウィーン近郊のハイリゲンシュタットで書かれたこの手紙は、聴覚障害への絶望と自殺への衝動、そして芸術への使命感から生き続ける決意が記されています。弟たちに宛てられました。",
-    "relatedId": { "type": "composer", "id": "beethoven" }
+    "explanation": "第2楽章の静かな旋律に突然強い和音が入ることから名付けられました。居眠りする客を起こすためという話が有名ですが、ハイドン自身は「新しいもので聴衆を驚かせたかった」と語っています。",
+    "relatedId": null
   },
   {
     "id": "q-classical-019",
     "era": "classical",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "モーツァルトの出身地はどこですか？",
+    "question": "交響曲「英雄」の表紙に当初書かれていた人物はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ザルツブルク（オーストリア）", "correct": true },
-      { "id": "b", "text": "ウィーン（オーストリア）", "correct": false },
-      { "id": "c", "text": "ボン（ドイツ）", "correct": false },
-      { "id": "d", "text": "ハンブルク（ドイツ）", "correct": false }
+      {
+        "id": "a",
+        "text": "フリードリヒ大王",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ゲーテ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ヨーゼフ2世",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ナポレオン",
+        "correct": true
+      }
     ],
-    "explanation": "ヴォルフガング・アマデウス・モーツァルトは1756年にオーストリアのザルツブルクで生まれました。父レオポルトも音楽家で、幼少期からヨーロッパ各地で演奏旅行を行いました。",
-    "relatedId": { "type": "composer", "id": "mozart-wa" }
+    "explanation": "弟子リースによれば、ナポレオンが皇帝に即位したと聞いたベートーヴェンは、表紙を破り捨てたといいます。残る筆写譜にも「ボナパルト」の文字を削った跡があります。",
+    "relatedId": null
   },
   {
     "id": "q-classical-020",
     "era": "classical",
-    "difficulty": 3,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "古典派の「メヌエット」が後にベートーヴェンによって変化した形式は？",
+    "question": "「月光」ソナタ第1楽章の速度標語はどれでしょう。",
     "options": [
-      { "id": "a", "text": "スケルツォ", "correct": true },
-      { "id": "b", "text": "ロンド", "correct": false },
-      { "id": "c", "text": "変奏曲", "correct": false },
-      { "id": "d", "text": "マーチ", "correct": false }
+      {
+        "id": "a",
+        "text": "プレスト・アジタート",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "アンダンテ・カンタービレ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "アレグロ・コン・ブリオ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "アダージョ・ソステヌート",
+        "correct": true
+      }
     ],
-    "explanation": "ベートーヴェンは交響曲の第3楽章で、優雅なメヌエットに代えてより活発で力強いスケルツォを用いるようになりました。スケルツォはイタリア語で「冗談」の意味です。",
-    "relatedId": { "type": "composer", "id": "beethoven" }
+    "explanation": "ゆっくり音を保って弾くよう指示されています。プレスト・アジタートは第3楽章の標語です。「月光」の名は作曲者ではなく、詩人レルシュタープがこの楽章を月夜の湖にたとえたことに由来します。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-001",
     "era": "romantic",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "「ピアノの詩人」と呼ばれるロマン派の作曲家は？",
+    "question": "ロマン派の音楽が栄えたのは主にいつ頃でしょう。",
     "options": [
-      { "id": "a", "text": "ショパン", "correct": true },
-      { "id": "b", "text": "リスト", "correct": false },
-      { "id": "c", "text": "シューマン", "correct": false },
-      { "id": "d", "text": "ブラームス", "correct": false }
+      {
+        "id": "a",
+        "text": "15世紀",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "17世紀",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "19世紀",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "20世紀後半",
+        "correct": false
+      }
     ],
-    "explanation": "フレデリック・ショパンは生涯のほぼ全ての作品をピアノのために書き、ノクターン、バラード、エチュードなど、ピアノ音楽の可能性を極限まで追求したことから「ピアノの詩人」と呼ばれます。",
-    "relatedId": { "type": "composer", "id": "chopin" }
+    "explanation": "ロマン派はおおよそ1820年頃から1900年頃までの、19世紀の音楽を指します。作曲家個人の感情の表現、文学との結びつき、民族色の強まりが特徴です。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-002",
     "era": "romantic",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "ワーグナーが提唱した、音楽・演劇・美術を統合した芸術概念は？",
+    "question": "「歌曲の王」と呼ばれる作曲家は誰でしょう。",
     "options": [
-      { "id": "a", "text": "総合芸術作品（Gesamtkunstwerk）", "correct": true },
-      { "id": "b", "text": "絶対音楽（Absolute Musik）", "correct": false },
-      { "id": "c", "text": "標題音楽（Programmusik）", "correct": false },
-      { "id": "d", "text": "印象主義（Impressionism）", "correct": false }
+      {
+        "id": "a",
+        "text": "シューベルト",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "ブラームス",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ヴォルフ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "シューマン",
+        "correct": false
+      }
     ],
-    "explanation": "ワーグナーは楽劇（Musikdrama）において、音楽・詩・演劇・美術が一体となった「総合芸術作品」（Gesamtkunstwerk）を追求しました。バイロイト祝祭劇場はこの理想を実現するために建設されました。",
-    "relatedId": { "type": "composer", "id": "wagner" }
+    "explanation": "シューベルトは31歳で亡くなるまでに、600曲を超えるリート（ドイツ語の芸術歌曲）を書きました。「魔王」「野ばら」などがよく知られています。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-003",
     "era": "romantic",
-    "difficulty": 2,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "チャイコフスキーのバレエ音楽として正しくないものは？",
+    "question": "ロマン派のリートで、ふつう歌の伴奏をする楽器は何でしょう。",
     "options": [
-      { "id": "a", "text": "「春の祭典」", "correct": true },
-      { "id": "b", "text": "「白鳥の湖」", "correct": false },
-      { "id": "c", "text": "「くるみ割り人形」", "correct": false },
-      { "id": "d", "text": "「眠れる森の美女」", "correct": false }
+      {
+        "id": "a",
+        "text": "ギター",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ハープ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "オーケストラ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ピアノ",
+        "correct": true
+      }
     ],
-    "explanation": "「春の祭典」はストラヴィンスキーの作品です。チャイコフスキーの三大バレエは「白鳥の湖」「眠れる森の美女」「くるみ割り人形」です。",
-    "relatedId": { "type": "composer", "id": "tchaikovsky" }
+    "explanation": "リートは独唱とピアノのための歌曲で、ピアノは伴奏以上の役を担います。シューベルトの「魔王」では、ピアノの三連符の連打が夜道を駆ける馬を描きます。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-004",
     "era": "romantic",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "「歌曲の王」と呼ばれ、600曲以上のリートを作曲した作曲家は？",
+    "question": "メンデルスゾーンが17歳で書いた序曲はどれでしょう。",
     "options": [
-      { "id": "a", "text": "シューベルト", "correct": true },
-      { "id": "b", "text": "シューマン", "correct": false },
-      { "id": "c", "text": "ブラームス", "correct": false },
-      { "id": "d", "text": "ヴォルフ", "correct": false }
+      {
+        "id": "a",
+        "text": "「1812年」序曲",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "「真夏の夜の夢」序曲",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "「レオノーレ」序曲",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "「フィンガルの洞窟」序曲",
+        "correct": false
+      }
     ],
-    "explanation": "フランツ・シューベルトは31歳の短い生涯で600曲以上のリート（ドイツ歌曲）を作曲し、「歌曲の王」と呼ばれています。「魔王」「野ばら」「アヴェ・マリア」などが有名です。",
-    "relatedId": { "type": "composer", "id": "schubert" }
+    "explanation": "1826年、17歳のメンデルスゾーンがシェイクスピアの喜劇をもとに書いた序曲です。有名な「結婚行進曲」は、16年後の1842年に劇付随音楽の一曲として加えられました。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-005",
     "era": "romantic",
-    "difficulty": 2,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "リストが開拓した、管弦楽のための標題的な単一楽章の形式は？",
+    "question": "シューマンの妻クララが名を馳せた分野はどれでしょう。",
     "options": [
-      { "id": "a", "text": "交響詩", "correct": true },
-      { "id": "b", "text": "交響曲", "correct": false },
-      { "id": "c", "text": "協奏曲", "correct": false },
-      { "id": "d", "text": "序曲", "correct": false }
+      {
+        "id": "a",
+        "text": "ピアニスト",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "音楽評論家",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "声楽家",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "指揮者",
+        "correct": false
+      }
     ],
-    "explanation": "フランツ・リストは文学や絵画などの題材を音楽で表現する「交響詩」（Symphonische Dichtung）を創始しました。「前奏曲」「マゼッパ」など13曲の交響詩を作曲しました。",
-    "relatedId": { "type": "composer", "id": "liszt" }
+    "explanation": "クララはロマン派を代表するピアニストの一人です。父ヴィークが結婚に反対したため裁判となり、1840年に結婚しました。暗譜で弾く演奏を早くから行った一人でもあります。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-006",
     "era": "romantic",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "ショパンの出身国はどこですか？",
+    "question": "「ピアノの詩人」と呼ばれる作曲家は誰でしょう。",
     "options": [
-      { "id": "a", "text": "ポーランド", "correct": true },
-      { "id": "b", "text": "フランス", "correct": false },
-      { "id": "c", "text": "ドイツ", "correct": false },
-      { "id": "d", "text": "オーストリア", "correct": false }
+      {
+        "id": "a",
+        "text": "シューマン",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "リスト",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ショパン",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "ブラームス",
+        "correct": false
+      }
     ],
-    "explanation": "ショパンは1810年にポーランドのジェラゾヴァ・ヴォラで生まれました。20歳でパリに移住しましたが、生涯ポーランドへの愛国心を持ち続け、マズルカやポロネーズに祖国への思いを込めました。",
-    "relatedId": { "type": "composer", "id": "chopin" }
+    "explanation": "ショパンの作品はすべてピアノを含み、その大半がピアノ独奏曲です。ノクターン、バラード、練習曲などで、ピアノという楽器の表現を大きく広げました。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-007",
     "era": "romantic",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "ブラームスとワーグナーの対立は音楽史上何と呼ばれていますか？",
+    "question": "ショパンが生まれた国はどこでしょう。",
     "options": [
-      { "id": "a", "text": "絶対音楽と標題音楽の論争", "correct": true },
-      { "id": "b", "text": "調性と無調の論争", "correct": false },
-      { "id": "c", "text": "声楽と器楽の論争", "correct": false },
-      { "id": "d", "text": "宗教音楽と世俗音楽の論争", "correct": false }
+      {
+        "id": "a",
+        "text": "ポーランド",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "フランス",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ドイツ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "オーストリア",
+        "correct": false
+      }
     ],
-    "explanation": "19世紀後半、ブラームスは純粋な音楽の形式美を重視する「絶対音楽」の立場を、ワーグナーとリストは文学的内容を音楽で表現する「標題音楽」の立場をとり、激しい論争が繰り広げられました。",
-    "relatedId": { "type": "composer", "id": "brahms" }
+    "explanation": "ショパンは1810年、ワルシャワ近郊のジェラゾヴァ・ヴォラで生まれました。20歳で祖国を離れ、翌1831年からパリで暮らしましたが、祖国への思いを持ち続けました。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-008",
     "era": "romantic",
     "difficulty": 3,
     "type": "multiple-choice",
-    "question": "ヴェルディのオペラ「アイーダ」はどの国を舞台にしていますか？",
+    "question": "ショパンが書いた、ポーランドの舞曲はどれでしょう。",
     "options": [
-      { "id": "a", "text": "古代エジプト", "correct": true },
-      { "id": "b", "text": "古代ローマ", "correct": false },
-      { "id": "c", "text": "中世スペイン", "correct": false },
-      { "id": "d", "text": "ルネサンス期のイタリア", "correct": false }
+      {
+        "id": "a",
+        "text": "チャルダーシュとハバネラ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "マズルカとポロネーズ",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "ワルツとボレロ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "タランテラとメヌエット",
+        "correct": false
+      }
     ],
-    "explanation": "「アイーダ」は古代エジプトを舞台に、エジプト将軍ラダメスとエチオピア王女アイーダの悲恋を描いたグランド・オペラです。スエズ運河の開通を記念して1871年にカイロで初演されました。",
-    "relatedId": { "type": "composer", "id": "verdi" }
+    "explanation": "マズルカは3拍子の民俗舞踊、ポロネーズはゆったりとした3拍子の行列の踊りで、どちらもポーランドに由来します。ショパンは生涯にわたりこの二つを書き続けました。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-009",
     "era": "romantic",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "「新世界より」という通称で知られる交響曲の作曲家は？",
+    "question": "リストが確立したピアノ演奏の様式はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ドヴォルザーク", "correct": true },
-      { "id": "b", "text": "チャイコフスキー", "correct": false },
-      { "id": "c", "text": "ブラームス", "correct": false },
-      { "id": "d", "text": "マーラー", "correct": false }
+      {
+        "id": "a",
+        "text": "左手だけで弾く奏法",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "弓で弦をこする奏法",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "超絶技巧のヴィルトゥオーゾ様式",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "プリペアド・ピアノ",
+        "correct": false
+      }
     ],
-    "explanation": "交響曲第9番「新世界より」はドヴォルザークがアメリカ滞在中に作曲した作品です。第2楽章の「家路」の旋律は日本でも広く親しまれています。",
-    "relatedId": { "type": "composer", "id": "dvorak" }
+    "explanation": "リストは跳躍やオクターヴの連打を駆使した技巧で欧州を沸かせました。1840年のロンドン公演は、ピアニストが一人で行う演奏会が「リサイタル」と呼ばれた最初の例とされます。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-010",
     "era": "romantic",
-    "difficulty": 2,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "シューマンとクララ・ヴィークの関係として正しいものは？",
+    "question": "リストが名付けた、文学などを題材にする管弦楽曲の形式は何でしょう。",
     "options": [
-      { "id": "a", "text": "シューマンの妻で、著名なピアニストでもあった", "correct": true },
-      { "id": "b", "text": "シューマンの姉で、声楽家であった", "correct": false },
-      { "id": "c", "text": "シューマンの弟子で、指揮者になった", "correct": false },
-      { "id": "d", "text": "シューマンのパトロンで、貴族であった", "correct": false }
+      {
+        "id": "a",
+        "text": "交響曲",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "協奏曲",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "組曲",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "交響詩",
+        "correct": true
+      }
     ],
-    "explanation": "クララ・ヴィーク（結婚後クララ・シューマン）は当時最高のピアニストの一人で、ロベルト・シューマンの妻です。父親の反対を乗り越えて結婚し、夫の作品の普及にも尽力しました。",
-    "relatedId": { "type": "composer", "id": "schumann-r" }
+    "explanation": "リストは単一楽章で詩や絵画の内容を描く管弦楽曲を「交響詩」と名付け、自ら13曲を書きました。「前奏曲」「マゼッパ」などがあり、のちにR.シュトラウスらが受け継ぎました。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-011",
     "era": "romantic",
-    "difficulty": 3,
+    "difficulty": 1,
     "type": "multiple-choice",
-    "question": "ワーグナーの楽劇「ニーベルングの指環」は全何部作ですか？",
+    "question": "ブラームスが書いた交響曲は全部で何曲でしょう。",
     "options": [
-      { "id": "a", "text": "4部作", "correct": true },
-      { "id": "b", "text": "3部作", "correct": false },
-      { "id": "c", "text": "5部作", "correct": false },
-      { "id": "d", "text": "2部作", "correct": false }
+      {
+        "id": "a",
+        "text": "6曲",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "2曲",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "4曲",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "9曲",
+        "correct": false
+      }
     ],
-    "explanation": "「ニーベルングの指環」は「ラインの黄金」「ワルキューレ」「ジークフリート」「神々の黄昏」の4作からなる大作で、全上演に約15時間を要します。北欧神話を題材にしています。",
-    "relatedId": { "type": "composer", "id": "wagner" }
+    "explanation": "ブラームスはベートーヴェンを強く意識し、交響曲を4曲だけ残しました。最後の第4番は1885年にマイニンゲンで本人の指揮により初演され、終楽章はパッサカリアです。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-012",
     "era": "romantic",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple-choice",
-    "question": "メンデルスゾーンが17歳で作曲した有名な序曲は？",
+    "question": "ワーグナーの「ニーベルングの指環」は全何部作でしょう。",
     "options": [
-      { "id": "a", "text": "「真夏の夜の夢」序曲", "correct": true },
-      { "id": "b", "text": "「フィンガルの洞窟」序曲", "correct": false },
-      { "id": "c", "text": "「レオノーレ」序曲", "correct": false },
-      { "id": "d", "text": "「1812年」序曲", "correct": false }
+      {
+        "id": "a",
+        "text": "4部作",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "5部作",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "3部作",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "2部作",
+        "correct": false
+      }
     ],
-    "explanation": "メンデルスゾーンはわずか17歳でシェイクスピアの戯曲に基づく「真夏の夜の夢」序曲を作曲しました。妖精の世界を描いた軽やかな音楽は、若き天才の驚異的な才能を示しています。",
-    "relatedId": { "type": "composer", "id": "mendelssohn" }
+    "explanation": "「ラインの黄金」「ワルキューレ」「ジークフリート」「神々の黄昏」の4作で、通して約15時間かかります。全曲の初演は1876年、第1回バイロイト音楽祭でした。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-013",
     "era": "romantic",
-    "difficulty": 2,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "ロマン派の「リート」（芸術歌曲）の伴奏楽器として最も一般的なものは？",
+    "question": "ワーグナーが目指した、音楽と劇を一つにする芸術は何でしょう。",
     "options": [
-      { "id": "a", "text": "ピアノ", "correct": true },
-      { "id": "b", "text": "オーケストラ", "correct": false },
-      { "id": "c", "text": "ギター", "correct": false },
-      { "id": "d", "text": "ハープ", "correct": false }
+      {
+        "id": "a",
+        "text": "絶対音楽",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "総合芸術作品",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "標題音楽",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "印象主義",
+        "correct": false
+      }
     ],
-    "explanation": "ロマン派のリートでは歌声とピアノが対等なパートナーとして音楽を作り上げます。シューベルトの「魔王」ではピアノが馬の疾走を、シューマンの歌曲ではピアノが詩の情景を描写します。",
+    "explanation": "ワーグナーは音楽・詩・演劇・美術が一体となる「総合芸術作品（Gesamtkunstwerk）」を唱えました。その上演のために、自らバイロイト祝祭劇場を建てています。",
     "relatedId": null
   },
   {
     "id": "q-romantic-014",
     "era": "romantic",
-    "difficulty": 3,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "プッチーニのオペラ「蝶々夫人」の舞台となっている都市は？",
+    "question": "ワーグナーの「ライトモティーフ」とは何でしょう。",
     "options": [
-      { "id": "a", "text": "長崎", "correct": true },
-      { "id": "b", "text": "東京", "correct": false },
-      { "id": "c", "text": "京都", "correct": false },
-      { "id": "d", "text": "横浜", "correct": false }
+      {
+        "id": "a",
+        "text": "歌手が即興で歌うカデンツァ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "幕間に演奏される間奏曲",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "合唱が歌うフーガ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "人物や物事を表す短い動機",
+        "correct": true
+      }
     ],
-    "explanation": "「蝶々夫人」は長崎を舞台に、日本人女性の蝶々さんとアメリカ海軍士官ピンカートンの悲劇を描いたオペラです。日本の旋律も取り入れた異国情緒豊かな作品です。",
-    "relatedId": { "type": "composer", "id": "puccini" }
+    "explanation": "ライトモティーフ（示導動機）は、人物・物・感情などに結びつけた短い旋律です。形を変えながら繰り返し現れ、舞台の言葉が語らない物語の動きを音楽で示します。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-015",
     "era": "romantic",
-    "difficulty": 4,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "マーラーの交響曲第8番の通称は？",
+    "question": "ブラームス派とワーグナー派の論争の主な争点は何でしょう。",
     "options": [
-      { "id": "a", "text": "「千人の交響曲」", "correct": true },
-      { "id": "b", "text": "「巨人」", "correct": false },
-      { "id": "c", "text": "「復活」", "correct": false },
-      { "id": "d", "text": "「悲劇的」", "correct": false }
+      {
+        "id": "a",
+        "text": "声楽か器楽か",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "宗教音楽か世俗音楽か",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "絶対音楽か標題音楽か",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "調性か無調か",
+        "correct": false
+      }
     ],
-    "explanation": "交響曲第8番は8人の独唱者、複数の合唱団、大編成のオーケストラを要し、初演時に約1,000人の演奏者が参加したことから「千人の交響曲」と呼ばれます。マーラー自身の最大の成功となった作品です。",
-    "relatedId": { "type": "composer", "id": "mahler" }
+    "explanation": "ブラームスと批評家ハンスリックは古典的な形式を重んじ、リストとワーグナーの「新ドイツ派」は文学と結びつく音楽を推しました。ただしブラームス本人はワーグナーを評価していたとされます。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-016",
     "era": "romantic",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "ロマン派音楽の時代は主にいつ頃ですか？",
+    "question": "プッチーニ「蝶々夫人」の舞台となる都市はどこでしょう。",
     "options": [
-      { "id": "a", "text": "19世紀", "correct": true },
-      { "id": "b", "text": "17世紀", "correct": false },
-      { "id": "c", "text": "15世紀", "correct": false },
-      { "id": "d", "text": "20世紀後半", "correct": false }
+      {
+        "id": "a",
+        "text": "長崎",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "横浜",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "東京",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "京都",
+        "correct": false
+      }
     ],
-    "explanation": "ロマン派音楽は主に19世紀（1820年頃〜1900年頃）に栄えた音楽様式です。個人の感情表現、文学との結びつき、民族主義的な要素が特徴的です。",
+    "explanation": "「蝶々夫人」は長崎を舞台に、蝶々さんと米海軍士官ピンカートンの悲劇を描きます。1904年にミラノで初演され、「君が代」「さくらさくら」など日本の旋律も使われています。",
     "relatedId": null
   },
   {
@@ -964,374 +2050,1084 @@
     "era": "romantic",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "ヴェルディのオペラ「椿姫」のヒロインの名前は？",
+    "question": "ヴェルディ「椿姫」のヒロインの名前は何でしょう。",
     "options": [
-      { "id": "a", "text": "ヴィオレッタ", "correct": true },
-      { "id": "b", "text": "ミミ", "correct": false },
-      { "id": "c", "text": "トスカ", "correct": false },
-      { "id": "d", "text": "カルメン", "correct": false }
+      {
+        "id": "a",
+        "text": "カルメン",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "トスカ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ミミ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ヴィオレッタ",
+        "correct": true
+      }
     ],
-    "explanation": "「椿姫（ラ・トラヴィアータ）」のヒロインはパリの高級娼婦ヴィオレッタです。デュマ・フィスの小説を原作とし、愛と犠牲を描いたヴェルディの代表作です。",
-    "relatedId": { "type": "composer", "id": "verdi" }
+    "explanation": "ヒロインはパリの高級娼婦ヴィオレッタです。原作はデュマ・フィスの戯曲「椿姫」で、1853年にヴェネツィアのフェニーチェ劇場で初演されました。第1幕の「乾杯の歌」が有名です。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-018",
     "era": "romantic",
     "difficulty": 3,
     "type": "multiple-choice",
-    "question": "リストのピアノ演奏技法の影響として正しいものは？",
+    "question": "プッチーニ「ラ・ボエーム」の舞台となる都市はどこでしょう。",
     "options": [
-      { "id": "a", "text": "超絶技巧を駆使したヴィルトゥオーゾ・スタイルの確立", "correct": true },
-      { "id": "b", "text": "ピアノを弦楽器のように弓で弾く奏法の開発", "correct": false },
-      { "id": "c", "text": "左手のみで演奏する作品の確立", "correct": false },
-      { "id": "d", "text": "プリペアド・ピアノの発明", "correct": false }
+      {
+        "id": "a",
+        "text": "パリ",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "ローマ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ミラノ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ウィーン",
+        "correct": false
+      }
     ],
-    "explanation": "フランツ・リストは史上最高のピアニストの一人とされ、跳躍、オクターヴ連打、超高速パッセージなどの超絶技巧を駆使したヴィルトゥオーゾ・スタイルを確立しました。現代のリサイタル形式も彼が創始しました。",
-    "relatedId": { "type": "composer", "id": "liszt" }
+    "explanation": "「ラ・ボエーム」は1830年頃のパリを舞台に、貧しい芸術家たちの青春と恋を描きます。1896年にトリノで初演され、指揮は当時28歳のトスカニーニでした。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-019",
     "era": "romantic",
     "difficulty": 4,
     "type": "multiple-choice",
-    "question": "ワーグナーの「ライトモティーフ」とは何ですか？",
+    "question": "ヴェルディ「アイーダ」の舞台はどこでしょう。",
     "options": [
-      { "id": "a", "text": "特定の人物・事物・概念を表す短い音楽的動機", "correct": true },
-      { "id": "b", "text": "オペラの幕間に演奏される間奏曲", "correct": false },
-      { "id": "c", "text": "歌手が即興で歌うカデンツァ", "correct": false },
-      { "id": "d", "text": "合唱が歌うフーガ", "correct": false }
+      {
+        "id": "a",
+        "text": "古代ローマ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ルネサンス期のイタリア",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "中世スペイン",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "古代エジプト",
+        "correct": true
+      }
     ],
-    "explanation": "ライトモティーフ（指導動機）はワーグナーが発展させた技法で、特定の登場人物、物、感情などに固有の短い旋律を割り当て、それを変形・結合することで物語を音楽的に語る手法です。",
-    "relatedId": { "type": "composer", "id": "wagner" }
+    "explanation": "エジプトの将軍ラダメスとエチオピアの王女アイーダの悲恋を描きます。カイロの歌劇場の依頼で書かれ、1871年に同地で初演されました。スエズ運河開通の祝典曲の依頼は、ヴェルディが断っています。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-020",
     "era": "romantic",
-    "difficulty": 1,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "チャイコフスキーの出身国はどこですか？",
+    "question": "「女心の歌」が歌われるヴェルディのオペラはどれでしょう。",
     "options": [
-      { "id": "a", "text": "ロシア", "correct": true },
-      { "id": "b", "text": "ドイツ", "correct": false },
-      { "id": "c", "text": "フランス", "correct": false },
-      { "id": "d", "text": "ポーランド", "correct": false }
+      {
+        "id": "a",
+        "text": "リゴレット",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "オテロ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "トロヴァトーレ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ナブッコ",
+        "correct": false
+      }
     ],
-    "explanation": "ピョートル・イリイチ・チャイコフスキーは1840年にロシアのヴォトキンスクに生まれました。ロシアの民族的要素と西欧の音楽様式を融合させた独自の作風で知られます。",
-    "relatedId": { "type": "composer", "id": "tchaikovsky" }
+    "explanation": "「女心の歌」は「リゴレット」第3幕でマントヴァ公爵が歌うアリアです。原作はヴィクトル・ユゴーの戯曲「王は愉しむ」で、1851年にヴェネツィアで初演されました。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-021",
     "era": "romantic",
-    "difficulty": 2,
+    "difficulty": 1,
     "type": "multiple-choice",
-    "question": "ブラームスの交響曲は全部で何曲ですか？",
+    "question": "チャイコフスキーが生まれた国はどこでしょう。",
     "options": [
-      { "id": "a", "text": "4曲", "correct": true },
-      { "id": "b", "text": "9曲", "correct": false },
-      { "id": "c", "text": "6曲", "correct": false },
-      { "id": "d", "text": "2曲", "correct": false }
+      {
+        "id": "a",
+        "text": "ポーランド",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ロシア",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "ドイツ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "フランス",
+        "correct": false
+      }
     ],
-    "explanation": "ブラームスはベートーヴェンの影響を強く意識し、完璧主義者として交響曲を4曲のみ残しました。第1番を完成させるまでに約20年を費やしたと言われています。",
-    "relatedId": { "type": "composer", "id": "brahms" }
+    "explanation": "チャイコフスキーは1840年、ロシアのウラル地方の町ヴォトキンスクで生まれました。ロシアの旋律と西欧の形式を結びつけ、亡くなる1893年に交響曲第6番「悲愴」を書きました。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-022",
     "era": "romantic",
-    "difficulty": 3,
+    "difficulty": 2,
     "type": "multiple-choice",
-    "question": "シベリウスの交響詩「フィンランディア」が果たした役割は？",
+    "question": "チャイコフスキーが作曲したバレエ音楽はどれでしょう。",
     "options": [
-      { "id": "a", "text": "フィンランドの民族独立運動の象徴となった", "correct": true },
-      { "id": "b", "text": "フィンランド国歌に採用された", "correct": false },
-      { "id": "c", "text": "フィンランドの教会音楽を改革した", "correct": false },
-      { "id": "d", "text": "フィンランドの民謡を正確に記録した", "correct": false }
+      {
+        "id": "a",
+        "text": "ジゼル",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "くるみ割り人形",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "春の祭典",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "コッペリア",
+        "correct": false
+      }
     ],
-    "explanation": "「フィンランディア」（1899年）はロシア帝国の支配下にあったフィンランドの民族的誇りを鼓舞し、独立運動の精神的象徴となりました。ロシア当局により一時演奏が禁止されました。",
-    "relatedId": { "type": "composer", "id": "sibelius" }
+    "explanation": "チャイコフスキーの三大バレエは「白鳥の湖」「眠れる森の美女」「くるみ割り人形」です。「春の祭典」はストラヴィンスキー、「ジゼル」はアダン、「コッペリア」はドリーブの作品です。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-023",
     "era": "romantic",
-    "difficulty": 5,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "リヒャルト・シュトラウスの交響詩「ツァラトゥストラはかく語りき」の冒頭が有名になったきっかけは？",
+    "question": "交響曲「新世界より」を作曲したのは誰でしょう。",
     "options": [
-      { "id": "a", "text": "映画「2001年宇宙の旅」で使用された", "correct": true },
-      { "id": "b", "text": "オリンピックの開会式で使用された", "correct": false },
-      { "id": "c", "text": "テレビCMで繰り返し使われた", "correct": false },
-      { "id": "d", "text": "ロックバンドがカバーした", "correct": false }
+      {
+        "id": "a",
+        "text": "ドヴォルザーク",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "マーラー",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ブラームス",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "チャイコフスキー",
+        "correct": false
+      }
     ],
-    "explanation": "リヒャルト・シュトラウスの「ツァラトゥストラはかく語りき」の壮大な冒頭「日の出」は、1968年のスタンリー・キューブリック監督の映画「2001年宇宙の旅」で使用され、世界的に有名になりました。",
-    "relatedId": { "type": "composer", "id": "strauss-r" }
+    "explanation": "ドヴォルザークがニューヨークの音楽院の院長を務めていた1893年に書いた交響曲第9番です。第2楽章の旋律は、日本では「遠き山に日は落ちて」の歌でも親しまれています。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-024",
     "era": "romantic",
-    "difficulty": 2,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "ショパンが得意としたピアノ曲のジャンルで、ポーランドの民族舞踊に由来するものは？",
+    "question": "グリーグが劇音楽を書いたイプセンの戯曲はどれでしょう。",
     "options": [
-      { "id": "a", "text": "マズルカとポロネーズ", "correct": true },
-      { "id": "b", "text": "ワルツとボレロ", "correct": false },
-      { "id": "c", "text": "タランテラとメヌエット", "correct": false },
-      { "id": "d", "text": "チャルダッシュとハンガリー舞曲", "correct": false }
+      {
+        "id": "a",
+        "text": "野鴨",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ヘッダ・ガーブレル",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "人形の家",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ペール・ギュント",
+        "correct": true
+      }
     ],
-    "explanation": "マズルカは3拍子のポーランド民族舞踊、ポロネーズは荘厳な3拍子の行進舞曲で、どちらもポーランドの伝統に根差しています。ショパンは祖国への思いをこれらの形式に込めました。",
-    "relatedId": { "type": "composer", "id": "chopin" }
+    "explanation": "イプセンの依頼で書かれ、1876年にクリスチャニア（現オスロ）で劇とともに初演されました。のちに2つの組曲にまとめられ、「朝」「山の魔王の宮殿にて」が広く知られています。",
+    "relatedId": null
   },
   {
     "id": "q-romantic-025",
     "era": "romantic",
+    "difficulty": 5,
+    "type": "multiple-choice",
+    "question": "シベリウス「フィンランディア」が果たした役割はどれでしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "民謡を正確に記録した",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "民族の誇りを示す象徴となった",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "フィンランド国歌に採用された",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "教会音楽を改革した",
+        "correct": false
+      }
+    ],
+    "explanation": "1899年、ロシアの検閲強化に抗議する催しのために書かれ、民族の誇りを示す曲となりました。ロシア帝国内では別の題名で演奏されたこともあります。中間部の賛歌の旋律はシベリウスの創作です。",
+    "relatedId": null
+  },
+  {
+    "id": "q-romantic-026",
+    "era": "romantic",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "「ツァラトゥストラはかく語りき」が広く知られたきっかけは何でしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "テレビCM",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "映画「2001年宇宙の旅」",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "ロックバンドのカバー",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "オリンピックの開会式",
+        "correct": false
+      }
+    ],
+    "explanation": "R.シュトラウスが1896年に書いた交響詩で、ニーチェの同名の著作に基づきます。「日の出」と題された冒頭が、1968年のキューブリック監督の映画で使われて広く知られました。",
+    "relatedId": null
+  },
+  {
+    "id": "q-romantic-027",
+    "era": "romantic",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "マーラーの交響曲第8番の通称は何でしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "巨人",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "悲劇的",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "千人の交響曲",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "復活",
+        "correct": false
+      }
+    ],
+    "explanation": "1910年のミュンヘン初演には、合唱850人、管弦楽157人、独唱8人の計1,000人余りが参加したとされます。通称は興行主グートマンが宣伝のために付けたもので、マーラーは好みませんでした。",
+    "relatedId": null
+  },
+  {
+    "id": "q-romantic-028",
+    "era": "romantic",
+    "difficulty": 3,
+    "type": "multiple-choice",
+    "question": "マーラーの交響曲の特徴はどれでしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "大編成で演奏時間が長い",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "弦楽四重奏で演奏される",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "すべて3楽章でできている",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "すべて無調で書かれている",
+        "correct": false
+      }
+    ],
+    "explanation": "マーラーの交響曲は大編成の管弦楽を用い、多くは演奏に1時間以上かかります。第2番「復活」や第8番のように、独唱や合唱を加えた曲もあります。",
+    "relatedId": null
+  },
+  {
+    "id": "q-romantic-029",
+    "era": "romantic",
     "difficulty": 4,
     "type": "multiple-choice",
-    "question": "マーラーの交響曲の特徴として正しいものはどれですか？",
+    "question": "R.シュトラウスが作曲したオペラはどれでしょう。",
     "options": [
-      { "id": "a", "text": "巨大な編成と長大な演奏時間を持つ", "correct": true },
-      { "id": "b", "text": "全て3楽章構成である", "correct": false },
-      { "id": "c", "text": "弦楽四重奏のみで演奏される", "correct": false },
-      { "id": "d", "text": "全て無調で書かれている", "correct": false }
+      {
+        "id": "a",
+        "text": "ペレアスとメリザンド",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ヴォツェック",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "青ひげ公の城",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ばらの騎士",
+        "correct": true
+      }
     ],
-    "explanation": "マーラーの交響曲は大編成のオーケストラ、声楽の導入、1時間を超える演奏時間などが特徴です。人生と死の深遠なテーマを扱い、後期ロマン派交響曲の頂点とされます。",
-    "relatedId": { "type": "composer", "id": "mahler" }
+    "explanation": "「ばらの騎士」はホフマンスタールの台本で、1911年にドレスデンで初演されました。舞台はマリア・テレジア治世の1740年代のウィーンです。「ヴォツェック」はベルクの作品です。",
+    "relatedId": null
+  },
+  {
+    "id": "q-romantic-030",
+    "era": "romantic",
+    "difficulty": 5,
+    "type": "multiple-choice",
+    "question": "マーラー「交響曲第5番」のアダージェットが使われた映画は何でしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "2001年宇宙の旅",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ベニスに死す",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "アマデウス",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "地獄の黙示録",
+        "correct": false
+      }
+    ],
+    "explanation": "ヴィスコンティ監督の1971年の映画で、冒頭と結末に流れます。トーマス・マンの原作では主人公は作家ですが、映画では作曲家に置き換えられ、この曲がその人物の音楽として響きます。",
+    "relatedId": null
   },
   {
     "id": "q-modern-001",
     "era": "modern",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "印象主義音楽の代表的作曲家は誰ですか？",
+    "question": "印象主義音楽を代表する作曲家はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ドビュッシー", "correct": true },
-      { "id": "b", "text": "ベートーヴェン", "correct": false },
-      { "id": "c", "text": "バッハ", "correct": false },
-      { "id": "d", "text": "ブラームス", "correct": false }
+      {
+        "id": "a",
+        "text": "マーラー",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "シベリウス",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ブラームス",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ドビュッシー",
+        "correct": true
+      }
     ],
-    "explanation": "クロード・ドビュッシーは印象主義音楽の創始者とされます。「牧神の午後への前奏曲」「月の光」などで、従来の調性にとらわれない色彩的な和声を追求しました。",
-    "relatedId": { "type": "composer", "id": "debussy" }
+    "explanation": "ドビュッシーは全音音階や教会旋法を用い、響きの色合いを重んじる音楽を書きました。ただ本人は「印象主義」という呼び名を好まなかったと伝えられます。",
+    "relatedId": null
   },
   {
     "id": "q-modern-002",
     "era": "modern",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "初演時に聴衆が暴動を起こしたと言われるストラヴィンスキーの作品は？",
+    "question": "同じリズムの上で旋律が繰り返され、高まっていくラヴェルの曲はどれでしょう。",
     "options": [
-      { "id": "a", "text": "「春の祭典」", "correct": true },
-      { "id": "b", "text": "「火の鳥」", "correct": false },
-      { "id": "c", "text": "「ペトルーシュカ」", "correct": false },
-      { "id": "d", "text": "「プルチネッラ」", "correct": false }
+      {
+        "id": "a",
+        "text": "ダフニスとクロエ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ボレロ",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "スペイン狂詩曲",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ラ・ヴァルス",
+        "correct": false
+      }
     ],
-    "explanation": "1913年5月29日、パリのシャンゼリゼ劇場での「春の祭典」初演は、その原始的なリズムと不協和音に聴衆が激しく反応し、賛否両論の「暴動」となった伝説的な事件です。",
-    "relatedId": { "type": "composer", "id": "stravinsky" }
+    "explanation": "「ボレロ」は1928年、舞踊家イダ・ルビンシュテインのために書かれました。小太鼓が2小節のリズムを最後まで刻み、その上で2つの旋律が楽器を替えて繰り返されます。",
+    "relatedId": null
   },
   {
     "id": "q-modern-003",
     "era": "modern",
     "difficulty": 3,
     "type": "multiple-choice",
-    "question": "シェーンベルクが開発した、12の半音を平等に扱う作曲技法は？",
+    "question": "ドビュッシーの「月の光」を含むピアノ曲集はどれでしょう。",
     "options": [
-      { "id": "a", "text": "十二音技法", "correct": true },
-      { "id": "b", "text": "印象主義", "correct": false },
-      { "id": "c", "text": "ミニマリズム", "correct": false },
-      { "id": "d", "text": "新古典主義", "correct": false }
+      {
+        "id": "a",
+        "text": "映像",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "版画",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ベルガマスク組曲",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "前奏曲集",
+        "correct": false
+      }
     ],
-    "explanation": "アルノルト・シェーンベルクは1920年代に十二音技法（ドデカフォニー）を開発しました。12の半音を全て一度ずつ使う「音列」を基に作曲する技法で、調性音楽の根本原理を覆す革命でした。",
-    "relatedId": { "type": "composer", "id": "schoenberg" }
+    "explanation": "「月の光」は4曲からなる「ベルガマスク組曲」の第3曲です。題名はヴェルレーヌの詩から取られ、初めは「感傷的な散歩」という題でした。出版は1905年です。",
+    "relatedId": null
   },
   {
     "id": "q-modern-004",
     "era": "modern",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "ラヴェルの最も有名なオーケストラ作品で、同じ旋律が繰り返し演奏される曲は？",
+    "question": "「牧神の午後への前奏曲」の冒頭で独奏する楽器はどれでしょう。",
     "options": [
-      { "id": "a", "text": "「ボレロ」", "correct": true },
-      { "id": "b", "text": "「ダフニスとクロエ」", "correct": false },
-      { "id": "c", "text": "「スペイン狂詩曲」", "correct": false },
-      { "id": "d", "text": "「ラ・ヴァルス」", "correct": false }
+      {
+        "id": "a",
+        "text": "フルート",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "ヴァイオリン",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "オーボエ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "クラリネット",
+        "correct": false
+      }
     ],
-    "explanation": "「ボレロ」（1928年）は同一の旋律がオーケストラの異なる楽器で繰り返され、次第にクレッシェンドしていく独創的な作品です。ラヴェルの管弦楽法の妙技が光る名曲です。",
-    "relatedId": { "type": "composer", "id": "ravel" }
+    "explanation": "曲はフルートの独奏で始まります。マラルメの詩「牧神の午後」をもとに書かれ、1894年に初演されました。近代音楽の幕開けとされることもある作品です。",
+    "relatedId": null
   },
   {
     "id": "q-modern-005",
     "era": "modern",
-    "difficulty": 2,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "バルトークが音楽研究のために各地で行った活動は何ですか？",
+    "question": "ラヴェルが1901年に書いた、噴水の水を描くピアノ曲はどれでしょう。",
     "options": [
-      { "id": "a", "text": "民謡の収集と分析（民族音楽学）", "correct": true },
-      { "id": "b", "text": "古楽器の修復", "correct": false },
-      { "id": "c", "text": "オーケストラの指揮活動", "correct": false },
-      { "id": "d", "text": "オペラハウスの設計", "correct": false }
+      {
+        "id": "a",
+        "text": "亡き王女のためのパヴァーヌ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "夜のガスパール",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "鏡",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "水の戯れ",
+        "correct": true
+      }
     ],
-    "explanation": "ベーラ・バルトークはハンガリーやルーマニアなどの農村を訪れ、蓄音機で民謡を録音・収集しました。この民族音楽学的研究は彼の作曲活動に大きな影響を与えました。",
-    "relatedId": { "type": "composer", "id": "bartok" }
+    "explanation": "「水の戯れ」はラヴェルが26歳で書き、師フォーレに献呈した作品です。リストの「エステ荘の噴水」に影響を受けたとされ、流れる水を細かな音型で描きます。",
+    "relatedId": null
   },
   {
     "id": "q-modern-006",
     "era": "modern",
-    "difficulty": 2,
+    "difficulty": 1,
     "type": "multiple-choice",
-    "question": "プロコフィエフの管弦楽作品で、楽器が動物の登場人物を表す子供向け作品は？",
+    "question": "ストラヴィンスキーの三大バレエの組み合わせはどれでしょう。",
     "options": [
-      { "id": "a", "text": "「ピーターと狼」", "correct": true },
-      { "id": "b", "text": "「動物の謝肉祭」", "correct": false },
-      { "id": "c", "text": "「子供の情景」", "correct": false },
-      { "id": "d", "text": "「くるみ割り人形」", "correct": false }
+      {
+        "id": "a",
+        "text": "ボレロ・ダフニスとクロエ・ラ・ヴァルス",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "火の鳥・ペトルーシュカ・春の祭典",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "火の鳥・ボレロ・ロメオとジュリエット",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "白鳥の湖・くるみ割り人形・眠れる森の美女",
+        "correct": false
+      }
     ],
-    "explanation": "「ピーターと狼」（1936年）はナレーション付きの管弦楽作品で、弦楽器のピーター、フルートの鳥、オーボエのアヒルなど、各楽器が登場人物を表現します。子供向け音楽教育の傑作です。",
-    "relatedId": { "type": "composer", "id": "prokofiev" }
+    "explanation": "「火の鳥」（1910年）「ペトルーシュカ」（1911年）「春の祭典」（1913年）の3作で、いずれもディアギレフ率いるバレエ・リュスのためにパリで初演されました。",
+    "relatedId": null
   },
   {
     "id": "q-modern-007",
     "era": "modern",
-    "difficulty": 3,
+    "difficulty": 2,
     "type": "multiple-choice",
-    "question": "ドビュッシーの「牧神の午後への前奏曲」の冒頭で印象的なソロを奏でる楽器は？",
+    "question": "楽器が登場人物を演じる、プロコフィエフの子ども向けの作品はどれでしょう。",
     "options": [
-      { "id": "a", "text": "フルート", "correct": true },
-      { "id": "b", "text": "オーボエ", "correct": false },
-      { "id": "c", "text": "クラリネット", "correct": false },
-      { "id": "d", "text": "ヴァイオリン", "correct": false }
+      {
+        "id": "a",
+        "text": "くるみ割り人形",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ピーターと狼",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "動物の謝肉祭",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "子供の情景",
+        "correct": false
+      }
     ],
-    "explanation": "「牧神の午後への前奏曲」はフルートの官能的な独奏で始まります。マラルメの詩に基づき、午後のまどろみの中の牧神の夢想を描いた作品で、近代音楽の幕開けとされます。",
-    "relatedId": { "type": "composer", "id": "debussy" }
+    "explanation": "「ピーターと狼」（1936年）は語り手付きの管弦楽曲です。ピーターは弦楽器、小鳥はフルート、アヒルはオーボエ、狼は3本のホルンが受け持ちます。",
+    "relatedId": null
   },
   {
     "id": "q-modern-008",
     "era": "modern",
-    "difficulty": 4,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "ショスタコーヴィチの交響曲第5番が作曲された背景は？",
+    "question": "1913年のパリ初演で客席が騒然となったストラヴィンスキーの作品はどれでしょう。",
     "options": [
-      { "id": "a", "text": "スターリン体制下での批判を受けた後の「名誉回復」作品", "correct": true },
-      { "id": "b", "text": "第二次世界大戦の勝利を祝う作品", "correct": false },
-      { "id": "c", "text": "アメリカ亡命後の最初の作品", "correct": false },
-      { "id": "d", "text": "プーシキンの詩に基づく標題音楽", "correct": false }
+      {
+        "id": "a",
+        "text": "春の祭典",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "火の鳥",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ペトルーシュカ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "プルチネッラ",
+        "correct": false
+      }
     ],
-    "explanation": "1936年にプラウダ紙で「混沌ではなく音楽を」と激しく批判されたショスタコーヴィチは、1937年に交響曲第5番を発表し絶賛を受けました。表面上は体制に従順ながら、内面の葛藤が込められた作品です。",
-    "relatedId": { "type": "composer", "id": "shostakovich" }
+    "explanation": "「春の祭典」は1913年5月29日、シャンゼリゼ劇場で初演されました。激しいリズムと不協和音、ニジンスキーの振付に賛否の声が飛び交い、客席は大騒ぎになったと伝えられます。",
+    "relatedId": null
   },
   {
     "id": "q-modern-009",
     "era": "modern",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "ストラヴィンスキーの三大バレエとして正しいものは？",
+    "question": "プロコフィエフのバレエ「ロメオとジュリエット」の原作の作者はどれでしょう。",
     "options": [
-      { "id": "a", "text": "「火の鳥」「ペトルーシュカ」「春の祭典」", "correct": true },
-      { "id": "b", "text": "「白鳥の湖」「くるみ割り人形」「眠れる森の美女」", "correct": false },
-      { "id": "c", "text": "「ボレロ」「ダフニスとクロエ」「ラ・ヴァルス」", "correct": false },
-      { "id": "d", "text": "「春の祭典」「牧神の午後」「月の光」", "correct": false }
+      {
+        "id": "a",
+        "text": "プーシキン",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "トルストイ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ゲーテ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "シェイクスピア",
+        "correct": true
+      }
     ],
-    "explanation": "ストラヴィンスキーの三大バレエは「火の鳥」（1910年）「ペトルーシュカ」（1911年）「春の祭典」（1913年）で、いずれもディアギレフのバレエ・リュスのために作曲されました。",
-    "relatedId": { "type": "composer", "id": "stravinsky" }
+    "explanation": "シェイクスピアの悲劇をもとに1935年に作曲されました。全幕の初演は1938年、チェコのブルノで行われています。「騎士たちの踊り」は単独でもよく演奏されます。",
+    "relatedId": null
   },
   {
     "id": "q-modern-010",
     "era": "modern",
-    "difficulty": 3,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "ラヴェルのピアノ曲「水の戯れ」はどのような音楽的特徴がありますか？",
+    "question": "プロコフィエフが交響曲第1番に付けた呼び名は何でしょう。",
     "options": [
-      { "id": "a", "text": "水の流れを表現する精緻なピアノ書法", "correct": true },
-      { "id": "b", "text": "打楽器的なリズムの反復", "correct": false },
-      { "id": "c", "text": "十二音技法による無調の作品", "correct": false },
-      { "id": "d", "text": "左手のみで演奏される作品", "correct": false }
+      {
+        "id": "a",
+        "text": "冬の日の幻想",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "古典",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "悲劇的",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "小ロシア",
+        "correct": false
+      }
     ],
-    "explanation": "「水の戯れ」（1901年）は噴水の水しぶきや光の反射をピアノで描写した作品で、印象主義的なピアノ書法の先駆となりました。リストの技法を受け継ぎながら新しい音色の世界を開きました。",
-    "relatedId": { "type": "composer", "id": "ravel" }
+    "explanation": "交響曲第1番「古典」は1916〜17年に書かれ、ハイドンやモーツァルトの様式を今の感覚で書き直した作品です。1918年、ペトログラードで作曲者の指揮により初演されました。",
+    "relatedId": null
   },
   {
     "id": "q-modern-011",
     "era": "modern",
-    "difficulty": 4,
+    "difficulty": 1,
     "type": "multiple-choice",
-    "question": "シェーンベルクの弟子で「新ウィーン楽派」に属する作曲家の組み合わせは？",
+    "question": "ショスタコーヴィチが残した交響曲の数は何曲でしょう。",
     "options": [
-      { "id": "a", "text": "ベルクとヴェーベルン", "correct": true },
-      { "id": "b", "text": "バルトークとコダーイ", "correct": false },
-      { "id": "c", "text": "ストラヴィンスキーとプロコフィエフ", "correct": false },
-      { "id": "d", "text": "ドビュッシーとラヴェル", "correct": false }
+      {
+        "id": "a",
+        "text": "9曲",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "6曲",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "15曲",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "10曲",
+        "correct": false
+      }
     ],
-    "explanation": "「新ウィーン楽派」はシェーンベルクとその弟子であるアルバン・ベルク、アントン・ヴェーベルンの3人を指します。無調音楽と十二音技法を推進し、20世紀音楽に決定的な影響を与えました。",
-    "relatedId": { "type": "composer", "id": "schoenberg" }
+    "explanation": "交響曲は15曲で、弦楽四重奏曲も同じく15曲あります。この2つが創作の柱です。第1番は音楽院の卒業制作で、1926年、19歳のときに初演されました。",
+    "relatedId": null
   },
   {
     "id": "q-modern-012",
     "era": "modern",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "プロコフィエフのバレエ音楽「ロメオとジュリエット」の原作者は？",
+    "question": "交響曲第7番「レニングラード」が書かれた背景はどれでしょう。",
     "options": [
-      { "id": "a", "text": "シェイクスピア", "correct": true },
-      { "id": "b", "text": "ゲーテ", "correct": false },
-      { "id": "c", "text": "プーシキン", "correct": false },
-      { "id": "d", "text": "トルストイ", "correct": false }
+      {
+        "id": "a",
+        "text": "ロシア革命",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "第二次世界大戦の独ソ戦",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "スターリンの死",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "冷戦下の雪解け",
+        "correct": false
+      }
     ],
-    "explanation": "プロコフィエフのバレエ「ロメオとジュリエット」（1935年）はシェイクスピアの悲劇に基づく作品です。「モンタギュー家とキャピュレット家」の場面の音楽は特に有名です。",
-    "relatedId": { "type": "composer", "id": "prokofiev" }
+    "explanation": "1941年、独ソ戦の始まりとともに書かれ、包囲されたレニングラードに捧げられました。1942年8月9日には、包囲下の市内でもこの曲が演奏されています。",
+    "relatedId": null
   },
   {
     "id": "q-modern-013",
     "era": "modern",
-    "difficulty": 5,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "バルトークの「弦楽器、打楽器とチェレスタのための音楽」で使われている構造原理は？",
+    "question": "ショスタコーヴィチの交響曲第5番が書かれた背景はどれでしょう。",
     "options": [
-      { "id": "a", "text": "黄金比とフィボナッチ数列", "correct": true },
-      { "id": "b", "text": "十二音技法のみ", "correct": false },
-      { "id": "c", "text": "偶然性の音楽", "correct": false },
-      { "id": "d", "text": "ミニマル・ミュージックの反復原理", "correct": false }
+      {
+        "id": "a",
+        "text": "当局の批判を受けた後の名誉回復",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "第二次世界大戦の勝利の祝賀",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "アメリカ亡命後の再出発",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "プーシキンの詩の音楽化",
+        "correct": false
+      }
     ],
-    "explanation": "バルトークはこの1936年の傑作で、楽曲の構造に黄金比やフィボナッチ数列を用いたことが研究で明らかになっています。数学的秩序と民族的リズムが融合した20世紀音楽の金字塔です。",
-    "relatedId": { "type": "composer", "id": "bartok" }
+    "explanation": "1936年、プラウダ紙の社説「音楽のかわりに荒唐無稽」で歌劇「ムツェンスク郡のマクベス夫人」が批判されました。翌1937年の第5番は初演で大成功を収め、名誉回復につながりました。",
+    "relatedId": null
   },
   {
     "id": "q-modern-014",
     "era": "modern",
-    "difficulty": 1,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "ドビュッシーの「月の光」はどの曲集に含まれていますか？",
+    "question": "1937年に交響曲第5番を初演した指揮者はどれでしょう。",
     "options": [
-      { "id": "a", "text": "「ベルガマスク組曲」", "correct": true },
-      { "id": "b", "text": "「版画」", "correct": false },
-      { "id": "c", "text": "「前奏曲集」", "correct": false },
-      { "id": "d", "text": "「映像」", "correct": false }
+      {
+        "id": "a",
+        "text": "ゲルギエフ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ロストロポーヴィチ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ムラヴィンスキー",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "スヴェトラーノフ",
+        "correct": false
+      }
     ],
-    "explanation": "「月の光」は「ベルガマスク組曲」の第3曲です。ヴェルレーヌの詩に着想を得た作品で、ドビュッシーのピアノ作品の中で最も広く親しまれています。",
-    "relatedId": { "type": "composer", "id": "debussy" }
+    "explanation": "1937年11月21日、ムラヴィンスキーがレニングラード・フィルを指揮して初演しました。この指揮者はその後も第6番、第8番、第9番、第10番の初演を任されています。",
+    "relatedId": null
   },
   {
     "id": "q-modern-015",
     "era": "modern",
+    "difficulty": 5,
+    "type": "multiple-choice",
+    "question": "ショスタコーヴィチが自分の名を表す音型として使った4つの音はどれでしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "D-Es-C-H",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "A-B-E-G",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "B-A-C-H",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "F-A-E-F",
+        "correct": false
+      }
+    ],
+    "explanation": "ドイツ語の綴りの頭文字に当たるD-Es-C-H（レ・ミ♭・ド・シ）です。1960年の弦楽四重奏曲第8番では、この音型がすべての楽章に現れます。",
+    "relatedId": null
+  },
+  {
+    "id": "q-modern-016",
+    "era": "modern",
+    "difficulty": 1,
+    "type": "multiple-choice",
+    "question": "シェーンベルクが考案した、12の半音を均等に扱う技法は何でしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "教会旋法",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "十二音技法",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "ミニマリズム",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "全音音階",
+        "correct": false
+      }
+    ],
+    "explanation": "12の半音を1回ずつ並べた「音列」をもとに作曲する技法で、シェーンベルクは1920年代初めに確立しました。同じころオーストリアのハウアーも独自の十二音の方法を考えています。",
+    "relatedId": null
+  },
+  {
+    "id": "q-modern-017",
+    "era": "modern",
+    "difficulty": 2,
+    "type": "multiple-choice",
+    "question": "バルトークが東欧の農村で行ったことはどれでしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "歌劇場の設計",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "教会オルガンの調査",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "民謡の録音と採譜",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "古楽器の修復",
+        "correct": false
+      }
+    ],
+    "explanation": "バルトークはハンガリーやルーマニアなどの村を回り、蓄音機で民謡を録音して楽譜に起こしました。友人のコダーイも同じ調査を行い、この研究が二人の作曲の土台になりました。",
+    "relatedId": null
+  },
+  {
+    "id": "q-modern-018",
+    "era": "modern",
     "difficulty": 3,
     "type": "multiple-choice",
-    "question": "ショスタコーヴィチの交響曲第7番「レニングラード」は何を題材にしていますか？",
+    "question": "シェーンベルクの弟子で「新ウィーン楽派」と呼ばれる2人はどれでしょう。",
     "options": [
-      { "id": "a", "text": "第二次世界大戦中のレニングラード包囲戦", "correct": true },
-      { "id": "b", "text": "ロシア革命", "correct": false },
-      { "id": "c", "text": "宇宙開発競争", "correct": false },
-      { "id": "d", "text": "シベリア鉄道の建設", "correct": false }
+      {
+        "id": "a",
+        "text": "ドビュッシーとラヴェル",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ベルクとヴェーベルン",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "バルトークとコダーイ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ストラヴィンスキーとプロコフィエフ",
+        "correct": false
+      }
     ],
-    "explanation": "交響曲第7番「レニングラード」は1941年、ナチス・ドイツによるレニングラード包囲戦の最中に作曲されました。戦争の恐怖と人間の抵抗を描いた作品で、戦時中に世界中で演奏されました。",
-    "relatedId": { "type": "composer", "id": "shostakovich" }
+    "explanation": "新ウィーン楽派はシェーンベルクと弟子のベルク、ヴェーベルンを指します。ベルクの歌劇「ヴォツェック」やヴェーベルンの短い作品群は、無調や十二音技法の代表例です。",
+    "relatedId": null
+  },
+  {
+    "id": "q-modern-019",
+    "era": "modern",
+    "difficulty": 4,
+    "type": "multiple-choice",
+    "question": "バルトークがクーセヴィツキー財団の委嘱で1943年に書いた作品はどれでしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "弦楽器、打楽器とチェレスタのための音楽",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "管弦楽のための協奏曲",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "中国の不思議な役人",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "青ひげ公の城",
+        "correct": false
+      }
+    ],
+    "explanation": "「管弦楽のための協奏曲」は移住先のアメリカで書かれ、1944年12月にボストン交響楽団が初演しました。各楽器群が独奏楽器のように活躍することから、この題が付いています。",
+    "relatedId": null
+  },
+  {
+    "id": "q-modern-020",
+    "era": "modern",
+    "difficulty": 5,
+    "type": "multiple-choice",
+    "question": "研究者レンドヴァイが、バルトーク作品の構成に見出したと論じた比率は何でしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "黄金比",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "2対1",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "3対2",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "白銀比",
+        "correct": false
+      }
+    ],
+    "explanation": "ハンガリーのレンドヴァイは「弦楽器、打楽器とチェレスタのための音楽」などに黄金比やフィボナッチ数列が見られると論じました。ただ小節の数え方などに異論もあり、作曲者の意図かは分かっていません。",
+    "relatedId": null
   },
   {
     "id": "q-contemporary-001",
     "era": "contemporary",
-    "difficulty": 2,
+    "difficulty": 1,
     "type": "multiple-choice",
-    "question": "ジョン・ケージの「4分33秒」はどのような作品ですか？",
+    "question": "ジョン・ケージの「4分33秒」の内容はどれでしょう。",
     "options": [
-      { "id": "a", "text": "演奏者が一音も演奏しない「沈黙」の作品", "correct": true },
-      { "id": "b", "text": "4分33秒の激しいピアノ独奏曲", "correct": false },
-      { "id": "c", "text": "電子音楽の先駆的作品", "correct": false },
-      { "id": "d", "text": "オーケストラのための協奏曲", "correct": false }
+      {
+        "id": "a",
+        "text": "4分33秒続く速弾き",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "管弦楽のための協奏曲",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "電子音だけで作られている",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "奏者が一音も出さない",
+        "correct": true
+      }
     ],
-    "explanation": "1952年初演の「4分33秒」は、3楽章構成ながら演奏者が一音も出さない作品です。ケージは会場の環境音こそが「音楽」であると主張し、音楽の定義そのものに挑戦しました。",
+    "explanation": "1952年8月29日、ピアニストのデイヴィッド・チューダーがウッドストックで初演しました。3つの楽章とも奏者は音を出さず、その間に会場で聞こえる音が作品になります。",
     "relatedId": null
   },
   {
@@ -1339,59 +3135,123 @@
     "era": "contemporary",
     "difficulty": 2,
     "type": "multiple-choice",
-    "question": "尺八と琵琶をオーケストラと共演させた「ノヴェンバー・ステップス」の作曲家は？",
+    "question": "ピアノの弦にボルトやゴムを挟み、音色を変えたものは何でしょう。",
     "options": [
-      { "id": "a", "text": "武満徹", "correct": true },
-      { "id": "b", "text": "細川俊夫", "correct": false },
-      { "id": "c", "text": "山田耕筰", "correct": false },
-      { "id": "d", "text": "團伊玖磨", "correct": false }
+      {
+        "id": "a",
+        "text": "フォルテピアノ",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "自動ピアノ",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "トイ・ピアノ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "プリペアド・ピアノ",
+        "correct": true
+      }
     ],
-    "explanation": "武満徹の「ノヴェンバー・ステップス」（1967年）は、ニューヨーク・フィルハーモニックの委嘱により作曲され、日本の伝統楽器と西洋オーケストラの対話を実現した画期的な作品です。",
-    "relatedId": { "type": "composer", "id": "takemitsu" }
+    "explanation": "ケージが1940年ごろ、舞踊作品「バッカナール」のために始めたとされます。打楽器を置く場所がない会場で、1台のピアノを打楽器群の代わりにしました。代表作は「ソナタとインターリュード」です。",
+    "relatedId": null
   },
   {
     "id": "q-contemporary-003",
     "era": "contemporary",
-    "difficulty": 1,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "反復と漸次的変化を特徴とする現代音楽の潮流は？",
+    "question": "易経の占いで音を決めて「易の音楽」を書いた作曲家はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ミニマリズム", "correct": true },
-      { "id": "b", "text": "セリアリスム", "correct": false },
-      { "id": "c", "text": "新ロマン主義", "correct": false },
-      { "id": "d", "text": "表現主義", "correct": false }
+      {
+        "id": "a",
+        "text": "ジョン・ケージ",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "シュトックハウゼン",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ピエール・ブーレーズ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ルチアーノ・ベリオ",
+        "correct": false
+      }
     ],
-    "explanation": "ミニマル・ミュージックはスティーヴ・ライヒ、フィリップ・グラス、テリー・ライリーらが推進した潮流で、短い音型の反復と緩やかな変化を特徴とします。テクノやアンビエント音楽にも大きな影響を与えました。",
+    "explanation": "ケージは1951年の「易の音楽」で、易経の占いによって音の高さや長さ、強さを決めました。作曲者の好みを離れ、音そのものを聴かせるための方法でした。",
     "relatedId": null
   },
   {
     "id": "q-contemporary-004",
     "era": "contemporary",
-    "difficulty": 2,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "アルヴォ・ペルトが開発した作曲スタイルは何と呼ばれますか？",
+    "question": "リゲティの「アトモスフェール」が使われた映画はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ティンティナブリ様式", "correct": true },
-      { "id": "b", "text": "トータル・セリアリズム", "correct": false },
-      { "id": "c", "text": "スペクトル音楽", "correct": false },
-      { "id": "d", "text": "具体音楽", "correct": false }
+      {
+        "id": "a",
+        "text": "2001年宇宙の旅",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "ブレードランナー",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "サイコ",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "地獄の黙示録",
+        "correct": false
+      }
     ],
-    "explanation": "ペルトのティンティナブリ様式は、三和音の構成音（鐘の音を意味するティンティナブリ）と音階的旋律を組み合わせる手法で、「鏡の中の鏡」「タブラ・ラサ」などの作品に見られる瞑想的な美しさが特徴です。",
-    "relatedId": { "type": "composer", "id": "part" }
+    "explanation": "1961年作のこの曲は、キューブリック監督「2001年宇宙の旅」（1968年）で主人公がスターゲートに入る場面などに使われました。リゲティ本人には直接の許可が取られていなかったといわれます。",
+    "relatedId": null
   },
   {
     "id": "q-contemporary-005",
     "era": "contemporary",
-    "difficulty": 3,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "スティーヴ・ライヒの「ディファレント・トレインズ」で使用された技法は？",
+    "question": "メシアンの「トゥーランガリラ交響曲」で活躍する電子楽器は何でしょう。",
     "options": [
-      { "id": "a", "text": "録音された話し声の旋律を弦楽四重奏が模倣する", "correct": true },
-      { "id": "b", "text": "電子楽器のみによる演奏", "correct": false },
-      { "id": "c", "text": "十二音技法による厳格な構成", "correct": false },
-      { "id": "d", "text": "偶然性を用いた即興演奏", "correct": false }
+      {
+        "id": "a",
+        "text": "テルミン",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "オンド・マルトノ",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "シンセサイザー",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ハモンドオルガン",
+        "correct": false
+      }
     ],
-    "explanation": "「ディファレント・トレインズ」（1988年）は録音された人々の話し声のイントネーションを弦楽四重奏が旋律として模倣する革新的な手法を用いています。ホロコーストの記憶を題材にした作品です。",
+    "explanation": "オンド・マルトノは1928年にフランスのマルトノが発表した電子楽器です。この交響曲はクーセヴィツキーの委嘱で書かれ、1949年にバーンスタインの指揮でボストンで初演されました。",
     "relatedId": null
   },
   {
@@ -1399,104 +3259,309 @@
     "era": "contemporary",
     "difficulty": 1,
     "type": "multiple-choice",
-    "question": "武満徹の映画音楽の代表作として知られる作品は？",
+    "question": "短い音型の反復と少しずつの変化を特徴とする潮流は何でしょう。",
     "options": [
-      { "id": "a", "text": "黒澤明監督「乱」の音楽", "correct": true },
-      { "id": "b", "text": "宮崎駿監督「となりのトトロ」の音楽", "correct": false },
-      { "id": "c", "text": "スピルバーグ監督「シンドラーのリスト」の音楽", "correct": false },
-      { "id": "d", "text": "北野武監督「HANA-BI」の音楽", "correct": false }
+      {
+        "id": "a",
+        "text": "セリー音楽",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "新ロマン主義",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "表現主義",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ミニマル・ミュージック",
+        "correct": true
+      }
     ],
-    "explanation": "武満徹は約100本の映画音楽を手がけ、黒澤明監督の「乱」をはじめ、小林正樹監督の「切腹」「怪談」など数多くの名作の音楽を担当しました。",
-    "relatedId": { "type": "composer", "id": "takemitsu" }
+    "explanation": "1960年代のアメリカでテリー・ライリー、スティーヴ・ライヒ、フィリップ・グラスらが広めました。ライリーの「In C」（1964年）は、53の短い音型を奏者が順に繰り返す作品です。",
+    "relatedId": null
   },
   {
     "id": "q-contemporary-007",
     "era": "contemporary",
-    "difficulty": 3,
+    "difficulty": 2,
     "type": "multiple-choice",
-    "question": "現代音楽の「偶然性の音楽（アレアトリック音楽）」を推進した作曲家は？",
+    "question": "フィリップ・グラスが音楽を担当した映画はどれでしょう。",
     "options": [
-      { "id": "a", "text": "ジョン・ケージ", "correct": true },
-      { "id": "b", "text": "ピエール・ブーレーズ", "correct": false },
-      { "id": "c", "text": "カールハインツ・シュトックハウゼン", "correct": false },
-      { "id": "d", "text": "ルチアーノ・ベリオ", "correct": false }
+      {
+        "id": "a",
+        "text": "タイタニック",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "ジュラシック・パーク",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "コヤニスカッツィ",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "スター・ウォーズ",
+        "correct": false
+      }
     ],
-    "explanation": "ジョン・ケージは易経の占いやコイン投げなどの偶然性を作曲過程に取り入れた「チャンス・オペレーション」を実践しました。作曲者の意図を排除し、音そのものを解放する思想に基づいています。",
+    "explanation": "「コヤニスカッツィ」（1982年）はゴッドフリー・レジオ監督の映像作品で、台詞がなく映像とグラスの音楽だけで進みます。題名はホピ族の言葉で「均衡を失った生活」を意味します。",
     "relatedId": null
   },
   {
     "id": "q-contemporary-008",
     "era": "contemporary",
-    "difficulty": 4,
+    "difficulty": 3,
     "type": "multiple-choice",
-    "question": "ペルトの「フラトレス」の特徴として正しいものは？",
+    "question": "アルヴォ・ペルトが生み出した作曲様式は何でしょう。",
     "options": [
-      { "id": "a", "text": "同じ基本構造を様々な楽器編成で演奏できる", "correct": true },
-      { "id": "b", "text": "電子音のみで構成されている", "correct": false },
-      { "id": "c", "text": "12音技法で書かれている", "correct": false },
-      { "id": "d", "text": "即興演奏を前提としている", "correct": false }
+      {
+        "id": "a",
+        "text": "ティンティナブリ様式",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "トータル・セリエリスム",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "スペクトル楽派",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ミュジック・コンクレート",
+        "correct": false
+      }
     ],
-    "explanation": "「フラトレス」（1977年）はティンティナブリ様式の代表作で、ヴァイオリンとピアノ版、弦楽合奏版、チェロ・アンサンブル版など、多様な編成のために編曲されているのが特徴的です。",
-    "relatedId": { "type": "composer", "id": "part" }
+    "explanation": "三和音の音を鳴らす声部と、音階を進む旋律の声部を組み合わせる様式です。名はラテン語の「鈴」に由来し、1976年のピアノ曲「アリーナのために」で初めて用いられました。",
+    "relatedId": null
   },
   {
     "id": "q-contemporary-009",
     "era": "contemporary",
-    "difficulty": 2,
+    "difficulty": 4,
     "type": "multiple-choice",
-    "question": "フィリップ・グラスが音楽を担当したことで知られる映画は？",
+    "question": "ペルトの「フラトレス」の特徴はどれでしょう。",
     "options": [
-      { "id": "a", "text": "「コヤニスカッツィ」", "correct": true },
-      { "id": "b", "text": "「スター・ウォーズ」", "correct": false },
-      { "id": "c", "text": "「ジュラシック・パーク」", "correct": false },
-      { "id": "d", "text": "「タイタニック」", "correct": false }
+      {
+        "id": "a",
+        "text": "電子音だけで作られている",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "十二音技法で書かれている",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "即興演奏が前提になっている",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "同じ骨組みを多くの編成で演奏できる",
+        "correct": true
+      }
     ],
-    "explanation": "「コヤニスカッツィ」（1982年）はゴッドフリー・レジオ監督のドキュメンタリー映画で、フィリップ・グラスのミニマル音楽と映像が一体となった画期的な作品です。題名はホピ語で「バランスを失った生活」の意味です。",
+    "explanation": "1977年に楽器を指定しない3声の音楽として書かれ、のちにヴァイオリンとピアノ、チェロ・アンサンブル、弦楽四重奏など多くの編成の版が作られました。",
     "relatedId": null
   },
   {
     "id": "q-contemporary-010",
     "era": "contemporary",
-    "difficulty": 3,
+    "difficulty": 5,
     "type": "multiple-choice",
-    "question": "現代音楽における「プリペアド・ピアノ」とは何ですか？",
+    "question": "ライヒの「ディファレント・トレインズ」で弦楽四重奏が行うことはどれでしょう。",
     "options": [
-      { "id": "a", "text": "ピアノの弦にボルトやゴムなどの異物を挟んで音色を変えたもの", "correct": true },
-      { "id": "b", "text": "電子的に音を加工したピアノ", "correct": false },
-      { "id": "c", "text": "調律を変えたピアノ", "correct": false },
-      { "id": "d", "text": "複数のピアノを連結したもの", "correct": false }
+      {
+        "id": "a",
+        "text": "偶然性による即興を行う",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "録音された話し声の抑揚をなぞる",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "十二音の音列に従って進む",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "電子楽器だけで演奏する",
+        "correct": false
+      }
     ],
-    "explanation": "プリペアド・ピアノはジョン・ケージが考案した手法で、グランドピアノの弦にボルト、ネジ、ゴム、フェルトなどを挟むことで打楽器的な多彩な音色を生み出します。「ソナタとインターリュード」が代表作です。",
+    "explanation": "1988年にクロノス・カルテットが初演しました。ライヒが幼いころ乗ったアメリカの列車と、同じ時期にヨーロッパで強制収容所へ向かった列車を、証言の録音と弦の響きで重ねます。",
     "relatedId": null
   },
   {
     "id": "q-contemporary-011",
     "era": "contemporary",
-    "difficulty": 4,
+    "difficulty": 1,
     "type": "multiple-choice",
-    "question": "リゲティの「アトモスフェール」が映画で使用されたことで知られるのは？",
+    "question": "三木露風の詩による「赤とんぼ」の作曲者はどれでしょう。",
     "options": [
-      { "id": "a", "text": "スタンリー・キューブリック監督「2001年宇宙の旅」", "correct": true },
-      { "id": "b", "text": "アルフレッド・ヒッチコック監督「サイコ」", "correct": false },
-      { "id": "c", "text": "フランシス・コッポラ監督「地獄の黙示録」", "correct": false },
-      { "id": "d", "text": "リドリー・スコット監督「ブレードランナー」", "correct": false }
+      {
+        "id": "a",
+        "text": "團伊玖磨",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "滝廉太郎",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "山田耕筰",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "中田喜直",
+        "correct": false
+      }
     ],
-    "explanation": "ジェルジ・リゲティの「アトモスフェール」（1961年）は音の塊（トーン・クラスター）が緩やかに変容する作品で、「2001年宇宙の旅」でモノリスの場面に使用されて広く知られるようになりました。",
+    "explanation": "三木露風の詩は1921年に発表され、山田耕筰が1927年に曲を付けました。山田はベルリンで学び、日本人による初期の交響曲の作曲や、オーケストラづくりにも取り組んでいます。",
     "relatedId": null
   },
   {
     "id": "q-contemporary-012",
     "era": "contemporary",
-    "difficulty": 1,
+    "difficulty": 2,
     "type": "multiple-choice",
-    "question": "現代のオーケストラで使用される電子楽器として一般的なものは？",
+    "question": "尺八と琵琶とオーケストラのための「ノヴェンバー・ステップス」の作曲者はどれでしょう。",
     "options": [
-      { "id": "a", "text": "シンセサイザー", "correct": true },
-      { "id": "b", "text": "エレキギター", "correct": false },
-      { "id": "c", "text": "テルミン", "correct": false },
-      { "id": "d", "text": "ドラムマシン", "correct": false }
+      {
+        "id": "a",
+        "text": "山田耕筰",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "武満徹",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "細川俊夫",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "團伊玖磨",
+        "correct": false
+      }
     ],
-    "explanation": "シンセサイザーは20世紀後半から現代音楽やオーケストラ作品で広く使用されています。メシアンの「トゥーランガリーラ交響曲」のオンド・マルトノなど、電子楽器とオーケストラの融合は現代音楽の重要な要素です。",
+    "explanation": "1967年、ニューヨーク・フィルハーモニックの創立125周年の委嘱で書かれ、同年11月に小澤征爾の指揮で初演されました。尺八は横山勝也、琵琶は鶴田錦史が受け持ちました。",
+    "relatedId": null
+  },
+  {
+    "id": "q-contemporary-013",
+    "era": "contemporary",
+    "difficulty": 3,
+    "type": "multiple-choice",
+    "question": "武満徹が音楽を担当した黒澤明監督の映画はどれでしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "用心棒",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "羅生門",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "七人の侍",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "乱",
+        "correct": true
+      }
+    ],
+    "explanation": "武満は「乱」（1985年）のほか、小林正樹監督「切腹」など90本を超える映画の音楽を書きました。「七人の侍」「羅生門」は早坂文雄、「用心棒」は佐藤勝の音楽です。",
+    "relatedId": null
+  },
+  {
+    "id": "q-contemporary-014",
+    "era": "contemporary",
+    "difficulty": 4,
+    "type": "multiple-choice",
+    "question": "團伊玖磨が木下順二の戯曲をもとに書いた歌劇はどれでしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "夕鶴",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "金閣寺",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "沈黙",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "班女",
+        "correct": false
+      }
+    ],
+    "explanation": "「夕鶴」は1952年1月30日に大阪で初演されました。木下は台詞を一言一句変えないことを条件に作曲を認め、團はその戯曲をそのまま歌にしています。",
+    "relatedId": null
+  },
+  {
+    "id": "q-contemporary-015",
+    "era": "contemporary",
+    "difficulty": 5,
+    "type": "multiple-choice",
+    "question": "細川俊夫の歌劇「松風」のもとになった古典芸能はどれでしょう。",
+    "options": [
+      {
+        "id": "a",
+        "text": "文楽",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "歌舞伎",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "能",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "雅楽",
+        "correct": false
+      }
+    ],
+    "explanation": "須磨の浦で汐を汲む姉妹を描いた能をもとにした歌劇です。2011年5月3日、ブリュッセルのモネ劇場で、サシャ・ヴァルツの演出・振付により初演されました。",
     "relatedId": null
   }
 ]

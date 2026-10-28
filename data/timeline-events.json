@@ -1,7 +1,7 @@
 [
   {
     "id": "te-001",
-    "year": 1397,
+    "year": 1392,
     "category": "cultural",
     "title": "朝鮮王朝の建国",
     "description": "李成桂が朝鮮王朝を建国。東アジアの文化圏に大きな影響を与えた。",
@@ -51,10 +51,10 @@
   },
   {
     "id": "te-006",
-    "year": 1498,
+    "year": 1501,
     "category": "publication",
     "title": "オッタヴィアーノ・ペトルッチの楽譜印刷",
-    "description": "ペトルッチが活版印刷による多声音楽の楽譜集を出版。音楽出版の歴史が始まった。",
+    "description": "ペトルッチが活版印刷による初の多声音楽の楽譜集「オデカトン」を出版（1498年に印刷の特許を取得）。楽譜出版の時代が始まった。",
     "era": "renaissance",
     "type": "music",
     "relatedIds": []
@@ -101,10 +101,10 @@
   },
   {
     "id": "te-011",
-    "year": 1597,
+    "year": 1598,
     "category": "premiere",
     "title": "最初のオペラ「ダフネ」初演",
-    "description": "ヤコポ・ペーリの「ダフネ」がフィレンツェで初演。オペラというジャンルが誕生した。",
+    "description": "ヤコポ・ペーリの「ダフネ」がフィレンツェで初演（1598年とされる）。楽譜はほぼ失われているが、オペラの始まりとされる。",
     "era": "renaissance",
     "type": "music",
     "relatedIds": []
@@ -341,10 +341,10 @@
   },
   {
     "id": "te-035",
-    "year": 1741,
+    "year": 1742,
     "category": "premiere",
     "title": "ヘンデル「メサイア」初演",
-    "description": "ヘンデルのオラトリオ「メサイア」がダブリンで初演。「ハレルヤ」合唱は特に有名。",
+    "description": "1741年に作曲されたヘンデルのオラトリオ「メサイア」が、1742年4月13日にダブリンで初演。「ハレルヤ」合唱は特に有名。",
     "era": "baroque",
     "type": "music",
     "relatedIds": [{ "type": "composer", "id": "handel" }]
