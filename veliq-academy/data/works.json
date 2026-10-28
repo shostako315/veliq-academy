@@ -111,7 +111,7 @@
       }
     ],
     "historicalBackground": "不眠に悩むカイザーリンク伯爵のために書かれたという伝説がある。バッハ晩年の鍵盤作品。",
-    "musicalAnalysis": "32小節の低音主題に基づく30の変奏。3の倍数ごとにカノン（1度〜10度）が配置される壮大な知的建築。",
+    "musicalAnalysis": "32小節の低音主題に基づく30の変奏。3の倍数ごとに1度から9度までのカノンが配置され、第30変奏はカノンではなくクオドリベットで締めくくられる壮大な知的建築。",
     "emotionalJourney": "静寂→多彩な展開→原点回帰",
     "businessInsight": "一つのテーマから30の全く異なるバリエーションを生み出す——「一つの核心アイデアの無限の展開力」を体現。",
     "listeningGuide": {
@@ -332,7 +332,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1788年の夏、わずか2ヶ月で最後の3大交響曲（第39・40・41番）を一気に作曲。生涯最後の夏の奇跡。",
+    "historicalBackground": "1788年の夏、わずか2ヶ月で最後の3大交響曲（第39・40・41番）を一気に作曲。",
     "musicalAnalysis": "全楽章を貫くト短調の緊張感。古典的形式の中に深い感情表現を実現した名作。",
     "emotionalJourney": "焦燥→苦悩→一時の安らぎ→激烈なフィナーレ",
     "businessInsight": "制約（短調・小編成）の中でこそ最高の表現が生まれる——リソースの限界が創造性を引き出す好例。",
@@ -591,7 +591,7 @@
     "opus": "Op. 125",
     "duration": 70,
     "difficulty": 2,
-    "shortDescription": "「歓喜の歌」で知られる人類の至宝。交響曲に初めて声楽を導入した、ベートーヴェン最後の交響曲。",
+    "shortDescription": "「歓喜の歌」で知られる人類の至宝。大作曲家として初めて交響曲に声楽（独唱と合唱）を導入した、ベートーヴェン最後の交響曲。",
     "movements": [
       {
         "number": 1,
@@ -835,7 +835,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "マラルメの詩「牧神の午後」に基づく。1894年初演。ブーレーズは「近代音楽はこの作品のフルートから始まった」と述べた。",
+    "historicalBackground": "マラルメの詩「牧神の午後」に基づく。1894年初演。ブーレーズは「牧神のフルートが音楽芸術に新しい息吹をもたらした」と述べた。",
     "musicalAnalysis": "従来の調性機能に縛られない自由な和声。全音音階や教会旋法を駆使した色彩的な音楽。",
     "emotionalJourney": "夢幻→官能→陶酔→夢への回帰",
     "businessInsight": "ルールを破るのではなく「新しいルール」を作る——既存市場のディスラプションではなく新市場の創造。",
@@ -1026,8 +1026,8 @@
   {
     "id": "bach-bwv1004",
     "composerId": "bach-js",
-    "title": "無伴奏Vnパルティータ第2番",
-    "titleEn": "Partita No.2 BWV1004",
+    "title": "無伴奏ヴァイオリン・パルティータ第2番 ニ短調 BWV1004",
+    "titleEn": "Partita No. 2 for Solo Violin in D minor, BWV 1004",
     "year": 1720,
     "genre": "chamber",
     "era": "baroque",
@@ -1172,167 +1172,6 @@
       "orchestral",
       "baroque",
       "famous"
-    ]
-  },
-  {
-    "id": "bach-wtc1",
-    "composerId": "bach-js",
-    "title": "平均律クラヴィーア曲集 第1巻",
-    "titleEn": "Well-Tempered Clavier Book 1",
-    "year": 1722,
-    "genre": "piano",
-    "era": "baroque",
-    "duration": 120,
-    "difficulty": 4,
-    "shortDescription": "全24調の前奏曲とフーガ。鍵盤音楽の旧約聖書。",
-    "movements": [
-      {
-        "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 120,
-        "description": "",
-        "highlights": [],
-        "youtubeId": null
-      }
-    ],
-    "historicalBackground": "1722年ケーテンで完成。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "体系的な知の構築。",
-    "listeningGuide": {
-      "totalTime": "120分",
-      "recommendedVersion": "",
-      "youtubeId": null,
-      "checkpoints": []
-    },
-    "relatedWorks": [],
-    "relatedComposers": [],
-    "tags": [
-      "keyboard",
-      "baroque"
-    ]
-  },
-  {
-    "id": "bach-bwv1004",
-    "composerId": "bach-js",
-    "title": "無伴奏Vnパルティータ第2番",
-    "titleEn": "Partita No.2 BWV1004",
-    "year": 1720,
-    "genre": "chamber",
-    "era": "baroque",
-    "duration": 30,
-    "difficulty": 4,
-    "shortDescription": "シャコンヌはバッハ器楽の最高峰。",
-    "movements": [
-      {
-        "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 30,
-        "description": "",
-        "highlights": [],
-        "youtubeId": null
-      }
-    ],
-    "historicalBackground": "1720年ケーテンで作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "個の力の極限。",
-    "listeningGuide": {
-      "totalTime": "30分",
-      "recommendedVersion": "",
-      "youtubeId": null,
-      "checkpoints": []
-    },
-    "relatedWorks": [],
-    "relatedComposers": [],
-    "tags": [
-      "chamber",
-      "baroque",
-      "violin"
-    ]
-  },
-  {
-    "id": "bach-mass-b",
-    "composerId": "bach-js",
-    "title": "ミサ曲ロ短調",
-    "titleEn": "Mass in B minor",
-    "year": 1749,
-    "genre": "choral",
-    "era": "baroque",
-    "duration": 110,
-    "difficulty": 4,
-    "shortDescription": "バッハ声楽の集大成。宗教音楽の最高傑作。",
-    "movements": [
-      {
-        "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 110,
-        "description": "",
-        "highlights": [],
-        "youtubeId": null
-      }
-    ],
-    "historicalBackground": "バッハ晩年の傑作。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "普遍的価値の創造。",
-    "listeningGuide": {
-      "totalTime": "110分",
-      "recommendedVersion": "",
-      "youtubeId": null,
-      "checkpoints": []
-    },
-    "relatedWorks": [],
-    "relatedComposers": [],
-    "tags": [
-      "choral",
-      "baroque"
-    ]
-  },
-  {
-    "id": "handel-water",
-    "composerId": "handel",
-    "title": "水上の音楽",
-    "titleEn": "Water Music",
-    "year": 1717,
-    "genre": "orchestral",
-    "era": "baroque",
-    "duration": 55,
-    "difficulty": 1,
-    "shortDescription": "テムズ川の船遊びのための華やかな管弦楽組曲。",
-    "movements": [
-      {
-        "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 55,
-        "description": "",
-        "highlights": [],
-        "youtubeId": null
-      }
-    ],
-    "historicalBackground": "1717年ジョージ1世のために。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "場を演出するイベントプロデュース。",
-    "listeningGuide": {
-      "totalTime": "55分",
-      "recommendedVersion": "",
-      "youtubeId": null,
-      "checkpoints": []
-    },
-    "relatedWorks": [],
-    "relatedComposers": [],
-    "tags": [
-      "orchestral",
-      "baroque"
     ]
   },
   {
@@ -2133,7 +1972,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1847年作曲。ハンガリーの民族音楽に基づく。",
+    "historicalBackground": "1847年作曲。ハンガリーのロマ（ジプシー）楽団の音楽（ヴェルブンコシュ）に基づく。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "エンターテインメントのプロフェッショナリズム。",
@@ -2215,7 +2054,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1858年初演は失敗だったが後に高く評価。",
+    "historicalBackground": "1858年完成。1859年1月のハノーファー初演は冷ややかに迎えられ、数日後のライプツィヒ公演では野次を浴びたが、後に高く評価された。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "失敗から学び次に繋げる力。",
@@ -2238,7 +2077,7 @@
     "composerId": "wagner",
     "title": "トリスタンとイゾルデ",
     "titleEn": "Tristan und Isolde",
-    "year": 1865,
+    "year": 1859,
     "genre": "opera",
     "era": "romantic",
     "duration": 240,
@@ -2256,7 +2095,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1865年ミュンヘン初演。",
+    "historicalBackground": "1859年完成。1865年ミュンヘン初演。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "限界を試すイノベーター。",
@@ -2279,7 +2118,7 @@
     "composerId": "wagner",
     "title": "ワルキューレの騎行",
     "titleEn": "Ride of the Valkyries",
-    "year": 1870,
+    "year": 1856,
     "genre": "orchestral",
     "era": "romantic",
     "duration": 5,
@@ -2297,7 +2136,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1870年初演。ワーグナー楽劇の象徴的場面。",
+    "historicalBackground": "楽劇「ワルキューレ」第3幕冒頭の音楽。1856年総譜完成、1870年ミュンヘン初演。ワーグナー楽劇の象徴的場面。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "インパクトのあるオープニング。",
@@ -2666,7 +2505,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1871年カイロ初演。スエズ運河開通記念。",
+    "historicalBackground": "エジプト副王の依頼でカイロの歌劇場のために作曲。1871年カイロ初演。スエズ運河開通の祝典曲の依頼はヴェルディが断っており、開通記念作品ではない。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "国家プロジェクトの芸術。",
@@ -2689,7 +2528,7 @@
     "composerId": "puccini",
     "title": "ラ・ボエーム",
     "titleEn": "La bohème",
-    "year": 1896,
+    "year": 1895,
     "genre": "opera",
     "era": "romantic",
     "duration": 110,
@@ -2707,7 +2546,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1896年トリノ初演。",
+    "historicalBackground": "1893〜95年に作曲、1896年トリノ初演（指揮トスカニーニ）。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "限られたリソースの創造性。",
@@ -2748,7 +2587,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1904年ミラノ初演（改訂版1904年）。",
+    "historicalBackground": "1904年2月ミラノ・スカラ座で初演されたが失敗し、改訂版が同年5月ブレシアで成功した。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "異文化理解の重要性。",
@@ -2789,7 +2628,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "師に酷評されたが大成功。",
+    "historicalBackground": "ニコライ・ルビンシテインに酷評されたが、1875年ボストンでのビューローの独奏による初演で成功。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "権威に左右されない自信。",
@@ -2813,7 +2652,7 @@
     "composerId": "tchaikovsky",
     "title": "白鳥の湖",
     "titleEn": "Swan Lake",
-    "year": 1877,
+    "year": 1876,
     "genre": "orchestral",
     "era": "romantic",
     "duration": 150,
@@ -2831,7 +2670,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "初演失敗から復活。",
+    "historicalBackground": "1876年完成。1877年ボリショイ劇場での初演は不評だったが、1895年のプティパ／イワノフ版で復活。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "ピボットの重要性。",
@@ -2855,7 +2694,7 @@
     "composerId": "tchaikovsky",
     "title": "序曲「1812年」",
     "titleEn": "1812 Overture",
-    "year": 1882,
+    "year": 1880,
     "genre": "orchestral",
     "era": "romantic",
     "duration": 15,
@@ -2873,7 +2712,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1882年初演。",
+    "historicalBackground": "1880年作曲、1882年モスクワ初演。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "スケールの大きなビジョン。",
@@ -3065,7 +2904,7 @@
     "era": "romantic",
     "duration": 65,
     "difficulty": 3,
-    "shortDescription": "ブルックナーの最も人気のある交響曲。ワーグナー追悼のアダージョ。",
+    "shortDescription": "ブルックナーの最も人気のある交響曲。ワーグナーの死を予感して書かれたアダージョ。",
     "movements": [
       {
         "number": 1,
@@ -3078,7 +2917,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1883年完成。第2楽章はワーグナーの死を悼んで書かれた。",
+    "historicalBackground": "1883年完成。第2楽章アダージョは1883年1〜4月に作曲され、病床のワーグナーの死（同年2月）を予感して書き始められた。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "巨大なビジョンを粘り強く実現する。",
@@ -3386,7 +3225,7 @@
     "composerId": "strauss-r",
     "title": "ばらの騎士",
     "titleEn": "Der Rosenkavalier",
-    "year": 1911,
+    "year": 1910,
     "genre": "opera",
     "era": "modern",
     "duration": 190,
@@ -3404,7 +3243,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1911年ドレスデン初演。",
+    "historicalBackground": "1910年完成、1911年ドレスデン初演。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "時代の終わりを優雅に受け入れる成熟。",
@@ -3567,7 +3406,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1921年完成。10年間のスケッチの集大成。",
+    "historicalBackground": "1913年に始めたスケッチを基に1921年完成。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "長期的な準備が花開く瞬間。",
@@ -3754,7 +3593,7 @@
     "composerId": "sibelius",
     "title": "ヴァイオリン協奏曲",
     "titleEn": "Violin Concerto",
-    "year": 1903,
+    "year": 1904,
     "genre": "concerto",
     "era": "modern",
     "duration": 32,
@@ -3772,7 +3611,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1903年作曲。シベリウス自身がヴァイオリニストを諦めた経験。",
+    "historicalBackground": "1903〜04年に作曲し1904年ヘルシンキ初演、1905年に改訂。シベリウス自身がヴァイオリニストを諦めた経験。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "夢を形を変えて実現する力。",
@@ -3813,7 +3652,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1948年委嘱。",
+    "historicalBackground": "クーセヴィツキーの委嘱で1946〜48年に作曲。1949年ボストンでバーンスタインの指揮により初演。",
     "musicalAnalysis": "",
     "emotionalJourney": "",
     "businessInsight": "東西文化融合のイノベーション。",

@@ -207,7 +207,7 @@
     "description": "フランソワ・クープランがパリに誕生。フランス・クラヴサン音楽の大家となった。",
     "era": "baroque",
     "type": "birth",
-    "relatedIds": [{ "type": "composer", "id": "couperin" }]
+    "relatedIds": [{ "type": "composer", "id": "couperin-f" }]
   },
   {
     "id": "te-022",
@@ -491,7 +491,7 @@
   },
   {
     "id": "te-050",
-    "year": 1803,
+    "year": 1804,
     "category": "premiere",
     "title": "ベートーヴェン交響曲第3番「英雄」完成",
     "description": "ベートーヴェンが交響曲第3番「英雄」を完成。交響曲の概念を根本的に変えた記念碑的作品。",
@@ -704,7 +704,7 @@
     "year": 1860,
     "category": "birth",
     "title": "マーラー誕生",
-    "description": "グスタフ・マーラーがカリシュトに誕生。壮大な交響曲でロマン派の極限を追求した。",
+    "description": "グスタフ・マーラーがカリシュテに誕生。壮大な交響曲でロマン派の極限を追求した。",
     "era": "romantic",
     "type": "birth",
     "relatedIds": [{ "type": "composer", "id": "mahler" }]
