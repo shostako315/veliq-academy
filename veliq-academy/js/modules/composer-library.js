@@ -192,7 +192,7 @@ const ComposerLibraryModule = (() => {
             <div class="card-grid stagger-children" style="margin-top:var(--space-4);">
               ${works.slice(0, 6).map(w => `
                 <div class="card card--compact card--clickable" data-href="#/works/${VeliqUI.escape(w.id)}">
-                  <span class="card-tag">${VeliqUI.escape(w.genre || '')}</span>
+                  <span class="card-tag">${VeliqUI.escape(VeliqUI.genreName(w.genre))}</span>
                   <h4 style="color:var(--color-text-primary); margin-top:var(--space-2);">${VeliqUI.escape(w.title)}</h4>
                   <p style="font-size:var(--font-size-xs); color:var(--color-text-muted);">${w.year || ''}</p>
                 </div>

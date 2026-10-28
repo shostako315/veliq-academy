@@ -46,7 +46,7 @@ const ListeningLabModule = (() => {
                         <div>
                           <div style="display:flex; align-items:center; gap:var(--space-2); margin-bottom:var(--space-2);">
                             ${VeliqUI.badge(VeliqUI.eraName(w.era), 'era-' + w.era)}
-                            ${VeliqUI.badge(VeliqUI.escape(w.genre || ''), 'default')}
+                            ${VeliqUI.badge(VeliqUI.genreName(w.genre), 'default')}
                             ${w.duration ? `<span style="font-size:var(--font-size-xs); color:var(--color-text-muted);">${VeliqUI.escape(String(w.duration))}分</span>` : ''}
                           </div>
                           <h3 style="color:var(--color-text-primary); margin:0;">${VeliqUI.escape(w.title)}</h3>

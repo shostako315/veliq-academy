@@ -188,6 +188,11 @@ const VeliqUI = (() => {
    * @param {string} eraId
    * @returns {string}
    */
+  // ジャンルの表記（データは英字）
+  function genreName(g) {
+    const J = { symphony: '交響曲', concerto: '協奏曲', piano: 'ピアノ', chamber: '室内楽', opera: 'オペラ', orchestral: '管弦楽', vocal: '声楽', sonata: 'ソナタ', choral: '合唱' };
+    return J[g] || String(g || '');
+  }
   // 調の表記：データの英字コード（e-minor, Eb-major, c#-minor）を日本語（ホ短調・変ホ長調・嬰ハ短調）にする
   function keyName(k) {
     const m = String(k || '').match(/^([A-Ga-g])(b|#)?-(major|minor)$/);
@@ -287,7 +292,7 @@ const VeliqUI = (() => {
 
   return {
     render, escape, sanitize, skeleton, card, badge,
-    toast, modal, progressBar, eraColor, eraName, keyName, setTitle,
+    toast, modal, progressBar, eraColor, eraName, keyName, genreName, setTitle,
     loadData, startStudyTimer, formatStudyTime, initCardLinks, renderMarkdown
   };
 })();

@@ -159,7 +159,7 @@ const WorksCatalogModule = (() => {
         <section class="section" style="border-bottom:2px solid ${VeliqUI.eraColor(work.era)}; padding-bottom:var(--space-8);">
           <div style="display:flex; gap:var(--space-3); margin-bottom:var(--space-4); flex-wrap:wrap;">
             ${VeliqUI.badge(VeliqUI.eraName(work.era), 'era-' + work.era)}
-            ${VeliqUI.badge(work.genre || '', 'default')}
+            ${VeliqUI.badge(VeliqUI.genreName(work.genre), 'default')}
             ${VeliqUI.keyName(work.key) ? VeliqUI.badge(VeliqUI.keyName(work.key), 'default') : ''}
             ${work.opus && work.opus !== 'various' ? VeliqUI.badge(work.opus, 'default') : ''}
           </div>
