@@ -31,6 +31,7 @@ sources:
   - "Fusako Hamao, „Schoenberg's Metronome Markings“, European Journal of Musicology 22/2 (2024), DOI 10.5450/EJM.22.2.2024.5（シェーンベルク1926年の第9番第3楽章論）"
   - "„On Tempo Indications Based on Beethoven's Music“, College Music Symposium 25（著者名はウェブ版に表示なし）. https://symposium.music.org/volume-25/articles-1752877059/on-tempo-indications-based-on-beethovens-music（閲覧日 2026-10-29）"
   - "録音データ：Gramophone（Gardiner 全集評）、MusicWeb International（Harnoncourt Teldec 全集評 2003年8月）、Wikipedia 英語版・独語版の録音史の記述（閲覧日 2026-10-29）"
+  - "Bärenreiter, takte, „Beethoven bei Bärenreiter – Erfolgsgeschichte seit dreißig Jahren“（第9番から1996年に刊行開始、1996〜2000年に全9曲）. https://www.takte-online.de/en/music-theatre/article/artikel/beethoven-bei-baerenreiter-erfolgsgeschichte-seit-dreissig-jahren/index.htm（閲覧日 2026-10-29）"
 ---
 
 ## 成立

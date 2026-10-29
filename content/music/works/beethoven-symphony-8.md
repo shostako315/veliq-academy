@@ -22,6 +22,7 @@ sources:
   - "Wikipedia（英語版）「Symphony No. 8 (Beethoven)」（典拠 Antony Hopkins, The Nine Symphonies of Beethoven, 1981; Charles Rosen, Sonata Forms, 1988; Donald Francis Tovey, Essays in Musical Analysis ほか）. https://en.wikipedia.org/wiki/Symphony_No._8_(Beethoven)（閲覧日 2026-10-29）"
   - "kennethwoods.net, „What do you do when Beethoven doesn’t give you a metronome marking?“ (2012)（第8番メヌエットの表記）. https://kennethwoods.net/blog1/wp-json/wp/v2/posts/4679（閲覧日 2026-10-29）"
   - "録音データ：Gramophone（Zinman 第7・8番評 1998年7月、Gardiner 全集評）、MusicWeb International（Harnoncourt Teldec 全集評 2003年8月）（閲覧日 2026-10-29）"
+  - "Vorwort / Preface. In: Beethoven, Sinfonie Nr. 8 op. 93, Studien-Edition HN 9818, München: G. Henle（1815年5月20日のシュタイナーとの契約、初版の刊行を1817年4月とみる推定、自筆総譜の所蔵、AMZ 1814年3月23日の評）. https://www.henle.de/media/cc/7c/a7/1697725877/9818-1697725876-sync.pdf（閲覧日 2026-10-29）"
 ---
 
 ## 成立

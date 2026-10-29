@@ -47,3 +47,8 @@
 - 第2主題を奏する楽器、スケルツォの強弱の交替の単位、終楽章コーダの小節数。
 - 総譜初版（Cianchettini & Sperati）の刊行年。
 - 序奏 Adagio molto の数値の音価。
+
+
+## 第三者による事実確認（2026-10-29）
+- 『上流世界新聞（Zeitung für die elegante Welt）』はライプツィヒの新聞で、評者はウィーン通信員（[enW]「A Viennese critic for the Zeitung für die elegante Welt」）。記事の「ウィーンの『上流世界新聞』」を「ライプツィヒの…のウィーンの評者」に訂正。
+- シューベルト《グラン・デュオ》での引用は [enW] のみ。記事は英語版Wikipediaの記述として残した（未確認）。
