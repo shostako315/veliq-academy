@@ -1,215 +1,50 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Veliq Academy — クラシック音楽史を、時代年表・作曲家図鑑・作品カタログ・クイズで学ぶ学習サイト。運営：一般社団法人VariOrchestra">
-  <title>Veliq Academy — The Art of Listening</title>
-  <link rel="canonical" href="https://veliq-academy.com/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Veliq Academy">
-  <meta property="og:title" content="Veliq Academy — The Art of Listening">
-  <meta property="og:description" content="クラシック音楽史を、時代年表・作曲家図鑑・作品カタログ・クイズで学ぶ学習サイト。">
-  <meta property="og:url" content="https://veliq-academy.com/">
-  <meta property="og:locale" content="ja_JP">
-  <meta name="twitter:card" content="summary">
-
-  <!-- Webフォント -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/design-tokens.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/animations.css">
-
-  <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23FFFFFF%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-family=%27-apple-system,Helvetica,sans-serif%27 font-weight=%27700%27 font-size=%2722%27 text-anchor=%27middle%27 fill=%27%238A6A2A%27%3EV%3C/text%3E%3C/svg%3E">
-<style>
-@view-transition{navigation:auto}
-::view-transition-old(root),::view-transition-new(root){animation-duration:.26s}
-@media(prefers-reduced-motion:reduce){
-::view-transition-old(root),::view-transition-new(root){animation:none}}
-h1,h2,h3{text-wrap:balance}
-::selection{background:rgba(138,106,42,.18)}
-:focus-visible{outline:2px solid #8A6A2A;outline-offset:2px;border-radius:2px}
-</style>
-<link rel="stylesheet" href="assets/vq-ui.css?v=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veliq Academy｜音楽の作品・作曲家・時代の解説</title>
+<meta name="description" content="音楽の作品・作曲家・時代を、出典つきで解説する学習サイト。作曲家49人・作品100曲・時代・形式と概念・年表・記事24本。監修：佐藤瑛吾。運営：一般社団法人VariOrchestra。">
+<link rel="canonical" href="https://veliq-academy.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Veliq Academy">
+<meta property="og:title" content="Veliq Academy｜音楽の作品・作曲家・時代の解説">
+<meta property="og:description" content="音楽の作品・作曲家・時代を、出典つきで解説する学習サイト。作曲家49人・作品100曲・時代・形式と概念・年表・記事24本。監修：佐藤瑛吾。運営：一般社団法人VariOrchestra。">
+<meta property="og:url" content="https://veliq-academy.com/">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23FFFFFF%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-family=%27-apple-system,Helvetica,sans-serif%27 font-weight=%27700%27 font-size=%2722%27 text-anchor=%27middle%27 fill=%27%238A6A2A%27%3EV%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/vq-ui.css?v=2">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Veliq Academy","url":"https://veliq-academy.com/","inLanguage":"ja","publisher":{"@type":"Organization","name":"一般社団法人VariOrchestra","url":"https://variorchestra.com/","email":"info@variorchestra.com"}}</script>
 </head>
 <body>
-
-  <!-- ローディング画面 -->
-  <div id="loading-screen" class="loading-screen">
-    <div class="loading-logo">
-      <p class="loading-text">Veliq <b>Academy</b></p>
-      <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+<a class="va-skip" href="#main">本文へ</a>
+<header class="gh">
+  <div class="wrap gh-in">
+    <a class="brand" href="/">Veliq <b>Academy</b></a>
+    <nav class="gnav" aria-label="サイト内"><a href="/music/works/">作品</a><a href="/music/composers/">作曲家</a><a href="/music/eras/">時代</a><a href="/music/timeline/">年表</a><a class="pill" href="/concerts/">演奏会</a></nav>
+    <button class="burger" id="navBurger" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="メニュー"><span></span><span></span></button>
+  </div>
+</header>
+<div class="menu" id="navMenu">
+  <div class="mg"><div class="mh">音楽</div><div class="ml"><a href="/music/">音楽学科のトップ</a><a href="/music/works/">作品</a><a href="/music/composers/">作曲家</a><a href="/music/eras/">時代</a><a href="/music/timeline/">年表</a><a href="/music/history/">音楽史</a><a href="/music/orchestra/">オーケストラ史</a><a href="/music/conductors/">指揮者の歴史と役割</a><a href="/music/instruments/">楽器</a><a href="/music/opera/">オペラ</a><a href="/music/early/">古楽</a><a href="/music/theory/">楽典と理論</a><a href="/music/concepts/">形式と概念</a></div></div>
+  <div class="mg"><div class="mh">演奏会</div><div class="ml"><a href="/concerts/">演奏会の一覧</a><a href="/concerts/vo-vol3-2027-03/">VariOrchestra Vol.3</a></div></div>
+  <a class="mcta" href="https://veliqclub.com/">Veliq Club に入会する</a>
+  <div class="mfoot">運営：一般社団法人VariOrchestra<br>監修：佐藤瑛吾</div>
+</div>
+<main id="main" class="va-main"><div class="wrap"><header class="va-hd va-home"><h1>Veliq <span class="va-gold">Academy</span></h1><p class="va-lede">音楽の作品・作曲家・時代を解説する学習サイトです。監修：佐藤瑛吾（指揮者・VariOrchestra 音楽監督）。運営：一般社団法人VariOrchestra。</p></header><section class="va-sec "><h2>学科</h2><ul class="va-list"><li><a href="/music/"><span><b>音楽</b><small>作曲家49人・作品100曲・時代・形式と概念・年表・記事24本</small></span></a></li></ul></section><section class="va-sec "><h2>演奏会</h2><ul class="va-list"><li><a href="/concerts/vo-vol3-2027-03/"><span><b>VariOrchestra Vol.3</b><small>2027年3月13日（土）・武蔵野市民文化会館 大ホール</small></span></a></li></ul></section><section class="va-sec "><h2>アプリと会員</h2><div class="va-acts"><a class="va-btn" href="https://veliqclub.com/app.html?from=academy">Veliq アプリで4択</a><a class="va-btn ln" href="https://veliqclub.com/">Veliq Club に入会する</a></div></section></div></main>
+<footer class="gf">
+  <div class="wrap">
+    <div class="gf-cols">
+      <div><div class="gf-brand">Veliq <b>Academy</b></div><p class="va-gfp">運営：一般社団法人VariOrchestra<br>監修：佐藤瑛吾（指揮者・VariOrchestra 音楽監督）</p></div>
+      <div><h4>音楽</h4><a href="/music/">音楽学科のトップ</a><a href="/music/works/">作品</a><a href="/music/composers/">作曲家</a><a href="/music/eras/">時代</a><a href="/music/timeline/">年表</a><a href="/music/history/">音楽史</a><a href="/music/orchestra/">オーケストラ史</a><a href="/music/conductors/">指揮者の歴史と役割</a><a href="/music/instruments/">楽器</a><a href="/music/opera/">オペラ</a><a href="/music/early/">古楽</a><a href="/music/theory/">楽典と理論</a><a href="/music/concepts/">形式と概念</a></div>
+      <div><h4>演奏会</h4><a href="/concerts/">演奏会の一覧</a><a href="/concerts/vo-vol3-2027-03/">VariOrchestra Vol.3</a><a href="https://variorchestra.com/">VariOrchestra</a></div>
+      <div><h4>Veliq</h4><a href="https://veliqclub.com/">Veliq Club</a><a href="https://veliq.jp/">VELIQ</a><a href="/privacy.html">プライバシーポリシー</a><a href="mailto:info@variorchestra.com">お問い合わせ</a></div>
     </div>
+    <div class="gf-copy"><span>© 一般社団法人VariOrchestra</span></div>
   </div>
-
-  <!-- アプリシェル -->
-  <div id="app" class="app-shell" style="display:none;">
-
-    <!-- サイドバー -->
-    <aside id="sidebar" class="sidebar">
-
-      <nav class="sidebar-nav">
-        <ul class="nav-list">
-          <li class="nav-item" data-route="dashboard">
-            <a href="#/dashboard" class="nav-link">
-              <span class="nav-icon">◈</span>
-              <span class="nav-label">ダッシュボード</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="timeline">
-            <a href="#/timeline" class="nav-link">
-              <span class="nav-icon">◉</span>
-              <span class="nav-label">時代年表</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="composers">
-            <a href="#/composers" class="nav-link">
-              <span class="nav-icon">♪</span>
-              <span class="nav-label">作曲家図鑑</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="works">
-            <a href="#/works" class="nav-link">
-              <span class="nav-icon">♩</span>
-              <span class="nav-label">作品カタログ</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="eras">
-            <a href="#/eras" class="nav-link">
-              <span class="nav-icon">◆</span>
-              <span class="nav-label">時代を学ぶ</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="concepts">
-            <a href="#/concepts" class="nav-link">
-              <span class="nav-icon">◇</span>
-              <span class="nav-label">概念アカデミー</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="listening">
-            <a href="#/listening" class="nav-link">
-              <span class="nav-icon">◎</span>
-              <span class="nav-label">鑑賞ラボ</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="paths">
-            <a href="#/paths" class="nav-link">
-              <span class="nav-icon">→</span>
-              <span class="nav-label">学習パス</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="quiz">
-            <a href="#/quiz" class="nav-link">
-              <span class="nav-icon">？</span>
-              <span class="nav-label">クイズ</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="concert">
-            <a href="#/concert" class="nav-link">
-              <span class="nav-icon">♦</span>
-              <span class="nav-label">コンサート準備</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="score">
-            <a href="#/score" class="nav-link">
-              <span class="nav-icon">♫</span>
-              <span class="nav-label">楽譜入門</span>
-            </a>
-          </li>
-          <li class="nav-item" data-route="progress">
-            <a href="#/progress" class="nav-link">
-              <span class="nav-icon">⊛</span>
-              <span class="nav-label">学習進捗</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- Veliq Eventsバナー -->
-      <div class="sidebar-events-banner" id="events-banner"></div>
-
-      <!-- ユーザー進捗サマリー -->
-      <div class="sidebar-progress">
-        <div class="progress-user" id="progress-user-summary"></div>
-      </div>
-    </aside>
-
-    <!-- メインエリア -->
-    <main id="main-content" class="main-content">
-
-      <!-- グローバルヘッダー（モバイル用） -->
-      <header id="global-header" class="global-header">
-        <a class="brand" href="#/dashboard">Veliq <b>Academy</b></a>
-        <button id="sidebar-toggle" class="sidebar-toggle" aria-label="メニュー" aria-expanded="false" aria-controls="sidebar">
-          <span></span><span></span>
-        </button>
-        <div class="header-title" id="header-title"></div>
-        <div class="header-search">
-          <input type="search" id="global-search" placeholder="作曲家・作品を検索..." autocomplete="off">
-          <div id="search-results" class="search-dropdown" hidden></div>
-        </div>
-      </header>
-
-      <!-- ページコンテンツ -->
-      <div id="page-content" class="page-content"></div>
-
-      <footer class="site-footer">
-        <p>運営：一般社団法人VariOrchestra｜お問い合わせ：<a href="mailto:info@variorchestra.com">info@variorchestra.com</a>｜<a href="privacy.html">プライバシーポリシー</a></p>
-        <p>学習の記録はこの端末のブラウザにのみ保存され、運営者には送信されません。</p>
-        <p><a href="https://veliqclub.com/">Veliq Club に入会する</a></p>
-        <p class="site-footer-brand"><a href="https://veliq.jp">VELIQ</a><span> — 何気ない日常を、豊かに</span></p>
-      </footer>
-    </main>
-
-    <!-- 検索オーバーレイ -->
-    <div id="search-overlay" class="search-overlay" hidden></div>
-
-    <!-- トースト通知 -->
-    <div id="toast-container" class="toast-container" aria-live="polite"></div>
-  </div>
-
-  <!-- ライブラリ -->
-  <script src="js/lib/d3.min.js"></script>
-  <script src="js/lib/marked.min.js"></script>
-
-  <!-- コアJS（順序重要） -->
-  <script src="js/state.js"></script>
-  <script src="js/ui.js"></script>
-  <script src="js/router.js"></script>
-
-  <!-- モジュール -->
-  <script src="js/modules/dashboard.js"></script>
-  <script src="js/modules/timeline.js"></script>
-  <script src="js/modules/composer-library.js"></script>
-  <script src="js/modules/composer-graph.js"></script>
-  <script src="js/modules/works-catalog.js"></script>
-  <script src="js/modules/era-deep-dive.js"></script>
-  <script src="js/modules/concept-academy.js"></script>
-  <script src="js/modules/context-engine.js"></script>
-  <script src="js/modules/listening-lab.js"></script>
-  <script src="js/modules/learning-paths.js"></script>
-  <script src="js/modules/quiz.js"></script>
-  <script src="js/modules/concert-companion.js"></script>
-  <script src="js/modules/score-literacy.js"></script>
-  <script src="js/modules/veliq-events.js"></script>
-  <script src="js/modules/progress.js"></script>
-
-  <!-- アプリ起動 -->
-  <script src="js/app.js"></script>
-  <script>
-  /* スマホのメニュー：開閉の状態をボタンに反映し、項目を押したら閉じる */
-  (function(){var sb=document.getElementById('sidebar'),bt=document.getElementById('sidebar-toggle');if(!sb||!bt)return;
-  new MutationObserver(function(){var o=sb.classList.contains('open');bt.setAttribute('aria-expanded',o?'true':'false');document.documentElement.style.overflow=(o&&innerWidth<=768)?'hidden':''}).observe(sb,{attributes:true,attributeFilter:['class']});
-  sb.addEventListener('click',function(e){if(e.target.closest('a'))sb.classList.remove('open')});
-  document.addEventListener('keydown',function(e){if(e.key==='Escape')sb.classList.remove('open')});})();
-  </script>
-
+</footer>
+<script src="/assets/vq.js?v=2" defer></script>
+<script src="/assets/legacy.js?v=2" defer></script>
 </body>
 </html>

@@ -10,20 +10,45 @@
     "era": "baroque",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "バロック音楽の集大成者。対位法の極致を示した西洋音楽史上最重要の作曲家の一人。",
-    "longBio": "ドイツ・アイゼナハの音楽家の家系に生まれ、幼少期から音楽教育を受けた。オルガニスト、宮廷楽長、教会音楽監督として活躍し、生涯にわたり膨大な作品を残した。対位法とフーガの技法を極限まで発展させ、バロック音楽の頂点を築いた。死後は一時忘れられたが、メンデルスゾーンによる「マタイ受難曲」の再演をきっかけに再評価された。現在では西洋音楽の父として広く敬われている。",
-    "significance": "最重要",
-    "style": ["対位法", "フーガ", "コラール"],
-    "keyWorks": ["work-bach-matthaus", "work-bach-goldberg", "work-bach-wohltemperierte"],
-    "influencedBy": ["buxtehude", "vivaldi", "couperin-f"],
-    "influenced": ["mozart-wa", "beethoven", "mendelssohn", "brahms"],
-    "teachers": ["buxtehude"],
-    "students": ["bach-cpe", "bach-wf"],
-    "quotes": ["音楽の唯一の目的は神の栄光と心の喜びのためにある。"],
+    "shortBio": "ドイツの作曲家・オルガン奏者。ヴァイマル、ケーテンの宮廷に仕えた後、1723年からライプツィヒの聖トーマス教会カントルを務めた。",
+    "longBio": "アイゼナハの音楽家の家系に生まれた。アルンシュタット、ミュールハウゼンで教会オルガン奏者を務め、1708年からヴァイマル宮廷のオルガン奏者・楽師、1717年からケーテン宮廷楽長、1723年からライプツィヒの聖トーマス教会カントル兼市の音楽監督となり、1750年に同地で没した。1705年にはリューベックへ旅し、ブクステフーデのもとに滞在した。教会カンタータ、受難曲、ミサ曲ロ短調、オルガン曲、鍵盤曲（平均律クラヴィーア曲集、ゴルトベルク変奏曲）、ブランデンブルク協奏曲などを書いた。息子のヴィルヘルム・フリーデマン、カール・フィリップ・エマヌエル、ヨハン・クリスティアンも作曲家になった。1829年にメンデルスゾーンがベルリンで「マタイ受難曲」を上演し、その後バッハの作品の上演と出版が広がった。",
+    "style": [
+      "教会カンタータ",
+      "受難曲",
+      "オルガン曲",
+      "鍵盤曲",
+      "フーガ"
+    ],
+    "keyWorks": [
+      "work-bach-matthaus",
+      "work-bach-goldberg",
+      "work-bach-wohltemperierte"
+    ],
+    "influencedBy": [
+      "buxtehude",
+      "vivaldi",
+      "couperin-f"
+    ],
+    "influenced": [
+      "mozart-wa",
+      "beethoven",
+      "mendelssohn",
+      "brahms"
+    ],
+    "teachers": [],
+    "students": [
+      "bach-cpe",
+      "bach-wf"
+    ],
     "historicalContext": "baroque",
-    "businessQuote": "「構造」と「自由」の両立。バッハの対位法は、厳格なルールの中に無限の創造性を見出す経営哲学に通じる。",
     "difficulty": 3,
-    "tags": ["baroque", "keyboard", "orchestral", "vocal", "religious"],
+    "tags": [
+      "baroque",
+      "keyboard",
+      "orchestral",
+      "vocal",
+      "religious"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -38,20 +63,38 @@
     "era": "baroque",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "バロック期を代表するオペラ・オラトリオ作曲家。国際的に活躍し、英国音楽の象徴となった。",
-    "longBio": "ドイツ・ハレに生まれ、イタリアで修業した後、ロンドンに定住して英国に帰化した。オペラ作曲家として成功を収めたが、後にオラトリオに転向し、「メサイア」などの傑作を生み出した。華麗で劇的な作風と卓越したメロディの才能で知られる。同年生まれのバッハとは対照的な国際人としてのキャリアを歩んだ。英国王室との深い関わりを持ち、「水上の音楽」「王宮の花火の音楽」など祝祭的作品も多い。",
-    "significance": "最重要",
-    "style": ["オラトリオ", "オペラ・セリア", "合唱曲"],
-    "keyWorks": ["work-handel-messiah", "work-handel-watermusic", "work-handel-fireworks"],
-    "influencedBy": ["vivaldi", "corelli"],
-    "influenced": ["haydn", "mozart-wa", "beethoven"],
+    "shortBio": "ドイツ生まれの作曲家。イタリアで修業した後ロンドンに定住し、1727年にイギリスに帰化した。オペラとオラトリオを書いた。",
+    "longBio": "ハレに生まれた。ハンブルクの歌劇場で働いた後、1706年から1710年までイタリアに滞在した。1710年にハノーファー選帝侯の宮廷楽長となり、同年ロンドンを訪れ、1712年からロンドンに住んだ。1727年にイギリスに帰化した。ロンドンでイタリア語のオペラを上演し、1730年代後半からは英語のオラトリオを多く書いた。「メサイア」は1742年にダブリンで初演された。「水上の音楽」（1717年）、「王宮の花火の音楽」（1749年）はイギリス王室の催しのために書かれた。1759年にロンドンで没し、ウェストミンスター寺院に葬られた。",
+    "style": [
+      "オペラ・セリア",
+      "オラトリオ",
+      "合奏協奏曲",
+      "オルガン協奏曲"
+    ],
+    "keyWorks": [
+      "work-handel-messiah",
+      "work-handel-watermusic",
+      "work-handel-fireworks"
+    ],
+    "influencedBy": [
+      "corelli"
+    ],
+    "influenced": [
+      "haydn",
+      "mozart-wa",
+      "beethoven"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "baroque",
-    "businessQuote": "市場の変化に適応する力。ヘンデルはオペラの衰退を見抜き、オラトリオへ大胆に事業転換した先見の明を持っていた。",
     "difficulty": 2,
-    "tags": ["baroque", "vocal", "orchestral", "opera", "oratorio"],
+    "tags": [
+      "baroque",
+      "vocal",
+      "orchestral",
+      "opera",
+      "oratorio"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -66,20 +109,37 @@
     "era": "baroque",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "「四季」で知られるバロック期イタリアの巨匠。協奏曲形式の確立に大きく貢献した。",
-    "longBio": "ヴェネツィアに生まれ、司祭でありながら作曲家・ヴァイオリニストとして活躍した。ピエタ慈善院の音楽教師として、少女たちのオーケストラを指導しながら膨大な作品を生み出した。500曲以上の協奏曲を作曲し、独奏協奏曲の形式を確立した功績は計り知れない。「四季」は史上最も有名なクラシック作品の一つである。晩年はウィーンに渡ったが、不遇のうちに没した。",
-    "significance": "重要",
-    "style": ["協奏曲", "ヴァイオリン音楽", "描写音楽"],
-    "keyWorks": ["work-vivaldi-fourseasons", "work-vivaldi-gloria", "work-vivaldi-stabat"],
-    "influencedBy": ["corelli"],
-    "influenced": ["bach-js", "handel", "telemann"],
+    "shortBio": "ヴェネツィアの作曲家・ヴァイオリン奏者・司祭。ピエタ慈善院で教え、約500曲の協奏曲を書いた。",
+    "longBio": "ヴェネツィアに生まれ、1703年に司祭に叙階された。同年からピエタ慈善院（孤児の少女を養育し音楽を教えた施設）のヴァイオリン教師となり、のちに合奏の指導と作曲も受け持った。協奏曲は約500曲が残り、急・緩・急の3楽章とリトルネッロ形式による独奏協奏曲を多く書いた。1725年に「和声と創意の試み」作品8をアムステルダムで出版し、その最初の4曲が「四季」である。オペラも多数書いた。1740年にウィーンへ移り、1741年に同地で没した。",
+    "style": [
+      "協奏曲",
+      "オペラ",
+      "宗教声楽曲",
+      "ヴァイオリン曲"
+    ],
+    "keyWorks": [
+      "work-vivaldi-fourseasons",
+      "work-vivaldi-gloria",
+      "work-vivaldi-stabat"
+    ],
+    "influencedBy": [
+      "corelli"
+    ],
+    "influenced": [
+      "bach-js",
+      "handel",
+      "telemann"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "baroque",
-    "businessQuote": "量産と品質の両立。ヴィヴァルディの驚異的な生産性は、確立された「型」を活用しつつ革新を続けるビジネスモデルに通じる。",
     "difficulty": 1,
-    "tags": ["baroque", "violin", "concerto", "orchestral"],
+    "tags": [
+      "baroque",
+      "violin",
+      "concerto",
+      "orchestral"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -94,20 +154,37 @@
     "era": "baroque",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "バロック期最多作の作曲家の一人。生前はバッハ以上の名声を誇り、多様な様式を融合させた。",
-    "longBio": "マクデブルクに生まれ、独学で音楽を習得した天才。ハンブルク市音楽監督として長年活躍し、生涯に3000曲以上を作曲した。フランス、イタリア、ドイツの様式を自在に融合させ、ギャラント様式への橋渡し役を果たした。生前はバッハやヘンデルを凌ぐ名声を得ていた。音楽出版にも積極的に取り組み、自作の普及に努めた先駆的な音楽家でもあった。",
-    "significance": "重要",
-    "style": ["多様式融合", "ギャラント様式", "室内楽"],
-    "keyWorks": ["work-telemann-tafelmusik", "work-telemann-viola-concerto"],
-    "influencedBy": ["vivaldi", "lully"],
-    "influenced": ["bach-cpe", "handel"],
+    "shortBio": "ドイツの作曲家。1721年から没するまでハンブルク市の音楽監督を務めた。作品数は3000曲を超えるとされる。",
+    "longBio": "マクデブルクに生まれた。音楽は主に独学で身につけ、ライプツィヒ大学で法律を学ぶかたわら、1702年に同市でコレギウム・ムジクムを組織した。ゾーラウ、アイゼナハの宮廷、フランクフルトの市の音楽監督を経て、1721年にハンブルク市の音楽監督兼ヨハネウム学院カントルとなり、1767年に同地で没した。フランス、イタリア、ドイツの様式による管弦楽組曲、協奏曲、室内楽、教会音楽、オペラを書いた。自作の楽譜を自ら出版・販売し、1733年には「ターフェルムジーク」を予約出版した。",
+    "style": [
+      "管弦楽組曲",
+      "協奏曲",
+      "室内楽",
+      "教会カンタータ",
+      "受難曲"
+    ],
+    "keyWorks": [
+      "work-telemann-tafelmusik",
+      "work-telemann-viola-concerto"
+    ],
+    "influencedBy": [
+      "vivaldi",
+      "lully"
+    ],
+    "influenced": [
+      "bach-cpe",
+      "handel"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "baroque",
-    "businessQuote": "多角化経営の先駆者。テレマンはあらゆるジャンルと様式を取り込み、最大の市場リーチを実現した。",
     "difficulty": 2,
-    "tags": ["baroque", "orchestral", "chamber", "vocal"],
+    "tags": [
+      "baroque",
+      "orchestral",
+      "chamber",
+      "vocal"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -122,20 +199,35 @@
     "era": "baroque",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "英国バロック最大の作曲家。英語の抑揚を活かした声楽作品と劇音楽で知られる。",
-    "longBio": "ロンドンに生まれ、王室礼拝堂の聖歌隊員として音楽教育を受けた。わずか36歳で夭折したが、オペラ「ディドとエネアス」をはじめ、多くの傑作を残した。英語の自然なリズムと抑揚を音楽に反映させる卓越した技術を持っていた。ウェストミンスター寺院のオルガニストも務め、王室の儀式音楽も多数作曲した。英国音楽の黄金時代を築いた最重要人物である。",
-    "significance": "重要",
-    "style": ["劇音楽", "英国様式", "声楽曲"],
-    "keyWorks": ["work-purcell-dido", "work-purcell-fairyqueen"],
-    "influencedBy": ["lully"],
-    "influenced": ["handel", "britten"],
+    "shortBio": "イングランドの作曲家・オルガン奏者。ウェストミンスター寺院のオルガン奏者を務め、劇音楽、宮廷の頌歌、教会音楽を書いた。",
+    "longBio": "ロンドンに生まれ、王室礼拝堂の少年聖歌隊員として音楽を学んだ。1679年にウェストミンスター寺院のオルガン奏者となり、1682年からは王室礼拝堂のオルガン奏者も兼ねた。オペラ「ディドとエネアス」、劇のための音楽（「アーサー王」「妖精の女王」など）、王室のための頌歌、アンセム、メアリー2世の葬儀のための音楽を書いた。1695年に36歳で没した。",
+    "style": [
+      "劇音楽",
+      "オペラ",
+      "頌歌",
+      "アンセム"
+    ],
+    "keyWorks": [
+      "work-purcell-dido",
+      "work-purcell-fairyqueen"
+    ],
+    "influencedBy": [
+      "lully"
+    ],
+    "influenced": [
+      "handel",
+      "britten"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "baroque",
-    "businessQuote": "短い時間で最大の成果を。パーセルの36年の生涯は、限られたリソースで最大のインパクトを生む集中力の重要性を教えてくれる。",
     "difficulty": 2,
-    "tags": ["baroque", "vocal", "opera", "keyboard"],
+    "tags": [
+      "baroque",
+      "vocal",
+      "opera",
+      "keyboard"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -150,20 +242,34 @@
     "era": "baroque",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "フランス・バロック鍵盤音楽の巨匠。「クラヴサンの大家」と称えられた。",
-    "longBio": "パリの音楽家の名門一族に生まれ、ルイ14世の宮廷オルガニストとして活躍した。クラヴサン（チェンバロ）のための作品群は、繊細で優雅なフランス様式の極致を示している。装飾音の体系化にも大きく貢献し、「クラヴサン奏法」は重要な教則本として知られる。その洗練された様式はラヴェルにも影響を与えた。フランス音楽の伝統を確立した重要な存在である。",
-    "significance": "重要",
-    "style": ["クラヴサン音楽", "フランス様式", "装飾音"],
-    "keyWorks": ["work-couperin-ordres", "work-couperin-lecons"],
-    "influencedBy": ["lully"],
-    "influenced": ["bach-js", "ravel"],
+    "shortBio": "フランスの作曲家・オルガン奏者・クラヴサン奏者。ルイ14世の王室礼拝堂のオルガン奏者を務め、クラヴサン曲集4巻を出版した。",
+    "longBio": "パリの音楽家の一族に生まれ、同族の作曲家と区別して「大クープラン」と呼ばれる。1685年頃からパリのサン＝ジェルヴェ教会のオルガン奏者を務め、1693年に王室礼拝堂のオルガン奏者の一人に任命された。クラヴサン曲集を4巻（1713〜1730年）出版し、1716年には奏法の教本「クラヴサン奏法」を出版した。室内楽曲「王宮のコンセール」、トリオ・ソナタ、オルガン・ミサも書いた。1733年にパリで没した。",
+    "style": [
+      "クラヴサン曲",
+      "オルガン曲",
+      "室内楽",
+      "宗教声楽曲"
+    ],
+    "keyWorks": [
+      "work-couperin-ordres",
+      "work-couperin-lecons"
+    ],
+    "influencedBy": [
+      "lully"
+    ],
+    "influenced": [
+      "bach-js",
+      "ravel"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "baroque",
-    "businessQuote": "細部への徹底的なこだわり。クープランの装飾音の美学は、製品の仕上げが顧客体験を左右するという品質哲学に通じる。",
     "difficulty": 3,
-    "tags": ["baroque", "keyboard", "french"],
+    "tags": [
+      "baroque",
+      "keyboard",
+      "french"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -178,20 +284,36 @@
     "era": "baroque",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "フランス・バロック・オペラの大家にして近代和声理論の創始者。",
-    "longBio": "ディジョンに生まれ、遅咲きながらもフランス・オペラの第一人者となった。50歳で初めてオペラを発表し、リュリの後継者として華麗な舞台作品を次々と生み出した。同時に「和声論」を著し、近代和声学の基礎を築いた理論家でもあった。百科全書派との論争でも知られ、音楽の科学的理解を推進した。理論と実践の両面でフランス音楽に多大な貢献を果たした。",
-    "significance": "重要",
-    "style": ["フランス・オペラ", "和声理論", "舞踏音楽"],
-    "keyWorks": ["work-rameau-indes", "work-rameau-castor"],
-    "influencedBy": ["lully", "couperin-f"],
-    "influenced": ["gluck", "debussy"],
+    "shortBio": "フランスの作曲家・音楽理論家。1722年に「和声論」を著し、1733年に50歳で初めてのオペラ「イポリートとアリシー」を発表した。",
+    "longBio": "ディジョンに生まれ、各地の教会でオルガン奏者を務めた。1722年にパリで「和声論」を出版し、和音を根音とその転回で説明する理論を示した。1733年に初めてのオペラ「イポリートとアリシー」を上演し、以後「優雅なインドの国々」「カストールとポリュックス」などの抒情悲劇やオペラ・バレを書いた。クラヴサン曲集も出版した。1750年代にはルソーら百科全書派とイタリア音楽・フランス音楽をめぐって論争した。1764年にパリで没した。",
+    "style": [
+      "抒情悲劇",
+      "オペラ・バレ",
+      "クラヴサン曲",
+      "和声理論"
+    ],
+    "keyWorks": [
+      "work-rameau-indes",
+      "work-rameau-castor"
+    ],
+    "influencedBy": [
+      "lully",
+      "couperin-f"
+    ],
+    "influenced": [
+      "gluck",
+      "debussy"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "baroque",
-    "businessQuote": "理論と実践の統合。ラモーは感性だけでなく科学的根拠に基づいた音楽を追求し、データドリブンな意思決定の先駆者といえる。",
     "difficulty": 3,
-    "tags": ["baroque", "opera", "theory", "french"],
+    "tags": [
+      "baroque",
+      "opera",
+      "theory",
+      "french"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -206,20 +328,32 @@
     "era": "baroque",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "北ドイツ・オルガン楽派の頂点。若きバッハが徒歩で聴きに行ったという伝説で知られる。",
-    "longBio": "デンマーク領ヘルシンボリに生まれ、リューベックの聖マリア教会オルガニストとして約40年にわたり活躍した。「夕べの音楽会」を開催し、北ドイツの音楽文化を牽引した。自由で即興的なオルガン作品は、若きバッハに決定的な影響を与えた。カンタータや室内楽にも優れた作品を残している。バロック・オルガン音楽の最重要人物の一人である。",
-    "significance": "重要",
-    "style": ["オルガン音楽", "カンタータ", "即興的様式"],
-    "keyWorks": ["work-buxtehude-praeludium", "work-buxtehude-passacaglia"],
+    "shortBio": "北ドイツで活動した作曲家・オルガン奏者。1668年から没するまでリューベックの聖マリア教会のオルガン奏者を務めた。",
+    "longBio": "1637年頃にヘルシンボリ（当時デンマーク領）で生まれたとされる。ヘルシンボリ、ヘルシンゲルでオルガン奏者を務めた後、1668年にリューベックの聖マリア教会のオルガン奏者となり、1707年に同地で没するまで在職した。同教会で「夕べの音楽（アーベントムジーク）」と呼ばれる演奏会を開いた。オルガンのための前奏曲、コラール編曲、声楽のカンタータ、トリオ・ソナタを書いた。1703年にヘンデルとマッテゾンが、1705年にはバッハがリューベックを訪れている。",
+    "style": [
+      "オルガン曲",
+      "カンタータ",
+      "トリオ・ソナタ"
+    ],
+    "keyWorks": [
+      "work-buxtehude-praeludium",
+      "work-buxtehude-passacaglia"
+    ],
     "influencedBy": [],
-    "influenced": ["bach-js", "handel"],
+    "influenced": [
+      "bach-js",
+      "handel"
+    ],
     "teachers": [],
-    "students": ["bach-js"],
-    "quotes": [],
+    "students": [],
     "historicalContext": "baroque",
-    "businessQuote": "メンターシップの力。ブクステフーデが若きバッハに与えた影響は、優れた指導者が次世代の才能を開花させる重要性を示す。",
     "difficulty": 3,
-    "tags": ["baroque", "organ", "vocal", "religious"],
+    "tags": [
+      "baroque",
+      "organ",
+      "vocal",
+      "religious"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -234,20 +368,40 @@
     "era": "classical",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "「交響曲の父」「弦楽四重奏曲の父」と称される古典派音楽の確立者。",
-    "longBio": "オーストリアの小村ローラウに生まれ、ウィーンの聖シュテファン大聖堂聖歌隊で音楽教育を受けた。エステルハージ侯爵家の宮廷楽長として30年間勤務し、交響曲や弦楽四重奏曲の形式を確立した。晩年のロンドン訪問で国際的名声を得て、オラトリオ「天地創造」などの大作を完成させた。温厚な人柄で「パパ・ハイドン」と親しまれた。モーツァルトとベートーヴェンの双方に大きな影響を与えた古典派音楽の父である。",
-    "significance": "最重要",
-    "style": ["交響曲", "弦楽四重奏曲", "ソナタ形式"],
-    "keyWorks": ["work-haydn-symphony94", "work-haydn-creation", "work-haydn-quartet-emperor"],
-    "influencedBy": ["bach-cpe"],
-    "influenced": ["mozart-wa", "beethoven", "schubert"],
+    "shortBio": "オーストリアの作曲家。約30年にわたりエステルハージ侯爵家の楽長を務め、番号付きで104曲の交響曲と多数の弦楽四重奏曲を書いた。",
+    "longBio": "ローラウに生まれ、ウィーンの聖シュテファン大聖堂の少年聖歌隊員となった。1761年にエステルハージ侯爵家の副楽長、1766年に楽長となり、主にアイゼンシュタットとエステルハーザの宮廷で働いた。1790年に侯爵ニコラウスが没すると楽団が解散され、ハイドンは興行主ザロモン（Johann Peter Salomon）の招きで1791〜92年と1794〜95年にロンドンを訪れ、第93番から第104番の交響曲を初演した。1792年からはウィーンでベートーヴェンを教えた。帰国後にオラトリオ「天地創造」「四季」を書いた。1809年にウィーンで没した。",
+    "style": [
+      "交響曲",
+      "弦楽四重奏曲",
+      "オラトリオ",
+      "ミサ曲",
+      "ピアノ・ソナタ"
+    ],
+    "keyWorks": [
+      "work-haydn-symphony94",
+      "work-haydn-creation",
+      "work-haydn-quartet-emperor"
+    ],
+    "influencedBy": [
+      "bach-cpe"
+    ],
+    "influenced": [
+      "mozart-wa",
+      "beethoven",
+      "schubert"
+    ],
     "teachers": [],
-    "students": ["beethoven"],
-    "quotes": [],
+    "students": [
+      "beethoven"
+    ],
     "historicalContext": "classical",
-    "businessQuote": "長期的パートナーシップの価値。ハイドンとエステルハージ家の30年の関係は、安定した環境が革新を生むことを証明している。",
     "difficulty": 2,
-    "tags": ["classical", "symphony", "chamber", "orchestral"],
+    "tags": [
+      "classical",
+      "symphony",
+      "chamber",
+      "orchestral"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -262,20 +416,44 @@
     "era": "classical",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "古典派音楽の頂点に立つ天才。あらゆるジャンルで最高傑作を残した音楽史上最大の神童。",
-    "longBio": "ザルツブルクに生まれ、父レオポルトの指導のもと幼少期からヨーロッパ各地で演奏旅行を行った神童。オペラ、交響曲、協奏曲、室内楽、宗教音楽など、あらゆるジャンルで比類なき傑作を残した。ウィーンでフリーランスの作曲家として活動し、「フィガロの結婚」「ドン・ジョヴァンニ」「魔笛」など不朽のオペラを創作した。わずか35歳で夭折したが、600曲以上の作品を残した。その音楽は完璧な均衡美と深い人間性を兼ね備えている。",
-    "significance": "最重要",
-    "style": ["オペラ", "交響曲", "協奏曲", "室内楽"],
-    "keyWorks": ["work-mozart-figaro", "work-mozart-requiem", "work-mozart-symphony41"],
-    "influencedBy": ["bach-js", "haydn", "bach-cpe"],
-    "influenced": ["beethoven", "schubert", "chopin", "tchaikovsky"],
-    "teachers": ["mozart-leopold"],
+    "shortBio": "ザルツブルク生まれの作曲家。幼少期から父レオポルトと各地で演奏旅行をし、1781年からウィーンで活動した。オペラ、交響曲、協奏曲、室内楽を書いた。",
+    "longBio": "ザルツブルクに生まれ、宮廷音楽家であった父レオポルト（Leopold Mozart）から教育を受けた。1762年から姉ナンネルとともにミュンヘン、ウィーン、パリ、ロンドン、イタリアなどへ演奏旅行をした。ザルツブルク大司教の宮廷に仕えたが、1781年に職を離れてウィーンに移り、演奏会、作曲、レッスンで生計を立てた。ウィーンでは「フィガロの結婚」「ドン・ジョヴァンニ」「コジ・ファン・トゥッテ」「魔笛」などのオペラ、ピアノ協奏曲、交響曲第39〜41番を書いた。1791年12月5日にウィーンで35歳で没し、レクイエムは未完に終わった。作品はケッヘルの目録（K.）の番号で示される。",
+    "style": [
+      "オペラ",
+      "交響曲",
+      "ピアノ協奏曲",
+      "室内楽",
+      "宗教音楽"
+    ],
+    "keyWorks": [
+      "work-mozart-figaro",
+      "work-mozart-requiem",
+      "work-mozart-symphony41"
+    ],
+    "influencedBy": [
+      "bach-js",
+      "haydn",
+      "bach-cpe"
+    ],
+    "influenced": [
+      "beethoven",
+      "schubert",
+      "chopin",
+      "tchaikovsky"
+    ],
+    "teachers": [
+      "mozart-leopold"
+    ],
     "students": [],
-    "quotes": ["音楽はどんな恐ろしい時でも、決して耳を不快にさせてはならない。"],
     "historicalContext": "classical",
-    "businessQuote": "天賦の才能と市場理解の融合。モーツァルトは芸術性と大衆性を両立させ、プロダクト・マーケット・フィットの天才であった。",
     "difficulty": 2,
-    "tags": ["classical", "opera", "symphony", "concerto", "chamber"],
+    "tags": [
+      "classical",
+      "opera",
+      "symphony",
+      "concerto",
+      "chamber"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -290,20 +468,43 @@
     "era": "classical",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "古典派からロマン派への橋渡しをした楽聖。聴覚を失いながらも不朽の傑作を生み続けた。",
-    "longBio": "ボンに生まれ、若くしてウィーンに移りハイドンに師事した。ピアニストとして名声を得た後、作曲に専念し、交響曲、ピアノソナタ、弦楽四重奏曲の可能性を飛躍的に拡大した。20代後半から進行した難聴と闘いながらも、第九交響曲や後期弦楽四重奏曲など人類の宝というべき作品を生み出した。音楽を個人の感情表現の手段へと変革し、ロマン派への道を切り開いた。西洋音楽史上最も影響力のある作曲家の一人である。",
-    "significance": "最重要",
-    "style": ["交響曲", "ピアノソナタ", "弦楽四重奏曲"],
-    "keyWorks": ["work-beethoven-symphony5", "work-beethoven-symphony9", "work-beethoven-moonlight"],
-    "influencedBy": ["haydn", "mozart-wa", "bach-js"],
-    "influenced": ["schubert", "brahms", "wagner", "mahler"],
-    "teachers": ["haydn"],
+    "shortBio": "ボン生まれの作曲家・ピアニスト。1792年にウィーンへ移り、9曲の交響曲、32曲のピアノ・ソナタ、16曲の弦楽四重奏曲を書いた。",
+    "longBio": "ボンの宮廷楽団の家系に生まれ、宮廷オルガン奏者ネーフェ（Christian Gottlob Neefe）に学んだ。1792年にウィーンへ移り、ハイドンに師事したほか、アルブレヒツベルガーとサリエリにも学んだ。ピアニストとして活動を始め、貴族の支援を受けながら作曲した。1802年の「ハイリゲンシュタットの遺書」には難聴の進行が記されている。交響曲9曲、ピアノ協奏曲5曲、ヴァイオリン協奏曲、オペラ「フィデリオ」、ミサ・ソレムニス、ピアノ・ソナタ32曲、弦楽四重奏曲16曲などを書いた。1827年3月26日にウィーンで没した。",
+    "style": [
+      "交響曲",
+      "ピアノ・ソナタ",
+      "弦楽四重奏曲",
+      "協奏曲"
+    ],
+    "keyWorks": [
+      "work-beethoven-symphony5",
+      "work-beethoven-symphony9",
+      "work-beethoven-moonlight"
+    ],
+    "influencedBy": [
+      "haydn",
+      "mozart-wa",
+      "bach-js"
+    ],
+    "influenced": [
+      "schubert",
+      "brahms",
+      "wagner",
+      "mahler"
+    ],
+    "teachers": [
+      "haydn"
+    ],
     "students": [],
-    "quotes": ["運命よ、その喉を締め上げてやる。お前に完全に屈服することは断じてない。"],
     "historicalContext": "classical",
-    "businessQuote": "逆境をイノベーションに変える力。ベートーヴェンは聴覚喪失という危機を、内なる音楽世界の深化へと転換した。",
     "difficulty": 2,
-    "tags": ["classical", "romantic", "symphony", "piano", "chamber"],
+    "tags": [
+      "classical",
+      "romantic",
+      "symphony",
+      "piano",
+      "chamber"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -318,20 +519,31 @@
     "era": "classical",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "「ピアノフォルテの父」と称される作曲家・ピアニスト・ピアノ製造業者。",
-    "longBio": "ローマに生まれ、イギリスに渡って活躍した多才な音楽家。ピアノソナタの発展に大きく貢献し、ベートーヴェンにも影響を与えた。作曲家としてだけでなく、ピアノ製造業者、音楽出版業者としても成功を収めた。教則本「グラドゥス・アド・パルナッスム」は長年にわたりピアノ教育の基本書として使用された。音楽ビジネスの先駆者としても重要な存在である。",
-    "significance": "注目",
-    "style": ["ピアノソナタ", "練習曲", "古典派様式"],
-    "keyWorks": ["work-clementi-gradus", "work-clementi-sonatas"],
-    "influencedBy": ["haydn"],
-    "influenced": ["beethoven", "chopin"],
+    "shortBio": "ローマ生まれの作曲家・ピアニスト。イギリスを拠点に活動し、楽譜出版とピアノ製造の事業も営んだ。",
+    "longBio": "ローマに生まれ、1766年頃にイギリスの貴族ベックフォード（Peter Beckford）に伴われてイングランドへ渡った。ロンドンでピアニスト・作曲家として活動し、1781年にはウィーンの宮廷でモーツァルトと演奏を競った。1798年頃からロンドンで楽譜出版とピアノ製造の会社を経営し、ベートーヴェンの作品のイギリスでの出版権も得た。ピアノ・ソナタを多数書き、練習曲集「グラドゥス・アド・パルナッスム」（1817〜1826年）を出版した。1832年にイングランドのイヴシャム近郊で没した。",
+    "style": [
+      "ピアノ・ソナタ",
+      "練習曲",
+      "交響曲"
+    ],
+    "keyWorks": [
+      "work-clementi-gradus",
+      "work-clementi-sonatas"
+    ],
+    "influencedBy": [],
+    "influenced": [
+      "beethoven",
+      "chopin"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "classical",
-    "businessQuote": "垂直統合の先駆者。クレメンティは作曲・演奏・製造・出版を一人で手がけ、音楽産業のバリューチェーン全体を支配した。",
     "difficulty": 2,
-    "tags": ["classical", "piano", "pedagogy"],
+    "tags": [
+      "classical",
+      "piano",
+      "pedagogy"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -346,20 +558,33 @@
     "era": "classical",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "オペラ改革の旗手。華美な装飾を排し、劇的真実を追求したオペラの革新者。",
-    "longBio": "バイエルンに生まれ、プラハ、ウィーン、パリで活躍した。当時のオペラ・セリアの形式主義と歌手中心主義を批判し、ドラマと音楽の一体化を目指すオペラ改革を推進した。「オルフェオとエウリディーチェ」は改革オペラの最初の成功作として知られる。モーツァルトやワーグナーのオペラ観に深い影響を与えた。シンプルさと真実の表現を追求した芸術家であった。",
-    "significance": "重要",
-    "style": ["改革オペラ", "劇的表現", "シンプリシティ"],
-    "keyWorks": ["work-gluck-orfeo", "work-gluck-alceste"],
-    "influencedBy": ["rameau"],
-    "influenced": ["mozart-wa", "wagner", "berlioz"],
+    "shortBio": "ドイツ生まれのオペラ作曲家。ウィーンとパリで活動し、台本作家カルツァビージとともに「オルフェオとエウリディーチェ」（1762年）などを書いた。",
+    "longBio": "上プファルツのエラスバッハに生まれた。ミラノで学び、ロンドン、イタリア各地、プラハなどで主にイタリア語のオペラを上演した後、ウィーンに定住した。台本作家カルツァビージ（Ranieri de' Calzabigi）と組んだ「オルフェオとエウリディーチェ」（1762年）、「アルチェステ」（1767年）では、歌手の装飾を抑え、レチタティーヴォに管弦楽の伴奏を付け、序曲を劇の内容と結びつけた。「アルチェステ」の出版譜の序文にはその考えが書かれている。1774年からはパリで「オーリードのイフィジェニー」などを上演した。1787年にウィーンで没した。",
+    "style": [
+      "オペラ",
+      "バレエ音楽"
+    ],
+    "keyWorks": [
+      "work-gluck-orfeo",
+      "work-gluck-alceste"
+    ],
+    "influencedBy": [
+      "rameau"
+    ],
+    "influenced": [
+      "mozart-wa",
+      "wagner",
+      "berlioz"
+    ],
     "teachers": [],
-    "students": ["salieri"],
-    "quotes": ["シンプルさこそが美の真の源泉である。"],
+    "students": [],
     "historicalContext": "classical",
-    "businessQuote": "本質への回帰。グルックの改革は、過剰な機能を削ぎ落とし、顧客にとっての本質的価値に集中するリーン思考に通じる。",
     "difficulty": 3,
-    "tags": ["classical", "opera", "reform"],
+    "tags": [
+      "classical",
+      "opera",
+      "reform"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -374,20 +599,37 @@
     "era": "classical",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "J.S.バッハの次男。多感様式の代表者として古典派音楽の成立に決定的な役割を果たした。",
-    "longBio": "大バッハの次男としてワイマールに生まれ、父から直接音楽教育を受けた。フリードリヒ大王の宮廷チェンバリストとして長年仕え、後にハンブルクの音楽監督を務めた。多感様式（エンプフィントザーマー・シュティール）の代表者として、感情表現を重視した作風で古典派への道を開いた。鍵盤楽器演奏の教則本は当時の標準的な教科書となった。ハイドンやモーツァルトに大きな影響を与えた重要な過渡期の作曲家である。",
-    "significance": "重要",
-    "style": ["多感様式", "鍵盤音楽", "交響曲"],
-    "keyWorks": ["work-cpe-bach-sonatas", "work-cpe-bach-concertos"],
-    "influencedBy": ["bach-js"],
-    "influenced": ["haydn", "mozart-wa", "beethoven"],
-    "teachers": ["bach-js"],
+    "shortBio": "J.S.バッハの次男。プロイセン宮廷のチェンバロ奏者を務めた後、1768年からハンブルク市の音楽監督となった。",
+    "longBio": "ヴァイマルに生まれ、父J.S.バッハから音楽を学んだ。ライプツィヒとフランクフルト（オーダー）の大学で法律を学んだ後、1738年からプロイセン王太子（のちのフリードリヒ2世）に仕え、ベルリン宮廷のチェンバロ奏者を約30年務めた。1753年と1762年に教本「正しいクラヴィーア奏法の試み」を出版した。1768年、名付け親テレマンの後任としてハンブルク市の音楽監督となり、主要5教会の音楽を担当した。鍵盤楽器のソナタ、ファンタジア、協奏曲、交響曲、オラトリオを書いた。1788年にハンブルクで没した。",
+    "style": [
+      "鍵盤曲",
+      "交響曲",
+      "協奏曲",
+      "オラトリオ"
+    ],
+    "keyWorks": [
+      "work-cpe-bach-sonatas",
+      "work-cpe-bach-concertos"
+    ],
+    "influencedBy": [
+      "bach-js"
+    ],
+    "influenced": [
+      "haydn",
+      "mozart-wa",
+      "beethoven"
+    ],
+    "teachers": [
+      "bach-js"
+    ],
     "students": [],
-    "quotes": [],
     "historicalContext": "classical",
-    "businessQuote": "感情的知性の重要性。C.P.E.バッハの多感様式は、論理だけでなく感情に訴えるコミュニケーションの力を教えてくれる。",
     "difficulty": 3,
-    "tags": ["classical", "keyboard", "transitional"],
+    "tags": [
+      "classical",
+      "keyboard",
+      "transitional"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -402,20 +644,39 @@
     "era": "classical",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "ウィーン宮廷楽長として古典派音楽界の中心に立った作曲家・教育者。",
-    "longBio": "イタリア・レニャーゴに生まれ、ウィーンに渡って宮廷楽長の地位に就いた。オペラ作曲家として高い評価を受け、ヨーロッパ各地で作品が上演された。モーツァルト毒殺の伝説は後世の創作であり、実際には尊敬し合う関係であった。教育者として卓越し、ベートーヴェン、シューベルト、リストなど多くの偉大な作曲家を指導した。ウィーン音楽界の重鎮として大きな影響力を持った人物である。",
-    "significance": "注目",
-    "style": ["オペラ", "宮廷音楽", "イタリア様式"],
-    "keyWorks": ["work-salieri-tarare", "work-salieri-europa"],
-    "influencedBy": ["gluck"],
-    "influenced": ["beethoven", "schubert", "liszt"],
-    "teachers": ["gluck"],
-    "students": ["beethoven", "schubert", "liszt"],
-    "quotes": [],
+    "shortBio": "イタリア生まれの作曲家。1788年からウィーン宮廷楽長を務め、ベートーヴェン、シューベルト、リストらを教えた。",
+    "longBio": "ヴェネツィア共和国のレニャーゴに生まれた。1766年に作曲家ガスマン（Florian Leopold Gassmann）に伴われてウィーンへ移り、学んだ。1774年に宮廷作曲家、1788年に宮廷楽長となった。ウィーンでイタリア語のオペラを、パリで「ダナオスの娘たち」（1784年）などフランス語のオペラを上演した。ベートーヴェン、シューベルト、リスト、フンメルらに作曲と声楽曲の書き方を教えた。1825年にウィーンで没した。モーツァルトを毒殺したという話には根拠がない。",
+    "style": [
+      "オペラ",
+      "宗教音楽",
+      "声楽曲"
+    ],
+    "keyWorks": [
+      "work-salieri-tarare",
+      "work-salieri-europa"
+    ],
+    "influencedBy": [
+      "gluck"
+    ],
+    "influenced": [
+      "beethoven",
+      "schubert",
+      "liszt"
+    ],
+    "teachers": [],
+    "students": [
+      "beethoven",
+      "schubert",
+      "liszt"
+    ],
     "historicalContext": "classical",
-    "businessQuote": "人材育成こそ最大のレガシー。サリエリの最大の功績は、自らの弟子たちが音楽史を変えたという教育者としての遺産である。",
     "difficulty": 2,
-    "tags": ["classical", "opera", "pedagogy", "viennese"],
+    "tags": [
+      "classical",
+      "opera",
+      "pedagogy",
+      "viennese"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -430,20 +691,29 @@
     "era": "classical",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "優雅なチェロ音楽と室内楽で知られるイタリア古典派の重要な作曲家。",
-    "longBio": "イタリア・ルッカに生まれ、チェリストとして活躍した後、スペイン宮廷に仕えた。弦楽五重奏曲を中心とする膨大な室内楽作品を残し、「ハイドンの妻」と呼ばれるほどの優美な作風で知られた。チェロ協奏曲や弦楽五重奏曲は今日でも広く演奏されている。スペインの音楽文化にも大きな影響を与えた。晩年は不遇であったが、近年再評価が進んでいる。",
-    "significance": "注目",
-    "style": ["室内楽", "チェロ音楽", "優美な旋律"],
-    "keyWorks": ["work-boccherini-minuet", "work-boccherini-cello-concerto"],
-    "influencedBy": ["haydn"],
+    "shortBio": "イタリアの作曲家・チェロ奏者。1770年からスペインで活動し、弦楽五重奏曲と弦楽四重奏曲を多数書いた。",
+    "longBio": "ルッカに生まれ、チェロ奏者だった父に学んだ。ウィーン、パリなどでチェロ奏者として演奏した後、1768年頃にマドリードへ移り、1770年からスペイン王の弟ドン・ルイス親王に仕えた。親王の没後（1785年）は、プロイセン王フリードリヒ・ヴィルヘルム2世の宮廷作曲家の肩書を得ながらマドリードに住んだ。チェロ2本を含む弦楽五重奏曲を100曲以上、弦楽四重奏曲を約90曲書いたほか、チェロ協奏曲、チェロ・ソナタ、交響曲を残した。作品はジェラールによる目録（G.）の番号で示される。1805年にマドリードで没した。",
+    "style": [
+      "弦楽五重奏曲",
+      "弦楽四重奏曲",
+      "チェロ協奏曲",
+      "チェロ・ソナタ"
+    ],
+    "keyWorks": [
+      "work-boccherini-minuet",
+      "work-boccherini-cello-concerto"
+    ],
+    "influencedBy": [],
     "influenced": [],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "classical",
-    "businessQuote": "ニッチ市場の開拓。ボッケリーニはチェロと室内楽という専門分野で独自のポジションを確立し、差別化戦略の模範を示した。",
     "difficulty": 2,
-    "tags": ["classical", "cello", "chamber"],
+    "tags": [
+      "classical",
+      "cello",
+      "chamber"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -458,20 +728,42 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "「歌曲の王」と称される初期ロマン派の天才。600曲以上のリートを作曲した。",
-    "longBio": "ウィーンに生まれ、生涯をほぼウィーンで過ごした。わずか31年の生涯で600曲以上の歌曲、9曲の交響曲、多数の室内楽・ピアノ曲を残した。ゲーテやシラーの詩に比類なき音楽を付け、ドイツ・リートを芸術の高みに引き上げた。生前は歌曲作曲家として知られたが、死後に交響曲や室内楽の真価が認められた。親しい友人たちとの「シューベルティアーデ」と呼ばれる集まりは、ロマン派のサロン文化を象徴している。",
-    "significance": "最重要",
-    "style": ["歌曲", "交響曲", "室内楽", "ピアノ曲"],
-    "keyWorks": ["work-schubert-erlkoenig", "work-schubert-unfinished", "work-schubert-winterreise"],
-    "influencedBy": ["beethoven", "mozart-wa", "salieri"],
-    "influenced": ["brahms", "schumann-r", "wolf"],
-    "teachers": ["salieri"],
+    "shortBio": "ウィーンの作曲家。31歳で没するまでに600曲を超える歌曲のほか、交響曲、室内楽、ピアノ曲を書いた。",
+    "longBio": "ウィーン郊外の学校教師の家に生まれた。宮廷礼拝堂の少年聖歌隊員として寄宿制の神学校で学び、サリエリに作曲を習った。父の学校で助教員を務めた時期を除き、定職に就かずに作曲を続けた。友人たちの集まりで自作が演奏され、こうした集まりは「シューベルティアーデ」と呼ばれた。歌曲は600曲を超え、ゲーテ、シラー、ミュラー、ハイネらの詩に作曲した。歌曲集「美しき水車小屋の娘」「冬の旅」、交響曲ロ短調「未完成」、交響曲ハ長調「グレート」、ピアノ五重奏曲「ます」などがある。1828年11月19日にウィーンで没した。作品はドイチュによる目録（D.）の番号で示される。",
+    "style": [
+      "歌曲",
+      "交響曲",
+      "室内楽",
+      "ピアノ曲"
+    ],
+    "keyWorks": [
+      "work-schubert-erlkoenig",
+      "work-schubert-unfinished",
+      "work-schubert-winterreise"
+    ],
+    "influencedBy": [
+      "beethoven",
+      "mozart-wa",
+      "salieri"
+    ],
+    "influenced": [
+      "brahms",
+      "schumann-r",
+      "wolf"
+    ],
+    "teachers": [
+      "salieri"
+    ],
     "students": [],
-    "quotes": ["私の音楽は私の苦悩から生まれた。人々に最も喜びを与えた作品こそ、最大の苦しみから生まれたものだ。"],
     "historicalContext": "romantic",
-    "businessQuote": "コミュニティの力。シューベルティアーデは、共感で結ばれた仲間のネットワークが創造性を加速させることを示している。",
     "difficulty": 2,
-    "tags": ["romantic", "lieder", "symphony", "piano", "chamber"],
+    "tags": [
+      "romantic",
+      "lieder",
+      "symphony",
+      "piano",
+      "chamber"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -486,20 +778,40 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "「ピアノの詩人」と称されるロマン派の巨匠。ピアノ独奏のための作品でジャンルを革新した。",
-    "longBio": "ポーランドに生まれ、20歳でパリに移住して生涯を過ごした。ほぼ全ての作品をピアノのために書き、練習曲、前奏曲、夜想曲、バラード、ポロネーズなど、ピアノ音楽の可能性を飛躍的に拡大した。ポーランドの民族音楽の要素を芸術音楽に昇華させ、祖国への深い愛情を音楽で表現した。繊細で詩的な表現と革新的な和声語法は、後世の作曲家に計り知れない影響を与えた。結核により39歳で早世した。",
-    "significance": "最重要",
-    "style": ["ピアノ音楽", "夜想曲", "ポロネーズ", "バラード"],
-    "keyWorks": ["work-chopin-ballade1", "work-chopin-nocturnes", "work-chopin-etudes"],
-    "influencedBy": ["bach-js", "mozart-wa", "clementi"],
-    "influenced": ["liszt", "debussy", "ravel", "scriabin"],
+    "shortBio": "ポーランドの作曲家・ピアニスト。1831年からパリに住み、作品のほとんどをピアノのために書いた。",
+    "longBio": "ワルシャワ近郊のジェラゾヴァ・ヴォラに生まれ、ワルシャワ音楽院でエルスネル（Józef Elsner）に学んだ。1830年11月にワルシャワを離れ、ウィーンを経て1831年にパリへ移り、以後パリでピアニスト、ピアノ教師として活動した。1838年から1847年まで作家ジョルジュ・サンド（George Sand）と交際した。練習曲、前奏曲、夜想曲、バラード、スケルツォ、ポロネーズ、マズルカ、ピアノ・ソナタ、2曲のピアノ協奏曲を書いた。1849年10月17日にパリで39歳で没した。",
+    "style": [
+      "ピアノ曲",
+      "練習曲",
+      "夜想曲",
+      "マズルカ",
+      "ポロネーズ"
+    ],
+    "keyWorks": [
+      "work-chopin-ballade1",
+      "work-chopin-nocturnes",
+      "work-chopin-etudes"
+    ],
+    "influencedBy": [
+      "bach-js",
+      "mozart-wa"
+    ],
+    "influenced": [
+      "liszt",
+      "debussy",
+      "ravel",
+      "scriabin"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": ["シンプルさは最終的に達成される最大の美徳である。"],
     "historicalContext": "romantic",
-    "businessQuote": "一つの分野での圧倒的な専門性。ショパンはピアノだけに集中することで、誰にも真似できない独自のブランドを築いた。",
     "difficulty": 2,
-    "tags": ["romantic", "piano", "polish", "nationalism"],
+    "tags": [
+      "romantic",
+      "piano",
+      "polish",
+      "nationalism"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -514,20 +826,42 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "史上最高のヴィルトゥオーゾ・ピアニストにして、交響詩の創始者。ロマン派の象徴的存在。",
-    "longBio": "ハンガリーに生まれ、幼少期から天才ピアニストとして名を馳せた。超絶的な技巧と華麗なステージパフォーマンスで、史上初の「ロックスター的」音楽家となった。交響詩というジャンルを創始し、標題音楽の発展に大きく貢献した。ワイマールでは指揮者として新進作曲家を積極的に紹介し、ワーグナーをはじめ多くの音楽家を支援した。晩年は僧籍に入り、前衛的な和声語法で印象主義への道を先取りした。",
-    "significance": "最重要",
-    "style": ["ヴィルトゥオーゾ", "交響詩", "ピアノ曲", "和声革新"],
-    "keyWorks": ["work-liszt-sonata-b", "work-liszt-hungarian-rhapsodies", "work-liszt-liebestraum"],
-    "influencedBy": ["chopin", "beethoven", "berlioz"],
-    "influenced": ["wagner", "debussy", "ravel", "bartok"],
-    "teachers": ["salieri"],
+    "shortBio": "ハンガリー生まれの作曲家・ピアニスト。1848年からヴァイマル宮廷の楽長を務め、「交響詩」という名称を用いた管弦楽曲を書いた。",
+    "longBio": "ハンガリー王国のライディング（ドボルヤーン）に生まれた。ウィーンでツェルニーとサリエリに学び、1823年にパリへ移った。1830年代から1840年代にかけてヨーロッパ各地でピアニストとして演奏会を開いた。1848年にヴァイマル宮廷楽長として定住し、ワーグナーの「ローエングリン」（1850年）を初演するなど、同時代の作品を上演した。この時期に「交響詩」と名付けた単一楽章の管弦楽曲や、ピアノ・ソナタ ロ短調を書いた。1865年にローマで下級聖品を受けた。晩年はローマ、ヴァイマル、ブダペストを行き来して教えた。1886年にバイロイトで没した。娘コジマはのちにワーグナーと結婚した。",
+    "style": [
+      "ピアノ曲",
+      "交響詩",
+      "宗教音楽",
+      "編曲"
+    ],
+    "keyWorks": [
+      "work-liszt-sonata-b",
+      "work-liszt-hungarian-rhapsodies",
+      "work-liszt-liebestraum"
+    ],
+    "influencedBy": [
+      "chopin",
+      "beethoven",
+      "berlioz"
+    ],
+    "influenced": [
+      "wagner",
+      "debussy",
+      "ravel",
+      "bartok"
+    ],
+    "teachers": [
+      "salieri"
+    ],
     "students": [],
-    "quotes": [],
     "historicalContext": "romantic",
-    "businessQuote": "パーソナルブランディングの先駆者。リストは音楽の才能だけでなく、自らを「ブランド」として確立した最初のアーティストである。",
     "difficulty": 3,
-    "tags": ["romantic", "piano", "orchestral", "virtuoso"],
+    "tags": [
+      "romantic",
+      "piano",
+      "orchestral",
+      "virtuoso"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -542,20 +876,42 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "ロマン派の中で古典的形式美を追求した「新古典派」の巨匠。ドイツ音楽の正統的後継者。",
-    "longBio": "ハンブルクの貧しい音楽家の家庭に生まれ、シューマンに見出されて楽壇にデビューした。ベートーヴェンの正統な後継者として、交響曲、協奏曲、室内楽、歌曲に傑作を残した。ワーグナー派の「新ドイツ楽派」に対して古典的形式と構造美を重視する立場を貫いた。4つの交響曲とドイツ・レクイエムは特に高く評価されている。ウィーンを拠点に活動し、バッハ、ベートーヴェンと並ぶ「ドイツ3大B」の一人とされる。",
-    "significance": "最重要",
-    "style": ["交響曲", "室内楽", "歌曲", "古典的形式"],
-    "keyWorks": ["work-brahms-symphony1", "work-brahms-requiem", "work-brahms-violin-concerto"],
-    "influencedBy": ["bach-js", "beethoven", "schumann-r", "schubert"],
-    "influenced": ["dvorak", "mahler", "schoenberg"],
+    "shortBio": "ハンブルク生まれの作曲家。1862年からウィーンで活動し、4曲の交響曲、「ドイツ・レクイエム」、室内楽、歌曲を書いた。",
+    "longBio": "ハンブルクのコントラバス奏者の家に生まれ、マルクスゼン（Eduard Marxsen）にピアノと作曲を学んだ。1853年にヨアヒム（Joseph Joachim）の紹介でシューマン夫妻を訪ね、ロベルト・シューマンは評論「新しい道」でブラームスを紹介した。1862年からウィーンに住み、ウィーン・ジングアカデミー、楽友協会の演奏会の指揮者を務めた時期もある。1860年にはヨアヒムらとともに、リストら「新ドイツ派」に反対する声明を出した。「ドイツ・レクイエム」（1868年完成）、4曲の交響曲、2曲のピアノ協奏曲、ヴァイオリン協奏曲、室内楽、ピアノ曲、歌曲を書いた。1897年4月3日にウィーンで没した。",
+    "style": [
+      "交響曲",
+      "協奏曲",
+      "室内楽",
+      "歌曲",
+      "合唱曲"
+    ],
+    "keyWorks": [
+      "work-brahms-symphony1",
+      "work-brahms-requiem",
+      "work-brahms-violin-concerto"
+    ],
+    "influencedBy": [
+      "bach-js",
+      "beethoven",
+      "schumann-r",
+      "schubert"
+    ],
+    "influenced": [
+      "dvorak",
+      "mahler",
+      "schoenberg"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": ["作曲は難しくない。余分な音符を捨てるのが難しいのだ。"],
     "historicalContext": "romantic",
-    "businessQuote": "本質への絞り込み。ブラームスの「余分な音符を捨てる」哲学は、真に価値ある機能だけに集中するプロダクト開発に通じる。",
     "difficulty": 3,
-    "tags": ["romantic", "symphony", "chamber", "piano", "vocal"],
+    "tags": [
+      "romantic",
+      "symphony",
+      "chamber",
+      "piano",
+      "vocal"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -570,20 +926,41 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "楽劇（ムジークドラマ）の創始者。「総合芸術作品」の理念で芸術の在り方を根底から変革した。",
-    "longBio": "ライプツィヒに生まれ、オペラ作曲家・台本作家・指揮者・理論家として活躍した。詩・音楽・演劇・美術を統合する「総合芸術作品」の理念を掲げ、「ニーベルングの指環」四部作をはじめとする壮大な楽劇を創作した。ライトモティーフの技法と無限旋律により、音楽の和声的可能性を極限まで拡大した。バイロイト祝祭劇場を建設し、自作上演のための理想的環境を創り出した。その革新性は音楽のみならず哲学や文学にも大きな影響を与えた。",
-    "significance": "最重要",
-    "style": ["楽劇", "ライトモティーフ", "無限旋律", "総合芸術"],
-    "keyWorks": ["work-wagner-ring", "work-wagner-tristan", "work-wagner-parsifal"],
-    "influencedBy": ["beethoven", "gluck", "berlioz"],
-    "influenced": ["bruckner", "mahler", "strauss-r", "schoenberg", "debussy"],
+    "shortBio": "ドイツのオペラ作曲家。台本も自ら書き、4部作「ニーベルングの指環」を作曲した。バイロイト祝祭劇場を建てた。",
+    "longBio": "ライプツィヒに生まれた。各地の歌劇場で指揮者を務め、1843年からドレスデン宮廷歌劇場の楽長となった。1849年のドレスデン5月蜂起に加わったため指名手配され、チューリヒに亡命した。亡命中に「オペラとドラマ」などの論文を書き、「ニーベルングの指環」の作曲を進めた。1864年からバイエルン王ルートヴィヒ2世の支援を受け、「トリスタンとイゾルデ」（1865年）、「ニュルンベルクのマイスタージンガー」（1868年）がミュンヘンで初演された。1876年にバイロイト祝祭劇場が完成し、「ニーベルングの指環」全4部が初めて通して上演された。「パルジファル」（1882年）の初演後、1883年2月13日にヴェネツィアで没した。",
+    "style": [
+      "オペラ",
+      "楽劇",
+      "ライトモティーフ",
+      "著作"
+    ],
+    "keyWorks": [
+      "work-wagner-ring",
+      "work-wagner-tristan",
+      "work-wagner-parsifal"
+    ],
+    "influencedBy": [
+      "beethoven",
+      "gluck",
+      "berlioz"
+    ],
+    "influenced": [
+      "bruckner",
+      "mahler",
+      "strauss-r",
+      "schoenberg",
+      "debussy"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "romantic",
-    "businessQuote": "ヴィジョンの実現力。ワーグナーは専用劇場の建設まで含めた壮大なビジョンを描き、それを実現する執念を持っていた。",
     "difficulty": 3,
-    "tags": ["romantic", "opera", "orchestral", "german"],
+    "tags": [
+      "romantic",
+      "opera",
+      "orchestral",
+      "german"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -598,20 +975,40 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "ロマン派の精神を最も純粋に体現した作曲家・音楽評論家。文学的想像力に溢れた作品で知られる。",
-    "longBio": "ザクセンのツヴィッカウに生まれ、文学と音楽の間で揺れながら作曲家の道を選んだ。ピアノ曲と歌曲に特に優れた作品を残し、「詩人の恋」「子供の情景」などは最高傑作として名高い。音楽評論誌「新音楽時報」を創刊し、ショパンやブラームスの才能をいち早く世に紹介した。ピアニストのクララ・ヴィークとの恋愛と結婚は音楽史上最も有名なロマンスの一つである。晩年は精神疾患に苦しみ、46歳で没した。",
-    "significance": "重要",
-    "style": ["ピアノ曲", "歌曲", "交響曲", "文学的表現"],
-    "keyWorks": ["work-schumann-dichterliebe", "work-schumann-kinderszenen", "work-schumann-piano-concerto"],
-    "influencedBy": ["bach-js", "beethoven", "schubert"],
-    "influenced": ["brahms", "wolf", "mahler"],
+    "shortBio": "ドイツの作曲家・音楽評論家。1834年に「新音楽時報」を創刊し、ピアノ曲、歌曲、交響曲を書いた。",
+    "longBio": "ツヴィッカウの書籍商の家に生まれた。ライプツィヒ大学で法律を学びながら、ピアノをフリードリヒ・ヴィーク（Friedrich Wieck）に習った。1834年に音楽評論誌「新音楽時報」を創刊し、1831年の評論でショパンを、1853年の評論「新しい道」でブラームスを紹介した。1840年にヴィークの娘でピアニストのクララと結婚した。この年に「詩人の恋」など多くの歌曲を書いた。1850年にデュッセルドルフの音楽監督となったが、1854年にライン川に身を投げた後、ボン近郊エンデニヒの療養所に入り、1856年に同地で46歳で没した。",
+    "style": [
+      "ピアノ曲",
+      "歌曲",
+      "交響曲",
+      "室内楽",
+      "評論"
+    ],
+    "keyWorks": [
+      "work-schumann-dichterliebe",
+      "work-schumann-kinderszenen",
+      "work-schumann-piano-concerto"
+    ],
+    "influencedBy": [
+      "bach-js",
+      "beethoven",
+      "schubert"
+    ],
+    "influenced": [
+      "brahms",
+      "wolf",
+      "mahler"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "romantic",
-    "businessQuote": "情報発信とキュレーションの力。シューマンは評論活動を通じて新たな才能を発掘し、音楽界のインフルエンサーとなった。",
     "difficulty": 2,
-    "tags": ["romantic", "piano", "lieder", "critic"],
+    "tags": [
+      "romantic",
+      "piano",
+      "lieder",
+      "critic"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -626,20 +1023,39 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "古典的均衡美とロマン的感性を融合させた早熟の天才。バッハ復興の立役者。",
-    "longBio": "ハンブルクの裕福なユダヤ系知識人の家庭に生まれ、幼少期から驚異的な才能を発揮した。17歳で「真夏の夜の夢」序曲を作曲し、天才的な作品を次々と発表した。20歳の時にバッハの「マタイ受難曲」を約100年ぶりに蘇演し、バッハ復興の契機を作った。ライプツィヒ・ゲヴァントハウス管弦楽団の指揮者として活躍し、ライプツィヒ音楽院を設立した。38歳で早世したが、古典的形式美とロマン的感性を見事に融合させた作品群を残した。",
-    "significance": "重要",
-    "style": ["交響曲", "序曲", "室内楽", "オラトリオ"],
-    "keyWorks": ["work-mendelssohn-midsummer", "work-mendelssohn-violin-concerto", "work-mendelssohn-italian"],
-    "influencedBy": ["bach-js", "mozart-wa", "beethoven"],
-    "influenced": ["brahms", "dvorak"],
+    "shortBio": "ハンブルク生まれの作曲家・指揮者・ピアニスト。1829年にバッハの「マタイ受難曲」を上演し、1835年からライプツィヒ・ゲヴァントハウス管弦楽団の指揮者を務めた。",
+    "longBio": "ハンブルクの銀行家の家に生まれ、哲学者モーゼス・メンデルスゾーンの孫にあたる。一家はベルリンへ移り、ツェルター（Carl Friedrich Zelter）に作曲を学んだ。1826年、17歳で「真夏の夜の夢」序曲を書いた。1829年3月11日、ベルリン・ジングアカデミーでバッハの「マタイ受難曲」を指揮した。1835年にゲヴァントハウス管弦楽団の指揮者となり、1843年にライプツィヒ音楽院を開設した。交響曲第3番「スコットランド」、第4番「イタリア」、ヴァイオリン協奏曲ホ短調、オラトリオ「エリア」、「無言歌集」を書いた。1847年11月4日にライプツィヒで38歳で没した。",
+    "style": [
+      "交響曲",
+      "序曲",
+      "協奏曲",
+      "オラトリオ",
+      "ピアノ曲"
+    ],
+    "keyWorks": [
+      "work-mendelssohn-midsummer",
+      "work-mendelssohn-violin-concerto",
+      "work-mendelssohn-italian"
+    ],
+    "influencedBy": [
+      "bach-js",
+      "mozart-wa",
+      "beethoven"
+    ],
+    "influenced": [
+      "brahms",
+      "dvorak"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": ["音楽は言葉よりも曖昧ではなく、言葉よりも明確なのだ。"],
     "historicalContext": "romantic",
-    "businessQuote": "歴史の再発見と組織づくり。メンデルスゾーンはバッハを復興させ、音楽院を設立し、過去の資産を活かしたイノベーションと人材育成を実践した。",
     "difficulty": 2,
-    "tags": ["romantic", "symphony", "chamber", "orchestral"],
+    "tags": [
+      "romantic",
+      "symphony",
+      "chamber",
+      "orchestral"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -654,20 +1070,40 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "フランス・ロマン派の旗手。革命的な管弦楽法と標題音楽で音楽の表現領域を飛躍的に拡大した。",
-    "longBio": "フランス南東部に医者の息子として生まれ、父の反対を押し切って音楽の道に進んだ。「幻想交響曲」で管弦楽法に革命を起こし、オーケストラの色彩的可能性を飛躍的に拡大した。固定観念（イデー・フィクス）の手法はワーグナーのライトモティーフに先行するものである。音楽評論家としても活躍し、「管弦楽法」は今日でも重要な参考書である。生前はフランスよりもドイツやロシアで高く評価された。",
-    "significance": "重要",
-    "style": ["管弦楽法", "標題音楽", "劇的表現"],
-    "keyWorks": ["work-berlioz-symphonie-fantastique", "work-berlioz-requiem", "work-berlioz-damnation"],
-    "influencedBy": ["beethoven", "gluck"],
-    "influenced": ["liszt", "wagner", "strauss-r", "mahler"],
+    "shortBio": "フランスの作曲家・評論家。1830年に「幻想交響曲」を初演し、1844年に「近代楽器法と管弦楽法大概論」を出版した。",
+    "longBio": "ラ・コート＝サン＝タンドレに医師の子として生まれた。医学を学ぶためにパリへ出たが音楽に転じ、パリ音楽院でルシュール（Jean-François Le Sueur）に学んだ。1830年にローマ賞を得て、同年「幻想交響曲」をパリで初演した。この曲では、ある旋律（固定楽想）が全楽章に形を変えて現れる。「イタリアのハロルド」「ロメオとジュリエット」「ファウストの劫罰」、オペラ「トロイアの人々」、「レクイエム」を書いた。新聞に音楽評論を書き続け、1844年に管弦楽法の教本を出版した。ドイツやロシアでも自作を指揮した。1869年にパリで没した。",
+    "style": [
+      "標題交響曲",
+      "管弦楽曲",
+      "オペラ",
+      "宗教声楽曲",
+      "評論"
+    ],
+    "keyWorks": [
+      "work-berlioz-symphonie-fantastique",
+      "work-berlioz-requiem",
+      "work-berlioz-damnation"
+    ],
+    "influencedBy": [
+      "beethoven",
+      "gluck"
+    ],
+    "influenced": [
+      "liszt",
+      "wagner",
+      "strauss-r",
+      "mahler"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": ["時間は偉大な教師だが、不幸にもすべての生徒を殺してしまう。"],
     "historicalContext": "romantic",
-    "businessQuote": "破壊的イノベーション。ベルリオーズは既存のルールを根本から覆し、全く新しいオーケストラの表現世界を創り出した。",
     "difficulty": 3,
-    "tags": ["romantic", "orchestral", "french", "programmatic"],
+    "tags": [
+      "romantic",
+      "orchestral",
+      "french",
+      "programmatic"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -682,20 +1118,38 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "ロシアが生んだ最も人気のある作曲家。バレエ音楽と交響曲の傑作で世界中の聴衆を魅了し続ける。",
-    "longBio": "ロシア・ヴォトキンスクに生まれ、法律を学んだ後に音楽の道に転じた。西欧的な音楽技法とロシア的な感性を融合させ、独自の感情豊かな作風を確立した。「白鳥の湖」「くるみ割り人形」「眠れる森の美女」の三大バレエは世界で最も上演されるバレエ作品である。6つの交響曲、特に第6番「悲愴」は深い感動を与える名作として知られる。メック夫人との書簡による交流は音楽史上最もユニークなパトロン関係である。",
-    "significance": "最重要",
-    "style": ["バレエ音楽", "交響曲", "メロディの美", "ロシア的叙情"],
-    "keyWorks": ["work-tchaikovsky-nutcracker", "work-tchaikovsky-symphony6", "work-tchaikovsky-piano-concerto1"],
-    "influencedBy": ["mozart-wa", "schumann-r"],
-    "influenced": ["rachmaninoff", "prokofiev"],
+    "shortBio": "ロシアの作曲家。法律学校を出て官吏となった後、サンクトペテルブルク音楽院で学んだ。交響曲6曲、バレエ3作、オペラを書いた。",
+    "longBio": "ヴォトキンスクに生まれた。サンクトペテルブルクの法律学校を卒業して法務省に勤めた後、1862年にサンクトペテルブルク音楽院に入り、アントン・ルビンシテインに学んだ。1866年から1878年までモスクワ音楽院で和声を教えた。1877年から1890年まで、富豪の未亡人ナジェジダ・フォン・メック（Nadezhda von Meck）から年金を受け、二人は会わないまま手紙を交わした。交響曲6曲、ピアノ協奏曲第1番、ヴァイオリン協奏曲、バレエ「白鳥の湖」「眠れる森の美女」「くるみ割り人形」、オペラ「エフゲニー・オネーギン」「スペードの女王」を書いた。1891年にはアメリカを訪れ、カーネギー・ホールの開場記念の演奏会で指揮した。1893年11月6日（新暦）にサンクトペテルブルクで没した。",
+    "style": [
+      "交響曲",
+      "バレエ音楽",
+      "オペラ",
+      "協奏曲"
+    ],
+    "keyWorks": [
+      "work-tchaikovsky-nutcracker",
+      "work-tchaikovsky-symphony6",
+      "work-tchaikovsky-piano-concerto1"
+    ],
+    "influencedBy": [
+      "mozart-wa",
+      "schumann-r"
+    ],
+    "influenced": [
+      "rachmaninoff",
+      "prokofiev"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": ["インスピレーションを待っていてはならない。自ら迎えに行かなければならない。"],
     "historicalContext": "romantic",
-    "businessQuote": "感情に訴えるマーケティング。チャイコフスキーの音楽は理屈ではなく感情で人々を動かし、グローバルなファンベースを構築した。",
     "difficulty": 1,
-    "tags": ["romantic", "ballet", "symphony", "russian", "orchestral"],
+    "tags": [
+      "romantic",
+      "ballet",
+      "symphony",
+      "russian",
+      "orchestral"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -710,20 +1164,40 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "チェコ国民楽派の巨匠。民族的要素と古典的形式を融合させ、「新世界より」で世界的名声を得た。",
-    "longBio": "ボヘミアの肉屋の息子として生まれ、ブラームスに才能を認められて国際的に知られるようになった。チェコの民族音楽の要素を交響曲や室内楽に取り入れ、国民楽派の代表的存在となった。ニューヨーク・ナショナル音楽院の院長としてアメリカに滞在し、交響曲第9番「新世界より」を作曲した。チェロ協奏曲はこのジャンルの最高傑作の一つとされる。素朴で温かみのある旋律の才能は比類なきものであった。",
-    "significance": "重要",
-    "style": ["国民楽派", "交響曲", "室内楽", "民族音楽"],
-    "keyWorks": ["work-dvorak-symphony9", "work-dvorak-cello-concerto", "work-dvorak-slavonic-dances"],
-    "influencedBy": ["brahms", "wagner", "smetana"],
-    "influenced": ["janacek", "sukuk"],
+    "shortBio": "ボヘミア（現チェコ）の作曲家。1892年から1895年までニューヨークのナショナル音楽院の院長を務め、交響曲第9番「新世界より」を書いた。",
+    "longBio": "プラハ近郊のネラホゼヴェスに、肉屋と宿屋を営む家の子として生まれた。プラハのオルガン学校で学び、仮劇場の管弦楽団でヴィオラを弾いた。1875年からオーストリア政府の奨学金を受け、審査員だったブラームスの推薦で1877年からベルリンのジムロック社が作品を出版した。「スラヴ舞曲集」（1878年）がドイツ語圏で出版されて知られるようになった。1892年にニューヨークのナショナル音楽院の院長となり、交響曲第9番「新世界より」、弦楽四重奏曲第12番「アメリカ」、チェロ協奏曲を書いた。1895年に帰国し、プラハ音楽院で教え、1901年に院長となった。オペラ「ルサルカ」（1901年）を書いた。1904年にプラハで没した。",
+    "style": [
+      "交響曲",
+      "室内楽",
+      "スラヴ舞曲",
+      "オペラ",
+      "協奏曲"
+    ],
+    "keyWorks": [
+      "work-dvorak-symphony9",
+      "work-dvorak-cello-concerto",
+      "work-dvorak-slavonic-dances"
+    ],
+    "influencedBy": [
+      "brahms",
+      "wagner",
+      "smetana"
+    ],
+    "influenced": [
+      "janacek",
+      "suk"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "romantic",
-    "businessQuote": "ローカルとグローバルの融合。ドヴォルザークは民族的アイデンティティを保ちながら世界市場で成功し、グローカル戦略の模範を示した。",
     "difficulty": 2,
-    "tags": ["romantic", "symphony", "chamber", "czech", "nationalism"],
+    "tags": [
+      "romantic",
+      "symphony",
+      "chamber",
+      "czech",
+      "nationalism"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -738,20 +1212,36 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "イタリア・オペラの最高峰。人間ドラマの真実を追求し、イタリア統一運動の象徴となった。",
-    "longBio": "北イタリアの小村ロンコレに生まれ、イタリア・オペラの伝統を最高の水準に引き上げた。初期の愛国的オペラはイタリア統一運動（リソルジメント）の象徴となり、国民的英雄として敬われた。中期の「リゴレット」「椿姫」「アイーダ」から晩年の「オテロ」「ファルスタッフ」に至るまで、常に進化を続けた。人間の感情と真実を何よりも大切にし、劇的効果と美しい旋律を両立させた。87歳まで生き、最晩年にも傑作を生み出した稀有な作曲家である。",
-    "significance": "最重要",
-    "style": ["オペラ", "声楽", "劇的表現", "メロディ"],
-    "keyWorks": ["work-verdi-aida", "work-verdi-traviata", "work-verdi-otello"],
-    "influencedBy": ["rossini", "donizetti", "bellini"],
-    "influenced": ["puccini", "mascagni"],
+    "shortBio": "イタリアのオペラ作曲家。1839年の「オベルト」から1893年の「ファルスタッフ」までオペラを書き続け、「リゴレット」「椿姫」「アイーダ」「オテロ」「ファルスタッフ」などを書いた。",
+    "longBio": "パルマ近郊ブッセート村のロンコレに、宿屋を営む家の子として生まれた。ブッセートで学んだ後ミラノへ出たが、ミラノ音楽院への入学は認められず、ラヴィーニャ（Vincenzo Lavigna）に個人で学んだ。1839年にミラノ・スカラ座で最初のオペラ「オベルト」を上演し、1842年の「ナブッコ」で成功した。「リゴレット」（1851年）、「イル・トロヴァトーレ」「椿姫」（ともに1853年）、「ドン・カルロ」（1867年）、「アイーダ」（1871年）、「レクイエム」（1874年）を書き、晩年には台本作家ボーイト（Arrigo Boito）と組んで「オテロ」（1887年）と「ファルスタッフ」（1893年）を書いた。1861年にはイタリア王国の最初の議会の議員となった。1901年1月27日にミラノで87歳で没した。",
+    "style": [
+      "オペラ",
+      "レクイエム"
+    ],
+    "keyWorks": [
+      "work-verdi-aida",
+      "work-verdi-traviata",
+      "work-verdi-otello"
+    ],
+    "influencedBy": [
+      "rossini",
+      "donizetti",
+      "bellini"
+    ],
+    "influenced": [
+      "puccini",
+      "mascagni"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": ["芸術の目的は真実の模倣ではなく、真実の創造である。"],
     "historicalContext": "romantic",
-    "businessQuote": "継続的な自己革新。ヴェルディは80歳を超えても最高傑作を書き続け、長期にわたるイノベーションの重要性を体現した。",
     "difficulty": 2,
-    "tags": ["romantic", "opera", "italian", "vocal"],
+    "tags": [
+      "romantic",
+      "opera",
+      "italian",
+      "vocal"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -766,20 +1256,32 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "ヴェリズモ・オペラの巨匠。「ラ・ボエーム」「蝶々夫人」「トスカ」で世界中の聴衆の心を掴んだ。",
-    "longBio": "ルッカの音楽家の家系に生まれ、ヴェルディの後継者としてイタリア・オペラの伝統を受け継いだ。ヴェリズモ（写実主義）の手法を取り入れながらも、独自の叙情的な旋律美で人々を魅了した。「ラ・ボエーム」「トスカ」「蝶々夫人」「トゥーランドット」は世界で最も上演されるオペラの中に常に入っている。オーケストレーションにも優れ、ドビュッシーやシュトラウスの手法も取り入れた。遺作「トゥーランドット」は未完のまま没した。",
-    "significance": "重要",
-    "style": ["ヴェリズモ・オペラ", "叙情的旋律", "劇的効果"],
-    "keyWorks": ["work-puccini-boheme", "work-puccini-butterfly", "work-puccini-tosca"],
-    "influencedBy": ["verdi", "wagner", "debussy"],
+    "shortBio": "ルッカ生まれのオペラ作曲家。「ラ・ボエーム」「トスカ」「蝶々夫人」を書き、遺作「トゥーランドット」は未完に終わった。",
+    "longBio": "ルッカの教会音楽家の家系に生まれた。ミラノ音楽院でポンキエッリ（Amilcare Ponchielli）らに学んだ。出版社リコルディの支援を受け、「マノン・レスコー」（1893年）で成功した。台本作家イッリカとジャコーザと組んで「ラ・ボエーム」（1896年）、「トスカ」（1900年）、「蝶々夫人」（1904年）を書いた。ニューヨークのメトロポリタン歌劇場のために「西部の娘」（1910年）を書いた。1924年11月29日にブリュッセルで、喉の癌の治療中に没した。「トゥーランドット」は第3幕の途中までで残され、アルファーノ（Franco Alfano）が補筆して1926年に初演された。",
+    "style": [
+      "オペラ"
+    ],
+    "keyWorks": [
+      "work-puccini-boheme",
+      "work-puccini-butterfly",
+      "work-puccini-tosca"
+    ],
+    "influencedBy": [
+      "verdi",
+      "wagner",
+      "debussy"
+    ],
     "influenced": [],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "romantic",
-    "businessQuote": "ユーザー共感の力。プッチーニは観客の感情を完璧に理解し、心を揺さぶるストーリーテリングで最大のエンゲージメントを実現した。",
     "difficulty": 1,
-    "tags": ["romantic", "opera", "italian", "vocal"],
+    "tags": [
+      "romantic",
+      "opera",
+      "italian",
+      "vocal"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -794,20 +1296,38 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "ノルウェー国民楽派の創始者。北欧の自然と民俗音楽を芸術音楽に昇華させた。",
-    "longBio": "ノルウェーのベルゲンに生まれ、ライプツィヒで学んだ後、祖国の音楽的アイデンティティの確立に生涯を捧げた。ピアノ協奏曲イ短調は最も愛されるロマン派協奏曲の一つである。「ペール・ギュント」の劇付随音楽も広く親しまれている。ノルウェー民俗音楽の旋法やリズムを取り入れた独自の和声語法を発展させた。小品に優れた才能を発揮し、66曲の「叙情小曲集」はピアノ文学の宝石である。",
-    "significance": "重要",
-    "style": ["国民楽派", "小品", "民俗音楽", "北欧様式"],
-    "keyWorks": ["work-grieg-piano-concerto", "work-grieg-peer-gynt", "work-grieg-lyric-pieces"],
-    "influencedBy": ["schumann-r", "chopin"],
-    "influenced": ["sibelius", "debussy"],
+    "shortBio": "ノルウェーの作曲家・ピアニスト。ライプツィヒ音楽院で学び、ピアノ協奏曲イ短調、劇音楽「ペール・ギュント」、10集の「抒情小曲集」を書いた。",
+    "longBio": "ベルゲンに生まれ、1858年から1862年までライプツィヒ音楽院で学んだ。コペンハーゲンで活動した後、クリスチャニア（現オスロ）で指揮者・ピアニストとして活動した。1868年にピアノ協奏曲イ短調を書いた。イプセンの依頼で劇「ペール・ギュント」の音楽を書き、1876年に初演された。ノルウェーの民謡や民俗舞曲をピアノ曲や歌曲に編曲した。ピアノ小品集「抒情小曲集」を10集（計66曲）出版した。1885年からベルゲン郊外の自宅トロルハウゲンに住み、1907年にベルゲンで没した。",
+    "style": [
+      "ピアノ曲",
+      "歌曲",
+      "劇音楽",
+      "民謡編曲"
+    ],
+    "keyWorks": [
+      "work-grieg-piano-concerto",
+      "work-grieg-peer-gynt",
+      "work-grieg-lyric-pieces"
+    ],
+    "influencedBy": [
+      "schumann-r",
+      "chopin"
+    ],
+    "influenced": [
+      "sibelius",
+      "debussy"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "romantic",
-    "businessQuote": "小さくても深い価値。グリーグの小品は、大規模である必要はなく、深さと独自性こそが市場での差別化要因であることを示す。",
     "difficulty": 1,
-    "tags": ["romantic", "piano", "orchestral", "norwegian", "nationalism"],
+    "tags": [
+      "romantic",
+      "piano",
+      "orchestral",
+      "norwegian",
+      "nationalism"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -822,20 +1342,41 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "フランス音楽界の重鎮。卓越した技巧と明晰な構成力で幅広いジャンルの傑作を残した。",
-    "longBio": "パリに生まれ、モーツァルトに匹敵する神童として知られた。ピアニスト、オルガニスト、指揮者、作曲家として多方面で活躍した万能の音楽家である。「サムソンとデリラ」「動物の謝肉祭」「オルガン交響曲」など多彩な傑作を残した。フランス国民音楽協会の創設者として、フランス音楽の振興に尽力した。86歳まで生き、音楽界で半世紀以上にわたり影響力を保ち続けた。",
-    "significance": "注目",
-    "style": ["明晰な構成", "ヴィルトゥオーゾ", "フランス様式"],
-    "keyWorks": ["work-saint-saens-organ-symphony", "work-saint-saens-carnival", "work-saint-saens-samson"],
-    "influencedBy": ["mozart-wa", "liszt"],
-    "influenced": ["faure", "ravel"],
+    "shortBio": "フランスの作曲家・ピアニスト・オルガン奏者。1871年に国民音楽協会の設立に加わり、オペラ「サムソンとデリラ」、交響曲第3番「オルガン付き」を書いた。",
+    "longBio": "パリに生まれ、幼少期からピアノを学んで1846年に10歳で演奏会を開いた。パリ音楽院でオルガンと作曲を学んだ。1858年から1877年までパリのマドレーヌ教会のオルガン奏者を務めた。1861年から1865年までニデルメイエール音楽学校で教え、フォーレはそのときの生徒である。1871年、ロマン・ビュシーヌ（Romain Bussine）とともに国民音楽協会を設立した。オペラ「サムソンとデリラ」（1877年初演）、5曲のピアノ協奏曲、3曲のヴァイオリン協奏曲、交響詩「死の舞踏」、交響曲第3番、組曲「動物の謝肉祭」を書いた。1921年にアルジェで86歳で没した。",
+    "style": [
+      "交響曲",
+      "協奏曲",
+      "オペラ",
+      "交響詩",
+      "オルガン曲"
+    ],
+    "keyWorks": [
+      "work-saint-saens-organ-symphony",
+      "work-saint-saens-carnival",
+      "work-saint-saens-samson"
+    ],
+    "influencedBy": [
+      "mozart-wa",
+      "liszt"
+    ],
+    "influenced": [
+      "faure",
+      "ravel"
+    ],
     "teachers": [],
-    "students": ["faure"],
-    "quotes": [],
+    "students": [
+      "faure"
+    ],
     "historicalContext": "romantic",
-    "businessQuote": "マルチスキルの価値。サン＝サーンスは作曲・演奏・教育・評論のすべてに秀で、多角的な専門性がキャリアの強靭さを生むことを示した。",
     "difficulty": 2,
-    "tags": ["romantic", "orchestral", "piano", "organ", "french"],
+    "tags": [
+      "romantic",
+      "orchestral",
+      "piano",
+      "organ",
+      "french"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -850,20 +1391,39 @@
     "era": "romantic",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "壮大なスケールの交響曲で知られるオーストリアの作曲家。ワーグナーの和声を交響曲に応用した。",
-    "longBio": "オーストリアの小村アンスフェルデンに生まれ、田舎の教師からオルガニストを経て、遅咲きの作曲家となった。ワーグナーの和声語法を交響曲に取り入れ、壮大な規模と深い精神性を持つ9つの交響曲を残した。ウィーン音楽院の教授として和声学と対位法を教え、マーラーらを指導した。敬虔なカトリック信者であり、その信仰心は作品に深く反映されている。生前はブラームス派の批評家から激しく攻撃されたが、今日では高く評価されている。",
-    "significance": "重要",
-    "style": ["交響曲", "壮大なスケール", "ワーグナー的和声"],
-    "keyWorks": ["work-bruckner-symphony7", "work-bruckner-symphony8", "work-bruckner-te-deum"],
-    "influencedBy": ["wagner", "beethoven", "bach-js"],
-    "influenced": ["mahler", "sibelius"],
+    "shortBio": "オーストリアの作曲家・オルガン奏者。ザンクト・フローリアン修道院、リンツ大聖堂のオルガン奏者を経てウィーン音楽院で教えた。番号付きの交響曲は第9番（未完）まで。",
+    "longBio": "リンツ近郊のアンスフェルデンに学校教師の子として生まれた。ザンクト・フローリアン修道院の少年聖歌隊員となり、補助教員を経て1848年から同修道院のオルガン奏者を務めた。1855年にリンツ大聖堂のオルガン奏者となり、この頃ウィーンのゼヒター（Simon Sechter）に通信で和声と対位法を学んだ。1868年にウィーン音楽院の和声・対位法・オルガンの教授となり、1875年からはウィーン大学でも和声を講じた。マーラーは学生時代にその講義を聴いている。交響曲は番号付きで第1番から第9番（第4楽章未完）まであり、多くを改訂したため複数の稿がある。ミサ曲3曲、テ・デウムも書いた。1896年にウィーンで没し、ザンクト・フローリアンに葬られた。",
+    "style": [
+      "交響曲",
+      "ミサ曲",
+      "宗教合唱曲",
+      "オルガン曲"
+    ],
+    "keyWorks": [
+      "work-bruckner-symphony7",
+      "work-bruckner-symphony8",
+      "work-bruckner-te-deum"
+    ],
+    "influencedBy": [
+      "wagner",
+      "beethoven",
+      "bach-js"
+    ],
+    "influenced": [
+      "mahler",
+      "sibelius"
+    ],
     "teachers": [],
-    "students": ["mahler"],
-    "quotes": [],
+    "students": [],
     "historicalContext": "romantic",
-    "businessQuote": "長期的ビジョンへの忍耐。ブルックナーは批判に屈せず壮大な作品を書き続け、長期的な価値創造の忍耐力の重要性を体現した。",
     "difficulty": 3,
-    "tags": ["romantic", "symphony", "organ", "religious", "austrian"],
+    "tags": [
+      "romantic",
+      "symphony",
+      "organ",
+      "religious",
+      "austrian"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -878,20 +1438,44 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "印象主義音楽の創始者。従来の和声体系を超越し、音色と響きの新たな世界を開拓した。",
-    "longBio": "パリ近郊に生まれ、パリ音楽院で学んだ。ワーグナーの影響を受けつつもそれを乗り越え、全音音階や教会旋法を活用した独自の和声語法を確立した。「牧神の午後への前奏曲」は近代音楽の幕開けとされる。1889年のパリ万博でジャワのガムランに触れたことも大きな影響を受けた。「海」「前奏曲集」「ペレアスとメリザンド」など、音の色彩と雰囲気を重視した革新的作品を残した。フランス音楽の独自性を確立した最重要人物である。",
-    "significance": "最重要",
-    "style": ["印象主義", "全音音階", "音色重視", "象徴主義"],
-    "keyWorks": ["work-debussy-prelude-afternoon", "work-debussy-la-mer", "work-debussy-preludes"],
-    "influencedBy": ["chopin", "wagner", "liszt", "rameau", "couperin-f"],
-    "influenced": ["ravel", "stravinsky", "bartok", "messiaen", "takemitsu"],
+    "shortBio": "フランスの作曲家。パリ音楽院で学び、1884年にローマ大賞を得た。「牧神の午後への前奏曲」「ペレアスとメリザンド」「海」、ピアノのための前奏曲集を書いた。",
+    "longBio": "パリ近郊のサン＝ジェルマン＝アン＝レーに生まれ、1872年からパリ音楽院で学んだ。1884年にローマ大賞を得てローマに滞在した。1889年のパリ万国博覧会でジャワのガムランを聴いている。「牧神の午後への前奏曲」（1894年初演）、弦楽四重奏曲（1893年）、オペラ「ペレアスとメリザンド」（1902年初演）、管弦楽曲「海」（1905年初演）を書き、ピアノ曲では「版画」「映像」、前奏曲集2巻（1910年、1913年）、練習曲集（1915年）を書いた。全音音階や教会旋法を用いた和声で知られる。1918年3月25日、第一次世界大戦下のパリで没した。",
+    "style": [
+      "管弦楽曲",
+      "ピアノ曲",
+      "歌曲",
+      "オペラ"
+    ],
+    "keyWorks": [
+      "work-debussy-prelude-afternoon",
+      "work-debussy-la-mer",
+      "work-debussy-preludes"
+    ],
+    "influencedBy": [
+      "chopin",
+      "wagner",
+      "liszt",
+      "rameau",
+      "couperin-f"
+    ],
+    "influenced": [
+      "ravel",
+      "stravinsky",
+      "bartok",
+      "messiaen",
+      "takemitsu"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "modern",
-    "businessQuote": "既存の枠組みを超える思考。ドビュッシーは伝統的な調性の「常識」を疑い、全く新しい美の基準を創造した。",
     "difficulty": 2,
-    "tags": ["modern", "impressionism", "piano", "orchestral", "french"],
+    "tags": [
+      "modern",
+      "impressionism",
+      "piano",
+      "orchestral",
+      "french"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -906,20 +1490,41 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "精緻な管弦楽法と完璧な工芸美で知られるフランス近代音楽の巨匠。「スイスの時計職人」と称された。",
-    "longBio": "フランス・バスク地方のシブールに生まれ、パリ音楽院で学んだ。ドビュッシーと並び称されるが、より古典的な構成力と精密な職人技を持ち味とした。「ボレロ」は世界で最も有名なクラシック作品の一つである。「ダフニスとクロエ」の管弦楽法は史上最高峰と評される。ジャズやスペイン音楽の要素も巧みに取り入れた。晩年は脳の疾患に苦しみ、作曲ができなくなるという悲劇に見舞われた。",
-    "significance": "最重要",
-    "style": ["精緻な管弦楽法", "工芸的完成度", "印象主義", "新古典主義"],
-    "keyWorks": ["work-ravel-bolero", "work-ravel-daphnis", "work-ravel-gaspard"],
-    "influencedBy": ["debussy", "couperin-f", "liszt", "saint-saens", "chopin"],
-    "influenced": ["messiaen", "takemitsu"],
+    "shortBio": "フランスの作曲家。パリ音楽院でフォーレに学び、「ダフニスとクロエ」「ボレロ」、2曲のピアノ協奏曲、ムソルグスキー「展覧会の絵」の管弦楽編曲を書いた。",
+    "longBio": "スペイン国境に近いバスク地方のシブールに生まれ、生後まもなくパリへ移った。パリ音楽院でフォーレに作曲を学んだ。ローマ大賞には5回応募して得られず、1905年の選考をめぐる騒動は音楽院院長の辞任につながった。バレエ・リュスのための「ダフニスとクロエ」（1912年初演）、ピアノ曲「夜のガスパール」「クープランの墓」、管弦楽曲「ラ・ヴァルス」「ボレロ」（1928年）、オペラ「子どもと魔法」、ピアノ協奏曲ト長調と「左手のための協奏曲」を書いた。1922年にムソルグスキーの「展覧会の絵」を管弦楽に編曲した。1930年代に神経の病で作曲ができなくなり、1937年12月28日、脳の手術の後にパリで没した。",
+    "style": [
+      "管弦楽曲",
+      "ピアノ曲",
+      "バレエ音楽",
+      "編曲"
+    ],
+    "keyWorks": [
+      "work-ravel-bolero",
+      "work-ravel-daphnis",
+      "work-ravel-gaspard"
+    ],
+    "influencedBy": [
+      "debussy",
+      "couperin-f",
+      "liszt",
+      "saint-saens",
+      "chopin"
+    ],
+    "influenced": [
+      "messiaen",
+      "takemitsu"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": ["私の傑作はボレロだが、残念ながら音楽が含まれていない。"],
     "historicalContext": "modern",
-    "businessQuote": "極限の品質管理。ラヴェルの一音の無駄もない精密さは、完璧な品質を追求するクラフトマンシップの究極の姿を示す。",
     "difficulty": 3,
-    "tags": ["modern", "impressionism", "orchestral", "piano", "french"],
+    "tags": [
+      "modern",
+      "impressionism",
+      "orchestral",
+      "piano",
+      "french"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -934,20 +1539,40 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "後期ロマン派から近代への橋渡しとなった交響曲作曲家。壮大なスケールで人間存在の根本を問うた。",
-    "longBio": "ボヘミアのユダヤ系家庭に生まれ、ウィーン宮廷歌劇場の総監督として名指揮者の名声を確立した。作曲は主に夏季休暇中に行い、10曲の交響曲と歌曲集を残した。交響曲は巨大な編成と長大な演奏時間を特徴とし、愛、死、自然、宗教など人間存在の根本的テーマを扱った。生前は指揮者として評価されたが、死後その交響曲は20世紀後半に再評価され、現在では最も人気のある作曲家の一人となった。「私の時代が来る」という予言は見事に的中した。",
-    "significance": "最重要",
-    "style": ["交響曲", "歌曲", "壮大なスケール", "存在論的テーマ"],
-    "keyWorks": ["work-mahler-symphony2", "work-mahler-symphony5", "work-mahler-das-lied"],
-    "influencedBy": ["beethoven", "wagner", "bruckner", "schubert"],
-    "influenced": ["schoenberg", "shostakovich", "berg"],
-    "teachers": ["bruckner"],
+    "shortBio": "ボヘミア生まれの作曲家・指揮者。1897年から1907年までウィーン宮廷歌劇場の監督を務め、交響曲と管弦楽伴奏の歌曲を書いた。",
+    "longBio": "ボヘミアのカリシュテのユダヤ系の家に生まれ、イフラヴァで育った。ウィーン音楽院で学び、ウィーン大学ではブルックナーの和声の講義を聴いた。各地の歌劇場で指揮者を務め、ブダペスト王立歌劇場、ハンブルク市立劇場を経て、1897年にウィーン宮廷歌劇場の監督となった。作曲は主に夏の休暇に行った。1902年にアルマ・シンドラー（Alma Schindler）と結婚した。1907年に宮廷歌劇場を辞し、ニューヨークのメトロポリタン歌劇場とニューヨーク・フィルハーモニックで指揮した。交響曲第1〜9番、「大地の歌」を完成し、第10番は未完に終わった。歌曲集「さすらう若人の歌」「子供の不思議な角笛」「亡き子をしのぶ歌」も書いた。1911年5月18日にウィーンで没した。",
+    "style": [
+      "交響曲",
+      "管弦楽伴奏の歌曲",
+      "指揮"
+    ],
+    "keyWorks": [
+      "work-mahler-symphony2",
+      "work-mahler-symphony5",
+      "work-mahler-das-lied"
+    ],
+    "influencedBy": [
+      "beethoven",
+      "wagner",
+      "bruckner",
+      "schubert"
+    ],
+    "influenced": [
+      "schoenberg",
+      "shostakovich",
+      "berg"
+    ],
+    "teachers": [],
     "students": [],
-    "quotes": ["私の時代が来る。"],
     "historicalContext": "modern",
-    "businessQuote": "ヴィジョナリーの孤独と正しさ。マーラーの「私の時代が来る」は、市場がまだ理解できない革新的ビジョンを信じ続ける勇気の大切さを教える。",
     "difficulty": 3,
-    "tags": ["modern", "symphony", "lieder", "austrian", "orchestral"],
+    "tags": [
+      "modern",
+      "symphony",
+      "lieder",
+      "austrian",
+      "orchestral"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -962,20 +1587,38 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "交響詩とオペラの巨匠。華麗な管弦楽法でロマン派の伝統を20世紀に受け継いだ。",
-    "longBio": "ミュンヘンのホルン奏者の家庭に生まれ、若くして交響詩で名声を確立した。「ツァラトゥストラはかく語りき」「ドン・ファン」「英雄の生涯」などの交響詩は管弦楽レパートリーの定番である。後にオペラに転じ、「サロメ」「エレクトラ」「ばらの騎士」など傑作を次々と発表した。ホフマンスタールとの協力関係は音楽史上最も実り豊かな作詞家・作曲家のパートナーシップの一つである。85歳まで生き、「四つの最後の歌」で創作を締めくくった。",
-    "significance": "最重要",
-    "style": ["交響詩", "オペラ", "華麗な管弦楽法"],
-    "keyWorks": ["work-strauss-zarathustra", "work-strauss-rosenkavalier", "work-strauss-four-last-songs"],
-    "influencedBy": ["wagner", "berlioz", "liszt"],
-    "influenced": ["korngold"],
+    "shortBio": "ミュンヘン生まれの作曲家・指揮者。1880年代末から交響詩を、1900年代からはオペラを書いた。ホフマンスタールの台本で「ばらの騎士」などを書いた。",
+    "longBio": "ミュンヘン宮廷歌劇場のホルン奏者フランツ・シュトラウス（Franz Strauss）の子として生まれた。マイニンゲン、ミュンヘン、ヴァイマル、ベルリンの宮廷楽団・歌劇場で指揮者を務め、1919年から1924年までウィーン国立歌劇場の監督の一人だった。交響詩「ドン・ファン」「ティル・オイレンシュピーゲルの愉快ないたずら」「ツァラトゥストラはかく語りき」「ドン・キホーテ」「英雄の生涯」を書いた。オペラ「サロメ」（1905年）、「エレクトラ」（1909年）、「ばらの騎士」（1911年）はいずれもドレスデンで初演され、「エレクトラ」以降は詩人ホフマンスタール（Hugo von Hofmannsthal）が台本を書いた。1933年から1935年までナチス政権下の帝国音楽院総裁を務めた。1948年に「四つの最後の歌」を書き、1949年にガルミッシュ＝パルテンキルヒェンで85歳で没した。",
+    "style": [
+      "交響詩",
+      "オペラ",
+      "歌曲",
+      "指揮"
+    ],
+    "keyWorks": [
+      "work-strauss-zarathustra",
+      "work-strauss-rosenkavalier",
+      "work-strauss-four-last-songs"
+    ],
+    "influencedBy": [
+      "wagner",
+      "berlioz",
+      "liszt"
+    ],
+    "influenced": [
+      "korngold"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": ["私は一流の二流作曲家かもしれないが、それでも構わない。"],
     "historicalContext": "modern",
-    "businessQuote": "戦略的パートナーシップ。シュトラウスとホフマンスタールの関係は、異なる専門性を持つパートナーとの協業が生む価値の大きさを示す。",
     "difficulty": 3,
-    "tags": ["modern", "orchestral", "opera", "tone-poem", "german"],
+    "tags": [
+      "modern",
+      "orchestral",
+      "opera",
+      "tone-poem",
+      "german"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -990,20 +1633,45 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "十二音技法の創始者。調性を放棄し、20世紀音楽に革命的な影響を与えた。",
-    "longBio": "ウィーンに生まれ、ほぼ独学で作曲を学んだ。初期はワーグナーやブラームスの影響下にあったが、次第に調性を解体し、無調音楽へと進んだ。1920年代に十二音技法を確立し、音楽史に革命を起こした。ナチスの台頭によりアメリカに亡命し、UCLAで教鞭を執った。ベルクとウェーベルンとともに「新ウィーン楽派」を形成し、20世紀音楽の方向性を決定づけた。理論家・画家としても活動した多才な芸術家であった。",
-    "significance": "最重要",
-    "style": ["十二音技法", "無調", "表現主義"],
-    "keyWorks": ["work-schoenberg-verklarte", "work-schoenberg-pierrot", "work-schoenberg-survivor"],
-    "influencedBy": ["brahms", "wagner", "mahler"],
-    "influenced": ["berg", "webern", "stravinsky", "boulez"],
+    "shortBio": "ウィーン生まれの作曲家。1908年頃から調性によらない作品を書き、1920年代に十二音技法を用いた。1933年にアメリカへ移った。",
+    "longBio": "ウィーンに生まれ、作曲は主に独学で、ツェムリンスキー（Alexander Zemlinsky）の助言を受けた。弦楽六重奏曲「浄夜」（1899年）を書いた後、1908年頃から調性によらない作品を書き、「月に憑かれたピエロ」（1912年）を書いた。1920年代初めに十二音技法を用い始め、ピアノ組曲 作品25などを書いた。ウィーンでベルクとウェーベルンを教えた。1926年からベルリンのプロイセン芸術アカデミーで教えたが、1933年にナチス政権によって職を解かれ、アメリカへ移った。1936年から1944年までカリフォルニア大学ロサンゼルス校（UCLA）の教授を務めた。絵も描いた。1951年にロサンゼルスで没した。",
+    "style": [
+      "十二音技法",
+      "無調",
+      "室内楽",
+      "歌曲",
+      "オペラ"
+    ],
+    "keyWorks": [
+      "work-schoenberg-verklarte",
+      "work-schoenberg-pierrot",
+      "work-schoenberg-survivor"
+    ],
+    "influencedBy": [
+      "brahms",
+      "wagner",
+      "mahler"
+    ],
+    "influenced": [
+      "berg",
+      "webern",
+      "stravinsky",
+      "boulez"
+    ],
     "teachers": [],
-    "students": ["berg", "webern"],
-    "quotes": ["私の音楽は難しいのではない。演奏が悪いのだ。"],
+    "students": [
+      "berg",
+      "webern"
+    ],
     "historicalContext": "modern",
-    "businessQuote": "パラダイムシフトの勇気。シェーンベルクは数百年の調性の伝統を根本から覆し、全く新しい音楽のルールを創造した。",
     "difficulty": 4,
-    "tags": ["modern", "twelve-tone", "atonal", "expressionism", "viennese"],
+    "tags": [
+      "modern",
+      "twelve-tone",
+      "atonal",
+      "expressionism",
+      "viennese"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1018,20 +1686,40 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "20世紀音楽最大の革新者の一人。「春の祭典」で音楽史を塗り替え、生涯にわたり変貌を続けた。",
-    "longBio": "ロシアに生まれ、リムスキー＝コルサコフに師事した。バレエ・リュスのために書いた「火の鳥」「ペトルーシュカ」「春の祭典」の三部作で音楽史を塗り替えた。特に「春の祭典」の初演（1913年）は音楽史上最も有名なスキャンダルとなった。その後、新古典主義、さらには十二音技法へと作風を大胆に変化させ続けた。フランス、アメリカと活動の場を移しながら、常に時代の先端に立ち続けた20世紀最大の作曲家の一人である。",
-    "significance": "最重要",
-    "style": ["原始主義", "新古典主義", "十二音技法", "リズム革新"],
-    "keyWorks": ["work-stravinsky-rite", "work-stravinsky-firebird", "work-stravinsky-petrushka"],
-    "influencedBy": ["debussy", "rimsky-korsakov"],
-    "influenced": ["messiaen", "bartok", "prokofiev", "boulez"],
+    "shortBio": "ロシア生まれの作曲家。バレエ・リュスのために「火の鳥」「ペトルーシュカ」「春の祭典」を書き、のちにフランス、アメリカに住んだ。",
+    "longBio": "サンクトペテルブルク近郊のオラニエンバウムに、マリインスキー劇場のバス歌手の子として生まれた。サンクトペテルブルク大学で法律を学びながら、リムスキー＝コルサコフに個人で作曲を習った。ディアギレフ（Sergei Diaghilev）のバレエ・リュスのために「火の鳥」（1910年）、「ペトルーシュカ」（1911年）、「春の祭典」（1913年）を書き、いずれもパリで初演された。1920年からフランスに住み、「プルチネルラ」「詩篇交響曲」などを書いた。1939年にアメリカへ移り、1945年にアメリカ国籍を得た。1950年代からは十二音技法を用いた。1971年4月6日にニューヨークで没し、ヴェネツィアに葬られた。",
+    "style": [
+      "バレエ音楽",
+      "管弦楽曲",
+      "オペラ",
+      "宗教合唱曲"
+    ],
+    "keyWorks": [
+      "work-stravinsky-rite",
+      "work-stravinsky-firebird",
+      "work-stravinsky-petrushka"
+    ],
+    "influencedBy": [
+      "debussy",
+      "rimsky-korsakov"
+    ],
+    "influenced": [
+      "messiaen",
+      "bartok",
+      "prokofiev",
+      "boulez"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "modern",
-    "businessQuote": "継続的なピボット。ストラヴィンスキーは原始主義→新古典主義→十二音技法と大胆に方向転換し、常に市場の先を行く適応力を示した。",
     "difficulty": 3,
-    "tags": ["modern", "ballet", "orchestral", "neoclassical", "russian"],
+    "tags": [
+      "modern",
+      "ballet",
+      "orchestral",
+      "neoclassical",
+      "russian"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1046,20 +1734,39 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "ハンガリー民俗音楽の体系的研究者にして20世紀最大の作曲家の一人。民俗音楽と現代技法を高度に融合した。",
-    "longBio": "ハンガリーに生まれ、コダーイとともに東欧の民俗音楽を体系的に収集・研究した先駆者である。民俗音楽の旋法やリズムを20世紀の作曲技法と高度に融合させ、独自の音楽語法を確立した。弦楽四重奏曲6曲は20世紀室内楽の最高峰とされる。「管弦楽のための協奏曲」は最も人気のある20世紀管弦楽作品の一つである。ナチスの台頭によりアメリカに亡命したが、経済的困難の中で没した。",
-    "significance": "最重要",
-    "style": ["民俗音楽融合", "リズムの革新", "弦楽四重奏曲"],
-    "keyWorks": ["work-bartok-concerto-orchestra", "work-bartok-quartets", "work-bartok-mikrokosmos"],
-    "influencedBy": ["debussy", "stravinsky", "liszt"],
-    "influenced": ["ligeti", "kurtag"],
+    "shortBio": "ハンガリーの作曲家・ピアニスト。1905年頃から民謡を録音・採譜して研究し、6曲の弦楽四重奏曲、「管弦楽のための協奏曲」を書いた。",
+    "longBio": "ハンガリー王国のナジセントミクローシュ（現ルーマニアのスンニコラウ・マレ）に生まれた。ブダペスト音楽院でピアノと作曲を学び、1907年から同院のピアノ教授を務めた。1905年頃からコダーイ（Zoltán Kodály）とともにハンガリー、スロヴァキア、ルーマニアなどの民謡を蓄音機で録音・採譜した。オペラ「青ひげ公の城」、バレエ「中国の不思議な役人」、6曲の弦楽四重奏曲、「弦楽器、打楽器とチェレスタのための音楽」、3曲のピアノ協奏曲、ピアノ教本「ミクロコスモス」を書いた。1940年にアメリカへ移り、コロンビア大学で民謡の研究に従事した。1943年に「管弦楽のための協奏曲」を書き、1945年9月26日にニューヨークで白血病のため没した。",
+    "style": [
+      "弦楽四重奏曲",
+      "管弦楽曲",
+      "ピアノ曲",
+      "民謡研究"
+    ],
+    "keyWorks": [
+      "work-bartok-concerto-orchestra",
+      "work-bartok-quartets",
+      "work-bartok-mikrokosmos"
+    ],
+    "influencedBy": [
+      "debussy",
+      "stravinsky",
+      "liszt"
+    ],
+    "influenced": [
+      "ligeti",
+      "kurtag"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "modern",
-    "businessQuote": "フィールドリサーチの価値。バルトークの民俗音楽収集は、現場に足を運び一次情報を得ることの重要性を教えてくれる。",
     "difficulty": 3,
-    "tags": ["modern", "hungarian", "folk", "chamber", "piano"],
+    "tags": [
+      "modern",
+      "hungarian",
+      "folk",
+      "chamber",
+      "piano"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1074,20 +1781,38 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "20世紀ロシア最大の作曲家の一人。鋭利なリズムと叙情的な旋律美を併せ持つ独自の作風を確立した。",
-    "longBio": "ウクライナのソンツォフカに生まれ、ペテルブルク音楽院で学んだ。革命後に海外に渡り、パリやアメリカで活躍した後、1936年にソ連に帰国した。バレエ「ロメオとジュリエット」、交響的物語「ピーターと狼」、オペラ「戦争と平和」など多彩なジャンルで傑作を残した。鋭利で攻撃的なリズムと透明な叙情性を併せ持つ独自の作風は、多くの後続作曲家に影響を与えた。スターリン体制下で創作の自由を制限され、スターリンと同日に没した。",
-    "significance": "重要",
-    "style": ["モダニズム", "新古典主義", "鋭利なリズム", "叙情的旋律"],
-    "keyWorks": ["work-prokofiev-romeo", "work-prokofiev-peter-wolf", "work-prokofiev-piano-concerto3"],
-    "influencedBy": ["tchaikovsky", "stravinsky"],
-    "influenced": ["shostakovich"],
+    "shortBio": "ロシアの作曲家・ピアニスト。1918年に国外へ出てアメリカとパリで活動し、1936年にソ連へ戻った。",
+    "longBio": "ロシア帝国のソンツォフカ（現ウクライナ）に生まれた。サンクトペテルブルク音楽院でリャードフ、リムスキー＝コルサコフらに学んだ。1918年にロシアを離れ、アメリカ、次いでパリを拠点にピアニスト・作曲家として活動した。この間にオペラ「三つのオレンジへの恋」（1921年シカゴ初演）、ピアノ協奏曲第3番を書いた。1936年にモスクワへ戻り、バレエ「ロメオとジュリエット」、「ピーターと狼」（1936年）、オペラ「戦争と平和」、交響曲第5番を書いた。1948年、ジダーノフ批判で「形式主義」として非難された。1953年3月5日、スターリンと同じ日にモスクワで没した。",
+    "style": [
+      "ピアノ協奏曲",
+      "交響曲",
+      "バレエ音楽",
+      "オペラ",
+      "ピアノ・ソナタ"
+    ],
+    "keyWorks": [
+      "work-prokofiev-romeo",
+      "work-prokofiev-peter-wolf",
+      "work-prokofiev-piano-concerto3"
+    ],
+    "influencedBy": [
+      "tchaikovsky",
+      "stravinsky"
+    ],
+    "influenced": [
+      "shostakovich"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "modern",
-    "businessQuote": "相反する要素の統合力。プロコフィエフは攻撃性と叙情性という矛盾を一つの作品に共存させ、多面的な価値提案の力を示した。",
     "difficulty": 2,
-    "tags": ["modern", "ballet", "orchestral", "piano", "russian"],
+    "tags": [
+      "modern",
+      "ballet",
+      "orchestral",
+      "piano",
+      "russian"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1102,20 +1827,39 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "ソヴィエト時代最大の作曲家。体制との葛藤の中で15の交響曲と15の弦楽四重奏曲を残した。",
-    "longBio": "サンクトペテルブルクに生まれ、レニングラード音楽院で学んだ。1936年にプラウダ紙でオペラ「ムツェンスク郡のマクベス夫人」が激しく非難され、以後スターリン体制との緊張関係の中で創作を続けた。15の交響曲は20世紀交響曲文学の最高峰であり、特に第5番「革命」と第7番「レニングラード」は広く知られる。弦楽四重奏曲15曲にはより私的で深い感情が込められている。表面的な体制順応の裏に隠された反抗と苦悩は、今なお議論の対象となっている。",
-    "significance": "最重要",
-    "style": ["交響曲", "弦楽四重奏曲", "風刺", "二重の意味"],
-    "keyWorks": ["work-shostakovich-symphony5", "work-shostakovich-symphony7", "work-shostakovich-quartet8"],
-    "influencedBy": ["mahler", "beethoven", "stravinsky"],
-    "influenced": ["schnittke"],
+    "shortBio": "ソ連の作曲家。15曲の交響曲と15曲の弦楽四重奏曲を書いた。1936年と1948年に共産党機関紙や党の決議で批判を受けた。",
+    "longBio": "サンクトペテルブルクに生まれ、ペトログラード音楽院で学んだ。卒業作品の交響曲第1番（1926年初演）で知られるようになった。1936年1月、オペラ「ムツェンスク郡のマクベス夫人」がプラウダ紙の社説「音楽の代わりに混乱」で批判された。1937年に交響曲第5番を初演した。第二次世界大戦中の1941年、包囲されたレニングラードで交響曲第7番の作曲を始めた。1948年にはジダーノフ批判の対象となり、音楽院の職を失った。弦楽四重奏曲15曲、ピアノ協奏曲2曲、ヴァイオリン協奏曲2曲、チェロ協奏曲2曲、映画音楽も書いた。1975年8月9日にモスクワで没した。",
+    "style": [
+      "交響曲",
+      "弦楽四重奏曲",
+      "協奏曲",
+      "オペラ",
+      "映画音楽"
+    ],
+    "keyWorks": [
+      "work-shostakovich-symphony5",
+      "work-shostakovich-symphony7",
+      "work-shostakovich-quartet8"
+    ],
+    "influencedBy": [
+      "mahler",
+      "beethoven",
+      "stravinsky"
+    ],
+    "influenced": [
+      "schnittke"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "modern",
-    "businessQuote": "制約下での創造性。ショスタコーヴィチは厳しい制約の中でこそ最高の作品を生み出し、制限がイノベーションを促進することを証明した。",
     "difficulty": 3,
-    "tags": ["modern", "symphony", "chamber", "russian", "soviet"],
+    "tags": [
+      "modern",
+      "symphony",
+      "chamber",
+      "russian",
+      "soviet"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1130,20 +1874,36 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "フィンランドの国民的作曲家。北欧の自然と民族叙事詩から独自の交響曲語法を生み出した。",
-    "longBio": "フィンランドのハメーンリンナに生まれ、フィンランドの国民的アイデンティティを音楽で表現した最重要の作曲家である。7つの交響曲は後期ロマン派の伝統を引き継ぎながらも、独自の有機的発展の手法を開拓した。交響詩「フィンランディア」はフィンランド独立運動の象徴となった。1926年以降は約30年間、事実上の沈黙を守り、「ヤルヴェンパーの沈黙」として知られる。北欧の厳しい自然を思わせる簡潔で力強い音楽語法が特徴である。",
-    "significance": "重要",
-    "style": ["交響曲", "交響詩", "有機的発展", "北欧的簡潔さ"],
-    "keyWorks": ["work-sibelius-finlandia", "work-sibelius-symphony2", "work-sibelius-violin-concerto"],
-    "influencedBy": ["tchaikovsky", "bruckner", "grieg"],
+    "shortBio": "フィンランドの作曲家。7曲の交響曲、交響詩「フィンランディア」、ヴァイオリン協奏曲を書いた。1926年の「タピオラ」の後、大きな作品を発表しなかった。",
+    "longBio": "フィンランド大公国のハメーンリンナに生まれた。ヘルシンキ音楽院で学び、ベルリンとウィーンに留学した。1892年に民族叙事詩「カレワラ」による「クレルヴォ」を初演した。1897年からフィンランド政府の年金を受けた。交響詩「フィンランディア」（1899年作曲、1900年改訂）、ヴァイオリン協奏曲（1904年初演、1905年改訂）、交響曲第1〜7番（第7番は1924年初演）、交響詩「タピオラ」（1926年）を書いた。1904年からヘルシンキ近郊ヤルヴェンパーの自宅アイノラに住んだ。交響曲第8番に取り組んだが、楽譜は破棄された。1957年9月20日にアイノラで没した。",
+    "style": [
+      "交響曲",
+      "交響詩",
+      "劇音楽",
+      "歌曲"
+    ],
+    "keyWorks": [
+      "work-sibelius-finlandia",
+      "work-sibelius-symphony2",
+      "work-sibelius-violin-concerto"
+    ],
+    "influencedBy": [
+      "tchaikovsky",
+      "bruckner",
+      "grieg"
+    ],
     "influenced": [],
     "teachers": [],
     "students": [],
-    "quotes": ["批評家の像は建てられたことがない。"],
     "historicalContext": "modern",
-    "businessQuote": "引き際の美学。シベリウスは名声の絶頂で筆を置き、「もう語るべきことがない」と判断する潔さを示した。",
     "difficulty": 3,
-    "tags": ["modern", "symphony", "orchestral", "finnish", "nationalism"],
+    "tags": [
+      "modern",
+      "symphony",
+      "orchestral",
+      "finnish",
+      "nationalism"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1158,20 +1918,43 @@
     "era": "contemporary",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "20世紀フランスの最重要作曲家。鳥の歌、カトリック神学、色彩和声を融合した独自の音楽世界を創造した。",
-    "longBio": "アヴィニョンに生まれ、パリ音楽院で学び、後に同院の教授として多くの重要な作曲家を育てた。鳥の歌の研究、カトリック信仰、インド・ギリシャのリズム、色聴（音を色として感じる共感覚）を独自に融合させた。「世の終わりのための四重奏曲」は捕虜収容所で作曲された20世紀の傑作である。ブーレーズ、シュトックハウゼンなど、20世紀後半の最重要作曲家の多くが彼の門下生である。「トゥーランガリラ交響曲」は壮大な愛の賛歌として知られる。",
-    "significance": "最重要",
-    "style": ["色彩和声", "鳥の歌", "カトリック神学", "非対称リズム"],
-    "keyWorks": ["work-messiaen-quartet-end", "work-messiaen-turangalila", "work-messiaen-catalogue-oiseaux"],
-    "influencedBy": ["debussy", "stravinsky"],
-    "influenced": ["boulez", "stockhausen", "takemitsu", "ligeti"],
+    "shortBio": "フランスの作曲家・オルガン奏者。パリのサントトリニテ教会のオルガン奏者を60年以上務め、パリ音楽院で教えた。鳥の歌を採譜して作品に用いた。",
+    "longBio": "アヴィニョンに生まれ、パリ音楽院でデュカス（Paul Dukas）らに学んだ。1931年にパリのサントトリニテ教会のオルガン奏者となり、没するまで務めた。第二次世界大戦で捕虜となり、ゲルリッツの捕虜収容所で「世の終わりのための四重奏曲」を書き、1941年1月に収容所内で初演した。1941年からパリ音楽院で和声、のちに分析と作曲を教え、ブーレーズ、シュトックハウゼン、クセナキスらが学んだ。カトリックの信仰を題材とし、インドやギリシャの韻律、鳥の歌の採譜を作品に用いた。音から色を感じると述べている。「トゥーランガリーラ交響曲」、「鳥のカタログ」、オペラ「アッシジの聖フランチェスコ」を書いた。1992年4月27日にパリ近郊クリシーで没した。",
+    "style": [
+      "オルガン曲",
+      "管弦楽曲",
+      "ピアノ曲",
+      "鳥の歌",
+      "リズム法"
+    ],
+    "keyWorks": [
+      "work-messiaen-quartet-end",
+      "work-messiaen-turangalila",
+      "work-messiaen-catalogue-oiseaux"
+    ],
+    "influencedBy": [
+      "debussy",
+      "stravinsky"
+    ],
+    "influenced": [
+      "boulez",
+      "stockhausen",
+      "takemitsu"
+    ],
     "teachers": [],
-    "students": ["boulez", "stockhausen"],
-    "quotes": [],
+    "students": [
+      "boulez",
+      "stockhausen"
+    ],
     "historicalContext": "contemporary",
-    "businessQuote": "異分野統合の天才。メシアンは鳥類学・神学・数学を音楽に統合し、異なる知識領域の融合が生む革新の力を体現した。",
     "difficulty": 4,
-    "tags": ["contemporary", "french", "religious", "orchestral", "piano"],
+    "tags": [
+      "contemporary",
+      "french",
+      "religious",
+      "orchestral",
+      "piano"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1186,20 +1969,33 @@
     "era": "contemporary",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "微分音とテクスチュアの革新で知られる20世紀後半最重要の作曲家の一人。キューブリック映画でも有名。",
-    "longBio": "トランシルヴァニアのハンガリー系ユダヤ人家庭に生まれ、ホロコーストを生き延びた。1956年のハンガリー動乱後に西側に亡命し、音群作法やミクロポリフォニーなど革新的な技法を開発した。「アトモスフェール」はキューブリック映画「2001年宇宙の旅」で使用され、広く知られるようになった。ピアノのための練習曲集はアフリカ音楽やフラクタル理論の影響を受けた傑作である。ユーモアと知性を兼ね備えた独自の音楽世界を築いた。",
-    "significance": "重要",
-    "style": ["ミクロポリフォニー", "音群作法", "テクスチュア", "ポリリズム"],
-    "keyWorks": ["work-ligeti-atmospheres", "work-ligeti-etudes", "work-ligeti-requiem"],
-    "influencedBy": ["bartok", "messiaen"],
-    "influenced": ["hosokawa"],
+    "shortBio": "ハンガリー系の作曲家。1956年にハンガリーから西側へ移り、多数の声部を細かく重ねる書法（ミクロポリフォニー）による管弦楽曲を書いた。",
+    "longBio": "ルーマニアのトランシルヴァニア地方、ディチェーセントマールトン（現タルナヴェニ）のハンガリー系ユダヤ人の家に生まれた。第二次世界大戦中は強制労働に動員され、父と弟は強制収容所で死亡した。戦後ブダペスト音楽院で学び、同院で教えた。1956年のハンガリー動乱の後にウィーンへ移り、ケルンの電子音楽スタジオで働いた。「アパリシオン」「アトモスフェール」（1961年）、「レクイエム」「ルクス・エテルナ」、オペラ「グラン・マカーブル」、ピアノのための練習曲集（1985年から）を書いた。「アトモスフェール」などは映画「2001年宇宙の旅」（1968年）で使われた。1973年から1989年までハンブルク音楽大学で教えた。2006年6月12日にウィーンで没した。",
+    "style": [
+      "管弦楽曲",
+      "ミクロポリフォニー",
+      "ピアノ練習曲",
+      "合唱曲"
+    ],
+    "keyWorks": [
+      "work-ligeti-atmospheres",
+      "work-ligeti-etudes",
+      "work-ligeti-requiem"
+    ],
+    "influencedBy": [
+      "bartok"
+    ],
+    "influenced": [],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "contemporary",
-    "businessQuote": "既存カテゴリーを超える発想。リゲティは音楽の境界線を曖昧にし、新しいカテゴリーそのものを創出する力を示した。",
     "difficulty": 4,
-    "tags": ["contemporary", "orchestral", "piano", "experimental"],
+    "tags": [
+      "contemporary",
+      "orchestral",
+      "piano",
+      "experimental"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1214,20 +2010,32 @@
     "era": "contemporary",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "音響的実験と宗教的精神性を融合させたポーランドの巨匠。「広島の犠牲者に捧げる哀歌」で世界的名声を得た。",
-    "longBio": "ポーランドのデンビツァに生まれ、クラクフ音楽院で学んだ。「広島の犠牲者に捧げる哀歌」（1960年）でトーンクラスターや特殊奏法を駆使し、前衛音楽の旗手として国際的名声を確立した。1970年代以降は新ロマン主義的な作風に転じ、大規模な宗教作品を多数作曲した。「ルカ受難曲」は前衛技法と宗教的深みを融合させた傑作である。ホラー映画「シャイニング」「エクソシスト」の音楽としても知られる。",
-    "significance": "重要",
-    "style": ["トーンクラスター", "音響的実験", "新ロマン主義", "宗教音楽"],
-    "keyWorks": ["work-penderecki-threnody", "work-penderecki-st-luke", "work-penderecki-requiem"],
-    "influencedBy": ["stravinsky", "bartok"],
+    "shortBio": "ポーランドの作曲家・指揮者。1960年に「広島の犠牲者に捧げる哀歌」を書き、のちに「ルカ受難曲」などの宗教作品と交響曲を書いた。",
+    "longBio": "ポーランドのデンビツァに生まれ、クラクフ音楽院（現クラクフ音楽アカデミー）で学び、同院で教えた。1959年にポーランド作曲家連盟の新人作曲家コンクールで3作が上位を占めた。弦楽合奏のための「広島の犠牲者に捧げる哀歌」（1960年）は、音を密集させた響き（トーン・クラスター）と特殊な奏法を楽譜に記した作品である。「ルカ受難曲」（1966年）、オペラ「ルダンの悪魔」を書き、1970年代半ばからは調性的な書法を用いて交響曲、協奏曲、「ポーランド・レクイエム」を書いた。作品の一部は映画「エクソシスト」「シャイニング」で使われた。2020年3月29日にクラクフで没した。",
+    "style": [
+      "弦楽合奏曲",
+      "宗教合唱曲",
+      "交響曲",
+      "オペラ"
+    ],
+    "keyWorks": [
+      "work-penderecki-threnody",
+      "work-penderecki-st-luke",
+      "work-penderecki-requiem"
+    ],
+    "influencedBy": [],
     "influenced": [],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "contemporary",
-    "businessQuote": "破壊から建設へ。ペンデレツキは前衛の実験期を経て伝統に回帰し、革新と安定のバランスの重要性を示した。",
     "difficulty": 4,
-    "tags": ["contemporary", "orchestral", "vocal", "polish", "experimental"],
+    "tags": [
+      "contemporary",
+      "orchestral",
+      "vocal",
+      "polish",
+      "experimental"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1242,20 +2050,34 @@
     "era": "contemporary",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "ティンティナブリ様式の創始者。極限の静謐さと精神性で世界中の聴衆を魅了する存命の巨匠。",
-    "longBio": "エストニアのパイデに生まれ、タリン音楽院で学んだ。初期はセリエル技法を用い、後にコラージュ技法へと移行したが、1976年に独自の「ティンティナブリ様式」を確立した。三和音と旋律線の関係に基づくこの手法は、極限の簡素さと深い精神性を特徴とする。「フラトレス」「タブラ・ラサ」「鏡の中の鏡」は世界で最も演奏される現代音楽作品に数えられる。東方正教会の信仰に深く根ざした音楽は、宗教や文化を超えて共感を呼んでいる。",
-    "significance": "重要",
-    "style": ["ティンティナブリ様式", "ミニマリズム", "精神性", "簡素さ"],
-    "keyWorks": ["work-part-fratres", "work-part-tabula-rasa", "work-part-spiegel"],
-    "influencedBy": ["bach-js"],
+    "shortBio": "エストニアの作曲家。1976年から、三和音の音と旋律線を組み合わせる自作の書法を「ティンティナブリ」と名付けて用いている。",
+    "longBio": "エストニアのパイデに生まれ、タリン音楽院でヘイノ・エッレル（Heino Eller）に学んだ。エストニア放送の録音技師として働きながら作曲した。1960年代には十二音技法や、既存の音楽を引用するコラージュの手法を用いた。「クレド」（1968年）の後、数年間ほとんど作品を発表せず、中世やルネサンスの音楽を学んだ。1976年のピアノ曲「アリーナのために」から、ティンティナブリ様式を用いている。「フラトレス」「タブラ・ラサ」「鏡の中の鏡」（いずれも1977〜78年）、「ヨハネ受難曲」を書いた。1980年に家族とともにソ連を出国し、ウィーンを経てベルリンに住んだ。正教会の信徒で、典礼文による声楽曲も多い。",
+    "style": [
+      "宗教合唱曲",
+      "弦楽合奏曲",
+      "室内楽",
+      "ティンティナブリ様式"
+    ],
+    "keyWorks": [
+      "work-part-fratres",
+      "work-part-tabula-rasa",
+      "work-part-spiegel"
+    ],
+    "influencedBy": [
+      "bach-js"
+    ],
     "influenced": [],
     "teachers": [],
     "students": [],
-    "quotes": ["一つの音だけで十分だ。それが美しく奏でられるなら。"],
     "historicalContext": "contemporary",
-    "businessQuote": "引き算の美学。ペルトの極限のミニマリズムは、余計なものを削ぎ落とすことで本質的な価値が輝くことを教えてくれる。",
     "difficulty": 1,
-    "tags": ["contemporary", "minimalism", "spiritual", "estonian", "vocal"],
+    "tags": [
+      "contemporary",
+      "minimalism",
+      "spiritual",
+      "estonian",
+      "vocal"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1270,20 +2092,38 @@
     "era": "contemporary",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "日本が世界に誇る作曲家。東洋と西洋の美学を融合し、「音の河」のような独自の音響世界を創造した。",
-    "longBio": "東京に生まれ、ほぼ独学で作曲を学んだ。1959年に来日したストラヴィンスキーが「弦楽のためのレクイエム」を高く評価したことが、国際的な評価のきっかけとなった。1967年の「ノヴェンバー・ステップス」で世界的な名声を確立した。ドビュッシーやメシアンの影響を受けつつ、日本の庭園の美学や「間」の概念を音楽に取り入れた独自の世界を築いた。映画音楽でも多くの傑作を残し、黒澤明や小林正樹の映画に音楽を提供した。西洋と東洋の音楽的伝統を結びつけた作曲家として、世界的に高く評価されている。",
-    "significance": "最重要",
-    "style": ["東西融合", "音響的色彩", "自然描写", "映画音楽"],
-    "keyWorks": ["work-takemitsu-november-steps", "work-takemitsu-requiem", "work-takemitsu-rain-tree"],
-    "influencedBy": ["debussy", "messiaen", "cage"],
-    "influenced": ["hosokawa"],
+    "shortBio": "東京生まれの作曲家。作曲はほぼ独学で、1967年の「ノヴェンバー・ステップス」は琵琶と尺八を管弦楽と組み合わせた。映画音楽も多い。",
+    "longBio": "東京に生まれ、作曲は清瀬保二に短期間習ったほかは独学だった。1951年に詩人・美術家らと「実験工房」を結成した。「弦楽のためのレクイエム」（1957年）は、1959年に来日したストラヴィンスキーが聴いて評価した。ニューヨーク・フィルハーモニックの委嘱で「ノヴェンバー・ステップス」（1967年）を書き、小澤征爾の指揮で初演された。ほかに「カシオペア」「鳥は星形の庭に降りる」「夢の時」などを書いた。映画音楽では小林正樹の「切腹」「怪談」、黒澤明の「どですかでん」「乱」などを担当した。1996年2月20日に東京で没した。",
+    "style": [
+      "管弦楽曲",
+      "室内楽",
+      "邦楽器の作品",
+      "映画音楽"
+    ],
+    "keyWorks": [
+      "work-takemitsu-november-steps",
+      "work-takemitsu-requiem",
+      "work-takemitsu-rain-tree"
+    ],
+    "influencedBy": [
+      "debussy",
+      "messiaen",
+      "cage"
+    ],
+    "influenced": [
+      "hosokawa"
+    ],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "contemporary",
-    "businessQuote": "異文化統合の力。武満は東西の美学を真に融合させ、異なる文化的背景の統合が唯一無二の価値を生むことを示した。",
     "difficulty": 3,
-    "tags": ["contemporary", "japanese", "orchestral", "film", "east-west"],
+    "tags": [
+      "contemporary",
+      "japanese",
+      "orchestral",
+      "film",
+      "east-west"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1298,20 +2138,33 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "日本近代音楽の父。日本人として初めて交響曲を作曲し、日本の西洋音楽の基盤を築いた。",
-    "longBio": "東京に生まれ、ベルリン高等音楽学校で学んだ日本近代音楽の先駆者。日本人として初めて交響曲を作曲し、1925年に近衛秀麿とともに日本交響楽協会を設立するなど（同協会は翌年分裂し、近衛らが結成した新交響楽団が現在のNHK交響楽団の前身となった）、日本のオーケストラ文化の礎を築いた。歌曲「赤とんぼ」「からたちの花」は日本人なら誰もが知る名曲である。指揮者としても活躍し、海外での日本音楽の紹介にも尽力した。日本の西洋音楽受容において最も重要な役割を果たした人物である。",
-    "significance": "重要",
-    "style": ["歌曲", "交響曲", "日本的叙情", "西洋音楽導入"],
-    "keyWorks": ["work-yamada-akatombo", "work-yamada-karatachi", "work-yamada-symphony"],
-    "influencedBy": ["strauss-r"],
-    "influenced": ["dan-ikuma"],
+    "shortBio": "東京生まれの作曲家・指揮者。ベルリンで学び、1912年に日本人として初めて交響曲を書いた。1925年に近衛秀麿らと日本交響楽協会を設立した。",
+    "longBio": "東京に生まれ、1908年に東京音楽学校声楽科を卒業した。1910年から1913年までベルリン高等音楽学校で作曲を学び、在学中の1912年に交響曲「かちどきと平和」を書いた。帰国後、東京フィルハーモニー会の管弦楽部を指揮した。1925年に近衛秀麿らと日本交響楽協会を設立し、同協会は翌年分裂して、近衛らが結成した新交響楽団がNHK交響楽団の前身となった。歌曲「からたちの花」（1925年）、「赤とんぼ」（1927年）、「この道」、オペラ「黒船」などを書いた。1956年に文化勲章を受けた。1965年12月29日に没した。",
+    "style": [
+      "歌曲",
+      "交響曲",
+      "オペラ",
+      "童謡",
+      "指揮"
+    ],
+    "keyWorks": [
+      "work-yamada-akatombo",
+      "work-yamada-karatachi",
+      "work-yamada-symphony"
+    ],
+    "influencedBy": [],
+    "influenced": [],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "modern",
-    "businessQuote": "インフラ構築者の偉大さ。山田耕筰は自らの作品だけでなく、オーケストラや音楽教育のインフラ整備で日本音楽界の未来を切り開いた。",
     "difficulty": 2,
-    "tags": ["modern", "japanese", "vocal", "orchestral", "pioneer"],
+    "tags": [
+      "modern",
+      "japanese",
+      "vocal",
+      "orchestral",
+      "pioneer"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1326,20 +2179,32 @@
     "era": "modern",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "日本オペラの確立者。「夕鶴」で日本語によるオペラの可能性を証明した。",
-    "longBio": "東京の名家に生まれ、東京音楽学校で学んだ。オペラ「夕鶴」は日本オペラの金字塔として、海外でも高い評価を受けた。6つの交響曲、多数の合唱曲、管弦楽曲を残し、日本の西洋音楽の発展に大きく貢献した。随筆家としても知られ、「パイプのけむり」シリーズは文学作品としても評価が高い。日本の伝統的な美意識と西洋音楽の技法を融合させた作品は、今なお多くの人に愛されている。",
-    "significance": "注目",
-    "style": ["オペラ", "交響曲", "合唱曲", "日本的美意識"],
-    "keyWorks": ["work-dan-yuzuru", "work-dan-symphonies"],
-    "influencedBy": ["yamada-kosaku", "puccini"],
+    "shortBio": "東京生まれの作曲家。東京音楽学校で学び、1952年初演のオペラ「夕鶴」、6曲の交響曲を書いた。随筆「パイプのけむり」を長く連載した。",
+    "longBio": "東京に生まれた。祖父は実業家の團琢磨。東京音楽学校で作曲を学んだ。1953年に芥川也寸志、黛敏郎と「3人の会」を結成した。木下順二の戯曲による1幕のオペラ「夕鶴」（1952年初演）は、国内外で繰り返し上演されている。ほかにオペラ「楊貴妃」「ひかりごけ」「建・TAKERU」、交響曲6曲、合唱曲「筑後川」、童謡「ぞうさん」を書いた。1964年から週刊誌「アサヒグラフ」に随筆「パイプのけむり」を連載した。2001年5月17日、旅行先の中国・蘇州で没した。",
+    "style": [
+      "オペラ",
+      "交響曲",
+      "合唱曲",
+      "童謡",
+      "随筆"
+    ],
+    "keyWorks": [
+      "work-dan-yuzuru",
+      "work-dan-symphonies"
+    ],
+    "influencedBy": [],
     "influenced": [],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "modern",
-    "businessQuote": "ローカライゼーションの成功。團伊玖磨は西洋のオペラ形式を日本語と日本の物語で成功させ、グローバル手法の現地適応の模範を示した。",
     "difficulty": 2,
-    "tags": ["modern", "japanese", "opera", "orchestral", "vocal"],
+    "tags": [
+      "modern",
+      "japanese",
+      "opera",
+      "orchestral",
+      "vocal"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   },
@@ -1354,20 +2219,32 @@
     "era": "contemporary",
     "portrait": null,
     "thumbnail": null,
-    "shortBio": "現代日本を代表する作曲家。日本の美学と西洋の現代技法を高度に統合した音楽で国際的評価を得る。",
-    "longBio": "広島に生まれ、ベルリンでユン・イサンに師事した。日本の書道、庭園、能の美学を現代の作曲技法と統合させた独自の音楽語法を確立した。「ランドスケープ」シリーズに代表される自然描写と、広島出身者としての平和への祈りが作品の基盤にある。オペラ「松風」「海、静かな海」は世界各地で上演されている。リゲティや武満徹の影響を受けつつ、独自の「息」の音楽を追求し続ける現代音楽界の最重要人物の一人である。",
-    "significance": "注目",
-    "style": ["日本的美学", "自然描写", "能の影響", "息の音楽"],
-    "keyWorks": ["work-hosokawa-matsukaze", "work-hosokawa-lotus", "work-hosokawa-hiroshima"],
-    "influencedBy": ["takemitsu", "ligeti"],
+    "shortBio": "広島生まれの作曲家。ベルリンとフライブルクで学び、ドイツと日本を拠点に活動している。オペラ「班女」「松風」「海、静かな海」を書いた。",
+    "longBio": "広島に生まれた。1976年にドイツへ渡り、ベルリン芸術大学でユン・イサン（Isang Yun）に、フライブルク音楽大学でクラウス・フーバー（Klaus Huber）に学んだ。管弦楽曲、協奏曲、室内楽、「ランドスケープ」と題する連作を書いている。オペラは能に題材をとった「班女」（2004年）、「松風」（2011年）、福島の原子力発電所事故を背景とする「海、静かな海」（2016年）などがある。広島の原爆を題材とした作品もある。武生国際音楽祭の音楽監督を務めている。",
+    "style": [
+      "管弦楽曲",
+      "オペラ",
+      "室内楽",
+      "邦楽器の作品"
+    ],
+    "keyWorks": [
+      "work-hosokawa-matsukaze",
+      "work-hosokawa-lotus",
+      "work-hosokawa-hiroshima"
+    ],
+    "influencedBy": [],
     "influenced": [],
     "teachers": [],
     "students": [],
-    "quotes": [],
     "historicalContext": "contemporary",
-    "businessQuote": "伝統の中の革新。細川は能という古典芸能の構造を現代オペラに取り入れ、レガシー資産の革新的活用の可能性を示した。",
     "difficulty": 4,
-    "tags": ["contemporary", "japanese", "opera", "orchestral", "nature"],
+    "tags": [
+      "contemporary",
+      "japanese",
+      "opera",
+      "orchestral",
+      "nature"
+    ],
     "youtubeIds": [],
     "spotifyArtistId": null
   }

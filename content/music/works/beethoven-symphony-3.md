@@ -1,0 +1,142 @@
+---
+title: ベートーヴェン 交響曲第3番 変ホ長調 作品55《英雄》
+slug: beethoven-symphony-3
+section: works
+summary: 1802年秋に構想され、主に1803年に作曲された交響曲。1804年にロプコヴィッツ侯邸で私的に演奏され、1805年4月7日にアン・デア・ウィーン劇場で公開初演された。ナポレオンへの献呈を取りやめ、1806年に「ある偉大な人物の思い出を記念するために」の副題とロプコヴィッツ侯への献辞を付けて出版された。
+composer: beethoven
+year: 1802-1804
+key: 変ホ長調
+catalog: Op.55
+scoring: 2fl, 2ob, 2cl, 2fg, 3hr, 2tp, timp, 弦五部
+duration: 約50分
+concert: vo-vol3-2027-03
+updated: 2026-10-29
+sources:
+  - "Bathia Churgin, Preface / Comments. In: Beethoven, Symphony no. 3 in E-flat major op. 55 „Eroica“, Studien-Edition HN 9810, München: G. Henle, 2015/2016（Beethoven Werke I/2 準拠）. 序文 https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf 、校訂注 https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf（閲覧日 2026-10-29）"
+  - "Bathia Churgin, Vorwort / Preface. In: Beethoven, Sinfonie Nr. 3 op. 55, Partitur-Bibliothek PB 14613, Wiesbaden: Breitkopf & Härtel, 2015. https://www.breitkopf.com/assets/pdf/PB_14613_Vorw_d_e.pdf（閲覧日 2026-10-29）"
+  - "Beethoven Werke, Abteilung I, Band 2: Symphonien II, hrsg. von Bathia Churgin, München: G. Henle, 2013（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993498611904498 、閲覧日 2026-10-29）"
+  - "Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 3 (Es-Dur) op. 55 (Sinfonia eroica)“（作曲時期、ロプコヴィッツ家の支払記録、題名の削除と逸話の検討、初版、関連書簡）. https://www.beethoven.de/en/work/view/5529920004423680/Sinfonie+Nr.+3+(Es-Dur)+op.+55+(Sinfonia+eroica)（閲覧日 2026-10-29）"
+  - "Lewis Lockwood / Alan Gosman (eds.), Beethoven's „Eroica“ Sketchbook: A Critical Edition, 2 vols., Urbana: University of Illinois Press, 2013（出版社の書誌頁で内容を確認）. https://www.press.uillinois.edu/books/?id=c037436（閲覧日 2026-10-29）"
+  - "Wikipedia（独語版）「3. Sinfonie (Beethoven)」（各楽章の小節番号、私的演奏の日付、初版の告知、受容）. https://de.wikipedia.org/wiki/3._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Symphony No. 3 (Beethoven)」（ヴィエルホルスキ・スケッチ帳、ティンパニの調律、小節番号、受容）. https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)（閲覧日 2026-10-29）"
+  - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 3“（速度表示と数値、同時代評）. https://www.esm.rochester.edu/beethoven/symphony-no-3/（閲覧日 2026-10-29）"
+  - "Benjamin Zander, „A Request to the BPO“, 21 January 2022（第1楽章と終楽章の数値が1小節単位であること、ノーマン・デル・マーの見解の引用）. https://www.benjaminzander.org/article/a-request-to-the-bpo/（閲覧日 2026-10-29）"
+  - "Fondation Napoléon, „La proclamation de l'Empire, 18 mai 1804“. https://www.napoleon.org/histoire-des-2-empires/dossiers-thematiques/la-proclamation-de-lempire-18-mai-1804/（閲覧日 2026-10-29）"
+  - "James Jolly, „Beethoven's Eroica – an anniversary mini-survey“, Gramophone, 7 April 2011. https://gramophone.co.uk/features/article/beethoven-s-eroica-an-anniversary-mini-survey（閲覧日 2026-10-29）"
+  - "Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）"
+  - "John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Karajan: Beethoven Symphonies (1963)」. https://en.wikipedia.org/wiki/Karajan:_Beethoven_Symphonies_(1963)（閲覧日 2026-10-29）"
+  - "Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）"
+---
+
+## 成立
+
+### スケッチ
+
+ベートーヴェン（Ludwig van Beethoven）がこの交響曲の最初の楽想を書きとめたのは1802年秋である。新全集版の校訂者バティア・チャーギン（Bathia Churgin）によれば、第1〜3楽章の最初のスケッチは「ヴィエルホルスキ・スケッチ帳」にあり、同じ年に書かれたピアノのための《エロイカ変奏曲》作品35のスケッチのすぐ後に続いている。英語版Wikipediaは、このスケッチ帳にある2頁の変ホ長調の楽章構想を、ナタン・フィシュマン（Nathan Fishman）がこの交響曲のためのものと同定したことを記している。
+
+全楽章の詳しいスケッチは「ランツベルク6」と呼ばれるスケッチ帳の4〜92頁にある。ルイス・ロックウッド（Lewis Lockwood）とアラン・ゴスマン（Alan Gosman）は2013年にこのスケッチ帳の校訂版とファクシミリを出版した。このスケッチ帳には、ほかにピアノ・ソナタ《ヴァルトシュタイン》、オペラ《レオノーレ》の最初のスケッチ、未完のオペラ《ヴェスタの火》、オラトリオ《オリーヴ山上のキリスト》、三重協奏曲が含まれ、ピアノ協奏曲第4番、交響曲第5番と第6番の初期の楽想も見られる。
+
+終楽章の主題は、低音の線とともに、コントルダンス WoO 14 の第7曲とバレエ《プロメテウスの創造物》作品43の終曲（いずれも1800〜01年の冬）に由来する。ベートーヴェンは1802年に同じ主題で作品35を書いた。ロックウッドは、交響曲の第1〜3楽章も作品35から生まれ、第1楽章の主要主題は作品35の低音主題に遡ると論じている。
+
+### 作曲と完成
+
+チャーギンは本格的な作曲の時期を1803年5月か6月から9月か10月までとする。ベートーヴェンは1803年5月21日、ブライトコップフ・ウント・ヘルテルにこの交響曲を初めて申し出た。フェルディナント・リース（Ferdinand Ries）は1803年10月22日付でボンの出版者ニコラウス・ジムロック（Nikolaus Simrock）に宛て、ベートーヴェン自身がこれを「これまでに書いた最大の作品」と考えていると書いた。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)独語版Wikipediaによれば、リースはこの書簡でジムロックに100グルデンで申し出ており、ロプコヴィッツ侯は半年間の権利を400グルデンで求めていた。ベートーヴェン・ハウスは、最後の修正と補筆が1804年初めまで続いたとしている。筆写者による総譜は1804年5月半ばまでに整った。自筆総譜は伝わらない。
+
+### ナポレオンと題名
+
+ベートーヴェンは当初、この交響曲をナポレオン・ボナパルト（Napoléon Bonaparte）に献呈するつもりだった。ナポレオンは1804年5月18日に皇帝と宣言された。ウィーン楽友協会が所蔵する筆写総譜の表紙には、もとの題「Sinfonia grande / intitolata Bonaparte」のうち「intitolata Bonaparte」の語が、紙に穴があくほど強く削り取られている。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)英語版Wikipediaとベートーヴェン・ハウスによれば、その横にベートーヴェンは「Geschrieben auf Bonaparte（ボナパルトに寄せて書かれた）」と書き添えた。1804年8月26日のブライトコップフ宛書簡でも、ベートーヴェンはこの交響曲の題は本来「ボナパルト」であると書いている。この時点で作品はすでにロプコヴィッツ侯に売られていた。
+
+リースは1838年の回想で、ナポレオンの皇帝即位を伝えたところベートーヴェンが怒り、「あれもまた普通の人間にすぎないのか」と言って表紙を二つに裂いたと書いた。ベートーヴェン・ハウスは、ナポレオンへの失望についてのリースの報告は史実と認められるが、表紙は裂かれておらず削られたものであると指摘している。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)独語版Wikipediaは、表紙を裂いた話が1836年3月18日の『ミュージカル・ワールド』とエルンスト・オルトレップ（Ernst Ortlepp）の1836年の小説にすでに現れていることを挙げ、リースの記述に疑問を示している。ベルナドット（Jean-Baptiste Bernadotte）の勧めで作曲したという話（アントン・シンドラー（Anton Schindler）経由）や、アブキール湾の海戦をめぐる話（ベルトリーニ（Bertolini）経由）は、伝えた人物がベートーヴェンと知り合った時期から見て疑わしいとされる。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)
+
+### 初演
+
+ロプコヴィッツ侯（Franz Joseph Maximilian Fürst Lobkowitz）の会計記録によれば、1804年6月9日付で、この交響曲と三重協奏曲作品56の2回のリハーサルに対する奏者への支払いが記録されている。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)楽長アントン・ヴラニツキー（Anton Wranitzky）のもとで雇われた奏者は22人で、その中に第3ホルン奏者が含まれる。チャーギンはこれを、1804年5月末か6月初めにウィーンのロプコヴィッツ侯邸で行われた最初の演奏の記録とみる。同じ支払いはこの夏、ボヘミアのアイゼンベルク（イェゼジー）とラウドニッツ（ロウドニツェ）の侯の領地での私的演奏にも及んでいた。独語版Wikipediaは、1805年1月20日に銀行家ヨーゼフ・ヴュルト（Joseph Würth）の家で、1月23日にロプコヴィッツ侯邸で演奏されたことを記している。1月20日の演奏について、2月13日の『一般音楽新聞』は「途方もなく拡大された、大胆で奔放な幻想曲」と書いた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
+
+公開初演は1805年4月7日、アン・デア・ウィーン劇場で、ヴァイオリン奏者フランツ・クレメント（Franz Clement）の慈善演奏会においてベートーヴェンの指揮で行われた。独語版Wikipediaによれば、『一般音楽新聞』はこの演奏について、交響曲は短くなれば大いに得るところがある（演奏は1時間かかる）と書き、一般には受け入れられなかったと報じた。4月17日の『デア・フライミューティゲ』は、傑作とみる聴衆と、奇抜さを求めた際限のない努力にすぎないとみる聴衆に分かれたと伝えた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)1807年2月18日の『一般音楽新聞』に載った長い好意的な評は、この作品の受容に大きく寄与した。
+
+### 出版と献呈
+
+初版はウィーンの美術工芸社（Contor delle arti e d'industria、Bureau des Arts et d'Industrie）からパート譜で出された（版番号512）。チャーギンは告知の日付を1806年10月29日とし、独語版Wikipediaは1806年10月19日の『ウィーン新聞』での告知を挙げている。表題は「Sinfonia eroica, composta per festeggiare il sovvenire di un grand Uomo（英雄交響曲、ある偉大な人物の思い出を記念するために作曲）」で、ロプコヴィッツ侯に献呈された。初版には「この交響曲は意図して通常より長く書かれているので、演奏会の終わりではなく初めの方で演奏すべきである」という趣旨のイタリア語の注記がある。[（Henle 校訂注）](https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf)
+
+総譜は1809年にロンドンのチャンケッティーニ・ウント・スペラーティ（Cianchettini & Sperati）から（版番号27）、ドイツ語圏では1822年にボンのジムロックから出版された。
+
+## 編成と演奏時間
+
+フルート2、オーボエ2、クラリネット2、ファゴット2、ホルン3、トランペット2、ティンパニ、弦五部。ティンパニは第1・3・4楽章で変ロと変ホ、第2楽章でトとハに調律される。3本のホルンは交響曲としては異例で、第3楽章のトリオではこの3本だけで主題を奏する。
+
+演奏時間は第1楽章の提示部の反復の有無とテンポにより、45〜55分程度である。
+
+## 楽章ごとの聴きどころ
+
+### 第1楽章 Allegro con brio
+
+変ホ長調、4分の3拍子。ソナタ形式。序奏の代わりに主和音の打撃が2回置かれ、第3小節から三和音による主題が始まる。独語版Wikipediaによる区分は次のとおりである（英語版は展開部の開始を第154小節とする）。
+
+| 区分 | 小節 |
+|---|---|
+| 主要主題 | 3– |
+| 推移の主題（属調の属調） | 45– |
+| 副主題（変ロ長調、木管） | 83– |
+| 結尾群 | 109– |
+| 展開部 | 152– |
+| 全合奏のシンコペーションと連続するスフォルツァンド | 248– |
+| 新しい主題（ホ短調） | 284– |
+| ホルンの早い入り | 394–395 |
+| コーダ | 561– |
+| 終わり | 691 |
+
+第284小節に現れるホ短調の主題は、提示部には現れない新しい素材で、コーダで再び用いられる。
+
+再現部の直前、第394〜395小節では、弦が属和音を保っている間に1本のホルンが主調の主題を2小節早く吹く。リースは、これをホルン奏者の数え間違いだと言ってベートーヴェンに叱られたと回想している。チャーギンの校訂注によれば、ベートーヴェンはこの小節のヴァイオリンの「pp」に赤鉛筆で3つ目の「p」を書き足しており、これはベートーヴェンの交響曲で最初の「ppp」である。[（Henle 校訂注）](https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf)
+
+### 第2楽章 Marcia funebre. Adagio assai
+
+ハ短調、4分の2拍子。葬送行進曲。ヴァイオリンが主題を奏し、第9小節でオーボエが繰り返す。第69小節からハ長調の中間部（マッジョーレ）に移る。主部が戻った後、第114小節からヘ短調のフガートが始まり、第209小節からコーダとなる。コーダでは主題が断片になって終わる。チャーギンによれば、筆写総譜では速度表示が後からインクで書き加えられており、初版の刷りのうち最も訂正の進んだ版（C5）でだけ全パートにこの表示がある。
+
+1807年2月の『一般音楽新聞』の評者は、この楽章の後に数分間の静かな休止を置くことを提案した。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)1827年のロンドンでの演奏会では、交響曲がこの楽章で終えられた。
+
+### 第3楽章 Scherzo. Allegro vivace
+
+変ホ長調、4分の3拍子。弦が「sempre pianissimo e staccato」で始め、第7小節でオーボエが主題を出す。第93小節で初めてフォルティッシモになる。トリオは3本のホルンが主題を奏する。スケルツォの再現では、下行するユニゾンの動機が第381〜384小節で2拍子に書き換えられている。コーダ（第423小節〜）はピアニッシモからフォルティッシモへ高まる。チャーギンによれば、ホルンのパート（第99〜113小節）は筆写総譜で改訂されており、新全集版はその改訂を再現の対応箇所（第355〜371小節の範囲）にも反映させている。
+
+### 第4楽章 Finale. Allegro molto
+
+変ホ長調、4分の2拍子。《プロメテウス》の主題による変奏曲で、英語版Wikipediaは全体を序奏（第1〜75小節）、主題と変奏（第76〜380小節）、再現（第381〜430小節）、コーダ（第431〜475小節）に分ける。
+
+11小節の急速な導入の後、弦のピッツィカートで主題の低音だけが提示され、これが3声、4声と厚みを増す。第76小節で旋律主題が加わる。第117小節からハ短調のフガートとなり、主題は原形と反行形で扱われる。後半のPoco Andanteでは主題がコラール風に全楽器へ広げられる。第431小節からのPrestoで変ホ長調の3つの和音によって終わる。
+
+## 演奏史と解釈
+
+### 版
+
+自筆総譜は伝わらず、本文の主な資料は、ベートーヴェンの訂正が入った筆写総譜（ウィーン楽友協会、1827年の遺品競売で購入され1870年に同協会へ寄贈）、一部が訂正されたパート譜、そして初版のパート譜である。チャーギンは初版の刷りを5種（C1〜C5）比較している。新全集「Beethoven Werke」第I部第2巻（チャーギン校訂、ヘンレ、2013年、HN 4012）が出ており、ブライトコップフの指揮用総譜（PB 14613）とヘンレのスタディ・スコア（HN 9810）はこれに基づく。ベーレンライターのジョナサン・デル・マー（Jonathan Del Mar）校訂版は1996〜2000年に刊行された全9曲の一部である。
+
+チャーギンの校訂注は次のような問題を扱っている。第1楽章の提示部の反復をどこから始めるか（ベートーヴェンは一時、反復記号を第3小節に移そうとしたが、最終的に第5小節からの反復を残した）。初版では第150小節以下の2小節が、第1・第2括弧の前で誤って繰り返されている。第544小節の第1ヴァイオリンはすべての資料で変ロ音だが、第141小節に合わせるならロ音になり、どちらを弾くかは指揮者に委ねられている。
+
+### メトロノーム表記
+
+1817年に発表された作曲者自身の数値は、第1楽章が1小節（付点2分音符）＝60、第2楽章が8分音符＝80、第3楽章が116、終楽章が1小節（2分音符）＝76、終楽章のPoco Andanteが108である。ベンジャミン・ザンダー（Benjamin Zander）は、第1楽章の60は極端に速く、終楽章の76は一般に演奏不可能なほど速いとされると述べ、ノーマン・デル・マー（Norman Del Mar）が葬送行進曲の数値を「ほぼ2倍速すぎる」と見ていたことを紹介している。[（Benjamin Zander）](https://www.benjaminzander.org/article/a-request-to-the-bpo/)クリストファー・ハウエル（Christopher Howell）は、アーノンクールの録音で終楽章のPoco Andanteが葬送行進曲よりわずかしか速くないことを、両者の数値（108と80）の差と比べて指摘している。[（MusicWeb International）](https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm)
+
+### 代表的な録音
+
+- ヴィルヘルム・フルトヴェングラー（Wilhelm Furtwängler）指揮ウィーン・フィル（1944年）。グラモフォン誌のジェイムズ・ジョリー（James Jolly）は、葬送行進曲を中心に置いた重い解釈とする。[（Gramophone）](https://gramophone.co.uk/features/article/beethoven-s-eroica-an-anniversary-mini-survey)
+- アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮NBC交響楽団（RCA）。
+- レナード・バーンスタイン（Leonard Bernstein）の1953年の録音（Decca）。
+- オットー・クレンペラー（Otto Klemperer）指揮フィルハーモニア管弦楽団（EMI）。
+- ヘルベルト・フォン・カラヤン（Herbert von Karajan）指揮ベルリン・フィル（1961年12月〜1962年11月録音の全集）。
+- カール・ベーム（Karl Böhm）指揮ベルリン・フィル（1962年、ドイツ・グラモフォン）。
+- カルロ・マリア・ジュリーニ（Carlo Maria Giulini）指揮ロサンゼルス・フィル（ドイツ・グラモフォン）。第1楽章の提示部を反復し、この楽章だけで約20分30秒かかる。[（Gramophone）](https://gramophone.co.uk/features/article/beethoven-s-eroica-an-anniversary-mini-survey)
+- ロジャー・ノリントン（Roger Norrington）指揮ロンドン・クラシカル・プレイヤーズ（1986〜88年録音の全集）。当時の楽器を用い、第1・第2楽章が非常に速い。[（Gramophone）](https://gramophone.co.uk/features/article/beethoven-s-eroica-an-anniversary-mini-survey)
+- ニコラウス・アーノンクール（Nikolaus Harnoncourt）指揮ヨーロッパ室内管弦楽団（1990年7月3日、グラーツでのライヴ録音、テルデック）。
+- フランス・ブリュッヘン（Frans Brüggen）指揮18世紀オーケストラ（Philips）。ジョリーはこれを、伝統的な演奏と同じ迫力をもつ最初のピリオド楽器による録音とする。[（Gramophone）](https://gramophone.co.uk/features/article/beethoven-s-eroica-an-anniversary-mini-survey)
+- ジョルディ・サヴァール（Jordi Savall）指揮ル・コンセール・デ・ナシオン（Auvidis）、ジョン・エリオット・ガーディナー（John Eliot Gardiner）指揮オルケストル・レヴォリュショネール・エ・ロマンティーク（Archiv）。いずれも当時の楽器による。
+- デイヴィッド・ジンマン（David Zinman）指揮チューリヒ・トーンハレ管弦楽団（アルテ・ノヴァ）。現代楽器でピリオド奏法を取り入れた演奏。
+- チャールズ・マッケラス（Charles Mackerras）指揮スコットランド室内管弦楽団（Hyperion）。現代楽器に当時の金管楽器を組み合わせる。
+
+## もっと深く
+
+- **「偉大な人物」は誰か**：1806年の副題の「偉大な人物」が誰を指すかについては、ナポレオン、1806年10月10日に戦死したプロイセンのルイ・フェルディナント王子（Louis Ferdinand）、架空の英雄など、複数の見方がある。独語版Wikipediaは、副題が出版直前に加えられ、ルイ・フェルディナントを指す可能性を挙げている。ルイ・フェルディナントは1804年10月にラウドニッツでこの交響曲を聴いたと伝えられる。
+- **葬送行進曲の背景**：リタ・シュテブリン（Rita Steblin）は、第1番の献呈先となるはずだったマクシミリアン・フランツの死（1801年）への反応とみる説を出している。確証はない。
+- **作曲者自身の評価**：独語版Wikipediaによれば、ベートーヴェンは1817年に詩人クリストフ・クフナー（Christoph Kuffner）に対し、それまでの交響曲のうちこの曲を最も重要なものと語った。
+- **受容**：第2楽章は1847年のメンデルスゾーンの葬儀で演奏され、1945年にはローズヴェルトの死を悼んで演奏された。1957年にはブルーノ・ワルター（Bruno Walter）がトスカニーニ追悼の演奏会で全曲を指揮した。1972年にはミュンヘン五輪の犠牲者の追悼式で葬送行進曲が演奏された。リヒャルト・シュトラウス（Richard Strauss）は1945年の《メタモルフォーゼン》で葬送行進曲の主題を引用している。
