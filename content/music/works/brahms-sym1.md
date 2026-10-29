@@ -19,7 +19,6 @@ sources:
   - 'Betsy Schwarm, "Symphony No. 1 in C Minor, Op. 68", Encyclopædia Britannica. https://www.britannica.com/print/article/578060（閲覧日 2026-10-29）'
   - 'Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）'
   - '録音データ：MusicWeb International（Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80463 評 2005年9月／Gardiner SDG702 評 2008年9月）, Gramophone（Mackerras Telarc 全集評 1997年10月）（いずれも閲覧日 2026-10-29）'
-  - 'Terry Barfoot, Review: Brahms, Symphony No. 1 etc., Scottish Chamber Orchestra / Mackerras（Telarc CD-80463）, MusicWeb International, September 2005. https://www.musicweb-international.com/classrev/2005/Sep05/Brahms_Mackerras_CD80463.htm（閲覧日 2026-10-29）'
   - 'Review: Brahms, Symphonies Nos 1–4 etc., Scottish Chamber Orchestra / Mackerras（Telarc CD80450）, Gramophone, October 1997. https://gramophone.co.uk/review/brahms-symphonies-nos-1-4-academic-festival-overture（閲覧日 2026-10-29）'
   - 'Review: Brahms, Symphony No. 1 etc., Orchestre Révolutionnaire et Romantique / Gardiner（SDG702）, MusicWeb International, September 2008. https://www.musicweb-international.com/classrev/2008/Sept08/Brahms1_Gardiner_sdg702.htm（閲覧日 2026-10-29）'
   - 'Ralph Moore, Review: Toscanini conducts Brahms, Complete Symphonies（Pristine PASC349）, MusicWeb International, August 2013. https://musicweb-international.com/classrev/2013/Aug13/Brahms_sys_PASC349.htm（閲覧日 2026-10-29）'
