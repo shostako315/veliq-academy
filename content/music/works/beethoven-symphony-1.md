@@ -11,20 +11,21 @@ scoring: 2fl, 2ob, 2cl, 2fg, 2hr, 2tp, timp, 弦五部
 duration: 約26分
 updated: 2026-10-29
 sources:
-  - Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 1 (C-Dur) op. 21“（作曲時期、初演の曲目、献呈、初版・早期刊本の一覧、関連書簡）. https://www.beethoven.de/en/work/view/6058229033336832（閲覧日 2026-10-29）
-  - Beethoven Werke, Abteilung I, Band 1: Symphonien Nr. 1 und 2, hrsg. von Armin Raab, München: G. Henle, 1994（書誌のみ確認：Österreichische Akademie der Wissenschaften 図書館目録 https://www.oeaw.ac.at/resources/Record/993489808604498 、閲覧日 2026-10-29）
-  - G. Henle Verlag, Studien-Edition HN 9801 商品頁（校訂者 Armin Raab、全集版の本文に依拠）. https://www.henle.de/en/Symphony-no.-1-C-major-op.-21/HN-9801（閲覧日 2026-10-29）
-  - Armin Raab, Preface. In: Beethoven, Symphony no. 2 in D major op. 36, Studien-Edition HN 9802, G. Henle, 2019（1817年12月17日の『一般音楽新聞』のメトロノーム表、注記の扱い）. https://www.henle.de/media/59/80/94/1697725884/9802-1697725884-sync.pdf（閲覧日 2026-10-29）
-  - Fusako Hamao, „Schoenberg's Metronome Markings“, European Journal of Musicology 22/2 (2024), DOI 10.5450/EJM.22.2.2024.5（AMZ 第19巻 1817年12月17日 873–874欄の表題）
-  - Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 1“（各楽章の速度表示とメトロノーム数値、AMZ の初演評の引用）. https://www.esm.rochester.edu/beethoven/symphony-no-1/（閲覧日 2026-10-29）
-  - AQA, GCSE Music 8271 Teacher Guide, Area of Study 1: Beethoven Symphony No. 1, first movement（第1楽章の小節割り・調）. https://filestore.aqa.org.uk/resources/music/AQA-8271-TEACHER-GUIDE-AOS1-BEETHOVEN.PDF（閲覧日 2026-10-29）
-  - Wikipedia（日本語版）「交響曲第1番 (ベートーヴェン)」（出版公告の日付、作品番号の割り振り、拍子）. https://ja.wikipedia.org/wiki/交響曲第1番_(ベートーヴェン)（閲覧日 2026-10-29）
-  - Wikipedia（独語版）「1. Sinfonie (Beethoven)」（典拠 Renate Ulm (Hg.), Die 9 Symphonien Beethovens, Bärenreiter, 2009 ほか）. https://de.wikipedia.org/wiki/1._Sinfonie_(Beethoven)（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Symphony No. 1 (Beethoven)」. https://en.wikipedia.org/wiki/Symphony_No._1_(Beethoven)（閲覧日 2026-10-29）
-  - James McCarthy, „Beethoven's Symphony No 1: which recording is best?“, Gramophone, 13 January 2014. https://gramophone.co.uk/features/article/beethoven-s-symphony-no-1-which-recording-is-best（閲覧日 2026-10-29）
-  - „Beethoven's Symphony No 1, introduced by Sir Roger Norrington“, Gramophone, 15 September 2014. https://gramophone.co.uk/feature/beethovens-symphony-no-1-introduced-by-sir-roger-norrington（閲覧日 2026-10-29）
-  - Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）
-  - Kenneth Woods（blog）, „What do you do when Beethoven doesn't give you a metronome marking?“（再掲記事, 2012-10-02、第1番第1楽章主部と第2楽章の音価）. https://kennethwoods.net/blog1/wp-json/wp/v2/posts/4679（閲覧日 2026-10-29）
+  - "Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 1 (C-Dur) op. 21“（作曲時期、初演の曲目、献呈、初版・早期刊本の一覧、関連書簡）. https://www.beethoven.de/en/work/view/6058229033336832（閲覧日 2026-10-29）"
+  - "Beethoven Werke, Abteilung I, Band 1: Symphonien Nr. 1 und 2, hrsg. von Armin Raab, München: G. Henle, 1994（書誌のみ確認：Österreichische Akademie der Wissenschaften 図書館目録 https://www.oeaw.ac.at/resources/Record/993489808604498 、閲覧日 2026-10-29）"
+  - "G. Henle Verlag, Studien-Edition HN 9801 商品頁（校訂者 Armin Raab、全集版の本文に依拠）. https://www.henle.de/en/Symphony-no.-1-C-major-op.-21/HN-9801（閲覧日 2026-10-29）"
+  - "Armin Raab, Preface. In: Beethoven, Symphony no. 2 in D major op. 36, Studien-Edition HN 9802, G. Henle, 2019（1817年12月17日の『一般音楽新聞』のメトロノーム表、注記の扱い）. https://www.henle.de/media/59/80/94/1697725884/9802-1697725884-sync.pdf（閲覧日 2026-10-29）"
+  - "Fusako Hamao, „Schoenberg's Metronome Markings“, European Journal of Musicology 22/2 (2024), DOI 10.5450/EJM.22.2.2024.5（AMZ 第19巻 1817年12月17日 873–874欄の表題）"
+  - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 1“（各楽章の速度表示とメトロノーム数値、AMZ の初演評の引用）. https://www.esm.rochester.edu/beethoven/symphony-no-1/（閲覧日 2026-10-29）"
+  - "AQA, GCSE Music 8271 Teacher Guide, Area of Study 1: Beethoven Symphony No. 1, first movement（第1楽章の小節割り・調）. https://filestore.aqa.org.uk/resources/music/AQA-8271-TEACHER-GUIDE-AOS1-BEETHOVEN.PDF（閲覧日 2026-10-29）"
+  - "Wikipedia（日本語版）「交響曲第1番 (ベートーヴェン)」（出版公告の日付、作品番号の割り振り、拍子）. https://ja.wikipedia.org/wiki/交響曲第1番_(ベートーヴェン)（閲覧日 2026-10-29）"
+  - "Wikipedia（独語版）「1. Sinfonie (Beethoven)」（典拠 Renate Ulm (Hg.), Die 9 Symphonien Beethovens, Bärenreiter, 2009 ほか）. https://de.wikipedia.org/wiki/1._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Symphony No. 1 (Beethoven)」. https://en.wikipedia.org/wiki/Symphony_No._1_(Beethoven)（閲覧日 2026-10-29）"
+  - "James McCarthy, „Beethoven's Symphony No 1: which recording is best?“, Gramophone, 13 January 2014. https://gramophone.co.uk/features/article/beethoven-s-symphony-no-1-which-recording-is-best（閲覧日 2026-10-29）"
+  - "„Beethoven's Symphony No 1, introduced by Sir Roger Norrington“, Gramophone, 15 September 2014. https://gramophone.co.uk/feature/beethovens-symphony-no-1-introduced-by-sir-roger-norrington（閲覧日 2026-10-29）"
+  - "Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）"
+  - "Kenneth Woods（blog）, „What do you do when Beethoven doesn't give you a metronome marking?“（再掲記事, 2012-10-02、第1番第1楽章主部と第2楽章の音価）. https://kennethwoods.net/blog1/wp-json/wp/v2/posts/4679（閲覧日 2026-10-29）"
+  - "All Classical Research, „Symphony No. 1 in C Major, Op. 21“（ファン・スヴィーテンについて。典拠 Grove Music Online: Douglas Johnson, Edward Olleson）. https://research.allclassical.org/?p=2647（閲覧日 2026-10-29）"
 ---
 
 ## 成立
@@ -113,7 +114,7 @@ AQA（英国の試験機関）の教員用解説による主部の区分は次�
 
 ### 代表的な録音
 
-グラモフォン誌の比較試聴（ジェイムズ・マッカーシー、2014年）が取り上げた録音から、解釈の違いが分かるものを挙げる。
+グラモフォン誌の比較試聴（ジェイムズ・マッカーシー（James McCarthy）、2014年）が取り上げた録音から、解釈の違いが分かるものを挙げる。
 
 - フェリックス・ワインガルトナー（Felix Weingartner）指揮ウィーン・フィル（1937年）。序奏から主部へ徐々に加速し、第1楽章の提示部の反復を省く。
 - アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮BBC交響楽団（1937年）、NBC交響楽団（1951年）。テンポを動かさない、引き締まった演奏。

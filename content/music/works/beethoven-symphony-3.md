@@ -12,21 +12,21 @@ duration: 約50分
 concert: vo-vol3-2027-03
 updated: 2026-10-29
 sources:
-  - Bathia Churgin, Preface / Comments. In: Beethoven, Symphony no. 3 in E-flat major op. 55 „Eroica“, Studien-Edition HN 9810, München: G. Henle, 2015/2016（Beethoven Werke I/2 準拠）. 序文 https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf 、校訂注 https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf（閲覧日 2026-10-29）
-  - Bathia Churgin, Vorwort / Preface. In: Beethoven, Sinfonie Nr. 3 op. 55, Partitur-Bibliothek PB 14613, Wiesbaden: Breitkopf & Härtel, 2015. https://www.breitkopf.com/assets/pdf/PB_14613_Vorw_d_e.pdf（閲覧日 2026-10-29）
-  - Beethoven Werke, Abteilung I, Band 2: Symphonien II, hrsg. von Bathia Churgin, München: G. Henle, 2013（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993498611904498 、閲覧日 2026-10-29）
-  - Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 3 (Es-Dur) op. 55 (Sinfonia eroica)“（作曲時期、ロプコヴィッツ家の支払記録、題名の削除と逸話の検討、初版、関連書簡）. https://www.beethoven.de/en/work/view/5529920004423680/Sinfonie+Nr.+3+(Es-Dur)+op.+55+(Sinfonia+eroica)（閲覧日 2026-10-29）
-  - Lewis Lockwood / Alan Gosman (eds.), Beethoven's „Eroica“ Sketchbook: A Critical Edition, 2 vols., Urbana: University of Illinois Press, 2013（出版社の書誌頁で内容を確認）. https://www.press.uillinois.edu/books/?id=c037436（閲覧日 2026-10-29）
-  - Wikipedia（独語版）「3. Sinfonie (Beethoven)」（各楽章の小節番号、私的演奏の日付、初版の告知、受容）. https://de.wikipedia.org/wiki/3._Sinfonie_(Beethoven)（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Symphony No. 3 (Beethoven)」（ヴィエルホルスキ・スケッチ帳、ティンパニの調律、小節番号、受容）. https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)（閲覧日 2026-10-29）
-  - Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 3“（速度表示と数値、同時代評）. https://www.esm.rochester.edu/beethoven/symphony-no-3/（閲覧日 2026-10-29）
-  - Benjamin Zander, „A Request to the BPO“, 21 January 2022（第1楽章と終楽章の数値が1小節単位であること、ノーマン・デル・マーの見解の引用）. https://www.benjaminzander.org/article/a-request-to-the-bpo/（閲覧日 2026-10-29）
-  - Fondation Napoléon, „La proclamation de l'Empire, 18 mai 1804“. https://www.napoleon.org/histoire-des-2-empires/dossiers-thematiques/la-proclamation-de-lempire-18-mai-1804/（閲覧日 2026-10-29）
-  - James Jolly, „Beethoven's Eroica – an anniversary mini-survey“, Gramophone, 7 April 2011. https://gramophone.co.uk/features/article/beethoven-s-eroica-an-anniversary-mini-survey（閲覧日 2026-10-29）
-  - Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）
-  - John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Karajan: Beethoven Symphonies (1963)」. https://en.wikipedia.org/wiki/Karajan:_Beethoven_Symphonies_(1963)（閲覧日 2026-10-29）
-  - Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）
+  - "Bathia Churgin, Preface / Comments. In: Beethoven, Symphony no. 3 in E-flat major op. 55 „Eroica“, Studien-Edition HN 9810, München: G. Henle, 2015/2016（Beethoven Werke I/2 準拠）. 序文 https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf 、校訂注 https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf（閲覧日 2026-10-29）"
+  - "Bathia Churgin, Vorwort / Preface. In: Beethoven, Sinfonie Nr. 3 op. 55, Partitur-Bibliothek PB 14613, Wiesbaden: Breitkopf & Härtel, 2015. https://www.breitkopf.com/assets/pdf/PB_14613_Vorw_d_e.pdf（閲覧日 2026-10-29）"
+  - "Beethoven Werke, Abteilung I, Band 2: Symphonien II, hrsg. von Bathia Churgin, München: G. Henle, 2013（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993498611904498 、閲覧日 2026-10-29）"
+  - "Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 3 (Es-Dur) op. 55 (Sinfonia eroica)“（作曲時期、ロプコヴィッツ家の支払記録、題名の削除と逸話の検討、初版、関連書簡）. https://www.beethoven.de/en/work/view/5529920004423680/Sinfonie+Nr.+3+(Es-Dur)+op.+55+(Sinfonia+eroica)（閲覧日 2026-10-29）"
+  - "Lewis Lockwood / Alan Gosman (eds.), Beethoven's „Eroica“ Sketchbook: A Critical Edition, 2 vols., Urbana: University of Illinois Press, 2013（出版社の書誌頁で内容を確認）. https://www.press.uillinois.edu/books/?id=c037436（閲覧日 2026-10-29）"
+  - "Wikipedia（独語版）「3. Sinfonie (Beethoven)」（各楽章の小節番号、私的演奏の日付、初版の告知、受容）. https://de.wikipedia.org/wiki/3._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Symphony No. 3 (Beethoven)」（ヴィエルホルスキ・スケッチ帳、ティンパニの調律、小節番号、受容）. https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)（閲覧日 2026-10-29）"
+  - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 3“（速度表示と数値、同時代評）. https://www.esm.rochester.edu/beethoven/symphony-no-3/（閲覧日 2026-10-29）"
+  - "Benjamin Zander, „A Request to the BPO“, 21 January 2022（第1楽章と終楽章の数値が1小節単位であること、ノーマン・デル・マーの見解の引用）. https://www.benjaminzander.org/article/a-request-to-the-bpo/（閲覧日 2026-10-29）"
+  - "Fondation Napoléon, „La proclamation de l'Empire, 18 mai 1804“. https://www.napoleon.org/histoire-des-2-empires/dossiers-thematiques/la-proclamation-de-lempire-18-mai-1804/（閲覧日 2026-10-29）"
+  - "James Jolly, „Beethoven's Eroica – an anniversary mini-survey“, Gramophone, 7 April 2011. https://gramophone.co.uk/features/article/beethoven-s-eroica-an-anniversary-mini-survey（閲覧日 2026-10-29）"
+  - "Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）"
+  - "John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Karajan: Beethoven Symphonies (1963)」. https://en.wikipedia.org/wiki/Karajan:_Beethoven_Symphonies_(1963)（閲覧日 2026-10-29）"
+  - "Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）"
 ---
 
 ## 成立
@@ -47,7 +47,7 @@ sources:
 
 ベートーヴェンは当初、この交響曲をナポレオン・ボナパルト（Napoléon Bonaparte）に献呈するつもりだった。ナポレオンは1804年5月18日に皇帝と宣言された。ウィーン楽友協会が所蔵する筆写総譜の表紙には、もとの題「Sinfonia grande / intitolata Bonaparte」のうち「intitolata Bonaparte」の語が、紙に穴があくほど強く削り取られている。英語版Wikipediaとベートーヴェン・ハウスによれば、その横にベートーヴェンは「Geschrieben auf Bonaparte（ボナパルトに寄せて書かれた）」と書き添えた。1804年8月26日のブライトコップフ宛書簡でも、ベートーヴェンはこの交響曲の題は本来「ボナパルト」であると書いている。この時点で作品はすでにロプコヴィッツ侯に売られていた。
 
-リースは1838年の回想で、ナポレオンの皇帝即位を伝えたところベートーヴェンが怒り、「あれもまた普通の人間にすぎないのか」と言って表紙を二つに裂いたと書いた。ベートーヴェン・ハウスは、ナポレオンへの失望についてのリースの報告は史実と認められるが、表紙は裂かれておらず削られたものであると指摘している。独語版Wikipediaは、表紙を裂いた話が1836年3月18日の『ミュージカル・ワールド』とエルンスト・オルトレップ（Ernst Ortlepp）の1836年の小説にすでに現れていることを挙げ、リースの記述に疑問を示している。ベルナドットの勧めで作曲したという話（アントン・シンドラー（Anton Schindler）経由）や、アブキール湾の海戦をめぐる話（ベルトリーニ経由）は、伝えた人物がベートーヴェンと知り合った時期から見て疑わしいとされる。
+リースは1838年の回想で、ナポレオンの皇帝即位を伝えたところベートーヴェンが怒り、「あれもまた普通の人間にすぎないのか」と言って表紙を二つに裂いたと書いた。ベートーヴェン・ハウスは、ナポレオンへの失望についてのリースの報告は史実と認められるが、表紙は裂かれておらず削られたものであると指摘している。独語版Wikipediaは、表紙を裂いた話が1836年3月18日の『ミュージカル・ワールド』とエルンスト・オルトレップ（Ernst Ortlepp）の1836年の小説にすでに現れていることを挙げ、リースの記述に疑問を示している。ベルナドット（Jean-Baptiste Bernadotte）の勧めで作曲したという話（アントン・シンドラー（Anton Schindler）経由）や、アブキール湾の海戦をめぐる話（ベルトリーニ（Bertolini）経由）は、伝えた人物がベートーヴェンと知り合った時期から見て疑わしいとされる。
 
 ### 初演
 
@@ -120,7 +120,7 @@ sources:
 
 ### 代表的な録音
 
-- ヴィルヘルム・フルトヴェングラー（Wilhelm Furtwängler）指揮ウィーン・フィル（1944年）。グラモフォン誌のジェイムズ・ジョリーは、葬送行進曲を中心に置いた重い解釈とする。
+- ヴィルヘルム・フルトヴェングラー（Wilhelm Furtwängler）指揮ウィーン・フィル（1944年）。グラモフォン誌のジェイムズ・ジョリー（James Jolly）は、葬送行進曲を中心に置いた重い解釈とする。
 - アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮NBC交響楽団（RCA）。
 - レナード・バーンスタイン（Leonard Bernstein）の1953年の録音（Decca）。
 - オットー・クレンペラー（Otto Klemperer）指揮フィルハーモニア管弦楽団（EMI）。

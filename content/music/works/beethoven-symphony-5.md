@@ -11,23 +11,25 @@ scoring: 2fl, 2ob, 2cl, 2fg, 2hr, 2tp, timp, 弦五部（第4楽章で picc, cfg
 duration: 約33分
 updated: 2026-10-29
 sources:
-  - Jens Dufner, Vorwort / Preface. In: Beethoven, Symphony no. 5 in C minor op. 67, Studien-Edition HN 9813, München: G. Henle, 2014（Beethoven Werke I/3 準拠。スケッチ、筆写者クルンパル、独占期間、初版、第1楽章の5小節の追加、「運命」の呼び名）. https://www.henle.de/media/6b/8a/de/1697725781/9813-1697725781-sync.pdf（閲覧日 2026-10-29）
-  - Jens Dufner, Vorwort / Preface. In: Beethoven, Symphony no. 6 op. 68, Studien-Edition HN 9816, München: G. Henle, 2014（ロプコヴィッツ侯の独占演奏権、筆写譜の経緯）. https://henle.de/media/16/07/1c/1697725838/9816-1697725838-sync.pdf（閲覧日 2026-10-29）
-  - Beethoven Werke, Abteilung I, Band 3, hrsg. von Jens Dufner, München: G. Henle, 2013（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993498713004498 、閲覧日 2026-10-29）
-  - Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 5 (c-Moll) op. 67“（作曲時期、献呈、初版の版番号、関連書簡）. https://www.beethoven.de/en/work/view/6260401733894144（閲覧日 2026-10-29）
-  - Boston University Center for Beethoven Research, „Autographs Online“（第5番自筆譜の所蔵記号）. https://www.bu.edu/beethovencenter/?p=142（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Beethoven concert of 22 December 1808」（演奏会の曲目と状況、ライヒャルトの記述）. https://en.wikipedia.org/wiki/Beethoven_concert_of_22_December_1808（閲覧日 2026-10-29）
-  - Wikipedia（独語版）「5. Sinfonie (Beethoven)」（メトロノーム表記と音価、各楽章の小節数と小節番号、スケルツォの2小節の問題、受容、最初の録音）. https://de.wikipedia.org/wiki/5._Sinfonie_(Beethoven)（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Symphony No. 5 (Beethoven)」（編成、スケルツォの反復をめぐる校訂版と録音、受容、最初の録音）. https://en.wikipedia.org/wiki/Symphony_No._5_(Beethoven)（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「E. T. A. Hoffmann bibliography」（『一般音楽新聞』第12巻40–41号、1810年7月4日・11日）. https://en.wikipedia.org/wiki/E._T._A._Hoffmann_bibliography（閲覧日 2026-10-29）
-  - Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 5“（編成、オッパースドルフ伯宛書簡の引用）. https://www.esm.rochester.edu/beethoven/symphony-no-5/（閲覧日 2026-10-29）
-  - Alexander Lawler, „Symphony No. 5“, The Cleveland Orchestra, Archives / Prometheus Project（ホフマンの評の引用）. https://clevelandorchestra.com/archival-fed/prometheus-project/symphony-5（閲覧日 2026-10-29）
-  - Christoph Schlüren, „Die Beethoven-Editionen Jonathan Del Mars bei Bärenreiter“, [t]akte 2/2018. https://www.takte-online.de/en/publications/detail/artikel/die-beethoven-editionen-jonathan-del-mars-bei-baerenreiter/index.htm（閲覧日 2026-10-29）
-  - Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003（録音日、スケルツォの反復、ブーレーズの先例）. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Carlos Kleiber discography」. https://en.wikipedia.org/wiki/Carlos_Kleiber_discography（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Karajan: Beethoven Symphonies (1963)」. https://en.wikipedia.org/wiki/Karajan:_Beethoven_Symphonies_(1963)（閲覧日 2026-10-29）
-  - „Beethoven's Symphony No 5: a quick guide to essential recordings“, Gramophone, 3 January 2023. https://gramophone.co.uk/articles/beethoven-s-symphony-no-5-a-quick-guide-to-essential-recordings（閲覧日 2026-10-29）
-  - Benjamin Zander, „Beethoven Tempo Markings: A Note from the Conductor“（第1楽章 2分音符＝108）. https://www.benjaminzander.org/uploads/2020/07/Beethoven-Tempo-Markings_-A-Note-from-the-Conductor.pdf（閲覧日 2026-10-29）
+  - "Jens Dufner, Vorwort / Preface. In: Beethoven, Symphony no. 5 in C minor op. 67, Studien-Edition HN 9813, München: G. Henle, 2014（Beethoven Werke I/3 準拠。スケッチ、筆写者クルンパル、独占期間、初版、第1楽章の5小節の追加、「運命」の呼び名）. https://www.henle.de/media/6b/8a/de/1697725781/9813-1697725781-sync.pdf（閲覧日 2026-10-29）"
+  - "Jens Dufner, Vorwort / Preface. In: Beethoven, Symphony no. 6 op. 68, Studien-Edition HN 9816, München: G. Henle, 2014（ロプコヴィッツ侯の独占演奏権、筆写譜の経緯）. https://henle.de/media/16/07/1c/1697725838/9816-1697725838-sync.pdf（閲覧日 2026-10-29）"
+  - "Beethoven Werke, Abteilung I, Band 3, hrsg. von Jens Dufner, München: G. Henle, 2013（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993498713004498 、閲覧日 2026-10-29）"
+  - "Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 5 (c-Moll) op. 67“（作曲時期、献呈、初版の版番号、関連書簡）. https://www.beethoven.de/en/work/view/6260401733894144（閲覧日 2026-10-29）"
+  - "Boston University Center for Beethoven Research, „Autographs Online“（第5番自筆譜の所蔵記号）. https://www.bu.edu/beethovencenter/?p=142（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Beethoven concert of 22 December 1808」（演奏会の曲目と状況、ライヒャルトの記述）. https://en.wikipedia.org/wiki/Beethoven_concert_of_22_December_1808（閲覧日 2026-10-29）"
+  - "Wikipedia（独語版）「5. Sinfonie (Beethoven)」（メトロノーム表記と音価、各楽章の小節数と小節番号、スケルツォの2小節の問題、受容、最初の録音）. https://de.wikipedia.org/wiki/5._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Symphony No. 5 (Beethoven)」（編成、スケルツォの反復をめぐる校訂版と録音、受容、最初の録音）. https://en.wikipedia.org/wiki/Symphony_No._5_(Beethoven)（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「E. T. A. Hoffmann bibliography」（『一般音楽新聞』第12巻40–41号、1810年7月4日・11日）. https://en.wikipedia.org/wiki/E._T._A._Hoffmann_bibliography（閲覧日 2026-10-29）"
+  - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 5“（編成、オッパースドルフ伯宛書簡の引用）. https://www.esm.rochester.edu/beethoven/symphony-no-5/（閲覧日 2026-10-29）"
+  - "Alexander Lawler, „Symphony No. 5“, The Cleveland Orchestra, Archives / Prometheus Project（ホフマンの評の引用）. https://clevelandorchestra.com/archival-fed/prometheus-project/symphony-5（閲覧日 2026-10-29）"
+  - "Christoph Schlüren, „Die Beethoven-Editionen Jonathan Del Mars bei Bärenreiter“, [t]akte 2/2018. https://www.takte-online.de/en/publications/detail/artikel/die-beethoven-editionen-jonathan-del-mars-bei-baerenreiter/index.htm（閲覧日 2026-10-29）"
+  - "Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003（録音日、スケルツォの反復、ブーレーズの先例）. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Carlos Kleiber discography」. https://en.wikipedia.org/wiki/Carlos_Kleiber_discography（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Karajan: Beethoven Symphonies (1963)」. https://en.wikipedia.org/wiki/Karajan:_Beethoven_Symphonies_(1963)（閲覧日 2026-10-29）"
+  - "„Beethoven's Symphony No 5: a quick guide to essential recordings“, Gramophone, 3 January 2023. https://gramophone.co.uk/articles/beethoven-s-symphony-no-5-a-quick-guide-to-essential-recordings（閲覧日 2026-10-29）"
+  - "Benjamin Zander, „Beethoven Tempo Markings: A Note from the Conductor“（第1楽章 2分音符＝108）. https://www.benjaminzander.org/uploads/2020/07/Beethoven-Tempo-Markings_-A-Note-from-the-Conductor.pdf（閲覧日 2026-10-29）"
+  - "LSO listening guide, „Beethoven Symphony No 5“（各楽章の性格、第2楽章のハ長調への転調、第3楽章の題とトリオ）. https://lso.shorthandstories.com/beethoven-symphony-no-5-listening-guide/index.html（閲覧日 2026-10-29）"
+  - "Lewis Lockwood / Alan Gosman (eds.), Beethoven's „Eroica“ Sketchbook: A Critical Edition, Urbana: University of Illinois Press, 2013（出版社の書誌頁でランツベルク6の内容を確認）. https://www.press.uillinois.edu/books/?id=c037436（閲覧日 2026-10-29）"
 ---
 
 ## 成立

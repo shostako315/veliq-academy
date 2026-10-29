@@ -11,21 +11,21 @@ scoring: 1fl, 2ob, 2cl, 2fg, 2hr, 2tp, timp, 弦五部
 duration: 約33分
 updated: 2026-10-29
 sources:
-  - Bathia Churgin, Comments. In: Beethoven, Symphony no. 4 in B-flat major op. 60, Studien-Edition HN 9811, München: G. Henle, 2016（自筆譜の所蔵と性格、初版、校訂上の問題と小節番号、速度表示の変遷）. https://www.henle.de/media/7a/c9/4a/1697725610/9811-1697725610-sync.pdf（閲覧日 2026-10-29）
-  - Beethoven Werke, Abteilung I, Band 2: Symphonien II, hrsg. von Bathia Churgin, München: G. Henle, 2013（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993498611904498 、閲覧日 2026-10-29）
-  - Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 4 (B-Dur) op. 60“（初演の告知、献呈の経緯、初版の版番号、関連書簡）. https://www.beethoven.de/en/work/view/5424910335737856（閲覧日 2026-10-29）
-  - Boston University Center for Beethoven Research, „Autographs Online“（第4番自筆譜の所蔵記号）. https://www.bu.edu/beethovencenter/?p=142（閲覧日 2026-10-29）
-  - Marc Mandel, Program note „Beethoven: Symphony No. 4“, Boston Symphony Orchestra. https://www.bso.org/works/symphony-no-4（閲覧日 2026-10-29）
-  - Malte Lohmann, „Irresistible Summer Symphony“, Lucerne Festival Magazine（英訳 Thomas May）. https://www.lucernefestival.ch/en/magazine/irresistible-summer-symphony/415（閲覧日 2026-10-29）
-  - Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 4“. https://www.esm.rochester.edu/beethoven/?p=22（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Symphony No. 4 (Beethoven)」（各楽章の小節数、出版、受容、録音一覧）. https://en.wikipedia.org/wiki/Symphony_No._4_(Beethoven)（閲覧日 2026-10-29）
-  - Wikipedia（独語版）「4. Sinfonie (Beethoven)」（公開初演の日付、シューマンの言葉）. https://de.wikipedia.org/wiki/4._Sinfonie_(Beethoven)（閲覧日 2026-10-29）
-  - Kenneth Woods（blog）, „What do you do when Beethoven doesn't give you a metronome marking?“（再掲記事, 2012-10-02、第2楽章の音価）. https://kennethwoods.net/blog1/wp-json/wp/v2/posts/4679（閲覧日 2026-10-29）
-  - „Beethoven's Symphony No 4, introduced by Osmo Vänskä“, Gramophone, 6 October 2014. https://gramophone.co.uk/articles/beethoven-s-symphony-no-4-introduced-by-osmo-vanska（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Carlos Kleiber discography」. https://en.wikipedia.org/wiki/Carlos_Kleiber_discography（閲覧日 2026-10-29）
-  - Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）
-  - John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）
-  - Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）
+  - "Bathia Churgin, Comments. In: Beethoven, Symphony no. 4 in B-flat major op. 60, Studien-Edition HN 9811, München: G. Henle, 2016（自筆譜の所蔵と性格、初版、校訂上の問題と小節番号、速度表示の変遷）. https://www.henle.de/media/7a/c9/4a/1697725610/9811-1697725610-sync.pdf（閲覧日 2026-10-29）"
+  - "Beethoven Werke, Abteilung I, Band 2: Symphonien II, hrsg. von Bathia Churgin, München: G. Henle, 2013（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993498611904498 、閲覧日 2026-10-29）"
+  - "Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 4 (B-Dur) op. 60“（初演の告知、献呈の経緯、初版の版番号、関連書簡）. https://www.beethoven.de/en/work/view/5424910335737856（閲覧日 2026-10-29）"
+  - "Boston University Center for Beethoven Research, „Autographs Online“（第4番自筆譜の所蔵記号）. https://www.bu.edu/beethovencenter/?p=142（閲覧日 2026-10-29）"
+  - "Marc Mandel, Program note „Beethoven: Symphony No. 4“, Boston Symphony Orchestra. https://www.bso.org/works/symphony-no-4（閲覧日 2026-10-29）"
+  - "Malte Lohmann, „Irresistible Summer Symphony“, Lucerne Festival Magazine（英訳 Thomas May）. https://www.lucernefestival.ch/en/magazine/irresistible-summer-symphony/415（閲覧日 2026-10-29）"
+  - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 4“. https://www.esm.rochester.edu/beethoven/?p=22（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Symphony No. 4 (Beethoven)」（各楽章の小節数、出版、受容、録音一覧）. https://en.wikipedia.org/wiki/Symphony_No._4_(Beethoven)（閲覧日 2026-10-29）"
+  - "Wikipedia（独語版）「4. Sinfonie (Beethoven)」（公開初演の日付、シューマンの言葉）. https://de.wikipedia.org/wiki/4._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
+  - "Kenneth Woods（blog）, „What do you do when Beethoven doesn't give you a metronome marking?“（再掲記事, 2012-10-02、第2楽章の音価）. https://kennethwoods.net/blog1/wp-json/wp/v2/posts/4679（閲覧日 2026-10-29）"
+  - "„Beethoven's Symphony No 4, introduced by Osmo Vänskä“, Gramophone, 6 October 2014. https://gramophone.co.uk/articles/beethoven-s-symphony-no-4-introduced-by-osmo-vanska（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Carlos Kleiber discography」. https://en.wikipedia.org/wiki/Carlos_Kleiber_discography（閲覧日 2026-10-29）"
+  - "Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）"
+  - "John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）"
+  - "Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）"
 ---
 
 ## 成立
@@ -48,13 +48,13 @@ sources:
 
 ### 出版
 
-ベートーヴェンは1807年7月23日より前に、総譜をウィーンの美術工芸社（Bureau des Arts et d'Industrie）に送った。初版のパート譜は同社から出された（版番号596）。チャーギンは、この初版を1808年頃とする従来の推定には問題があるとし、最初の告知が1809年4月の『一般音楽新聞』に出たことを挙げている（英語版Wikipediaは1809年3月とする）。同社は1810年5月に弦楽五重奏への編曲も出した。総譜はボンのジムロック（Simrock）から出版された（版番号2078）。
+ベートーヴェンは1807年7月23日より前に、総譜をウィーンの美術工芸社（Bureau des Arts et d'Industrie）に送った。初版のパート譜は同社から出された（版番号596）。新全集版の校訂者バティア・チャーギン（Bathia Churgin）は、この初版を1808年頃とする従来の推定には問題があるとし、最初の告知が1809年4月の『一般音楽新聞』に出たことを挙げている（英語版Wikipediaは1809年3月とする）。同社は1810年5月に弦楽五重奏への編曲も出した。総譜はボンのジムロック（Simrock）から出版された（版番号2078）。
 
 英語版Wikipediaによれば、美術工芸社はこの交響曲を含む数曲の権利に1500グルデンを支払った。
 
 ### 自筆総譜
 
-自筆総譜はベルリン国立図書館（音楽部門・メンデルスゾーン文庫）にある（所蔵記号 Mus. ms. autogr. Beethoven Mendelssohn-Stiftung 12）。新全集版の校訂者バティア・チャーギン（Bathia Churgin）によれば、ベートーヴェンの交響曲で現存する最も早い自筆総譜である。自筆譜には「tutti」「solo」の書き込みがあり、チャーギンはこれを1821年4月29日のウィーン楽友協会のオーケストラによる演奏のためのものとみている。
+自筆総譜はベルリン国立図書館（音楽部門・メンデルスゾーン文庫）にある（所蔵記号 Mus. ms. autogr. Beethoven Mendelssohn-Stiftung 12）。チャーギンによれば、ベートーヴェンの交響曲で現存する最も早い自筆総譜である。自筆譜には「tutti」「solo」の書き込みがあり、チャーギンはこれを1821年4月29日のウィーン楽友協会のオーケストラによる演奏のためのものとみている。
 
 ## 編成と演奏時間
 
@@ -121,7 +121,7 @@ sources:
 - オットー・クレンペラー（Otto Klemperer）（1957年）、ピエール・モントゥー（Pierre Monteux）（1959年）、ヘルマン・シェルヘン（Hermann Scherchen）（1958年）、ルネ・レイボヴィッツ（René Leibowitz）（1961年）。英語版Wikipediaの一覧は、シェルヘンとレイボヴィッツを、後のピリオド楽器の演奏と同じ「歴史的知見に基づく演奏」の項に置いている。
 - ヘルベルト・フォン・カラヤン（Herbert von Karajan）指揮ベルリン・フィル（1961〜62年録音の全集）。
 - カルロス・クライバー（Carlos Kleiber）指揮バイエルン国立管弦楽団（1982年5月3日、ライヴ、Orfeo）。同じ指揮者にはアムステルダム・コンセルトヘボウ管弦楽団との1983年10月のライヴ映像もある。
-- クリストファー・ホグウッド（Christopher Hogwood）（1986年）、ロジャー・ノリントン（Roger Norrington）（1988年）、フランス・ブリュッヘン（Frans Brüggen）（1991年）、ジョン・エリオット・ガーディナー（John Eliot Gardiner）（1994年）。いずれも当時の楽器による。ジョン・クインはノリントンの第2楽章が、アーノンクールやガーディナーより少なくとも1分半速いと書いている。
+- クリストファー・ホグウッド（Christopher Hogwood）（1986年）、ロジャー・ノリントン（Roger Norrington）（1988年）、フランス・ブリュッヘン（Frans Brüggen）（1991年）、ジョン・エリオット・ガーディナー（John Eliot Gardiner）（1994年）。いずれも当時の楽器による。ジョン・クイン（John Quinn）はノリントンの第2楽章が、アーノンクールやガーディナーより少なくとも1分半速いと書いている。
 - ニコラウス・アーノンクール（Nikolaus Harnoncourt）指揮ヨーロッパ室内管弦楽団（1990年6月29日、グラーツでのライヴ録音、テルデック）、チャールズ・マッケラス（Charles Mackerras）（2007年）。現代楽器にピリオド奏法の考え方を取り入れた演奏。
 - レナード・バーンスタイン（Leonard Bernstein）（1980年）、クラウディオ・アバド（Claudio Abbado）（2000年）、ベルナルト・ハイティンク（Bernard Haitink）（2006年）。
 

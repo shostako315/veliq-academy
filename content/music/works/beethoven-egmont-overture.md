@@ -12,21 +12,21 @@ duration: 約9分
 concert: vo-vol3-2027-03
 updated: 2026-10-29
 sources:
-  - Ernst Herttrich, Preface. In: Beethoven, Music to Goethe's tragedy „Egmont“ op. 84, Studien-Edition HN 9043, München: G. Henle, 2016（Beethoven Werke IX/7, hrsg. von Helmut Hell, 1998 準拠。依頼、初演、出版の経過、ゲーテとの関係、資料）. https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf（閲覧日 2026-10-29）
-  - Beethoven-Haus Bonn, Digital Archive, Werk „Musik zu Goethes Trauerspiel ‚Egmont‘ op. 84“（作曲時期、依頼の経緯、曲目一覧、スケッチ、初版の版番号、関連書簡）. https://www.beethoven.de/en/work/view/6262639948726272（閲覧日 2026-10-29）
-  - Boston University Center for Beethoven Research, „Autographs Online“（自筆譜の所蔵記号）. https://www.bu.edu/beethovencenter/?p=142（閲覧日 2026-10-29）
-  - Hal Leonard, „Egmont“ Overture Op. 84, Henle Study Scores（HN 9043）商品頁（校訂者、劇場の依頼、報酬についての作曲者の言葉）. https://www.halleonard.com/product/51489043/egmont-overture-op-84（閲覧日 2026-10-29）
-  - Los Angeles Philharmonic, Music Database, „Egmont Overture“（編成、演奏時間、楽曲解説）. https://www.laphil.com/musicdb/pieces/321/egmont-overture（閲覧日 2026-10-29）
-  - Brandon Hill Chamber Orchestra, „Beethoven: Egmont Overture“（序奏のサラバンドのリズム、拍子、展開部、再現部の終わり）. https://www.bhso.org.uk/work/beethoven-egmont-overture/（閲覧日 2026-10-29）
-  - Richard Thompson, Program note „Egmont Overture“, CODA（Brandon Hill Chamber Orchestra 提供, 2021）. https://codaweb.org/?p=3275（閲覧日 2026-10-29）
-  - UC Davis Arts, „Beethoven: ‚Egmont‘ Overture, op. 84“（冒頭のユニゾン、主題の関係、コーダの楽器）. https://arts.ucdavis.edu/post/beethoven-egmont-overture-op-84（閲覧日 2026-10-29）
-  - John Newman, Programme notes, St. Cecilia Orchestra, University of Alberta, 24 March 1985（拍子と劇中の場面との対応）. https://era.library.ualberta.ca/items/3aa2f79d-f8e5-4696-bff3-20f81c7fd926/download/1df30cf1-c0c9-46be-a341-c689dc06218a（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Egmont (Beethoven)」（作曲期間、初演日、アダムベルガー、受容）. https://en.wikipedia.org/wiki/Egmont_(Beethoven)（閲覧日 2026-10-29）
-  - IMSLP, „Egmont, Op.84 (Beethoven, Ludwig van)“（パート譜の構成、刊本一覧）. https://imslp.org/wiki/Egmont,%20Op.84%20(Beethoven,%20Ludwig%20van)（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Otto Klemperer discography」. https://en.wikipedia.org/wiki/Otto_Klemperer_discography（閲覧日 2026-10-29）
-  - Richard Osborne, Review: Beethoven, Egmont Incidental Music / The Consecration of the House, Orchester Wiener Akademie / Haselböck（Alpha 472）, Gramophone, September 2016. https://www.gramophone.co.uk/review/beethoven-egmont-incidental-music-the-consecration-of-the-house（閲覧日 2026-10-29）
-  - Elusive Disc, Beethoven: Egmont (Complete), Decca / Speakers Corner LP 商品頁（ローレンガー、ヴソウの参加）. https://elusivedisc.com/beethoven-egmont-complete-decca-180g-lp/（閲覧日 2026-10-29）
-  - Raygum, „Egmont: Complete Incidental Music“（セル指揮ウィーン・フィル、ローレンガー、ヴソウ）. https://raygum.com/releases/vdKeDAuyvTPa/egmont-complete-incidental-music（閲覧日 2026-10-29）
+  - "Ernst Herttrich, Preface. In: Beethoven, Music to Goethe's tragedy „Egmont“ op. 84, Studien-Edition HN 9043, München: G. Henle, 2016（Beethoven Werke IX/7, hrsg. von Helmut Hell, 1998 準拠。依頼、初演、出版の経過、ゲーテとの関係、資料）. https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf（閲覧日 2026-10-29）"
+  - "Beethoven-Haus Bonn, Digital Archive, Werk „Musik zu Goethes Trauerspiel ‚Egmont‘ op. 84“（作曲時期、依頼の経緯、曲目一覧、スケッチ、初版の版番号、関連書簡）. https://www.beethoven.de/en/work/view/6262639948726272（閲覧日 2026-10-29）"
+  - "Boston University Center for Beethoven Research, „Autographs Online“（自筆譜の所蔵記号）. https://www.bu.edu/beethovencenter/?p=142（閲覧日 2026-10-29）"
+  - "Hal Leonard, „Egmont“ Overture Op. 84, Henle Study Scores（HN 9043）商品頁（校訂者、劇場の依頼、報酬についての作曲者の言葉）. https://www.halleonard.com/product/51489043/egmont-overture-op-84（閲覧日 2026-10-29）"
+  - "Los Angeles Philharmonic, Music Database, „Egmont Overture“（編成、演奏時間、楽曲解説）. https://www.laphil.com/musicdb/pieces/321/egmont-overture（閲覧日 2026-10-29）"
+  - "Brandon Hill Chamber Orchestra, „Beethoven: Egmont Overture“（序奏のサラバンドのリズム、拍子、展開部、再現部の終わり）. https://www.bhso.org.uk/work/beethoven-egmont-overture/（閲覧日 2026-10-29）"
+  - "Richard Thompson, Program note „Egmont Overture“, CODA（Brandon Hill Chamber Orchestra 提供, 2021）. https://codaweb.org/?p=3275（閲覧日 2026-10-29）"
+  - "UC Davis Arts, „Beethoven: ‚Egmont‘ Overture, op. 84“（冒頭のユニゾン、主題の関係、コーダの楽器）. https://arts.ucdavis.edu/post/beethoven-egmont-overture-op-84（閲覧日 2026-10-29）"
+  - "John Newman, Programme notes, St. Cecilia Orchestra, University of Alberta, 24 March 1985（拍子と劇中の場面との対応）. https://era.library.ualberta.ca/items/3aa2f79d-f8e5-4696-bff3-20f81c7fd926/download/1df30cf1-c0c9-46be-a341-c689dc06218a（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Egmont (Beethoven)」（作曲期間、初演日、アダムベルガー、受容）. https://en.wikipedia.org/wiki/Egmont_(Beethoven)（閲覧日 2026-10-29）"
+  - "IMSLP, „Egmont, Op.84 (Beethoven, Ludwig van)“（パート譜の構成、刊本一覧）. https://imslp.org/wiki/Egmont,%20Op.84%20(Beethoven,%20Ludwig%20van)（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Otto Klemperer discography」. https://en.wikipedia.org/wiki/Otto_Klemperer_discography（閲覧日 2026-10-29）"
+  - "Richard Osborne, Review: Beethoven, Egmont Incidental Music / The Consecration of the House, Orchester Wiener Akademie / Haselböck（Alpha 472）, Gramophone, September 2016. https://www.gramophone.co.uk/review/beethoven-egmont-incidental-music-the-consecration-of-the-house（閲覧日 2026-10-29）"
+  - "Elusive Disc, Beethoven: Egmont (Complete), Decca / Speakers Corner LP 商品頁（ローレンガー、ヴソウの参加）. https://elusivedisc.com/beethoven-egmont-complete-decca-180g-lp/（閲覧日 2026-10-29）"
+  - "Raygum, „Egmont: Complete Incidental Music“（セル指揮ウィーン・フィル、ローレンガー、ヴソウ）. https://raygum.com/releases/vdKeDAuyvTPa/egmont-complete-incidental-music（閲覧日 2026-10-29）"
 ---
 
 ## 成立
@@ -121,7 +121,7 @@ E・T・A・ホフマン（E. T. A. Hoffmann）は、この付随音楽の詩的
 
 - オットー・クレンペラー（Otto Klemperer）指揮ベルリン国立歌劇場管弦楽団（シュターツカペレ・ベルリン）（1927年）。
 - ジョージ・セル（George Szell）指揮ウィーン・フィルによる付随音楽全曲（Decca）。ピラール・ローレンガー（Pilar Lorengar）が歌い、ブルク劇場の俳優クラウスユルゲン・ヴソウ（Klausjürgen Wussow）が語りを務める。
-- マルティン・ハーゼルベック（Martin Haselböck）指揮ウィーン・アカデミー管弦楽団による付随音楽全曲（Alpha 472）。当時の楽器による演奏で、クリストファー・ハンプトン（Christopher Hampton）による英語の語りをジョン・マルコヴィッチ（John Malkovich）が務め、クレールヒェンの歌をベルナルダ・ボブロ（Bernarda Bobro）が歌う。リチャード・オズボーンが2016年9月のグラモフォン誌で評した。
+- マルティン・ハーゼルベック（Martin Haselböck）指揮ウィーン・アカデミー管弦楽団による付随音楽全曲（Alpha 472）。当時の楽器による演奏で、クリストファー・ハンプトン（Christopher Hampton）による英語の語りをジョン・マルコヴィッチ（John Malkovich）が務め、クレールヒェンの歌をベルナルダ・ボブロ（Bernarda Bobro）が歌う。リチャード・オズボーン（Richard Osborne）が2016年9月のグラモフォン誌で評した。
 
 付随音楽の全曲録音では、劇の筋を補う語りを入れるかどうか、どの言語で入れるかが演奏ごとに異なる。英語版Wikipediaは、語り手は劇の上演では用いられず、録音によっては省かれると記している。
 

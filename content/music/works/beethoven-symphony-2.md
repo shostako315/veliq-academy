@@ -11,19 +11,19 @@ scoring: 2fl, 2ob, 2cl, 2fg, 2hr, 2tp, timp, 弦五部（tp と timp は第2楽�
 duration: 約33分
 updated: 2026-10-29
 sources:
-  - Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 2 (D-Dur) op. 36“（作曲時期、初演、献呈、初版の版番号、関連書簡、自筆譜の消失）. https://www.beethoven.de/en/work/view/5208277017165824（閲覧日 2026-10-29）
-  - Armin Raab, Preface. In: Beethoven, Symphony no. 2 in D major op. 36, Studien-Edition HN 9802, München: G. Henle, 2019（成立、自筆譜の消失とリースの証言、初版、ピアノ三重奏編曲、スケルツォ第88小節の訂正、メトロノーム表記）. https://www.henle.de/media/59/80/94/1697725884/9802-1697725884-sync.pdf（閲覧日 2026-10-29）
-  - Beethoven Werke, Abteilung I, Band 1, hrsg. von Armin Raab, München: G. Henle, 1994（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993489808604498 、閲覧日 2026-10-29）
-  - Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 2“（初演、各楽章の速度表示と数値、ヴェーゲラー宛書簡、同時代評）. https://www.esm.rochester.edu/beethoven/symphony-no-2/（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Symphony No. 2 (Beethoven)」（第1楽章の小節割り、編成、編曲、楽章の形式）. https://en.wikipedia.org/wiki/Symphony_No._2_(Beethoven)（閲覧日 2026-10-29）
-  - Wikipedia（独語版）「2. Sinfonie (Beethoven)」（典拠 Armin Raab in: Renate Ulm (Hg.), Die 9 Symphonien Beethovens, 1994; Beethoven, Briefwechsel Gesamtausgabe, hrsg. von Sieghard Brandenburg, Bd. 1, München 1996, S. 89）. https://de.wikipedia.org/wiki/2._Sinfonie_(Beethoven)（閲覧日 2026-10-29）
-  - „Beethoven's Symphony No 2, introduced by David Zinman“, interview by Michael McManus, Gramophone, 22 September 2014. https://gramophone.co.uk/feature/beethovens-symphony-no-2-introduced-by-david-zinman（閲覧日 2026-10-29）
-  - Kenneth Woods（blog）, „What do you do when Beethoven doesn't give you a metronome marking?“（再掲記事, 2012-10-02、第2番の各楽章の音価）. https://kennethwoods.net/blog1/wp-json/wp/v2/posts/4679（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Karajan: Beethoven Symphonies (1963)」（録音期間 1961年12月〜1962年11月）. https://en.wikipedia.org/wiki/Karajan:_Beethoven_Symphonies_(1963)（閲覧日 2026-10-29）
-  - John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington（Virgin Classics）, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）
-  - Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）
-  - Pristine Classical, PABX029: Toscanini, Beethoven – The Symphonies (1948–53). https://pristineclassical.com/products/pabx029（閲覧日 2026-10-29）
-  - Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）
+  - "Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 2 (D-Dur) op. 36“（作曲時期、初演、献呈、初版の版番号、関連書簡、自筆譜の消失）. https://www.beethoven.de/en/work/view/5208277017165824（閲覧日 2026-10-29）"
+  - "Armin Raab, Preface. In: Beethoven, Symphony no. 2 in D major op. 36, Studien-Edition HN 9802, München: G. Henle, 2019（成立、自筆譜の消失とリースの証言、初版、ピアノ三重奏編曲、スケルツォ第88小節の訂正、メトロノーム表記）. https://www.henle.de/media/59/80/94/1697725884/9802-1697725884-sync.pdf（閲覧日 2026-10-29）"
+  - "Beethoven Werke, Abteilung I, Band 1, hrsg. von Armin Raab, München: G. Henle, 1994（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993489808604498 、閲覧日 2026-10-29）"
+  - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 2“（初演、各楽章の速度表示と数値、ヴェーゲラー宛書簡、同時代評）. https://www.esm.rochester.edu/beethoven/symphony-no-2/（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Symphony No. 2 (Beethoven)」（第1楽章の小節割り、編成、編曲、楽章の形式）. https://en.wikipedia.org/wiki/Symphony_No._2_(Beethoven)（閲覧日 2026-10-29）"
+  - "Wikipedia（独語版）「2. Sinfonie (Beethoven)」（典拠 Armin Raab in: Renate Ulm (Hg.), Die 9 Symphonien Beethovens, 1994; Beethoven, Briefwechsel Gesamtausgabe, hrsg. von Sieghard Brandenburg, Bd. 1, München 1996, S. 89）. https://de.wikipedia.org/wiki/2._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
+  - "„Beethoven's Symphony No 2, introduced by David Zinman“, interview by Michael McManus, Gramophone, 22 September 2014. https://gramophone.co.uk/feature/beethovens-symphony-no-2-introduced-by-david-zinman（閲覧日 2026-10-29）"
+  - "Kenneth Woods（blog）, „What do you do when Beethoven doesn't give you a metronome marking?“（再掲記事, 2012-10-02、第2番の各楽章の音価）. https://kennethwoods.net/blog1/wp-json/wp/v2/posts/4679（閲覧日 2026-10-29）"
+  - "Wikipedia（英語版）「Karajan: Beethoven Symphonies (1963)」（録音期間 1961年12月〜1962年11月）. https://en.wikipedia.org/wiki/Karajan:_Beethoven_Symphonies_(1963)（閲覧日 2026-10-29）"
+  - "John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington（Virgin Classics）, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）"
+  - "Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）"
+  - "Pristine Classical, PABX029: Toscanini, Beethoven – The Symphonies (1948–53). https://pristineclassical.com/products/pabx029（閲覧日 2026-10-29）"
+  - "Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）"
 ---
 
 ## 成立
