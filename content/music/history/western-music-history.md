@@ -18,6 +18,7 @@ sources:
   - 'Henle Blog「A milestone in music history: Schoenberg''s 2nd String Quartet op. 10」2022-04-25 https://blog.henle.de/en/2022/04/25/a-milestone-in-music-history-schoenbergs-2nd-string-quartet-op-10/ 閲覧日 2026-10-29'
   - 'James S. Murphy, The Paris Review blog（《春の祭典》初演100年） https://www.theparisreview.org/blog/?p=55981 閲覧日 2026-10-29'
   - 'BBC Music Magazine（classical-music.com）「What is the point of John Cage''s 4''33"?」 https://www.classical-music.com/features/works/what-is-the-point-of-john-cage-433 閲覧日 2026-10-29'
+  - 'BBC Music Magazine（classical-music.com）「Who were The Mighty Handful?」 https://www.classical-music.com/features/composers/mighty-handful-five-composers 閲覧日 2026-10-29'
   - 'Wikipedia（英語版）「Music of ancient Greece」「Pythagorean tuning」「Tetrachord」「Aristoxenus」「Delphic Hymns」「Seikilos epitaph」「De institutione musica」「Gregorian chant」「Neume」「Guido of Arezzo」「Musica enchiriadis」「Pérotin」「Rhythmic mode」「Ars nova」「Guillaume de Machaut」「John Dunstaple」「Guillaume Du Fay」「Nuper rosarum flores」「Johannes Ockeghem」「Josquin des Prez」「Harmonice Musices Odhecaton」「Giovanni Pierluigi da Palestrina」「Missa Papae Marcelli」「Florentine Camerata」「Euridice (Peri)」「Le nuove musiche」「Lodovico Grossi da Viadana」「Figured bass」「Giovanni Artusi」「L''Orfeo」「Vespro della Beata Vergine」「Arcangelo Corelli」「The Four Seasons (Vivaldi)」「Traité de l''harmonie réduite à ses principes naturels」「Johann Sebastian Bach」「Bach-Werke-Verzeichnis」「Brandenburg Concertos」「The Well-Tempered Clavier」「St Matthew Passion」「George Frideric Handel」「Messiah (Handel)」「Mannheim school」「Sonata form」「Joseph Haydn」「Hoboken catalogue」「String Quartets, Op. 33 (Haydn)」「London symphonies」「Wolfgang Amadeus Mozart」「Köchel catalogue」「Don Giovanni」「Symphony No. 41 (Mozart)」「Ludwig van Beethoven」「List of works by Ludwig van Beethoven」「Erlkönig (Schubert)」「Symphonie fantastique」「Symphonic poem」「War of the Romantics」「Der Ring des Nibelungen」「Tristan chord」「A Life for the Tsar」「The Five (composers)」「Má vlast」「Symphony No. 9 (Dvořák)」「Finlandia」「Prélude à l''après-midi d''un faune」「Drei Klavierstücke (Schoenberg)」「Pierrot lunaire」「The Rite of Spring」「Twelve-tone technique」「Suite for Piano (Schoenberg)」「Neoclassicism (music)」「Wozzeck」「Symphony (Webern)」「Quatre Études de rythme」「Darmstadt School」「4′33″」「Atmosphères」「Threnody to the Victims of Hiroshima」「November Steps」「In C」「It''s Gonna Rain」「Minimal music」「Music for 18 Musicians」「Einstein on the Beach」「Spectral music」「Partiels」「Tintinnabuli」 閲覧日 2026-10-29'
 ---
 
@@ -163,7 +164,7 @@ sources:
 ### 器楽と和声理論
 
 - **コレッリ**（Arcangelo Corelli, 1653–1713）：《ヴァイオリン・ソナタ集》作品5（ローマ, 1700年）は教会ソナタ6曲と室内ソナタ6曲からなり、終曲は《ラ・フォリア》の変奏である。《合奏協奏曲集》作品6（12曲）は没後の1714年にアムステルダムのロジェ（Estienne Roger）から出版された。2つのヴァイオリンとチェロの独奏群（コンチェルティーノ）と弦楽合奏（リピエーノ）を対置する。
-- **ヴィヴァルディ**（Antonio Vivaldi）：《四季》は1718〜23年頃の作で、1725年にアムステルダムで12曲の協奏曲集《和声と創意の試み》（Il cimento dell'armonia e dell'inventione）作品8の一部として出版された。各曲にソネットが付く。
+- **ヴィヴァルディ**（Antonio Vivaldi）：《四季》は1718〜23年頃の作で、1725年にアムステルダムで12曲の協奏曲集《和声と創意の試み》（Il cimento dell'armonia e dell'inventione）の一部として出版された。各曲にソネットが付く。
 - **ラモー**（Jean-Philippe Rameau）：『和声論』（Traité de l'harmonie réduite à ses principes naturels, パリ, 1722年）で、和音を支える「基礎低音」（basse fondamentale）と和音の転回の考えを示した。
 
 ### J. S. バッハ
@@ -221,7 +222,7 @@ sources:
 
 - 《フィガロの結婚》K. 492（1786年、ウィーン）、《ドン・ジョヴァンニ》K. 527（1787年10月29日、プラハの国民劇場、現エステート劇場）：台本はいずれもダ・ポンテ（Lorenzo Da Ponte）。
 - 交響曲第39番 K. 543、第40番 K. 550、第41番 K. 551：1788年夏に書かれた。第41番は1788年8月10日に完成した。終楽章では5つの主題がフガートで組み合わされる。通称は《ジュピター》である。
-- 《レクイエム》K. 626：未完のまま残され、弟子のジュスマイヤー（Franz Xaver Süssmayr）が補筆した。
+- 《レクイエム》K. 626：作曲者の死の時点で大部分が未完であった。
 
 ### ベートーヴェン
 
