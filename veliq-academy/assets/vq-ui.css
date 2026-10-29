@@ -172,7 +172,7 @@ h1,h2,h3,h4{word-break:auto-phrase;text-wrap:balance;overflow-wrap:break-word}
 @media(max-width:640px){.va-main .wrap{padding:0 18px}.va-main{padding-bottom:64px}}
 .va-art{max-width:720px}
 .gh .gnav a{display:inline-flex;align-items:center;min-height:44px}
-.gh .brand{display:inline-flex!important;align-items:center;min-height:44px}
+.gh .brand{display:inline-block!important;line-height:44px!important}
 .gh .gnav a.pill{min-height:36px}
 
 /* パンくず */
@@ -182,6 +182,7 @@ h1,h2,h3,h4{word-break:auto-phrase;text-wrap:balance;overflow-wrap:break-word}
 .va-bc a{display:inline-flex;align-items:center;min-height:44px;color:var(--ink-3);text-decoration:none}
 .va-bc a:hover{color:var(--ink);text-decoration:underline}
 .va-bc [aria-current]{padding:12px 0;color:var(--ink-3)}
+@media(max-width:640px){.va-bc li:last-child{display:none}}
 
 /* 題名 */
 .va-hd{padding:16px 0 8px}

@@ -474,7 +474,8 @@ def tail(S, path, sources, related, events, quiz):
     h = ""
     if sources:
         h += sec("出典", '<ol class="va-src">' + "".join(f"<li>{esc(s)}</li>" for s in sources) + "</ol>")
-    h += f'<p class="va-sup">監修：{SUPERVISOR}（{SUPERVISOR_ROLE}）</p>'
+        # 監修の表示は、出典つきで書いた記事だけ（データだけのページは未検証の文を含むため）
+        h += f'<p class="va-sup">監修：{SUPERVISOR}（{SUPERVISOR_ROLE}）</p>'
     for t, items in related:
         h += sec(t, rows(items))
     if events:
@@ -931,7 +932,7 @@ def build_legacy(S):
           "(function(){var M=" + json.dumps(m, ensure_ascii=False, separators=(",", ":")) + ";\n"
           "var h=(location.hash||'').replace(/^#!?/,'');if(h.charAt(0)!=='/')return;\n"
           "h=h.split('?')[0].replace(/\\/+$/,'')||'/';var t=M[h];\n"
-          "if(!t){var p=h.split('/');t=M['/'+p[1]]||'/music/';}\n"
+          "if(!t){var p=h.split('/');t=M['/'+p[1]];}\n"
           "if(t&&t!==location.pathname)location.replace(t);})();\n")
     (OUT / "assets" / "legacy.js").write_text(js, encoding="utf-8")
     return m
