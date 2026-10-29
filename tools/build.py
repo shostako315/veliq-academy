@@ -597,7 +597,7 @@ def build_work(S, wid):
         comp["alternateName"] = sub
     ld = [article_ld(v["title"], v["desc"], v["path"], v["updated"], {"@id": url_of(v["path"]) + "#work"}), bld,
           dict(comp, **{"@id": url_of(v["path"]) + "#work"})]
-    page(S, v["path"], f'{S.short(c)} {v["title"]}' if c else v["title"], v["desc"] or v["title"],
+    page(S, v["path"], f'{S.short(c)} {v["title"]}' if c and not v["title"].startswith(S.short(c)) else v["title"], v["desc"] or v["title"],
          bc + f'<article class="va-art">{hd}{meta}{body}{t}</article>', ld, "works", v["updated"])
 
 
