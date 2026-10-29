@@ -18,4 +18,4 @@
 
 ## 運営
 - [プライバシーポリシー](https://veliq-academy.com/privacy.html): 学習の記録はブラウザのlocalStorageにのみ保存し、運営者には送信しません
-- 姉妹サイト: [VELIQ](https://veliq.jp/) / [Veliq Club](https://veliq-club.com/)
+- 姉妹サイト: [VELIQ](https://veliq.jp/) / [Veliq Club](https://veliqclub.com/)
