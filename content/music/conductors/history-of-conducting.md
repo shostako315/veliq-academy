@@ -129,7 +129,7 @@ sources:
 - **アーノンクール**（Nikolaus Harnoncourt, 1929–2016）：1952〜69年にウィーン交響楽団のチェロ奏者。1953年に妻アリス（Alice Hoffelner）とウィーン・コンツェントゥス・ムジクスを創設した。レオンハルト（Gustav Leonhardt）と分担したバッハの教会カンタータ全集の録音（テルデック）は1971年に始まり、1990年に完結した。著書『音楽は言葉である』（Musik als Klangrede, 1982）。2001年と2003年にウィーン・フィルのニューイヤーコンサートを指揮した。
 - **ホグウッド**（Christopher Hogwood）：1973年にアカデミー・オブ・エンシェント・ミュージックを再興した。同団はモーツァルトの交響曲全曲をピリオド楽器で録音した最初のオーケストラである。
 - **ガーディナー**（John Eliot Gardiner, 1943年生）：1964年にモンテヴェルディ合唱団を創設し、1968年にモンテヴェルディ管弦楽団を組んだ。ピリオド楽器のイングリッシュ・バロック・ソロイスツは1977年に最初の公開演奏を行い、オルケストル・レヴォリュショネル・エ・ロマンティークは1990年に初めて公の場に出た。2000年にはバッハ・カンタータ巡礼を行った。[（Monteverdi Choir & Orchestras）](https://monteverdi.co.uk/a-brief-history)
-- **ノリントン**（Roger Norrington, 1934–2025）：1978年にロンドン・クラシカル・プレイヤーズを創設。ベートーヴェンの交響曲でメトロノーム表示に厳格に従い、表示は誤りだとする見方を退けた。1998〜2011年にシュトゥットガルト放送交響楽団の首席指揮者を務め、ヴィブラートを抑えた、あるいは用いないオーケストラの演奏を主張した。[（The Strad）](https://www.thestrad.com/news/obituary-roger-norrington-1934-2025/19940.article)
+- **ノリントン**（Roger Norrington, 1934–2025）：1978年から1997年までロンドン・クラシカル・プレイヤーズの音楽監督を務めた。ベートーヴェンの交響曲でメトロノーム表示に厳格に従い、表示は誤りだとする見方を退けた。1998〜2011年にシュトゥットガルト放送交響楽団の首席指揮者を務め、ヴィブラートを抑えた、あるいは用いないオーケストラの演奏を主張した。[（The Strad）](https://www.thestrad.com/news/obituary-roger-norrington-1934-2025/19940.article)
 - **ブリュッヘン**（Frans Brüggen, 1934–2014）：1981年にフェルスター（Sieuwert Verster）とともに18世紀オーケストラを創設した。
 
 ホルマンは、19世紀以前の音楽は指揮棒を振る中央の指揮者なしで演奏されるべきだと論じている。[（Early Music America）](https://www.earlymusicamerica.org/web-articles/book-review-providing-musical-motivation-with-or-without-baton/)一方、タラスキン（Richard Taruskin）は『テクストと行為』（Text & Act, 1995）で、これらの演奏は「近代主義的な価値観の願望リスト」を体現したものだと批判した。
