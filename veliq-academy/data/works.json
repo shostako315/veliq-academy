@@ -2,7 +2,7 @@
   {
     "id": "bach-brandenberg",
     "composerId": "bach-js",
-    "title": "ブランデンブルク協奏曲第3番ト長調 BWV1048",
+    "title": "ブランデンブルク協奏曲第3番 ト長調 BWV1048",
     "titleEn": "Brandenburg Concerto No. 3 in G major, BWV 1048",
     "year": 1721,
     "genre": "concerto",
@@ -12,7 +12,7 @@
     "opus": "BWV 1048",
     "duration": 11,
     "difficulty": 2,
-    "shortDescription": "弦楽器のみで構成される華やかなバロック合奏協奏曲。バッハの器楽作品の中でも最も生気に満ちた名作。",
+    "shortDescription": "ヴァイオリン3、ヴィオラ3、チェロ3と通奏低音のための協奏曲。1721年にブランデンブルク辺境伯に献呈された6曲の協奏曲集の第3番。",
     "movements": [
       {
         "number": 1,
@@ -20,10 +20,10 @@
         "tempo": "Allegro",
         "key": "G-major",
         "duration": 5,
-        "description": "3群の弦楽器が対話する活力あふれる楽章。",
+        "description": "リトルネッロ形式による楽章。冒頭の動機が9つのパートの間で受け渡される。",
         "highlights": [
-          "3群の弦の掛け合い",
-          "リトルネッロ形式"
+          "リトルネッロ形式",
+          "9パートによる動機の受け渡し"
         ],
         "youtubeId": null
       },
@@ -33,9 +33,9 @@
         "tempo": "Adagio",
         "key": "e-minor",
         "duration": 1,
-        "description": "わずか2つの和音からなる極めて短い楽章。",
+        "description": "楽譜には2つの和音（フリギア終止）だけが書かれている。演奏ではこの前に即興の短い経過句を加えることがある。",
         "highlights": [
-          "即興的カデンツァ"
+          "フリギア終止"
         ],
         "youtubeId": null
       },
@@ -45,17 +45,16 @@
         "tempo": "Allegro",
         "key": "G-major",
         "duration": 5,
-        "description": "ジーグ風の快活なフィナーレ。",
+        "description": "12/8拍子の2部形式による終楽章。",
         "highlights": [
-          "舞曲風リズム"
+          "12/8拍子",
+          "2部形式"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1721年にブランデンブルク辺境伯クリスティアン・ルートヴィヒに献呈された6曲の協奏曲集の第3番。バッハのケーテン時代の傑作。",
-    "musicalAnalysis": "3群の弦楽器（各ヴァイオリン、ヴィオラ、チェロ）が対等に活躍する合奏協奏曲。バロックの協奏様式の粋を集めた作品。",
-    "emotionalJourney": "明朗→瞑想→歓喜",
-    "businessInsight": "3つの独立したチームが対等に対話しながら一つの目標に向かう——理想的なプロジェクトチームのモデル。",
+    "historicalBackground": "バッハはケーテン宮廷楽長だった1721年3月24日付で、6曲の協奏曲の清書譜をブランデンブルク＝シュヴェート辺境伯クリスティアン・ルートヴィヒ（Christian Ludwig）に献呈した。収められた曲の多くはそれ以前に書かれていたと考えられている。「ブランデンブルク協奏曲」の名は19世紀の伝記作家シュピッタ（Philipp Spitta）による。",
+    "musicalAnalysis": "ヴァイオリン、ヴィオラ、チェロが各3パートに分かれ、通奏低音が加わる。独奏群と合奏の区別はなく、9つのパートが同じ動機を受け渡す。第2楽章は2つの和音（フリギア終止）だけが書かれている。",
     "listeningGuide": {
       "totalTime": "11分",
       "recommendedVersion": "トレヴァー・ピノック指揮 イングリッシュ・コンサート",
@@ -63,7 +62,7 @@
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "3群の弦楽器が一斉に主題を開始"
+          "description": "第1楽章の冒頭。全パートが主題を合奏する"
         }
       ]
     },
@@ -87,41 +86,38 @@
     "title": "ゴルトベルク変奏曲 BWV988",
     "titleEn": "Goldberg Variations, BWV 988",
     "year": 1741,
-    "genre": "piano",
+    "genre": "keyboard",
     "subgenre": "keyboard",
     "era": "baroque",
     "key": "G-major",
     "opus": "BWV 988",
     "duration": 75,
     "difficulty": 4,
-    "shortDescription": "アリアと30の変奏曲からなるバッハのクラヴィーア音楽の最高傑作。知的構築美と深い精神性を兼ね備える。",
+    "shortDescription": "アリアと30の変奏からなる2段鍵盤のチェンバロのための曲。1741年に「クラヴィーア練習曲集」第4部として出版された。",
     "movements": [
       {
         "number": 1,
         "title": "Aria",
-        "tempo": "Andante",
+        "tempo": "",
         "key": "G-major",
         "duration": 4,
-        "description": "全体の基礎となる優美なアリア。",
+        "description": "3/4拍子のアリア。この低音進行と和声が30の変奏の土台になる。",
         "highlights": [
-          "サラバンドのリズム",
-          "32小節の主題"
+          "32小節の低音進行"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "不眠に悩むカイザーリンク伯爵のために書かれたという伝説がある。バッハ晩年の鍵盤作品。",
-    "musicalAnalysis": "32小節の低音主題に基づく30の変奏。3の倍数ごとに1度から9度までのカノンが配置され、第30変奏はカノンではなくクオドリベットで締めくくられる壮大な知的建築。",
-    "emotionalJourney": "静寂→多彩な展開→原点回帰",
-    "businessInsight": "一つのテーマから30の全く異なるバリエーションを生み出す——「一つの核心アイデアの無限の展開力」を体現。",
+    "historicalBackground": "1741年にニュルンベルクのバルタザール・シュミートから「クラヴィーア練習曲集」第4部として出版された。1802年にフォルケル（Johann Nikolaus Forkel）が出したバッハの伝記に、カイザーリンク伯爵のためにこの曲が書かれ、伯爵に仕えたゴルトベルク（Johann Gottlieb Goldberg）が弾いたという話が載っており、曲名はこれに由来する。この話を裏づける同時代の資料はない。",
+    "musicalAnalysis": "アリアの32小節の低音進行と和声が全変奏の土台になる。第3変奏から第27変奏までの3の倍数の変奏はカノンで、2声の間隔が同度から9度まで1度ずつ広がる。第30変奏はカノンではなく、当時の歌の旋律を組み合わせたクオドリベットである。最後にアリアが繰り返される。",
     "listeningGuide": {
       "totalTime": "75分",
-      "recommendedVersion": "グレン・グールド（1981年録音）",
+      "recommendedVersion": "グレン・グールド（ピアノ、1981年録音）",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "アリア：全体の基礎となる主題"
+          "description": "アリア"
         }
       ]
     },
@@ -138,7 +134,7 @@
   {
     "id": "vivaldi-four-seasons",
     "composerId": "vivaldi",
-    "title": "ヴァイオリン協奏曲集「四季」",
+    "title": "ヴァイオリン協奏曲集《四季》 作品8 第1〜4番",
     "titleEn": "The Four Seasons",
     "year": 1725,
     "genre": "concerto",
@@ -148,34 +144,32 @@
     "opus": "Op. 8, Nos. 1-4",
     "duration": 42,
     "difficulty": 1,
-    "shortDescription": "春夏秋冬の四季を描いた、クラシック音楽史上最も有名な協奏曲。描写音楽の先駆的傑作。",
+    "shortDescription": "「春」「夏」「秋」「冬」の4曲からなる独奏ヴァイオリンのための協奏曲。1725年にアムステルダムで出版された協奏曲集「和声と創意の試み」作品8の第1〜4番。",
     "movements": [
       {
         "number": 1,
-        "title": "春 - Allegro",
+        "title": "《春》第1楽章 Allegro",
         "tempo": "Allegro",
         "key": "E-major",
         "duration": 3,
-        "description": "鳥のさえずり、小川のせせらぎ、春の嵐を描写。",
+        "description": "ホ長調。ソネットの鳥の歌、泉のささやき、雷雨の各行に対応する部分がある。",
         "highlights": [
-          "鳥のトリル",
-          "嵐の描写"
+          "鳥の歌（独奏ヴァイオリンのトリル）",
+          "雷雨"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1725年出版の「和声と創意の試み」Op.8の最初の4曲。各曲にソネット（詩）が付けられた初期のプログラム音楽。",
-    "musicalAnalysis": "各季節に3楽章の協奏曲を配し、ソネットの内容を音楽で忠実に描写する革新的な試み。",
-    "emotionalJourney": "自然の喜び→夏の激しさ→秋の実り→冬の厳しさ",
-    "businessInsight": "音楽に「物語」を付けることで聴衆の理解を飛躍的に深めた——プレゼンにストーリーを添える技法の原点。",
+    "historicalBackground": "1725年にアムステルダムのル・セーヌ社から出版された12曲の協奏曲集「和声と創意の試み」作品8の最初の4曲である。出版譜には各曲にソネット（14行詩）が付けられ、楽譜の該当箇所に詩の行を示す文字が記されている。ソネットの作者は記されていない。",
+    "musicalAnalysis": "各曲は急・緩・急の3楽章からなり、リトルネッロ形式を用いる。ソネットに書かれた鳥の声、雷雨、犬の吠え声、氷の上で滑る様子などが楽器で描かれている。",
     "listeningGuide": {
       "totalTime": "42分",
-      "recommendedVersion": "イル・ジャルディーノ・アルモニコ",
+      "recommendedVersion": "ジョヴァンニ・アントニーニ指揮 イル・ジャルディーノ・アルモニコ",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "春の到来を告げる明るい主題"
+          "description": "《春》第1楽章の冒頭のリトルネッロ"
         }
       ]
     },
@@ -195,7 +189,7 @@
   {
     "id": "handel-messiah",
     "composerId": "handel",
-    "title": "オラトリオ「メサイア」HWV56",
+    "title": "オラトリオ《メサイア》 HWV56",
     "titleEn": "Messiah, HWV 56",
     "year": 1741,
     "genre": "choral",
@@ -205,33 +199,31 @@
     "opus": "HWV 56",
     "duration": 150,
     "difficulty": 2,
-    "shortDescription": "「ハレルヤ」コーラスで知られる、西洋音楽史上最も有名なオラトリオ。キリストの生涯を壮大に描く。",
+    "shortDescription": "ジェネンズ（Charles Jennens）が聖書から編んだ英語の台本によるオラトリオ。1741年に作曲され、1742年4月13日にダブリンで初演された。",
     "movements": [
       {
         "number": 1,
-        "title": "Overture",
-        "tempo": "Grave - Allegro moderato",
+        "title": "序曲（Sinfony）",
+        "tempo": "Grave – Allegro moderato",
         "key": "e-minor",
         "duration": 4,
-        "description": "荘厳な序曲。フランス風序曲形式。",
+        "description": "ホ短調。遅い付点リズムの部分と速いフーガの部分からなるフランス風序曲。",
         "highlights": [
           "フランス風序曲"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1741年にわずか24日間で作曲されたと伝えられる。1742年ダブリンで初演。",
-    "musicalAnalysis": "3部構成でキリストの預言・受難・復活を描く。合唱・独唱・管弦楽が織りなす壮大なドラマ。",
-    "emotionalJourney": "期待→苦悩→栄光の勝利",
-    "businessInsight": "24日間で傑作を完成させたヘンデルの集中力——「デッドラインが創造性を加速する」の好例。",
+    "historicalBackground": "自筆譜の日付から、1741年8月22日から9月14日までの約24日間で書かれたことがわかる。1742年4月13日、ダブリンのフィシャンブル通りの音楽堂で慈善演奏会として初演された。ロンドン初演は1743年で、ヘンデルはその後も上演のたびに曲を差し替えたため、複数の版がある。",
+    "musicalAnalysis": "3部からなる。第1部は救世主の預言と降誕、第2部は受難と復活・昇天、第3部は死者の復活と救済を扱う。独唱のレチタティーヴォとアリア、合唱で構成され、第2部の終わりに合唱「ハレルヤ」がある。",
     "listeningGuide": {
       "totalTime": "150分",
-      "recommendedVersion": "ジョン・エリオット・ガーディナー指揮 イングリッシュ・バロック・ソロイスツ",
+      "recommendedVersion": "ジョン・エリオット・ガーディナー指揮 イングリッシュ・バロック・ソロイスツ、モンテヴェルディ合唱団",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "荘厳な序曲の開始"
+          "description": "序曲"
         }
       ]
     },
@@ -259,26 +251,23 @@
     "opus": "K. 626",
     "duration": 55,
     "difficulty": 2,
-    "shortDescription": "モーツァルト最後の未完の傑作。死の影に包まれた神秘的で崇高な音楽。弟子ジュースマイヤーが補筆完成。",
+    "shortDescription": "1791年に匿名の依頼で書き始められ、モーツァルトの死で未完に終わったレクイエム。弟子のジュースマイヤー（Franz Xaver Süßmayr）が補筆した版が広く演奏される。",
     "movements": [
       {
         "number": 1,
-        "title": "Introitus: Requiem aeternam",
+        "title": "入祭唱 Requiem aeternam",
         "tempo": "Adagio",
         "key": "d-minor",
         "duration": 5,
-        "description": "永遠の安息を求める厳粛な冒頭。",
+        "description": "ニ短調。バセットホルンとファゴットの導入の後に合唱が入る。モーツァルトがオーケストレーションまで書き終えた唯一の楽章。",
         "highlights": [
-          "バセットホルンの暗い響き",
-          "合唱の荘厳な入り"
+          "バセットホルンとファゴットの導入"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "匿名の依頼主（後にヴァルゼッグ伯爵と判明）からの委嘱。モーツァルトは完成を見ずに1791年12月5日に死去。",
-    "musicalAnalysis": "ニ短調の暗い色調と対位法的書法が融合。「ラクリモサ」の8小節目でモーツァルトの筆は途絶えた。",
-    "emotionalJourney": "畏敬→恐怖→嘆き→希望",
-    "businessInsight": "未完の遺作でありながら最高傑作——「完璧」よりも「本質」が人の心を動かすことの証明。",
+    "historicalBackground": "1791年、匿名の使者を通じて依頼された。依頼主はフランツ・フォン・ヴァルゼック伯爵（Franz von Walsegg）で、亡くなった妻の追悼のために注文した。モーツァルトは1791年12月5日に没し、完成していたのは入祭唱だけで、続く部分は声楽と低音などの骨組みが書かれていた。妻コンスタンツェの依頼で、アイブラー（Joseph Eybler）が一部を補ったのち、ジュースマイヤーが補筆して完成させた。",
+    "musicalAnalysis": "編成はバセットホルン2、ファゴット2、トランペット2、トロンボーン3、ティンパニ、弦楽、オルガン、独唱4、合唱で、フルートとオーボエを含まない。「ラクリモサ」はモーツァルトの自筆では8小節目で途切れている。",
     "listeningGuide": {
       "totalTime": "55分",
       "recommendedVersion": "カール・ベーム指揮 ウィーン・フィルハーモニー管弦楽団",
@@ -286,7 +275,7 @@
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "暗いニ短調の冒頭"
+          "description": "入祭唱の冒頭"
         }
       ]
     },
@@ -306,7 +295,7 @@
   {
     "id": "mozart-symphony-40",
     "composerId": "mozart-wa",
-    "title": "交響曲第40番ト短調 K.550",
+    "title": "交響曲第40番 ト短調 K.550",
     "titleEn": "Symphony No. 40 in G minor, K. 550",
     "year": 1788,
     "genre": "symphony",
@@ -316,7 +305,7 @@
     "opus": "K. 550",
     "duration": 28,
     "difficulty": 1,
-    "shortDescription": "モーツァルトの交響曲中最も劇的で情熱的な作品。短調の緊張感と美しい旋律が交錯する。",
+    "shortDescription": "1788年夏に書かれた3曲の交響曲（第39〜41番）の2曲目。モーツァルトの交響曲で短調のものは第25番とこの曲だけである。",
     "movements": [
       {
         "number": 1,
@@ -324,18 +313,16 @@
         "tempo": "Molto allegro",
         "key": "g-minor",
         "duration": 8,
-        "description": "ヴィオラの伴奏に乗って現れる有名な主題。",
+        "description": "ヴィオラの分散和音の伴奏の上で、ヴァイオリンが主題を弾き始める。",
         "highlights": [
-          "冒頭の切迫した主題",
-          "展開部の劇的な転調"
+          "ヴィオラの伴奏による開始",
+          "ソナタ形式"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1788年の夏、わずか2ヶ月で最後の3大交響曲（第39・40・41番）を一気に作曲。",
-    "musicalAnalysis": "全楽章を貫くト短調の緊張感。古典的形式の中に深い感情表現を実現した名作。",
-    "emotionalJourney": "焦燥→苦悩→一時の安らぎ→激烈なフィナーレ",
-    "businessInsight": "制約（短調・小編成）の中でこそ最高の表現が生まれる——リソースの限界が創造性を引き出す好例。",
+    "historicalBackground": "モーツァルトの自作目録によれば1788年7月25日に完成した。第39番（6月26日）、第41番（8月10日）とともに約6週間で書かれた。初演の記録は残っていない。のちにモーツァルト自身がクラリネットを加えた版を作った。",
+    "musicalAnalysis": "4楽章構成。第1楽章、第4楽章ともソナタ形式で、ト短調で始まりト短調で終わる。第3楽章はメヌエット。",
     "listeningGuide": {
       "totalTime": "28分",
       "recommendedVersion": "ニコラウス・アーノンクール指揮 ウィーン・コンツェントゥス・ムジクス",
@@ -343,7 +330,7 @@
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "有名な冒頭主題"
+          "description": "第1楽章の冒頭"
         }
       ]
     },
@@ -365,7 +352,7 @@
   {
     "id": "mozart-symphony-41",
     "composerId": "mozart-wa",
-    "title": "交響曲第41番ハ長調 K.551「ジュピター」",
+    "title": "交響曲第41番 ハ長調 K.551《ジュピター》",
     "titleEn": "Symphony No. 41 in C major, K. 551 'Jupiter'",
     "year": 1788,
     "genre": "symphony",
@@ -375,7 +362,7 @@
     "opus": "K. 551",
     "duration": 33,
     "difficulty": 2,
-    "shortDescription": "モーツァルト最後の交響曲。フィナーレの5声フーガは交響曲史上最も壮大な対位法的クライマックス。",
+    "shortDescription": "モーツァルトの最後の交響曲。1788年8月10日に完成した。「ジュピター」の名はモーツァルトの死後に付けられた。",
     "movements": [
       {
         "number": 1,
@@ -383,18 +370,15 @@
         "tempo": "Allegro vivace",
         "key": "C-major",
         "duration": 9,
-        "description": "壮麗なハ長調で開始。力強さと優美さが共存。",
+        "description": "ハ長調、4/4拍子のソナタ形式。",
         "highlights": [
-          "祝祭的な冒頭",
-          "対比的な副主題"
+          "ソナタ形式"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1788年8月10日完成。モーツァルトの最後の交響曲。「ジュピター」の名は後世に付けられた。",
-    "musicalAnalysis": "第4楽章で5つの主題を同時に組み合わせるフーガは、古典派とバロック対位法の見事な統合。",
-    "emotionalJourney": "祝祭→深い内省→軽やかさ→壮大な統合",
-    "businessInsight": "5つの異なるテーマを一つに統合するフィナーレは、M&Aや組織統合における「統合のビジョン」の音楽的体現。",
+    "historicalBackground": "モーツァルトの自作目録によれば1788年8月10日に完成した。「ジュピター」の呼び名は作曲者によるものではなく、19世紀初めのロンドンで使われ始めたとされる。",
+    "musicalAnalysis": "4楽章構成。第4楽章はソナタ形式で、冒頭の4音の動機を含む複数の主題が、コーダで対位法的に同時に組み合わされる。",
     "listeningGuide": {
       "totalTime": "33分",
       "recommendedVersion": "ジョージ・セル指揮 クリーヴランド管弦楽団",
@@ -402,7 +386,7 @@
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "壮麗なハ長調の開始"
+          "description": "第1楽章の冒頭"
         }
       ]
     },
@@ -423,7 +407,7 @@
   {
     "id": "beethoven-symphony-5",
     "composerId": "beethoven",
-    "title": "交響曲第5番ハ短調 Op.67「運命」",
+    "title": "交響曲第5番 ハ短調 作品67",
     "titleEn": "Symphony No. 5 in C minor, Op. 67",
     "year": 1808,
     "genre": "symphony",
@@ -433,19 +417,18 @@
     "opus": "Op. 67",
     "duration": 33,
     "difficulty": 1,
-    "shortDescription": "「ダダダダーン」で始まる、クラシック音楽史上最も有名な交響曲。苦悩から勝利への壮大な物語。",
+    "shortDescription": "1808年に完成し、同年12月22日にウィーンのアン・デア・ウィーン劇場で初演された交響曲。第3楽章から第4楽章へは切れ目なく続く。",
     "movements": [
       {
         "number": 1,
         "title": "Allegro con brio",
         "tempo": "Allegro con brio",
         "key": "c-minor",
-        "duration": 7,
-        "description": "冒頭の「運命の動機」から始まる激烈な第1楽章。",
+        "duration": null,
+        "description": "ハ短調、ソナタ形式。冒頭の4つの音の動機で始まる。",
         "highlights": [
-          "冒頭のモチーフ（短短短長）",
-          "第2主題の明るいEs-dur",
-          "展開部の緊張感"
+          "冒頭の動機（短短短長）",
+          "変ホ長調の第2主題"
         ],
         "youtubeId": null
       },
@@ -454,10 +437,10 @@
         "title": "Andante con moto",
         "tempo": "Andante con moto",
         "key": "Ab-major",
-        "duration": 10,
-        "description": "変奏曲形式の穏やかな緩徐楽章。",
+        "duration": null,
+        "description": "変イ長調。2つの主題による変奏曲。",
         "highlights": [
-          "英雄的なファンファーレ"
+          "変奏曲"
         ],
         "youtubeId": null
       },
@@ -466,11 +449,10 @@
         "title": "Scherzo: Allegro",
         "tempo": "Allegro",
         "key": "c-minor",
-        "duration": 5,
-        "description": "暗いスケルツォから第4楽章へアタッカで接続。",
+        "duration": null,
+        "description": "ハ短調のスケルツォ。終わりは切れ目なく第4楽章へ続く。",
         "highlights": [
-          "不気味なホルン主題",
-          "第4楽章への橋渡し"
+          "第4楽章への移行"
         ],
         "youtubeId": null
       },
@@ -479,31 +461,24 @@
         "title": "Allegro",
         "tempo": "Allegro",
         "key": "C-major",
-        "duration": 11,
-        "description": "ハ長調の輝かしい勝利のフィナーレ。",
+        "duration": null,
+        "description": "ハ長調。ピッコロ、コントラファゴット、トロンボーン3本が加わる。",
         "highlights": [
-          "暗闇から光への劇的転換",
-          "歓喜の爆発"
+          "トロンボーンの加入"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1804年から1808年にかけて作曲。ナポレオン戦争の渦中で書かれた、苦悩と闘争の記録。",
-    "musicalAnalysis": "全4楽章を貫く「運命の動機」により、交響曲の有機的統一を達成した革命的作品。",
-    "emotionalJourney": "暗闇→苦悩→模索→輝かしい勝利",
-    "businessInsight": "4音のモチーフが全体を支配する——「シンプルな核心メッセージ」がブランドの一貫性を生む好例。",
+    "historicalBackground": "スケッチは1804年頃から見られ、1807年から1808年にかけて集中して書かれた。1808年12月22日、アン・デア・ウィーン劇場でのベートーヴェン自身の演奏会で、交響曲第6番などとともに初演された。ロプコヴィッツ侯爵とラズモフスキー伯爵に献呈された。",
+    "musicalAnalysis": "第1楽章冒頭の短短短長のリズムが、他の楽章にも形を変えて現れる。第3楽章から第4楽章へは休みなく続き、第4楽章でピッコロ、コントラファゴット、トロンボーンが加わる。",
     "listeningGuide": {
       "totalTime": "33分",
-      "recommendedVersion": "カルロス・クライバー指揮 ウィーン・フィルハーモニー管弦楽団（1974）",
+      "recommendedVersion": "カルロス・クライバー指揮 ウィーン・フィルハーモニー管弦楽団（1974年録音）",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "冒頭の運命モチーフ"
-        },
-        {
-          "time": "1:23",
-          "description": "第2主題（明るくEs-durに転調）"
+          "description": "第1楽章の冒頭の動機"
         }
       ]
     },
@@ -525,7 +500,7 @@
   {
     "id": "beethoven-symphony-3",
     "composerId": "beethoven",
-    "title": "交響曲第3番変ホ長調 Op.55「英雄」",
+    "title": "交響曲第3番 変ホ長調 作品55《英雄》",
     "titleEn": "Symphony No. 3 in E-flat major, Op. 55 'Eroica'",
     "year": 1804,
     "genre": "symphony",
@@ -535,34 +510,61 @@
     "opus": "Op. 55",
     "duration": 50,
     "difficulty": 2,
-    "shortDescription": "音楽史の転換点。ベートーヴェンがナポレオンに捧げようとした革命的交響曲。ロマン派への扉を開いた。",
+    "shortDescription": "1803年から1804年にかけて書かれ、1805年に公開初演された交響曲。出版譜の題は「シンフォニア・エロイカ」。",
     "movements": [
       {
         "number": 1,
         "title": "Allegro con brio",
         "tempo": "Allegro con brio",
         "key": "Eb-major",
-        "duration": 18,
-        "description": "前例のない規模と野心を持つソナタ形式。",
+        "duration": null,
+        "description": "変ホ長調、ソナタ形式。2つの和音で始まる。",
         "highlights": [
-          "2つの力強い和音",
-          "「新しい主題」の出現"
+          "冒頭の2つの和音"
         ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Marcia funebre. Adagio assai",
+        "tempo": "Marcia funebre. Adagio assai",
+        "key": "c-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scherzo. Allegro vivace",
+        "tempo": "Scherzo. Allegro vivace",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Finale. Allegro molto",
+        "tempo": "Finale. Allegro molto",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "当初ナポレオンに献呈予定だったが、皇帝即位を知り激怒して表紙を破り「ある偉大な人物の思い出に」と変更。",
-    "musicalAnalysis": "第1楽章だけで18分という前例のない規模。葬送行進曲を第2楽章に配置する大胆な構成。",
-    "emotionalJourney": "英雄的闘争→葬送の哀悼→躍動→勝利の祝祭",
-    "businessInsight": "理想に裏切られても作品は完成させる——リーダーは「ビジョン」を人物ではなく理念に結びつけるべき。",
+    "historicalBackground": "1804年に完成し、同年ロプコヴィッツ侯爵邸で私的に演奏された。公開初演は1805年4月7日、アン・デア・ウィーン劇場。ベートーヴェンが残した筆写譜の表紙にはボナパルトの名が書かれ、それが削り取られた跡が残っている。1806年の出版譜の題は「シンフォニア・エロイカ　ある偉大な人の思い出を記念して作曲」で、ロプコヴィッツ侯爵に献呈された。",
+    "musicalAnalysis": "4楽章構成。第2楽章は葬送行進曲（ハ短調）。第4楽章はバレエ「プロメテウスの創造物」でも使った主題による変奏曲である。",
     "listeningGuide": {
       "totalTime": "50分",
-      "recommendedVersion": "フルトヴェングラー指揮 ウィーン・フィル（1952年）",
+      "recommendedVersion": "ヴィルヘルム・フルトヴェングラー指揮 ウィーン・フィルハーモニー管弦楽団（1952年録音）",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "2つの力強いEb-durの和音"
+          "description": "冒頭の2つの和音"
         }
       ]
     },
@@ -581,7 +583,7 @@
   {
     "id": "beethoven-symphony-9",
     "composerId": "beethoven",
-    "title": "交響曲第9番ニ短調 Op.125「合唱」",
+    "title": "交響曲第9番 ニ短調 作品125",
     "titleEn": "Symphony No. 9 in D minor, Op. 125 'Choral'",
     "year": 1824,
     "genre": "symphony",
@@ -591,33 +593,61 @@
     "opus": "Op. 125",
     "duration": 70,
     "difficulty": 2,
-    "shortDescription": "「歓喜の歌」で知られる人類の至宝。大作曲家として初めて交響曲に声楽（独唱と合唱）を導入した、ベートーヴェン最後の交響曲。",
+    "shortDescription": "ベートーヴェンの最後の交響曲。第4楽章にシラーの詩「歓喜に寄す」による独唱と合唱を用いる。1824年5月7日にウィーンで初演された。",
     "movements": [
       {
         "number": 1,
         "title": "Allegro ma non troppo, un poco maestoso",
-        "tempo": "Allegro ma non troppo",
+        "tempo": "Allegro ma non troppo, un poco maestoso",
         "key": "d-minor",
-        "duration": 16,
-        "description": "混沌から秩序が生まれるかのような壮大な開始。",
+        "duration": null,
+        "description": "ニ短調、ソナタ形式。弦楽器の空虚5度の響きで始まる。",
         "highlights": [
-          "霧の中からの主題出現"
+          "空虚5度による開始"
         ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Molto vivace",
+        "tempo": "Molto vivace",
+        "key": "d-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Adagio molto e cantabile",
+        "tempo": "Adagio molto e cantabile",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Finale. Presto – Allegro assai",
+        "tempo": "Finale. Presto – Allegro assai",
+        "key": "D-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "完全に聴覚を失った状態で作曲。1824年ウィーンでの初演後、聴衆の喝采に気づかず、ソリストが振り向かせたという逸話。",
-    "musicalAnalysis": "第4楽章にシラーの「歓喜に寄す」の合唱を導入。器楽と声楽の壮大な統合。",
-    "emotionalJourney": "混沌→闘争→安らぎ→歓喜→人類の兄弟愛",
-    "businessInsight": "聴覚を失ってなお最高傑作を生んだ——「制約はイノベーションの母」の究極の証明。",
+    "historicalBackground": "1822年から1824年にかけて作曲された。ロンドン・フィルハーモニック協会の依頼を受けたものである。1824年5月7日、ウィーンのケルントナートーア劇場で初演された。この時ベートーヴェンはほとんど耳が聞こえなかった。初演の終わりに、歌手の一人が聴衆の拍手に気づかせるためベートーヴェンを振り向かせたという話が、複数の回想に残っている。プロイセン王フリードリヒ・ヴィルヘルム3世に献呈された。",
+    "musicalAnalysis": "4楽章構成。第2楽章がスケルツォ、第3楽章が緩徐楽章で、通常と順序が入れ替わっている。第4楽章ではまず前の3つの楽章の冒頭が回想され、その後バリトン独唱がベートーヴェン自身の書いた導入の言葉を歌い、シラーの詩による独唱と合唱が続く。",
     "listeningGuide": {
       "totalTime": "70分",
-      "recommendedVersion": "フルトヴェングラー指揮 バイロイト祝祭管弦楽団（1951年）",
+      "recommendedVersion": "ヴィルヘルム・フルトヴェングラー指揮 バイロイト祝祭管弦楽団（1951年録音）",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "霧のようなトレモロから主題が浮かび上がる"
+          "description": "第1楽章の冒頭"
         }
       ]
     },
@@ -640,7 +670,7 @@
   {
     "id": "chopin-ballade-1",
     "composerId": "chopin",
-    "title": "バラード第1番ト短調 Op.23",
+    "title": "バラード第1番 ト短調 作品23",
     "titleEn": "Ballade No. 1 in G minor, Op. 23",
     "year": 1835,
     "genre": "piano",
@@ -650,35 +680,33 @@
     "opus": "Op. 23",
     "duration": 10,
     "difficulty": 3,
-    "shortDescription": "ショパンのピアノ作品の最高傑作の一つ。詩的な物語性と壮絶な技巧が融合した劇的な作品。",
+    "shortDescription": "ショパンが書いた4曲のバラードの最初の曲。1835年に完成し、1836年に出版された。",
     "movements": [
       {
         "number": 1,
-        "title": "Largo - Moderato",
+        "title": "Largo – Moderato",
         "tempo": "Largo - Moderato",
         "key": "g-minor",
         "duration": 10,
-        "description": "ゆったりとした導入から、徐々にドラマチックに展開し、嵐のようなコーダで締めくくる。",
+        "description": "Largoの短い導入の後、Moderatoでト短調の第1主題が始まる。最後はPresto con fuocoのコーダ。",
         "highlights": [
-          "第1主題の哀愁",
-          "第2主題の甘美さ",
-          "壮絶なコーダ"
+          "Largoの導入",
+          "第2主題（変ホ長調）",
+          "Presto con fuocoのコーダ"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "ミツキェヴィチのポーランド叙事詩に着想を得たとされる。パリ時代の傑作。",
-    "musicalAnalysis": "ソナタ形式とロンド形式を自由に融合した独創的な構成。",
-    "emotionalJourney": "物語的な静けさ→抒情→劇的高揚→壮絶な結末",
-    "businessInsight": "起承転結の物語構造——プレゼンテーションの「引き込み→展開→クライマックス」の理想形。",
+    "historicalBackground": "1831年頃に書き始められ、1835年に完成したとされる。1836年に出版され、シュトックハウゼン男爵（Baron Nathaniel von Stockhausen）に献呈された。ミツキェヴィチ（Adam Mickiewicz）の詩から着想を得たという説は、シューマンの伝える会話に基づくが、ショパン自身の記述はない。",
+    "musicalAnalysis": "6/4拍子。2つの主題が提示され、調や性格を変えて再び現れる。最後はPresto con fuocoのコーダで終わる。",
     "listeningGuide": {
       "totalTime": "10分",
-      "recommendedVersion": "クリスティアン・ツィメルマン",
+      "recommendedVersion": "クリスティアン・ツィメルマン（ピアノ）",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "ゆったりとした瞑想的な導入"
+          "description": "Largoの導入"
         }
       ]
     },
@@ -697,7 +725,7 @@
   {
     "id": "brahms-symphony-4",
     "composerId": "brahms",
-    "title": "交響曲第4番ホ短調 Op.98",
+    "title": "交響曲第4番 ホ短調 作品98",
     "titleEn": "Symphony No. 4 in E minor, Op. 98",
     "year": 1885,
     "genre": "symphony",
@@ -707,34 +735,61 @@
     "opus": "Op. 98",
     "duration": 42,
     "difficulty": 3,
-    "shortDescription": "ブラームス最後の交響曲。秋の哀愁と知的な構築美が共存する、ロマン派交響曲の最高到達点の一つ。",
+    "shortDescription": "ブラームスの最後の交響曲。1884年から1885年にかけて書かれ、1885年10月25日にマイニンゲンで初演された。",
     "movements": [
       {
         "number": 1,
         "title": "Allegro non troppo",
         "tempo": "Allegro non troppo",
         "key": "e-minor",
-        "duration": 13,
-        "description": "3度の音程で下降する哀愁の主題。",
+        "duration": null,
+        "description": "ホ短調、ソナタ形式。3度の音程を連ねた主題で始まる。",
         "highlights": [
-          "下降3度の主題",
-          "展開部の壮大さ"
+          "3度の連鎖による主題"
         ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante moderato",
+        "tempo": "Andante moderato",
+        "key": "E-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro giocoso",
+        "tempo": "Allegro giocoso",
+        "key": "C-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Allegro energico e passionato",
+        "tempo": "Allegro energico e passionato",
+        "key": "e-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1885年マイニンゲンで初演。第4楽章はバッハのカンタータから着想を得たパッサカリア。",
-    "musicalAnalysis": "バロックの対位法的技法（パッサカリア）をロマン派の交響曲に統合した知的冒険。",
-    "emotionalJourney": "秋の哀愁→情熱→軽妙→壮大なパッサカリア",
-    "businessInsight": "古い技法（パッサカリア）を新しい文脈で活用する——「温故知新」型イノベーションの好例。",
+    "historicalBackground": "1884年と1885年の夏、オーストリアのミュルツツーシュラークで作曲された。1885年10月25日、ブラームス自身の指揮でマイニンゲン宮廷楽団が初演した。",
+    "musicalAnalysis": "4楽章構成。第4楽章はパッサカリア（8小節の主題による変奏）で、主題はバッハのカンタータ「主よ、われ汝を仰ぎ望む」BWV150の終曲の低音をもとにしている。",
     "listeningGuide": {
       "totalTime": "42分",
-      "recommendedVersion": "カルロス・クライバー指揮 ウィーン・フィル",
+      "recommendedVersion": "カルロス・クライバー指揮 ウィーン・フィルハーモニー管弦楽団",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "3度下降の哀愁の主題"
+          "description": "第1楽章の冒頭"
         }
       ]
     },
@@ -753,7 +808,7 @@
   {
     "id": "tchaikovsky-symphony-6",
     "composerId": "tchaikovsky",
-    "title": "交響曲第6番ロ短調 Op.74「悲愴」",
+    "title": "交響曲第6番 ロ短調 作品74《悲愴》",
     "titleEn": "Symphony No. 6 in B minor, Op. 74 'Pathétique'",
     "year": 1893,
     "genre": "symphony",
@@ -763,7 +818,7 @@
     "opus": "Op. 74",
     "duration": 46,
     "difficulty": 2,
-    "shortDescription": "チャイコフスキー最後の交響曲。終楽章が緩徐楽章という異例の構成で、静かな絶望の中に消えゆく。",
+    "shortDescription": "チャイコフスキーの最後の交響曲。1893年10月28日（新暦）にサンクトペテルブルクで作曲者の指揮で初演され、その9日後に作曲者は没した。",
     "movements": [
       {
         "number": 1,
@@ -771,25 +826,24 @@
         "tempo": "Adagio - Allegro non troppo",
         "key": "b-minor",
         "duration": 18,
-        "description": "暗い導入から情熱的な主題が展開。",
+        "description": "ファゴットの低い音域の序奏で始まり、ソナタ形式の主部に入る。",
         "highlights": [
-          "第2主題の美しいメロディー"
+          "ファゴットの序奏",
+          "ニ長調の第2主題"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "初演の9日後にチャイコフスキーは急死。「悲愴」の副題は作曲者自身が付けた。",
-    "musicalAnalysis": "終楽章を緩徐楽章（アダージョ・ラメントーソ）とする革新的構成。交響曲が「死」で終わる前例のない試み。",
-    "emotionalJourney": "苦悩→爆発的エネルギー→ワルツ→消え入る悲哀",
-    "businessInsight": "常識（フィナーレは華やかに）を覆す大胆な構成——「当たり前を疑う」ことが革新を生む。",
+    "historicalBackground": "1893年に作曲され、10月28日（新暦）にサンクトペテルブルクで初演された。チャイコフスキーは11月6日に没した。副題「悲愴（パテティーチェスカヤ）」は、弟モデストの提案を作曲者が採ったと、モデストが伝えている。甥のダヴィドフ（Vladimir Davydov）に献呈された。",
+    "musicalAnalysis": "4楽章構成。第2楽章は5/4拍子のワルツ風の楽章、第3楽章は行進曲風の楽章で、第4楽章をAdagio lamentosoの遅い楽章とし、静かに終わる。",
     "listeningGuide": {
       "totalTime": "46分",
-      "recommendedVersion": "ムラヴィンスキー指揮 レニングラード・フィル",
+      "recommendedVersion": "エフゲニー・ムラヴィンスキー指揮 レニングラード・フィルハーモニー管弦楽団",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "暗いファゴットの冒頭"
+          "description": "ファゴットの序奏"
         }
       ]
     },
@@ -818,35 +872,32 @@
     "opus": "",
     "duration": 10,
     "difficulty": 2,
-    "shortDescription": "印象主義音楽の幕開けを告げた作品。マラルメの詩に霊感を得た、色彩的で官能的な管弦楽曲。",
+    "shortDescription": "マラルメ（Stéphane Mallarmé）の詩「半獣神の午後」に基づく管弦楽曲。1894年12月22日にパリで初演された。",
     "movements": [
       {
         "number": 1,
         "title": "Très modéré",
         "tempo": "Très modéré",
-        "key": "various",
+        "key": "E-major",
         "duration": 10,
-        "description": "フルートの夢幻的な独奏で始まる、色彩と光のタペストリー。",
+        "description": "独奏フルートの旋律で始まり、ホ長調で終わる。",
         "highlights": [
           "冒頭のフルート独奏",
-          "全音階的和声",
-          "色彩的なオーケストレーション"
+          "アンティーク・シンバル"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "マラルメの詩「牧神の午後」に基づく。1894年初演。ブーレーズは「牧神のフルートが音楽芸術に新しい息吹をもたらした」と述べた。",
-    "musicalAnalysis": "従来の調性機能に縛られない自由な和声。全音音階や教会旋法を駆使した色彩的な音楽。",
-    "emotionalJourney": "夢幻→官能→陶酔→夢への回帰",
-    "businessInsight": "ルールを破るのではなく「新しいルール」を作る——既存市場のディスラプションではなく新市場の創造。",
+    "historicalBackground": "1892年から1894年にかけて作曲された。当初は前奏曲・間奏曲・終曲の3部作として構想されたが、前奏曲だけが書かれた。1894年12月22日、パリの国民音楽協会の演奏会でギュスターヴ・ドレ（Gustave Doret）の指揮により初演された。1912年にはニジンスキーの振付でバレエ・リュスがバレエとして上演した。",
+    "musicalAnalysis": "独奏フルートの半音階的な旋律で始まる。全音音階を含む和声を用い、拍節がはっきりしない部分が多い。編成にはハープ2台とアンティーク・シンバルが含まれ、トランペット、トロンボーン、ティンパニは使われない。",
     "listeningGuide": {
       "totalTime": "10分",
-      "recommendedVersion": "ブーレーズ指揮 クリーヴランド管弦楽団",
+      "recommendedVersion": "ピエール・ブーレーズ指揮 クリーヴランド管弦楽団",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "フルートの夢幻的な冒頭"
+          "description": "フルート独奏"
         }
       ]
     },
@@ -864,7 +915,7 @@
   {
     "id": "stravinsky-rite-of-spring",
     "composerId": "stravinsky",
-    "title": "バレエ音楽「春の祭典」",
+    "title": "バレエ音楽《春の祭典》",
     "titleEn": "The Rite of Spring",
     "year": 1913,
     "genre": "orchestral",
@@ -874,34 +925,32 @@
     "opus": "",
     "duration": 35,
     "difficulty": 3,
-    "shortDescription": "初演で暴動を引き起こした伝説的作品。原始的なリズムと不協和音が音楽の概念を根本から覆した。",
+    "shortDescription": "バレエ・リュスのために書かれた2部からなるバレエ音楽。1913年5月29日にパリのシャンゼリゼ劇場で初演された。",
     "movements": [
       {
         "number": 1,
         "title": "第1部：大地の礼賛",
-        "tempo": "various",
-        "key": "various",
-        "duration": 16,
-        "description": "春の目覚めから始まり、原始的な儀式の音楽が展開。",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "高音域のファゴット独奏の序奏で始まり、「春のきざし」「誘拐の遊戯」などの場面が続く。",
         "highlights": [
-          "冒頭のファゴット独奏",
-          "「春の兆し」の衝撃的なリズム"
+          "高音域のファゴット独奏",
+          "「春のきざし」の反復される和音"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1913年5月29日パリ初演時、聴衆が暴動を起こした伝説的事件。振付はニジンスキー。",
-    "musicalAnalysis": "不規則なアクセント、多調性、原始的リズムの反復。20世紀音楽最大の革命的作品。",
-    "emotionalJourney": "原始の目覚め→狂騒→犠牲の舞→陶酔的消滅",
-    "businessInsight": "初演で暴動になった作品が100年後の「定番」に——破壊的イノベーションは最初は拒絶される。",
+    "historicalBackground": "ストラヴィンスキーと画家・考古学者のレーリヒ（Nicholas Roerich）が構想した。1913年5月29日、パリのシャンゼリゼ劇場でピエール・モントゥー（Pierre Monteux）の指揮、ニジンスキーの振付で初演され、客席は騒然となった。演奏会形式での初演は1914年4月、パリでモントゥーの指揮による。",
+    "musicalAnalysis": "第1部「大地の礼賛」と第2部「生贄」からなる。拍子が小節ごとに変わる部分、不規則なアクセント、異なる調の和音を重ねた響き（「春のきざし」の和音など）が用いられる。",
     "listeningGuide": {
       "totalTime": "35分",
-      "recommendedVersion": "ブーレーズ指揮 クリーヴランド管弦楽団",
+      "recommendedVersion": "ピエール・ブーレーズ指揮 クリーヴランド管弦楽団",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "高音域のファゴット独奏"
+          "description": "ファゴット独奏による序奏"
         }
       ]
     },
@@ -921,7 +970,7 @@
   {
     "id": "mahler-symphony-2",
     "composerId": "mahler",
-    "title": "交響曲第2番ハ短調「復活」",
+    "title": "交響曲第2番 ハ短調《復活》",
     "titleEn": "Symphony No. 2 in C minor 'Resurrection'",
     "year": 1894,
     "genre": "symphony",
@@ -931,33 +980,31 @@
     "opus": "",
     "duration": 80,
     "difficulty": 3,
-    "shortDescription": "死と復活をテーマにした壮大な交響曲。終楽章の合唱「復活」は圧倒的なカタルシスをもたらす。",
+    "shortDescription": "1888年から1894年にかけて書かれた5楽章の交響曲。第5楽章でクロプシュトックの詩「復活」に基づく合唱が歌われる。",
     "movements": [
       {
         "number": 1,
         "title": "Allegro maestoso",
         "tempo": "Allegro maestoso",
         "key": "c-minor",
-        "duration": 22,
-        "description": "葬送行進曲。英雄の死を描く。",
+        "duration": null,
+        "description": "ハ短調。低弦のトレモロと激しい音型で始まる。",
         "highlights": [
-          "冒頭の低弦のトレモロ"
+          "低弦の冒頭"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "「英雄を埋葬する」第1楽章から「復活」の終楽章へ。人間の存在の意味を問いかける巨大な作品。",
-    "musicalAnalysis": "5楽章構成で80分以上。巨大なオーケストラ、合唱、独唱を駆使した「宇宙的」スケール。",
-    "emotionalJourney": "死→回想→皮肉→祈り→復活の栄光",
-    "businessInsight": "「なぜ我々は存在するのか」という根源的な問いに挑む——Purpose-driven leadershipの音楽的表現。",
+    "historicalBackground": "第1楽章は1888年に交響詩「葬礼」として書かれ、1893年から1894年にかけて残りの楽章が書かれた。第5楽章の合唱は、マーラーが1894年のハンス・フォン・ビューローの葬儀で聴いたクロプシュトックの賛歌「復活」に自作の詩句を加えたものである。全曲の初演は1895年12月13日、ベルリンで作曲者の指揮による。",
+    "musicalAnalysis": "5楽章構成。第4楽章「原光」はアルト独唱による「子供の不思議な角笛」の詩の歌曲。第5楽章ではソプラノとアルトの独唱、合唱、オルガンが加わり、舞台裏の金管楽器も用いられる。",
     "listeningGuide": {
       "totalTime": "80分",
-      "recommendedVersion": "バーンスタイン指揮 ニューヨーク・フィル",
+      "recommendedVersion": "レナード・バーンスタイン指揮 ニューヨーク・フィルハーモニック",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "激烈な低弦の冒頭"
+          "description": "低弦による冒頭"
         }
       ]
     },
@@ -977,7 +1024,7 @@
   {
     "id": "bach-wtc1",
     "composerId": "bach-js",
-    "title": "平均律クラヴィーア曲集 第1巻",
+    "title": "平均律クラヴィーア曲集 第1巻 BWV846–869",
     "titleEn": "Well-Tempered Clavier Book 1",
     "year": 1722,
     "genre": "piano",
@@ -985,33 +1032,31 @@
     "opus": "BWV 846-869",
     "duration": 120,
     "difficulty": 4,
-    "shortDescription": "全24調の前奏曲とフーガ。鍵盤音楽の旧約聖書。",
+    "shortDescription": "24のすべての長調・短調による前奏曲とフーガ24組からなる鍵盤曲集。自筆譜の表紙に1722年の日付がある。",
     "movements": [
       {
         "number": 1,
-        "title": "Prelude No.1",
-        "tempo": "Moderato",
+        "title": "第1番 ハ長調 前奏曲",
+        "tempo": "",
         "key": "C-major",
         "duration": 4,
-        "description": "有名なアルペジオ前奏曲。",
+        "description": "分散和音の音型が最後まで続く前奏曲。",
         "highlights": [
-          "アルペジオ"
+          "分散和音"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1722年完成。",
-    "musicalAnalysis": "24調を体系的に網羅。",
-    "emotionalJourney": "知的探求",
-    "businessInsight": "体系的な知の構築。",
+    "historicalBackground": "ケーテン時代の1722年の日付をもつ自筆譜が残る。ハ長調から半音ずつ上がり、各調の長調・短調の順に並ぶ。第2巻は1740年代初めにまとめられた。",
+    "musicalAnalysis": "各組は前奏曲とフーガからなる。フーガは2声から5声で書かれている。",
     "listeningGuide": {
       "totalTime": "120分",
-      "recommendedVersion": "グールド",
+      "recommendedVersion": "グレン・グールド（ピアノ）",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "ハ長調前奏曲"
+          "description": "第1番 ハ長調の前奏曲"
         }
       ]
     },
@@ -1027,7 +1072,7 @@
   {
     "id": "bach-bwv1004",
     "composerId": "bach-js",
-    "title": "無伴奏ヴァイオリン・パルティータ第2番 ニ短調 BWV1004",
+    "title": "無伴奏ヴァイオリンのためのパルティータ第2番 ニ短調 BWV1004",
     "titleEn": "Partita No. 2 for Solo Violin in D minor, BWV 1004",
     "year": 1720,
     "genre": "chamber",
@@ -1036,35 +1081,28 @@
     "opus": "BWV 1004",
     "duration": 30,
     "difficulty": 4,
-    "shortDescription": "シャコンヌはバッハ器楽の最高峰。",
+    "shortDescription": "アルマンド、クーラント、サラバンド、ジーグ、シャコンヌの5曲からなる無伴奏ヴァイオリン曲。終曲のシャコンヌは単独でも演奏される。",
     "movements": [
       {
         "number": 5,
-        "title": "Ciaccona",
-        "tempo": "Varied",
+        "title": "Ciaccona（シャコンヌ）",
+        "tempo": "",
         "key": "d-minor",
         "duration": 15,
-        "description": "64変奏のシャコンヌ。",
+        "description": "4小節の和声進行による変奏。ニ短調で始まり、中間部でニ長調に移り、ニ短調に戻って終わる。",
         "highlights": [
-          "64変奏"
+          "ニ長調の中間部"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1720年ケーテンで作曲。",
-    "musicalAnalysis": "単独ヴァイオリンの多声的書法。",
-    "emotionalJourney": "厳粛→激情→悲哀",
-    "businessInsight": "個の力の極限。",
+    "historicalBackground": "1720年の日付をもつ自筆の清書譜「無伴奏ヴァイオリンのための6曲のソナタとパルティータ」に含まれる。当時バッハはケーテン宮廷楽長だった。",
+    "musicalAnalysis": "重音を用いて、1本のヴァイオリンで和声と複数の声部を表す。シャコンヌは4小節の和声進行の上に変奏を重ね、中間部はニ長調になる。",
     "listeningGuide": {
       "totalTime": "30分",
-      "recommendedVersion": "ハーン",
+      "recommendedVersion": "ヒラリー・ハーン（ヴァイオリン）",
       "youtubeId": null,
-      "checkpoints": [
-        {
-          "time": "15:00",
-          "description": "シャコンヌ"
-        }
-      ]
+      "checkpoints": []
     },
     "relatedWorks": [],
     "relatedComposers": [],
@@ -1077,7 +1115,7 @@
   {
     "id": "bach-mass-b",
     "composerId": "bach-js",
-    "title": "ミサ曲ロ短調",
+    "title": "ミサ曲 ロ短調 BWV232",
     "titleEn": "Mass in B minor",
     "year": 1749,
     "genre": "choral",
@@ -1086,33 +1124,31 @@
     "opus": "BWV 232",
     "duration": 110,
     "difficulty": 4,
-    "shortDescription": "バッハ声楽の集大成。",
+    "shortDescription": "ラテン語のミサ通常文全体に作曲したバッハの声楽曲。1733年にドレスデン宮廷に献呈したキリエとグロリアに、晩年の1748〜49年頃に残りの部分を加えて完成させた。",
     "movements": [
       {
         "number": 1,
-        "title": "Kyrie",
+        "title": "キリエ（第1曲 Kyrie eleison）",
         "tempo": "Adagio",
         "key": "b-minor",
         "duration": 10,
-        "description": "5声のキリエ。",
+        "description": "ロ短調。4小節の導入の後、5声の合唱によるフーガになる。",
         "highlights": [
-          "5声フーガ"
+          "5声のフーガ"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "バッハ晩年の傑作。",
-    "musicalAnalysis": "バロック様式の総決算。",
-    "emotionalJourney": "嘆願→栄光→平和",
-    "businessInsight": "普遍的価値の創造。",
+    "historicalBackground": "1733年、キリエとグロリアの楽譜をザクセン選帝侯フリードリヒ・アウグスト2世に献呈した。1748年から1749年頃に、クレド、サンクトゥス、オザンナからアニュス・デイまでを加えて全曲をまとめた。多くの曲は既存のカンタータなどからの転用である。バッハの生前に全曲が演奏された記録はない。",
+    "musicalAnalysis": "キリエ、グロリア、クレド、サンクトゥス、オザンナ・ベネディクトゥス・アニュス・デイ・ドナ・ノビス・パーチェムの各部からなる。独唱のアリアと、4声から8声の合唱曲で構成される。",
     "listeningGuide": {
       "totalTime": "110分",
-      "recommendedVersion": "ガーディナー",
+      "recommendedVersion": "ジョン・エリオット・ガーディナー指揮 イングリッシュ・バロック・ソロイスツ、モンテヴェルディ合唱団",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "キリエ"
+          "description": "キリエの冒頭"
         }
       ]
     },
@@ -1130,7 +1166,7 @@
   {
     "id": "handel-water",
     "composerId": "handel",
-    "title": "水上の音楽",
+    "title": "水上の音楽 HWV348–350",
     "titleEn": "Water Music",
     "year": 1717,
     "genre": "orchestral",
@@ -1138,33 +1174,31 @@
     "opus": "HWV 348-350",
     "duration": 55,
     "difficulty": 1,
-    "shortDescription": "テムズ川の船遊びのための華やかな組曲。",
+    "shortDescription": "ヘ長調、ニ長調、ト長調の3つの組曲からなる管弦楽曲。1717年7月17日にテムズ川でのイギリス国王ジョージ1世の舟遊びで演奏された。",
     "movements": [
       {
         "number": 1,
-        "title": "Overture",
-        "tempo": "Allegro",
+        "title": "ヘ長調の組曲 序曲",
+        "tempo": "Largo – Allegro",
         "key": "F-major",
         "duration": 5,
-        "description": "壮大な序曲。",
+        "description": "ヘ長調。遅い導入とフーガ風の速い部分からなる。",
         "highlights": [
-          "ホルン"
+          "フランス風序曲の形"
         ],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1717年ジョージ1世のために演奏。",
-    "musicalAnalysis": "華やかな野外音楽。",
-    "emotionalJourney": "祝祭→優雅",
-    "businessInsight": "場を演出するイベントプロデュース。",
+    "historicalBackground": "1717年7月17日、ジョージ1世がテムズ川を舟で上った際、別の舟に乗った約50人の楽団が演奏したことが当時の新聞に記録されている。王はこの演奏を3回繰り返させたと伝えられる。曲の順序や組曲への分け方は、後の出版譜や筆写譜によって異なる。",
+    "musicalAnalysis": "序曲と舞曲（メヌエット、ブーレ、ホーンパイプなど）からなる。ヘ長調の組曲ではホルン、ニ長調の組曲ではトランペットが加わり、ト長調の組曲は小編成である。",
     "listeningGuide": {
       "totalTime": "55分",
-      "recommendedVersion": "ピノック",
+      "recommendedVersion": "トレヴァー・ピノック指揮 イングリッシュ・コンサート",
       "youtubeId": null,
       "checkpoints": [
         {
           "time": "0:00",
-          "description": "序曲"
+          "description": "ヘ長調の組曲の序曲"
         }
       ]
     },
@@ -1183,14 +1217,14 @@
   {
     "id": "telemann-tafelmusik",
     "composerId": "telemann",
-    "title": "ターフェルムジーク",
+    "title": "ターフェルムジーク（食卓の音楽）",
     "titleEn": "Tafelmusik",
     "year": 1733,
     "genre": "orchestral",
     "era": "baroque",
     "duration": 60,
     "difficulty": 2,
-    "shortDescription": "食卓の音楽。バロック組曲の百科全書。",
+    "shortDescription": "1733年にハンブルクで予約出版された器楽曲集。3つの「プロダクション」からなり、それぞれ序曲（組曲）、四重奏曲、協奏曲、トリオ、独奏ソナタ、終曲を含む。",
     "movements": [
       {
         "number": 1,
@@ -1203,10 +1237,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1733年出版。テレマン最大の器楽作品集。",
+    "historicalBackground": "1733年にテレマン自身が予約出版した。予約者名簿にはヨーロッパ各地の206人が載り、その中にヘンデルの名もある。",
     "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "おもてなしの音楽。",
     "listeningGuide": {
       "totalTime": "60分",
       "recommendedVersion": "",
@@ -1223,7 +1255,7 @@
   {
     "id": "purcell-dido",
     "composerId": "purcell",
-    "title": "ディドとエネアス",
+    "title": "オペラ《ディドとエネアス》 Z.626",
     "titleEn": "Dido and Aeneas",
     "year": 1689,
     "genre": "opera",
@@ -1231,7 +1263,7 @@
     "opus": "Z. 626",
     "duration": 60,
     "difficulty": 2,
-    "shortDescription": "英語オペラの最高傑作。ディドの嘆きは音楽史上最も美しいアリア。",
+    "shortDescription": "テイト（Nahum Tate）の英語台本による3幕のオペラ。カルタゴの女王ディドとトロイアの英雄エネアスの物語。",
     "movements": [
       {
         "number": 1,
@@ -1244,10 +1276,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1689年初演。",
+    "historicalBackground": "1689年、ロンドンのチェルシーにあったジョサイアス・プリースト（Josias Priest）の女子寄宿学校で上演されたことが、台本の印刷物からわかる。それ以前に宮廷で上演された可能性も論じられている。自筆譜は残っておらず、最も古い楽譜は18世紀の筆写譜である。",
     "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "簡潔さの中の深い感動。",
     "listeningGuide": {
       "totalTime": "60分",
       "recommendedVersion": "",
@@ -1264,7 +1294,7 @@
   {
     "id": "haydn-creation",
     "composerId": "haydn",
-    "title": "天地創造",
+    "title": "オラトリオ《天地創造》 Hob.XXI:2",
     "titleEn": "The Creation",
     "year": 1798,
     "genre": "choral",
@@ -1272,7 +1302,7 @@
     "opus": "Hob. XXI:2",
     "duration": 100,
     "difficulty": 2,
-    "shortDescription": "「光あれ」は音楽史上最も劇的な瞬間の一つ。",
+    "shortDescription": "旧約聖書の創世記とミルトン「失楽園」に基づく台本によるオラトリオ。1798年にウィーンで初演された。",
     "movements": [
       {
         "number": 1,
@@ -1285,10 +1315,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "ハイドン晩年の傑作。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "混沌から秩序を創造するスタートアップ。",
+    "historicalBackground": "ロンドン滞在中にハイドンが英語の台本を受け取り、ヴァン・スヴィーテン男爵（Gottfried van Swieten）がドイツ語に訳した。1798年4月末にウィーンのシュヴァルツェンベルク宮殿で非公開で初演され、公開初演は1799年3月19日にブルク劇場で行われた。1800年にドイツ語と英語を併記した楽譜が出版された。",
+    "musicalAnalysis": "3部からなる。第1部の序曲「混沌の描写」は調のはっきりしない和声で始まる。第1部で合唱が「そして光があった」と歌う箇所で、管弦楽と合唱がハ長調の和音をフォルティッシモで鳴らす。",
     "listeningGuide": {
       "totalTime": "100分",
       "recommendedVersion": "",
@@ -1305,7 +1333,7 @@
   {
     "id": "haydn-sym94",
     "composerId": "haydn",
-    "title": "交響曲第94番 驚愕",
+    "title": "交響曲第94番 ト長調 Hob.I:94《驚愕》",
     "titleEn": "Symphony No.94 Surprise",
     "year": 1791,
     "genre": "symphony",
@@ -1314,7 +1342,7 @@
     "opus": "Hob. I:94",
     "duration": 23,
     "difficulty": 1,
-    "shortDescription": "突然のffで聴衆を起こした有名交響曲。",
+    "shortDescription": "ハイドンの第1回ロンドン訪問のために書かれた交響曲。第2楽章で弱奏の主題の後に全楽器が強奏する箇所から「驚愕（サプライズ）」と呼ばれる。",
     "movements": [
       {
         "number": 1,
@@ -1327,10 +1355,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1791年ロンドン公演用。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "予想を裏切るつかみの技法。",
+    "historicalBackground": "1791年に作曲され、1792年3月23日にロンドンのハノーヴァー・スクエア・ルームズで、ザロモンの演奏会で初演された。「驚愕」の呼び名は作曲者によるものではない。ハイドンは後に伝記作家グリージンガー（Georg August Griesinger）に、聴衆を驚かせる新しいものを書きたかったと語っている。",
+    "musicalAnalysis": "4楽章構成。第2楽章（Andante、ハ長調）は変奏曲で、主題が弱奏で2回目に繰り返される終わりに、ティンパニを含む全楽器のフォルティッシモの和音が入る。",
     "listeningGuide": {
       "totalTime": "23分",
       "recommendedVersion": "",
@@ -1348,7 +1374,7 @@
   {
     "id": "mozart-figaro",
     "composerId": "mozart-wa",
-    "title": "フィガロの結婚",
+    "title": "オペラ《フィガロの結婚》 K.492",
     "titleEn": "Le nozze di Figaro",
     "year": 1786,
     "genre": "opera",
@@ -1356,7 +1382,7 @@
     "opus": "K. 492",
     "duration": 180,
     "difficulty": 2,
-    "shortDescription": "身分制度への風刺と人間愛のモーツァルト最高傑作オペラ。",
+    "shortDescription": "ボーマルシェの喜劇をもとに、ダ・ポンテ（Lorenzo Da Ponte）がイタリア語の台本を書いた4幕のオペラ・ブッファ。1786年5月1日にウィーンのブルク劇場で初演された。",
     "movements": [
       {
         "number": 1,
@@ -1369,10 +1395,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1786年ウィーン初演。",
+    "historicalBackground": "原作のボーマルシェ「フィガロの結婚」（1784年パリ初演）は、ウィーンでは劇としての上演が禁じられていた。ダ・ポンテは政治的な台詞を削って台本を書いた。1786年5月1日にブルク劇場で初演され、同年12月にはプラハでも上演された。",
     "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "ボトムアップ・イノベーション。",
     "listeningGuide": {
       "totalTime": "180分",
       "recommendedVersion": "",
@@ -1390,7 +1414,7 @@
   {
     "id": "mozart-eine-kleine",
     "composerId": "mozart-wa",
-    "title": "アイネ・クライネ・ナハトムジーク",
+    "title": "セレナード第13番 ト長調 K.525《アイネ・クライネ・ナハトムジーク》",
     "titleEn": "Eine kleine Nachtmusik",
     "year": 1787,
     "genre": "chamber",
@@ -1399,7 +1423,7 @@
     "opus": "K. 525",
     "duration": 18,
     "difficulty": 1,
-    "shortDescription": "世界で最も有名なクラシック曲の一つ。",
+    "shortDescription": "弦楽合奏または弦楽五重奏のためのセレナード。モーツァルトの自作目録に1787年8月10日付で記載されている。",
     "movements": [
       {
         "number": 1,
@@ -1412,10 +1436,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1787年作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "最高の製品は最もシンプル。",
+    "historicalBackground": "モーツァルトの自作目録に「小さな夜の音楽」として1787年8月10日付で記載されている。目録では5楽章とされているが、第2楽章にあたるメヌエットとトリオは失われ、4楽章で伝わっている。作曲の目的や初演の記録はない。出版はモーツァルトの死後の1827年頃である。",
+    "musicalAnalysis": "現在の4楽章は、ソナタ形式のAllegro、ロマンツェ（Andante）、メヌエット、ロンド（Allegro）である。",
     "listeningGuide": {
       "totalTime": "18分",
       "recommendedVersion": "",
@@ -1433,7 +1455,7 @@
   {
     "id": "mozart-magic-flute",
     "composerId": "mozart-wa",
-    "title": "魔笛",
+    "title": "オペラ《魔笛》 K.620",
     "titleEn": "Die Zauberflöte",
     "year": 1791,
     "genre": "opera",
@@ -1441,7 +1463,7 @@
     "opus": "K. 620",
     "duration": 150,
     "difficulty": 2,
-    "shortDescription": "光と闇、愛と試練の寓話。モーツァルト最後のオペラ。",
+    "shortDescription": "シカネーダー（Emanuel Schikaneder）のドイツ語台本による2幕のジングシュピール。1791年9月30日にウィーンのアウフ・デア・ヴィーデン劇場で初演された。",
     "movements": [
       {
         "number": 1,
@@ -1454,10 +1476,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1791年ウィーン初演。フリーメイソンの象徴。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "試練を乗り越えてこそ真の知恵。",
+    "historicalBackground": "1791年9月30日、シカネーダーが経営するアウフ・デア・ヴィーデン劇場で、モーツァルトの指揮により初演された。シカネーダーはパパゲーノを演じた。モーツァルトの生前に初演された最後のオペラで、作曲者は約2か月後に没した。モーツァルトとシカネーダーはともにフリーメイソンの会員で、作品には入会の儀式に関わる数字や場面が使われていると指摘されている。",
+    "musicalAnalysis": "台詞と歌で進むジングシュピールの形式をとる。夜の女王のアリアには高音域のFまでが書かれている。",
     "listeningGuide": {
       "totalTime": "150分",
       "recommendedVersion": "",
@@ -1475,7 +1495,7 @@
   {
     "id": "mozart-pc21",
     "composerId": "mozart-wa",
-    "title": "ピアノ協奏曲第21番",
+    "title": "ピアノ協奏曲第21番 ハ長調 K.467",
     "titleEn": "Piano Concerto No.21",
     "year": 1785,
     "genre": "concerto",
@@ -1484,7 +1504,7 @@
     "opus": "K. 467",
     "duration": 28,
     "difficulty": 1,
-    "shortDescription": "第2楽章は映画「みじかくも美しく燃え」で有名。",
+    "shortDescription": "1785年3月9日に完成し、翌日ウィーンでモーツァルト自身の独奏で初演されたピアノ協奏曲。第2楽章は1967年のスウェーデン映画「みじかくも美しく燃え」で使われた。",
     "movements": [
       {
         "number": 1,
@@ -1497,10 +1517,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1785年ウィーンで初演。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "美しさは永遠のブランド価値。",
+    "historicalBackground": "モーツァルトの自作目録によれば1785年3月9日に完成した。3月10日、ウィーンのブルク劇場でのモーツァルトの演奏会で、作曲者の独奏により初演された。",
+    "musicalAnalysis": "3楽章構成。第2楽章（Andante、ヘ長調）は弱音器を付けた弦楽器の三連符の伴奏の上で旋律が歌われる。",
     "listeningGuide": {
       "totalTime": "28分",
       "recommendedVersion": "",
@@ -1519,7 +1537,7 @@
   {
     "id": "beethoven-moonlight",
     "composerId": "beethoven",
-    "title": "月光ソナタ",
+    "title": "ピアノ・ソナタ第14番 嬰ハ短調 作品27-2《月光》",
     "titleEn": "Moonlight Sonata",
     "year": 1801,
     "genre": "piano",
@@ -1528,7 +1546,7 @@
     "opus": "Op. 27, No. 2",
     "duration": 15,
     "difficulty": 2,
-    "shortDescription": "三連符アルペジオの第1楽章はクラシック最有名旋律。",
+    "shortDescription": "1801年に作曲され、1802年に「幻想曲風ソナタ」として出版されたピアノ・ソナタ。「月光」の呼び名は作曲者によるものではない。",
     "movements": [
       {
         "number": 1,
@@ -1541,10 +1559,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1801年ジュリエッタに捧げた。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "静と動のコントラスト。",
+    "historicalBackground": "1801年に作曲され、1802年に作品27の2曲の1つとして、「幻想曲風ソナタ（Sonata quasi una fantasia）」の題で出版された。伯爵令嬢ジュリエッタ・グイチャルディ（Giulietta Guicciardi）に献呈された。「月光」の呼び名は、詩人レルシュタープ（Ludwig Rellstab）が第1楽章をルツェルン湖の月光にたとえたことに由来するとされる。",
+    "musicalAnalysis": "3楽章構成。通常とは逆に遅い楽章（Adagio sostenuto）から始まり、第1楽章は三連符の分散和音が続く。第3楽章（Presto agitato）はソナタ形式。",
     "listeningGuide": {
       "totalTime": "15分",
       "recommendedVersion": "",
@@ -1562,7 +1578,7 @@
   {
     "id": "beethoven-emperor",
     "composerId": "beethoven",
-    "title": "ピアノ協奏曲第5番 皇帝",
+    "title": "ピアノ協奏曲第5番 変ホ長調 作品73《皇帝》",
     "titleEn": "Emperor Concerto",
     "year": 1809,
     "genre": "concerto",
@@ -1571,7 +1587,7 @@
     "opus": "Op. 73",
     "duration": 38,
     "difficulty": 2,
-    "shortDescription": "壮大なベートーヴェン最後のピアノ協奏曲。",
+    "shortDescription": "ベートーヴェンの最後のピアノ協奏曲。1809年に作曲され、1811年にライプツィヒで初演された。「皇帝」の呼び名は作曲者によるものではない。",
     "movements": [
       {
         "number": 1,
@@ -1584,10 +1600,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1809年ウィーン砲撃中に作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "自信と優雅さの両立。",
+    "historicalBackground": "1809年に作曲された。この年の5月、フランス軍がウィーンを砲撃し占領している。1811年11月28日にライプツィヒのゲヴァントハウスで、フリードリヒ・シュナイダー（Friedrich Schneider）の独奏で初演された。ルドルフ大公に献呈された。",
+    "musicalAnalysis": "3楽章構成。第1楽章は管弦楽の和音とピアノのカデンツァ風の独奏で始まる。第2楽章（ロ長調）から第3楽章へは切れ目なく続く。",
     "listeningGuide": {
       "totalTime": "38分",
       "recommendedVersion": "",
@@ -1605,7 +1619,7 @@
   {
     "id": "beethoven-pathetique",
     "composerId": "beethoven",
-    "title": "ピアノソナタ第8番 悲愴",
+    "title": "ピアノ・ソナタ第8番 ハ短調 作品13《悲愴》",
     "titleEn": "Pathétique Sonata",
     "year": 1798,
     "genre": "piano",
@@ -1614,7 +1628,7 @@
     "opus": "Op. 13",
     "duration": 18,
     "difficulty": 2,
-    "shortDescription": "悲劇的な情熱と美しい緩徐楽章で知られる初期の傑作。",
+    "shortDescription": "1798年から1799年にかけて書かれ、1799年に「大ソナタ・パテティック」の題で出版されたピアノ・ソナタ。",
     "movements": [
       {
         "number": 1,
@@ -1627,10 +1641,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1798年作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "感情を論理的に構成する力。",
+    "historicalBackground": "1799年にウィーンのエーダー社から「大ソナタ・パテティック」の題で出版され、リヒノフスキー侯爵に献呈された。この題は出版譜に印刷されており、作曲者の承認があったと考えられている。",
+    "musicalAnalysis": "3楽章構成。第1楽章はGraveの序奏で始まり、序奏の音型がAllegroの主部の中でも再び現れる。第2楽章はAdagio cantabile（変イ長調）、第3楽章はロンド。",
     "listeningGuide": {
       "totalTime": "18分",
       "recommendedVersion": "",
@@ -1648,14 +1660,14 @@
   {
     "id": "gluck-orfeo",
     "composerId": "gluck",
-    "title": "オルフェオとエウリディーチェ",
+    "title": "オペラ《オルフェオとエウリディーチェ》",
     "titleEn": "Orfeo ed Euridice",
     "year": 1762,
     "genre": "opera",
     "era": "classical",
     "duration": 90,
     "difficulty": 2,
-    "shortDescription": "オペラ改革の先駆的作品。精霊の踊りは永遠の名旋律。",
+    "shortDescription": "カルツァビージのイタリア語台本による3幕のオペラ。1762年10月5日にウィーンのブルク劇場で初演された。",
     "movements": [
       {
         "number": 1,
@@ -1668,10 +1680,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1762年ウィーン初演。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "シンプルさへの回帰がイノベーションを生む。",
+    "historicalBackground": "1762年10月5日にウィーンのブルク劇場で初演された。オルフェオ役はアルトのカストラート、グァダーニ（Gaetano Guadagni）が歌った。1774年にはパリでフランス語版「オルフェとウリディス」が上演され、オルフェ役はテノールに改められ、「精霊の踊り」の拡大などバレエ音楽が加えられた。",
+    "musicalAnalysis": "ギリシャ神話のオルフェウスの物語による。登場人物はオルフェオ、エウリディーチェ、アモーレの3人と合唱で、レチタティーヴォには管弦楽の伴奏が付けられている。",
     "listeningGuide": {
       "totalTime": "90分",
       "recommendedVersion": "",
@@ -1688,7 +1698,7 @@
   {
     "id": "schubert-winterreise",
     "composerId": "schubert",
-    "title": "冬の旅",
+    "title": "歌曲集《冬の旅》 D911",
     "titleEn": "Winterreise",
     "year": 1827,
     "genre": "vocal",
@@ -1696,7 +1706,7 @@
     "opus": "D. 911",
     "duration": 72,
     "difficulty": 3,
-    "shortDescription": "ドイツ・リートの最高傑作。失恋の放浪。",
+    "shortDescription": "ヴィルヘルム・ミュラー（Wilhelm Müller）の詩による24曲の歌曲集。1827年に作曲された。",
     "movements": [
       {
         "number": 1,
@@ -1709,10 +1719,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1827年死の前年作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "孤独なリーダーの旅。",
+    "historicalBackground": "1827年2月に前半の12曲、同年秋に後半の12曲が作曲された。前半は1828年1月、後半はシューベルトの死後の1828年12月に出版された。シューベルトの友人シュパウン（Joseph von Spaun）は、シューベルトが友人たちにこの歌曲集を歌って聴かせたと回想している。",
+    "musicalAnalysis": "声とピアノのための24曲からなる。恋人に去られた若者が冬の野を一人歩く内容の詩による。",
     "listeningGuide": {
       "totalTime": "72分",
       "recommendedVersion": "",
@@ -1730,7 +1738,7 @@
   {
     "id": "schubert-unfinished",
     "composerId": "schubert",
-    "title": "未完成交響曲",
+    "title": "交響曲 ロ短調 D759《未完成》",
     "titleEn": "Unfinished Symphony",
     "year": 1822,
     "genre": "symphony",
@@ -1739,7 +1747,7 @@
     "opus": "D. 759",
     "duration": 25,
     "difficulty": 1,
-    "shortDescription": "2楽章のみの謎の交響曲。未完ながら完璧。",
+    "shortDescription": "1822年に作曲が始められ、2楽章だけが完成された交響曲。1865年にウィーンで初演された。",
     "movements": [
       {
         "number": 1,
@@ -1752,10 +1760,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1822年中断。理由は謎。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "完璧より行動。MVP思想。",
+    "historicalBackground": "自筆総譜の第1ページに1822年10月30日の日付がある。第3楽章はピアノ・スケッチと総譜の冒頭部分が残る。シューベルトは楽譜を友人のアンゼルム・ヒュッテンブレンナー（Anselm Hüttenbrenner）に渡しており、作曲を中断した理由は記録に残っていない。1865年12月17日、ウィーンでヨハン・ヘルベック（Johann Herbeck）の指揮で初演された。番号は新しいドイチュ目録では第7番、従来は第8番とされる。",
+    "musicalAnalysis": "完成しているのは第1楽章（Allegro moderato、ロ短調）と第2楽章（Andante con moto、ホ長調）である。",
     "listeningGuide": {
       "totalTime": "25分",
       "recommendedVersion": "",
@@ -1773,7 +1779,7 @@
   {
     "id": "schubert-trout",
     "composerId": "schubert",
-    "title": "ピアノ五重奏曲 ます",
+    "title": "ピアノ五重奏曲 イ長調 D667《ます》",
     "titleEn": "Trout Quintet",
     "year": 1819,
     "genre": "chamber",
@@ -1782,7 +1788,7 @@
     "opus": "D. 667",
     "duration": 38,
     "difficulty": 1,
-    "shortDescription": "第4楽章は歌曲「ます」の変奏曲。室内楽の人気曲。",
+    "shortDescription": "ピアノ、ヴァイオリン、ヴィオラ、チェロ、コントラバスのための5楽章の五重奏曲。第4楽章は自作の歌曲「ます」の旋律による変奏曲である。",
     "movements": [
       {
         "number": 1,
@@ -1795,10 +1801,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1819年夏の旅行中に作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "チームの多様性が生む豊かな響き。",
+    "historicalBackground": "1819年に作曲されたとされる。シューベルトの友人シュタードラー（Albert Stadler）の回想によれば、オーストリアのシュタイアーの音楽愛好家でチェロを弾いたパウムガルトナー（Sylvester Paumgartner）の依頼で書かれ、歌曲「ます」による変奏曲を入れることもパウムガルトナーの希望だった。出版はシューベルトの死後の1829年。",
+    "musicalAnalysis": "弦楽四重奏ではなく、ヴァイオリン、ヴィオラ、チェロ、コントラバスとピアノという編成をとる。5楽章構成で、第4楽章（Andantino）は歌曲「ます」D550の旋律による主題と変奏である。",
     "listeningGuide": {
       "totalTime": "38分",
       "recommendedVersion": "",
@@ -1816,7 +1820,7 @@
   {
     "id": "chopin-nocturne2",
     "composerId": "chopin",
-    "title": "ノクターン第2番",
+    "title": "夜想曲第2番 変ホ長調 作品9-2",
     "titleEn": "Nocturne Op.9-2",
     "year": 1832,
     "genre": "piano",
@@ -1825,7 +1829,7 @@
     "opus": "Op. 9, No. 2",
     "duration": 5,
     "difficulty": 1,
-    "shortDescription": "ショパン最有名のノクターン。ピアノの詩情。",
+    "shortDescription": "1830年から1832年にかけて書かれた作品9の3曲の夜想曲の2曲目。1832年に出版された。",
     "movements": [
       {
         "number": 1,
@@ -1838,10 +1842,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1832年出版。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "Less is More。",
+    "historicalBackground": "作品9の3曲は1832年に出版され、マリー・プレイエル（Marie Pleyel）に献呈された。",
+    "musicalAnalysis": "12/8拍子。左手の分散和音の上で主題が装飾を変えながら繰り返される。",
     "listeningGuide": {
       "totalTime": "5分",
       "recommendedVersion": "",
@@ -1859,7 +1861,7 @@
   {
     "id": "chopin-concerto1",
     "composerId": "chopin",
-    "title": "ピアノ協奏曲第1番",
+    "title": "ピアノ協奏曲第1番 ホ短調 作品11",
     "titleEn": "Piano Concerto No.1",
     "year": 1830,
     "genre": "concerto",
@@ -1868,7 +1870,7 @@
     "opus": "Op. 11",
     "duration": 40,
     "difficulty": 3,
-    "shortDescription": "20歳の情熱が結晶した華麗な協奏曲。",
+    "shortDescription": "1830年に作曲され、同年10月11日にワルシャワでショパン自身の独奏で初演されたピアノ協奏曲。第2番より後に書かれたが、先に出版されたため第1番とされる。",
     "movements": [
       {
         "number": 1,
@@ -1881,10 +1883,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1830年ワルシャワ出発前に作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "若さの大胆さと繊細さ。",
+    "historicalBackground": "1830年に作曲され、10月11日にワルシャワ国立劇場でのショパンの演奏会で初演された。ショパンは翌11月にワルシャワを離れ、二度と戻らなかった。1833年に出版され、ピアニストのカルクブレンナー（Friedrich Kalkbrenner）に献呈された。",
+    "musicalAnalysis": "3楽章構成。第2楽章はロマンツェ（Larghetto、ホ長調）、第3楽章はポーランドの舞曲クラコヴィアクのリズムによるロンド。",
     "listeningGuide": {
       "totalTime": "40分",
       "recommendedVersion": "",
@@ -1902,7 +1902,7 @@
   {
     "id": "chopin-etudes",
     "composerId": "chopin",
-    "title": "練習曲集 Op.10",
+    "title": "12の練習曲 作品10",
     "titleEn": "Études Op.10",
     "year": 1833,
     "genre": "piano",
@@ -1910,7 +1910,7 @@
     "opus": "Op. 10",
     "duration": 25,
     "difficulty": 5,
-    "shortDescription": "革命のエチュードを含む。技巧と芸術の完璧な融合。",
+    "shortDescription": "1829年から1832年にかけて書かれた12曲のピアノ練習曲。1833年に出版され、リストに献呈された。第12番は「革命」の通称で知られる。",
     "movements": [
       {
         "number": 1,
@@ -1923,10 +1923,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1833年出版。リストに献呈。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "基礎訓練が最高の芸術になる。",
+    "historicalBackground": "1833年にパリ、ライプツィヒ、ロンドンで出版され、「わが友フランツ・リストへ」と献呈された。第12番 ハ短調の通称「革命」は作曲者によるものではない。",
+    "musicalAnalysis": "各曲が特定の奏法（右手の広い分散和音、半音階、黒鍵、左手の速い音型など）を扱う。",
     "listeningGuide": {
       "totalTime": "25分",
       "recommendedVersion": "",
@@ -1943,7 +1941,7 @@
   {
     "id": "liszt-sonata",
     "composerId": "liszt",
-    "title": "ピアノソナタ ロ短調",
+    "title": "ピアノ・ソナタ ロ短調 S.178",
     "titleEn": "Piano Sonata in B minor",
     "year": 1853,
     "genre": "piano",
@@ -1952,7 +1950,7 @@
     "opus": "S. 178",
     "duration": 30,
     "difficulty": 5,
-    "shortDescription": "単一楽章30分。ピアノ史上最も野心的。",
+    "shortDescription": "単一楽章で書かれたリストのピアノ・ソナタ。1853年に完成し、シューマンに献呈された。1857年にハンス・フォン・ビューローがベルリンで初演した。",
     "movements": [
       {
         "number": 1,
@@ -1965,10 +1963,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1853年完成。シューマンに献呈。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "形式の再発明。",
+    "historicalBackground": "自筆譜に1853年2月2日の完成の日付がある。1854年に出版され、ロベルト・シューマンに献呈された。公開初演は1857年1月27日、ベルリンでハンス・フォン・ビューロー（Hans von Bülow）による。",
+    "musicalAnalysis": "切れ目のない単一楽章の中に、ソナタ形式の提示部・展開部・再現部と、複数楽章のソナタの緩徐楽章やフーガにあたる部分が組み込まれている。少数の主題が形を変えて全体に現れる。",
     "listeningGuide": {
       "totalTime": "30分",
       "recommendedVersion": "",
@@ -1986,7 +1982,7 @@
   {
     "id": "liszt-hungarian2",
     "composerId": "liszt",
-    "title": "ハンガリー狂詩曲第2番",
+    "title": "ハンガリー狂詩曲第2番 嬰ハ短調 S.244/2",
     "titleEn": "Hungarian Rhapsody No.2",
     "year": 1847,
     "genre": "piano",
@@ -1995,7 +1991,7 @@
     "opus": "S. 244/2",
     "duration": 10,
     "difficulty": 3,
-    "shortDescription": "リストの超絶技巧を代表する華麗な作品。",
+    "shortDescription": "リストが書いた19曲のハンガリー狂詩曲の第2番。1847年に作曲され、1851年に出版された。",
     "movements": [
       {
         "number": 1,
@@ -2008,10 +2004,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1847年作曲。ハンガリーのロマ（ジプシー）楽団の音楽（ヴェルブンコシュ）に基づく。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "エンターテインメントのプロフェッショナリズム。",
+    "historicalBackground": "1847年に作曲され、1851年に出版された。テレキ伯爵（László Teleki）に献呈された。リストはハンガリーのロマの楽団が演奏していた旋律をもとにしており、その中には19世紀のハンガリーの舞曲ヴェルブンコシュの旋律が含まれる。のちに管弦楽版も作られた。",
+    "musicalAnalysis": "遅い「ラッサン」と速い「フリスカ」の2部分からなる。",
     "listeningGuide": {
       "totalTime": "10分",
       "recommendedVersion": "",
@@ -2029,7 +2023,7 @@
   {
     "id": "brahms-sym1",
     "composerId": "brahms",
-    "title": "交響曲第1番",
+    "title": "交響曲第1番 ハ短調 作品68",
     "titleEn": "Symphony No.1",
     "year": 1876,
     "genre": "symphony",
@@ -2038,7 +2032,7 @@
     "opus": "Op. 68",
     "duration": 45,
     "difficulty": 2,
-    "shortDescription": "21年かけた渾身作。ベートーヴェンの第10番。",
+    "shortDescription": "ブラームスの最初の交響曲。1876年に完成し、同年11月4日にカールスルーエで初演された。",
     "movements": [
       {
         "number": 1,
@@ -2051,10 +2045,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "21年かけて完成。",
+    "historicalBackground": "第1楽章の初稿は1862年に知られている。1876年に完成し、11月4日にカールスルーエでデッソフ（Otto Dessoff）の指揮により初演された。",
     "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "長期ビジョンの忍耐。",
     "listeningGuide": {
       "totalTime": "45分",
       "recommendedVersion": "",
@@ -2072,7 +2064,7 @@
   {
     "id": "brahms-pc1",
     "composerId": "brahms",
-    "title": "ピアノ協奏曲第1番",
+    "title": "ピアノ協奏曲第1番 ニ短調 作品15",
     "titleEn": "Piano Concerto No.1",
     "year": 1858,
     "genre": "concerto",
@@ -2081,7 +2073,7 @@
     "opus": "Op. 15",
     "duration": 48,
     "difficulty": 3,
-    "shortDescription": "交響曲的スケールの壮大なピアノ協奏曲。",
+    "shortDescription": "ブラームスの最初のピアノ協奏曲。2台ピアノのソナタ、次いで交響曲として構想された素材から書かれ、1859年1月22日にハノーファーで初演された。",
     "movements": [
       {
         "number": 1,
@@ -2094,10 +2086,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1858年完成。1859年1月のハノーファー初演は冷ややかに迎えられ、数日後のライプツィヒ公演では野次を浴びたが、後に高く評価された。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "失敗から学び次に繋げる力。",
+    "historicalBackground": "1854年に2台ピアノのためのソナタとして書き始められ、交響曲への改作を経て、ピアノ協奏曲として1858年に完成した。1859年1月22日、ハノーファーでブラームスの独奏、ヨアヒムの指揮により初演された。5日後のライプツィヒ・ゲヴァントハウスでの演奏は聴衆に受け入れられなかったと、ブラームス自身が手紙に書いている。",
+    "musicalAnalysis": "3楽章構成。第1楽章（Maestoso）は管弦楽だけの長い提示の後に独奏ピアノが入る。第2楽章はAdagio（ニ長調）、第3楽章はロンド。",
     "listeningGuide": {
       "totalTime": "48分",
       "recommendedVersion": "",
@@ -2115,7 +2105,7 @@
   {
     "id": "wagner-tristan",
     "composerId": "wagner",
-    "title": "トリスタンとイゾルデ",
+    "title": "楽劇《トリスタンとイゾルデ》 WWV90",
     "titleEn": "Tristan und Isolde",
     "year": 1859,
     "genre": "opera",
@@ -2123,7 +2113,7 @@
     "opus": "WWV 90",
     "duration": 240,
     "difficulty": 4,
-    "shortDescription": "調性の限界を突破した革命的オペラ。",
+    "shortDescription": "ワーグナー自身の台本による3幕の楽劇。1859年に完成し、1865年6月10日にミュンヘンで初演された。",
     "movements": [
       {
         "number": 1,
@@ -2136,10 +2126,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1859年完成。1865年ミュンヘン初演。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "限界を試すイノベーター。",
+    "historicalBackground": "ゴットフリート・フォン・シュトラースブルクの中世の叙事詩に基づく。「ニーベルングの指環」の作曲を中断して1857年から書かれ、1859年8月に完成した。1865年6月10日、ミュンヘンの宮廷歌劇場でハンス・フォン・ビューローの指揮により初演された。",
+    "musicalAnalysis": "前奏曲の冒頭に現れる和音（ヘ・ロ・嬰ニ・嬰ト）は「トリスタン和音」と呼ばれ、解決を先延ばしにする和声の例として音楽理論で取り上げられる。",
     "listeningGuide": {
       "totalTime": "240分",
       "recommendedVersion": "",
@@ -2157,14 +2145,14 @@
   {
     "id": "wagner-ring-walkure",
     "composerId": "wagner",
-    "title": "ワルキューレの騎行",
+    "title": "ワルキューレの騎行（楽劇《ワルキューレ》第3幕より）",
     "titleEn": "Ride of the Valkyries",
     "year": 1856,
     "genre": "orchestral",
     "era": "romantic",
     "duration": 5,
     "difficulty": 1,
-    "shortDescription": "ニーベルングの指環より。映画「地獄の黙示録」で有名。",
+    "shortDescription": "楽劇「ワルキューレ」第3幕の冒頭の音楽。演奏会では管弦楽だけで演奏されることが多い。1979年の映画「地獄の黙示録」で使われた。",
     "movements": [
       {
         "number": 1,
@@ -2177,10 +2165,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "楽劇「ワルキューレ」第3幕冒頭の音楽。1856年総譜完成、1870年ミュンヘン初演。ワーグナー楽劇の象徴的場面。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "インパクトのあるオープニング。",
+    "historicalBackground": "「ワルキューレ」は「ニーベルングの指環」4部作の第1日にあたり、1856年に総譜が完成した。ワーグナーの意に反してバイエルン王ルートヴィヒ2世の命で、1870年6月26日にミュンヘンで単独で初演された。",
+    "musicalAnalysis": "8人のワルキューレが岩山に集まる場面の音楽で、付点リズムの主題が金管楽器で繰り返される。",
     "listeningGuide": {
       "totalTime": "5分",
       "recommendedVersion": "",
@@ -2198,7 +2184,7 @@
   {
     "id": "berlioz-fantastique",
     "composerId": "berlioz",
-    "title": "幻想交響曲",
+    "title": "幻想交響曲 作品14",
     "titleEn": "Symphonie fantastique",
     "year": 1830,
     "genre": "symphony",
@@ -2206,7 +2192,7 @@
     "opus": "Op. 14",
     "duration": 55,
     "difficulty": 2,
-    "shortDescription": "失恋の幻覚を描いた革命的標題交響曲。",
+    "shortDescription": "ベルリオーズ自身が書いた筋書きをもつ5楽章の交響曲。1830年12月5日にパリ音楽院で初演された。",
     "movements": [
       {
         "number": 1,
@@ -2219,10 +2205,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1830年初演。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "ストーリーテリングの力。",
+    "historicalBackground": "1830年に作曲され、12月5日にパリ音楽院のホールでアブネック（François-Antoine Habeneck）の指揮により初演された。ベルリオーズは、恋に絶望した若い芸術家がアヘンを飲んで見る夢という筋書きを演奏会で配布した。この筋書きは、ベルリオーズが英国の女優ハリエット・スミッソン（Harriet Smithson）に抱いた思いと結びつけられている。",
+    "musicalAnalysis": "5楽章構成（「夢と情熱」「舞踏会」「野の風景」「断頭台への行進」「魔女の夜宴の夢」）。恋人を表す旋律（固定楽想）が全楽章に形を変えて現れる。第5楽章では「怒りの日」の聖歌の旋律が使われる。",
     "listeningGuide": {
       "totalTime": "55分",
       "recommendedVersion": "",
@@ -2240,7 +2224,7 @@
   {
     "id": "mendelssohn-vc",
     "composerId": "mendelssohn",
-    "title": "ヴァイオリン協奏曲",
+    "title": "ヴァイオリン協奏曲 ホ短調 作品64",
     "titleEn": "Violin Concerto",
     "year": 1844,
     "genre": "concerto",
@@ -2249,7 +2233,7 @@
     "opus": "Op. 64",
     "duration": 28,
     "difficulty": 1,
-    "shortDescription": "冒頭からVnが歌うロマン派最高傑作。",
+    "shortDescription": "1844年に完成し、1845年3月13日にライプツィヒでフェルディナント・ダーヴィトの独奏で初演されたヴァイオリン協奏曲。",
     "movements": [
       {
         "number": 1,
@@ -2262,10 +2246,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "友人ダーヴィトのために。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "結論ファーストのプレゼン。",
+    "historicalBackground": "メンデルスゾーンは1838年の手紙で、ゲヴァントハウス管弦楽団のコンサートマスター、フェルディナント・ダーヴィト（Ferdinand David）のための協奏曲の構想を伝えている。1844年9月に完成し、1845年3月13日にライプツィヒで、ダーヴィトの独奏、ニルス・ゲーデ（Niels Gade）の指揮で初演された。",
+    "musicalAnalysis": "3楽章構成で、楽章の間は切れ目なく続く。第1楽章は短い前奏の後すぐに独奏ヴァイオリンが主題を弾き、カデンツァは再現部の前に置かれている。",
     "listeningGuide": {
       "totalTime": "28分",
       "recommendedVersion": "",
@@ -2284,7 +2266,7 @@
   {
     "id": "mendelssohn-mnd",
     "composerId": "mendelssohn",
-    "title": "真夏の夜の夢 序曲",
+    "title": "序曲《真夏の夜の夢》 作品21",
     "titleEn": "A Midsummer Night's Dream Overture",
     "year": 1826,
     "genre": "orchestral",
@@ -2293,7 +2275,7 @@
     "opus": "Op. 21",
     "duration": 12,
     "difficulty": 1,
-    "shortDescription": "17歳で書かれた天才の証。シェイクスピアの妖精世界を描く。",
+    "shortDescription": "シェイクスピアの喜劇「夏の夜の夢」による演奏会用序曲。1826年、17歳のメンデルスゾーンが作曲した。",
     "movements": [
       {
         "number": 1,
@@ -2306,10 +2288,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1826年、17歳のメンデルスゾーンが作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "若い才能を信じる力。",
+    "historicalBackground": "1826年8月に完成した。最初は姉ファニーとピアノ連弾で演奏され、管弦楽による公開初演は1827年2月、シュテッティンで行われた。1843年、メンデルスゾーンはプロイセン王の依頼で同じ劇のための付随音楽 作品61を書き、この序曲を組み込んだ。",
+    "musicalAnalysis": "ソナタ形式。冒頭の木管楽器による4つの和音で始まり、同じ和音で終わる。",
     "listeningGuide": {
       "totalTime": "12分",
       "recommendedVersion": "",
@@ -2327,7 +2307,7 @@
   {
     "id": "schumann-pc",
     "composerId": "schumann-r",
-    "title": "ピアノ協奏曲",
+    "title": "ピアノ協奏曲 イ短調 作品54",
     "titleEn": "Piano Concerto",
     "year": 1845,
     "genre": "concerto",
@@ -2336,7 +2316,7 @@
     "opus": "Op. 54",
     "duration": 31,
     "difficulty": 2,
-    "shortDescription": "クララへの愛の結晶。詩的な協奏曲。",
+    "shortDescription": "シューマンが完成させた唯一のピアノ協奏曲。1845年12月4日にドレスデンでクララ・シューマンの独奏で初演された。",
     "movements": [
       {
         "number": 1,
@@ -2349,10 +2329,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "クララが初演。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "派手さより実質のリーダーシップ。",
+    "historicalBackground": "1841年にピアノと管弦楽のための単一楽章の「幻想曲」として書かれ、1845年に第2・第3楽章を加えて協奏曲とした。1845年12月4日、ドレスデンでクララ・シューマンの独奏、フェルディナント・ヒラー（Ferdinand Hiller）の指揮で初演された。ヒラーに献呈された。",
+    "musicalAnalysis": "3楽章構成で、第2楽章から第3楽章へは切れ目なく続く。第1楽章はオーボエが示す主題を中心に展開する。",
     "listeningGuide": {
       "totalTime": "31分",
       "recommendedVersion": "",
@@ -2370,7 +2348,7 @@
   {
     "id": "schumann-dichterliebe",
     "composerId": "schumann-r",
-    "title": "詩人の恋",
+    "title": "歌曲集《詩人の恋》 作品48",
     "titleEn": "Dichterliebe",
     "year": 1840,
     "genre": "vocal",
@@ -2378,7 +2356,7 @@
     "opus": "Op. 48",
     "duration": 27,
     "difficulty": 2,
-    "shortDescription": "ハイネの詩による16曲の歌曲集。ドイツ・リートの傑作。",
+    "shortDescription": "ハイネの詩集「抒情的間奏曲」から採った16の詩による歌曲集。1840年に作曲された。",
     "movements": [
       {
         "number": 1,
@@ -2391,10 +2369,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1840年クララとの結婚年に作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "言葉と音楽の理想的なパートナーシップ。",
+    "historicalBackground": "クララと結婚した1840年の5月から6月にかけて作曲された。当初は20曲だったが、1844年の出版の際に4曲が除かれた。ハイネ（Heinrich Heine）の「歌の本」所収の「抒情的間奏曲」の詩による。",
+    "musicalAnalysis": "声とピアノのための16曲からなる。最終曲の後にピアノの後奏が置かれている。",
     "listeningGuide": {
       "totalTime": "27分",
       "recommendedVersion": "",
@@ -2411,7 +2387,7 @@
   {
     "id": "dvorak-sym9",
     "composerId": "dvorak",
-    "title": "新世界より",
+    "title": "交響曲第9番 ホ短調 作品95《新世界より》",
     "titleEn": "From the New World",
     "year": 1893,
     "genre": "symphony",
@@ -2420,7 +2396,7 @@
     "opus": "Op. 95",
     "duration": 42,
     "difficulty": 1,
-    "shortDescription": "郷愁の旋律は全人類共通の感動。",
+    "shortDescription": "ドヴォルザークがニューヨークのナショナル音楽院の院長だった1893年に作曲した交響曲。同年12月16日にニューヨークで初演された。",
     "movements": [
       {
         "number": 1,
@@ -2433,10 +2409,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1893年NY滞在中に作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "異文化で自社らしさを再発見。",
+    "historicalBackground": "1893年1月から5月にかけてニューヨークで作曲された。1893年12月16日、カーネギー・ホールでアントン・ザイドル（Anton Seidl）指揮のニューヨーク・フィルハーモニック協会により初演された。「新世界より」の副題はドヴォルザーク自身が総譜に書いた。",
+    "musicalAnalysis": "4楽章構成。第2楽章（Largo）はイングリッシュ・ホルンの旋律で知られる。第4楽章では前の楽章の主題が再び現れる。",
     "listeningGuide": {
       "totalTime": "42分",
       "recommendedVersion": "",
@@ -2454,7 +2428,7 @@
   {
     "id": "dvorak-vc",
     "composerId": "dvorak",
-    "title": "チェロ協奏曲",
+    "title": "チェロ協奏曲 ロ短調 作品104",
     "titleEn": "Cello Concerto",
     "year": 1895,
     "genre": "concerto",
@@ -2463,7 +2437,7 @@
     "opus": "Op. 104",
     "duration": 40,
     "difficulty": 2,
-    "shortDescription": "ブラームスが嫉妬したチェロ協奏曲の最高傑作。",
+    "shortDescription": "1894年から1895年にかけてニューヨークで書かれ、帰国後に改訂されたチェロ協奏曲。1896年にロンドンで初演された。",
     "movements": [
       {
         "number": 1,
@@ -2476,10 +2450,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1895年アメリカで作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "トップが認める仕事が本物。",
+    "historicalBackground": "1894年11月から1895年2月にかけてニューヨークで作曲された。帰国後、義姉ヨゼフィーナ・カウニツォヴァーの死を受けて、彼女が好んだ自作の歌曲の旋律を使って終楽章のコーダを書き直した。1896年3月19日、ロンドンでレオ・スターン（Leo Stern）の独奏、作曲者の指揮で初演された。",
+    "musicalAnalysis": "3楽章構成。第2楽章に自作の歌曲「ひとりにして」作品82-1の旋律が使われ、第3楽章のコーダにも再び現れる。",
     "listeningGuide": {
       "totalTime": "40分",
       "recommendedVersion": "",
@@ -2497,14 +2469,14 @@
   {
     "id": "verdi-traviata",
     "composerId": "verdi",
-    "title": "椿姫",
+    "title": "オペラ《椿姫（ラ・トラヴィアータ）》",
     "titleEn": "La traviata",
     "year": 1853,
     "genre": "opera",
     "era": "romantic",
     "duration": 130,
     "difficulty": 1,
-    "shortDescription": "乾杯の歌で有名。高級娼婦の悲恋。",
+    "shortDescription": "デュマ・フィスの小説・戯曲「椿姫」に基づく3幕のオペラ。1853年3月6日にヴェネツィアのフェニーチェ劇場で初演された。",
     "movements": [
       {
         "number": 1,
@@ -2517,10 +2489,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1853年ヴェネツィア初演。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "華やかさの裏の犠牲。",
+    "historicalBackground": "ピアーヴェ（Francesco Maria Piave）がイタリア語の台本を書いた。1853年3月6日にフェニーチェ劇場で初演された。初演は成功せず、翌1854年にヴェネツィアのサン・ベネデット劇場で改訂版が上演された。",
+    "musicalAnalysis": "第1幕の「乾杯の歌」、ヴィオレッタのアリア「ああ、そはかの人か〜花から花へ」などを含む。",
     "listeningGuide": {
       "totalTime": "130分",
       "recommendedVersion": "",
@@ -2538,14 +2508,14 @@
   {
     "id": "verdi-aida",
     "composerId": "verdi",
-    "title": "アイーダ",
+    "title": "オペラ《アイーダ》",
     "titleEn": "Aida",
     "year": 1871,
     "genre": "opera",
     "era": "romantic",
     "duration": 150,
     "difficulty": 2,
-    "shortDescription": "凱旋行進曲で有名。エジプトを舞台にした壮大なオペラ。",
+    "shortDescription": "古代エジプトを舞台とする4幕のオペラ。エジプト副王イスマーイール・パシャの依頼で書かれ、1871年12月24日にカイロで初演された。",
     "movements": [
       {
         "number": 1,
@@ -2558,10 +2528,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "エジプト副王の依頼でカイロの歌劇場のために作曲。1871年カイロ初演。スエズ運河開通の祝典曲の依頼はヴェルディが断っており、開通記念作品ではない。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "国家プロジェクトの芸術。",
+    "historicalBackground": "エジプト副王イスマーイール・パシャの依頼で書かれた。筋書きはエジプト学者マリエット（Auguste Mariette）の原案により、ギスランツォーニ（Antonio Ghislanzoni）がイタリア語の台本を書いた。1871年12月24日、カイロのケディヴィアル歌劇場で初演された。ヨーロッパ初演は1872年2月8日、ミラノ・スカラ座で行われた。",
+    "musicalAnalysis": "第2幕の凱旋の場面では、舞台上で長いトランペット（アイーダ・トランペット）が演奏される。",
     "listeningGuide": {
       "totalTime": "150分",
       "recommendedVersion": "",
@@ -2579,14 +2547,14 @@
   {
     "id": "puccini-boheme",
     "composerId": "puccini",
-    "title": "ラ・ボエーム",
+    "title": "オペラ《ラ・ボエーム》",
     "titleEn": "La bohème",
     "year": 1895,
     "genre": "opera",
     "era": "romantic",
     "duration": 110,
     "difficulty": 1,
-    "shortDescription": "パリの貧しい芸術家の青春と悲恋。",
+    "shortDescription": "ミュルジェールの小説「ボヘミアン生活の情景」に基づく4幕のオペラ。1896年2月1日にトリノで、トスカニーニの指揮で初演された。",
     "movements": [
       {
         "number": 1,
@@ -2599,10 +2567,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1893〜95年に作曲、1896年トリノ初演（指揮トスカニーニ）。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "限られたリソースの創造性。",
+    "historicalBackground": "イッリカ（Luigi Illica）とジャコーザ（Giuseppe Giacosa）が台本を書いた。1893年から1895年にかけて作曲され、1896年2月1日にトリノのレージョ劇場でアルトゥーロ・トスカニーニ（Arturo Toscanini）の指揮により初演された。",
+    "musicalAnalysis": "1830年代のパリのカルティエ・ラタンに住む詩人ロドルフォ、画家マルチェッロらと、お針子ミミの物語。第1幕にロドルフォのアリア「冷たい手を」とミミのアリア「私の名はミミ」がある。",
     "listeningGuide": {
       "totalTime": "110分",
       "recommendedVersion": "",
@@ -2620,14 +2586,14 @@
   {
     "id": "puccini-butterfly",
     "composerId": "puccini",
-    "title": "蝶々夫人",
+    "title": "オペラ《蝶々夫人》",
     "titleEn": "Madama Butterfly",
     "year": 1904,
     "genre": "opera",
     "era": "romantic",
     "duration": 135,
     "difficulty": 2,
-    "shortDescription": "日本を舞台にしたプッチーニの代表作。異文化の悲劇。",
+    "shortDescription": "明治時代の長崎を舞台とするオペラ。1904年2月17日にミラノ・スカラ座で初演され、改訂版が同年5月28日にブレシアで上演された。",
     "movements": [
       {
         "number": 1,
@@ -2640,10 +2606,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1904年2月ミラノ・スカラ座で初演されたが失敗し、改訂版が同年5月ブレシアで成功した。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "異文化理解の重要性。",
+    "historicalBackground": "ジョン・ルーサー・ロングの短編小説と、それをもとにしたベラスコの戯曲に基づき、イッリカとジャコーザが台本を書いた。1904年2月17日のスカラ座の初演は失敗し、プッチーニは2幕を3部に分けるなどの改訂を加え、5月28日にブレシアで上演した。その後も改訂が続いた。",
+    "musicalAnalysis": "「君が代」「さくらさくら」「宮さん宮さん」など日本の旋律や、アメリカ国歌の旋律が引用されている。第2幕に蝶々さんのアリア「ある晴れた日に」がある。",
     "listeningGuide": {
       "totalTime": "135分",
       "recommendedVersion": "",
@@ -2661,7 +2625,7 @@
   {
     "id": "tchaikovsky-pc1",
     "composerId": "tchaikovsky",
-    "title": "ピアノ協奏曲第1番",
+    "title": "ピアノ協奏曲第1番 変ロ短調 作品23",
     "titleEn": "Piano Concerto No.1",
     "year": 1875,
     "genre": "concerto",
@@ -2670,7 +2634,7 @@
     "opus": "Op. 23",
     "duration": 35,
     "difficulty": 1,
-    "shortDescription": "壮大なホルン序奏の世界最有名ピアノ協奏曲。",
+    "shortDescription": "1874年から1875年にかけて書かれたピアノ協奏曲。1875年10月25日にボストンでハンス・フォン・ビューローの独奏で初演された。",
     "movements": [
       {
         "number": 1,
@@ -2683,10 +2647,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "ニコライ・ルビンシテインに酷評されたが、1875年ボストンでのビューローの独奏による初演で成功。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "権威に左右されない自信。",
+    "historicalBackground": "1874年12月、チャイコフスキーはモスクワ音楽院院長ニコライ・ルビンシテイン（Nikolai Rubinstein）にこの曲を弾いて聴かせ、厳しく批判されたと、後年の手紙に書いている。作品はハンス・フォン・ビューローに献呈され、1875年10月25日、ボストンでビューローの独奏により初演された。のちに改訂され、現在は主に1879年と1888年の改訂を経た版で演奏される。",
+    "musicalAnalysis": "3楽章構成。第1楽章は4本のホルンの下行音型と、ピアノの和音の上で弦楽器が旋律を弾く長い序奏で始まる。この序奏の旋律は楽章の中で再び現れない。",
     "listeningGuide": {
       "totalTime": "35分",
       "recommendedVersion": "",
@@ -2705,7 +2667,7 @@
   {
     "id": "tchaikovsky-swan",
     "composerId": "tchaikovsky",
-    "title": "白鳥の湖",
+    "title": "バレエ音楽《白鳥の湖》 作品20",
     "titleEn": "Swan Lake",
     "year": 1876,
     "genre": "orchestral",
@@ -2713,7 +2675,7 @@
     "opus": "Op. 20",
     "duration": 150,
     "difficulty": 1,
-    "shortDescription": "バレエ最高傑作。白鳥の主題は最有名メロディー。",
+    "shortDescription": "モスクワのボリショイ劇場の依頼で書かれた4幕のバレエ。1877年に初演され、1895年にプティパとイワノフの新しい振付でサンクトペテルブルクで上演された。",
     "movements": [
       {
         "number": 1,
@@ -2726,10 +2688,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1876年完成。1877年ボリショイ劇場での初演は不評だったが、1895年のプティパ／イワノフ版で復活。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "ピボットの重要性。",
+    "historicalBackground": "1875年から1876年にかけて作曲された。1877年3月4日（新暦）にボリショイ劇場で、ライジンガー（Julius Reisinger）の振付により初演された。チャイコフスキーの没後、1895年1月27日（新暦）にマリインスキー劇場で、マリウス・プティパ（Marius Petipa）とレフ・イワノフ（Lev Ivanov）の振付、ドリゴ（Riccardo Drigo）が編曲・改変した音楽で上演された。現在の上演の多くはこの版を基にしている。",
+    "musicalAnalysis": "情景、ワルツ、各国の踊りなどの曲からなる。オーボエが奏でる「情景」の主題が、白鳥オデットに関わる場面で繰り返し現れる。",
     "listeningGuide": {
       "totalTime": "150分",
       "recommendedVersion": "",
@@ -2748,7 +2708,7 @@
   {
     "id": "tchaikovsky-1812",
     "composerId": "tchaikovsky",
-    "title": "序曲「1812年」",
+    "title": "大序曲《1812年》 変ホ長調 作品49",
     "titleEn": "1812 Overture",
     "year": 1880,
     "genre": "orchestral",
@@ -2757,7 +2717,7 @@
     "opus": "Op. 49",
     "duration": 15,
     "difficulty": 1,
-    "shortDescription": "大砲も使われる壮大な管弦楽曲。ナポレオン撃退を描く。",
+    "shortDescription": "1812年のナポレオンのロシア遠征とその撤退を題材とする演奏会用序曲。1880年に作曲され、1882年にモスクワで初演された。",
     "movements": [
       {
         "number": 1,
@@ -2770,10 +2730,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1880年作曲、1882年モスクワ初演。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "スケールの大きなビジョン。",
+    "historicalBackground": "1882年のモスクワ全ロシア芸術産業博覧会のための作品として、ニコライ・ルビンシテインの勧めで1880年に作曲された。1882年8月20日（新暦）にモスクワで初演された。",
+    "musicalAnalysis": "ロシア正教の聖歌「神よ、汝の民を救い給え」で始まる。フランス国歌「ラ・マルセイエーズ」とロシア帝国国歌「神よツァーリを護り給え」の旋律が使われる。総譜には大砲と鐘が指定されている。",
     "listeningGuide": {
       "totalTime": "15分",
       "recommendedVersion": "",
@@ -2791,7 +2749,7 @@
   {
     "id": "grieg-pc",
     "composerId": "grieg",
-    "title": "ピアノ協奏曲",
+    "title": "ピアノ協奏曲 イ短調 作品16",
     "titleEn": "Piano Concerto",
     "year": 1868,
     "genre": "concerto",
@@ -2800,7 +2758,7 @@
     "opus": "Op. 16",
     "duration": 30,
     "difficulty": 1,
-    "shortDescription": "北欧の壮大な冒頭の名作。",
+    "shortDescription": "グリーグが完成させた唯一の協奏曲。1868年に作曲され、1869年4月3日にコペンハーゲンで初演された。",
     "movements": [
       {
         "number": 1,
@@ -2813,10 +2771,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "25歳で作曲。リスト絶賛。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "ローカルからグローバルへ。",
+    "historicalBackground": "1868年夏、デンマークのセレレズで作曲された。グリーグは25歳だった。1869年4月3日、コペンハーゲンでエドムンド・ノイペルト（Edmund Neupert）の独奏により初演された。グリーグは生涯にわたって改訂を重ねた。",
+    "musicalAnalysis": "3楽章構成。第1楽章はティンパニのクレッシェンドの後、独奏ピアノの下行する和音で始まる。第3楽章ではノルウェーの民俗舞曲ハリングのリズムが用いられる。",
     "listeningGuide": {
       "totalTime": "30分",
       "recommendedVersion": "",
@@ -2834,15 +2790,15 @@
   {
     "id": "grieg-peer-gynt",
     "composerId": "grieg",
-    "title": "ペール・ギュント組曲",
+    "title": "《ペール・ギュント》第1組曲 作品46",
     "titleEn": "Peer Gynt Suite",
-    "year": 1875,
+    "year": 1888,
     "genre": "orchestral",
     "era": "romantic",
     "opus": "Op. 46",
-    "duration": 30,
+    "duration": 15,
     "difficulty": 1,
-    "shortDescription": "朝、山の魔王の宮殿で。イプセンの劇付随音楽。",
+    "shortDescription": "イプセンの劇「ペール・ギュント」のための付随音楽から、グリーグが4曲を選んで管弦楽組曲にしたもの。「朝」「オーセの死」「アニトラの踊り」「山の魔王の宮殿にて」からなる。",
     "movements": [
       {
         "number": 1,
@@ -2855,10 +2811,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1875年イプセンの戯曲のために作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "物語に音楽の力を添える。",
+    "historicalBackground": "グリーグは1874年にイプセンの依頼を受け、劇の付随音楽 作品23を書いた。劇は1876年2月24日にクリスチャニア（現オスロ）で初演された。グリーグはその音楽から2つの組曲を編み、第1組曲 作品46は1888年に出版された。第2組曲は作品55。",
+    "musicalAnalysis": "4曲からなる。「朝」はフルートとオーボエの旋律で始まり、「オーセの死」は弦楽合奏、「山の魔王の宮殿にて」は同じ旋律を速度と音量を上げながら繰り返す。",
     "listeningGuide": {
       "totalTime": "30分",
       "recommendedVersion": "",
@@ -2876,7 +2830,7 @@
   {
     "id": "saint-saens-organ",
     "composerId": "saint-saens",
-    "title": "交響曲第3番 オルガン付き",
+    "title": "交響曲第3番 ハ短調 作品78《オルガン付き》",
     "titleEn": "Organ Symphony",
     "year": 1886,
     "genre": "symphony",
@@ -2885,7 +2839,7 @@
     "opus": "Op. 78",
     "duration": 36,
     "difficulty": 2,
-    "shortDescription": "オルガンとピアノを加えた壮大な交響曲。映画「ベイブ」で有名。",
+    "shortDescription": "ロンドン・フィルハーモニック協会の依頼で書かれた、オルガンとピアノを加えた交響曲。1886年5月19日にロンドンで作曲者の指揮で初演された。",
     "movements": [
       {
         "number": 1,
@@ -2898,10 +2852,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1886年ロンドン初演。サン=サーンスの代表作。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "異なる要素の統合が新しい価値を生む。",
+    "historicalBackground": "ロンドン・フィルハーモニック協会の依頼で書かれ、1886年5月19日、ロンドンのセント・ジェームズ・ホールでサン＝サーンスの指揮により初演された。同年7月に没したリストの思い出に献呈された。1995年の映画「ベイブ」で第4楽章の主題が使われた。",
+    "musicalAnalysis": "2つの部分からなり、それぞれが2つの楽章をつないだ形で、全体は4楽章にあたる。オルガンとピアノ（2人、4手）が加わる。第2部の後半はオルガンのハ長調の和音で始まる。",
     "listeningGuide": {
       "totalTime": "36分",
       "recommendedVersion": "",
@@ -2919,14 +2871,14 @@
   {
     "id": "saint-saens-carnival",
     "composerId": "saint-saens",
-    "title": "動物の謝肉祭",
+    "title": "組曲《動物の謝肉祭》",
     "titleEn": "Carnival of the Animals",
     "year": 1886,
     "genre": "chamber",
     "era": "romantic",
     "duration": 25,
     "difficulty": 1,
-    "shortDescription": "「白鳥」で有名。動物たちのユーモラスな音楽的肖像。",
+    "shortDescription": "14曲からなる室内アンサンブルのための組曲。1886年に作曲されたが、サン＝サーンスは生前、第13曲「白鳥」以外の出版を認めなかった。",
     "movements": [
       {
         "number": 1,
@@ -2939,10 +2891,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1886年作曲。生前は公開を禁じた。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "ユーモアも真剣な芸術になる。",
+    "historicalBackground": "1886年2月、オーストリア滞在中に作曲され、同年3月、パリで私的な演奏会で初演された。サン＝サーンスは遺言で死後の出版を認め、1922年に出版された。",
+    "musicalAnalysis": "2台のピアノ、弦楽器、フルート、クラリネット、グラスハーモニカ（現在はチェレスタやグロッケンシュピールで代用されることが多い）、木琴のための14曲。「亀」ではオッフェンバックの「天国と地獄」の旋律を、「化石」では自作の「死の舞踏」などの旋律を遅く、または形を変えて引用している。",
     "listeningGuide": {
       "totalTime": "25分",
       "recommendedVersion": "",
@@ -2960,7 +2910,7 @@
   {
     "id": "bruckner-sym7",
     "composerId": "bruckner",
-    "title": "交響曲第7番",
+    "title": "交響曲第7番 ホ長調 WAB107",
     "titleEn": "Symphony No.7",
     "year": 1883,
     "genre": "symphony",
@@ -2969,7 +2919,7 @@
     "opus": "WAB 107",
     "duration": 65,
     "difficulty": 3,
-    "shortDescription": "ブルックナーの最も人気のある交響曲。ワーグナーの死を予感して書かれたアダージョ。",
+    "shortDescription": "1881年から1883年にかけて書かれ、1884年12月30日にライプツィヒでアルトゥール・ニキシュの指揮で初演された交響曲。",
     "movements": [
       {
         "number": 1,
@@ -2982,10 +2932,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1883年完成。第2楽章アダージョは1883年1〜4月に作曲され、病床のワーグナーの死（同年2月）を予感して書き始められた。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "巨大なビジョンを粘り強く実現する。",
+    "historicalBackground": "1881年9月に書き始められ、1883年9月に完成した。第2楽章（Adagio）は1883年1月から4月にかけて書かれ、ブルックナーは後に指揮者モットル（Felix Mottl）への手紙で、ワーグナーの死を予感してこの楽章を書いたと述べている。ワーグナーは同年2月13日に没し、ブルックナーは楽章のコーダにワーグナー・テューバによる葬送の音楽を書いた。1884年12月30日にライプツィヒでアルトゥール・ニキシュ（Arthur Nikisch）の指揮により初演された。バイエルン王ルートヴィヒ2世に献呈された。",
+    "musicalAnalysis": "4楽章構成。第2楽章で4本のワーグナー・テューバが使われる。第2楽章の頂点に打楽器（シンバル、トライアングル、ティンパニ）が入るかどうかは、版によって異なる。",
     "listeningGuide": {
       "totalTime": "65分",
       "recommendedVersion": "",
@@ -3010,7 +2958,7 @@
     "key": "C-major",
     "duration": 17,
     "difficulty": 1,
-    "shortDescription": "同じ旋律の延々たる繰り返しとクレッシェンド。",
+    "shortDescription": "舞踊家イダ・ルビンシテインの依頼で書かれたバレエ音楽。1928年11月22日にパリ・オペラ座で初演された。",
     "movements": [
       {
         "number": 1,
@@ -3023,10 +2971,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1928年バレリーナの依頼。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "小さく始めてスケールアップ。",
+    "historicalBackground": "イダ・ルビンシテイン（Ida Rubinstein）の依頼で1928年に作曲され、11月22日にパリ・オペラ座で、ブロニスラヴァ・ニジンスカの振付、ルビンシテインの踊りで初演された。",
+    "musicalAnalysis": "小太鼓が同じリズムを最後まで繰り返す。2つの旋律がさまざまな楽器の組み合わせで交互に繰り返され、全体を通して音量が増す。ハ長調で進み、終わり近くでホ長調に転じた後、ハ長調に戻って終わる。",
     "listeningGuide": {
       "totalTime": "17分",
       "recommendedVersion": "",
@@ -3044,14 +2990,14 @@
   {
     "id": "ravel-daphnis",
     "composerId": "ravel",
-    "title": "ダフニスとクロエ",
+    "title": "バレエ音楽《ダフニスとクロエ》",
     "titleEn": "Daphnis et Chloé",
     "year": 1912,
     "genre": "orchestral",
     "era": "modern",
     "duration": 55,
     "difficulty": 3,
-    "shortDescription": "ラヴェルの最高傑作。オーケストレーションの極致。",
+    "shortDescription": "ディアギレフのバレエ・リュスのために書かれた3場のバレエ音楽。1912年6月8日にパリのシャトレ座で初演された。",
     "movements": [
       {
         "number": 1,
@@ -3064,10 +3010,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1912年ディアギレフのバレエ・リュスのために。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "細部への徹底的なこだわり。",
+    "historicalBackground": "1909年にディアギレフの依頼を受け、1912年に完成した。1912年6月8日、パリのシャトレ座でフォーキンの振付、ピエール・モントゥーの指揮により初演された。ラヴェルは曲から2つの組曲を編み、第2組曲が単独でよく演奏される。",
+    "musicalAnalysis": "古代ギリシャのロンゴスの物語による。歌詞のない合唱が加わる。第3場の「夜明け」では、木管楽器と弦楽器の速い音型の上に低弦が旋律を奏でる。",
     "listeningGuide": {
       "totalTime": "55分",
       "recommendedVersion": "",
@@ -3085,7 +3029,7 @@
   {
     "id": "debussy-clair",
     "composerId": "debussy",
-    "title": "月の光",
+    "title": "月の光（《ベルガマスク組曲》第3曲）",
     "titleEn": "Clair de lune",
     "year": 1905,
     "genre": "piano",
@@ -3093,7 +3037,7 @@
     "key": "Db-major",
     "duration": 5,
     "difficulty": 1,
-    "shortDescription": "月光が揺れる幻想的ピアノ曲。",
+    "shortDescription": "ピアノのための《ベルガマスク組曲》の第3曲。曲名はヴェルレーヌの詩「月の光」による。",
     "movements": [
       {
         "number": 1,
@@ -3106,10 +3050,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "ヴェルレーヌの詩に霊感。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "雰囲気で伝えるリーダーシップ。",
+    "historicalBackground": "《ベルガマスク組曲》は1890年頃に書き始められ、改訂を経て1905年に出版された。「前奏曲」「メヌエット」「月の光」「パスピエ」の4曲からなる。「月の光」の題はヴェルレーヌ（Paul Verlaine）の詩集「艶なる宴」の同名の詩による。",
+    "musicalAnalysis": "変ニ長調、9/8拍子。",
     "listeningGuide": {
       "totalTime": "5分",
       "recommendedVersion": "",
@@ -3127,14 +3069,14 @@
   {
     "id": "debussy-la-mer",
     "composerId": "debussy",
-    "title": "海",
+    "title": "海 — 管弦楽のための3つの交響的素描",
     "titleEn": "La Mer",
     "year": 1905,
     "genre": "orchestral",
     "era": "modern",
     "duration": 24,
     "difficulty": 3,
-    "shortDescription": "3つの交響的素描。印象主義オーケストラの頂点。",
+    "shortDescription": "「海の夜明けから真昼まで」「波の戯れ」「風と海との対話」の3曲からなる管弦楽曲。1905年10月15日にパリで初演された。",
     "movements": [
       {
         "number": 1,
@@ -3147,10 +3089,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1905年完成。海への深い愛着。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "抽象的なビジョンを具体的に表現する力。",
+    "historicalBackground": "1903年に書き始められ、1905年3月に完成した。1905年10月15日、パリのラムルー管弦楽団の演奏会でカミーユ・シュヴィヤール（Camille Chevillard）の指揮により初演された。出版譜の表紙には葛飾北斎の「神奈川沖浪裏」に基づく図が使われた。",
+    "musicalAnalysis": "3楽章からなる。第3楽章では第1楽章の主題が再び現れる。",
     "listeningGuide": {
       "totalTime": "24分",
       "recommendedVersion": "",
@@ -3174,7 +3114,7 @@
     "era": "modern",
     "duration": 72,
     "difficulty": 3,
-    "shortDescription": "アダージェットは映画ヴェニスに死すで有名。",
+    "shortDescription": "1901年から1902年にかけて書かれた5楽章の交響曲。第4楽章アダージェットは、1971年の映画「ヴェニスに死す」で使われた。",
     "movements": [
       {
         "number": 1,
@@ -3187,10 +3127,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1902年完成。アルマへの愛。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "V字回復。",
+    "historicalBackground": "1901年と1902年の夏、ヴェルター湖畔マイアーニクの山荘で作曲された。1904年10月18日にケルンで作曲者の指揮により初演された。マーラーはその後も管弦楽法の改訂を続けた。",
+    "musicalAnalysis": "5楽章が3つの部分にまとめられている。第1楽章は嬰ハ短調の葬送行進曲で、トランペットの独奏で始まる。第4楽章アダージェット（ヘ長調）は弦楽器とハープだけで演奏される。終楽章はニ長調で終わる。",
     "listeningGuide": {
       "totalTime": "72分",
       "recommendedVersion": "",
@@ -3215,7 +3153,7 @@
     "era": "modern",
     "duration": 65,
     "difficulty": 4,
-    "shortDescription": "交響曲と歌曲の融合。東洋の詩に基づく別れの音楽。",
+    "shortDescription": "唐詩をドイツ語に訳したハンス・ベートゲの詩集「中国の笛」による、テノールとアルト（またはバリトン）独唱と管弦楽のための6楽章の作品。1908年から1909年にかけて書かれた。",
     "movements": [
       {
         "number": 1,
@@ -3228,10 +3166,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1909年完成。「第9番」を避けた迷信。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "東西文化の融合による新しい表現。",
+    "historicalBackground": "1908年夏にトーブラッハで書き始められ、1909年に完成した。マーラーは「テノールとアルト（またはバリトン）の声と管弦楽のための交響曲」と題した。初演はマーラーの死後の1911年11月20日、ミュンヘンでブルーノ・ワルター（Bruno Walter）の指揮による。",
+    "musicalAnalysis": "6楽章からなり、テノールとアルト（またはバリトン）が交互に歌う。最後の楽章「告別」は全体の約半分の長さをもつ。",
     "listeningGuide": {
       "totalTime": "65分",
       "recommendedVersion": "",
@@ -3249,7 +3185,7 @@
   {
     "id": "strauss-zarathustra",
     "composerId": "strauss-r",
-    "title": "ツァラトゥストラはかく語りき",
+    "title": "交響詩《ツァラトゥストラはかく語りき》 作品30",
     "titleEn": "Also sprach Zarathustra",
     "year": 1896,
     "genre": "orchestral",
@@ -3257,7 +3193,7 @@
     "opus": "Op. 30",
     "duration": 33,
     "difficulty": 2,
-    "shortDescription": "2001年宇宙の旅で使われた壮大な冒頭。",
+    "shortDescription": "ニーチェの同名の著作に着想を得た交響詩。1896年に作曲され、同年11月27日にフランクフルトで作曲者の指揮で初演された。冒頭は映画「2001年宇宙の旅」（1968年）で使われた。",
     "movements": [
       {
         "number": 1,
@@ -3270,10 +3206,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "ニーチェに基づく。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "第一印象の重要性。",
+    "historicalBackground": "1896年に作曲され、11月27日にフランクフルト・アム・マインで作曲者の指揮により初演された。総譜には、ニーチェの著作から取った章の題が付けられている。",
+    "musicalAnalysis": "9つの部分が切れ目なく続く。冒頭（「導入」）はオルガンと低音の持続音の上に、トランペットがハ音・ト音・ハ音を吹く。",
     "listeningGuide": {
       "totalTime": "33分",
       "recommendedVersion": "",
@@ -3291,7 +3225,7 @@
   {
     "id": "strauss-rosenkavalier",
     "composerId": "strauss-r",
-    "title": "ばらの騎士",
+    "title": "オペラ《ばらの騎士》 作品59",
     "titleEn": "Der Rosenkavalier",
     "year": 1910,
     "genre": "opera",
@@ -3299,7 +3233,7 @@
     "opus": "Op. 59",
     "duration": 190,
     "difficulty": 3,
-    "shortDescription": "ウィーンの優雅さと哀愁に満ちたR.シュトラウスの代表的オペラ。",
+    "shortDescription": "ホフマンスタールの台本による3幕の喜劇。1911年1月26日にドレスデン宮廷歌劇場で初演された。",
     "movements": [
       {
         "number": 1,
@@ -3312,10 +3246,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1910年完成、1911年ドレスデン初演。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "時代の終わりを優雅に受け入れる成熟。",
+    "historicalBackground": "1909年から1910年にかけて作曲された。1911年1月26日、ドレスデン宮廷歌劇場でエルンスト・フォン・シューフ（Ernst von Schuch）の指揮により初演された。",
+    "musicalAnalysis": "18世紀のマリア・テレジア時代のウィーンを舞台とする。ワルツが多く使われる。第3幕に元帥夫人、オクタヴィアン、ゾフィーの三重唱がある。",
     "listeningGuide": {
       "totalTime": "190分",
       "recommendedVersion": "",
@@ -3332,7 +3264,7 @@
   {
     "id": "schoenberg-verklarte",
     "composerId": "schoenberg",
-    "title": "浄夜",
+    "title": "浄夜 作品4",
     "titleEn": "Verklärte Nacht",
     "year": 1899,
     "genre": "chamber",
@@ -3341,7 +3273,7 @@
     "opus": "Op. 4",
     "duration": 30,
     "difficulty": 3,
-    "shortDescription": "後期ロマン派の抒情性と前衛への橋渡し。弦楽六重奏の傑作。",
+    "shortDescription": "リヒャルト・デーメルの詩に基づく弦楽六重奏曲。1899年に作曲され、1902年にウィーンで初演された。",
     "movements": [
       {
         "number": 1,
@@ -3354,10 +3286,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1899年作曲。デーメルの詩に基づく。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "過去と未来を繋ぐ架け橋。",
+    "historicalBackground": "1899年に作曲された。デーメル（Richard Dehmel）の詩集「女と世界」所収の同名の詩による。1902年3月18日、ウィーンでロゼー四重奏団と2人の奏者により初演された。シェーンベルクは1917年と1943年に弦楽合奏版を作った。",
+    "musicalAnalysis": "ヴァイオリン2、ヴィオラ2、チェロ2の六重奏。単一楽章で、詩の5つの節に対応する部分からなる。ニ短調で始まりニ長調で終わる。",
     "listeningGuide": {
       "totalTime": "30分",
       "recommendedVersion": "",
@@ -3374,14 +3304,14 @@
   {
     "id": "stravinsky-firebird",
     "composerId": "stravinsky",
-    "title": "火の鳥",
+    "title": "バレエ音楽《火の鳥》",
     "titleEn": "The Firebird",
     "year": 1910,
     "genre": "orchestral",
     "era": "modern",
     "duration": 45,
     "difficulty": 2,
-    "shortDescription": "ストラヴィンスキーの出世作。華麗なオーケストレーション。",
+    "shortDescription": "ディアギレフのバレエ・リュスのために書かれたストラヴィンスキーの最初のバレエ音楽。1910年6月25日にパリ・オペラ座で初演された。",
     "movements": [
       {
         "number": 1,
@@ -3394,10 +3324,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1910年パリ初演。ディアギレフのバレエ・リュス。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "デビュー作の重要性。",
+    "historicalBackground": "ロシアの民話に基づく。最初にリャードフに依頼されたが、ディアギレフはストラヴィンスキーに改めて依頼した。1910年6月25日、パリ・オペラ座でフォーキンの振付、ガブリエル・ピエルネ（Gabriel Pierné）の指揮により初演された。ストラヴィンスキーは1911年、1919年、1945年に組曲を作った。",
+    "musicalAnalysis": "魔王カスチェイと火の鳥の場面で、異なる音の組み合わせ（半音階的な和声と全音階的な旋律）が使い分けられる。終曲ではロシア民謡に基づく旋律がホルンの独奏で始まる。",
     "listeningGuide": {
       "totalTime": "45分",
       "recommendedVersion": "",
@@ -3416,7 +3344,7 @@
   {
     "id": "bartok-strings",
     "composerId": "bartok",
-    "title": "弦楽器、打楽器とチェレスタのための音楽",
+    "title": "弦楽器、打楽器とチェレスタのための音楽 Sz.106",
     "titleEn": "Music for Strings, Percussion and Celesta",
     "year": 1936,
     "genre": "orchestral",
@@ -3424,7 +3352,7 @@
     "opus": "Sz. 106",
     "duration": 26,
     "difficulty": 4,
-    "shortDescription": "バルトーク最高傑作の一つ。建築的な構造美。",
+    "shortDescription": "パウル・ザッハー指揮のバーゼル室内管弦楽団の創立10周年のために書かれた4楽章の作品。1937年1月21日にバーゼルで初演された。",
     "movements": [
       {
         "number": 1,
@@ -3437,10 +3365,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1936年バーゼル室内管弦楽団の委嘱。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "構造的な美しさが力になる。",
+    "historicalBackground": "パウル・ザッハー（Paul Sacher）の依頼で1936年に作曲され、1937年1月21日、ザッハー指揮のバーゼル室内管弦楽団により初演された。",
+    "musicalAnalysis": "2群の弦楽合奏と、ピアノ、チェレスタ、ハープ、木琴、ティンパニなどの打楽器のための4楽章。第1楽章はイ音から始まるフーガで、主題が五度ずつ上下に広がる調で入り、変ホ音の頂点を経てイ音に戻る。",
     "listeningGuide": {
       "totalTime": "26分",
       "recommendedVersion": "",
@@ -3458,7 +3384,7 @@
   {
     "id": "prokofiev-pc3",
     "composerId": "prokofiev",
-    "title": "ピアノ協奏曲第3番",
+    "title": "ピアノ協奏曲第3番 ハ長調 作品26",
     "titleEn": "Piano Concerto No.3",
     "year": 1921,
     "genre": "concerto",
@@ -3467,7 +3393,7 @@
     "opus": "Op. 26",
     "duration": 28,
     "difficulty": 3,
-    "shortDescription": "躍動感と抒情性が融合したプロコフィエフの代表作。",
+    "shortDescription": "1913年頃からのスケッチを基に1921年に完成したピアノ協奏曲。1921年12月16日にシカゴで作曲者の独奏により初演された。",
     "movements": [
       {
         "number": 1,
@@ -3480,10 +3406,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1913年に始めたスケッチを基に1921年完成。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "長期的な準備が花開く瞬間。",
+    "historicalBackground": "1913年頃から主題の一部が書かれ、1921年夏、フランスのブルターニュで完成した。1921年12月16日、シカゴで作曲者の独奏、フレデリック・ストック（Frederick Stock）指揮のシカゴ交響楽団により初演された。",
+    "musicalAnalysis": "3楽章構成。第1楽章はクラリネットの独奏による序奏で始まる。第2楽章は主題と5つの変奏。",
     "listeningGuide": {
       "totalTime": "28分",
       "recommendedVersion": "",
@@ -3501,7 +3425,7 @@
   {
     "id": "prokofiev-romeo",
     "composerId": "prokofiev",
-    "title": "ロミオとジュリエット",
+    "title": "バレエ音楽《ロメオとジュリエット》 作品64",
     "titleEn": "Romeo and Juliet",
     "year": 1936,
     "genre": "orchestral",
@@ -3509,7 +3433,7 @@
     "opus": "Op. 64",
     "duration": 50,
     "difficulty": 2,
-    "shortDescription": "騎士たちの踊りは世界的に有名。",
+    "shortDescription": "シェイクスピアの戯曲による4幕のバレエ。1935年から1936年にかけて作曲され、1938年にブルノで初演された。「モンタギュー家とキャピュレット家」（騎士たちの踊り）を含む。",
     "movements": [
       {
         "number": 1,
@@ -3522,10 +3446,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1936年作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "文化の衝突と融合。",
+    "historicalBackground": "レニングラードのキーロフ劇場（のちにモスクワのボリショイ劇場）の依頼で1935年に作曲されたが、ソ連での上演は延期された。1938年12月30日にチェコスロヴァキアのブルノで初演され、ソ連初演は1940年1月11日、レニングラードのキーロフ劇場でラヴロフスキーの振付による。プロコフィエフは曲から3つの管弦楽組曲と10曲のピアノ曲を編んだ。",
+    "musicalAnalysis": "第1幕の舞踏会の場面の「騎士たちの踊り」は、管弦楽組曲では「モンタギュー家とキャピュレット家」として演奏される。",
     "listeningGuide": {
       "totalTime": "50分",
       "recommendedVersion": "",
@@ -3544,7 +3466,7 @@
   {
     "id": "shostakovich-sym5",
     "composerId": "shostakovich",
-    "title": "交響曲第5番",
+    "title": "交響曲第5番 ニ短調 作品47",
     "titleEn": "Symphony No.5",
     "year": 1937,
     "genre": "symphony",
@@ -3553,7 +3475,7 @@
     "opus": "Op. 47",
     "duration": 45,
     "difficulty": 2,
-    "shortDescription": "スターリン粛清下の「強いられた歓喜」。",
+    "shortDescription": "1937年に作曲され、同年11月21日にレニングラードでムラヴィンスキーの指揮により初演された交響曲。",
     "movements": [
       {
         "number": 1,
@@ -3566,10 +3488,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1937年プラウダ批判後。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "制約の中で真意を伝える。",
+    "historicalBackground": "1936年1月にオペラ「ムツェンスク郡のマクベス夫人」がプラウダ紙で批判された後、交響曲第4番の初演を取りやめたショスタコーヴィチが、1937年4月から7月にかけて作曲した。1937年11月21日、レニングラードでエフゲニー・ムラヴィンスキー（Yevgeny Mravinsky）の指揮により初演された。日本で使われる「革命」の副題は作曲者によるものではない。",
+    "musicalAnalysis": "4楽章構成。第2楽章はスケルツォ（イ短調）、第3楽章はLargo（嬰ヘ短調）で、金管楽器を使わない。第4楽章はニ長調で終わる。",
     "listeningGuide": {
       "totalTime": "45分",
       "recommendedVersion": "",
@@ -3587,7 +3507,7 @@
   {
     "id": "shostakovich-sq8",
     "composerId": "shostakovich",
-    "title": "弦楽四重奏曲第8番",
+    "title": "弦楽四重奏曲第8番 ハ短調 作品110",
     "titleEn": "String Quartet No.8",
     "year": 1960,
     "genre": "chamber",
@@ -3596,7 +3516,7 @@
     "opus": "Op. 110",
     "duration": 20,
     "difficulty": 3,
-    "shortDescription": "3日間で書かれた自伝的作品。DSCH音型が全体を貫く。",
+    "shortDescription": "1960年7月、ドレスデン近郊に滞在中に書かれた5楽章の弦楽四重奏曲。「ファシズムと戦争の犠牲者の思い出に」と献辞がある。",
     "movements": [
       {
         "number": 1,
@@ -3609,10 +3529,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1960年ドレスデン訪問中に作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "個人の経験を普遍的芸術に昇華。",
+    "historicalBackground": "1960年、映画音楽の仕事でドレスデンを訪れていたショスタコーヴィチが、近郊のゲーリッシュで7月12日から14日にかけて作曲した。友人グリークマン（Isaak Glikman）への手紙で、3日間で書いたと述べている。1960年10月2日にレニングラードでベートーヴェン四重奏団により初演された。",
+    "musicalAnalysis": "5楽章が切れ目なく続く。作曲者の名のドイツ語表記の頭文字に由来する音型D–Es–C–H（ニ・変ホ・ハ・ロ）が全体に現れ、交響曲第1番、ピアノ三重奏曲第2番、チェロ協奏曲第1番など自作の旋律が引用される。",
     "listeningGuide": {
       "totalTime": "20分",
       "recommendedVersion": "",
@@ -3629,7 +3547,7 @@
   {
     "id": "sibelius-finlandia",
     "composerId": "sibelius",
-    "title": "フィンランディア",
+    "title": "交響詩《フィンランディア》 作品26",
     "titleEn": "Finlandia",
     "year": 1899,
     "genre": "orchestral",
@@ -3637,7 +3555,7 @@
     "opus": "Op. 26",
     "duration": 8,
     "difficulty": 1,
-    "shortDescription": "フィンランド独立の象徴。第二の国歌。",
+    "shortDescription": "1899年の報道の自由を支援する催しのための音楽の終曲をもとに、1900年に改訂した交響詩。中間部の旋律には後に詩が付けられ、合唱曲として歌われている。",
     "movements": [
       {
         "number": 1,
@@ -3650,10 +3568,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1899年ロシアへの抵抗。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "ピンチはチャンス。",
+    "historicalBackground": "1899年、ロシア帝国によるフィンランドの自治の制限に対し、新聞の報道の自由を支援する催しのために書いた音楽の終曲が原型である。1900年に改訂され、同年7月2日にヘルシンキで初演された。1941年、シベリウスは中間部の旋律を、コスケンニエミ（Veikko Antero Koskenniemi）の詩による合唱曲に編曲した。",
+    "musicalAnalysis": "金管楽器の低い和音の序奏で始まる。中間部で木管楽器、続いて弦楽器が賛歌風の旋律を奏でる。",
     "listeningGuide": {
       "totalTime": "8分",
       "recommendedVersion": "",
@@ -3671,7 +3587,7 @@
   {
     "id": "sibelius-vc",
     "composerId": "sibelius",
-    "title": "ヴァイオリン協奏曲",
+    "title": "ヴァイオリン協奏曲 ニ短調 作品47",
     "titleEn": "Violin Concerto",
     "year": 1904,
     "genre": "concerto",
@@ -3680,7 +3596,7 @@
     "opus": "Op. 47",
     "duration": 32,
     "difficulty": 3,
-    "shortDescription": "北欧の寒さと情熱が共存するヴァイオリン協奏曲の傑作。",
+    "shortDescription": "シベリウスが書いた唯一の協奏曲。1904年にヘルシンキで初演され、改訂版が1905年にベルリンで初演された。",
     "movements": [
       {
         "number": 1,
@@ -3693,10 +3609,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1903〜04年に作曲し1904年ヘルシンキ初演、1905年に改訂。シベリウス自身がヴァイオリニストを諦めた経験。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "夢を形を変えて実現する力。",
+    "historicalBackground": "1903年から1904年にかけて作曲され、1904年2月8日にヘルシンキでヴィクトル・ノヴァーチェク（Victor Nováček）の独奏、作曲者の指揮で初演された。シベリウスは1905年に改訂し、改訂版は同年10月19日にベルリンでカレル・ハリーシュ（Karel Halíř）の独奏、リヒャルト・シュトラウスの指揮で初演された。",
+    "musicalAnalysis": "3楽章構成。第1楽章では、展開部にあたる位置に独奏ヴァイオリンの長いカデンツァが置かれている。",
     "listeningGuide": {
       "totalTime": "32分",
       "recommendedVersion": "",
@@ -3721,7 +3635,7 @@
     "era": "contemporary",
     "duration": 80,
     "difficulty": 4,
-    "shortDescription": "愛と歓喜のメシアン最大の管弦楽作品。",
+    "shortDescription": "セルゲイ・クーセヴィツキーの委嘱で1946年から1948年にかけて書かれた、独奏ピアノとオンド・マルトノを含む10楽章の交響曲。1949年12月2日にボストンで初演された。",
     "movements": [
       {
         "number": 1,
@@ -3734,10 +3648,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "クーセヴィツキーの委嘱で1946〜48年に作曲。1949年ボストンでバーンスタインの指揮により初演。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "東西文化融合のイノベーション。",
+    "historicalBackground": "クーセヴィツキー財団の委嘱で1946年から1948年にかけて作曲された。1949年12月2日、ボストンでレナード・バーンスタインの指揮、ボストン交響楽団により初演された。ピアノはイヴォンヌ・ロリオ（Yvonne Loriod）、オンド・マルトノはジネット・マルトノ（Ginette Martenot）が弾いた。題名はサンスクリット語の2つの語を組み合わせたもの。",
+    "musicalAnalysis": "10楽章からなる。独奏ピアノ、オンド・マルトノ、多数の打楽器を含む大編成の管弦楽で、いくつかの主題（「彫像の主題」「花の主題」「愛の主題」など）が楽章をまたいで現れる。",
     "listeningGuide": {
       "totalTime": "80分",
       "recommendedVersion": "",
@@ -3761,7 +3673,7 @@
     "era": "contemporary",
     "duration": 50,
     "difficulty": 4,
-    "shortDescription": "捕虜収容所で作曲・初演された奇跡の作品。",
+    "shortDescription": "捕虜となったメシアンが、ドイツのゲルリッツの捕虜収容所で書いた8楽章の四重奏曲。1941年1月15日に収容所内で初演された。",
     "movements": [
       {
         "number": 1,
@@ -3774,10 +3686,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1941年ドイツの捕虜収容所で初演。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "極限状況での創造力。",
+    "historicalBackground": "1940年にドイツ軍の捕虜となったメシアンは、ゲルリッツの捕虜収容所第8A（シュタラークVIII-A）で、収容所にいたクラリネット、ヴァイオリン、チェロの奏者と自身のピアノのためにこの曲を書いた。1941年1月15日、収容所内で捕虜と看守を前に初演された。",
+    "musicalAnalysis": "クラリネット、ヴァイオリン、チェロ、ピアノのための8楽章。ヨハネの黙示録の天使の言葉を題材とする。第3楽章「鳥たちの深淵」はクラリネット独奏。",
     "listeningGuide": {
       "totalTime": "50分",
       "recommendedVersion": "",
@@ -3802,7 +3712,7 @@
     "era": "contemporary",
     "duration": 9,
     "difficulty": 4,
-    "shortDescription": "メロディーもリズムもない音の雲。映画「2001年宇宙の旅」使用。",
+    "shortDescription": "1961年に作曲された管弦楽曲。同年10月22日にドナウエッシンゲン音楽祭で初演された。映画「2001年宇宙の旅」（1968年）で使われた。",
     "movements": [
       {
         "number": 1,
@@ -3815,10 +3725,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1961年作曲。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "既存の概念を全て捨てる勇気。",
+    "historicalBackground": "1961年に作曲され、10月22日にドナウエッシンゲン音楽祭で、ハンス・ロスバウト（Hans Rosbaud）指揮の南西ドイツ放送交響楽団により初演された。映画「2001年宇宙の旅」では作曲者の許諾を得ずに使われ、のちにリゲティは制作側と争った。",
+    "musicalAnalysis": "はっきりした旋律や拍をもたず、弦楽器を細かく分けたパートが半音ずつ隣り合う音を同時に保つ響き（音群）が変化していく。弦楽器は1人1パートに分けられている。",
     "listeningGuide": {
       "totalTime": "9分",
       "recommendedVersion": "",
@@ -3842,7 +3750,7 @@
     "era": "contemporary",
     "duration": 9,
     "difficulty": 4,
-    "shortDescription": "52の弦楽器が生み出す極限的な音響。反核のメッセージ。",
+    "shortDescription": "52の弦楽器のための作品。1960年に作曲され、1961年9月22日にワルシャワの秋音楽祭で公開初演された。",
     "movements": [
       {
         "number": 1,
@@ -3855,10 +3763,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1960年作曲。当初は「8分37秒」という無題だった。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "芸術による社会的メッセージ。",
+    "historicalBackground": "1960年に作曲され、当初は演奏時間を示す「8分37秒」という題だった。同年カトヴィツェでの作曲コンクールで3位となった。1961年5月にポーランド放送で放送初演され、同年9月22日にワルシャワの秋音楽祭でアンジェイ・マルコフスキ（Andrzej Markowski）指揮のクラクフ・フィルハーモニーにより公開初演された。同年、ユネスコの国際作曲家会議（トリビューン）で賞を得た。その前に題を「広島の犠牲者に捧げる哀歌」と改めた。",
+    "musicalAnalysis": "ヴァイオリン24、ヴィオラ10、チェロ10、コントラバス8のための作品。楽器の最高音、駒とテールピースの間を弾く奏法、隣り合う音を密集させた響き（トーン・クラスター）などが、図形を含む独自の記譜で書かれている。",
     "listeningGuide": {
       "totalTime": "9分",
       "recommendedVersion": "",
@@ -3883,7 +3789,7 @@
     "key": "F-major",
     "duration": 10,
     "difficulty": 1,
-    "shortDescription": "究極のミニマル。無限の静寂を描く。",
+    "shortDescription": "1978年に作曲されたヴァイオリン（またはチェロなど）とピアノのための曲。ティンティナブリ様式で書かれている。",
     "movements": [
       {
         "number": 1,
@@ -3896,10 +3802,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "ティンティナブリ様式の傑作。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "引き算のデザイン。本質が現れる。",
+    "historicalBackground": "1978年、ソ連を出国する前に作曲された。ヴァイオリンとピアノのために書かれ、のちにチェロ、ヴィオラ、そのほかの楽器による版も作られた。",
+    "musicalAnalysis": "ヘ長調。ピアノがヘ長調の三和音の音を分散して弾き続け、旋律楽器はイ音を中心に1音ずつ範囲を広げる音階の旋律を弾く。",
     "listeningGuide": {
       "totalTime": "10分",
       "recommendedVersion": "",
@@ -3924,7 +3828,7 @@
     "era": "contemporary",
     "duration": 26,
     "difficulty": 3,
-    "shortDescription": "白紙への回帰。ティンティナブリ様式の確立を告げる作品。",
+    "shortDescription": "2つのヴァイオリン、弦楽合奏とプリペアド・ピアノのための二重協奏曲。1977年に作曲され、同年タリンで初演された。",
     "movements": [
       {
         "number": 1,
@@ -3937,10 +3841,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1977年作曲。ペルトの新しい出発点。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "リセットして再出発する力。",
+    "historicalBackground": "1977年に作曲され、同年9月30日にタリンで、ギドン・クレーメル（Gidon Kremer）とタチアナ・グリンデンコ（Tatjana Grindenko）の独奏、サウリュス・ソンデツキス（Saulius Sondeckis）指揮のリトアニア室内管弦楽団により初演された。題名はラテン語で「何も書かれていない板」の意。",
+    "musicalAnalysis": "2つの楽章「ルードゥス（遊び）」と「シレンティウム（沈黙）」からなる。",
     "listeningGuide": {
       "totalTime": "26分",
       "recommendedVersion": "",
@@ -3964,7 +3866,7 @@
     "era": "contemporary",
     "duration": 20,
     "difficulty": 4,
-    "shortDescription": "尺八と琵琶をオーケストラと共演させた武満徹の代表作。",
+    "shortDescription": "琵琶と尺八と管弦楽のための作品。ニューヨーク・フィルハーモニックの創立125年の委嘱で書かれ、1967年11月9日に小澤征爾の指揮で初演された。",
     "movements": [
       {
         "number": 1,
@@ -3977,10 +3879,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1967年NYフィル125周年委嘱。",
-    "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "対話のダイバーシティ経営。",
+    "historicalBackground": "ニューヨーク・フィルハーモニックの創立125年を記念する委嘱作として1967年に作曲された。1967年11月9日、ニューヨークで小澤征爾の指揮、鶴田錦史の琵琶、横山勝也の尺八により初演された。",
+    "musicalAnalysis": "単一楽章で、11の部分（段）からなる。琵琶と尺八は管弦楽と交互に演奏し、独奏楽器のための部分には図形を含む記譜が使われている。",
     "listeningGuide": {
       "totalTime": "20分",
       "recommendedVersion": "",
@@ -4005,7 +3905,7 @@
     "era": "contemporary",
     "duration": 12,
     "difficulty": 3,
-    "shortDescription": "夢から着想を得た武満徹の代表的管弦楽作品。",
+    "shortDescription": "サンフランシスコ交響楽団の委嘱で書かれた管弦楽曲。1977年11月30日に初演された。",
     "movements": [
       {
         "number": 1,
@@ -4018,10 +3918,8 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1977年作曲。夢の中で聴いた音楽。",
+    "historicalBackground": "サンフランシスコ交響楽団の委嘱で1977年に作曲され、同年11月30日に初演された。武満によれば、マン・レイが撮影した、後頭部を星形に剃ったマルセル・デュシャンの写真を見た日に、鳥の群れが五角形の庭に降りる夢を見たことが作曲のきっかけになった。",
     "musicalAnalysis": "",
-    "emotionalJourney": "",
-    "businessInsight": "無意識からのインスピレーション。",
     "listeningGuide": {
       "totalTime": "12分",
       "recommendedVersion": "",

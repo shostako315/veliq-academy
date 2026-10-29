@@ -6,9 +6,21 @@
     "date": "2027-03-13",
     "venue": "武蔵野市民文化会館 大ホール",
     "program": [
-      { "composerId": "beethoven", "workId": null, "title": "ベートーヴェン：《エグモント》序曲 Op.84" },
-      { "composerId": "brahms", "workId": null, "title": "ブラームス：ヴァイオリン協奏曲ニ長調 Op.77（独奏 的場桃）" },
-      { "composerId": "beethoven", "workId": "beethoven-symphony-3", "title": "ベートーヴェン：交響曲第3番変ホ長調 Op.55《英雄》" }
+      {
+        "composerId": "beethoven",
+        "workId": null,
+        "title": "ベートーヴェン：《エグモント》序曲 Op.84"
+      },
+      {
+        "composerId": "brahms",
+        "workId": null,
+        "title": "ブラームス：ヴァイオリン協奏曲ニ長調 Op.77（独奏 的場桃）"
+      },
+      {
+        "composerId": "beethoven",
+        "workId": "beethoven-symphony-3",
+        "title": "ベートーヴェン：交響曲第3番変ホ長調 Op.55《英雄》"
+      }
     ],
     "ticketUrl": "https://variorchestra.com/",
     "bannerColor": "#4A3C20",

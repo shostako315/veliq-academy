@@ -62,7 +62,7 @@ SEC_NAME = dict(SECTIONS)
 DATA_SECTIONS = {"works", "composers", "eras", "concepts", "timeline"}
 ARTICLE_SECTIONS = [s for s, _ in SECTIONS if s not in ("timeline",)]
 
-GENRE = {"symphony": "交響曲", "concerto": "協奏曲", "piano": "ピアノ曲", "chamber": "室内楽",
+GENRE = {"symphony": "交響曲", "concerto": "協奏曲", "piano": "ピアノ曲", "keyboard": "鍵盤曲", "chamber": "室内楽",
          "opera": "オペラ", "orchestral": "管弦楽", "vocal": "声楽", "sonata": "ソナタ", "choral": "合唱"}
 TL_CAT = {"birth": "誕生", "death": "没", "premiere": "初演", "political": "政治・社会", "scientific": "科学",
           "founding": "設立", "publication": "出版", "cultural": "文化"}
