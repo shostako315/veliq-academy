@@ -223,4 +223,4 @@
 
 ## 運営
 - [プライバシーポリシー](https://veliq-academy.com/privacy.html)
-- 姉妹サイト: [VELIQ](https://veliq.jp/) / [Veliq Club](https://veliqclub.com/)
+- 姉妹サイト: [VELIQ](https://veliq-jp.shostako315.workers.dev/) / [Veliq Club](https://veliqclub.com/)

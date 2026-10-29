@@ -37,7 +37,7 @@ QUIZ_BANK = ROOT.parent / "veliq-club" / "quiz-bank.js"
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "2"
+CSS_V = "3"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
@@ -326,7 +326,7 @@ def footer(S, extra_js=""):
       <div><div class="gf-brand">Veliq <b>Academy</b></div><p class="va-gfp">運営：{PUBLISHER}<br>監修：{SUPERVISOR}（{SUPERVISOR_ROLE}）</p></div>
       <div><h4>音楽</h4><a href="/music/">音楽学科のトップ</a>{music}</div>
       <div><h4>演奏会</h4><a href="/concerts/">演奏会の一覧</a>{conc}<a href="{VO}">VariOrchestra</a></div>
-      <div><h4>Veliq</h4><a href="{CLUB}">Veliq Club</a><a href="https://veliq.jp/">VELIQ</a><a href="/privacy.html">プライバシーポリシー</a><a href="mailto:info@variorchestra.com">お問い合わせ</a></div>
+      <div><h4>Veliq</h4><a href="{CLUB}">Veliq Club</a><a href="https://veliq-jp.shostako315.workers.dev/">VELIQ</a><a href="/privacy.html">プライバシーポリシー</a><a href="mailto:info@variorchestra.com">お問い合わせ</a></div>
     </div>
     <div class="gf-copy"><span>© {PUBLISHER}</span></div>
   </div>
@@ -1010,7 +1010,7 @@ def build_meta_files(S):
     L += ["", "## 演奏会"] + [f'- [{e["title"]}]({SITE}/concerts/{e["id"]}/): {e.get("date", "")}・{e.get("venue", "")}' for e in S.events]
     L += ["", "## データ(JSON)", f"- [作曲家]({SITE}/data/composers.json) / [作品]({SITE}/data/works.json) / [時代]({SITE}/data/eras.json) / "
           f"[年表]({SITE}/data/timeline-events.json) / [概念]({SITE}/data/concepts.json)",
-          "", "## 運営", f"- [プライバシーポリシー]({SITE}/privacy.html)", f"- 姉妹サイト: [VELIQ](https://veliq.jp/) / [Veliq Club]({CLUB})", ""]
+          "", "## 運営", f"- [プライバシーポリシー]({SITE}/privacy.html)", f"- 姉妹サイト: [VELIQ](https://veliq-jp.shostako315.workers.dev/) / [Veliq Club]({CLUB})", ""]
     (OUT / "llms.txt").write_text("\n".join(L), encoding="utf-8")
 
 
