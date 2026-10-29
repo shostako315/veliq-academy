@@ -8,6 +8,7 @@ sources:
   - 'Jeremy Montagu, "Why Differing Pitch Standards?", 2019 https://www.jeremymontagu.co.uk/WhyDifferingPitchStandards.pdf 閲覧日 2026-10-29'
   - 'Gamut Music「Understanding Tunings: a=440, a=415, and More」 https://shop.gamutmusic.com/pages/understanding-tunings 閲覧日 2026-10-29'
   - 'Wikipedia（英語版）「Concert pitch」「A440 (pitch standard)」「Transposing instrument」「Violin」「Andrea Amati」「Viola」「Cello」「Double bass」「Bow (music)」「François Tourte」「Pedal harp」「Sébastien Érard」「Western concert flute」「Theobald Boehm」「Oboe」「Clarinet」「Bassoon」「French horn」「Natural horn」「Brass instrument valve」「Trumpet」「Trombone」「Tuba」「Timpani」「Mehter」「Die Entführung aus dem Serail」「Symphony No. 100 (Haydn)」「Celesta」「Orchestra」 閲覧日 2026-10-29'
+  - 'The Metropolitan Museum of Art「Taking a Closer Look at the Amati "King" Cello」（National Music Museum, Vermillion, NMM 3351） https://www.metmuseum.org/perspectives/amati-cello-details 閲覧日 2026-10-29'
 ---
 
 ## 現在のオーケストラの楽器
@@ -61,7 +62,7 @@ sources:
 
 ヴァイオリンの直接の祖先は、レベック、フィドル、リラ・ダ・ブラッチョとされる。現在の形は16世紀初めの北イタリアで生まれ、最古の図像（3弦）は1530年頃に現れる。調弦を含む初期の記述に、ジャンブ・ド・フェール（Philibert Jambe de Fer）の『音楽要説』（Epitome musical, リヨン, 1556）がある。
 
-クレモナのアンドレア・アマティ（Andrea Amati, 1505年頃–1577）は、フランス王シャルル9世（その母カトリーヌ・ド・メディシス）のために楽器を作った。1560年から1574年の間に約38の楽器を作ったと推定されている。注文の時期を1566年頃からとする資料（サザビーズ）や、1560年にシャルル9世が24挺のヴァイオリンを注文したとする記述もあり、一致しない。シャルル9世のためのヴァイオリンは、現存最古のヴァイオリンとしてオックスフォードのアシュモリアン博物館にある。アマティの1572年のラベルがある金彩の低音楽器「キング」は、アメリカのサウスダコタ州ヴァーミリオンの国立音楽博物館にある。製作の流派にはブレシア派（ガスパロ・ダ・サロ（Gasparo da Salò）一族、マッジーニ（Giovanni Paolo Maggini））と、クレモナ派（アマティ家、グァルネリ家、ストラディヴァリ家）がある。
+クレモナのアンドレア・アマティ（Andrea Amati, 1505年頃–1577）は、フランス王シャルル9世（その母カトリーヌ・ド・メディシス）のために楽器を作った。1560年から1574年の間に約38の楽器を作ったと推定されている。注文の時期を1566年頃からとする資料（サザビーズ）や、1560年にシャルル9世が24挺のヴァイオリンを注文したとする記述もあり、一致しない。シャルル9世のための楽器のうち「シャルル9世」と呼ばれるヴァイオリンは、現存最古のヴァイオリンとされ、オックスフォードのアシュモリアン博物館にある。同じくシャルル9世の紋章などを描いた金彩のチェロ「キング」（16世紀半ば）は、アメリカのサウスダコタ州ヴァーミリオンの国立音楽博物館にあり、メトロポリタン美術館の解説はこれを現存最古のチェロとしている。製作の流派にはブレシア派（ガスパロ・ダ・サロ（Gasparo da Salò）一族、マッジーニ（Giovanni Paolo Maggini））と、クレモナ派（アマティ家、グァルネリ家、ストラディヴァリ家）がある。
 
 18世紀には、ネックを長くして後ろへ傾け、弦を太く、バスバーを重くする改造が進んだ。
 
@@ -111,7 +112,7 @@ sources:
 
 ベーム（Theobald Boehm, 1794–1881）は1832年にフルートの改良を始め、1847年に新しい運指の機構の特許を取り、同年『フルートの構造について』（Über den Flötenbau）を出版した。ベームの改良の要点は、木から金属への変更、大きなまっすぐの内径（円筒管）、放物線状に細くなる頭部管である。1871年には『フルートとフルート奏法』（Die Flöte und das Flötenspiel）を出した。
 
-現在のフルートは真鍮、スターリング・シルバーなどの金属で作られ、木製（アフリカン・ブラックウッド）もある。音域は C4 から3オクターヴ半で、最高音は C7、現代の作品では D7 とされる。ピッコロはフルートと同じくハ調で記譜し、1オクターヴ高く鳴る。
+現在のフルートは真鍮、スターリング・シルバーなどの金属で作られ、木製（アフリカン・ブラックウッド）もある。音域は C4 から上で、最高音は通常 C7、近年の作品では D7 とされる。ピッコロはフルートと同じくハ調で記譜し、1オクターヴ高く鳴る。
 
 ### オーボエとコーラングレ
 
@@ -183,7 +184,7 @@ B♭管とA管の記譜音域は E3 から C7 で、B♭管の実音は D3 か�
 
 1835年9月12日、ヴィープレヒト（Wilhelm Friedrich Wieprecht）とモーリッツ（Johann Gottfried Moritz）がプロイセンで「半音階バス・テューバ」の特許（第9121号）を取った。12フィートのF管に5つのベルリン式バルブを持ち、C1までの半音階を吹けた。
 
-オーケストラで使われる調は地域によって異なる。ヨーロッパの多くではF管が標準、ドイツとロシア以外ではC管（CC管）が最も多く使われ、ドイツ、オーストリア、ロシアではB♭管（BB♭管）のコントラバス・テューバが好まれる。E♭管は主にブラスバンドと軍楽隊で使われ、イギリスのオーケストラは1960年代にこれを採用した。
+オーケストラで使われる調は地域によって異なる。ドイツとロシア以外ではC管（CC管）が最も多く使われ、ドイツ、オーストリア、ロシアではB♭管（BB♭管）のコントラバス・テューバが好まれる。E♭管は主にブラスバンドと軍楽隊で使われる。イギリスのオーケストラでは、19世紀末から1950年代まで使われたF管に代わって、1960年代にE♭管が使われるようになった。
 
 ## 打楽器と鍵盤楽器
 

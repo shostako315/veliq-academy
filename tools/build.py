@@ -469,11 +469,22 @@ def ticket_url(ev):
     return VO, "VariOrchestra の公演案内"
 
 
+# 出典の中の URL は押せるリンクにする（外部へは新しいタブ・nofollow なし・noopener）
+_URL = re.compile(r"https?://[^\s<>（）「」『』、。　]+")
+def src_html(s):
+    out, i = "", 0
+    for m in _URL.finditer(str(s)):
+        u = m.group(0).rstrip(".,;)")
+        out += esc(str(s)[i:m.start()]) + f'<a href="{esc(u)}" target="_blank" rel="noopener">{esc(u)}</a>'
+        i = m.start() + len(u)
+    return out + esc(str(s)[i:])
+
+
 # ---- 記事末尾（出典 → 監修 → 関連 → 演奏会 → 4択 → 入会）
 def tail(S, path, sources, related, events, quiz):
     h = ""
     if sources:
-        h += sec("出典", '<ol class="va-src">' + "".join(f"<li>{esc(s)}</li>" for s in sources) + "</ol>")
+        h += sec("出典", '<ol class="va-src">' + "".join(f"<li>{src_html(s)}</li>" for s in sources) + "</ol>")
         # 監修の表示は、出典つきで書いた記事だけ（データだけのページは未検証の文を含むため）
         h += f'<p class="va-sup">監修：{SUPERVISOR}（{SUPERVISOR_ROLE}）</p>'
     for t, items in related:

@@ -14,6 +14,9 @@ sources:
   - 'コトバンク「斎藤秀雄」 https://kotobank.jp/word/%E6%96%8E%E8%97%A4%E7%A7%80%E9%9B%84-508169 閲覧日 2026-10-29'
   - 'Wikipedia（英語版）「L''Orfeo」「Les Vingt-quatre Violons du Roi」「Jean-Baptiste Lully」「Orchestra」「Mannheim school」「Tonkünstler-Societät」「Symphony No. 100 (Haydn)」「Royal Philharmonic Society」「Leipzig Gewandhaus Orchestra」「Orchestre de la Société des Concerts du Conservatoire」「New York Philharmonic」「Berlin Philharmonic」「Symphony No. 8 (Mahler)」「London Symphony Orchestra」「BBC Symphony Orchestra」「Arturo Toscanini」「Der Ring des Nibelungen (Georg Solti recording)」「NHK Symphony Orchestra」 閲覧日 2026-10-29'
   - 'Wikipedia（日本語版）「東京フィルハーモニー交響楽団」「日本オーケストラ連盟」 閲覧日 2026-10-29'
+  - '名古屋市図書館 調査報告（『松坂屋百年史』2010 による。いとう呉服店少年音楽隊の結成1911年3月18日、1938年の東京移転） https://www.library.city.nagoya.jp/img/reference/chosahoukoku_56.pdf 閲覧日 2026-10-29'
+  - 'ベルリン・フィル公式「History」 https://berliner-philharmoniker.de/en/about-us/orchestra/history 閲覧日 2026-10-29'
+  - 'Encyclopædia Britannica「John Banister」 https://www.britannica.com/biography/John-Banister 閲覧日 2026-10-29'
   - '配置：Singapore Symphony Orchestra「Seats and Sounds: Orchestral Seating and the Symphony of Sounds」 https://www.sso.org.sg/bravissimo/seats-and-sounds-orchestral-seating-and-the-symphony-of-sounds 、Jacksonville Symphony「Musical Chairs: Why Orchestras Sit the Way They Do」 https://www.jaxsymphony.org/musical-chairs-why-orchestras-sit-the-way-they-do/ 閲覧日 2026-10-29'
 ---
 
@@ -36,7 +39,7 @@ sources:
 
 1656年にはルイ14世のもとで16人（のち21人）の弦楽合奏「小楽団」（La Petite Bande）が加わり、元の合奏は「大楽団」（La Grande Bande）と呼ばれるようになった。リュリ（Jean-Baptiste Lully, 1632–1687）は1653年には王の個人の弦楽合奏「プチ・ヴィオロン」を任され、1661年に王室音楽の総監督となって「24のヴァイオリン」も掌握し、のちにはオペラ座のピットでこれを指揮した。「24のヴァイオリン」は1761年に財政上の理由で解散し、王室礼拝堂の楽団に統合された。
 
-この制度は国外でも模倣された。イングランドではチャールズ1世の宮廷が1631年までに14人で同じ構成をとり、1670年代にはルイ14世の客としてヴェルサイユに滞在したことのあるチャールズ2世が、「24のヴァイオリン」と同じ人数をそろえた。
+この制度は国外でも模倣された。イングランドではチャールズ1世の宮廷が1631年までに14人で同じ構成をとった。1660年の王政復古の後、チャールズ2世の宮廷には24人のヴァイオリン奏者からなる楽団があり、1660年にバニスター（John Banister）が加わって、のちにその指導者となった。
 
 ## ローマとコレッリ
 
@@ -85,7 +88,7 @@ sources:
 
 - **ウィーン・フィル**は、ウィーン国立歌劇場（もとの宮廷歌劇場）のオーケストラで演奏する者だけが団員になれる。芸術・組織・財政の面で自立しており、全団員の総会で民主的に決定する。
 - **ニューヨーク・フィル**は当初、楽員の協同組合で、団員・曲目・指揮者を投票で決め、シーズンの収益を分け合った。1909年に出資者による法人の経営に移った。
-- **ベルリン・フィル**は、1862年にビルゼ（Benjamin Bilse）が組織した「ビルゼ楽団」を前身とする。1882年、ワルシャワへの演奏旅行に4等車で向かうというビルゼの計画をきっかけに、当時70人のうち54人が独立して「旧ビルゼ楽団」（Frühere Bilsesche Kapelle）を名乗った。首席指揮者はブレンナー（Ludwig von Brenner, 1882〜87）、ビューロー（Hans von Bülow, 1887〜92または93）、リヒャルト・シュトラウス（1894〜95）、ニキシュ（Arthur Nikisch, 1895〜1922）、フルトヴェングラー（Wilhelm Furtwängler, 1922〜45、1952〜54）、チェリビダッケ（Sergiu Celibidache, 1945〜52）、カラヤン（Herbert von Karajan, 1955/56〜89）、アバド（Claudio Abbado, 1989〜2002）、ラトル（Simon Rattle, 2002〜18）、ペトレンコ（Kirill Petrenko, 2019〜）と続く。本拠のフィルハーモニーは1963年10月15日、カラヤン指揮のベートーヴェンの第9番で開場した。
+- **ベルリン・フィル**は、1862年にビルゼ（Benjamin Bilse）が組織した「ビルゼ楽団」を前身とする。1882年、ワルシャワへの演奏旅行に4等車で向かうというビルゼの計画をきっかけに、当時70人のうち54人が独立して「旧ビルゼ楽団」（Frühere Bilsesche Kapelle）を名乗った（人数はブリタニカによる。楽団公式の歴史は、1882年3月に50人が新しい契約への署名を拒んだと記す）。首席指揮者はブレンナー（Ludwig von Brenner, 1882〜87）、ビューロー（Hans von Bülow, 1887〜92）、リヒャルト・シュトラウス（1894〜95）、ニキシュ（Arthur Nikisch, 1895〜1922）、フルトヴェングラー（Wilhelm Furtwängler, 1922〜45、1952〜54。楽団公式の歴史は第1期を1934年までとする）、チェリビダッケ（Sergiu Celibidache, 1945〜52）、カラヤン（Herbert von Karajan, 1955/56〜89）、アバド（Claudio Abbado, 1990〜2002。選出は1989年）、ラトル（Simon Rattle, 2002〜18）、ペトレンコ（Kirill Petrenko, 2019〜）と続く。本拠のフィルハーモニーは1963年10月15日、カラヤン指揮のベートーヴェンの第9番で開場した。
 - **ロンドン交響楽団**は1904年に生まれた。クイーンズ・ホールの支配人ニューマン（Robert Newman）と指揮者ウッド（Henry Wood）が、契約した奏者が報酬のよい仕事のために代理を立てる「代理制度」を廃止したことに反発した奏者たちが結成した。協同組合として組織され、楽員は無報酬で演奏し、シーズンの利益から分配を受け、選挙で選ばれた運営委員会が楽団を統治した。最初の演奏会は1904年6月9日、クイーンズ・ホールでリヒター（Hans Richter）が指揮した。1912年にはニキシュとともにアメリカを巡演した。約100人の楽員はタイタニック号に予約していたが、日程の変更でバルティック号に乗った。
 
 ## 19世紀後半から20世紀初め——編成の拡大
@@ -111,7 +114,7 @@ sources:
 日本で最初に西洋の管弦楽を組織的に演奏したのは、宮内省の雅楽の楽師たちである。塚原康子の研究によれば経緯は次のとおりである。
 
 - 1874年（明治7年）から、楽師は西洋音楽を兼ねて学ぶようになった。最初は海軍軍楽隊と、雇い外国人のフェントン（John William Fenton）から吹奏楽を学んだ。フェントンは1877年に解雇され、以後1887年まで宮内省は西洋音楽の教師を雇わなかった。
-- 1879年（明治12年）、若い楽師たちが自主的に弦楽器とピアノの稽古を始めた。教えたのは海軍軍楽隊のエッケルト（Franz Eckert）と音楽取調掛のメーソン（Luther Whiting Mason）である。
+- 1879年（明治12年）、若い楽師たちが自主的に弦楽器とピアノの稽古を始めた。楽師たちは海軍軍楽隊の教師エッケルト（Franz Eckert）と、音楽取調掛の雇い教師メーソン（Luther Whiting Mason）を師とした。
 - 楽師たちは自主的な団体「洋楽協会」を作り（1882年2月に「音楽協会」と改称）、会費で弦楽器を買い、余暇に練習した。
 - 1881年7月、宮中で小編成の管弦楽が演奏された。
 - 1887年（明治20年）4月、式部職は管弦楽を正式の職務とし、弦楽器11人を管弦楽に、管楽器26人を吹奏楽に配した。音楽協会は同年6月に解散した。エッケルトは1887年から1899年まで宮内省の教師として雇われた。同年の依頼演奏50件のうち21件が西洋音楽で、そのうち13件は舞踏の練習会のためだった。

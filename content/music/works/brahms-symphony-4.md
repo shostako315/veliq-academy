@@ -17,7 +17,7 @@ sources:
   - 'Wikipedia（独語版）「4. Sinfonie (Brahms)」（典拠 Max Kalbeck, Johannes Brahms, Bd. 3, 1921；Peter Petersen, Zeitschrift der Gesellschaft für Musiktheorie 10, 2013, Archiv für Musikwissenschaft 70, 2013, Neue Zeitschrift für Musik 180, 2019；Siegfried Ochs, Geschehenes, Gesehenes, 1922 ほか）. https://de.wikipedia.org/wiki/4._Sinfonie_(Brahms)（閲覧日 2026-10-29）'
   - 'Wikipedia（英語版）「Symphony No. 4 (Brahms)」（典拠 Malcolm MacDonald, Brahms, 1990；Walter Frisch, Brahms: The Four Symphonies, Yale UP 2003；Henry Pleasants (ed.), Hanslick''s Music Criticisms 1846–99, 1963 ほか）. https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)（閲覧日 2026-10-29）'
   - 'Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）'
-  - '録音データ：MusicWeb International（Furtwängler PASC456 評 2016年3月／Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80465 評 2005年11月／Christopher Dyment, Conducting the Brahms Symphonies, Boydell 2016 評 2017年11月）, MusicBrainz（Carlos Kleiber, Complete Recordings on Deutsche Grammophon）, Gramophone（Mackerras Telarc 全集評 1997年10月）（閲覧日 2026-10-29）'
+  - '録音データ：MusicWeb International（Furtwängler PASC456 評 2016年3月／Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80465 評 2005年11月／Christopher Dyment, Conducting the Brahms Symphonies, Boydell 2016 評 2017年11月）, MusicWeb International（Toscanini in London 1935, WHRA 6046 評 2013年4月）, Casals Classical（Toscanini/NBC, La Voix de son Maître FALP 204 の商品記述：1951年12月3日）, MusicBrainz（Carlos Kleiber, Complete Recordings on Deutsche Grammophon）, Gramophone（Mackerras Telarc 全集評 1997年10月）（閲覧日 2026-10-29）'
 ---
 
 ## 成立
@@ -106,7 +106,7 @@ sources:
 
 ### 録音
 
-- アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮 BBC交響楽団（1935年）。指揮者クリストファー・ダイメント（Christopher Dyment）は著書『ブラームスの交響曲を指揮する』（2016年）で、この録音を手本に挙げている。トスカニーニはNBC交響楽団とも録音している（1952年12月3日、ニューヨーク、カーネギー・ホール）。
+- アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮 BBC交響楽団（1935年6月、ロンドンでのライヴ）。MusicWeb International は、クリストファー・ダイメント（Christopher Dyment）の著書『ブラームスの交響曲を指揮する』（2016年）の書評で、同書が手本としているのはこの録音とみられると書いている。トスカニーニはNBC交響楽団とも、ニューヨークのカーネギー・ホールで録音している（録音日は1951年12月3日とする資料と1952年12月3日とする資料がある）。
 - ヴィルヘルム・フルトヴェングラー（Wilhelm Furtwängler）指揮 ベルリン・フィルハーモニー管弦楽団（1948年10月24日、ベルリン、ティタニア・パラスト、ライヴ）。全曲41分24秒。MusicWeb International の評は、第1楽章の中ほどで大きくテンポを落とす箇所、近年の標準より遅い第2楽章を指摘している。
 - オットー・クレンペラー（Otto Klemperer）指揮 フィルハーモニア管弦楽団（1956年11月1日、1957年3月28〜29日、ロンドン、キングズウェイ・ホール、EMI）。同誌の評は、第1楽章の終わりのアッチェレランドと、終楽章のフルート独奏の変奏で速度を落とすことを指摘している。
 - カルロス・クライバー（Carlos Kleiber）指揮 ウィーン・フィルハーモニー管弦楽団（1980年3月12〜15日、ウィーン楽友協会大ホール、ドイツ・グラモフォン）。楽章ごとの所要時間は12分54秒・11分24秒・6分09秒・9分14秒。
@@ -122,7 +122,7 @@ sources:
 
 ### 主題の3度連鎖をめぐる議論
 
-第1楽章冒頭の3度の連鎖が全曲の素材になっているという見方は、アルノルト・シェーンベルク（Arnold Schoenberg）の論文「進歩主義者ブラームス」（Brahms the Progressive）でも取り上げられた。これに対してエゴン・フォス（Egon Voss）は、すべての動機を冒頭主題に還元することに反対し、ペーターゼンは、3度の連鎖が第1・第3・第4楽章の大部分を形づくっていると反論している。終楽章第27変奏（第217小節以降）の管楽器の旋律が第1楽章のどの箇所を指すかについても、ペーターゼンは従来の第233小節付近ではなく、第1楽章第240小節付近であると修正している。
+第1楽章冒頭の3度の連鎖が全曲の素材になっているという見方は、アルノルト・シェーンベルク（Arnold Schoenberg）の論文「進歩主義者ブラームス」（Brahms the Progressive）でも取り上げられた。これに対してエゴン・フォス（Egon Voss）は、すべての動機を冒頭主題に還元することに反対し、ペーターゼンは、3度の連鎖が第1・第3・第4楽章の大部分を形づくっていると反論している。ペーターゼンはまた、終楽章第233小節で引用されるのは交響曲の冒頭ではなく、第1楽章の再現部に向かう準備の部分（第240小節）であるとしている。
 
 ### 初期の評価
 

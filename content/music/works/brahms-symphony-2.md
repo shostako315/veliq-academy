@@ -17,7 +17,7 @@ sources:
   - 'Wikipedia（独語版）「2. Sinfonie (Brahms)」（典拠 Reinhold Brinkmann, Späte Idylle, 1990；Constantin Floros, in: Schubert/Floros/Schmidt, 1998；Christian Martin Schmidt, Brahms Sinfonien, 1999 ほか）. https://de.wikipedia.org/wiki/2._Sinfonie_(Brahms)（閲覧日 2026-10-29）'
   - 'Wikipedia（英語版）「Symphony No. 2 (Brahms)」（典拠 Walter Frisch, Brahms: The Four Symphonies, 1996, p. 68；Styra Avins & Josef Eisinger, Johannes Brahms: Life and Letters, OUP 1997 ほか）. https://en.wikipedia.org/wiki/Symphony_No._2_(Brahms)（閲覧日 2026-10-29）'
   - 'Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）'
-  - '録音データ：MusicWeb International（Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月）, Gramophone（Mackerras Telarc 全集評 1997年10月）（閲覧日 2026-10-29）'
+  - '録音データ：MusicWeb International（Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80464 評 2005年11月）, Gramophone（Mackerras Telarc 全集評 1997年10月）（閲覧日 2026-10-29）'
 ---
 
 ## 成立
@@ -104,7 +104,7 @@ sources:
 
 - アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮 NBC交響楽団（1952年2月11日、ニューヨーク、カーネギー・ホール）。MusicWeb International の評は、遅いテンポを避け、終楽章も特に速くはないと記す。
 - オットー・クレンペラー（Otto Klemperer）指揮 フィルハーモニア管弦楽団（1956年10月29〜30日、ロンドン、キングズウェイ・ホール、EMI）。同評は、管楽器を前に出した録音バランスでオーボエが目立つことを指摘している。
-- チャールズ・マッケラス（Charles Mackerras）指揮 スコットランド室内管弦楽団（Telarc、1997年評の全集）。50人に満たない編成、ウィンナ・ホルン、ロータリー式トランペット、左右に分けたヴァイオリンで演奏し、シュタインバッハの解釈上の指示を取り入れている。Gramophone 誌の評は、第2楽章でポルタメントが使われていることを指摘している。
+- チャールズ・マッケラス（Charles Mackerras）指揮 スコットランド室内管弦楽団（1997年1月6〜11日、エディンバラ、アッシャー・ホール、Telarc CD-80464）。50人に満たない編成、ウィンナ・ホルン、ロータリー式トランペット、左右に分けたヴァイオリンで演奏し、シュタインバッハの解釈上の指示を取り入れている。Gramophone 誌の評は、第2楽章でポルタメントが使われていることを指摘している。
 
 ## もっと深く
 
