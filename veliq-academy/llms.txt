@@ -1,21 +1,188 @@
 # Veliq Academy
 
-> クラシック音楽史を、時代年表・作曲家図鑑・作品カタログ・クイズで学ぶ日本語の学習サイト。運営:一般社団法人VariOrchestra(info@variorchestra.com)。
+> 音楽の作品・作曲家・時代を解説する日本語の学習サイト。1記事1ページ。監修:佐藤瑛吾(指揮者・VariOrchestra 音楽監督)。運営:一般社団法人VariOrchestra(info@variorchestra.com)。
 
-本体は1ページのWebアプリ(https://veliq-academy.com/)で、画面は「#/」以下のハッシュで切り替わります。内容はすべて次のJSONファイルから読み込んでおり、機械可読の形で参照できます。
+## 音楽
+- [音楽学科のトップ](https://veliq-academy.com/music/)
+- [作品](https://veliq-academy.com/music/works/)
+- [作曲家](https://veliq-academy.com/music/composers/)
+- [時代](https://veliq-academy.com/music/eras/)
+- [年表](https://veliq-academy.com/music/timeline/)
+- [指揮者の歴史と役割](https://veliq-academy.com/music/conductors/)
+- [形式と概念](https://veliq-academy.com/music/concepts/)
 
-## データ
-- [作曲家](https://veliq-academy.com/data/composers.json): 49名。生没年・出身地・時代・略歴・代表作・師弟関係
-- [作品](https://veliq-academy.com/data/works.json): 92作品。作曲年・ジャンル・楽章・歴史的背景・聴きどころ
-- [時代](https://veliq-academy.com/data/eras.json): 古代・中世(〜1400年)/ルネサンス(1400–1600)/バロック(1600–1750)/古典派(1750–1820)/ロマン派(1820–1900)/近代(1900–1945)/現代(1945〜)の7区分
-- [年表](https://veliq-academy.com/data/timeline-events.json): 年表の出来事100件
-- [概念](https://veliq-academy.com/data/concepts.json): 対位法・ソナタ形式など8項目
-- [学習パス](https://veliq-academy.com/data/learning-paths.json): 4コース
-- [クイズ](https://veliq-academy.com/data/quiz-questions.json): 115問(4択、解説つき)
+## 記事
+- [指揮者の歴史（テスト記事）](https://veliq-academy.com/music/conductors/test-history/): 表示確認のためのテスト記事。
+- [ベートーヴェン 交響曲第3番 変ホ長調 作品55《英雄》（テスト記事）](https://veliq-academy.com/music/works/beethoven-symphony-3/): 表示確認のためのテスト記事。
+- [ブラームス ヴァイオリン協奏曲 ニ長調 作品77（テスト記事）](https://veliq-academy.com/music/works/brahms-violin-concerto/): 表示確認のためのテスト記事。
 
-## 画面
-- [ダッシュボード](https://veliq-academy.com/#/dashboard) / [時代年表](https://veliq-academy.com/#/timeline) / [作曲家図鑑](https://veliq-academy.com/#/composers) / [作品カタログ](https://veliq-academy.com/#/works) / [時代を学ぶ](https://veliq-academy.com/#/eras) / [概念アカデミー](https://veliq-academy.com/#/concepts) / [鑑賞ラボ](https://veliq-academy.com/#/listening) / [学習パス](https://veliq-academy.com/#/paths) / [クイズ](https://veliq-academy.com/#/quiz) / [コンサート準備](https://veliq-academy.com/#/concert) / [楽譜入門](https://veliq-academy.com/#/score)
+## 作曲家
+- [ディートリヒ・ブクステフーデ](https://veliq-academy.com/music/composers/buxtehude/): 1637–1707
+- [ヘンリー・パーセル](https://veliq-academy.com/music/composers/purcell/): 1659–1695
+- [フランソワ・クープラン](https://veliq-academy.com/music/composers/couperin-f/): 1668–1733
+- [アントニオ・ヴィヴァルディ](https://veliq-academy.com/music/composers/vivaldi/): 1678–1741
+- [ゲオルク・フィリップ・テレマン](https://veliq-academy.com/music/composers/telemann/): 1681–1767
+- [ジャン＝フィリップ・ラモー](https://veliq-academy.com/music/composers/rameau/): 1683–1764
+- [ヨハン・ゼバスティアン・バッハ](https://veliq-academy.com/music/composers/bach-js/): 1685–1750
+- [ゲオルク・フリードリヒ・ヘンデル](https://veliq-academy.com/music/composers/handel/): 1685–1759
+- [クリストフ・ヴィリバルト・グルック](https://veliq-academy.com/music/composers/gluck/): 1714–1787
+- [カール・フィリップ・エマヌエル・バッハ](https://veliq-academy.com/music/composers/bach-cpe/): 1714–1788
+- [フランツ・ヨーゼフ・ハイドン](https://veliq-academy.com/music/composers/haydn/): 1732–1809
+- [ルイジ・ボッケリーニ](https://veliq-academy.com/music/composers/boccherini/): 1743–1805
+- [アントニオ・サリエリ](https://veliq-academy.com/music/composers/salieri/): 1750–1825
+- [ムツィオ・クレメンティ](https://veliq-academy.com/music/composers/clementi/): 1752–1832
+- [ヴォルフガング・アマデウス・モーツァルト](https://veliq-academy.com/music/composers/mozart-wa/): 1756–1791
+- [ルートヴィヒ・ヴァン・ベートーヴェン](https://veliq-academy.com/music/composers/beethoven/): 1770–1827
+- [フランツ・シューベルト](https://veliq-academy.com/music/composers/schubert/): 1797–1828
+- [エクトル・ベルリオーズ](https://veliq-academy.com/music/composers/berlioz/): 1803–1869
+- [フェリックス・メンデルスゾーン](https://veliq-academy.com/music/composers/mendelssohn/): 1809–1847
+- [フレデリック・ショパン](https://veliq-academy.com/music/composers/chopin/): 1810–1849
+- [ロベルト・シューマン](https://veliq-academy.com/music/composers/schumann-r/): 1810–1856
+- [フランツ・リスト](https://veliq-academy.com/music/composers/liszt/): 1811–1886
+- [リヒャルト・ワーグナー](https://veliq-academy.com/music/composers/wagner/): 1813–1883
+- [ジュゼッペ・ヴェルディ](https://veliq-academy.com/music/composers/verdi/): 1813–1901
+- [アントン・ブルックナー](https://veliq-academy.com/music/composers/bruckner/): 1824–1896
+- [ヨハネス・ブラームス](https://veliq-academy.com/music/composers/brahms/): 1833–1897
+- [カミーユ・サン＝サーンス](https://veliq-academy.com/music/composers/saint-saens/): 1835–1921
+- [ピョートル・イリイチ・チャイコフスキー](https://veliq-academy.com/music/composers/tchaikovsky/): 1840–1893
+- [アントニーン・ドヴォルザーク](https://veliq-academy.com/music/composers/dvorak/): 1841–1904
+- [エドヴァルド・グリーグ](https://veliq-academy.com/music/composers/grieg/): 1843–1907
+- [ジャコモ・プッチーニ](https://veliq-academy.com/music/composers/puccini/): 1858–1924
+- [グスタフ・マーラー](https://veliq-academy.com/music/composers/mahler/): 1860–1911
+- [クロード・ドビュッシー](https://veliq-academy.com/music/composers/debussy/): 1862–1918
+- [リヒャルト・シュトラウス](https://veliq-academy.com/music/composers/strauss-r/): 1864–1949
+- [ジャン・シベリウス](https://veliq-academy.com/music/composers/sibelius/): 1865–1957
+- [アルノルト・シェーンベルク](https://veliq-academy.com/music/composers/schoenberg/): 1874–1951
+- [モーリス・ラヴェル](https://veliq-academy.com/music/composers/ravel/): 1875–1937
+- [バルトーク・ベーラ](https://veliq-academy.com/music/composers/bartok/): 1881–1945
+- [イーゴリ・ストラヴィンスキー](https://veliq-academy.com/music/composers/stravinsky/): 1882–1971
+- [山田耕筰](https://veliq-academy.com/music/composers/yamada-kosaku/): 1886–1965
+- [セルゲイ・プロコフィエフ](https://veliq-academy.com/music/composers/prokofiev/): 1891–1953
+- [ドミートリイ・ショスタコーヴィチ](https://veliq-academy.com/music/composers/shostakovich/): 1906–1975
+- [オリヴィエ・メシアン](https://veliq-academy.com/music/composers/messiaen/): 1908–1992
+- [ジェルジ・リゲティ](https://veliq-academy.com/music/composers/ligeti/): 1923–2006
+- [團伊玖磨](https://veliq-academy.com/music/composers/dan-ikuma/): 1924–2001
+- [武満徹](https://veliq-academy.com/music/composers/takemitsu/): 1930–1996
+- [クシシュトフ・ペンデレツキ](https://veliq-academy.com/music/composers/penderecki/): 1933–2020
+- [アルヴォ・ペルト](https://veliq-academy.com/music/composers/part/): 1935–
+- [細川俊夫](https://veliq-academy.com/music/composers/hosokawa/): 1955–
+
+## 作品
+- [ディドとエネアス](https://veliq-academy.com/music/works/purcell-dido/): パーセル・1689年
+- [水上の音楽](https://veliq-academy.com/music/works/handel-water/): ヘンデル・1717年
+- [無伴奏ヴァイオリン・パルティータ第2番 ニ短調 BWV1004](https://veliq-academy.com/music/works/bach-bwv1004/): バッハ・1720年
+- [ブランデンブルク協奏曲第3番ト長調 BWV1048](https://veliq-academy.com/music/works/bach-brandenberg/): バッハ・1721年
+- [平均律クラヴィーア曲集 第1巻](https://veliq-academy.com/music/works/bach-wtc1/): バッハ・1722年
+- [ヴァイオリン協奏曲集「四季」](https://veliq-academy.com/music/works/vivaldi-four-seasons/): ヴィヴァルディ・1725年
+- [ターフェルムジーク](https://veliq-academy.com/music/works/telemann-tafelmusik/): テレマン・1733年
+- [ゴルトベルク変奏曲 BWV988](https://veliq-academy.com/music/works/bach-goldberg/): バッハ・1741年
+- [オラトリオ「メサイア」HWV56](https://veliq-academy.com/music/works/handel-messiah/): ヘンデル・1741年
+- [ミサ曲ロ短調](https://veliq-academy.com/music/works/bach-mass-b/): バッハ・1749年
+- [オルフェオとエウリディーチェ](https://veliq-academy.com/music/works/gluck-orfeo/): グルック・1762年
+- [ピアノ協奏曲第21番](https://veliq-academy.com/music/works/mozart-pc21/): モーツァルト・1785年
+- [フィガロの結婚](https://veliq-academy.com/music/works/mozart-figaro/): モーツァルト・1786年
+- [アイネ・クライネ・ナハトムジーク](https://veliq-academy.com/music/works/mozart-eine-kleine/): モーツァルト・1787年
+- [交響曲第40番ト短調 K.550](https://veliq-academy.com/music/works/mozart-symphony-40/): モーツァルト・1788年
+- [交響曲第41番ハ長調 K.551「ジュピター」](https://veliq-academy.com/music/works/mozart-symphony-41/): モーツァルト・1788年
+- [レクイエム ニ短調 K.626](https://veliq-academy.com/music/works/mozart-requiem/): モーツァルト・1791年
+- [交響曲第94番 驚愕](https://veliq-academy.com/music/works/haydn-sym94/): ハイドン・1791年
+- [魔笛](https://veliq-academy.com/music/works/mozart-magic-flute/): モーツァルト・1791年
+- [天地創造](https://veliq-academy.com/music/works/haydn-creation/): ハイドン・1798年
+- [ピアノソナタ第8番 悲愴](https://veliq-academy.com/music/works/beethoven-pathetique/): ベートーヴェン・1798年
+- [月光ソナタ](https://veliq-academy.com/music/works/beethoven-moonlight/): ベートーヴェン・1801年
+- [ベートーヴェン 交響曲第3番 変ホ長調 作品55《英雄》（テスト記事）](https://veliq-academy.com/music/works/beethoven-symphony-3/): ベートーヴェン・1803–1804年
+- [交響曲第5番ハ短調 Op.67「運命」](https://veliq-academy.com/music/works/beethoven-symphony-5/): ベートーヴェン・1808年
+- [ピアノ協奏曲第5番 皇帝](https://veliq-academy.com/music/works/beethoven-emperor/): ベートーヴェン・1809年
+- [ピアノ五重奏曲 ます](https://veliq-academy.com/music/works/schubert-trout/): シューベルト・1819年
+- [未完成交響曲](https://veliq-academy.com/music/works/schubert-unfinished/): シューベルト・1822年
+- [交響曲第9番ニ短調 Op.125「合唱」](https://veliq-academy.com/music/works/beethoven-symphony-9/): ベートーヴェン・1824年
+- [真夏の夜の夢 序曲](https://veliq-academy.com/music/works/mendelssohn-mnd/): メンデルスゾーン・1826年
+- [冬の旅](https://veliq-academy.com/music/works/schubert-winterreise/): シューベルト・1827年
+- [ピアノ協奏曲第1番](https://veliq-academy.com/music/works/chopin-concerto1/): ショパン・1830年
+- [幻想交響曲](https://veliq-academy.com/music/works/berlioz-fantastique/): ベルリオーズ・1830年
+- [ノクターン第2番](https://veliq-academy.com/music/works/chopin-nocturne2/): ショパン・1832年
+- [練習曲集 Op.10](https://veliq-academy.com/music/works/chopin-etudes/): ショパン・1833年
+- [バラード第1番ト短調 Op.23](https://veliq-academy.com/music/works/chopin-ballade-1/): ショパン・1835年
+- [詩人の恋](https://veliq-academy.com/music/works/schumann-dichterliebe/): シューマン・1840年
+- [ヴァイオリン協奏曲](https://veliq-academy.com/music/works/mendelssohn-vc/): メンデルスゾーン・1844年
+- [ピアノ協奏曲](https://veliq-academy.com/music/works/schumann-pc/): シューマン・1845年
+- [ハンガリー狂詩曲第2番](https://veliq-academy.com/music/works/liszt-hungarian2/): リスト・1847年
+- [ピアノソナタ ロ短調](https://veliq-academy.com/music/works/liszt-sonata/): リスト・1853年
+- [椿姫](https://veliq-academy.com/music/works/verdi-traviata/): ヴェルディ・1853年
+- [ワルキューレの騎行](https://veliq-academy.com/music/works/wagner-ring-walkure/): ワーグナー・1856年
+- [ピアノ協奏曲第1番](https://veliq-academy.com/music/works/brahms-pc1/): ブラームス・1858年
+- [トリスタンとイゾルデ](https://veliq-academy.com/music/works/wagner-tristan/): ワーグナー・1859年
+- [ピアノ協奏曲](https://veliq-academy.com/music/works/grieg-pc/): グリーグ・1868年
+- [アイーダ](https://veliq-academy.com/music/works/verdi-aida/): ヴェルディ・1871年
+- [ピアノ協奏曲第1番](https://veliq-academy.com/music/works/tchaikovsky-pc1/): チャイコフスキー・1875年
+- [ペール・ギュント組曲](https://veliq-academy.com/music/works/grieg-peer-gynt/): グリーグ・1875年
+- [交響曲第1番](https://veliq-academy.com/music/works/brahms-sym1/): ブラームス・1876年
+- [白鳥の湖](https://veliq-academy.com/music/works/tchaikovsky-swan/): チャイコフスキー・1876年
+- [ブラームス ヴァイオリン協奏曲 ニ長調 作品77（テスト記事）](https://veliq-academy.com/music/works/brahms-violin-concerto/): ブラームス・1878年
+- [序曲「1812年」](https://veliq-academy.com/music/works/tchaikovsky-1812/): チャイコフスキー・1880年
+- [交響曲第7番](https://veliq-academy.com/music/works/bruckner-sym7/): ブルックナー・1883年
+- [交響曲第4番ホ短調 Op.98](https://veliq-academy.com/music/works/brahms-symphony-4/): ブラームス・1885年
+- [交響曲第3番 オルガン付き](https://veliq-academy.com/music/works/saint-saens-organ/): サン＝サーンス・1886年
+- [動物の謝肉祭](https://veliq-academy.com/music/works/saint-saens-carnival/): サン＝サーンス・1886年
+- [交響曲第6番ロ短調 Op.74「悲愴」](https://veliq-academy.com/music/works/tchaikovsky-symphony-6/): チャイコフスキー・1893年
+- [新世界より](https://veliq-academy.com/music/works/dvorak-sym9/): ドヴォルザーク・1893年
+- [牧神の午後への前奏曲](https://veliq-academy.com/music/works/debussy-prelude-afternoon/): ドビュッシー・1894年
+- [交響曲第2番ハ短調「復活」](https://veliq-academy.com/music/works/mahler-symphony-2/): マーラー・1894年
+- [チェロ協奏曲](https://veliq-academy.com/music/works/dvorak-vc/): ドヴォルザーク・1895年
+- [ラ・ボエーム](https://veliq-academy.com/music/works/puccini-boheme/): プッチーニ・1895年
+- [ツァラトゥストラはかく語りき](https://veliq-academy.com/music/works/strauss-zarathustra/): シュトラウス・1896年
+- [浄夜](https://veliq-academy.com/music/works/schoenberg-verklarte/): シェーンベルク・1899年
+- [フィンランディア](https://veliq-academy.com/music/works/sibelius-finlandia/): シベリウス・1899年
+- [交響曲第5番](https://veliq-academy.com/music/works/mahler-sym5/): マーラー・1902年
+- [蝶々夫人](https://veliq-academy.com/music/works/puccini-butterfly/): プッチーニ・1904年
+- [ヴァイオリン協奏曲](https://veliq-academy.com/music/works/sibelius-vc/): シベリウス・1904年
+- [月の光](https://veliq-academy.com/music/works/debussy-clair/): ドビュッシー・1905年
+- [海](https://veliq-academy.com/music/works/debussy-la-mer/): ドビュッシー・1905年
+- [大地の歌](https://veliq-academy.com/music/works/mahler-das-lied/): マーラー・1909年
+- [ばらの騎士](https://veliq-academy.com/music/works/strauss-rosenkavalier/): シュトラウス・1910年
+- [火の鳥](https://veliq-academy.com/music/works/stravinsky-firebird/): ストラヴィンスキー・1910年
+- [ダフニスとクロエ](https://veliq-academy.com/music/works/ravel-daphnis/): ラヴェル・1912年
+- [バレエ音楽「春の祭典」](https://veliq-academy.com/music/works/stravinsky-rite-of-spring/): ストラヴィンスキー・1913年
+- [ピアノ協奏曲第3番](https://veliq-academy.com/music/works/prokofiev-pc3/): プロコフィエフ・1921年
+- [ボレロ](https://veliq-academy.com/music/works/ravel-bolero/): ラヴェル・1928年
+- [弦楽器、打楽器とチェレスタのための音楽](https://veliq-academy.com/music/works/bartok-strings/): バルトーク・1936年
+- [ロミオとジュリエット](https://veliq-academy.com/music/works/prokofiev-romeo/): プロコフィエフ・1936年
+- [交響曲第5番](https://veliq-academy.com/music/works/shostakovich-sym5/): ショスタコーヴィチ・1937年
+- [世の終わりのための四重奏曲](https://veliq-academy.com/music/works/messiaen-quartet/): メシアン・1941年
+- [トゥーランガリーラ交響曲](https://veliq-academy.com/music/works/messiaen-turangalila/): メシアン・1948年
+- [弦楽四重奏曲第8番](https://veliq-academy.com/music/works/shostakovich-sq8/): ショスタコーヴィチ・1960年
+- [広島の犠牲者に捧げる哀歌](https://veliq-academy.com/music/works/penderecki-threnody/): ペンデレツキ・1960年
+- [アトモスフェール](https://veliq-academy.com/music/works/ligeti-atmospheres/): リゲティ・1961年
+- [ノヴェンバー・ステップス](https://veliq-academy.com/music/works/takemitsu-november/): 武満徹・1967年
+- [タブラ・ラサ](https://veliq-academy.com/music/works/part-tabula/): ペルト・1977年
+- [鳥は星形の庭に降りる](https://veliq-academy.com/music/works/takemitsu-flock/): 武満徹・1977年
+- [鏡の中の鏡](https://veliq-academy.com/music/works/part-spiegel/): ペルト・1978年
+
+## 時代
+- [古代・中世](https://veliq-academy.com/music/eras/ancient/): 〜1400年
+- [ルネサンス](https://veliq-academy.com/music/eras/renaissance/): 1400–1600
+- [バロック](https://veliq-academy.com/music/eras/baroque/): 1600–1750
+- [古典派](https://veliq-academy.com/music/eras/classical/): 1750–1820
+- [ロマン派](https://veliq-academy.com/music/eras/romantic/): 1820–1900
+- [近代](https://veliq-academy.com/music/eras/modern/): 1900–1945
+- [現代](https://veliq-academy.com/music/eras/contemporary/): 1945〜
+
+## 形式と概念
+- [ソナタ形式](https://veliq-academy.com/music/concepts/concept-sonata-form/)
+- [交響曲](https://veliq-academy.com/music/concepts/concept-symphony/)
+- [フーガ](https://veliq-academy.com/music/concepts/concept-fugue/)
+- [対位法](https://veliq-academy.com/music/concepts/concept-counterpoint/)
+- [調性](https://veliq-academy.com/music/concepts/concept-key-tonality/)
+- [オーケストラ](https://veliq-academy.com/music/concepts/concept-orchestra/)
+- [オペラ](https://veliq-academy.com/music/concepts/concept-opera/)
+- [協奏曲](https://veliq-academy.com/music/concepts/concept-concerto/)
+
+## 演奏会
+- [VariOrchestra Vol.3](https://veliq-academy.com/concerts/vo-vol3-2027-03/): 2027-03-13・武蔵野市民文化会館 大ホール
+
+## データ(JSON)
+- [作曲家](https://veliq-academy.com/data/composers.json) / [作品](https://veliq-academy.com/data/works.json) / [時代](https://veliq-academy.com/data/eras.json) / [年表](https://veliq-academy.com/data/timeline-events.json) / [概念](https://veliq-academy.com/data/concepts.json)
 
 ## 運営
-- [プライバシーポリシー](https://veliq-academy.com/privacy.html): 学習の記録はブラウザのlocalStorageにのみ保存し、運営者には送信しません
+- [プライバシーポリシー](https://veliq-academy.com/privacy.html)
 - 姉妹サイト: [VELIQ](https://veliq.jp/) / [Veliq Club](https://veliqclub.com/)
