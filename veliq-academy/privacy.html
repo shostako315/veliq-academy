@@ -13,32 +13,29 @@
   <meta property="og:locale" content="ja_JP">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/design-tokens.css">
-  <link rel="icon" type="image/svg+xml" href="assets/img/logo-veliq-academy.svg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23FFFFFF%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-family=%27-apple-system,Helvetica,sans-serif%27 font-weight=%27700%27 font-size=%2722%27 text-anchor=%27middle%27 fill=%27%238A6A2A%27%3EV%3C/text%3E%3C/svg%3E">
   <style>
-    body { background: var(--color-bg-primary); color: var(--color-text-primary); font-family: var(--font-sans); line-height: var(--line-height-base); }
-    .wrap { max-width: 720px; margin: 0 auto; padding: var(--space-8) var(--space-4) var(--space-12); }
-    .logo img { height: 40px; width: auto; }
-    .crumb { font-size: var(--font-size-xs); color: var(--color-text-muted); margin-top: var(--space-4); }
-    .crumb a { color: var(--color-text-secondary); }
-    h1 { font-family: var(--font-serif); font-size: var(--font-size-3xl); color: var(--color-gold-primary); margin: var(--space-6) 0 var(--space-2); line-height: var(--line-height-tight); }
-    .meta { font-size: var(--font-size-xs); color: var(--color-text-muted); margin-bottom: var(--space-8); }
-    h2 { font-family: var(--font-serif); font-size: var(--font-size-xl); color: var(--color-text-primary); margin: var(--space-10) 0 var(--space-3); padding-left: var(--space-3); border-left: 2px solid var(--color-gold-primary); }
-    p, li { font-size: var(--font-size-sm); color: var(--color-text-secondary); margin-bottom: var(--space-3); }
-    ul { padding-left: 1.3em; list-style: disc; margin-bottom: var(--space-3); }
-    code { font-family: var(--font-mono); color: var(--color-text-primary); }
-    a { color: var(--color-gold-primary); }
-    footer { border-top: 1px solid var(--color-border-primary); margin-top: var(--space-12); padding-top: var(--space-6); font-size: var(--font-size-xs); color: var(--color-text-muted); }
-    footer p { font-size: var(--font-size-xs); color: var(--color-text-muted); margin-bottom: var(--space-2); }
-    footer a { color: var(--color-text-secondary); }
-    :focus-visible { outline: 2px solid #B8984E; outline-offset: 2px; border-radius: 2px; }
+    .doc{max-width:720px;margin:0 auto;padding:8px 24px 64px}
+    .crumb{font-size:12px;color:var(--ink-3);margin-top:16px}
+    .crumb a{color:var(--ink-3)}
+    .doc h1{font-size:36px;margin:24px 0 8px}
+    .meta{font-size:12px;color:var(--ink-3);margin-bottom:32px}
+    .doc h2{font-size:20px;margin:40px 0 12px;padding-bottom:8px;border-bottom:1px solid rgba(0,0,0,.08)}
+    .doc p,.doc li{font-size:15px;color:var(--ink-2);margin-bottom:12px}
+    .doc ul{padding-left:1.3em;list-style:disc;margin-bottom:12px}
+    .doc a{color:var(--u-accent)}
+    .gf p{margin:0 0 6px}
+    .gf a{display:inline;padding:0}
+    @media(max-width:640px){.doc{padding:8px 18px 48px}.gf a{display:inline-flex;align-items:center;min-height:44px}}
   </style>
+  <link rel="stylesheet" href="assets/vq-ui.css?v=1">
 </head>
 <body>
-  <div class="wrap">
-    <a class="logo" href="./"><img src="assets/img/logo-veliq-academy.svg" alt="Veliq Academy"></a>
+  <header class="gh"><div class="wrap gh-in"><a class="brand" href="./">Veliq <b>Academy</b></a></div></header>
+  <main class="doc">
     <p class="crumb"><a href="./">Veliq Academy</a> › プライバシーポリシー</p>
 
     <h1>プライバシーポリシー</h1>
@@ -73,11 +70,13 @@
     <h2>お問い合わせ</h2>
     <p>本ポリシーに関するお問い合わせは <a href="mailto:info@variorchestra.com">info@variorchestra.com</a> までお送りください。いただいたメールアドレス等は、回答以外の目的で利用せず、法令にもとづく場合を除き第三者へ提供しません。</p>
 
-    <footer>
+  </main>
+  <footer class="gf">
+    <div class="wrap">
       <p>運営：一般社団法人VariOrchestra｜お問い合わせ：<a href="mailto:info@variorchestra.com">info@variorchestra.com</a>｜<a href="./">Veliq Academy トップ</a></p>
       <p><a href="https://veliq-club.com/">Veliq Club に入会する</a></p>
       <p><a href="https://veliq.jp">VELIQ</a> — 何気ない日常を、豊かに</p>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </body>
 </html>

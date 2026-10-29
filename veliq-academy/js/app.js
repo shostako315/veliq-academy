@@ -84,7 +84,7 @@ async function initApp() {
   } catch (error) {
     console.error('App init failed:', error);
     document.getElementById('loading-screen').innerHTML =
-      '<p style="color:#C9A84C;text-align:center;padding:2rem;">読み込みに失敗しました。ページを更新してください。</p>';
+      '<p style="color:#1D1D1F;text-align:center;padding:2rem;">読み込みに失敗しました。ページを更新してください。</p>';
   }
 }
 

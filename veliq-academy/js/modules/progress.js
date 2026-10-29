@@ -52,24 +52,12 @@ const ProgressModule = (() => {
 
         <!-- 統計 -->
         <section class="section">
-          <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));">
-            <div class="card card--compact stat-card">
-              <div class="stat-value">${VeliqUI.formatStudyTime(progress.totalStudySeconds || 0)}</div>
-              <div class="stat-label">総学習時間</div>
-            </div>
-            <div class="card card--compact stat-card">
-              <div class="stat-value">${(progress.completedModules || []).length}</div>
-              <div class="stat-label">完了モジュール</div>
-            </div>
-            <div class="card card--compact stat-card">
-              <div class="stat-value">${progress.streak || 0}日</div>
-              <div class="stat-label">連続学習</div>
-            </div>
-            <div class="card card--compact stat-card">
-              <div class="stat-value">${earnedBadges.length} / ${BADGES.length}</div>
-              <div class="stat-label">獲得バッジ</div>
-            </div>
-          </div>
+          <table class="vq-table">
+            <tr><th>総学習時間</th><td>${VeliqUI.formatStudyTime(progress.totalStudySeconds || 0)}</td></tr>
+            <tr><th>完了モジュール</th><td>${(progress.completedModules || []).length}</td></tr>
+            <tr><th>連続学習</th><td>${progress.streak || 0}日</td></tr>
+            <tr><th>獲得バッジ</th><td>${earnedBadges.length} / ${BADGES.length}</td></tr>
+          </table>
         </section>
 
         <!-- クイズ成績 -->
@@ -166,24 +154,12 @@ const ProgressModule = (() => {
     const correct = Object.values(scores).filter(s => s.correct).length;
     const pct = Math.round((correct / total) * 100);
     return `
-      <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); margin-top:var(--space-4);">
-        <div class="card card--compact stat-card">
-          <div class="stat-value">${total}</div>
-          <div class="stat-label">回答数</div>
-        </div>
-        <div class="card card--compact stat-card">
-          <div class="stat-value">${correct}</div>
-          <div class="stat-label">正解数</div>
-        </div>
-        <div class="card card--compact stat-card">
-          <div class="stat-value">${pct}%</div>
-          <div class="stat-label">正答率</div>
-        </div>
-        <div class="card card--compact stat-card">
-          <div class="stat-value">${progress.quizStreak || 0}</div>
-          <div class="stat-label">最大連続正解</div>
-        </div>
-      </div>
+      <table class="vq-table">
+        <tr><th>回答数</th><td>${total}</td></tr>
+        <tr><th>正解数</th><td>${correct}</td></tr>
+        <tr><th>正答率</th><td>${pct}%</td></tr>
+        <tr><th>最大連続正解</th><td>${progress.quizStreak || 0}</td></tr>
+      </table>
     `;
   }
 

@@ -71,7 +71,7 @@ const EraDeepDiveModule = (() => {
             ${era.prevEra ? `<a href="#/eras/${VeliqUI.escape(era.prevEra)}" class="btn-ghost btn-sm">← 前の時代</a>` : ''}
             ${era.nextEra ? `<a href="#/eras/${VeliqUI.escape(era.nextEra)}" class="btn-ghost btn-sm">次の時代 →</a>` : ''}
           </div>
-          <h1 style="font-family:var(--font-serif); font-size:var(--font-size-4xl); color:${era.color}; margin-bottom:var(--space-3);">
+          <h1 style="font-family:var(--font-serif); font-size:var(--font-size-4xl); color:var(--color-text-primary); margin-bottom:var(--space-3);">
             ${VeliqUI.escape(era.name)}
           </h1>
           <p style="font-family:var(--font-serif); font-size:var(--font-size-xl); color:var(--color-text-secondary); margin-bottom:var(--space-6);">

@@ -232,11 +232,10 @@ const QuizModule = (() => {
     result.innerHTML = `
       <div class="anim-scale-in" style="text-align:center;">
         <div class="card card--hero" style="margin-bottom:var(--space-6);">
-          <h2 style="font-family:var(--font-serif); font-size:var(--font-size-3xl); color:var(--color-gold-primary); margin-bottom:var(--space-4);">
+          <h2 style="font-size:var(--font-size-2xl); color:var(--color-text-primary);">
             クイズ結果
           </h2>
-          <div class="stat-value" style="font-size:4rem;">${score} / ${currentQuestions.length}</div>
-          <div style="font-size:var(--font-size-2xl); color:var(--color-text-secondary); margin:var(--space-3) 0;">${pct}%</div>
+          <p class="vq-score">${score} / ${currentQuestions.length}（${pct}%）</p>
         </div>
 
         <div style="display:flex; gap:var(--space-4); justify-content:center; flex-wrap:wrap;">
@@ -263,22 +262,13 @@ const QuizModule = (() => {
 
     const correct = Object.values(scores).filter(s => s.correct).length;
     return `
-      <div class="card card--compact" style="margin-top:var(--space-6); text-align:center;">
-        <h4 style="color:var(--color-text-secondary); margin-bottom:var(--space-3);">これまでの成績</h4>
-        <div style="display:flex; justify-content:center; gap:var(--space-8);">
-          <div>
-            <div class="stat-value" style="font-size:var(--font-size-2xl);">${total}</div>
-            <div class="stat-label">回答数</div>
-          </div>
-          <div>
-            <div class="stat-value" style="font-size:var(--font-size-2xl);">${correct}</div>
-            <div class="stat-label">正解数</div>
-          </div>
-          <div>
-            <div class="stat-value" style="font-size:var(--font-size-2xl);">${total > 0 ? Math.round((correct / total) * 100) : 0}%</div>
-            <div class="stat-label">正答率</div>
-          </div>
-        </div>
+      <div class="card card--compact" style="margin-top:var(--space-6);">
+        <h4 style="color:var(--color-text-primary); font-size:var(--font-size-base);">これまでの成績</h4>
+        <table class="vq-table">
+          <tr><th>回答数</th><td>${total}</td></tr>
+          <tr><th>正解数</th><td>${correct}</td></tr>
+          <tr><th>正答率</th><td>${total > 0 ? Math.round((correct / total) * 100) : 0}%</td></tr>
+        </table>
       </div>
     `;
   }

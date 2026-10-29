@@ -61,7 +61,7 @@ const ComposerGraphModule = (() => {
       .attr('id', 'arrowhead').attr('viewBox', '0 -5 10 10')
       .attr('refX', 20).attr('refY', 0).attr('markerWidth', 6).attr('markerHeight', 6)
       .attr('orient', 'auto')
-      .append('path').attr('d', 'M0,-5L10,0L0,5').attr('fill', '#4A3C20');
+      .append('path').attr('d', 'M0,-5L10,0L0,5').attr('fill', '#C7C7CC');
 
     const eraColors = {
       baroque: '#9B7A6B', classical: '#6B8B9B', romantic: '#9B6B7A',
@@ -76,7 +76,7 @@ const ComposerGraphModule = (() => {
 
     const link = g.append('g').selectAll('line')
       .data(links).join('line')
-      .attr('stroke', '#2E2820').attr('stroke-width', 1)
+      .attr('stroke', '#D2D2D7').attr('stroke-width', 1)
       .attr('marker-end', 'url(#arrowhead)');
 
     const node = g.append('g').selectAll('g')
@@ -90,14 +90,14 @@ const ComposerGraphModule = (() => {
 
     node.append('circle')
       .attr('r', d => 6 + Math.min(d.connections * 2, 12))
-      .attr('fill', d => eraColors[d.era] || '#C9A84C')
-      .attr('stroke', d => eraColors[d.era] || '#C9A84C')
+      .attr('fill', d => eraColors[d.era] || '#8A6A2A')
+      .attr('stroke', d => eraColors[d.era] || '#8A6A2A')
       .attr('stroke-width', 2).attr('stroke-opacity', 0.3);
 
     node.append('text')
       .text(d => d.name.length > 8 ? d.name.slice(0, 8) + '…' : d.name)
       .attr('dy', -12).attr('text-anchor', 'middle')
-      .attr('fill', '#A89B7A').attr('font-size', '10px');
+      .attr('fill', '#6E6E73').attr('font-size', '10px');
 
     node.on('click', (event, d) => { window.location.hash = `#/composers/${d.id}`; });
 

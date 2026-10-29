@@ -15,9 +15,9 @@ const TimelineModule = (() => {
   ];
 
   const TYPE_STYLES = {
-    music: { symbol: '◆', color: '#C9A84C' },
+    music: { symbol: '◆', color: '#8A6A2A' },
     birth: { symbol: '◎', color: '#4A8B5C' },
-    death: { symbol: '×', color: '#6B6050' },
+    death: { symbol: '×', color: '#6E6E73' },
     history: { symbol: '◇', color: '#4A6B8B' },
   };
 
@@ -100,10 +100,10 @@ const TimelineModule = (() => {
       .call(xAxis);
 
     axisGroup.selectAll('text')
-      .attr('fill', '#A89B7A')
+      .attr('fill', '#6E6E73')
       .attr('font-size', '11px');
-    axisGroup.selectAll('line').attr('stroke', '#2E2820');
-    axisGroup.select('.domain').attr('stroke', '#2E2820');
+    axisGroup.selectAll('line').attr('stroke', '#D2D2D7');
+    axisGroup.select('.domain').attr('stroke', '#D2D2D7');
 
     const eraBandsG = g.append('g').attr('class', 'era-bands');
     ERA_BANDS.forEach(era => {
@@ -162,8 +162,8 @@ const TimelineModule = (() => {
 
         tooltip.innerHTML = `
           <div style="font-size:12px; color:${style.color}; margin-bottom:4px;">${style.symbol} ${VeliqUI.escape(String(evt.year))}年</div>
-          <div style="font-size:14px; color:#F0EAD6; font-weight:500; margin-bottom:4px;">${VeliqUI.escape(evt.title)}</div>
-          <div style="font-size:12px; color:#A89B7A;">${VeliqUI.escape(evt.description || '')}</div>
+          <div style="font-size:14px; color:#1D1D1F; font-weight:500; margin-bottom:4px;">${VeliqUI.escape(evt.title)}</div>
+          <div style="font-size:12px; color:#6E6E73;">${VeliqUI.escape(evt.description || '')}</div>
         `;
         tooltip.style.display = 'block';
         tooltip.style.left = (event.clientX + 12) + 'px';
@@ -199,9 +199,9 @@ const TimelineModule = (() => {
       .on('zoom', function(event) {
         const newX = event.transform.rescaleX(xScale);
         axisGroup.call(xAxis.scale(newX));
-        axisGroup.selectAll('text').attr('fill', '#A89B7A').attr('font-size', '11px');
-        axisGroup.selectAll('line').attr('stroke', '#2E2820');
-        axisGroup.select('.domain').attr('stroke', '#2E2820');
+        axisGroup.selectAll('text').attr('fill', '#6E6E73').attr('font-size', '11px');
+        axisGroup.selectAll('line').attr('stroke', '#D2D2D7');
+        axisGroup.select('.domain').attr('stroke', '#D2D2D7');
 
         ERA_BANDS.forEach((era, idx) => {
           const x0 = Math.max(newX(era.start), 0);

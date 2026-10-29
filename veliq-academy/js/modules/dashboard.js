@@ -21,27 +21,6 @@ const DashboardModule = (() => {
           <h1 class="hero-title">ようこそ、${VeliqUI.escape(userName)}さん</h1>
         </section>
 
-        <!-- 学習統計 -->
-        <section class="section">
-          <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));">
-            <div class="card card--compact stat-card">
-              <div class="stat-value">${VeliqUI.formatStudyTime(progress.totalStudySeconds || 0)}</div>
-              <div class="stat-label">総学習時間</div>
-            </div>
-            <div class="card card--compact stat-card">
-              <div class="stat-value">${(progress.completedModules || []).length}</div>
-              <div class="stat-label">完了モジュール</div>
-            </div>
-            <div class="card card--compact stat-card">
-              <div class="stat-value">${progress.streak || 0}日</div>
-              <div class="stat-label">連続学習</div>
-            </div>
-            <div class="card card--compact stat-card">
-              <div class="stat-value">${(progress.badges || []).length}</div>
-              <div class="stat-label">獲得バッジ</div>
-            </div>
-          </div>
-        </section>
 
         <!-- 今日の作曲家 -->
         ${todayComposer ? renderTodayComposer(todayComposer) : ''}
