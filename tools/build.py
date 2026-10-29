@@ -172,6 +172,8 @@ class Site:
                     fm[k] = v.isoformat()[:10]
             mdconv.reset()
             body = mdconv.convert(m.group(2))
+            # 本文中の外部リンク（出典）は新しいタブで開く
+            body = re.sub(r'<a href="(https?://[^"]+)">', r'<a href="\1" target="_blank" rel="noopener">', body)
             body = re.sub(r"<h1>.*?</h1>\s*", "", body, flags=re.S)  # 題名は前付けから出す
             body = re.sub(r"(<table>.*?</table>)", r'<div class="va-tbl">\1</div>', body, flags=re.S)
             srcs = fm.get("sources") or []

@@ -9,6 +9,9 @@ sources:
   - 'Gamut Music「Understanding Tunings: a=440, a=415, and More」 https://shop.gamutmusic.com/pages/understanding-tunings 閲覧日 2026-10-29'
   - 'Wikipedia（英語版）「Concert pitch」「A440 (pitch standard)」「Transposing instrument」「Violin」「Andrea Amati」「Viola」「Cello」「Double bass」「Bow (music)」「François Tourte」「Pedal harp」「Sébastien Érard」「Western concert flute」「Theobald Boehm」「Oboe」「Clarinet」「Bassoon」「French horn」「Natural horn」「Brass instrument valve」「Trumpet」「Trombone」「Tuba」「Timpani」「Mehter」「Die Entführung aus dem Serail」「Symphony No. 100 (Haydn)」「Celesta」「Orchestra」 閲覧日 2026-10-29'
   - 'The Metropolitan Museum of Art「Taking a Closer Look at the Amati "King" Cello」（National Music Museum, Vermillion, NMM 3351） https://www.metmuseum.org/perspectives/amati-cello-details 閲覧日 2026-10-29'
+  - 'Haydn, Trumpet Concerto in E-flat major Hob. VIIe:1, G. Henle Verlag HN 456, Preface（ヴァイディンガーのキー付きトランペットと1796年の作曲）. https://www.henle.de/media/25/ce/5e/1690886040/0456-1690886040-sync.pdf（閲覧日 2026-10-29）'
+  - 'Victoria and Albert Museum, Collections, „Pedal harp“, Sébastien Érard, London（1810年の複動式の特許）. https://collections.vam.ac.uk/item/O58933/pedal-harp-s--p/（閲覧日 2026-10-29）'
+  - 'Tchaikovsky Research, „The Voyevoda (symphonic ballad)“（チェレスタの入手と使用、初演 1891年11月6/18日）. https://en.tchaikovsky-research.net/pages/The_Voyevoda_(symphonic_ballad)（閲覧日 2026-10-29）'
 ---
 
 ## 現在のオーケストラの楽器
@@ -32,9 +35,9 @@ sources:
 
 | ピッチ | 用いられる範囲 | 由来 |
 |---|---|---|
-| A=415Hz | バロック音楽の多くの専門団体 | 440Hzのほぼ半音下で、鍵盤楽器を半音ずらして対応できるため選ばれた（モンタギューによる） |
-| A=430Hz前後 | 古典派の作品 | 古典派の時代のピッチはおおむね420〜430Hzの範囲にあり、一つの値ではない（Gamut による）。モンタギューは、スマート（George Smart）のピッチ433Hzをベートーヴェンの第9番のソプラノに有利だったかもしれないと述べている |
-| A=392Hz | フランス・バロック | 「オトテール・ピッチ」とも呼ばれる |
+| A=415Hz | バロック音楽の多くの専門団体 | 440Hzのほぼ半音下で、鍵盤楽器を半音ずらして対応できるため選ばれた（モンタギューによる）[（Jeremy Montagu）](https://www.jeremymontagu.co.uk/WhyDifferingPitchStandards.pdf) |
+| A=430Hz前後 | 古典派の作品 | 古典派の時代のピッチはおおむね420〜430Hzの範囲にあり、一つの値ではない（Gamut による）。[（Gamut Music）](https://shop.gamutmusic.com/pages/understanding-tunings)モンタギューは、スマート（George Smart）のピッチ433Hzをベートーヴェンの第9番のソプラノに有利だったかもしれないと述べている[（Jeremy Montagu）](https://www.jeremymontagu.co.uk/WhyDifferingPitchStandards.pdf) |
+| A=392Hz | フランス・バロック | 「オトテール・ピッチ」とも呼ばれる[（Jeremy Montagu）](https://www.jeremymontagu.co.uk/WhyDifferingPitchStandards.pdf) |
 
 415Hzは、バロック音楽を専門とする現代の多くの団体が合意した基準である。
 
@@ -62,7 +65,7 @@ sources:
 
 ヴァイオリンの直接の祖先は、レベック、フィドル、リラ・ダ・ブラッチョとされる。現在の形は16世紀初めの北イタリアで生まれ、最古の図像（3弦）は1530年頃に現れる。調弦を含む初期の記述に、ジャンブ・ド・フェール（Philibert Jambe de Fer）の『音楽要説』（Epitome musical, リヨン, 1556）がある。
 
-クレモナのアンドレア・アマティ（Andrea Amati, 1505年頃–1577）は、フランス王シャルル9世（その母カトリーヌ・ド・メディシス）のために楽器を作った。1560年から1574年の間に約38の楽器を作ったと推定されている。注文の時期を1566年頃からとする資料（サザビーズ）や、1560年にシャルル9世が24挺のヴァイオリンを注文したとする記述もあり、一致しない。シャルル9世のための楽器のうち「シャルル9世」と呼ばれるヴァイオリンは、現存最古のヴァイオリンとされ、オックスフォードのアシュモリアン博物館にある。同じくシャルル9世の紋章などを描いた金彩のチェロ「キング」（16世紀半ば）は、アメリカのサウスダコタ州ヴァーミリオンの国立音楽博物館にあり、メトロポリタン美術館の解説はこれを現存最古のチェロとしている。製作の流派にはブレシア派（ガスパロ・ダ・サロ（Gasparo da Salò）一族、マッジーニ（Giovanni Paolo Maggini））と、クレモナ派（アマティ家、グァルネリ家、ストラディヴァリ家）がある。
+クレモナのアンドレア・アマティ（Andrea Amati, 1505年頃–1577）は、フランス王シャルル9世（その母カトリーヌ・ド・メディシス）のために楽器を作った。1560年から1574年の間に約38の楽器を作ったと推定されている。注文の時期を1566年頃からとする資料（サザビーズ）や、1560年にシャルル9世が24挺のヴァイオリンを注文したとする記述もあり、一致しない。シャルル9世のための楽器のうち「シャルル9世」と呼ばれるヴァイオリンは、現存最古のヴァイオリンとされ、オックスフォードのアシュモリアン博物館にある。同じくシャルル9世の紋章などを描いた金彩のチェロ「キング」（16世紀半ば）は、アメリカのサウスダコタ州ヴァーミリオンの国立音楽博物館にあり、メトロポリタン美術館の解説はこれを現存最古のチェロとしている。[（The Metropolitan Museum of Art）](https://www.metmuseum.org/perspectives/amati-cello-details)製作の流派にはブレシア派（ガスパロ・ダ・サロ（Gasparo da Salò）一族、マッジーニ（Giovanni Paolo Maggini））と、クレモナ派（アマティ家、グァルネリ家、ストラディヴァリ家）がある。
 
 18世紀には、ネックを長くして後ろへ傾け、弦を太く、バスバーを重くする改造が進んだ。
 
@@ -100,7 +103,7 @@ sources:
 
 ### ハープ
 
-ペダルで調を変えるハープは、1720年にバイエルンのホッホブルッカー（Jacob Hochbrucker）が作った単動式（各弦を半音上げるだけ）に始まる。エラール（Sébastien Érard, 1752–1831）は1794年11月にイギリスで最初のハープの特許を取り、1810年夏に複動式のペダル機構の特許（第3332号）を取った。
+ペダルで調を変えるハープは、1720年にバイエルンのホッホブルッカー（Jacob Hochbrucker）が作った単動式（各弦を半音上げるだけ）に始まる。エラール（Sébastien Érard, 1752–1831）は1794年11月にイギリスで最初のハープの特許を取り、1810年夏に複動式のペダル機構の特許（第3332号）を取った。[（Victoria and Albert Museum）](https://collections.vam.ac.uk/item/O58933/pedal-harp-s--p/)
 
 現在の複動式ペダル・ハープは47弦で、1オクターヴに7本の弦がある。ペダルは7本で、それぞれ3段の位置を持つ。ペダルを操作しない状態では、すべての弦が変音で、変ハ長調の音階に調律される。ベルリオーズは交響作品でハープを用い始めた作曲家の一人で、ワーグナー（Richard Wagner）の《ラインの黄金》は6台のハープを求める。
 
@@ -164,7 +167,7 @@ B♭管とA管の記譜音域は E3 から C7 で、B♭管の実音は D3 か�
 
 中世末からルネサンスのトランペットは、管を巻いたバルブのない楽器で、一つの倍音列の音しか出せず、調を変えるには替え管を使った。専門の奏者が高い倍音域（クラリーノ音域）を開拓し、バロック時代は「ナチュラル・トランペットの黄金時代」と呼ばれることがある。名手の例にベンディネッリ（Cesare Bendinelli）がいる。
 
-1790年代、ウィーンのヴァイディンガー（Anton Weidinger）が半音階を吹ける最初の実用的なキー付きトランペットを開発した。ハイドンは1796年にヴァイディンガーのためにトランペット協奏曲を書き、1800年にウィーンで初演された。初演では、低い音域で奏される旋律が聴衆を驚かせた。
+1790年代、ウィーンのヴァイディンガー（Anton Weidinger）が半音階を吹ける最初の実用的なキー付きトランペットを開発した。[（Henle 序文）](https://www.henle.de/media/25/ce/5e/1690886040/0456-1690886040-sync.pdf)ハイドンは1796年にヴァイディンガーのためにトランペット協奏曲を書き、1800年にウィーンで初演された。初演では、低い音域で奏される旋律が聴衆を驚かせた。
 
 現在最も一般的なB♭管は長2度低く鳴る移調楽器である。アメリカのオーケストラではB♭管とともに、移調しないC管がよく使われる。標準的な奏法での最低音は記譜上の F♯3 で、運指表は一般に C6 まで載せる。
 
@@ -208,7 +211,7 @@ B♭管とA管の記譜音域は E3 から C7 で、B♭管の実音は D3 か�
 
 ### チェレスタ
 
-チェレスタは1886年、パリのハルモニウム製作者オーギュスト・ミュステル（Auguste Mustel）が発明した。父シャルル・ヴィクトル・ミュステル（Charles Victor Mustel）が1860年に作ったティポフォンが前身である。最初の使用例はショーソン（Ernest Chausson）の付随音楽《テンペスト》（1888年12月、小編成）で、フル・オーケストラの作品で初めて用いた主要な作曲家はチャイコフスキー（Pyotr Tchaikovsky）とされる。チャイコフスキーは交響的バラード《地方長官》（1891年11月初演）に続き、《くるみ割り人形》（1892）で使った。4オクターヴの楽器の実音はおおむね C4 から C8 で、記譜より1オクターヴ高く鳴る。
+チェレスタは1886年、パリのハルモニウム製作者オーギュスト・ミュステル（Auguste Mustel）が発明した。父シャルル・ヴィクトル・ミュステル（Charles Victor Mustel）が1860年に作ったティポフォンが前身である。最初の使用例はショーソン（Ernest Chausson）の付随音楽《テンペスト》（1888年12月、小編成）で、フル・オーケストラの作品で初めて用いた主要な作曲家はチャイコフスキー（Pyotr Tchaikovsky）とされる。チャイコフスキーは交響的バラード《地方長官》（1891年11月初演）に続き、《くるみ割り人形》（1892）で使った。[（Tchaikovsky Research）](https://en.tchaikovsky-research.net/pages/The_Voyevoda_%28symphonic_ballad%29)4オクターヴの楽器の実音はおおむね C4 から C8 で、記譜より1オクターヴ高く鳴る。
 
 ## ピリオド楽器と現代楽器の違い
 
