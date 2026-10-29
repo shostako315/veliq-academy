@@ -297,3 +297,6 @@ h1,h2,h3,h4{word-break:auto-phrase;text-wrap:balance;overflow-wrap:break-word}
 
 /* 押せる所を44px以上に（2026-10-30） */
 .va-bc a{min-width:44px;justify-content:flex-start}
+
+/* 見出しの中の「第1番」「作品55」は折らない */
+.kn{white-space:nowrap}

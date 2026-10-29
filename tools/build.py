@@ -37,7 +37,7 @@ QUIZ_BANK = ROOT.parent / "veliq-club" / "quiz-bank.js"
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "3"
+CSS_V = "4"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
@@ -394,7 +394,14 @@ def write(S, path, html_, lastmod=None, title=""):
     S.pages.append((path, lastmod or S.data_mtime, title))
 
 
+_KEEP = re.compile(r"(第\d+番|第\d+楽章|作品\d+[a-z]?|Op\.\s?\d+[a-z]?|BWV\s?\d+|K\.\s?\d+)")
+def _h1_keep(body):
+    # 見出しの中で「第1番」「作品55」などが途中で折れないようにする
+    return re.sub(r"<h1([^>]*)>(.*?)</h1>", lambda m: f"<h1{m.group(1)}>" + _KEEP.sub(r'<span class="kn">\1</span>', m.group(2)) + "</h1>", body, count=1, flags=re.S)
+
+
 def page(S, path, title, desc, body, ld, cur="", lastmod=None, og="article", extra_js=""):
+    body = _h1_keep(body)
     write(S, path, head(title, desc, path, ld, og) + header(S, cur) +
           f'<main id="main" class="va-main"><div class="wrap">{body}</div></main>\n' + footer(S, extra_js),
           lastmod, title)
