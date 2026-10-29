@@ -19,6 +19,12 @@ sources:
   - 'James S. Murphy, The Paris Review blog（《春の祭典》初演100年） https://www.theparisreview.org/blog/?p=55981 閲覧日 2026-10-29'
   - 'BBC Music Magazine（classical-music.com）「What is the point of John Cage''s 4''33"?」 https://www.classical-music.com/features/works/what-is-the-point-of-john-cage-433 閲覧日 2026-10-29'
   - 'BBC Music Magazine（classical-music.com）「Who were The Mighty Handful?」 https://www.classical-music.com/features/composers/mighty-handful-five-composers 閲覧日 2026-10-29'
+  - 'e-codices（Virtual Manuscript Library of Switzerland）「St. Gall''s Music Manuscripts」（Cod. Sang. 359） https://e-codices.ch/en/list/subproject/stgall_music 閲覧日 2026-10-29'
+  - 'The Lamp「Josquin des Prez」 https://thelampmagazine.com/issues/issue-06/josquin-des-prez 閲覧日 2026-10-29'
+  - 'Internationale Stiftung Mozarteum, Press release「The new Köchel Catalogue」2024 https://mozarteum.at/static/30eef4c1b7d2e5a05fe9c5e913a76e83/ISM_Koechel_new_press-release.pdf 閲覧日 2026-10-29'
+  - 'Národní divadlo／Prague City Tourism「Estates Theatre」（ノスティッツ伯の建設、1783年開場、1787年《ドン・ジョヴァンニ》初演） https://www.prague.eu/en/object/places/218/estates-theatre 閲覧日 2026-10-29'
+  - 'Adam Mickiewicz Institute（Culture.pl）「Penderecki: Threnody」 https://iam.pl/en/node/10419 閲覧日 2026-10-29'
+  - 'John Cage Trust「4''33"」作品データ https://www.johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=17 閲覧日 2026-10-29'
   - 'Wikipedia（英語版）「Music of ancient Greece」「Pythagorean tuning」「Tetrachord」「Aristoxenus」「Delphic Hymns」「Seikilos epitaph」「De institutione musica」「Gregorian chant」「Neume」「Guido of Arezzo」「Musica enchiriadis」「Pérotin」「Rhythmic mode」「Ars nova」「Guillaume de Machaut」「John Dunstaple」「Guillaume Du Fay」「Nuper rosarum flores」「Johannes Ockeghem」「Josquin des Prez」「Harmonice Musices Odhecaton」「Giovanni Pierluigi da Palestrina」「Missa Papae Marcelli」「Florentine Camerata」「Euridice (Peri)」「Le nuove musiche」「Lodovico Grossi da Viadana」「Figured bass」「Giovanni Artusi」「L''Orfeo」「Vespro della Beata Vergine」「Arcangelo Corelli」「The Four Seasons (Vivaldi)」「Traité de l''harmonie réduite à ses principes naturels」「Johann Sebastian Bach」「Bach-Werke-Verzeichnis」「Brandenburg Concertos」「The Well-Tempered Clavier」「St Matthew Passion」「George Frideric Handel」「Messiah (Handel)」「Mannheim school」「Sonata form」「Joseph Haydn」「Hoboken catalogue」「String Quartets, Op. 33 (Haydn)」「London symphonies」「Wolfgang Amadeus Mozart」「Köchel catalogue」「Don Giovanni」「Symphony No. 41 (Mozart)」「Ludwig van Beethoven」「List of works by Ludwig van Beethoven」「Erlkönig (Schubert)」「Symphonie fantastique」「Symphonic poem」「War of the Romantics」「Der Ring des Nibelungen」「Tristan chord」「A Life for the Tsar」「The Five (composers)」「Má vlast」「Symphony No. 9 (Dvořák)」「Finlandia」「Prélude à l''après-midi d''un faune」「Drei Klavierstücke (Schoenberg)」「Pierrot lunaire」「The Rite of Spring」「Twelve-tone technique」「Suite for Piano (Schoenberg)」「Neoclassicism (music)」「Wozzeck」「Symphony (Webern)」「Quatre Études de rythme」「Darmstadt School」「4′33″」「Atmosphères」「Threnody to the Victims of Hiroshima」「November Steps」「In C」「It''s Gonna Rain」「Minimal music」「Music for 18 Musicians」「Einstein on the Beach」「Spectral music」「Partiels」「Tintinnabuli」 閲覧日 2026-10-29'
 ---
 
@@ -64,7 +70,7 @@ sources:
 
 聖歌は長く口伝えで歌われた。西方で最初に記された聖歌の記号は、譜線のないネウマである。シャルルマーニュの時代のメス（Metz）で800年頃に使われていたことが示されている。
 
-- **9〜10世紀**：現存する最古の写本群が書かれた。メスとラン（Laon）のメス式（ロレーヌ式）ネウマ、ザンクト・ガレン（スイス）とライヘナウのザンクト・ガレン式ネウマなどがある。現存する記譜つきの資料で最も古いものは930年頃の「ラン昇階唱」（Graduale Laon）とされる（英語版Wikipediaの同じ項目は950年頃とする箇所もある）。
+- **9〜10世紀**：現存する最古の写本群が書かれた。メスとラン（Laon）のメス式（ロレーヌ式）ネウマ、ザンクト・ガレン（スイス）とライヘナウのザンクト・ガレン式ネウマなどがある。ネウマを付けた写本で完全な形で残る最古のものは、922〜926年の間に書かれたザンクト・ガレンの『カンタトリウム』（ザンクト・ガレン修道院図書館 Cod. Sang. 359）である。[（e-codices）](https://e-codices.ch/en/list/subproject/stgall_music)
 - 初期のネウマは旋律の大まかな動きを示すだけで、正確な音高や音程は示さない（非音高的ネウマ）。旋律を耳で覚えていることを前提にした記憶の補助だった。
 - **11世紀初め**：南イタリアのベネヴェント式ネウマは、ネウマを高さを変えて書き、相対的な音高を示した（音高的ネウマ）。ネウマの下に音名を書き添えた写本も現れた。
 - 続いて1〜4本の譜線が導入され、そのうち1本（多くはCかF）に特定の音高を固定した。
@@ -72,7 +78,7 @@ sources:
 
 譜線の考案者とされるのが、イタリアの修道士グイード・ダレッツォ（Guido d'Arezzo, 991/992年頃–1033年以後）である。
 
-- 1013年頃からフェラーラに近いポンポーザ修道院で教え、そこで譜線の原理を考え始めた。1025年頃、同僚の反発を受けてポンポーザを離れ、アレッツォに移った。
+- フェラーラに近いポンポーザ修道院で学び、そこで譜線の原理を考え始めた。1025年頃、同僚の反発を受けてポンポーザを離れ、アレッツォ司教テオバルドに招かれてアレッツォに移った。
 - 『ミクロログス』（Micrologus）は1026年以後の著で、アレッツォ司教テオバルドの依頼による。約70の写本が残り、修道院と大学で使われた。
 - 『未知の聖歌についての書簡』（Epistola de ignoto cantu, 1028〜32年頃）で、ut・re・mi・fa・sol・la の6つの音節による階名唱法を説いた。音節は洗礼者聖ヨハネ讃歌《ウト・クエアント・ラクシス》（Ut queant laxis）の各半行の最初の音節から取られている。この讃歌の歌詞は800年頃の写本にすでに見え、グイードの作ではない。のちにドーニ（Giovanni Battista Doni）が ut を do に改め、si が加えられた。
 - 1028年頃、教皇ヨハネス19世がグイードをローマに招き、教授法の説明を求めた。グイードは病のため説明を果たさずにローマを離れた。[（EBSCO Research Starters）](https://www.ebsco.com/research-starters/biography/guido-darezzo/)
@@ -80,7 +86,7 @@ sources:
 
 ## 初期の多声音楽とノートルダム楽派
 
-多声音楽の規則を述べた現存最古の試みは、9世紀の作者不詳の理論書『ムジカ・エンキリアディス』（Musica enchiriadis）である。第10〜18章は、協和音程を用いて聖歌に別の声部を付けるオルガヌムの作り方を説明し、ダシア記譜法と呼ばれる記号を使う。かつて作者とされたフクバルト（Hucbald）説は今は認められていない。
+多声音楽の規則を述べた現存最古の試みは、9世紀の作者不詳の理論書『ムジカ・エンキリアディス』（Musica enchiriadis）である。協和音程を用いて聖歌に別の声部を付けるオルガヌムの作り方を説明し、ダシア記譜法と呼ばれる記号を使う。かつて作者とされたフクバルト（Hucbald）説は今は認められていない。
 
 12世紀後半から13世紀前半（1175年頃–1225年頃）のパリのノートルダム大聖堂を中心とする作曲家群をノートルダム楽派という。
 
@@ -91,13 +97,13 @@ sources:
 
 ペロタンの作品の年代の手がかりは、パリ司教ウード・ド・シュリー（Eudes de Sully）の1198年と1199年の文書である。司教はクリスマスの時期の騒がしい仮装の催しを禁じ、応唱とベネディカムスを3声か4声のオルガヌムで歌うよう定めた。ユニヴェルサリスはこれを、《ヴィデルント》が1198年に、《セデルント》が1199年に演奏されたことを示す証言としている。[（Encyclopædia Universalis）](https://www.universalis.fr/encyclopedie/perotin/2-une-identification-difficile/)《ヴィデルント》はクリスマスの昇階唱、《セデルント》は聖ステファノの祝日（12月26日）の昇階唱による。
 
-ノートルダム楽派の音楽の時間は、6つのリズム・モードで組み立てられた。長短（トロカイオス）、短長（イアンボス）、長短短（ダクテュロス）、短短長（アナパイストス）、長長（スポンデイオス）、短短短（トリブラコス）で、最も多く使われたのは第1モードである。1260年頃の作者不詳の理論書『計量音楽について』（De mensurabili musica、かつてはガルランディアのヨハネス（Johannes de Garlandia）の作とされた）がこの体系を記す。同じ頃のケルンのフランコ（Franco of Cologne）の名は、音符の形で長さを表す記譜法と結びつけて語られる。
+ノートルダム楽派の音楽の時間は、6つのリズム・モードで組み立てられた。長短（トロカイオス）、短長（イアンボス）、長短短（ダクテュロス）、短短長（アナパイストス）、長長（スポンデイオス）、短短短（トリブラコス）で、最も多く使われたのは第1モードである。13世紀半ばの理論書『計量音楽について』（De mensurabili musica、ガルランディアのヨハネス（Johannes de Garlandia）の作とされる）がこの体系を記す。13世紀後半のケルンのフランコ（Franco of Cologne）の名は、音符の形で長さを表す記譜法と結びつけて語られる。
 
 ## アルス・ノーヴァ——14世紀
 
-14世紀フランスの新しい技法をアルス・ノーヴァ（新しい技法）という。名はフィリップ・ド・ヴィトリ（Philippe de Vitry）の論考に由来し、その成立をブリタニカは1320年頃、英語版Wikipediaは1322年頃とする。ジャン・ド・ミュリス（Johannes de Muris）の『新しい音楽の技法』（Ars novae musicae）も1320年頃に書かれた。
+14世紀フランスの新しい技法をアルス・ノーヴァ（新しい技法）という。名は1320年頃のフィリップ・ド・ヴィトリ（Philippe de Vitry）の論考に由来する。ジャン・ド・ミュリス（Johannes de Muris）の『新しい音楽の技法』（Ars novae musicae）も同じ頃に書かれた。
 
-- 物語詩の写本『フォーヴェル物語』（Roman de Fauvel）は1310年代に準備され（ブリタニカは1315年頃とする）、アルス・ノーヴァとアルス・アンティクァ（古い技法）の作品をともに収める。
+- 1315年頃の物語詩の写本『フォーヴェル物語』（Roman de Fauvel）は、アルス・ノーヴァとアルス・アンティクァ（古い技法）の作品をともに収める。
 - 定型のリズム型を繰り返して楽曲を組み立てるイソリズムが、この時代に広く使われた。
 
 ギヨーム・ド・マショー（Guillaume de Machaut, 1300年頃–1377年）は1337年にランスの参事会員となった。《ノートルダム・ミサ》（Messe de Nostre Dame）は1360年代初めにおそらくランス大聖堂のために書かれた。一人の作曲家が通常文全体を一つのまとまりとして作曲したミサとして最初期のものだが、それより早い《トゥルネー・ミサ》があり、全体が循環的に統一されているかどうかには議論がある。マショーは晩年に自作の全集写本の作成を監督した。
@@ -124,7 +130,7 @@ sources:
 - 《レクイエム》：現存する最古の多声のレクイエム。
 - オケゲムの死に際し、ジョスカンが哀歌《森のニンフたち》（Nymphes des bois）を書いた。
 
-ジョスカン・デ・プレ（Josquin des Prez, 1450年頃（遅くとも1455年）–1521年8月27日、コンデ＝シュル＝レスコー没）は、1503年5月30日までにフェラーラ公エルコレ1世・デステに仕え、宮廷礼拝堂で最高額の200ドゥカートを得た。1504年4月までにペストのため同地を離れ、後任のオブレヒト（Jacob Obrecht）は1505年にペストで没した。
+ジョスカン・デ・プレ（Josquin des Prez, 1450年頃（遅くとも1455年）–1521年8月27日、コンデ＝シュル＝レスコー没）は、1503年4月にフェラーラ公エルコレ1世・デステの礼拝堂楽長として着任した。俸給は200ドゥカートで、イザーク（Heinrich Isaac）が受け入れた120ドゥカートを上回った。1504年春にペストのため同地を離れた。[（The Lamp）](https://thelampmagazine.com/issues/issue-06/josquin-des-prez)後任のオブレヒト（Jacob Obrecht）は1505年にペストで没した。
 
 - 《ミサ・ヘルクレス・ドゥクス・フェラリエ》：公の名 Hercules Dux Ferrariae の母音を階名に置き換えて定旋律を作る（ソッジェット・カヴァート）。この方法を用いたミサとして知られる最初のものである。ペトルッチが1505年に出版した。
 - 《ミサ・ロム・アルメ・スーペル・ヴォーチェス・ムジカーレス》：「ロム・アルメ」の旋律を自然ヘクサコルドの各音（C・D・E・F・G・A）の上に順に置き、計量カノンを多く含む。
@@ -137,7 +143,7 @@ sources:
 
 パレストリーナ（Giovanni Pierluigi da Palestrina, 1525年または1526年初め–1594年2月2日）は1551年に教皇ユリウス3世からサン・ピエトロ大聖堂のジュリア礼拝堂の楽長に任じられ、1571年に同職に戻って没するまで務めた。ミサは105曲が知られる。
 
-《教皇マルチェルスのミサ》（Missa Papae Marcelli）は1567年刊の『ミサ曲集第2巻』（Missarum liber secundus）の最後に収められ、スペインのフェリペ2世に献呈された。6声で書かれている。[（Carus-Verlag Blog）](https://blog.carus-verlag.com/en/music-stories/the-missa-papae-marcelli-and-its-context/)このミサがトリエント公会議で多声音楽の禁止を防いだという話は、アゴスティーノ・アガッツァーリ（Agostino Agazzari）の1607年の通奏低音論に始まり、バンキエーリ（Adriano Banchieri）やクレソッリ（Ludovico Cresolli）が繰り返した。公会議とこのミサの関係を示す記録はない。[（Carus-Verlag Blog）](https://blog.carus-verlag.com/en/music-stories/the-missa-papae-marcelli-and-its-context/)作曲年について、カールス社の解説は1555〜67年の間（システィーナ礼拝堂写本22に1565年の年記がある）とし、英語版Wikipediaはサンタ・マリア・マッジョーレ聖堂の写本に写された1562年を最も有力とする。
+《教皇マルチェルスのミサ》（Missa Papae Marcelli）は1567年刊の『ミサ曲集第2巻』（Missarum liber secundus）の最後に収められ、スペインのフェリペ2世に献呈された。6声で書かれている。[（Carus-Verlag Blog）](https://blog.carus-verlag.com/en/music-stories/the-missa-papae-marcelli-and-its-context/)このミサがトリエント公会議で多声音楽の禁止を防いだという話は、アゴスティーノ・アガッツァーリ（Agostino Agazzari）の1607年の通奏低音論に始まり、バンキエーリ（Adriano Banchieri）やクレソッリ（Ludovico Cresolli）が繰り返した。公会議とこのミサの関係を示す記録はない。[（Carus-Verlag Blog）](https://blog.carus-verlag.com/en/music-stories/the-missa-papae-marcelli-and-its-context/)作曲年は1555〜67年の間で、システィーナ礼拝堂写本22には1565年の年記がある。[（Carus-Verlag Blog）](https://blog.carus-verlag.com/en/music-stories/the-missa-papae-marcelli-and-its-context/)
 
 フックス（Johann Joseph Fux）の『グラドゥス・アド・パルナッスム』（Gradus ad Parnassum, 1725）は、パレストリーナの様式を5つの「類」による対位法の教程にまとめた。
 
@@ -181,8 +187,8 @@ sources:
 
 バッハの作品番号 BWV（Bach-Werke-Verzeichnis）は、シュミーダー（Wolfgang Schmieder）の目録による（初版1950年、第2版1990年、第3版2022年）。番号は分野別で、作曲年代を表さない。カンタータは BWV 1〜224、受難曲・オラトリオは244〜249、オルガン曲は525〜771、鍵盤曲は772〜994、室内楽は1001〜1040、管弦楽曲は1041〜1071である。
 
-- 《ブランデンブルク協奏曲》BWV 1046〜1051：1721年3月24日付の献辞でブランデンブルク＝シュヴェート辺境伯クリスティアン・ルートヴィヒに献呈された。題は「さまざまな楽器による6つの協奏曲」（Six Concerts avec plusieurs instruments）。多くはそれ以前にケーテンかヴァイマルで書かれた。1849年にデーン（Siegfried Dehn）が再発見し、1850年に出版した。
-- 《平均律クラヴィーア曲集》第1巻 BWV 846〜869（1722年、ケーテン）、第2巻 BWV 870〜893（1742年、ライプツィヒ）：24のすべての長調・短調による前奏曲とフーガ。印刷譜が出たのは1801年である。表題の「よく調律された」が平均律を指すのか、各調に異なる性格を与える不等分の「ウェル・テンペラメント」を指すのかは議論があり、現在の研究者の多くは後者を支持する。先行例にフィッシャー（Johann Caspar Ferdinand Fischer）の《アリアドネ・ムジカ》（1702年）がある。
+- 《ブランデンブルク協奏曲》BWV 1046〜1051：1721年3月24日付の献辞でブランデンブルク辺境伯クリスティアン・ルートヴィヒに献呈された。題は「さまざまな楽器による6つの協奏曲」（Six Concerts avec plusieurs instruments）。多くはそれ以前にケーテンかヴァイマルで書かれた。1849年にデーン（Siegfried Dehn）が再発見し、1850年に出版した。
+- 《平均律クラヴィーア曲集》第1巻 BWV 846〜869（1722年、ケーテン）、第2巻 BWV 870〜893（1740年代初め、ライプツィヒ）：24のすべての長調・短調による前奏曲とフーガ。印刷譜が出たのは1801年である。表題の「よく調律された」が平均律を指すのか、各調に異なる性格を与える不等分の「ウェル・テンペラメント」を指すのかは議論があり、現在の研究者の多くは後者を支持する。先行例にフィッシャー（Johann Caspar Ferdinand Fischer）の《アリアドネ・ムジカ》（1702年）がある。
 - 《マタイ受難曲》BWV 244：初演はおそらく1727年4月11日（聖金曜日）、ライプツィヒの聖トーマス教会。古い資料は1729年4月15日とした。台本はピカンダー（Picander、本名 Christian Friedrich Henrici）。2つの合唱と2つのオーケストラによる。1736年、1742年にも演奏され、1743〜46年に改訂された。
 - そのほか晩年の作に《音楽の捧げもの》BWV 1079（1747年）、《フーガの技法》BWV 1080、《ロ短調ミサ》BWV 232がある。
 
@@ -218,9 +224,9 @@ sources:
 
 ### モーツァルト
 
-モーツァルト（Wolfgang Amadeus Mozart, 1756年1月27日ザルツブルク–1791年12月5日ウィーン）は1781年にザルツブルクの職を離れてウィーンに定住した。作品番号 K.（KV）はケッヒェル（Ludwig von Köchel）が1862年に出した年代順の目録による。アインシュタイン（Alfred Einstein）の第3版（1937年）は補遺の作品を本表に K. 196e のような枝番号で入れた。ザスロー（Neal Zaslaw）の第9版（2024年）は年代順の配列をやめ、多くの作品を最も古い番号に戻した。
+モーツァルト（Wolfgang Amadeus Mozart, 1756年1月27日ザルツブルク–1791年12月5日ウィーン）は1781年にザルツブルクの職を離れてウィーンに定住した。作品番号 K.（KV）はケッヒェル（Ludwig von Köchel）が1862年に出した年代順の目録による。アインシュタイン（Alfred Einstein）の第3版（1937年）は補遺の作品を本表に K. 196e のような枝番号で入れた。ザスロー（Neal Zaslaw）の新版（2024年）は年代順の配列をやめ、一つの作品に複数の番号を与えるやり方を廃して、1862年の初版の番号に戻した。[（Internationale Stiftung Mozarteum）](https://mozarteum.at/static/30eef4c1b7d2e5a05fe9c5e913a76e83/ISM_Koechel_new_press-release.pdf)
 
-- 《フィガロの結婚》K. 492（1786年、ウィーン）、《ドン・ジョヴァンニ》K. 527（1787年10月29日、プラハの国民劇場、現エステート劇場）：台本はいずれもダ・ポンテ（Lorenzo Da Ponte）。
+- 《フィガロの結婚》K. 492（1786年、ウィーン）、《ドン・ジョヴァンニ》K. 527（1787年10月29日、プラハのノスティッツ劇場、現エステート劇場）：台本はいずれもダ・ポンテ（Lorenzo Da Ponte）。
 - 交響曲第39番 K. 543、第40番 K. 550、第41番 K. 551：1788年夏に書かれた。第41番は1788年8月10日に完成した。終楽章では5つの主題がフガートで組み合わされる。通称は《ジュピター》である。
 - 《レクイエム》K. 626：作曲者の死の時点で大部分が未完であった。
 
@@ -248,7 +254,7 @@ sources:
 
 リスト（Franz Liszt）は1848年以降に書いた13曲の単一楽章の管弦楽曲に「交響詩」（Symphonische Dichtung）の名を与えた。詩・物語・絵画などを題材とし、主題の変容で全体を結ぶ。この形はスメタナ、サン＝サーンス（《死の舞踏》）、リヒャルト・シュトラウス、シベリウスに受け継がれた。
 
-19世紀後半のドイツ語圏では、リストとワーグナーを中心とするヴァイマルの進歩派と、ブラームス、ヨアヒム（Joseph Joachim）、クララ・シューマン、ライプツィヒ音楽院の保守派が対立した。ロベルト・シューマンが1845年に『新音楽時報』をブレンデル（Franz Brendel）に譲ると、同誌はリストを支持した。ハンスリック（Eduard Hanslick）の1854年の著書『音楽美論』（Vom Musikalisch-Schönen）は、音楽はそれ自体の外にあるものを表すことはできないと論じた。1860年には、ブラームスが書いたとみられ、ブラームス、ヨアヒムら20人以上が署名した声明が同誌の偏りに抗議した。
+19世紀後半のドイツ語圏では、リストとワーグナーを中心とするヴァイマルの進歩派と、ブラームス、ヨアヒム（Joseph Joachim）、クララ・シューマン、ライプツィヒ音楽院の保守派が対立した。ロベルト・シューマンが1845年に『新音楽時報』をブレンデル（Franz Brendel）に譲ると、同誌はリストを支持した。ハンスリック（Eduard Hanslick）の1854年の著書『音楽美論』（Vom Musikalisch-Schönen）は、音楽はそれ自体の外にあるものを表すことはできないと論じた。1860年には、ブラームスが書いたとみられる声明が、ブラームス、ヨアヒムらの名で同誌の偏りに抗議した。
 
 ### ワーグナー
 
@@ -264,7 +270,7 @@ sources:
 
 - **ロシア**：グリンカ（Mikhail Glinka）のオペラ《皇帝に捧げた命》（原題《イワン・スサーニン》）は、1836年12月9日（旧暦11月27日）にサンクトペテルブルクのボリショイ・カーメンヌイ劇場で初演された。ロシア人の作によるオペラとして初めてレパートリーに定着し、のちの《ボリス・ゴドゥノフ》《イーゴリ公》などの歴史オペラに影響を与えた。批評家スターソフ（Vladimir Stasov）は1867年5月24日にモスクワで開かれた演奏会の評で、出演したロシアの作曲家たちを「小さいがすでに力強い一団」と呼んだ。[（BBC Music Magazine）](https://www.classical-music.com/features/composers/mighty-handful-five-composers)これが、バラキレフ（Mily Balakirev）、キュイ（César Cui）、ムソルグスキー（Modest Mussorgsky）、リムスキー＝コルサコフ（Nikolai Rimsky-Korsakov）、ボロディン（Alexander Borodin）の5人の呼び名「力強い一団」（モグーチャヤ・クーチカ）になった。
 - **チェコ**：スメタナ（Bedřich Smetana）の連作交響詩《わが祖国》（Má vlast）は1874〜79年に書かれ、《ヴィシェフラド》《ヴルタヴァ（モルダウ）》《シャールカ》《ボヘミアの森と草原から》《ターボル》《ブラニーク》の6曲からなる。スメタナは1874年夏に聴力を失い始め、まもなく完全に失聴した。全曲の初演は1882年11月5日、プラハのジョフィーン宮でチェフ（Adolf Čech）の指揮による。ドヴォルザーク（Antonín Dvořák）は1892年からニューヨークのナショナル音楽院の院長を務め、交響曲第9番 ホ短調《新世界より》作品95（B. 178）を書いた。総譜は1893年5月24日に完成し、1893年12月16日、カーネギー・ホールでザイドル（Anton Seidl）指揮ニューヨーク・フィルハーモニックにより初演された（前日の15日に公開リハーサル）。ドヴォルザークは1893年5月、アメリカの作曲家は黒人の旋律を土台にすべきだという考えをニューヨークの新聞で公にした。[（Boston Symphony Orchestra）](https://www.bso.org/works/dvorak-symphony-no-9-from-the-new-world)
-- **フィンランド**：シベリウス（Jean Sibelius）の《フィンランディア》作品26は、ロシア帝国の検閲強化に対する隠れた抗議であった1899年の「報道の日」の催しのための曲を、1900年に改訂したものである。改訂版は1900年7月2日、ヘルシンキでカヤヌス（Robert Kajanus）の指揮により初演された。帝国内では《即興曲》などの別名で演奏された。終わりの讃歌の旋律はシベリウス自身の作である。
+- **フィンランド**：シベリウス（Jean Sibelius）の《フィンランディア》作品26は、ロシア帝国の検閲強化に対する隠れた抗議であった1899年の「報道の日」の催しのための曲を、1900年に改訂したものである。改訂版は1900年7月2日、ヘルシンキでカヤヌス（Robert Kajanus）の指揮により初演された。終わりの讃歌の旋律はシベリウス自身の作である。
 
 ## 20世紀前半——調性の拡大と崩壊
 
@@ -276,7 +282,7 @@ sources:
 - **《3つのピアノ曲》作品11**（1909年、最初の2曲は同年2月）：伝統的な調性の名残を捨てた時点としてしばしば挙げられる。
 - **《月に憑かれたピエロ》作品21**（1912年）：ジロー（Albert Giraud）の詩のハルトレーベン（Otto Erich Hartleben）による独訳から21篇を、語りと歌の中間の「シュプレヒシュティンメ」で朗唱する。伴奏はフルート、クラリネット、ヴァイオリン、チェロ、ピアノの奏者による。1912年10月16日にベルリンのコラリオン・ザールで、ツェーメ（Albertine Zehme）の朗唱、シェーンベルクの指揮で初演された。この編成は「ピエロ・アンサンブル」の名で呼ばれるようになった。
 
-ストラヴィンスキー（Igor Stravinsky）の《春の祭典》は、1913年5月29日、パリのシャンゼリゼ劇場でディアギレフ（Sergei Diaghilev）のバレエ・リュスにより初演された。振付はニジンスキー（Vaslav Nijinsky）、美術はレーリヒ（Nicholas Roerich）、指揮はモントゥー（Pierre Monteux）である。初日の客席は騒然となったが、規模と実態には異論がある。「暴動」という言い方は1924年の上演の評から広まった。同年の『コモエディア』紙の批評家は、観客が騒ぎを予期して来場していたと書いた。[（The Paris Review）](https://www.theparisreview.org/blog/?p=55981)最初の演奏会形式での演奏は1914年2月18日、サンクトペテルブルクでクーセヴィツキー（Serge Koussevitzky）の指揮による。
+ストラヴィンスキー（Igor Stravinsky）の《春の祭典》は、1913年5月29日、パリのシャンゼリゼ劇場でディアギレフ（Sergei Diaghilev）のバレエ・リュスにより初演された。振付はニジンスキー（Vaslav Nijinsky）、美術はレーリヒ（Nicholas Roerich）、指揮はモントゥー（Pierre Monteux）である。初日の客席は騒然となったが、規模と実態には異論がある。『コモエディア』紙の批評家は初演の3日後、聴衆が「大きな音楽の革命に立ち会う」と考える側と「愚弄されている」と考える側に分かれ、幕が上がる前から口笛が始まったと書いた。[（The Paris Review）](https://www.theparisreview.org/blog/?p=55981)最初の演奏会形式での演奏は1914年、サンクトペテルブルクでクーセヴィツキー（Serge Koussevitzky）の指揮による。
 
 ## 十二音技法と新古典主義
 
@@ -313,12 +319,12 @@ sources:
 
 ### 偶然性と沈黙
 
-ケージ（John Cage）の《4分33秒》は、どの楽器でも演奏でき、奏者は3つの楽章のあいだ音を出さない。1952年8月29日、ニューヨーク州ウッドストック近郊のマーヴェリック・コンサート・ホールで、ピアニストのテューダー（David Tudor）がピアノの蓋の開け閉めで楽章を区切って初演した。BBCミュージック・マガジンは初演の各楽章を33秒、2分40秒、1分20秒とし、ケージの自筆譜の数値（30秒、2分23秒、1分40秒）とは異なる。ケージは1951年にハーヴァード大学の無響室で高い音と低い音を聞き、技師からそれが自分の神経系と血液の循環の音だと教えられた。ケージは「沈黙というものは存在しない」と述べた。[（BBC Music Magazine）](https://www.classical-music.com/features/works/what-is-the-point-of-john-cage-433)
+ケージ（John Cage）の《4分33秒》は、どの楽器でも演奏でき、奏者は3つの楽章のあいだ音を出さない。1952年8月29日、ニューヨーク州ウッドストック近郊のマーヴェリック・コンサート・ホールで、ピアニストのテューダー（David Tudor）がピアノの蓋の開け閉めで楽章を区切って初演した。初演の各楽章の長さは33秒、2分40秒、1分20秒であった。ケージは1951年にハーヴァード大学の無響室で高い音と低い音を聞き、技師からそれが自分の神経系と血液の循環の音だと教えられた。ケージは「沈黙というものは存在しない」と述べた。[（BBC Music Magazine）](https://www.classical-music.com/features/works/what-is-the-point-of-john-cage-433)
 
 ### 音群と音色
 
 - リゲティ（György Ligeti）の《アトモスフェール》は南西ドイツ放送の委嘱により、1961年10月22日のドナウエッシンゲン音楽祭でロスバウト（Hans Rosbaud）の指揮で初演された。旋律・和声・リズムによらず、各楽器が別々の音を奏でる音群（トーン・クラスター）を少しずつ変化させる。リゲティはこの密な多声の書法を「ミクロポリフォニー」と呼んだ。キューブリックの映画『2001年宇宙の旅』に使われた。
-- ペンデレツキ（Krzysztof Penderecki）の《広島の犠牲者に捧げる哀歌》は、ヴァイオリン24、ヴィオラ10、チェロ10、コントラバス8の52の弦楽器のための曲で、演奏時間から当初は《8分37秒》と題された。駒の向こう側やテールピースを弾くなどの奏法と、太い黒線による記譜を用いる。1961年9月22日、ワルシャワの秋音楽祭でマルコフスキ（Andrzej Markowski）指揮クラクフ・フィルハーモニーにより初演された。
+- ペンデレツキ（Krzysztof Penderecki）の《広島の犠牲者に捧げる哀歌》は、ヴァイオリン24、ヴィオラ10、チェロ10、コントラバス8の52の弦楽器のための曲で、演奏時間から当初は《8分37秒》と題された。駒の向こう側やテールピースを弾くなどの奏法と、太い黒線による記譜を用いる。1961年5月のポーランド放送での放送に続き、同年9月のワルシャワの秋音楽祭でマルコフスキ（Andrzej Markowski）指揮クラクフ・フィルハーモニーにより公開初演された。[（Adam Mickiewicz Institute）](https://iam.pl/en/node/10419)
 - 武満徹の《ノヴェンバー・ステップス》（1967年）は、ニューヨーク・フィルハーモニックの創立125周年の委嘱による琵琶・尺八とオーケストラの曲で、11の「段」（変奏）からなる。1967年11月に小澤征爾の指揮で初演された。
 
 ## ミニマル・ミュージック以降

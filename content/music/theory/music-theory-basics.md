@@ -12,6 +12,8 @@ sources:
   - 'London College of Music Examinations（University of West London）「Theory of Music Information Booklet」2015年10月 https://lcme.uwl.ac.uk/media/pkqaf3bh/theory-of-music-information-booklet.pdf 閲覧日 2026-10-29'
   - 'University of Mary Washington, Department of Music「Piano Proficiency Exam Appendix」（移調楽器の表。出典表示は Music-Theory-Practice.com, 2019） https://cas.umw.edu/music/files/2020/09/Piano-Proficiency-Exam-Appendix.pdf 閲覧日 2026-10-29'
   - 'Classic FM「Musical terms: A glossary of useful terminology」 https://www.classicfm.com/discover-music/musical-italian-terms/ 閲覧日 2026-10-29'
+  - 'Christoph Meinel「Das Regensburger Mälzel-Metronom von 1816: Biographie eines Objekts」Musiktheorie 38/2, Laaber, 2023（Universität Regensburg 公開版） https://epub.uni-regensburg.de/55488/1/Meinel_Maelzel-Metronom_2023.pdf 閲覧日 2026-10-29'
+  - 'BBC Music Magazine（classical-music.com）「What is a circle of fifths?」（ディレツキー『グラマチカ』1670年代後半、ハイニヒェン1728年） https://www.classical-music.com/features/musical-terms/what-is-a-circle-of-fifths 閲覧日 2026-10-29'
   - 'Hugo Riemann, Vereinfachte Harmonielehre oder die Lehre von den tonalen Funktionen der Akkorde, London: Augener, 1893（英訳 Harmony Simplified, 1893。書誌は Wikipedia 英語版「Function (music)」で確認）'
   - 'Heinrich Glarean, Dodekachordon, Basel, 1547（書誌は Wikipedia 英語版「Dodecachordon」で確認）'
   - 'Johann David Heinichen, Neu erfundene und gründliche Anweisung, Hamburg, 1711／Der General-Bass in der Composition, Dresden, 1728（書誌は Wikipedia 英語版「Circle of fifths」で確認）'
@@ -130,7 +132,7 @@ sources:
 
 完全5度上の調に進むごとに♯が1つ増え（または♭が1つ減り）、12回で元に戻る。これを円に並べたものが五度圏である。♯6の嬰ヘ長調と♭6の変ト長調は、平均律の鍵盤では同じ音で、異名同音の調という。
 
-五度圏の図の最初の例は、ディレツキー（Nikolai Diletskii）の『グラマチカ』（1677年）にある。ドイツではハイニヒェン（Johann David Heinichen）が『新しく考案された根本的な手引き』（1711年）で「音楽の円」（Musicalischer Circul）として独自に図示し、『作曲における通奏低音』（1728年）にも載せた。ハイニヒェンは長調の隣に平行短調を置いた。
+五度圏の図の最初の例は、ディレツキー（Nikolai Diletskii）が1670年代後半に書いた『グラマチカ』にある。ドイツではハイニヒェン（Johann David Heinichen）が『新しく考案された根本的な手引き』（1711年）で「音楽の円」（Musicalischer Circul）として独自に図示し、『作曲における通奏低音』（1728年）にも載せた。ハイニヒェンは長調の隣に平行短調を置いた。
 
 ## 和音
 
@@ -164,7 +166,7 @@ sources:
 
 ### 機能和声——T・S・D
 
-調の中での和音の役割を「機能」と呼ぶ。この語と体系は、リーマン（Hugo Riemann）が『簡約和声学』（Vereinfachte Harmonielehre, 1893年）で導入した。リーマンは数学から「機能」の語を借り、和音の役割をトニカ（T）、ドミナント（D）、サブドミナント（S）の3つにまとめた。ドイツ語圏と北欧・東欧では、この理論が和声教育と分析に今も広く使われている。ドイツ語圏とウィーンの理論はいずれも、ラモー（Jean-Philippe Rameau）の『和声論』（Traité de l'harmonie, 1722年）を一部の土台とする。
+調の中での和音の役割を「機能」と呼ぶ。この語と体系は、リーマン（Hugo Riemann）が『簡約和声学』（Vereinfachte Harmonielehre, 1893年）で導入した。リーマンは和音の役割をトニカ（T）、ドミナント（D）、サブドミナント（S）の3つにまとめた。ドイツ語圏の和声教育と分析では、この理論が今も使われている。
 
 長調の主な和音を3つの機能に分けると、一般に次のようになる。
 
@@ -199,7 +201,7 @@ sources:
 
 ## 拍子とリズム
 
-拍子は、拍のまとまりを分数の形で示す。分母は1拍に当たる音符、分子は1小節の拍の数を表す。
+拍子は、拍のまとまりを分数の形で示す。分母は基準となる音符の種類、分子は1小節に入るその音符の数を表す（単純拍子では分母の音符が1拍に当たる）。
 
 | 種類 | 例 | 内容 |
 |---|---|---|
@@ -213,7 +215,7 @@ sources:
 
 ## 速度記号と発想記号
 
-17世紀より前の西洋の芸術音楽では、速度の指示はほとんど書かれなかった。拍の速さは、一定の脈、計量記譜の記号、音価の慣習から決まっていた。メルツェル（Johann Nepomuk Maelzel）が1815〜16年にメトロノームを製造して、数値による速度指定が可能になった。メルツェルは1815年12月5日にイギリスで特許を得ている。この装置自体は、ヴィンケル（Dietrich Nikolaus Winkel）が1814年にアムステルダムで作ったものである。楽譜の「M.M.」は「メルツェルのメトロノーム」の略で、♩＝60 は1分間に4分音符60拍を表す。
+17世紀より前の西洋の芸術音楽では、速度の指示はほとんど書かれなかった。拍の速さは、一定の脈、計量記譜の記号、音価の慣習から決まっていた。メルツェル（Johann Nepomuk Maelzel）が1815〜16年にメトロノームを製造して、数値による速度指定が可能になった。メルツェルは1815年にロンドンとパリで特許を申請した。装置の要となる振り子の仕組みは、メルツェルが1814年にアムステルダムで会った時計職人ヴィンケル（Dietrich Nikolaus Winkel）の考案である。[（Meinel, Musiktheorie 2023）](https://epub.uni-regensburg.de/55488/1/Meinel_Maelzel-Metronom_2023.pdf)楽譜の「M.M.」は「メルツェルのメトロノーム」の略で、♩＝60 は1分間に4分音符60拍を表す。
 
 ベートーヴェンは交響曲第1〜8番のメトロノーム表示を、1817年12月17日の『一般音楽新聞』（Allgemeine musikalische Zeitung）に発表した。
 
@@ -290,11 +292,11 @@ Allegro の原義は「陽気な」「生き生きとした」、Andante は「�
 
 ### ロンド形式
 
-主題（A）が、対照的な部分をはさんで何度も戻る形。5部の ABACA と7部の ABACABA が一般的である。7部のロンドで、2回目の A–B が展開と転調を伴って C に入り込むものをソナタ・ロンド形式という。18世紀後半から19世紀初めに、ソナタ、交響曲、室内楽、協奏曲の終楽章に多く使われた。フランス・バロックの鍵盤曲のロンドー（ABACAD…と続く）から発展した。
+主題（A）が、対照的な部分をはさんで何度も戻る形。5部の ABACA と7部の ABACABA が一般的である。7部のロンドで、2回目の A–B が最初の A–B の再現となり、2回目の B が主調にとどまるものをソナタ・ロンド形式という。18世紀後半から19世紀初めに、ソナタ、交響曲、室内楽、協奏曲の終楽章に多く使われた。フランス・バロックの鍵盤曲のロンドー（ABACAD…と続く）から発展した。
 
 ### 変奏曲
 
-主題を、旋律・リズム・和声・対位法・音色などを変えて繰り返す形。主題は8〜32小節が多く、18世紀以前の作品では各変奏が主題の長さと構造を保つ。モーツァルトの《「ああ、ママに言うわ」による12の変奏曲》では、第1変奏が旋律を装飾し、第5変奏がシンコペーションで拍を崩し、第7変奏が和声を下行する5度の連鎖に替え、第8変奏が同主短調に移る。短い低音の反復（オスティナート）の上で変奏を続けるものに、パッサカリアとシャコンヌがある。
+主題を、旋律・リズム・和声・対位法・音色などを変えて繰り返す形。18世紀以前の作品では各変奏が主題の長さと構造を保つ。モーツァルトの《「ああ、ママに言うわ」による12の変奏曲》K. 265 では、第1変奏が旋律を装飾し、第5変奏が裏拍のシンコペーションで一定の拍を崩し、第7変奏が主題の単純な和声を新しい和音に替え、第8変奏が同主短調に移る。短い低音の反復（オスティナート）の上で変奏を続けるものに、パッサカリアとシャコンヌがある。
 
 ### ソナタ形式
 
@@ -318,12 +320,12 @@ Allegro の原義は「陽気な」「生き生きとした」、Andante は「�
 |---|---|
 | 主題（subject、独 Dux） | 冒頭で一つの声部が単独で示す主要な旋律 |
 | 応答（answer、独 Comes） | 第2の声部が主題を別の調（多くは属調）で示すもの。主題をそのまま移すものを真正応答、主題の冒頭が属音で始まるときなどに音程を一部変えるものを調的応答という |
-| 対主題（countersubject） | 主題や応答に添えられ、後の登場でも繰り返し使われる対旋律。上下を入れ替えても成り立つ転回対位法で書かれる |
+| 対主題（countersubject） | 主題や応答に添えられ、後の登場でも繰り返し使われる対旋律。多くは上下を入れ替えても成り立つ転回対位法で書かれる |
 | 提示部（exposition） | 全声部が順に主題または応答を示す冒頭の部分 |
 | 嬉遊部（episode） | 主題の登場の間にあって、次の調へ転調する経過部分 |
 | ストレッタ（stretto） | 一つの声部が主題を終える前に、別の声部が主題を始めて重なる部分 |
 
-中間の主題の登場は近親調で行われ、最後の登場で主調に戻り、しばしばコーダが続く。主音や属音の保続音（オルゲルプンクト）の上で終わり近くを書くこともある。J. S. バッハ（Johann Sebastian Bach）の《平均律クラヴィーア曲集》（第1巻1722年、第2巻1744年）は、各巻が24の長調・短調すべてによる前奏曲とフーガからなる。
+中間の主題の登場は近親調で行われ、最後の登場で主調に戻り、しばしばコーダが続く。主音や属音の保続音（オルゲルプンクト）の上で終わり近くを書くこともある。J. S. バッハ（Johann Sebastian Bach）の《平均律クラヴィーア曲集》（第1巻1722年、第2巻1740年代初め）は、各巻が24の長調・短調すべてによる前奏曲とフーガからなる。
 
 ## 総譜の読み方
 

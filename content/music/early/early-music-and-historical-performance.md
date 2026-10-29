@@ -37,6 +37,10 @@ sources:
   - 'MusicWeb International, John Phillips（Abbado／ベルリン・フィル、ローマ2001年ライヴ DVD 評, 2003-02） https://musicweb-international.com/classrev/2003/Feb03/Beethoven15_abbado.htm 閲覧日 2026-10-29'
   - 'Bärenreiter「Symphony No.5 in C minor Op.67 (Critical Commentary)」BA 9005-40 商品頁 https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html 閲覧日 2026-10-29'
   - 'Uri Golomb, 書評（Kivy, Authenticities／Taruskin, Text and Act／Sherman, Inside Early Music）Bach Cantatas Website, 2003-11 https://bach-cantatas.com/Books/Book-Authentic[Golomb].htm 閲覧日 2026-10-29'
+  - 'The English Concert「Our history」 https://englishconcert.co.uk/about-us/our-history/ 閲覧日 2026-10-29'
+  - 'Challenge Records「Complete Bach Cantatas Vol. 1–22」（Ton Koopman） https://www.challengerecords.com/products/1251895368/Complete%20Bach%20Cantatas%20Vol.%201-22%20%28box%20set%29 閲覧日 2026-10-29'
+  - 'The Juilliard School「Masaaki Suzuki」 https://www.juilliard.edu/node/142671 閲覧日 2026-10-29'
+  - 'Bach Cantatas Website「Frans Brüggen」 https://bach-cantatas.com/Bio/Bruggen-Frans.htm 閲覧日 2026-10-29'
   - 'Nicholas Kenyon (ed.), Authenticity and Early Music, Oxford University Press, 1988／Richard Taruskin, Text and Act, Oxford University Press, 1995（書誌は英語版Wikipedia「Historically informed performance」で確認）'
   - 'Wikipedia（英語版）「St Matthew Passion」「Bach Gesellschaft」「New Bach Edition」「Arnold Dolmetsch」「Wanda Landowska」「Historically informed performance」「Frans Brüggen」「The English Concert」「Ton Koopman」「Masaaki Suzuki」「Joshua Rifkin」「One voice per part」「Bach''s choir and orchestra」「Quarter-comma meantone」「Werckmeister temperament」「The Well-Tempered Clavier」「Notes inégales」「Le nuove musiche」「L''Orfeo」「Brass instrument valve」「Gut string」 閲覧日 2026-10-29'
 ---
@@ -53,8 +57,8 @@ sources:
 
 - 1829年3月11日、ベルリンのジングアカデミーのホールで、20歳のメンデルスゾーンの指揮により上演された。ライプツィヒ以外でほぼ全曲が演奏された最初の機会である。
 - 合唱は158人で、バッハが用いたと考えられる人数より大幅に多い。メンデルスゾーンはチェンバロではなくピアノから指揮した。[（BBC Music Magazine）](https://www.classical-music.com/features/composers/how-mendelssohn-helped-bring-bachs-st-matthew-passion-back-to-life)
-- アリアとコラールを大幅に省いた。BBCミュージック・マガジンは「アリア10曲とコラール6曲を削り、長さをほぼ半分にした」とし、英語版Wikipediaは「アリア約10曲、合唱曲の約半分、コラールは数曲」とする。
-- 客席にはプロイセン国王、詩人ハイネ（Heinrich Heine）、哲学者ヘーゲル（Georg Wilhelm Friedrich Hegel）がいた。入れなかった1,000人以上が再演を求め、3月21日（バッハの誕生日）に2回目が行われた。3回目はツェルターが指揮した（日付は4月17日とする資料と4月18日とする資料がある）。[（BBC Music Magazine）](https://www.classical-music.com/features/composers/how-mendelssohn-helped-bring-bachs-st-matthew-passion-back-to-life)
+- アリア10曲とコラール6曲を削り、演奏時間をほぼ半分にした。
+- 客席にはプロイセン国王、詩人ハイネ（Heinrich Heine）、哲学者ヘーゲル（Georg Wilhelm Friedrich Hegel）がいた。入れなかった1,000人以上が再演を求め、3月21日（バッハの誕生日）に2回目が行われた。3回目は聖金曜日の4月17日にツェルターが指揮した。[（BBC Music Magazine）](https://www.classical-music.com/features/composers/how-mendelssohn-helped-bring-bachs-st-matthew-passion-back-to-life)
 - 1830年にはマルクス（Adolf Bernhard Marx）とシュレージンガー（Adolf Martin Schlesinger）が版を出した。
 
 この上演は、19世紀のバッハ復興のきっかけとされる。
@@ -69,7 +73,7 @@ sources:
 
 ドルメッチ（Arnold Dolmetsch, 1858年2月24日ル・マン–1940年2月28日ヘイズルミア）は、フランスに生まれ主にイギリスで活動した演奏家・楽器製作者である。
 
-- 1893年にリュートを作ったのち、鍵盤楽器の製作に進んだ。1902年のアメリカ演奏旅行のあと、ボストンのチッカリング社の工場でチェンバロ、リュート、ヴィオールを製作した。在籍をブリタニカは1905〜09年、英語版Wikipediaは1905〜11年とする。1911〜14年はパリのガヴォー社で働いた。
+- 1893年にリュートを作ったのち、鍵盤楽器の製作に進んだ。1902年のアメリカ演奏旅行のあと、ボストンのチッカリング社の工場でチェンバロ、リュート、ヴィオールを製作した。その製作を監督したのは1905〜09年である。1911〜14年はパリのガヴォー社で働いた。
 - 1914年にイギリスに定住し、1916年にサリー州ヘイズルミアに古楽研究の拠点を設けた。第一次世界大戦後、実用に耐える最初の近代のリコーダーを作った。[（Encyclopædia Britannica）](https://www.britannica.com/print/article/168314)
 - 著書『17・18世紀の音楽の解釈』（The Interpretation of the Music of the XVII and XVIII Centuries）は1915年に出た（1944年に新版）。
 - 1925年にヘイズルミアで毎年の古楽祭を始めた。1928年には支援団体ドルメッチ財団が組織された。
@@ -101,7 +105,7 @@ sources:
 - 当時のテレフンケンへの最初の録音は1963年。《ブランデンブルク協奏曲》は1964年3月31日と4月11日にウィーンのパレ・シェーンブルクで録音され、「原楽器による」（auf Originalinstrumenten）と銘打たれた。[（Harnoncourt Discography）](https://www.heinrichvontrotta.eu/Harnoncourt/Teldec/1964-SAWT-9460-Bach-Brandenburg.html)
 - バッハの《ヨハネ受難曲》（1965年）、《管弦楽組曲》（1966年）、《ロ短調ミサ》（1968年）、《マタイ受難曲》（1972年）、《クリスマス・オラトリオ》（1972年）を録音した。[（Bach Cantatas Website）](https://bach-cantatas.com/Bio/Harnoncourt-Nikolaus.htm)
 - レオンハルトと分担したバッハの教会カンタータ全曲の録音（テルデック）では、ソプラノ独唱の多くを少年が歌った。期間を Bach Cantatas Website は1971〜90年、ルツェルン音楽祭とコンツェントゥス・ムジクスの紹介は1970〜89年とする。
-- 1970年からはベルリン・フィル、ウィーン・フィル、ロイヤル・コンセルトヘボウ管弦楽団などモダン楽器のオーケストラも指揮した。1972〜93年はザルツブルクのモーツァルテウムで教えた。
+- 1970年から歌劇場と演奏会で指揮者として活動し、ベルリン・フィル、ウィーン・フィル、ロイヤル・コンセルトヘボウ管弦楽団などモダン楽器のオーケストラも指揮した。1972〜93年はザルツブルクのモーツァルテウムで教えた。
 
 ### レオンハルト
 
@@ -109,19 +113,19 @@ sources:
 
 ### ブリュッヘン
 
-ブリュッヘン（Frans Brüggen, 1934年10月30日アムステルダム–2014年8月13日）は、バロックのリコーダーとフルートをアムステルダム音楽院で学び、1955年、21歳でハーグ王立音楽院の教授に任じられた。[（Conservatorium van Amsterdam）](https://www.conservatoriumvanamsterdam.nl/en/news/2014/08/conductor-frans-brueggen-79-passed-away/)1981年、フェルステル（Sieuwert Verster）とともに18世紀オーケストラを創設した。楽団は合議で運営され、ブリュッヘンは演奏会の収入を団員一人と同じ割合で受け取った。[（Presto Music）](https://www.prestoclassical.co.uk/classical/articles/1106--obituary-frans-bruggen-1934-2014)
+ブリュッヘン（Frans Brüggen, 1934年10月30日アムステルダム–2014年8月13日アムステルダム）は、リコーダーとフルートをアムステルダム音楽院で学び、1955年、21歳でハーグ王立音楽院の教授に任じられた。[（Conservatorium van Amsterdam）](https://www.conservatoriumvanamsterdam.nl/en/news/2014/08/conductor-frans-brueggen-79-passed-away/)1981年、18世紀オーケストラを共同で創設した。楽団は合議で運営され、ブリュッヘンは演奏会の収入を団員一人と同じ割合で受け取った。[（Presto Music）](https://www.prestoclassical.co.uk/classical/articles/1106--obituary-frans-bruggen-1934-2014)
 
 ### イギリスの楽団——ホグウッド、ピノック、ガーディナー
 
-- **アカデミー・オブ・エンシェント・ミュージック**：1973年、デッカのプロデューサー、ワドランド（Peter Wadland）から、ロンドンでピリオド楽器のオーケストラを組めるかと問われたホグウッド（Christopher Hogwood, 1941–2014）が創設した。イギリス最初の本格的なピリオド楽器のオーケストラである。1973年3月にワドランドのレーベル、ロワゾー・リール（デッカの古楽部門）にアーンの序曲を録音し、1979年からモーツァルトの交響曲を網羅的に録音した。1980年にはオックスフォード、クライスト・チャーチの合唱団とヘンデルの《メサイア》を録音した。ホグウッドは2006年まで音楽監督を務め、エガー（Richard Egarr）が後を継いだ。[（Gramophone）](https://gramophone.co.uk/feature/orchestra-insight-academy-of-ancient-music)
-- **イングリッシュ・コンサート**：ピノック（Trevor Pinnock）らが1972年11月に創設した（団員が当初の7人を超えた1973年を創設年とすることも多い）。1973年にイングリッシュ・バッハ・フェスティヴァルでロンドンに登場し、1978〜95年にアルヒーフ・プロダクツィオンに多くを録音した。ピノックは2003年までチェンバロから率いた。
+- **アカデミー・オブ・エンシェント・ミュージック**：1973年、デッカのプロデューサー、ワドランド（Peter Wadland）から、ロンドンでピリオド楽器のオーケストラを組めるかと問われたホグウッド（Christopher Hogwood, 1941–2014）が創設した。イギリス最初の本格的なピリオド楽器のオーケストラである。1973年3月には、デッカの古楽部門ロワゾー・リールを率いるワドランドのもとでアーンの序曲を録音し、1979年からモーツァルトの交響曲を網羅的に録音した。1980年にはオックスフォード、クライスト・チャーチの合唱団とヘンデルの《メサイア》を録音した。ホグウッドは2006年まで音楽監督を務め、エガー（Richard Egarr）が後を継いだ。[（Gramophone）](https://gramophone.co.uk/feature/orchestra-insight-academy-of-ancient-music)
+- **イングリッシュ・コンサート**：1973年、チェンバロ奏者ピノック（Trevor Pinnock）が創設した。ピノックは2003年まで率い、マンゼ（Andrew Manze）が後を継いだ。[（The English Concert）](https://englishconcert.co.uk/about-us/our-history/)
 - **ガーディナー**（John Eliot Gardiner, 1943年生）：1964年、ケンブリッジのキングズ・カレッジ礼拝堂でのモンテヴェルディ《聖母マリアの夕べの祈り》の演奏のためにモンテヴェルディ合唱団を結成した。1968年にヴィクトリア・アンド・アルバート博物館でのヘンデル《ヘラクレス》のためにモンテヴェルディ管弦楽団を組んだ。ピリオド楽器のイングリッシュ・バロック・ソロイスツの最初の公開演奏は1977年のインスブルック古楽祭でのヘンデル《エイシスとガラテア》である。1990年、オルケストル・レヴォリュショネル・エ・ロマンティークがブラームスの《ドイツ・レクイエム》で初めて公の場に出た。2000年にバッハのカンタータを教会暦に沿って各地で演奏する「バッハ・カンタータ巡礼」を行い、2005年に自主レーベル、ソリ・デオ・グローリアの最初のアルバムを出した。[（Monteverdi Choir & Orchestras）](https://monteverdi.co.uk/a-brief-history)
 
-オランダのコープマン（Ton Koopman, 1944年ズヴォレ生）はレオンハルトにチェンバロを学び、1979年にアムステルダム・バロック管弦楽団、1992年にアムステルダム・バロック合唱団を創設した。バッハのカンタータ全曲を録音し、エラートで始めた録音を2003年から自主レーベルで続けて2005年に完結した。
+オランダのコープマン（Ton Koopman, 1944年ズヴォレ生）はレオンハルトにチェンバロを学び、1979年にアムステルダム・バロック管弦楽団、1992年にアムステルダム・バロック合唱団を創設した。バッハのカンタータ全曲を1994〜2004年に録音した。エラートで始め、2003年からは自主レーベル、アントワーヌ・マルシャンで続けた。[（Challenge Records）](https://www.challengerecords.com/products/1251895368/Complete%20Bach%20Cantatas%20Vol.%201-22%20%28box%20set%29)
 
 ### 鈴木雅明とバッハ・コレギウム・ジャパン
 
-鈴木雅明（1954年4月29日神戸生）は、東京藝術大学で作曲とオルガンを学び、アムステルダムのスウェーリンク音楽院でコープマンにチェンバロを、ピート・ケー（Piet Kee）にオルガンを学んだ。1983年から神戸松蔭女子学院大学で教え、東京藝術大学に古楽科を開き2010年まで教えた。
+鈴木雅明（1954年神戸生）は、東京藝術大学で作曲とオルガンを学び、アムステルダムのスウェーリンク音楽院でコープマンとピート・ケー（Piet Kee）にチェンバロとオルガンを学んだ。東京藝術大学に古楽科を開き、現在は同大学の名誉教授である。[（The Juilliard School）](https://www.juilliard.edu/node/142671)
 
 1990年、鈴木はバッハ・コレギウム・ジャパン（BCJ）を創設した。[（サントリー）](https://www.suntory.co.jp/news/article/sh0468.html)BCJは1995年にスウェーデンのBISレーベルでバッハの教会カンタータの録音を始め、18年をかけてCD55枚で完結した。録音は神戸松蔭女子学院大学のチャペルで行われ、最初の数巻はBISの創立者フォン・バール（Robert von Bahr）が制作した。[（Gramophone）](https://gramophone.co.uk/feature/recording-bachs-cantatas-with-masaaki-suzuki-and-bach-collegium-japan)鈴木とBCJは2013年度の第45回サントリー音楽賞を受けた。鈴木は2012年にライプツィヒ市のバッハ・メダルを受けている。[（サントリー）](https://www.suntory.co.jp/news/article/sh0468.html)
 
@@ -138,7 +142,7 @@ sources:
 | A=415Hz | バロック音楽 | 440Hzのほぼ半音下で、鍵盤奏者が半音ずらして対応できるために選ばれた。平均律の楽器でなければこの方法は使えない |
 | A=392Hz | フランス・バロック | 「オトテール・ピッチ」と呼ばれる |
 
-19世紀初めのロンドンのスマート（George Smart）の音叉、すなわちフィルハーモニック協会のピッチはA=433Hzで、現代のピッチより半音の約3分の1低い。モンタギュー（Jeremy Montagu）は、A=392Hzでバッハの《管弦楽組曲第2番 ロ短調》を演奏すると現代の耳にはイ短調に、「ボブ・マーヴィン・ピッチ」と呼ばれるA=465Hzではハ短調に聞こえると書いている。[（Montagu）](https://www.jeremymontagu.co.uk/WhyDifferingPitchStandards.pdf)
+19世紀初めのロンドンのスマート（George Smart）の音叉、すなわちフィルハーモニック協会のピッチはA=433Hzで、現代のピッチより半音の約3分の1低い。モンタギュー（Jeremy Montagu）は、A=392Hzでバッハの《管弦楽組曲第2番 ロ短調》を演奏すると現代の耳にはイ短調に、「ボブ・マーヴィン・ピッチ」と呼ばれるA=466Hzではハ短調に聞こえると書いている。[（Montagu）](https://www.jeremymontagu.co.uk/WhyDifferingPitchStandards.pdf)
 
 ### 音律
 
@@ -156,7 +160,7 @@ sources:
 - ジェミニアーニ（Francesco Geminiani）は1751年の教本で、「クロース・シェイク」と呼ぶヴィブラートを「できるだけ頻繁に」使うよう書いた。
 - ジェロルド（Beverly Jerold）はストラッド誌の記事で、『ニュー・グローヴ音楽事典』（2001年版）の「持続的なヴィブラートは20世紀の現象である」という記述を引いている。[（The Strad）](https://www.thestrad.com/did-early-string-players-use-continuous-vibrato/1863.article)
 
-ノリントン（Roger Norrington, 1934–2025）は、エルガーが自作を聴いた20世紀の最初の30年間には、オーケストラの奏者はヴィブラートをかけていなかったと主張し、ヴィブラートのない音を「ピュア・トーン」と呼んだ。2008年のプロムスでは、シュトゥットガルト放送交響楽団とエルガーの交響曲第1番をこの方法で演奏した。ノリントンは弦楽器の奏法を変えたのはクライスラー（Fritz Kreisler）だとしたが、アメリカン・スカラー誌のボース（Sudip Bose）は、変化はその一世代前のイザイ（Eugène Ysaÿe）の時代に起きたと反論した。[（The American Scholar）](https://theamericanscholar.org/vibrato-wars/)
+ノリントン（Roger Norrington, 1934–2025）は、エルガーが自作を聴いた20世紀初めには、オーケストラの奏者はヴィブラートをかけていなかったと主張し、ヴィブラートのない音を「ピュア・トーン」と呼んだ。2008年のプロムスでは、シュトゥットガルト放送交響楽団とエルガーの交響曲第1番をこの方法で演奏した。ノリントンは弦楽器の奏法を変えたのはクライスラー（Fritz Kreisler）だとしたが、アメリカン・スカラー誌のボース（Sudip Bose）は、変化はその一世代前のイザイ（Eugène Ysaÿe）の時代に起きたと反論した。[（The American Scholar）](https://theamericanscholar.org/vibrato-wars/)
 
 声楽でも、古楽の復興の盛期には多くの歌手がヴィブラートのない発声を目指したが、現在は控えめなヴィブラートを用いる歌手が多い。
 
@@ -174,7 +178,7 @@ sources:
 - カール・フィリップ・エマヌエル・バッハ（Carl Philipp Emanuel Bach）『正しいクラヴィーア奏法』（Versuch über die wahre Art das Clavier zu spielen, ベルリン, 第1部1753年、第2部1762年）
 - カッチーニは『新音楽』（1602年）の序文で、一つの楽句を表現したい感情に応じてさまざまに装飾する例を示し、曲に合わない装飾を使う歌手を批判した。
 
-フランスのバロック音楽では、同じ長さで書かれた順次進行の音符を長短に不均等に演奏する「ノート・イネガル」の慣習が、17世紀末からフランス革命の頃まで行われた。不均等の度合いは奏者の趣味に任され、音楽時計からは3:2から3:1までの比が推定される。バッハの鍵盤曲にこの慣習を当てはめるかどうかは、明記された付点のリズム以外は均等に弾くのが原則とする立場と、広く当てはめるべきとする立場に分かれる。
+フランスのバロック音楽では、同じ長さで書かれた順次進行の音符を長短に不均等に演奏する「ノート・イネガル」の慣習が、17世紀末からフランス革命の頃まで行われた。不均等の度合いは奏者の趣味に任された。バッハの鍵盤曲にこの慣習を当てはめるかどうかは、明記された付点のリズム以外は均等に弾くのが原則とする立場と、広く当てはめるべきとする立場に分かれる。
 
 古典派以降のテンポについては、作曲者自身のメトロノーム表示が手がかりになる。ベーテーヴェン・ハウスは、メルツェル（Johann Nepomuk Mälzel）がメトロノームを開発したのを1815年とし、ベートーヴェンが1818年にサリエリと連名で『一般音楽新聞』にメトロノームを推す広告を出したことを記している。ベートーヴェンの表示は今日しばしば速すぎると見られている。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/glossar_archiv/view/6222527068110848/Metronom)1817年12月17日の同紙には、交響曲第1〜8番の全楽章のテンポを作曲者がメトロノームで定めた表が載った。[（Henle 序文）](https://www.henle.de/media/59/80/94/1697725884/9802-1697725884-sync.pdf)
 
@@ -190,10 +194,10 @@ sources:
 - リフキンは自らのバッハ・アンサンブルとピリオド楽器で《ロ短調ミサ》を録音した。録音は1981年12月31日から1982年1月11日にかけてニューヨークのラトガーズ長老派教会で行われ、1982年にノンサッチから出た。独唱者8人がすべての合唱部分を歌い、合唱団は置かない。[（Bach Cantatas Website）](https://bach-cantatas.com/Vocal/BWV232-Rifkin.htm)
 - パロット（Andrew Parrott）は『本質的なバッハの合唱』（The Essential Bach Choir, ボイデル社, 2000年）でこの説を拡張した。
 
-論争の中心にあるのは、バッハが1730年8月23日にライプツィヒ市参事会に出した覚え書き「よく整った教会音楽のための短い、しかし極めて必要な草案」（Entwurff）である。トーマス学校の生徒は4つの教会のための4つの合唱隊に分けられた。バッハはこの中で、音楽を担う合唱隊には各声部に最低3人、計12人が必要で、各声部4人、計16人ならなお良いと書いた。病気の者が出ても二重合唱のモテットを歌えるようにするためである。[（Koopman）](https://bach-cantatas.com/Articles/OVPP[Koopman].htm)
+論争の中心にあるのは、バッハが1730年8月23日にライプツィヒ市参事会に出した覚え書き「よく整った教会音楽のための短い、しかし極めて必要な草案」（Entwurff）である。トーマス学校の生徒は4つの合唱隊に分けられていた。バッハはこの中で、音楽を担う合唱隊には各声部に最低3人、計12人が必要で、各声部4人、計16人ならなお良いと書いた。病気の者が出ても二重合唱のモテットを歌えるようにするためである。[（Koopman）](https://bach-cantatas.com/Articles/OVPP[Koopman].htm)
 
 - 1パート1人説の側は、パート譜が各声部1部ずつしか残っていない例が多いことを根拠とする。
-- コープマンは1999年の論考で、少なくとも60の資料のうち24でパート譜が欠けていること、学校の規則に生徒が譜面台を共有して立つと書かれていること、ゲスナーやマッテゾンら同時代の資料が24〜40人規模の合唱を記していることを挙げて反論した。[（Koopman）](https://bach-cantatas.com/Articles/OVPP[Koopman].htm)
+- コープマンは1999年の論考で、少なくとも60の資料のうち24でパート譜が揃っていないこと、1712年の銅版画で4人の独唱者が一つの譜面台から読んでいること、ゲスナーが30〜40人の合唱を指揮するバッハを記し、マッテゾンがカンタータの演奏には少なくとも24人が必要だとしたことを挙げて反論した。[（Koopman）](https://bach-cantatas.com/Articles/OVPP[Koopman].htm)
 - 2000年のバッハ・カンタータのウェブサイトの議論では、《ヨハネ受難曲》にリピエーノ（補強の歌い手）用のパート譜が残っていることが指摘されている。[（Bach Cantatas Website）](https://bach-cantatas.com/Topics/OVPP5.htm)
 
 この議論は現在も続いており、1パート1人で録音する団体と、各声部3〜4人で歌う団体の両方がある。
@@ -204,7 +208,7 @@ sources:
 
 - **新バッハ全集**（Neue Bach-Ausgabe）：ゲッティンゲンのヨハン・ゼバスティアン・バッハ研究所とライプツィヒのバッハ・アルヒーフが編み、ベーレンライター社が1954年から2007年6月まで刊行した（東西ドイツ統一まではライプツィヒのドイツ音楽出版社と共同）。旧全集に続く2つ目の全集で、多くのファクシミリを含む原典版である。2010年2月から《ロ短調ミサ》を皮切りに改訂版が出ている。
 - **ヘンレ社**：1948年10月20日、ギュンター・ヘンレ（Günter Henle, 1899–1979）がミュンヘンに「原典版のための出版社」を設けた。最初の原典版は1949年のモーツァルトのピアノ・ソナタ集（HN 1、2）とシューベルトの即興曲・楽興の時（HN 4）である。[（G. Henle Verlag）](https://www.henle.de/75years)
-- **ベートーヴェンの交響曲**：ベーレンライターから、デル・マー（Jonathan Del Mar）の校訂による交響曲全9曲の批判校訂版が1996〜2000年に出た。第9番には20近い資料が残り、校訂報告がそのすべてを記録している。[（Bärenreiter）](https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html)アバド（Claudio Abbado）とベルリン・フィルの2001年2月のローマでのライヴ映像も、デル・マーの版による。[（MusicWeb International）](https://musicweb-international.com/classrev/2003/Feb03/Beethoven15_abbado.htm)
+- **ベートーヴェンの交響曲**：ベーレンライターから、デル・マー（Jonathan Del Mar）の校訂による交響曲全9曲の批判校訂版が1996〜2000年に出た。第9番は20近い資料で伝わる。[（Bärenreiter）](https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html)アバド（Claudio Abbado）とベルリン・フィルの2001年2月のローマでのライヴ映像も、デル・マーの版による。[（MusicWeb International）](https://musicweb-international.com/classrev/2003/Feb03/Beethoven15_abbado.htm)
 
 ## 「真正性」をめぐる批判
 
@@ -219,7 +223,7 @@ sources:
 
 ピリオド楽器の運動の指揮者たちは、やがてモダン楽器のオーケストラも指揮するようになり、その方法は通常のオーケストラにも取り入れられた。ブリュッヘンの訃報で、プレスト・ミュージックは、アーノンクールやレオンハルトとともにブリュッヘンが広めた考えが、古楽を専門としないオーケストラにも浸透したと書いた。[（Presto Music）](https://www.prestoclassical.co.uk/classical/articles/1106--obituary-frans-bruggen-1934-2014)
 
-- **アーノンクール**：1970年からベルリン・フィル、ウィーン・フィル、ロイヤル・コンセルトヘボウ管弦楽団などを指揮した（前述）。
+- **アーノンクール**：ベルリン・フィル、ウィーン・フィル、ロイヤル・コンセルトヘボウ管弦楽団などを指揮した（前述）。
 - **ノリントン**：モダン楽器のシュトゥットガルト放送交響楽団とヴィブラートを用いない演奏を行った（前述）。
-- **アバド**：ベルリン・フィルとのベートーヴェンでは、交響曲第2番でコントラバス3、チェロ4に絞った編成をとった。評者フィリップス（John Phillips）は、これがピリオド楽器の演奏に近い軽さを生んでいるが、モダン楽器による演奏であり、アバドは時代奏法の教訓を全面的に採らずに吸収していると書いた。[（MusicWeb International）](https://musicweb-international.com/classrev/2003/Feb03/Beethoven15_abbado.htm)
+- **アバド**：ベルリン・フィルとのベートーヴェンでは、交響曲第2番でコントラバス3、チェロ4に絞った編成をとった。評者フィリップス（John Phillips）は、これがピリオド楽器の演奏に近い軽さを生んでいるが、モダン楽器による演奏であり、多くの指揮者が時代奏法の成果を全面的には採らずに吸収していると書いた。[（MusicWeb International）](https://musicweb-international.com/classrev/2003/Feb03/Beethoven15_abbado.htm)
 - **ラトル**（Simon Rattle）：2002年4〜5月にウィーン・フィルとムジークフェラインでベートーヴェンの交響曲を録音した（EMI）。評者トンプソン（Simon Thompson）は、ヴィブラートを抑えた弦などの時代奏法の要素を選んで用いる「アラカルト」の方法だと書いた。[（MusicWeb International）](https://www.musicweb-international.com/classrev/2010/DEC10/Beethoven_Rattle_4575732.htm)
