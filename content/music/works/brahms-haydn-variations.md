@@ -11,21 +11,21 @@ scoring: picc, 2fl, 2ob, 2cl, 2fg, cfg, 4hr, 2tp, timp, triangle, 弦五部
 duration: 約18分
 updated: 2026-10-29
 sources:
-  - IMSLP「Variations on a Theme by Haydn, Op.56 (Brahms, Johannes)」（初演・初版・版番号）. https://s10.imslp.org/wiki/Variations_on_a_Theme_by_Haydn,_Op.56_(Brahms,_Johannes)（閲覧日 2026-10-29）
-  - IMSLP「Divertimento in B-flat major, Hob.II:46 (Haydn, Joseph)」. https://s10.imslp.org/wiki/Divertimento_in_B-flat_major%2C_Hob.II:46_(Haydn%2C_Joseph)（閲覧日 2026-10-29）
-  - The Morgan Library & Museum, Record 230304：1873年11月2日 フィルハーモニー演奏会第1回定期のプログラム（Wien, J. B. Wallishausser 印刷）. https://themorgan.org/node/1285871（閲覧日 2026-10-29）
-  - The Morgan Library & Museum, Record 130667（作品56a 初版, Simrock [1874?]）. https://www.themorgan.org/print/1234106（閲覧日 2026-10-29）
-  - Douglas Yeo (ed.), Divertimento No. 1 in Bb, Chorale St. Antoni, Hob. II/46, Berlioz Historical Brass Harmoniemusik edition（解説の抜粋）. https://www.berliozhistoricalbrass.org/Haydn.htm（閲覧日 2026-10-29）
-  - Renate Ulm, Begleittext zu: Brahms, Haydn-Variationen op. 56a, Symphonieorchester des Bayerischen Rundfunks, Herbert Blomstedt, BR-KLASSIK（BRmedia Service）2026, Booklet. https://eclassical.textalk.se/shop/17115/art65/5186965-14eab9-4035719002164_01.pdf（閲覧日 2026-10-29）
-  - BR-KLASSIK, Verkaufsinformation（販売案内）900216, Mai 2026（ブロムシュテット盤）. https://eclassical.textalk.se/shop/17115/art65/5186965-14eab9-4035719002164_04.pdf（閲覧日 2026-10-29）
-  - "Variations on a Theme by Haydn, Op. 56", Encyclopædia Britannica. https://www.britannica.com/print/article/1243851（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Variations on a Theme by Haydn」（典拠 Donald M. McCorkle, in: Brahms, Variations on a Theme of Haydn, Norton Critical Scores, ISBN 0-393-09206-2, p. 5 ほか）. https://en.wikipedia.org/wiki/Variations_on_a_Theme_by_Haydn（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Carl Ferdinand Pohl」. https://en.wikipedia.org/wiki/Carl_Ferdinand_Pohl（閲覧日 2026-10-29）
-  - Calvin Dotsey, "Brahms' Haydn Variations", Houston Symphony, 3 May 2018. https://houstonsymphony.org/brahms-haydn-variations/（閲覧日 2026-10-29）
-  - Bournemouth Symphony Orchestra, "Brahms: Variations on a Theme by Haydn". https://www.bhso.org.uk/work/brahms-variations-on-a-theme-by-haydn-2/（閲覧日 2026-10-29）
-  - Sotheby's, Toscanini sale, London 2012, lot 13（ブラームス自筆の作品56b主題の引用譜）. https://www.sothebys.com/en/auctions/ecatalogue/2012/toscanini-l12413/lot.13.html（閲覧日 2026-10-29）
-  - Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）
-  - 録音データ：MusicWeb International（Klemperer EMI 5 62742 2 評 2004年3月）（閲覧日 2026-10-29）
+  - 'IMSLP「Variations on a Theme by Haydn, Op.56 (Brahms, Johannes)」（初演・初版・版番号）. https://s10.imslp.org/wiki/Variations_on_a_Theme_by_Haydn,_Op.56_(Brahms,_Johannes)（閲覧日 2026-10-29）'
+  - 'IMSLP「Divertimento in B-flat major, Hob.II:46 (Haydn, Joseph)」. https://s10.imslp.org/wiki/Divertimento_in_B-flat_major%2C_Hob.II:46_(Haydn%2C_Joseph)（閲覧日 2026-10-29）'
+  - 'The Morgan Library & Museum, Record 230304：1873年11月2日 フィルハーモニー演奏会第1回定期のプログラム（Wien, J. B. Wallishausser 印刷）. https://themorgan.org/node/1285871（閲覧日 2026-10-29）'
+  - 'The Morgan Library & Museum, Record 130667（作品56a 初版, Simrock [1874?]）. https://www.themorgan.org/print/1234106（閲覧日 2026-10-29）'
+  - 'Douglas Yeo (ed.), Divertimento No. 1 in Bb, Chorale St. Antoni, Hob. II/46, Berlioz Historical Brass Harmoniemusik edition（解説の抜粋）. https://www.berliozhistoricalbrass.org/Haydn.htm（閲覧日 2026-10-29）'
+  - 'Renate Ulm, Begleittext zu: Brahms, Haydn-Variationen op. 56a, Symphonieorchester des Bayerischen Rundfunks, Herbert Blomstedt, BR-KLASSIK（BRmedia Service）2026, Booklet. https://eclassical.textalk.se/shop/17115/art65/5186965-14eab9-4035719002164_01.pdf（閲覧日 2026-10-29）'
+  - 'BR-KLASSIK, Verkaufsinformation（販売案内）900216, Mai 2026（ブロムシュテット盤）. https://eclassical.textalk.se/shop/17115/art65/5186965-14eab9-4035719002164_04.pdf（閲覧日 2026-10-29）'
+  - '"Variations on a Theme by Haydn, Op. 56", Encyclopædia Britannica. https://www.britannica.com/print/article/1243851（閲覧日 2026-10-29）'
+  - 'Wikipedia（英語版）「Variations on a Theme by Haydn」（典拠 Donald M. McCorkle, in: Brahms, Variations on a Theme of Haydn, Norton Critical Scores, ISBN 0-393-09206-2, p. 5 ほか）. https://en.wikipedia.org/wiki/Variations_on_a_Theme_by_Haydn（閲覧日 2026-10-29）'
+  - 'Wikipedia（英語版）「Carl Ferdinand Pohl」. https://en.wikipedia.org/wiki/Carl_Ferdinand_Pohl（閲覧日 2026-10-29）'
+  - 'Calvin Dotsey, "Brahms'' Haydn Variations", Houston Symphony, 3 May 2018. https://houstonsymphony.org/brahms-haydn-variations/（閲覧日 2026-10-29）'
+  - 'Bournemouth Symphony Orchestra, "Brahms: Variations on a Theme by Haydn". https://www.bhso.org.uk/work/brahms-variations-on-a-theme-by-haydn-2/（閲覧日 2026-10-29）'
+  - 'Sotheby''s, Toscanini sale, London 2012, lot 13（ブラームス自筆の作品56b主題の引用譜）. https://www.sothebys.com/en/auctions/ecatalogue/2012/toscanini-l12413/lot.13.html（閲覧日 2026-10-29）'
+  - 'Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）'
+  - '録音データ：MusicWeb International（Klemperer EMI 5 62742 2 評 2004年3月）（閲覧日 2026-10-29）'
 ---
 
 ## 成立

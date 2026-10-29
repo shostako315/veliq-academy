@@ -11,13 +11,13 @@ scoring: 2fl（1人はピッコロ持ち替え、第3楽章）, 2ob, 2cl, 2fg, c
 duration: 約40分
 updated: 2026-10-29
 sources:
-  - Robert Pascall, Preface. In: Johannes Brahms, Symphonie Nr. 4 e-moll op. 98, Studien-Edition HN 9856, G. Henle Verlag（本文は Johannes Brahms Gesamtausgabe Serie I/4, München 2011 による。序文の日付 Nottingham, Frühjahr 2012）. https://www.henle.de/media/83/a6/c0/1697725877/9856-1697725877-sync.pdf（閲覧日 2026-10-29）
-  - IMSLP「Symphony No.4, Op.98 (Brahms, Johannes)」（初版総譜 N. Simrock, Berlin 1886, 版番号8686）. https://imslp.org/wiki/Symphony_No.4,_Op.98_(Brahms,_Johannes)（閲覧日 2026-10-29）
-  - New York Public Library, Research Catalog b10026652（自筆総譜のマイクロフィルム。原本は Bibliothek der Allgemeinen Musikgesellschaft, Zürich）. https://discovery.nypl.org/research/research-catalog/bib/b10026652（閲覧日 2026-10-29）
-  - Wikipedia（独語版）「4. Sinfonie (Brahms)」（典拠 Max Kalbeck, Johannes Brahms, Bd. 3, 1921；Peter Petersen, Zeitschrift der Gesellschaft für Musiktheorie 10, 2013, Archiv für Musikwissenschaft 70, 2013, Neue Zeitschrift für Musik 180, 2019；Siegfried Ochs, Geschehenes, Gesehenes, 1922 ほか）. https://de.wikipedia.org/wiki/4._Sinfonie_(Brahms)（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Symphony No. 4 (Brahms)」（典拠 Malcolm MacDonald, Brahms, 1990；Walter Frisch, Brahms: The Four Symphonies, Yale UP 2003；Henry Pleasants (ed.), Hanslick's Music Criticisms 1846–99, 1963 ほか）. https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)（閲覧日 2026-10-29）
-  - Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）
-  - 録音データ：MusicWeb International（Furtwängler PASC456 評 2016年3月／Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80465 評 2005年11月／Christopher Dyment, Conducting the Brahms Symphonies, Boydell 2016 評 2017年11月）, MusicBrainz（Carlos Kleiber, Complete Recordings on Deutsche Grammophon）, Gramophone（Mackerras Telarc 全集評 1997年10月）（閲覧日 2026-10-29）
+  - 'Robert Pascall, Preface. In: Johannes Brahms, Symphonie Nr. 4 e-moll op. 98, Studien-Edition HN 9856, G. Henle Verlag（本文は Johannes Brahms Gesamtausgabe Serie I/4, München 2011 による。序文の日付 Nottingham, Frühjahr 2012）. https://www.henle.de/media/83/a6/c0/1697725877/9856-1697725877-sync.pdf（閲覧日 2026-10-29）'
+  - 'IMSLP「Symphony No.4, Op.98 (Brahms, Johannes)」（初版総譜 N. Simrock, Berlin 1886, 版番号8686）. https://imslp.org/wiki/Symphony_No.4,_Op.98_(Brahms,_Johannes)（閲覧日 2026-10-29）'
+  - 'New York Public Library, Research Catalog b10026652（自筆総譜のマイクロフィルム。原本は Bibliothek der Allgemeinen Musikgesellschaft, Zürich）. https://discovery.nypl.org/research/research-catalog/bib/b10026652（閲覧日 2026-10-29）'
+  - 'Wikipedia（独語版）「4. Sinfonie (Brahms)」（典拠 Max Kalbeck, Johannes Brahms, Bd. 3, 1921；Peter Petersen, Zeitschrift der Gesellschaft für Musiktheorie 10, 2013, Archiv für Musikwissenschaft 70, 2013, Neue Zeitschrift für Musik 180, 2019；Siegfried Ochs, Geschehenes, Gesehenes, 1922 ほか）. https://de.wikipedia.org/wiki/4._Sinfonie_(Brahms)（閲覧日 2026-10-29）'
+  - 'Wikipedia（英語版）「Symphony No. 4 (Brahms)」（典拠 Malcolm MacDonald, Brahms, 1990；Walter Frisch, Brahms: The Four Symphonies, Yale UP 2003；Henry Pleasants (ed.), Hanslick''s Music Criticisms 1846–99, 1963 ほか）. https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)（閲覧日 2026-10-29）'
+  - 'Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）'
+  - '録音データ：MusicWeb International（Furtwängler PASC456 評 2016年3月／Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80465 評 2005年11月／Christopher Dyment, Conducting the Brahms Symphonies, Boydell 2016 評 2017年11月）, MusicBrainz（Carlos Kleiber, Complete Recordings on Deutsche Grammophon）, Gramophone（Mackerras Telarc 全集評 1997年10月）（閲覧日 2026-10-29）'
 ---
 
 ## 成立

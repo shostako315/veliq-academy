@@ -11,14 +11,14 @@ scoring: 2fl, 2ob, 2cl, 2fg, cfg, 4hr, 2tp, 3tb, timp, 弦五部
 duration: 約35分
 updated: 2026-10-29
 sources:
-  - Robert Pascall, Preface. In: Johannes Brahms, Symphonie Nr. 3 F-dur op. 90, Studien-Edition HN 9855, G. Henle Verlag（本文は Johannes Brahms Gesamtausgabe Serie I/3, München 2005 による。序文の日付 Nottingham, Herbst 2006）. https://www.henle.de/media/c8/2b/3a/1690899702/9855-1690899702-sync.pdf（閲覧日 2026-10-29）
-  - Robert Pascall (Hg.), Johannes Brahms. Neue Ausgabe sämtlicher Werke, Serie I, Band 3：Symphonie Nr. 3 F-dur op. 90, G. Henle Verlag, München 2005, Vorwort・Einleitung（前付け）. https://www.henle.de/media/6c/c7/f2/1756816472/6007.pdf（閲覧日 2026-10-29）
-  - Library of Congress, Music Division, Gertrude Clarke Whittall Foundation Collection：Brahms, „Symphonie, F Dur", holograph [1883], ML30.8b .B7 op. 90. https://www.loc.gov/item/2008573409/（閲覧日 2026-10-29）
-  - The Morgan Library & Museum, Record 129036（初版総譜, Simrock 1884）. https://www.themorgan.org/print/1234086（閲覧日 2026-10-29）
-  - Wikipedia（独語版）「3. Sinfonie (Brahms)」（典拠 Christian Martin Schmidt 1998；Wolfgang Dömling 1996；Schweizer/Werner-Jensen 1998 ほか）. https://de.wikipedia.org/wiki/3._Sinfonie_(Brahms)（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Symphony No. 3 (Brahms)」（典拠 Walter Frisch, Brahms: The Four Symphonies, Yale UP 2003, pp. 91–114；Malcolm MacDonald, Brahms, 1990 ほか）. https://en.wikipedia.org/wiki/Symphony_No._3_(Brahms)（閲覧日 2026-10-29）
-  - Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）
-  - 録音データ：MusicWeb International（Toscanini PASC349 評 2013年8月／Furtwängler PASC456 評 2016年3月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80465 評 2005年11月）（閲覧日 2026-10-29）
+  - 'Robert Pascall, Preface. In: Johannes Brahms, Symphonie Nr. 3 F-dur op. 90, Studien-Edition HN 9855, G. Henle Verlag（本文は Johannes Brahms Gesamtausgabe Serie I/3, München 2005 による。序文の日付 Nottingham, Herbst 2006）. https://www.henle.de/media/c8/2b/3a/1690899702/9855-1690899702-sync.pdf（閲覧日 2026-10-29）'
+  - 'Robert Pascall (Hg.), Johannes Brahms. Neue Ausgabe sämtlicher Werke, Serie I, Band 3：Symphonie Nr. 3 F-dur op. 90, G. Henle Verlag, München 2005, Vorwort・Einleitung（前付け）. https://www.henle.de/media/6c/c7/f2/1756816472/6007.pdf（閲覧日 2026-10-29）'
+  - 'Library of Congress, Music Division, Gertrude Clarke Whittall Foundation Collection：Brahms, „Symphonie, F Dur", holograph [1883], ML30.8b .B7 op. 90. https://www.loc.gov/item/2008573409/（閲覧日 2026-10-29）'
+  - 'The Morgan Library & Museum, Record 129036（初版総譜, Simrock 1884）. https://www.themorgan.org/print/1234086（閲覧日 2026-10-29）'
+  - 'Wikipedia（独語版）「3. Sinfonie (Brahms)」（典拠 Christian Martin Schmidt 1998；Wolfgang Dömling 1996；Schweizer/Werner-Jensen 1998 ほか）. https://de.wikipedia.org/wiki/3._Sinfonie_(Brahms)（閲覧日 2026-10-29）'
+  - 'Wikipedia（英語版）「Symphony No. 3 (Brahms)」（典拠 Walter Frisch, Brahms: The Four Symphonies, Yale UP 2003, pp. 91–114；Malcolm MacDonald, Brahms, 1990 ほか）. https://en.wikipedia.org/wiki/Symphony_No._3_(Brahms)（閲覧日 2026-10-29）'
+  - 'Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）'
+  - '録音データ：MusicWeb International（Toscanini PASC349 評 2013年8月／Furtwängler PASC456 評 2016年3月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80465 評 2005年11月）（閲覧日 2026-10-29）'
 ---
 
 ## 成立

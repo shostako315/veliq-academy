@@ -27,6 +27,9 @@ sources:
   - "Wikipedia（英語版）「Symphony No. 9 (Beethoven)」（終楽章の小節表は Nicholas Cook 1993 による。録音史）. https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)（閲覧日 2026-10-29）"
   - "Wikipedia（英語版）「British première of Beethoven's Symphony No. 9」（典拠 The Harmonicon, 1825; Quarterly Musical Magazine and Review, 1825 ほか）. https://en.wikipedia.org/wiki/British_premi%C3%A8re_of_Beethoven%27s_Symphony_No._9（閲覧日 2026-10-29）"
   - "Wikipedia（英語版）「Ode to Joy」. https://en.wikipedia.org/wiki/Ode_to_Joy（閲覧日 2026-10-29）"
+  - "Roger Norrington, Beethoven's metronome marks（ウェブサイトの論考）. https://rogernorrington.co.uk/?p=598（閲覧日 2026-10-29）"
+  - "Fusako Hamao, „Schoenberg's Metronome Markings“, European Journal of Musicology 22/2 (2024), DOI 10.5450/EJM.22.2.2024.5（シェーンベルク1926年の第9番第3楽章論）"
+  - "„On Tempo Indications Based on Beethoven's Music“, College Music Symposium 25（著者名はウェブ版に表示なし）. https://symposium.music.org/volume-25/articles-1752877059/on-tempo-indications-based-on-beethovens-music（閲覧日 2026-10-29）"
   - "録音データ：Gramophone（Gardiner 全集評）、MusicWeb International（Harnoncourt Teldec 全集評 2003年8月）、Wikipedia 英語版・独語版の録音史の記述（閲覧日 2026-10-29）"
 ---
 

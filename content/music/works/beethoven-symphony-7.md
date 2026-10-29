@@ -19,6 +19,7 @@ sources:
   - "Fusako Hamao, „Schoenberg's Metronome Markings“, European Journal of Musicology 22/2 (2024), DOI 10.5450/EJM.22.2.2024.5（AMZ 1817年12月のメトロノーム表）"
   - "Wikipedia（独語版）「7. Sinfonie (Beethoven)」（初演の出演者、受容。典拠 Harry Goldschmidt ほか）. https://de.wikipedia.org/wiki/7._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
   - "Wikipedia（英語版）「Symphony No. 7 (Beethoven)」（典拠 Michael Steinberg, The Symphony, 1995; Glenn Stanley, in: The Cambridge Companion to Beethoven, 2000; John Warrack, Carl Maria von Weber, 1976 ほか）. https://en.wikipedia.org/wiki/Symphony_No._7_(Beethoven)（閲覧日 2026-10-29）"
+  - "„On Tempo Indications Based on Beethoven's Music“, College Music Symposium 25（著者名はウェブ版に表示なし）. https://symposium.music.org/volume-25/articles-1752877059/on-tempo-indications-based-on-beethovens-music（閲覧日 2026-10-29）"
   - "録音データ：Wikipedia（英語版）「Carlos Kleiber discography」、Gramophone（Zinman 第7・8番評 1998年7月、Gardiner 全集評）、MusicWeb International（Harnoncourt Teldec 全集評 2003年8月）（閲覧日 2026-10-29）"
 ---
 

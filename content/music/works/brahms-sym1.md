@@ -11,14 +11,14 @@ scoring: 2fl, 2ob, 2cl, 2fg, cfg, 4hr, 2tp, 3tb（第4楽章のみ）, timp, 弦
 duration: 約45分
 updated: 2026-10-29
 sources:
-  - Robert Pascall, Preface. In: Johannes Brahms, Symphonie Nr. 1 c-moll op. 68, Studien-Edition HN 9851, G. Henle Verlag（本文は Johannes Brahms Gesamtausgabe Serie I/1, München 1996 による）. https://www.henle.de/media/97/5d/49/1690899702/9851-1690899702-sync.pdf（閲覧日 2026-10-29）
-  - Brahms-Institut an der Musikhochschule Lübeck, Brahms-Portal：初版総譜 SYMPHONIE (C moll) für Grosses Orchester Op.68, N. Simrock, Berlin, 1877年10月, 版番号7957（ABH_1.7.6.211）. https://www.brahms-portal.de/objekt/dc00001045/1/-/（閲覧日 2026-10-29）
-  - The Morgan Library & Museum, Record 129034（初版総譜, Simrock 1877）. https://www.themorgan.org/music-manuscripts-and-printed-music/129034（閲覧日 2026-10-29）
-  - Wikipedia（独語版）「1. Sinfonie (Brahms)」（小節番号と書簡引用。典拠は Giselher Schubert, in: Schubert/Floros/Schmidt (Hg.), Johannes Brahms. Die Sinfonien, Mainz 1998；Christian Martin Schmidt, Brahms Sinfonien, München 1999；Briefe von und an Joseph Joachim, Bd. 2, Berlin 1912, S. 212 ほか）. https://de.wikipedia.org/wiki/1._Sinfonie_(Brahms)（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Symphony No. 1 (Brahms)」（典拠は Malcolm MacDonald, Brahms, Schirmer 1990, pp. 246–251 ほか）. https://en.wikipedia.org/wiki/Symphony_No._1_(Brahms)（閲覧日 2026-10-29）
-  - Betsy Schwarm, "Symphony No. 1 in C Minor, Op. 68", Encyclopædia Britannica. https://www.britannica.com/print/article/578060（閲覧日 2026-10-29）
-  - Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）
-  - 録音データ：MusicWeb International（Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80463 評 2005年9月／Gardiner SDG702 評 2008年9月）, Gramophone（Mackerras Telarc 全集評 1997年10月）（いずれも閲覧日 2026-10-29）
+  - 'Robert Pascall, Preface. In: Johannes Brahms, Symphonie Nr. 1 c-moll op. 68, Studien-Edition HN 9851, G. Henle Verlag（本文は Johannes Brahms Gesamtausgabe Serie I/1, München 1996 による）. https://www.henle.de/media/97/5d/49/1690899702/9851-1690899702-sync.pdf（閲覧日 2026-10-29）'
+  - 'Brahms-Institut an der Musikhochschule Lübeck, Brahms-Portal：初版総譜 SYMPHONIE (C moll) für Grosses Orchester Op.68, N. Simrock, Berlin, 1877年10月, 版番号7957（ABH_1.7.6.211）. https://www.brahms-portal.de/objekt/dc00001045/1/-/（閲覧日 2026-10-29）'
+  - 'The Morgan Library & Museum, Record 129034（初版総譜, Simrock 1877）. https://www.themorgan.org/music-manuscripts-and-printed-music/129034（閲覧日 2026-10-29）'
+  - 'Wikipedia（独語版）「1. Sinfonie (Brahms)」（小節番号と書簡引用。典拠は Giselher Schubert, in: Schubert/Floros/Schmidt (Hg.), Johannes Brahms. Die Sinfonien, Mainz 1998；Christian Martin Schmidt, Brahms Sinfonien, München 1999；Briefe von und an Joseph Joachim, Bd. 2, Berlin 1912, S. 212 ほか）. https://de.wikipedia.org/wiki/1._Sinfonie_(Brahms)（閲覧日 2026-10-29）'
+  - 'Wikipedia（英語版）「Symphony No. 1 (Brahms)」（典拠は Malcolm MacDonald, Brahms, Schirmer 1990, pp. 246–251 ほか）. https://en.wikipedia.org/wiki/Symphony_No._1_(Brahms)（閲覧日 2026-10-29）'
+  - 'Betsy Schwarm, "Symphony No. 1 in C Minor, Op. 68", Encyclopædia Britannica. https://www.britannica.com/print/article/578060（閲覧日 2026-10-29）'
+  - 'Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）'
+  - '録音データ：MusicWeb International（Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80463 評 2005年9月／Gardiner SDG702 評 2008年9月）, Gramophone（Mackerras Telarc 全集評 1997年10月）（いずれも閲覧日 2026-10-29）'
 ---
 
 ## 成立

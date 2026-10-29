@@ -12,18 +12,18 @@ duration: 約38分
 concert: vo-vol3-2027-03
 updated: 2026-10-29
 sources:
-  - Michael Struck, Preface. In: Johannes Brahms, Violinkonzert D-dur op. 77, Studien-Edition HN 9854, G. Henle Verlag（序文の日付 Kiel, Sommer 2005）. https://www.henle.de/media/0d/ce/6c/1690899702/9854-1690899702-sync.pdf（閲覧日 2026-10-29）
-  - Michael Struck, Preface. In: Johannes Brahms, Violinkonzert D-dur op. 77, Ausgabe für Violine und Klavier HN 818, G. Henle Verlag（序文の日付 Kiel, Frühjahr 2009）. https://www.henle.de/media/e3/d0/e0/1690886056/0818-1690886056-sync.pdf（閲覧日 2026-10-29）
-  - Linda Correll Roesner / Michael Struck (Hg.), Johannes Brahms. Neue Ausgabe sämtlicher Werke, Serie I, Band 9：Violinkonzert D-dur op. 77, G. Henle Verlag, München 2004, Vorwort・Einleitung（前付け）. https://www.henle.de/media/88/1e/1a/1759224932/6005.pdf（閲覧日 2026-10-29）
-  - Library of Congress, Heineman Foundation Collection：Violinconcert, op. 77, 筆写の独奏パート（ブラームスとヨアヒムの鉛筆の書き込み）, ML31 .H43a no. 43. https://www.loc.gov/resource/music.musihas-200215529/?st=gallery（閲覧日 2026-10-29）
-  - The University of Hong Kong Libraries, Primary Sources: Facsimile, Brahms（自筆総譜のファクシミリ, Laaber-Verlag 2014, 原本 Library of Congress）. https://libguides.lib.hku.hk/PrimarySources/Facsimile/Brahms（閲覧日 2026-10-29）
-  - IMSLP「Violin Concerto, Op.77 (Brahms, Johannes)」（カデンツァの楽譜一覧）. https://imslp.org/wiki/Violin_Concerto,_Op.77_(Brahms,_Johannes)（閲覧日 2026-10-29）
-  - Malte Krasting, Programme notes: Johannes Brahms, Concerto for Violin and Orchestra in D major op. 77, Berliner Philharmoniker. https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77（閲覧日 2026-10-29）
-  - Joanna Wyld, programme note, Royal Concertgebouw Orchestra, Barbican, 4 November 2022. https://www.barbican.org.uk/sites/default/files/documents/2022-11/04112022_RCO_digitalprogramme.pdf（閲覧日 2026-10-29）
-  - David B. Levy, Program note, Winston-Salem Symphony, 2014. https://www.wssymphony.org/program-notes/brahms-violin-concerto/（閲覧日 2026-10-29）
-  - Wikipedia（独語版）「Violinkonzert (Brahms)」（典拠 Roman Hinke, Begleittext zur Einspielung von Isabelle Faust, harmonia mundi 2011 ほか）. https://de.wikipedia.org/wiki/Violinkonzert_(Brahms)（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Violin Concerto (Brahms)」（典拠 Michael Steinberg, The Concerto, OUP 1998, pp. 121–122；Jan Swafford, Johannes Brahms: A Biography, 1997 ほか）. https://en.wikipedia.org/wiki/Violin_Concerto_(Brahms)（閲覧日 2026-10-29）
-  - 録音データ：Audiophile Audition（Kreisler, Pristine PASC 765 評）, Casals Classical（Heifetz/Reiner RCA LSC-1903）, The Listeners' Club（Oistrakh/Klemperer 1960）, Gramophone（Faust/Harding, harmonia mundi HMC902075 評）, harmonia mundi（HMM932075 商品頁）（閲覧日 2026-10-29）
+  - 'Michael Struck, Preface. In: Johannes Brahms, Violinkonzert D-dur op. 77, Studien-Edition HN 9854, G. Henle Verlag（序文の日付 Kiel, Sommer 2005）. https://www.henle.de/media/0d/ce/6c/1690899702/9854-1690899702-sync.pdf（閲覧日 2026-10-29）'
+  - 'Michael Struck, Preface. In: Johannes Brahms, Violinkonzert D-dur op. 77, Ausgabe für Violine und Klavier HN 818, G. Henle Verlag（序文の日付 Kiel, Frühjahr 2009）. https://www.henle.de/media/e3/d0/e0/1690886056/0818-1690886056-sync.pdf（閲覧日 2026-10-29）'
+  - 'Linda Correll Roesner / Michael Struck (Hg.), Johannes Brahms. Neue Ausgabe sämtlicher Werke, Serie I, Band 9：Violinkonzert D-dur op. 77, G. Henle Verlag, München 2004, Vorwort・Einleitung（前付け）. https://www.henle.de/media/88/1e/1a/1759224932/6005.pdf（閲覧日 2026-10-29）'
+  - 'Library of Congress, Heineman Foundation Collection：Violinconcert, op. 77, 筆写の独奏パート（ブラームスとヨアヒムの鉛筆の書き込み）, ML31 .H43a no. 43. https://www.loc.gov/resource/music.musihas-200215529/?st=gallery（閲覧日 2026-10-29）'
+  - 'The University of Hong Kong Libraries, Primary Sources: Facsimile, Brahms（自筆総譜のファクシミリ, Laaber-Verlag 2014, 原本 Library of Congress）. https://libguides.lib.hku.hk/PrimarySources/Facsimile/Brahms（閲覧日 2026-10-29）'
+  - 'IMSLP「Violin Concerto, Op.77 (Brahms, Johannes)」（カデンツァの楽譜一覧）. https://imslp.org/wiki/Violin_Concerto,_Op.77_(Brahms,_Johannes)（閲覧日 2026-10-29）'
+  - 'Malte Krasting, Programme notes: Johannes Brahms, Concerto for Violin and Orchestra in D major op. 77, Berliner Philharmoniker. https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77（閲覧日 2026-10-29）'
+  - 'Joanna Wyld, programme note, Royal Concertgebouw Orchestra, Barbican, 4 November 2022. https://www.barbican.org.uk/sites/default/files/documents/2022-11/04112022_RCO_digitalprogramme.pdf（閲覧日 2026-10-29）'
+  - 'David B. Levy, Program note, Winston-Salem Symphony, 2014. https://www.wssymphony.org/program-notes/brahms-violin-concerto/（閲覧日 2026-10-29）'
+  - 'Wikipedia（独語版）「Violinkonzert (Brahms)」（典拠 Roman Hinke, Begleittext zur Einspielung von Isabelle Faust, harmonia mundi 2011 ほか）. https://de.wikipedia.org/wiki/Violinkonzert_(Brahms)（閲覧日 2026-10-29）'
+  - 'Wikipedia（英語版）「Violin Concerto (Brahms)」（典拠 Michael Steinberg, The Concerto, OUP 1998, pp. 121–122；Jan Swafford, Johannes Brahms: A Biography, 1997 ほか）. https://en.wikipedia.org/wiki/Violin_Concerto_(Brahms)（閲覧日 2026-10-29）'
+  - '録音データ：Audiophile Audition（Kreisler, Pristine PASC 765 評）, Casals Classical（Heifetz/Reiner RCA LSC-1903）, The Listeners'' Club（Oistrakh/Klemperer 1960）, Gramophone（Faust/Harding, harmonia mundi HMC902075 評）, harmonia mundi（HMM932075 商品頁）（閲覧日 2026-10-29）'
 ---
 
 ## 成立

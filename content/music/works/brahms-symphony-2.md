@@ -11,13 +11,13 @@ scoring: 2fl, 2ob, 2cl, 2fg, 4hr, 2tp, 3tb, tuba, timp, 弦五部
 duration: 約40〜45分
 updated: 2026-10-29
 sources:
-  - Robert Pascall, Preface. In: Johannes Brahms, Symphonie Nr. 2 D-dur op. 73, Studien-Edition HN 9853, G. Henle Verlag（本文は Johannes Brahms Gesamtausgabe Serie I/2, München 2001 による。序文の日付 Nottingham/Bangor, Herbst 2004）. https://www.henle.de/media/ac/f6/17/1690899704/9853-1690899704-sync.pdf（閲覧日 2026-10-29）
-  - IMSLP「Symphony No.2, Op.73 (Brahms, Johannes)」（初版総譜 N. Simrock, Berlin 1878, 版番号8028）. https://imslp.org/wiki/Symphony_No.2_(Brahms,_Johannes)（閲覧日 2026-10-29）
-  - The Juilliard Manuscript Collection, „Symphony No. 2, Op. 73 in D major. Allegro non troppo (first movement)". https://juilliardmanuscriptcollection.org/symphony-no-2-op-73-in-d-major-allegro-non-troppo-first-movement/（閲覧日 2026-10-29）
-  - Wikipedia（独語版）「2. Sinfonie (Brahms)」（典拠 Reinhold Brinkmann, Späte Idylle, 1990；Constantin Floros, in: Schubert/Floros/Schmidt, 1998；Christian Martin Schmidt, Brahms Sinfonien, 1999 ほか）. https://de.wikipedia.org/wiki/2._Sinfonie_(Brahms)（閲覧日 2026-10-29）
-  - Wikipedia（英語版）「Symphony No. 2 (Brahms)」（典拠 Walter Frisch, Brahms: The Four Symphonies, 1996, p. 68；Styra Avins & Josef Eisinger, Johannes Brahms: Life and Letters, OUP 1997 ほか）. https://en.wikipedia.org/wiki/Symphony_No._2_(Brahms)（閲覧日 2026-10-29）
-  - Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）
-  - 録音データ：MusicWeb International（Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月）, Gramophone（Mackerras Telarc 全集評 1997年10月）（閲覧日 2026-10-29）
+  - 'Robert Pascall, Preface. In: Johannes Brahms, Symphonie Nr. 2 D-dur op. 73, Studien-Edition HN 9853, G. Henle Verlag（本文は Johannes Brahms Gesamtausgabe Serie I/2, München 2001 による。序文の日付 Nottingham/Bangor, Herbst 2004）. https://www.henle.de/media/ac/f6/17/1690899704/9853-1690899704-sync.pdf（閲覧日 2026-10-29）'
+  - 'IMSLP「Symphony No.2, Op.73 (Brahms, Johannes)」（初版総譜 N. Simrock, Berlin 1878, 版番号8028）. https://imslp.org/wiki/Symphony_No.2_(Brahms,_Johannes)（閲覧日 2026-10-29）'
+  - 'The Juilliard Manuscript Collection, „Symphony No. 2, Op. 73 in D major. Allegro non troppo (first movement)". https://juilliardmanuscriptcollection.org/symphony-no-2-op-73-in-d-major-allegro-non-troppo-first-movement/（閲覧日 2026-10-29）'
+  - 'Wikipedia（独語版）「2. Sinfonie (Brahms)」（典拠 Reinhold Brinkmann, Späte Idylle, 1990；Constantin Floros, in: Schubert/Floros/Schmidt, 1998；Christian Martin Schmidt, Brahms Sinfonien, 1999 ほか）. https://de.wikipedia.org/wiki/2._Sinfonie_(Brahms)（閲覧日 2026-10-29）'
+  - 'Wikipedia（英語版）「Symphony No. 2 (Brahms)」（典拠 Walter Frisch, Brahms: The Four Symphonies, 1996, p. 68；Styra Avins & Josef Eisinger, Johannes Brahms: Life and Letters, OUP 1997 ほか）. https://en.wikipedia.org/wiki/Symphony_No._2_(Brahms)（閲覧日 2026-10-29）'
+  - 'Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）'
+  - '録音データ：MusicWeb International（Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月）, Gramophone（Mackerras Telarc 全集評 1997年10月）（閲覧日 2026-10-29）'
 ---
 
 ## 成立
