@@ -78,8 +78,8 @@ sources:
 
 - 1844年、ジョゼフ・オートラン（Joseph Autran）の詩による合唱曲（《四大元素》）の序曲として書き始められ、のちにラマルティーヌ（Alphonse de Lamartine）の『新瞑想詩集』（1823年）の頌歌の題を借りて改作された。ラマルティーヌの詩と音楽の結びつきはわずかである。[（interlude.hk）](https://interlude.hk/a-new-idea-in-music-liszts-les-preludes/)
 - 初演は1854年2月23日、ヴァイマルでリスト自身が指揮した。アメリカ初演は1858年5月、ニューヨークでカール・ベルクマン（Carl Bergmann）の指揮による。[（Boston Symphony Orchestra）](https://www.bso.org/works/liszt-les-preludes)
-- 総譜には「われわれの生は、あの未知の讃歌への一連の前奏曲にほかならないのではないか」で始まる序文が付いた。この序文の筆者を、interlude.hk はカロリーネ・ザイン＝ヴィトゲンシュタイン侯爵夫人（Carolyne zu Sayn-Wittgenstein）とし、イェール大学図書館の展示解説はハンス・フォン・ビューロー（Hans von Bülow）とする。[（interlude.hk）](https://interlude.hk/a-new-idea-in-music-liszts-les-preludes/)[（Yale University Library）](https://musiclib-exhibits.library.yale.edu/exhibits/liszt/preludes.html)
-- イェール大学のギルモア音楽図書館は、リスト自身による2台ピアノ版（ライプツィヒ／ニューヨーク、ブライトコプフ・ウント・ヘルテル、1856年）を所蔵する。同館の解説は「交響詩」の語をリスト自身のものとし、リストがこの名で呼んだ単一楽章の作品を13曲と数える。ボストン交響楽団の解説は《前奏曲》を「12の交響詩」の第3番とする。[（Yale University Library）](https://musiclib-exhibits.library.yale.edu/exhibits/liszt/preludes.html)[（Boston Symphony Orchestra）](https://www.bso.org/works/liszt-les-preludes)
+- 総譜には「われわれの生は、あの未知の讃歌への一連の前奏曲にほかならないのではないか」で始まる序文が付いた。この序文の筆者は資料によって異なる。ボストン交響楽団の解説はリスト自身が総譜に付けたとし、interlude.hk はカロリーネ・ザイン＝ヴィトゲンシュタイン侯爵夫人（Carolyne zu Sayn-Wittgenstein）、イェール大学図書館の展示解説はハンス・フォン・ビューロー（Hans von Bülow）とする。[（interlude.hk）](https://interlude.hk/a-new-idea-in-music-liszts-les-preludes/)[（Yale University Library）](https://musiclib-exhibits.library.yale.edu/exhibits/liszt/preludes.html)
+- イェール大学のギルモア音楽図書館は、リスト自身による2台ピアノ版（ライプツィヒ／ニューヨーク、ブライトコプフ・ウント・ヘルテル、1856年）を所蔵する。同館の解説は「交響詩」の語をリスト自身のものとし、リストがこの名で呼んだ単一楽章の作品を13曲と数える。ボストン交響楽団の解説は《前奏曲》を「12の交響詩」の第3番とする。数の違いは数え方による。最初の12曲はヴァイマル時代の1847〜58年の作で、13曲目の《揺りかごから墓場まで》は1881〜82年の作である。[（Yale University Library）](https://musiclib-exhibits.library.yale.edu/exhibits/liszt/preludes.html)[（Boston Symphony Orchestra）](https://www.bso.org/works/liszt-les-preludes)
 
 ## 「絶対音楽」という語——ワーグナーとハンスリック
 
@@ -139,7 +139,7 @@ sources:
 - 初期の出版譜は救いがたく改竄されているという見方は、ハースのもと第三帝国の時代に始まったとコルストヴェットは論じる。戦後のレオポルト・ノヴァーク（Leopold Nowak）は、思想的な意図は継がなかったが、編集の基本方針は受け継いだ。
 - 出版譜の中には、練習と演奏のあとにブルックナー自身が加えた改訂を含むものがある。1890年の交響曲第4番の新しい管楽器のパートは、ブルックナー自身が書いた。
 
-ベーレンライターの『takte』誌（2023年7月）によると、ハースが共同で編集した全集は1929年に刊行が始まり、ウィーンの音楽学出版社（Musikwissenschaftlicher Verlag Wien）が1930年代から全集を出している。ノヴァークは1950年代から1960年代初めにハースの巻の箇所を訂正し、1889年の交響曲第3番の最終稿を1959年に出版した。1932年4月2日には、ジークムント・フォン・ハウゼッガー（Siegmund von Hausegger）指揮のミュンヘン・フィルが、第9番を2つの版で演奏している。第9番の初版（レーヴェ編）は1903年である。2011年に新しい全集の計画が立てられ、2016年にトーマス・レーダー（Thomas Röder）編の交響曲第1番（1868年にブルックナーがリンツで指揮した稿）が最初の巻として出た。[（takte）](https://www.takte-online.de/en/orchestra/detail/artikel/meilensteine-in-der-neuen-anton-bruckner-gesamtausgabe/index.htm)
+ベーレンライターの『takte』誌（2023年7月）によると、ハースが共同で編集した全集は1929年に刊行が始まり、ウィーンの音楽学出版社（Musikwissenschaftlicher Verlag Wien）が1930年代から全集を出している。コルストヴェットはハースが全集を率いた期間を1932〜45年としており、開始の年は資料によって異なる。ノヴァークは1950年代から1960年代初めにハースの巻の箇所を訂正し、1889年の交響曲第3番の最終稿を1959年に出版した。1932年4月2日には、ジークムント・フォン・ハウゼッガー（Siegmund von Hausegger）指揮のミュンヘン・フィルが、第9番を2つの版で演奏している。第9番の初版（レーヴェ編）は1903年である。2011年に新しい全集の計画が立てられ、2016年にトーマス・レーダー（Thomas Röder）編の交響曲第1番（1868年にブルックナーがリンツで指揮した稿）が最初の巻として出た。[（takte）](https://www.takte-online.de/en/orchestra/detail/artikel/meilensteine-in-der-neuen-anton-bruckner-gesamtausgabe/index.htm)
 
 ## 歌曲——シューマンの「歌の年」（1840年）
 

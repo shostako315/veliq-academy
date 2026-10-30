@@ -37,7 +37,8 @@ sources:
   - 'MusicWeb International, review of LPO 0040（Beecham, Ludwigshafen 1936）2010年1月 https://www.musicweb-international.com/classrev/2010/Jan10/LPO_Formative_lpo0040.htm 閲覧日 2026-10-30'
   - 'Library and Archives Canada「Glenn Gould Archive」The Prospects of Recording https://nlc-bnc.ca/glenngould/028010-4020.01-e.html 閲覧日 2026-10-30'
   - 'interlude.hk「Glenn Gould (Born on September 25, 1932): From Concert Hall to Microphone」 https://interlude.hk/glenn-gould-born-on-september-25-1932from-concert-hall-to-microphone/ 閲覧日 2026-10-30'
-  - 'Maison de la Musique Contemporaine / Encyclopædia Universalis, La Mini-encyclopédie des musiques contemporaines（musique concrète の項） https://musiquecontemporaine.org/sites/mmc/files/2026-07/article3_miniencyclopedie_vdef.pdf 閲覧日 2026-10-30'
+  - 'IRCAM, B.R.A.H.M.S.「Concert de bruits (1948)」 https://brahms.ircam.fr/works/work/28232 閲覧日 2026-10-30'
+  - 'Arnold Schönberg Center（年譜） https://www.schoenberg.at/ 閲覧日 2026-10-30'
   - 'Daniel Leech-Wilkinson, The Changing Sound of Music: Approaches to Studying Recorded Musical Performances（CHARM, 2009）ch. 4 https://charm-os.kdl.kcl.ac.uk/studies/chapters/chap4.html 閲覧日 2026-10-30'
 ---
 
@@ -60,7 +61,7 @@ sources:
 
 ### スクリャービン《プロメテウス》（1911年）
 
-スクリャービン（Alexander Scriabin）の《プロメテウス（火の詩）》作品60は1909〜10年の作で、1911年3月にモスクワで、スクリャービン自身のピアノ独奏とクーセヴィツキー（Serge Koussevitzky）の指揮で初演された（ロサンゼルス・フィルの解説は3月2日とする）。4度を積み重ねた「神秘和音」を用いる。編成には「光の鍵盤」（tastiera per luce）が含まれ、オーケストラの後ろの幕に色の光を投影することになっていたが、初演は光なしの管弦楽曲として行われ、スクリャービンは光を伴う演奏を見ずに終わった。[（Los Angeles Philharmonic）](https://www.hollywoodbowl.com/musicdb/pieces/2988/prometheus-poem-of-fire-op-60)
+スクリャービン（Alexander Scriabin）の《プロメテウス（火の詩）》作品60は1909〜10年の作で、1911年3月15日（当時ロシアで使われていたユリウス暦では3月2日）にモスクワで、スクリャービン自身のピアノ独奏とクーセヴィツキー（Serge Koussevitzky）の指揮で初演された。4度を積み重ねた「神秘和音」を用いる。編成には「光の鍵盤」（tastiera per luce）が含まれ、オーケストラの後ろの幕に色の光を投影することになっていたが、初演は光なしの管弦楽曲として行われ、スクリャービンは光を伴う演奏を見ずに終わった。[（Los Angeles Philharmonic）](https://www.hollywoodbowl.com/musicdb/pieces/2988/prometheus-poem-of-fire-op-60)
 
 ## シェーンベルクの『和声学』と1913年の演奏会
 
@@ -114,7 +115,7 @@ sources:
 
 ## 亡命と戦争——シェーンベルクとウェーベルン
 
-シェーンベルクは1925年、ベルリンのプロイセン芸術アカデミーで作曲のマスタークラスの主任に任じられた。1933年に教職を解かれ、パリを経てアメリカに逃れ、ボストンのマルキン音楽院で教えた。1934年にロサンゼルスに移って南カリフォルニア大学で個人教授をし、1936年にカリフォルニア大学ロサンゼルス校（UCLA）の教授となった。1940年にアメリカの市民権を得て、1944年に名誉教授となり、1951年7月13日にロサンゼルスで没した。[（Deutsches Historisches Museum）](https://www.dhm.de/lemo/biografie/arnold-schoenberg)
+シェーンベルクは1925年、ベルリンのプロイセン芸術アカデミーで作曲のマスタークラスの主任に任じられた。1933年に教職を解かれ、パリを経てアメリカに逃れ、ボストンのマルキン音楽院で教えた。1934年にロサンゼルスに移って南カリフォルニア大学で個人教授をし、1936年にカリフォルニア大学ロサンゼルス校（UCLA）の教授となった。1941年に妻ゲルトルート、娘ヌリアとともにアメリカの市民権を得て、1944年に名誉教授となり、1951年7月13日にロサンゼルスで没した。[（Deutsches Historisches Museum）](https://www.dhm.de/lemo/biografie/arnold-schoenberg)市民権の取得年は Arnold Schönberg Center の年譜による（DHM は1940年とする）。[（Arnold Schönberg Center）](https://www.schoenberg.at/)
 
 ウェーベルンはウィーンにとどまった。ナチ体制はその音楽の演奏を「退廃芸術」として禁じ、出版社のウニヴェルザール出版社はウェーベルンに校正とピアノ編曲の仕事を与えるだけになった。息子ペーターは、連合軍機が列車を機銃掃射した際に死んだ。ソ連軍がウィーンに迫ると、ウェーベルン夫妻はザルツブルクの方面に逃れ、ミッタージルに身を寄せた。1945年9月15日、娘婿が闇取引の容疑でアメリカ兵に逮捕された際、家の外の階段で葉巻を吸っていたウェーベルンは、アメリカ陸軍の炊事兵レイモンド・ベル（Raymond Bell）に撃たれて死んだ。61歳であった。発砲の理由ははっきりしない。[（BBC Music Magazine）](https://www.classical-music.com/features/composers/how-did-anton-webern-die)
 
@@ -142,7 +143,7 @@ sources:
 
 ### 具体音楽——パリの放送局
 
-パリでは、録音した音そのものを素材にする作曲が放送局のスタジオで始まった。ピエール・シェフェール（Pierre Schaeffer）は1948年に、汽車の音を素材にした《鉄道のエチュード》を含む《5つの騒音のエチュード》を作った。[（Maison de la Musique Contemporaine）](https://musiquecontemporaine.org/sites/mmc/files/2026-07/article3_miniencyclopedie_vdef.pdf)ピエール・アンリ（Pierre Henry）の公式サイトによると、シェフェールと詩人ジャン・タルデュー（Jean Tardieu）が推進した「試みのスタジオ」（Studio d'essai）は1949年10月から1958年3月まで活動し、当初の機材は8台のレコード・プレーヤー（再生6、録音2）だった。アンリとシェフェールの《ひとりの男のための交響曲》は1950年3月18日、パリのエコール・ノルマル音楽院で初演された。アンリは1951年に主任に昇格し、その時期に「試みのクラブ」（Club d'essai）は「具体音楽研究グループ」（GRMC）となった。1954年12月には、ヴァレーズ（Edgard Varèse）の《砂漠》のテープの部分の制作に加わっている。アンリは1958年4月、考えの違いからフランス放送協会に解雇された。[（Pierre Henry）](https://pierre-henry.org/studios/studio-dessai?lang=en)
+パリでは、録音した音そのものを素材にする作曲が放送局のスタジオで始まった。ピエール・シェフェール（Pierre Schaeffer）は1948年に、汽車の音を素材にした第2曲《鉄道のエチュード》を含む5曲の《騒音のエチュード》を作り、1948年10月5日に放送した。[（IRCAM, B.R.A.H.M.S.）](https://brahms.ircam.fr/works/work/28232)ピエール・アンリ（Pierre Henry）の公式サイトによると、シェフェールと詩人ジャン・タルデュー（Jean Tardieu）が推進した「試みのスタジオ」（Studio d'essai）で、アンリは1949年10月から1958年3月まで仕事をした。アンリとシェフェールの《ひとりの男のための交響曲》は8台のレコード・プレーヤー（再生6、録音2）で作られ、1950年3月18日、パリのエコール・ノルマル音楽院で初演された。アンリは1951年に主任に昇格し、その時期に「試みのクラブ」（Club d'essai）は「具体音楽研究グループ」（GRMC）となった。1954年12月には、ヴァレーズ（Edgard Varèse）の《砂漠》のテープの部分の制作に加わっている。アンリは1958年4月、考えの違いからフランス放送協会に解雇された。[（Pierre Henry）](https://pierre-henry.org/studios/studio-dessai?lang=en)
 
 ### ケルンの電子音楽スタジオ
 
@@ -183,7 +184,7 @@ sources:
 
 ### カルーソーとアコースティック録音
 
-電気録音以前の録音（アコースティック録音）について、オープン大学の教材は、楽器は金管とピアノに限られがちで、中音域の声（アルトとテノール）が最も適していたこと、編集の手段がなかったことを挙げる。1902年、グラモフォン社の録音技師フレッド・ガイスバーグ（Fred Gaisberg）はミラノでテノールのエンリコ・カルーソー（Enrico Caruso）の10曲を録音した。[（The Open University）](https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section-2.5)EMI アーカイヴ・トラストのブログは、録音がミラノのホテルの一室で行われ、報酬は10曲で100ポンドだったとする。[（EMI Archive Trust）](https://soundofthehound.com/2011/01/16/the-invention-of-the-modern-music-star-in-a-hotel-bedroom-in-milan/)録音の日付と報酬の話には異説がある。
+電気録音以前の録音（アコースティック録音）について、オープン大学の教材は、楽器は金管とピアノに限られがちで、中音域の声（アルトとテノール）が最も適していたこと、編集の手段がなかったことを挙げる。オープン大学の教材は、グラモフォン社の録音技師フレッド・ガイスバーグ（Fred Gaisberg）がテノールのエンリコ・カルーソー（Enrico Caruso）を録音したのを1902年3月とする。[（The Open University）](https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section-2.5)EMI アーカイヴ・トラストのブログは、1902年4月11日、ミラノのグランド・ホテルの一室で10曲を録音し、報酬は100ポンドだったとする。[（EMI Archive Trust）](https://soundofthehound.com/2011/01/16/the-invention-of-the-modern-music-star-in-a-hotel-bedroom-in-milan/)
 
 ### 電気録音（1925年）
 
