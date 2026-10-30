@@ -121,7 +121,7 @@ sources:
 
 ### 1778年のパリ
 
-モーツァルト（Wolfgang Amadeus Mozart）は、幼少の1763年11月18日から1766年5月18日まで、イングランドとオランダを回る旅の一部としてパリに滞在した。1778年3月23日、母とともに再びパリに着いた。パリ・オペラ座の展示の解説は、これを最後の大きな国外旅行と呼ぶ。[（Opéra national de Paris）](https://www.operadeparis.fr/visites/expositions/mozart-une-passion-francaise/les-trois-sejours-de-mozart-en-france)
+モーツァルト（Wolfgang Amadeus Mozart）は幼少期の旅行で、1763年11月18日にパリに着き、イングランドとオランダを回ったのち、1766年5月18日に再びパリに戻った。1778年3月23日、母とともに再びパリに着いた。パリ・オペラ座の展示の解説は、これを最後の大きな国外旅行と呼ぶ。[（Opéra national de Paris）](https://www.operadeparis.fr/visites/expositions/mozart-une-passion-francaise/les-trois-sejours-de-mozart-en-france)
 
 - コンセール・スピリチュエルの監督ルグロ（Joseph Legros）は、モーツァルトが書いた協奏交響曲を取り上げなかった。
 - 1778年6月18日、コンセール・スピリチュエルでニ長調の交響曲 K. 297《パリ》が初演され、好評を得た。モーツァルトの交響曲で初めてクラリネットを用いた曲である。[（interlude.hk）](https://interlude.hk/mozart-symphony-d-major-kv-297-paris-premiered-today-1778/)

@@ -122,7 +122,7 @@ sources:
 
 カヴァコスは2016年の『ストラッド』誌のインタビューで、初稿はシベリウスが実際に何を考えていたか、協奏曲がどう生まれたかについて大きな知識を与えてくれたと語り、それでも改訂稿の方が優れた作品だとして、「この初稿が大失敗だったことを神に感謝する」と言った。[（The Strad / Mellor）](https://thestrad.com/artists/leonidas-kavakos-on-his-ever-deepening-relationship-with-the-sibelius-concerto/7593.article)
 
-ミネソタ管弦楽団では、エリナ・ヴァハラ（Elina Vähälä）がヴァンスカの指揮で、1月7・8日に初稿を、13・14日に改訂稿を弾いた。ヴァハラは「2つを混ぜるのは危険だ」と言い、初稿の第2楽章中間部を「狂ったような半音階のうねり」と呼び、初稿には過去を振り返るような郷愁が絶えずある、と語っている。[（Minnesota Orchestra）](https://www.minnesotaorchestra.org/stories/a-dangerous-feat-reviving-sibelius-hidden-concerto)
+ミネソタ管弦楽団では、エリナ・ヴァハラ（Elina Vähälä）がヴァンスカの指揮で、同じ音楽祭の中の別の日に初稿と改訂稿を弾いた。ヴァハラは「2つを混ぜるのは危険だ」と言い、初稿の第2楽章中間部を「狂ったような半音階のうねり」と呼び、初稿には過去を振り返るような郷愁が絶えずある、と語っている。[（Minnesota Orchestra）](https://www.minnesotaorchestra.org/stories/a-dangerous-feat-reviving-sibelius-hidden-concerto)
 
 ### 普及
 

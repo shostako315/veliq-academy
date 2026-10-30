@@ -113,7 +113,7 @@ sources:
 
 ### 代表的な録音
 
-- アルトゥール・シュナーベル（Artur Schnabel）独奏、マルコム・サージェント（Malcolm Sargent）指揮ロンドン交響楽団（1933年）。ジョン・クイン（John Quinn）は第1楽章を「堂々として威厳がありながら繊細」と評し、独奏が前に出すぎて管弦楽を覆う録音の均衡にも触れている。[（MusicWeb International）](https://musicweb-international.com/classrev/2003/Mar03/Schnabel_naxosbox.htm)
+- アルトゥール・シュナーベル（Artur Schnabel）独奏、マルコム・サージェント（Malcolm Sargent）指揮ロンドン交響楽団（1932年3月24日、ロンドン、アビー・ロード第1スタジオ）。[（MusicWeb International, Naxos 8.110640）](https://www.musicweb-international.com/classrev/2002/jan02/Beethoven_Emperor_Schnabel.htm)ジョン・クイン（John Quinn）は第1楽章を「堂々として威厳がありながら繊細」と評し、独奏が前に出すぎて管弦楽を覆う録音の均衡にも触れている。[（MusicWeb International）](https://musicweb-international.com/classrev/2003/Mar03/Schnabel_naxosbox.htm)
 - ヴィルヘルム・ケンプ（Wilhelm Kempff）独奏、ペーター・ラーベ（Peter Raabe）指揮ベルリン・フィル（1936年1月6日）。[（APR）](https://aprrecordings.co.uk/apr2/showentry.php?id=176)
 - レオン・フライシャー（Leon Fleisher）独奏、ジョージ・セル（George Szell）指揮クリーヴランド管弦楽団（1961年、コロンビア）。[（Enjoy the Music.com）](https://www.enjoythemusic.com/magazine/music/1113/classical/fleisher.htm)
 - エミール・ギレリス（Emil Gilels）独奏、レオポルト・ルートヴィヒ（Leopold Ludwig）指揮フィルハーモニア管弦楽団（第4番と第5番、ワーナー）。[（Gramophone）](https://gramophone.co.uk/feature/the-50-greatest-beethoven-recordings)

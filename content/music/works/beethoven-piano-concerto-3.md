@@ -113,7 +113,7 @@ sources:
 
 ### 代表的な録音
 
-- アルトゥール・シュナーベル（Artur Schnabel）独奏、マルコム・サージェント（Malcolm Sargent）指揮ロンドン・フィルハーモニー管弦楽団（1933年）。ジョン・クイン（John Quinn）は第2楽章の静かな親密さを特に挙げ、終楽章についてはシュナーベルが1945年にジョージ・セル（George Szell）の指揮で弾いたライヴ録音のほうを好むと書いている。[（MusicWeb International）](https://musicweb-international.com/classrev/2003/Mar03/Schnabel_naxosbox.htm)
+- アルトゥール・シュナーベル（Artur Schnabel）独奏、マルコム・サージェント（Malcolm Sargent）指揮ロンドン・フィルハーモニー管弦楽団（1933年）。ジョン・クイン（John Quinn）は第2楽章の冒頭の静かな親密さを特に挙げ、この曲のシュナーベルの演奏としては、1945年にジョージ・セル（George Szell）指揮ニューヨーク・フィルハーモニックと共演したライヴ録音のほうがさらに良いと書いている。[（MusicWeb International）](https://musicweb-international.com/classrev/2003/Mar03/Schnabel_naxosbox.htm)
 - ヴィルヘルム・ケンプ（Wilhelm Kempff）独奏、パウル・ファン・ケンペン（Paul van Kempen）指揮ドレスデン・フィルハーモニー管弦楽団（1942年6月11日）。[（APR）](https://aprrecordings.co.uk/apr2/showentry.php?id=176)
 - レオン・フライシャー（Leon Fleisher）独奏、セル指揮クリーヴランド管弦楽団（1961年、コロンビア）。[（Enjoy the Music.com）](https://www.enjoythemusic.com/magazine/music/1113/classical/fleisher.htm)
 - クリスティアン・ツィマーマン（Krystian Zimerman）独奏、レナード・バーンスタイン（Leonard Bernstein）指揮ウィーン・フィル（ドイツ・グラモフォン、ライヴ）。バーンスタインが生前に録音を終えたのは第3〜5番である。[（Deutsche Grammophon）](https://www.deutschegrammophon.com/en/catalogue/products/beethoven-piano-concertos-zimerman-bernstein-live-performance-video-13121)

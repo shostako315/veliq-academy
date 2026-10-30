@@ -117,7 +117,7 @@ E. T. A. ホフマン（E. T. A. Hoffmann）はこの序曲の評を書いてい
 ### 録音
 
 - ヴィルヘルム・フルトヴェングラー（Wilhelm Furtwängler）の1943〜44年の録音。プリスティン・クラシカルが交響曲第3番とともに復刻している。[（Pristine Classical）](https://pristineclassical.com/products/pasc488)
-- パブロ・エラス＝カサド（Pablo Heras-Casado）指揮フライブルク・バロック・オーケストラ（ハルモニア・ムンディ）。ピアノ協奏曲第4番（独奏クリスティアン・ベザイデンホウト（Kristian Bezuidenhout））、《プロメテウスの創造物》序曲と組み合わせた盤。グラモフォン誌の評は、この《コリオラン》に「飛びかかろうとする豹の不気味な優雅さ」があると書いている。[（Gramophone）](https://gramophone.co.uk/review/beethoven-piano-concerto-no-4-overtures-kristian-bezuidenhout)1807年3月のロプコヴィッツ邸の演奏会で並んだ2曲を、1枚に収めた録音でもある。
+- パブロ・エラス＝カサド（Pablo Heras-Casado）指揮フライブルク・バロック・オーケストラ（ハルモニア・ムンディ）。ピアノ協奏曲第4番（独奏クリスティアン・ベザイデンホウト（Kristian Bezuidenhout））、《プロメテウスの創造物》序曲と組み合わせた盤。グラモフォン誌の評は、この《コリオラン》に「飛びかかろうとする豹の不気味な優雅さ」があると書いている。[（Gramophone）](https://gramophone.co.uk/review/beethoven-piano-concerto-no-4-overtures-kristian-bezuidenhout)
 
 ## もっと深く
 

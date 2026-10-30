@@ -47,7 +47,7 @@ sources:
 
 ### 1808年12月22日の公開演奏
 
-公開の演奏は1808年12月22日、アン・デア・ウィーン劇場でのベートーヴェンの演奏会で、作曲者自身の独奏によって行われた。[（Boston Symphony Orchestra）](https://bso.org/works/piano-concerto-no-4)同じ演奏会では交響曲第5番と第6番、アリア《ああ、不実な人よ》、ハ長調ミサ曲の一部が演奏され、最後に合唱幻想曲 作品80が初演された。[（Henle HN 9546 序文）](https://www.henle.de/media/b7/f5/79/1690899701/9546-1690899701-sync.pdf)セントルイス交響楽団の解説は、これがベートーヴェンが自ら初演した最後の協奏曲であり、耳の病が進んでいたためこの日の演奏は不安定だったと書いている。[（St. Louis Symphony Orchestra）](https://slso.org/beethovens-fourth-piano-concerto-november-3-5-2023/)キューテンは、ベートーヴェンが生前この曲を弾いたのは2回だけで、ウィーンで次に演奏されたのは1830年だったとしている。
+公開の演奏は1808年12月22日、アン・デア・ウィーン劇場でのベートーヴェンの演奏会で、作曲者自身の独奏によって行われた。[（Boston Symphony Orchestra）](https://bso.org/works/piano-concerto-no-4)同じ演奏会では交響曲第5番と第6番、アリア《ああ、不実な人よ》、ハ長調ミサ曲の一部が演奏され、最後に合唱幻想曲 作品80が初演された。[（Henle HN 9546 序文）](https://www.henle.de/media/b7/f5/79/1690899701/9546-1690899701-sync.pdf)セントルイス交響楽団の解説は、これがベートーヴェンが自ら初演した最後の協奏曲であり、耳の病が進んでいたためこの日の演奏は不安定だったと書いている。[（St. Louis Symphony Orchestra）](https://slso.org/beethovens-fourth-piano-concerto-november-3-5-2023/)キューテンは、ベートーヴェンの生前にこの曲が演奏されたのは2度だけで、2度とも作曲者自身の独奏だったとし、ウィーンで次に演奏されたのは1830年だったとしている。[（Breitkopf PB 14620 序文）](https://www.breitkopf.com/assets/pdf/8196_VORWORT_PB%2014620Vw.pdf)
 
 ### 室内楽版（1807年）
 

@@ -30,7 +30,7 @@ sources:
 
 ### 1854年の素材
 
-アルベルト・ディートリヒ（Albert Dietrich）は1901年1月の回想で、第2楽章の葬送行進曲が、1854年に書かれて放棄された2台ピアノのためのソナタの、サラバンドのテンポの「遅いスケルツォ」から出たと伝えている。[（Henle 序文）](https://www.henle.de/media/32/ca/e4/1697725837/9029-1697725837-sync.pdf)このソナタの別の素材は、交響曲への改作の試みを経て、ピアノ協奏曲第1番 作品15になった。[（Dresdner Philharmonie 2019）](https://slub.qucosa.de/en/api/qucosa%3A78280/attachment/ATT-0/)ボストン交響楽団の解説は、1854年2月のロベルト・シューマン（Robert Schumann）の自殺未遂の数日後に、ブラームスがこの作品の最初の素材をスケッチしたとしている。[（Boston Symphony / Swafford）](https://www.bso.org/works/a-german-requiem)
+アルベルト・ディートリヒ（Albert Dietrich）は1901年1月の回想で、第2楽章の葬送行進曲が、1854年に書かれて放棄された2台ピアノのためのソナタの、サラバンドのテンポの「遅いスケルツォ」から出たと伝えている。[（Henle 序文）](https://www.henle.de/media/32/ca/e4/1697725837/9029-1697725837-sync.pdf)このソナタの別の素材は、交響曲への改作の試みを経て、ピアノ協奏曲第1番 作品15になった。[（Dresdner Philharmonie 2019）](https://slub.qucosa.de/en/api/qucosa%3A78280/attachment/ATT-0/)ボストン交響楽団の解説は、1854年2月のロベルト・シューマン（Robert Schumann）の自殺未遂から数日のうちに、ブラームスがこの2台ピアノのソナタの3つの楽章をスケッチしていたと書いている。[（Boston Symphony / Swafford）](https://www.bso.org/works/a-german-requiem)
 
 ### 作曲（1865〜1866年）
 

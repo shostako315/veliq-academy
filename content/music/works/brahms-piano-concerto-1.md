@@ -37,7 +37,7 @@ sources:
 
 この協奏曲の素材は、1854年初めに2台のピアノのためのソナタとして書き始められた。ブラームスは3つの楽章を書いたが、2台ピアノの響きに満足せず、これを管弦楽に移して交響曲にしようとした。その計画も途中でやめ、素材は最終的に協奏曲に入った。[（Dresdner Philharmonie 2019）](https://slub.qucosa.de/en/api/qucosa%3A78280/attachment/ATT-0/)ピッツバーグ交響楽団の解説は、1854年にニ短調の交響曲の3楽章を略式の総譜で書き、第1楽章を管弦楽化したが満足せず、続いて2台ピアノのソナタを試みたと、順序を逆に書いている。[（Pittsburgh Symphony）](https://assets.culturaldistrict.org/culturaldistrict/system/assets/8446/original/Brahms.pdf)どちらの順序でも、ソナタ、交響曲、協奏曲という3つの形の間を行き来したことに変わりはない。
 
-この年の2月26日、ロベルト・シューマン（Robert Schumann）はライン川に身を投げて自殺を図り、その後エンデニヒの療養所に入った。シューマンは2年後にそこで亡くなる。[（Purdue / Laki）](https://convocations.purdue.edu/st-petersburg-philharmonic-orchestra-program-notes)ブラームスはデュッセルドルフに移り、クララ・シューマン（Clara Schumann）と子どもたちを支えた。[（MusicWeb / Serotsky）](https://musicweb-international.com/programme_notes/brahms_pianconc1.htm)最初の伝記作家マックス・カルベック（Max Kalbeck）は第1楽章をシューマンの自殺未遂と結びつけたが、これは推測の域を出ない。[（Dresdner Philharmonie 2019）](https://slub.qucosa.de/en/api/qucosa%3A78280/attachment/ATT-0/)
+この年の2月27日、ロベルト・シューマン（Robert Schumann）はライン川に身を投げて自殺を図った。[（BBC Music Magazine）](https://www.classical-music.com/features/composers/schumann-in-crisis-the-great-composers-suicide-attempt)その後エンデニヒの療養所に入り、2年後にそこで亡くなる。[（Purdue / Laki）](https://convocations.purdue.edu/st-petersburg-philharmonic-orchestra-program-notes)ブラームスはデュッセルドルフに移り、クララ・シューマン（Clara Schumann）と子どもたちを支えた。[（MusicWeb / Serotsky）](https://musicweb-international.com/programme_notes/brahms_pianconc1.htm)最初の伝記作家マックス・カルベック（Max Kalbeck）は第1楽章をシューマンの自殺未遂と結びつけたが、これは推測の域を出ない。[（Dresdner Philharmonie 2019）](https://slub.qucosa.de/en/api/qucosa%3A78280/attachment/ATT-0/)
 
 ### 協奏曲への転換
 
@@ -111,7 +111,7 @@ sources:
 
 エピソードのひとつはフーガで、ブラームスのバッハ研究の跡とされる。セロツキーは楽章の配置を A1-B1-A2-B2-フーガ-A3-B3-カデンツァ-コーダと整理し、フーガが A と B をつなぎ、全体がソナタ形式の配置も思わせるとしている。[（MusicWeb / Serotsky）](https://musicweb-international.com/programme_notes/brahms_pianconc1.htm)ピッツバーグ交響楽団の解説は、この楽章の型をベートーヴェンのピアノ協奏曲第3番の終楽章と比べている。
 
-楽章の終わり近くに短いカデンツァが書き込まれ、ニ長調のコーダに入る。[（Pittsburgh Symphony）](https://assets.culturaldistrict.org/culturaldistrict/system/assets/8446/original/Brahms.pdf)カデンツァは名人芸の見せ場ではなく、曲の流れの中で必要な箇所として書かれている。
+楽章の終わり近くに短いカデンツァが書き込まれ、ニ長調のコーダに入る。[（Pittsburgh Symphony）](https://assets.culturaldistrict.org/culturaldistrict/system/assets/8446/original/Brahms.pdf)
 
 ## 演奏史と解釈
 
@@ -130,7 +130,7 @@ sources:
 - クリフォード・カーゾン（Clifford Curzon）独奏、ジョージ・セル（George Szell）指揮 ロンドン交響楽団（1962年5月30日〜6月1日、ロンドン、キングズウェイ・ホール、Decca。プロデューサーはジョン・カルショウ、エンジニアはケネス・ウィルキンソン）。[（High Def Tape Transfers）](https://cdn.shopify.com/s/files/1/0778/3319/files/Brahms_PC_1_Curzon_Szell_LSO.pdf?13)
 - エミール・ギレリス（Emil Gilels）独奏、オイゲン・ヨッフム（Eugen Jochum）指揮 ベルリン・フィルハーモニー管弦楽団（DG、1972〜75年録音、第2番と組み）。[（Gramophone）](https://gramophone.co.uk/articles/the-50-best-johannes-brahms-albums)
 - スティーヴン・コヴァセヴィチ（Stephen Kovacevich）独奏、コリン・デイヴィス（Colin Davis）指揮 ロンドン交響楽団（1979年・1983年録音、2曲の協奏曲）。[（Gramophone）](https://gramophone.co.uk/articles/the-50-best-johannes-brahms-albums)
-- ネルソン・フレイレ（Nelson Freire）独奏、リッカルド・シャイー（Riccardo Chailly）指揮 ライプツィヒ・ゲヴァントハウス管弦楽団（Decca、2005〜06年ライヴ）。初演の失敗の地の楽団による録音である。[（Gramophone）](https://gramophone.co.uk/articles/the-50-best-johannes-brahms-albums)
+- ネルソン・フレイレ（Nelson Freire）独奏、リッカルド・シャイー（Riccardo Chailly）指揮 ライプツィヒ・ゲヴァントハウス管弦楽団（Decca、2005〜06年ライヴ）。[（Gramophone）](https://gramophone.co.uk/articles/the-50-best-johannes-brahms-albums)
 - アンドラーシュ・シフ（András Schiff）独奏・指揮 エイジ・オブ・インライトゥンメント管弦楽団（ECM New Series）。修復された1859年製ブリュートナーのピアノを使う。[（Gramophone）](https://gramophone.co.uk/articles/the-50-best-johannes-brahms-albums)
 
 ## もっと深く
