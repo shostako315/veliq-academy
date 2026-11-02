@@ -33,11 +33,12 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "veliq-academy"
 DATA = OUT / "data"
 SITE = "https://veliq-academy.com"
-QUIZ_BANK = ROOT.parent / "veliq-club" / "quiz-bank.js"
+QUIZ_BANK = next((p / "veliq-club" / "quiz-bank.js" for p in ROOT.parents if (p / "veliq-club" / "quiz-bank.js").exists()),
+                 ROOT.parent / "veliq-club" / "quiz-bank.js")
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "4"
+CSS_V = "5"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
@@ -61,6 +62,22 @@ SECTIONS = [
 SEC_NAME = dict(SECTIONS)
 DATA_SECTIONS = {"works", "composers", "eras", "concepts", "timeline"}
 ARTICLE_SECTIONS = [s for s, _ in SECTIONS if s not in ("timeline",)]
+
+# 美術学科（記事だけ）。content/art/<section>/<slug>.md → /art/<section>/<slug>/
+ART_SECTIONS = [
+    ("western", "西洋美術"),
+    ("japan", "日本美術"),
+    ("sculpture-architecture", "彫刻と建築"),
+    ("museums", "美術館"),
+]
+ART_SEC_NAME = dict(ART_SECTIONS)
+FACULTIES = [("music", "音楽"), ("art", "美術")]
+FAC_NAME = dict(FACULTIES)
+FAQ_TITLE = "よくある質問"
+
+
+def sec_name(fac, s):
+    return (ART_SEC_NAME if fac == "art" else SEC_NAME).get(s, s)
 
 GENRE = {"symphony": "交響曲", "concerto": "協奏曲", "piano": "ピアノ曲", "keyboard": "鍵盤曲", "chamber": "室内楽",
          "opera": "オペラ", "orchestral": "管弦楽", "vocal": "声楽", "sonata": "ソナタ", "choral": "合唱"}
@@ -135,10 +152,16 @@ class Site:
     # ---- 記事
     def load_articles(self, content_dir):
         arts = {}
-        base = Path(content_dir) / "music"
-        if not base.is_dir():
-            return arts
         mdconv = markdown.Markdown(extensions=["tables", "sane_lists", "fenced_code"])
+        for fac, _ in FACULTIES:
+            base = Path(content_dir) / fac
+            if not base.is_dir():
+                continue
+            self.load_faculty(arts, fac, base, mdconv)
+        return arts
+
+    def load_faculty(self, arts, fac, base, mdconv):
+        allowed = ARTICLE_SECTIONS if fac == "music" else [s for s, _ in ART_SECTIONS]
         for p in sorted(base.glob("*/*.md")):
             raw = p.read_text(encoding="utf-8")
             m = re.match(r"^---\s*\n(.*?)\n---\s*\n?(.*)$", raw, re.S)
@@ -158,8 +181,8 @@ class Site:
             if sec != p.parent.name:
                 warn(f"{p}: section「{sec}」がフォルダ名と違います。フォルダ名「{p.parent.name}」を使います")
                 sec = p.parent.name
-            if sec not in ARTICLE_SECTIONS:
-                warn(f"{p}: section「{sec}」は使えません（{', '.join(ARTICLE_SECTIONS)}）。飛ばします")
+            if sec not in allowed:
+                warn(f"{p}: section「{sec}」は使えません（{', '.join(allowed)}）。飛ばします")
                 continue
             if not re.match(r"^[a-z0-9][a-z0-9-]*$", slug):
                 warn(f"{p}: slug「{slug}」は英小文字・数字・ハイフンにしてください。飛ばします")
@@ -175,7 +198,9 @@ class Site:
             # 本文中の外部リンク（出典）は新しいタブで開く
             body = re.sub(r'<a href="(https?://[^"]+)">', r'<a href="\1" target="_blank" rel="noopener">', body)
             body = re.sub(r"<h1>.*?</h1>\s*", "", body, flags=re.S)  # 題名は前付けから出す
-            body = re.sub(r"(<table>.*?</table>)", r'<div class="va-tbl">\1</div>', body, flags=re.S)
+            body = re.sub(r"(<table>.*?</table>)", r'<div class="va-tbl tbl">\1</div>', body, flags=re.S)
+            body, toc = number_headings(body)
+            fm["toc"] = toc
             srcs = fm.get("sources") or []
             if isinstance(srcs, str):
                 srcs = [srcs]
@@ -189,13 +214,16 @@ class Site:
                     warn(f"{p}: concert「{cid}」は data/veliq-events.json にありません")
             if fm.get("composer") and fm["composer"] not in self.C:
                 warn(f"{p}: composer「{fm['composer']}」は data/composers.json にありません")
-            fm.update(section=sec, slug=slug, html=body, file=str(p))
+            fm.update(section=sec, slug=slug, html=body, file=str(p), faculty=fac,
+                      path=f"/{fac}/{sec}/{slug}/")
             arts[(sec, slug)] = fm
-        return arts
 
     def arts_in(self, sec):
         a = [v for (s, _), v in self.articles.items() if s == sec]
         return sorted(a, key=lambda x: (str(x.get("updated", "")), x["slug"]), reverse=True)
+
+    def arts_of(self, fac):
+        return [v for v in self.articles.values() if v["faculty"] == fac]
 
     # ---- アプリの4択
     def load_quiz(self):
@@ -211,7 +239,7 @@ class Site:
             warn(f"quiz-bank.js が読めません（{e}）")
             return q
         topics = [t for t in bank.get("topics", []) if t.get("field") == "music"]
-        q["topics"] = {t["key"]: t for t in topics}
+        q["topics"] = {t["key"]: t for t in bank.get("topics", []) if t.get("key")}
         for c in self.composers:
             nm = self.surname(c)
             best, best_n = None, 0
@@ -228,8 +256,8 @@ class Site:
                 q["composer"][c["id"]] = best
         return q
 
-    def quiz_for(self, composer_id=None, era_id=None):
-        t = self.quiz["composer"].get(composer_id) if composer_id else None
+    def quiz_for(self, composer_id=None, era_id=None, key=None):
+        t = key or (self.quiz["composer"].get(composer_id) if composer_id else None)
         if not t and era_id:
             t = ERA_QUIZ.get(era_id)
         return self.quiz["topics"].get(t) if t else None
@@ -257,6 +285,74 @@ class Site:
     def life(self, c):
         b, d = c.get("born"), c.get("died")
         return f"{b}–{d}" if d else f"{b}–"
+
+
+# ---------------------------------------------------------------- 記事本文の整形
+_HTAG = re.compile(r"<h([23])>(.*?)</h\1>", re.S)
+
+
+def _plain(s):
+    return html.unescape(re.sub(r"<[^>]+>", "", s)).strip()
+
+
+def number_headings(body):
+    """h2 に 1、h3 に 1-1 の番号と id を付け、目次の一覧を返す。「よくある質問」は番号なしで囲む。
+    目次は最初の h2 の直前（＝リード文と要約表の後）に置く"""
+    toc, n2, n3 = [], 0, 0
+    out, pos, faq_start = [], 0, None
+    for m in _HTAG.finditer(body):
+        lv, inner = m.group(1), m.group(2)
+        text = _plain(inner)
+        if lv == "2" and text == FAQ_TITLE:
+            faq_start = len("".join(out)) + (m.start() - pos)
+            out.append(body[pos:m.start()])
+            out.append(f'<h2 id="faq">{inner}</h2>')
+            pos = m.end()
+            toc.append(("faq", "", text, 2))
+            continue
+        if faq_start is not None:
+            continue
+        if lv == "2":
+            n2 += 1
+            n3 = 0
+            num, hid = f"{n2}", f"s{n2}"
+        else:
+            if n2 == 0:
+                continue
+            n3 += 1
+            num, hid = f"{n2}-{n3}", f"s{n2}-{n3}"
+        out.append(body[pos:m.start()])
+        out.append(f'<h{lv} id="{hid}"><span class="va-n">{num}</span>{inner}</h{lv}>')
+        pos = m.end()
+        toc.append((hid, num, text, int(lv)))
+    out.append(body[pos:])
+    body = "".join(out)
+    if faq_start is not None:
+        body = body[:faq_start] + '<section class="va-faq">' + body[faq_start:] + "</section>"
+        # 質問（h3）と答え
+        body = re.sub(r'(<section class="va-faq">.*)', lambda m: re.sub(r"<h3>(.*?)</h3>", r'<h3 class="va-q">\1</h3>', m.group(1), flags=re.S), body, flags=re.S)
+    if toc:
+        first = re.search(r'<h2 id="', body)
+        if first:
+            body = body[:first.start()] + toc_html(toc) + body[first.start():]
+    return body, toc
+
+
+def toc_html(toc):
+    li = ""
+    for hid, num, text, lv in toc:
+        cls = ' class="l3"' if lv == 3 else ""
+        nn = f'<span class="va-n">{num}</span>' if num else ""
+        li += f'<li{cls}><a href="#{hid}">{nn}{esc(text)}</a></li>'
+    return f'<nav class="va-toc" aria-label="目次"><p class="va-toc-h">目次</p><ol>{li}</ol></nav>'
+
+
+def tagline(fac, cat, updated):
+    """題名の下：分野のタグと更新日"""
+    h = f'<p class="va-tag"><a class="va-chip" href="/{fac}/{cat[0]}/">{esc(cat[1])}</a>' if cat else '<p class="va-tag">'
+    if updated:
+        h += f'<time datetime="{esc(updated)}">更新 {esc(updated)}</time>'
+    return h + "</p>"
 
 
 # ---------------------------------------------------------------- ページの部品
@@ -292,12 +388,17 @@ def head(title, desc, path, ld, og_type="article", noindex=False):
 def header(S, cur):
     nav = [("/music/works/", "作品", "works"), ("/music/composers/", "作曲家", "composers"),
            ("/music/eras/", "時代", "eras"), ("/music/timeline/", "年表", "timeline")]
+    if S.arts_of("art"):
+        nav = [("/music/", "音楽", "music"), ("/art/", "美術", "art")] + nav
     g = "".join(f'<a href="{h}"{" class=\"on\"" if c == cur else ""}>{t}</a>' for h, t, c in nav)
     g += f'<a class="pill" href="/concerts/">演奏会</a>'
     music = [("/music/", "音楽学科のトップ", "music")] + [
         (f"/music/{s}/", n, s) for s, n in SECTIONS
         if s in DATA_SECTIONS or S.arts_in(s)]
     ml = "".join(f'<a href="{h}"{" class=\"on\"" if c == cur else ""}>{esc(t)}</a>' for h, t, c in music)
+    art = [("/art/", "美術学科のトップ", "art")] + [(f"/art/{s}/", n, s) for s, n in ART_SECTIONS if S.arts_in(s)]
+    al = "".join(f'<a href="{h}"{" class=\"on\"" if c == cur else ""}>{esc(t)}</a>' for h, t, c in art)
+    ag = f'<div class="mg"><div class="mh">美術</div><div class="ml">{al}</div></div>\n  ' if S.arts_of("art") else ""
     cl = "".join(f'<a href="/concerts/{esc(e["id"])}/">{esc(e["title"])}</a>' for e in S.events)
     return f"""<body>
 <a class="va-skip" href="#main">本文へ</a>
@@ -310,7 +411,7 @@ def header(S, cur):
 </header>
 <div class="menu" id="navMenu">
   <div class="mg"><div class="mh">音楽</div><div class="ml">{ml}</div></div>
-  <div class="mg"><div class="mh">演奏会</div><div class="ml"><a href="/concerts/">演奏会の一覧</a>{cl}</div></div>
+  {ag}<div class="mg"><div class="mh">演奏会</div><div class="ml"><a href="/concerts/">演奏会の一覧</a>{cl}</div></div>
   <a class="mcta" href="{CLUB}">Veliq Club に入会する</a>
   <div class="mfoot">運営：{PUBLISHER}<br>監修：{SUPERVISOR}</div>
 </div>
@@ -320,11 +421,16 @@ def header(S, cur):
 def footer(S, extra_js=""):
     music = "".join(f'<a href="/music/{s}/">{esc(n)}</a>' for s, n in SECTIONS if s in DATA_SECTIONS or S.arts_in(s))
     conc = "".join(f'<a href="/concerts/{esc(e["id"])}/">{esc(e["title"])}</a>' for e in S.events)
+    art = ""
+    if S.arts_of("art"):
+        art = '<div><h4>美術</h4><a href="/art/">美術学科のトップ</a>' + "".join(
+            f'<a href="/art/{s}/">{esc(n)}</a>' for s, n in ART_SECTIONS if S.arts_in(s)) + "</div>\n      "
     return f"""<footer class="gf">
   <div class="wrap">
     <div class="gf-cols">
       <div><div class="gf-brand">Veliq <b>Academy</b></div><p class="va-gfp">運営：{PUBLISHER}<br>監修：{SUPERVISOR}（{SUPERVISOR_ROLE}）</p></div>
       <div><h4>音楽</h4><a href="/music/">音楽学科のトップ</a>{music}</div>
+      {art}
       <div><h4>演奏会</h4><a href="/concerts/">演奏会の一覧</a>{conc}<a href="{VO}">VariOrchestra</a></div>
       <div><h4>Veliq</h4><a href="{CLUB}">Veliq Club</a><a href="https://veliq-jp.shostako315.workers.dev/">VELIQ</a><a href="/privacy.html">プライバシーポリシー</a><a href="mailto:info@variorchestra.com">お問い合わせ</a></div>
     </div>
@@ -588,6 +694,7 @@ def build_work(S, wid):
     t = tail(S, v["path"], (a or {}).get("sources"), rel, v["events"], quiz)
     sub = (w or {}).get("titleEn") if w else ""
     hd = f'<header class="va-hd"><h1>{esc(v["title"])}</h1>' + (f'<p class="va-en" lang="en">{esc(sub)}</p>' if sub else "") + \
+        tagline("music", ("works", SEC_NAME["works"]), v["updated"]) + \
         (f'<p class="va-lede">{esc(v["desc"])}</p>' if v["desc"] else "") + '</header>'
     comp = {"@context": "https://schema.org", "@type": "MusicComposition", "name": v["title"], "url": url_of(v["path"]),
             "inLanguage": "ja"}
@@ -642,6 +749,7 @@ def build_composer(S, c):
     t = tail(S, path, (a or {}).get("sources"), rel, evs, quiz)
     desc = (a or {}).get("summary") or c.get("shortBio") or c["name"]
     hd = f'<header class="va-hd"><h1>{esc((a or {}).get("title") or c["name"])}</h1><p class="va-en" lang="en">{esc(c.get("nameEn"))}（{S.life(c)}）</p>' + \
+        tagline("music", ("composers", SEC_NAME["composers"]), (a or {}).get("updated")) + \
         f'<p class="va-lede">{esc(desc)}</p></header>'
     person = {"@context": "https://schema.org", "@type": "Person", "@id": url_of(path) + "#person", "name": c["name"],
               "alternateName": c.get("nameEn"), "url": url_of(path)}
@@ -692,7 +800,8 @@ def build_era(S, e, i):
     t = tail(S, path, (a or {}).get("sources"), rel, [S.EV[x] for x in (a or {}).get("concert", []) if x in S.EV],
              S.quiz_for(None, e["id"]))
     desc = (a or {}).get("summary") or e.get("shortDescription") or e["name"]
-    hd = f'<header class="va-hd"><h1>{esc((a or {}).get("title") or e["name"])}</h1><p class="va-lede">{esc(desc)}</p></header>'
+    hd = f'<header class="va-hd"><h1>{esc((a or {}).get("title") or e["name"])}</h1>' + tagline("music", ("eras", SEC_NAME["eras"]), (a or {}).get("updated")) + \
+        f'<p class="va-lede">{esc(desc)}</p></header>'
     ld = [article_ld(e["name"], desc, path, (a or {}).get("updated")), bld]
     page(S, path, f'{e["name"]}（{e.get("period", "")}）', desc, bc + f'<article class="va-art">{hd}{meta}{body}{t}</article>', ld, "eras",
          (a or {}).get("updated"))
@@ -714,7 +823,8 @@ def build_concept(S, k):
     t = tail(S, path, (a or {}).get("sources"), rel, [S.EV[x] for x in (a or {}).get("concert", []) if x in S.EV], None)
     desc = (a or {}).get("summary") or k.get("shortDescription") or k["title"]
     hd = f'<header class="va-hd"><h1>{esc((a or {}).get("title") or k["title"])}</h1>' + \
-        (f'<p class="va-en" lang="en">{esc(k["titleEn"])}</p>' if k.get("titleEn") else "") + f'<p class="va-lede">{esc(desc)}</p></header>'
+        (f'<p class="va-en" lang="en">{esc(k["titleEn"])}</p>' if k.get("titleEn") else "") + \
+        tagline("music", ("concepts", SEC_NAME["concepts"]), (a or {}).get("updated")) + f'<p class="va-lede">{esc(desc)}</p></header>'
     ld = [article_ld(k["title"], desc, path, (a or {}).get("updated")), bld]
     page(S, path, k["title"], desc, bc + f'<article class="va-art">{hd}{meta}{body}{t}</article>', ld, "concepts",
          (a or {}).get("updated"))
@@ -722,25 +832,28 @@ def build_concept(S, k):
 
 def build_article(S, a):
     """作品・作曲家・時代・概念以外の分野の記事"""
-    sec_ = a["section"]
-    path = f'/music/{sec_}/{a["slug"]}/'
-    bc, bld = crumbs([("トップ", "/"), ("音楽", "/music/"), (SEC_NAME[sec_], f"/music/{sec_}/"), (a["title"], path)])
+    sec_, fac = a["section"], a["faculty"]
+    path = a["path"]
+    sn = sec_name(fac, sec_)
+    bc, bld = crumbs([("トップ", "/"), (FAC_NAME[fac], f"/{fac}/"), (sn, f"/{fac}/{sec_}/"), (a["title"], path)])
     c = S.C.get(a.get("composer"))
     era = S.E.get(a.get("era"))
     meta = meta_dl([("作曲家", f'<a href="/music/composers/{esc(c["id"])}/">{esc(c["name"])}</a>' if c else ""),
-                    ("時代", f'<a href="/music/eras/{esc(era["id"])}/">{esc(era["name"])}</a>' if era else ""),
-                    ("更新", esc(a.get("updated")))])
+                    ("時代", f'<a href="/music/eras/{esc(era["id"])}/">{esc(era["name"])}</a>' if era else "")])
     body = f'<div class="va-body">{a["html"]}</div>'
     rel = []
     if c:
         rel.append(("作曲家", [(f'/music/composers/{c["id"]}/', c["name"], S.life(c))]))
     others = [x for x in S.arts_in(sec_) if x["slug"] != a["slug"]]
     if others:
-        rel.append((f"{SEC_NAME[sec_]}のほかの記事", [(f'/music/{sec_}/{x["slug"]}/', x["title"], x.get("summary", "")) for x in others[:8]]))
-    quiz = S.quiz_for(a.get("composer"), a.get("era") or (c or {}).get("era"))
+        rel.append((f"{sn}のほかの記事", [(x["path"], x["title"], x.get("summary", "")) for x in others[:8]]))
+    quiz = S.quiz_for(a.get("composer"), a.get("era") or (c or {}).get("era"), a.get("quiz"))
+    if a.get("quiz") and not quiz:
+        warn(f'{a["file"]}: quiz「{a["quiz"]}」は quiz-bank.js にありません')
     t = tail(S, path, a.get("sources"), rel, [S.EV[x] for x in a.get("concert", []) if x in S.EV], quiz)
     desc = a.get("summary") or a["title"]
-    hd = f'<header class="va-hd"><h1>{esc(a["title"])}</h1>' + (f'<p class="va-lede">{esc(a["summary"])}</p>' if a.get("summary") else "") + '</header>'
+    hd = f'<header class="va-hd"><h1>{esc(a["title"])}</h1>' + tagline(fac, (sec_, sn), a.get("updated")) + \
+        (f'<p class="va-lede">{esc(a["summary"])}</p>' if a.get("summary") else "") + '</header>'
     ld = [article_ld(a["title"], desc, path, a.get("updated")), bld]
     page(S, path, a["title"], desc, bc + f'<article class="va-art">{hd}{meta}{body}{t}</article>', ld, sec_, a.get("updated"))
 
@@ -791,8 +904,42 @@ def build_indexes(S):
         path = f"/music/{s}/"
         bc, bld = crumbs([("トップ", "/"), ("音楽", "/music/"), (n, path)])
         page(S, path, n, f"{n}の記事の一覧。", bc + f'<header class="va-hd"><h1>{esc(n)}</h1></header>' +
-             rows([(f'/music/{s}/{a["slug"]}/', a["title"], a.get("summary")) for a in arts]), [bld], s,
+             rows([(a["path"], a["title"], a.get("summary")) for a in arts]), [bld], s,
              max(str(a.get("updated", "")) for a in arts) or None)
+
+
+def build_art(S):
+    """美術学科のトップと分野の一覧（記事があるときだけ）"""
+    if not S.arts_of("art"):
+        return
+    for s, n in ART_SECTIONS:
+        arts = S.arts_in(s)
+        if not arts:
+            continue
+        path = f"/art/{s}/"
+        bc, bld = crumbs([("トップ", "/"), ("美術", "/art/"), (n, path)])
+        page(S, path, n, f"{n}の記事の一覧。", bc + f'<header class="va-hd"><h1>{esc(n)}</h1></header>' +
+             rows([(a["path"], a["title"], a.get("summary")) for a in arts]), [bld], s,
+             max(str(a.get("updated", "")) for a in arts) or None)
+    path = "/art/"
+    bc, bld = crumbs([("トップ", "/"), ("美術", path)])
+    h = ""
+    news = sorted(S.arts_of("art"), key=lambda a: (str(a.get("updated", "")), a["title"]), reverse=True)[:8]
+    if news:
+        h += sec("新着", rows([(a["path"], a["title"], f'{ART_SEC_NAME[a["section"]]}・{a.get("updated", "")}' if a.get("updated") else ART_SEC_NAME[a["section"]])
+                             for a in news]))
+    for s, n in ART_SECTIONS:
+        arts = S.arts_in(s)
+        if not arts:
+            continue
+        items = [(a["path"], a["title"], a.get("summary")) for a in arts]
+        more = f'<a class="va-more" href="/art/{s}/">すべて見る</a>' if len(items) > 6 else ""
+        h += f'<section class="va-sec"><div class="va-shd"><h2>{esc(n)}</h2>{more}</div>{rows(items[:6])}</section>'
+    desc = "西洋美術・日本美術・彫刻と建築・美術館。作家・作品・所蔵館を出典つきで解説する。監修：佐藤瑛吾。"
+    ld = [bld, {"@context": "https://schema.org", "@type": "CollectionPage", "name": "美術", "url": url_of(path), "inLanguage": "ja",
+                "publisher": {"@type": "Organization", "name": PUBLISHER}}]
+    page(S, path, "美術", desc, bc + f'<header class="va-hd"><h1>美術</h1><p class="va-lede">{esc(desc)}</p></header>' + h,
+         ld, "art", max(str(a.get("updated", "")) for a in S.arts_of("art")) or None, og="website")
 
 
 def build_timeline(S):
@@ -842,7 +989,7 @@ def build_concerts(S):
              f'<li><div><span><b>{esc(t)}</b></span></div></li>') for h, t, s in prog) + "</ul>"
         tu, tl = ticket_url(e)
         arts = [a for a in S.articles.values() if e["id"] in a.get("concert", [])]
-        prep = rows([(f'/music/{a["section"]}/{a["slug"]}/', a["title"], SEC_NAME[a["section"]]) for a in arts])
+        prep = rows([(a["path"], a["title"], sec_name(a["faculty"], a["section"])) for a in arts])
         comps = []
         for it in e.get("program", []):
             c = S.C.get(it.get("composerId"))
@@ -898,9 +1045,9 @@ def build_music(S):
     path = "/music/"
     bc, bld = crumbs([("トップ", "/"), ("音楽", path)])
     h = ""
-    news = sorted(S.articles.values(), key=lambda a: (str(a.get("updated", "")), a["title"]), reverse=True)[:8]
+    news = sorted(S.arts_of("music"), key=lambda a: (str(a.get("updated", "")), a["title"]), reverse=True)[:8]
     if news:
-        h += sec("新着", rows([(f'/music/{a["section"]}/{a["slug"]}/', a["title"],
+        h += sec("新着", rows([(a["path"], a["title"],
                               f'{SEC_NAME[a["section"]]}・{a.get("updated", "")}' if a.get("updated") else SEC_NAME[a["section"]])
                              for a in news]))
     for s, n in SECTIONS:
@@ -920,17 +1067,22 @@ def build_music(S):
 def build_home(S):
     path = "/"
     nw = len(all_work_ids(S))
-    na = len(S.articles)
+    na = len(S.arts_of("music"))
     sub = f"作曲家{len(S.composers)}人・作品{nw}曲・時代・形式と概念・年表" + (f"・記事{na}本" if na else "")
+    arts = S.arts_of("art")
+    lede = "音楽と美術の作品・作家・時代を解説する学習サイトです。" if arts else "音楽の作品・作曲家・時代を解説する学習サイトです。"
     h = '<header class="va-hd va-home"><h1>Veliq <span class="va-gold">Academy</span></h1>' + \
-        f'<p class="va-lede">音楽の作品・作曲家・時代を解説する学習サイトです。監修：{SUPERVISOR}（{SUPERVISOR_ROLE}）。運営：{PUBLISHER}。</p></header>'
-    h += sec("学科", rows([("/music/", "音楽", sub)]))
+        f'<p class="va-lede">{lede}監修：{SUPERVISOR}（{SUPERVISOR_ROLE}）。運営：{PUBLISHER}。</p></header>'
+    fac_rows = [("/music/", "音楽", sub)]
+    if arts:
+        fac_rows.append(("/art/", "美術", "・".join(n for s, n in ART_SECTIONS if S.arts_in(s)) + f"・記事{len(arts)}本"))
+    h += sec("学科", rows(fac_rows))
     if S.events:
         h += sec("演奏会", rows([(f'/concerts/{e["id"]}/', e["title"], f'{jdate(e.get("date"))}・{e.get("venue", "")}') for e in S.events]))
     h += sec("アプリと会員", f'<div class="va-acts"><a class="va-btn" href="{APP}?from=academy">Veliq アプリで4択</a><a class="va-btn ln" href="{CLUB}">Veliq Club に入会する</a></div>')
     ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": "Veliq Academy", "url": SITE + "/", "inLanguage": "ja",
            "publisher": {"@type": "Organization", "name": PUBLISHER, "url": VO, "email": "info@variorchestra.com"}}]
-    page(S, path, "Veliq Academy", f"音楽の作品・作曲家・時代を、出典つきで解説する学習サイト。{sub}。監修：{SUPERVISOR}。運営：{PUBLISHER}。",
+    page(S, path, "Veliq Academy", f"{lede[:-1]}（出典つき）。{sub}。監修：{SUPERVISOR}。運営：{PUBLISHER}。",
          h, ld, "", og="website", extra_js=f'\n<script src="/assets/legacy.js?v={CSS_V}" defer></script>')
 
 
@@ -1005,10 +1157,17 @@ def build_meta_files(S):
     for s, n in SECTIONS:
         if s in DATA_SECTIONS or S.arts_in(s):
             L.append(f"- [{n}]({SITE}/music/{s}/)")
-    if S.articles:
+    if S.arts_of("music"):
         L += ["", "## 記事"]
-        for a in sorted(S.articles.values(), key=lambda a: (a["section"], a["slug"])):
-            L.append(f'- [{a["title"]}]({SITE}/music/{a["section"]}/{a["slug"]}/): {a.get("summary", "")}'.rstrip(": "))
+        for a in sorted(S.arts_of("music"), key=lambda a: (a["section"], a["slug"])):
+            L.append(f'- [{a["title"]}]({SITE}{a["path"]}): {a.get("summary", "")}'.rstrip(": "))
+    if S.arts_of("art"):
+        L += ["", "## 美術", f"- [美術学科のトップ]({SITE}/art/)"]
+        L += [f"- [{n}]({SITE}/art/{s}/)" for s, n in ART_SECTIONS if S.arts_in(s)]
+        L += ["", "## 美術の記事"]
+        order = {s: i for i, (s, _) in enumerate(ART_SECTIONS)}
+        for a in sorted(S.arts_of("art"), key=lambda a: (order.get(a["section"], 9), a["slug"])):
+            L.append(f'- [{a["title"]}]({SITE}{a["path"]}): {a.get("summary", "")}'.rstrip(": "))
     L += ["", "## 作曲家"] + [f'- [{c["name"]}]({SITE}/music/composers/{c["id"]}/): {S.life(c)}' for c in sorted(S.composers, key=lambda c: c["born"])]
     L += ["", "## 作品"] + [f'- [{v["title"]}]({SITE}{v["path"]}): {S.short(v["composer"])}' + (f'・{v["year_str"]}年' if v["year_str"] else "")
                            for v in sorted((work_view(S, i) for i in all_work_ids(S)), key=lambda v: v["year_n"])]
@@ -1027,7 +1186,7 @@ def main():
     args = ap.parse_args()
     S = Site(args.content)
     # 前回の生成物を消す（消した記事のページが残らないように）
-    for d in ("music", "concerts"):
+    for d in ("music", "art", "concerts"):
         shutil.rmtree(OUT / d, ignore_errors=True)
     for c in S.composers:
         build_composer(S, c)
@@ -1044,6 +1203,7 @@ def main():
         if s not in ("works", "composers", "eras", "concepts"):
             build_article(S, a)
     build_indexes(S)
+    build_art(S)
     build_timeline(S)
     build_concerts(S)
     build_music(S)
@@ -1054,7 +1214,7 @@ def main():
         wrap_static(S, n, t)
     S.pages.sort(key=lambda x: (x[0] != "/", x[0]))
     build_meta_files(S)
-    print(f"ページ {len(S.pages)}（sitemap に載せた数）・記事 {len(S.articles)}・警告 {len(WARN)}")
+    print(f"ページ {len(S.pages)}（sitemap に載せた数）・記事 {len(S.articles)}（音楽 {len(S.arts_of('music'))}・美術 {len(S.arts_of('art'))}）・警告 {len(WARN)}")
 
 
 if __name__ == "__main__":

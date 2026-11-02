@@ -300,3 +300,26 @@ h1,h2,h3,h4{word-break:auto-phrase;text-wrap:balance;overflow-wrap:break-word}
 
 /* 見出しの中の「第1番」「作品55」は折らない */
 .kn{white-space:nowrap}
+
+/* 記事の型（2026-11-03）：題名下のタグと更新日・目次・見出し番号・よくある質問・横に流せる表 */
+.va-tag{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:14px 0 0;font-size:13px;color:var(--ink-3)}
+.va-chip{display:inline-flex;align-items:center;min-height:28px;padding:0 12px;border:1px solid var(--line);border-radius:980px;color:var(--ink-2);text-decoration:none;font-size:13px;font-weight:500}
+.va-chip:hover{border-color:var(--ink);color:var(--ink)}
+.va-tag time{font-variant-numeric:tabular-nums}
+.va-toc{margin:32px 0 8px;padding:18px 20px;background:var(--u-surface);border-radius:14px}
+.va-toc-h{margin:0 0 8px;font-size:13px;font-weight:600;color:var(--ink-3)}
+.va-toc ol{list-style:none;margin:0;padding:0}
+.va-toc li{margin:0;font-size:15px;line-height:1.5}
+.va-toc li.l3{padding-left:1.8em;font-size:14px}
+.va-toc a{display:inline-flex;align-items:baseline;gap:.6em;min-height:32px;color:var(--ink);text-decoration:none}
+.va-toc a:hover{text-decoration:underline;text-decoration-color:var(--line)}
+.va-toc .va-n{color:var(--ink-3);font-variant-numeric:tabular-nums;font-weight:500}
+.va-body h2 .va-n,.va-body h3 .va-n{margin-right:.6em;color:var(--u-accent);font-variant-numeric:tabular-nums;font-weight:600}
+.va-body h2[id],.va-body h3[id]{scroll-margin-top:72px}
+.va-faq .va-q{margin:24px 0 6px;padding:0 0 0 1.4em;text-indent:-1.4em;font-size:17px}
+.va-faq .va-q::before{content:"Q";display:inline-block;width:1.4em;color:var(--u-accent);font-weight:700;text-indent:0}
+.va-faq .va-q+p{padding-left:1.4em}
+.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.va-tbl th,.va-tbl td{min-width:5em}
+.gf .gf-cols{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+@media(max-width:640px){.va-toc{padding:16px}.va-faq .va-q{font-size:16px}.va-tbl table{font-size:13px;width:max-content;min-width:100%}}
