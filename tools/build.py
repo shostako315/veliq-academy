@@ -33,12 +33,14 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "veliq-academy"
 DATA = OUT / "data"
 SITE = "https://veliq-academy.com"
-QUIZ_BANK = next((p / "veliq-club" / "quiz-bank.js" for p in ROOT.parents if (p / "veliq-club" / "quiz-bank.js").exists()),
-                 ROOT.parent / "veliq-club" / "quiz-bank.js")
+# アプリの4択（veliq-club/quiz-bank.js）。環境変数 VELIQ_CLUB_DIR で場所を指定できる（clone して別の場所で組むとき）
+QUIZ_BANK = (Path(os.environ["VELIQ_CLUB_DIR"]) / "quiz-bank.js" if os.environ.get("VELIQ_CLUB_DIR") else
+             next((p / "veliq-club" / "quiz-bank.js" for p in ROOT.parents if (p / "veliq-club" / "quiz-bank.js").exists()),
+                  ROOT.parent / "veliq-club" / "quiz-bank.js"))
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "7"
+CSS_V = "8"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
@@ -72,13 +74,21 @@ ART_SECTIONS = [
     ("museums", "美術館"),
 ]
 ART_SEC_NAME = dict(ART_SECTIONS)
-FACULTIES = [("music", "音楽"), ("art", "美術")]
+# 語学学科（記事だけ）。content/lingua/<lang>/<unit-id>.md → /lingua/<lang>/<unit-id>/
+# 記事は tools/lingua_export.js が veliq-club/lingua-bank.js（アプリの場面ノート）から書き出す
+LINGUA_SECTIONS = [
+    ("en", "英語"),
+    ("it", "イタリア語"),
+]
+LINGUA_SEC_NAME = dict(LINGUA_SECTIONS)
+LINGUA_GROUPS = ["はじめの一歩", "場面"]
+FACULTIES = [("music", "音楽"), ("art", "美術"), ("lingua", "語学")]
 FAC_NAME = dict(FACULTIES)
 FAQ_TITLE = "よくある質問"
 
 
 def sec_name(fac, s):
-    return (ART_SEC_NAME if fac == "art" else SEC_NAME).get(s, s)
+    return {"art": ART_SEC_NAME, "lingua": LINGUA_SEC_NAME}.get(fac, SEC_NAME).get(s, s)
 
 GENRE = {"symphony": "交響曲", "concerto": "協奏曲", "piano": "ピアノ曲", "keyboard": "鍵盤曲", "chamber": "室内楽",
          "opera": "オペラ", "orchestral": "管弦楽", "vocal": "声楽", "sonata": "ソナタ", "choral": "合唱"}
@@ -162,7 +172,8 @@ class Site:
         return arts
 
     def load_faculty(self, arts, fac, base, mdconv):
-        allowed = ARTICLE_SECTIONS if fac == "music" else [s for s, _ in ART_SECTIONS]
+        allowed = {"music": ARTICLE_SECTIONS, "art": [s for s, _ in ART_SECTIONS],
+                   "lingua": [s for s, _ in LINGUA_SECTIONS]}[fac]
         for p in sorted(base.glob("*/*.md")):
             raw = p.read_text(encoding="utf-8")
             m = re.match(r"^---\s*\n(.*?)\n---\s*\n?(.*)$", raw, re.S)
@@ -538,6 +549,8 @@ def build_terms(S):
         for al in k.get("aliases") or []:
             add(al, p)
     for a in S.articles.values():
+        if a["faculty"] == "lingua":
+            continue
         p = a["path"]
         add(a["title"], p)
         add(re.split(r"——", a["title"])[0].strip(), p)
@@ -636,17 +649,21 @@ def fac_of(cur):
     """cur（分野の id）→ 学科"""
     if cur in ("art",) or cur in ART_SEC_NAME:
         return "art"
+    if cur in ("lingua",) or cur in LINGUA_SEC_NAME:
+        return "lingua"
     if cur in ("music",) or cur in SEC_NAME:
         return "music"
     return ""
 
 
 def header(S, cur):
-    """56px のヘッダー：左にワードマーク、「音楽」「美術」の2つの文字タブ、右にメニュー"""
+    """56px のヘッダー：左にワードマーク、「音楽」「美術」「語学」の文字タブ、右にメニュー"""
     fac = fac_of(cur)
     tabs = [("/music/", "音楽", "music")]
     if S.arts_of("art"):
         tabs.append(("/art/", "美術", "art"))
+    if S.arts_of("lingua"):
+        tabs.append(("/lingua/", "語学", "lingua"))
     g = "".join(f'<a href="{h}"{" class=\"on\" aria-current=\"page\"" if f == fac else ""}>{t}</a>' for h, t, f in tabs)
     music = [("/music/", "音楽学科のトップ", "music")] + [
         (f"/music/{s}/", n, s) for s, n in SECTIONS
@@ -655,6 +672,9 @@ def header(S, cur):
     art = [("/art/", "美術学科のトップ", "art")] + [(f"/art/{s}/", n, s) for s, n in ART_SECTIONS if S.arts_in(s)]
     al = "".join(f'<a href="{h}"{" class=\"on\"" if c == cur else ""}>{esc(t)}</a>' for h, t, c in art)
     ag = f'<div class="mg"><div class="mh">美術</div><div class="ml">{al}</div></div>\n  ' if S.arts_of("art") else ""
+    lg = [("/lingua/", "語学学科のトップ", "lingua")] + [(f"/lingua/{s}/", n, s) for s, n in LINGUA_SECTIONS if S.arts_in(s)]
+    ll = "".join(f'<a href="{h}"{" class=\"on\"" if c == cur else ""}>{esc(t)}</a>' for h, t, c in lg)
+    ag += f'<div class="mg"><div class="mh">語学</div><div class="ml">{ll}</div></div>\n  ' if S.arts_of("lingua") else ""
     cl = "".join(f'<a href="/concerts/{esc(e["id"])}/">{esc(e["title"])}</a>' for e in S.events)
     return f"""<body>
 <a class="va-skip" href="#main">本文へ</a>
@@ -678,7 +698,7 @@ def footer(S, extra_js=""):
     def grp(title, links, open_=False):
         a = "".join(f'<a href="{h}">{esc(t)}</a>' for h, t in links)
         return f'<details class="gf-s"{" open" if open_ else ""}><summary>{esc(title)}</summary><div class="gf-l">{a}</div></details>'
-    fac = [("/music/", "音楽")] + ([("/art/", "美術")] if S.arts_of("art") else [])
+    fac = [("/music/", "音楽")] + ([("/art/", "美術")] if S.arts_of("art") else []) + ([("/lingua/", "語学")] if S.arts_of("lingua") else [])
     conc = [("/concerts/", "演奏会")] + [(f'/concerts/{e["id"]}/', e["title"]) for e in S.events] + \
         [(f"{APP}?from=academy", "Veliq アプリで4択"), (CLUB, "Veliq Club")]
     ops = [(VO, "VariOrchestra"), ("https://veliq-jp.shostako315.workers.dev/", "VELIQ"), ("mailto:info@variorchestra.com", "お問い合わせ")]
@@ -859,7 +879,7 @@ def src_html(s):
 
 
 # ---- 記事末尾（出典 → 監修 → 関連 → 演奏会 → 4択 → 入会）
-def tail(S, path, sources, related, events, quiz, supervised=True, cites=None):
+def tail(S, path, sources, related, events, quiz, supervised=True, cites=None, extra=""):
     h = ""
     sources = references(sources or [], cites or [], S.linkcheck)
     if sources:
@@ -879,6 +899,7 @@ def tail(S, path, sources, related, events, quiz, supervised=True, cites=None):
     if quiz:
         q = f"{APP}?quiz={quote(quiz['key'])}&from=academy&ret={quote(url_of(path), safe='')}"
         h += sec("アプリで4択に挑戦", f'<div class="va-box"><p class="va-boxp">{esc(quiz["title"])}（{esc(quiz.get("label", ""))}・{len(quiz.get("qs", []))}問）</p><div class="va-acts"><a class="va-btn" href="{esc(q)}">4択を解く</a></div></div>')
+    h += extra
     h += sec("Veliq Club", f'<div class="va-acts"><a class="va-btn ln" href="{CLUB}">Veliq Club に入会する</a></div>')
     return h
 
@@ -1134,6 +1155,8 @@ def build_article(S, a):
     era = S.E.get(a.get("era"))
     meta = kv_table([("作曲家", f'<a href="/music/composers/{esc(c["id"])}/">{esc(c["name"])}</a>' if c else ""),
                      ("時代", f'<a href="/music/eras/{esc(era["id"])}/">{esc(era["name"])}</a>' if era else "")])
+    if fac == "lingua":
+        return build_lingua_unit(S, a, bc, bld)
     body = f'<div class="va-body">{autolink(S, a["html"], path)}</div>'
     rel = []
     if c:
@@ -1150,6 +1173,73 @@ def build_article(S, a):
         (f'<p class="va-lede">{esc(a["summary"])}</p>' if a.get("summary") else "") + '</header>'
     ld = [article_ld(a["title"], desc, path, a.get("updated")), bld]
     page(S, path, a["title"], desc, bc + f'<article class="va-art">{hd}{meta}{body}{t}</article>', ld, sec_, a.get("updated"))
+
+
+def lingua_name(a):
+    """一覧の行の名前：「カフェで注文（英語）——…」→「カフェで注文」"""
+    return re.sub(r"（(?:%s)）$" % "|".join(LINGUA_SEC_NAME.values()), "", re.split(r"——", a["title"])[0])
+
+
+def lingua_units(S, s):
+    """言語ごとのユニットを、はじめの一歩 → 場面、order の順に"""
+    g = {n: i for i, n in enumerate(LINGUA_GROUPS)}
+    return sorted(S.arts_in(s), key=lambda a: (g.get(a.get("group"), 9), int(a.get("order") or 999), a["slug"]))
+
+
+def build_lingua_unit(S, a, bc, bld):
+    """語学のユニット（場面ノート）。用語の自動リンクはかけない（外国語の語句が誤ってつながるため）"""
+    s, path = a["section"], a["path"]
+    sn = LINGUA_SEC_NAME[s]
+    us = lingua_units(S, s)
+    i = next(k for k, x in enumerate(us) if x["slug"] == a["slug"])
+    nav = []
+    if i > 0:
+        nav.append((us[i - 1]["path"], us[i - 1]["title"], f"前のユニット・{us[i - 1].get('group', '')}"))
+    if i + 1 < len(us):
+        nav.append((us[i + 1]["path"], us[i + 1]["title"], f"次のユニット・{us[i + 1].get('group', '')}"))
+    rel = [("続けて読む", nav)] if nav else []
+    app = sec("アプリで練習する", '<div class="va-box"><p class="va-boxp">このノートのフレーズで10問（並び替え・穴埋め・聞き取りなど）と、場面の会話。</p>'
+              f'<div class="va-acts"><a class="va-btn" href="{APP}?from=academy">アプリで練習する</a></div></div>')
+    t = tail(S, path, a.get("sources"), rel, [], None, cites=a.get("cites"), extra=app)
+    desc = a.get("summary") or a["title"]
+    hd = f'<header class="va-hd">' + tagline("lingua", (s, sn), a.get("updated")) + f'<h1>{esc(a["title"])}</h1>' + \
+        (f'<p class="va-lede">{esc(a["summary"])}</p>' if a.get("summary") else "") + '</header>'
+    ld = [article_ld(a["title"], desc, path, a.get("updated"), about={"@type": "Language", "name": sn, "alternateName": s}), bld]
+    page(S, path, a["title"], desc, bc + f'<article class="va-art">{hd}<div class="va-body">{a["html"]}</div>{t}</article>', ld, s, a.get("updated"))
+
+
+def build_lingua(S):
+    """語学学科のトップと言語ごとの一覧（はじめの一歩・場面）"""
+    if not S.arts_of("lingua"):
+        return
+    for s, n in LINGUA_SECTIONS:
+        us = lingua_units(S, s)
+        if not us:
+            continue
+        path = f"/lingua/{s}/"
+        bc, bld = crumbs([("トップ", "/"), ("語学", "/lingua/"), (n, path)])
+        h, cnt = "", []
+        for g in LINGUA_GROUPS:
+            x = [a for a in us if a.get("group") == g]
+            if x:
+                cnt.append(f"{g} {len(x)}本")
+                h += sec(g, rows([(a["path"], lingua_name(a), a.get("summary")) for a in x]))
+        lede = f"{n}のユニット{len(us)}本（{'・'.join(cnt)}）。各ユニットは要点・キーフレーズ・単語・文法・文化メモ・よくある間違い。"
+        page(S, path, n, lede, bc + f'<header class="va-hd"><h1>{esc(n)}</h1><p class="va-lede">{esc(lede)}</p></header>' + h,
+             [bld], s, max(str(a.get("updated", "")) for a in us) or None)
+    path = "/lingua/"
+    bc, bld = crumbs([("トップ", "/"), ("語学", path)])
+    h = sec("言語", count_rows([(f"/lingua/{s}/", n, f"{len(S.arts_in(s))}") for s, n in LINGUA_SECTIONS if S.arts_in(s)]))
+    for s, n in LINGUA_SECTIONS:
+        first = [a for a in lingua_units(S, s) if a.get("group") == LINGUA_GROUPS[0]]
+        if first:
+            h += sec(f"{n}・{LINGUA_GROUPS[0]}", rows([(a["path"], lingua_name(a), a.get("summary")) for a in first]))
+    h += sec("アプリと会員", f'<div class="va-acts"><a class="va-btn" href="{APP}?from=academy">アプリで練習する</a><a class="va-btn ln" href="{CLUB}">Veliq Club に入会する</a></div>')
+    desc = "英語とイタリア語を、旅先の場面ごとに要点・キーフレーズ・単語・文法・文化メモでまとめる。Veliq アプリの語学コースの場面ノートと同じ内容。"
+    ld = [bld, {"@context": "https://schema.org", "@type": "CollectionPage", "name": "語学", "url": url_of(path), "inLanguage": "ja",
+                "publisher": {"@type": "Organization", "name": PUBLISHER}}]
+    page(S, path, "語学", desc, bc + f'<header class="va-hd"><h1>語学</h1><p class="va-lede">{esc(desc)}</p></header>' + h,
+         ld, "lingua", max(str(a.get("updated", "")) for a in S.arts_of("lingua")) or None, og="website")
 
 
 def build_indexes(S):
@@ -1358,11 +1448,15 @@ def build_home(S):
     arts = S.arts_of("art")
     n_music = len(S.composers) + nw + len(S.eras) + len(S.concepts) + na
     lede = "音楽と美術の作品・作家・時代を、参考文献つきで解説する学習サイト。" if arts else "音楽の作品・作曲家・時代を、参考文献つきで解説する学習サイト。"
+    if S.arts_of("lingua"):
+        lede = lede.replace("学習サイト。", "学習サイト。英語とイタリア語は旅先の場面ごとにまとめる。")
     h = '<header class="va-hd va-home"><h1>Veliq <span class="va-gold">Academy</span></h1>' + \
         f'<p class="va-lede">{lede}</p></header>'
     fac_rows = [("/music/", "音楽", f"{n_music}")]
     if arts:
         fac_rows.append(("/art/", "美術", f"{len(arts)}"))
+    if S.arts_of("lingua"):
+        fac_rows.append(("/lingua/", "語学", f"{len(S.arts_of('lingua'))}"))
     h += sec("学科", count_rows(fac_rows))
     if S.events:
         h += sec("演奏会", rows([(f'/concerts/{e["id"]}/', e["title"], f'{jdate(e.get("date"))}・{e.get("venue", "")}') for e in S.events]))
@@ -1455,6 +1549,13 @@ def build_meta_files(S):
         order = {s: i for i, (s, _) in enumerate(ART_SECTIONS)}
         for a in sorted(S.arts_of("art"), key=lambda a: (order.get(a["section"], 9), a["slug"])):
             L.append(f'- [{a["title"]}]({SITE}{a["path"]}): {a.get("summary", "")}'.rstrip(": "))
+    if S.arts_of("lingua"):
+        L += ["", "## 語学", f"- [語学学科のトップ]({SITE}/lingua/)"]
+        L += [f"- [{n}]({SITE}/lingua/{s}/)" for s, n in LINGUA_SECTIONS if S.arts_in(s)]
+        L += ["", "## 語学のユニット"]
+        for s, _ in LINGUA_SECTIONS:
+            for a in lingua_units(S, s):
+                L.append(f'- [{a["title"]}]({SITE}{a["path"]}): {a.get("summary", "")}'.rstrip(": "))
     L += ["", "## 作曲家"] + [f'- [{c["name"]}]({SITE}/music/composers/{c["id"]}/): {S.life(c)}' for c in sorted(S.composers, key=lambda c: c["born"])]
     L += ["", "## 作品"] + [f'- [{v["title"]}]({SITE}{v["path"]}): {S.short(v["composer"])}' + (f'・{v["year_str"]}年' if v["year_str"] else "")
                            for v in sorted((work_view(S, i) for i in all_work_ids(S)), key=lambda v: v["year_n"])]
@@ -1475,7 +1576,7 @@ def main():
     S.linkcheck = load_linkcheck()
     build_terms(S)
     # 前回の生成物を消す（消した記事のページが残らないように）
-    for d in ("music", "art", "concerts"):
+    for d in ("music", "art", "lingua", "concerts"):
         shutil.rmtree(OUT / d, ignore_errors=True)
     for c in S.composers:
         build_composer(S, c)
@@ -1493,6 +1594,7 @@ def main():
             build_article(S, a)
     build_indexes(S)
     build_art(S)
+    build_lingua(S)
     build_timeline(S)
     build_concerts(S)
     build_music(S)
@@ -1503,7 +1605,7 @@ def main():
         wrap_static(S, n, t)
     S.pages.sort(key=lambda x: (x[0] != "/", x[0]))
     build_meta_files(S)
-    print(f"ページ {len(S.pages)}（sitemap に載せた数）・記事 {len(S.articles)}（音楽 {len(S.arts_of('music'))}・美術 {len(S.arts_of('art'))}）・警告 {len(WARN)}")
+    print(f"ページ {len(S.pages)}（sitemap に載せた数）・記事 {len(S.articles)}（音楽 {len(S.arts_of('music'))}・美術 {len(S.arts_of('art'))}・語学 {len(S.arts_of('lingua'))}）・警告 {len(WARN)}")
 
 
 if __name__ == "__main__":
