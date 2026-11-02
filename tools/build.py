@@ -207,6 +207,8 @@ class Site:
                     fm[k] = v.isoformat()[:10]
             mdconv.reset()
             md = re.sub(r"==(.+?)==", r'<mark class="hl">\1</mark>', m.group(2))  # ==語== → 金のマーカー
+            # 「> 要点」の直後に「> - 」が続くと箇条書きにならないので、間に空の引用行を挟む
+            md = re.sub(r"^(>\s*要点\s*)\n(>\s*[-*] )", r"\1\n>\n\2", md, flags=re.M)
             body = mdconv.convert(md)
             # 本文中の外部リンク（出典）は新しいタブで開く
             body = re.sub(r'<a href="(https?://[^"]+)">', r'<a href="\1" target="_blank" rel="noopener">', body)
