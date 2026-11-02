@@ -379,3 +379,5 @@ html body .va-sec>h2,html body .va-shd h2{font-size:17px!important;color:var(--i
 .va-doc .va-body h2{margin-top:36px}
 .va-bc a{min-width:44px;justify-content:flex-start}
 .kn{white-space:nowrap}
+
+/* 2列・3列の表は折り返して全文を見せる（4列以上は表の中だけ横に送る） */.va-tbl table:not(.va-mt) td,.va-tbl table:not(.va-mt) th{white-space:normal}.va-tbl table{width:100%}
