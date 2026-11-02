@@ -255,8 +255,8 @@ html body .va-home h1{font-size:32px!important}
 .va-key-h{margin:0 0 4px;font-size:13px;font-weight:600;color:var(--u-accent)}
 .va-key ul,.va-key-sec ul{margin:0;padding-left:1.2em}
 .va-key li,.va-key-sec li{margin:0 0 4px;font-size:15px;line-height:1.7;color:var(--ink)}
-.va-key-sec h2{font-size:13px!important;margin:0 0 4px!important;padding:0!important;border:0!important;color:var(--u-accent)!important}
-.va-key-sec h2 .va-n{display:none}
+html body .va-body .va-key-sec h2{font-size:13px!important;margin:0 0 4px!important;padding:0!important;border:0!important;color:var(--u-accent)!important}
+html body .va-body .va-key-sec h2 .va-n{display:none}
 .va-key-sec p{margin:0 0 6px;font-size:15px;line-height:1.7}
 
 /* 目次（折りたたみ、既定で開く） */
