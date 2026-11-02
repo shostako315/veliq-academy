@@ -32,13 +32,13 @@ sources:
   - 'OMI facsimiles「Codex Chantilly」 https://omifacsimiles.com/brochures/chantilly.html 閲覧日 2026-10-30'
 ---
 
-この記事は、[西洋音楽史の通史](/music/history/western-music-history/)で概観した中世（おおよそ9世紀から14世紀末まで）を、残っている写本と記譜法の変化に沿って一段細かく見る。聖歌の名の由来、グイード・ダレッツォの譜線、レオナンとペロタンを伝える「アノニマス4」の記述などは通史の記事に書いたので、ここでは繰り返さない。
+
 
 ## 典礼の枠組み——ミサと聖務日課
 
-中世の音楽の大部分は、ローマ・カトリック教会の典礼のために書かれ、写された。グレゴリオ聖歌はラテン語による単旋律の聖歌で、ミサと聖務日課（時課）で歌われる。ブリタニカは、聖歌の名の由来となった教皇グレゴリウス1世の在位（590〜604年）中に聖歌が集められ整えられたと記し、フランク王カール大帝（在位768〜814年）が、当時ガリア聖歌が広く歌われていた自分の王国にこれを課したとする。8〜9世紀にガリア聖歌とローマの聖歌が混ざり合い、その形が現在まで伝わった。[（Britannica）](https://www.britannica.com/art/Gregorian-chant)
+中世の音楽の大部分は、ローマ・カトリック教会の典礼のために書かれ、写された。グレゴリオ聖歌はラテン語による単旋律の聖歌で、ミサと聖務日課（時課）で歌われる。聖歌は、名の由来となった教皇グレゴリウス1世の在位（590〜604年）中に集められ整えられたとされ、フランク王カール大帝（在位768〜814年）が、当時ガリア聖歌が広く歌われていた自分の王国にこれを課した。8〜9世紀にガリア聖歌とローマの聖歌が混ざり合い、その形が現在まで伝わった。[（Britannica）](https://www.britannica.com/art/Gregorian-chant)
 
-ミサの聖歌は、毎回同じ歌詞を歌う「通常文」と、祝日や季節によって歌詞が替わる「固有文」に分かれる。ブリタニカによる各部分の成り立ちは次のとおりである。[（Britannica）](https://www.britannica.com/art/Gregorian-chant)
+ミサの聖歌は、毎回同じ歌詞を歌う「通常文」と、祝日や季節によって歌詞が替わる「固有文」に分かれる。各部分の成り立ちは次のとおりである。[（Britannica）](https://www.britannica.com/art/Gregorian-chant)
 
 | 区分 | 部分 | 成り立ちと様式 |
 |---|---|---|
@@ -57,7 +57,7 @@ sources:
 
 聖務日課は、朝課・賛課・一時課・三時課・六時課・九時課・晩課・終課の8つの時課からなり、交唱（アンティフォナ）、詩篇唱の定型で歌われる詩篇、讃歌、応唱（レスポンソリウム）で組まれる。[（Britannica）](https://www.britannica.com/art/Gregorian-chant)
 
-旋律と歌詞の関係は3つの様式に分けられる。一つの音節に一つの音をあてる音節的様式（続唱と大部分の交唱）、一つの音節に1〜4音をあてるネウマ的様式、一つの音節に多数の音をあてるメリスマ的様式である。[（Britannica）](https://www.britannica.com/art/Gregorian-chant)後に述べるオルガヌムやクラウズラは、このメリスマの部分を引き延ばしたり、別の声部を重ねたりすることから生まれた。
+旋律と歌詞の関係は3つの様式に分けられる。一つの音節に一つの音をあてる音節的様式（続唱と大部分の交唱）、一つの音節に1〜4音をあてるネウマ的様式、一つの音節に多数の音をあてるメリスマ的様式である。[（Britannica）](https://www.britannica.com/art/Gregorian-chant)オルガヌムやクラウズラは、このメリスマの部分を引き延ばしたり、別の声部を重ねたりすることから生まれた。
 
 ## ローマとアルプス以北——聖歌の二つの伝承
 
@@ -91,7 +91,7 @@ Cod. Sang. 359 はネウマ記譜による音楽写本で完全な形で残る�
 
 この書の序文は、続唱の作り方を説明する。ノルマン人に破壊されたジュミエージュ修道院から、一人の司祭が交唱集を携えてザンクト・ガレンにやって来た。ノートカーはその中に、長いメリスマに歌詞を付けた歌を見つけたが、出来がよくないと考え、自分で作り始めた。師のイゾ（Iso）は最初の試みを褒め、旋律の一つの音に一つの音節をあてるよう助言した。ノートカーはできた作品をもう一人の師マルケルス（Marcellus、モエンガル（Moengal）とも）に見せ、マルケルスはそれを少年たちに歌わせた。[（Neue Deutsche Biographie）](https://www.deutsche-biographie.de/sfz72526.html)
 
-ブリタニカが続唱の特徴とする音節的な書法と2行一組の節は、この「一音に一音節」の原則から来ている。[（Britannica）](https://www.britannica.com/art/Gregorian-chant)
+続唱の特徴である音節的な書法と2行一組の節は、この「一音に一音節」の原則から来ている。[（Britannica）](https://www.britannica.com/art/Gregorian-chant)
 
 ### ヒルデガルト・フォン・ビンゲン
 
@@ -124,7 +124,7 @@ RISM の記述は、この写本の2声の曲を158と数える。内訳はア�
 
 ## ノートルダム楽派（12世紀後半〜13世紀前半）
 
-ブリタニカはノートルダム楽派の活動を1175年頃から1225年頃までとし、国際的な名声を得て広く流布した最初の多声のレパートリーと位置づける。名が伝わるのはレオナン（Leoninus）とペロタン（Perotinus）だけで、ほかの作曲家はすべて作者不詳である。[（Britannica）](https://www.britannica.com/art/Notre-Dame-school)
+ノートルダム楽派の活動は1175年頃から1225年頃までで、国際的な名声を得て広く流布した最初の多声のレパートリーである。名が伝わるのはレオナン（Leoninus）とペロタン（Perotinus）だけで、ほかの作曲家はすべて作者不詳である。[（Britannica）](https://www.britannica.com/art/Notre-Dame-school)
 
 ### 曲種
 
@@ -135,7 +135,7 @@ RISM の記述は、この写本の2声の曲を158と数える。内訳はア�
 | コンドゥクトゥス | 和音的な書法の行列の曲。既存の聖歌によらない |
 | モテット | クラウズラから生まれた。上声に新しい歌詞（しばしば世俗の歌詞）を付ける |
 
-（[Britannica](https://www.britannica.com/art/Notre-Dame-school)による）
+
 
 ユニヴェルサリスは、アノニマス4がレオナンを呼んだ「オルガニスタ」（organista）を、オルガンの奏者ではなく、オルガヌムの声部を歌う者か作る者、あるいはその両方の意味とする。聖歌を長い音で歌う低声をテノール（tenor、「保つ」から）と呼び、その上でオルガヌムの声部が拍節をもつメリスマを展開した。上声の一部は、熟練した歌い手が即興で歌ったとみられる。[（Encyclopædia Universalis）](https://www.universalis.fr/encyclopedie/leonin-maitre-lat-magister-leo-ou-leoninus/)ユニヴェルサリスはレオナンの活動を1180年頃とし、その生涯については何もわかっていないと書く。
 
@@ -163,7 +163,7 @@ DIAMM の記述による F の構成は次のとおりである。[（DIAMM）](
 | 24〜26 | ff. 415〜462 | 単旋律のコンドゥクトゥス83 |
 | 27 | ff. 463〜476 | 単旋律のロンデッルス60 |
 
-クラウズラだけで2つの折丁を占める。ブリタニカは、ペロタンが古いオルガヌムに差し込む新しいクラウズラを作ったとする。[（Britannica）](https://www.britannica.com/art/Notre-Dame-school)一方で F にはフランス語のモテットがなく、ラテン語のモテットも少ない。[（DIAMM）](https://www.diamm.ac.uk/sources/924/)モテットは次の世代の写本で中心になる。
+クラウズラだけで2つの折丁を占める。ペロタンは、古いオルガヌムに差し込む新しいクラウズラを作った。[（Britannica）](https://www.britannica.com/art/Notre-Dame-school)一方で F にはフランス語のモテットがなく、ラテン語のモテットも少ない。[（DIAMM）](https://www.diamm.ac.uk/sources/924/)モテットは次の世代の写本で中心になる。
 
 DIAMM は F のレパートリーを、W1 とマドリード写本より新しく、W2 より古いと位置づける。[（DIAMM）](https://www.diamm.ac.uk/sources/924/)ペロタンの4声のオルガヌム《セデルント・プリンキペス》を校訂したペイン（Thomas B. Payne）は、この曲だけはマドリード写本を底本にしている。[（Payne, DIAMM）](https://www.diamm.ac.uk/documents/691/Payne-F-Introduction.pdf)
 
@@ -190,7 +190,7 @@ DIAMM は F のレパートリーを、W1 とマドリード写本より新し�
 - **不完全化**：小さい音符が隣にあると、完全な音符は3分の2の長さに減る。
 - **変化**：「同じものの前の同じものは完全である」（Similis ante similem perfecta est）という規則のため、別のロンガの前に不完全なロンガを書くことはできない。これを回避するために、ブレヴィスの一方を2倍の長さにする「変化」が使われた。
 
-ブリタニカは、13世紀後半のピエール・ド・ラ・クロワ（Pierre de la Croix、ペトルス・デ・クルーチェ）が次の世紀の新しい技法の一部を先取りしたとする。[（Britannica）](https://www.britannica.com/art/Ars-Nova-music)のちに述べる『フォーヴェル物語』の写本の記譜を、DIAMM はその名を取って「ペトルス式」と記している。[（DIAMM）](https://www.diamm.ac.uk/sources/88/)
+13世紀後半のピエール・ド・ラ・クロワ（Pierre de la Croix、ペトルス・デ・クルーチェ）は、次の世紀の新しい技法の一部を先取りした。[（Britannica）](https://www.britannica.com/art/Ars-Nova-music)『フォーヴェル物語』の写本の記譜を、DIAMM はその名を取って「ペトルス式」と記している。[（DIAMM）](https://www.diamm.ac.uk/sources/88/)
 
 ### 世俗の歌
 
@@ -200,7 +200,7 @@ DIAMM は F のレパートリーを、W1 とマドリード写本より新し�
 
 ### フィリップ・ド・ヴィトリ
 
-ブリタニカは、14世紀フランスの音楽を、前の時代の3拍子中心のリズム・モードからの解放によって特徴づける。[（Britannica）](https://www.britannica.com/art/Ars-Nova-music)名の由来となった論考『アルス・ノーヴァ』の書き手フィリップ・ド・ヴィトリ（Philippe de Vitry）の経歴は次のとおりである。[（EBSCO Research Starters）](https://www.ebsco.com/research-starters/biography/philippe-de-vitry/)
+14世紀フランスの音楽は、前の時代の3拍子中心のリズム・モードからの解放によって特徴づけられる。[（Britannica）](https://www.britannica.com/art/Ars-Nova-music)名の由来となった論考『アルス・ノーヴァ』の書き手フィリップ・ド・ヴィトリ（Philippe de Vitry）の経歴は次のとおりである。[（EBSCO Research Starters）](https://www.ebsco.com/research-starters/biography/philippe-de-vitry/)
 
 - 1322年にフランス王家の役人となり、シャルル4世の書記・秘書を務めた。のちフィリップ6世とノルマンディー公ジャンにも仕え、公が1350年にジャン2世として即位したときもその下にいた。
 - 1351年、ジャン2世の推薦により教皇クレメンス6世からモー司教に任じられ、1361年に没するまでその職にあった。
@@ -242,7 +242,7 @@ DIAMM は F のレパートリーを、W1 とマドリード写本より新し�
 
 ### ギヨーム・ド・マショー
 
-ブリタニカはヴィトリとギヨーム・ド・マショー（Guillaume de Machaut）をアルス・ノーヴァの最も重要な作曲家とし、14世紀に世俗の多声（バラード、ヴィルレー、ロンドー）が大きく伸びたことを指摘する。マショーの作品は現存するレパートリーの大きな部分を占める。[（Britannica）](https://www.britannica.com/art/Ars-Nova-music)
+アルス・ノーヴァの最も重要な作曲家はヴィトリとギヨーム・ド・マショー（Guillaume de Machaut）で、14世紀には世俗の多声（バラード、ヴィルレー、ロンドー）が大きく伸びた。マショーの作品は現存するレパートリーの大きな部分を占める。[（Britannica）](https://www.britannica.com/art/Ars-Nova-music)
 
 マショーは自作をまとめた「全集」の写本を残した。そのうち最も早いものの一つとされるのがフェレル＝ヴォギュエ写本で、ルートヴィヒ（Friedrich Ludwig）の校訂版の底本になった。現在は個人蔵で、ケンブリッジのコーパス・クリスティ・カレッジのパーカー図書館に寄託されている。[（OMI facsimiles）](https://www.omifacsimiles.com/brochures/images/f-v.pdf)
 
@@ -253,7 +253,7 @@ DIAMM は F のレパートリーを、W1 とマドリード写本より新し�
 
 ## イタリアのトレチェント
 
-14世紀のイタリアでは、フランスとは別の記譜と曲種が育った。パドヴァのマルケットゥス（Marchettus of Padua）は14世紀初めに論考『果樹園』（Pomerium）を書いた。ブリタニカはこの時代のイタリアの最も重要な作曲家として、ヤコポ・ダ・ボローニャ（Jacopo da Bologna）、フランチェスコ・ランディーニ（Francesco Landini）、ギラルデッロ・ダ・フィレンツェ（Ghirardello da Firenze）を挙げる。[（Britannica）](https://www.britannica.com/art/Ars-Nova-music)
+14世紀のイタリアでは、フランスとは別の記譜と曲種が育った。パドヴァのマルケットゥス（Marchettus of Padua）は14世紀初めに論考『果樹園』（Pomerium）を書いた。この時代のイタリアの最も重要な作曲家は、ヤコポ・ダ・ボローニャ（Jacopo da Bologna）、フランチェスコ・ランディーニ（Francesco Landini）、ギラルデッロ・ダ・フィレンツェ（Ghirardello da Firenze）である。[（Britannica）](https://www.britannica.com/art/Ars-Nova-music)
 
 ### スクァルチャルーピ写本
 
@@ -278,7 +278,7 @@ DIAMM は F のレパートリーを、W1 とマドリード写本より新し�
 
 ## 記譜法の変遷——まとめ
 
-| 時期 | 記譜 | 示せるもの | この記事で触れた資料 |
+| 時期 | 記譜 | 示せるもの | 主な資料 |
 |---|---|---|---|
 | 10世紀 | 譜線のないネウマ | 旋律の動き、音のまとまり、表情 | Cod. Sang. 359（922〜925年頃） |
 | 11世紀 | 高さを変えて書くネウマ、1本の基準線 | 相対的な音高 | BnF Latin 1139（1096〜99年） |

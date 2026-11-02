@@ -6,6 +6,7 @@ summary: 1685年にアイゼナハで生まれ、1750年にライプツィヒで
 aliases: ["バッハ", "J.S.バッハ", "ヨハン・ゼバスティアン・バッハ", "Johann Sebastian Bach", "J. S. Bach", "Bach", "平均律クラヴィーア曲集", "Well-Tempered Clavier", "マタイ受難曲", "St Matthew Passion", "音楽の捧げもの", "Musical Offering", "トーマスカントル", "フーガ"]
 image: https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Sebastian_Bach.jpg?width=900
 image_credit: エリアス・ゴットロープ・ハウスマン（Elias Gottlob Haussmann, 1695–1774）作、ヨハン・ゼバスティアン・バッハの肖像（1746年、油彩）。ライプツィヒ市歴史博物館蔵。作者の没後70年以上を経ており、パブリックドメイン（Wikimedia Commons, File:Johann Sebastian Bach.jpg）
+image_alt: ハウスマンによるヨハン・ゼバスティアン・バッハの肖像（1746年、油彩）
 updated: 2026-11-03
 sources:
   - "Bach-Archiv Leipzig「Johann Sebastian Bach ─ chronology」（出生、各地の職と年、結婚、子ども、1723年の就任、1727年4月11日の《マタイ受難曲》、1729年のコレギウム・ムジクム、1733年、1747年のポツダム、1748年、眼の手術、1750年7月28日の死）. https://www.bach-leipzig.de/en/neutral/johann-sebastian-bach-%E2%94%80-chronology（閲覧日 2026-11-03）"
@@ -23,7 +24,7 @@ sources:
 > - 《平均律クラヴィーア曲集》は第1巻（1722年）と第2巻（1742年）に24の長調・短調すべての前奏曲とフーガを1組ずつ収め、計**48組**。
 > - 《マタイ受難曲》は1727年の聖金曜日に初演され、1829年に20歳の**メンデルスゾーン**がベルリンで再演した。
 
-この記事はバッハ（Johann Sebastian Bach）の生涯を5つの勤務地で区切り、代表作を職場との対応で示す。==バッハの作品の大半は、その時々の職務——オルガニスト、宮廷楽長、教会のカントル——のために書かれた。==バロックの様式と同時代の作曲家（ブクステフーデ、テレマン、ヘンデル）は[バロックの音楽](/music/history/baroque-music/)に、《音楽の捧げもの》と《ロ短調ミサ》の資料も同じ記事に書いた。
+バッハ（Johann Sebastian Bach）の生涯は、5つの勤務地で区切ることができる。==バッハの作品の大半は、その時々の職務——オルガニスト、宮廷楽長、教会のカントル——のために書かれた。==
 
 ## 2. 生涯
 

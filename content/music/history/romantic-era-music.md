@@ -37,7 +37,7 @@ sources:
   - 'WIPO「Berne Convention for the Protection of Literary and Artistic Works」 https://www.wipo.int/treaties/en/ip/berne/ 閲覧日 2026-10-30'
 ---
 
-この記事は、[西洋音楽史の通史](/music/history/western-music-history/)で概観した19世紀を、作曲家の書簡、楽譜の序文、批評誌に沿って一段細かく見る。シューベルトの《魔王》、ベルリオーズの《幻想交響曲》、リストの交響詩の概略、ハンスリック『音楽美論』の要旨、1860年の声明、《ニーベルングの指環》と「トリスタン和音」、グリンカ・スメタナ《わが祖国》・ドヴォルザーク《新世界より》・シベリウス《フィンランディア》は通史の記事に、ゲヴァントハウスやウィーン・フィルなど演奏会団体の成立は[オーケストラの歴史](/music/orchestra/history-of-the-orchestra/)に、メンデルスゾーンやワーグナーの指揮は[指揮の歴史](/music/conductors/history-of-conducting/)に、19世紀のオペラは[オペラの歴史](/music/opera/history-of-opera/)に書いたので、ここでは繰り返さない。
+
 
 ## ベートーヴェン以後の交響曲——シューベルトの《グレート》とシューマン
 
@@ -107,7 +107,7 @@ sources:
 
 1853年、ブラームス（Johannes Brahms）はヴァイオリン奏者レメーニ（Eduard Reményi）の伴奏者として演奏旅行をし、ハノーファーでヨアヒム（Joseph Joachim）に会って、リストとシューマンへの紹介状を得た。[（Deutsches Historisches Museum）](https://www.dhm.de/lemo/biografie/johannes-brahms)デュッセルドルフでシューマン夫妻に未出版の作品を弾いて聴かせたのち、シューマンは1853年10月28日付の『新音楽時報』第39巻第18号に論文「新しい道」（Neue Bahnen）を載せた。シューマンはブラームスを「その時代を理想的な仕方で表すよう召された」若者と呼び、ピアノ・ソナタに交響的な性格を聴き取って、管弦楽のために書くよう促した。[（Yale University Library）](https://musiclib-exhibits.library.yale.edu/exhibits/schumann/neue_zeitschrift.html)ソナタを「ヴェールに包まれた交響曲」（verschleierte Symphonien）と呼んだのもこの論文である。[（Henle 序文 HN 9851）](https://www.henle.de/media/97/5d/49/1690899702/9851-1690899702-sync.pdf)シューマンはこの頃にはほとんど寄稿しておらず、論文はシューマンの求めでブレンデルが掲載した。[（RIPM）](https://ripm.org/assets/files/introductions/NZM1845-1868introEnglish.pdf)
 
-イェール大学図書館の解説は、この論評がブラームスの名を広めると同時に重荷にもなり、最初の交響曲の完成まで20年以上を要したと述べる。[（Yale University Library）](https://musiclib-exhibits.library.yale.edu/exhibits/schumann/neue_zeitschrift.html)1870年代の初め、ブラームスはヘルマン・レーヴィ（Hermann Levi）に「私は交響曲を書くことはないだろう」（Ich werde nie eine Symphonie komponieren!）と語ったと伝えられる。[（Henle 序文 HN 9851）](https://www.henle.de/media/97/5d/49/1690899702/9851-1690899702-sync.pdf)1876年に初演された交響曲第1番を、ビューローは「（ベートーヴェンの）第10」と呼んだ。[（Britannica）](https://www.britannica.com/print/article/578060)成立と初演は[作品の記事](/music/works/brahms-sym1/)で扱う。
+イェール大学図書館の解説は、この論評がブラームスの名を広めると同時に重荷にもなり、最初の交響曲の完成まで20年以上を要したと述べる。[（Yale University Library）](https://musiclib-exhibits.library.yale.edu/exhibits/schumann/neue_zeitschrift.html)1870年代の初め、ブラームスはヘルマン・レーヴィ（Hermann Levi）に「私は交響曲を書くことはないだろう」（Ich werde nie eine Symphonie komponieren!）と語ったと伝えられる。[（Henle 序文 HN 9851）](https://www.henle.de/media/97/5d/49/1690899702/9851-1690899702-sync.pdf)1876年に初演された交響曲第1番を、ビューローは「（ベートーヴェンの）第10」と呼んだ。[（Britannica）](https://www.britannica.com/print/article/578060)
 
 ### 全ドイツ音楽協会（1859年、1861年）
 
@@ -203,7 +203,7 @@ sources:
 - 管弦楽版の第1・3・4番は1878年5月16日にプラハでアドルフ・チェフ（Adolf Čech）の指揮により、第2番は12月4日にドレスデンで、第5〜8番は12月18日にドレスデンの宮廷楽団によりベルンハルト・ゴットレーバー（Bernhard Gottlöber）の指揮で初演された。
 - ベルリンの日刊紙『国民新聞』で、ルイス・エーラート（Louis Ehlert）は作曲者を「百パーセントの才能、しかも完全に天性の才能」と評した。
 
-（以上 [Antonín Dvořák 作品データベース](https://www.antonin-dvorak.cz/en/work/slavonic-dances-series-1/) による）
+
 
 ## 演奏会の制度——リサイタル
 
@@ -213,7 +213,7 @@ sources:
 
 ### 作曲家の全集
 
-ヘンレ社のブログによると、ブライトコプフ・ウント・ヘルテルのベートーヴェン旧全集は1862年から1865年までの4年間に、24のシリーズ、計262の番号で出た（30巻にまとめられる）。改訂はフェルディナント・ダーフィト（Ferdinand David）、ユリウス・リーツ（Julius Rietz）、カール・ライネッケ（Carl Reinecke）が担い、オットー・ヤーン（Otto Jahn）とグスタフ・ノッテボーム（Gustav Nottebohm）が協力した。同社は1851年に、その土台となるベートーヴェンの作品主題目録を出している。補遺巻は1888年に出て、未出版だった作品46曲を収めた。[（Henle Blog）](https://blog.henle.de/en/2020/05/18/beethoven-complete-part-2-from-the-old-to-the-new-complete-edition/)
+ブライトコプフ・ウント・ヘルテルのベートーヴェン旧全集は1862年から1865年までの4年間に、24のシリーズ、計262の番号で出た（30巻にまとめられる）。改訂はフェルディナント・ダーフィト（Ferdinand David）、ユリウス・リーツ（Julius Rietz）、カール・ライネッケ（Carl Reinecke）が担い、オットー・ヤーン（Otto Jahn）とグスタフ・ノッテボーム（Gustav Nottebohm）が協力した。同社は1851年に、その土台となるベートーヴェンの作品主題目録を出している。補遺巻は1888年に出て、未出版だった作品46曲を収めた。[（Henle Blog）](https://blog.henle.de/en/2020/05/18/beethoven-complete-part-2-from-the-old-to-the-new-complete-edition/)
 
 | 刊行開始 | 全集 |
 |---|---|
@@ -224,7 +224,7 @@ sources:
 | 1858 | ヘンデル（ブライトコプフ） |
 | 1862 | ベートーヴェン旧全集（ブライトコプフ、〜1865） |
 
-（以上 [Henle Blog](https://blog.henle.de/en/2020/05/18/beethoven-complete-part-2-from-the-old-to-the-new-complete-edition/) による。バッハ協会の旧全集については[古楽と歴史的演奏](/music/early/early-music-and-historical-performance/)の記事に書いた）
+
 
 ### ペータース版（1867年）
 

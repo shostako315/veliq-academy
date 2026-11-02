@@ -29,7 +29,7 @@ sources:
   - 'Carl Philipp Emanuel Bach: The Complete Works, Series VII vol. 1, Introduction（Versuch über die wahre Art das Clavier zu spielen） https://cpebach.org/pdfs/introductions/VII-1-Intro.pdf 閲覧日 2026-10-30'
 ---
 
-この記事は、[西洋音楽史の通史](/music/history/western-music-history/)で概観したバロック（1600年頃から1750年頃まで）を、作曲家と出版譜・教本に沿って一段細かく見る。フィレンツェのカメラータ、ペーリとカッチーニ、モンテヴェルディの《オルフェオ》と《聖母マリアの夕べの祈り》、ヴィアダーナの通奏低音、コレッリの作品5と作品6、ヴィヴァルディの《四季》、ラモーの『和声論』、バッハの職歴と BWV、《ブランデンブルク協奏曲》《平均律》《マタイ受難曲》、ヘンデルの《メサイア》は通史の記事に、オペラの展開は[オペラの歴史](/music/opera/history-of-opera/)の記事に書いたので、ここでは扱わない。
+
 
 ## 通奏低音——「土台」と「装飾」
 
@@ -51,11 +51,11 @@ sources:
 - 怒りと戦いを表すために、速い同音反復やトレモロによる「激しい様式」（stile concitato）を用いる。語り手もこの様式で歌う部分がある。
 - 剣の打撃を表す2本の指によるピッツィカート、劇的な休止、一弓の中でのディミヌエンドを楽譜で指示した。演奏の指示をこれほど細かく書くのは当時としては珍しかった。
 
-（以上 [Boston Baroque](https://baroque.boston/monteverdi-il-combattimento) による）
+
 
 ## 17世紀前半のドイツ——シュッツ
 
-ハインリヒ・シュッツ（Heinrich Schütz）は1585年10月8日にザクセンのケストリッツに生まれ、1672年11月6日にドレスデンで没した。ブリタニカは、バッハ以前の最も偉大なドイツの作曲家と広く見なされているとする。経歴は次のとおりである。[（Britannica）](https://www.britannica.com/print/article/528503)
+ハインリヒ・シュッツ（Heinrich Schütz）は1585年10月8日にザクセンのケストリッツに生まれ、1672年11月6日にドレスデンで没した。バッハ以前の最も偉大なドイツの作曲家と広く見なされている。経歴は次のとおりである。[（Britannica）](https://www.britannica.com/print/article/528503)
 
 | 年 | 事項 |
 |---|---|
@@ -77,7 +77,7 @@ sources:
 
 ジャコモ・カリッシミ（Giacomo Carissimi）は1605年4月18日にローマ近郊のマリーノで洗礼を受け、1674年1月12日にローマで没した。ティヴォリとアッシジで短く職を得た後、1620年代末にローマに落ち着き、ドイツ学院（コレギウム・ゲルマニクム）とその教会サンタポッリナーレの楽長となって、没するまでその職にあった。[（Britannica）](https://www.britannica.com/print/article/95941)
 
-カリッシミは旧約聖書による16のオラトリオを書いた。四旬節にはオペラが上演されないので、ブリタニカはこれを「代わりのオペラ」と呼ぶ。約20分の《イェフタ》（Jephte）は語り手と合唱の使い方を示し、のちにヘンデルがこの手法を広げた。ほかに《ソロモンの審判》《バルタザール》《最後の審判》が蘇演されている。[（Britannica）](https://www.britannica.com/print/article/95941)ドイツ学院は、1575年にビクトリアが楽長となった学院でもある（[ルネサンスの音楽](/music/history/renaissance-music/)を参照）。
+カリッシミは旧約聖書による16のオラトリオを書いた。四旬節にはオペラが上演されないので、これは「代わりのオペラ」とも呼ばれる。約20分の《イェフタ》（Jephte）は語り手と合唱の使い方を示し、のちにヘンデルがこの手法を広げた。ほかに《ソロモンの審判》《バルタザール》《最後の審判》が蘇演されている。[（Britannica）](https://www.britannica.com/print/article/95941)ドイツ学院は、1575年にビクトリアが楽長となった学院でもある（[ルネサンスの音楽](/music/history/renaissance-music/)を参照）。
 
 ## 鍵盤音楽——フレスコバルディからブクステフーデへ
 
@@ -103,9 +103,9 @@ sources:
 - リュリの楽団は、弓の上げ下げの統一と、装飾の揃え方で知られた。
 - **フランス風序曲**は2つの部分からなる。第1部は和音的で荘重な付点リズムをもち、音型が次の強拍へ駆け込む。第2部は模倣で始まり、ときに冒頭のテンポに戻る。
 
-（以上 [DuBois / Burkholder–Grout–Palisca](https://www.wtamu.edu/~tdubois/NinthChap16M.pdf) による）
 
-同じ学習ノートは、舞曲を組み合わせた組曲の基本の舞曲をアルマンド、クーラント、サラバンド、ジーグとし、フランスの組曲は拍子をもたない前奏曲で始まるものが多く、曲に空想的な題を付けること、ドイツの組曲はこの4つの順に前奏曲を置き、任意の舞曲を間に挟むことを挙げている。[（DuBois / Burkholder–Grout–Palisca）](https://www.wtamu.edu/~tdubois/NinthChap16M.pdf)後に述べるバッハの『クラヴィーア練習曲集』第2部の《フランス風序曲》は、この形の名を題にもつ。
+
+同じ学習ノートは、舞曲を組み合わせた組曲の基本の舞曲をアルマンド、クーラント、サラバンド、ジーグとし、フランスの組曲は拍子をもたない前奏曲で始まるものが多く、曲に空想的な題を付けること、ドイツの組曲はこの4つの順に前奏曲を置き、任意の舞曲を間に挟むことを挙げている。[（DuBois / Burkholder–Grout–Palisca）](https://www.wtamu.edu/~tdubois/NinthChap16M.pdf)バッハの『クラヴィーア練習曲集』第2部の《フランス風序曲》は、この形の名を題にもつ。
 
 ### クープラン
 
@@ -115,19 +115,19 @@ sources:
 
 ### ビーバー
 
-ハインリヒ・イグナツ・フランツ・ビーバー（Heinrich Ignaz Franz Biber）は1644年8月12日に洗礼を受け、1704年5月3日にザルツブルクで没した。ブリタニカは、バロック時代の傑出したヴァイオリンの名手の一人とする。[（Britannica）](https://www.britannica.com/print/article/64368)
+ハインリヒ・イグナツ・フランツ・ビーバー（Heinrich Ignaz Franz Biber）は1644年8月12日に洗礼を受け、1704年5月3日にザルツブルクで没した。バロック時代の傑出したヴァイオリンの名手の一人とされる。[（Britannica）](https://www.britannica.com/print/article/64368)
 
 - 1668年、クロムニェジーシュでオロモウツ司教の従者兼音楽家となった。1670年に無断でこの職を離れ、ザルツブルク大司教に仕えた。1679年に副楽長、1684年に楽長と聖歌隊学校の監督になり、1690年に皇帝レオポルト1世から貴族に列せられた。
 - 《ロザリオのソナタ》（《秘跡のソナタ》）は、聖母マリアの生涯の出来事による、ヴァイオリンと通奏低音のための15曲である。ヴァイオリンの調弦を変えるスコルダトゥーラで特別な響きを得る。無伴奏ヴァイオリンのための《パッサカリア》ト短調もよく知られる。
 - 《ザルツブルク・ミサ》（Missa Salisburgensis）は、1682年の大司教座設立1100年のために書かれ、大聖堂の各所に分けて置かれた7つの合奏群を用いる。
 
-（以上 [Britannica](https://www.britannica.com/print/article/64368) による）
+
 
 ### パーセル
 
 ヘンリー・パーセル（Henry Purcell）は1659年頃にロンドンで生まれ、1695年11月21日にロンドンで没した。父が王室礼拝堂の礼拝堂員で、パーセル自身も礼拝堂の少年聖歌隊員として育った。1679年にジョン・ブロウ（John Blow）の後を継いでウェストミンスター寺院のオルガニストとなり、1682年には王室礼拝堂の3人のオルガニストの一人となった。[（Britannica）](https://www.britannica.com/biography/Henry-Purcell)
 
-《ディドとエネアス》は1689年、ネイハム・テイト（Nahum Tate）の台本により、チェルシーの女子の寄宿学校のために書かれた。その後の《ダイオクリージャン》（1690年）、《アーサー王》（1691年）、《妖精の女王》（1692年）では、劇の付随音楽を超える規模の音楽を書いた。メアリー女王のための誕生日のオードは1694年まで続いた。ブリタニカは、100曲を超える歌曲を、パーセルが最もよく記憶されている作品として挙げる。[（Britannica）](https://www.britannica.com/biography/Henry-Purcell)
+《ディドとエネアス》は1689年、ネイハム・テイト（Nahum Tate）の台本により、チェルシーの女子の寄宿学校のために書かれた。その後の《ダイオクリージャン》（1690年）、《アーサー王》（1691年）、《妖精の女王》（1692年）では、劇の付随音楽を超える規模の音楽を書いた。メアリー女王のための誕生日のオードは1694年まで続いた。100曲を超える歌曲は、パーセルの作品のなかで最もよく記憶されている。[（Britannica）](https://www.britannica.com/biography/Henry-Purcell)
 
 ## 協奏曲——トレッリとヴィヴァルディ
 
@@ -145,7 +145,7 @@ sources:
 - ヴィヴァルディが教えていたヴェネツィアの女子孤児院、ピエタ慈善院で初演されたとみられる。
 - バッハはこの曲集から編曲を作った。第10番は4台のチェンバロと弦のための協奏曲 BWV 1065 に、第11番はオルガン曲 BWV 596 になった。ほかに第3・9・12番をチェンバロ独奏曲に、第8番をオルガン曲に編んでいる。
 
-（以上 [Boston Baroque](https://baroque.boston/vivaldi-op-3) による）
+
 
 
 ## バッハ——ライプツィヒのカンタータと出版譜
@@ -154,7 +154,7 @@ sources:
 
 ライプツィヒのトーマスカントルだったクーナウ（Johann Kuhnau）は、21年の在職の後、1722年に没した。[（Carus-Verlag Blog）](https://blog.carus-verlag.com/en/choral-works-in-focus/bach-300-the-year-1723-and-its-repercussions/)クーナウの死後、ライプツィヒからの申し出をテレマンは断り、職はバッハに回った。[（Britannica「Telemann」）](https://www.britannica.com/EBchecked/topic/585919)バッハは1723年2月7日（五旬節の主日）に、カンタータ BWV 22 と BWV 23 で予備の試験を通った。[（Carus-Verlag Blog）](https://blog.carus-verlag.com/en/choral-works-in-focus/bach-300-the-year-1723-and-its-repercussions/)
 
-カールス社のブログによる、就任後の最初の2年の動きは次のとおりである。[（Carus-Verlag Blog）](https://blog.carus-verlag.com/en/choral-works-in-focus/bach-300-the-year-1723-and-its-repercussions/)
+就任後の最初の2年の動きは次のとおりである。[（Carus-Verlag Blog）](https://blog.carus-verlag.com/en/choral-works-in-focus/bach-300-the-year-1723-and-its-repercussions/)
 
 - 1723年5月30日（三位一体節後第1主日）：カンタータ BWV 75 を演奏する。その2日後に正式に職務を始めた。
 - 1723年：クリスマスの《マニフィカト》BWV 243。バッハ最初の大規模な声楽作品である。
@@ -193,11 +193,11 @@ sources:
 
 ヘンデルのイタリアでの修業時代の終わりを飾ったのが、2作目のイタリア・オペラ《アグリッピーナ》である。1709年12月、1709〜10年の謝肉祭の季節にヴェネツィアのサン・ジョヴァンニ・グリゾストモ劇場で初演された。台本はこの劇場を所有する一族のヴィンチェンツォ・グリマーニ枢機卿（Vincenzo Grimani）がヘンデルのために書いた。27回上演され、最初の伝記作者メインウェアリング（John Mainwaring）によれば、聴衆は「親愛なるザクセン人万歳！」（viva il caro Sassone）と叫んだ。この成功でヘンデルは24歳でヨーロッパに名を知られ、ハノーファーの宮廷の職の申し出につながった。[（Boston Baroque）](https://baroque.boston/handel-agrippina)メインウェアリングはこの出来事より後に生まれた人物で、その記述は伝聞である。
 
-ロンドンでの《リナルド》（1711年）以後のオペラとオラトリオは、通史と[オペラの歴史](/music/opera/history-of-opera/)の記事で扱った。
+
 
 ## テレマン
 
-ゲオルク・フィリップ・テレマン（Georg Philipp Telemann）は1681年3月14日にマクデブルクに生まれ、1767年6月25日にハンブルクで没した。ブリタニカによる経歴は次のとおりである。[（Britannica）](https://www.britannica.com/EBchecked/topic/585919)
+ゲオルク・フィリップ・テレマン（Georg Philipp Telemann）は1681年3月14日にマクデブルクに生まれ、1767年6月25日にハンブルクで没した。経歴は次のとおりである。[（Britannica）](https://www.britannica.com/EBchecked/topic/585919)
 
 | 年 | 事項 |
 |---|---|

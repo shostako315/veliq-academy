@@ -385,3 +385,13 @@ html body .va-sec>h2,html body .va-shd h2{font-size:17px!important;color:var(--i
 .gh .brand{flex-shrink:0}
 @media(max-width:420px){.gh-in{gap:8px}.gh .gnav{margin-left:0;gap:0}.gh .gnav a{padding:0 8px}}
 @media(max-width:340px){.gh .brand{font-size:16px}.gh .gnav a{padding:0 6px}}
+/* 押せる範囲を 44px に（見た目はそのまま。2026-11-03 点検） */
+.va-bc li+li::before{margin:0 8px}
+.va-bc a{min-width:0;min-height:44px;padding:0 10px;margin:0 -10px;position:relative}
+.va-bc li:first-child a{padding-left:0;margin-left:0}
+.va-bc [aria-current]{padding:12px 0}
+.va-chip{position:relative;min-height:44px;margin:-10px 0;border:0;border-radius:0}
+.va-chip::before{content:"";position:absolute;left:0;right:0;top:10px;bottom:10px;border:1px solid var(--line);border-radius:4px;pointer-events:none}
+.va-chip:hover::before{border-color:var(--ink)}
+.va-toc a{min-height:44px;margin:-6px 0;align-items:center}
+.va-pill{min-height:44px}

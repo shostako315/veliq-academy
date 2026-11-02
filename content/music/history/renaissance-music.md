@@ -33,7 +33,7 @@ sources:
   - 'IMSLP「Musica Transalpina, Book 1 (Yonge, Nicholas)」 https://imslp.org/wiki/Musica_Transalpina,_Book_1_(Yonge,_Nicholas) 閲覧日 2026-10-30'
 ---
 
-この記事は、[西洋音楽史の通史](/music/history/western-music-history/)で概観した15〜16世紀を、写本・印刷譜・教会の文書に沿って一段細かく見る。ダンスタブル、デュファイ、オケゲム、ジョスカンの生涯と主要作品、《オデカトン》の出版、《教皇マルチェルスのミサ》とトリエント公会議の伝説の出どころ（アガッツァーリ）、モンテヴェルディとアルトゥージの論争は通史の記事に書いたので、ここでは繰り返さず、その先を扱う。
+
 
 ## 定旋律ミサと《ロム・アルメ》——15世紀後半
 
@@ -50,13 +50,13 @@ sources:
 
 ### ティンクトリスの理論
 
-同じ時期にナポリで理論書を書いたのが、ティンクトリス（Johannes Tinctoris, 1436–1511）である。ブリタニカは、ブラバント公領のニヴェルの出身である可能性を記す。ブリタニカによると、ルーヴェンで法学と神学を学び、ナポリ王フェルディナンド1世の礼拝堂付司祭となり、ナポリに公開の音楽学校を設けた。[（Britannica）](https://www.britannica.com/print/article/596538)
+同じ時期にナポリで理論書を書いたのが、ティンクトリス（Johannes Tinctoris, 1436–1511）である。ブラバント公領のニヴェルの出身である可能性がある。ルーヴェンで法学と神学を学び、ナポリ王フェルディナンド1世の礼拝堂付司祭となり、ナポリに公開の音楽学校を設けた。[（Britannica）](https://www.britannica.com/print/article/596538)
 
 - 『音楽用語定義集』（Terminorum musicae diffinitorium、1476年頃、印刷は1495年頃）：291の用語をアルファベット順に定義した、知られる最初の音楽用語辞典で、王の娘ベアトリーチェに献じられた。ナポリ写本 VI E 40 の贈り先と同じ人物である。
 - 『音楽の比例論』（Proportionale musices）：計量記譜の比例を扱う。
 - 『対位法の技法の書』（Liber de arte contrapuncti）：15世紀後半に実際に行われていた作曲法を概観する。
 
-ティンクトリス自身も《ミサ・ロム・アルメ》を書いており、ブリタニカはこれを彼の最もよく知られた作品とする。[（Britannica）](https://www.britannica.com/print/article/596538)
+ティンクトリス自身も《ミサ・ロム・アルメ》を書いており、これが彼の最もよく知られた作品である。[（Britannica）](https://www.britannica.com/print/article/596538)
 
 ## イングランドの合唱書——イートン聖歌隊本
 
@@ -103,7 +103,7 @@ sources:
 - 8つの楽器のための《ピアンとフォルテのソナタ》は、強い部分と弱い部分を楽譜に指定している。
 - 分かれて配置された合唱と、指定された楽器のために書き、音色の組み合わせを広げた。弟子にシュッツ（Heinrich Schütz）がいる。
 
-（以上 [Britannica](https://www.britannica.com/print/article/223235) による）
+
 
 ## 16世紀半ばの理論書——グラレアヌス、ヴィチェンティーノ、ツァルリーノ
 
@@ -191,9 +191,9 @@ EBSCO の解説によると、1564年8月、教皇ピウス4世は公会議の�
 
 トマス・タリス（Thomas Tallis）は1505年頃に生まれ、1585年11月20日か23日にグリニッジで没した。1538年にウォルサム修道院に移り、1540年の修道院解散の際に給与と報酬を受けた人の名簿に名がある。1543年に王室礼拝堂の一員となり、ヘンリー8世、エドワード6世、メアリー1世、エリザベス1世に仕えた。40声のモテット《スペム・イン・アリウム》（Spem in alium）がある。[（Britannica）](https://www.britannica.com/print/article/581620)
 
-1575年1月21日、エリザベス1世はタリスとウィリアム・バード（William Byrd）に、イングランドで楽譜と五線紙を印刷する独占権を与えた。ブリタニカは、これをこの種の特許状の最初のものとする。[（Britannica）](https://www.britannica.com/print/article/581620)特許の期間は21年の予定だった。[（Renaissance Society）](https://www.rensoc.org.uk/event/the-old-science-of-sound-450-years-of-tallis-and-byrds-cantiones-sacrae-1575/)同じ1575年、2人は最初の出版として『その内容から聖なる歌と呼ばれる歌』（Cantiones, quae ab argumento sacrae vocantur）を出した。印刷はヴォートロリエ（Thomas Vautrollier）で、ラテン語のモテット34曲を、タリスとバードが17曲ずつ分け合っている。[（Britannica）](https://www.britannica.com/print/article/581620)
+1575年1月21日、エリザベス1世はタリスとウィリアム・バード（William Byrd）に、イングランドで楽譜と五線紙を印刷する独占権を与えた。これはこの種の特許状の最初のものである。[（Britannica）](https://www.britannica.com/print/article/581620)特許の期間は21年の予定だった。[（Renaissance Society）](https://www.rensoc.org.uk/event/the-old-science-of-sound-450-years-of-tallis-and-byrds-cantiones-sacrae-1575/)同じ1575年、2人は最初の出版として『その内容から聖なる歌と呼ばれる歌』（Cantiones, quae ab argumento sacrae vocantur）を出した。印刷はヴォートロリエ（Thomas Vautrollier）で、ラテン語のモテット34曲を、タリスとバードが17曲ずつ分け合っている。[（Britannica）](https://www.britannica.com/print/article/581620)
 
-バード（1539〜40年ロンドン生–1623年7月4日エセックス州ストンドン・マッシー没）はタリスの庇護を受けた。ブリタニカは、主な作品として『カンティオネス・サクラエ』、『グラドゥアリア』、『詩篇、ソネットと歌』、『さまざまな性格の歌』と、『フィッツウィリアム・ヴァージナル曲集』に入った鍵盤曲を挙げ、バードの名を英国のマドリガーレの発展と結びつける。[（Britannica）](https://www.britannica.com/biography/William-Byrd)
+バード（1539〜40年ロンドン生–1623年7月4日エセックス州ストンドン・マッシー没）はタリスの庇護を受けた。主な作品は『カンティオネス・サクラエ』、『グラドゥアリア』、『詩篇、ソネットと歌』、『さまざまな性格の歌』と、『フィッツウィリアム・ヴァージナル曲集』に入った鍵盤曲で、バードの名は英国のマドリガーレの発展と結びついている。[（Britannica）](https://www.britannica.com/biography/William-Byrd)
 
 ## マドリガーレ
 
@@ -223,13 +223,13 @@ EBSCO の解説によると、1564年8月、教皇ピウス4世は公会議の�
 | 第5巻・第6巻 | 1611 | — |
 | 聖週間の応唱集 | 1611 | — |
 
-（[Britannica](https://www.britannica.com/print/article/232163)による）
 
-ブリタニカは、ジェズアルドの名声が半音階を多用したマドリガーレにあるとし、最後の2巻の和声をワトキンズ（Glenn Watkins）が「目もくらむような和声の様式」と評したことを引く。[（Britannica）](https://www.britannica.com/print/article/232163)
+
+ジェズアルドの名声は半音階を多用したマドリガーレにあり、最後の2巻の和声をワトキンズ（Glenn Watkins）は「目もくらむような和声の様式」と評した。[（Britannica）](https://www.britannica.com/print/article/232163)
 
 ### 劇的なマドリガーレとモノディへ
 
-ラルースは、マドリガーレを連ねて筋を語る試みとして、オラツィオ・ヴェッキ（Orazio Vecchi）の《アンフィパルナーソ》（1594年）とアドリアーノ・バンキエーリ（Adriano Banchieri）の《老いの狂気》（1598年）を挙げる。モンテヴェルディは対位法、朗誦、和音的な書法を混ぜ合わせ、『マドリガーレ集第8巻』で通奏低音つきの独唱への道を開いた。[（Larousse）](https://www.larousse.fr/encyclopedie/musdico/madrigal/168913)この先は[バロック音楽](/music/history/baroque-music/)の記事で扱う。
+ラルースは、マドリガーレを連ねて筋を語る試みとして、オラツィオ・ヴェッキ（Orazio Vecchi）の《アンフィパルナーソ》（1594年）とアドリアーノ・バンキエーリ（Adriano Banchieri）の《老いの狂気》（1598年）を挙げる。モンテヴェルディは対位法、朗誦、和音的な書法を混ぜ合わせ、『マドリガーレ集第8巻』で通奏低音つきの独唱への道を開いた。[（Larousse）](https://www.larousse.fr/encyclopedie/musdico/madrigal/168913)
 
 ### イングランドのマドリガーレ
 

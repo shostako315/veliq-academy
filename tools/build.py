@@ -21,7 +21,7 @@ import re
 import shutil
 import sys
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 
 try:
     import yaml
@@ -40,7 +40,7 @@ QUIZ_BANK = (Path(os.environ["VELIQ_CLUB_DIR"]) / "quiz-bank.js" if os.environ.g
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "8"
+CSS_V = "9"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
@@ -209,6 +209,7 @@ class Site:
             md = re.sub(r"==(.+?)==", r'<mark class="hl">\1</mark>', m.group(2))  # ==語== → 金のマーカー
             # 「> 要点」の直後に「> - 」が続くと箇条書きにならないので、間に空の引用行を挟む
             md = re.sub(r"^(>\s*要点\s*)\n(>\s*[-*] )", r"\1\n>\n\2", md, flags=re.M)
+            md = md_protect_urls(md)
             body = mdconv.convert(md)
             # 本文中の外部リンク（出典）は新しいタブで開く
             body = re.sub(r'<a href="(https?://[^"]+)">', r'<a href="\1" target="_blank" rel="noopener">', body)
@@ -223,7 +224,7 @@ class Site:
             body = re.sub(r"<blockquote>\s*<p>要点</p>\s*(.*?)</blockquote>", r'<aside class="va-key"><p class="va-key-h">要点</p>\1</aside>', body, flags=re.S)
             body, toc = number_headings(body)
             fm["toc"] = toc
-            fm["hero"] = figure(fm.get("image"), fm.get("image_alt") or fm["title"], fm.get("image_credit"), hero=True) if fm.get("image") else ""
+            fm["hero"] = figure(fm.get("image"), fm.get("image_alt") or hero_alt(fm), fm.get("image_credit"), hero=True) if fm.get("image") else ""
             srcs = fm.get("sources") or []
             if isinstance(srcs, str):
                 srcs = [srcs]
@@ -380,8 +381,11 @@ def number_headings(body):
             # 最初の章が「要点」なら箱として先に出し、目次はその後ろに置く
             if toc[0][2] == "要点" and toc[0][3] == 2:
                 end = heads[1].start() if len(heads) > 1 else len(body)
-                body = body[:at] + '<section class="va-key-sec">' + body[at:end] + "</section>" + body[end:]
-                at = end + len('<section class="va-key-sec"></section>')
+                seg = body[at:end]
+                # 「## 要点」の直下が「> 要点」の箱なら、箱を外して中身だけにする（罫線の二重を避ける）
+                seg = re.sub(r'(</h2>\s*)<aside class="va-key"><p class="va-key-h">要点</p>(.*?)</aside>', r"\1\2", seg, count=1, flags=re.S)
+                body = body[:at] + '<section class="va-key-sec">' + seg + "</section>" + body[end:]
+                at = at + len('<section class="va-key-sec"></section>') + len(seg)
             body = body[:at] + toc_html(toc) + body[at:]
     return body, toc
 
@@ -401,6 +405,13 @@ def tagline(fac, cat, updated):
     if updated:
         h += f'<time datetime="{esc(updated)}">更新 {esc(updated)}</time>'
     return h + "</p>"
+
+
+def hero_alt(fm):
+    """image_alt が無いときの代わり：クレジットの先頭（「作者 作「題」」など）を絵の説明にする。題名と同じ alt にはしない"""
+    c = re.split(r"[。]", str(fm.get("image_credit") or ""))[0]
+    c = re.sub(r"（[^）]*）", "", c).strip()
+    return c or "記事の図"
 
 
 def figure(src, alt, credit, hero=False):
@@ -434,6 +445,55 @@ def quiz_rows(S, path, topics):
 # ---------------------------------------------------------------- 本文中の出典リンク → 参考文献
 LINKCHECK = ROOT / "tools" / "linkcheck.json"
 _BAD_URL = re.compile(r"britannica\.com/(print/|EBchecked/)", re.I)
+_BLOG_URL = re.compile(r"/blog|blog\.|wp-json", re.I)  # ブログは出典にしない
+
+
+def url_clean(u):
+    """本文・前付けから拾った URL の末尾の句読点と、対応の取れない閉じ括弧だけを落とす（「_(Mahler)」の「)」は残す）"""
+    u = u.rstrip(".,;")
+    while u.endswith(")") and u.count(")") > u.count("("):
+        u = u[:-1].rstrip(".,;")
+    return u
+
+
+def url_enc(u):
+    """URL の ( ) を %28 %29 にする（括弧で URL が切れないように）"""
+    return u.replace("(", "%28").replace(")", "%29")
+
+
+def md_protect_urls(md):
+    """Markdown 変換の前に URL を守る：
+    ・[文字](URL) の URL は括弧の対応を見て全体を取り出し、中の ( ) を %28 %29 に
+    ・地の文の URL は「_」「*」が強調にならないよう \\ を付ける"""
+    out, i = [], 0
+    while True:
+        j = md.find("](http", i)
+        if j < 0:
+            break
+        k, depth = j + 2, 1
+        while k < len(md) and md[k] not in "\n":
+            if md[k] == "(":
+                depth += 1
+            elif md[k] == ")":
+                depth -= 1
+                if depth == 0:
+                    break
+            k += 1
+        if depth != 0:
+            out.append(md[i:j + 2])
+            i = j + 2
+            continue
+        inner = md[j + 2:k]
+        m = re.match(r"(\S+)(\s+\".*\")?$", inner)
+        url, title = (m.group(1), m.group(2) or "") if m else (inner, "")
+        out.append(md[i:j + 2] + url_enc(url) + title + ")")
+        i = k + 1
+    out.append(md[i:])
+    md = "".join(out)
+
+    def bare(m):
+        return re.sub(r"(?<!\\)([_*])", r"\\\1", m.group(0))
+    return re.sub(r"(?<![(<\"=\w])https?://[^\s<>（）「」『』、。　\]]+", bare, md)
 
 
 def load_linkcheck():
@@ -446,9 +506,9 @@ def load_linkcheck():
 def url_ok(url, lc):
     """参考文献に残してよい URL か。britannica の print/EBchecked は無条件で捨てる。
     tools/linkcheck.py の結果（tools/linkcheck.json）があり 200 でなければ捨てる。未確認は残す"""
-    if _BAD_URL.search(url):
+    if _BAD_URL.search(url) or _BLOG_URL.search(url):
         return False
-    r = lc.get(url) or lc.get(url.rstrip("/"))
+    r = lc.get(url) or lc.get(url.rstrip("/")) or lc.get(unquote(url).replace("%28", "(").replace("%29", ")"))
     if r and r.get("status") != 200:
         return False
     return True
@@ -490,7 +550,7 @@ def references(sources, cites, lc):
     out, seen = [], set()
     for s_ in sources:
         urls = _URL.findall(s_)
-        u = urls[0].rstrip(".,;)") if urls else ""
+        u = url_clean(urls[0]) if urls else ""
         if u and not url_ok(u, lc):
             continue
         k = u.rstrip("/") or s_
@@ -510,7 +570,22 @@ def references(sources, cites, lc):
 # ---------------------------------------------------------------- 用語の自動相互リンク
 TERM_STOP = {"世紀", "20世紀", "時代", "作品", "記譜と理論", "形式とジャンル", "声楽と教会音楽", "演奏と楽器", "要点", "よくある質問", "出典", "参考文献", "成立", "概要", "まとめ", "基本情報", "生涯", "作風", "代表作", "聴き方",
              "編成", "受容と録音", "時代と背景", "作家", "見方", "どこで見られるか", "用語", "作品", "作曲家", "時代", "社会と制度", "様式",
-             "編成と演奏時間", "楽章ごとの聴きどころ", "演奏史と解釈", "もっと深く", "はじめに", "背景", "歴史", "特徴", "構成"}
+             "編成と演奏時間", "楽章ごとの聴きどころ", "演奏史と解釈", "もっと深く", "はじめに", "背景", "歴史", "特徴", "構成",
+             # 一般語・紛れ語（文中にふつうに出る語はリンクしない）
+             "音楽", "曲", "演奏", "楽器", "旋律", "和声", "リズム", "作曲", "歌", "声", "音", "ワイン", "酒", "料理", "香り",
+             "味", "色", "絵", "美術", "画家", "建築", "彫刻", "拍", "主題", "形式", "楽章", "合唱", "独奏", "歌手",
+             "オーケストラ", "指揮", "指揮者", "ピッチ", "ウード"}
+# 別人・固有名：それ自体はリンクしないが、辞書には入れて中の短い語（バッハ・シューマン等）のリンクを防ぐ（最長一致）
+TERM_EXCLUDE = {"J. C. バッハ", "J.C.バッハ", "J. C. Bach", "ヨハン・クリスティアン・バッハ", "ヴィルヘルム・フリーデマン・バッハ",
+                "W. F. バッハ", "J. Ch. バッハ", "ヨハン・シュトラウス", "ヨハン・シュトラウス2世", "ヨハン・シュトラウス1世",
+                "J. シュトラウス", "クララ・シューマン", "クララ・ヴィーク", "グスタフ・マーラー・ユーゲント管弦楽団",
+                "マーラー・ユーゲント管弦楽団", "マーラー・チェンバー・オーケストラ", "ユーゲント管弦楽団",
+                "ベートーヴェン・ハウス", "パリ・オペラ座", "イングリッシュ・ホルン", "ヴィオラ・ダ・ガンバ", "ヴィオラ・ダモーレ",
+                "ボストン・バロック", "イングリッシュ・バロック・ソロイスツ", "ロンドン", "アリアドネ", "エラスバッハ"}
+# 頭文字つきの表記（同じ人の別表記）
+TERM_INITIALS = {"J. S. バッハ": "bach-js", "J.S.バッハ": "bach-js", "J. S. Bach": "bach-js", "J.S. Bach": "bach-js",
+                 "C. P. E. バッハ": "bach-cpe", "C.P.E.バッハ": "bach-cpe", "C. P. E. Bach": "bach-cpe", "C.P.E. Bach": "bach-cpe",
+                 "R. シュトラウス": "strauss-r", "R.シュトラウス": "strauss-r", "R. Strauss": "strauss-r"}
 ALIAS_DENY = {"パート", "リスト", "山田", "團", "細川", "武満"}  # 一般語と紛れる姓
 TERM_SECTIONS = {"theory", "instruments", "glossary"}  # 見出しを用語にする分野
 
@@ -522,7 +597,10 @@ def heading_terms(text):
     terms = [t]
     if m:
         terms = [m.group(1).strip()] + [x.strip() for x in re.split(r"[、，,／/]", m.group(2)) if x.strip()]
-    return [x for x in terms if 2 <= len(x) <= 14 and x not in TERM_STOP and not re.search(r"[。、]", x)]
+    # 「標題音楽（と絶対音楽）」→ 括弧内の先頭の助詞は外して語そのものにする
+    terms = [re.sub(r"^[とやのおよび]+(?=[^ぁ-ん])", "", x) if i else x for i, x in enumerate(terms)]
+    return [x for x in terms if 2 <= len(x) <= 14 and x not in TERM_STOP and not re.search(r"[。、]", x)
+            and not re.match(r"^[ぁ-ん]", x)]
 
 
 def build_terms(S):
@@ -568,6 +646,11 @@ def build_terms(S):
                     continue
                 for t in heading_terms(text):
                     add(t, a["path"], hid)
+    for t, cid in TERM_INITIALS.items():
+        if cid in S.C:
+            T.setdefault(t, (f"/music/composers/{cid}/", ""))
+    for t in TERM_EXCLUDE:
+        T[t] = None  # 除外語（リンクしない）
     S.terms = T
     terms = sorted(T, key=len, reverse=True)
     S.term_re = re.compile("|".join(re.escape(t) for t in terms)) if terms else None
@@ -578,19 +661,46 @@ _SKIP_TAGS = {"a", "h1", "h2", "h3", "h4", "code", "pre", "summary", "nav", "fig
 
 
 def autolink(S, body, self_path):
-    """本文の用語の最初の出現1回だけを該当ページ（節）へリンクする。見出し・リンク・コード・目次・一覧の中は除外"""
+    """本文の用語の最初の出現1回だけを該当ページ（節）へリンクする。見出し・リンク・コード・目次・一覧の中は除外。
+    語境界はインラインのタグ（a・strong・mark など）をまたいで前後の文字で判定する"""
     if not getattr(S, "term_re", None) or not body:
         return body
-    out, pos, used, skip = [], 0, set(), []
+    toks, pos = [], 0  # ("t", 文字列) / ("g", タグ)
     for m in _TAG.finditer(body):
-        text = body[pos:m.start()]
-        if text and not skip:
-            text = _link_text(S, text, self_path, used)
-        out.append(text)
-        tag = m.group(0)
+        if m.start() > pos:
+            toks.append(("t", body[pos:m.start()]))
+        toks.append(("g", m.group(0)))
+        pos = m.end()
+    if pos < len(body):
+        toks.append(("t", body[pos:]))
+
+    def is_inline(tag):
+        tm = re.match(r"</?([a-zA-Z0-9]+)", tag)
+        return bool(tm) and tm.group(1).lower() in _INLINE_TAGS
+
+    def after_of(i):
+        s_ = ""
+        for k, v in toks[i + 1:]:
+            if k == "g":
+                if not is_inline(v):
+                    break
+                continue
+            s_ += html.unescape(v)
+            if len(s_) >= 2:
+                break
+        return s_[:2]
+    out, used, skip, prev = [], set(), [], ""
+    for i, (k, v) in enumerate(toks):
+        if k == "t":
+            out.append(_link_text(S, v, self_path, used, prev, after_of(i)) if not skip else v)
+            prev = (prev + html.unescape(v))[-6:]
+            continue
+        tag = v
         tm = re.match(r"<(/?)([a-zA-Z0-9]+)", tag)
         if tm:
             closing, name = tm.group(1), tm.group(2).lower()
+            if name not in _INLINE_TAGS:
+                prev = ""
             is_list = name == "ul" and 'class="va-list' in tag
             if name in _SKIP_TAGS or is_list:
                 if closing:
@@ -599,16 +709,48 @@ def autolink(S, body, self_path):
                 elif not tag.endswith("/>"):
                     skip.append(name)
         out.append(tag)
-        pos = m.end()
-    tail_ = body[pos:]
-    out.append(_link_text(S, tail_, self_path, used) if tail_ and not skip else tail_)
     return "".join(out)
 
 
-def _link_text(S, text, self_path, used):
+_INLINE_TAGS = {"a", "mark", "em", "strong", "b", "i", "span", "small", "sup", "sub", "cite", "abbr", "time", "q"}
+_KATA = r"\u30A0-\u30FF\uFF65-\uFF9F"  # カタカナ・長音「ー」・中黒「・」・半角カナ
+_LAT = r"A-Za-z\u00C0-\u024F"
+_KAN = r"\u4E00-\u9FFF\u3005"
+_CAT = {"k": re.compile(f"[{_KATA}]"), "l": re.compile(f"[{_LAT}0-9]"), "h": re.compile(f"[{_KAN}]")}
+_JOIN = {"k": re.compile(f"[{_KATA}{_LAT}]"), "l": re.compile(f"[{_LAT}0-9{_KATA}]"), "h": re.compile(f"[{_KAN}]")}
+_INITIAL = re.compile(r"(?:^|[^A-Za-z])[A-Z]\.\s?$")
+
+
+def _cat(ch):
+    for k, r in _CAT.items():
+        if r.match(ch):
+            return k
+    return ""
+
+
+def term_boundary_ok(t, before, after):
+    """日本語の語境界：カタカナ語は前後がカタカナ・ー・・・英字でない、漢字語は前後が漢字でない、英字語は前後が英数字でない"""
+    c0, c1 = _cat(t[0]), _cat(t[-1])
+    if before and c0 and _JOIN[c0].match(before[-1]):
+        return False
+    if after and c1 and _JOIN[c1].match(after[0]):
+        return False
+    if _INITIAL.search(before or ""):  # 「C. P. E. バッハ」の「バッハ」など、頭文字の後の姓は別人のことがある
+        return False
+    return True
+
+
+def _link_text(S, text, self_path, used, prev="", nxt=""):
     def rep(m):
         t = m.group(0)
-        path, anchor = S.terms[t]
+        hit = S.terms.get(t)
+        if hit is None:
+            return t
+        before = (prev + text[:m.start()])[-6:]
+        after = (text[m.end():] + nxt)[:2]
+        if not term_boundary_ok(t, before, after):
+            return t
+        path, anchor = hit
         if path == self_path or (path, anchor) in used:
             return t
         used.add((path, anchor))
@@ -874,8 +1016,8 @@ _URL = re.compile(r"https?://[^\s<>（）「」『』、。　]+")
 def src_html(s):
     out, i = "", 0
     for m in _URL.finditer(str(s)):
-        u = m.group(0).rstrip(".,;)")
-        out += esc(str(s)[i:m.start()]) + f'<a href="{esc(u)}" target="_blank" rel="noopener">{esc(u)}</a>'
+        u = url_clean(m.group(0))
+        out += esc(str(s)[i:m.start()]) + f'<a href="{esc(url_enc(u))}" target="_blank" rel="noopener">{esc(u)}</a>'
         i = m.start() + len(u)
     return out + esc(str(s)[i:])
 
@@ -1032,7 +1174,7 @@ def build_composer(S, c):
         body += (a.get("hero") or "") + sec("基本情報", basic)
         body += f'<div class="va-body">{autolink(S, a["html"], path)}</div>'
     else:
-        body += figure(c.get("portrait"), c["name"], c.get("portraitCredit"), hero=True) if c.get("portrait") else ""
+        body += figure(c.get("portrait"), f'{c["name"]}の肖像', c.get("portraitCredit"), hero=True) if c.get("portrait") else ""
         body += sec("基本情報", basic)
         bio = ""
         if tl:

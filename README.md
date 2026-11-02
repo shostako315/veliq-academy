@@ -42,5 +42,7 @@ cd veliq-academy && python3 -m http.server 8080
 - 本文の `==語==` は金のマーカー、`> 要点` で始まる引用は左罫線の箱。見出しの番号（1／1-1）と目次はビルドが付けるので手で書かない。最初の `## 要点` は箱として目次の前に出る。`## よくある質問` の `###` は Q の見出しになる
 - 本文中の外部リンク（`[（出典名）](URL)` など）はビルドで外し、末尾の「参考文献」に前付けの `sources` と重複排除してまとめる。本文末尾に `## 参考文献` を書いた記事も自動の節に統合される。britannica.com の `print/`・`EBchecked/` は無条件に落とす。`python3 tools/linkcheck.py` で URL を確認すると、200 以外の URL の項目も落ちる（結果は `tools/linkcheck.json`）
 - 用語の自動相互リンク：作曲家・作品・時代・概念・記事の題名と `aliases`、楽典・楽器・用語集の見出しを辞書にして、本文の最初の出現1回だけを `a.tl` でリンクする。用語集は `content/music/glossary/music-glossary.md` → `/music/glossary/`
+  - 語境界（2026-11-03）：カタカナ語は前後がカタカナ・ー・・・英字ならリンクしない（ロンドンの「ロンド」等）、漢字語は前後が漢字なら不可、頭文字（C. P. E. など）の後の姓も不可。別人・固有名は `TERM_EXCLUDE`（リンクしないが短い語も防ぐ）、一般語は `TERM_STOP` に足す
+- 参考文献：URL の ( ) は %28 %29 にして出す。`/blog`・`blog.`・`wp-json` を含む URL は出典にしない
 - 作曲家・作品のデータだけの頁は、基本情報の表・年表・代表作の表・関連章・聴く（Apple Music／Spotify／YouTube）・参考文献の順で組む。`data/composers.json` の `portrait`／`portraitCredit` があれば題名の上に出す
 - 390px の確認は `docs/screens/`（Playwright で撮影）

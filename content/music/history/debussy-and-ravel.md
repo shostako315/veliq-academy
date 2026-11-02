@@ -6,6 +6,7 @@ summary: ドビュッシー（1862–1918）とラヴェル（1875–1937）を�
 aliases: ["ドビュッシー", "クロード・ドビュッシー", "Claude Debussy", "Debussy", "ラヴェル", "モーリス・ラヴェル", "Maurice Ravel", "Ravel", "印象主義", "印象派", "Impressionism", "牧神の午後への前奏曲", "ベルガマスク組曲", "月の光", "Clair de lune", "ボレロ", "Boléro", "水の戯れ", "Jeux d'eau", "全音音階"]
 image: https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Debussy_by_Atelier_Nadar.jpg?width=900
 image_credit: アトリエ・ナダール（Atelier Nadar）撮影、クロード・ドビュッシー（1908年頃）。撮影者フェリックス・ナダール（1820–1910）の没後70年以上を経ており、パブリックドメイン（Wikimedia Commons, File:Claude Debussy by Atelier Nadar.jpg）
+image_alt: クロード・ドビュッシーの肖像写真（1908年頃、アトリエ・ナダール撮影）
 updated: 2026-11-03
 sources:
   - "Wikipedia（英語版）「Claude Debussy」（出生、音楽院、ローマ賞、バイロイト、1889年のガムラン、《ペレアス》1902年、《海》1905年、「月の光」1890年、前奏曲集、全音音階と旋法、1908年の「印象主義」への異議、死、ブーレーズの言葉）. https://en.wikipedia.org/wiki/Claude_Debussy（閲覧日 2026-11-03）"
@@ -24,7 +25,7 @@ sources:
 > - 《牧神の午後への前奏曲》は**フルート独奏**で始まり、ブーレーズは「牧神のフルートが音楽芸術に新しい息吹をもたらした」と書いた。
 > - 《ボレロ》は小太鼓の同じリズムの上で2つの旋律が楽器を替えて繰り返され、約15分で一つの長いクレッシェンドをなす。
 
-この記事は、世紀転換期のパリの2人の作曲家を、制度（音楽院とローマ賞、万国博覧会、演奏会団体）、様式、人物、作品の順に扱う。==2人は当初親しく「印象主義者」として一括りにされたが、1905年頃に関係が冷え、どちらもその呼び名を拒んだ。==20世紀の調性の変化の全体は[20世紀の音楽](/music/history/twentieth-century-music/)に書いた。
+==2人は当初親しく「印象主義者」として一括りにされたが、1905年頃に関係が冷え、どちらもその呼び名を拒んだ。==
 
 ## 2. 社会と制度
 

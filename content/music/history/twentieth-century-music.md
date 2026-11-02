@@ -42,7 +42,7 @@ sources:
   - 'Daniel Leech-Wilkinson, The Changing Sound of Music: Approaches to Studying Recorded Musical Performances（CHARM, 2009）ch. 4 https://charm-os.kdl.kcl.ac.uk/studies/chapters/chap4.html 閲覧日 2026-10-30'
 ---
 
-この記事は、[西洋音楽史の通史](/music/history/western-music-history/)で概観した20世紀を、初演の記録、作曲家の論文、楽団と研究機関の資料に沿って一段細かく見る。ドビュッシー《牧神の午後への前奏曲》、シェーンベルクの作品10・作品11・《月に憑かれたピエロ》、《春の祭典》の初演、ハウアーと十二音の音列の4つの形、《ピアノ組曲》作品25、《ヴォツェック》、ウェーベルン《交響曲》、《プルチネッラ》とブーランジェ、メシアンの《音価と強度のモード》と《ストリュクチュール》、《4分33秒》、リゲティ、ペンデレツキ、武満、ヤング・ライリー・ライヒ・グラス、スペクトル楽派、ペルトは通史の記事に、放送オーケストラ、LP とステレオ、カラヤンの録音は[オーケストラの歴史](/music/orchestra/history-of-the-orchestra/)と[指揮の歴史](/music/conductors/history-of-conducting/)に、ピリオド楽器の演奏は[古楽と歴史的演奏](/music/early/early-music-and-historical-performance/)に、20世紀のオペラは[オペラの歴史](/music/opera/history-of-opera/)に書いたので、ここでは繰り返さない。
+
 
 ## 調性の拡張——シュトラウスとスクリャービン
 
@@ -57,7 +57,7 @@ sources:
 | 《エレクトラ》作品58 | 1909年1月25日 |
 | 《ばらの騎士》作品59 | 1911年1月26日 |
 
-これらの作品のオペラ史の中での位置は[オペラの歴史](/music/opera/history-of-opera/)の記事に書いた。
+
 
 ### スクリャービン《プロメテウス》（1911年）
 
@@ -79,7 +79,7 @@ sources:
 - 協会の演奏会のために、大編成の曲が室内楽の編成に編曲されることがあった。エルヴィン・シュタイン（Erwin Stein）は1921年の演奏会のためにマーラーの交響曲第4番を編曲した。
 - 1921年の協会のための資金集めの演奏会で、シェーンベルクはヨハン・シュトラウス2世の《皇帝円舞曲》を編曲し、第1ヴァイオリンを弾いて司会も務めた。ウェーベルンがチェロ、ベルクがハルモニウムを弾いた。
 
-（以上 [Mahlerfest](https://mahlerfest.org/blogs/mahlerfest-blog/strauss-s-emperor-waltz-arnold-schoenberg-and-the-verein-fur-musikalische-privatauffuhrungen) による）
+
 
 ## 十二音技法——シェーンベルク自身の説明
 
@@ -135,7 +135,7 @@ sources:
 
 ## 戦後前衛——ダルムシュタット、パリ、ケルン
 
-ダルムシュタットの夏期講習の始まりと、メシアン、フーイヴェールツ、シュトックハウゼン、ブーレーズによる総音列技法の形成は通史の記事に書いた。ここではその周辺の出来事を見る。
+
 
 ### 「シェーンベルクは死んだ」（1952年）
 
@@ -156,7 +156,7 @@ sources:
 | ブーレーズ《主なき槌》（Le Marteau sans maître） | 1955年6月18日、バーデン＝バーデンの ISCM 世界音楽の日々（6月17〜21日）。コントラルトはジビラ・プラーテ（Sibylla Plate）、指揮はハンス・ロスバウト（Hans Rosbaud） |
 | クセナキス（Iannis Xenakis）《メタスタシス》 | 1955年10月16日、ドナウエッシンゲン音楽祭。バーデン＝バーデンの南西ドイツ放送交響楽団、指揮はロスバウト |
 
-（[ISCM](https://iscm.org/wnmd/1955-baden-baden/)、[IRCAM](https://brahms.ircam.fr/work/metastaseis) による）
+
 
 《メタスタシス》は1953年の作で、60人の奏者のための約7分の曲である。管・打楽器が14人、弦楽器が第1ヴァイオリン12、第2ヴァイオリン12、ヴィオラ8、チェロ8、コントラバス6の46人である。[（IRCAM）](https://brahms.ircam.fr/work/metastaseis)
 
@@ -184,7 +184,7 @@ sources:
 
 ### カルーソーとアコースティック録音
 
-電気録音以前の録音（アコースティック録音）について、オープン大学の教材は、楽器は金管とピアノに限られがちで、中音域の声（アルトとテノール）が最も適していたこと、編集の手段がなかったことを挙げる。オープン大学の教材は、グラモフォン社の録音技師フレッド・ガイスバーグ（Fred Gaisberg）がテノールのエンリコ・カルーソー（Enrico Caruso）を録音したのを1902年3月とする。[（The Open University）](https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section-2.5)EMI アーカイヴ・トラストのブログは、1902年4月11日、ミラノのグランド・ホテルの一室で10曲を録音し、報酬は100ポンドだったとする。[（EMI Archive Trust）](https://soundofthehound.com/2011/01/16/the-invention-of-the-modern-music-star-in-a-hotel-bedroom-in-milan/)
+電気録音以前の録音（アコースティック録音）について、オープン大学の教材は、楽器は金管とピアノに限られがちで、中音域の声（アルトとテノール）が最も適していたこと、編集の手段がなかったことを挙げる。オープン大学の教材は、グラモフォン社の録音技師フレッド・ガイスバーグ（Fred Gaisberg）がテノールのエンリコ・カルーソー（Enrico Caruso）を録音したのを1902年3月とする。[（The Open University）](https://www.open.edu/openlearn/history-the-arts/recording-music-and-sound/content-section-2.5)1902年4月11日、ミラノのグランド・ホテルの一室で10曲を録音し、報酬は100ポンドだった。[（EMI Archive Trust）](https://soundofthehound.com/2011/01/16/the-invention-of-the-modern-music-star-in-a-hotel-bedroom-in-milan/)
 
 ### 電気録音（1925年）
 

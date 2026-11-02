@@ -6,6 +6,7 @@ summary: 1756年1月27日にザルツブルクで生まれ、1791年12月5日に
 aliases: ["モーツァルト", "ヴォルフガング・アマデウス・モーツァルト", "Wolfgang Amadeus Mozart", "Mozart", "W. A. モーツァルト"]
 image: https://commons.wikimedia.org/wiki/Special:FilePath/Croce-Mozart-Detail.jpg?width=900
 image_credit: ヨハン・ネポムク・デッラ・クローチェ（Johann Nepomuk della Croce）作「モーツァルト一家」（1780〜81年、油彩）の部分。モーツァルトの住居（ザルツブルク）蔵。パブリックドメイン（Wikimedia Commons, File:Croce-Mozart-Detail.jpg）
+image_alt: デッラ・クローチェ作「モーツァルト一家」の部分、モーツァルトの肖像
 updated: 2026-11-03
 sources:
   - "Wikipedia（英語版）「Wolfgang Amadeus Mozart」（出生、洗礼名、演奏旅行、ザルツブルクの俸給、1781年の解雇、結婚、1787年の宮廷作曲家任命、死亡時刻と死因の記録、埋葬、子ども、ケッヒェル目録、様式に関する記述）. https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart（閲覧日 2026-11-03）"
@@ -26,7 +27,7 @@ sources:
 > - 生涯は**ザルツブルクの少年期・大司教の宮廷・ウィーンの自由な音楽家・最後の年**の4期に分けられる。
 > - 《フィガロの結婚》《ドン・ジョヴァンニ》《コジ・ファン・トゥッテ》はダ・ポンテの台本、《魔笛》はシカネーダーの台本。《レクイエム》は未完でジュスマイヤーが補筆した。
 
-この記事はモーツァルト（Wolfgang Amadeus Mozart）の生涯を、日付と場所で確かめられる事実に沿って追う。==ザルツブルク時代とウィーン時代の境は1781年6月の大司教からの解雇で、以後の10年にオペラの主要作と最後の交響曲、《レクイエム》が集中する。==古典派の演奏会の仕組みと自作目録・予約演奏会の詳細は[古典派の音楽](/music/history/classical-era-music/)に、ダ・ポンテ三部作の内容は[オペラの歴史](/music/opera/history-of-opera/)に書いた。
+==ザルツブルク時代とウィーン時代の境は1781年6月の大司教からの解雇で、以後の10年にオペラの主要作と最後の交響曲、《レクイエム》が集中する。==
 
 ## 2. 生涯
 
@@ -116,7 +117,7 @@ sources:
 | 室内楽 | 6曲の弦楽四重奏曲（ハイドン・セット） | 387, 421, 458, 428, 464, 465 | ハイドンに献呈 | 1785年、アルタリアから出版 |
 | 宗教曲 | 《レクイエム》ニ短調 | 626 | ヴァルゼック伯が匿名で依頼。未完 | 1791年9月15日〜11月20日。12月10日、聖ミヒャエル教会で演奏 |
 
-（以上 [List of operas by W. A. Mozart](https://en.wikipedia.org/wiki/List_of_operas_by_Wolfgang_Amadeus_Mozart)、[Stiftung Mozarteum](https://mozarteum.at/en/wolfgang-amade-mozart)、[Köchel-Verzeichnis online](https://kv.mozarteum.at/en/work/requiem-in-d-minor-7395) による）
+
 
 《レクイエム》の依頼主**ヴァルゼック伯**（Franz von Walsegg）は、1791年2月14日に20歳で没した妻を追悼するため、仲介者を通じて匿名で注文した。注文した作品を自作として発表する習慣のある素人音楽家である。死の時点で入祭唱は完成、キリエから奉献唱までは声楽と通奏低音が書かれた骨組みの状態、ラクリモーサは8小節で途切れていた。コンスタンツェの依頼で**アイブラー**（Joseph Eybler）がキリエからラクリモーサまで書き込んだが手を引き、ジュスマイヤーがキリエ以降の管弦楽を仕上げ、ラクリモーサを完成し、サンクトゥス、ベネディクトゥス、アニュス・デイを作曲した。==1792年にヴァルゼック伯に渡された総譜には、偽のモーツァルトの署名と「1792」の年号が記されている。==納品譜と作業用の手稿はオーストリア国立図書館にある。)
 

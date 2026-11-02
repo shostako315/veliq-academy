@@ -6,6 +6,7 @@ summary: 1600年をはさむ時期の3つの変化——ルネサンスを代表
 aliases: ["リュート", "lute", "ウード", "ペトルッチ", "オッタヴィアーノ・ペトルッチ", "Ottaviano Petrucci", "オデカトン", "Odhecaton", "楽譜印刷", "カメラータ", "フィレンツェのカメラータ", "Florentine Camerata", "バルディ伯", "ペーリ", "Jacopo Peri", "ダフネ", "エウリディーチェ", "オルフェオ", "L'Orfeo", "モンテヴェルディ", "Claudio Monteverdi", "モノディ"]
 image: https://commons.wikimedia.org/wiki/Special:FilePath/Caravaggio-The_Lute_Player-Hermitage.jpg?width=900
 image_credit: カラヴァッジョ（Michelangelo Merisi da Caravaggio, 1571–1610）「リュート弾き」（1595年頃、油彩）。サンクトペテルブルク、エルミタージュ美術館蔵。パブリックドメイン（Wikimedia Commons, File:Caravaggio-The Lute Player-Hermitage.jpg）
+image_alt: カラヴァッジョ「リュート弾き」、リュートを弾く若者の絵（1595年頃）
 updated: 2026-11-03
 sources:
   - "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History「The Lute」（ウードとの関係、「木」の意味、9世紀のスペイン、1283年の『遊戯の書』、コースの数の推移、指で弾く奏法、フュッセンとヴェネツィアの製作者、18世紀の衰退）. https://www.metmuseum.org/essays/the-lute（閲覧日 2026-11-03）"
@@ -22,7 +23,7 @@ sources:
 > - 1501年、ヴェネツィアの**ペトルッチ**が《オデカトン》を出し、可動活字で印刷された最初の多声音楽の本となった。
 > - オペラは16世紀末の**フィレンツェ**で、古代ギリシア劇の復興を目指す**カメラータ**の議論から生まれ、1607年にマントヴァで《オルフェオ》が初演された。
 
-この記事は、ルネサンス末期から初期バロックへの移り目にあたる3つの変化を扱う。==楽器（リュート）、技術（楽譜印刷）、ジャンル（オペラ）はいずれもイタリアの都市——ヴェネツィア、フィレンツェ、マントヴァ——を舞台にしている。==ルネサンスの声楽と印刷譜の続き（ガルダーノ以後）は[ルネサンスの音楽](/music/history/renaissance-music/)に、オペラのその後は[オペラの歴史](/music/opera/history-of-opera/)に書いた。
+==楽器（リュート）、技術（楽譜印刷）、ジャンル（オペラ）はいずれもイタリアの都市——ヴェネツィア、フィレンツェ、マントヴァ——を舞台にしている。==
 
 ## 2. 社会と制度
 

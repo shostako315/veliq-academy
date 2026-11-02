@@ -45,7 +45,7 @@ sources:
   - 'Wikipedia（英語版）「St Matthew Passion」「Bach Gesellschaft」「New Bach Edition」「Arnold Dolmetsch」「Wanda Landowska」「Historically informed performance」「Frans Brüggen」「The English Concert」「Ton Koopman」「Masaaki Suzuki」「Joshua Rifkin」「One voice per part」「Bach''s choir and orchestra」「Quarter-comma meantone」「Werckmeister temperament」「The Well-Tempered Clavier」「Notes inégales」「Le nuove musiche」「L''Orfeo」「Brass instrument valve」「Gut string」 閲覧日 2026-10-29'
 ---
 
-古い時代の音楽を、作曲当時の楽器と、当時の理論書・楽譜・記録から推定される奏法で演奏しようとする試みを、英語圏では「歴史的情報にもとづく演奏」（historically informed performance, HIP）と呼ぶ。日本では「古楽」「ピリオド奏法」「ピリオド楽器（古楽器）による演奏」などの言い方が使われる。この記事では、その運動の歴史と、演奏上の主な論点を時代順・項目順に記す。
+古い時代の音楽を、作曲当時の楽器と、当時の理論書・楽譜・記録から推定される奏法で演奏しようとする試みを、英語圏では「歴史的情報にもとづく演奏」（historically informed performance, HIP）と呼ぶ。日本では「古楽」「ピリオド奏法」「ピリオド楽器（古楽器）による演奏」などの言い方が使われる。
 
 ## 19世紀のバッハ復興——メンデルスゾーンと全集
 

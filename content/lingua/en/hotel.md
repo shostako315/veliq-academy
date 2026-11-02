@@ -1,5 +1,5 @@
 ---
-title: "ホテルにチェックイン（英語）——ザルツブルクのホテルで、チェックインと質問"
+title: "ホテルにチェックイン（英語）——ロンドンのホテルで、チェックインと質問"
 slug: hotel
 section: en
 summary: "チェックインでは、予約の名前と泊数を伝えたあと、朝食や部屋のことを尋ねます。Is there 〜? と What time is 〜? が使えれば、たいていのことは聞けます。"
@@ -33,7 +33,7 @@ sources:
 | <span lang="en">Could I check in, please?</span> | チェックインをお願いします。 | フロントで |
 | <span lang="en">What time is breakfast?</span> | 朝食は何時ですか。 | 朝食の時間を聞くとき |
 | <span lang="en">Is there a lift?</span> | エレベーターはありますか。 | 設備を聞くとき |
-| <span lang="en">Could you tell me how to get to the Mozarteum?</span> | モーツァルテウムへの行き方を教えていただけますか。 | 道を尋ねるとき |
+| <span lang="en">Could you tell me how to get to the Royal Albert Hall?</span> | ロイヤル・アルバート・ホールへの行き方を教えていただけますか。 | 道を尋ねるとき |
 | <span lang="en">Yes, please. That would be very helpful.</span> | はい、お願いします。とても助かります。 | 申し出を受けるとき |
 | <span lang="en">Could I leave my bags here?</span> | 荷物を預けられますか。 | チェックイン前やチェックアウト後 |
 | <span lang="en">The air conditioning doesn't work.</span> | エアコンが動きません。 | 部屋の不具合を伝えるとき |
@@ -45,7 +45,7 @@ sources:
 
 - **<span lang="en">Could I check in, please?</span>**：<span lang="en">check in</span> は動詞として2語で書きます。
 - **<span lang="en">Is there a lift?</span>**：イギリスでは <span lang="en">lift</span>、アメリカでは <span lang="en">elevator</span> です。
-- **<span lang="en">Could you tell me how to get to the Mozarteum?</span>**：道を教えるのは <span lang="en">tell</span> です。<span lang="en">teach</span> は勉強を教えるときです。
+- **<span lang="en">Could you tell me how to get to the Royal Albert Hall?</span>**：道を教えるのは <span lang="en">tell</span> です。<span lang="en">teach</span> は勉強を教えるときです。
 - **<span lang="en">Yes, please. That would be very helpful.</span>**：申し出には <span lang="en">That would be very helpful.</span> で応えられます。
 - **<span lang="en">Could I leave my bags here?</span>**：<span lang="en">leave</span> は「置いていく」です。
 - **<span lang="en">What's the Wi-Fi password?</span>**：<span lang="en">What's</span> は <span lang="en">What is</span> を短くした形です。

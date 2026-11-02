@@ -6,6 +6,7 @@ summary: ワーグナーの《ニーベルングの指環》（4部作、1876年
 aliases: ["ワーグナー", "リヒャルト・ワーグナー", "Richard Wagner", "Wagner", "ブラームス", "ヨハネス・ブラームス", "Johannes Brahms", "Brahms", "ニーベルングの指環", "指環", "Der Ring des Nibelungen", "バイロイト", "Bayreuth", "総合芸術作品", "Gesamtkunstwerk", "ライトモティーフ", "示導動機", "Leitmotiv", "leitmotif", "ハンスリック", "Eduard Hanslick", "新ドイツ派", "絶対音楽", "標題音楽"]
 image: https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Wagner._Franz_Hanfstaengl,_M%C3%BCnchen,_1871.jpg?width=900
 image_credit: フランツ・ハンフシュテングル（Franz Hanfstaengl, 1804–1877）撮影、リヒャルト・ワーグナー（ミュンヘン、1871年）。撮影者の没後70年以上を経ており、パブリックドメイン（Wikimedia Commons, File:Richard Wagner. Franz Hanfstaengl, München, 1871.jpg）
+image_alt: リヒャルト・ワーグナーの肖像写真（1871年、ハンフシュテングル撮影）
 updated: 2026-11-03
 sources:
   - "Wikipedia（英語版）「Der Ring des Nibelungen」（4部の題と初演日、1876年8月13〜17日の全曲初演、1848〜74年の作曲、「3日と前夜のための舞台祝祭劇」、約15時間、ルートヴィヒ2世の資金、編成）. https://en.wikipedia.org/wiki/Der_Ring_des_Nibelungen（閲覧日 2026-11-03）"
@@ -23,7 +24,7 @@ sources:
 > - ブラームス（Johannes Brahms, 1833–1897）は**交響曲を4曲**残し、第1番（1876年）から第4番（1885年）までを9年で書いた。
 > - 2人をめぐる論争の争点は**絶対音楽か標題音楽か**で、ブラームス側に批評家ハンスリック、ワーグナー側にリストの新ドイツ派がいた。ブラームス自身はワーグナーの音楽を賞賛していた。
 
-この記事は、19世紀後半のドイツ語圏の音楽を二分したとされる2人を、制度（劇場と演奏会）、様式（楽劇の手法と交響曲の形式）、人物、作品の順に比べる。==対立の構図は1860年のブラームスらの声明と批評家の論争によるもので、作曲家本人どうしの評価は一方的ではなかった。==交響詩と「絶対音楽」の語の由来、ハンスリック『音楽美論』の要旨は[ロマン派の音楽](/music/history/romantic-era-music/)に、《指環》の内容とバイロイトは[オペラの歴史](/music/opera/history-of-opera/)に、ブラームスの各交響曲は[作品の記事](/music/works/brahms-sym1/)に書いた。
+==対立の構図は1860年のブラームスらの声明と批評家の論争によるもので、作曲家本人どうしの評価は一方的ではなかった。==
 
 ## 2. 社会と制度
 
