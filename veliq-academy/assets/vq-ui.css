@@ -150,176 +150,232 @@ p,li,dd{text-wrap:pretty}
 /* スマホで見出しの折り返し禁止部分（.nb）が画面幅を超えて切れないように（2026-10-29） */
 @media(max-width:640px){h1 .nb,h2 .nb,.rep-hero .nb{white-space:normal!important}}
 
+
 /* =========================================================
-   Academy 固有：静的ページ（tools/build.py が書き出す HTML）の部品
+   Academy 固有（2026-11-03 の作り直し。スマホ 390px を基準に数値で決める）
    設計値
-   - 本文 16px / 行間1.85 / 字は端から端まで（word-break:normal）。見出しだけ文節（auto-phrase）
-   - 記事の幅 720px。見出し h1 34px(スマホ26–30) / h2 22px / h3 18px
-   - 押せる所は高さ44px以上。面は白と #F5F5F7 のみ。金は「Academy」と強調だけ
+   - 色：文字 #1A1A1A／補助 #6B6B6B／罫線 #E6E6E6／背景 #fff／アクセント #8A6A2A（金）の1色。影・飾りなし
+   - 書体：Hiragino Sans → Noto Sans JP。本文 15px/1.9、H1 24px/1.35、H2 20px、H3 16px、タグ・パンくず・注 13px、図の説明 12px
+   - 幅：本文は画面幅−20px×2（≤600px）。PC は 720px。表は .tbl の中で横に流し、ページ幅は広げない
+   - 高さ：ヘッダー 56px、一覧の行 56px、フッターの行 44px、押せる所は 44px 以上
    ========================================================= */
+:root{--ink:#1A1A1A;--ink-2:#333333;--ink-3:#6B6B6B;--line:#E6E6E6;--u-accent:#8A6A2A;--u-accent-weak:#F4EEE2;--u-surface:#F6F6F6;--vlq-accent:#8A6A2A;
+  --u-font:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",-apple-system,BlinkMacSystemFont,"Yu Gothic UI",Meiryo,sans-serif}
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{margin:0;background:#fff}
-img,svg{max-width:100%}
-p,li,dd,dt,td,th,small,b{word-break:normal;overflow-wrap:break-word}
-h1,h2,h3,h4{word-break:auto-phrase;text-wrap:balance;overflow-wrap:break-word}
+body{margin:0;background:#fff;color:var(--ink)}
+img,svg{max-width:100%;height:auto}
+p,li,dd,dt,td,th,small,b{word-break:normal;overflow-wrap:anywhere;text-wrap:wrap}
+h1,h2,h3,h4{overflow-wrap:anywhere;text-wrap:wrap;word-break:normal}
 .va-skip{position:absolute;left:-9999px;top:0}
-.va-skip:focus{left:16px;top:8px;z-index:100;background:#fff;padding:10px 16px;border-radius:980px;box-shadow:var(--shadow)}
+.va-skip:focus{left:16px;top:8px;z-index:100;background:#fff;padding:10px 16px;border:1px solid var(--line)}
 :focus-visible{outline:2px solid var(--u-accent);outline-offset:2px}
 
-.va-main{padding:8px 0 96px}
-.va-main .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
-@media(max-width:640px){.va-main .wrap{padding:0 18px}.va-main{padding-bottom:64px}}
-.va-art{max-width:720px}
-.gh .gnav a{display:inline-flex;align-items:center;min-height:44px}
-.gh .brand{display:inline-block!important;line-height:44px!important}
-.gh .gnav a.pill{min-height:36px}
+/* ヘッダー 56px：左ワードマーク、中央に学科の文字タブ、右にメニュー */
+header.gh{position:sticky;top:0;z-index:50;background:#fff;-webkit-backdrop-filter:none;backdrop-filter:none;border-bottom:1px solid var(--line)}
+.gh .wrap,.gf .wrap,.va-main .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.gh-in{display:flex;align-items:center;justify-content:space-between;height:56px;gap:16px}
+.gh .brand{font-size:17px;font-weight:700;color:var(--ink);text-decoration:none;white-space:nowrap;line-height:56px}
+.gh .brand b{color:var(--u-accent)}
+.gh .gnav{display:flex;align-items:center;gap:4px;margin:0 auto 0 8px;padding:0}
+.gh .gnav a{display:inline-flex;align-items:center;height:56px;padding:0 10px;font-size:15px;color:var(--ink-3);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px}
+.gh .gnav a.on{color:var(--ink);font-weight:600;border-bottom-color:var(--u-accent)}
+.gh .burger{display:block;width:44px;height:44px;margin-right:-10px;background:none;border:0;cursor:pointer;position:relative}
+.gh .burger span{position:absolute;left:13px;width:18px;height:1.5px;background:var(--ink);transition:transform .2s,top .2s}
+.gh .burger span:nth-child(1){top:18px}.gh .burger span:nth-child(2){top:25px}
+.gh .burger[aria-expanded="true"] span:nth-child(1){top:21.5px;transform:rotate(45deg)}
+.gh .burger[aria-expanded="true"] span:nth-child(2){top:21.5px;transform:rotate(-45deg)}
+@media(max-width:820px){.gh .gnav{display:flex}.gh-in{height:56px}}
+.menu{position:fixed;inset:0;z-index:40;background:#fff;padding:72px 20px 32px;overflow-y:auto;display:block;opacity:0;visibility:hidden;transition:opacity .2s,visibility 0s .2s}
+.menu.open{opacity:1;visibility:visible;transition:opacity .2s}
+.menu .mg{margin-bottom:20px}
+.menu .mh{font-size:13px;color:var(--ink-3);margin:0 0 4px}
+.menu .ml{background:#fff;border-radius:0;border-top:1px solid var(--line)}
+.menu .ml a{display:flex;justify-content:space-between;align-items:center;min-height:44px;padding:8px 0;font-size:15px;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+.menu .ml a+a{border-top:0}
+.menu .ml a::after{content:"›";color:#B5B5B5;margin-left:12px}
+.menu .ml a.on{color:var(--u-accent);font-weight:600}
+.menu .mfoot{font-size:13px;color:var(--ink-3);text-align:left;margin-top:8px}
+@media(min-width:821px){.menu{display:block}}
 
-/* パンくず */
+/* フッター：1列。4区分を折りたたみ、行 44px・15px。運営・監修は13pxの1行 */
+footer.gf{background:#fff;color:var(--ink-3);font-size:13px;line-height:1.6;padding:32px 0 40px;margin-top:48px;border-top:1px solid var(--line)}
+.gf .gf-brand{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.gf .gf-brand b{color:var(--u-accent)}
+.gf .gf-s{border-top:1px solid var(--line);border-radius:0}
+.gf .gf-s:last-of-type{border-bottom:1px solid var(--line)}
+.gf summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:44px;font-size:15px;color:var(--ink);cursor:pointer}
+.gf summary::-webkit-details-marker{display:none}
+.gf summary::after{content:"+";color:var(--ink-3);font-size:18px}
+.gf .gf-s[open] summary::after{content:"−"}
+.gf .gf-l{padding:0 0 8px}
+.gf .gf-l a{display:flex;align-items:center;min-height:44px;padding:0 0 0 12px;font-size:15px;color:var(--ink-2);text-decoration:none}
+.gf .gf-l a:hover{color:var(--ink);text-decoration:underline}
+.gf .gf-line{margin:16px 0 0;font-size:13px}
+.gf .gf-copy{margin:4px 0 0;font-size:13px;display:block;padding:0;border:0}
+
+/* 本文の枠 */
+.va-main{padding:0 0 48px}
+.va-art{max-width:720px}
+@media(max-width:600px){.va-art{max-width:none;width:100%}.va-main .wrap{padding:0 20px}}
+
+/* パンくず 13px */
 .va-bc ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--ink-3);line-height:1.5}
 .va-bc li{display:flex;align-items:center;min-width:0}
-.va-bc li+li::before{content:"›";margin:0 8px;color:#A1A1A6}
-.va-bc a{display:inline-flex;align-items:center;min-height:44px;color:var(--ink-3);text-decoration:none}
+.va-bc li+li::before{content:"›";margin:0 6px;color:#B5B5B5}
+.va-bc a{display:inline-flex;align-items:center;min-height:40px;color:var(--ink-3);text-decoration:none}
 .va-bc a:hover{color:var(--ink);text-decoration:underline}
-.va-bc [aria-current]{padding:12px 0;color:var(--ink-3)}
-@media(max-width:640px){.va-bc li:last-child{display:none}}
+.va-bc [aria-current]{padding:10px 0;color:var(--ink-3)}
+@media(max-width:600px){.va-bc li:last-child{display:none}}
 
-/* 題名 */
-.va-hd{padding:16px 0 8px}
-.va-hd h1{font-size:34px;margin:0;color:var(--ink)}
-.va-hd .va-en{margin:10px 0 0;font-size:15px;color:var(--ink-3);line-height:1.6}
-.va-hd .va-lede{margin:16px 0 0;font-size:17px;color:var(--ink-2);line-height:1.85}
-.va-home{padding:40px 0 16px}
-.va-home h1{font-size:44px}
+/* 題名：タグ・更新日 13px → H1 24px/1.35 → リード 15px/1.8 */
+.va-hd{padding:8px 0 4px}
+.va-tag{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:0 0 8px;font-size:13px;color:var(--ink-3)}
+.va-chip{display:inline-flex;align-items:center;min-height:24px;padding:0 8px;border:1px solid var(--line);border-radius:4px;color:var(--ink-2);text-decoration:none;font-size:13px}
+.va-chip:hover{border-color:var(--ink);color:var(--ink)}
+.va-tag time{font-variant-numeric:tabular-nums}
+html body .va-hd h1{font-size:24px!important;line-height:1.35!important;margin:0;color:var(--ink);letter-spacing:0!important}
+.va-hd .va-en{margin:6px 0 0;font-size:13px;color:var(--ink-3);line-height:1.5}
+.va-hd .va-lede{margin:12px 0 0;font-size:15px;color:var(--ink-2);line-height:1.8}
+.va-home{padding:24px 0 8px}
+html body .va-home h1{font-size:32px!important}
 .va-gold{color:var(--u-accent)}
-@media(max-width:640px){.va-hd h1{font-size:28px}.va-home{padding:24px 0 8px}.va-home h1{font-size:34px!important}.va-hd .va-lede{font-size:16px}}
+@media(min-width:601px){html body .va-hd h1{font-size:30px!important}.va-hd .va-lede{font-size:16px}}
 
-/* 一覧情報（細線の表） */
-.va-meta{margin:28px 0 0;border-top:1px solid var(--line)}
-.va-meta>div{display:grid;grid-template-columns:8em 1fr;gap:16px;padding:12px 0;border-bottom:1px solid rgba(0,0,0,.08)}
-.va-meta dt{font-size:14px;color:var(--ink-3);margin:0}
-.va-meta dd{font-size:15px;color:var(--ink);margin:0;min-width:0}
-.va-meta a{display:inline-flex;align-items:center;min-height:44px;margin:-12px 0;color:var(--ink);text-decoration:underline;text-decoration-color:var(--line)}
-.va-meta a:hover{text-decoration-color:var(--ink)}
-@media(max-width:640px){.va-meta>div{grid-template-columns:6.5em 1fr;gap:12px}}
+/* 図：全幅 16:9、説明 12px 灰 */
+.fig{margin:16px 0 20px}
+.fig img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--u-surface)}
+.fig figcaption{margin:6px 0 0;font-size:12px;color:var(--ink-3);line-height:1.5}
+.va-hero{margin:0 -20px 16px}
+.va-hero figcaption{padding:0 20px}
+@media(min-width:601px){.va-hero{margin:8px 0 16px}.va-hero figcaption{padding:0}}
 
-/* 本文 */
-.va-body{font-size:16px;line-height:1.85;color:var(--ink-2)}
-.va-body h2{font-size:22px;color:var(--ink);margin:56px 0 16px;padding-bottom:10px;border-bottom:1px solid var(--line)}
-.va-body h3{font-size:18px;color:var(--ink);margin:32px 0 8px}
-.va-body h4{font-size:16px;color:var(--ink);margin:24px 0 6px}
-.va-body p{margin:0 0 1.1em}
-.va-body ul,.va-body ol{margin:0 0 1.1em;padding-left:1.4em}
-.va-body li{margin:0 0 .4em}
-.va-body a{color:var(--u-accent)}
-.va-body strong{color:var(--ink)}
-.va-body blockquote{margin:0 0 1.1em;padding:16px 20px;background:var(--u-surface);border-radius:14px;color:var(--ink)}
+/* 要点（左の細い罫線の箱） */
+.va-key,.va-key-sec{margin:20px 0 0;padding:4px 0 4px 14px;border-left:2px solid var(--u-accent)}
+.va-key-h{margin:0 0 4px;font-size:13px;font-weight:600;color:var(--u-accent)}
+.va-key ul,.va-key-sec ul{margin:0;padding-left:1.2em}
+.va-key li,.va-key-sec li{margin:0 0 4px;font-size:15px;line-height:1.7;color:var(--ink)}
+.va-key-sec h2{font-size:13px!important;margin:0 0 4px!important;padding:0!important;border:0!important;color:var(--u-accent)!important}
+.va-key-sec h2 .va-n{display:none}
+.va-key-sec p{margin:0 0 6px;font-size:15px;line-height:1.7}
+
+/* 目次（折りたたみ、既定で開く） */
+.va-toc{margin:20px 0 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0}
+.va-toc summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:44px;font-size:13px;font-weight:600;color:var(--ink-3);cursor:pointer}
+.va-toc summary::-webkit-details-marker{display:none}
+.va-toc summary::after{content:"−";font-size:16px;color:var(--ink-3)}
+.va-toc:not([open]) summary::after{content:"+"}
+.va-toc ol{list-style:none;margin:0;padding:0 0 8px}
+.va-toc li{margin:0;font-size:14px;line-height:1.5}
+.va-toc li.l3{padding-left:1.8em;font-size:13px}
+.va-toc a{display:inline-flex;align-items:baseline;gap:.6em;min-height:30px;color:var(--ink);text-decoration:none}
+.va-toc a:hover{text-decoration:underline}
+.va-toc .va-n{color:var(--ink-3);font-variant-numeric:tabular-nums;min-width:1.6em}
+
+/* 本文 15px/1.9。H2 20px＋番号バッジ、H3 16px */
+.va-body{font-size:15px;line-height:1.9;color:var(--ink)}
+html body .va-body h2{font-size:20px!important;line-height:1.4;color:var(--ink);margin:40px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:8px}
+html body .va-body h3{font-size:16px!important;line-height:1.5;color:var(--ink);margin:24px 0 8px;display:flex;align-items:baseline;gap:8px}
+.va-body h4{font-size:15px;color:var(--ink);margin:16px 0 6px}
+.va-body h2 .va-n{flex:none;min-width:22px;height:22px;padding:0 6px;display:inline-flex;align-items:center;justify-content:center;border-radius:4px;background:var(--u-accent);color:#fff;font-size:12px;font-weight:600;font-variant-numeric:tabular-nums;position:relative;top:-2px}
+.va-body h3 .va-n{flex:none;color:var(--u-accent);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+.va-body h2[id],.va-body h3[id]{scroll-margin-top:64px}
+.va-body p{margin:0 0 1em}
+.va-body ul,.va-body ol{margin:0 0 1em;padding-left:1.4em}
+.va-body li{margin:0 0 .3em}
+.va-body a{color:var(--u-accent);text-decoration:underline;text-decoration-color:rgba(138,106,42,.4);text-underline-offset:3px}
+.va-body a[target="_blank"]::after{content:"↗";font-size:.8em;margin-left:2px}
+.va-body a.tl,.va-art a.tl{color:var(--vlq-accent);text-decoration:none;border-bottom:0}
+.va-body a.tl:hover{text-decoration:underline}
+.va-body strong{color:var(--ink);font-weight:700}
+.va-body mark.hl,.va-art mark.hl{background:linear-gradient(transparent 55%,rgba(138,106,42,.28) 55%);color:inherit;padding:0 1px}
+.va-body blockquote{margin:0 0 1em;padding:0 0 0 14px;border-left:2px solid var(--line);color:var(--ink-2)}
 .va-body blockquote p:last-child{margin:0}
-.va-body code{font-size:.92em;background:var(--u-surface);border-radius:4px;padding:1px 5px}
-.va-body pre{overflow-x:auto;background:var(--u-surface);border-radius:12px;padding:14px 16px;font-size:14px}
-.va-body hr{border:0;border-top:1px solid var(--line);margin:40px 0}
-.va-body .va-note{font-size:14px;color:var(--ink-3);margin:-4px 0 8px}
-.va-tbl{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1.4em}
-.va-tbl table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.6}
-.va-tbl th,.va-tbl td{padding:10px 12px 10px 0;border-bottom:1px solid rgba(0,0,0,.08);text-align:left;vertical-align:top}
-.va-tbl thead th{color:var(--ink-3);font-weight:600;border-bottom:1px solid var(--line)}
+.va-body code{font-size:.92em;background:var(--u-surface);padding:1px 4px}
+.va-body pre{overflow-x:auto;background:var(--u-surface);padding:12px 14px;font-size:13px}
+.va-body hr{border:0;border-top:1px solid var(--line);margin:32px 0}
+.va-body .va-note{font-size:13px;color:var(--ink-3);margin:-4px 0 8px}
+
+/* 表：細い罫線、13px、.tbl の中で横に流す */
+.va-tbl,.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1.2em;max-width:100%}
+.va-tbl table{width:100%;min-width:100%;border-collapse:collapse;font-size:13px;line-height:1.6}
+.va-tbl th,.va-tbl td{padding:8px 10px 8px 0;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;min-width:4.5em;white-space:normal}
+.va-tbl thead th{color:var(--ink-3);font-weight:600;border-bottom:1px solid var(--ink)}
 .va-tbl tbody th,.va-mt th{color:var(--ink);font-weight:600}
-.va-mt td{color:var(--ink-3)}
+.va-tbl td a{color:var(--u-accent)}
+.va-kv th{width:7em;color:var(--ink-3)!important;font-weight:500!important}
+@media(max-width:600px){.va-tbl table{width:max-content;min-width:100%;max-width:200%}.va-kv{max-width:100%!important;width:100%!important}}
+.va-mt td{color:var(--ink-2)}
 .va-cp{list-style:none;padding:0!important}
-.va-cp li{display:grid;grid-template-columns:4em 1fr;gap:12px;padding:10px 0;border-bottom:1px solid rgba(0,0,0,.08);margin:0}
+.va-cp li{display:grid;grid-template-columns:4em 1fr;gap:12px;padding:8px 0;border-bottom:1px solid var(--line);margin:0}
 .va-t{font-variant-numeric:tabular-nums;color:var(--ink-3)}
-.va-art>.va-body:first-of-type>h2:first-child,.va-art>.va-body>h2:first-child{margin-top:48px}
 
-/* 記事末尾・一覧の区切り */
-.va-sec{margin-top:56px}
-.va-sec>h2,.va-shd h2{font-size:22px;color:var(--ink);margin:0 0 16px}
-.va-sec.va-body>h2{padding-bottom:10px;border-bottom:1px solid var(--line)}
-.va-shd{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:16px}
-.va-shd h2{margin:0}
-.va-more{display:inline-flex;align-items:center;min-height:44px;font-size:14px;font-weight:500;color:var(--u-accent);text-decoration:none;white-space:nowrap}
+/* 節（記事末尾・一覧） */
+.va-sec{margin-top:36px}
+html body .va-sec>h2,html body .va-shd h2{font-size:17px!important;color:var(--ink);margin:0 0 10px;line-height:1.4}
+.va-sec.va-body>h2{padding-bottom:8px;border-bottom:1px solid var(--line)}
+.va-shd{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:10px}
+.va-more{display:inline-flex;align-items:center;min-height:44px;font-size:13px;color:var(--u-accent);text-decoration:none;white-space:nowrap}
 .va-more::after{content:"›";margin-left:4px}
-@media(max-width:640px){.va-sec{margin-top:44px}.va-sec>h2,.va-shd h2,.va-body h2{font-size:20px}}
-.va-src{margin:0;padding-left:1.4em;font-size:14px;line-height:1.75;color:var(--ink-2)}
+.va-src{margin:0;padding-left:1.4em;font-size:13px;line-height:1.7;color:var(--ink-2)}
 .va-src li{margin:0 0 6px;overflow-wrap:anywhere}
-.va-sup{margin:40px 0 0;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-2)}
+.va-src a{color:var(--u-accent)}
+.va-sup{margin:16px 0 0;font-size:13px;color:var(--ink-3)}
 
-/* 押せる行の一覧（Finance の「学ぶ・調べる」と同じ形） */
-.va-list{list-style:none;margin:0;padding:0;background:#fff;border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
-.va-list li+li>*{border-top:1px solid rgba(0,0,0,.08)}
-.va-list a,.va-list li>div{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:56px;padding:12px 20px;color:var(--ink);text-decoration:none}
-.va-list a::after{content:"";width:8px;height:8px;border-right:2px solid #C7C7CC;border-top:2px solid #C7C7CC;transform:rotate(45deg);flex-shrink:0}
-.va-list a:hover{background:#FAFAFB}
+/* 押せる行の一覧：56px、罫線のみ */
+.va-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.va-list a,.va-list li>div{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:56px;padding:8px 0;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+.va-list a::after{content:"›";color:#B5B5B5;font-size:18px;flex:none}
 .va-list span{min-width:0}
-.va-list b{display:block;font-size:16px;font-weight:600;line-height:1.5}
-.va-list small{display:block;font-size:13px;color:var(--ink-3);line-height:1.6;margin-top:2px}
-@media(max-width:640px){.va-list a,.va-list li>div{padding:12px 16px}}
+.va-list b{display:block;font-size:15px;font-weight:600;line-height:1.5}
+.va-list small{display:block;font-size:13px;color:var(--ink-3);line-height:1.5;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.va-cnt .va-c{font-size:14px;color:var(--ink-3);font-variant-numeric:tabular-nums;margin-left:auto}
 
 /* 年表 */
-.va-tl{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-.va-tl li{display:grid;grid-template-columns:5em 1fr;gap:16px;padding:14px 0;border-bottom:1px solid rgba(0,0,0,.08);font-size:15px;color:var(--ink-2);line-height:1.75}
-.va-tl .va-y{font-variant-numeric:tabular-nums;color:var(--ink-3);font-weight:600}
+.va-tl{list-style:none;margin:0 0 1em;padding:0!important;border-top:1px solid var(--line)}
+.va-tl li{display:grid;grid-template-columns:4.5em 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px;color:var(--ink-2);line-height:1.7}
+.va-tl .va-y{font-variant-numeric:tabular-nums;color:var(--ink);font-weight:600}
 .va-tl b{display:block;color:var(--ink);font-weight:600}
 .va-tl small{display:block;font-size:12px;color:var(--ink-3)}
 .va-tlk{display:flex;flex-wrap:wrap;gap:0 16px}
-.va-tlk a{display:inline-flex;align-items:center;min-height:44px;color:var(--u-accent);font-size:14px}
-@media(max-width:640px){.va-tl li{grid-template-columns:4.2em 1fr;gap:12px}}
+.va-tlk a{display:inline-flex;align-items:center;min-height:44px;color:var(--u-accent);font-size:13px}
 
-/* 演奏会・4択の囲み（淡い面） */
-.va-box{background:var(--u-surface);border-radius:18px;padding:24px}
-.va-box+.va-box{margin-top:12px}
-.va-box h3{font-size:18px;margin:0;color:var(--ink)}
-.va-box .va-meta{margin-top:12px;border-top:0}
-.va-box .va-meta>div{border-bottom-color:rgba(0,0,0,.06)}
-.va-boxp{margin:0;font-size:16px;color:var(--ink)}
-@media(max-width:640px){.va-box{padding:20px}}
+/* 囲み（演奏会・4択） */
+.va-box{border:1px solid var(--line);padding:16px;border-radius:0}
+.va-box+.va-box{margin-top:8px}
+.va-box h3{font-size:15px;margin:0;color:var(--ink)}
+.va-box .va-meta{margin-top:8px;border-top:0}
+.va-boxp{margin:0;font-size:15px;color:var(--ink)}
+.va-meta{margin:16px 0 0;border-top:1px solid var(--line)}
+.va-meta>div{display:grid;grid-template-columns:6em 1fr;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}
+.va-meta dt{font-size:13px;color:var(--ink-3);margin:0}
+.va-meta dd{font-size:14px;color:var(--ink);margin:0;min-width:0}
+.va-meta a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--line)}
 
-/* ボタン（主＝黒のピル、副＝白地＋細線） */
-.va-acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+/* ボタン：主＝黒、副＝白地＋細線。角丸なし */
+.va-acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
 .va-sec>.va-acts:first-child,.va-sec>h2+.va-acts{margin-top:0}
-.va-top-acts{margin-top:24px}
-.va-btn{display:inline-flex;justify-content:center;align-items:center;min-height:48px;padding:0 24px;border-radius:980px;background:var(--ink);color:#fff;font-size:15px;font-weight:600;text-decoration:none;text-align:center;line-height:1.4}
+.va-btn{display:inline-flex;justify-content:center;align-items:center;min-height:44px;padding:0 20px;border-radius:4px;background:var(--ink);color:#fff;font-size:15px;font-weight:600;text-decoration:none;text-align:center;line-height:1.4}
 .va-btn:hover{background:#000}
-.va-btn.ln{background:#fff;color:var(--ink);border:1px solid var(--line)}
-.va-btn.ln:hover{background:var(--u-surface)}
-@media(max-width:640px){.va-acts .va-btn{flex:1 1 100%}}
+.va-btn.ln{background:#fff;color:var(--ink);border:1px solid var(--ink)}
+@media(max-width:600px){.va-acts .va-btn{flex:1 1 100%}}
 
-/* フッター（Finance と同じ面）。スマホでは各リンクを44px */
-.gf .va-gfp{margin:6px 0 0}
-.gf .gf-copy{border:0}
-@media(max-width:820px){.gf a{display:flex;align-items:center;min-height:44px;padding:0}}
-.menu .ml a{min-height:48px}
+/* 聴く：ブランド色のピル */
+.va-listen{display:flex;flex-wrap:wrap;gap:8px}
+.va-pill{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 16px;border-radius:980px;font-size:14px;font-weight:600;text-decoration:none;border:1px solid transparent}
+.va-pill.am{background:#000;color:#fff}
+.va-pill.sp{background:#1DB954;color:#000}
+.va-pill.yt{background:#fff;color:#FF0000;border-color:#E6E6E6}
+
+/* よくある質問 */
+.va-faq .va-q{margin:20px 0 4px;padding:0 0 0 1.4em;text-indent:-1.4em;display:block}
+.va-faq .va-q::before{content:"Q";display:inline-block;width:1.4em;color:var(--u-accent);font-weight:700;text-indent:0}
+.va-faq .va-q .va-n{display:none}
+.va-faq .va-q+p{padding-left:1.4em}
 
 /* 固定ページ（プライバシーポリシー・404） */
-.va-doc .va-body h1{font-size:34px;color:var(--ink);margin:16px 0 8px}
-.va-doc .va-body .meta{font-size:13px;color:var(--ink-3);margin-bottom:32px}
-.va-doc .va-body h2{margin-top:44px}
-@media(max-width:640px){.va-doc .va-body h1{font-size:28px}}
-
-/* 押せる所を44px以上に（2026-10-30） */
+.va-doc .va-body h1{font-size:24px;color:var(--ink);margin:16px 0 8px}
+.va-doc .va-body .meta{font-size:13px;color:var(--ink-3);margin-bottom:24px}
+.va-doc .va-body h2{margin-top:36px}
 .va-bc a{min-width:44px;justify-content:flex-start}
-
-/* 見出しの中の「第1番」「作品55」は折らない */
 .kn{white-space:nowrap}
-
-/* 記事の型（2026-11-03）：題名下のタグと更新日・目次・見出し番号・よくある質問・横に流せる表 */
-.va-tag{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:14px 0 0;font-size:13px;color:var(--ink-3)}
-.va-chip{display:inline-flex;align-items:center;min-height:28px;padding:0 12px;border:1px solid var(--line);border-radius:980px;color:var(--ink-2);text-decoration:none;font-size:13px;font-weight:500}
-.va-chip:hover{border-color:var(--ink);color:var(--ink)}
-.va-tag time{font-variant-numeric:tabular-nums}
-.va-toc{margin:32px 0 8px;padding:18px 20px;background:var(--u-surface);border-radius:14px}
-.va-toc-h{margin:0 0 8px;font-size:13px;font-weight:600;color:var(--ink-3)}
-.va-toc ol{list-style:none;margin:0;padding:0}
-.va-toc li{margin:0;font-size:15px;line-height:1.5}
-.va-toc li.l3{padding-left:1.8em;font-size:14px}
-.va-toc a{display:inline-flex;align-items:baseline;gap:.6em;min-height:32px;color:var(--ink);text-decoration:none}
-.va-toc a:hover{text-decoration:underline;text-decoration-color:var(--line)}
-.va-toc .va-n{color:var(--ink-3);font-variant-numeric:tabular-nums;font-weight:500}
-.va-body h2 .va-n,.va-body h3 .va-n{margin-right:.6em;color:var(--u-accent);font-variant-numeric:tabular-nums;font-weight:600}
-.va-body h2[id],.va-body h3[id]{scroll-margin-top:72px}
-.va-faq .va-q{margin:24px 0 6px;padding:0 0 0 1.4em;text-indent:-1.4em;font-size:17px}
-.va-faq .va-q::before{content:"Q";display:inline-block;width:1.4em;color:var(--u-accent);font-weight:700;text-indent:0}
-.va-faq .va-q+p{padding-left:1.4em}
-.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.va-tbl th,.va-tbl td{min-width:5em}
-.gf .gf-cols{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
-@media(max-width:640px){.va-toc{padding:16px}.va-faq .va-q{font-size:16px}.va-tbl table{font-size:13px;width:max-content;min-width:100%}}
