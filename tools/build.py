@@ -202,6 +202,10 @@ class Site:
             body = re.sub(r"<h1>.*?</h1>\s*", "", body, flags=re.S)  # 題名は前付けから出す
             body = re.sub(r"(<table>.*?</table>)", r'<div class="va-tbl tbl">\1</div>', body, flags=re.S)
             body, fm["cites"] = strip_citations(body)
+            # 本文末尾に「## 参考文献」があれば本文から外し、前付けの sources に無い項目だけ足す（自動の節と二重にしない）
+            body, extra = pop_references(body)
+            if extra:
+                fm["sources"] = list(fm.get("sources") or ([] if not isinstance(fm.get("sources"), str) else [fm["sources"]])) + extra
             # 「> 要点」で始まる引用は左罫線の要点の箱
             body = re.sub(r"<blockquote>\s*<p>要点</p>\s*(.*?)</blockquote>", r'<aside class="va-key"><p class="va-key-h">要点</p>\1</aside>', body, flags=re.S)
             body, toc = number_headings(body)
@@ -326,6 +330,7 @@ def number_headings(body):
         return t
     for m in _HTAG.finditer(body):
         lv, inner = m.group(1), m.group(2)
+        inner = re.sub(r"^\s*\d+(?:[.\-－‐]\d+)*[.．]?\s*", "", inner)  # 手書きの「1.」「2-1」は外す（番号はここで付ける）
         text = _plain(inner)
         if lv == "2" and text == FAQ_TITLE:
             faq_start = len("".join(out)) + (m.start() - pos)
@@ -454,6 +459,17 @@ def strip_citations(body):
     body = _CITE_A.sub(rep, body)
     body = re.sub(r"(?<=[。、」』）])\s+(?=<)", "", body)
     return body, cites
+
+
+def pop_references(body):
+    """本文中の <h2>参考文献</h2> の節を取り出す。返り値：(節を除いた本文, 項目の文字列の一覧)"""
+    m = re.search(r"<h2>参考文献</h2>\s*(.*?)(?=<h2>|\Z)", body, re.S)
+    if not m:
+        return body, []
+    items = [_plain(x) for x in re.findall(r"<li>(.*?)</li>", m.group(1), re.S)]
+    if not items:
+        items = [_plain(x) for x in re.findall(r"<p>(.*?)</p>", m.group(1), re.S)]
+    return body[:m.start()] + body[m.end():], [i for i in items if i]
 
 
 def references(sources, cites, lc):
