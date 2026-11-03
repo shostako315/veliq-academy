@@ -40,7 +40,7 @@ QUIZ_BANK = (Path(os.environ["VELIQ_CLUB_DIR"]) / "quiz-bank.js" if os.environ.g
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "9"
+CSS_V = "10"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
@@ -783,7 +783,7 @@ def head(title, desc, path, ld, og_type="article", noindex=False):
 <meta property="og:url" content="{url_of(path)}">
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23FFFFFF%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-family=%27-apple-system,Helvetica,sans-serif%27 font-weight=%27700%27 font-size=%2722%27 text-anchor=%27middle%27 fill=%27%238A6A2A%27%3EV%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/veliq-mark.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/vq-ui.css?v={CSS_V}">
 {lds}</head>
 """
@@ -851,6 +851,7 @@ def footer(S, extra_js=""):
   <div class="wrap">
     <div class="gf-brand">Veliq <b>Academy</b></div>
     {grp("学科", fac)}{grp("公演・Club", conc)}{grp("運営", ops)}{grp("法的", legal)}
+    <nav class="vq-fam" aria-label="Veliq のメディア"><p class="vq-fam-h">Veliq のメディア</p><ul><li><a href="https://veliq-jp.shostako315.workers.dev/">VELIQ</a></li><li><a href="https://veliq-finance.com/">Veliq Finance</a></li><li><a href="https://veliq-table.com/">Veliq Table</a></li><li><a href="https://veliq-living.com/">Veliq Living</a></li><li><a href="https://veliq-vita.com/">Veliq Vita</a></li><li><a href="https://veliq-atelier.com/">Veliq Atelier</a></li><li><a href="https://veliq-career.com/">Veliq Career</a></li><li><a href="https://veliq-works.com/">Veliq Works</a></li><li><a href="https://veliq-academy.com/" aria-current="page">Veliq Academy</a></li><li><a href="https://veliqclub.com/">Veliq Club</a></li></ul></nav>
     <p class="gf-line">運営：{PUBLISHER}・監修：{SUPERVISOR}（{SUPERVISOR_ROLE}）</p>
     <p class="gf-copy">© {PUBLISHER}</p>
   </div>
