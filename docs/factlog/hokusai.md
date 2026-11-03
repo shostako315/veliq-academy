@@ -1,0 +1,15 @@
+# 確認記録：hokusai（葛飾北斎）
+
+記事：`content/art/artists/hokusai.md`／確認日 2026-11-03／方法：WebSearch で確認元を特定し、WebFetch で該当頁から事実を抜き出して照合
+
+## 確認元
+- Wikipedia（英語版）「Hokusai」 https://en.wikipedia.org/wiki/Hokusai 閲覧日 2026-11-03
+- Art Institute of Chicago「Under the Wave off Kanagawa (Kanagawa oki nami ura)」1925.3245 https://www.artic.edu/artworks/24645/under-the-wave-off-kanagawa-kanagawa-oki-nami-ura-also-known-as-the-great-wave-from-the-series-thirty-six-views-of-mount-fuji-fugaku-sanjurokkei 閲覧日 2026-11-03
+
+## 照合の方針
+- 生没年月日・地名・年表の各行・代表作の年と所蔵・寸法は、上の確認元に書かれているものだけを書いた
+- 確認元に無い描写（画面の細部、技法の通説、展示の慣行）は書かなかった。書いた後で照合し、確認元に無かったものは削った
+- 「どこで見られるか」に挙げたシカゴ美術館・メトロポリタン美術館の版画・絵画のうち、上の確認元に無いものは、veliq-club の vlq-live.js で作品ページと題・ID の対応を確かめ済み（✓）のものに限った
+
+## 確かめきれず書かなかった主な点
+- 93回の転居、死去の地（浅草説）、《凱風快晴》のメトロポリタン所蔵（アプリ側の照合のみ）、宗理の号

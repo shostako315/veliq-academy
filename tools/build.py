@@ -66,10 +66,11 @@ SEC_NAME = dict(SECTIONS)
 DATA_SECTIONS = {"works", "composers", "eras", "concepts", "timeline"}
 ARTICLE_SECTIONS = [s for s, _ in SECTIONS if s not in ("timeline",)]
 
-# 美術学科（記事だけ）。content/art/<section>/<slug>.md → /art/<section>/<slug>/
+# 美術学科（記事だけ）。content/art/<section>/<slug>.md → /art/<section>/<slug>/（artists は画家ひとりにつき1本）
 ART_SECTIONS = [
     ("western", "西洋美術"),
     ("japan", "日本美術"),
+    ("artists", "画家"),
     ("sculpture-architecture", "彫刻と建築"),
     ("museums", "美術館"),
 ]

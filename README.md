@@ -37,7 +37,7 @@ cd veliq-academy && python3 -m http.server 8080
 ```
 
 ## 2026-11-03 の変更（美術学科・記事の型・用語リンク）
-- 美術学科：`content/art/<section>/<slug>.md`（section は `western`／`japan`／`sculpture-architecture`／`museums`）→ `/art/<section>/<slug>/`。前付けに `quiz: a-...`（アプリの章 key）を書くと「関連章」の導線が出る。章→記事の対応は `docs/art-read-map.json`
+- 美術学科：`content/art/<section>/<slug>.md`（section は `western`／`japan`／`artists`（画家ひとりにつき1本）／`sculpture-architecture`／`museums`）→ `/art/<section>/<slug>/`。前付けに `quiz: a-...`（アプリの章 key）を書くと「関連章」の導線が出る。章→記事の対応は `docs/art-read-map.json`
 - 記事の前付けに `aliases:`（用語リンクの別名）、`image:`／`image_credit:`／`image_alt:`（題名の上の全幅の図。Wikimedia Commons のパブリックドメイン画像のみ）を書ける
 - 本文の `==語==` は金のマーカー、`> 要点` で始まる引用は左罫線の箱。見出しの番号（1／1-1）と目次はビルドが付けるので手で書かない。最初の `## 要点` は箱として目次の前に出る。`## よくある質問` の `###` は Q の見出しになる
 - 本文中の外部リンク（`[（出典名）](URL)` など）はビルドで外し、末尾の「参考文献」に前付けの `sources` と重複排除してまとめる。本文末尾に `## 参考文献` を書いた記事も自動の節に統合される。britannica.com の `print/`・`EBchecked/` は無条件に落とす。`python3 tools/linkcheck.py` で URL を確認すると、200 以外の URL の項目も落ちる（結果は `tools/linkcheck.json`）
