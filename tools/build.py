@@ -88,6 +88,8 @@ FAC_NAME = dict(FACULTIES)
 FAQ_TITLE = "よくある質問"
 
 
+VQ_ORG = '<script type="application/ld+json" id="vq-org">{"@context":"https://schema.org","@type":"Organization","@id":"https://veliq-academy.com/#org","name":"Veliq Academy","url":"https://veliq-academy.com/","brand":{"@type":"Brand","name":"VELIQ"},"parentOrganization":{"@type":"Organization","@id":"https://veliq-jp.shostako315.workers.dev/#org","name":"VELIQ","alternateName":"ヴェリーク","url":"https://veliq-jp.shostako315.workers.dev/"},"sameAs":["https://veliq-jp.shostako315.workers.dev/"]}</script>\n'
+
 def sec_name(fac, s):
     return {"art": ART_SEC_NAME, "lingua": LINGUA_SEC_NAME}.get(fac, SEC_NAME).get(s, s)
 
@@ -786,7 +788,7 @@ def head(title, desc, path, ld, og_type="article", noindex=False):
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/veliq-mark.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/vq-ui.css?v={CSS_V}">
-{lds}</head>
+{lds}{VQ_ORG if path in ("", "/", "index.html") else ""}</head>
 """
 
 
