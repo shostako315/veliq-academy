@@ -832,7 +832,7 @@ def header(S, cur):
 </header>
 <div class="menu" id="navMenu">
   <div class="mg"><div class="mh">音楽</div><div class="ml">{ml}</div></div>
-  {ag}<div class="mg"><div class="mh">公演・Club</div><div class="ml"><a href="/concerts/">演奏会</a>{cl}<a href="{APP}?from=academy">Veliq アプリで4択</a><a href="{CLUB}">Veliq Club に入会する</a></div></div>
+  {ag}<div class="mg"><div class="mh">公演・Club</div><div class="ml"><a href="/concerts/">演奏会</a>{cl}<a href="{APP}?from=academy">Veliq アプリで学ぶ</a><a href="{CLUB}">Veliq Club に入会する</a></div></div>
   <div class="mfoot">運営：{PUBLISHER}・監修：{SUPERVISOR}</div>
 </div>
 """
@@ -845,7 +845,7 @@ def footer(S, extra_js=""):
         return f'<details class="gf-s"{" open" if open_ else ""}><summary>{esc(title)}</summary><div class="gf-l">{a}</div></details>'
     fac = [("/music/", "音楽")] + ([("/art/", "美術")] if S.arts_of("art") else []) + ([("/lingua/", "語学")] if S.arts_of("lingua") else [])
     conc = [("/concerts/", "演奏会")] + [(f'/concerts/{e["id"]}/', e["title"]) for e in S.events] + \
-        [(f"{APP}?from=academy", "Veliq アプリで4択"), (CLUB, "Veliq Club")]
+        [(f"{APP}?from=academy", "Veliq アプリで学ぶ"), (CLUB, "Veliq Club")]
     ops = [(VO, "VariOrchestra"), ("https://veliq-jp.shostako315.workers.dev/", "VELIQ"), ("mailto:info@variorchestra.com", "お問い合わせ")]
     legal = [("/privacy.html", "プライバシーポリシー")]
     return f"""<footer class="gf">
@@ -1044,7 +1044,7 @@ def tail(S, path, sources, related, events, quiz, supervised=True, cites=None, e
         h += sec("演奏会の案内", inner)
     if quiz:
         q = f"{APP}?quiz={quote(quiz['key'])}&from=academy&ret={quote(url_of(path), safe='')}"
-        h += sec("アプリで4択に挑戦", f'<div class="va-box"><p class="va-boxp">{esc(quiz["title"])}（{esc(quiz.get("label", ""))}・{len(quiz.get("qs", []))}問）</p><div class="va-acts"><a class="va-btn" href="{esc(q)}">4択を解く</a></div></div>')
+        h += sec("アプリで学ぶ", f'<div class="va-box"><p class="va-boxp">{esc(quiz["title"])}（{esc(quiz.get("label", ""))}・{len(quiz.get("qs", []))}問）</p><div class="va-acts"><a class="va-btn" href="{esc(q)}">この章を解く（アプリ）</a></div></div>')
     h += extra
     h += sec("Veliq Club", f'<div class="va-acts"><a class="va-btn ln" href="{CLUB}">Veliq Club に入会する</a></div>')
     return h
@@ -1099,7 +1099,7 @@ def build_work(S, wid):
     ch = S.chapters_for(v["composerId"]) if v["composerId"] else []
     ch = [t for t in ch if t["key"] == f"w-{wid}" or t["key"].startswith(f"w-{wid}-")] or ch[:3]
     if ch:
-        body += sec("関連章（アプリの4択）", quiz_rows(S, v["path"], ch))
+        body += sec("アプリで学ぶ章", quiz_rows(S, v["path"], ch))
     body += sec("聴く", listen_links(f'{S.short(c)} {v["title"]}' if c else v["title"]))
     # 関連
     rel = []
@@ -1190,7 +1190,7 @@ def build_composer(S, c):
         body += sec("代表作", f'<div class="va-tbl tbl"><table><thead><tr><th>作品</th><th>年</th><th>ジャンル</th></tr></thead><tbody>{tr}</tbody></table></div>')
     ch = S.chapters_for(c["id"])
     if ch:
-        body += sec("関連章（アプリの4択）", quiz_rows(S, path, ch))
+        body += sec("アプリで学ぶ章", quiz_rows(S, path, ch))
     body += sec("聴く", listen_links(c["name"]))
     rel = []
     for key, label in [("teachers", "師"), ("students", "弟子"), ("influencedBy", "影響を受けた作曲家"), ("influenced", "影響を与えた作曲家")]:
@@ -1606,7 +1606,7 @@ def build_home(S):
     h += sec("学科", count_rows(fac_rows))
     if S.events:
         h += sec("演奏会", rows([(f'/concerts/{e["id"]}/', e["title"], f'{jdate(e.get("date"))}・{e.get("venue", "")}') for e in S.events]))
-    h += sec("アプリと会員", f'<div class="va-acts"><a class="va-btn" href="{APP}?from=academy">Veliq アプリで4択</a><a class="va-btn ln" href="{CLUB}">Veliq Club に入会する</a></div>')
+    h += sec("アプリと会員", f'<div class="va-acts"><a class="va-btn" href="{APP}?from=academy">Veliq アプリで学ぶ</a><a class="va-btn ln" href="{CLUB}">Veliq Club に入会する</a></div>')
     ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": "Veliq Academy", "url": SITE + "/", "inLanguage": "ja",
            "publisher": {"@type": "Organization", "name": PUBLISHER, "url": VO, "email": "info@variorchestra.com"}}]
     page(S, path, "Veliq Academy", f"{lede}監修：{SUPERVISOR}。運営：{PUBLISHER}。",
