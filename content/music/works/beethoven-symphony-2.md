@@ -15,11 +15,8 @@ sources:
   - "Armin Raab, Preface. In: Beethoven, Symphony no. 2 in D major op. 36, Studien-Edition HN 9802, München: G. Henle, 2019（成立、自筆譜の消失とリースの証言、初版、ピアノ三重奏編曲、スケルツォ第88小節の訂正、メトロノーム表記）. https://www.henle.de/media/59/80/94/1697725884/9802-1697725884-sync.pdf（閲覧日 2026-10-29）"
   - "Beethoven Werke, Abteilung I, Band 1, hrsg. von Armin Raab, München: G. Henle, 1994（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993489808604498 、閲覧日 2026-10-29）"
   - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 2“（初演、各楽章の速度表示と数値、ヴェーゲラー宛書簡、同時代評）. https://www.esm.rochester.edu/beethoven/symphony-no-2/（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Symphony No. 2 (Beethoven)」（第1楽章の小節割り、編成、編曲、楽章の形式）. https://en.wikipedia.org/wiki/Symphony_No._2_(Beethoven)（閲覧日 2026-10-29）"
-  - "Wikipedia（独語版）「2. Sinfonie (Beethoven)」（典拠 Armin Raab in: Renate Ulm (Hg.), Die 9 Symphonien Beethovens, 1994; Beethoven, Briefwechsel Gesamtausgabe, hrsg. von Sieghard Brandenburg, Bd. 1, München 1996, S. 89）. https://de.wikipedia.org/wiki/2._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
   - "„Beethoven's Symphony No 2, introduced by David Zinman“, interview by Michael McManus, Gramophone, 22 September 2014. https://gramophone.co.uk/feature/beethovens-symphony-no-2-introduced-by-david-zinman（閲覧日 2026-10-29）"
   - "Kenneth Woods（blog）, „What do you do when Beethoven doesn't give you a metronome marking?“（再掲記事, 2012-10-02、第2番の各楽章の音価）. https://kennethwoods.net/blog1/wp-json/wp/v2/posts/4679（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Karajan: Beethoven Symphonies (1963)」（録音期間 1961年12月〜1962年11月）. https://en.wikipedia.org/wiki/Karajan:_Beethoven_Symphonies_(1963)（閲覧日 2026-10-29）"
   - "John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington（Virgin Classics）, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）"
   - "Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）"
   - "Pristine Classical, PABX029: Toscanini, Beethoven – The Symphonies (1948–53). https://pristineclassical.com/products/pabx029（閲覧日 2026-10-29）"
@@ -64,36 +61,23 @@ sources:
 
 ### 第1楽章 Adagio molto – Allegro con brio
 
-ニ長調。序奏付きのソナタ形式。序奏は33小節で、第1番の序奏（12小節）よりはるかに長い。第11小節で変ロ長調に移り、第12〜16小節で短く転調を重ねてからニ長調に戻る。
+ニ長調。序奏付きのソナタ形式。序奏は第1番の序奏のほぼ3倍の長さがある。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-2/)
 
-主部の区分は次のとおりである。
-
-| 区分 | 小節 | 調 |
-|---|---|---|
-| 序奏 | 1–33 | ニ長調（11小節で変ロ長調） |
-| 提示部 第1主題 | 34–57 | ニ長調 |
-| 推移 | 58–72 | 61小節でイ短調 |
-| 第2主題 | 73– | イ長調（113小節でイ短調） |
-| 小結尾 | 117–136 | 120小節でニ長調 |
-| 展開部 | 137– | 第1主題の素材 |
-| 再現部 | 216– | 第2主題は245小節から主調 |
-| コーダ | 340–360 | ニ長調 |
-
-展開部は主に第1主題の素材を用いる。ジンマンは、両端楽章のコーダを華やかに力強く演奏すべきだと述べている。[（Gramophone）](https://gramophone.co.uk/feature/beethovens-symphony-no-2-introduced-by-david-zinman)また、2分の2拍子の大きな拍を保つことが細部を決めるのであり、4拍に数えて読むと問題が生じると説明している。[（Gramophone）](https://gramophone.co.uk/feature/beethovens-symphony-no-2-introduced-by-david-zinman)
+ジンマンは、両端楽章のコーダを華やかに力強く演奏すべきだと述べている。[（Gramophone）](https://gramophone.co.uk/feature/beethovens-symphony-no-2-introduced-by-david-zinman)また、2分の2拍子の大きな拍を保つことが細部を決めるのであり、4拍に数えて読むと問題が生じると説明している。[（Gramophone）](https://gramophone.co.uk/feature/beethovens-symphony-no-2-introduced-by-david-zinman)
 
 ### 第2楽章 Larghetto
 
-イ長調（属調）、8分の3拍子。完全なソナタ形式で、提示部はホ長調で終わり、展開部ではイ短調やハ長調を経る。当時としては長い緩徐楽章である。牧歌的な性格から第6番《田園》との関連が指摘され、フランツ・シューベルト（Franz Schubert）はピアノ連弾の《グラン・デュオ》ハ長調の第2楽章でこの楽章を引用している。
+イ長調（属調）、8分の3拍子。ソナタ形式。ベルリオーズ（Hector Berlioz）はこの楽章を、わずかな憂いの影がさすだけの無垢な幸福の描写と評した。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-2/)
 
 ### 第3楽章 Scherzo. Allegro
 
-ニ長調。ベートーヴェンが交響曲の第3楽章に初めて「スケルツォ」と書いた楽章である。強弱と楽器の対比が際立つ。トリオでは、オーボエとファゴットが主旋律を受け持つ。トリオは主調のニ長調にとどまる。
+ニ長調。ハイドン型のメヌエットではなく、スケルツォとトリオである。トリオでは木管が素朴な旋律を吹き、弦がユニゾンで嬰ヘ長調の分散和音を挟む。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-2/)
 
 ラープは2019年のヘンレ版スタディ・スコアで、新全集版（1994年）のスケルツォ第88小節のファゴットを、ニ音（d/d¹）から嬰ヘ音と嬰ニ音（fis/dis¹）に訂正した。
 
 ### 第4楽章 Allegro molto
 
-ニ長調。冒頭の主題は、2音のスラーとトリルによる短い動機で始まる。この動機の形は、モーツァルト（Wolfgang Amadeus Mozart）の交響曲第35番《ハフナー》第1楽章の主題に似ている。形式の捉え方は資料によって異なり、ソナタ・ロンド形式（A–B–A–C–A–B–A）とする見方と、ソナタ形式に主要主題の回帰によるロンドの性格が加わったものとする見方がある。展開部はいくつもの短調を通る。長いコーダは、フェルマータと全休止で区切られながらいくつもの頂点を作る。
+ニ長調。ソナタ形式。冒頭の主題は、2音のスラーとトリルによる短い動機で始まり、この動機がロンドのように何度も戻ってくる。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-2/)
 
 ## 演奏史と解釈
 
@@ -122,7 +106,7 @@ sources:
 ### 代表的な録音
 
 - アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮NBC交響楽団（1948〜53年の全集のうち）。
-- ヘルベルト・フォン・カラヤン（Herbert von Karajan）指揮ベルリン・フィル（1961年12月〜1962年11月録音の全集、ドイツ・グラモフォン）。
+- ヘルベルト・フォン・カラヤン（Herbert von Karajan）指揮ベルリン・フィル（ドイツ・グラモフォンの全集）。
 - ロジャー・ノリントン（Roger Norrington）指揮ロンドン・クラシカル・プレイヤーズ（1986〜88年、ロンドンのアビー・ロード第1スタジオ）。当時の楽器を用い、メトロノーム表記に近いテンポをとる。初出盤には各楽章の表記が印刷されていた。[（MusicWeb International）](https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm)
 - ニコラウス・アーノンクール（Nikolaus Harnoncourt）指揮ヨーロッパ室内管弦楽団（1990〜91年、グラーツのシュテファニエンザールでのライヴ録音による全集、テルデック）。現代楽器による。
 - デイヴィッド・ジンマン指揮チューリヒ・トーンハレ管弦楽団（アルテ・ノヴァの全集）。デル・マー校訂版に基づく。
@@ -135,4 +119,3 @@ sources:
 - **唯一の一次資料**：自筆譜も筆写譜も残らないため、校訂は初版パート譜を基準にし、ピアノ三重奏版を補助的に参照する。三重奏版を誰が編曲したか（ベートーヴェンかリースか）は確定していない。
 - **出版年**：初版の刊行を1803年末とするか1804年とするかで資料が分かれる。『一般音楽新聞』のパート譜評は1804年に出ている。
 - **第1番との比較**：第1番と比べて声部の書法がより独立し、楽章の規模が大きくなり、主題労作がより集中している。一方で、目立つ六の和音の使い方や、主題を担う木管群の扱いには、ハイドンとモーツァルトとの近さが残るとしている。
-- **スケルツォの名称**：第1番の第3楽章は「メヌエット」と題されながらスケルツォの性格をもっていた。第2番で初めて楽章名に「スケルツォ」が用いられた。

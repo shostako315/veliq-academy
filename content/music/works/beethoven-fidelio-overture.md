@@ -17,8 +17,6 @@ sources:
   - "Christoph Schlüren, „Die Beethoven-Editionen Jonathan Del Mars bei Bärenreiter“, [t]akte 2/2018（ベーレンライター版《レオノーレ》序曲第1〜3番 BA 8831–8833、校訂 Lühning）. https://www.takte-online.de/en/publications/detail/artikel/die-beethoven-editionen-jonathan-del-mars-bei-baerenreiter/index.htm（閲覧日 2026-10-29）"
   - "Boston University Center for Beethoven Research, „Autographs Online“（1814年の序曲の自筆譜の所蔵記号）. https://www.bu.edu/beethovencenter/?p=142（閲覧日 2026-10-29）"
   - "Beethoven.ru, „The Four Overtures to Leonore and Fidelio“（Ludwig van Beethoven. His Life and his Work in Pictures, No. 34）. https://www.beethoven.ru/en/node/1359（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Fidelio」（3つの稿の上演、台本作者、各稿の序曲、総譜の出版、第3番の挿入の慣行）. https://en.wikipedia.org/wiki/Fidelio（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Fidelio discography」. https://en.wikipedia.org/wiki/Fidelio_discography（閲覧日 2026-10-29）"
   - "Pittsburgh Symphony Orchestra, Program note „Overture to Fidelio, Op. 72c (1814)“（編成、構成、演奏時間）. https://assets.culturaldistrict.org/culturaldistrict/system/assets/7872/original/Beethoven.pdf（閲覧日 2026-10-29）"
   - "Georgeanne Banker, Program note „Beethoven: Overture to Fidelio, Op. 72“, The Juilliard School, Juilliard Orchestra programme. https://www.juilliard.edu/sites/default/files/4.29_juilliard_orchestra.pdf（閲覧日 2026-10-29）"
   - "Mutopia Project, „Fidelio Overture“（Eulenburg 1919 に基づく浄書、編成）. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=377（閲覧日 2026-10-29）"
@@ -41,7 +39,7 @@ sources:
 | 第2稿（2幕） | 1805年12月〜1806年3月 | シュテファン・フォン・ブロイニング（Stephan von Breuning）が改訂 | 1806年3月29日、4月10日、同劇場 | 《レオノーレ》序曲第3番（ハ長調） |
 | 第3稿（2幕） | 1814年前半 | ゲオルク・フリードリヒ・トライチュケ（Georg Friedrich Treitschke）がほぼ書き直す | 1814年5月23日、ケルントナートーア劇場 | 新しいホ長調の序曲（本作） |
 
-第1稿は1805年10月15日に予定されていたが、9月に検閲で差し止められた。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/4984496705241088)11月20日の初日は、フランス軍のウィーン入城の直後であった。劇場は《フィデリオ》の題で上演することを求めた。第1稿の上演回数は資料によって異なり、初日を含む3晩とするものと、2回の上演の後に打ち切られたとするものがある。第2稿も2回の上演で打ち切られた。
+第1稿は1805年10月15日に予定されていたが、9月に検閲で差し止められた。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/4984496705241088)
 
 ### 4つの序曲
 
@@ -61,7 +59,7 @@ sources:
 
 ### 出版
 
-ベートーヴェン・ハウスは、1814年の序曲の初版として、ウィーンのアルタリア（Artaria）によるピアノ編曲（版番号2327）、ブライトコップフ・ウント・ヘルテルのパート譜（版番号3550）と総譜（版番号4564）を挙げている。IMSLPは総譜の刊行を1828年としている。第3稿のヴォーカル・スコアはアルタリアから出版された（版番号2327–2343）。オペラ全体の総譜は1826年に出版された。
+ベートーヴェン・ハウスは、1814年の序曲の初版として、ウィーンのアルタリア（Artaria）によるピアノ編曲（版番号2327）、ブライトコップフ・ウント・ヘルテルのパート譜（版番号3550）と総譜（版番号4564）を挙げている。IMSLPは総譜の刊行を1828年としている。第3稿のヴォーカル・スコアはアルタリアから出版された（版番号2327–2343）。
 
 ### 自筆譜
 
@@ -101,29 +99,13 @@ sources:
 
 作品番号の付け方は文献によって一致しない。この序曲は「Op.72」とされるほか、「Op.72b」（ミュートピア・プロジェクトなど）や「Op.72c」（ピッツバーグ交響楽団など）とも表記される。《レオノーレ》序曲第2番と第3番にも「Op.72」「Op.72a」「Op.72b」などの表記が混在しており、番号だけではどの序曲かを特定できないことがある。第1番は作品138である。
 
-### 序曲の選択と《レオノーレ》序曲第3番の挿入
+### 序曲の選択と同時代の評
 
-今日のオペラ上演では、1814年のホ長調の序曲が冒頭に置かれる。これとは別に、第2幕の2つの場の間の場面転換で《レオノーレ》序曲第3番を演奏する慣行がある。デイヴィッド・ケアンズ（David Cairns）はこの慣行を19世紀半ばにさかのぼるとし、グスタフ・マーラー（Gustav Mahler）がこの方法をとったことがよく知られている。
+今日のオペラ上演では、1814年のホ長調の序曲が冒頭に置かれる。
 
 同時代の評として、リューニングは、1806年10月22日の『ウィーン演劇新聞』が第3番の不協和音を批判し、1810年11月7日の『一般音楽新聞』が「最も堂々とし、難しく、しかも最も豊かで不思議な作品の一つ」と評価したことを挙げている。[（Henle 序文）](https://www.henle.de/media/c3/22/93/1697725846/9046-1697725846-sync.pdf)
-
-### 代表的な録音
-
-オペラ全曲の録音は、冒頭にこのホ長調の序曲を含む。主な録音を挙げる。
-
-- アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮NBC交響楽団（1944年、RCA）。
-- ヴィルヘルム・フルトヴェングラー（Wilhelm Furtwängler）指揮ウィーン・フィル（1953年、EMI）。
-- フェレンツ・フリッチャイ（Ferenc Fricsay）指揮バイエルン国立歌劇場管弦楽団（1957年、ドイツ・グラモフォン）。
-- オットー・クレンペラー（Otto Klemperer）指揮フィルハーモニア管弦楽団（1962年、EMI）。
-- ヘルベルト・フォン・カラヤン（Herbert von Karajan）指揮ベルリン・フィル（1970年、EMI）。
-- レナード・バーンスタイン（Leonard Bernstein）指揮ウィーン・フィル（1978年、ドイツ・グラモフォン）。
-- ニコラウス・アーノンクール（Nikolaus Harnoncourt）指揮ヨーロッパ室内管弦楽団（1994年、テルデック）。
-- クラウディオ・アバド（Claudio Abbado）指揮ルツェルン祝祭管弦楽団（2011年、Decca）。
-
-1805年の第1稿《レオノーレ》の全曲録音には、ヘルベルト・ブロムシュテット（Herbert Blomstedt）（1976年）、ジョン・エリオット・ガーディナー（John Eliot Gardiner）（1997年）、ルネ・ヤーコプス（René Jacobs）（2019年）などがある。
 
 ## もっと深く
 
 - **第1番の成立年**：第1番をシンドラーに従って1805年の最初の序曲とみるか、タイソン以後の研究に従って1807年のプラハ上演計画のための曲とみるかで、4曲の成立順の説明が変わる。前者では第1番→第2番→第3番、後者では第2番→第3番→第1番の順になり、後者の見方では番号の順と成立の順が一致しない。
 - **第2番の改訂の跡**：ベルリンの筆写総譜に残る1808年と1814年の書き込みは、ベートーヴェンが1806年以後も第2番に手を入れていたことを示す。リューニングは、メンデルスゾーンがこの序曲を演奏したことにも触れている。
-- **場面転換での第3番**：第3番の挿入は作曲者の指示によるものではなく、上演の慣行である。今日の上演では、ホ長調の序曲で幕を開け、第2幕の途中で第3番を演奏する形がとられることがある。

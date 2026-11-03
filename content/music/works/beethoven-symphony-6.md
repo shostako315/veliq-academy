@@ -22,9 +22,7 @@ sources:
   - "Malte Krasting, Programme notes „Ludwig van Beethoven: Symphony No. 6“, Berliner Philharmoniker. https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-symphony-no-6-in-f-major-op-68-pastoral（閲覧日 2026-10-29）"
   - "Jos van der Zanden, „Peace Be With You, Calm Now: On the Fate of Beethoven's Seventh Symphony ‘Allegretto’“, Nineteenth-Century Music Review 23/1 (2026; online 2025), DOI 10.1017/S1479409824000247（1817年のメトロノーム表、第6番自筆譜の速度語）"
   - "Fusako Hamao, „Schoenberg's Metronome Markings“, European Journal of Musicology 22/2 (2024), DOI 10.5450/EJM.22.2.2024.5（AMZ 1817年12月の表題の引用）"
-  - "Wikipedia（独語版）「6. Sinfonie (Beethoven)」（標題の原形と初版形、各楽章の小節数とメトロノーム表記、受容）. https://de.wikipedia.org/wiki/6._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Symphony No. 6 (Beethoven)」（典拠 Frank A. D'Accone、Stephen Ledbetter ほか）. https://en.wikipedia.org/wiki/Symphony_No._6_(Beethoven)（閲覧日 2026-10-29）"
-  - "録音データ：Wikipedia（英語版）「Carlos Kleiber discography」、MusicWeb International（Harnoncourt Teldec 全集評 2003年8月）、Deutsche Grammophon（Böhm 1971）、Elusive Disc（Walter 1958）（閲覧日 2026-10-29）"
+  - "録音データ：MusicWeb International（Harnoncourt Teldec 全集評 2003年8月）、Deutsche Grammophon（Böhm 1971）、Elusive Disc（Walter 1958）（閲覧日 2026-10-29）"
 ---
 
 ## 成立
@@ -37,33 +35,23 @@ sources:
 
 1808年6月8日、ベートーヴェン（Ludwig van Beethoven）はライプツィヒの出版社ブライトコップフ・ウント・ヘルテル（Breitkopf & Härtel）に宛てて、作品67と作品68をまとめて提供すると書いた。この時点で第6番はまだ完成していなかったとみられる。ベートーヴェン・ハウスは、自筆総譜の完成を早くとも1808年7月か8月としている。7月と9月の書簡はハイリゲンシュタットから出されており、9月14日には同社のための所有権確認書が書かれた。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5758288851369984/)
 
-アントン・シンドラー（Anton Schindler）は「小川のほとりの情景」がヌスドルフかグリンツィングで書かれたと伝えたが、この証言は疑わしく、作曲は主にウィーン市内で進められたとする見方がある。
-
 ### 「性格交響曲」から「田園交響曲」へ
 
 ベートーヴェンが最初に考えた題は「Sinfonia caracteristica oder Erinnerung an das Landleben（性格交響曲、または田舎の生活の思い出）」であった。スケッチには、描写は器楽で行き過ぎると力を失う（„Jede Mahlerei, nachdem sie in der Instrumentalmusik zu weit getrieben, verliert“）という書き込みと、場面を見つけるのは聴き手に委ねる、という趣旨の書き込みが残る。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-6/)
 
 1809年3月28日、ベートーヴェンはブライトコップフに作品67と68の最終的な訂正を送り、作品68の題を書き送った（ベートーヴェン・ハウス所蔵 HCB Br 75）。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/media/view/4936316600975360)この書簡に「Mehr Ausdruck der Empfindung als Mahlerey（描写よりも感情の表出）」の語句がある。ヘンレ版の序文はこの語句の出典として書簡全集 No. 370 を挙げており、ベートーヴェン・ハウスはこの3月28日付書簡の本文をその番号で参照している。ベートーヴェンは題が書いたとおりに印刷されることを望んだが、1809年の初版では題も楽章の標題も出版社の手で変えられた。
 
-| 楽章 | 自筆譜の標題 | 1809年初版の標題 |
-|---|---|---|
-| I | Angenehme, heitere Empfindungen, welche bei der Ankunft auf dem Lande im Menschen erwachen | Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande |
-| II | Szene am Bach | Szene am Bach |
-| III | Lustiges Zusammensein der Landleute | Lustiges Zusammensein der Landleute |
-| IV | Donner, Sturm | Gewitter, Sturm |
-| V | Hirtengesang. Wohltätige, mit Dank an die Gottheit verbundene Gefühle nach dem Sturm | Hirtengesang. Frohe und dankbare Gefühle nach dem Sturm |
-
-印刷された総題は「Pastoral-Sinfonie oder Erinnerungen an das Landleben」である。今日一般に用いられる楽章の標題は初版の形である。
+印刷された総題は「Pastoral-Sinfonie oder Erinnerungen an das Landleben」である。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-6/)
 
 ### 初演
 
-初演は1808年12月22日、ウィーンのアン・デア・ウィーン劇場で行われたベートーヴェン主催の演奏会（アカデミー）で、作曲者自身が指揮した。演奏会は18時30分から22時30分まで続き、第6番は第1部の冒頭に、第5番は第2部の冒頭に置かれた。ほかにピアノ協奏曲第4番、アリア、ハ長調ミサ曲からの2曲、合唱幻想曲作品80が演奏された。2曲の交響曲が同じ演奏会で初演されたのは、ベートーヴェンの生涯でこの時だけである。リハーサルは不足しており、聴いていたヨハン・フリードリヒ・ライヒャルト（Johann Friedrich Reichardt）は4時間の演奏会を長すぎると書いた。
+初演は1808年12月22日、ウィーンのアン・デア・ウィーン劇場で行われたベートーヴェン主催の演奏会（アカデミー）で、作曲者自身が指揮した。演奏会は18時30分から22時30分まで続き、第6番は第1部の冒頭に、第5番は第2部の冒頭に置かれた。ほかにピアノ協奏曲第4番、アリア、ハ長調ミサ曲からの2曲、合唱幻想曲作品80が演奏された。リハーサルは不足しており、聴いていたヨハン・フリードリヒ・ライヒャルト（Johann Friedrich Reichardt）は4時間の演奏会を長すぎると書いた。
 
 ### 献呈と出版
 
 献呈は第5番と同じく、ロプコヴィッツ侯フランツ・ヨーゼフ・マクシミリアン（Franz Joseph Maximilian von Lobkowitz）とラズモフスキー伯アンドレイ（Andrei Rasumowsky）の2人である。
 
-パート譜の初版は1809年にブライトコップフ・ウント・ヘルテルから出た（版番号1337）。イーストマン音楽学校の資料は刊行を1809年4月とする。総譜の初版は同社から1826年に出た（版番号4311、同資料は5月とする）。1809年11月22日、ベートーヴェンは同社に、刊行された作品67・68と三重奏曲作品70に誤りがあると書き、訂正表を送った。訂正表は現存しない。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/media/view/6679929408192512)
+イーストマン音楽学校の資料によれば、パート譜の初版は1809年4月、総譜の初版は1826年5月に、いずれもブライトコップフ・ウント・ヘルテルから出た。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-6/)1809年11月22日、ベートーヴェンは同社に、刊行された作品67・68と三重奏曲作品70に誤りがあると書き、訂正表を送った。訂正表は現存しない。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/media/view/6679929408192512)
 
 ## 編成と演奏時間
 
@@ -73,13 +61,13 @@ sources:
 
 第3〜5楽章は切れ目なく続く。演奏時間は約40分で、テンポと第1・第3楽章の反復の扱いによって35〜46分の幅がある。
 
-| 楽章 | 調 | 拍子 | 速度標語 | 小節数 |
-|---|---|---|---|---|
-| I | ヘ長調 | 2/4 | Allegro ma non troppo | 512 |
-| II | 変ロ長調 | 12/8 | Andante molto moto（印刷譜では molto mosso） | 139 |
-| III | ヘ長調 | 3/4（中間部 2/4） | Allegro／In tempo d'Allegro | 468 |
-| IV | ヘ短調 | 4/4 | Allegro | 155 |
-| V | ヘ長調 | 6/8 | Allegretto | 264 |
+| 楽章 | 調 | 拍子 | 速度標語 |
+|---|---|---|---|
+| I | ヘ長調 | 2/4 | Allegro ma non troppo |
+| II | 変ロ長調 | 12/8 | Andante molto moto（印刷譜では molto mosso） |
+| III | ヘ長調 | 3/4（中間部 2/4） | Allegro／In tempo d'Allegro |
+| IV | ヘ短調 | 4/4 | Allegro |
+| V | ヘ長調 | 6/8 | Allegretto |
 
 ## 楽章ごとの聴きどころ
 
@@ -97,19 +85,19 @@ sources:
 
 ### 第3楽章 田舎の人々の楽しい集い
 
-ヘ長調、3/4拍子のスケルツォに、2/4拍子の中間部（In tempo d'Allegro）が挟まる。中間部は2回現れ、スケルツォ主題の3回目は短縮されて第4楽章へつながる。テオドール・W・アドルノ（Theodor W. Adorno）は、この楽章をブルックナーのスケルツォの原型とみた。
+ヘ長調、3/4拍子のスケルツォに、2/4拍子の中間部（In tempo d'Allegro）が挟まる。スケルツォと中間部が交互に現れる5つの部分から成る。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-6/)
 
 スケルツォの第2主題で、オーボエは4分音符1つ分早く入る。これは村の楽隊の描写と説明される。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-symphony-no-6-in-f-major-op-68-pastoral)第3楽章から第5楽章までは切れ目なく続く。
 
 ### 第4楽章 雷雨、嵐
 
-ヘ短調、4/4拍子、155小節。全曲でここだけピッコロとティンパニが加わり、トロンボーンもこの楽章で初めて入る。ティンパニが雷、ピッコロが稲妻、弦のトレモロが雨に当てられる。形式は楽章の型には当てはまらず、出来事の連なりとして書かれている。
+ヘ短調、4/4拍子。全曲でここだけピッコロとティンパニが加わり、トロンボーンもこの楽章で初めて入る。ティンパニが雷、ピッコロが稲妻、弦のトレモロが雨に当てられる。形式は楽章の型には当てはまらず、出来事の連なりとして書かれている。
 
-終わりにフルートの上行音階が置かれ、そのまま第5楽章に入る。この楽章の位置づけについて、モーツァルトの弦楽五重奏曲ト短調 K. 516 との類似を指摘する論者もいる。
+終わりにフルートの上行音階が置かれ、そのまま第5楽章に入る。
 
 ### 第5楽章 牧人の歌、嵐のあとの喜ばしく感謝に満ちた気持ち
 
-ヘ長調、6/8拍子、264小節。ロンドとソナタを合わせた形式で、序奏–A–B–A–C–A–B–A–コーダと整理される。中心にあるのは8小節の牧人の歌で、楽章を通じて何度も現れる。自筆譜では速度標語「Allegretto」に「quasi allegro」が添えられている。コーダには pianissimo と sotto voce が指示されており、多くの指揮者がここでテンポを落とす。
+ヘ長調、6/8拍子。提示部の反復のないソナタ形式に、ロンドと変奏の要素が加わる。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-6/)中心にあるのは牧人の歌で、楽章を通じて何度も現れる。自筆譜では速度標語「Allegretto」に「quasi allegro」が添えられている。コーダには pianissimo と sotto voce が指示されている。
 
 ## 演奏史と解釈
 
@@ -130,7 +118,7 @@ sources:
 
 ### 版
 
-19世紀を通じて用いられたのはブライトコップフの1826年総譜と、その後の同社旧全集の系統である。ジョナサン・デル・マー（Jonathan Del Mar）の校訂によるベーレンライター版（交響曲全9曲を1996〜2000年に刊行）は、自筆譜とパート譜の資料を照合し直している。ベートーヴェン・ハウスは2000年に自筆譜のファクシミリを刊行し、ジークハルト・ブランデンブルク（Sieghard Brandenburg）が解説を書いた。
+ジョナサン・デル・マー（Jonathan Del Mar）の校訂によるベーレンライター版（交響曲全9曲を1996〜2000年に刊行）は、自筆譜とパート譜の資料を照合し直している。ベートーヴェン・ハウスは2000年に自筆譜のファクシミリを刊行し、ジークハルト・ブランデンブルク（Sieghard Brandenburg）が解説を書いた。
 
 リュブリャナの国立大学図書館には、この曲の初期の筆写譜が残っている。この筆写譜は2019年にヨナタン・ヴィンクラー（Jonatan Vinkler）の編集で「リュブリャナ写本」として刊行された。
 
@@ -140,19 +128,10 @@ sources:
 |---|---|---|---|
 | ブルーノ・ワルター（Bruno Walter） | コロンビア交響楽団 | 1958年発売 | ステレオ録音 |
 | カール・ベーム（Karl Böhm） | ウィーン・フィルハーモニー管弦楽団 | 1971年 | ドイツ・グラモフォン |
-| カルロス・クライバー（Carlos Kleiber） | バイエルン国立管弦楽団 | 1983年11月7日 | ライヴ |
 | ニコラウス・アーノンクール（Nikolaus Harnoncourt） | ヨーロッパ室内管弦楽団 | 1990年7月1日 | グラーツ、シュテファニエンザールでのライヴ |
 | ジョン・エリオット・ガーディナー（John Eliot Gardiner） | オルケストル・レヴォリュショネール・エ・ロマンティク | 全集1994年発売 | ピリオド楽器。スケルツォの速さが評で指摘された |
 
 『グラモフォン』誌のガーディナー全集評は、第6番のスケルツォを非常に速いと書いた。付点2分音符＝108を守ると、3/4拍子のスケルツォは1小節を1拍に数えるテンポになる。
-
-レオポルド・ストコフスキー（Leopold Stokowski）は1940年のディズニー映画『ファンタジア』でこの曲を指揮したが、映画用に長さを変えている。
-
-### 同時代と19世紀の受容
-
-『一般音楽新聞』は1812年、この曲を「われわれにとってまだ新しい田園交響曲」として取り上げ、好意的に論じた。一方、カール・ライネッケ（Carl Reinecke）によれば、ライプツィヒ・ゲヴァントハウス管弦楽団はこの曲をほかの交響曲よりずっと少なくしか取り上げなかった。叙情的な終楽章は演奏会の締めくくりとして効果が薄いと考えられていたためである。エクトル・ベルリオーズ（Hector Berlioz）は1862年の『音楽のよもやま話』（À travers chants）で、孤独な散策から人々の集い、嵐、感謝へと進む順序を詳しく論じた。クロード・ドビュッシー（Claude Debussy）は「クロシュ氏」の筆名で、鳥の声の模倣を意味のない模倣だと批判した。
-
-標題と音楽の関係をめぐる議論は数十年続いた。スティーヴン・レッドベター（Stephen Ledbetter）は、作品を理解するのに標題は必要ないとみる一方、ロマン派の作曲家や批評家がこの曲の標題を、交響曲を物語として読む根拠として用いたと指摘している。
 
 ## もっと深く
 

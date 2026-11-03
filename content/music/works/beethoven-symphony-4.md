@@ -18,13 +18,11 @@ sources:
   - "Marc Mandel, Program note „Beethoven: Symphony No. 4“, Boston Symphony Orchestra. https://www.bso.org/works/symphony-no-4（閲覧日 2026-10-29）"
   - "Malte Lohmann, „Irresistible Summer Symphony“, Lucerne Festival Magazine（英訳 Thomas May）. https://www.lucernefestival.ch/en/magazine/irresistible-summer-symphony/415（閲覧日 2026-10-29）"
   - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 4“. https://www.esm.rochester.edu/beethoven/?p=22（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Symphony No. 4 (Beethoven)」（各楽章の小節数、出版、受容、録音一覧）. https://en.wikipedia.org/wiki/Symphony_No._4_(Beethoven)（閲覧日 2026-10-29）"
-  - "Wikipedia（独語版）「4. Sinfonie (Beethoven)」（公開初演の日付、シューマンの言葉）. https://de.wikipedia.org/wiki/4._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
   - "Kenneth Woods（blog）, „What do you do when Beethoven doesn't give you a metronome marking?“（再掲記事, 2012-10-02、第2楽章の音価）. https://kennethwoods.net/blog1/wp-json/wp/v2/posts/4679（閲覧日 2026-10-29）"
   - "„Beethoven's Symphony No 4, introduced by Osmo Vänskä“, Gramophone, 6 October 2014. https://gramophone.co.uk/articles/beethoven-s-symphony-no-4-introduced-by-osmo-vanska（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Carlos Kleiber discography」. https://en.wikipedia.org/wiki/Carlos_Kleiber_discography（閲覧日 2026-10-29）"
   - "Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）"
   - "John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）"
+  - "Thomas May, „Ludwig van Beethoven: Symphony No. 4 in B-flat major, Op. 60“, Nashville Symphony, program note（シューマンの言葉、私的初演）. https://nashvillesymphony.org/classical-program-notes/ludwig-van-beethoven-symphony-no-4-in-b-flat-major-op-60（閲覧日 2026-11-03）"
   - "Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）"
 ---
 
@@ -34,13 +32,13 @@ sources:
 
 1806年の夏、ベートーヴェン（Ludwig van Beethoven）はカール・リヒノフスキー侯（Karl Fürst von Lichnowsky）のシレジアの領地グレーツに滞在していた。9月3日付のブライトコップフ・ウント・ヘルテル宛書簡はグレーツから出されている。この滞在中、ベートーヴェンはリヒノフスキーとともにオーバーグローガウ（現ポーランドのグウォグヴェク）のフランツ・フォン・オッパースドルフ伯（Franz Joachim Graf von Oppersdorff、1778–1818）を訪ねた。伯は家中の使用人で編成した私設のオーケストラを抱えており、ルツェルン音楽祭の解説によれば、このとき一行のために交響曲第2番を演奏させた。[（Lucerne Festival）](https://www.lucernefestival.ch/en/magazine/irresistible-summer-symphony/415)伯はベートーヴェンに新しい交響曲を依頼した。
 
-報酬については資料によって異なり、ルツェルン音楽祭の解説は500フローリン（6か月の独占演奏権を含む）とし、350フローリンまたは500グルデンという2つの数字を挙げる資料もある。ベートーヴェンは当初、すでに着手していた交響曲（のちの第5番）を完成させるつもりだった可能性がある。ボストン交響楽団の解説も、第5番の作業を中断して第4番を書いたとしている。[（Boston Symphony Orchestra）](https://www.bso.org/works/symphony-no-4)作曲は1806年夏から初秋にかけて短期間で行われた。
+報酬について、ルツェルン音楽祭の解説は500フローリン（6か月の独占演奏権を含む）とする。ベートーヴェンは当初、すでに着手していた交響曲（のちの第5番）を完成させるつもりだった可能性がある。ボストン交響楽団の解説も、第5番の作業を中断して第4番を書いたとしている。[（Boston Symphony Orchestra）](https://www.bso.org/works/symphony-no-4)作曲は1806年夏から初秋にかけて短期間で行われた。
 
 ### 初演
 
 最初の演奏は私的なもので、1807年3月、ウィーンのロプコヴィッツ侯（Franz Joseph Maximilian Fürst Lobkowitz）邸で作曲者の指揮により行われた。ベートーヴェン・ハウスによれば、『一般音楽新聞（Allgemeine musikalische Zeitung）』は1807年3月18日にその曲目を告げており、最初の3曲の交響曲と、まだ誰も聴いていない第4番が演奏された。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5424910335737856)オッパースドルフ伯は6か月の独占権をもっていたが、伯のオーケストラによる初演の記録はない。ルツェルン音楽祭の解説は、オーバーグローガウで3月以前に演奏された可能性を否定していないが、確認はされていない。
 
-公開初演の日付は資料によって異なる。1808年4月（ボストン交響楽団の解説は4月13日）のブルク劇場とする資料と、1807年11月15日のブルク劇場とする資料がある。
+ボストン交響楽団の解説は、公開初演を1808年4月13日のブルク劇場とする。[（Boston Symphony Orchestra）](https://www.bso.org/works/symphony-no-4)
 
 ### 献呈
 
@@ -48,7 +46,7 @@ sources:
 
 ### 出版
 
-ベートーヴェンは1807年7月23日より前に、総譜をウィーンの美術工芸社（Bureau des Arts et d'Industrie）に送った。初版のパート譜は同社から出された（版番号596）。新全集版の校訂者バティア・チャーギン（Bathia Churgin）は、この初版の年代決定には問題があるとしている。最初の刊行告知は1809年4月の『一般音楽新聞』の付録（Intelligenzblatt 第8号）に出たが、チャーギンは資料からはむしろ1808年頃の刊行と考えられるとしている[（Henle 校訂注）](https://www.henle.de/media/7a/c9/4a/1697725610/9811-1697725610-sync.pdf)（1809年3月とする資料もある）。同社は1810年5月に弦楽五重奏への編曲も出した。総譜はボンのジムロック（Simrock）から出版された（版番号2078）。
+ベートーヴェンは1807年7月23日より前に、総譜をウィーンの美術工芸社（Bureau des Arts et d'Industrie）に送った。初版のパート譜は同社から出された（版番号596）。新全集版の校訂者バティア・チャーギン（Bathia Churgin）は、この初版の年代決定には問題があるとしている。最初の刊行告知は1809年4月の『一般音楽新聞』の付録（Intelligenzblatt 第8号）に出たが、チャーギンは資料からはむしろ1808年頃の刊行と考えられるとしている[（Henle 校訂注）](https://www.henle.de/media/7a/c9/4a/1697725610/9811-1697725610-sync.pdf)。
 
 美術工芸社はこの交響曲を含む数曲の権利に1500グルデンを支払った。
 
@@ -64,11 +62,9 @@ sources:
 
 ## 楽章ごとの聴きどころ
 
-各楽章の小節数は、第1楽章498、第2楽章104、第3楽章397、第4楽章355である。
-
 ### 第1楽章 Adagio – Allegro vivace
 
-序奏は38小節で、変ロ短調、ピアニッシモで始まる。ルツェルン音楽祭の解説は、ベートーヴェンの交響曲でピアニッシモで始まる序奏はほかに第9番だけであると記している。[（Lucerne Festival）](https://www.lucernefestival.ch/en/magazine/irresistible-summer-symphony/415)序奏は和声の遠回りを重ね、ボストン交響楽団の解説によればロ音の方向へ進んだのち、トランペットとティンパニが変ロ長調に引き戻して2分の2拍子のAllegro vivaceに入る。主部はソナタ形式で、提示部に反復記号がある。
+序奏は変ロ短調、ピアニッシモで始まる。ルツェルン音楽祭の解説は、ベートーヴェンの交響曲でピアニッシモで始まる序奏はほかに第9番だけであると記している。[（Lucerne Festival）](https://www.lucernefestival.ch/en/magazine/irresistible-summer-symphony/415)序奏は和声の遠回りを重ね、ボストン交響楽団の解説によればロ音の方向へ進んだのち、トランペットとティンパニが変ロ長調に引き戻して2分の2拍子のAllegro vivaceに入る。主部はソナタ形式で、提示部に反復記号がある。
 
 展開部の終わりでは、ティンパニのロールが22小節かけてクレッシェンドし、続く9小節のフォルティッシモで再現部に入る。[（Boston Symphony Orchestra）](https://www.bso.org/works/symphony-no-4)
 
@@ -115,19 +111,14 @@ sources:
 
 ### 代表的な録音
 
-録音年が確認できるものを挙げる。
+解釈の違いが分かるものを挙げる。
 
-- フェリックス・ワインガルトナー（Felix Weingartner）（1933年）、アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮BBC交響楽団（1939年）、ヴィルヘルム・フルトヴェングラー（Wilhelm Furtwängler）（1952年）。
-- オットー・クレンペラー（Otto Klemperer）（1957年）、ピエール・モントゥー（Pierre Monteux）（1959年）、ヘルマン・シェルヘン（Hermann Scherchen）（1958年）、ルネ・レイボヴィッツ（René Leibowitz）（1961年）。シェルヘンとレイボヴィッツは、後のピリオド楽器の演奏と同じ「歴史的知見に基づく演奏」に数えられることがある。
-- ヘルベルト・フォン・カラヤン（Herbert von Karajan）指揮ベルリン・フィル（1961〜62年録音の全集）。
-- カルロス・クライバー（Carlos Kleiber）指揮バイエルン国立管弦楽団（1982年5月3日、ライヴ、Orfeo）。同じ指揮者にはアムステルダム・コンセルトヘボウ管弦楽団との1983年10月のライヴ映像もある。
-- クリストファー・ホグウッド（Christopher Hogwood）（1986年）、ロジャー・ノリントン（Roger Norrington）（1988年）、フランス・ブリュッヘン（Frans Brüggen）（1991年）、ジョン・エリオット・ガーディナー（John Eliot Gardiner）（1994年）。いずれも当時の楽器による。ジョン・クイン（John Quinn）はノリントンの第2楽章が、アーノンクールやガーディナーより少なくとも1分半速いと書いている。[（MusicWeb International）](https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm)
-- ニコラウス・アーノンクール（Nikolaus Harnoncourt）指揮ヨーロッパ室内管弦楽団（1990年6月29日、グラーツでのライヴ録音、テルデック）、チャールズ・マッケラス（Charles Mackerras）（2007年）。現代楽器にピリオド奏法の考え方を取り入れた演奏。
-- レナード・バーンスタイン（Leonard Bernstein）（1980年）、クラウディオ・アバド（Claudio Abbado）（2000年）、ベルナルト・ハイティンク（Bernard Haitink）（2006年）。
+- ロジャー・ノリントン（Roger Norrington）指揮ロンドン・クラシカル・プレイヤーズ。当時の楽器による。ジョン・クイン（John Quinn）はノリントンの第2楽章が、アーノンクールやガーディナーより少なくとも1分半速いと書いている。[（MusicWeb International）](https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm)
+- ニコラウス・アーノンクール（Nikolaus Harnoncourt）指揮ヨーロッパ室内管弦楽団（1990年6月29日、グラーツでのライヴ録音、テルデック）。現代楽器にピリオド奏法の考え方を取り入れた演奏。
 
 ## もっと深く
 
 - **第5番との関係**：第4番は第5番の作業を中断して書かれ、第5番の献呈先として予定されていたオッパースドルフ伯が、結果として第4番の献呈を受けた。2曲の成立は伯との取引を介して結びついている。
-- **シューマンの言葉**：この曲を「2人の北欧の巨人の間に立つ、すらりとしたギリシャの乙女」と呼んだのはシューマンとされ、シューマンはこの曲をベートーヴェンの交響曲のうちで最も「ロマン的」とも呼んだ。マーク・フェラグート（Mark Ferraguto）は2012年に、シューマンが実際にこう言ったかを疑問視している。
-- **後の作曲家の受容**：エクトル・ベルリオーズ（Hector Berlioz）は第2楽章を人間ではなく大天使の作のようだと評した。フェリックス・メンデルスゾーン（Felix Mendelssohn Bartholdy）は1835年、ライプツィヒ・ゲヴァントハウスの楽長就任演奏会でこの曲を取り上げた。ルツェルン音楽祭の解説によれば、フランツ・シューベルト（Franz Schubert）は序奏の和声を書き写している。[（Lucerne Festival）](https://www.lucernefestival.ch/en/magazine/irresistible-summer-symphony/415)
+- **シューマンの言葉**：ナッシュヴィル交響楽団の解説は、シューマンがこの曲を「2人の北欧の巨人の間に立つ、すらりとしたギリシャの乙女」と呼んだと記している。[（Nashville Symphony）](https://nashvillesymphony.org/classical-program-notes/ludwig-van-beethoven-symphony-no-4-in-b-flat-major-op-60)
+- **シューベルトの書き写し**：ルツェルン音楽祭の解説によれば、フランツ・シューベルト（Franz Schubert）は序奏の和声を書き写している。[（Lucerne Festival）](https://www.lucernefestival.ch/en/magazine/irresistible-summer-symphony/415)
 - **自筆譜の性格**：自筆総譜に残る赤鉛筆の書き込み（第1楽章第26小節の「arco」、終楽章の「ma non troppo」）は、作曲後の改訂の跡である。1821年の演奏のための「tutti」「solo」の書き込みは、自筆譜が出版後の演奏にも用いられたことを示している。

@@ -2,111 +2,100 @@
 title: ベートーヴェンの生涯——ボン、ウィーン、難聴、そして第九
 slug: beethoven-life
 section: history
-summary: 1770年12月17日にボンで洗礼を受け、1827年3月26日にウィーンで没したベートーヴェンの生涯を、ボンの宮廷、1792年のウィーン移住、1798年に始まる難聴と1802年のハイリゲンシュタットの遺書、《英雄》《フィデリオ》《エグモント》、1809年の年金、甥カールの後見、1824年の第九初演、葬儀まで年表と4つの時期に整理し、作風・代表作・最初に聴く3曲を示す。
+summary: 1770年12月17日にボンで洗礼を受け、1827年3月26日にウィーンで没したベートーヴェンの生涯を、ボンの宮廷、1792年のウィーン移住、1800年より前に始まる難聴と1802年のハイリゲンシュタットの遺書、《英雄》《フィデリオ》《エグモント》、1809年の年金、甥カールの後見、1824年の第九初演、葬儀まで年表と4つの時期に整理し、作風・代表作・最初に聴く3曲を示す。
 aliases: ["ベートーヴェン", "ルートヴィヒ・ヴァン・ベートーヴェン", "Ludwig van Beethoven", "Beethoven", "ハイリゲンシュタットの遺書", "Heiligenstadt Testament"]
-image: https://commons.wikimedia.org/wiki/Special:FilePath/Beethoven.jpg?width=900
-image_credit: ヨーゼフ・カール・シュティーラー（Joseph Karl Stieler）作「ミサ・ソレムニスの手稿を持つベートーヴェン」（1820年、油彩）。ボン、ベートーヴェン・ハウス蔵。作者は1858年没で、パブリックドメイン（Wikimedia Commons, File:Beethoven.jpg）
-image_alt: ミサ・ソレムニスの手稿を持つベートーヴェンの肖像（シュティーラー作、1820年）
 updated: 2026-11-03
 sources:
-  - "Wikipedia（英語版）「Ludwig van Beethoven」（洗礼、家族、ネーフェ、1783年の最初の出版、1787年、1792年のウィーン移住、師事、難聴の自覚1798年と1801年の書簡、1808年の年金の申し出、不滅の恋人、甥カール、会話帳、創作の3期の区分、死）. https://en.wikipedia.org/wiki/Ludwig_van_Beethoven（閲覧日 2026-11-03）"
-  - "Wikipedia（英語版）「Heiligenstadt Testament」（1802年10月6日、宛名、内容、発見と出版、所蔵）. https://en.wikipedia.org/wiki/Heiligenstadt_Testament（閲覧日 2026-11-03）"
   - "Beethoven-Haus Bonn「Zeittafel: Beethoven in Wien」（1795年3月29日、1800年4月2日、1803年4月5日、1805年11月20日、1809年の年金、1815年、1824年5月7日、1826年8月6日、1827年3月26日）. https://www.beethoven.de/en/g/zeittafel-beethoven-in-wien（閲覧日 2026-11-03）"
-  - "Wikipedia（英語版）「Death of Ludwig van Beethoven」（死の状況、解剖所見、葬儀の日付と群衆の規模、埋葬と1888年の改葬、最後の言葉）. https://en.wikipedia.org/wiki/Death_of_Ludwig_van_Beethoven（閲覧日 2026-11-03）"
-  - "Wikipedia（英語版）「Beethoven with the Manuscript of the Missa Solemnis」（シュティーラーの肖像、1820年4月完成、ベートーヴェン・ハウス蔵）. https://en.wikipedia.org/wiki/Beethoven_with_the_Manuscript_of_the_Missa_Solemnis（閲覧日 2026-11-03）"
   - "Beethoven-Haus Bonn「Stammbuchblatt an Ludwig van Beethoven vom 29. Oktober 1792」（ヴァルトシュタイン伯の記念帳）. https://www.beethoven.de/en/media/view/5058579522387968/scan/0（閲覧日 2026-10-30）"
   - "Beethoven-Haus Bonn, Werkdatenbank「Sinfonie Nr. 3 (Es-Dur) op. 55 (Sinfonia eroica)」（ボナパルトの題の削除、リースの報告の検討）. https://www.beethoven.de/en/work/view/5529920004423680（閲覧日 2026-10-29）"
   - "Jens Dufner, Preface, Beethoven, Symphony no. 5 op. 67, Henle HN 9813（「運命」の呼び名への疑問、編成）. https://www.henle.de/media/6b/8a/de/1697725781/9813-1697725781-sync.pdf（閲覧日 2026-10-29）"
   - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music「Symphony No. 5」（第4楽章の編成、ピッコロ・コントラファゴット・トロンボーン）. https://www.esm.rochester.edu/beethoven/symphony-no-5/（閲覧日 2026-10-29）"
   - "Nicholas Cook, Beethoven: Symphony No. 9, Cambridge University Press（シラー「歓喜に寄す」1785年とフィッシェニヒの書簡）. https://www.cambridge.org/core/books/abs/beethoven/schillers-an-die-freude-and-the-ninth-symphony/D41882F282D5A0C37BB3169ACB01D0B2（閲覧日 2026-10-29）"
+  - "Beethoven-Haus Bonn「BTHVN2020 – A life in pictures」（洗礼、祖父、ネーフェ、最初の出版、母の死、ウィーン移住、ウィーンでの師、ヴェーゲラー宛の手紙、ハイリゲンシュタットの遺書、甥カール、会話帳、死と葬列）. https://internet.beethoven.de/biography/picturebiography.html（閲覧日 2026-11-03）"
+  - "Encyclopædia Britannica「Ludwig van Beethoven – Early influences」（若い時期の影響、ウィーンでの後援者と師）. https://www.britannica.com/biography/Ludwig-van-Beethoven/Early-influences（閲覧日 2026-11-03）"
+  - "Encyclopædia Britannica「Ludwig van Beethoven – Approaching deafness」（難聴の始まり、《英雄》の献呈の取り消し、1809年の年金）. https://www.britannica.com/biography/Ludwig-van-Beethoven/Approaching-deafness（閲覧日 2026-11-03）"
+  - "Boston Symphony Orchestra「Piano Concerto No. 5 in E-flat, Opus 73, Emperor」（1809年、ライプツィヒとウィーンの初演）. https://www.bso.org/works/piano-concerto-no-5-emperor（閲覧日 2026-11-03）"
+  - "John Henken, Symphony No. 7 in A major, Op. 92, Los Angeles Philharmonic（1813年12月の慈善演奏会）. https://www.hollywoodbowl.com/musicdb/pieces/4038/symphony-no-7-in-a-major-op-92（閲覧日 2026-11-03）"
+  - "Gesellschaft der Musikfreunde in Wien「How the sparks of the gods came into music」（第9番の初演の会場）. https://www.musikverein.at/en/200-years-of-beethovens-ninth-2023-24/（閲覧日 2026-11-03）"
 ---
 
 ## 1. 要点
 
 > 要点
 > - **1770年12月17日ボンで洗礼、1827年3月26日ウィーン没**。誕生日は記録がない。
-> - 生涯は**ボン・ウィーン初期・中期・後期**の4期に分けられ、難聴は1798年に始まり、1818年から会話帳を使った。
+> - 生涯は**ボン・ウィーン初期・中期・後期**に分けて述べる。難聴は1800年より前に始まり、1818年ごろから会話帳を使った。
 > - 《英雄》《フィデリオ》《エグモント》は中期、《ミサ・ソレムニス》と第九は後期の作。
 
-==創作の区分は、ハイドンとモーツァルトの様式による第1期、独自の様式を築いた中期（1802〜1812年）、最も革新的な作品を含む後期（1812〜1827年）とする。==
+==ボン時代の後半に母を失い、1792年にウィーンへ移ってからは、一度もボンに戻らなかった。==
 
 ## 2. 生涯
 
 > 要点
 > - 1792年11月に**選帝侯の資金援助**でウィーンへ移り、ハイドン、アルブレヒツベルガー、サリエリに学んだ。
-> - **ハイリゲンシュタットの遺書**（1802年10月6日）は弟2人宛てで、送られず、死後に遺品から見つかった。
-> - 1809年に**ルドルフ大公、ロプコヴィッツ侯、キンスキー侯**が年金を保証し、ウィーンにとどまった。
+> - **ハイリゲンシュタットの遺書**（1802年10月6日・10日）は弟カールとヨハン宛てで、生前には送られなかった。
+> - 1809年に**ルドルフ大公、ロプコヴィッツ侯、キンスキー侯**が、ウィーンにとどまることを条件に年4000フローリンの年金を約束した。
 
 | 年 | 出来事 |
 |---|---|
 | 1770 | 12月17日、ボンの聖レミギウス教会で洗礼 |
-| 1780〜81 | ネーフェに師事 |
-| 1783 | 3月、最初の出版（鍵盤変奏曲 WoO 63） |
-| 1784 | 宮廷副オルガニスト（有給） |
-| 1787 | 約2週間ウィーンを訪問。7月、母の死 |
+| 1782 | 最初の出版（鍵盤変奏曲 WoO 63）。ネーフェに学ぶ |
+| 1787 | 母の死 |
 | 1792 | 10月29日、ヴァルトシュタイン伯の記念帳。11月、ウィーンへ移住 |
 | 1795 | 3月29日、ウィーンで最初の公開演奏。作品1を予約出版 |
-| 1798 | 本人の回想によれば難聴が始まる |
 | 1800 | 4月2日、最初の自主演奏会。交響曲第1番初演 |
-| 1801 | ヴェーゲラーとアメンダに難聴を打ち明ける |
-| 1802 | 10月6日、ハイリゲンシュタットの遺書 |
+| 1801 | 6月29日付のヴェーゲラー宛の手紙で難聴を打ち明ける |
+| 1802 | 10月6日・10日、ハイリゲンシュタットの遺書 |
 | 1803 | 4月5日、第2番・ピアノ協奏曲第3番・《オリーヴ山上のキリスト》初演 |
 | 1804 | ナポレオンの皇帝宣言。第3番の「ボナパルト」の題を取りやめる |
 | 1805 | 4月7日《英雄》公開初演。11月20日《レオノーレ》（《フィデリオ》初稿）初演 |
 | 1808 | 12月22日、第5番・第6番初演 |
-| 1809 | 3人の貴族が年金を保証。ピアノ協奏曲第5番完成（4月） |
+| 1809 | 3人の貴族が年金を保証。ピアノ協奏曲第5番 |
 | 1810 | 6月15日、《エグモント》の音楽が上演で初めて演奏される |
-| 1812 | テプリッツで「不滅の恋人へ」の手紙 |
-| 1813 | 12月8日《ウェリントンの勝利》初演 |
+| 1813 | 12月、《ウェリントンの勝利》と交響曲第7番の初演 |
 | 1815 | 11月15日、弟カスパルの死。甥カールの後見争い |
-| 1818 | 会話帳を使い始める。12月、単独の後見権を失う |
-| 1820 | 後見権を取り戻す |
-| 1823 | 3月19日《ミサ・ソレムニス》をルドルフ大公に献呈 |
+| 1818 | このころから会話帳を使う |
+| 1820 | 長い争いの末、甥カールの後見権を得る |
 | 1824 | 5月7日、交響曲第9番初演（ケルントナートーア劇場） |
-| 1825〜26 | 後期弦楽四重奏曲、《大フーガ》 |
 | 1826 | 8月6日、甥カールが自殺を図る |
-| 1827 | 3月26日、シュヴァルツシュパニアーハウスで没する。3月29日葬儀 |
+| 1827 | 3月26日、シュヴァルツシュパニアーハウスで没する。葬列には約2万人が続いた |
 
 ### 2-1. ボン（1770〜1792年）
 
-ベートーヴェンは1770年12月17日に**ボンの聖レミギウス教会**で洗礼を受けた。誕生日は記録になく、12月16日とする見方が一般的だが証明されていない。祖父ルートヴィヒはバス歌手で1761年に宮廷楽長となり、父ヨハン（Johann van Beethoven）は宮廷のテノール歌手だった。1780年か81年から**ネーフェ**（Christian Gottlob Neefe）に学び、1782年から無給、1784年から有給で宮廷副オルガニストを務め、のちに選帝侯マクシミリアン・フランツによって宮廷オルガニストに任じられた。1787年の約2週間のウィーン訪問から戻った直後の7月、母が没した。1792年11月、選帝侯の資金援助でウィーンへ移った。出発直前の10月29日にヴァルトシュタイン伯（Ferdinand Ernst von Waldstein）が記念帳に「モーツァルトの精神をハイドンの手から受け取りなさい」と書いた一葉は、ボンのベートーヴェン・ハウスにある。
+ベートーヴェンは1770年12月17日に**ボンの聖レミギウス教会**で洗礼を受けた。誕生日は16日か17日とみられるが、記録はない。祖父ルートヴィヒは1733年に歌手としてボンの宮廷楽団に入り、1761年に楽長となった。ベートーヴェンは**ネーフェ**（Christian Gottlob Neefe）に学び、選帝侯マクシミリアン・フリードリヒのもとで宮廷オルガニストに任じられた。最初の出版は1782年の鍵盤のための9つの変奏曲 WoO 63 である。1787年に母が没し、以後はブロイニング家にしばしば身を寄せた。1792年11月、選帝侯の資金援助を受け、ハイドンに学ぶためにウィーンへ発った。ラインラントの戦争のため、ボンには戻らなかった。[（Beethoven-Haus Bonn）](https://internet.beethoven.de/biography/picturebiography.html)出発直前の10月29日にヴァルトシュタイン伯（Ferdinand Ernst von Waldstein）が記念帳に「モーツァルトの精神をハイドンの手から受け取りなさい」と書いた一葉は、ボンのベートーヴェン・ハウスにある。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/media/view/5058579522387968/scan/0)
 
 ### 2-2. ウィーン初期——難聴の始まりと遺書（1792〜1802年）
 
-ウィーンでは**ハイドン**（1792年から）、ハイドンの渡英後は**アルブレヒツベルガー**（Johann Georg Albrechtsberger、1794年から）、**サリエリ**（Antonio Salieri、断続的に1802年頃まで）に学んだ。最初の公開演奏は1795年3月29日、ハイドンが企画した演奏会で、同年に作品1の3つのピアノ三重奏曲がリヒノフスキー侯（Karl Lichnowsky）への献呈で予約出版された。1800年4月2日に最初の自主演奏会を開き、交響曲第1番を初演した。
+ウィーンでは**ハイドン**に自由作曲を、**アルブレヒツベルガー**（Johann Georg Albrechtsberger）に対位法とフーガを、1801年には**サリエリ**（Antonio Salieri）に歌詞の付け方を学んだ。[（Beethoven-Haus Bonn）](https://internet.beethoven.de/biography/picturebiography.html)ピアノの名手、即興演奏家として知られ、ヴァン・スヴィーテン男爵やリヒノフスキー侯などの貴族の後援を得た。[（Britannica）](https://www.britannica.com/biography/Ludwig-van-Beethoven/Early-influences)最初の公開演奏は1795年3月29日で、1800年4月2日には最初の自主演奏会を開いて交響曲第1番を初演した。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/g/zeittafel-beethoven-in-wien)
 
-難聴について、ベートーヴェンは1815年にニート（Charles Neate）に**1798年に始まった**と語っている。27歳頃である。1801年にはヴェーゲラー（Franz Gerhard Wegeler）とアメンダ（Carl Amenda）への手紙で症状を打ち明けた。1802年4月から10月までウィーン郊外のハイリゲンシュタットに滞在し、10月6日に弟**カール**と**ヨハン**に宛てて文書を書いた。カールの名は記されているが、ヨハンの名が入るべき場所は空欄である。内容は、進行する難聴への絶望と自殺への思い、それを乗り越えて芸術の使命を果たす決意である。==文書は送られず、私的な書類の中に保管され、1827年3月にシンドラー（Anton Schindler）とブロイニング（Stephan von Breuning）が発見して同年10月に公表した。==1888年以来、ハンブルク大学の州立・大学図書館が所蔵する。
+難聴の最初の症状は1800年より前に現れ、1802年には治らず進行するものであることがはっきりした。[（Britannica）](https://www.britannica.com/biography/Ludwig-van-Beethoven/Approaching-deafness)1801年6月29日付のヴェーゲラー（Franz Gerhard Wegeler）宛の手紙で、ベートーヴェンは初めて難聴に触れ、聴力が何年も前から衰えていると書いた。1802年10月6日と10日、ウィーン郊外のハイリゲンシュタットで、弟**カール**と**ヨハン**に宛てて別れの手紙を書いた。絶望を記したこの文書は、生前には送られなかった。[（Beethoven-Haus Bonn）](https://internet.beethoven.de/biography/picturebiography.html)
 
 ### 2-3. 中期——《英雄》から年金契約へ（1803〜1812年）
 
-交響曲第3番は当初「ボナパルト」と題されるはずで、1804年にナポレオンが皇帝を宣言すると題は取りやめられた。リース（Ferdinand Ries）は表紙を裂いたと回想したが、残る筆写総譜の表紙は裂かれておらず「intitolata Bonaparte」の語が削り取られている。公開初演は1805年4月7日、アン・デア・ウィーン劇場で、第2楽章は**葬送行進曲**である。1805年11月20日、フランス軍占領下のウィーンで唯一のオペラ《フィデリオ》の初稿《レオノーレ》が初演されたが、成功しなかった。1808年12月22日には第5番と第6番が初演された。
+交響曲第3番は当初「ボナパルト」と題されるはずだったが、ナポレオンが皇帝を名乗ったと聞いたベートーヴェンは献呈を取りやめた。リース（Ferdinand Ries）は表紙を裂いたと回想したが、残る筆写総譜の表紙は裂かれておらず「intitolata Bonaparte」の語が削り取られている。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)1805年11月20日、唯一のオペラ《フィデリオ》の初稿《レオノーレ》が初演された。1808年12月22日には第5番と第6番が初演された。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/g/zeittafel-beethoven-in-wien)
 
-1809年、**ルドルフ大公**（Archduke Rudolph）、**ロプコヴィッツ侯**（Franz Joseph Maximilian Lobkowitz）、**キンスキー侯**（Ferdinand Kinsky）が年金を保証し、ベートーヴェンはカッセルの宮廷の職を断ってウィーンにとどまった。申し出を1808年とする記述もあり、年4000フローリンで、ルドルフは自分の分を払ったがキンスキーは払わず、ロプコヴィッツは1811年に破産した。1810年には**ゲーテ**（Johann Wolfgang von Goethe）の戯曲『エグモント』のブルク劇場での上演のために付随音楽 作品84 を書いた。16世紀のネーデルラントで圧政に抗したエグモント伯を描く劇で、上演は5月24日に始まったが音楽は間に合わず、6月15日の上演で初めて演奏された。1812年にはテプリッツで宛名のない10頁の手紙「不滅の恋人へ」を書いた。送られておらず、相手は諸説あり、ソロモン（Maynard Solomon）はアントーニエ・ブレンターノ（Antonie Brentano）を挙げる。
+1809年、**ルドルフ大公**（Archduke Rudolph）、**ロプコヴィッツ侯**（Franz Joseph Maximilian Lobkowitz）、**キンスキー侯**（Ferdinand Kinsky）が、ウィーンにとどまって作曲することを条件に、年4000フローリンの年金を約束した。1811年の通貨の切り下げがこの取り決めに影響した。[（Britannica）](https://www.britannica.com/biography/Ludwig-van-Beethoven/Approaching-deafness)同じ1809年にピアノ協奏曲第5番が書かれ、1811年11月28日にライプツィヒで初演された。[（Boston Symphony Orchestra）](https://www.bso.org/works/piano-concerto-no-5-emperor)1810年には**ゲーテ**の戯曲『エグモント』のブルク劇場での上演のために付随音楽 作品84 を書いた（[《エグモント》序曲](/music/works/beethoven-egmont-overture/)参照）。
 
 ### 2-4. 後期——甥カール、第九、死（1813〜1827年）
 
-1813年12月8日、戦争の犠牲者のための慈善演奏会で《ウェリントンの勝利》を初演し、1814年11月に始まるウィーン会議のためにカンタータ《栄光の瞬間》などを書いた。1815年11月15日に弟カスパルが没すると甥**カール**の後見を引き受け、義妹ヨハンナとの争いが始まった。1818年12月に単独の後見権を失い、1820年に取り戻した。1818年以降、聴力の悪化に伴って**会話帳**を使った。《ミサ・ソレムニス》は1823年3月19日にルドルフ大公に献呈され、交響曲第9番は1824年5月7日に**ケルントナートーア劇場**で初演された。1826年8月6日にはカールが自殺を図った。
+1813年12月、ハーナウの戦いの負傷兵のための慈善演奏会で、《ウェリントンの勝利》と交響曲第7番が初演された。[（Los Angeles Philharmonic）](https://www.hollywoodbowl.com/musicdb/pieces/4038/symphony-no-7-in-a-major-op-92)甥カール（Karl van Beethoven, 1806–1858）は弟カスパル・アントン・カールの子で、ベートーヴェンは長い争いの末、1820年にその後見権を得た。会話帳は1818年ごろから使われ、139冊が残る。[（Beethoven-Haus Bonn）](https://internet.beethoven.de/biography/picturebiography.html)交響曲第9番は1824年5月7日に**ケルントナートーア劇場**で初演された。[（Gesellschaft der Musikfreunde）](https://www.musikverein.at/en/200-years-of-beethovens-ninth-2023-24/)1826年8月6日にはカールが自殺を図った。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/g/zeittafel-beethoven-in-wien)
 
-1827年3月26日の夕方、ウィーンのシュヴァルツシュパニアーハウスの自宅で没した。セイヤー（Alexander Wheelock Thayer）は死の瞬間に「驚くべき恐ろしい雷鳴」があったと伝える。解剖では肝臓に重い硬変が見られたが、原因は飲酒、肝炎、鉛中毒、梅毒など諸説あって定まっていない。記録に残る最後の言葉は、出版者から葡萄酒が届いたと聞いて言った「惜しい、惜しい、遅すぎた」である。葬儀は3月29日にアルザーグルントの教区教会で行われ、目撃者は1万から3万の人が集まったと伝える。グリルパルツァー（Franz Grillparzer）が弔辞を書き、シューベルト（Franz Schubert）は松明を持つ列に加わった。遺体はヴェーリング墓地に葬られ、1888年にウィーン中央墓地に移された。
+1827年3月26日の午後、ウィーンのシュヴァルツシュパニアーハウスの自宅で没した。葬儀の案内状はハスリンガーの店で刷られ、棺には約2万人が続いた。[（Beethoven-Haus Bonn）](https://internet.beethoven.de/biography/picturebiography.html)
 
 ## 3. 作風
 
 > 要点
-> - 第1期は**ハイドンとモーツァルトの古典様式**、中期は独自の様式、後期は最も革新的な作品群。
-> - 交響曲・ピアノ・ソナタ・弦楽四重奏曲という**器楽の形式を拡大**し、ロマン派への移行を促した。
-> - 第5番の終楽章で**ピッコロ、コントラファゴット、トロンボーン**を、第9番で**声楽**を交響曲に持ち込んだ。
+> - 若い時期に**民謡と大衆の音楽、フランスの喜歌劇、C. P. E. バッハの鍵盤音楽**を吸収した。
+> - ウィーンでは**ピアノの名手、即興演奏家**として貴族の後援を得た。
+> - 第5番の終楽章で**ピッコロ、コントラファゴット、トロンボーン**を加え、第9番で**独唱と合唱**を用いた。
 
 ### 3-1. 旋律と和声
 
-第1期の作品はハイドンとモーツァルトの古典様式によるもので（交響曲第1番、作品18の四重奏曲、《月光》ソナタ）、中期（1802〜1812年）に「独自の様式を築いた」とされる。第5番の冒頭動機については、チェルニー（Carl Czerny）がキアオジの鳴き声から来たと伝えている。
+ベートーヴェンは同時代の作曲家と同じく民謡や大衆の音楽を吸収し、ラインラントの舞曲のリズムは成熟した作品にもくり返し現れる。ボンの劇場で上演されたフランスの喜歌劇を通じてフランスの様式にも触れ、C. P. E. バッハの表現的な鍵盤音楽と、シュトゥルム・ウント・ドラングの文学のなかで育った。[（Britannica）](https://www.britannica.com/biography/Ludwig-van-Beethoven/Early-influences)
 
-### 3-2. 形式
+### 3-2. 管弦楽法
 
-ベートーヴェンの様式は「ロマン派音楽への移行の主要な推進力」であり、「交響曲、ピアノ・ソナタ、弦楽四重奏曲といった器楽形式の拡大」をもたらした。==《英雄》は「それまでのどの交響曲よりも長く、規模が大きかった」。==後期の《ディアベッリ変奏曲》と《大フーガ》（1825〜26年）は、変奏とフーガという古い手法を大規模に用いた例として挙げられる。
-
-### 3-3. 管弦楽法
-
-交響曲第5番の第4楽章では、ピッコロ、コントラファゴット、3本のトロンボーン（アルト・テノール・バス）が加わる。これらをベートーヴェンの交響曲で用いた最初の例である。第9番は「合唱交響曲の最初の主要な例」で、終楽章にシラー（Friedrich Schiller）の頌歌「歓喜に寄す」（1785年）を独唱と合唱で歌わせる。ボン時代にこの詩に曲を付けようとしていたことは、1793年1月26日付のフィッシェニヒ（Bartholomäus Fischenich）の手紙に記されている。
+交響曲第5番の第4楽章では、ピッコロ、コントラファゴット、3本のトロンボーンが加わる。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-5/)第9番は終楽章にシラー（Friedrich Schiller）の頌歌「歓喜に寄す」（1785年）を独唱と合唱で歌わせる。ボン時代にこの詩に曲を付けようとしていたことは、1793年1月26日付のフィッシェニヒ（Bartholomäus Fischenich）の手紙に記されている。[（Nicholas Cook / Cambridge University Press）](https://www.cambridge.org/core/books/abs/beethoven/schillers-an-die-freude-and-the-ninth-symphony/D41882F282D5A0C37BB3169ACB01D0B2)
 
 ## 4. 代表作
 
@@ -152,10 +141,10 @@ sources:
 > - 答えの根拠は括弧内の節にある。
 
 **ベートーヴェンを20代から苦しめた身体の不調は何か。**
-==難聴。本人の回想では1798年に始まった（2-2）。==
+==難聴。最初の症状は1800年より前に現れた（2-2）。==
 
 **ハイリゲンシュタットの遺書には何が書かれているか。**
-難聴への絶望と、芸術のために生きる決意。宛先と発見の経緯は 2-2 に記した。
+難聴への絶望を記した別れの手紙である。宛先は 2-2 に記した。
 
 **《英雄》の第2楽章は何か。**
 葬送行進曲（2-3、第4節の表）。
@@ -168,13 +157,15 @@ sources:
 
 ## 参考文献
 
-1. Wikipedia（英語版）「Ludwig van Beethoven」（洗礼、家族、ネーフェ、1783年の最初の出版、1787年、1792年のウィーン移住、師事、難聴の自覚1798年と1801年の書簡、1808年の年金の申し出、不滅の恋人、甥カール、会話帳、創作の3期の区分、死）. https://en.wikipedia.org/wiki/Ludwig_van_Beethoven（閲覧日 2026-11-03）
-2. Wikipedia（英語版）「Heiligenstadt Testament」（1802年10月6日、宛名、内容、発見と出版、所蔵）. https://en.wikipedia.org/wiki/Heiligenstadt_Testament（閲覧日 2026-11-03）
-3. Beethoven-Haus Bonn「Zeittafel: Beethoven in Wien」（1795年3月29日、1800年4月2日、1803年4月5日、1805年11月20日、1809年の年金、1815年、1824年5月7日、1826年8月6日、1827年3月26日）. https://www.beethoven.de/en/g/zeittafel-beethoven-in-wien（閲覧日 2026-11-03）
-4. Wikipedia（英語版）「Death of Ludwig van Beethoven」（死の状況、解剖所見、葬儀の日付と群衆の規模、埋葬と1888年の改葬、最後の言葉）. https://en.wikipedia.org/wiki/Death_of_Ludwig_van_Beethoven（閲覧日 2026-11-03）
-5. Wikipedia（英語版）「Beethoven with the Manuscript of the Missa Solemnis」（シュティーラーの肖像、1820年4月完成、ベートーヴェン・ハウス蔵）. https://en.wikipedia.org/wiki/Beethoven_with_the_Manuscript_of_the_Missa_Solemnis（閲覧日 2026-11-03）
-6. Beethoven-Haus Bonn「Stammbuchblatt an Ludwig van Beethoven vom 29. Oktober 1792」（ヴァルトシュタイン伯の記念帳）. https://www.beethoven.de/en/media/view/5058579522387968/scan/0（閲覧日 2026-10-30）
-7. Beethoven-Haus Bonn, Werkdatenbank「Sinfonie Nr. 3 (Es-Dur) op. 55 (Sinfonia eroica)」（ボナパルトの題の削除、リースの報告の検討）. https://www.beethoven.de/en/work/view/5529920004423680（閲覧日 2026-10-29）
-8. Jens Dufner, Preface, Beethoven, Symphony no. 5 op. 67, Henle HN 9813（「運命」の呼び名への疑問、編成）. https://www.henle.de/media/6b/8a/de/1697725781/9813-1697725781-sync.pdf（閲覧日 2026-10-29）
-9. Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music「Symphony No. 5」（第4楽章の編成、ピッコロ・コントラファゴット・トロンボーン）. https://www.esm.rochester.edu/beethoven/symphony-no-5/（閲覧日 2026-10-29）
-10. Nicholas Cook, Beethoven: Symphony No. 9, Cambridge University Press（シラー「歓喜に寄す」1785年とフィッシェニヒの書簡）. https://www.cambridge.org/core/books/abs/beethoven/schillers-an-die-freude-and-the-ninth-symphony/D41882F282D5A0C37BB3169ACB01D0B2（閲覧日 2026-10-29）
+1. Beethoven-Haus Bonn「Zeittafel: Beethoven in Wien」（1795年3月29日、1800年4月2日、1803年4月5日、1805年11月20日、1809年の年金、1815年、1824年5月7日、1826年8月6日、1827年3月26日）. https://www.beethoven.de/en/g/zeittafel-beethoven-in-wien（閲覧日 2026-11-03）
+2. Beethoven-Haus Bonn「Stammbuchblatt an Ludwig van Beethoven vom 29. Oktober 1792」（ヴァルトシュタイン伯の記念帳）. https://www.beethoven.de/en/media/view/5058579522387968/scan/0（閲覧日 2026-10-30）
+3. Beethoven-Haus Bonn, Werkdatenbank「Sinfonie Nr. 3 (Es-Dur) op. 55 (Sinfonia eroica)」（ボナパルトの題の削除、リースの報告の検討）. https://www.beethoven.de/en/work/view/5529920004423680（閲覧日 2026-10-29）
+4. Jens Dufner, Preface, Beethoven, Symphony no. 5 op. 67, Henle HN 9813（「運命」の呼び名への疑問、編成）. https://www.henle.de/media/6b/8a/de/1697725781/9813-1697725781-sync.pdf（閲覧日 2026-10-29）
+5. Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music「Symphony No. 5」（第4楽章の編成、ピッコロ・コントラファゴット・トロンボーン）. https://www.esm.rochester.edu/beethoven/symphony-no-5/（閲覧日 2026-10-29）
+6. Nicholas Cook, Beethoven: Symphony No. 9, Cambridge University Press（シラー「歓喜に寄す」1785年とフィッシェニヒの書簡）. https://www.cambridge.org/core/books/abs/beethoven/schillers-an-die-freude-and-the-ninth-symphony/D41882F282D5A0C37BB3169ACB01D0B2（閲覧日 2026-10-29）
+7. Beethoven-Haus Bonn「BTHVN2020 – A life in pictures」（洗礼、祖父、ネーフェ、最初の出版、母の死、ウィーン移住、ウィーンでの師、ヴェーゲラー宛の手紙、ハイリゲンシュタットの遺書、甥カール、会話帳、死と葬列）. https://internet.beethoven.de/biography/picturebiography.html（閲覧日 2026-11-03）
+8. Encyclopædia Britannica「Ludwig van Beethoven – Early influences」（若い時期の影響、ウィーンでの後援者と師）. https://www.britannica.com/biography/Ludwig-van-Beethoven/Early-influences（閲覧日 2026-11-03）
+9. Encyclopædia Britannica「Ludwig van Beethoven – Approaching deafness」（難聴の始まり、《英雄》の献呈の取り消し、1809年の年金）. https://www.britannica.com/biography/Ludwig-van-Beethoven/Approaching-deafness（閲覧日 2026-11-03）
+10. Boston Symphony Orchestra「Piano Concerto No. 5 in E-flat, Opus 73, Emperor」（1809年、ライプツィヒとウィーンの初演）. https://www.bso.org/works/piano-concerto-no-5-emperor（閲覧日 2026-11-03）
+11. John Henken, Symphony No. 7 in A major, Op. 92, Los Angeles Philharmonic（1813年12月の慈善演奏会）. https://www.hollywoodbowl.com/musicdb/pieces/4038/symphony-no-7-in-a-major-op-92（閲覧日 2026-11-03）
+12. Gesellschaft der Musikfreunde in Wien「How the sparks of the gods came into music」（第9番の初演の会場）. https://www.musikverein.at/en/200-years-of-beethovens-ninth-2023-24/（閲覧日 2026-11-03）

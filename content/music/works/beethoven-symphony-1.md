@@ -18,9 +18,6 @@ sources:
   - "Fusako Hamao, „Schoenberg's Metronome Markings“, European Journal of Musicology 22/2 (2024), DOI 10.5450/EJM.22.2.2024.5（AMZ 第19巻 1817年12月17日 873–874欄の表題）"
   - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 1“（各楽章の速度表示とメトロノーム数値、AMZ の初演評の引用）. https://www.esm.rochester.edu/beethoven/symphony-no-1/（閲覧日 2026-10-29）"
   - "AQA, GCSE Music 8271 Teacher Guide, Area of Study 1: Beethoven Symphony No. 1, first movement（第1楽章の小節割り・調）. https://filestore.aqa.org.uk/resources/music/AQA-8271-TEACHER-GUIDE-AOS1-BEETHOVEN.PDF（閲覧日 2026-10-29）"
-  - "Wikipedia（日本語版）「交響曲第1番 (ベートーヴェン)」（出版公告の日付、作品番号の割り振り、拍子）. https://ja.wikipedia.org/wiki/交響曲第1番_(ベートーヴェン)（閲覧日 2026-10-29）"
-  - "Wikipedia（独語版）「1. Sinfonie (Beethoven)」（典拠 Renate Ulm (Hg.), Die 9 Symphonien Beethovens, Bärenreiter, 2009 ほか）. https://de.wikipedia.org/wiki/1._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Symphony No. 1 (Beethoven)」. https://en.wikipedia.org/wiki/Symphony_No._1_(Beethoven)（閲覧日 2026-10-29）"
   - "James McCarthy, „Beethoven's Symphony No 1: which recording is best?“, Gramophone, 13 January 2014. https://gramophone.co.uk/features/article/beethoven-s-symphony-no-1-which-recording-is-best（閲覧日 2026-10-29）"
   - "„Beethoven's Symphony No 1, introduced by Sir Roger Norrington“, Gramophone, 15 September 2014. https://gramophone.co.uk/feature/beethovens-symphony-no-1-introduced-by-sir-roger-norrington（閲覧日 2026-10-29）"
   - "Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）"
@@ -32,23 +29,23 @@ sources:
 
 ### 作曲の時期とスケッチ
 
-ベートーヴェン（Ludwig van Beethoven）がこの交響曲を完成させたのは1800年の春である。ボンのベートーヴェン・ハウスの作品解説によれば、ベートーヴェンは1795〜96年にウィーンでハ長調の交響曲を一度スケッチしたが、これは放棄され、その中から終楽章のロンド主題の冒頭だけが本作に転用された。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6058229033336832)作品21そのもののスケッチは伝わっておらず、完全な自筆総譜も残っていない。1800年以前のスケッチ帳はほとんど残っておらず、終楽章の一部の楽想だけが別のスケッチ帳に見られることから、作曲は1799年から1800年初めにかけて行われたとする見方がある。終楽章のスケッチの一部は、ヨハン・ゲオルク・アルブレヒツベルガー（Johann Georg Albrechtsberger）のもとで学んでいた1797年春の対位法の課題に混じって書かれている。
+ベートーヴェン（Ludwig van Beethoven）がこの交響曲を完成させたのは1800年の春である。ボンのベートーヴェン・ハウスの作品解説によれば、ベートーヴェンは1795〜96年にウィーンでハ長調の交響曲を一度スケッチしたが、これは放棄され、その中から終楽章のロンド主題の冒頭だけが本作に転用された。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6058229033336832)作品21そのもののスケッチは伝わっておらず、完全な自筆総譜も残っていない。
 
 初演の時点で、ハイドン（Joseph Haydn）の最後の交響曲から5年、モーツァルト（Wolfgang Amadeus Mozart）の交響曲第41番《ジュピター》（1788年）から12年が経っていた。
 
 ### 初演
 
-初演は1800年4月2日、ウィーンの宮廷劇場（ブルク劇場、K.k. Hoftheater nächst der Burg）で、ベートーヴェンがウィーンで初めて自分の収入のために開いた演奏会（アカデミー）で行われた。ベートーヴェン・ハウスの解説が挙げる曲目は、モーツァルトの交響曲、ハイドンのオラトリオ《天地創造》からのアリア、ベートーヴェンのピアノ協奏曲（おそらく第1番作品15）、七重奏曲作品20、そして新作の交響曲である。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6058229033336832)ベートーヴェンはピアノで即興演奏も行った。どのピアノ協奏曲が演奏されたか、《天地創造》と《四季》のどちらから歌われたかについては、資料によって記述が異なる。オーケストラを誰が率いたかも資料によって異なり、ジャコモ・コンティ（Giacomo Conti）とする資料と、ベートーヴェン自身の指揮とする資料がある。
+初演は1800年4月2日、ウィーンの宮廷劇場（ブルク劇場、K.k. Hoftheater nächst der Burg）で、ベートーヴェンがウィーンで初めて自分の収入のために開いた演奏会（アカデミー）で行われた。ベートーヴェン・ハウスの解説が挙げる曲目は、モーツァルトの交響曲、ハイドンのオラトリオ《天地創造》からのアリア、ベートーヴェンのピアノ協奏曲（おそらく第1番作品15）、七重奏曲作品20、そして新作の交響曲である。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6058229033336832)
 
 ライプツィヒの『一般音楽新聞（Allgemeine musikalische Zeitung）』は、この演奏会を「久しぶりに最も興味深いアカデミー」と評する一方、交響曲については管楽器が多用されすぎて、オーケストラ全体の音楽というより管楽合奏（ハルモニームジーク）に聞こえたと書いた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-1/)
 
 ### 献呈
 
-ベートーヴェンは当初、ボン時代の主君であったケルン選帝侯マクシミリアン・フランツ（Maximilian Franz）にこの曲を献呈するつもりでいた。1801年6月22日か23日付のライプツィヒの出版者フランツ・アントン・ホフマイスター（Franz Anton Hoffmeister）宛の書簡に、その指示がある。マクシミリアン・フランツは1801年7月に没し（27日とする資料が多く、26日とする資料もある）、献呈はゴットフリート・ファン・スヴィーテン男爵（Gottfried van Swieten）に変更された。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6058229033336832)ファン・スヴィーテンは宮廷図書館長で、バッハとヘンデルの楽譜を収集し、ハイドンの《天地創造》と《四季》の台本を書いた人物である。
+ベートーヴェンは当初、ボン時代の主君であったケルン選帝侯マクシミリアン・フランツ（Maximilian Franz）にこの曲を献呈するつもりでいた。1801年6月22日か23日付のライプツィヒの出版者フランツ・アントン・ホフマイスター（Franz Anton Hoffmeister）宛の書簡に、その指示がある。マクシミリアン・フランツは1801年7月27日に没し、献呈はゴットフリート・ファン・スヴィーテン男爵（Gottfried van Swieten）に変更された。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6058229033336832)ファン・スヴィーテンは宮廷図書館長で、バッハとヘンデルの楽譜を収集し、ハイドンの《天地創造》と《四季》の台本を書いた人物である。
 
 ### 出版
 
-ベートーヴェンは初演後、この交響曲をピアノ協奏曲、七重奏曲、ピアノ・ソナタとともにホフマイスターに売り込んだ。1800年12月15日、1801年1月15日、同年6月の同社宛の書簡がベートーヴェン・ハウスに伝わる。1801年4月22日付の書簡でベートーヴェンは、協奏曲を作品19、七重奏曲を作品20、交響曲を作品21、ソナタを作品22とする案を示している。初版はライプツィヒのホフマイスター・ウント・キューネル社（Hoffmeister & Kühnel、ビュロー・ド・ミュジーク）からパート譜で出された。時期はおそらく1801年11月で、1802年1月16日付で出版が公告されたとする資料もある。総譜は1809年にロンドンのチャンケッティーニ・ウント・スペラーティ（Cianchettini & Sperati）から、ドイツ語圏では1822年にボンのジムロック（Simrock）から出版された。
+ベートーヴェンは初演後、この交響曲をピアノ協奏曲、七重奏曲、ピアノ・ソナタとともにホフマイスターに売り込んだ。1800年12月15日、1801年1月15日、同年6月の同社宛の書簡がベートーヴェン・ハウスに伝わる。初版はライプツィヒのホフマイスター・ウント・キューネル社（Hoffmeister & Kühnel、ビュロー・ド・ミュジーク）からパート譜で出された。時期はおそらく1801年11月である。総譜の初版はロンドンのチャンケッティーニ・ウント・スペラーティ（Cianchettini & Sperati）から出版された。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6058229033336832)
 
 ## 編成と演奏時間
 
@@ -64,7 +61,7 @@ sources:
 
 ハ長調。序奏は4分の4拍子、主部は2分の2拍子。序奏付きのソナタ形式で、提示部に反復記号がある。
 
-序奏（第1〜12小節）の最初の和音は、主調ハ長調の主和音ではなく、ハ音の上の属七の和音で、ヘ長調へ解決する。序奏の間、主調の主和音は避けられる。ノリントンは、この楽章がハ長調に落ち着くまで20小節ほどかかる点を指摘している。[（Gramophone）](https://gramophone.co.uk/feature/beethovens-symphony-no-1-introduced-by-sir-roger-norrington)この序奏は「音楽上の冗談」と見なされることがある。
+序奏（第1〜12小節）の最初の和音は、主調ハ長調の主和音ではなく、ハ音の上の属七の和音で、ヘ長調へ解決する。序奏の間、主調の主和音は避けられる。ノリントンは、この楽章がハ長調に落ち着くまで20小節ほどかかる点を指摘している。[（Gramophone）](https://gramophone.co.uk/feature/beethovens-symphony-no-1-introduced-by-sir-roger-norrington)
 
 AQA（英国の試験機関）の教員用解説による主部の区分は次のとおりである。
 
@@ -91,7 +88,7 @@ AQA（英国の試験機関）の教員用解説による主部の区分は次�
 
 ### 第4楽章 Adagio – Allegro molto e vivace
 
-ハ長調、4分の2拍子。序奏で第1ヴァイオリンだけがト音から1音ずつ音階を昇り、フェルマータで区切られながらヘ音（属七の第7音）に達したところで主部に入る。9曲の交響曲で終楽章に緩徐な序奏をもつ例は少ない。主部はソナタ形式で、ロンド風とも説明される。主題は上行音階でできており、ハイドンの交響曲第88番の終楽章との類似が指摘されている。この主題の冒頭が、1795〜96年に放棄されたハ長調交響曲から転用された部分である。
+ハ長調、4分の2拍子。序奏で第1ヴァイオリンだけがト音から1音ずつ音階を昇り、フェルマータで区切られながらヘ音（属七の第7音）に達したところで主部に入る。9曲の交響曲で終楽章に緩徐な序奏をもつ例は少ない。主部はソナタ形式で、ロンド風とも説明される。主題は上行音階でできている。この主題の冒頭が、1795〜96年に放棄されたハ長調交響曲から転用された部分である。
 
 ## 演奏史と解釈
 
@@ -132,7 +129,6 @@ AQA（英国の試験機関）の教員用解説による主部の区分は次�
 ## もっと深く
 
 - **作曲の開始時期**：放棄された1795〜96年のハ長調交響曲を作品21の前段階とみるか、別の作品とみるかで、作曲の開始時期の書き方が分かれる。ベートーヴェン・ハウスは別の作品として扱い、作品21のスケッチは残っていないとしている。
-- **初演の曲目と指揮**：1800年4月2日の演奏会の曲目のうち、ピアノ協奏曲が第1番か第2番か、《天地創造》と《四季》のどちらが歌われたかは資料によって異なる。指揮者の記述も一致していない。
 - **管楽器の扱い**：初演評が「管楽合奏のよう」と書いた管楽器の比重は、第1楽章の第2主題や第3楽章のトリオに表れている。
-- **調の扱い**：序奏が主和音から始まらず、属七の和音で始まる点は、当時から注目された。皇帝フランツ2世がこの曲に「何か革命的なもの」があると語ったという話が伝わるが、これは逸話として扱われている。
-- **評価の変化**：ドナルド・トーヴィー（Donald Tovey）はこの曲を「風俗喜劇（comedy of manners）」と呼んだ。ヘンレ版の解説は、ロマン主義的なベートーヴェン像が広まるにつれて、この曲の評価が後期の作品の陰に隠れたことを指摘している。[（Henle）](https://www.henle.de/en/Symphony-no.-1-C-major-op.-21/HN-9801)
+- **調の扱い**：序奏が主和音から始まらず、属七の和音で始まる点は、当時から注目された。
+- **評価の変化**：ヘンレ版の解説は、ロマン主義的なベートーヴェン像が広まるにつれて、この曲の評価が後期の作品の陰に隠れたことを指摘している。[（Henle）](https://www.henle.de/en/Symphony-no.-1-C-major-op.-21/HN-9801)

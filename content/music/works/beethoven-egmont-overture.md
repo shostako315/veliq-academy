@@ -21,9 +21,7 @@ sources:
   - "Richard Thompson, Program note „Egmont Overture“, CODA（Brandon Hill Chamber Orchestra 提供, 2021）. https://codaweb.org/?p=3275（閲覧日 2026-10-29）"
   - "UC Davis Arts, „Beethoven: ‚Egmont‘ Overture, op. 84“（冒頭のユニゾン、主題の関係、コーダの楽器）. https://arts.ucdavis.edu/post/beethoven-egmont-overture-op-84（閲覧日 2026-10-29）"
   - "John Newman, Programme notes, St. Cecilia Orchestra, University of Alberta, 24 March 1985（拍子と劇中の場面との対応）. https://era.library.ualberta.ca/items/3aa2f79d-f8e5-4696-bff3-20f81c7fd926/download/1df30cf1-c0c9-46be-a341-c689dc06218a（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Egmont (Beethoven)」（作曲期間、初演日、アダムベルガー、受容）. https://en.wikipedia.org/wiki/Egmont_(Beethoven)（閲覧日 2026-10-29）"
   - "IMSLP, „Egmont, Op.84 (Beethoven, Ludwig van)“（パート譜の構成、刊本一覧）. https://imslp.org/wiki/Egmont,%20Op.84%20(Beethoven,%20Ludwig%20van)（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Otto Klemperer discography」. https://en.wikipedia.org/wiki/Otto_Klemperer_discography（閲覧日 2026-10-29）"
   - "Richard Osborne, Review: Beethoven, Egmont Incidental Music / The Consecration of the House, Orchester Wiener Akademie / Haselböck（Alpha 472）, Gramophone, September 2016. https://www.gramophone.co.uk/review/beethoven-egmont-incidental-music-the-consecration-of-the-house（閲覧日 2026-10-29）"
   - "Elusive Disc, Beethoven: Egmont (Complete), Decca / Speakers Corner LP 商品頁（ローレンガー、ヴソウの参加）. https://elusivedisc.com/beethoven-egmont-complete-decca-180g-lp/（閲覧日 2026-10-29）"
   - "Raygum, „Egmont: Complete Incidental Music“（セル指揮ウィーン・フィル、ローレンガー、ヴソウ）. https://raygum.com/releases/vdKeDAuyvTPa/egmont-complete-incidental-music（閲覧日 2026-10-29）"
@@ -33,13 +31,13 @@ sources:
 
 ### 劇場からの依頼
 
-ゲーテ（Johann Wolfgang von Goethe）の悲劇《エグモント》は1788年の作品である（1787年とする資料もある）。16世紀のネーデルラントの貴族ラモラール・エグモント伯（Lamoral, Graf von Egmont、1522–1568）を主人公とし、スペインの支配に抵抗したエグモントが捕らえられ、処刑されるまでを描く。
+ゲーテ（Johann Wolfgang von Goethe）の悲劇《エグモント》は1788年の作品である。16世紀のネーデルラントの貴族ラモラール・エグモント伯（Lamoral, Graf von Egmont、1522–1568）を主人公とし、スペインの支配に抵抗したエグモントが捕らえられ、処刑されるまでを描く。
 
 ウィーンのブルク劇場（宮廷劇場）は1810年春にこの劇を上演する計画を立て、ベートーヴェン（Ludwig van Beethoven）に付随音楽を依頼した。ボンのベートーヴェン・ハウスによれば、依頼したのは宮廷劇場の監督ヨーゼフ・ハルトル（Joseph Hartl）で、時期は1809年秋である。ヘンレ版の序文を書いたエルンスト・ヘルトリヒ（Ernst Herttrich）は、依頼の正確な日付は分からないとしている。1809年のウィーンはフランス軍の占領下にあり、ベートーヴェン・ハウスは、圧政からの解放という劇の主題がベートーヴェンの関心を引いたと記している。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6262639948726272)
 
 ### 作曲
 
-作曲期間は1809年10月から1810年6月までとされる。ヘルトリヒによれば、「ランツベルク5」スケッチ帳にあるクレールヒェンの歌のスケッチから、作業は遅くとも1809年秋には始まっていた。[（Henle 序文）](https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf)ベートーヴェン・ハウスには《エグモント》のスケッチ（BH 102、BH 103、BH 116）があり、BH 116には《エリーゼのために》WoO 59と行進曲 WoO 19のスケッチも含まれる。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6262639948726272)
+ヘルトリヒによれば、「ランツベルク5」スケッチ帳にあるクレールヒェンの歌のスケッチから、作業は遅くとも1809年秋には始まっていた。[（Henle 序文）](https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf)ベートーヴェン・ハウスには《エグモント》のスケッチ（BH 102、BH 103、BH 116）があり、BH 116には《エリーゼのために》WoO 59と行進曲 WoO 19のスケッチも含まれる。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6262639948726272)
 
 ゲーテの台本は、劇中の歌、背景の音楽、そして終幕でエグモントが刑場に向かう場面の「勝利の交響曲（Siegessymphonie）」を指定していた。ベートーヴェンはこれに序曲と幕間の音楽を加えて全10曲とした。
 
@@ -55,8 +53,6 @@ sources:
 | 7 | クレールヒェンの死を表す音楽（Larghetto） |
 | 8 | メロドラマ（エグモント）（Poco sostenuto） |
 | 9 | 勝利の交響曲（Allegro con brio） |
-
-クレールヒェンの2つの歌は女優アントーニエ・アダムベルガー（Antonie Adamberger）を想定して書かれた。
 
 ### 初演
 
@@ -113,13 +109,8 @@ sources:
 
 新全集「Beethoven Werke」第IX部第7巻（ヘルムート・ヘル（Helmut Hell）校訂、ヘンレ、1998年。IMSLPの書誌はハンス＝ヴェルナー・キューテン（Hans-Werner Küthen）を共同校訂者として挙げる）が出ており、ヘンレのスタディ・スコア（HN 9043）はその本文に基づく。ベートーヴェン・ハウスには、1810年から1812年にかけての出版をめぐるブライトコップフ宛の書簡（1810年6月6日、7月2日、8月21日、10月15日、1811年5月6日、10月9日、1812年1月28日、2月28日）が残されている。
 
-### 受容
-
-E・T・A・ホフマン（E. T. A. Hoffmann）は、この付随音楽の詩的な性格と劇との結びつきを評価した。序曲は1956年のハンガリー動乱の際に非公式の賛歌となった。ヴァダース・ヤーノシュ（Vadász János）の1965年の短編映画《序曲》は序曲の全曲を鳥の孵化の映像に用い、同年のカンヌ映画祭短編部門でパルム・ドールを受けた。
-
 ### 代表的な録音
 
-- オットー・クレンペラー（Otto Klemperer）指揮ベルリン国立歌劇場管弦楽団（シュターツカペレ・ベルリン）（1927年）。
 - ジョージ・セル（George Szell）指揮ウィーン・フィルによる付随音楽全曲（Decca）。ピラール・ローレンガー（Pilar Lorengar）が歌い、ブルク劇場の俳優クラウスユルゲン・ヴソウ（Klausjürgen Wussow）が語りを務める。
 - マルティン・ハーゼルベック（Martin Haselböck）指揮ウィーン・アカデミー管弦楽団による付随音楽全曲（Alpha 472）。当時の楽器による演奏で、クリストファー・ハンプトン（Christopher Hampton）による英語の語りをジョン・マルコヴィッチ（John Malkovich）が務め、クレールヒェンの歌をベルナルダ・ボブロ（Bernarda Bobro）が歌う。リチャード・オズボーン（Richard Osborne）が2016年9月のグラモフォン誌で評した。[（Gramophone）](https://www.gramophone.co.uk/review/beethoven-egmont-incidental-music-the-consecration-of-the-house)
 

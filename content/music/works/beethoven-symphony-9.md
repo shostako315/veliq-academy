@@ -23,15 +23,14 @@ sources:
   - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 9“. https://www.esm.rochester.edu/beethoven/symphony-no-9/（閲覧日 2026-10-29）"
   - "Bayreuther Festspiele, „Symphony No. 9“（バイロイトでの演奏の記録）. https://www.bayreuther-festspiele.de/en/?p=23451（閲覧日 2026-10-29）"
   - "鳴門市ドイツ館 館報（ヘルマン・ハンゼンの年譜）. https://www.city.naruto.tokushima.jp/_files/00514606/no04.pdf（閲覧日 2026-10-29）"
-  - "Wikipedia（独語版）「9. Sinfonie (Beethoven)」（初演と再演、自筆譜の来歴、受容）. https://de.wikipedia.org/wiki/9._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Symphony No. 9 (Beethoven)」（終楽章の小節表は Nicholas Cook 1993 による。録音史）. https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「British première of Beethoven's Symphony No. 9」（典拠 The Harmonicon, 1825; Quarterly Musical Magazine and Review, 1825 ほか）. https://en.wikipedia.org/wiki/British_premi%C3%A8re_of_Beethoven%27s_Symphony_No._9（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Ode to Joy」. https://en.wikipedia.org/wiki/Ode_to_Joy（閲覧日 2026-10-29）"
   - "Roger Norrington, Beethoven's metronome marks（ウェブサイトの論考）. https://rogernorrington.co.uk/?p=598（閲覧日 2026-10-29）"
   - "Fusako Hamao, „Schoenberg's Metronome Markings“, European Journal of Musicology 22/2 (2024), DOI 10.5450/EJM.22.2.2024.5（シェーンベルク1926年の第9番第3楽章論）"
   - "„On Tempo Indications Based on Beethoven's Music“, College Music Symposium 25（著者名はウェブ版に表示なし）. https://symposium.music.org/volume-25/articles-1752877059/on-tempo-indications-based-on-beethovens-music（閲覧日 2026-10-29）"
-  - "録音データ：Gramophone（Gardiner 全集評）、MusicWeb International（Harnoncourt Teldec 全集評 2003年8月）、Wikipedia 英語版・独語版の録音史の記述（閲覧日 2026-10-29）"
   - "Bärenreiter, takte, „Beethoven bei Bärenreiter – Erfolgsgeschichte seit dreißig Jahren“（第9番から1996年に刊行開始、1996〜2000年に全9曲）. https://www.takte-online.de/en/music-theatre/article/artikel/beethoven-bei-baerenreiter-erfolgsgeschichte-seit-dreissig-jahren/index.htm（閲覧日 2026-10-29）"
+  - "録音データ：Gramophone（Gardiner 全集評）、MusicWeb International（Harnoncourt Teldec 全集評 2003年8月）、Bayreuther Festspiele（1951年のフルトヴェングラー）、Wolf Trap（バーンスタインのベルリン公演）（閲覧日 2026-11-03）"
+  - "Gesellschaft der Musikfreunde in Wien, „How the sparks of the gods came into music – 200 years of Beethoven's Ninth“（初演の会場、指揮の分担、オーケストラと合唱、反響、1822年の書き込み）. https://www.musikverein.at/en/200-years-of-beethovens-ninth-2023-24/（閲覧日 2026-11-03）"
+  - "Wolf Trap, Centerlines, „Beethoven's Ninth Symphony“ (2026)（リハーサルの回数、ウンガーの逸話、バーンスタインのベルリン公演）. https://www.wolftrap.org/centerlines/2026/beethovens-ninth-symphony/（閲覧日 2026-11-03）"
+  - "Council of Europe, „1972: an anthem for Europe“（欧州評議会による採用、カラヤンの編曲、1985年の採用）. https://70.coe.int/1972-an-anthem-for-europe-en.html（閲覧日 2026-11-03）"
 ---
 
 ## 成立
@@ -46,33 +45,29 @@ sources:
 
 1822年、ベートーヴェンはリースに、協会が「大交響曲」にいくら払うかを尋ねた。協会の理事会は1822年11月10日、「手稿の交響曲1曲につき50ポンドをベートーヴェンに提示する」と決議した。作品を受け取ってから18か月後にはベートーヴェンが作品を自由に扱ってよいという条件であった。[（Beethoven-Haus Bonn）](https://internet.beethoven.de/en/exhibition/beethoven-and-great-britain/id10.html)
 
-ベートーヴェン・ハウスは、作業の再開を1822年秋、本格的な作業の開始をディアベリ変奏曲と《ミサ・ソレムニス》のあとの1823年初めとしている。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5556714292117504)1821年から1823年の夏、ベートーヴェンはバーデン・バイ・ウィーンで過ごし、そこで重要な部分を書いた。合唱を用いることを最終的に決めたのは1823年の末で、同年12月の時点でもまだ「finale instromentale（器楽の終楽章）」を考えていた。完成は1824年2月で、第4楽章はウィーンのラントシュトラーセ、ウンガーガッセ5番地の住まいで書き上げられた。筆写総譜は1824年4月にロンドンへ送られた。
+ベートーヴェン・ハウスは、作業の再開を1822年秋、本格的な作業の開始をディアベリ変奏曲と《ミサ・ソレムニス》のあとの1823年初めとしている。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5556714292117504)1822年のベートーヴェンの書き込みには「終楽章――歓喜、神々の美しい火花」とある。[（Musikverein Wien）](https://www.musikverein.at/en/200-years-of-beethovens-ninth-2023-24/)
 
 ### 初演
 
-初演は1824年5月7日、ウィーンのケルントナートーア劇場で行われた。演奏会は序曲《献堂式》作品124、《ミサ・ソレムニス》作品123からの3つの部分、第9番の順で、おそらく交響曲の前に休憩があった。
+初演は1824年5月7日、ウィーンのケルントナートーア劇場で行われた。ウィーンにはまだ代表的な演奏会場がなかったためである。[（Musikverein Wien）](https://www.musikverein.at/en/200-years-of-beethovens-ninth-2023-24/)
 
-全体の指揮はミヒャエル・ウムラウフ（Michael Umlauf）、オーケストラの統率はイグナーツ・シュパンツィヒ（Ignaz Schuppanzigh）が受け持った。ベートーヴェンはほぼ完全に耳が聞こえなくなっていたが舞台に立ち、そばでテンポを示した。ウムラウフは奏者たちに、ベートーヴェンを見ずに自分に従うよう指示した。オーケストラはケルントナートーア劇場の楽団に、楽友協会の団員と選ばれたアマチュアを加えたもので、通常の約2倍の規模であった。出演者の完全な名簿は残っていない。参加者の証言によれば、全曲を通したリハーサルは2回しか行われなかった。ベートーヴェンが舞台に立つのは1814年以来であった。
+ウィーン楽友協会によれば、全体の指揮はミヒャエル・ウムラウフ（Michael Umlauf）が受け持ち、ヴァイオリン奏者イグナーツ・シュパンツィヒ（Ignaz Schuppanzigh）が立って弾きながらオーケストラのテンポを決めた。告知には、ベートーヴェン自身も全体の指揮に加わると書かれていたが、オーケストラと合唱はウムラウフの指示に従った。オーケストラはケルントナートーア劇場の楽団で、楽友協会が合唱とオーケストラの補強を引き受けた。[（Musikverein Wien）](https://www.musikverein.at/en/200-years-of-beethovens-ninth-2023-24/)全曲を通したリハーサルは2回しか行われなかったとされる。[（Wolf Trap）](https://www.wolftrap.org/centerlines/2026/beethovens-ninth-symphony/)
 
-独唱者はソプラノがヘンリエッテ・ゾンターク（Henriette Sontag、当時18歳）、アルトがカロリーネ・ウンガー（Caroline Unger、当時20歳）、テノールがアントン・ハイツィンガー（Anton Haizinger）、バスがヨーゼフ・ザイペルト（Joseph Seipelt）である。
-
-演奏後、ベートーヴェンは喝采に気付かず、ウンガーが彼を聴衆のほうへ向かせたという話がある。ジギスモント・タールベルク（Sigismond Thalberg）はそれをスケルツォのあととし、アントン・シンドラー（Anton Schindler）は終楽章のあととした。
-
-再演は1824年5月23日の正午、王宮の大レドゥーテンザールで、プログラムを少し変えて行われた。ケルントナートーア劇場での再演も予定されていたが、その日付は資料により5月18日とも21日ともされる。
+演奏後、ベートーヴェンは喝采に気付かず、アルト独唱のカロリーネ・ウンガー（Caroline Unger）が袖を引いて聴衆のほうを見せたという話がある。これはスケルツォのあとのことだった可能性もある。[（Wolf Trap）](https://www.wolftrap.org/centerlines/2026/beethovens-ninth-symphony/)
 
 ### ロンドン初演
 
-ロンドン初演は1825年3月21日、フィルハーモニック協会の演奏会で、ジョージ・スマート（Sir George Smart）の指揮により行われた。コンサートマスターはフランツ・クラマー（Franz Cramer）、独唱者はカラドーリ夫人、グッドール嬢、ヴォーン氏、フィリップス氏で、終楽章はイタリア語訳で歌われた。会場はアーガイル・ルームズとする資料と、王立フィルハーモニック協会の記述のようにリージェント・ストリートのハーモニック・インスティテューションとするものがある。協会に送られた筆写総譜の表紙には、ベートーヴェンの手で「ロンドンのフィルハーモニック協会のために書かれた」と記されている。この総譜は大英図書館が所蔵する。[（Royal Philharmonic Society）](https://royalphilharmonicsociety.org.uk/rps-since-1813/key-moments/the-society-and-beethoven)
+ロンドン初演は1825年3月、フィルハーモニック協会の演奏会で行われた。協会に送られた筆写総譜の表紙には、ベートーヴェンの手で「ロンドンのフィルハーモニック協会のために書かれた」と記されている。この総譜は大英図書館が所蔵する。[（Royal Philharmonic Society）](https://royalphilharmonicsociety.org.uk/rps-since-1813/key-moments/the-society-and-beethoven)
 
 ### 献呈と出版
 
-献呈はプロイセン王フリードリヒ・ヴィルヘルム3世（Friedrich Wilhelm III.）である。初版は1826年にマインツのB. ショット・ゼーネ社（B. Schott's Söhne）から出た。パート譜の版番号は2321、総譜は2322、第4楽章のピアノ伴奏譜は2539である。
+献呈はプロイセン王フリードリヒ・ヴィルヘルム3世（Friedrich Wilhelm III.）である。初版は1826年にマインツのB. ショット・ゼーネ社（B. Schott's Söhne）から出た。
 
 ## 編成と演奏時間
 
 ピッコロ（第4楽章のみ）、フルート2、オーボエ2、クラリネット2、ファゴット2、コントラファゴット（第4楽章のみ）、ホルン4、トランペット2、トロンボーン3（アルト、テノール、バス。第2・第4楽章のみ）、ティンパニ、大太鼓・シンバル・トライアングル（第4楽章のみ）、弦五部。第4楽章に独唱4人（ソプラノ、アルト、テノール、バリトンまたはバス）と混声4部合唱が加わる。
 
-演奏時間は65〜75分程度である。カール・ベーム（Karl Böhm）が1981年にウィーン・フィルハーモニー管弦楽団と録音した演奏は79分で、最も長いものの一つである。
+演奏時間は65〜75分程度である。
 
 | 楽章 | 速度標語 | 調 | 拍子 |
 |---|---|---|---|
@@ -87,19 +82,11 @@ sources:
 
 ニ短調、2/4拍子。序奏を持たないソナタ形式。
 
-弦のトレモロによるイとホの空虚5度が pianissimo で始まる。主音のニ音が初めて現れるのは第13小節で、変ロ管のホルンと第2ファゴットに不協和音として置かれる。ニ短調の第1主題は第17小節で現れる。第2主題群への移行は第80小節から始まる。
-
-展開部は、第1主題の第1・2小節（第17〜18小節）、第3・4小節（第19〜20小節）、第2主題群の第1〜4小節（第80〜83小節）を順に扱う。再現部は第301小節で、fortissimo、ニ長調で始まる。コーダは楽章のほぼ4分の1を占める。
-
-リヒャルト・ワーグナー（Richard Wagner）は第138小節以下に表情を付ける指示を勧め、グスタフ・マーラー（Gustav Mahler）やリヒャルト・シュトラウス（Richard Strauss）もそれに従った。アーノンクール盤の評は、第149〜150小節の和音のどれが forte でどれが fortissimo かを、アーノンクールが明確に弾き分けていると記している。
+弦のトレモロによるイとホの空虚5度が pianissimo で始まる。
 
 ### 第2楽章 Molto vivace – Presto
 
 ニ短調、3/4拍子のスケルツォで、スケルツォ部はソナタ形式で書かれている。トリオはニ長調、2/2拍子の Presto である。ベートーヴェンは楽譜に「ritmo di tre battute（3小節のリズム）」「ritmo di quattro battute（4小節のリズム）」と書き、3小節または4小節ごとに1つの強拍が来ることを指示している。速いテンポでは、3/4拍子のスケルツォは4/4拍子のように聞こえる。
-
-トロンボーンはこの楽章のトリオで初めて入る。2つの反復をどちらも行うと、楽章は約14分になる。
-
-緩徐楽章の前にスケルツォを置くこの配置は、交響曲の通常の楽章順と逆である。
 
 ベートーヴェン・ハウスは、この楽章のコーダの自筆総譜（HCB Mh 2 / BMh 5/45）と、第2・第4楽章のトロンボーンの自筆パート（HCB Mh 28）を所蔵している。
 
@@ -107,46 +94,21 @@ sources:
 
 変ロ長調、4/4拍子。2つの主題を交互に変奏する二重変奏の形式である。変奏の間に、3/4拍子の Andante moderato が2回挟まる。1回目はニ長調、2回目はト長調である。そのあと4/4拍子の Adagio が変ホ長調で戻り、最後の変奏は12/8拍子（変ロ長調）で書かれる。
 
-楽章の中には目立つホルンの独奏があり、4番ホルン奏者が受け持つ。最後の変奏は2度、オーケストラ全体のファンファーレに中断され、第1ヴァイオリンがそれに答える。演奏時間は約15分である。
+楽章の中には目立つホルンの独奏があり、4番ホルン奏者が受け持つ。
 
 ### 第4楽章 Presto – Allegro assai – …
 
-第4楽章は全940小節で、主要な区分は次のとおりである。小節番号はクックの表による。版によって楽章内の区切り方が違うため、別の小節番号で数える版もある。
+冒頭の Presto は、強奏の不協和な和音で始まる。続いてチェロとコントラバスがレチタティーヴォ風の旋律を弾き、その間に第1〜3楽章が短く回想される。
 
-| 小節 | 調 | 内容 |
-|---|---|---|
-| 1 | ニ短調 | 序奏。器楽のレチタティーヴォと、第1〜3楽章の回想 |
-| 92 | ニ長調 | 「歓喜」の主題 |
-| 116, 140, 164 | | 器楽による「歓喜」の変奏1〜3（164から延長） |
-| 208 | ニ短調 | 序奏の再現と、声楽のレチタティーヴォ |
-| 241, 269, 297 | ニ長調 | 「歓喜」の変奏4〜6 |
-| 331 | 変ロ長調 | Alla marcia（「トルコ風」の行進曲）への導入 |
-| 343 | | 変奏7（トルコ風行進曲） |
-| 375 | | 変奏8と延長 |
-| 431 | | 「歓喜」の主題によるフガートの間奏 |
-| 543 | ニ長調 | 変奏9 |
-| 595 | ト長調 | Andante maestoso「Seid umschlungen」 |
-| 627 | ト短調 | Adagio ma non troppo, ma divoto「Ihr stürzt nieder」 |
-| 655 | ニ長調 | Allegro energico。「歓喜」と「Seid umschlungen」の2つの主題による二重フーガ |
-| 730 | | 「Ihr stürzt nieder」による間奏 |
-| 763 | ニ長調 | コーダ1（Allegro ma non tanto）。「歓喜」の主題による |
-| 832 | | 独唱者のカデンツァ |
-| 851 | ニ長調 | コーダ2（Prestissimo） |
-| 920 | | コーダ3。「歓喜」の主題による |
+ファンファーレが戻ると、バリトン独唱が「O Freunde, nicht diese Töne!」と歌い始める。このレチタティーヴォの言葉はシラーの詩にはなく、ベートーヴェンが書いた。
 
-冒頭の Presto は、ニ短調と変ロ長調の主和音を重ねた不協和な和音で始まる。ワーグナーはこれを「恐怖のファンファーレ（Schreckensfanfare）」と呼んだ。続いてチェロとコントラバスがレチタティーヴォ風の旋律を弾き、その間に第1〜3楽章が短く回想される。
+変ロ長調の Alla marcia では、大太鼓、シンバル、トライアングルが加わる。
 
-第208小節でファンファーレが戻ると、バリトン独唱が「O Freunde, nicht diese Töne!」と歌い始める。このレチタティーヴォの言葉はシラーの詩にはなく、ベートーヴェンが書いた。
-
-第331小節から変ロ長調の Alla marcia になり、大太鼓、シンバル、トライアングルが加わる。ベートーヴェンは《ウェリントンの勝利》でもこれらの打楽器を用いている。
-
-第595小節の Andante maestoso で、トロンボーンを伴って「Seid umschlungen」が歌われる。クックは、シラーの合唱節の第1と第3（「Seid umschlungen」と「Ihr stürzt nieder」）が、この設定の精神的な中心をなすとみている。[（Nicholas Cook / Cambridge University Press）](https://www.cambridge.org/core/books/abs/beethoven/schillers-an-die-freude-and-the-ninth-symphony/D41882F282D5A0C37BB3169ACB01D0B2)これらは第595小節で初めて現れ、そのあと第1節と交互に、あるいは組み合わされて用いられる。第655小節の二重フーガでは、「歓喜」の主題と「Seid umschlungen」の主題が同時に歌われる。
+Andante maestoso では、トロンボーンを伴って「Seid umschlungen」が歌われる。クックは、シラーの合唱節の第1と第3（「Seid umschlungen」と「Ihr stürzt nieder」）が、この設定の精神的な中心をなすとみている。[（Nicholas Cook / Cambridge University Press）](https://www.cambridge.org/core/books/abs/beethoven/schillers-an-die-freude-and-the-ninth-symphony/D41882F282D5A0C37BB3169ACB01D0B2)
 
 ### 歌詞の構成
 
 ベートーヴェンが用いたのは、シラーが1803年に政治的な表現を和らげて改めた版である。クックによれば、ベートーヴェンは詩の第1〜3節と、合唱節の第1・第3・第4を用いた。詩を「高められた酒宴の歌」にしている部分は使わなかった。合唱節の順序も入れ替え、地上の喜びから、天を行く英雄、星のかなたの創造主へと、地上から神へ向かう順に並べた。
-
-改訂稿の刊行年について、クックは1803年とし、シラーの死後の1808年とする資料もある。改訂では第1節の2行が変えられ、最後の節が除かれた。
 
 ## 演奏史と解釈
 
@@ -196,9 +158,7 @@ sources:
 
 ### 版
 
-1826年のショット社の初版に続き、19世紀後半からはブライトコップフ・ウント・ヘルテル社の1864年の旧全集版が、オーケストラで広く使われた。
-
-ジョナサン・デル・マー校訂のベーレンライター版は、交響曲全集の最初の巻として刊行された。刊行年はベーレンライター社の『takte』の記事が1996年とし、1997年とする資料もある。この曲の資料はおよそ20種が残っており、デル・マーの校訂報告はその全体を扱っている。デル・マーは、ブライトコップフ版の誤りを3,000か所近く正したと述べている。デイヴィッド・レヴィは、この版が「おそらく誤った」新しい伝統を作りかねないと批判した。
+ジョナサン・デル・マー校訂のベーレンライター版は、交響曲全集の最初の巻として刊行された。ベーレンライター社の『takte』の記事は刊行年を1996年とする。
 
 デル・マーは、終楽章の第532〜540小節のホルンのタイの読みを、校訂の中での発見として挙げている。トルコ行進曲から合唱による主題へ移る部分である。デル・マーは、書かれたものを何度も見直した末に、ベートーヴェンが実際に書いたものを読み取ったと語っている。[（Sheet Music Plus）](https://blog.sheetmusicplus.com/2019/11/22/beethovens-ninth-how-reading-what-beethoven-wrote-changed-everything/)
 
@@ -208,7 +168,7 @@ sources:
 
 ワーグナーは1840年の春、パリでフランソワ＝アントワーヌ・アブネック（François-Antoine Habeneck）指揮のパリ音楽院管弦楽団による演奏を聴いた。ワーグナー自身は1839年と書いたが、エゴン・フォス（Egon Voss）が1840年であることを確かめた。[（Chris Walton / HKB）](https://www.hkb-interpretation.ch/fileadmin/user_upload/documents/Publikationen/Bd.14/HKB14_12_Walton_218-237.pdf)
 
-ワーグナーはドレスデンで1846年4月5日（枝の主日）、1847年3月28日、1849年4月1日にこの曲を指揮した。1872年5月22日には、バイロイト祝祭劇場の定礎式に合わせて辺境伯歌劇場で指揮した。1873年には論文「ベートーヴェンの第9交響曲の演奏について（Zum Vortrag der neunten Symphonie Beethoven's）」で、楽譜への変更を提案した。ベートーヴェンの時代のナチュラル・ホルンとナチュラル・トランペットでは吹けなかった音を補うことが主な関心で、スケルツォでは旋律をホルンにも吹かせて弦と木管の均衡をとった。[（Chris Walton / HKB）](https://www.hkb-interpretation.ch/fileadmin/user_upload/documents/Publikationen/Bd.14/HKB14_12_Walton_218-237.pdf)
+ワーグナーは1873年の論文「ベートーヴェンの第9交響曲の演奏について（Zum Vortrag der neunten Symphonie Beethoven's）」で、楽譜への変更を提案した。ベートーヴェンの時代のナチュラル・ホルンとナチュラル・トランペットでは吹けなかった音を補うことが主な関心で、スケルツォでは旋律をホルンにも吹かせて弦と木管の均衡をとった。[（Chris Walton / HKB）](https://www.hkb-interpretation.ch/fileadmin/user_upload/documents/Publikationen/Bd.14/HKB14_12_Walton_218-237.pdf)
 
 マーラーはワーグナーにならって楽譜に手を加えた。1900年にウィーンで指揮した際、その変更が新聞に攻撃されると、ワーグナーの実践と論文を引いた弁明書を印刷して配った。[（Chris Walton / HKB）](https://www.hkb-interpretation.ch/fileadmin/user_upload/documents/Publikationen/Bd.14/HKB14_12_Walton_218-237.pdf)
 
@@ -216,17 +176,10 @@ sources:
 
 | 指揮者 | オーケストラ | 録音年 | 備考 |
 |---|---|---|---|
-| ブルーノ・ザイドラー＝ヴィンクラー（Bruno Seidler-Winkler） | ― | 1923年 | 最初の全曲録音。アコースティック録音、ドイツ・グラモフォン |
-| フェリックス・ヴァインガルトナー | ロンドン交響楽団 | 1926年 | 最初の電気録音（コロンビア） |
-| レオポルド・ストコフスキー（Leopold Stokowski） | フィラデルフィア管弦楽団 | 1934年 | アメリカで最初の全曲録音（RCAビクター） |
-| ヴィルヘルム・フルトヴェングラー（Wilhelm Furtwängler） | バイロイト祝祭管弦楽団 | 1951年7月29日 | 戦後のバイロイト音楽祭再開の演奏。74分 |
-| アルトゥーロ・トスカニーニ（Arturo Toscanini） | NBC交響楽団 | 1952年 | ― |
-| カール・ベーム | ウィーン・フィルハーモニー管弦楽団 | 1981年 | 79分 |
-| レナード・バーンスタイン（Leonard Bernstein） | ― | 1989年のクリスマス | ベルリンでの演奏会。「Freude」を「Freiheit」に替えて歌わせた |
+| ヴィルヘルム・フルトヴェングラー（Wilhelm Furtwängler） | バイロイト祝祭管弦楽団 | 1951年 | 戦後のバイロイト音楽祭再開の演奏 |
+| レナード・バーンスタイン（Leonard Bernstein） | ― | ベルリンの壁崩壊後 | 東ベルリンでの演奏。「歓喜」を「自由」に替えた |
 | ニコラウス・アーノンクール（Nikolaus Harnoncourt） | ヨーロッパ室内管弦楽団 | 1991年6月21日 | グラーツ、シュテファニエンザールでのライヴ |
 | ジョン・エリオット・ガーディナー | オルケストル・レヴォリュショネール・エ・ロマンティク | 全集1994年発売 | ピリオド楽器 |
-
-フルトヴェングラーの1951年の演奏の長さ（74分）が、CDの収録時間を74分に決める理由になったという話が伝わっている。
 
 『グラモフォン』誌のガーディナー全集評によれば、ガーディナーは第1楽章で4分音符＝88を採り、終楽章の Alla marcia では84を付点2分音符として扱った。スケルツォのティンパニの記号はアクセントではなくディミヌエンドとして読んだ。デル・マーは、この全集の本文の判断についてガーディナーの主な助言者であった。アーノンクール盤の評者は、アーノンクールが議論の多いメトロノーム表記に従わず、比較的伝統的なテンポで演奏していると書いた。
 
@@ -236,28 +189,22 @@ sources:
 
 ### 自筆総譜の来歴
 
-自筆総譜はベルリン国立図書館にある。ベートーヴェンは1827年2月、この手稿をシンドラーに与えたとされる。シンドラーの持っていた部分（137頁）は1846年、ベルリンの図書館に売られた。もう一つの部分は1827年11月の競売でアルタリア社が買い、1901年にベルリンへ入った。2つの部分は第二次世界大戦中に分けて疎開され、1997年にベルリンで再び一つになった。2001年9月4日、ユネスコの「世界の記憶」に登録された。1827年9月には2枚がモシェレスに送られている。
-
-自筆の断片やスケッチ、筆写譜は、ボン（ベートーヴェン・ハウス）、パリ（フランス国立図書館）、ロンドン（大英図書館）、クラクフ（ヤギェウォ図書館）、ニューヨーク（ジュリアード音楽院）、プリンストン（シャイデ・コレクション）、ワイマール（アンナ・アマーリア大公妃図書館）、ウィーン（楽友協会）などに分かれている。ベートーヴェン・ハウスはエンゲルマン・スケッチ帳（HCB Mh 60）などのスケッチも持つ。
+自筆総譜はベルリン国立図書館にある。
 
 ### 器楽の終楽章の構想
 
 1823年12月の時点で、ベートーヴェンはまだ器楽の終楽章を考えていた。カール・ツェルニー（Carl Czerny）がオットー・ヤーン（Otto Jahn）に伝えたところでは、ベートーヴェンは完成後、合唱の終楽章を誤りだったと内輪で語り、出版のために器楽の終楽章を書くことを考えたという。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-9/)
 
-終楽章の技法と動機は、1808年の合唱幻想曲作品80と似ている。
-
 ### 同時代と19世紀の受容
 
-ウィーンの批評の一つはこの曲の独創性を称えた。1825年のフランクフルトの批評は否定的で、別の批評家は「迷いの中にあってなお偉大」と書いた。ロンドン初演の後、『ハーモニコン』誌は独創性を認めながらも、曲は少なくとも2倍は長すぎ、合唱は全体に溶け込んでいないとして、繰り返しを削り合唱を除くよう勧めた。『クォータリー・ミュージカル・マガジン・アンド・レヴュー』誌は約80分の長さを批判し、これまでのベートーヴェンの交響曲のうちで最も劣るとしながら、終楽章の一部は評価した。
+初演では、合唱の終楽章と最後のクレッシェンドが歓声と熱狂的な拍手を呼んだ。[（Musikverein Wien）](https://www.musikverein.at/en/200-years-of-beethovens-ninth-2023-24/)
 
-ルイ・シュポーア（Louis Spohr）は1861年の自伝で、ベートーヴェンの後期作品を楽しめたことがなく、第9番の終楽章は醜く安っぽいと書いた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-9/)ジュゼッペ・ヴェルディ（Giuseppe Verdi）は1878年4月の手紙で、終楽章の声楽の書き方がまずいと書いた。ワーグナーは第9番を「未来の芸術の人間的な福音」と呼んだ。
-
-1845年7月10日、ボンのベートーヴェン記念像の台座に、ショット社の《ミサ・ソレムニス》と第9番の印刷譜が納められた。
+ルイ・シュポーア（Louis Spohr）は1861年の自伝で、ベートーヴェンの後期作品を楽しめたことがなく、第9番の終楽章は醜く安っぽいと書いた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-9/)
 
 ### 20世紀の演奏の伝統
 
-ライプツィヒ・ゲヴァントハウス管弦楽団は、1918年にアルトゥール・ニキシュ（Arthur Nikisch）が指揮して以来、大みそかにこの曲を演奏している。バイロイトでは、1951年のフルトヴェングラーの演奏が戦後の音楽祭再開の前奏となり、その後もパウル・ヒンデミット（Paul Hindemith、1953年）、フルトヴェングラー（1954年）、ベーム（1963年）、クリスティアン・ティーレマン（Christian Thielemann、2001年）が祝祭劇場で指揮した。[（Bayreuther Festspiele）](https://www.bayreuther-festspiele.de/en/?p=23451)
+バイロイトでは、1951年のフルトヴェングラーの演奏が戦後の音楽祭再開の前奏となり、その後もパウル・ヒンデミット（Paul Hindemith、1953年）、フルトヴェングラー（1954年）、ベーム（1963年）、クリスティアン・ティーレマン（Christian Thielemann、2001年）が祝祭劇場で指揮した。[（Bayreuther Festspiele）](https://www.bayreuther-festspiele.de/en/?p=23451)
 
 日本では、1918年6月1日、徳島県の板東俘虜収容所でドイツ人捕虜がこの曲を演奏した。鳴門市ドイツ館の館報は、ヘルマン・ハンゼン（Hermann Hansen）を日本における第9番の初演者として紹介している。[（鳴門市ドイツ館）](https://www.city.naruto.tokushima.jp/_files/00514606/no04.pdf)
 
-1972年、欧州評議会がこの曲の「歓喜」の主題を歌として採用し、1985年には欧州共同体がヘルベルト・フォン・カラヤン（Herbert von Karajan）編曲の器楽版を採用した。
+1972年、欧州評議会がこの曲の「歓喜」の主題を欧州の歌として採用した。最初の編曲はヘルベルト・フォン・カラヤン（Herbert von Karajan）による。1985年には欧州連合（当時の欧州共同体）も採用した。[（Council of Europe）](https://70.coe.int/1972-an-anthem-for-europe-en.html)
