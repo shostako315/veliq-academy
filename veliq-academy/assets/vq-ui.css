@@ -395,3 +395,109 @@ html body .va-sec>h2,html body .va-shd h2{font-size:17px!important;color:var(--i
 .va-chip:hover::before{border-color:var(--ink)}
 .va-toc a{min-height:44px;margin:-6px 0;align-items:center}
 .va-pill{min-height:44px}
+
+/* =========================================================
+   Veliq ブランド層（2026-11-03）— 4サイト共通の写し。サイト固有は --site だけ
+   - 印：Veliq の V マーク（/veliq-mark.svg）をワードマークの左に 28px
+   - 色：金 #8A6A2A＝ロゴとアクセント／サイト色（--site）＝リンク・主ボタン・見出しの小線・表の見出し行・フッター
+   - 表：4列以上は表の中だけ横に送る（ページは広げない）。列は最小 7.5em、ラベル列は折り返さない
+   - 文字：見出し 28/22/18・本文 16・注記 13。注記は左揃え
+   - 押せる所：ヘッダー・フッター・ボタンは 44px 以上
+   ========================================================= */
+:root{--site:#2A3D66;--site-deep:#18233D;--site-weak:#EDF0F6;--u-link:var(--site)}
+
+/* ---------- 印（マーク＋ワードマーク） ---------- */
+.gh .brand{display:inline-flex!important;align-items:center;gap:10px;min-height:44px;line-height:1.2!important}
+.gh .brand::before,.vq-fam-h::before,.gf .gf-brand::before,footer .logo::before{content:"";flex:none;width:28px;height:28px;border-radius:7px;background:url(/veliq-mark.svg) center/contain no-repeat}
+.gf .gf-brand,footer .logo{display:inline-flex!important;align-items:center;gap:10px}
+.gf .gf-brand::before,footer .logo::before{width:24px;height:24px;border-radius:6px}
+.gh .brand b{color:var(--u-accent)}
+
+/* ---------- ヘッダー ---------- */
+header.gh{border-top:3px solid var(--site)}
+.gh .gnav a{display:inline-flex;align-items:center;min-height:44px}
+.gh .gnav a.on{color:var(--site)!important;box-shadow:inset 0 -2px 0 var(--site)}
+.gh .gnav a.pill{background:var(--site)!important;color:#fff!important;min-height:44px;padding:0 18px!important;box-shadow:none}
+.gh .gnav a.pill:hover{background:var(--site-deep)!important}
+.menu .ml a.on{color:var(--site)!important}
+.menu .mcta{background:var(--site)!important;color:#fff!important}
+.menu .ml a,.menu .mapp,.menu .mcta{min-height:48px}
+
+/* ---------- リンク・ボタン ---------- */
+main p a:not([class]),main td a:not([class]),main dd a:not([class]),main figcaption a:not([class]){color:var(--site);text-decoration-color:color-mix(in srgb,var(--site) 45%,transparent)}
+.cta:not(.ghost),.btn-primary,button.primary,.btn.primary,.pbtn{background:var(--site)!important;color:#fff!important;border:0!important}
+.cta:not(.ghost):hover,.btn-primary:hover,button.primary:hover,.btn.primary:hover,.pbtn:hover{background:var(--site-deep)!important}
+.cta,.btn,.pbtn,button.primary{min-height:44px}
+
+/* ---------- 表 ---------- */
+thead th{background:var(--site-weak)!important;color:var(--ink)!important}
+
+th,td,figcaption,small,.note,.fine,dt,dd,li,p{text-wrap:pretty}
+h1,h2,h3{text-wrap:pretty}
+@media(max-width:640px){
+  /* 3列以上の表：表の中だけ横に送る（ページは広げない）。列は最小 7em（4列以上は 7.5em）、ラベル列は 5.5em */
+  main table:has(tr>:nth-child(3)){display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  main table:has(tr>:nth-child(3)) :is(th,td){min-width:7em}
+  main table:has(tr>:nth-child(4)) :is(th,td){min-width:7.5em}
+  main table:has(tr>:nth-child(3)) :is(th,td):first-child{min-width:5.5em}
+}
+
+/* ---------- 注記は左揃え ---------- */
+main p[style*="text-align:right"],main p[style*="text-align: right"],main .fine,main .note,main small{text-align:left!important}
+
+/* ---------- 意味のない動きを止める ---------- */
+.reveal,.rv{opacity:1!important;transform:none!important;transition:none!important}
+@supports (animation-timeline:view()){.card,.ans,.method,.note,.tw{animation:none!important}}
+
+/* ---------- フッター（サイト色の濃い面） ---------- */
+footer.gf,body>footer{background:var(--site-deep)!important;color:rgba(255,255,255,.72)!important;border:0!important}
+footer.gf a,body>footer a{color:rgba(255,255,255,.88)!important}
+footer.gf a:hover,body>footer a:hover{color:#fff!important}
+footer.gf h4,body>footer h4,.gf .gf-brand,footer .logo{color:#fff!important}
+.gf .gf-brand b,footer .logo b{color:#D4B46A!important}
+.gf .gf-cols,.gf .gf-disc{border-color:rgba(255,255,255,.14)!important}
+footer.gf p,body>footer p,footer .minor{color:rgba(255,255,255,.66)!important}
+footer.gf .gf-cols a,body>footer .f-links a{display:flex!important;align-items:center;min-height:44px;padding:0!important}
+
+/* ---------- Veliq のメディア（全サイト共通の並び） ---------- */
+.vq-fam{display:block!important;border-top:1px solid rgba(255,255,255,.14);margin-top:28px;padding-top:24px}
+.gf .vq-fam{border-top:0;margin-top:0}
+.vq-fam-h{display:flex;align-items:center;gap:10px;margin:0 0 12px!important;font-size:13px;font-weight:600;color:#fff!important}
+.vq-fam-h::before{width:22px;height:22px;border-radius:5px}
+.vq-fam ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0 20px}
+.vq-fam li{margin:0;padding:0}
+.vq-fam a{display:inline-flex!important;align-items:center;min-height:44px;padding:0!important;font-size:13px;color:rgba(255,255,255,.82)!important;text-decoration:none}
+.vq-fam a[aria-current]{color:#D4B46A!important;font-weight:600}
+@media(max-width:640px){.vq-fam ul{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}}
+
+/* ---------- Academy 固有（2026-11-03） ---------- */
+.gh .brand{gap:0!important}
+.gh .brand::before{margin-right:10px}
+.gh .brand b{margin-left:.3em}
+.gf .gf-brand{gap:0!important}.gf .gf-brand::before{margin-right:10px}.gf .gf-brand b{margin-left:.3em}
+/* フッター（濃い藍）：折りたたみの線と文字 */
+footer.gf{margin-top:64px;padding:40px 0 48px}
+.gf .gf-s,.gf .gf-s:last-of-type{border-color:rgba(255,255,255,.14)!important}
+.gf summary{color:#fff!important}
+.gf summary::after{color:rgba(255,255,255,.6)!important}
+.gf .vq-fam{border-top:0;margin-top:8px}
+/* 4列以上の表は表の中だけ横に送る（後段の width:100% を打ち消す） */
+@media(max-width:640px){
+  .va-tbl table:has(tr>:nth-child(3)){width:max-content!important;min-width:100%;display:table!important}
+  .va-tbl table:has(tr>:nth-child(3)) :is(th,td){min-width:7em}
+  .va-tbl table:has(tr>:nth-child(4)) :is(th,td){max-width:15em}
+  .va-tbl table:has(tr>:nth-child(3)) :is(th,td):first-child{min-width:5.5em}
+  .va-kv th{min-width:6.5em}
+}
+/* 本文の大見出し：下線をサイト色に */
+.va-body>h2,.va-sec>h2{border-bottom-color:color-mix(in srgb,var(--site) 35%,transparent)!important}
+.va-btn:not(.ln){background:var(--site)}.va-btn:not(.ln):hover{background:var(--site-deep)}
+/* 320px でヘッダーが収まるように（マークを足した分を詰める） */
+/* 375px 未満は「V マーク＋Academy」で示す（V が Veliq）*/
+@media(max-width:374px){.gh .brand{font-size:0!important}.gh .brand b{font-size:17px;margin-left:0}.gh .brand::before{width:26px;height:26px;margin-right:8px}.gh .gnav{gap:0!important;margin-left:2px!important}.gh .gnav a{padding:0 6px!important;font-size:14px!important}.gh-in{gap:6px!important}}
+.gh .gnav a.on{border-bottom-color:var(--site)!important;box-shadow:none!important}
+.gh .burger{flex:none}
+/* 数値セル・ボタン・見出しセルの1文字だけの行を防ぐ */
+@media(max-width:640px){main table:has(tr>:nth-child(4)) td.num{white-space:nowrap}main th{text-wrap:balance}}
+.btn,.cta,.va-btn,.pbtn{text-wrap:balance}
+@media(max-width:640px){.va-tbl table:not(:has(tr>:nth-child(3))) td:first-child{min-width:7.5em}}
