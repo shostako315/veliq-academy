@@ -1147,7 +1147,7 @@ def build_work(S, wid):
          bc + f'<article class="va-art">{hd}{meta}{body}{t}</article>', ld, "works", v["updated"])
 
 
-DATA_SRC = "Veliq Academy のデータ（veliq-academy/data/*.json）。生没年・出身・作品の年は Britannica と Wikipedia で照合した（2026-10-29）"
+DATA_SRC = "Veliq Academy のデータ（veliq-academy/data/*.json）。生没年・出身・作品の年は Britannica で照合した（2026-10-29）"
 
 
 def kv_table(rows_):
