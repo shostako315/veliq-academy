@@ -501,3 +501,14 @@ footer.gf{margin-top:64px;padding:40px 0 48px}
 @media(max-width:640px){main table:has(tr>:nth-child(4)) td.num{white-space:nowrap}main th{text-wrap:balance}}
 .btn,.cta,.va-btn,.pbtn{text-wrap:balance}
 @media(max-width:640px){.va-tbl table:not(:has(tr>:nth-child(3))) td:first-child{min-width:7.5em}}
+/* PC：本文720px＋右に追従する目次（2026-11-04） */
+@media(min-width:1180px){
+  .va-art:has(.va-toc){max-width:1036px}
+  .va-art:has(.va-toc) .va-hd{max-width:720px}
+  .va-art .va-body:has(>.va-toc){display:grid;grid-template-columns:minmax(0,720px) 260px;column-gap:56px;align-items:start}
+  .va-art .va-body:has(>.va-toc)>*{grid-column:1;min-width:0}
+  .va-art .va-body>.va-toc{grid-column:2;grid-row:1/span 999;position:sticky;top:88px;max-height:calc(100vh - 120px);overflow:auto;margin:0;padding:0 0 0 20px;border:0;border-left:.5px solid rgba(60,60,67,.18)}
+  .va-art .va-body>.va-toc summary{pointer-events:none;list-style:none}
+  .va-art .va-body>.va-toc summary::-webkit-details-marker{display:none}
+  .va-art .va-body>.va-toc summary::after{display:none}
+}
