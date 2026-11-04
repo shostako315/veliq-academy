@@ -4,25 +4,23 @@ slug: bach-life-and-works
 section: history
 summary: 1685年にアイゼナハで生まれ、1750年にライプツィヒで没したバッハの生涯を、アルンシュタット、ミュールハウゼン、ワイマール、ケーテン、ライプツィヒ（1723年から聖トーマス教会のカントル）の5期に分け、《平均律クラヴィーア曲集》全2巻48組、《マタイ受難曲》（1727年初演、1829年メンデルスゾーンが再演）、《音楽の捧げもの》（1747年、フリードリヒ大王の主題）を中心に、作風・代表作・最初に聴く3曲を示す。
 aliases: ["バッハ", "J.S.バッハ", "ヨハン・ゼバスティアン・バッハ", "Johann Sebastian Bach", "J. S. Bach", "Bach", "平均律クラヴィーア曲集", "Well-Tempered Clavier", "マタイ受難曲", "St Matthew Passion", "音楽の捧げもの", "Musical Offering", "トーマスカントル", "フーガ"]
-image: https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Sebastian_Bach.jpg?width=900
-image_credit: エリアス・ゴットロープ・ハウスマン（Elias Gottlob Haussmann, 1695–1774）作、ヨハン・ゼバスティアン・バッハの肖像（1746年、油彩）。ライプツィヒ市歴史博物館蔵。作者の没後70年以上を経ており、パブリックドメイン（Wikimedia Commons, File:Johann Sebastian Bach.jpg）
-image_alt: ハウスマンによるヨハン・ゼバスティアン・バッハの肖像（1746年、油彩）
 updated: 2026-11-03
 sources:
   - "Bach-Archiv Leipzig「Johann Sebastian Bach ─ chronology」（出生、各地の職と年、結婚、子ども、1723年の就任、1727年4月11日の《マタイ受難曲》、1729年のコレギウム・ムジクム、1733年、1747年のポツダム、1748年、眼の手術、1750年7月28日の死）. https://www.bach-leipzig.de/en/neutral/johann-sebastian-bach-%E2%94%80-chronology（閲覧日 2026-11-03）"
-  - "Wikipedia（英語版）「St Matthew Passion」（BWV 244、ピカンダー、1727年4月11日、1736年3月30日の改訂、1829年3月11日のメンデルスゾーンによる再演と短縮）. https://en.wikipedia.org/wiki/St_Matthew_Passion（閲覧日 2026-11-03）"
-  - "Wikipedia（英語版）「The Well-Tempered Clavier」（BWV 846–893、第1巻1722年ケーテン、第2巻1742年、48組、題扉の文言、「よく調律された」の意味、ビューローの「旧約聖書」、1801年の初版）. https://en.wikipedia.org/wiki/The_Well-Tempered_Clavier（閲覧日 2026-11-03）"
   - "Chamber Music Society of Lincoln Center, program notes「The Musical Offering」（1747年5月7〜8日、王の主題、3声の即興、6声、出版）. Veliq Academy「バロックの音楽」の記事で確認. https://veliq-academy.com/music/history/baroque-music/（閲覧日 2026-10-30）"
   - "Gresham College, Townend 2015（1705〜06年のリューベック行き）. Veliq Academy「バロックの音楽」の記事で確認. https://veliq-academy.com/music/history/baroque-music/（閲覧日 2026-10-30）"
   - "Carus-Verlag Blog（1723年2月7日の試験、5月30日の BWV 75、カンタータ年巻）. Veliq Academy「バロックの音楽」の記事で確認. https://veliq-academy.com/music/history/baroque-music/（閲覧日 2026-10-30）"
+  - "Encyclopædia Britannica「St. Matthew Passion, BWV 244」（ピカンダーの台本、1727年4月11日の初演、規模、1829年3月11日のメンデルスゾーンの再演）. https://www.britannica.com/topic/St-Matthew-Passion-BWV-244（閲覧日 2026-11-03）"
+  - "Encyclopædia Britannica「Johann Sebastian Bach summary」（《平均律クラヴィーア曲集》1722年・1742年）. https://www.britannica.com/summary/Johann-Sebastian-Bach（閲覧日 2026-11-03）"
+  - "G. Henle Verlag「The Well-Tempered Clavier Part I BWV 846-869」（HN 1014）商品頁（第1巻1722年、全長調・短調の前奏曲とフーガ、第2巻 BWV 870–893）. https://www.henle.de/The-Well-Tempered-Clavier-Part-I-BWV-846-869/HN-1014（閲覧日 2026-11-03）"
 ---
 
 ## 1. 要点
 
 > 要点
 > - **1685年3月21日アイゼナハ生まれ、1750年7月28日ライプツィヒ没**。1723年から没年まで**聖トーマス教会のカントル**。
-> - 《平均律クラヴィーア曲集》は第1巻（1722年）と第2巻（1742年）に24の長調・短調すべての前奏曲とフーガを1組ずつ収め、計**48組**。
-> - 《マタイ受難曲》は1727年の聖金曜日に初演され、1829年に20歳の**メンデルスゾーン**がベルリンで再演した。
+> - 《平均律クラヴィーア曲集》は第1巻（1722年）と第2巻（1742年）からなる教育的な曲集で、各巻に長調・短調の前奏曲とフーガを収める。
+> - 《マタイ受難曲》は1727年の聖金曜日に初演され、1829年に**メンデルスゾーン**がベルリンで再演した。
 
 バッハ（Johann Sebastian Bach）の生涯は、5つの勤務地で区切ることができる。==バッハの作品の大半は、その時々の職務——オルガニスト、宮廷楽長、教会のカントル——のために書かれた。==
 
@@ -51,7 +49,6 @@ sources:
 | 1727 | 4月11日、《マタイ受難曲》初演 |
 | 1729 | 3月、コレギウム・ムジクムを引き受ける（カフェ・ツィンマーマン） |
 | 1733 | 《ロ短調ミサ》のキリエとグロリアをドレスデンのフリードリヒ・アウグスト2世に献呈 |
-| 1736 | 3月30日、《マタイ受難曲》改訂版 |
 | 1742 | 《平均律クラヴィーア曲集》第2巻 |
 | 1747 | 5月、ポツダムとベルリンでフリードリヒ2世を訪ねる。《音楽の捧げもの》 |
 | 1748 | 《ロ短調ミサ》完成 |
@@ -73,37 +70,33 @@ sources:
 
 > 要点
 > - **フーガ**は一つの主題を複数の声部が順に模倣して展開する対位法の楽曲で、バッハは鍵盤曲からミサ曲までにこれを書いた。
-> - 《平均律》の「よく調律された」は、すべての調が使える調律を指し、12平均律と同じとは限らない。
 > - 《音楽の捧げもの》は王の主題による3声と6声のリチェルカーレ、カノン、トリオ・ソナタからなる。
 
 ### 3-1. 旋律と和声——調律とすべての調
-
-《平均律クラヴィーア曲集》の題の「よく調律された」は、すべての調が受け入れられる響きになる調律を指す。20世紀の大半は12平均律を意味すると考えられたが、今はその見方が疑われ、不等分の「ウェル・テンペラメント」とみる研究者が多い。1722年の題扉には「学びたいと望む音楽の若者の利益と使用のために」と記されている。
 
 ### 3-2. 形式——フーガとカノン
 
 ==フーガは一つの主題を各声部が次々に受け継いで展開する楽曲で、《平均律》の48のフーガと《音楽の捧げもの》のリチェルカーレがその例である。==《音楽の捧げもの》は1747年5月7〜8日の宮廷訪問で王が示した「王の主題」をもとに、3声のリチェルカーレ（即興に由来）、6声のリチェルカーレ、カノン群、トリオ・ソナタを集め、同年に出版された。
 
-### 3-3. 編成——二重合唱と二重管弦楽
+### 3-3. 規模——《マタイ受難曲》
 
-《マタイ受難曲》BWV 244 は独唱、**二重合唱と二重管弦楽**のための受難オラトリオで、台本はピカンダー（Christian Friedrich Henrici）による。一般に知られる形は1736年3月30日の改訂版である。
+《マタイ受難曲》BWV 244 は、バッハの作品のうちで最も長く入念な作品で、2部からなり、演奏に3時間近くかかる。台本の大部分はピカンダー（Christian Friedrich Henrici）による。[（Britannica）](https://www.britannica.com/topic/St-Matthew-Passion-BWV-244)
 
 ## 4. 代表作
 
 > 要点
-> - 《平均律》は約半世紀写本で伝わり、初版は没後51年の**1801年**にボン、ライプツィヒ、チューリヒの3社から出た。
-> - 《マタイ受難曲》の1829年のメンデルスゾーンの再演は、アリアの約3分の1と合唱の約半分を削った短縮版だった。
+> - 《マタイ受難曲》はバッハの死後忘れられ、1829年3月11日のメンデルスゾーンの再演で再び知られるようになった。
 
 | ジャンル | 作品 | BWV | 時期 | 事項 |
 |---|---|---|---|---|
-| 鍵盤曲 | 《平均律クラヴィーア曲集》第1巻 | 846–869 | ケーテン、1722年 | 24調の前奏曲とフーガ |
-| 鍵盤曲 | 《平均律クラヴィーア曲集》第2巻 | 870–893 | ライプツィヒ、1742年 | 同上。合わせて48組。ビューローは「音楽の旧約聖書」と呼び、ベートーヴェンのソナタを「新約聖書」とした |
-| 受難曲 | 《マタイ受難曲》 | 244 | ライプツィヒ、1727年 | 1727年4月11日初演（1729年説もあったが1975年以降は1727年が有力）。1829年3月11日、メンデルスゾーンがベルリン・ジングアカデミーで再演 |
+| 鍵盤曲 | 《平均律クラヴィーア曲集》第1巻 | 846–869 | ケーテン、1722年 | 前奏曲とフーガ |
+| 鍵盤曲 | 《平均律クラヴィーア曲集》第2巻 | 870–893 | ライプツィヒ、1742年 | 同上 |
+| 受難曲 | 《マタイ受難曲》 | 244 | ライプツィヒ、1727年 | 1727年4月11日、聖トーマス教会で初演。1829年3月11日、メンデルスゾーンがベルリン・ジングアカデミーで、400人の合唱と管弦楽により再演 |
 | ミサ曲 | 《ロ短調ミサ》 | 232 | 1733年・1748年 | キリエとグロリアを1733年に献呈、1748年に全曲完成 |
 | 器楽 | 《音楽の捧げもの》 | 1079 | 1747年 | フリードリヒ2世の主題による |
 | カンタータ | 教会カンタータ | — | 主にライプツィヒ | 1723年5月30日の BWV 75 から年巻を書き進めた |
 
-==1829年の再演は、ライプツィヒ以外でこの曲がほぼ全曲の形で演奏された最初で、バッハの大作が広く注目される契機となった。==
+==バッハの死後、この曲はほかの多くの作品とともに忘れられ、1829年のメンデルスゾーンの演奏で再び知られるようになった。==[（Britannica）](https://www.britannica.com/topic/St-Matthew-Passion-BWV-244)
 
 ## 5. 聴き方（最初の3曲）
 
@@ -115,7 +108,7 @@ sources:
 |---|---|---|---|
 | 1 | 《平均律クラヴィーア曲集》第1巻第1番 ハ長調 BWV 846 | ケーテン | 前奏曲とフーガの組。48組の最初 |
 | 2 | 《音楽の捧げもの》の3声のリチェルカーレ BWV 1079 | ライプツィヒ晩年 | 王の主題。即興に由来する |
-| 3 | 《マタイ受難曲》BWV 244 | ライプツィヒ | 二重合唱。1736年改訂版 |
+| 3 | 《マタイ受難曲》BWV 244 | ライプツィヒ | 2部からなる受難曲 |
 
 ==3曲の成立地は第2節の年表の後半2期に対応する。==
 
@@ -143,8 +136,9 @@ sources:
 ## 参考文献
 
 1. Bach-Archiv Leipzig「Johann Sebastian Bach ─ chronology」（出生、各地の職と年、結婚、子ども、1723年の就任、1727年4月11日の《マタイ受難曲》、1729年のコレギウム・ムジクム、1733年、1747年のポツダム、1748年、眼の手術、1750年7月28日の死）. https://www.bach-leipzig.de/en/neutral/johann-sebastian-bach-%E2%94%80-chronology（閲覧日 2026-11-03）
-2. Wikipedia（英語版）「St Matthew Passion」（BWV 244、ピカンダー、1727年4月11日、1736年3月30日の改訂、1829年3月11日のメンデルスゾーンによる再演と短縮）. https://en.wikipedia.org/wiki/St_Matthew_Passion（閲覧日 2026-11-03）
-3. Wikipedia（英語版）「The Well-Tempered Clavier」（BWV 846–893、第1巻1722年ケーテン、第2巻1742年、48組、題扉の文言、「よく調律された」の意味、ビューローの「旧約聖書」、1801年の初版）. https://en.wikipedia.org/wiki/The_Well-Tempered_Clavier（閲覧日 2026-11-03）
-4. Chamber Music Society of Lincoln Center, program notes「The Musical Offering」（1747年5月7〜8日、王の主題、3声の即興、6声、出版）. Veliq Academy「バロックの音楽」の記事で確認. https://veliq-academy.com/music/history/baroque-music/（閲覧日 2026-10-30）
-5. Gresham College, Townend 2015（1705〜06年のリューベック行き）. Veliq Academy「バロックの音楽」の記事で確認. https://veliq-academy.com/music/history/baroque-music/（閲覧日 2026-10-30）
-6. Carus-Verlag Blog（1723年2月7日の試験、5月30日の BWV 75、カンタータ年巻）. Veliq Academy「バロックの音楽」の記事で確認. https://veliq-academy.com/music/history/baroque-music/（閲覧日 2026-10-30）
+2. Chamber Music Society of Lincoln Center, program notes「The Musical Offering」（1747年5月7〜8日、王の主題、3声の即興、6声、出版）. Veliq Academy「バロックの音楽」の記事で確認. https://veliq-academy.com/music/history/baroque-music/（閲覧日 2026-10-30）
+3. Gresham College, Townend 2015（1705〜06年のリューベック行き）. Veliq Academy「バロックの音楽」の記事で確認. https://veliq-academy.com/music/history/baroque-music/（閲覧日 2026-10-30）
+4. Carus-Verlag Blog（1723年2月7日の試験、5月30日の BWV 75、カンタータ年巻）. Veliq Academy「バロックの音楽」の記事で確認. https://veliq-academy.com/music/history/baroque-music/（閲覧日 2026-10-30）
+5. Encyclopædia Britannica「St. Matthew Passion, BWV 244」（ピカンダーの台本、1727年4月11日の初演、規模、1829年3月11日のメンデルスゾーンの再演）. https://www.britannica.com/topic/St-Matthew-Passion-BWV-244（閲覧日 2026-11-03）
+6. Encyclopædia Britannica「Johann Sebastian Bach summary」（《平均律クラヴィーア曲集》1722年・1742年）. https://www.britannica.com/summary/Johann-Sebastian-Bach（閲覧日 2026-11-03）
+7. G. Henle Verlag「The Well-Tempered Clavier Part I BWV 846-869」（HN 1014）商品頁（第1巻1722年、全長調・短調の前奏曲とフーガ、第2巻 BWV 870–893）. https://www.henle.de/The-Well-Tempered-Clavier-Part-I-BWV-846-869/HN-1014（閲覧日 2026-11-03）

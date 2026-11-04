@@ -21,8 +21,6 @@ sources:
   - 'Malte Krasting, Programme notes: Johannes Brahms, Concerto for Violin and Orchestra in D major op. 77, Berliner Philharmoniker. https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77（閲覧日 2026-10-29）'
   - 'Joanna Wyld, programme note, Royal Concertgebouw Orchestra, Barbican, 4 November 2022. https://www.barbican.org.uk/sites/default/files/documents/2022-11/04112022_RCO_digitalprogramme.pdf（閲覧日 2026-10-29）'
   - 'David B. Levy, Program note, Winston-Salem Symphony, 2014. https://www.wssymphony.org/program-notes/brahms-violin-concerto/（閲覧日 2026-10-29）'
-  - 'Wikipedia（独語版）「Violinkonzert (Brahms)」（典拠 Roman Hinke, Begleittext zur Einspielung von Isabelle Faust, harmonia mundi 2011 ほか）. https://de.wikipedia.org/wiki/Violinkonzert_(Brahms)（閲覧日 2026-10-29）'
-  - 'Wikipedia（英語版）「Violin Concerto (Brahms)」（典拠 Michael Steinberg, The Concerto, OUP 1998, pp. 121–122；Jan Swafford, Johannes Brahms: A Biography, 1997 ほか）. https://en.wikipedia.org/wiki/Violin_Concerto_(Brahms)（閲覧日 2026-10-29）'
   - '録音データ：Audiophile Audition（Kreisler, Pristine PASC 765 評）, Casals Classical（Heifetz/Reiner RCA LSC-1903）, The Listeners'' Club（Oistrakh/Klemperer 1960）, Gramophone（Faust/Harding, harmonia mundi HMC902075 評）, harmonia mundi（HMM932075 商品頁）（閲覧日 2026-10-29）'
 ---
 
@@ -75,7 +73,7 @@ sources:
 
 ### 第1楽章 Allegro non troppo（ニ長調、3/4拍子）
 
-協奏曲の伝統に従い、独奏が入る前に長い管弦楽の提示部が置かれる。冒頭の主題はニ長調の主和音から出る。間もなく主題がハ長調で応答される箇所がある。同じニ長調・3/4拍子で始まる交響曲第2番と、雰囲気の近さが当時から指摘された。管弦楽の提示部の後半で短調に傾いた第2の楽想が出て、独奏ヴァイオリンはニ短調で、行進曲風の音型に導かれて入る。
+協奏曲の伝統に従い、独奏が入る前に長い管弦楽の提示部が置かれる。冒頭の主題はニ長調の主和音から出る。管弦楽の提示部の後半で短調に傾いた第2の楽想が出て、独奏ヴァイオリンはニ短調で、行進曲風の音型に導かれて入る。
 
 独奏の提示部以後、ソナタ形式の各部分は独奏と管弦楽の交替（バロックのリトルネッロ形式に由来する扱い）と組み合わされる。総譜はカデンツァの箇所を空けており、ブラームス自身のカデンツァは無い（カデンツァの節を参照）。カデンツァの後はブラームスの書いたコーダに入る。
 
@@ -87,7 +85,7 @@ sources:
 
 ### 第3楽章 Allegro giocoso, ma non troppo vivace（ニ長調）
 
-ロンドとソナタ形式の要素を合わせた楽章で、独奏ヴァイオリンが最初から主題を弾く。当時の聴衆はこの楽章をハンガリー風と受け取った。ハンガリー生まれのヨアヒムへの目配せとみる解説がある。コーダは Poco più presto で、行進曲風のリズムが入った後、いったん静まり、最後は管弦楽の強い和音で終わる。初演では、終わりの3連符の加速が大きな拍手を呼んだ。
+ロンドとソナタ形式の要素を合わせた楽章で、独奏ヴァイオリンが最初から主題を弾く。コーダは Poco più presto で、最後は管弦楽の強い和音で終わる。
 
 速度表示について、ヨアヒムは「non troppo vivace? sonst zu schwer」と書き込んだ。ブラームスはこれに応じて「ma non troppo vivace」を書き足し、一度消し、最終稿で再び採用した。前述のとおり、終楽章第21〜26小節は1879年8月の校正の段階で改められている。
 
@@ -130,14 +128,7 @@ sources:
 - 筆写の独奏パート（ブラームスとヨアヒムの鉛筆の書き込みがある）：米国議会図書館、ハイネマン財団コレクション
 - ブラームス所蔵の初版総譜：ウィーン楽友協会。新全集はこれを主要資料とする
 
-### 4楽章構想とピアノ協奏曲第2番
-
-送付状にあった4楽章の計画のうち、スケルツォは削られ、緩徐楽章は新しいアダージョに置き換えられた。カルベックは、削られたスケルツォがピアノ協奏曲第2番に転用されたと推測した。英語圏の解説には、この推測を事実のように書くものがある。
-
 ### ヴィオッティと協奏曲の理想
 
 ベルリン・フィルハーモニーの解説は、ブラームスがクララ・シューマンに理想の協奏曲を語る際、ヴィオッティ（Giovanni Battista Viotti）のイ短調協奏曲を「独特の自由な着想」の傑作として挙げたことを紹介している。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77)同じ解説は、当時この曲の難しさがほとんど克服できないものと考えられた理由を、独奏が管弦楽を支配しようとしない書き方に求めている。クララはこの曲について、管弦楽と独奏が完全に溶け合う箇所を称えた。
 
-### テンポ
-
-ファウストの録音に付けられたローマン・ヒンケ（Roman Hinke）の解説によれば、ヨアヒムのメトロノーム表示が伝わっており、それは今日の一般的な演奏よりかなり速いテンポを示す。具体的な数値は今回確認できなかった。

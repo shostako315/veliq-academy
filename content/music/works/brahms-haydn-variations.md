@@ -19,8 +19,6 @@ sources:
   - 'Renate Ulm, Begleittext zu: Brahms, Haydn-Variationen op. 56a, Symphonieorchester des Bayerischen Rundfunks, Herbert Blomstedt, BR-KLASSIK（BRmedia Service）2026, Booklet. https://eclassical.textalk.se/shop/17115/art65/5186965-14eab9-4035719002164_01.pdf（閲覧日 2026-10-29）'
   - 'BR-KLASSIK, Verkaufsinformation（販売案内）900216, Mai 2026（ブロムシュテット盤）. https://eclassical.textalk.se/shop/17115/art65/5186965-14eab9-4035719002164_04.pdf（閲覧日 2026-10-29）'
   - '"Variations on a Theme by Haydn, Op. 56", Encyclopædia Britannica. https://www.britannica.com/print/article/1243851（閲覧日 2026-10-29）'
-  - 'Wikipedia（英語版）「Variations on a Theme by Haydn」（典拠 Donald M. McCorkle, in: Brahms, Variations on a Theme of Haydn, Norton Critical Scores, ISBN 0-393-09206-2, p. 5 ほか）. https://en.wikipedia.org/wiki/Variations_on_a_Theme_by_Haydn（閲覧日 2026-10-29）'
-  - 'Wikipedia（英語版）「Carl Ferdinand Pohl」. https://en.wikipedia.org/wiki/Carl_Ferdinand_Pohl（閲覧日 2026-10-29）'
   - 'Calvin Dotsey, "Brahms'' Haydn Variations", Houston Symphony, 3 May 2018. https://houstonsymphony.org/brahms-haydn-variations/（閲覧日 2026-10-29）'
   - 'Bournemouth Symphony Orchestra, "Brahms: Variations on a Theme by Haydn". https://www.bhso.org.uk/work/brahms-variations-on-a-theme-by-haydn-2/（閲覧日 2026-10-29）'
   - 'Sotheby''s, Toscanini sale, London 2012, lot 13（ブラームス自筆の作品56b主題の引用譜）. https://www.sothebys.com/en/auctions/ecatalogue/2012/toscanini-l12413/lot.13.html（閲覧日 2026-10-29）'
@@ -37,7 +35,7 @@ sources:
 
 ### トゥッツィングの夏（1873年）
 
-ブラームスは1873年の夏、バイエルンのトゥッツィング（Tutzing）に滞在し、このコラールを主題とする変奏曲を書いた。2台ピアノ版が先に書かれ（作品56b）、管弦楽版（作品56a）がほぼ同時に続いた。2つの版は1873年の成立とされる。
+ブラームスは1873年の夏、バイエルンのトゥッツィング（Tutzing）に滞在し、このコラールを主題とする2台ピアノのための変奏曲を書き（作品56b）、その直後に管弦楽版（作品56a）を作った。[（Houston Symphony）](https://houstonsymphony.org/brahms-haydn-variations/)
 
 2台ピアノ版は1873年8月、ボンでの私的な集まりで、ブラームスとクララ・シューマン（Clara Schumann）が初めて弾いた。[（Britannica）](https://www.britannica.com/print/article/1243851)作品が仕上がると、ブラームスは友人の写真家ユリウス・アルゲイヤー（Julius Allgeyer）に写譜者を探すよう頼み、総譜を「同封のくだらないもの」（beiliegenden Schmarrn）と呼んでいる。[（BR-KLASSIK）](https://eclassical.textalk.se/shop/17115/art65/5186965-14eab9-4035719002164_01.pdf)
 
@@ -45,15 +43,13 @@ sources:
 
 管弦楽版の初演は1873年11月2日（日曜日）、ウィーン楽友協会大ホールでのフィルハーモニー演奏会第1回定期で、宮廷歌劇場管弦楽団の楽員をブラームス自身が指揮した。モーガン図書館が所蔵するこの演奏会のプログラムによれば、演奏会の残りの曲目はオットー・デッソフ（Otto Dessoff）が指揮し、モーツァルトの変ロ長調の交響曲 K.22、シューベルトの《アルフォンソとエストレッラ》序曲、ベートーヴェンの交響曲第7番が演奏された。[（The Morgan Library & Museum）](https://themorgan.org/node/1285871)
 
-2台ピアノ版の公開の場での演奏は、1874年2月10日、ウィーンのアントン・ドーア（Anton Door）のピアノ・クラスの演奏会で、マルヴィーネ・フォン・ベンフェルト（Malwine von Benfeld）とガブリエーレ・ブラウナー（Gabriele Brauner）が弾いた。
-
 ### 出版
 
 2台ピアノ版は1873年11月、ベルリンのN. ジムロックから版番号7397で出版された。管弦楽版の総譜とパート譜は1874年1月に同じジムロックから版番号7395で出た。管弦楽版の版番号の方が小さいが、刊行は2台ピアノ版が先である。
 
 ## 編成と演奏時間
 
-ピッコロ、フルート2、オーボエ2、クラリネット2、ファゴット2、コントラファゴット、ホルン4（変ホ調2、変ロ調2）、トランペット2、ティンパニ、トライアングル、弦五部。トライアングルは終曲で主題が戻るところで加わる。ブラームスの管弦楽作品でトライアングルが使われる例は少ない。
+ピッコロ、フルート2、オーボエ2、クラリネット2、ファゴット2、コントラファゴット、ホルン4（変ホ調2、変ロ調2）、トランペット2、ティンパニ、トライアングル、弦五部。トライアングルは終曲で主題が戻るところで加わる。
 
 演奏時間は約18分。
 
@@ -76,25 +72,23 @@ sources:
 
 ### 主題
 
-主題は前後2つの部分からなり、前半は5小節の楽句2つからなる10小節で、反復される。楽句は5小節と4小節を単位とする。主題の最後の3小節では、同じ音がオクターヴで繰り返される。ブラームスは主題をほぼ原曲どおりに引用しているが、楽器の扱いは原曲と異なる。原曲はオーボエ2、ホルン2、ファゴット3、セルパン（serpent）という管楽合奏のための曲である。
-
-ほとんどすべての変奏は主題の楽句構造をそのまま保ち、和声構造もおおむね保っている。
+原曲の旋律は、不規則な5小節の楽句2つで始まる。管弦楽版では、前半で主要な楽想を示して反復し、後半は対照的な楽句で始まって主要な楽想に戻り、結尾で終わる。[（Houston Symphony）](https://houstonsymphony.org/brahms-haydn-variations/)原曲はオーボエ2、ホルン2、ファゴット3、セルパン（serpent）という管楽合奏のための曲である。
 
 ### 第1変奏 Poco più animato
 
-主題の終わりのオクターヴの反復を、変奏全体の土台に広げる。3連符と2連符を重ねる（3対2）書法で、その音型がチェロとヴァイオリンの間を行き来する。
+3連符と2連符を重ねる（3対2）書法による。[（Houston Symphony）](https://houstonsymphony.org/brahms-haydn-variations/)
 
 ### 第2変奏 Più vivace
 
-変ロ短調。主題冒頭の付点の音型を取り出し、スケルツォ風に扱う。弱音と強音の急な対比を持つ。
+変ロ短調。弱音と強音の急な対比を持つ。[（Houston Symphony）](https://houstonsymphony.org/brahms-haydn-variations/)
 
 ### 第3変奏 Con moto
 
-オーボエとファゴットが主題を少し装飾した旋律を吹く。反復部分を、装飾と楽器を替えて書き出した二重変奏である。
+オーボエとファゴットが主題を少し装飾した旋律を吹く。
 
 ### 第4変奏 Andante con moto
 
-変ロ短調、3/8拍子。オーボエの独奏で始まる。この変奏も反復を楽器を替えて書き出している。
+変ロ短調、3/8拍子。オーボエの哀しげな独奏で始まる。[（Houston Symphony）](https://houstonsymphony.org/brahms-haydn-variations/)
 
 ### 第5変奏 Vivace
 
@@ -102,21 +96,19 @@ sources:
 
 ### 第6変奏 Vivace
 
-ホルンが中心となる変奏で、主題の冒頭を付点リズム抜きでなぞる。ホルンが弱音で始め、後半は全管弦楽のフォルティッシモに至る。
+ホルンが中心となる変奏で、ホルンが弱音で始め、後半は全管弦楽のフォルティッシモに至る。[（Houston Symphony）](https://houstonsymphony.org/brahms-haydn-variations/)
 
 ### 第7変奏 Grazioso
 
-シチリアーノのリズムによる変奏で、高音と低音の楽器の二重奏として書かれている。
+Grazioso の変奏で、高音と低音の楽器の二重奏として書かれている。[（Houston Symphony）](https://houstonsymphony.org/brahms-haydn-variations/)
 
 ### 第8変奏 Presto non troppo
 
-変ロ短調のスケルツァンド。
+変ロ短調のスケルツァンド。[（Houston Symphony）](https://houstonsymphony.org/brahms-haydn-variations/)
 
 ### 終曲 Andante
 
 主題から導いた5小節の低音主題（グラウンド）を繰り返し、その上で変奏を重ねるパッサカリアである。低音主題は主題冒頭の旋律を単純にしたものである。途中に変ロ短調の部分を挟む。レナーテ・ウルム（Renate Ulm）の解説によれば、冒頭は低音主題の上での模倣で始まり、低音主題が9回繰り返された後、主題はチェロ、ヴィオラ、ホルンへと上の声部に移る。続いてピッツィカートの音型の中に5小節現れ、オーボエとフルートにホルンを伴って浮かび上がる。最後にコラール主題が元の形で全管弦楽によって戻り、ここでトライアングルが加わる。[（BR-KLASSIK）](https://eclassical.textalk.se/shop/17115/art65/5186965-14eab9-4035719002164_01.pdf)
-
-ブラームスは12年後の1885年、交響曲第4番の終楽章でも、8小節の主題によるパッサカリア（シャコンヌ）を書いている。
 
 ## 演奏史と解釈
 
@@ -155,6 +147,6 @@ sources:
 
 ### 2つの版の関係
 
-作品56bは作品56aの編曲ではなく、先に書かれた独立した版である。2つの版は速度表示が一部異なり（上の表）、刊行も2台ピアノ版が2か月早い。この管弦楽版はしばしば「管弦楽のための最初の独立した変奏曲」と言われるが、少なくとも先例としてアントニオ・サリエリ（Antonio Salieri）の《スペインのフォリアによる26の変奏曲》（1815年）がある。
+作品56bは作品56aの編曲ではなく、先に書かれた独立した版である。2つの版は速度表示が一部異なる（上の表）。
 
 ブラームスは後年もこの主題を書き記している。1893年10月にウィーンで書いた、作品56bの主題の第19〜20小節（第2ピアノ）の自筆引用譜が伝わり、のちにウィーン・フィルハーモニーの楽員がトスカニーニ（Arturo Toscanini）に贈った署名帳（1933年10月24日）に貼り込まれた。[（Sotheby's）](https://www.sothebys.com/en/auctions/ecatalogue/2012/toscanini-l12413/lot.13.html)

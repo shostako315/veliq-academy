@@ -14,8 +14,6 @@ sources:
   - 'Robert Pascall, Preface. In: Johannes Brahms, Symphonie Nr. 4 e-moll op. 98, Studien-Edition HN 9856, G. Henle Verlag（本文は Johannes Brahms Gesamtausgabe Serie I/4, München 2011 による。序文の日付 Nottingham, Frühjahr 2012）. https://www.henle.de/media/83/a6/c0/1697725877/9856-1697725877-sync.pdf（閲覧日 2026-10-29）'
   - 'IMSLP「Symphony No.4, Op.98 (Brahms, Johannes)」（初版総譜 N. Simrock, Berlin 1886, 版番号8686）. https://imslp.org/wiki/Symphony_No.4,_Op.98_(Brahms,_Johannes)（閲覧日 2026-10-29）'
   - 'New York Public Library, Research Catalog b10026652（自筆総譜のマイクロフィルム。原本は Bibliothek der Allgemeinen Musikgesellschaft, Zürich）. https://discovery.nypl.org/research/research-catalog/bib/b10026652（閲覧日 2026-10-29）'
-  - 'Wikipedia（独語版）「4. Sinfonie (Brahms)」（典拠 Max Kalbeck, Johannes Brahms, Bd. 3, 1921；Peter Petersen, Zeitschrift der Gesellschaft für Musiktheorie 10, 2013, Archiv für Musikwissenschaft 70, 2013, Neue Zeitschrift für Musik 180, 2019；Siegfried Ochs, Geschehenes, Gesehenes, 1922 ほか）. https://de.wikipedia.org/wiki/4._Sinfonie_(Brahms)（閲覧日 2026-10-29）'
-  - 'Wikipedia（英語版）「Symphony No. 4 (Brahms)」（典拠 Malcolm MacDonald, Brahms, 1990；Walter Frisch, Brahms: The Four Symphonies, Yale UP 2003；Henry Pleasants (ed.), Hanslick''s Music Criticisms 1846–99, 1963 ほか）. https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)（閲覧日 2026-10-29）'
   - 'Hartmut Haenchen, „Authentischer Brahms?" https://www.haenchen.net/fileadmin/media/pdf/authentischer_brahms.pdf（閲覧日 2026-10-29）'
   - '録音データ：MusicWeb International（Furtwängler PASC456 評 2016年3月／Toscanini PASC349 評 2013年8月／Klemperer EMI 5 62742 2 評 2004年3月／Mackerras Telarc CD-80465 評 2005年11月／Christopher Dyment, Conducting the Brahms Symphonies, Boydell 2016 評 2017年11月）, MusicWeb International（Toscanini in London 1935, WHRA 6046 評 2013年4月）, Casals Classical（Toscanini/NBC, La Voix de son Maître FALP 204 の商品記述：1951年12月3日）, MusicBrainz（Carlos Kleiber, Complete Recordings on Deutsche Grammophon）, Gramophone（Mackerras Telarc 全集評 1997年10月）（閲覧日 2026-10-29）'
   - 'Review: Christopher Dyment, Conducting the Brahms Symphonies, MusicWeb International, November 2017. https://www.musicweb-international.com/classrev/2017/Nov/Brahms_conducting_book.htm（閲覧日 2026-10-29）'
@@ -68,37 +66,25 @@ sources:
 
 ### 第1楽章 Allegro non troppo（ホ短調）
 
-ソナタ形式。第1小節から、3度の下行と6度の上行を連ねた主題が現れる（ロ—ト—ホ—ハ—イ—嬰ヘ—嬰ニ—ロ）。この3度の連鎖は全曲を通じて変形される。第19小節で属調ロ短調への移行が始まり、第53小節に管楽器のリズム動機、第57小節にロ短調の第2主題、第95小節にロ長調の第2主題の後半部、第107小節に終結部がある。
+ソナタ形式。冒頭から、3度の下行と6度の上行を連ねた主題が現れる（ロ—ト—ホ—ハ—イ—嬰ヘ—嬰ニ—ロ）。
 
-展開部は第145小節から始まる。冒頭は第1主題を主調で再び出すため、提示部の反復のように聞こえる。再現部（第247小節〜）は主題を引き延ばした形で目立たずに始まる。コーダは第394小節から、第1主題を中心に高まってホ短調で終わる。
+展開部の冒頭は第1主題を主調で再び出すため、提示部の反復のように聞こえる。楽章はホ短調で終わる。
 
 ### 第2楽章 Andante moderato（ホ長調）
 
-第1小節でホルンがホ音を主音とするフリギア旋法の動機を吹き、第5小節からホ長調の主題になる。第36小節にロ長調の移行主題、第41小節にチェロ、続いてヴァイオリンによる第2主題、第64小節に再現がある。展開部を持たない変形されたソナタ形式で、第106小節からコーダとなる。ハンスリックはこの楽章を「エレジー」と呼んだ。
+冒頭でホルンがホ音を主音とするフリギア旋法の動機を吹き、続いてホ長調の主題になる。
 
 マッケラスの録音では、シュタインバッハの指示に従ってこの楽章の独奏ヴィオラの人数を減らしている（後述）。
 
 ### 第3楽章 Allegro giocoso（ハ長調、2/4拍子）
 
-4曲の交響曲で唯一、スケルツォの性格を持つ楽章であり、トリオを持たないソナタ形式で書かれている。ピッコロ、コントラファゴット、トライアングルが加わる。第1主題は第1小節から、第46小節でト長調への移行があり、第52小節に叙情的な第2主題、第89小節から展開部となる。第181小節付近にホルンの響く遅い部分があり、第199小節から再現部、第282小節からコーダとなる。コーダの第317小節付近で、終楽章の主題の前半を先取りする音型がヴァイオリンに現れる。
+ピッコロ、コントラファゴット、トライアングルが加わる。
 
 ### 第4楽章 Allegro energico e passionato（ホ短調、3/4拍子）
 
-8小節の主題による30の変奏とコーダからなるパッサカリア（シャコンヌ）である。主題は低音だけでなく他の声部にも置かれる。各変奏は8小節で、主な区分は次のとおりである。
+8小節の主題による30の変奏とコーダからなるパッサカリア（シャコンヌ）である。主題は低音だけでなく他の声部にも置かれる。
 
-| 小節 | 変奏 | 内容 |
-|---|---|---|
-| 1 | 主題 | ホ短調、8小節 |
-| 9 | 第1〜11変奏 | 主にホ短調 |
-| 97 | 第12〜15変奏 | 3/2拍子。第12変奏はホ短調でフルートの独奏、第13〜15変奏はホ長調でトロンボーンのコラールを含む |
-| 129 | 第16〜23変奏 | ホ短調に戻る |
-| 193 | 第24〜26変奏 | 第1〜3変奏に対応する |
-| 217 | 第27〜30変奏 | 第27変奏で管楽器に第1楽章の主題が現れる |
-| 249 | 第30変奏の延長 | 4小節の移行 |
-| 253 | コーダ（Più Allegro） | 多くの調を経る |
-| 297 | 主題の最後の圧縮した提示 | ホ短調で終わる |
-
-第12〜15変奏の3/2拍子では1小節が2倍の長さになるため、小節数は8のまま、時間は倍になる。全曲はホ短調で終わる。4曲の交響曲で短調のまま終わるのはこの曲だけである。
+全曲はホ短調で終わる。
 
 ## 演奏史と解釈
 
@@ -113,20 +99,14 @@ sources:
 - アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮 BBC交響楽団（1935年6月、ロンドンでのライヴ）。MusicWeb International は、クリストファー・ダイメント（Christopher Dyment）の著書『ブラームスの交響曲を指揮する』（2016年）の書評で、同書が手本としているのはこの録音とみられると書いている。[（MusicWeb International）](https://www.musicweb-international.com/classrev/2017/Nov/Brahms_conducting_book.htm)トスカニーニはNBC交響楽団とも、ニューヨークのカーネギー・ホールで録音している（録音日は1951年12月3日とする資料と1952年12月3日とする資料がある）。
 - ヴィルヘルム・フルトヴェングラー（Wilhelm Furtwängler）指揮 ベルリン・フィルハーモニー管弦楽団（1948年10月24日、ベルリン、ティタニア・パラスト、ライヴ）。全曲41分24秒。MusicWeb International の評は、第1楽章の中ほどで大きくテンポを落とす箇所、近年の標準より遅い第2楽章を指摘している。
 - オットー・クレンペラー（Otto Klemperer）指揮 フィルハーモニア管弦楽団（1956年11月1日、1957年3月28〜29日、ロンドン、キングズウェイ・ホール、EMI）。同誌の評は、第1楽章の終わりのアッチェレランドと、終楽章のフルート独奏の変奏で速度を落とすことを指摘している。[（MusicWeb International）](https://musicweb-international.com/classrev/2004/Mar04/Brahms_Klemperer.htm)
-- カルロス・クライバー（Carlos Kleiber）指揮 ウィーン・フィルハーモニー管弦楽団（1980年3月12〜15日、ウィーン楽友協会大ホール、ドイツ・グラモフォン）。楽章ごとの所要時間は12分54秒・11分24秒・6分09秒・9分14秒。
+- カルロス・クライバー（Carlos Kleiber）指揮 ウィーン・フィルハーモニー管弦楽団（ドイツ・グラモフォン）。
 - チャールズ・マッケラス（Charles Mackerras）指揮 スコットランド室内管弦楽団（1997年1月27〜30日、エディンバラ、アッシャー・ホール、Telarc CD-80465）。全曲39分09秒。録音の解説書は、ブラームスがこの曲を書いたマイニンゲン宮廷楽団の規模に倣って小さい弦の編成を採ったと説明している。[（MusicWeb International）](https://www.musicweb-international.com/classrev/2005/Nov05/Brahms34__Mackerras%20CD80465.htm)第2楽章の独奏ヴィオラの人数はシュタインバッハの指示に従って減らしている。[（Gramophone）](https://gramophone.co.uk/review/brahms-symphonies-nos-1-4-academic-festival-overture)
 
 ## もっと深く
 
 ### バッハのカンタータ BWV 150 と終楽章
 
-終楽章の主題は、バッハのカンタータ《主よ、われ汝を仰ぎ望む》（Nach dir, Herr, verlanget mich）BWV 150 の終曲のシャコンヌの主題を変形したものとされる。パスコールによれば、フィリップ・シュピッタ（Philipp Spitta）は1874年2月9日にこのカンタータの写しをブラームスに送っている。[（Henle 序文）](https://www.henle.de/media/83/a6/c0/1697725877/9856-1697725877-sync.pdf)1882年1月、ブラームスはビューローらとこの終曲について話し、その主題で交響曲の楽章を書くとすれば半音階的に変える必要があると語ったと伝えられる。
-
-この1882年の会話は、ジークフリート・オクス（Siegfried Ochs）が回想録『起きたこと、見たこと』（Geschehenes, Gesehenes, 1922年）で伝えたものである。ペーター・ペーターゼン（Peter Petersen）は2013年と2019年の論文で、このオクスの逸話を偽作とみなしている。変奏曲の手本としてベートーヴェンの《32の変奏曲》WoO 80 を挙げる見方もある。
-
-### 主題の3度連鎖をめぐる議論
-
-第1楽章冒頭の3度の連鎖が全曲の素材になっているという見方は、アルノルト・シェーンベルク（Arnold Schoenberg）の論文「進歩主義者ブラームス」（Brahms the Progressive）でも取り上げられた。これに対してエゴン・フォス（Egon Voss）は、すべての動機を冒頭主題に還元することに反対し、ペーターゼンは、3度の連鎖が第1・第3・第4楽章の大部分を形づくっていると反論している。ペーターゼンはまた、終楽章第233小節で引用されるのは交響曲の冒頭ではなく、第1楽章の再現部に向かう準備の部分（第240小節）であるとしている。
+終楽章の主題は、バッハのカンタータ《主よ、われ汝を仰ぎ望む》（Nach dir, Herr, verlanget mich）BWV 150 の終曲のシャコンヌの主題を変形したものとされる。パスコールによれば、フィリップ・シュピッタ（Philipp Spitta）は1874年2月9日にこのカンタータの写しをブラームスに送っている。[（Henle 序文）](https://www.henle.de/media/83/a6/c0/1697725877/9856-1697725877-sync.pdf)
 
 ### 初期の評価
 

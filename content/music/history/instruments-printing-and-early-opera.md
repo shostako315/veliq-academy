@@ -4,16 +4,13 @@ slug: instruments-printing-and-early-opera
 section: history
 summary: 1600年をはさむ時期の3つの変化——ルネサンスを代表する撥弦楽器リュート、1501年のペトルッチ《オデカトン》に始まる多声音楽の活字印刷、フィレンツェのカメラータから1598年の《ダフネ》、1600年の《エウリディーチェ》、1607年のマントヴァの《オルフェオ》に至るオペラの成立——を、制度・様式・人物・作品の表で整理する。
 aliases: ["リュート", "lute", "ウード", "ペトルッチ", "オッタヴィアーノ・ペトルッチ", "Ottaviano Petrucci", "オデカトン", "Odhecaton", "楽譜印刷", "カメラータ", "フィレンツェのカメラータ", "Florentine Camerata", "バルディ伯", "ペーリ", "Jacopo Peri", "ダフネ", "エウリディーチェ", "オルフェオ", "L'Orfeo", "モンテヴェルディ", "Claudio Monteverdi", "モノディ"]
-image: https://commons.wikimedia.org/wiki/Special:FilePath/Caravaggio-The_Lute_Player-Hermitage.jpg?width=900
-image_credit: カラヴァッジョ（Michelangelo Merisi da Caravaggio, 1571–1610）「リュート弾き」（1595年頃、油彩）。サンクトペテルブルク、エルミタージュ美術館蔵。パブリックドメイン（Wikimedia Commons, File:Caravaggio-The Lute Player-Hermitage.jpg）
-image_alt: カラヴァッジョ「リュート弾き」、リュートを弾く若者の絵（1595年頃）
 updated: 2026-11-03
 sources:
   - "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History「The Lute」（ウードとの関係、「木」の意味、9世紀のスペイン、1283年の『遊戯の書』、コースの数の推移、指で弾く奏法、フュッセンとヴェネツィアの製作者、18世紀の衰退）. https://www.metmuseum.org/essays/the-lute（閲覧日 2026-11-03）"
-  - "Wikipedia（英語版）「Ottaviano Petrucci」（生没、1498年の特許申請、《オデカトン》、3度刷り、1528年アテニャンの1度刷り、リュート曲集、1509年のフォッソンブローネ移転、1476年ハンの『ミサ典書』、コンスタンツ・グラドゥアーレ）. https://en.wikipedia.org/wiki/Ottaviano_Petrucci（閲覧日 2026-11-03）"
   - "Veliq Academy「西洋音楽史の通史」（《オデカトン》の献辞の日付と内容）. https://veliq-academy.com/music/history/western-music-history/（閲覧日 2026-11-03）"
   - "Veliq Academy「オペラの歴史」（カメラータの会合の記録、メイとガリレイ、ペーリ《ダフネ》《エウリディーチェ》、モンテヴェルディ《オルフェオ》の初演と楽器）. https://veliq-academy.com/music/opera/history-of-opera/（閲覧日 2026-11-03）"
-  - "Encyclopædia Britannica「Ottaviano dei Petrucci」（検索結果で所在を確認）. https://www.britannica.com/biography/Ottaviano-dei-Petrucci（閲覧日 2026-11-03）"
+  - "Encyclopædia Britannica「Ottaviano dei Petrucci」（生没、ヴェネツィアでの独占権、フォッソンブローネ、61点の出版物、1507年のリュート曲集）. https://www.britannica.com/biography/Ottaviano-dei-Petrucci（閲覧日 2026-11-03）"
+  - "Encyclopædia Britannica「Harmonice Musices Odhecaton A」（1501年、可動活字で印刷された最初の多声音楽）. https://www.britannica.com/topic/Harmonice-Musices-Odhecaton-A（閲覧日 2026-11-03）"
 ---
 
 ## 1. 要点
@@ -28,7 +25,7 @@ sources:
 ## 2. 社会と制度
 
 > 要点
-> - ペトルッチは1498年にヴェネツィア総督に**20年の独占権**を求め、おそらく認められた。
+> - ペトルッチは1498年から1511年までヴェネツィアで楽譜印刷の独占権をもった。
 > - カメラータは**バルディ伯**（Giovanni de' Bardi）の邸に集まった文人・音楽家の会で、記録に残る最も早い会合は1573年1月14日、盛期は1577〜82年。
 > - 《オルフェオ》は**マントヴァのゴンザーガ家**の宮廷で謝肉祭の時期に初演された。
 
@@ -36,13 +33,11 @@ sources:
 |---|---|
 | 9世紀 | ムーア人がウードをスペインに持ち込む（ヨーロッパでの最古の証拠） |
 | 1283 | 『遊戯の書』にヨーロッパのリュートの最初期の図 |
-| 1466 | 6月18日、ペトルッチがフォッソンブローネに生まれる |
-| 1476 | ウルリヒ・ハンが『ミサ典書』を出版。可動活字による楽譜印刷の最初 |
-| 1498 | ペトルッチ、ヴェネツィア総督に楽譜印刷の20年の独占権を申請 |
-| 1501 | 《オデカトン》（献辞は5月15日付） |
-| 1509 | カンブレー同盟戦争でペトルッチがヴェネツィアを離れフォッソンブローネへ |
-| 1528 | パリのアテニャンが1度刷りの印刷を導入 |
-| 1539 | 5月7日、ペトルッチがヴェネツィアで没する |
+| 1466 | ペトルッチがフォッソンブローネに生まれる |
+| 1498 | ペトルッチ、ヴェネツィアで楽譜印刷の独占権を得る（1511年まで） |
+| 1501 | 《オデカトン》 |
+| 1507 | 最初の印刷されたリュート曲集、スピナッチーノ『リュート曲集』 |
+| 1539 | ペトルッチがヴェネツィアで没する |
 | 1573 | 1月14日、バルディ邸のカメラータの最も早い記録 |
 | 1581〜82 | ガリレイ『古代と現代の音楽についての対話』 |
 | 1598 | ペーリ、リヌッチーニ、コルシの《ダフネ》（1597年とする資料もある） |
@@ -53,7 +48,7 @@ sources:
 
 ### 2-1. 印刷の特許
 
-ペトルッチ（Ottaviano Petrucci）は1466年6月18日にフォッソンブローネに生まれ、1539年5月7日にヴェネツィアで没した。1498年に総督へ楽譜印刷の20年の独占権を求め、これはおそらく認められた。1509年にカンブレー同盟戦争で仕事が中断するとヴェネツィアを去り、フォッソンブローネに移った。
+ペトルッチ（Ottaviano Petrucci）は1466年にフォッソンブローネに生まれ、1539年にヴェネツィアで没した。1490年にヴェネツィアに出て、1498年から1511年まで同地で楽譜印刷の独占権をもった。のちにフォッソンブローネで仕事をし、1536年にヴェネツィア元老院の求めで戻った。[（Britannica）](https://www.britannica.com/biography/Ottaviano-dei-Petrucci)
 
 ### 2-2. 宮廷と学芸の会
 
@@ -63,7 +58,7 @@ sources:
 
 > 要点
 > - リュートは14世紀には4コースで撥（プレクトラム）を用い、ルネサンス期に**指で弾く奏法**に移って多声が弾けるようになった。
-> - 《オデカトン》は譜線・音符・歌詞を**3回に分けて刷る**方式で、3声・4声のシャンソン96曲を収める。
+> - 《オデカトン》はシャンソンを集めた曲集で、可動活字で印刷された最初の多声音楽である。
 > - カメラータの考えから独唱と伴奏による**モノディ**が生まれ、語りと歌の中間の歌唱は**レチタティーヴォ**として発展した。
 
 ### 3-1. 楽器——リュートの構造と奏法
@@ -72,7 +67,7 @@ sources:
 
 ### 3-2. 印刷——3度刷りから1度刷りへ
 
-《オデカトン》（Harmonice musices odhecaton A）は可動活字で印刷された最初の多声音楽の本で、紙は譜線、音符、歌詞のために3回プレスを通った。可動活字による楽譜印刷そのものは1476年のウルリヒ・ハン（Ulrich Han）の『ミサ典書』に始まり、木版の典礼書はコンスタンツ・グラドゥアーレ（1473年頃）までさかのぼる。==1528年にパリのアテニャン（Pierre Attaingnant）が1度刷りを導入し、印刷の手間を減らした。==ペトルッチは6冊のリュート曲集も出し、最後のものは1520年の刊行である。
+《オデカトン》（Harmonice musices odhecaton A）はシャンソンを集めた曲集で、可動活字で印刷された最初の多声音楽である。[（Britannica）](https://www.britannica.com/topic/Harmonice-Musices-Odhecaton-A)ペトルッチの61点の出版物には、ジョスカン・デ・プレ、オケゲム、コンペールらのミサ曲、モテット、シャンソン、フロットラが含まれる。1507年には、印刷された最初のリュート曲集であるスピナッチーノ（Francesco Spinaccino）の『リュート曲集』を出した。[（Britannica）](https://www.britannica.com/biography/Ottaviano-dei-Petrucci)
 
 ### 3-3. 歌唱——モノディとレチタティーヴォ
 
@@ -86,7 +81,7 @@ sources:
 
 | 人物 | 役割 | 事項 |
 |---|---|---|
-| オッタヴィアーノ・ペトルッチ（Ottaviano Petrucci, 1466–1539） | 印刷業者 | 《オデカトン》（1501年）、ジョスカンのミサ曲集（1502年）、リュート曲集 |
+| オッタヴィアーノ・ペトルッチ（Ottaviano Petrucci, 1466–1539） | 印刷業者 | 《オデカトン》（1501年）、ジョスカンらのミサ曲集、最初の印刷されたリュート曲集（1507年） |
 | ジョヴァンニ・デ・バルディ（Giovanni de' Bardi） | 貴族・パトロン | 邸にカメラータを集める |
 | ジローラモ・メイ（Girolamo Mei） | 古代ギリシア研究者 | 古代劇は歌われていたとの説 |
 | ヴィンチェンツォ・ガリレイ（Vincenzo Galilei） | 音楽家・理論家 | 『古代と現代の音楽についての対話』（1581〜82年） |
@@ -100,12 +95,12 @@ sources:
 ## 5. 作品
 
 > 要点
-> - 《オデカトン》は主にフランスのシャンソン96曲、《オルフェオ》はプロローグと5幕。
+> - 《オデカトン》はシャンソン集、《オルフェオ》はプロローグと5幕。
 > - 《オルフェオ》の初演日は、前日付の2通の書簡によって1607年2月24日と確かめられる。
 
 | 作品 | 作者 | 年 | 事項 |
 |---|---|---|---|
-| 《オデカトン》 | ペトルッチ（編） | 1501年 | 献辞5月15日。3声・4声のフランスのシャンソン96曲 |
+| 《オデカトン》 | ペトルッチ（編） | 1501年 | シャンソン集。可動活字で印刷された最初の多声音楽 |
 | 《ダフネ》 | ペーリ、リヌッチーニ、コルシ | 1598年 | 「おそらく最初のオペラ」。音楽はほとんど失われた |
 | 《エウリディーチェ》 | ペーリ（台本リヌッチーニ） | 1600年10月6日 | フィレンツェ、ピッティ宮。オウィディウス『変身物語』第10・11巻による |
 | 《オルフェオ》 | モンテヴェルディ（台本ストリッジョ） | 1607年2月24日 | マントヴァ、ゴンザーガ家の宮殿。台本は1607年マントヴァで、総譜は1609年ヴェネツィアで出版（1615年再版） |
@@ -136,7 +131,7 @@ sources:
 ## 参考文献
 
 1. The Metropolitan Museum of Art, Heilbrunn Timeline of Art History「The Lute」（ウードとの関係、「木」の意味、9世紀のスペイン、1283年の『遊戯の書』、コースの数の推移、指で弾く奏法、フュッセンとヴェネツィアの製作者、18世紀の衰退）. https://www.metmuseum.org/essays/the-lute（閲覧日 2026-11-03）
-2. Wikipedia（英語版）「Ottaviano Petrucci」（生没、1498年の特許申請、《オデカトン》、3度刷り、1528年アテニャンの1度刷り、リュート曲集、1509年のフォッソンブローネ移転、1476年ハンの『ミサ典書』、コンスタンツ・グラドゥアーレ）. https://en.wikipedia.org/wiki/Ottaviano_Petrucci（閲覧日 2026-11-03）
-3. Veliq Academy「西洋音楽史の通史」（《オデカトン》の献辞の日付と内容）. https://veliq-academy.com/music/history/western-music-history/（閲覧日 2026-11-03）
-4. Veliq Academy「オペラの歴史」（カメラータの会合の記録、メイとガリレイ、ペーリ《ダフネ》《エウリディーチェ》、モンテヴェルディ《オルフェオ》の初演と楽器）. https://veliq-academy.com/music/opera/history-of-opera/（閲覧日 2026-11-03）
-5. Encyclopædia Britannica「Ottaviano dei Petrucci」（検索結果で所在を確認）. https://www.britannica.com/biography/Ottaviano-dei-Petrucci（閲覧日 2026-11-03）
+2. Veliq Academy「西洋音楽史の通史」（《オデカトン》の献辞の日付と内容）. https://veliq-academy.com/music/history/western-music-history/（閲覧日 2026-11-03）
+3. Veliq Academy「オペラの歴史」（カメラータの会合の記録、メイとガリレイ、ペーリ《ダフネ》《エウリディーチェ》、モンテヴェルディ《オルフェオ》の初演と楽器）. https://veliq-academy.com/music/opera/history-of-opera/（閲覧日 2026-11-03）
+4. Encyclopædia Britannica「Ottaviano dei Petrucci」（生没、ヴェネツィアでの独占権、フォッソンブローネ、61点の出版物、1507年のリュート曲集）. https://www.britannica.com/biography/Ottaviano-dei-Petrucci（閲覧日 2026-11-03）
+5. Encyclopædia Britannica「Harmonice Musices Odhecaton A」（1501年、可動活字で印刷された最初の多声音楽）. https://www.britannica.com/topic/Harmonice-Musices-Odhecaton-A（閲覧日 2026-11-03）

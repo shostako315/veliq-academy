@@ -17,15 +17,12 @@ sources:
   - "Beethoven Werke, Abteilung I, Band 2: Symphonien II, hrsg. von Bathia Churgin, München: G. Henle, 2013（書誌のみ確認：ÖAW 図書館目録 https://www.oeaw.ac.at/resources/Record/993498611904498 、閲覧日 2026-10-29）"
   - "Beethoven-Haus Bonn, Digital Archive, Werk „Sinfonie Nr. 3 (Es-Dur) op. 55 (Sinfonia eroica)“（作曲時期、ロプコヴィッツ家の支払記録、題名の削除と逸話の検討、初版、関連書簡）. https://www.beethoven.de/en/work/view/5529920004423680/Sinfonie+Nr.+3+(Es-Dur)+op.+55+(Sinfonia+eroica)（閲覧日 2026-10-29）"
   - "Lewis Lockwood / Alan Gosman (eds.), Beethoven's „Eroica“ Sketchbook: A Critical Edition, 2 vols., Urbana: University of Illinois Press, 2013（出版社の書誌頁で内容を確認）. https://www.press.uillinois.edu/books/?id=c037436（閲覧日 2026-10-29）"
-  - "Wikipedia（独語版）「3. Sinfonie (Beethoven)」（各楽章の小節番号、私的演奏の日付、初版の告知、受容）. https://de.wikipedia.org/wiki/3._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Symphony No. 3 (Beethoven)」（ヴィエルホルスキ・スケッチ帳、ティンパニの調律、小節番号、受容）. https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)（閲覧日 2026-10-29）"
   - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 3“（速度表示と数値、同時代評）. https://www.esm.rochester.edu/beethoven/symphony-no-3/（閲覧日 2026-10-29）"
   - "Benjamin Zander, „A Request to the BPO“, 21 January 2022（第1楽章と終楽章の数値が1小節単位であること、ノーマン・デル・マーの見解の引用）. https://www.benjaminzander.org/article/a-request-to-the-bpo/（閲覧日 2026-10-29）"
   - "Fondation Napoléon, „La proclamation de l'Empire, 18 mai 1804“. https://www.napoleon.org/histoire-des-2-empires/dossiers-thematiques/la-proclamation-de-lempire-18-mai-1804/（閲覧日 2026-10-29）"
   - "James Jolly, „Beethoven's Eroica – an anniversary mini-survey“, Gramophone, 7 April 2011. https://gramophone.co.uk/features/article/beethoven-s-eroica-an-anniversary-mini-survey（閲覧日 2026-10-29）"
   - "Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）"
   - "John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Karajan: Beethoven Symphonies (1963)」. https://en.wikipedia.org/wiki/Karajan:_Beethoven_Symphonies_(1963)（閲覧日 2026-10-29）"
   - "Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）"
 ---
 
@@ -47,23 +44,21 @@ sources:
 
 ベートーヴェンは当初、この交響曲をナポレオン・ボナパルト（Napoléon Bonaparte）に献呈するつもりだった。ナポレオンは1804年5月18日に皇帝と宣言された。ウィーン楽友協会が所蔵する筆写総譜の表紙には、もとの題「Sinfonia grande / intitolata Bonaparte」のうち「intitolata Bonaparte」の語が、紙に穴があくほど強く削り取られている。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)その横にベートーヴェンは「Geschrieben auf Bonaparte（ボナパルトに寄せて書かれた）」と書き添えた。1804年8月26日のブライトコップフ宛書簡でも、ベートーヴェンはこの交響曲の題は本来「ボナパルト」であると書いている。この時点で作品はすでにロプコヴィッツ侯に売られていた。
 
-リースは1838年の回想で、ナポレオンの皇帝即位を伝えたところベートーヴェンが怒り、「あれもまた普通の人間にすぎないのか」と言って表紙を二つに裂いたと書いた。ベートーヴェン・ハウスは、ナポレオンへの失望についてのリースの報告は史実と認められるが、表紙は裂かれておらず削られたものであると指摘している。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)表紙を裂いた話は1836年3月18日の『ミュージカル・ワールド』とエルンスト・オルトレップ（Ernst Ortlepp）の1836年の小説にすでに現れており、リースの記述には疑問も示されている。ベルナドット（Jean-Baptiste Bernadotte）の勧めで作曲したという話（アントン・シンドラー（Anton Schindler）経由）や、アブキール湾の海戦をめぐる話（ベルトリーニ（Bertolini）経由）は、伝えた人物がベートーヴェンと知り合った時期から見て疑わしいとされる。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)
+リースは1838年の回想で、ナポレオンの皇帝即位を伝えたところベートーヴェンが怒り、「あれもまた普通の人間にすぎないのか」と言って表紙を二つに裂いたと書いた。ベートーヴェン・ハウスは、ナポレオンへの失望についてのリースの報告は史実と認められるが、表紙は裂かれておらず削られたものであると指摘している。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)ベルナドット（Jean-Baptiste Bernadotte）の勧めで作曲したという話（アントン・シンドラー（Anton Schindler）経由）や、アブキール湾の海戦をめぐる話（ベルトリーニ（Bertolini）経由）は、伝えた人物がベートーヴェンと知り合った時期から見て疑わしいとされる。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)
 
 ### 初演
 
 ロプコヴィッツ侯（Franz Joseph Maximilian Fürst Lobkowitz）の会計記録によれば、1804年6月9日付で、この交響曲と三重協奏曲作品56の2回のリハーサルに対する奏者への支払いが記録されている。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)楽長アントン・ヴラニツキー（Anton Wranitzky）のもとで雇われた奏者は22人で、その中に第3ホルン奏者が含まれる。チャーギンはこれを、1804年5月末か6月初めにウィーンのロプコヴィッツ侯邸で行われた最初の演奏の記録とみる。同じ支払いはこの夏、ボヘミアのアイゼンベルク（イェゼジー）とラウドニッツ（ロウドニツェ）の侯の領地での私的演奏にも及んでいた。1805年1月20日に銀行家ヨーゼフ・ヴュルト（Joseph Würth）の家で、1月23日にロプコヴィッツ侯邸で演奏された。1月20日の演奏について、2月13日の『一般音楽新聞』は「途方もなく拡大された、大胆で奔放な幻想曲」と書いた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
 
-公開初演は1805年4月7日、アン・デア・ウィーン劇場で、ヴァイオリン奏者フランツ・クレメント（Franz Clement）の慈善演奏会においてベートーヴェンの指揮で行われた。『一般音楽新聞』はこの演奏について、交響曲は短くなれば大いに得るところがある（演奏は1時間かかる）と書き、一般には受け入れられなかったと報じた。4月17日の『デア・フライミューティゲ』は、傑作とみる聴衆と、奇抜さを求めた際限のない努力にすぎないとみる聴衆に分かれたと伝えた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)1807年2月18日の『一般音楽新聞』に載った長い好意的な評は、この作品の受容に大きく寄与した。
+公開初演は1805年4月7日、アン・デア・ウィーン劇場で、ヴァイオリン奏者フランツ・クレメント（Franz Clement）の慈善演奏会においてベートーヴェンの指揮で行われた。『一般音楽新聞』はこの演奏について、交響曲は短くなれば大いに得るところがある（演奏は1時間かかる）と書き、一般には受け入れられなかったと報じた。4月17日の『デア・フライミューティゲ』は、傑作とみる聴衆と、奇抜さを求めた際限のない努力にすぎないとみる聴衆に分かれたと伝えた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
 
 ### 出版と献呈
 
-初版はウィーンの美術工芸社（Contor delle arti e d'industria、Bureau des Arts et d'Industrie）からパート譜で出された（版番号512）。チャーギンは告知の日付を1806年10月29日とし、1806年10月19日の『ウィーン新聞』での告知を挙げる資料もある。表題は「Sinfonia eroica, composta per festeggiare il sovvenire di un grand Uomo（英雄交響曲、ある偉大な人物の思い出を記念するために作曲）」で、ロプコヴィッツ侯に献呈された。初版には「この交響曲は意図して通常より長く書かれているので、演奏会の終わりではなく初めの方で演奏すべきである」という趣旨のイタリア語の注記がある。[（Henle 校訂注）](https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf)
-
-総譜は1809年にロンドンのチャンケッティーニ・ウント・スペラーティ（Cianchettini & Sperati）から（版番号27）、ドイツ語圏では1822年にボンのジムロックから出版された。
+初版はウィーンの美術工芸社（Contor delle arti e d'industria、Bureau des Arts et d'Industrie）からパート譜で出された（版番号512）。チャーギンは告知の日付を1806年10月29日とする。表題は「Sinfonia eroica, composta per festeggiare il sovvenire di un grand Uomo（英雄交響曲、ある偉大な人物の思い出を記念するために作曲）」で、ロプコヴィッツ侯に献呈された。初版には「この交響曲は意図して通常より長く書かれているので、演奏会の終わりではなく初めの方で演奏すべきである」という趣旨のイタリア語の注記がある。[（Henle 校訂注）](https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf)
 
 ## 編成と演奏時間
 
-フルート2、オーボエ2、クラリネット2、ファゴット2、ホルン3、トランペット2、ティンパニ、弦五部。ティンパニは第1・3・4楽章で変ロと変ホ、第2楽章でトとハに調律される。3本のホルンは交響曲としては異例で、第3楽章のトリオではこの3本だけで主題を奏する。
+フルート2、オーボエ2、クラリネット2、ファゴット2、ホルン3、トランペット2、ティンパニ、弦五部。3本のホルンは交響曲としては異例で、第3楽章のトリオではこの3本だけで主題を奏する。
 
 演奏時間は第1楽章の提示部の反復の有無とテンポにより、45〜55分程度である。
 
@@ -71,40 +66,23 @@ sources:
 
 ### 第1楽章 Allegro con brio
 
-変ホ長調、4分の3拍子。ソナタ形式。序奏の代わりに主和音の打撃が2回置かれ、第3小節から三和音による主題が始まる。区分は次のとおりである（展開部の開始を第154小節とする資料もある）。
-
-| 区分 | 小節 |
-|---|---|
-| 主要主題 | 3– |
-| 推移の主題（属調の属調） | 45– |
-| 副主題（変ロ長調、木管） | 83– |
-| 結尾群 | 109– |
-| 展開部 | 152– |
-| 全合奏のシンコペーションと連続するスフォルツァンド | 248– |
-| 新しい主題（ホ短調） | 284– |
-| ホルンの早い入り | 394–395 |
-| コーダ | 561– |
-| 終わり | 691 |
-
-第284小節に現れるホ短調の主題は、提示部には現れない新しい素材で、コーダで再び用いられる。
+変ホ長調、4分の3拍子。ソナタ形式。序奏の代わりに主和音の打撃が2回置かれ、続いて三和音による主題が始まる。
 
 再現部の直前、第394〜395小節では、弦が属和音を保っている間に1本のホルンが主調の主題を2小節早く吹く。リースは、これをホルン奏者の数え間違いだと言ってベートーヴェンに叱られたと回想している。チャーギンの校訂注によれば、ベートーヴェンはこの小節のヴァイオリンの「pp」に赤鉛筆で3つ目の「p」を書き足しており、これはベートーヴェンの交響曲で最初の「ppp」である。[（Henle 校訂注）](https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf)
 
 ### 第2楽章 Marcia funebre. Adagio assai
 
-ハ短調、4分の2拍子。葬送行進曲。ヴァイオリンが主題を奏し、第9小節でオーボエが繰り返す。第69小節からハ長調の中間部（マッジョーレ）に移る。主部が戻った後、第114小節からヘ短調のフガートが始まり、第209小節からコーダとなる。コーダでは主題が断片になって終わる。チャーギンによれば、筆写総譜では速度表示が後からインクで書き加えられており、初版の刷りのうち最も訂正の進んだ版（C5）でだけ全パートにこの表示がある。
+ハ短調、4分の2拍子。葬送行進曲。チャーギンによれば、筆写総譜では速度表示が後からインクで書き加えられており、初版の刷りのうち最も訂正の進んだ版（C5）でだけ全パートにこの表示がある。
 
-1807年2月の『一般音楽新聞』の評者は、この楽章の後に数分間の静かな休止を置くことを提案した。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)1827年のロンドンでの演奏会では、交響曲がこの楽章で終えられた。
+1807年2月の『一般音楽新聞』の評者は、この楽章の後に数分間の静かな休止を置くことを提案した。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
 
 ### 第3楽章 Scherzo. Allegro vivace
 
-変ホ長調、4分の3拍子。弦が「sempre pianissimo e staccato」で始め、第7小節でオーボエが主題を出す。第93小節で初めてフォルティッシモになる。トリオは3本のホルンが主題を奏する。スケルツォの再現では、下行するユニゾンの動機が第381〜384小節で2拍子に書き換えられている。コーダ（第423小節〜）はピアニッシモからフォルティッシモへ高まる。チャーギンによれば、ホルンのパート（第99〜113小節）は筆写総譜で改訂されており、新全集版はその改訂を再現の対応箇所（第355〜371小節の範囲）にも反映させている。
+変ホ長調、4分の3拍子。トリオは3本のホルンが主題を奏する。チャーギンによれば、ホルンのパート（第99〜113小節）は筆写総譜で改訂されており、新全集版はその改訂を再現の対応箇所（第355〜371小節の範囲）にも反映させている。
 
 ### 第4楽章 Finale. Allegro molto
 
-変ホ長調、4分の2拍子。《プロメテウス》の主題による変奏曲で、全体は序奏（第1〜75小節）、主題と変奏（第76〜380小節）、再現（第381〜430小節）、コーダ（第431〜475小節）に分けられる。
-
-11小節の急速な導入の後、弦のピッツィカートで主題の低音だけが提示され、これが3声、4声と厚みを増す。第76小節で旋律主題が加わる。第117小節からハ短調のフガートとなり、主題は原形と反行形で扱われる。後半のPoco Andanteでは主題がコラール風に全楽器へ広げられる。第431小節からのPrestoで変ホ長調の3つの和音によって終わる。
+変ホ長調、4分の2拍子。《プロメテウス》の主題による変奏曲である。
 
 ## 演奏史と解釈
 
@@ -124,7 +102,7 @@ sources:
 - アルトゥーロ・トスカニーニ（Arturo Toscanini）指揮NBC交響楽団（RCA）。
 - レナード・バーンスタイン（Leonard Bernstein）の1953年の録音（Decca）。
 - オットー・クレンペラー（Otto Klemperer）指揮フィルハーモニア管弦楽団（EMI）。
-- ヘルベルト・フォン・カラヤン（Herbert von Karajan）指揮ベルリン・フィル（1961年12月〜1962年11月録音の全集）。
+- ヘルベルト・フォン・カラヤン（Herbert von Karajan）指揮ベルリン・フィル（ドイツ・グラモフォンの全集）。
 - カール・ベーム（Karl Böhm）指揮ベルリン・フィル（1962年、ドイツ・グラモフォン）。
 - カルロ・マリア・ジュリーニ（Carlo Maria Giulini）指揮ロサンゼルス・フィル（ドイツ・グラモフォン）。第1楽章の提示部を反復し、この楽章だけで約20分30秒かかる。[（Gramophone）](https://gramophone.co.uk/features/article/beethoven-s-eroica-an-anniversary-mini-survey)
 - ロジャー・ノリントン（Roger Norrington）指揮ロンドン・クラシカル・プレイヤーズ（1986〜88年録音の全集）。当時の楽器を用い、第1・第2楽章が非常に速い。[（Gramophone）](https://gramophone.co.uk/features/article/beethoven-s-eroica-an-anniversary-mini-survey)
@@ -136,7 +114,4 @@ sources:
 
 ## もっと深く
 
-- **「偉大な人物」は誰か**：1806年の副題の「偉大な人物」が誰を指すかについては、ナポレオン、1806年10月10日に戦死したプロイセンのルイ・フェルディナント王子（Louis Ferdinand）、架空の英雄など、複数の見方がある。副題は出版直前に加えられ、ルイ・フェルディナントを指す可能性がある。ルイ・フェルディナントは1804年10月にラウドニッツでこの交響曲を聴いたと伝えられる。
-- **葬送行進曲の背景**：リタ・シュテブリン（Rita Steblin）は、第1番の献呈先となるはずだったマクシミリアン・フランツの死（1801年）への反応とみる説を出している。確証はない。
-- **作曲者自身の評価**：ベートーヴェンは1817年に詩人クリストフ・クフナー（Christoph Kuffner）に対し、それまでの交響曲のうちこの曲を最も重要なものと語った。
-- **受容**：第2楽章は1847年のメンデルスゾーンの葬儀で演奏され、1945年にはローズヴェルトの死を悼んで演奏された。1957年にはブルーノ・ワルター（Bruno Walter）がトスカニーニ追悼の演奏会で全曲を指揮した。1972年にはミュンヘン五輪の犠牲者の追悼式で葬送行進曲が演奏された。リヒャルト・シュトラウス（Richard Strauss）は1945年の《メタモルフォーゼン》で葬送行進曲の主題を引用している。
+- **「偉大な人物」は誰か**：1806年の副題の「偉大な人物」が誰を指すかについては、ナポレオンとする見方のほかに複数の見方がある。

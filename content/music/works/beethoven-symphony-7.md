@@ -17,10 +17,9 @@ sources:
   - "Jos van der Zanden, „Peace Be With You, Calm Now: On the Fate of Beethoven's Seventh Symphony ‘Allegretto’“, Nineteenth-Century Music Review 23/1 (2026; online 2025), DOI 10.1017/S1479409824000247. https://www.cambridge.org/core/product/FF07FF5E010764AAA04CE1B8D1C01387/core-reader（閲覧日 2026-10-29）"
   - "Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music, „Symphony No. 7“. https://www.esm.rochester.edu/beethoven/symphony-no-7/（閲覧日 2026-10-29）"
   - "Fusako Hamao, „Schoenberg's Metronome Markings“, European Journal of Musicology 22/2 (2024), DOI 10.5450/EJM.22.2.2024.5（AMZ 1817年12月のメトロノーム表）"
-  - "Wikipedia（独語版）「7. Sinfonie (Beethoven)」（初演の出演者、受容。典拠 Harry Goldschmidt ほか）. https://de.wikipedia.org/wiki/7._Sinfonie_(Beethoven)（閲覧日 2026-10-29）"
-  - "Wikipedia（英語版）「Symphony No. 7 (Beethoven)」（典拠 Michael Steinberg, The Symphony, 1995; Glenn Stanley, in: The Cambridge Companion to Beethoven, 2000; John Warrack, Carl Maria von Weber, 1976 ほか）. https://en.wikipedia.org/wiki/Symphony_No._7_(Beethoven)（閲覧日 2026-10-29）"
+  - "John Henken, Symphony No. 7 in A major, Op. 92, Los Angeles Philharmonic program note（初演の演奏会と出演者、第2楽章のアンコール）. https://www.hollywoodbowl.com/musicdb/pieces/4038/symphony-no-7-in-a-major-op-92（閲覧日 2026-11-03）"
   - "„On Tempo Indications Based on Beethoven's Music“, College Music Symposium 25（著者名はウェブ版に表示なし）. https://symposium.music.org/volume-25/articles-1752877059/on-tempo-indications-based-on-beethovens-music（閲覧日 2026-10-29）"
-  - "録音データ：Wikipedia（英語版）「Carlos Kleiber discography」、Gramophone（Zinman 第7・8番評 1998年7月、Gardiner 全集評）、MusicWeb International（Harnoncourt Teldec 全集評 2003年8月）（閲覧日 2026-10-29）"
+  - "録音データ：Gramophone（Zinman 第7・8番評 1998年7月、Gardiner 全集評）、MusicWeb International（Harnoncourt Teldec 全集評 2003年8月）（閲覧日 2026-10-29）"
 ---
 
 ## 成立
@@ -29,23 +28,21 @@ sources:
 
 ボンのベートーヴェン・ハウスの作品目録は、作曲の時期を1811年9月から1812年4月頃までとしている。ベートーヴェン（Ludwig van Beethoven）は1811年秋、ボヘミアの温泉地テプリッツ（Teplitz）で本格的な作業を始めた。作業は1811年から1811〜12年の冬にかけて、主に「ペッター・スケッチ帳」（ベートーヴェン・ハウス所蔵 HCB Mh 59）で進められた。このスケッチ帳には第8番のスケッチも含まれる。
 
-自筆総譜の冒頭には「1812. 13ten A」と日付が書かれている。月の略記「A」の読み方は資料によって分かれる。ベートーヴェン・ハウスの英語版の目録はこれを1812年8月13日と読み、おそらく完成日としている。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6311026614075392)1812年5月13日とする資料もある。ベートーヴェン・ハウス自身の作曲時期（1812年4月頃まで）や、イーストマン音楽学校の資料が完成を1812年4月としていることは、4月13日とする読みと合う。
+自筆総譜の冒頭には「1812. 13ten A」と日付が書かれている。月の略記「A」の読み方は資料によって分かれる。ベートーヴェン・ハウスの英語版の目録はこれを1812年8月13日と読み、おそらく完成日としている。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6311026614075392)
 
 1812年5月8日、ベートーヴェンはグラーツのヨーゼフ・フォン・ヴァレーナ（Joseph von Varena）に宛てて書簡を送っている。グラーツのウルスラ会のための慈善演奏会でこの交響曲を初演する計画があったが、実現しなかった。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6311026614075392)同年5月25日頃、ベートーヴェンはブライトコップフ・ウント・ヘルテルに3曲の新しい交響曲について書き送った。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5682851173367808)1813年4月、第8番とともに、ルドルフ大公の宮殿で私的な試演が行われた。ベートーヴェン・ハウスは日付をおそらく4月21日としている。
 
 ### 初演
 
-初演は1813年12月8日、ウィーン大学の大講堂で行われた。ハーナウの戦いで負傷した兵士のための慈善演奏会で、宮廷機械技師ヨハン・ネポムク・メルツェル（Johann Nepomuk Mälzel）が企画した。ライプツィヒの戦い（1813年10月16〜19日）から約7週間後のことである。ベートーヴェンが指揮し、同じ演奏会で《ウェリントンの勝利》作品91も初演された。
+初演は1813年12月8日、ウィーン大学の大講堂で行われた。ハーナウの戦いで負傷した兵士のための慈善演奏会で、宮廷機械技師ヨハン・ネポムク・メルツェル（Johann Nepomuk Mälzel）が企画した。ベートーヴェンが指揮し、同じ演奏会で《ウェリントンの勝利》作品91も初演された。
 
-演奏者は無償で出演した。コンサートマスターはイグナーツ・シュパンツィヒ（Ignaz Schuppanzigh）で、ルイ・シュポーア（Louis Spohr）がヴァイオリンを弾いた。アントニオ・サリエリ（Antonio Salieri）、ヨハン・ネポムク・フンメル（Johann Nepomuk Hummel）、ジャコモ・マイアベーア（Giacomo Meyerbeer）も加わった。チェロはマウロ・ジュリアーニ（Mauro Giuliani）が弾いたとされる。第2楽章は聴衆の求めでその場で繰り返された。
+ロサンゼルス・フィルハーモニックの解説によれば、コンサートマスターはイグナーツ・シュパンツィヒ（Ignaz Schuppanzigh）で、その隣でルイ・シュポーア（Louis Spohr）が弾いた。アントニオ・サリエリ（Antonio Salieri）は戦争音楽の演奏を助け、ドメニコ・ドラゴネッティ（Domenico Dragonetti）、ジャコモ・マイアベーア（Giacomo Meyerbeer）、ヨハン・ネポムク・フンメル（Johann Nepomuk Hummel）、イグナーツ・モシェレス（Ignaz Moscheles）も加わった。第2楽章は聴衆の求めで繰り返された。[（Los Angeles Philharmonic）](https://www.hollywoodbowl.com/musicdb/pieces/4038/symphony-no-7-in-a-major-op-92)
 
-演奏会は12月12日に繰り返され、ここでも第2楽章がアンコールされた。1814年2月27日には大レドゥーテンザールで第8番の初演と同じ演奏会で演奏された。イーストマン音楽学校の資料は、初演から10週間のうちに3回演奏されたとしている。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-7/)
-
-『一般音楽新聞』（Allgemeine musikalische Zeitung）は1814年1月26日付で、この曲をベートーヴェンの交響曲のうちで最も旋律的で親しみやすいと評した。同紙は第2楽章を「Andante（イ短調）」と呼び、毎回繰り返しを求められたと書いている。
+1814年2月27日には大レドゥーテンザールで第8番の初演と同じ演奏会で演奏された。イーストマン音楽学校の資料は、初演から10週間のうちに3回演奏されたとしている。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-7/)
 
 ### 献呈と出版
 
-献呈はモーリッツ・フォン・フリース伯爵（Moritz von Fries）である。2018年、「Meiner hochverehrten Freundin Antonie Brentano von Beethoven」という自筆の献辞をもつこの曲の印刷された総譜が見つかり、サンノゼ州立大学のベートーヴェン・センターが入手した。アントーニエ・ブレンターノ（Antonie Brentano）は、1812年7月6〜7日付の「不滅の恋人」への手紙の宛先とする研究者が多い人物である。ただし異論もある。
+献呈はモーリッツ・フォン・フリース伯爵（Moritz von Fries）である。
 
 初版はウィーンのシュタイナー社（S. A. Steiner & Comp.）から、総譜（版番号2560）とパート譜（版番号2561）が出版された。同社からは、管楽合奏版（2563）、弦楽合奏版（2564）、ピアノ三重奏版（2565）、アントン・ディアベリ（Anton Diabelli）によるピアノ4手版（2566）とピアノ独奏版（2567）が続く版番号で刊行されている。刊行の月は資料によって1816年11月とも12月ともされる。
 
@@ -53,7 +50,7 @@ sources:
 
 フルート2、オーボエ2、クラリネット2（イ管）、ファゴット2、ホルン2（イ管、内側の2楽章ではホ管とニ管）、トランペット2（ニ管）、ティンパニ、弦五部。
 
-総譜にコントラファゴットのパートはない。ただし、1814年のレドゥーテンザールでの演奏について、シンドラーが遺品の中にあったと伝えるベートーヴェンの覚え書きがある。これには第1ヴァイオリン18、第2ヴァイオリン18、ヴィオラ14、チェロ12、コントラバス7、コントラファゴット2が記されている。コントラファゴットはコントラバスの補強とみられる。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-7/)これに対し、この曲の初期のウィーンでの演奏の弦は第1・第2ヴァイオリン各6〜8、ヴィオラ3〜4、チェロ2〜4、コントラバス2〜5程度であった。
+総譜にコントラファゴットのパートはない。ただし、1814年のレドゥーテンザールでの演奏について、シンドラーが遺品の中にあったと伝えるベートーヴェンの覚え書きがある。これには第1ヴァイオリン18、第2ヴァイオリン18、ヴィオラ14、チェロ12、コントラバス7、コントラファゴット2が記されている。コントラファゴットはコントラバスの補強とみられる。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-7/)
 
 演奏時間は、テンポと、第1・第3・第4楽章の反復をどこまで行うかによって33〜45分になる。
 
@@ -63,27 +60,25 @@ sources:
 
 イ長調。序奏付きのソナタ形式。
 
-Poco sostenuto の序奏は4/4拍子で62小節ある。序奏の中では長い上行音階が続き、ハ長調とヘ長調のエピソードが置かれる。主調イ長調と3度の関係にあるこの2つの調は、展開部と、第3楽章のヘ長調（トリオはニ長調）で再び使われる。
+Poco sostenuto の序奏は4/4拍子。序奏の中では長い上行音階が続き、ハ長調とヘ長調のエピソードが置かれる。
 
-第63小節から6/8拍子の Vivace に入る。この楽章を支配するリズムは序奏の62小節をかけて形づくられ、Vivace の最初の4小節で出そろう。イーストマン音楽学校の資料による各部の長さは、提示部114小節、展開部97小節、再現部115小節、コーダ62小節である。序奏とコーダが同じ62小節になっている。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-7/)展開部はハ長調で始まり、ヘ長調の長いエピソードを含む。
-
-コーダには、2小節の音型を低音でホ音の保続音の上で10回繰り返す20小節の部分がある。カール・マリア・フォン・ウェーバー（Carl Maria von Weber）がこの箇所を聴いて、ベートーヴェンは「精神病院行きだ」と言ったという話がある。この話はシンドラーに由来するもので、ウェーバーの伝記を書いたジョン・ウォラック（John Warrack）は、裏付ける証拠を見つけられなかった。
+続いて6/8拍子の Vivace に入る。イーストマン音楽学校の資料による各部の長さは、提示部114小節、展開部97小節、再現部115小節、コーダ62小節である。序奏とコーダが同じ62小節になっている。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-7/)展開部はハ長調で始まり、ヘ長調の長いエピソードを含む。
 
 ### 第2楽章 Allegretto
 
 イ短調、2/4拍子。中間にイ長調の部分を挟む三部形式で、変奏とフガートを含む。メトロノーム表記は4分音符＝76である。
 
-楽章は管楽器による主和音の第2転回形（四六の和音）で始まり、同じ和音で終わる。この和音は、協奏曲ではカデンツァの前に置かれるのが慣例であった。続いてヴィオラとチェロが、4分音符1つと8分音符2つ、4分音符2つからなるリズムの上で主題を弾く。ジョージ・グローヴ（George Grove）は、これに重なる第2の旋律を「手をつないだ美女の列のよう」と書いた。
+楽章は管楽器による主和音の第2転回形（四六の和音）で始まり、同じ和音で終わる。続いてヴィオラとチェロが、4分音符1つと8分音符2つ、4分音符2つからなるリズムの上で主題を弾く。
 
-イ長調の中間部では、ヴァイオリンの3連符の上でクラリネットが旋律を弾く。イ長調の部分が37小節続いたあと、弦がイ短調の音階を急速に下行し、やがて厳格なフガートが現れる。カール・ネフ（Karl Nef）は、中間部と《フィデリオ》のアリア「Euch werde Lohn in bessern Welten」との動機の共通を指摘した。この楽章の主題は、5年前の弦楽四重奏曲作品59の3の緩徐楽章のために考えられていたとされる。
+イ長調の中間部では、ヴァイオリンの3連符の上でクラリネットが旋律を弾く。その後、弦がイ短調の音階を急速に下行し、やがて厳格なフガートが現れる。
 
 ### 第3楽章 Presto
 
-ヘ長調のスケルツォで、トリオはニ長調（Assai meno presto）。トリオは2回現れ、スケルツォ–トリオ–スケルツォ–トリオ–スケルツォの5部分で構成される。同じ時期のベートーヴェンはこの形をほかの作品でも用いている。楽章はオーケストラ全体の5つの打撃で唐突に終わる。ロベルト・シューマン（Robert Schumann）はこの結尾について「作曲家がペンを投げ捨てるのが見えるようだ」と書いた。
+ヘ長調のスケルツォで、トリオはニ長調（Assai meno presto）。トリオは2回現れ、スケルツォ–トリオ–スケルツォ–トリオ–スケルツォの5部分で構成される。楽章はオーケストラ全体の5つの打撃で唐突に終わる。
 
 ### 第4楽章 Allegro con brio
 
-イ長調、2/4拍子、ソナタ形式。メトロノーム表記は2分音符＝72である。主題は、ベートーヴェンが編曲したアイルランド民謡「Save me from the grave and wise」（WoO 154 第8曲）のリトルネッロを2拍子に変えたものとされる。グレン・スタンリー（Glenn Stanley）は、コーダで弦が助奏のように扱われることと、ベートーヴェンでは珍しい fff の指示があることを指摘している。
+イ長調、2/4拍子、ソナタ形式。メトロノーム表記は2分音符＝72である。
 
 ## 演奏史と解釈
 
@@ -114,10 +109,6 @@ CDの評などでは今も「初めは Andante と考えられていた」と書
 
 | 指揮者 | オーケストラ | 録音年（または発売・評の年） | 備考 |
 |---|---|---|---|
-| アルバート・コーツ（Albert Coates） | ロンドン交響楽団 | 1921年 | この曲の最初期の録音 |
-| カルロス・クライバー（Carlos Kleiber） | ウィーン・フィルハーモニー管弦楽団 | 1975年11月26〜29日、1976年1月16日 | ドイツ・グラモフォン、スタジオ録音 |
-| カルロス・クライバー | バイエルン国立管弦楽団 | 1982年5月3日 | ライヴ（Orfeo、2006年発売） |
-| カルロス・クライバー | アムステルダム・コンセルトヘボウ管弦楽団 | 1983年10月19〜20日 | ライヴ映像 |
 | ニコラウス・アーノンクール（Nikolaus Harnoncourt） | ヨーロッパ室内管弦楽団 | 1990〜91年の全集 | グラーツ、シュテファニエンザールでのライヴ |
 | デイヴィッド・ジンマン（David Zinman） | チューリヒ・トーンハレ管弦楽団 | 1998年7月評 | ベーレンライター版（デル・マー校訂）による最初のモダン楽器録音と銘打たれた |
 | ジョン・エリオット・ガーディナー（John Eliot Gardiner） | オルケストル・レヴォリュショネール・エ・ロマンティク | 全集1994年発売 | ロンドン、ゴスペル・オークのオール・ハロウズ教会で録音 |
@@ -126,9 +117,7 @@ CDの評などでは今も「初めは Andante と考えられていた」と書
 
 ### 受容
 
-リヒャルト・ワーグナー（Richard Wagner）はこの曲を「舞踏の神化（Apotheose des Tanzes）」と呼んだ。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-7/)エクトル・ベルリオーズ（Hector Berlioz）は第1楽章を「農民の輪舞」に例えた。フリードリヒ・ヴィーク（Friedrich Wieck）は、第1楽章と終楽章は酔った状態で書かれたに違いないというのが音楽家と聴衆の一般的な見方だったと伝えている。ドナルド・トーヴィー（Donald Tovey）は終楽章の「バッカス的な狂乱」を書き、トーマス・ビーチャム（Thomas Beecham）は第3楽章を「ヤクの群れが跳ね回っている」と評した。
-
-ハリー・ゴルトシュミット（Harry Goldschmidt）はこの曲を、解放戦争期の諸国民の解放を訴える政治的な作品として読んだ。マルティン・ゲック（Martin Geck）は、終楽章には第3・5・6・9番に見られる倫理的な性格がないと論じている。
+リヒャルト・ワーグナー（Richard Wagner）はこの曲を「舞踏の神化（Apotheose des Tanzes）」と呼んだ。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-7/)
 
 ## もっと深く
 
@@ -138,10 +127,7 @@ CDの評などでは今も「初めは Andante と考えられていた」と書
 
 ベートーヴェン・ハウスは、スケッチ（BH 105, BH 120, BH 123, HCB Mh 85, NE 110, NE 128 ほか）と、作曲者が目を通した総譜の筆写譜（HCB Mh 53）を所蔵する。ニューヨークのモーガン図書館もスケッチを持つ。ほかにベルリン、パリ、オックスフォード、サンクトペテルブルク、ウィーン楽友協会に筆写資料がある。
 
-### 初演の背景
 
-初演の演奏会は、ナポレオンのロシア遠征の後、解放戦争のさなかに開かれた。ベートーヴェンは演奏者への挨拶で愛国心と犠牲を強調した。この演奏会はベートーヴェンの生涯で最も成功した演奏会であったとされる。シュポーアは自伝で、ベートーヴェンの大きな身振りの指揮を記している。友人たちが再演の演奏会を設け、ベートーヴェンの経済的な苦境を和らげた。
+### 第1楽章の主題
 
-### 第1楽章の主題とモーツァルト
-
-ニール・ザスロー（Neal Zaslaw）は、第1楽章の一節が、モーツァルト作とされる（真作か疑わしい）ニ長調の交響曲 K. 97 の一節を先取りしていると指摘した。ルイス・ロックウッド（Lewis Lockwood）は、第1楽章の主題をスコットランドやアイルランドの民謡の伝統と結び付けている。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-7/)
+ルイス・ロックウッド（Lewis Lockwood）は、第1楽章の主題をスコットランドやアイルランドの民謡の伝統と結び付けている。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-7/)
