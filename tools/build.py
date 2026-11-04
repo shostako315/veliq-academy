@@ -589,7 +589,8 @@ TERM_EXCLUDE = {"J. C. バッハ", "J.C.バッハ", "J. C. Bach", "ヨハン・�
 TERM_INITIALS = {"J. S. バッハ": "bach-js", "J.S.バッハ": "bach-js", "J. S. Bach": "bach-js", "J.S. Bach": "bach-js",
                  "C. P. E. バッハ": "bach-cpe", "C.P.E.バッハ": "bach-cpe", "C. P. E. Bach": "bach-cpe", "C.P.E. Bach": "bach-cpe",
                  "R. シュトラウス": "strauss-r", "R.シュトラウス": "strauss-r", "R. Strauss": "strauss-r"}
-ALIAS_DENY = {"パート", "リスト", "山田", "團", "細川", "武満"}  # 一般語と紛れる姓
+ALIAS_DENY = {"パート", "リスト", "山田", "團", "細川", "武満", "美術館", "博物館"}  # 一般語と紛れる姓
+TERM_PIN = {"印象派": "/art/western/birth-of-impressionism/", "印象派展": "/art/western/birth-of-impressionism/"}
 TERM_SECTIONS = {"theory", "instruments", "glossary"}  # 見出しを用語にする分野
 
 
@@ -652,6 +653,8 @@ def build_terms(S):
     for t, cid in TERM_INITIALS.items():
         if cid in S.C:
             T.setdefault(t, (f"/music/composers/{cid}/", ""))
+    for t, pth in TERM_PIN.items():
+        T[t] = (pth, "")  # 行き先を固定する語（分野をまたいで紛れる語）
     for t in TERM_EXCLUDE:
         T[t] = None  # 除外語（リンクしない）
     S.terms = T
