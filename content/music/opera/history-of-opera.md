@@ -2,20 +2,62 @@
 title: オペラの歴史——フィレンツェのカメラータから20世紀まで
 slug: history-of-opera
 section: opera
-summary: 1600年前後のフィレンツェでの最初のオペラから、ヴェネツィアの公開劇場、オペラ・セリアとブッファ、グルックの改革、モーツァルト、ベルカント、グランド・オペラ、ヴェルディ、ワーグナー、ヴェリズモとプッチーニ、ロシア、R. シュトラウス、20世紀の作品、歌劇場の制度、日本での受容までを、初演年と初演劇場を添えて時代順にたどる。
-updated: 2026-10-29
+summary: 1600年前後のフィレンツェでの最初のオペラから、ヴェネツィアの公開劇場、リュリの音楽悲劇、オペラ・セリアとインテルメッゾ、ブフォン論争、グルックの改革、モーツァルト、ベルカント、ヴェルディ、ワーグナーとバイロイト、ヴェリズモとプッチーニ、ロシア、R. シュトラウス、20世紀の作品、歌劇場の制度、日本での受容までを、初演年と初演劇場を添えて時代順にたどる。
+updated: 2026-11-04
 sources:
-  - 'Encyclopædia Britannica「opera (music)」 https://www.britannica.com/art/opera-music 閲覧日 2026-10-29'
+  - 'Encyclopædia Britannica「opera (music)」（1589年のインテルメディオとバルディ） https://www.britannica.com/art/opera-music 閲覧日 2026-10-29'
+  - 'Encyclopædia Britannica「Giovanni Bardi, conte di Vernio」（1573年頃のカメラータ創設、ガリレイとカッチーニ、メイの影響、1579〜1608年の宮廷の催し、オペラの成立への影響） https://www.britannica.com/eb/article-9013340/Giovanni-Bardi-conte-di-Vernio 閲覧日 2026-11-04'
   - 'Encyclopædia Britannica「Jacopo Peri」 https://www.britannica.com/print/article/451601 、「L''Euridice」 https://www.britannica.com/topic/LEuridice 閲覧日 2026-10-29'
+  - 'Schubertiade Music & Arts「Peri, Jacopo. L''Euridice — First edition」（1600年10月6日の初演、アンリ4世の婚礼の祝い、1601年の総譜出版と序文、音楽が残る最初のオペラ） https://www.schubertiademusic.com/products/6592-peri-jacopo-l-euridice-first-edition-of-the-2nd-opera-in-history 閲覧日 2026-11-04'
+  - 'Boston Baroque「Claudio Monteverdi: L''Orfeo」（1607年2月24日マントヴァの公爵宮殿、ストリッジョ、1609年と1615年の版、楽器、冒頭のトッカータ） https://baroque.boston/monteverdi-lorfeo 閲覧日 2026-11-04'
+  - 'Lumen Learning, Music Appreciation「Claudio Monteverdi」（《オルフェオ》の献辞） https://courses.lumenlearning.com/suny-musicapp-medieval-modern/chapter/claudio-monteverdi-e/ 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Opera: Venetian opera」（1637年のサン・カッシアーノ劇場、世紀末の9つの劇場、カヴァッリ、《ジャゾーネ》、チェスティ、レチタティーヴォとアリア） https://www.britannica.com:443/art/opera-music/Venetian-opera 閲覧日 2026-11-04'
   - 'Encyclopædia Britannica「Francesco Cavalli」 https://www.britannica.com/print/article/100553 閲覧日 2026-10-29'
-  - 'Encyclopædia Britannica「Giuseppe Verdi」 https://www.britannica.com/biography/Giuseppe-Verdi 閲覧日 2026-10-29'
-  - 'Encyclopædia Britannica「Richard Wagner」 https://www.britannica.com/biography/Richard-Wagner-German-composer 、「music drama」 https://www.britannica.com/art/music-drama 閲覧日 2026-10-29'
-  - 'Bayreuther Festspiele 公式「History」 https://www.bayreuther-festspiele.de/en/about/history/ 閲覧日 2026-10-29'
-  - 'Teatro La Fenice 公式「Grandi prime」 https://www.teatrolafenice.it/wp-content/uploads/2019/02/122_9525grandi_prime_it1.pdf 閲覧日 2026-10-29'
+  - 'Philharmonie de Paris, programme「Cadmus et Hermione」（1673年4月の初演、ベル＝エールの球戯場、キノー、最初の音楽悲劇、王立音楽アカデミーの特権、プロローグと5幕） https://deneb.philharmoniedeparis.fr/uploads/documents/NPGS-25-1-26-18h-Cadmus-et-Hermione-web.pdf 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「opera seria」（ゼーノとメタスタージオ、ダ・カーポ・アリア、カストラート、《リナルド》1711年） https://www.britannica.com/art/opera-seria 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「intermezzo」（《奥様女中》1733年と《誇り高き囚人》、インテルメッゾからオペラ・ブッファへ） https://britannica.com/art/intermezzo-music-and-theater 閲覧日 2026-11-04'
+  - 'Opéra-Comique「La querelle des Bouffons à l''Académie royale de musique (1752 – 1754)」年表（1752年8月1日の《奥様女中》、1754年3月7日の最後の公演、1753年3月1日の《村の占い師》、1753年11月の『フランス音楽に関する手紙』） https://www.opera-comique.com/sites/default/files/2021-07/2021_LaQuerelleDesBouffons_Document_tableau-chronologique.pdf 閲覧日 2026-11-04'
+  - 'EBSCO Research Starters「First Performance of Gluck''s Orfeo and Euridice」（1762年10月5日ウィーン、カルツァビージ、《アルチェステ》1767年と1769年の出版、序文） https://www.ebsco.com/research-starters/history/first-performance-glucks-orfeo-and-euridice 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Opera: From the reform to grand opera」（カルツァビージとグルックのウィーンのイタリア語オペラ、詩に仕える音楽、パリのためのフランス語への改作） https://www.britannica.com/art/opera-music/From-the-reform-to-grand-opera 閲覧日 2026-11-04'
+  - 'Stiftung Mozarteum Salzburg「Wolfgang Amadé Mozart」（各オペラの初演日と劇場） https://mozarteum.at/en/wolfgang-amade-mozart 閲覧日 2026-11-03'
+  - 'Prague City Tourism「Estates Theatre」 https://www.prague.eu/en/object/places/218/estates-theatre 閲覧日 2026-10-29'
   - 'Beethoven-Haus Bonn「Fidelio op. 72」 https://www.beethoven.de/en/work/view/4984496705241088 閲覧日 2026-10-29'
+  - 'Opera Today「Der Freischütz」（1821年6月18日ベルリンの王立劇場、狼谷の場） https://operatoday.com/?p=6371 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Der Freischütz」（キントの台本、3幕のロマン的オペラ） https://www.Britannica.Com/topic/Der-Freischutz 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Opera: Italy in the first half of the 19th century」（ベルカント） https://www.britannica.com/art/opera-music/Italy-in-the-first-half-of-the-19th-century 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「The Barber of Seville」（初演の日付と劇場、台本、原作、初演時の題） https://www.britannica.com/topic/The-Barber-of-Seville-opera-by-Rossini 閲覧日 2026-11-04'
+  - 'Britannica Students「Gioacchino Rossini」（《ギヨーム・テル》） https://kids.britannica.com/students/article/Gioacchino-Rossini/276798 閲覧日 2026-11-04'
+  - 'Teatro La Fenice 公式「Grandi prime」 https://www.teatrolafenice.it/wp-content/uploads/2019/02/122_9525grandi_prime_it1.pdf 閲覧日 2026-10-29'
+  - 'San Francisco Opera「Lucia di Lammermoor」（初演、カンマラーノ、スコット、グラス・ハーモニカとフルート、狂乱の場） https://www.sfopera.com/link/cdf97b3dc748442f93decf956a0d4191.aspx 閲覧日 2026-11-04'
+  - 'Sofia Opera and Ballet「“Norma” and the prima-donnas」（初演、ロマーニ、パスタ） https://www.operasofia.bg/en/news/na-9-april-sofiyskata-opera-predstavya-norma-ot-vinchentso-belini-v-postanovkata-na-ugo-de-ana 閲覧日 2026-11-04'
+  - 'McGill University Library, Archival Collections「Bellini, Vincenzo, 1801-1835」 https://archivalcollections.library.mcgill.ca/index.php/bellini-vincenzo 閲覧日 2026-11-03'
+  - 'Encyclopedia.com（Baker''s Biographical Dictionary of Musicians）「Verdi, Giuseppe (Fortunino Francesco)」（生没、各オペラの初演の日付と劇場） https://encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/verdi-giuseppe-fortunino-francesco-0 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Richard Wagner summary」（生没、《さまよえるオランダ人》1843年、《タンホイザー》1845年、1850年の《ローエングリン》の上演、バイロイトの祝祭劇場1872〜76年） https://www.britannica.com/summary/Richard-Wagner-German-composer 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「music drama」 https://www.britannica.com/art/music-drama 閲覧日 2026-10-29'
   - 'The Wagner Journal「Richard Wagner, tr. Niall Hoskin: Report on the production of Tannhäuser in Paris」（The Wagner Journal, Vol.13 No.3, 2019, pp.53–62 の紹介） https://thewagnerjournal.co.uk/products/richard-wagner-tr-niall-hoskin-report-on-the-production-of-tannhauser-in-paris 閲覧日 2026-10-29'
-  - 'Boston Symphony Orchestra「Four Sea Interludes from Peter Grimes」 https://www.bso.org/works/four-sea-interludes-from-peter-grimes 閲覧日 2026-10-29'
+  - 'Encyclopædia Britannica「Der Ring des Nibelungen」（4部の題、1876年8月13・14・16・17日のバイロイトでの上演、1848〜74年の成立、ライトモティーフ） https://www.britannica.com/topic/Der-Ring-des-Nibelungen 閲覧日 2026-11-03'
+  - 'Bayreuther Festspiele 公式「History」 https://www.bayreuther-festspiele.de/en/about/history/ 閲覧日 2026-10-29'
+  - 'Metropolitan Opera「From the Archives: The Met Premiere of Parsifal」（1903年のクリスマス・イヴ、ヘルツ、バイロイト以外での最初の舞台上演、ワーグナー家の訴えと裁判所の判断、1914年1月1日の著作権の失効） https://www.metopera.org/discover/archives/notes-from-the-archives/from-the-archives-the-met-premiere-of-parsifal/ 閲覧日 2026-11-04'
+  - 'EBSCO Research Starters「Bizet''s Carmen Premieres in Paris」（1875年3月3日オペラ・コミック座、メイヤックとアレヴィ、メリメの1845年の小説、台詞、ビゼーの死、ギローのレチタティーヴォ） https://www.ebsco.com/research-starters/history/bizets-carmen-premieres-paris 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Claude Debussy」（《ペレアスとメリザンド》） https://www.britannica.com/biography/Claude-Debussy 閲覧日 2026-11-03'
+  - 'Encyclopædia Britannica「A Life for the Tsar」（1836年のサンクトペテルブルク、《イワン・スサーニン》への改題） https://www.britannica.com/topic/A-Life-for-the-Tsar 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Modest Mussorgsky」（《ボリス・ゴドゥノフ》1874年） https://www.britannica.com/biography/Modest-Mussorgsky 閲覧日 2026-11-04'
+  - 'Lumen Learning, Music Appreciation「Dmitri Shostakovich」（1934年、1936年1月28日の『プラウダ』） https://courses.lumenlearning.com/suny-musicapp-medieval-modern/chapter/dmitri-shostakovich/ 閲覧日 2026-11-04'
+  - 'Shostakovich.ru「Lady Macbeth of the Mtsensk District / Katerina Izmailova, Op. 29/114」 https://shostakovich.ru/en/opus/114 閲覧日 2026-10-29'
+  - 'Metropolitan Opera「Plot and Creation: Cavalleria Rusticana / Pagliacci」（初演、ソンツォーニョのコンクール、ヴェルガの原作、1893年の2本立て） https://www.metopera.org/link/ce3a7c15296c41a5894f6e3a6ba4994b.aspx 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「verismo」（文学のヴェリズモとの関係、1890年代、日常の人物、劇的で暴力的な筋、マスカーニ、レオンカヴァッロ、ジョルダーノ、プッチーニ《トスカ》） https://www.britannica.com/art/verismo 閲覧日 2026-11-03'
+  - 'San Francisco Opera「Works of Puccini」（各オペラの初演の日付と劇場、《蝶々夫人》の改訂、《トゥーランドット》の補筆） https://www.sfopera.com/contentassets/6aa7ce0b12dc468ca5585afc3ba9a0e5/works_puccini.pdf 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Giacomo Puccini」（生没） https://www.britannica.com/biography/Giacomo-Puccini 閲覧日 2026-11-04'
   - 'Interlude「Puccini: Turandot」 https://interlude.hk/puccini-turandot-premiered-today-1926/ 閲覧日 2026-10-29'
+  - 'Encyclopædia Britannica「Richard Strauss summary」（歌劇の作曲年、ホーフマンスタール） https://www.britannica.com/summary/Richard-Strauss 閲覧日 2026-11-03'
+  - 'Encyclopædia Britannica「Der Rosenkavalier」（1911年1月26日ドレスデン初演、ホーフマンスタール） https://www.britannica.com/topic/Der-Rosenkavalier 閲覧日 2026-11-03'
+  - 'Leoš Janáček Foundation（leosjanacek.eu）「Jenůfa JW I/4」（1904年1月21日ブルノ初演、コヴァジョヴィツの変更、1916年5月26日のプラハ初演） https://www.leosjanacek.eu/en/jenufa/ 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Wozzeck」（初演の日付と都市、原作） https://www.britannica.com/topic/Wozzeck 閲覧日 2026-11-03'
+  - 'Metropolitan Opera「Lulu after Berg’s Death」（1935年のベルクの死、1937年チューリヒの2幕の形での初演、ツェルハの補筆、1979年パリのブーレーズ指揮の3幕版） https://www.metopera.org/learn/education/lulu-after-bergs-death/ 閲覧日 2026-11-04'
+  - 'Boston Symphony Orchestra「Four Sea Interludes from Peter Grimes」 https://www.bso.org/works/four-sea-interludes-from-peter-grimes 閲覧日 2026-10-29'
+  - 'IRCAM, Brahms「Le Grand Macabre (1974-1977)」（作曲年、1978年4月12日ストックホルム王立歌劇場、ハワース、1996年の改訂） https://brahms.ircam.fr/en/work/le-grand-macabre 閲覧日 2026-11-04'
+  - 'EBSCO Research Starters「Adams''s Nixon in China Premieres」（1987年10月22日、ヒューストン・グランド・オペラのワーサム・センター、グッドマン、セラーズ、デメイン） https://www.ebsco.com/research-starters/drama-and-theater-arts/adamss-nixon-china-premieres 閲覧日 2026-11-04'
+  - 'Wiener Staatsoper「History of the Vienna State Opera」（1869年5月25日、ドイツ語の《ドン・ジョヴァンニ》で開場、第一共和国成立後の改称） https://wiener-staatsoper.at/en/history 閲覧日 2026-11-04'
   - 'Gramophone（Opera Now）, Andrew Mellor「Week-in-week-out, I see examples of the ensemble system working brilliantly and failing miserably」2024-01-16 https://gramophone.co.uk/opera-now/opinion/article/week-in-week-out-i-see-examples-of-the-ensemble-system-working-brilliantly-and-failing-miserably-opinion 閲覧日 2026-10-29'
   - 'La Monnaie / De Munt「Definitions」 https://behindthescenes.lamonnaiedemunt.be/en/definitions 閲覧日 2026-10-29'
   - '東京藝術大学『東京芸術大学百年史 東京音楽学校篇 第1巻』所収資料（1903年の《オルフォイス》上演） https://archives.geidai.ac.jp/files/y100/100yh_mus01_093.pdf 閲覧日 2026-10-29'
@@ -23,206 +65,141 @@ sources:
   - '早稲田大学総合研究機構（帝国劇場とローシー、浅草オペラの舞踊に関する研究紹介） https://www.waseda.jp/inst/cro/?p=18006 閲覧日 2026-10-29'
   - 'Opera Europa「Tokyo Nikikai Opera Foundation」 https://opera-europa.org/de/node/6576 閲覧日 2026-10-29'
   - 'Google Arts & Culture（新国立劇場）「Exploring the History of the New National Theatre, Tokyo」 https://artsandculture.google.com/story/yQXBz66hhvvYtA 閲覧日 2026-10-29'
-  - 'Wikipedia（英語版）「Florentine Camerata」「Euridice (Peri)」「L''Orfeo」「Teatro San Cassiano」「Il ritorno d''Ulisse in patria」「L''incoronazione di Poppea」「Cadmus et Hermione」「Tragédie en musique」「Opera seria」「Rinaldo (opera)」「Opera buffa」「La serva padrona」「Querelle des Bouffons」「Orfeo ed Euridice」「Alceste (Gluck)」「The Marriage of Figaro」「Don Giovanni」「Così fan tutte」「The Magic Flute」「Der Freischütz」「Bel canto」「The Barber of Seville」「William Tell (opera)」「L''elisir d''amore」「Lucia di Lammermoor」「Norma (opera)」「I puritani」「Grand opera」「Salle Le Peletier」「Les Huguenots」「List of compositions by Giuseppe Verdi」「Der fliegende Holländer」「Tannhäuser (opera)」「Lohengrin (opera)」「Tristan und Isolde」「Der Ring des Nibelungen」「Bayreuth Festspielhaus」「Hans Richter (conductor)」「Parsifal」「Leitmotif」「Gesamtkunstwerk」「Faust (opera)」「Carmen」「Pelléas et Mélisande (opera)」「A Life for the Tsar」「Boris Godunov (opera)」「Eugene Onegin (opera)」「The Queen of Spades (opera)」「Lady Macbeth of the Mtsensk District (opera)」「Verismo (music)」「Cavalleria rusticana」「Pagliacci」「List of compositions by Giacomo Puccini」「Turandot」「Salome (opera)」「Elektra (opera)」「Der Rosenkavalier」「Jenůfa」「Wozzeck」「Lulu (opera)」「Peter Grimes」「The Rake''s Progress」「Le Grand Macabre」「Nixon in China」「Vienna State Opera」「Stagione」「Répétiteur」「Kapellmeister」「Fujiwara Opera」「New National Theatre Tokyo」 閲覧日 2026-10-29'
-  - 'Wikipedia（ドイツ語版）「Korrepetitor」 閲覧日 2026-10-29'
-  - 'Shostakovich.ru「Lady Macbeth of the Mtsensk District / Katerina Izmailova, Op. 29/114」 https://shostakovich.ru/en/opus/114 閲覧日 2026-10-29'
-  - 'Prague City Tourism「Estates Theatre」 https://www.prague.eu/en/object/places/218/estates-theatre 閲覧日 2026-10-29'
 ---
 
 ## 前史——フィレンツェの宮廷とカメラータ
 
-オペラの直接の祖先とされる催しは16世紀のイタリアに現れた。16世紀末、フィレンツェがオペラの発祥地になった。1589年、トスカーナ大公フェルディナンド1世・デ・メディチとクリスティーヌ・ド・ロレーヌの婚礼を祝う1か月にわたる祝典の締めくくりに、劇の幕間に上演する大規模な「インテルメディオ」が制作され、バルディ（Giovanni de' Bardi）がこれを率いた。このとき携わった人々の一部が、約10年後のフィレンツェでの最初のオペラ上演に加わった。
+オペラの直接の祖先とされる催しは16世紀のイタリアに現れた。1589年、トスカーナ大公フェルディナンド1世・デ・メディチの婚礼を祝う祝典の締めくくりに、劇の幕間に上演する大規模な「インテルメディオ」が制作され、バルディ（Giovanni de' Bardi）がこれを率いた。このとき携わった人々の一部が、約10年後のフィレンツェでの最初のオペラ上演に加わった。[（Britannica）](https://www.britannica.com/art/opera-music)
 
-バルディ伯の邸宅に集まった人々は「カメラータ」と呼ばれる。記録に残る最も早い会合は1573年1月14日で、活動の盛期は1577年から1582年である。カッチーニ（Giulio Caccini）、ピエトロ・ストロッツィ（Pietro Strozzi）、ヴィンチェンツォ・ガリレイ（Vincenzo Galilei）、メイ（Girolamo Mei）が加わり、若いリヌッチーニ（Ottavio Rinuccini）も参加していた可能性がある。
-
-- メイは当時の古代ギリシア研究の第一人者で、古代ギリシアの劇は語られるよりも主に歌われていたと考えた。カメラータの考えは多くをメイに負っている。
-- ガリレイは『古代と現代の音楽についての対話』（Dialogo della musica antica et della moderna, 1581–82）を出版した。
-- カッチーニの歌曲集『新音楽』（Le nuove musiche）は、カメラータが解散してから長く経った1602年に出た。
-
-バルディのカメラータとは別に、コルシ（Jacopo Corsi）の周囲にも人が集まった。二つの集まりには共通の人物が多かったが、コルシとバルディは対立していた。
+バルディ伯（1534年生）は1573年頃、古代ギリシャの音楽と劇の復興を目指す集まり「カメラータ」を作った。理論家ヴィンチェンツォ・ガリレイ（Vincenzo Galilei、ガリレオの父）と作曲家カッチーニ（Giulio Caccini）が加わり、ギリシャ学者メイ（Girolamo Mei）の考えが影響を与えた。バルディは1579年から1608年までフィレンツェの宮廷の催しに携わり、オペラの成立に影響を与えた人物とされる。[（Britannica）](https://www.britannica.com/eb/article-9013340/Giovanni-Bardi-conte-di-Vernio)
 
 ## 最初のオペラ——ペーリ《ダフネ》《エウリディーチェ》
 
-ペーリ（Jacopo Peri）は、リヌッチーニ、コルシとともに《ダフネ》を作った。1598年の《ダフネ》は「おそらく最初のオペラ」とされる。1597年とする資料もある。音楽はほとんど失われている。
+ペーリ（Jacopo Peri）の1598年の《ダフネ》は「おそらく最初のオペラ」とされる。[（Britannica）](https://www.britannica.com/print/article/451601)
 
-ペーリとリヌッチーニの《エウリディーチェ》は、1600年10月6日にフィレンツェのピッティ宮で、フランス王アンリ4世とマリア・デ・メディチの婚礼の祝典の一部として上演された。台本はオウィディウス『変身物語』第10・11巻に基づく。ペーリ自身がオルフェオを歌い、上演の一部にはペーリと宮廷で競合していたカッチーニの音楽が使われ、カッチーニの娘フランチェスカ（Francesca Caccini）も出演した。《エウリディーチェ》は音楽が完全に残る最初のオペラとされる。
-
-カッチーニも同じ台本に作曲し、1600年に出版、1602年に上演した。
-
-この時期の作品で用いられた語りと歌の中間の歌唱様式は、レチタティーヴォ（recitativo）として発展した。
+ペーリの《エウリディーチェ》は、1600年10月6日、フランス王アンリ4世とマリア・デ・メディチの婚礼の祝典の一部として初演された。1601年に出版された総譜の序文で、ペーリは曲の一部をカッチーニが書いたと記している。《エウリディーチェ》は音楽が残る最初のオペラである。[（Schubertiade Music & Arts）](https://www.schubertiademusic.com/products/6592-peri-jacopo-l-euridice-first-edition-of-the-2nd-opera-in-history)
 
 ## マントヴァ——モンテヴェルディ《オルフェオ》（1607年）
 
-モンテヴェルディ（Claudio Monteverdi）の《オルフェオ》は、1607年2月24日にマントヴァのゴンザーガ家の宮殿で初演された。日付は前日付の2通の書簡による。上演した部屋は特定できない。台本はストリッジョ（Alessandro Striggio）で、ストリッジョはマントヴァの劇作品の主な発表の場だった「インヴァギーティ・アカデミー」（Accademia degli Invaghiti）の会員だった。
+モンテヴェルディ（Claudio Monteverdi）の《オルフェオ》は、1607年2月24日にマントヴァの公爵宮殿で初演された。台本はストリッジョ（Alessandro Striggio）。1609年と1615年の2つの版で伝わる。[（Boston Baroque）](https://baroque.boston/monteverdi-lorfeo)総譜はマントヴァ公子フランチェスコ・ゴンザガに献呈された。[（Lumen Learning）](https://courses.lumenlearning.com/suny-musicapp-medieval-modern/chapter/claudio-monteverdi-e/)
 
-- 台本は1607年にマントヴァで出版され、総譜は1609年にヴェネツィアのアマディーノ（Ricciardo Amadino）から出版された（1615年に再版）。
-- 総譜にはおよそ41の楽器が挙げられている。弦楽器（ヴァイオリン、コントラバス、小型のヴァイオリン）、トロンボーン、トランペット、コルネット、通奏低音群（チェンバロ、ハープ、キタローネ、オルガン、ヴィオラ・ダ・ガンバ、レガール）、2本のリコーダーである。
-- 構成はプロローグと5幕。プロローグは「音楽」の寓意の役が5連の詩節を歌う。
-- 冒頭はトランペットのためのトッカータで、2回繰り返される。
+- 弦楽器とリコーダーを基本に、冥界の場面にはコルネットとサックバット（トロンボーン）を用い、通奏低音にはチェンバロ、オルガン、テオルボ、ハープを使う。
+- トランペットは冒頭のトッカータだけに現れる。[（Boston Baroque）](https://baroque.boston/monteverdi-lorfeo)
 
 ## ヴェネツィアの公開劇場（1637年〜）
 
-1637年、ヴェネツィアのサン・カッシアーノ劇場が、入場料を払う観客に開かれた最初のオペラ劇場として開場した。劇場の持ち主はトロン家で、1636年にエットーレとフランチェスコの兄弟が「音楽のための劇場」の開設を願い出ている。最初の上演作はマネッリ（Francesco Manelli）作曲、フェラーリ（Benedetto Ferrari）台本の《アンドロメダ》だった。
-- **モンテヴェルディ《ウリッセの帰還》**（Il ritorno d'Ulisse in patria）：1639〜40年の謝肉祭シーズンに初演された。台本はバドアーロ（Giacomo Badoaro）。劇場は、台本の写しの一部にサン・カッシアーノ劇場とあるが、現在はサンティ・ジョヴァンニ・エ・パオロ劇場とする見方が一般的である。
-- **モンテヴェルディ《ポッペアの戴冠》**（L'incoronazione di Poppea）：1642〜43年の謝肉祭シーズンにサンティ・ジョヴァンニ・エ・パオロ劇場で初演された。正確な日付は分からず、記録にあるのは謝肉祭の開始日（1642年12月26日）だけである。台本はブゼネッロ（Giovanni Francesco Busenello）。残る楽譜には、サクラーティ（Francesco Sacrati）の《偽りの狂女》の音楽が含まれ、サクラーティ、フェラーリ、カヴァッリが共作者の候補に挙がる。現在の研究では、モンテヴェルディが中心となった共作とみる見方が一般的である。
-- **カヴァッリ**（Francesco Cavalli, 1602–1676）：17世紀半ばのイタリアで最も重要なオペラ作曲家とされる。劇作品の多くは17世紀ヴェネツィアの公開劇場のために書かれた。42作のオペラのうち27作が、サン・マルコの図書館に手稿で残る。《ディドーネ》（1641年）があり、《エジスト》は1646年にパリで上演された。
+1637年の初め、ヴェネツィアのサン・カッシアーノ劇場が、最初の公開のオペラ劇場として開場した。裕福な商人の一族の営利事業であった。17世紀末までにヴェネツィアには9つの営利の劇場があり、そのいくつかはオペラを専門とした。ヴェネツィアのオペラでは、筋は簡素なレチタティーヴォで進み、アリアは新しい叙情的な語法をとった。[（Britannica）](https://www.britannica.com:443/art/opera-music/Venetian-opera)
 
-## フランス——リュリの悲劇オペラ
+- **カヴァッリ**（Francesco Cavalli, 1602–1676）：モンテヴェルディに学び、当時最も人気のあるオペラ作曲家となった。1639年から1669年にヴェネツィアの劇場のために20を超えるオペラを書き、最も名高い《ジャゾーネ》（1649年）はチコニーニ（Giacinto Andrea Cicognini）の台本による。[（Britannica）](https://www.britannica.com:443/art/opera-music/Venetian-opera)42作のオペラのうち27作が、サン・マルコの図書館に手稿で残る。《ディドーネ》（1641年）があり、《エジスト》は1646年にパリで上演された。[（Britannica）](https://www.britannica.com/print/article/100553)
+- **チェスティ**（Antonio Cesti）：カヴァッリの主な競争相手で後継者。約12のオペラを書き、《オロンテア》（1656年）が知られる。[（Britannica）](https://www.britannica.com:443/art/opera-music/Venetian-opera)
 
-フランスでは、リュリ（Jean-Baptiste Lully）が1672年にオペラ上演の特権を手に入れ、翌1673年4月27日、キノー（Philippe Quinault）台本の《カドミュスとエルミオーヌ》をパリのベケの球戯場（Jeu de paume de Béquet）で初演した。リュリはこの作品で「音楽悲劇」（tragédie en musique）の形を作った。標準的な音楽悲劇は5幕で、初期の作品には寓意的なプロローグが付く。18世紀にはラモー（Jean-Philippe Rameau）が《イポリートとアリシー》（1733年）などの5作の音楽悲劇を書いた。
+## フランス——リュリの音楽悲劇
 
-## オペラ・セリア——18世紀の宮廷のオペラ
+フランスでは、リュリ（Jean-Baptiste Lully）がオペラ上演の特権を手に入れて王立音楽アカデミーを設け、1673年4月、キノー（Philippe Quinault）台本の《カドミュスとエルミオーヌ》をパリのベル＝エールの球戯場で初演した。リュリとキノーの「音楽悲劇」（tragédie en musique）の最初の作品で、プロローグと5幕からなる。[（Philharmonie de Paris）](https://deneb.philharmoniedeparis.fr/uploads/documents/NPGS-25-1-26-18h-Cadmus-et-Hermione-web.pdf)
 
-1710年代から1770年頃まで、ヨーロッパのオペラの中心はイタリア語の「オペラ・セリア」（opera seria）だった。多くは宮廷のオペラである。
+## オペラ・セリア——18世紀のイタリア語の「まじめなオペラ」
 
-- **台本作家**：ゼーノ（Apostolo Zeno）が型を整え、メタスタージオ（Pietro Metastasio）が1730年以降にゼーノの後任としてウィーンの宮廷詩人となり、この形式を定めた。メタスタージオの型は1750年代に最も広く行われ、その後はヨンメッリ（Niccolò Jommelli）、トラエッタ（Tommaso Traetta）、グルックの改革とともに後退した。
-- **構成**：3幕で、めでたい結末（lieto fine）の合唱で終わる。アリアは主にA–B–Aのダ・カーポ・アリアで、3部目は歌手が装飾した。筋を運ぶレチタティーヴォは通奏低音だけが伴奏する「セッコ」で、感情の高まる場面では弦楽を伴う「ストロメンタート」が用いられた。
-- **歌手**：英雄の男役はカストラートが歌い、男声の主役を「プリモ・ウオモ」、女声の主役を「プリマ・ドンナ」と呼んだ。
+18世紀のヨーロッパでは、イタリア語の「オペラ・セリア」（opera seria、まじめなオペラ）が主流だった。17世紀末にアレッサンドロ・スカルラッティらナポリの作曲家のもとで生まれた。[（Britannica）](https://www.britannica.com/art/opera-seria)
 
-ヘンデル（George Frideric Handel）の《リナルド》は1711年2月24日にロンドンのヘイマーケットのクイーンズ劇場で初演された。台本はアーロン・ヒル（Aaron Hill）の筋書きに基づきジャコモ・ロッシ（Giacomo Rossi）が書いた。ロンドンの舞台のために書かれた最初のイタリア語オペラである。ヘンデルは宮廷ではなく、さまざまな階層を含むロンドンの聴衆のために書き、メタスタージオの台本はわずかしか使わなかった。
+- **台本**：ゼーノ（Apostolo Zeno）とメタスタージオ（Pietro Metastasio）が台本の作法の第一人者で、古典の神話や歴史から題材を取り、喜劇の場面を入れなかった。
+- **アリア**：A–B–A のダ・カーポ形式が特徴で、繰り返しの部分は多くの場合即興の装飾を伴った。筋を進める対話は、簡素な伴奏のレチタティーヴォで歌われた。
+- **歌手**：女声とカストラートの高い声が重んじられた。
+- ヘンデル（George Frideric Handel）の《リナルド》（1711年）はこの様式の例である。[（Britannica）](https://www.britannica.com/art/opera-seria)
 
-## オペラ・ブッファとブフォン論争
+## インテルメッゾ、オペラ・ブッファ、ブフォン論争
 
-喜劇のオペラ「オペラ・ブッファ」（opera buffa）は、18世紀前半のナポリでの展開と結び付いている。初期には方言が使われた。
+17〜18世紀のまじめなオペラの幕間に上演された喜劇の「インテルメッゾ」から、イタリアの喜劇のオペラ「オペラ・ブッファ」（opera buffa）が生まれた。インテルメッゾはふつうソプラノとバスのために書かれ、全編が歌われた。ペルゴレージ（Giovanni Battista Pergolesi）の《奥様女中》（La serva padrona, 1733年）は、自作のオペラ・セリア《誇り高き囚人》の幕間に上演されたインテルメッゾである。[（Britannica）](https://britannica.com/art/intermezzo-music-and-theater)
 
-- ニュー・グローヴ音楽辞典は、ファッジョーリ（Michelangelo Faggioli）作曲、トゥッリオ（Francesco Antonio Tullio）台本の《チッラ》（1706年）をこのジャンルの最初の例とみる。
-- ペルゴレージ（Giovanni Battista Pergolesi）の3幕の《恋する修道士》（Lo frate 'nnamorato, 1732年）はナポリ方言で書かれた。
-- 18世紀初めには、オペラ・セリアの幕間に1幕の喜劇「インテルメッゾ」（intermezzo）が上演された。ペルゴレージの《奥様女中》（La serva padrona）は、1733年9月にナポリのサン・バルトロメオ劇場で、自作のオペラ・セリア《誇り高き囚人》の幕間に初演された（初演日は9月5日とする記述と6日とする記述がある）。台本はフェデリーコ（Gennaro Federico）。
-- 早口の歌で喜劇の中心を担う低音の役「バッソ・ブッフォ」が生まれた。ガルッピ（Baldassare Galuppi）の《田舎の哲学者》（1754年）もこの系統の作品である。
-
-1752年8月1日、バンビーニ（Eustacchio Bambini）のイタリア人一座がパリの王立音楽アカデミー（オペラ座）で《奥様女中》を上演し、フランスとイタリアのオペラの優劣をめぐる「ブフォン論争」（Querelle des Bouffons）が約2年続いた。ルソー（Jean-Jacques Rousseau）は1752年10月にフォンテーヌブローで自作の《村の占い師》を上演し、1753年に『フランス音楽に関する手紙』を出版した。
+1752年8月1日、パリの王立音楽アカデミー（オペラ座）で《奥様女中》が上演され、イタリアの一座（ブフォン）の公演は1754年3月7日まで続いた。この間のフランスとイタリアのオペラをめぐる論争を「ブフォン論争」（Querelle des Bouffons）という。1753年3月1日にはルソー（Jean-Jacques Rousseau）の《村の占い師》が同じ劇場で上演され、ルソーは1753年11月に『フランス音楽に関する手紙』を出した。[（Opéra-Comique）](https://www.opera-comique.com/sites/default/files/2021-07/2021_LaQuerelleDesBouffons_Document_tableau-chronologique.pdf)
 
 ## グルックの改革
 
-グルック（Christoph Willibald Gluck）の《オルフェオとエウリディーチェ》は、1762年10月5日にウィーンのブルク劇場で初演された。台本はカルツァビージ（Ranieri de' Calzabigi）である。
-
-続く《アルチェステ》は1767年12月26日に同じブルク劇場で初演された。1769年にウィーンで出版された総譜には、イタリア語の序文が付いた。序文は、ほぼ確実にカルツァビージが書いたものとされる。その原則は、アルガロッティ（Francesco Algarotti）が『音楽によるオペラについての試論』（1755年）で示したものに沿っており、次の点を挙げる。
-
-- ダ・カーポ・アリアを使わない
-- 声の技巧や声量を見せるための部分を置かない
-- 長いメリスマを置かない
-- 言葉が聞き取れるよう、音節ごとに音を当てる書き方を主とする
-
-グルックはのちにパリへ移り、《オルフェオ》をフランス語の《オルフェとウリディス》に改作した。1774年8月2日にパリ・オペラ座（第2パレ・ロワイヤル劇場）で初演され、フランスではカストラートをほとんど使わないため、オルフェの役は高いテノール（オート・コントル）に書き直された。《アルチェステ》のフランス語版は1776年4月23日に同じ劇場で初演された（台本の日付は4月16日）。
+グルック（Christoph Willibald Gluck）の《オルフェオとエウリディーチェ》は、1762年10月5日にウィーンで初演された。グルックは台本作家カルツァビージ（Ranieri de' Calzabigi）と組んだ。続く《アルチェステ》は1767年に初演され、1769年に出版された。その献辞の序文はグルックの署名だが実際にはカルツァビージが書いたもので、ウィーンの改革運動の最も明確な宣言とされる。[（EBSCO Research Starters）](https://www.ebsco.com/research-starters/history/first-performance-glucks-orfeo-and-euridice)序文は、音楽の「真の務め」は詩に仕えることだと述べる。2作はのちにパリのためにフランス語の台本に改作された。[（Britannica）](https://www.britannica.com/art/opera-music/From-the-reform-to-grand-opera)
 
 ## モーツァルト——ダ・ポンテ三部作と《魔笛》
 
-モーツァルト（Wolfgang Amadeus Mozart）は、ダ・ポンテ（Lorenzo Da Ponte）の台本で3作のイタリア語オペラを書いた。
+モーツァルト（Wolfgang Amadeus Mozart）は、ダ・ポンテ（Lorenzo Da Ponte）の台本で3作のイタリア語オペラを書いた。[（Stiftung Mozarteum Salzburg）](https://mozarteum.at/en/wolfgang-amade-mozart)
 
-| 作品 | 初演 | 劇場 | 備考 |
-|---|---|---|---|
-| 《フィガロの結婚》K.492 | 1786年5月1日 | ウィーン、ブルク劇場 | 原作はボーマルシェ『狂おしい一日、またはフィガロの結婚』（1784年）。最初の2回はモーツァルトが鍵盤から指揮し、以後はヴァイグル（Joseph Weigl）が指揮した |
-| 《ドン・ジョヴァンニ》K.527 | 1787年10月29日 | プラハ、ノスティッツ劇場（現エステート劇場） | 台本の表記は「ドラマ・ジョコーソ」。モーツァルトは自作目録にオペラ・ブッファと記した。ウィーン初演は1788年5月7日 |
-| 《コジ・ファン・トゥッテ》K.588 | 1790年1月26日 | ウィーン、ブルク劇場 | 副題「恋人たちの学校」 |
+| 作品 | 初演 | 劇場 |
+|---|---|---|
+| 《フィガロの結婚》K.492 | 1786年5月1日 | ウィーン、ブルク劇場 |
+| 《ドン・ジョヴァンニ》K.527 | 1787年10月29日 | プラハ、ノスティッツ劇場（現エステート劇場） |
+| 《コジ・ファン・トゥッテ》K.588 | 1790年1月26日 | ウィーン、ブルク劇場 |
 
-《魔笛》K.620は、シカネーダー（Emanuel Schikaneder）の台本による、歌と台詞からなるドイツ語のジングシュピール（Singspiel）で、1791年9月30日にウィーンのヴィーデン劇場で初演された。
+[（Stiftung Mozarteum Salzburg）](https://mozarteum.at/en/wolfgang-amade-mozart)[（Prague City Tourism）](https://www.prague.eu/en/object/places/218/estates-theatre)
+
+《魔笛》K.620は、シカネーダー（Emanuel Schikaneder）の台本によるドイツ語のオペラで、1791年9月30日にウィーンのヴィーデン劇場で初演された。[（Stiftung Mozarteum Salzburg）](https://mozarteum.at/en/wolfgang-amade-mozart)
 
 ## ドイツ語のオペラ——《フィデリオ》と《魔弾の射手》
 
 ベートーヴェン（Ludwig van Beethoven）の唯一のオペラ《フィデリオ》は、1805年11月20日にアン・デア・ウィーン劇場で初演され、改訂を経て、最終稿が1814年5月23日にケルントナートーア劇場で初演された [（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/4984496705241088)。
 
-ウェーバー（Carl Maria von Weber）の《魔弾の射手》は、1821年6月18日にベルリンの王立劇場（シャウシュピールハウス）で初演された。台本はキント（Friedrich Kind）。第2幕の「狼谷」の場面で、カスパールが真夜中に黒い狩人ザミエルを呼び出し、魔弾を鋳る。
+ウェーバー（Carl Maria von Weber）の3幕のロマン的オペラ《魔弾の射手》は、1821年6月18日にベルリンの王立劇場（シャウシュピールハウス）で初演された。[（Opera Today）](https://operatoday.com/?p=6371)台本はキント（Friedrich Kind）。[（Britannica）](https://www.Britannica.Com/topic/Der-Freischutz)「狼谷」の場面では、夜、カスパールが黒い狩人の助けを求め、魔弾を鋳る支度をする。[（Opera Today）](https://operatoday.com/?p=6371)
 
 ## ベルカント——ロッシーニ、ドニゼッティ、ベッリーニ
 
-「ベルカント」（bel canto、美しい歌）は、18世紀から19世紀初めにヨーロッパの広い範囲で行われたイタリア起源の歌唱様式を指す。この語が歌唱の流派と結び付けられたのは19世紀半ばからで、1860年代初めの著述家が、1830年頃から衰えはじめた様式を懐かしんでこの語を用いた。19世紀後半にはワーグナーに結び付く重いドイツの様式と対比して使われるようになった。ロッシーニ、ベッリーニ、ドニゼッティが技巧的なオペラを書いた時期を「ベルカントの時代」と呼ぶ音楽学者もいる。
+「ベルカント」（bel canto、美しい歌）は、19世紀前半のイタリア・オペラの、歌手の声と技巧を中心に置く作曲と歌唱のあり方を指す。[（Britannica）](https://www.britannica.com/art/opera-music/Italy-in-the-first-half-of-the-19th-century)
 
-- **ロッシーニ**（Gioachino Rossini）：《セビリャの理髪師》は1816年2月20日にローマのアルジェンティーナ劇場で、《アルマヴィーヴァ、または無益な用心》の題で初演された。台本はステルビーニ（Cesare Sterbini）。ヴェネツィアのフェニーチェ劇場では《タンクレーディ》（1813年2月）、《セミラーミデ》（1823年）が初演された [（Teatro La Fenice）](https://www.teatrolafenice.it/wp-content/uploads/2019/02/122_9525grandi_prime_it1.pdf)。《ギヨーム・テル》は1829年8月3日にパリ・オペラ座（ル・ペルティエ劇場）で初演された（台本はジュイとビス）。これがロッシーニの最後のオペラで、ロッシーニはその後40年近く生きた。
-- **ドニゼッティ**（Gaetano Donizetti）：《愛の妙薬》は1832年5月12日にミラノのカノッビアーナ劇場で初演された（台本はロマーニ）。《ランメルモールのルチア》は1835年9月26日にナポリのサン・カルロ劇場で初演された。台本はカンマラーノ（Salvadore Cammarano）、原作はスコットの小説『ランメルモールの花嫁』（1819年）。第3幕の狂乱の場は、もとはグラス・ハーモニカとソプラノのために書かれ、現在はフルートで演奏されることが多い。
-- **ベッリーニ**（Vincenzo Bellini）：《ノルマ》は1831年12月26日にミラノのスカラ座で初演された。台本はロマーニ（Felice Romani）、題名役はパスタ（Giuditta Pasta）。フェニーチェ劇場では《カプレーティ家とモンテッキ家》（1830年）と《テンダのベアトリーチェ》（1833年）が初演された。《清教徒》は1835年1月24日にパリのイタリア劇場で、グリージ、ルビーニ、タンブリーニ、ラブラーシュの配役で初演された。ベッリーニは同じ年の9月、33歳で没した。
-
-## パリのグランド・オペラ
-
-1820年代末から1860年頃にかけて、パリ・オペラ座では「グランド・オペラ」（grand opéra）と呼ばれる型の作品が上演された。多くは4幕または5幕で、歴史上の事件を題材とし、大きな配役と管弦楽、大がかりな舞台を用い、バレエを含むのが通例だった。1830年の七月革命の後、それまで国営だったオペラ座の経営を実業家ヴェロン（Louis-Désiré Véron）が請け負い、グランド・オペラに大きく投資した。台本の多くはスクリーブ（Eugène Scribe）が書いた。
-
-当時のオペラ座はル・ペルティエ劇場（Salle Le Peletier）にあった。1821年8月16日に開場し、1822年2月6日に舞台効果の照明にガス灯を初めて用い、1873年10月29日に火災で焼失した。この劇場で次の作品が初演された。
-
-| 作品 | 作曲 | 初演年 |
-|---|---|---|
-| 《ポルティチの唖娘》 | オーベール（Daniel-François-Esprit Auber） | 1828年 |
-| 《ギヨーム・テル》 | ロッシーニ | 1829年 |
-| 《悪魔のロベール》 | マイアベーア（Giacomo Meyerbeer） | 1831年 |
-| 《ユダヤの女》 | アレヴィ（Fromental Halévy） | 1835年 |
-| 《ユグノー教徒》 | マイアベーア | 1836年2月29日（台本スクリーブとデシャン、指揮アブネック） |
-| 《預言者》 | マイアベーア | 1849年 |
-| 《シチリアの晩鐘》 | ヴェルディ | 1855年6月13日 |
-| 《ドン・カルロス》 | ヴェルディ | 1867年3月11日 |
-
-マイアベーアの《アフリカの女》は、作曲者の没後の1865年に初演された。
+- **ロッシーニ**（Gioachino Rossini）：《セビリャの理髪師》は1816年2月20日にローマのアルジェンティーナ劇場で、《アルマヴィーヴァ、または無益な用心》の題で初演された。台本はステルビーニ（Cesare Sterbini）。[（Britannica）](https://www.britannica.com/topic/The-Barber-of-Seville-opera-by-Rossini)ヴェネツィアのフェニーチェ劇場では《タンクレーディ》（1813年2月）、《セミラーミデ》（1823年）が初演された [（Teatro La Fenice）](https://www.teatrolafenice.it/wp-content/uploads/2019/02/122_9525grandi_prime_it1.pdf)。1829年にパリで初演された《ギヨーム・テル》が最後のオペラとなった。[（Britannica Students）](https://kids.britannica.com/students/article/Gioacchino-Rossini/276798)
+- **ドニゼッティ**（Gaetano Donizetti）：《ランメルモールのルチア》は1835年にナポリのサン・カルロ劇場で初演された。台本はカンマラーノ（Salvadore Cammarano）、原作はスコットの小説。第3幕の狂乱の場は、もとはグラス・ハーモニカとソプラノのために書かれ、現在はフルートで演奏されることが多い。[（San Francisco Opera）](https://www.sfopera.com/link/cdf97b3dc748442f93decf956a0d4191.aspx)
+- **ベッリーニ**（Vincenzo Bellini, 1801–1835）：《ノルマ》は1831年12月26日にミラノのスカラ座で初演された。台本はロマーニ（Felice Romani）、題名役はパスタ（Giuditta Pasta）。[（Sofia Opera and Ballet）](https://www.operasofia.bg/en/news/na-9-april-sofiyskata-opera-predstavya-norma-ot-vinchentso-belini-v-postanovkata-na-ugo-de-ana)フェニーチェ劇場では《カプレーティ家とモンテッキ家》（1830年）と《テンダのベアトリーチェ》（1833年）が初演された。[（Teatro La Fenice）](https://www.teatrolafenice.it/wp-content/uploads/2019/02/122_9525grandi_prime_it1.pdf)
 
 ## ヴェルディ
 
-ヴェルディ（Giuseppe Verdi）は1813年10月9日または10日にパルマ公国のブッセート近郊ロンコーレに生まれ、1901年1月27日にミラノで没した。主な作品の初演は次のとおりである。
+ヴェルディ（Giuseppe Verdi）は1813年にブッセート近郊ロンコーレに生まれ、1901年1月27日にミラノで没した。主な作品の初演は次のとおりである。[（Baker's Biographical Dictionary of Musicians）](https://encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/verdi-giuseppe-fortunino-francesco-0)
 
-| 作品 | 初演 | 劇場 | 台本 |
-|---|---|---|---|
-| 《オベルト》 | 1839年11月17日 | ミラノ、スカラ座 | ピアッツァ、ソレーラ |
-| 《ナブッコ》 | 1842年3月9日 | ミラノ、スカラ座 | ソレーラ |
-| 《エルナーニ》 | 1844年3月9日 | ヴェネツィア、フェニーチェ劇場 | ピアーヴェ |
-| 《マクベス》 | 1847年3月14日 | フィレンツェ、ペルゴラ劇場 | ピアーヴェ（改訂版は1865年、パリのリリック劇場） |
-| 《リゴレット》 | 1851年3月11日 | ヴェネツィア、フェニーチェ劇場 | ピアーヴェ |
-| 《イル・トロヴァトーレ》 | 1853年1月19日 | ローマ、アポッロ劇場 | カンマラーノ、バルダーレ |
-| 《ラ・トラヴィアータ》 | 1853年3月6日 | ヴェネツィア、フェニーチェ劇場 | ピアーヴェ |
-| 《シモン・ボッカネグラ》 | 1857年3月12日 | ヴェネツィア、フェニーチェ劇場 | ピアーヴェ（改訂版は1881年、スカラ座、ボーイト） |
-| 《仮面舞踏会》 | 1859年2月17日 | ローマ、アポッロ劇場 | ソンマ |
-| 《運命の力》 | 1862年11月10日 | サンクトペテルブルク、ボリショイ劇場 | ピアーヴェ（改訂版は1869年、スカラ座） |
-| 《アイーダ》 | 1871年12月24日 | カイロ、副王の歌劇場 | ギスランツォーニ |
-| 《オテロ》 | 1887年2月5日 | ミラノ、スカラ座 | ボーイト（Arrigo Boito） |
-| 《ファルスタッフ》 | 1893年2月9日 | ミラノ、スカラ座 | ボーイト |
+| 作品 | 初演 | 劇場 |
+|---|---|---|
+| 《オベルト》 | 1839年11月17日 | ミラノ、スカラ座 |
+| 《ナブッコ》 | 1842年3月9日 | ミラノ、スカラ座 |
+| 《エルナーニ》 | 1844年3月9日 | ヴェネツィア、フェニーチェ劇場 |
+| 《マクベス》 | 1847年3月14日 | フィレンツェ、ペルゴラ劇場 |
+| 《リゴレット》 | 1851年3月11日 | ヴェネツィア、フェニーチェ劇場 |
+| 《イル・トロヴァトーレ》 | 1853年1月19日 | ローマ、アポッロ劇場 |
+| 《ラ・トラヴィアータ》 | 1853年3月6日 | ヴェネツィア、フェニーチェ劇場 |
+| 《シモン・ボッカネグラ》 | 1857年3月12日 | ヴェネツィア、フェニーチェ劇場 |
+| 《仮面舞踏会》 | 1859年2月17日 | ローマ、アポッロ劇場 |
+| 《運命の力》 | 1862年11月10日 | サンクトペテルブルク、ボリショイ劇場 |
+| 《アイーダ》 | 1871年12月24日 | カイロ、副王の歌劇場 |
+| 《オテロ》 | 1887年2月5日 | ミラノ、スカラ座 |
+| 《ファルスタッフ》 | 1893年2月9日 | ミラノ、スカラ座 |
 
 フェニーチェ劇場の記録は、《ラ・トラヴィアータ》の初演が失敗だったこと、ただしその程度は当初のヴェルディの言葉ほどではなかったこと、《シモン・ボッカネグラ》の初演が「儀礼的な成功」にとどまったことを記している [（Teatro La Fenice）](https://www.teatrolafenice.it/wp-content/uploads/2019/02/122_9525grandi_prime_it1.pdf)。
 
-## ワーグナー——楽劇、ライトモティーフ、バイロイト
+## ワーグナー——楽劇とバイロイト
 
-ワーグナー（Richard Wagner）は1813年5月22日にライプツィヒに生まれ、1883年2月13日にヴェネツィアで没した。
+ワーグナー（Richard Wagner）は1813年5月22日にライプツィヒに生まれ、1883年2月13日にヴェネツィアで没した。《さまよえるオランダ人》は1843年、《タンホイザー》は1845年の作で、1850年には《ローエングリン》が上演された。[（Britannica）](https://www.britannica.com/summary/Richard-Wagner-German-composer)1861年3月、パリ・オペラ座での《タンホイザー》改訂版の上演は妨害を受け、ワーグナーはその経緯を報告にまとめた。[（The Wagner Journal）](https://thewagnerjournal.co.uk/products/richard-wagner-tr-niall-hoskin-report-on-the-production-of-tannhauser-in-paris)
 
-### ドレスデンまでの作品
+### 楽劇
 
-- 《さまよえるオランダ人》：1843年1月2日、ドレスデン宮廷劇場で作曲者の指揮により初演。
-- 《タンホイザー》：1845年10月19日、同じドレスデン宮廷劇場で作曲者の指揮により初演。1861年3月13日にはパリ・オペラ座（ル・ペルティエ劇場）でディエチュ（Pierre-Louis Dietsch）の指揮により改訂版が上演された。バレエを第1幕に置いたことにジョッキー・クラブの会員が反発し、口笛と野次で上演を妨げた。ワーグナーは3回目の上演の後に作品を引き揚げ、1861年3月27日付の書簡でこの経緯を報告している [（The Wagner Journal）](https://thewagnerjournal.co.uk/products/richard-wagner-tr-niall-hoskin-report-on-the-production-of-tannhauser-in-paris)。
-- 《ローエングリン》：1850年8月28日、ヴァイマルの宮廷劇場でリスト（Franz Liszt）の指揮により初演。
+ワーグナーは論文『オペラとドラマ』（Oper und Drama, 1850–51）で新しい音楽劇の理念を述べた。一人の芸術家が詩の劇を書き、それに途切れなく続く声と管弦楽の音楽を付ける。アリアなどの独立した曲をレチタティーヴォでつなぐ従来のオペラの形は消えるとした。この種の作品は後に「楽劇」（Musikdrama）と呼ばれたが、ワーグナー自身はこの語を使わなかった。[（Britannica）](https://www.britannica.com/art/music-drama)
 
-### 楽劇とライトモティーフ
+### 《ニーベルングの指環》とバイロイト
 
-ワーグナーは論文『オペラとドラマ』（Oper und Drama, 1850–51）で新しい音楽劇の理念を述べた。一人の芸術家が詩の劇を書き、それに途切れなく続く声と管弦楽の音楽を付ける。その音楽は、感情の頂点で生まれた声の旋律句が、管弦楽によって「回想」として展開される動機から成る。アリアなどの独立した曲をレチタティーヴォでつなぐ従来のオペラの形は消えるとした。この種の作品は後に「楽劇」（Musikdrama）と呼ばれたが、ワーグナー自身はこの語を使わず、むしろ嫌った。
+《ニーベルングの指環》は、1848年から1874年にかけて成立した4部作《ラインの黄金》《ワルキューレ》《ジークフリート》《神々の黄昏》で、人物や事物に結びつく反復動機（ライトモティーフ）を用いる。[（Britannica）](https://www.britannica.com/topic/Der-Ring-des-Nibelungen)
 
-「ライトモティーフ」（Leitmotiv）の語も、ワーグナーが定めたものではない。印刷物での最初の使用として知られるのは、1871年に批評家イェーンス（Friedrich Wilhelm Jähns）がウェーバーの作品について書いたものである。この語を広めたのは、ヴォルツォーゲン（Hans von Wolzogen）が1876年に出した《指環》の手引きで、動機に名前を付けて一覧にした。ワーグナー自身は「基本楽想」（Grundthema）や単に「動機」（Motiv）と書き、1877年からは「主要動機」（Hauptmotiv）の語を用いた。
+祝祭劇場の礎石は1872年5月22日、ワーグナーの59歳の誕生日に置かれ、その日ワーグナーはベートーヴェンの交響曲第9番を指揮した。1874年にバイエルン王ルートヴィヒ2世が資金を貸し付け、同年11月に《神々の黄昏》が完成した [（Bayreuther Festspiele）](https://www.bayreuther-festspiele.de/en/about/history/)。
 
-### 《トリスタン》から《指環》へ
+1876年8月13日に第1回のバイロイト音楽祭が始まり、《ニーベルングの指環》全4部作が初めて通して上演された（《ラインの黄金》13日、《ワルキューレ》14日、《ジークフリート》16日、《神々の黄昏》17日）。[（Britannica）](https://www.britannica.com/topic/Der-Ring-des-Nibelungen)この年は3回の全曲上演を行ったが、大きな赤字となり、劇場はその後6年間使われなかった。《パルジファル》は1882年7月26日、第2回の音楽祭で初演された。ワーグナーの没後、1886年からは妻コージマ（Cosima Wagner）が主要作品をバイロイトで上演するという遺志を実行した [（Bayreuther Festspiele）](https://www.bayreuther-festspiele.de/en/about/history/)。
 
-- 《トリスタンとイゾルデ》：1865年6月10日、ミュンヘンの宮廷・国民劇場でビューロー（Hans von Bülow）の指揮により初演。
-- 《ニュルンベルクのマイスタージンガー》：1868年6月21日、同じくミュンヘンでビューローの指揮により初演。
-- 《ラインの黄金》：1869年9月22日、ミュンヘン国民劇場で先行上演。
-- 《ワルキューレ》：1870年6月26日、ミュンヘンで先行上演。
+《パルジファル》のバイロイト以外での最初の舞台上演は、1903年のクリスマス・イヴにニューヨークのメトロポリタン歌劇場で、ヘルツ（Alfred Hertz）の指揮により行われた。ワーグナー家は上演を止めようと訴えたが、総譜がアメリカで売られており、アメリカとドイツの間に著作権の取り決めがなかったため、裁判所は上演を妨げるものはないと判断した。著作権は1914年1月1日に切れた。[（Metropolitan Opera）](https://www.metopera.org/discover/archives/notes-from-the-archives/from-the-archives-the-met-premiere-of-parsifal/)
 
-### バイロイト祝祭劇場
+## フランス——《カルメン》と《ペレアス》
 
-祝祭劇場の礎石は1872年5月22日、ワーグナーの59歳の誕生日に置かれ、その日ワーグナーは辺境伯歌劇場でベートーヴェンの交響曲第9番を指揮した。1874年にバイエルン王ルートヴィヒ2世が資金を貸し付け、同年11月に《神々の黄昏》が完成した [（Bayreuther Festspiele）](https://www.bayreuther-festspiele.de/en/about/history/)。建物はゼンパー（Gottfried Semper）の実現しなかった設計をワーグナーが取り入れたもので、ブリュックヴァルト（Otto Brückwald）が建設を監督した。オーケストラ・ピットは舞台の下に沈め、覆いをかけて客席から見えないようにしてある。客席は急な傾斜の扇形で、後方の壁沿いにだけバルコニーがあり、定員は1,925席である。
-
-1876年8月13日に第1回のバイロイト音楽祭が始まり、《ニーベルングの指環》全4部作が初めて通して上演された（《ラインの黄金》13日、《ワルキューレ》14日、《ジークフリート》16日、《神々の黄昏》17日）。指揮はハンス・リヒター（Hans Richter）。この年は3回の全曲上演を行ったが、大きな赤字となり、劇場はその後6年間使われなかった [（Bayreuther Festspiele）](https://www.bayreuther-festspiele.de/en/about/history/)。
-
-《パルジファル》は1882年7月26日、第2回の音楽祭で、レーヴィ（Hermann Levi）の指揮により初演された。ワーグナーはこれを「舞台神聖祝典劇」（Bühnenweihfestspiel）と呼んだ。ワーグナーの没後、1886年からは妻コージマ（Cosima Wagner）が主要作品をバイロイトで上演するという遺志を実行した。《パルジファル》はバイロイトでのみ上演されたが、アメリカの裁判所がバイロイトにはアメリカでの上演を止める権利がないと判断し、メトロポリタン歌劇場が1903年12月24日にヘルツ（Alfred Hertz）の指揮で全曲を上演した。著作権は1913年12月31日に切れ、1914年1月1日から各地で上演が始まった。
-
-## フランス——オペラ・コミックとリリック
-
-- **グノー**（Charles Gounod）《ファウスト》：1859年3月19日、パリのリリック劇場で初演。台本はバルビエ（Jules Barbier）とカレ（Michel Carré）。1869年にオペラ座で上演するため、終幕の第1場にバレエが加えられた。
-- **ビゼー**（Georges Bizet）《カルメン》：1875年3月3日、パリのオペラ・コミック座で初演。台本はメイヤック（Henri Meilhac）とアレヴィ（Ludovic Halévy）、原作は1845年に『両世界評論』に載ったメリメ（Prosper Mérimée）の小説。オペラ・コミックの形式で、曲と曲の間を台詞でつなぐ。ビゼーは同年6月3日に36歳で没した。同年10月23日のウィーン宮廷歌劇場での上演のために、ギロー（Ernest Guiraud）が台詞をレチタティーヴォに置き換えた。
-- **ドビュッシー**（Claude Debussy）《ペレアスとメリザンド》：1902年4月30日、オペラ・コミック座（サル・ファヴァール）で、メサジェ（André Messager）の指揮により初演。原作はメーテルランク（Maurice Maeterlinck）の象徴主義の戯曲。
+- **ビゼー**（Georges Bizet）《カルメン》：1875年3月3日、パリのオペラ・コミック座で初演。台本はメイヤック（Henri Meilhac）とアレヴィ（Ludovic Halévy）、原作はメリメ（Prosper Mérimée）の1845年の小説。パリの版では、曲と曲の間を台詞でつなぐ。ビゼーは初演の3か月後の同年6月3日に没した。同年10月のウィーンでの上演のために、ギロー（Ernest Guiraud）が新しいレチタティーヴォを書いた。[（EBSCO Research Starters）](https://www.ebsco.com/research-starters/history/bizets-carmen-premieres-paris)
+- **ドビュッシー**（Claude Debussy）《ペレアスとメリザンド》：1902年に初演された。[（Britannica）](https://www.britannica.com/biography/Claude-Debussy)
 
 ## ロシア
 
-- **グリンカ**（Mikhail Glinka）《皇帝に捧げた命》：1836年11月27日（旧暦。新暦12月9日）、サンクトペテルブルクのボリショイ・カーメンヌイ劇場で初演。グリンカは《イワン・スサーニン》の題を予定していたが、ニコライ1世が練習を見た後に改題した。ソ連時代には1939年から《イワン・スサーニン》の題で上演された。
-- **ムソルグスキー**（Modest Mussorgsky）《ボリス・ゴドゥノフ》：原作はプーシキンの戯曲（1825年）。1869年12月に総譜が完成したが、1871年2月に帝室劇場に上演を拒まれた。女声の主役マリーナとポーランドの幕を加えた1872年の改訂稿が、1874年1月27日（旧暦。新暦2月8日）にマリインスキー劇場で初演された。リムスキー＝コルサコフ（Nikolai Rimsky-Korsakov）の大幅な改訂版が1896年に初演され、1908年に再改訂された。
-- **チャイコフスキー**（Pyotr Ilyich Tchaikovsky）《エフゲニー・オネーギン》：作曲者の呼び方は「抒情的情景」。1879年3月29日（旧暦17日）、モスクワのマールイ劇場でモスクワ音楽院の学生により、ニコライ・ルビンシテイン（Nikolai Rubinstein）の指揮で初演された。ボリショイ劇場での初演は1881年。《スペードの女王》は1890年12月19日（旧暦7日）にマリインスキー劇場で、ナプラーヴニク（Eduard Nápravník）の指揮により初演された。台本は作曲者の弟モデスト、原作はプーシキンの小説（1834年）。
-- **ショスタコーヴィチ**（Dmitri Shostakovich）《ムツェンスク郡のマクベス夫人》：1934年1月22日にレニングラードのマールイ・オペラ劇場で初演され、2日後にモスクワでも上演された。1936年1月28日の『プラウダ』の無署名社説「音楽の代わりの混乱」で批判された。改訂版《カテリーナ・イズマイロヴァ》は1963年1月8日にモスクワのスタニスラフスキー・ネミローヴィチ＝ダンチェンコ記念音楽劇場で初演された。[（Shostakovich.ru）](https://shostakovich.ru/en/opus/114)
+- **グリンカ**（Mikhail Glinka）《皇帝に捧げた命》：1836年にサンクトペテルブルクで初演され、のちに《イワン・スサーニン》と改題された。[（Britannica）](https://www.britannica.com/topic/A-Life-for-the-Tsar)
+- **ムソルグスキー**（Modest Mussorgsky）《ボリス・ゴドゥノフ》：1874年に初演された。[（Britannica）](https://www.britannica.com/biography/Modest-Mussorgsky)
+- **ショスタコーヴィチ**（Dmitri Shostakovich）《ムツェンスク郡のマクベス夫人》：1934年に初演され、1936年1月28日の『プラウダ』の社説で批判された。[（Lumen Learning）](https://courses.lumenlearning.com/suny-musicapp-medieval-modern/chapter/dmitri-shostakovich/)改訂版《カテリーナ・イズマイロヴァ》は1963年1月8日にモスクワのスタニスラフスキー・ネミローヴィチ＝ダンチェンコ記念音楽劇場で初演された。[（Shostakovich.ru）](https://shostakovich.ru/en/opus/114)
 
 ## ヴェリズモとプッチーニ
 
-1888年、出版社のソンツォーニョ（Edoardo Sonzogno）が若いイタリアの作曲家を対象に1幕オペラの公募を行った。マスカーニ（Pietro Mascagni）の《カヴァレリア・ルスティカーナ》は、ヴェルガ（Giovanni Verga）の1880年の短編を原作とし、1890年5月17日にローマのコスタンツィ劇場で初演された。
+出版社のソンツォーニョ（Edoardo Sonzogno）が開いた1幕オペラのコンクールから、マスカーニ（Pietro Mascagni）の《カヴァレリア・ルスティカーナ》が生まれた。原作はヴェルガ（Giovanni Verga）の短編である。1893年からは、レオンカヴァッロ（Ruggero Leoncavallo）の《道化師》と2本立てで上演されるようになった。[（Metropolitan Opera）](https://www.metopera.org/link/ce3a7c15296c41a5894f6e3a6ba4994b.aspx)
 
-伝説や王侯ではなく庶民の生活を描くこの系統の作品を「ヴェリズモ」（verismo、「真実」の意）と呼ぶ。文学の同名の運動から生まれ、1890年から1930年頃までイタリアで続いた。《カヴァレリア・ルスティカーナ》が最初の作品とされ、主な作曲家にマスカーニ、レオンカヴァッロ（Ruggero Leoncavallo）、ジョルダーノ（Umberto Giordano）、チレア（Francesco Cilea）がいる。レオンカヴァッロの《道化師》は自作の台本で、1892年5月21日にミラノのダル・ヴェルメ劇場でトスカニーニ（Arturo Toscanini）の指揮により初演された。
-
-プッチーニ（Giacomo Puccini）もこの系統に数えられることがあり、《トスカ》と《外套》は異論なくヴェリズモとされる。
+日常の人物を描き、劇的で暴力的な筋をもつこの系統のオペラを「ヴェリズモ」（verismo、「真実」の意）と呼ぶ。文学のヴェリズモにもとづき、1890年代に栄えた。主な作曲家にマスカーニ、レオンカヴァッロ、ジョルダーノ（Umberto Giordano）がいて、プッチーニ（Giacomo Puccini）の《トスカ》もこの流れに数えられる。[（Britannica）](https://www.britannica.com/art/verismo)
 
 | 作品 | 初演 | 劇場 |
 |---|---|---|
@@ -236,39 +213,35 @@ sources:
 | 《三部作》（《外套》《修道女アンジェリカ》《ジャンニ・スキッキ》） | 1918年12月14日 | ニューヨーク、メトロポリタン歌劇場 |
 | 《トゥーランドット》 | 1926年4月25日 | ミラノ、スカラ座 |
 
-プッチーニは1924年11月29日に《トゥーランドット》を未完のまま没し、アルファーノ（Franco Alfano）がスケッチから完成させた。台本はアダーミ（Giuseppe Adami）とシモーニ（Renato Simoni）。初演でトスカニーニは第3幕のリューの死の場面、プッチーニが書き終えた最後の音で演奏を止め、作曲者がここで亡くなったために作品はここで終わると聴衆に告げた。アルファーノの補作を含む上演は翌晩に行われた [（Interlude）](https://interlude.hk/puccini-turandot-premiered-today-1926/)。
+[（San Francisco Opera）](https://www.sfopera.com/contentassets/6aa7ce0b12dc468ca5585afc3ba9a0e5/works_puccini.pdf)
+
+プッチーニは1924年に《トゥーランドット》を未完のまま没し、アルファーノ（Franco Alfano）が補筆した。[（Britannica）](https://www.britannica.com/biography/Giacomo-Puccini)[（San Francisco Opera）](https://www.sfopera.com/contentassets/6aa7ce0b12dc468ca5585afc3ba9a0e5/works_puccini.pdf)初演でトスカニーニ（Arturo Toscanini）は第3幕のリューの死の場面、プッチーニが書き終えた最後の音で演奏を止め、作曲者がここで亡くなったために作品はここで終わると聴衆に告げた。アルファーノの補作を含む上演は翌晩に行われた [（Interlude）](https://interlude.hk/puccini-turandot-premiered-today-1926/)。
 
 ## リヒャルト・シュトラウス
 
-リヒャルト・シュトラウス（Richard Strauss）の主要なオペラの多くは、ドレスデンの宮廷歌劇場（現ゼンパーオーパー）で、シューフ（Ernst von Schuch）の指揮により初演された。
-
-- 《サロメ》：1905年12月9日初演。原作はワイルド（Oscar Wilde）のフランス語の戯曲『サロメ』（1891年）のラッハマン（Hedwig Lachmann）によるドイツ語訳で、シュトラウスが台本に整えた。
-- 《エレクトラ》：1909年1月25日初演。台本はホフマンスタール（Hugo von Hofmannsthal）が自作の戯曲（1903年）から作った。
-- 《ばらの騎士》：1911年1月26日初演。台本はホフマンスタール。
+リヒャルト・シュトラウス（Richard Strauss）は、1903〜05年に《サロメ》、1906〜08年に《エレクトラ》を書き、《エレクトラ》からホーフマンスタール（Hugo von Hofmannsthal）と組んだ。[（Britannica）](https://www.britannica.com/summary/Richard-Strauss)ホーフマンスタールの台本による《ばらの騎士》は、1911年1月26日にドレスデンで初演された。[（Britannica）](https://www.britannica.com/topic/Der-Rosenkavalier)
 
 ## 20世紀の作品
 
-- **ヤナーチェク**（Leoš Janáček）《イェヌーファ》：1904年1月21日、ブルノの国民劇場で初演。のちにコヴァジョヴィツ（Karel Kovařovic）の改訂した版がプラハで成功し、ウィーン初演を経て各地で上演された。
-- **ベルク**（Alban Berg）《ヴォツェック》：1925年12月14日、ベルリン国立歌劇場でエーリヒ・クライバー（Erich Kleiber）の指揮により初演。原作はビューヒナー（Georg Büchner）の戯曲『ヴォイツェク』（1836年）で、フランツォース（Karl Emil Franzos）の版に多くを拠る。各幕・各場に組曲、パッサカリア、フーガなどの器楽の形式を当てている。
-- **ベルク《ルル》**：ベルクは1935年12月24日に第3幕を完成できずに没し、1937年6月2日にチューリヒ歌劇場で未完の形で初演された。ツェルハ（Friedrich Cerha）が短縮譜とスケッチから第3幕を補い、1979年2月24日にパリのオペラ座（ガルニエ宮）でブーレーズ（Pierre Boulez）の指揮により3幕版が初演された。
-- **ブリテン**（Benjamin Britten）《ピーター・グライムズ》：設立されて間もないクーセヴィツキー財団の委嘱で書かれた [（Boston Symphony Orchestra）](https://www.bso.org/works/four-sea-interludes-from-peter-grimes)。1945年6月7日、再開場したロンドンのサドラーズ・ウェルズ劇場で、グッドール（Reginald Goodall）の指揮により初演された。台本はスレイター（Montagu Slater）、原作はクラッブ（George Crabbe）の物語詩『町』（1810年）。アメリカ初演は1946年8月6日、タングルウッドのバークシャー音楽センターでバーンスタイン（Leonard Bernstein）が指揮した [（Boston Symphony Orchestra）](https://www.bso.org/works/four-sea-interludes-from-peter-grimes)。ブリテンの《ねじの回転》は1954年にヴェネツィアのフェニーチェ劇場で初演された。
-- **ストラヴィンスキー**（Igor Stravinsky）《放蕩者のなりゆき》：1951年9月11日、フェニーチェ劇場で作曲者の指揮により初演。台本はオーデン（W. H. Auden）とカルマン（Chester Kallman）、題材はホガース（William Hogarth）の連作版画『放蕩者一代記』（1733–35年）。
+- **ヤナーチェク**（Leoš Janáček）《イェヌーファ》：1904年1月21日、ブルノで初演。プラハ上演のためにコヴァジョヴィツ（Karel Kovařovic）が楽器法に手を入れ、1916年5月26日のプラハ初演の成功でヤナーチェクは広く認められた。[（Leoš Janáček Foundation）](https://www.leosjanacek.eu/en/jenufa/)
+- **ベルク**（Alban Berg）《ヴォツェック》：1925年12月14日、ベルリンで初演。原作はビューヒナー（Georg Büchner）の戯曲。[（Britannica）](https://www.britannica.com/topic/Wozzeck)
+- **ベルク《ルル》**：ベルクは1935年に急死し、第3幕は短縮譜で残った。1937年にチューリヒで2幕の形で初演され、ツェルハ（Friedrich Cerha）が第3幕を補った3幕版が、1979年にパリのオペラ座でブーレーズ（Pierre Boulez）の指揮により初演された。[（Metropolitan Opera）](https://www.metopera.org/learn/education/lulu-after-bergs-death/)
+- **ブリテン**（Benjamin Britten）《ピーター・グライムズ》：設立されて間もないクーセヴィツキー財団の委嘱で書かれた。アメリカ初演は1946年8月6日、タングルウッドのバークシャー音楽センターでバーンスタイン（Leonard Bernstein）が指揮した [（Boston Symphony Orchestra）](https://www.bso.org/works/four-sea-interludes-from-peter-grimes)。ブリテンの《ねじの回転》は1954年にヴェネツィアのフェニーチェ劇場で初演された。[（Teatro La Fenice）](https://www.teatrolafenice.it/wp-content/uploads/2019/02/122_9525grandi_prime_it1.pdf)
+- **ストラヴィンスキー**（Igor Stravinsky）《放蕩者のなりゆき》：1951年、フェニーチェ劇場で初演。[（Teatro La Fenice）](https://www.teatrolafenice.it/wp-content/uploads/2019/02/122_9525grandi_prime_it1.pdf)
 
 ## 1970年代以降
 
-- **リゲティ**（György Ligeti）《ル・グラン・マカーブル》：1978年4月12日、ストックホルムのスウェーデン王立歌劇場でスウェーデン語により初演。指揮はハワース（Elgar Howarth）。リゲティは1996年に改訂版を作り、これが現行の版となった。
-- **アダムズ**（John Adams）《中国のニクソン》：1987年10月22日、ヒューストン・グランド・オペラがワーサム劇場センターで初演した。台本はグッドマン（Alice Goodman）、演出はセラーズ（Peter Sellars）、指揮はデメイン（John DeMain）。
+- **リゲティ**（György Ligeti）《ル・グラン・マカーブル》：1974〜77年作曲。1978年4月12日、ストックホルムの王立歌劇場で、ハワース（Elgar Howarth）の指揮により初演された。1996年に改訂された。[（IRCAM）](https://brahms.ircam.fr/en/work/le-grand-macabre)
+- **アダムズ**（John Adams）《中国のニクソン》：1987年10月22日、ヒューストン・グランド・オペラの新しいワーサム・センターで初演された。台本はグッドマン（Alice Goodman）、演出はセラーズ（Peter Sellars）、指揮はデメイン（John DeMain）。[（EBSCO Research Starters）](https://www.ebsco.com/research-starters/drama-and-theater-arts/adamss-nixon-china-premieres)
 
-## 歌劇場の制度——レパートリー制とスタジオーネ制
+## 歌劇場の制度——アンサンブル制とスタジオーネ制
 
 歌劇場の運営には大きく二つの形がある。
 
-- **レパートリー制（Repertoiresystem）**：長期契約の歌手の一団（アンサンブル）を抱え、多くの演目を日替わりで上演し、一度作った演出を何年も上演し続ける。ドイツ語では「アンサンブル制」とも呼ぶ。中欧・北欧の劇場ではこれが標準とされる。ウィーン国立歌劇場は年に50〜60のオペラをレパートリー制で上演している。同劇場は1869年5月25日にモーツァルト《ドン・ジョヴァンニ》で宮廷歌劇場として開場し、第一共和国の成立後に現在の名になった。ウィーン・フィルハーモニー管弦楽団は、この歌劇場のオーケストラの楽員から団員を採る独立した団体である。
-- **スタジオーネ制（stagione、「季節」の意）**：一つの季節に少数の演目を、多くは新演出で、10回前後の公演を続けて上演する。演目ごとに独唱者と制作陣を契約し、稽古の期間は劇場を閉じることもある。イタリアの歌劇場の伝統に由来する。ブリュッセルのモネ劇場の用語集は、スタジオーネ制を、一つの季節に10作前後のオペラを組み、独唱者と制作陣を演目ごとに契約する運営と説明している [（La Monnaie / De Munt）](https://behindthescenes.lamonnaiedemunt.be/en/definitions)。
+- **アンサンブル制**：専属の歌手の一団（アンサンブル）を抱え、季節の配役の土台とする。ドイツの劇場ではこれが基本で、若い歌手は一つの劇場で職業を実地に覚える。イギリスの歌手もこの制度を求めてドイツへ渡っている [（Gramophone）](https://gramophone.co.uk/opera-now/opinion/article/week-in-week-out-i-see-examples-of-the-ensemble-system-working-brilliantly-and-failing-miserably-opinion)。
+- **スタジオーネ制（stagione、「季節」の意）**：ブリュッセルのモネ劇場の用語集は、スタジオーネ制を、一つの季節に10作前後のオペラを組み、独唱者と制作陣を演目ごとに契約する運営と説明している [（La Monnaie / De Munt）](https://behindthescenes.lamonnaiedemunt.be/en/definitions)。
 
-ドイツの劇場では、専属の独唱者が季節の配役の土台をなし、若い歌手は一つの劇場で職業を実地に覚える。イギリスの歌手もこの制度を求めてドイツへ渡っている [（Gramophone）](https://gramophone.co.uk/opera-now/opinion/article/week-in-week-out-i-see-examples-of-the-ensemble-system-working-brilliantly-and-failing-miserably-opinion)。
-
-指揮者の職も劇場の中で段階をなす。ドイツの歌劇場では、音楽面の長である音楽総監督（Generalmusikdirektor）が多くは首席指揮者を兼ね、その下に第1カペルマイスター、第2カペルマイスターと序列の付いた指揮者が置かれる。ピアノで管弦楽の代わりを弾いて歌手の稽古をつけ、指揮者や合唱指揮者の仕事の一部も担うのがコレペティトール（Korrepetitor、フランス語でレペティトゥール）で、稽古の計画を取りまとめるコレペティトールを「シュトゥーディエンライター」（Studienleiter）と呼ぶ。コレペティトールの職は、カペルマイスターや指揮者になる前段階、あるいは前提とみなされることが多く、小さな劇場では二つの職を一人が兼ねる。
+ウィーン国立歌劇場は1869年5月25日、ドイツ語によるモーツァルト《ドン・ジョヴァンニ》で開場した。君主国の終わりと第一共和国の成立の後、「オペラ劇場」の名を経て「ウィーン国立歌劇場」となった。[（Wiener Staatsoper）](https://wiener-staatsoper.at/en/history)
 
 ## 日本でのオペラ受容
 
@@ -276,8 +249,8 @@ sources:
 
 1911年に帝国劇場が開場し、歌劇部が置かれた。歌劇部ではローシー（G. V. Rosi）が指導し、その門下の多くがのちに浅草オペラの舞踊を担った [（早稲田大学総合研究機構）](https://www.waseda.jp/inst/cro/?p=18006)。
 
-伊庭孝（1887–1937）は1916年（1917年とする辞典もある）に歌舞劇協会を結成し、1917年2月に浅草の常盤座で自作の『女軍出征』を上演した。高木徳子とともに始めたこの浅草オペラは、1923年の関東大震災まで人気を集めた [（コトバンク「伊庭孝」）](https://kotobank.jp/word/%E4%BC%8A%E5%BA%AD%E5%AD%9D)。浅草オペラからはテノールの藤原義江（1898–1976）が出て、1934年に藤原歌劇団を創立し、第1回公演に《ラ・ボエーム》を上演した [（コトバンク「藤原義江」）](https://kotobank.jp/word/藤原義江)。藤原歌劇団は現在、日本オペラ振興会が運営している。
+伊庭孝（1887–1937）は1916年（1917年とする辞典もある）に歌舞劇協会を結成し、1917年2月に浅草の常盤座で自作の『女軍出征』を上演した。高木徳子とともに始めたこの浅草オペラは、1923年の関東大震災まで人気を集めた [（コトバンク「伊庭孝」）](https://kotobank.jp/word/%E4%BC%8A%E5%BA%AD%E5%AD%9D)。浅草オペラからはテノールの藤原義江（1898–1976）が出て、1934年に藤原歌劇団を創立し、第1回公演に《ラ・ボエーム》を上演した [（コトバンク「藤原義江」）](https://kotobank.jp/word/藤原義江)。
 
 1952年には当時の代表的な歌手16人が会員制の団体として二期会を結成した [（Opera Europa）](https://opera-europa.org/de/node/6576)。同じ1952年、團伊玖磨（1924–2001）の《夕鶴》（台本 木下順二）が初演され、国内外で上演を重ねている [（コトバンク「團伊玖磨」）](https://kotobank.jp/word/團伊玖磨-155457)。
 
-国のオペラ劇場である新国立劇場は1997年10月10日に開場し、團伊玖磨の《建・TAKERU》を開場公演とした [（新国立劇場／Google Arts & Culture）](https://artsandculture.google.com/story/yQXBz66hhvvYtA)。オペラパレスの客席数は1,814である。
+国のオペラ劇場である新国立劇場は1997年10月10日に開場し、團伊玖磨の《建・TAKERU》を開場公演とした [（新国立劇場／Google Arts & Culture）](https://artsandculture.google.com/story/yQXBz66hhvvYtA)。

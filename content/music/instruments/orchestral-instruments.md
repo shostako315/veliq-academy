@@ -2,34 +2,55 @@
 title: オーケストラの楽器——起源・構造・音域・移調・ピッチ
 slug: orchestral-instruments
 section: instruments
-summary: 弦・木管・金管・打楽器の各楽器について、起源、構造上の改良、音域、移調楽器の仕組み、ナチュラル・ホルン／トランペットからバルブへの移行、ガット弦や A=415／430／440 などピッチの違いを含むピリオド楽器と現代楽器の差、オーケストラでの役割の変化を記す。
-updated: 2026-10-29
+summary: 弦・木管・金管・打楽器の各楽器について、起源、構造上の改良、移調楽器の仕組み、ナチュラル・ホルン／トランペットからバルブへの移行、A=415／430／440 などピッチの違いを含むピリオド楽器と現代楽器の差、オーケストラでの役割の変化を記す。
+updated: 2026-11-04
 sources:
   - 'Jeremy Montagu, "Why Differing Pitch Standards?", 2019 https://www.jeremymontagu.co.uk/WhyDifferingPitchStandards.pdf 閲覧日 2026-10-29'
   - 'Gamut Music「Understanding Tunings: a=440, a=415, and More」 https://shop.gamutmusic.com/pages/understanding-tunings 閲覧日 2026-10-29'
-  - 'Wikipedia（英語版）「Concert pitch」「A440 (pitch standard)」「Transposing instrument」「Violin」「Andrea Amati」「Viola」「Cello」「Double bass」「Bow (music)」「François Tourte」「Pedal harp」「Sébastien Érard」「Western concert flute」「Theobald Boehm」「Oboe」「Clarinet」「Bassoon」「French horn」「Natural horn」「Brass instrument valve」「Trumpet」「Trombone」「Tuba」「Timpani」「Mehter」「Die Entführung aus dem Serail」「Symphony No. 100 (Haydn)」「Celesta」「Orchestra」 閲覧日 2026-10-29'
+  - 'Encyclopædia Britannica「pitch (music)」（1858〜59年のパリの国際委員会と diapason normal、1939年の a′=440Hz、オトテール家とバロックの約415Hz、旧フィルハーモニック・ピッチ約453Hz、1896年の新フィルハーモニック・ピッチ439Hz、20世紀半ばの444Hz） https://www.britannica.com:443/art/pitch-music 閲覧日 2026-11-04'
+  - 'My Music Theory「Transposing instruments」（定義、B♭管は長2度下、A管は短3度下、F管のホルンとコーラングレは完全5度下） https://mymusictheory.com/transposition/transposing-instruments/ 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Stringed instrument: The violin family」（イタリアでの成立、16世紀末までのガスパロ・ダ・サロ、アンドレア・アマティ、マッジーニ、リラ・ダ・ブラッチョ、18世紀の改造、調弦、ヴィオラの寸法と音色、エンドピン、トゥルトの弓） https://www.Britannica.Com/art/stringed-instrument/The-violin-family 閲覧日 2026-11-04'
   - 'The Metropolitan Museum of Art「Taking a Closer Look at the Amati "King" Cello」（National Music Museum, Vermillion, NMM 3351） https://www.metmuseum.org/perspectives/amati-cello-details 閲覧日 2026-10-29'
-  - 'Haydn, Trumpet Concerto in E-flat major Hob. VIIe:1, G. Henle Verlag HN 456, Preface（ヴァイディンガーのキー付きトランペットと1796年の作曲）. https://www.henle.de/media/25/ce/5e/1690886040/0456-1690886040-sync.pdf（閲覧日 2026-10-29）'
+  - 'Encyclopædia Britannica「double bass」（調弦 E1–A1–D–G、Cまで下げる装置、ヴィオール形とヴァイオリン形、フランス式とドイツ式の弓、ドラゴネッティ） https://www.britannica.com/art/double-bass 閲覧日 2026-11-04'
+  - 'The Strad「How did Giovanni Battista Viotti influence the evolution of the Tourte bow?」（トゥルトの改良、ヴィオッティの関与、クラーマーの弓、コレッリ・タルティーニの弓、ペルナンブコ） https://www.thestrad.com/playing-hub/how-did-giovanni-battista-viotti-influence-the-evolution-of-the-tourte-bow/11761.article 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「pedal harp」（1720年のホッホブルッカー、1810年のエラールの複動式、7本のペダルと2段の切り込み、変ハ調の調律） https://www.britannica.com:443/art/pedal-harp 閲覧日 2026-11-04'
   - 'Victoria and Albert Museum, Collections, „Pedal harp“, Sébastien Érard, London（1810年の複動式の特許）. https://collections.vam.ac.uk/item/O58933/pedal-harp-s--p/（閲覧日 2026-10-29）'
+  - 'Baker''s Biographical Dictionary of Musicians「Boehm, Theobald」（Encyclopedia.com）（生没、1832年の最初のフルート、1847年と1871年の著書） https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/boehm-theobald-0 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Wind instrument: The Romantic period」（ベームのフルートの孔と開いたキー、19世紀半ばのバルブ、1846年のサクソフォンの特許、ワーグナー・テューバ） https://www.britannica.com/art/wind-instrument/The-Romantic-period 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「oboe」（ショームとの関係、17世紀半ばのオトテールとフィリドール、初期の2つのキー、トリエベール父子、コーラングレ、オーボエ・ダモーレ） https://britannica.com/art/oboe-musical-instrument 閲覧日 2026-11-04'
+  - 'Vienna Symphonic Library, Instrumentology「Oboe」（オトテール家とフィリドール家、トリエベールの système 6、音楽院式、ウィーン式オーボエの内径と運指、音域 B♭3–G6） https://www.vsl.co.at/academy/woodwinds/oboe 閲覧日 2026-11-04'
+  - 'BBC Music Magazine（classical-music.com）「History of the clarinet: its invention, evolution and famous clarinet makers」（1700年のデンナー、シャリュモー、ミュラーとクローゼ、ベーム式） https://www.classical-music.com/features/instruments/history-of-the-clarinet-its-invention-evolution-and-famous-clarinet-makers 閲覧日 2026-11-04'
+  - 'Heckel Wiesbaden「Carl Almenräder」（生没、ショットのファゴット工場、1831年のヘッケルとの共同の会社） https://heckel.de/en/personen/carl-almenraeder/ 閲覧日 2026-11-04'
+  - 'Vienna Symphonic Library, Instrumentology「Viennese Horn」（ライヒアムシュナイダー兄弟の替え管、ハンペルのハンド・ストップ、1753/54年の差し込み式替え管のホルン、1814年と1818年のバルブ、1830年のウールマンのウィーン式バルブ、クルスペのダブル・ホルン、記譜と実音、ブラームス） https://www.vsl.co.at/academy/brass/horn-f 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「horn」（狩猟用のホルン、18世紀のハンド・ストップ、19世紀初めのバルブ、1900年頃のクルスペのダブル・ホルン） https://www.britannica.com/art/horn-musical-instrument 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Wind instrument: Trumpet-type aerophones」（1815年頃のシュテルツェルかブリューメルによるバルブ付きホルン、キー付きの楽器、サックバットの二重スライド） https://www.britannica.com/art/wind-instrument/Trumpet-type-aerophones 閲覧日 2026-11-04'
+  - 'Haydn, Trumpet Concerto in E-flat major Hob. VIIe:1, G. Henle Verlag HN 456, Preface（ヴァイディンガーのキー付きトランペットと1796年の作曲）. https://www.henle.de/media/25/ce/5e/1690886040/0456-1690886040-sync.pdf（閲覧日 2026-10-29）'
+  - 'Hochschule der Künste Bern, Fresh Wind「Trumpet」（1750〜1850年のナチュラルからバルブへの移行期、ヴァイディンガー、ハイドンの1796年の協奏曲、フンメル1803年） https://fresh-wind.hkb-interpretation.ch/en/instruments/trumpet/ 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Wilhelm Wieprecht」（1835年のヴィープレヒトとモーリッツによる5バルブのF管バス・テューバの特許） https://britannica.com/biography/Wilhelm-Wieprecht 閲覧日 2026-11-04'
+  - 'Vienna Symphonic Library, Instrumentology「Timpani」（13世紀のナッカーラ、騎兵の合図、主音と属音、ベートーヴェンの音程、1812年頃のクラマーの機構、1870年代のピットリヒのペダル、皮とプラスチック、ドイツ式とアメリカ式の並べ方） https://www.vsl.co.at/academy/percussion/timpani 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「timpani」（17世紀半ばからの常用、主音と属音、ベルリオーズの16のティンパニ） https://www.britannica.com/art/timpani 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Janissary music」（大太鼓・トライアングル・シンバル、18世紀ヨーロッパでの模倣、モーツァルト、ハイドン第100番、ベートーヴェン第9番） https://www.britannica.com/art/Janissary-music 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Percussion instrument: The Renaissance, Baroque, and Classical periods」（ティンパニのオーケストラへの参入、トルコ風の流行とシンバル・大太鼓、モーツァルトとハイドン） https://www.britannica.com/art/percussion-instrument/The-Renaissance-Baroque-and-Classical-periods 閲覧日 2026-11-04'
+  - 'Boston Symphony Orchestra「Haydn: Symphony No. 100, Military」（1794年3月31日の初演、編成） https://www.bso.org/works/symphony-100-military 閲覧日 2026-11-04'
+  - 'BBC Music Magazine（classical-music.com）「The celesta」（1886年のミュステル、1866年のティポフォン、ショーソン、《地方長官》と《くるみ割り人形》） https://www.classical-music.com/features/instruments/celesta 閲覧日 2026-11-04'
   - 'Tchaikovsky Research, „The Voyevoda (symphonic ballad)“（チェレスタの入手と使用、初演 1891年11月6/18日）. https://en.tchaikovsky-research.net/pages/The_Voyevoda_(symphonic_ballad)（閲覧日 2026-10-29）'
+  - 'Michael E. Ruhling (ed.), Beethoven Symphony Basics, Eastman School of Music「Symphony No. 5」（第4楽章の編成、ピッコロ・コントラファゴット・トロンボーン） https://www.esm.rochester.edu/beethoven/symphony-no-5/ 閲覧日 2026-10-29'
 ---
 
 ## 現在のオーケストラの楽器
 
-現在のオーケストラは、弦楽器（ヴァイオリン、ヴィオラ、チェロ、コントラバス。ハープを加える）、木管楽器（フルート、オーボエ、クラリネット、ファゴットとその仲間）、金管楽器（ホルン、トランペット、トロンボーン、テューバ）、打楽器（ティンパニほか）から成る。この構成は古典派の時代に核ができ、19世紀の楽器の改良を経て、20世紀には一般に標準化した。
+現在のオーケストラは、弦楽器（ヴァイオリン、ヴィオラ、チェロ、コントラバス。ハープを加える）、木管楽器（フルート、オーボエ、クラリネット、ファゴットとその仲間）、金管楽器（ホルン、トランペット、トロンボーン、テューバ）、打楽器（ティンパニほか）から成る。
 
 以下、音名はオクターヴ番号付きで書く（中央のハ＝C4、オーケストラの調律の基準となるイ＝A4）。
 
-## ピッチ——A=415、430、440、442
+## ピッチ——A=415、430、440
 
 基準となるA4の高さは時代と土地によって違った。
 
-- **17〜18世紀**：ピッチは調子笛やオルガンのパイプの長さなどで決まり、都市によって数半音の違いがあった。17世紀初めにプレトリウス（Michael Praetorius）は、ピッチが上がりすぎて歌手が声を痛めていると報告している。ヘンデル（George Frideric Handel）の音叉は約A=422.5Hzである。ドイツ・バロックの一部の作品の教会音高（コーアトーン）は約460〜470Hzとされる。
-- **1859年**：歌手の抗議を受けたフランス政府が、A=435Hzを「標準音高」（diapason normal）と定めた。この規模で行われた最初の標準化とされる。1885年のウィーンの会議でこの基準がヨーロッパの数か国に広まり、のちヴェルサイユ条約（1919）にも盛り込まれた。
-- **1939年**：5月にロンドンのBBC本部（ブロードキャスティング・ハウス）にフランス、ドイツ、オランダ、イタリア、イギリスの代表が集まり（スイスとアメリカは書面で参加）、A=440Hzで合意した。
-- **1955年と1975年**：国際標準化機構（ISO）は1955年に勧告R16としてA=440Hzを採り、1975年にISO 16として定めた。
-
-標準が定まった後も、オーケストラの実際のピッチは440Hzより高いことが多い。大陸ヨーロッパではA4はおおむね440〜444Hzの範囲にある。ベルリン・フィルは、かつての最も高い基準445Hzより少し低い443Hzを用いている。バーンスタイン（Leonard Bernstein）はニューヨーク・フィルハーモニックをしばしばA=442Hzに合わせ、ニューヨークとボストンの楽団は何年も前からこの高さで演奏していると述べた。
+- **17世紀**：17世紀半ば、パリの楽器製作者オトテール家が木管楽器を作り直した。そのピッチは約415Hz、つまり440Hzの約半音下であった。[（Britannica）](https://www.britannica.com:443/art/pitch-music)
+- **1858〜59年**：パリに集まった国際委員会が、折衷のピッチ「標準音高」（diapason normal）を採った。[（Britannica）](https://www.britannica.com:443/art/pitch-music)
+- **19世紀末**：イギリスでは約453Hzの「旧フィルハーモニック・ピッチ」が歌手を苦しめ、1896年に439Hzの「新フィルハーモニック・ピッチ」が定められた。[（Britannica）](https://www.britannica.com:443/art/pitch-music)
+- **1939年**：現在の標準 A=440Hz が採られた。20世紀半ばのヨーロッパの木管楽器製作者には、444Hzで楽器を作る者もいた。[（Britannica）](https://www.britannica.com:443/art/pitch-music)
 
 ピリオド楽器（作曲当時の型の楽器）の演奏では、慣行として次の高さが使われる。
 
@@ -39,204 +60,131 @@ sources:
 | A=430Hz前後 | 古典派の作品 | 古典派の時代のピッチはおおむね420〜430Hzの範囲にあり、一つの値ではない（Gamut による）。[（Gamut Music）](https://shop.gamutmusic.com/pages/understanding-tunings)モンタギューは、スマート（George Smart）のピッチ433Hzをベートーヴェンの第9番のソプラノに有利だったかもしれないと述べている[（Jeremy Montagu）](https://www.jeremymontagu.co.uk/WhyDifferingPitchStandards.pdf) |
 | A=392Hz | フランス・バロック | 「オトテール・ピッチ」とも呼ばれる[（Jeremy Montagu）](https://www.jeremymontagu.co.uk/WhyDifferingPitchStandards.pdf) |
 
-415Hzは、バロック音楽を専門とする現代の多くの団体が合意した基準である。
-
 ## 移調楽器の仕組み
 
-移調楽器とは、楽譜に書かれた音と実際に鳴る音が異なる楽器である。楽譜上のC（ド）を吹くと、その楽器の名に付いた音が鳴る。B♭管のクラリネットで記譜上のCを吹けば実音はB♭、A管ならA、F管のホルンならFである。
+移調楽器とは、奏者が読む楽譜の音と、楽器が実際に出す音が異なる楽器である。[（My Music Theory）](https://mymusictheory.com/transposition/transposing-instruments/)
 
 | 楽器 | 記譜に対する実音 |
 |---|---|
-| クラリネット（B♭管） | 長2度下 |
+| クラリネット（B♭管）、トランペット（B♭管） | 長2度下 |
 | クラリネット（A管） | 短3度下 |
-| ホルン（F管、ト音記号） | 完全5度下 |
-| コーラングレ（F管） | 完全5度下 |
-| トランペット（B♭管） | 長2度下 |
-| ピッコロ、チェレスタ | 1オクターヴ上 |
-| コントラバス、コントラファゴット | 1オクターヴ下 |
+| ホルン（F管）、コーラングレ（F管） | 完全5度下 |
 
-移調の記譜が使われる理由は二つある。一つは、バルブのない金管楽器が替え管（クルーク）で調を変えたことである。ホルンの楽譜はすべて基音をCとして書かれ、奏者は指定された調の替え管を差し込んだ。もう一つは、同じ族の楽器の大きさが違っても、同じ記譜音を同じ指使いで吹けるようにするためである。これにより奏者は大きさの違う楽器へ持ち替えやすい。
-
-ホルンの旧来のヘ音記号の記譜については、作曲家によって、5度下に移調するつもりで書いたか、4度上に移調するつもりで書いたかが異なる。トロンボーンとテューバは、オーケストラでは移調せず実音で書かれる（イギリスのブラスバンドは例外）。
+[（My Music Theory）](https://mymusictheory.com/transposition/transposing-instruments/)
 
 ## 弦楽器
 
 ### ヴァイオリン
 
-ヴァイオリンの直接の祖先は、レベック、フィドル、リラ・ダ・ブラッチョとされる。現在の形は16世紀初めの北イタリアで生まれ、最古の図像（3弦）は1530年頃に現れる。調弦を含む初期の記述に、ジャンブ・ド・フェール（Philibert Jambe de Fer）の『音楽要説』（Epitome musical, リヨン, 1556）がある。
+ヴァイオリンの成立の地はイタリアで、その標準の寸法は、16世紀末までにガスパロ・ダ・サロ（Gasparo da Salò）、アンドレア・アマティ（Andrea Amati）、マッジーニ（Giovanni Paolo Maggini）によって定まった。直接の先行楽器はリラ・ダ・ブラッチョである。[（Britannica）](https://www.Britannica.Com/art/stringed-instrument/The-violin-family)アマティがフランス王シャルル9世のために作った、王の紋章などを描いた金彩のチェロ「キング」（16世紀半ば）は、アメリカのサウスダコタ州ヴァーミリオンの国立音楽博物館にあり、メトロポリタン美術館の解説はこれを現存最古のチェロとしている。[（The Metropolitan Museum of Art）](https://www.metmuseum.org/perspectives/amati-cello-details)
 
-クレモナのアンドレア・アマティ（Andrea Amati, 1505年頃–1577）は、フランス王シャルル9世（その母カトリーヌ・ド・メディシス）のために楽器を作った。1560年から1574年の間に約38の楽器を作ったと推定されている。注文の時期を1566年頃からとする資料（サザビーズ）や、1560年にシャルル9世が24挺のヴァイオリンを注文したとする記述もあり、一致しない。シャルル9世のための楽器のうち「シャルル9世」と呼ばれるヴァイオリンは、現存最古のヴァイオリンとされ、オックスフォードのアシュモリアン博物館にある。同じくシャルル9世の紋章などを描いた金彩のチェロ「キング」（16世紀半ば）は、アメリカのサウスダコタ州ヴァーミリオンの国立音楽博物館にあり、メトロポリタン美術館の解説はこれを現存最古のチェロとしている。[（The Metropolitan Museum of Art）](https://www.metmuseum.org/perspectives/amati-cello-details)製作の流派にはブレシア派（ガスパロ・ダ・サロ（Gasparo da Salò）一族、マッジーニ（Giovanni Paolo Maggini））と、クレモナ派（アマティ家、グァルネリ家、ストラディヴァリ家）がある。
-
-18世紀には、ネックを長くして後ろへ傾け、弦を太く、バスバーを重くする改造が進んだ。
-
-調弦は5度間隔で G3–D4–A4–E5。オーケストラのパートでは E7 が実用上の上限とされ、指で押さえる音と人工ハーモニクスで C8 まで出せる。
+それまでの楽器は駒が低く、胴のふくらみも小さかった。のちに駒を高くし、ネックを少し長く細くして後ろへ深く傾け、より強いバスバーを入れる改造が行われた。調弦は5度間隔で G3–D4–A4–E5 である。[（Britannica）](https://www.Britannica.Com/art/stringed-instrument/The-violin-family)
 
 ### ヴィオラ
 
-調弦はヴァイオリンの5度下の C3–G3–D4–A4。主にアルト記号で書かれ、高い音域が続く箇所ではト音記号を使う。胴の長さは38〜46センチ（平均41センチ）で、ヴァイオリンやチェロほど寸法が統一されていない。18世紀以前には、低い音のために大型のヴィオラ（テノール）が作られた。
-
-オーケストラと弦楽四重奏では内声を受け持ち、第1ヴァイオリンより伴奏の役が多い。ベルリオーズ（Hector Berlioz）の《イタリアのハロルド》は、ヴィオラが主要な旋律を担う交響曲である。
+調弦はヴァイオリンの5度下の C3–G3–D4–A4。胴の長さは38〜46センチで、寸法が完全に統一されたことはない。音色はヴァイオリンより暗く重い。[（Britannica）](https://www.Britannica.Com/art/stringed-instrument/The-violin-family)
 
 ### チェロ
 
-チェロの直接の祖先はバス・ヴァイオリンで、最初のバス・ヴァイオリンは1538年にさかのぼる可能性がある。チェロとしての発達は1660年頃とされる。1680年頃、弦の製法の変化により、短い弦で低い音を出せるようになった。バロックのチェロは G と C の弦に金属の巻線を用いた。ストラディヴァリ（Antonio Stradivari）の1702年以前のチェロは大型で、1707年以降に作った小型のものが現代の製作者の多くが用いる型である。
-
-床に立てるエンドピンは、セルヴェ（Adrien-François Servais）が1845年頃に導入した。それ以前のチェロは奏者のふくらはぎで挟んで支えた。調弦は C2–G2–D3–A3。バロック音楽の通奏低音では、チェロ、ヴィオラ・ダ・ガンバ、ファゴットが低音を受け持ち、オルガンやチェンバロが和音を弾いた。
+チェロはヴァイオリン属の真の低音楽器で、調弦はヴィオラのちょうど1オクターヴ下の C2–G2–D3–A3。床に立てる長い鋼の棒（エンドピン）で支える。[（Britannica）](https://www.Britannica.Com/art/stringed-instrument/The-violin-family)
 
 ### コントラバス
 
-コントラバスがヴィオール属とヴァイオリン属のどちらに由来するかについて、研究者の意見は分かれている。現代の擦弦楽器で唯一4度間隔で調弦され、標準の調弦は E1–A1–D2–G2。音域の多くがヘ音記号の下にはみ出すため、実音より1オクターヴ高く記譜する。
-
-5弦の楽器は E の下に B を加える。オーケストラの職業奏者の多くは、4弦にCまで下げる延長装置（Cエクステンション）を付けた楽器を使う。弓には、他の弦楽器と同じ形のフランス式と、幅広く短く握手のように握るドイツ式（バトラー式）がある。
-
-18世紀には「ウィーン調弦」（A1–D2–F♯2–A2）が用いられた。ハイドンやベートーヴェンと交流したドラゴネッティ（Domenico Dragonetti）は、しばしば G–D–A の3弦の楽器を弾いた。ボッテジーニ（Giovanni Bottesini）は「コントラバスのパガニーニ」と呼ばれた。
+コントラバスの標準の調弦は E1–A1–D2–G2 で、チェロより1オクターヴ低く鳴る。ヴィオールの形のものとヴァイオリンの形のものがある。オーケストラの楽器には、E線の下にCに調弦した5本目の弦を加えるか、第4弦をE♭、D、D♭、Cまで下げるレバーの装置を付けたものがある。弓には、ヴァイオリンの弓に似た短く細いフランス式（手の甲を上に持つ）と、幅の広いドイツ式（手のひらを上に持つ）がある。ベートーヴェンの友人ドラゴネッティ（Domenico Dragonetti）は、この楽器のための協奏曲を書いた。[（Britannica）](https://www.britannica.com/art/double-bass)
 
 ### 弓
 
-18世紀初めの「コレッリ＝タルティーニ型」の弓は、棹がまっすぐか、わずかに外へ反り、先端が軽く短かった。毛箱は固定式（クリップイン）か、ねじ式だった。1750年頃から1785年頃までは、ヴァイオリン奏者クラーマー（Wilhelm Cramer, 1746–1799）の名で呼ばれる過渡期の弓が使われ、ねじ式が標準になった。
-
-フランソワ・トゥルト（François Xavier Tourte, 1747–1835）は、1785年から1790年の間にヴァイオリン奏者ヴィオッティ（Giovanni Battista Viotti）と協力して弓の形を改めた。先端の木を増やし、重い毛箱で釣り合いを取り、棹の反りを削り出すのではなく熱で曲げて付けた。毛を平らな帯にそろえる金具（スプレッダー）もトゥルトの改良とされる。棹の弾力を均一にするための削りの寸法もトゥルトが算出した。トゥルト以前には、弓の重さ・長さ・釣り合いに標準がなかった。現在の弓の材には、ペルナンブコ（ブラジルボク）、スネークウッド、カーボンファイバーがある。
-
-### ガット弦と現代の弦
-
-初期の弦は羊の腸（ガット）で作られた。20世紀初めには、ガットかスチールの弦が使われた。現在の弦には、ガット、単線または撚り線のスチール、金属を巻いたパーロンなどの合成繊維がある。
+コレッリ、タルティーニ、クラーマーの名で呼ばれる弓は、いずれも名高い奏者の名を付けた古い型である。クラーマーの弓は棹が長く内側に反り、頭が重く高くなっていて、新しい弓への最初の段階となった。フランソワ・トゥルト（François Xavier Tourte）は棹を長くして内側へ反らせ、頭を強さを保ったまま軽くし、木目を棹に沿ってそろえた。毛を広く平らに張る金具（フェルールとくさび）も作られ、ペルナンブコが好まれる材となった。毛の帯を平らにすることにヴィオッティ（Giovanni Battista Viotti）が関わったことを示す証拠もある。[（The Strad）](https://www.thestrad.com/playing-hub/how-did-giovanni-battista-viotti-influence-the-evolution-of-the-tourte-bow/11761.article)
 
 ### ハープ
 
-ペダルで調を変えるハープは、1720年にバイエルンのホッホブルッカー（Jacob Hochbrucker）が作った単動式（各弦を半音上げるだけ）に始まる。エラール（Sébastien Érard, 1752–1831）は1794年11月にイギリスで最初のハープの特許を取り、1810年夏に複動式のペダル機構の特許（第3332号）を取った。[（Victoria and Albert Museum）](https://collections.vam.ac.uk/item/O58933/pedal-harp-s--p/)
+1720年、バイエルンのホッホブルッカー（Celestin Hochbrucker）は、弦を押さえる鉤を前柱の中のレバーにつなぎ、7本のペダルで操作するハープを作った。エラール（Sébastien Érard）は1810年、同じペダルで動く2組目の円盤を加えて複動式とした。[（Britannica）](https://www.britannica.com:443/art/pedal-harp)エラールは同じ1810年に複動式のペダル機構の特許を取っている。[（Victoria and Albert Museum）](https://collections.vam.ac.uk/item/O58933/pedal-harp-s--p/)
 
-現在の複動式ペダル・ハープは47弦で、1オクターヴに7本の弦がある。ペダルは7本で、それぞれ3段の位置を持つ。ペダルを操作しない状態では、すべての弦が変音で、変ハ長調の音階に調律される。ベルリオーズは交響作品でハープを用い始めた作曲家の一人で、ワーグナー（Richard Wagner）の《ラインの黄金》は6台のハープを求める。
+現在のペダル・ハープはペダルが7本で、それぞれ2段の切り込みを持ち、1段目で半音、2段目で全音上がる。ふだんは変ハ調に全音階で調律される。[（Britannica）](https://www.britannica.com:443/art/pedal-harp)
 
 ## 木管楽器
 
 ### フルートとピッコロ
 
-バロックの横笛（フラウト・トラヴェルソ）は木製で、頭部管から円錐形の内径を持ち、足部管に金属のキーが1つあった。オトテール（Jacques-Martin Hotteterre）は1707年に最初のフルートの教本を出した。キーのない木製のフルートには、のちに半音のためのキーが8つまで加えられた。
-
-ベーム（Theobald Boehm, 1794–1881）は1832年にフルートの改良を始め、1847年に新しい運指の機構の特許を取り、同年『フルートの構造について』（Über den Flötenbau）を出版した。ベームの改良の要点は、木から金属への変更、大きなまっすぐの内径（円筒管）、放物線状に細くなる頭部管である。1871年には『フルートとフルート奏法』（Die Flöte und das Flötenspiel）を出した。
-
-現在のフルートは真鍮、スターリング・シルバーなどの金属で作られ、木製（アフリカン・ブラックウッド）もある。音域は C4 から上で、最高音は通常 C7、近年の作品では D7 とされる。ピッコロはフルートと同じくハ調で記譜し、1オクターヴ高く鳴る。
+ベーム（Theobald Boehm, 1794–1881）は1832年に最初のフルートを発表し、1847年に『フルートの構造について』（Über den Flötenbau）、1871年に『フルートとフルート奏法』（Die Flöte und das Flötenspiel）を出した。[（Baker's Biographical Dictionary of Musicians）](https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/boehm-theobald-0)ベームはフルートの孔をできるかぎり大きくし、閉じたキーをすべて開いたキーに改めて、音がよく抜けるようにした。[（Britannica）](https://www.britannica.com/art/wind-instrument/The-Romantic-period)
 
 ### オーボエとコーラングレ
 
-オーボエはショームから発達し、17世紀半ばにフランスでオーボワ（hautbois）として現れた。発明者は分かっていないが、状況証拠はフィリドール（Philidor）家とオトテール（Hotteterre）家の人々を指している。古典派の時代に D♯、F、G♯ などのキーとスラー用のキーが加わった。19世紀にはパリのトリエベール（Triébert）家がベームのフルートを参考に機構を発達させた。現在のキー・システムの一つに「フル・コンセルヴァトワール式」（ジレ式）がある。ウィーン式のオーボエは内径が太く運指も異なり、歴史的なオーボエの内径と音色の特徴を残している。
+「オーボワ」（hautbois、フランス語で「高い（大きな音の）木」）は、もともとショームの名の一つだった。オーケストラのオーボエは、17世紀半ばにフランスの宮廷音楽家オトテール（Jacques Hotteterre）とフィリドール（Michel Philidor）が作り出した。初期のオーボエのキーは2つだけだった。[（Britannica）](https://britannica.com/art/oboe-musical-instrument)19世紀、パリのトリエベール（Triébert）父子が20世紀のフランスのオーボエにほぼ等しい楽器を作り、フレデリック・トリエベールの「システム6」は1872年に特許を取った。フランス式のオーボエは1880年代にパリ音楽院の公式の型となり、第二次世界大戦後に国際的な標準となった。ウィーン式のオーボエは内径が太く、管が短く厚く、高音域で長い運指を用いる。音域は B♭3 から G6（A6）。[（Vienna Symphonic Library）](https://www.vsl.co.at/academy/woodwinds/oboe)
 
-一般に認められた音域は B♭3 からおよそ G6。オーケストラは第1オーボエの吹くAで調律する。コーラングレ（イングリッシュ・ホルン）はF管で完全5度低く、オーボエ・ダモーレはA管で短3度低い。
+コーラングレ（イングリッシュ・ホルン）はF管でオーボエより完全5度低く、オーボエ・ダモーレはA管で短3度低い。[（Britannica）](https://britannica.com/art/oboe-musical-instrument)
 
 ### クラリネット
 
-クラリネットは、リコーダーに似て一枚リードのマウスピースと円筒管を持つバロックの楽器シャリュモーから生まれた。シャリュモーにはレジスター・キーがなく、記譜音域は F3 から G4 だった。1700年頃、ドイツの製作者ヨハン・クリストフ・デンナー（Johann Christoph Denner）または息子のヤーコプがシャリュモーにレジスター・キーを加えてクラリネットを作ったとされる。
+クラリネットは1700年にニュルンベルクのデンナー（Johann Christoph Denner）が発明した。デンナーは「シャリュモー」と呼ばれる素朴な笛を改良し、背面のキーで上の音域を出せるようにし、さらに前面のキーで音域の間を埋めた。ドイツ式のクラリネットはミュラー（Iwan Müller）の仕事を受け継ぎ、フランス式はクローゼ（Hyacinthe Klosé）が作った。フランス式はフルート製作者ベームの考えを用いたため、ベーム式と呼ばれる。2つの型は1850年頃からほとんど変わっていない。[（BBC Music Magazine）](https://www.classical-music.com/features/instruments/history-of-the-clarinet-its-invention-evolution-and-famous-clarinet-makers)
 
-モーツァルト（Wolfgang Amadeus Mozart）は友人の名手シュタードラー（Anton Stadler）のために協奏曲（1791）、五重奏曲、《ケーゲルシュタット》三重奏曲を書いた。協奏曲には C3 まで下がる箇所があり、低音を4半音延ばしたバセット・クラリネットのために書かれている。
+### ファゴット
 
-1812年、イヴァン・ミュラー（Iwan Müller）は、皮のタンポと皿状の音孔によってキーの気密を高め、7つの指孔と13のキーを持つクラリネットを発表した。1839年から1843年に、クローゼ（Hyacinthe Klosé）と製作者ビュッフェ（Louis Auguste Buffet）がベームのリングと軸の機構をクラリネットに応用した（ベーム自身は関わっていない）。これがベーム式（フランス式）である。20世紀初めにはドイツのエーラー（Oskar Oehler）が音孔の多いエーラー式（ドイツ式）を発表し、主にドイツとオーストリアで使われている。
-
-B♭管とA管の記譜音域は E3 から C7 で、B♭管の実音は D3 から B♭6 になる。音域は低いシャリュモー音域、中音のクラリオン音域、その上のアルティッシモ音域に分かれる。
-
-### ファゴットとコントラファゴット
-
-ファゴット（バスーン）の前身はドゥルツィアンで、ともに金属の曲管（ボーカル）に付けたダブルリード、斜めにあけた音孔、折り返した円錐管を持つ。1650年代にフランスの製作者マルタン・オトテール（Martin Hotteterre, 1712年没）が4つの部分から成るファゴットを考案したとする説がある。ドゥルツィアンは通奏低音の楽器として使われるうちにオペラのオーケストラに入り、カイザー（Reinhard Keiser）やリュリ（Jean-Baptiste Lully）の作品に使われた。
-
-19世紀、アルメンレーダー（Carl Almenräder）は音響研究者ゴットフリート・ウェーバー（Gottfried Weber）とともに、4オクターヴにわたる17キーのファゴットを開発し、1831年にショット社を離れてヨハン・アダム・ヘッケル（Johann Adam Heckel）と工房を開いた。現在の型には、このヘッケル式（ドイツ式）と、内径が細く機構が簡単なビュッフェ式（フランス式）がある。ビュッフェ式は主にフランス、ベルギー、ラテンアメリカの一部で吹かれる。
-
-音域は B♭1 から E5 で、それより上は可能だがまれにしか書かれない。オーケストラでは第4ファゴット奏者がコントラファゴットを持ち替えることが多い。コントラファゴットは記譜より1オクターヴ低く鳴る。
+19世紀のドイツのファゴットの改良では、アルメンレーダー（Carl Almenräder, 1786–1843）が中心となった。アルメンレーダーはマインツのショット社のファゴット工場を任されたのち、1831年にヨハン・アダム・ヘッケル（Johann Adam Heckel）と共同の会社を作った。[（Heckel Wiesbaden）](https://heckel.de/en/personen/carl-almenraeder/)
 
 ## 金管楽器
 
 ### ホルン
 
-初期のホルンはバルブのない狩猟用の楽器（コール・ド・シャス）だった。1740年までには、管の長さと調を変える替え管（クルーク）が一般に使われた。1753年、ドレスデンのハンペル（Anton Joseph Hampel）とヴェルナー（Johann Werner）は、替え管を何本足してもマウスピースの位置が変わらない「インヴェンツィオーンスホルン」を作った。右手をベルに入れて音程を変えるハンド・ストップ奏法は、18世紀前半のドレスデンの宮廷で、ハンペルと結び付けて生まれたと考えられている。ドムニク（Heinrich Domnich）の1807年の記述では、ハンペルは綿の詰め物で弱音にするオーボエ奏者を真似て、ベルに手を入れると音が半音上がることを見出した。
+ホルンは、1650年頃にフランスに現れた大きな円形の狩猟用ホルン（コール・ド・シャス）に由来する。[（Britannica）](https://www.britannica.com/art/horn-musical-instrument)1700年頃、ウィーンのライヒアムシュナイダー兄弟は、新しいフレンチ・ホルンに調を変える替え管を付けた。ハンペル（Anton Joseph Hampel）の最大の革新は、ベルに手を入れて半音階を補うハンド・ストップ奏法を導入したことで、1753/54年には差し込み式の替え管をもつ最初のハンド・ホルンも作った。[（Vienna Symphonic Library）](https://www.vsl.co.at/academy/brass/horn-f)
 
-ヘンデル、ハイドン、モーツァルト、ベートーヴェンはナチュラル・ホルンのために書いた。バルブ付きのホルンは19世紀初めに現れ、19世紀後半から20世紀初めには、ほぼすべての音楽がバルブ付きのホルンのために書かれるようになった。ブラームス（Johannes Brahms）はバルブ付きのホルンを好まず、ナチュラル・ホルンを想定して書いた。
+ホルンにバルブが付いたのは19世紀初めである。[（Britannica）](https://www.britannica.com/art/horn-musical-instrument)シュテルツェル（Heinrich Stölzel）のバルブ付きホルンは1814年のもので、1818年にシュテルツェルとブリューメル（Friedrich Blühmel）がピストン・バルブの特許を得た。ウィーンのウールマン（Leopold Uhlmann）は1830年に二重ピストンのウィーン式バルブを作った。19世紀末には、ドイツの製作者フリッツ・クルスペ（Fritz Kruspe）が最初のF管とB♭管のダブル・ホルンを作った。現在のホルンはF管で記譜され、ト音記号でもヘ音記号でも実音より5度高く書かれる。ブラームスは、ヴェーバーやワーグナーと同様に、ナチュラル・ホルンの響きを好んだ。[（Vienna Symphonic Library）](https://www.vsl.co.at/academy/brass/horn-f)
 
-1897年、エアフルトのクルスペ（Kruspe）がF管とB♭管を一本にまとめたダブル・ホルンを発表した（名をフリッツとする記述とエドゥアルトとする記述がある）。ウィンナ・ホルンは、ウィーン式バルブ（二重ピストン）を用いる。F管のホルンは、ト音記号の記譜で完全5度低く鳴る。
-
-ワーグナー・テューバは、ワーグナーが《ニーベルングの指環》のために作らせた、ホルン族を改造した楽器である。
+ワーグナー・テューバは、ワーグナー（Richard Wagner）の4部作《ニーベルングの指環》のために特別に作られた楽器で、ホルンとテューバの中間の音色をもつ。[（Britannica）](https://www.britannica.com/art/wind-instrument/The-Romantic-period)
 
 ### バルブの発明
 
-金管楽器が半音階を自由に演奏できるようにしたのがバルブ（弁）である。
-
-- 1814年：シュテルツェル（Heinrich Stölzel）がホルンにバルブを付けた。
-- 1818年：シュテルツェルとブリューメル（Friedrich Blühmel）が、バルブ付きのホルンの特許を取った。1815年の発明とする資料もある。
-- 1821年に報告され、1823年にリードル（Joseph Riedl）とカイル（Joseph Kail）が特許を取ったのが、ウィーン式バルブである。1830年にはウールマン（Leopold Uhlmann）がその機構の特許を取った。
-- 1832年：リードルが現代のロータリー・バルブの特許を取った。
-- 1839年：現代のピストン・バルブ（ペリネ式）の特許が取られた。
+1815年頃、ベルリンのシュテルツェルかブリューメルのどちらかがバルブ付きのホルンを発明した。バルブは替え管の代わりに、すばやく調を変える手段となった。[（Britannica）](https://www.britannica.com/art/wind-instrument/Trumpet-type-aerophones)ホルンとトランペットにバルブが定着したのは19世紀半ばである。[（Britannica）](https://www.britannica.com/art/wind-instrument/The-Romantic-period)
 
 ### トランペット
 
-中世末からルネサンスのトランペットは、管を巻いたバルブのない楽器で、一つの倍音列の音しか出せず、調を変えるには替え管を使った。専門の奏者が高い倍音域（クラリーノ音域）を開拓し、バロック時代は「ナチュラル・トランペットの黄金時代」と呼ばれることがある。名手の例にベンディネッリ（Cesare Bendinelli）がいる。
-
-1790年代、ウィーンのヴァイディンガー（Anton Weidinger）が半音階を吹ける最初の実用的なキー付きトランペットを開発した。[（Henle 序文）](https://www.henle.de/media/25/ce/5e/1690886040/0456-1690886040-sync.pdf)ハイドンは1796年にヴァイディンガーのためにトランペット協奏曲を書き、1800年にウィーンで初演された。初演では、低い音域で奏される旋律が聴衆を驚かせた。
-
-現在最も一般的なB♭管は長2度低く鳴る移調楽器である。アメリカのオーケストラではB♭管とともに、移調しないC管がよく使われる。標準的な奏法での最低音は記譜上の F♯3 で、運指表は一般に C6 まで載せる。
+1750年から1850年までは、ナチュラル・トランペットからバルブ・トランペットへの移行期とされる。18世紀末には何人ものトランペット奏者がキーと孔の工夫を試み、ウィーンの宮廷トランペット奏者ヴァイディンガー（Anton Weidinger, 1766–1852）はその中で最も成功した。ハイドンは1796年にトランペット協奏曲を書き、フンメル（Johann Nepomuk Hummel）も1803年に協奏曲を書いた。[（Hochschule der Künste Bern）](https://fresh-wind.hkb-interpretation.ch/en/instruments/trumpet/)ハイドンの協奏曲はヴァイディンガーのキー付きトランペットのための曲である。[（Henle 序文）](https://www.henle.de/media/25/ce/5e/1690886040/0456-1690886040-sync.pdf)
 
 ### トロンボーン
 
-トロンボーンの前身サックバットは15世紀に現れ、屋外の演奏、演奏会、典礼に広く使われた。教会音楽では声部を重ねて補強し、ヴェネツィアのサン・マルコ大聖堂のような宗教の場での初期の器楽合奏にも加わった。
-
-グルック（Christoph Willibald Gluck）は《アルチェステ》（1767）で、オペラの序曲にトロンボーンを使った最初の主要な作曲家である。モーツァルトは《ドン・ジョヴァンニ》の騎士長の場面や、レクイエムの〈奇しきラッパの響き〉（Tuba mirum）の独奏でトロンボーンを用いた。モーツァルトの書法はアルト、テナー、バスの3本で合唱の声部を重ねるのが普通だったが、19世紀半ばまでには多くの国でテナー2本とバス1本が標準になった。
-
-交響曲では、ツィンマーマン（Anton Zimmermann）の交響曲がトロンボーンの声部を持つ最も早い例とされ、エッゲルト（Joachim Nicolas Eggert）の変ホ長調交響曲（1807）には独立したトロンボーンの声部がある。ベートーヴェンの交響曲第5番（1808）は終楽章でトロンボーンを使うが、オーケストラにトロンボーンを導入したのはベートーヴェンだとする説明は誤りである。
-
-バルブ・トロンボーンは1850年代に現れ、19世紀後半のイタリアとオーストリアで広く使われた。20世紀には、F管の迂回管を引き金で加える装置（Fアタッチメント）が、作曲家がより低い音を書くようになるにつれて必要になった。
+トロンボーンの前身はルネサンスのサックバットで、2本の平行な内管によるスライドを持つ。[（Britannica）](https://www.britannica.com/art/wind-instrument/Trumpet-type-aerophones)ベートーヴェンは交響曲第5番の第4楽章にトロンボーンを加えた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-5/)
 
 ### テューバ
 
-テューバの前身は、セルパンと、1817年にパリのアステ（Jean Hilaire Asté）が考案したオフィクレイドである。オフィクレイドはフランスのオーケストラで広く使われ、ベルリオーズもこれを用いた。
-
-1835年9月12日、ヴィープレヒト（Wilhelm Friedrich Wieprecht）とモーリッツ（Johann Gottfried Moritz）がプロイセンで「半音階バス・テューバ」の特許（第9121号）を取った。12フィートのF管に5つのベルリン式バルブを持ち、C1までの半音階を吹けた。
-
-オーケストラで使われる調は地域によって異なる。ドイツとロシア以外ではC管（CC管）が最も多く使われ、ドイツ、オーストリア、ロシアではB♭管（BB♭管）のコントラバス・テューバが好まれる。E♭管は主にブラスバンドと軍楽隊で使われる。イギリスのオーケストラでは、19世紀末から1950年代まで使われたF管に代わって、1960年代にE♭管が使われるようになった。
+1835年、ベルリンのヴィープレヒト（Wilhelm Wieprecht）とモーリッツ（Johann Gottfried Moritz）が、5つのバルブを持つF管のバス・テューバの特許を取った。[（Britannica）](https://britannica.com/biography/Wilhelm-Wieprecht)
 
 ## 打楽器と鍵盤楽器
 
 ### ティンパニ
 
-ティンパニの直接の祖先は、13世紀に十字軍やサラセン人によってヨーロッパにもたらされたアラブのナッカーラ（ネイカーズ）である。ティンパニはトランペットとともに騎兵の楽器として発達し、古典派のオーケストラに入ってもトランペットと組み合わされた。
+ティンパニの祖先は、13世紀に十字軍とサラセン人がヨーロッパにもたらしたアラブのナッカーラである。ティンパニはトランペットとともに貴族の騎兵の合図の楽器として使われ、のちに宮廷と教会に広まった。[（Vienna Symphonic Library）](https://www.vsl.co.at/academy/percussion/timpani)オーケストラで常に使われるようになったのは17世紀半ばからで、17〜18世紀の楽譜では2個の太鼓を主音と属音に調律するのが普通だった。[（Britannica）](https://www.britannica.com/art/timpani)ベートーヴェンは4度・5度以外の音程も書き、交響曲第7番では短6度（A–F）、第8番と第9番ではオクターヴのFを用いた。ベルリオーズは《死者のための大ミサ曲》（1837年）で16のティンパニを求めた。[（Vienna Symphonic Library）](https://www.vsl.co.at/academy/percussion/timpani)[（Britannica）](https://www.britannica.com/art/timpani)
 
-17〜18世紀には2個のティンパニを主音と属音に、ふつう4度間隔で（低い方が属音、高い方が主音）調律した。ベートーヴェンは4度・5度以外の音程も書き、交響曲第9番のスケルツォではオクターヴに調律したティンパニをオーケストラに対置した。ベルリオーズは《幻想交響曲》やレクイエムで複数のティンパニ奏者を同時に求めた。
-
-1812年に、一本のハンドルで調律できる最初の「機械式」ティンパニが作られた。最初のペダル式ティンパニは1870年代にドレスデンで生まれ、「ドレスデン式」と呼ばれる。ドレスデン式は奏者に近い側面にペダルがあり足首で操作し、ベルリン式は長い腕木で反対側に連結する。
-
-打面には子牛の皮とプラスチックがあり、多くの職業奏者は皮の音色を好む。北アメリカ、イギリス、フランスの奏者は低い太鼓を左に置き（アメリカ式）、ドイツ、オーストリア、ギリシャの奏者は逆に置く（ドイツ式）。
+1812年頃、ミュンヘンの宮廷ティンパニ奏者クラマー（Gerhard Kramer）は、すべての調律ねじを一つの主ねじにつなぐ機構を考案した。ペダル式のティンパニは1870年代にドレスデンのピットリヒ（C. Pittrich）が発明し、今日のオーケストラの標準となった。打面は伝統的に子牛・山羊・ロバの皮で、20世紀半ばからは温度や湿度の影響を受けにくいプラスチックも使われる。2個の場合、ドイツ式では高い太鼓を奏者の左に置き、アメリカ式では低い太鼓を左に置いてピアノの鍵盤の順に並べる。[（Vienna Symphonic Library）](https://www.vsl.co.at/academy/percussion/timpani)
 
 ### 「トルコ風」の打楽器
 
-オスマン帝国の軍楽隊メフテルの音楽は、イェニチェリが楽隊の中心だったことからヨーロッパでは「イェニチェリの音楽」と呼ばれ、大太鼓、ボル（ラッパ）、鈴、トライアングル、シンバルを組み合わせていた。ハイドン、モーツァルト、ベートーヴェンはこれに倣った作品を書いた。
+オスマン帝国の軍楽、特にイェニチェリの楽隊の音楽は、多くの太鼓と鈴、そして大太鼓・トライアングル・シンバルの組み合わせを特徴とした。18世紀にはヨーロッパの軍隊の見せ物として広まり、作曲家は異国の色合いのためにこれをオペラに用いた。[（Britannica）](https://www.britannica.com/art/Janissary-music)
 
-- モーツァルト《後宮からの誘拐》（1782年7月16日、ウィーンのブルク劇場で作曲者の指揮により初演）は、古典派の編成に「トルコ風」の音楽のための大太鼓（タンブーロ・グランデ）、シンバル、トライアングル、ピッコロを加えた。
-- ハイドンの交響曲第100番《軍隊》（1794年初演）は、トライアングル、シンバル、大太鼓を用いる。
-- ベートーヴェンの交響曲第9番の終楽章には、行進曲風の「トルコ風」の部分がある。
+- モーツァルト《後宮からの誘拐》（1782年）は、シンバルと大太鼓を用いる。[（Britannica）](https://www.britannica.com/art/percussion-instrument/The-Renaissance-Baroque-and-Classical-periods)
+- ハイドンの交響曲第100番《軍隊》（1794年3月31日初演）は、トライアングル、シンバル、大太鼓を用いる。[（Boston Symphony Orchestra）](https://www.bso.org/works/symphony-100-military)
+- ベートーヴェンの交響曲第9番の終楽章のテノール独唱の部分は「トルコ風」で書かれている。[（Britannica）](https://www.britannica.com/art/Janissary-music)
 
 ### チェレスタ
 
-チェレスタは1886年、パリのハルモニウム製作者オーギュスト・ミュステル（Auguste Mustel）が発明した。父シャルル・ヴィクトル・ミュステル（Charles Victor Mustel）が1860年に作ったティポフォンが前身である。最初の使用例はショーソン（Ernest Chausson）の付随音楽《テンペスト》（1888年12月、小編成）で、フル・オーケストラの作品で初めて用いた主要な作曲家はチャイコフスキー（Pyotr Tchaikovsky）とされる。チャイコフスキーは交響的バラード《地方長官》（1891年11月初演）に続き、《くるみ割り人形》（1892）で使った。[（Tchaikovsky Research）](https://en.tchaikovsky-research.net/pages/The_Voyevoda_%28symphonic_ballad%29)4オクターヴの楽器の実音はおおむね C4 から C8 で、記譜より1オクターヴ高く鳴る。
+チェレスタは1886年、オーギュスト・ミュステル（Auguste Mustel）が発明した。ミュステルは1866年にティポフォンも作っている。ショーソン（Ernest Chausson）の付随音楽《テンペスト》（1888年）は、チェレスタではなくティポフォンを使った可能性がある。チャイコフスキー（Pyotr Tchaikovsky）は1891年末の交響的バラード《地方長官》、1892年の《くるみ割り人形》でチェレスタを用いた。[（BBC Music Magazine）](https://www.classical-music.com/features/instruments/celesta)[（Tchaikovsky Research）](https://en.tchaikovsky-research.net/pages/The_Voyevoda_%28symphonic_ballad%29)
 
 ## ピリオド楽器と現代楽器の違い
 
 作曲当時の型の楽器（ピリオド楽器）と現代の楽器の主な違いは次のとおりである。
 
-| 項目 | ピリオド楽器（18世紀を中心に） | 現代の楽器 |
+| 項目 | ピリオド楽器 | 現代の楽器 |
 |---|---|---|
-| ピッチ | A=415Hz（バロック）、A=430Hz前後（古典派）などの慣行 | A=440Hz（ISO 16）。実際は440〜444Hzの範囲 |
-| 弦 | ガット弦（低音弦は金属巻き） | スチール、合成繊維、金属巻き |
-| ヴァイオリン属の構造 | 短く傾きの少ないネック、軽いバスバー | 18世紀の改造後の長く傾いたネック、重いバスバー |
-| チェロの支え | エンドピンなし（ふくらはぎで挟む） | エンドピン（1845年頃以降） |
-| 弓 | 反りがまっすぐか外向き、先端が軽い | トゥルト型（1785〜90年以降）、熱で付けた内向きの反り |
-| フルート | 木製、円錐管、1キー | 金属製、円筒管、ベーム式（1847年特許） |
-| クラリネット | キーの少ない楽器（モーツァルトの時代） | ベーム式（1839〜43年）またはエーラー式 |
+| ピッチ | A=415Hz（バロック）、A=430Hz前後（古典派）などの慣行 | A=440Hz（1939年の標準） |
+| ヴァイオリン属の構造 | 低い駒、傾きの少ないネック | 高い駒、長く細く後ろへ傾いたネック、強いバスバー |
+| 弓 | コレッリ、タルティーニ、クラーマーの型 | トゥルト型（長く内側へ反る棹、ペルナンブコ） |
+| フルート | ベーム以前の型 | ベーム式（1832年以降） |
 | ホルン・トランペット | バルブなし、替え管で調を変える。ホルンはハンド・ストップ | バルブ付き（1810年代以降） |
-| ティンパニ | ペダルのない太鼓 | ペダル式（1870年代以降） |
-| ハープ | 単動式（1720年以降） | 複動式（1810年特許） |
+| ティンパニ | ねじで調律する太鼓 | ペダル式（1870年代以降） |
+| ハープ | 単一の操作のペダル（1720年以降） | 複動式（1810年） |
 
 ## オーケストラでの役割の変化
 
-楽器ごとの役割の変化は次のとおりである。
-
-- **ホルンとトランペット**：バルブが付くまでは替え管で調を選び、一つの倍音列の音しか出せなかった（ホルンはハンド・ストップで音を補った）。バルブの導入（1814〜18年）以後、19世紀後半から20世紀初めにはほぼすべての音楽がバルブ付きのホルンのために書かれるようになった。ベートーヴェンは交響曲第3番でホルンを3本に、第9番で4本にした。
-- **トロンボーン**：15世紀以来、教会音楽と典礼、のちにオペラで用いられ、交響曲ではツィンマーマン、エッゲルト（1807）、ベートーヴェンの第5番（1808）を経て、19世紀半ばまでにテナー2・バス1の3本が標準になった。
-- **ティンパニ**：17〜18世紀は主音と属音に調律してトランペットと組んだ。ベートーヴェンは他の音程を書き、1812年の機械式、1870年代のペダル式の考案が続いた。
-- **低音**：バロックの通奏低音では、チェロ、ヴィオラ・ダ・ガンバ、ファゴットと、オルガンやチェンバロが低音を受け持った。
-- **木管楽器**：古典派でフルート、オーボエ、ファゴット、ホルン各2本の核ができ、ベートーヴェンの管弦楽ではクラリネットを含む各2本がほぼ常に置かれた。ベートーヴェンは交響曲第5番の終楽章にピッコロとコントラファゴットを加えた。ミュラーの13キーのクラリネット（1812）は、すべての調で吹けることを意図して「オムニトニック」と名付けられた。
+- **ホルンとトランペット**：バルブが付くまでは替え管で調を選び、ホルンはハンド・ストップで音を補った。バルブは1810年代に現れ、19世紀半ばに定着した。
+- **トロンボーン**：ベートーヴェンは交響曲第5番の第4楽章に、ピッコロ、コントラファゴットとともにトロンボーンを加えた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-5/)
+- **ティンパニ**：17〜18世紀は主音と属音に調律した。ベートーヴェンは他の音程を書き、1812年頃の機構、1870年代のペダル式の考案が続いた。
 - **打楽器と鍵盤楽器**：18世紀後半に「トルコ風」の大太鼓・シンバル・トライアングルが加わり、19世紀末にはチェレスタが使われ始めた。

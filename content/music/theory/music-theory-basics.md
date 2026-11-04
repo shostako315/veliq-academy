@@ -3,7 +3,7 @@ title: 楽典と理論の基礎——音名から総譜の読み方まで
 slug: music-theory-basics
 section: theory
 summary: 音名（ドイツ・英・伊・日）、音程、音階と調、教会旋法、調号と五度圏、三和音と七の和音、転回形、機能和声（T・S・D）、カデンツ、転調、拍子、速度記号と発想記号、強弱、二部・三部形式からロンド、変奏、ソナタ形式、フーガまでの楽式、総譜の楽器の並びと移調楽器の記譜を、表を添えて整理する。
-updated: 2026-10-29
+updated: 2026-11-04
 sources:
   - 'Encyclopædia Britannica「cadence (music)」 https://www.britannica.com/art/cadence-music 閲覧日 2026-10-29'
   - 'Encyclopædia Britannica「tempo (music)」 https://www.britannica.com/art/tempo-music 閲覧日 2026-10-29'
@@ -14,15 +14,20 @@ sources:
   - 'Classic FM「Musical terms: A glossary of useful terminology」 https://www.classicfm.com/discover-music/musical-italian-terms/ 閲覧日 2026-10-29'
   - 'Christoph Meinel「Das Regensburger Mälzel-Metronom von 1816: Biographie eines Objekts」Musiktheorie 38/2, Laaber, 2023（Universität Regensburg 公開版） https://epub.uni-regensburg.de/55488/1/Meinel_Maelzel-Metronom_2023.pdf 閲覧日 2026-10-29'
   - 'BBC Music Magazine（classical-music.com）「What is a circle of fifths?」（ディレツキー『グラマチカ』1670年代後半、ハイニヒェン1728年） https://www.classical-music.com/features/musical-terms/what-is-a-circle-of-fifths 閲覧日 2026-10-29'
-  - 'Hugo Riemann, Vereinfachte Harmonielehre oder die Lehre von den tonalen Funktionen der Akkorde, London: Augener, 1893（英訳 Harmony Simplified, 1893。書誌は Wikipedia 英語版「Function (music)」で確認）'
-  - 'Heinrich Glarean, Dodekachordon, Basel, 1547（書誌は Wikipedia 英語版「Dodecachordon」で確認）'
-  - 'Johann David Heinichen, Neu erfundene und gründliche Anweisung, Hamburg, 1711／Der General-Bass in der Composition, Dresden, 1728（書誌は Wikipedia 英語版「Circle of fifths」で確認）'
-  - 'Wikipedia（英語版）「Key signature names and translations」「Mode (music)」「Dodecachordon」「Circle of fifths」「Function (music)」「Metronome」「Sonata form」「Fugue」「Variation (music)」「Transposing instrument」 閲覧日 2026-10-29'
+  - 'コトバンク「音名」（デジタル大辞泉、日本大百科全書、百科事典マイペディアほか。日本・ドイツ・英米の音名、-is と -es、H・B・Es・As の例外、イタリア・フランスの階名、調名） https://kotobank.jp/word/%E9%9F%B3%E5%90%8D-42039 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「B」（ドイツとスカンディナヴィアで H、B は変ロ） https://www.britannica.com:443/print/article/2082250 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Mode: Plainchant」（8つの教会旋法、名称、D–E–F–G の終止音、正格と変格、ギリシアの名称の取り違え、グラレアヌスの12旋法とイオニア・エオリア） https://www.britannica.com/art/mode-music/Plainchant 閲覧日 2026-11-04'
+  - 'Yale University Library, Music Library exhibit「Glarean, Dodekachordon」（1547年バーゼル、ペトリ、12の旋法、長調・短調の祖先） https://musiclib-exhibits.library.yale.edu/exhibits/histories/dodekachordon.html 閲覧日 2026-11-04'
+  - 'Gran enciclopèdia de la música（Enciclopèdia.cat）「funció」（リーマン『簡約和声学』1893年、T・S・D、ほぼドイツ語圏に限られる理論） https://www.enciclopedia.cat/EC-GEM-2678 閲覧日 2026-11-04'
+  - 'Encyclopædia Britannica「Fugue: Elements of the fugue」（主題、提示部、属調の応答、真正応答と調的応答、転回できる対主題、嬉遊部） https://britannica.com/art/fugue/Elements-of-the-fugue 閲覧日 2026-11-04'
+  - 'James Hepokoski and Warren Darcy『Elements of Sonata Theory』（Oxford University Press, 2006）第2章「Sonata Form as a Whole」（レイハの「大きな二部形式」、マルクスの1838年・1845年の「ソナタ形式」の語） https://www.some.ox.ac.uk/wp-content/uploads/2020/08/31.-Hepokoski-and-Darcy-2006-Sonata-form-as-a-whole.pdf 閲覧日 2026-11-04'
+  - 'G. Henle Verlag, Beethoven, Symphony no. 2 op. 36（HN 9802）序文（1817年12月17日の『一般音楽新聞』のメトロノーム表） https://www.henle.de/media/59/80/94/1697725884/9802-1697725884-sync.pdf 閲覧日 2026-10-29'
+  - 'Encyclopædia Britannica「Johann Sebastian Bach summary」（《平均律クラヴィーア曲集》1722年・1742年） https://www.britannica.com/summary/Johann-Sebastian-Bach 閲覧日 2026-11-03'
 ---
 
 ## 音名
 
-音の高さに付けた名前を音名という。日本の楽典では、ドイツ語、英語、イタリア語（フランス語もほぼ同じ）、日本語の4通りを使い分ける。日本語の音名はハニホヘトイロで、いろは順の仮名を当てたものである。調名には日本語の音名を使い、「ハ長調」「イ短調」と呼ぶ。
+音の高さに付けた名前を音名という。日本ではハニホヘトイロの音名を使い、調名も「ハ長調」「イ短調」のように日本の音名で呼ぶ。ドイツ語ではCDEFGAH、英語ではCDEFGABを用い、イタリアとフランスでは ut（do）・re・mi などの階名を音名として用いる。[（コトバンク）](https://kotobank.jp/word/%E9%9F%B3%E5%90%8D-42039)
 
 | 英語 | ドイツ語 | イタリア語 | フランス語 | 日本語 |
 |---|---|---|---|---|
@@ -39,9 +44,9 @@ sources:
 | B♭ | B | Si bemolle | Si bémol | 変ロ |
 | B | H | Si | Si | ロ |
 
-- ドイツ語では、英語の B（ロ）を H と書き、B の一文字は変ロ（B♭）を指す。
+- ドイツ語では、英語の B（ロ）を H と書き、B の一文字は変ロ（B♭）を指す。シューベルトの《未完成》交響曲は、ドイツ語では h-Moll（ロ短調）である。[（Britannica）](https://www.britannica.com:443/print/article/2082250)
 - ドイツ語の嬰（♯）は語尾に -is、変（♭）は -es を付ける（Cis、Fis、Des、Ges）。E と A の変音は Es、As と縮める。
-- 日本語では♯を「嬰」、♭を「変」と書く。重嬰（𝄪）、重変（𝄫）もある。
+- 日本語では♯を「嬰」、♭を「変」と、幹音名の頭に付ける。[（コトバンク）](https://kotobank.jp/word/%E9%9F%B3%E5%90%8D-42039)
 
 ## 音程
 
@@ -91,7 +96,7 @@ sources:
 
 ### 教会旋法
 
-中世の聖歌の旋律は8つの旋法に分類された。旋法は終止音（フィナリス）と音域で区別され、奇数番号が正格、偶数番号が変格（接頭辞 Hypo- を付ける）である。
+グレゴリオ聖歌の旋律は8つの旋法（教会旋法）にもとづく。旋法は終止音（フィナリス）で分類され、D・E・F・G の4音がそれぞれ正格の旋法の終止音となる。正格の旋法は5音列の上に4音列を重ね、4音列を下に置くと変格（接頭辞 Hypo- を付ける）の旋法になる。[（Britannica）](https://www.britannica.com/art/mode-music/Plainchant)
 
 | 番号 | 名称 | 終止音 | 種類 |
 |---|---|---|---|
@@ -104,9 +109,7 @@ sources:
 | VII | ミクソリディア | ト | 正格 |
 | VIII | ヒポミクソリディア | ト | 変格 |
 
-名称は古代ギリシアの語から取ったが、古代の体系とは意味が一致しない。グラレアヌス（Heinrich Glarean）は『ドデカコルドン』（Dodekachordon, バーゼル, 1547年）で旋法は8つではなく12あるとし、エオリア（イを終止音とする）とイオニア（ハを終止音とする）の正格・変格を加えた。この2つは今日の短音階・長音階に当たる。
-
-今日、白鍵だけで作る7つの旋法は、ハから始めてイオニア、ニからドリア、ホからフリギア、ヘからリディア、トからミクソリディア、イからエオリア、ロからロクリアと呼ばれる。
+名称は古代ギリシアの理論の語から取ったが、中世の理論家はギリシアの音列の名が上行の順で付けられていると誤って考えたため、同じ名でも古代とは別の音列を指す。[（Britannica）](https://www.britannica.com/art/mode-music/Plainchant)グラレアヌス（Heinrich Glarean）は『ドデカコルドン』（Dodekachordon, バーゼル, 1547年）で、それまでの8つではなく12の旋法を立て、イを終止音とするエオリアと、ハを終止音とするイオニアの正格・変格を加えた。イオニアは長調、エオリアは自然短音階に当たり、今日の長調と短調の祖先とされる。[（Britannica）](https://www.britannica.com/art/mode-music/Plainchant)[（Yale University Library）](https://musiclib-exhibits.library.yale.edu/exhibits/histories/dodekachordon.html)
 
 ## 調号と五度圏
 
@@ -132,7 +135,7 @@ sources:
 
 完全5度上の調に進むごとに♯が1つ増え（または♭が1つ減り）、12回で元に戻る。これを円に並べたものが五度圏である。♯6の嬰ヘ長調と♭6の変ト長調は、平均律の鍵盤では同じ音で、異名同音の調という。
 
-五度圏の図の最初の例は、ディレツキー（Nikolai Diletskii）が1670年代後半に書いた『グラマチカ』にある。ドイツではハイニヒェン（Johann David Heinichen）が『新しく考案された根本的な手引き』（1711年）で「音楽の円」（Musicalischer Circul）として独自に図示し、『作曲における通奏低音』（1728年）にも載せた。ハイニヒェンは長調の隣に平行短調を置いた。
+五度圏の起源は、ディレツキー（Nikolai Diletskii）が1670年代後半に書いた作曲の論考『グラマチカ』にさかのぼる。1728年までに、ハイニヒェン（Johann David Heinichen）がこれを今日知られる形に改めた。短調はそれぞれ長調と同じ調号をもつので、円の上で平行長調と並べて置ける。[（BBC Music Magazine）](https://www.classical-music.com/features/musical-terms/what-is-a-circle-of-fifths)
 
 ## 和音
 
@@ -166,7 +169,7 @@ sources:
 
 ### 機能和声——T・S・D
 
-調の中での和音の役割を「機能」と呼ぶ。この語と体系は、リーマン（Hugo Riemann）が『簡約和声学』（Vereinfachte Harmonielehre, 1893年）で導入した。リーマンは和音の役割をトニカ（T）、ドミナント（D）、サブドミナント（S）の3つにまとめた。ドイツ語圏の和声教育と分析では、この理論が今も使われている。
+調の中での和音の役割を「機能」と呼ぶ。リーマン（Hugo Riemann）は『簡約和声学』（Vereinfachte Harmonielehre, 1893年）で、和音の機能をトニカ（T）、サブドミナント（S）、ドミナント（D）にまとめた。この理論は、ほぼドイツ語圏に限って用いられている。[（Gran enciclopèdia de la música）](https://www.enciclopedia.cat/EC-GEM-2678)
 
 長調の主な和音を3つの機能に分けると、一般に次のようになる。
 
@@ -217,7 +220,7 @@ sources:
 
 17世紀より前の西洋の芸術音楽では、速度の指示はほとんど書かれなかった。拍の速さは、一定の脈、計量記譜の記号、音価の慣習から決まっていた。メルツェル（Johann Nepomuk Maelzel）が1815〜16年にメトロノームを製造して、数値による速度指定が可能になった。メルツェルは1815年にロンドンとパリで特許を申請した。装置の要となる振り子の仕組みは、メルツェルが1814年にアムステルダムで会った時計職人ヴィンケル（Dietrich Nikolaus Winkel）の考案である。[（Meinel, Musiktheorie 2023）](https://epub.uni-regensburg.de/55488/1/Meinel_Maelzel-Metronom_2023.pdf)楽譜の「M.M.」は「メルツェルのメトロノーム」の略で、♩＝60 は1分間に4分音符60拍を表す。
 
-ベートーヴェンは交響曲第1〜8番のメトロノーム表示を、1817年12月17日の『一般音楽新聞』（Allgemeine musikalische Zeitung）に発表した。
+ベートーヴェンは交響曲第1〜8番のメトロノーム表示を、1817年12月17日の『一般音楽新聞』（Allgemeine musikalische Zeitung）に発表した。[（Henle 序文）](https://www.henle.de/media/59/80/94/1697725884/9802-1697725884-sync.pdf)
 
 ### 速度の語（遅い順）
 
@@ -296,7 +299,7 @@ Allegro の原義は「陽気な」「生き生きとした」、Andante は「�
 
 ### 変奏曲
 
-主題を、旋律・リズム・和声・対位法・音色などを変えて繰り返す形。18世紀以前の作品では各変奏が主題の長さと構造を保つ。モーツァルトの《「ああ、ママに言うわ」による12の変奏曲》K. 265 では、第1変奏が旋律を装飾し、第5変奏が裏拍のシンコペーションで一定の拍を崩し、第7変奏が主題の単純な和声を新しい和音に替え、第8変奏が同主短調に移る。短い低音の反復（オスティナート）の上で変奏を続けるものに、パッサカリアとシャコンヌがある。
+主題を、旋律・リズム・和声・対位法・音色などを変えて繰り返す形。
 
 ### ソナタ形式
 
@@ -308,24 +311,23 @@ Allegro の原義は「陽気な」「生き生きとした」、Andante は「�
 | 提示部 | 第1主題（主調）→推移（転調）→第2主題（長調の曲では属調、短調の曲では平行長調）→終結部。古典派ではほぼすべて提示部の反復が指示される |
 | 展開部 | 提示部の素材を、遠い調を含むさまざまな調で扱う |
 | 再現部 | 第1主題・第2主題とも主調で戻る |
-| コーダ（任意） | 古典派では任意だが、ロマン派の多くの作品では欠かせない部分となった |
+| コーダ（任意） | 再現部のあとに置く終結部 |
 
-この形の型は、レイハ（Anton Reicha）『高等作曲論』（1826年）、マルクス（Adolf Bernhard Marx）『作曲法』（1845年）、チェルニー（Carl Czerny、1848年）が、主にベートーヴェンのピアノ・ソナタの研究から記述した。「ソナタ形式」の語はマルクスが最初に使った可能性がある。この型は作品が書かれた後に理論家がまとめたものである。
+レイハ（Anton Reicha）はこの形を「大きな二部形式」（grande coupe binaire）と呼んだ。「ソナタ形式」（Sonatenform）の語は1820年代半ばにはマルクス（Adolf Bernhard Marx）の周囲で知られており、マルクスは1838年と1845年の論述でこの語を単一楽章の形の名として定着させた。[（Hepokoski and Darcy）](https://www.some.ox.ac.uk/wp-content/uploads/2020/08/31.-Hepokoski-and-Darcy-2006-Sonata-form-as-a-whole.pdf)
 
 ### フーガ
 
-フーガは一つの主題を複数の声部が模倣しながら展開する書法で、決まった構造の形式というより作曲の様式に近い。語はラテン語の fuga（逃走）に由来する。
+フーガは、一つの主題を構成する各声部が順に示していく書法である。[（Britannica）](https://britannica.com/art/fugue/Elements-of-the-fugue)
 
 | 用語 | 内容 |
 |---|---|
-| 主題（subject、独 Dux） | 冒頭で一つの声部が単独で示す主要な旋律 |
-| 応答（answer、独 Comes） | 第2の声部が主題を別の調（多くは属調）で示すもの。主題をそのまま移すものを真正応答、主題の冒頭が属音で始まるときなどに音程を一部変えるものを調的応答という |
-| 対主題（countersubject） | 主題や応答に添えられ、後の登場でも繰り返し使われる対旋律。多くは上下を入れ替えても成り立つ転回対位法で書かれる |
-| 提示部（exposition） | 全声部が順に主題または応答を示す冒頭の部分 |
-| 嬉遊部（episode） | 主題の登場の間にあって、次の調へ転調する経過部分 |
-| ストレッタ（stretto） | 一つの声部が主題を終える前に、別の声部が主題を始めて重なる部分 |
+| 主題（subject） | 冒頭で一つの声部が単独で示す主要な旋律 |
+| 応答（answer） | 第2の声部が主題を属調で示すもの。主題をそのまま移すものを真正応答、調が変わりきらないよう旋律を少し変えるものを調的応答という |
+| 対主題（countersubject） | 応答に添えられた対旋律が、その後もずっと主題と組んで現れるもの。主題の上でも下でも成り立つよう、転回できる対位法で書かれる。対主題のないフーガも多い |
+| 提示部（exposition） | 全声部が順に主題または応答を示す冒頭の部分で、必ず置かれる |
+| 嬉遊部（episode） | 主題の登場の間をつなぐ旋律的な部分 |
 
-中間の主題の登場は近親調で行われ、最後の登場で主調に戻り、しばしばコーダが続く。主音や属音の保続音（オルゲルプンクト）の上で終わり近くを書くこともある。J. S. バッハ（Johann Sebastian Bach）の《平均律クラヴィーア曲集》（第1巻1722年、第2巻1740年代初め）は、各巻が24の長調・短調すべてによる前奏曲とフーガからなる。
+[（Britannica）](https://britannica.com/art/fugue/Elements-of-the-fugue)J. S. バッハ（Johann Sebastian Bach）の《平均律クラヴィーア曲集》（第1巻1722年、第2巻1742年）は、各巻が24の長調・短調すべてによる前奏曲とフーガからなる。[（Britannica）](https://www.britannica.com/summary/Johann-Sebastian-Bach)
 
 ## 総譜の読み方
 
@@ -366,13 +368,8 @@ Allegro の原義は「陽気な」「生き生きとした」、Andante は「�
 | イングリッシュ・ホルン（F管） | 完全5度下のヘ |
 | アルト・サクソフォン（E♭管） | 長6度下の変ホ |
 | テナー・サクソフォン（B♭管） | 長9度下の変ロ |
-| ピッコロ、チェレスタ、シロフォン | 1オクターヴ上 |
-| グロッケンシュピール | 2オクターヴ上 |
-| コントラバス、コントラファゴット、ギター | 1オクターヴ下 |
 
-- ホルンをヘ音記号で書く場合、古い記譜では実音が5度下でなく4度上になるものがある。どちらの書き方かは作曲家によって異なる。
-- 20世紀初めから、総譜全体を実音で書く作曲家も現れた。プロコフィエフ（Sergei Prokofiev）のピアノ協奏曲第1番 変ニ長調がその例である。
-- 替え管を用いた時代のホルンの楽譜は、すべてハを基音とするように書かれ、替え管によって一つの楽器がほぼどの調の移調楽器にもなった。
+[（University of Mary Washington）](https://cas.umw.edu/music/files/2020/09/Piano-Proficiency-Exam-Appendix.pdf)
 
 総譜をピアノで読むことは、移調楽器の声部を実音に直し、複数の音部記号を同時に読み替える作業を伴う。
 
