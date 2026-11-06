@@ -863,6 +863,7 @@ def footer(S, extra_js=""):
   </div>
 </footer>
 <script src="/assets/vq.js?v={CSS_V}" defer></script>{extra_js}
+<script src="/assets/vq-stack.js" defer></script>
 </body>
 </html>
 """
