@@ -7388,5 +7388,84 @@
       "mass",
       "religious"
     ]
+  },
+  {
+    "id": "bruch-violin-concerto-1",
+    "composerId": "bruch",
+    "title": "ヴァイオリン協奏曲第1番 ト短調 作品26",
+    "titleEn": "Violin Concerto No. 1 in G minor, Op. 26",
+    "year": "1864-1867",
+    "genre": "concerto",
+    "subgenre": "violin concerto",
+    "era": "romantic",
+    "key": "g-minor",
+    "opus": "Op. 26",
+    "duration": 25,
+    "difficulty": 1,
+    "shortDescription": "1864年夏に書き始められ、初稿が1866年にコブレンツで演奏されたのち、ヨアヒムの助言で改訂された協奏曲。決定稿は1868年1月7日にブレーメンでヨアヒムの独奏により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Vorspiel: Allegro moderato",
+        "tempo": "Allegro moderato",
+        "key": "g-minor",
+        "duration": null,
+        "description": "ティンパニのロールと木管の句で始まり、独奏ヴァイオリンとの対話が続く。前奏曲と題され、切れ目なくアダージョに入る。",
+        "highlights": [
+          "ティンパニと木管による開始",
+          "重音による主要主題",
+          "アダージョへの切れ目のない移行"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio",
+        "tempo": "Adagio",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "独奏と管弦楽が分け合う3つの主題からなり、頂点に達したのち静かに終わる。",
+        "highlights": [
+          "中音域の独奏旋律",
+          "属調の副主題"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Finale: Allegro energico",
+        "tempo": "Allegro energico",
+        "key": "G-major",
+        "duration": null,
+        "description": "変ホ長調で弱く始まる18小節の転調部の後、独奏が重音を用いた舞曲風の主題をト長調で出す。",
+        "highlights": [
+          "冒頭の転調部",
+          "重音の第1主題",
+          "管弦楽による第2主題"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ブルッフは1864年夏にこの協奏曲を書き始め、初稿は1866年4月24日にコブレンツでオットー・フォン・ケーニヒスレーヴの独奏、作曲者の指揮で演奏された。その後ヨーゼフ・ヨアヒムの助言で改訂し、1867年10月にハノーファーでヨアヒムと決定稿を固めた。決定稿は1868年1月7日にブレーメンでヨアヒムの独奏により初演され、同年3月末にブレーメンのクランツ社から出版された。ブルッフは権利を250ターラーでクランツ社に一括して売った。",
+    "musicalAnalysis": "3楽章構成で、第1楽章は「前奏曲」と題され、切れ目なく第2楽章アダージョに続く。最初の2楽章をつなぐことはヨアヒムの提案による。終楽章は変ホ長調で始まり、ト長調の舞曲風の主題に入る。",
+    "listeningGuide": {
+      "totalTime": "25分",
+      "recommendedVersion": "ヨゼフ・スーク（ヴァイオリン）、カレル・アンチェル指揮 チェコ・フィルハーモニー管弦楽団（1963年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mendelssohn-vc"
+    ],
+    "relatedComposers": [
+      "brahms",
+      "mendelssohn"
+    ],
+    "tags": [
+      "concerto",
+      "romantic",
+      "violin",
+      "famous"
+    ]
   }
 ]
