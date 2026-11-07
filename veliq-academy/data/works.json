@@ -6486,5 +6486,113 @@
       "virtuoso",
       "famous"
     ]
+  },
+  {
+    "id": "monteverdi-orfeo",
+    "composerId": "monteverdi",
+    "title": "音楽による寓話《オルフェオ》",
+    "titleEn": "L'Orfeo, favola in musica",
+    "year": 1607,
+    "genre": "opera",
+    "subgenre": "favola in musica",
+    "era": "baroque",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "アレッサンドロ・ストリッジョの台本による、プロローグと5幕の「音楽による寓話」。1607年2月24日にマントヴァでアッカデミア・デッリ・インヴァギーティの前で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "トッカータとプロローグ",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "トランペットを含むトッカータの後、ラ・ムジカが作品を紹介する。",
+        "highlights": [
+          "トッカータ（のちに《夕べの祈り》に転用）",
+          "ラ・ムジカ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "牧人とニンファたちがオルフェオとエウリディーチェの婚礼を祝う。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "使者がエウリディーチェの死を知らせ、オルフェオが嘆く。プロローグの音楽が戻る。",
+        "highlights": [
+          "Tu se' morta"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第3幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "オルフェオが冥界に下り、渡し守カロンテに向かって歌う。",
+        "highlights": [
+          "Possente spirto（装飾版と無装飾版の2つが印刷されている）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第4幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "プロセルピナとプルトーネが振り返らないことを条件に願いを聞き入れるが、オルフェオは振り返ってエウリディーチェを失う。",
+        "highlights": [
+          "歩くバス"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "第5幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "オルフェオが嘆き、アポロが彼を天へ連れて行く。モレスカで閉じる。",
+        "highlights": [
+          "モレスカ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "マントヴァ公ヴィンチェンツォ1世・ゴンザーガの後援のもと、息子フランチェスコ・ゴンザーガが主催して謝肉祭に上演された。1607年2月24日に公爵宮殿の一室でアッカデミア・デッリ・インヴァギーティの前で初演され、3月1日に再演された。オルフェオはフランチェスコ・ラージが歌った。総譜は1609年にヴェネツィアのアマディーノから出版されてフランチェスコ・ゴンザーガに献呈され、1615年に再版された。",
+    "musicalAnalysis": "1609年の総譜は冒頭に使う楽器を列挙し、曲中でも楽器を指定している。地獄の場面ではコルネットとトロンボーンが使われ、トランペットは冒頭のトッカータにだけ現れる。1607年の台本はオルフェオがバッカスの信女たちに引き裂かれる結末をもつが、総譜はアポロがオルフェオを天へ連れて行く結末になっている。",
+    "listeningGuide": {
+      "totalTime": "",
+      "recommendedVersion": "ニコラウス・アーノンクール指揮 ウィーン・コンツェントゥス・ムジクス（1968年録音、テレフンケン）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "monteverdi-vespers",
+      "gluck-orfeo"
+    ],
+    "relatedComposers": [
+      "gluck"
+    ],
+    "tags": [
+      "opera",
+      "baroque",
+      "mythology"
+    ]
   }
 ]
