@@ -20,7 +20,7 @@ sources:
   - "Tokyo Philharmonic Orchestra, Program（April L. Racana）, 2017年9月15日（作曲期間1888年1月〜1894年12月18日、ベルリン・フィルの初演）. https://www.tpo.or.jp/en/concert/pdf/20170915program-eng.pdf（閲覧日 2026-11-07）"
   - "Baker's Biographical Dictionary of Musicians「Mahler, Gustav」（Encyclopedia.com 収録。作曲1887〜94年、1895年12月13日ベルリン初演、ハンブルク歌劇場1891年）. https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/gustav-mahler（閲覧日 2026-11-07）"
   - "Gramophone「Gramophone Classical Music Awards 1988」（ラトル指揮バーミンガム市響の録音が Record of the Year）. https://gramophone.co.uk/features/article/gramophone-classical-music-awards-1988（閲覧日 2026-11-07）"
-  - "Gramophone「Gilbert Kaplan, Mahler expert, has died」（キャプランの経歴と2種の録音、シュタルク＝フォイトとの校訂版）. https://gramophone.co.uk/classical music news/article/gilbert-kaplan-mahler-expert-has-died（閲覧日 2026-11-07）"
+  - "Gramophone「Gilbert Kaplan, Mahler expert, has died」（キャプランの経歴と2種の録音、シュタルク＝フォイトとの校訂版）. https://gramophone.co.uk/classical%20music%20news/article/gilbert-kaplan-mahler-expert-has-died（閲覧日 2026-11-07）"
   - "Gramophone「Top 10 Gustav Mahler symphony recordings」（ユロフスキ指揮ロンドン・フィル、2009年9月ロイヤル・フェスティヴァル・ホールのライヴ）. https://gramophone.co.uk/articles/top-10-gustav-mahler-symphony-recordings（閲覧日 2026-11-07）"
 ---
 
@@ -119,7 +119,7 @@ UE は演奏時間を80分とする。マーラー財団の一覧は、第1楽�
 ### 代表的な録音
 
 - サイモン・ラトル（Simon Rattle）指揮バーミンガム市交響楽団・合唱団、アーリーン・オジェー（Arleen Augér、ソプラノ）、ジャネット・ベイカー（Janet Baker）（EMI）。1988年のグラモフォン賞で Record of the Year と管弦楽部門を受けた。[（Gramophone）](https://gramophone.co.uk/features/article/gramophone-classical-music-awards-1988)
-- ギルバート・キャプラン指揮ロンドン交響楽団（ピックウィック）とウィーン・フィルハーモニー（DG）。ウィーン・フィル盤はシュタルク＝フォイトとの新校訂版による。ロンドン響盤は17万5000枚以上売れた。キャプランは1965年にレオポルド・ストコフスキー（Leopold Stokowski）指揮アメリカ交響楽団の演奏でこの曲を知った。[（Gramophone）](https://gramophone.co.uk/classical music news/article/gilbert-kaplan-mahler-expert-has-died)
+- ギルバート・キャプラン指揮ロンドン交響楽団（ピックウィック）とウィーン・フィルハーモニー（DG）。ウィーン・フィル盤はシュタルク＝フォイトとの新校訂版による。ロンドン響盤は17万5000枚以上売れた。キャプランは1965年にレオポルド・ストコフスキー（Leopold Stokowski）指揮アメリカ交響楽団の演奏でこの曲を知った。[（Gramophone）](https://gramophone.co.uk/classical%20music%20news/article/gilbert-kaplan-mahler-expert-has-died)
 - ウラディーミル・ユロフスキ（Vladimir Jurowski）指揮ロンドン・フィルハーモニー管弦楽団・合唱団（2009年9月、ロイヤル・フェスティヴァル・ホールでのライヴ）。グラモフォン誌のマーラー交響曲の推薦盤に選ばれている。[（Gramophone）](https://gramophone.co.uk/articles/top-10-gustav-mahler-symphony-recordings)
 
 ## もっと深く

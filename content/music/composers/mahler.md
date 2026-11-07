@@ -12,7 +12,7 @@ sources:
   - "Michael Steinberg, Program note「Mahler: Symphony No. 2」（Metropolitan Symphony Orchestra 転載。出生地カリシュト、ハンブルクでのビューローとの関係、標題を「松葉杖」と呼んだ発言）. https://msomn.org/mahler-2-note-by-michael-steinberg/（閲覧日 2026-11-07）"
   - "Steven Ledbetter, Program note「GUSTAV MAHLER: Symphony No. 5 in C-sharp minor」, Aspen Music Festival（マイアーニクの山荘と作曲小屋、夏の作曲と冬の管弦楽化、「標題よ滅びよ」）. https://www.aspenmusicfestival.com/program_notes/view/mahler-symphony-no.-5-in-c-sharp-minor（閲覧日 2026-11-07）"
   - "Universal Edition「Gustav Mahler: 2. Symphonie」（第2番の成立、ビューローの拒絶、生涯にわたる改訂）. https://www.universaledition.com/en/Works/2.-Symphonie/P0001865（閲覧日 2026-11-07）"
-  - "Gramophone「Gilbert Kaplan, Mahler expert, has died」（キャプランの生没年、第2番の録音と新校訂版）. https://gramophone.co.uk/classical music news/article/gilbert-kaplan-mahler-expert-has-died（閲覧日 2026-11-07）"
+  - "Gramophone「Gilbert Kaplan, Mahler expert, has died」（キャプランの生没年、第2番の録音と新校訂版）. https://gramophone.co.uk/classical%20music%20news/article/gilbert-kaplan-mahler-expert-has-died（閲覧日 2026-11-07）"
   - "Gramophone「Top 10 Gustav Mahler symphony recordings」（各交響曲の推薦盤）. https://gramophone.co.uk/articles/top-10-gustav-mahler-symphony-recordings（閲覧日 2026-11-07）"
 ---
 
@@ -144,7 +144,7 @@ sources:
 
 - レナード・バーンスタイン（Leonard Bernstein）は、交響曲全集の録音により1967年に協会の金メダルを受けた。[（IGMG）](https://www.gustav-mahler.org/en/the-society/history)
 - グラモフォン誌の推薦盤には、バーンスタイン指揮ウィーン・フィルの第5番（フランクフルトでのライヴ録音）、クラウディオ・アバド（Claudio Abbado）指揮ベルリン・フィルの第6番、ヘルベルト・フォン・カラヤン（Herbert von Karajan）指揮ベルリン・フィルの第9番（1980年スタジオ録音、1982年ライヴ録音）が含まれる。[（Gramophone）](https://gramophone.co.uk/articles/top-10-gustav-mahler-symphony-recordings)
-- ギルバート・キャプラン（Gilbert Kaplan、1941〜2016）は1965年にレオポルド・ストコフスキー指揮アメリカ交響楽団の演奏で第2番を聴き、のちにロンドン交響楽団、ウィーン・フィルと同曲を録音した。[（Gramophone）](https://gramophone.co.uk/classical music news/article/gilbert-kaplan-mahler-expert-has-died)
+- ギルバート・キャプラン（Gilbert Kaplan、1941〜2016）は1965年にレオポルド・ストコフスキー指揮アメリカ交響楽団の演奏で第2番を聴き、のちにロンドン交響楽団、ウィーン・フィルと同曲を録音した。[（Gramophone）](https://gramophone.co.uk/classical%20music%20news/article/gilbert-kaplan-mahler-expert-has-died)
 
 ### 記念の場所
 
