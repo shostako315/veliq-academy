@@ -5864,5 +5864,248 @@
       "french",
       "cyclic"
     ]
+  },
+  {
+    "id": "rimsky-scheherazade",
+    "composerId": "rimsky-korsakov",
+    "title": "交響組曲《シェエラザード》作品35",
+    "titleEn": "Scheherazade, Symphonic Suite, Op. 35",
+    "year": 1888,
+    "genre": "orchestral",
+    "subgenre": "symphonic suite",
+    "era": "romantic",
+    "key": "",
+    "opus": "Op. 35",
+    "duration": 44,
+    "difficulty": 1,
+    "shortDescription": "『千夜一夜物語』に基づく4楽章の交響組曲。1888年夏に書かれ、同年10月22日（新暦11月3日）にサンクトペテルブルクで作曲者の指揮で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "海とシンドバッドの船",
+        "tempo": "Largo e maestoso – Allegro non troppo",
+        "key": "",
+        "duration": 9,
+        "description": "冒頭でシャフリヤール王の主題がクラリネット、ファゴット、トロンボーン、テューバのユニゾンで出て、独奏ヴァイオリンがハープを伴ってシェエラザードの主題を弾く。",
+        "highlights": [
+          "シャフリヤール王の主題",
+          "独奏ヴァイオリンとハープ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "カランダール王子の物語",
+        "tempo": "Lento – Allegro molto",
+        "key": "",
+        "duration": 12,
+        "description": "独奏ファゴットがコントラバスの保続音の上で旋律を吹き、オーボエ、弦、木管が受け継ぐ。クラリネットの独奏とファゴットのカデンツァがある。",
+        "highlights": [
+          "ファゴットの独奏",
+          "クラリネットの独奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "若い王子と王女",
+        "tempo": "Andantino quasi allegretto",
+        "key": "",
+        "duration": 10,
+        "description": "8分の6拍子。ヴァイオリンの旋律にチェロが答え、中間部の舞曲でトライアングル、タンブリン、シンバルが加わる。",
+        "highlights": [
+          "8分の6拍子",
+          "中間部の打楽器"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "バグダッドの祭り―海―青銅の戦士の立つ岩での難破―終結",
+        "tempo": "Allegro molto",
+        "key": "",
+        "duration": 12,
+        "description": "タランテラの祭りの後、海の主題がトロンボーンとテューバで戻り、難破を経て独奏ヴァイオリンの静かな終結で閉じる。",
+        "highlights": [
+          "タランテラ",
+          "独奏ヴァイオリンによる終結"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "リムスキー＝コルサコフはボロディンの《イーゴリ公》を仕上げる仕事の中でこの組曲を着想した。作曲は1888年夏、ルーガ近郊のネジゴヴィツィで行われ、4つの楽章は7月4日から7月26日までに順に書き上げられた。初演は1888年10月22日（新暦11月3日）、サンクトペテルブルクで作曲者の指揮による。出版された総譜では楽章の題が削られ、組曲の題と全体の標題だけが残された。1910年にはフォーキン振付のバレエとしてバレエ・リュスがパリ・オペラ座で上演した。",
+    "musicalAnalysis": "4楽章の交響組曲。シャフリヤール王の主題と、ハープを伴う独奏ヴァイオリンのシェエラザードの主題が全楽章に現れる。シンドバッドの主題はシャフリヤールの主題の変形である。終楽章は前の楽章の主題を組み替え、独奏ヴァイオリンで終わる。",
+    "listeningGuide": {
+      "totalTime": "約44分",
+      "recommendedVersion": "トーマス・ビーチャム指揮 ロイヤル・フィルハーモニー管弦楽団（独奏スティーヴン・スタリク、1957年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "stravinsky"
+    ],
+    "tags": [
+      "orchestral",
+      "romantic",
+      "russian",
+      "programmatic",
+      "violin-solo"
+    ]
+  },
+  {
+    "id": "rossini-barber-of-seville",
+    "composerId": "rossini",
+    "title": "オペラ《セビリャの理髪師》",
+    "titleEn": "Il barbiere di Siviglia",
+    "year": 1816,
+    "genre": "opera",
+    "subgenre": "opera buffa",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": 155,
+    "difficulty": 1,
+    "shortDescription": "ボーマルシェの喜劇（1775年）をもとにステルビーニが台本を書いた2幕のメロドランマ・ブッフォ。1816年2月20日、ローマのアルジェンティーナ劇場で《アルマヴィーヴァ、または無益な用心》の題で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "序曲",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "《パルミラのアウレリアーノ》（1813年）のために書かれた序曲を転用したもの。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "セビリャの広場（夜明け前）とバルトロの家。伯爵は学生リンドーロ、次いで酔った兵士に変装する。",
+        "highlights": [
+          "ロジーナのカヴァティーナ〈今の歌声は〉",
+          "バジーリオの〈中傷のアリア〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "バルトロの家。伯爵は音楽教師ドン・アロンソとして稽古に来る。嵐の後、公証人が伯爵とロジーナを結婚させる。",
+        "highlights": [
+          "音楽の稽古の場",
+          "伯爵のアリア〈もう逆らうのはやめろ〉"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "台本はチェーザレ・ステルビーニで、原作はボーマルシェの1775年の喜劇である。同じ戯曲には1782年にパイジエッロのオペラがあった。1816年2月20日のローマ初演はパイジエッロの支持者のやじなどで混乱したが、2日目から受け入れられた。作品はイタリアとヨーロッパに広まり、1825年にはガルシアの一座がニューヨークで上演した。",
+    "musicalAnalysis": "2幕からなり、序曲は《パルミラのアウレリアーノ》の序曲の転用である。ロジーナはメゾソプラノのために書かれたが、のちにソプラノが歌うようになった。1969年にゼッダの批判校訂版がリコルディから出て、2009年に改訂された。",
+    "listeningGuide": {
+      "totalTime": "155分",
+      "recommendedVersion": "クラウディオ・アバド指揮 ヨーロッパ室内管弦楽団（DG、ゼッダ版）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mozart-figaro"
+    ],
+    "relatedComposers": [
+      "mozart-wa"
+    ],
+    "tags": [
+      "opera",
+      "romantic",
+      "famous",
+      "comic"
+    ]
+  },
+  {
+    "id": "weber-freischutz",
+    "composerId": "weber",
+    "title": "歌劇《魔弾の射手》作品77 J.277",
+    "titleEn": "Der Freischütz, Op. 77, J. 277",
+    "year": "1817-1820",
+    "genre": "opera",
+    "subgenre": "singspiel",
+    "era": "classical",
+    "key": "",
+    "opus": "Op. 77",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "フリードリヒ・キントの台本による3幕のオペラ。台詞を伴うドイツのジングシュピールで、1821年6月18日にベルリンのシャウシュピールハウスで初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "序曲",
+        "tempo": "",
+        "key": "",
+        "duration": 9,
+        "description": "オペラの要素（森、狼谷、アガーテのアリア）を用い、ハ長調で終わる。初演で繰り返し演奏された。",
+        "highlights": [
+          "ハ長調の結尾"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第1〜5曲。導入曲（合唱、農民の行進、キリアンのアリア）、三重唱と合唱、ワルツとマックスのアリア、カスパールの歌、カスパールのアリア。",
+        "highlights": [
+          "導入曲の合唱",
+          "カスパールのアリア"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第6〜10曲。エンヒェンとアガーテの二重唱、エンヒェンのアリエッタ、アガーテのアリア、三重唱、フィナーレ（狼谷）。",
+        "highlights": [
+          "アガーテのアリア",
+          "狼谷のフィナーレ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第3幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第11〜16曲。間奏曲、アガーテのカヴァティーナ、エンヒェンのロマンスとアリア、民謡（花嫁の付添いの娘たちの合唱）、狩人の合唱、フィナーレ。",
+        "highlights": [
+          "狩人の合唱"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "台本はキントで、アペルとラウンの《幽霊の本》に収められた1810年の物語に基づく。ウェーバーはドレスデンの宮廷楽長であった1817年夏に作曲を始め、1820年5月に序曲を含めて完成した。原題は《狩人の花嫁》で、ベルリンの劇場総監督ブリュール伯の提案で改題された。1821年6月18日、ベルリンのシャウシュピールハウスでウェーバーの指揮により初演され、序曲と〈乙女の花冠〉の歌が繰り返された。ロンドンでは1824年10月14日にコヴェント・ガーデンで上演された。",
+    "musicalAnalysis": "台詞を伴うジングシュピールで、序曲と16曲からなる。第2幕は狼谷の場のフィナーレで終わる。序曲はオペラの要素を用い、ハ長調で終わる。",
+    "listeningGuide": {
+      "totalTime": "約2時間",
+      "recommendedVersion": "カルロス・クライバー指揮 シュターツカペレ・ドレスデン、ライプツィヒ放送合唱団（DG）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "classical",
+      "german"
+    ]
   }
 ]
