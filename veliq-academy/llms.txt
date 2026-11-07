@@ -125,6 +125,7 @@
 - [リヒャルト・シュトラウス オペラ《ばらの騎士》 作品59](https://veliq-academy.com/music/works/strauss-rosenkavalier/): ホフマンスタールの台本による3幕の「音楽のための喜劇」。1909〜1910年に作曲され、1911年1月26日にドレスデン宮廷歌劇場でエルンスト・フォン・シューフの指揮により初演された。演出はゲオルク・トラー、装置と衣裳はアルフレート・ロラー。
 - [リヒャルト・シュトラウス 交響詩《ツァラトゥストラはかく語りき》 作品30](https://veliq-academy.com/music/works/strauss-zarathustra/): ニーチェの同名の著作に「自由に基づいて」書かれた大編成の交響詩。1896年2月4日にミュンヒェンで着手され、同年8月24日に完成し、11月27日にフランクフルト・アム・マインで作曲者の指揮により初演された。同年ミュンヒェンのヨーゼフ・アイブルから出版された。
 - [チャイコフスキー ピアノ協奏曲第1番 変ロ短調 作品23](https://veliq-academy.com/music/works/tchaikovsky-pc1/): 1874年11月から1875年2月にかけて作曲されたピアノ協奏曲。1875年10月25日にボストンのミュージック・ホールでハンス・フォン・ビューローの独奏により初演され、ビューローに献呈された。1879年と1888〜89年に改訂され、1875年にユルゲンソンから出版された。
+- [チャイコフスキー 交響曲第6番 ロ短調 作品74《悲愴》](https://veliq-academy.com/music/works/tchaikovsky-symphony-6/): 1893年2月にスケッチが始まり、同年8月に総譜が完成した交響曲。1893年10月28日（新暦）にサンクトペテルブルクのロシア音楽協会の演奏会で作曲者の指揮により初演され、作曲者はその9日後に没した。甥のウラジーミル・ダヴィドフに献呈され、1894年にユルゲンソンから総譜が出版された。
 
 ## 美術
 - [美術学科のトップ](https://veliq-academy.com/art/)
@@ -349,7 +350,7 @@
 - [ブラームス ヴァイオリンとチェロのための協奏曲（二重協奏曲） イ短調 作品102](https://veliq-academy.com/music/works/brahms-double-concerto/): ブラームス・1887年
 - [グリーグ 《ペール・ギュント》第1組曲 作品46](https://veliq-academy.com/music/works/grieg-peer-gynt/): グリーグ・1888年
 - [ドビュッシー 《牧神の午後への前奏曲》](https://veliq-academy.com/music/works/debussy-prelude-afternoon/): ドビュッシー・1892–1894年
-- [交響曲第6番 ロ短調 作品74《悲愴》](https://veliq-academy.com/music/works/tchaikovsky-symphony-6/): チャイコフスキー・1893年
+- [チャイコフスキー 交響曲第6番 ロ短調 作品74《悲愴》](https://veliq-academy.com/music/works/tchaikovsky-symphony-6/): チャイコフスキー・1893年
 - [交響曲第9番 ホ短調 作品95《新世界より》](https://veliq-academy.com/music/works/dvorak-sym9/): ドヴォルザーク・1893年
 - [交響曲第2番 ハ短調《復活》](https://veliq-academy.com/music/works/mahler-symphony-2/): マーラー・1894年
 - [チェロ協奏曲 ロ短調 作品104](https://veliq-academy.com/music/works/dvorak-vc/): ドヴォルザーク・1895年
