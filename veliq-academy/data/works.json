@@ -5783,5 +5783,86 @@
       "waltz",
       "vienna"
     ]
+  },
+  {
+    "id": "franck-symphony",
+    "composerId": "franck",
+    "title": "交響曲 ニ短調",
+    "titleEn": "Symphony in D minor",
+    "year": "1886-1888",
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "romantic",
+    "key": "d-minor",
+    "opus": "",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "1886〜88年に作曲され、1889年2月17日にジュール・ガルサン指揮パリ音楽院演奏協会が初演した3楽章の交響曲。終楽章で前の楽章の主題が戻る循環形式をとり、アンリ・デュパルクに献呈された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Lento – Allegro non troppo",
+        "tempo": "Lento – Allegro non troppo",
+        "key": "d-minor",
+        "duration": null,
+        "description": "低弦が遅いテンポで主要な動機を出し、Allegro non troppo に入る。第2主題はヘ長調。再現部の前で冒頭の主題が低音の金管で戻り、コーダは冒頭の3音の動機で終わる。",
+        "highlights": [
+          "低弦による冒頭の動機",
+          "ヘ長調の第2主題",
+          "再現部前の低音金管"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Allegretto",
+        "tempo": "Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "緩徐楽章とスケルツォを兼ねる。弦のピッツィカートとハープの上でイングリッシュ・ホルンが主題を吹き、ヴィオラが対旋律を歌う。",
+        "highlights": [
+          "イングリッシュ・ホルンの独奏",
+          "ピッツィカートとハープの伴奏",
+          "弦の無窮動の部分"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro non troppo",
+        "tempo": "Allegro non troppo",
+        "key": "",
+        "duration": null,
+        "description": "第1主題はファゴットとチェロ、第2主題は金管が出す。第2楽章の主題が短く戻り、コーダでは第1楽章冒頭の主題がハープの上で戻る。",
+        "highlights": [
+          "ファゴットとチェロの第1主題",
+          "第2楽章の主題の回帰",
+          "コーダでの第1楽章主題"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "フランクが円熟期に書いた唯一の交響曲で、1888年8月22日に完成した。シャルル・ラムルーは演奏を断り、1889年2月17日にパリ音楽院演奏協会がジュール・ガルサンの指揮で初演した。評価は割れ、広く受け入れられたのは1893年11月19日のラムルー演奏会以後である。初版総譜はパリのアメル社から出た。",
+    "musicalAnalysis": "3楽章構成で、第2楽章 Allegretto が緩徐楽章とスケルツォを兼ねる。フランクはアンダンテ部分の1拍がスケルツォ部分の1小節に当たるように書いたと説明した。終楽章はベートーヴェンの第9交響曲にならって前の楽章の主題を呼び戻す。編成にイングリッシュ・ホルン、バス・クラリネット、コルネット2、ハープを含む。",
+    "listeningGuide": {
+      "totalTime": "約35〜39分",
+      "recommendedVersion": "ピエール・モントゥー指揮 シカゴ交響楽団（1961年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "saint-saens-organ"
+    ],
+    "relatedComposers": [
+      "beethoven",
+      "saint-saens",
+      "wagner"
+    ],
+    "tags": [
+      "symphony",
+      "romantic",
+      "french",
+      "cyclic"
+    ]
   }
 ]
