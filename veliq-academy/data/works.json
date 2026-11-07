@@ -6594,5 +6594,197 @@
       "baroque",
       "mythology"
     ]
+  },
+  {
+    "id": "elgar-enigma",
+    "composerId": "elgar",
+    "title": "創作主題による変奏曲 作品36《エニグマ》",
+    "titleEn": "Variations on an Original Theme, Op. 36 \"Enigma\"",
+    "year": "1898-1899",
+    "genre": "orchestral",
+    "subgenre": "variations",
+    "era": "romantic",
+    "key": "g-minor",
+    "opus": "Op. 36",
+    "duration": 30,
+    "difficulty": 1,
+    "shortDescription": "主題と14の変奏からなる管弦楽曲で、各変奏にエルガーの友人の頭文字や愛称が付く。1899年6月19日にロンドンでハンス・リヒターの指揮により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "主題",
+        "tempo": "Andante",
+        "key": "g-minor",
+        "duration": null,
+        "description": "最初の4音は「エドワード・エルガー」の名のリズムと音高に合う。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第1変奏 C.A.E.",
+        "tempo": "L'istesso tempo",
+        "key": "",
+        "duration": null,
+        "description": "妻キャロライン・アリス・エルガー。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第2変奏 H.D.S-P.",
+        "tempo": "Allegro",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第3変奏 R.B.T.",
+        "tempo": "Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "オーボエが主導し、素人芝居で老人を演じたタウンゼンドの声を示す。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第4変奏 W.M.B.",
+        "tempo": "Allegro di molto",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "第5変奏 R.P.A.",
+        "tempo": "Moderato",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "第6変奏 Ysobel",
+        "tempo": "Andantino",
+        "key": "",
+        "duration": null,
+        "description": "ヴィオラが主導する。アマチュアのヴィオラ奏者イザベル・フィットン。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "第7変奏 Troyte",
+        "tempo": "Presto",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "第8変奏 W.N.",
+        "tempo": "Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "第9変奏 Nimrod",
+        "tempo": "Adagio",
+        "key": "",
+        "duration": null,
+        "description": "ノヴェロ社のアウグスト・イェーガー。自筆譜と初版の表示は Moderato で、再版で Adagio に改められた。",
+        "highlights": [
+          "イェーガー（狩人）とニムロッド"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "第10変奏 Dorabella",
+        "tempo": "Intermezzo. Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "ドーラ・ペニー。のちに小管弦楽のための間奏曲として単独出版された。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "第11変奏 G.R.S.",
+        "tempo": "Allegro di molto",
+        "key": "",
+        "duration": null,
+        "description": "ヘレフォード大聖堂のオルガニスト、シンクレアのブルドッグ「ダン」を最初の5小節で描く。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 13,
+        "title": "第12変奏 B.G.N.",
+        "tempo": "Andante",
+        "key": "",
+        "duration": null,
+        "description": "独奏チェロが前面に出る。チェロ奏者バジル・G・ネヴィンソン。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 14,
+        "title": "第13変奏 ***",
+        "tempo": "Romanza. Moderato",
+        "key": "",
+        "duration": null,
+        "description": "クラリネットがメンデルスゾーン《静かな海と楽しい航海》を引用し、ティンパニが客船の機関の響きを示す。",
+        "highlights": [
+          "メンデルスゾーンの引用"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 15,
+        "title": "第14変奏 E.D.U.",
+        "tempo": "Finale. Allegro – Presto",
+        "key": "",
+        "duration": null,
+        "description": "エルガー自身。初演後、コーダが拡大され、オルガンの任意パートが加えられた。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1898年10月、エルガーがピアノで即興した旋律を妻アリスがほめたことから書き始められ、1899年2月に管弦楽化が終わった。1899年6月19日、ロンドンのセント・ジェイムズ・ホールでハンス・リヒターの指揮により初演された。初演後、ノヴェロ社のイェーガーの批判を受けて終曲のコーダが拡大され、拡大版は同年9月のウスター音楽祭で作曲者の指揮で演奏された。献辞は「ここに描かれた友人たちへ」である。",
+    "musicalAnalysis": "主題（Andante）と14の変奏からなり、各変奏は友人を1人ずつ描く。第9変奏〈ニムロッド〉はイェーガー、第13変奏は星印で人物が伏せられ、メンデルスゾーンの序曲を引用する。終曲〈E.D.U.〉はエルガー自身で、主題が長調で奏されて終わる。",
+    "listeningGuide": {
+      "totalTime": "30分",
+      "recommendedVersion": "エドワード・エルガー指揮 ロイヤル・アルバート・ホール管弦楽団（1926年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "elgar-cello-concerto"
+    ],
+    "relatedComposers": [
+      "mendelssohn",
+      "beethoven"
+    ],
+    "tags": [
+      "orchestral",
+      "variations",
+      "english",
+      "famous"
+    ]
   }
 ]
