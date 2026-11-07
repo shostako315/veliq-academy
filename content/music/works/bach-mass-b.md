@@ -22,7 +22,6 @@ sources:
   - "The Morgan Library & Museum「Die hohe Messe in H-moll」初版（ジムロック／ネーゲリ、1833年第1分冊・1845年第2分冊）. https://www.themorgan.org/music-manuscripts-and-printed-music/114099（閲覧日 2026-11-07）"
   - "Paul Riley, „'All-conquering': inside Bach's mighty B minor Mass – and its greatest recording“, BBC Music Magazine（classical-music.com）（推薦盤、ハイドンとベートーヴェン、1859年の演奏とリスト、リフキン）. https://www.classical-music.com/features/recordings/a-guide-to-bachs-mass-in-b-minor-and-its-best-recordings/（閲覧日 2026-11-07）"
   - "Donald Satz, „Bach's B minor Mass on Period Instruments“, Bach Cantatas Website, 2000（ピリオド楽器による録音の一覧と年）. https://bach-cantatas.com/Articles/MBM-Satz.htm（閲覧日 2026-11-07）"
-  - "Xinh, „J.S. Bach Mass in B Minor — Composition“（Caltech, Mu123, 1996）（パロディの原曲の一覧、約2300小節のうち638小節の借用）. https://www.its.caltech.edu/~tan/bachbminor/compos.html（閲覧日 2026-11-07）"
 ---
 
 > 要点
@@ -76,7 +75,7 @@ sources:
 | オザンナ | 世俗カンタータの冒頭合唱（下記「もっと深く」） |
 | アニュス・デイ | 昇天祭オラトリオ BWV11 のアルトのアリア〈ああ、とどまれ、わが最愛の命〉 |
 
-[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johann-sebastian-bach-mass-in-b-minor-bwv-232)[（Caltech）](https://www.its.caltech.edu/~tan/bachbminor/compos.html)
+[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johann-sebastian-bach-mass-in-b-minor-bwv-232)
 
 ヴォルフは、筆跡から見てほかの曲も転用と考えられるが、原曲は分かっていないとする[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006532735_Innenansicht.pdf)。ベネディクトゥスの原曲も不明である[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johann-sebastian-bach-mass-in-b-minor-bwv-232)。〈エト・インカルナトゥス〉は新しく作曲された[（Carus 序文）](https://www.musikhug.ch/OERP_media/649/100/1100649/1100649_L_0001.pdf)。
 
@@ -169,9 +168,7 @@ BBCミュージック・マガジンは、ガーディナーの2015年の録音�
 
 ## もっと深く
 
-- **〈オザンナ〉の原曲**：オストマンは、1732年のアウグスト強王の記念日のための《王万歳（Es lebe der König）》（BWV Anh. 11）の冒頭合唱とする[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johann-sebastian-bach-mass-in-b-minor-bwv-232)。ウィグモアは1734年の祝賀カンタータ《汝の幸を讃えよ（Preise dein Glücke）》（BWV215）とし[（Wigmore）](https://mail.bach-cantatas.com/Pic-Rec-BIG/MBM-Layton-S-R02c[Hyperion-2CD-booklet].pdf)、Caltech の学生の解説は《汝の幸を讃えよ》を BWV Anh. 11 としている[（Caltech）](https://www.its.caltech.edu/~tan/bachbminor/compos.html)。
 - **クレドの成立年**：1742〜45年とする説と、1733年のミサより前で1732年に初演されたとする説がある[（Choirs.org.uk）](https://www.choirs.org.uk/prognotes/Bach%20B%20minor%20mass.htm)。
 - **拡大の時期**：カールス版は1748年頃の着手とし[（Carus 序文）](https://www.musikhug.ch/OERP_media/649/100/1100649/1100649_L_0001.pdf)、ラルース百科事典は1747〜49年とする[（Larousse）](https://www.larousse.fr/encyclopedie/oeuvre/Messe_en_si_mineur/183438)。
-- **借用の割合**：約2300小節のうち638小節が既存の作品からの借用とする解説がある[（Caltech）](https://www.its.caltech.edu/~tan/bachbminor/compos.html)。
 - **ルター派とカトリック**：ラルース百科事典は、ミサとサンクトゥスにルター派の、通常文5部の構成にカトリックの特徴があるとし、ドレスデンの宮廷にカトリックとルター派の両方の礼拝堂があったことを挙げる[（Larousse）](https://www.larousse.fr/encyclopedie/oeuvre/Messe_en_si_mineur/183438)。オストマンは、当時のライプツィヒでは通常文全体のミサに用途がなかったと書いている[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johann-sebastian-bach-mass-in-b-minor-bwv-232)。
 - **呼び名**：自筆総譜の第1部の表題は「No. 1. Missa a 5 Voci」で始まる[（Deutsche Digitale Bibliothek）](https://www.deutsche-digitale-bibliothek.de/item/7CSCCCVJSXWQ22RICBBIPA777ABYCAVM?lang=en)。1790年のエマヌエルの遺産目録では「大カトリック・ミサ」[（Gardiner）](https://bach-cantatas.com/~bachcant/Pic-Rec-BIG/MBM-Gardiner-R02c[SDG-2CD-booklet].pdf)、1845年の初版では『ロ短調の大ミサ曲』と呼ばれている[（The Morgan）](https://www.themorgan.org/music-manuscripts-and-printed-music/114099)。
