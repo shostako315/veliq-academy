@@ -9578,5 +9578,73 @@
       "strings",
       "famous"
     ]
+  },
+  {
+    "id": "cage-433",
+    "composerId": "cage",
+    "title": "4分33秒",
+    "titleEn": "4′33″",
+    "year": "1952",
+    "genre": "chamber",
+    "subgenre": "indeterminate",
+    "era": "contemporary",
+    "key": "",
+    "opus": "",
+    "duration": 5,
+    "difficulty": 2,
+    "shortDescription": "3つの楽章のすべてに「Tacet」（演奏しない）とだけ記された、任意の楽器または楽器の組み合わせのための作品。1952年8月29日にウッドストック近郊のマーヴェリック・コンサートホールでデイヴィッド・チュードアが初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "I",
+        "tempo": "Tacet",
+        "key": "",
+        "duration": null,
+        "description": "初演の時間は33秒（NPR では30秒）。チュードアは鍵盤の蓋を閉めて楽章の始まりを示した。",
+        "highlights": [
+          "蓋を閉めて始まりを示す"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "II",
+        "tempo": "Tacet",
+        "key": "",
+        "duration": null,
+        "description": "初演の時間は2分40秒（NPR では2分23秒）。3楽章のうち最も長い。",
+        "highlights": [
+          "最も長い楽章"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "III",
+        "tempo": "Tacet",
+        "key": "",
+        "duration": null,
+        "description": "初演の時間は1分20秒（NPR では1分40秒）。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ケージは1948年の論文「ある作曲家の告白」で、「沈黙の祈り」と呼ぶ無音の作品の構想を述べていた。1951年にはラウシェンバーグの《ホワイト・ペインティング》とハーヴァード大学の無響室に触れた。1952年8月29日、ウッドストック近郊のマーヴェリック・コンサートホールで、チュードアがストップウォッチで時間を計り、鍵盤の蓋の開閉で楽章を区切って初演した。初演に使われた原稿は失われ、1952/53年の比例記譜の版が現存する最も古い楽譜で、1953年に献呈者アーウィン・クレメンに贈られ、2012年にニューヨーク近代美術館が取得した。",
+    "musicalAnalysis": "楽譜は「任意の楽器または楽器の組み合わせのため」とされ、3つの楽章のそれぞれに「Tacet」とだけ書かれている。各楽章の時間は偶然の操作で決められた。比例記譜の版では五線を使わず縦線を並べ、線の間隔が楽章の長さに対応する。演奏者は音を出さず、その間に会場で生じる音が演奏ごとに異なる。",
+    "listeningGuide": {
+      "totalTime": "4分33秒（初演時）",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "contemporary",
+      "indeterminacy",
+      "chance",
+      "silence",
+      "american"
+    ]
   }
 ]
