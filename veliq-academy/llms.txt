@@ -103,6 +103,7 @@
 - [アントニオ・ヴィヴァルディ](https://veliq-academy.com/music/composers/vivaldi/): 1678年3月4日にヴェネツィアで生まれ、1741年7月28日にウィーンで没したイタリアの作曲家・ヴァイオリン奏者・司祭。ピエタ慈善院でヴァイオリン教師と合奏の指導を務め、約500曲の協奏曲、21曲が現存するオペラ、宗教声楽曲を書いた。《四季》を含む作品8は1725年にアムステルダムで出版された。
 - [リヒャルト・ワーグナー](https://veliq-academy.com/music/composers/wagner/): 1813年にライプツィヒで生まれ、1883年にヴェネツィアで没したオペラ作曲家。台本を自ら書き、1843年からドレスデン宮廷楽長、1849年の蜂起後はチューリヒに亡命し、1876年にバイロイト祝祭劇場で《ニーベルングの指環》全4部を初めて通して上演した。
 - [カール・マリア・フォン・ウェーバー](https://veliq-academy.com/music/composers/weber/): 1786年にホルシュタインのオイティンで生まれ、1826年にロンドンで没した作曲家・指揮者・ピアニスト。ブレスラウ、プラハ、ドレスデンの歌劇場を率い、1821年6月18日にベルリンで《魔弾の射手》を初演した。《オイリアンテ》（1823年ウィーン）、《オベロン》（1826年ロンドン）、クラリネット協奏曲2曲、《舞踏への勧誘》を書いた。
+- [アントン・ウェーベルン](https://veliq-academy.com/music/composers/webern/): 1883年にウィーンで生まれ、1945年にザルツブルク近郊のミッタージルで没したオーストリアの作曲家・指揮者。1904年からシェーンベルクに学び、1925年以降は全作品を十二音技法で書いた。作品番号は31で、全部合わせて5時間に満たない。1945年9月15日、アメリカ兵に撃たれて没した。
 - [山田耕筰](https://veliq-academy.com/music/composers/yamada-kosaku/): 1886年に東京で生まれ、1965年に没した作曲家・指揮者。1910年からベルリン高等音楽学校で学び、在学中の1912年に交響曲《かちどきと平和》を書いた。日本楽劇協会（1920年）、日本交響楽協会を組織し、歌曲《からたちの花》（1925年）、《この道》《赤とんぼ》（1927年）、オペラ《黒船》（1940年）を書いた。
 - [指揮者の歴史と役割——タクトゥスから音楽監督まで](https://veliq-academy.com/music/conductors/history-of-conducting/): ルネサンスの拍打ち（タクトゥス）から、鍵盤奏者・コンサートマスターによる統率、19世紀の指揮専業化、ベルリオーズとワーグナーの指揮論、トスカニーニ、フルトヴェングラー、カラヤン、ピリオド楽器運動、斎藤秀雄の指揮法、楽団の長の呼び名までを時代順にたどる。
 - [古楽とピリオド奏法——バッハ復興から歴史的情報にもとづく演奏まで](https://veliq-academy.com/music/early/early-music-and-historical-performance/): 1829年のメンデルスゾーンによる《マタイ受難曲》の蘇演とバッハ全集、ドルメッチとランドフスカによる楽器の復元、1950〜80年代のアーノンクール、レオンハルト、ブリュッヘン、ホグウッド、ガーディナー、鈴木雅明とバッハ・コレギウム・ジャパンの活動、ピッチ・音律・ヴィブラート・ナチュラル管楽器・テンポと装飾・通奏低音・合唱の人数（リフキンの1パート1人説）の論点、原典版と批判校訂版、モダン・オーケストラへの影響を記す。
@@ -200,6 +201,7 @@
 - [エルガー 創作主題による変奏曲 作品36《エニグマ》](https://veliq-academy.com/music/works/elgar-enigma/): 1898年10月に着想し、1899年2月に管弦楽化を終えた主題と14の変奏からなる管弦楽曲。1899年6月19日にロンドンのセント・ジェイムズ・ホールでハンス・リヒターの指揮により初演され、同年9月のウスター音楽祭で終曲のコーダを拡大した版が演奏された。「ここに描かれた友人たちへ」献呈。
 - [ファリャ バレエ《三角帽子》](https://veliq-academy.com/music/works/falla-three-cornered-hat/): アラルコンの小説（1874年）による2部のバレエ。1917年4月にマドリードのエスラバ劇場で室内合奏のパントマイム《代官と粉屋の女房》として初演され、ディアギレフの依頼で管弦楽と舞曲を拡大したバレエ版が1919年7月22日にロンドンのアルハンブラ劇場で、アンセルメの指揮、マシーンの振付、ピカソの美術により初演された。
 - [フランク 交響曲 ニ短調](https://veliq-academy.com/music/works/franck-symphony/): 1886〜88年に作曲され、1888年8月22日に完成した3楽章の交響曲。1889年2月17日、ジュール・ガルサン指揮パリ音楽院演奏協会により初演された。弟子のアンリ・デュパルクに献呈。イングリッシュ・ホルン、バス・クラリネット、コルネット2、ハープを含む編成で、終楽章で前の楽章の主題が戻る循環形式をとる。
+- [ガーシュウィン 《ラプソディ・イン・ブルー》](https://veliq-academy.com/music/works/gershwin-rhapsody-in-blue/): ポール・ホワイトマンの依頼で1924年1〜2月に書かれた、独奏ピアノとジャズ・バンドのためのラプソディ。管弦楽化はファーディ・グローフェで、1924年2月12日にニューヨークのエオリアン・ホールで作曲者の独奏とホワイトマン楽団により初演された。グローフェは1926年と1942年に管弦楽版を作った。
 - [グルック オペラ《オルフェオとエウリディーチェ》](https://veliq-academy.com/music/works/gluck-orfeo/): カルツァビージのイタリア語台本による「アツィオーネ・テアトラーレ」。1762年10月5日、皇帝フランツ1世の名の日の祝いとしてウィーンのブルク劇場で初演され、オルフェオ役はアルトのカストラート、グァダーニが歌った。1769年のパルマ版、1774年のパリ版、1859年のベルリオーズ版がある。
 - [グリーグ ピアノ協奏曲 イ短調 作品16](https://veliq-academy.com/music/works/grieg-pc/): 1868年夏にデンマークのセレレズで書かれたグリーグ唯一のピアノ協奏曲。1869年4月3日にコペンハーゲンでエドムンド・ノイペルトの独奏、ホルガー・シモン・パウリの指揮で初演され、1872年に出版された。グリーグは1907年まで改訂を続けた。
 - [グリーグ 《ペール・ギュント》第1組曲 作品46](https://veliq-academy.com/music/works/grieg-peer-gynt/): イプセンの劇《ペール・ギュント》のためにグリーグが1874〜75年に書いた付随音楽（26曲）から、作曲者自身が4曲を選んで1888年に出版した管弦楽組曲。「朝」「オーセの死」「アニトラの踊り」「山の魔王の宮殿にて」からなる。劇の初演は1876年2月24日、クリスチャニア劇場。
@@ -447,8 +449,10 @@
 - [バルトーク・ベーラ](https://veliq-academy.com/music/composers/bartok/): 1881–1945
 - [イーゴリ・ストラヴィンスキー](https://veliq-academy.com/music/composers/stravinsky/): 1882–1971
 - [ゾルターン・コダーイ](https://veliq-academy.com/music/composers/kodaly/): 1882–1967
+- [アントン・ウェーベルン](https://veliq-academy.com/music/composers/webern/): 1883–1945
 - [山田耕筰](https://veliq-academy.com/music/composers/yamada-kosaku/): 1886–1965
 - [セルゲイ・プロコフィエフ](https://veliq-academy.com/music/composers/prokofiev/): 1891–1953
+- [パウル・ヒンデミット](https://veliq-academy.com/music/composers/hindemith/): 1895–1963
 - [ジョージ・ガーシュウィン](https://veliq-academy.com/music/composers/gershwin/): 1898–1937
 - [ドミートリイ・ショスタコーヴィチ](https://veliq-academy.com/music/composers/shostakovich/): 1906–1975
 - [オリヴィエ・メシアン](https://veliq-academy.com/music/composers/messiaen/): 1908–1992
@@ -582,7 +586,7 @@
 - [ラヴェル バレエ音楽《ダフニスとクロエ》](https://veliq-academy.com/music/works/ravel-daphnis/): ラヴェル・1909–1912年
 - [リヒャルト・シュトラウス オペラ《ばらの騎士》 作品59](https://veliq-academy.com/music/works/strauss-rosenkavalier/): シュトラウス・1909–1910年
 - [ストラヴィンスキー バレエ音楽《火の鳥》（1910年全曲版）](https://veliq-academy.com/music/works/stravinsky-firebird/): ストラヴィンスキー・1909–1910年
-- [ヴェーベルン 管弦楽のための6つの小品 作品6](https://veliq-academy.com/music/works/webern-op6/): ・1909年
+- [ヴェーベルン 管弦楽のための6つの小品 作品6](https://veliq-academy.com/music/works/webern-op6/): ウェーベルン・1909年
 - [ヴォーン・ウィリアムズ 《トマス・タリスの主題による幻想曲》](https://veliq-academy.com/music/works/vaughan-williams-tallis/): ウィリアムズ・1910年
 - [ストラヴィンスキー バレエ音楽《春の祭典》](https://veliq-academy.com/music/works/stravinsky-rite-of-spring/): ストラヴィンスキー・1911–1913年
 - [ニルセン 交響曲第4番 作品29《不滅》](https://veliq-academy.com/music/works/nielsen-symphony-4/): ニルセン・1914–1916年
@@ -592,6 +596,7 @@
 - [ベルク オペラ《ヴォツェック》作品7](https://veliq-academy.com/music/works/berg-wozzeck/): ・1917–1922年
 - [エルガー チェロ協奏曲 ホ短調 作品85](https://veliq-academy.com/music/works/elgar-cello-concerto/): エルガー・1918–1919年
 - [レスピーギ 交響詩《ローマの松》](https://veliq-academy.com/music/works/respighi-pines/): レスピーギ・1923–1924年
+- [ガーシュウィン 《ラプソディ・イン・ブルー》](https://veliq-academy.com/music/works/gershwin-rhapsody-in-blue/): ガーシュウィン・1924年
 - [ヤナーチェク シンフォニエッタ](https://veliq-academy.com/music/works/janacek-sinfonietta/): ヤナーチェク・1926年
 - [コダーイ 組曲《ハーリ・ヤーノシュ》](https://veliq-academy.com/music/works/kodaly-hary-janos/): コダーイ・1927年
 - [ラヴェル ボレロ](https://veliq-academy.com/music/works/ravel-bolero/): ラヴェル・1928年

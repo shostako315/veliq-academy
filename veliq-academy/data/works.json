@@ -8576,5 +8576,170 @@
       "programmatic",
       "orchestration"
     ]
+  },
+  {
+    "id": "gershwin-rhapsody-in-blue",
+    "composerId": "gershwin",
+    "title": "ラプソディ・イン・ブルー",
+    "titleEn": "Rhapsody in Blue",
+    "year": "1924",
+    "genre": "concerto",
+    "subgenre": "rhapsody",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 15,
+    "difficulty": 1,
+    "shortDescription": "独奏ピアノとジャズ・バンドのためのラプソディ。1924年2月12日、ニューヨークのエオリアン・ホールで作曲者の独奏とポール・ホワイトマンの楽団により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "単一楽章",
+        "tempo": "",
+        "key": "",
+        "duration": 15,
+        "description": "協奏曲の急―緩―急を1つの楽章に縮めた構成。冒頭のクラリネットの上行音型の後半はグリッサンドで奏される。",
+        "highlights": [
+          "冒頭のクラリネットのグリッサンド",
+          "パーティーでの即興から生まれた中間部の主題"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ポール・ホワイトマンの依頼で、1924年1月7日に作曲が始められた。ガーシュウィンは2台ピアノの形で書き、ホワイトマン楽団の編曲者ファーディ・グローフェが管弦楽化して、総譜は2月4日に終わった。1924年2月12日、エオリアン・ホールの演奏会「近代音楽の実験」で、作曲者の独奏とホワイトマンの23人の楽団により初演された。題名は兄アイラがホイッスラーの絵の題にちなんで提案した。グローフェは1926年と1942年に管弦楽版を作った。",
+    "musicalAnalysis": "単一楽章で、協奏曲の急―緩―急の構成を縮めている。ブルー・ノート、シンコペーション、ラグタイムやストライド・ピアノの要素と転調を用いる。冒頭のクラリネットのグリッサンドは、練習中にロス・ゴーマンが吹いたものが採り入れられた。",
+    "listeningGuide": {
+      "totalTime": "15分",
+      "recommendedVersion": "レナード・バーンスタイン（ピアノと指揮） コロンビア交響楽団（1959年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "stravinsky",
+      "rachmaninoff",
+      "bernstein"
+    ],
+    "tags": [
+      "concerto",
+      "piano",
+      "jazz",
+      "american",
+      "famous"
+    ]
+  },
+  {
+    "id": "webern-op6",
+    "composerId": "webern",
+    "title": "管弦楽のための6つの小品 作品6",
+    "titleEn": "Six Pieces for Orchestra, Op. 6",
+    "year": "1909",
+    "genre": "orchestral",
+    "subgenre": "orchestral",
+    "era": "modern",
+    "key": "",
+    "opus": "Op.6",
+    "duration": 12,
+    "difficulty": 3,
+    "shortDescription": "1909年に書かれ、1913年3月31日にウィーン楽友協会でシェーンベルクの指揮により初演された6曲の管弦楽曲。1928年に作曲者が編成を縮めた改訂版を作った。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Langsam",
+        "tempo": "Langsam",
+        "key": "",
+        "duration": null,
+        "description": "旋律がクラリネット、トランペット、ハープに分けて受け渡され、6小節のコーダで終わる。",
+        "highlights": [
+          "楽器から楽器へ受け渡される旋律",
+          "6小節のコーダ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Bewegt",
+        "tempo": "Bewegt",
+        "key": "",
+        "duration": null,
+        "description": "6曲のうち唯一の速い曲。フルート、金管、弦のピッツィカートが前に出て、チェレスタの2つの和音が加わり、フォルティッシモで終わる。",
+        "highlights": [
+          "チェレスタの2つの和音",
+          "フォルティッシモの終わり"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Zart bewegt",
+        "tempo": "Zart bewegt",
+        "key": "",
+        "duration": null,
+        "description": "11小節で最も短い。ひとつの旋律が音色を変えながらオーケストラ全体を移っていく音色旋律が用いられる。",
+        "highlights": [
+          "音色旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Sehr mäßig",
+        "tempo": "Sehr mäßig",
+        "key": "",
+        "duration": null,
+        "description": "41小節で最も長い。当初は「Marcia funebre」と記されていた。冒頭の7小節は打楽器だけで奏され、頂点に向かって高揚する。",
+        "highlights": [
+          "打楽器だけの冒頭7小節",
+          "頂点への高揚"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Sehr langsam",
+        "tempo": "Sehr langsam",
+        "key": "",
+        "duration": null,
+        "description": "低弦が駒の近くでトレモロを奏し、高いハーモニクスへ移る。",
+        "highlights": [
+          "スル・ポンティチェロのトレモロ",
+          "ハーモニクス"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Langsam",
+        "tempo": "Langsam",
+        "key": "",
+        "duration": null,
+        "description": "低い鐘、チェレスタ、低音域のハープが響き、音が消えていく。",
+        "highlights": [
+          "低い鐘とチェレスタ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ヴェーベルンは1909年、26歳でこの曲集を書いた。ロンドン交響楽団のプログラムノートは、1906年に没した母の追悼として書かれたとしている。初演は1913年3月31日、ウィーン楽友協会大ホールでシェーンベルクの指揮により行われ、演奏会は聴衆の騒ぎで中断した。1913年には「作品4」として200部の私家版が刷られた。1928年8月から9月4日にかけて作曲者が編成を縮めた改訂版を作り、1929年1月27日にベルリンでシェルヘンの指揮により初演された。",
+    "musicalAnalysis": "6曲の平均は約25小節で、最も長い第4曲が41小節、最も短い第3曲が11小節である。ヴェーベルンは「動機は展開されない。せいぜい短い進行がすぐに繰り返されるだけである」と述べた。第3曲では旋律が楽器から楽器へ移る音色旋律が用いられ、第4曲には当初「Marcia funebre」の表示があった。弦のスル・ポンティチェロと人工ハーモニクス、管楽器のフラッタータンギングが用いられる。",
+    "listeningGuide": {
+      "totalTime": "約10〜13分",
+      "recommendedVersion": "ピエール・ブーレーズ指揮 ベルリン・フィルハーモニー管弦楽団（ドイツ・グラモフォン）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "schoenberg-verklarte"
+    ],
+    "relatedComposers": [
+      "schoenberg",
+      "mahler"
+    ],
+    "tags": [
+      "orchestral",
+      "modern",
+      "atonal",
+      "second-viennese-school"
+    ]
   }
 ]
