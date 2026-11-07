@@ -165,8 +165,10 @@
 - [ハイドン 交響曲第94番 ト長調 Hob.I:94《驚愕》](https://veliq-academy.com/music/works/haydn-sym94/): ハイドンの第1回ロンドン訪問中の1791年に書かれた交響曲。1792年3月23日、ロンドンのハノーヴァー・スクエアで開かれたザロモン演奏会の第6回で初演された。第2楽章第16小節の全楽器のフォルティッシモの和音から、英語とフランス語で「驚愕（Surprise）」、ドイツ語で「ティンパニの一打（Paukenschlag）つき」と呼ばれる。
 - [リスト ハンガリー狂詩曲第2番 嬰ハ短調 S.244/2](https://veliq-academy.com/music/works/liszt-hungarian2/): リストの19曲のハンガリー狂詩曲の第2番。1847年に作曲され、1851年にライプツィヒのゼンフから「テレキ伯に」の献辞を付けて出版された。遅い「ラッサン」と速い「フリスカ」の2部分からなり、のちにドップラーとの共同で管弦楽版（ニ短調）が作られた。
 - [リスト ピアノ・ソナタ ロ短調 S.178](https://veliq-academy.com/music/works/liszt-sonata/): 主な作業は1852〜53年に行われ、自筆譜の表紙に1853年2月2日の完成の日付がある単一楽章のピアノ・ソナタ。1854年4月にブライトコップフ・ウント・ヘルテルから出版されてロベルト・シューマンに献呈され、1857年1月22日にベルリンでハンス・フォン・ビューローが公開初演したとみられている。
+- [マーラー 大地の歌（テノールとアルト〔またはバリトン〕と管弦楽のための交響曲）](https://veliq-academy.com/music/works/mahler-das-lied/): ハンス・ベートゲの詩集『中国の笛』（1907年）による、テノールとアルト（またはバリトン）独唱と管弦楽のための6楽章の作品。主に1908年夏にトーブラッハで書かれ、1909年に総譜が完成した。初演はマーラーの死後の1911年11月20日、ミュンヘンでブルーノ・ワルターの指揮による。
 - [マーラー 交響曲第5番 嬰ハ短調](https://veliq-academy.com/music/works/mahler-sym5/): 1901年と1902年の夏にヴェルター湖畔マイアーニクで書かれた5楽章の交響曲。1904年10月18日にケルンで作曲者の指揮により初演され、同年ライプツィヒのペータース社から出版された。第4楽章アダージェットは弦楽器とハープだけで演奏される。
 - [マーラー 交響曲第2番 ハ短調《復活》](https://veliq-academy.com/music/works/mahler-symphony-2/): 1888年に第1楽章が書かれ、1893年から1894年にかけて残りの楽章が書かれた5楽章の交響曲。1895年3月4日に第1〜3楽章が、同年12月13日に全曲が、いずれもベルリンで作曲者の指揮により初演された。終楽章ではクロプシュトックの賛歌にマーラー自身の詩句を加えたテクストを独唱と合唱が歌う。
+- [メンデルスゾーン 序曲《真夏の夜の夢》 ホ長調 作品21](https://veliq-academy.com/music/works/mendelssohn-mnd/): シェイクスピアの喜劇によって1826年に作曲された演奏会用序曲。同年11月に姉ファニーとピアノで演奏され、管弦楽による公開初演は1827年2月20日、シュテッティンでカール・レーヴェの指揮により行われた。1832年にロンドンとライプツィヒで出版され、プロイセン王太子に献呈された。
 - [メンデルスゾーン ヴァイオリン協奏曲 ホ短調 作品64](https://veliq-academy.com/music/works/mendelssohn-vc/): 1838年7月30日のダーヴィト宛書簡で構想が伝えられ、1844年9月16日に自筆総譜が完成したヴァイオリン協奏曲。1845年3月13日にライプツィヒ・ゲヴァントハウスで、フェルディナント・ダーヴィトの独奏、ニルス・ゲーデの指揮で初演され、同年6月にブライトコップフ・ウント・ヘルテルから出版された。
 - [メシアン トゥーランガリーラ交響曲](https://veliq-academy.com/music/works/messiaen-turangalila/): クーセヴィツキー音楽財団の委嘱で1946年7月17日から1948年11月29日にかけて作曲された、独奏ピアノとオンド・マルトノを伴う10楽章の交響曲。1949年12月2日、ボストンのシンフォニー・ホールでバーンスタイン指揮ボストン交響楽団により初演された。
 - [モーツァルト セレナード第13番 ト長調 K.525《アイネ・クライネ・ナハトムジーク》](https://veliq-academy.com/music/works/mozart-eine-kleine/): モーツァルトの自作目録に1787年8月10日、ウィーンの日付で記入された弦楽のための作品。目録では5楽章とされるが、2番目のメヌエットとトリオが失われ、4楽章で伝わる。作曲の機会と初演の記録はなく、初版は1825年にオッフェンバッハのアンドレから「セレナード」の題で出た。
@@ -397,7 +399,7 @@
 - [シューベルト ピアノ五重奏曲 イ長調 D667《ます》](https://veliq-academy.com/music/works/schubert-trout/): シューベルト・1819年
 - [ベートーヴェン 交響曲第9番 ニ短調 作品125](https://veliq-academy.com/music/works/beethoven-symphony-9/): ベートーヴェン・1822–1824年
 - [シューベルト 交響曲 ロ短調 D759《未完成》](https://veliq-academy.com/music/works/schubert-unfinished/): シューベルト・1822年
-- [序曲《真夏の夜の夢》 作品21](https://veliq-academy.com/music/works/mendelssohn-mnd/): メンデルスゾーン・1826年
+- [メンデルスゾーン 序曲《真夏の夜の夢》 ホ長調 作品21](https://veliq-academy.com/music/works/mendelssohn-mnd/): メンデルスゾーン・1826年
 - [シューベルト 歌曲集《冬の旅》 作品89 D911](https://veliq-academy.com/music/works/schubert-winterreise/): シューベルト・1827年
 - [ショパン 12の練習曲 作品10](https://veliq-academy.com/music/works/chopin-etudes/): ショパン・1829–1832年
 - [ショパン 夜想曲第2番 変ホ長調 作品9-2](https://veliq-academy.com/music/works/chopin-nocturne2/): ショパン・1830–1832年
@@ -447,8 +449,8 @@
 - [シベリウス 交響曲第2番 ニ長調 作品43](https://veliq-academy.com/music/works/sibelius-symphony-2/): シベリウス・1901–1902年
 - [ドビュッシー 海 — 管弦楽のための3つの交響的素描](https://veliq-academy.com/music/works/debussy-la-mer/): ドビュッシー・1903–1905年
 - [シベリウス ヴァイオリン協奏曲 ニ短調 作品47](https://veliq-academy.com/music/works/sibelius-violin-concerto/): シベリウス・1903–1904（1905年改訂）年
+- [マーラー 大地の歌（テノールとアルト〔またはバリトン〕と管弦楽のための交響曲）](https://veliq-academy.com/music/works/mahler-das-lied/): マーラー・1908–1909年
 - [ラヴェル バレエ音楽《ダフニスとクロエ》](https://veliq-academy.com/music/works/ravel-daphnis/): ラヴェル・1909–1912年
-- [大地の歌](https://veliq-academy.com/music/works/mahler-das-lied/): マーラー・1909年
 - [リヒャルト・シュトラウス オペラ《ばらの騎士》 作品59](https://veliq-academy.com/music/works/strauss-rosenkavalier/): シュトラウス・1909–1910年
 - [バレエ音楽《火の鳥》](https://veliq-academy.com/music/works/stravinsky-firebird/): ストラヴィンスキー・1910年
 - [ストラヴィンスキー バレエ音楽《春の祭典》](https://veliq-academy.com/music/works/stravinsky-rite-of-spring/): ストラヴィンスキー・1911–1913年
