@@ -4487,12 +4487,39 @@
       {
         "number": 1,
         "title": "",
-        "tempo": "",
+        "tempo": "Andante tranquillo",
         "key": "",
-        "duration": 26,
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "title": "",
+        "tempo": "Allegro",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 2
+      },
+      {
+        "title": "",
+        "tempo": "Adagio",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 3
+      },
+      {
+        "title": "",
+        "tempo": "Allegro molto",
+        "key": "A-major",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 4
       }
     ],
     "historicalBackground": "パウル・ザッハー（Paul Sacher）の依頼で1936年に作曲され、1937年1月21日、ザッハー指揮のバーゼル室内管弦楽団により初演された。",
@@ -4528,9 +4555,9 @@
       {
         "number": 1,
         "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 28,
+        "tempo": "Andante – Allegro",
+        "key": "C-major",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -4701,12 +4728,48 @@
       {
         "number": 1,
         "title": "",
-        "tempo": "",
+        "tempo": "Largo",
         "key": "",
-        "duration": 20,
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "title": "",
+        "tempo": "Allegro molto",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 2
+      },
+      {
+        "title": "",
+        "tempo": "Allegretto",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 3
+      },
+      {
+        "title": "",
+        "tempo": "Largo",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 4
+      },
+      {
+        "title": "",
+        "tempo": "Largo",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 5
       }
     ],
     "historicalBackground": "1960年、映画音楽の仕事でドレスデンを訪れていたショスタコーヴィチが、近郊のゲーリッシュで7月12日から14日にかけて作曲した。友人グリークマン（Isaak Glikman）への手紙で、3日間で書いたと述べている。1960年10月2日にレニングラードでベートーヴェン四重奏団により初演された。",
