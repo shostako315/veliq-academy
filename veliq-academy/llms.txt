@@ -39,6 +39,7 @@
 - [アルヴォ・ペルト](https://veliq-academy.com/music/composers/part/): 1935年9月11日にエストニアのパイデに生まれた作曲家。タリン音楽院でヘイノ・エッレルに学び、エストニア放送の録音技師を務めた。1976年のピアノ曲《アリーナのために》から「ティンティナブリ」と呼ばれる書法を用い、《フラトレス》《タブラ・ラサ》《鏡の中の鏡》（1977年）、《パッシオ》（1982年）を書いた。1980年に出国してウィーン、次いでベルリンに住み、2010年にエストニアに戻った。
 - [クシシュトフ・ペンデレツキ](https://veliq-academy.com/music/composers/penderecki/): 1933年11月23日にポーランドのデンビツァに生まれ、2020年3月29日にクラクフで没した作曲家・指揮者。52の弦楽器のための《広島の犠牲者に捧げる哀歌》（1960年）で1961年にユネスコの賞を受け、《ルカ受難曲》（1966年ミュンスター大聖堂で初演）、オペラ《ルダンの悪魔》（1969年ハンブルク初演）、8曲の交響曲、《ポーランド・レクイエム》を書いた。
 - [セルゲイ・プロコフィエフ](https://veliq-academy.com/music/composers/prokofiev/): 1891年にロシア帝国のソンツォフカ（現ウクライナ）で生まれ、1953年3月5日にモスクワで没した作曲家・ピアニスト。1918年にロシアを離れてアメリカとパリで活動し、1936年にモスクワへ移った。《三つのオレンジへの恋》、《ロメオとジュリエット》、《ピーターと狼》、交響曲第5番を書いた。
+- [ジャコモ・プッチーニ](https://veliq-academy.com/music/composers/puccini/): 1858年12月22日にルッカで生まれ、1924年11月29日にブリュッセルで没したオペラ作曲家。ミラノ音楽院でバッツィーニとポンキエッリに学び、《マノン・レスコー》（1893年）、《ラ・ボエーム》（1896年）、《トスカ》（1900年）、《蝶々夫人》（1904年）を書いた。遺作《トゥーランドット》は未完のまま残され、1926年にスカラ座で初演された。
 - [ジャン＝フィリップ・ラモー](https://veliq-academy.com/music/composers/rameau/): 1683年にディジョンで洗礼を受け、1764年にパリで没したフランスの作曲家・音楽理論家。1722年に『和声論』を出版し、1733年10月1日に50歳で最初の抒情悲劇《イポリートとアリシー》を初演した。以後《優雅なインドの国々》《カストールとポリュックス》《ダルダニュス》《プラテ》などの舞台作品とクラヴサン曲集を書いた。
 - [モーリス・ラヴェル](https://veliq-academy.com/music/composers/ravel/): 1875年にシブールで生まれ、1937年にパリで没したフランスの作曲家。1889年にパリ音楽院に入りフォーレに学んだ。バレエ・リュスのための《ダフニスとクロエ》（1912年初演）、イダ・ルビンシテインのための《ボレロ》（1928年初演）、2曲のピアノ協奏曲（1929〜31年）を書いた。
 - [アントニオ・サリエリ](https://veliq-academy.com/music/composers/salieri/): 1750年にヴェネツィア共和国のレニャーゴで生まれ、1825年にウィーンで没した作曲家。1766年にガスマンに伴われてウィーンへ移り、1774年に宮廷作曲家、1788年から1824年まで宮廷楽長を務めた。パリで《ダナオスの娘たち》（1784年）、《タラール》（1787年）を上演し、ベートーヴェン、シューベルト、リストらを教えた。
@@ -90,11 +91,13 @@
 - [楽典と理論の基礎——音名から総譜の読み方まで](https://veliq-academy.com/music/theory/music-theory-basics/): 音名（ドイツ・英・伊・日）、音程、音階と調、教会旋法、調号と五度圏、三和音と七の和音、転回形、機能和声（T・S・D）、カデンツ、転調、拍子、速度記号と発想記号、強弱、二部・三部形式からロンド、変奏、ソナタ形式、フーガまでの楽式、総譜の楽器の並びと移調楽器の記譜を、表を添えて整理する。
 - [バッハ ブランデンブルク協奏曲第3番 ト長調 BWV1048](https://veliq-academy.com/music/works/bach-brandenberg/): 1721年3月24日付でケーテンからブランデンブルク辺境伯クリスティアン・ルートヴィヒに献呈された6曲の協奏曲集「Six Concerts Avec plusieurs Instruments」の第3番。ヴァイオリン3、ヴィオラ3、チェロ3と通奏低音のための作品で、第2楽章はフリギア終止の2つの和音だけが書かれている。
 - [バッハ 無伴奏ヴァイオリンのためのパルティータ第2番 ニ短調 BWV1004](https://veliq-academy.com/music/works/bach-bwv1004/): 1720年の日付をもつバッハ自筆の清書譜「Sei Solo」（6曲の無伴奏ヴァイオリンのためのソナタとパルティータ）に含まれる5曲構成のパルティータ。アルマンダ、コレンテ、サラバンダ、ジーガに続いて、4小節の主題による変奏曲シャコンヌ（チャッコーナ）が置かれる。初版は1802年にジムロックから出た。
+- [バッハ ゴルトベルク変奏曲 ト長調 BWV988](https://veliq-academy.com/music/works/bach-goldberg/): アリアと30の変奏、アリアの再現からなる2段鍵盤のチェンバロのための変奏曲。1739年以降に作曲され、1741年（ヴォルフによれば1741/42年）にニュルンベルクのバルタザール・シュミートから「クラヴィーア練習曲集」として出版された。3曲ごとにカノンが置かれ、模倣の音程が同度から9度まで広がる。
 - [ベートーヴェン 序曲《コリオラン》ハ短調 作品62](https://veliq-academy.com/music/works/beethoven-coriolan-overture/): ハインリヒ・ヨーゼフ・フォン・コリンの悲劇《コリオラン》（1802年初演）のために、1807年1〜3月に作曲された序曲。1807年3月、ウィーンのロプコヴィッツ侯邸で、交響曲第4番、ピアノ協奏曲第4番とともに初演され、同年4月24日に一度だけ劇の上演の前奏として演奏された。コリンに献呈され、ウィーンの美術工芸社からパート譜で出版された（1808年1月9日告知）。
 - [ベートーヴェン 《エグモント》序曲 作品84](https://veliq-academy.com/music/works/beethoven-egmont-overture/): ウィーンのブルク劇場によるゲーテの悲劇《エグモント》の上演のため、1809年秋から1810年6月にかけて書かれた付随音楽の序曲。音楽は1810年6月15日の上演で初めて演奏され、序曲は同年12月にブライトコップフ・ウント・ヘルテルからパート譜で出版された。
 - [ベートーヴェン ピアノ協奏曲第5番 変ホ長調 作品73《皇帝》](https://veliq-academy.com/music/works/beethoven-emperor/): 1809年初めに書き始められ、1810年2月にひとまず完成し、同年夏に改訂を終えた協奏曲。ナポレオン軍のウィーン砲撃と占領の時期に書かれた。1810年11月1日にロンドンのクレメンティ社、1811年2月にライプツィヒのブライトコップフ・ウント・ヘルテルから出版され、1811年11月28日にライプツィヒ・ゲヴァントハウスでフリードリヒ・シュナイダーの独奏により初演された。ルドルフ大公に献呈。《皇帝》の名は作曲者によるものではない。
 - [ベートーヴェン 《フィデリオ》序曲 ホ長調 作品72](https://veliq-academy.com/music/works/beethoven-fidelio-overture/): オペラ《フィデリオ》の1814年の第3稿のために新たに書かれた序曲。1814年5月23日の初日には間に合わず、5月26日の2回目の上演で初めて演奏された。1805年と1806年の上演に用いられた《レオノーレ》序曲第2番・第3番、1807年のプラハ上演計画のための第1番に続く、この作品の4つ目の序曲である。
 - [ベートーヴェン ピアノ・ソナタ第14番 嬰ハ短調 作品27-2《月光》](https://veliq-academy.com/music/works/beethoven-moonlight/): 1801年に作曲され、1802年3月にウィーンのカッピから「幻想曲風ソナタ（Sonata quasi una fantasia）」の題で作品27-1とともに出版されたピアノ・ソナタ。伯爵令嬢ジュリエッタ（ユリエ）・グイチャルディに献呈。「月光」の呼び名は作曲者のものではなく、詩人レルシュタープの1823年の小説に由来するとされる。
+- [ベートーヴェン ピアノ・ソナタ第8番 ハ短調 作品13《悲愴》](https://veliq-academy.com/music/works/beethoven-pathetique/): 1797年半ばから1798年半ばにかけて作曲の大部分が進んだピアノ・ソナタ。1799年秋にウィーンのホフマイスターから《大ソナタ・パテティック》の題で出版され、リヒノフスキー侯に献呈された。題は作曲者自身が付けた。
 - [ベートーヴェン ピアノ協奏曲第1番 ハ長調 作品15](https://veliq-academy.com/music/works/beethoven-piano-concerto-1/): 1793年に最初のスケッチが書かれ、1795年3月29日のウィーンでの演奏が初演とみられる協奏曲。1800年4月2日のベートーヴェン自身の演奏会のために書き直され、1801年3月にウィーンのモロから出版された。作曲は第2番より後だが、先に出版されたため第1番となった。バルバラ・オデスカルキ侯爵夫人（旧姓ケグレヴィチ）に献呈。
 - [ベートーヴェン ピアノ協奏曲第2番 変ロ長調 作品19](https://veliq-academy.com/music/works/beethoven-piano-concerto-2/): ボン時代の遅くとも1790年までに最初の稿が書かれ、1793年、1794年頃、1798年に改訂された、ベートーヴェンが最初に書いたピアノ協奏曲。最終稿は1798年10月にプラハで書かれ、独奏パートは1801年4月に別に書き下ろされた。1801年12月にライプツィヒとウィーンのホフマイスターから出版され、カール・ニクル・フォン・ニッケルスベルクに献呈された。
 - [ベートーヴェン ピアノ協奏曲第3番 ハ短調 作品37](https://veliq-academy.com/music/works/beethoven-piano-concerto-3/): 1796年に最初の楽想が書きとめられ、1800年の演奏会に間に合わず、1803年4月5日にアン・デア・ウィーン劇場でベートーヴェンの独奏により初演された協奏曲。独奏パートは初演時には書き上がっておらず、1804年7月19日のフェルディナント・リースの演奏のために完成された。1804年11月にウィーンの美術工芸社から出版され、プロイセンのルイ・フェルディナント王子に献呈された。
@@ -126,12 +129,19 @@
 - [ショパン ピアノ協奏曲第1番 ホ短調 作品11](https://veliq-academy.com/music/works/chopin-concerto1/): 1830年、ヘ短調協奏曲（のちの第2番）の初演の後に作曲され、同年10月11日にワルシャワ国立劇場で、ショパンの独奏、カルロ・ソリーヴァの指揮により初演されたピアノ協奏曲。1833年にパリとライプツィヒで出版され、カルクブレンナーに献呈された。先に出版されたため第1番とされる。
 - [ショパン 12の練習曲 作品10](https://veliq-academy.com/music/works/chopin-etudes/): 1830年から1832年にかけて書かれた12曲のピアノ練習曲集。1833年にライプツィヒのキストナー、パリのシュレザンジェ、ロンドンのウェッセルから出版され、フランツ・リストに献呈された。第12番 ハ短調の通称「革命」は作曲者によるものではない。
 - [ショパン 夜想曲第2番 変ホ長調 作品9-2](https://veliq-academy.com/music/works/chopin-nocturne2/): 1830〜32年に書かれた3曲の夜想曲集作品9の第2曲。1832年にライプツィヒのキストナー、1833年にパリのシュレザンジェから出版され、ピアニストのマリー・プレイエル（カミーユ・プレイエル夫人）に献呈された。弟子の楽譜にショパンが書き込んだ装飾の異稿が残る。
+- [ドビュッシー 海 — 管弦楽のための3つの交響的素描](https://veliq-academy.com/music/works/debussy-la-mer/): 1903年8月に着手し、1905年3月5日に完成した3楽章の管弦楽曲。1905年10月15日、パリのラムルー管弦楽団の演奏会でカミーユ・シュヴィヤールの指揮により初演され、同年デュランから出版された。1909年に改訂版が出た。
 - [ドビュッシー 《牧神の午後への前奏曲》](https://veliq-academy.com/music/works/debussy-prelude-afternoon/): マラルメの詩《半獣神の午後》に基づき、1892年から1894年にかけて作曲された管弦楽曲。1894年12月22日、パリのアルクール会館で国民音楽協会の演奏会においてギュスターヴ・ドレの指揮で初演され、1895年10月にフロモン社から出版された。トランペット、トロンボーン、ティンパニを含まない編成で、ハープ2台とアンティーク・シンバルを用いる。
+- [ドヴォルザーク 交響曲第9番 ホ短調 作品95《新世界より》](https://veliq-academy.com/music/works/dvorak-sym9/): ドヴォルザークがニューヨークのナショナル音楽院の院長を務めていた1892年12月にスケッチを始め、1893年5月24日に総譜を完成した交響曲。1893年12月15日の公開総稽古と16日の演奏会で、ザイドル指揮ニューヨーク・フィルハーモニック協会により初演され、1894年にベルリンのジムロックから「第5番」として出版された。
 - [グリーグ 《ペール・ギュント》第1組曲 作品46](https://veliq-academy.com/music/works/grieg-peer-gynt/): イプセンの劇《ペール・ギュント》のためにグリーグが1874〜75年に書いた付随音楽（26曲）から、作曲者自身が4曲を選んで1888年に出版した管弦楽組曲。「朝」「オーセの死」「アニトラの踊り」「山の魔王の宮殿にて」からなる。劇の初演は1876年2月24日、クリスチャニア劇場。
+- [ヘンデル オラトリオ《メサイア》 HWV56](https://veliq-academy.com/music/works/handel-messiah/): チャールズ・ジェネンズが聖書から編んだ英語の台本により、1741年8月22日から9月14日にかけて作曲されたオラトリオ。1742年4月13日にダブリンのフィシャンブル通りの音楽堂で慈善演奏会として初演され、ロンドン初演は1743年3月23日のコヴェント・ガーデン。1750年からはファウンドリング病院で毎年演奏された。
 - [ハイドン 交響曲第94番 ト長調 Hob.I:94《驚愕》](https://veliq-academy.com/music/works/haydn-sym94/): ハイドンの第1回ロンドン訪問中の1791年に書かれた交響曲。1792年3月23日、ロンドンのハノーヴァー・スクエアで開かれたザロモン演奏会の第6回で初演された。第2楽章第16小節の全楽器のフォルティッシモの和音から、英語とフランス語で「驚愕（Surprise）」、ドイツ語で「ティンパニの一打（Paukenschlag）つき」と呼ばれる。
 - [リスト ピアノ・ソナタ ロ短調 S.178](https://veliq-academy.com/music/works/liszt-sonata/): 主な作業は1852〜53年に行われ、自筆譜の表紙に1853年2月2日の完成の日付がある単一楽章のピアノ・ソナタ。1854年4月にブライトコップフ・ウント・ヘルテルから出版されてロベルト・シューマンに献呈され、1857年1月22日にベルリンでハンス・フォン・ビューローが公開初演したとみられている。
+- [メンデルスゾーン ヴァイオリン協奏曲 ホ短調 作品64](https://veliq-academy.com/music/works/mendelssohn-vc/): 1838年7月30日のダーヴィト宛書簡で構想が伝えられ、1844年9月16日に自筆総譜が完成したヴァイオリン協奏曲。1845年3月13日にライプツィヒ・ゲヴァントハウスで、フェルディナント・ダーヴィトの独奏、ニルス・ゲーデの指揮で初演され、同年6月にブライトコップフ・ウント・ヘルテルから出版された。
+- [モーツァルト オペラ《フィガロの結婚》 K.492](https://veliq-academy.com/music/works/mozart-figaro/): ボーマルシェの喜劇をもとにダ・ポンテがイタリア語の台本を書いた4幕のオペラ・ブッファ。モーツァルトは1786年4月29日に自作目録に記入し、5月1日にウィーンのブルク劇場で初演された。1789年8月29日の再演では、スザンナ役のアリアが2曲差し替えられた。
 - [モーツァルト オペラ《魔笛》 K.620](https://veliq-academy.com/music/works/mozart-magic-flute/): シカネーダーのドイツ語台本による2幕のジングシュピール。1791年の春から夏に作曲され、序曲と〈僧侶の行進〉は初演2日前に完成した。1791年9月30日、ウィーンのアウフ・デア・ヴィーデン劇場（フライハウス劇場）でモーツァルトの指揮により初演された。
 - [モーツァルト レクイエム ニ短調 K.626](https://veliq-academy.com/music/works/mozart-requiem/): 1791年夏に匿名の依頼を受けて書き始められ、同年12月5日のモーツァルトの死で未完に終わった死者のためのミサ曲。弟子のジュースマイヤーが補筆した版が広く演奏され、補筆版の全曲初演は1793年1月2日、ウィーンのヤーン・ホールで行われた。
+- [モーツァルト 交響曲第40番 ト短調 K.550](https://veliq-academy.com/music/works/mozart-symphony-40/): 1788年夏に書かれた最後の3曲の交響曲（第39〜41番）の2曲目で、作曲者の自作目録には7月25日の日付で記入された。最初の版はクラリネットを含まず、のちにモーツァルトがクラリネットを加えオーボエのパートを書き直した第2版を作った。
+- [モーツァルト 交響曲第41番 ハ長調 K.551《ジュピター》](https://veliq-academy.com/music/works/mozart-symphony-41/): 1788年8月10日にウィーンで完成した、モーツァルトの最後の交響曲。同じ夏に書かれた第39番・第40番に続く3曲目で、終楽章のコーダでは冒頭のド・レ・ファ・ミの動機を含む5つの主題が同時に組み合わされる。「ジュピター」の名は作曲者の死後に付けられた。
 - [プッチーニ オペラ《蝶々夫人》](https://veliq-academy.com/music/works/puccini-butterfly/): ジョン・ルーサー・ロングの短編とベラスコの一幕劇に基づき、イッリカとジャコーザの台本で書かれたオペラ。1904年2月17日にミラノのスカラ座で初演されて失敗し、同年5月28日にブレシアで改訂版が上演された。その後も1905年、1906年に改訂され、1906年12月のパリ上演の形が今日の標準となっている。
 - [ラヴェル ボレロ](https://veliq-academy.com/music/works/ravel-bolero/): 舞踊家イダ・ルビンシテインの依頼で1928年7月から10月にかけて作曲されたバレエ音楽。1928年11月22日にパリ・オペラ座でワルター・ストララムの指揮、ブロニスラヴァ・ニジンスカの振付により初演された。小太鼓のリズムの上で2つの旋律が楽器を替えて繰り返される。
 - [ラヴェル バレエ音楽《ダフニスとクロエ》](https://veliq-academy.com/music/works/ravel-daphnis/): ディアギレフのバレエ・リュスの委嘱で1909年に着手し、1912年4月5日に管弦楽総譜を完成した3部からなるバレエ音楽。1912年6月8日にパリのシャトレ座でピエール・モントゥーの指揮、フォーキンの振付、ニジンスキーとカルサヴィナの主演で初演された。歌詞のない混声合唱を伴う。
@@ -140,11 +150,14 @@
 - [シェーンベルク 浄夜 作品4](https://veliq-academy.com/music/works/schoenberg-verklarte/): リヒャルト・デーメルの詩集『女と世界』（1896年）所収の同名の詩に基づく弦楽六重奏曲。1899年9月にパイヤーバッハで3週間で書かれ、最終稿の日付は1899年12月1日。1902年3月18日にウィーンでロゼー四重奏団と2人の奏者により初演された。1917年と1943年に弦楽合奏版が作られた。
 - [シューベルト ピアノ五重奏曲 イ長調 D667《ます》](https://veliq-academy.com/music/works/schubert-trout/): 1819年、上部オーストリアのシュタイアーで、チェロを弾く音楽愛好家パウムガルトナーのために書かれたとされる五重奏曲。編成はピアノ、ヴァイオリン、ヴィオラ、チェロ、コントラバスで、第4楽章は1817年の歌曲《ます》D550の旋律による変奏曲。自筆譜は失われ、作曲者の死後1829年にウィーンのヨーゼフ・チェルニーから作品番号114で出版された。
 - [シューベルト 交響曲 ロ短調 D759《未完成》](https://veliq-academy.com/music/works/schubert-unfinished/): 自筆総譜の表紙に1822年10月30日の日付がある交響曲。完成しているのは第1楽章 Allegro moderato と第2楽章 Andante con moto（ホ長調）の2楽章で、第3楽章スケルツォはピアノ・スケッチと総譜の冒頭数小節が残る。1865年12月17日にウィーンでヨハン・ヘルベックの指揮により初演され、1867年にウィーンのシュピーナから出版された。
+- [シューベルト 歌曲集《冬の旅》 作品89 D911](https://veliq-academy.com/music/works/schubert-winterreise/): ヴィルヘルム・ミュラーの詩による声とピアノのための24曲の歌曲集。第1部12曲は1827年2月、第2部12曲は同年10月までに書かれた。第1部は1828年1月14日、第2部はシューベルトの死後の1828年12月30日に、ウィーンのトビアス・ハスリンガーから作品89として出版された。
 - [シベリウス 交響詩《フィンランディア》 作品26](https://veliq-academy.com/music/works/sibelius-finlandia/): 1899年11月4日にヘルシンキのスウェーデン劇場で上演された「報道記念祭の音楽」の終曲〈フィンランドは目覚める〉を改訂した交響詩。改訂版は1900年7月2日にヘルシンキでロベルト・カヤヌスの指揮により演奏され、同年のパリ万国博覧会への演奏旅行で各地で演奏された。《フィンランディア》の題は1900年11月にアクセル・カルペランの提案で付けられた。
 - [シベリウス 交響曲第2番 ニ長調 作品43](https://veliq-academy.com/music/works/sibelius-symphony-2/): 1901年のイタリア滞在中のスケッチをもとに1901〜02年に作曲され、1902年3月8日にヘルシンキ大学の大講堂で作曲者の指揮により初演された交響曲。改訂を経て1903年9月にヘルシングフォシュ新音楽商会（ファツェル＆ヴェステルンド）から出版され、アクセル・カルペランに献呈された。
 - [シベリウス ヴァイオリン協奏曲 ニ短調 作品47](https://veliq-academy.com/music/works/sibelius-violin-concerto/): シベリウスが書いた唯一の協奏曲。1903〜04年に作曲され、1904年2月8日にヘルシンキでヴィクトル・ノヴァーチェクの独奏、作曲者の指揮により初演された。シベリウスはこの初稿を引き下げて1905年に改訂し、改訂稿は1905年10月19日にベルリンでカレル・ハリーシュの独奏、リヒャルト・シュトラウスの指揮により初演された。1905年にベルリンのリーナウ社から出版され、フランツ・フォン・ヴェチェイに献呈された。
 - [リヒャルト・シュトラウス オペラ《ばらの騎士》 作品59](https://veliq-academy.com/music/works/strauss-rosenkavalier/): ホフマンスタールの台本による3幕の「音楽のための喜劇」。1909〜1910年に作曲され、1911年1月26日にドレスデン宮廷歌劇場でエルンスト・フォン・シューフの指揮により初演された。演出はゲオルク・トラー、装置と衣裳はアルフレート・ロラー。
 - [リヒャルト・シュトラウス 交響詩《ツァラトゥストラはかく語りき》 作品30](https://veliq-academy.com/music/works/strauss-zarathustra/): ニーチェの同名の著作に「自由に基づいて」書かれた大編成の交響詩。1896年2月4日にミュンヒェンで着手され、同年8月24日に完成し、11月27日にフランクフルト・アム・マインで作曲者の指揮により初演された。同年ミュンヒェンのヨーゼフ・アイブルから出版された。
+- [ストラヴィンスキー バレエ音楽《春の祭典》](https://veliq-academy.com/music/works/stravinsky-rite-of-spring/): 1911〜13年にディアギレフのバレエ・リュスのために書かれた2部からなるバレエ音楽。副題は「異教徒のロシアの情景」。1913年5月29日、パリのシャンゼリゼ劇場でピエール・モントゥーの指揮、ニジンスキーの振付、レーリヒの美術で初演され、1914年4月にパリで演奏会形式の初演が行われた。
+- [武満徹 ノヴェンバー・ステップス](https://veliq-academy.com/music/works/takemitsu-november/): 琵琶と尺八と管弦楽のための作品。ニューヨーク・フィルハーモニックの創立125周年の委嘱で1967年に作曲され、同年11月9日にニューヨークで小澤征爾の指揮、鶴田錦史の琵琶、横山勝也の尺八により初演された。11の「段」からなり、第10段は図形記譜を含む独奏楽器のカデンツァである。
 - [チャイコフスキー 大序曲《1812年》 変ホ長調 作品49](https://veliq-academy.com/music/works/tchaikovsky-1812/): モスクワの全ロシア芸術産業博覧会のためにニコライ・ルビンシテインの依頼で1880年9月から11月にかけて作曲された演奏会用序曲。1882年5月にユルゲンソンから出版され、同年8月20日（新暦）に博覧会の会場でイッポリト・アルターニの指揮により公式に初演された。
 - [チャイコフスキー ピアノ協奏曲第1番 変ロ短調 作品23](https://veliq-academy.com/music/works/tchaikovsky-pc1/): 1874年11月から1875年2月にかけて作曲されたピアノ協奏曲。1875年10月25日にボストンのミュージック・ホールでハンス・フォン・ビューローの独奏により初演され、ビューローに献呈された。1879年と1888〜89年に改訂され、1875年にユルゲンソンから出版された。
 - [チャイコフスキー 交響曲第6番 ロ短調 作品74《悲愴》](https://veliq-academy.com/music/works/tchaikovsky-symphony-6/): 1893年2月にスケッチが始まり、同年8月に総譜が完成した交響曲。1893年10月28日（新暦）にサンクトペテルブルクのロシア音楽協会の演奏会で作曲者の指揮により初演され、作曲者はその9日後に没した。甥のウラジーミル・ダヴィドフに献呈され、1894年にユルゲンソンから総譜が出版された。
@@ -303,23 +316,23 @@
 - [平均律クラヴィーア曲集 第1巻 BWV846–869](https://veliq-academy.com/music/works/bach-wtc1/): バッハ・1722年
 - [ヴィヴァルディ ヴァイオリン協奏曲集《四季》 作品8 第1〜4番](https://veliq-academy.com/music/works/vivaldi-four-seasons/): ヴィヴァルディ・1725年
 - [ターフェルムジーク（食卓の音楽）](https://veliq-academy.com/music/works/telemann-tafelmusik/): テレマン・1733年
-- [ゴルトベルク変奏曲 BWV988](https://veliq-academy.com/music/works/bach-goldberg/): バッハ・1741年
-- [オラトリオ《メサイア》 HWV56](https://veliq-academy.com/music/works/handel-messiah/): ヘンデル・1741年
+- [バッハ ゴルトベルク変奏曲 ト長調 BWV988](https://veliq-academy.com/music/works/bach-goldberg/): バッハ・1739–1741年
+- [ヘンデル オラトリオ《メサイア》 HWV56](https://veliq-academy.com/music/works/handel-messiah/): ヘンデル・1741年
 - [ミサ曲 ロ短調 BWV232](https://veliq-academy.com/music/works/bach-mass-b/): バッハ・1749年
 - [オペラ《オルフェオとエウリディーチェ》](https://veliq-academy.com/music/works/gluck-orfeo/): グルック・1762年
+- [モーツァルト オペラ《フィガロの結婚》 K.492](https://veliq-academy.com/music/works/mozart-figaro/): モーツァルト・1785–1786年
 - [ピアノ協奏曲第21番 ハ長調 K.467](https://veliq-academy.com/music/works/mozart-pc21/): モーツァルト・1785年
-- [オペラ《フィガロの結婚》 K.492](https://veliq-academy.com/music/works/mozart-figaro/): モーツァルト・1786年
 - [セレナード第13番 ト長調 K.525《アイネ・クライネ・ナハトムジーク》](https://veliq-academy.com/music/works/mozart-eine-kleine/): モーツァルト・1787年
-- [交響曲第40番 ト短調 K.550](https://veliq-academy.com/music/works/mozart-symphony-40/): モーツァルト・1788年
-- [交響曲第41番 ハ長調 K.551《ジュピター》](https://veliq-academy.com/music/works/mozart-symphony-41/): モーツァルト・1788年
+- [モーツァルト 交響曲第40番 ト短調 K.550](https://veliq-academy.com/music/works/mozart-symphony-40/): モーツァルト・1788年
+- [モーツァルト 交響曲第41番 ハ長調 K.551《ジュピター》](https://veliq-academy.com/music/works/mozart-symphony-41/): モーツァルト・1788年
 - [ベートーヴェン ピアノ協奏曲第2番 変ロ長調 作品19](https://veliq-academy.com/music/works/beethoven-piano-concerto-2/): ベートーヴェン・1790–1801年
 - [モーツァルト レクイエム ニ短調 K.626](https://veliq-academy.com/music/works/mozart-requiem/): モーツァルト・1791年
 - [ハイドン 交響曲第94番 ト長調 Hob.I:94《驚愕》](https://veliq-academy.com/music/works/haydn-sym94/): ハイドン・1791年
 - [モーツァルト オペラ《魔笛》 K.620](https://veliq-academy.com/music/works/mozart-magic-flute/): モーツァルト・1791年
 - [ベートーヴェン ピアノ協奏曲第1番 ハ長調 作品15](https://veliq-academy.com/music/works/beethoven-piano-concerto-1/): ベートーヴェン・1793–1801年
 - [ベートーヴェン ピアノ協奏曲第3番 ハ短調 作品37](https://veliq-academy.com/music/works/beethoven-piano-concerto-3/): ベートーヴェン・1796–1804年
+- [ベートーヴェン ピアノ・ソナタ第8番 ハ短調 作品13《悲愴》](https://veliq-academy.com/music/works/beethoven-pathetique/): ベートーヴェン・1797–1798年
 - [オラトリオ《天地創造》 Hob.XXI:2](https://veliq-academy.com/music/works/haydn-creation/): ハイドン・1798年
-- [ピアノ・ソナタ第8番 ハ短調 作品13《悲愴》](https://veliq-academy.com/music/works/beethoven-pathetique/): ベートーヴェン・1798年
 - [ベートーヴェン 交響曲第1番 ハ長調 作品21](https://veliq-academy.com/music/works/beethoven-symphony-1/): ベートーヴェン・1799–1800年
 - [ベートーヴェン 交響曲第2番 ニ長調 作品36](https://veliq-academy.com/music/works/beethoven-symphony-2/): ベートーヴェン・1800–1802年
 - [ベートーヴェン ピアノ・ソナタ第14番 嬰ハ短調 作品27-2《月光》](https://veliq-academy.com/music/works/beethoven-moonlight/): ベートーヴェン・1801年
@@ -339,14 +352,14 @@
 - [ベートーヴェン 交響曲第9番 ニ短調 作品125](https://veliq-academy.com/music/works/beethoven-symphony-9/): ベートーヴェン・1822–1824年
 - [シューベルト 交響曲 ロ短調 D759《未完成》](https://veliq-academy.com/music/works/schubert-unfinished/): シューベルト・1822年
 - [序曲《真夏の夜の夢》 作品21](https://veliq-academy.com/music/works/mendelssohn-mnd/): メンデルスゾーン・1826年
-- [歌曲集《冬の旅》 D911](https://veliq-academy.com/music/works/schubert-winterreise/): シューベルト・1827年
+- [シューベルト 歌曲集《冬の旅》 作品89 D911](https://veliq-academy.com/music/works/schubert-winterreise/): シューベルト・1827年
 - [ショパン 12の練習曲 作品10](https://veliq-academy.com/music/works/chopin-etudes/): ショパン・1829–1832年
 - [ショパン 夜想曲第2番 変ホ長調 作品9-2](https://veliq-academy.com/music/works/chopin-nocturne2/): ショパン・1830–1832年
 - [ショパン ピアノ協奏曲第1番 ホ短調 作品11](https://veliq-academy.com/music/works/chopin-concerto1/): ショパン・1830年
 - [ベルリオーズ 幻想交響曲 作品14](https://veliq-academy.com/music/works/berlioz-fantastique/): ベルリオーズ・1830年
 - [ショパン バラード第1番 ト短調 作品23](https://veliq-academy.com/music/works/chopin-ballade-1/): ショパン・1831–1835年
 - [歌曲集《詩人の恋》 作品48](https://veliq-academy.com/music/works/schumann-dichterliebe/): シューマン・1840年
-- [ヴァイオリン協奏曲 ホ短調 作品64](https://veliq-academy.com/music/works/mendelssohn-vc/): メンデルスゾーン・1844年
+- [メンデルスゾーン ヴァイオリン協奏曲 ホ短調 作品64](https://veliq-academy.com/music/works/mendelssohn-vc/): メンデルスゾーン・1844年
 - [ピアノ協奏曲 イ短調 作品54](https://veliq-academy.com/music/works/schumann-pc/): シューマン・1845年
 - [ハンガリー狂詩曲第2番 嬰ハ短調 S.244/2](https://veliq-academy.com/music/works/liszt-hungarian2/): リスト・1847年
 - [リスト ピアノ・ソナタ ロ短調 S.178](https://veliq-academy.com/music/works/liszt-sonata/): リスト・1852–1853年
@@ -374,8 +387,8 @@
 - [ブラームス ヴァイオリンとチェロのための協奏曲（二重協奏曲） イ短調 作品102](https://veliq-academy.com/music/works/brahms-double-concerto/): ブラームス・1887年
 - [グリーグ 《ペール・ギュント》第1組曲 作品46](https://veliq-academy.com/music/works/grieg-peer-gynt/): グリーグ・1888年
 - [ドビュッシー 《牧神の午後への前奏曲》](https://veliq-academy.com/music/works/debussy-prelude-afternoon/): ドビュッシー・1892–1894年
+- [ドヴォルザーク 交響曲第9番 ホ短調 作品95《新世界より》](https://veliq-academy.com/music/works/dvorak-sym9/): ドヴォルザーク・1892–1893年
 - [チャイコフスキー 交響曲第6番 ロ短調 作品74《悲愴》](https://veliq-academy.com/music/works/tchaikovsky-symphony-6/): チャイコフスキー・1893年
-- [交響曲第9番 ホ短調 作品95《新世界より》](https://veliq-academy.com/music/works/dvorak-sym9/): ドヴォルザーク・1893年
 - [交響曲第2番 ハ短調《復活》](https://veliq-academy.com/music/works/mahler-symphony-2/): マーラー・1894年
 - [チェロ協奏曲 ロ短調 作品104](https://veliq-academy.com/music/works/dvorak-vc/): ドヴォルザーク・1895年
 - [オペラ《ラ・ボエーム》](https://veliq-academy.com/music/works/puccini-boheme/): プッチーニ・1895年
@@ -385,14 +398,14 @@
 - [プッチーニ オペラ《蝶々夫人》](https://veliq-academy.com/music/works/puccini-butterfly/): プッチーニ・1901–1904年
 - [シベリウス 交響曲第2番 ニ長調 作品43](https://veliq-academy.com/music/works/sibelius-symphony-2/): シベリウス・1901–1902年
 - [交響曲第5番](https://veliq-academy.com/music/works/mahler-sym5/): マーラー・1902年
+- [ドビュッシー 海 — 管弦楽のための3つの交響的素描](https://veliq-academy.com/music/works/debussy-la-mer/): ドビュッシー・1903–1905年
 - [シベリウス ヴァイオリン協奏曲 ニ短調 作品47](https://veliq-academy.com/music/works/sibelius-violin-concerto/): シベリウス・1903–1904（1905年改訂）年
 - [月の光（《ベルガマスク組曲》第3曲）](https://veliq-academy.com/music/works/debussy-clair/): ドビュッシー・1905年
-- [海 — 管弦楽のための3つの交響的素描](https://veliq-academy.com/music/works/debussy-la-mer/): ドビュッシー・1905年
 - [ラヴェル バレエ音楽《ダフニスとクロエ》](https://veliq-academy.com/music/works/ravel-daphnis/): ラヴェル・1909–1912年
 - [大地の歌](https://veliq-academy.com/music/works/mahler-das-lied/): マーラー・1909年
 - [リヒャルト・シュトラウス オペラ《ばらの騎士》 作品59](https://veliq-academy.com/music/works/strauss-rosenkavalier/): シュトラウス・1909–1910年
 - [バレエ音楽《火の鳥》](https://veliq-academy.com/music/works/stravinsky-firebird/): ストラヴィンスキー・1910年
-- [バレエ音楽《春の祭典》](https://veliq-academy.com/music/works/stravinsky-rite-of-spring/): ストラヴィンスキー・1913年
+- [ストラヴィンスキー バレエ音楽《春の祭典》](https://veliq-academy.com/music/works/stravinsky-rite-of-spring/): ストラヴィンスキー・1911–1913年
 - [ピアノ協奏曲第3番 ハ長調 作品26](https://veliq-academy.com/music/works/prokofiev-pc3/): プロコフィエフ・1921年
 - [ラヴェル ボレロ](https://veliq-academy.com/music/works/ravel-bolero/): ラヴェル・1928年
 - [弦楽器、打楽器とチェレスタのための音楽 Sz.106](https://veliq-academy.com/music/works/bartok-strings/): バルトーク・1936年
@@ -403,7 +416,7 @@
 - [弦楽四重奏曲第8番 ハ短調 作品110](https://veliq-academy.com/music/works/shostakovich-sq8/): ショスタコーヴィチ・1960年
 - [広島の犠牲者に捧げる哀歌](https://veliq-academy.com/music/works/penderecki-threnody/): ペンデレツキ・1960年
 - [アトモスフェール](https://veliq-academy.com/music/works/ligeti-atmospheres/): リゲティ・1961年
-- [ノヴェンバー・ステップス](https://veliq-academy.com/music/works/takemitsu-november/): 武満徹・1967年
+- [武満徹 ノヴェンバー・ステップス](https://veliq-academy.com/music/works/takemitsu-november/): 武満徹・1967年
 - [タブラ・ラサ](https://veliq-academy.com/music/works/part-tabula/): ペルト・1977年
 - [鳥は星形の庭に降りる](https://veliq-academy.com/music/works/takemitsu-flock/): 武満徹・1977年
 - [鏡の中の鏡](https://veliq-academy.com/music/works/part-spiegel/): ペルト・1978年

@@ -1,0 +1,122 @@
+---
+title: ドヴォルザーク 交響曲第9番 ホ短調 作品95《新世界より》
+slug: dvorak-sym9
+section: works
+summary: ドヴォルザークがニューヨークのナショナル音楽院の院長を務めていた1892年12月にスケッチを始め、1893年5月24日に総譜を完成した交響曲。1893年12月15日の公開総稽古と16日の演奏会で、ザイドル指揮ニューヨーク・フィルハーモニック協会により初演され、1894年にベルリンのジムロックから「第5番」として出版された。
+composer: dvorak
+year: 1892-1893
+key: ホ短調
+catalog: Op.95（B.178）
+scoring: 2fl（1はpicc持ち替え）, 2ob（1はEh持ち替え）, 2cl, 2fg, 4hr, 2tp, 3tb, tuba, timp, trg, cymb, 弦五部
+duration: 約40分
+updated: 2026-11-07
+sources:
+  - "Steven Ledbetter, „Dvořák: Symphony No. 9 in E minor, Opus 95, From the New World“, Aspen Music Festival and School, program notes（スケッチの日付、1893年5月24日の総譜、1893年5月21日のヘラルド紙のインタビュー、書簡の引用、初演、編成、演奏時間、ホルンの動機、各楽章の主題と楽器、《ハイアワサ》、ベッカーマンの説、ハーバートの証言、コヴァジークの証言）. https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world（閲覧日 2026-11-07）"
+  - "Carnegie Hall, „Carnegie Hall Premieres: Dvořák’s Symphony No. 9“, 2020-09-21（サーバー夫人、東17丁目327番地、12月15日の公開演奏と16日の初演、2階席10番ボックス、イヴニング・ポスト紙の評、バーリー、引用はないとの作曲者の言、〈家路〉と大統領の葬儀）. https://carnegiehall.org/Explore/Articles/2020/09/21/Carnegie-Hall-Premieres-Dvoraks-New-World-Symphony（閲覧日 2026-11-07）"
+  - "YourClassical, Composers Datebook, „Dvořák’s toy story“（12月15日午後の公開総稽古、翌晩の公式の初演、息子オタカルと汽船の模型）. https://yourclassical.org/episode/2016/12/15/dvo%C5%99%C3%A1ks-toy-story（閲覧日 2026-11-07）"
+  - "The Morgan Library & Museum, 目録「Program for the first performance of Antonín Dvořák’s Symphony no. 5 [i.e. 9]…16 December 1893」（初演の演奏会の他の曲目、マルトー）. https://themorgan.org/node/1285921（閲覧日 2026-11-07）"
+  - "Schubertiade Music & Arts, 古書目録 11939「Aus der neuen Welt. Z nového sveta. Symphonie (N. 5, E moll.) … Op. 95. Partitur」（初版総譜の題、ベルリンのジムロック、1894年、Burghauser 178）. https://www.schubertiademusic.com/items/details/11939（閲覧日 2026-11-07）"
+  - "IMSLP「Symphony No.9, Op.95 (Dvořák, Antonín)」（作曲期間 1893年1月10日〜5月24日、楽章の表示、ジムロック初版の版番号10139、シュウレク校訂の批判版1955年、リーデル校訂ブライトコップフ版1990年）. https://s10.imslp.org/wiki/Symphony_No.9,_Op.95_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)（閲覧日 2026-11-07）"
+  - "Jean-Pascal Vachon, 解説, BIS-1856（クラウス・ペーター・フロール指揮マレーシア・フィル、2009年8月録音。楽章の表示と演奏時間、第2楽章を作曲者が「スケッチまたは習作」と呼んだこと、終楽章での主題の回想）. https://stor.imslp.org/naxos/booklets/booklet-BIS-1856.pdf（閲覧日 2026-11-07）"
+  - "Dayton Performing Arts Alliance, Max Derrickson, program note（楽章の表示、第3楽章トリオのトライアングル、副題は作曲者自身が付けたこと）. https://daytonperformingarts.org/program-note-dvoraks-symphony-no-9-from-the-new-world/（閲覧日 2026-11-07）"
+  - "Birmingham Hippodrome Symphony Orchestra（BHSO）, „Dvorak: Symphony no 9 New World“（第2楽章中間部の楽器、終楽章のシンバル1打）. https://www.bhso.org.uk/work/dvorak-symphony-no-9-new-world-3/（閲覧日 2026-11-07）"
+  - "„Dvořák Symphony No 9: a guide to the best recordings“, Gramophone, 2021-05-23（クーベリック、ケルテス、P.ヤルヴィ、I.フィッシャー、オルソップ、アーノンクール、アンチェルの録音）. https://gramophone.co.uk/feature/dvorak-symphony-no-9-best-recordings（閲覧日 2026-11-07）"
+---
+
+> 要点
+> - ニューヨークのナショナル音楽院の院長だった1892年12月にスケッチを始め、**1893年5月24日**に総譜を完成した。住まいはマンハッタンの東17丁目327番地であった。
+> - **1893年12月15日**午後の公開総稽古と**16日**の演奏会で、カーネギー・ホールにおいて**ザイドル指揮ニューヨーク・フィルハーモニック協会**が初演した。
+> - 1894年にベルリンのジムロックから「交響曲第5番」として出版された。今日は第9番と数える。
+> - 第1楽章のホルンの動機が全楽章に現れ、終楽章では前の3つの楽章の主題が組み合わされる。
+
+## 成立
+
+### ニューヨークの音楽院
+
+ドヴォルザーク（Antonín Dvořák）は1892年秋から、ニューヨークのナショナル音楽院（National Conservatory of Music of America）で院長と作曲の教授を務めた。招いたのは音楽院の会長ジャネット・サーバー（Jeannette Thurber）で、アメリカ独自の芸術音楽の様式をつくる手助けを求め、高い報酬を払った。住まいは音楽院から歩いて4分のマンハッタン東17丁目327番地で、家賃は月80ドルであった。スタインウェイ社がピアノを無償で届けた。[（Carnegie Hall）](https://carnegiehall.org/Explore/Articles/2020/09/21/Carnegie-Hall-Premieres-Dvoraks-New-World-Symphony)
+
+ドヴォルザークはモラヴィアの友人に宛てて、アメリカの人々が自分を「音楽の救い主」のように見ていると書き、プラハの友人には、アメリカ人は新しい独立した芸術の「約束の地」を示すことを自分に期待していると書いた。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)
+
+### スケッチと完成
+
+スティーヴン・レッドベター（Steven Ledbetter）によれば、ドヴォルザークは1892年の最後の2週間に主題のスケッチを始めた。12月19日にアメリカで最初の独自のスケッチを書き、翌日、第2楽章の旋律となる楽想を2ページ目に書き留めた。1893年1月10日に新しいページで第1楽章の連続したスケッチに取りかかり、総譜の日付は1893年5月24日である。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)IMSLP の作品頁は作曲期間を1893年1月10日〜5月24日と記す。[（IMSLP）](https://s10.imslp.org/wiki/Symphony_No.9,_Op.95_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn))総譜の完成後、ドヴォルザークは夏をアイオワ州スピルヴィルで過ごした。[（BIS 解説）](https://stor.imslp.org/naxos/booklets/booklet-BIS-1856.pdf)
+
+作曲中の1893年5月21日、ニューヨーク・ヘラルド紙のインタビューで、ドヴォルザークは「この国の音楽の将来は、いわゆる黒人の旋律の上に築かれねばならない」と述べた。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)
+
+### 初演
+
+初演は1893年12月15日午後、カーネギー・ホールでの公開の総稽古で、アントン・ザイドル（Anton Seidl）がニューヨーク・フィルハーモニック協会を指揮した。翌16日の夜が公式の初演である。[（YourClassical）](https://yourclassical.org/episode/2016/12/15/dvo%C5%99%C3%A1ks-toy-story)15日には雨の中、ホールの外に列ができた。ドヴォルザークは16日の演奏を2階席の10番ボックスで聴いた。[（Carnegie Hall）](https://carnegiehall.org/Explore/Articles/2020/09/21/Carnegie-Hall-Premieres-Dvoraks-New-World-Symphony)
+
+16日の演奏会でザイドルは、メンデルスゾーンの《夏の夜の夢》からスケルツォと夜想曲、アンリ・マルトー（Henri Marteau）の独奏でブラームスのヴァイオリン協奏曲を指揮した。[（The Morgan Library & Museum）](https://themorgan.org/node/1285921)
+
+ニューヨーク・イヴニング・ポスト紙は「聴いた者は誰も、これがこの国で作曲された最も偉大な交響的作品であることを否定できない」と書いた。[（Carnegie Hall）](https://carnegiehall.org/Explore/Articles/2020/09/21/Carnegie-Hall-Premieres-Dvoraks-New-World-Symphony)
+
+初演の数週間前、ドヴォルザークはニューヨークのカフェでザイドルと会って総譜を確かめた。同行した8歳の息子オタカルは、玩具店で見た汽船「マジェスティック号」の模型（45ドル）を父にねだって断られた。初演の後、ザイドルが代金の半分を払うと申し出て、ドヴォルザークは模型を買った。オタカルは後年これを回想している。[（YourClassical）](https://yourclassical.org/episode/2016/12/15/dvo%C5%99%C3%A1ks-toy-story)
+
+### 出版
+
+総譜の初版は1894年、ベルリンのジムロック（N. Simrock）から出た。題は「Aus der neuen Welt. "Z nového světa." Symphonie (N. 5, E moll.) für grosses Orchester. Op. 95.」で、ドイツ語とチェコ語の題が並ぶ。[（Schubertiade Music & Arts）](https://www.schubertiademusic.com/items/details/11939)版番号は10139である。[（IMSLP）](https://s10.imslp.org/wiki/Symphony_No.9,_Op.95_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn))ブルクハウザー（Jarmil Burghauser）の作品目録では B.178 にあたる。[（Schubertiade Music & Arts）](https://www.schubertiademusic.com/items/details/11939)
+
+## 編成と演奏時間
+
+フルート2（1人はピッコロ持ち替え）、オーボエ2（1人はイングリッシュ・ホルン持ち替え）、クラリネット2、ファゴット2、ホルン4、トランペット2、トロンボーン3、チューバ、ティンパニ、シンバル、弦五部。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)パート譜にはこのほかトライアングルがあり[（IMSLP）](https://s10.imslp.org/wiki/Symphony_No.9,_Op.95_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn))、第3楽章のトリオで使われる。[（Dayton Performing Arts Alliance）](https://daytonperformingarts.org/program-note-dvoraks-symphony-no-9-from-the-new-world/)
+
+演奏時間は約40分。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)フロール指揮マレーシア・フィルの録音（2009年）では、第1楽章11分39秒、第2楽章11分55秒、第3楽章7分29秒、第4楽章11分22秒である。[（BIS 解説）](https://stor.imslp.org/naxos/booklets/booklet-BIS-1856.pdf)
+
+## 楽章ごとの聴きどころ
+
+### 第1楽章 Adagio – Allegro molto
+
+ホ短調。遅い序奏が主要主題を予告する。Allegro に入ると、弦のトレモロの上でホルンが弱音でシンコペーションのファンファーレを吹く。この動機はこの後の楽章にも繰り返し現れ、全曲を統一する。続いてフルートとクラリネットが、持続音の上で音域の狭い主題をト短調で出す。その後、独奏フルートが低音域で新しい主題をト長調で吹く。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)
+
+レッドベターは、この主題が霊歌を無意識に思い起こさせるものかもしれないとし、その最初の4音が後で再び現れると指摘している。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)カーネギー・ホールの解説は、第1楽章に黒人霊歌〈スウィング・ロウ、スウィート・チャリオット〉が現れるとする。[（Carnegie Hall）](https://carnegiehall.org/Explore/Articles/2020/09/21/Carnegie-Hall-Premieres-Dvoraks-New-World-Symphony)ヴァション（Jean-Pascal Vachon）も、後の主題にこの霊歌の反響を聞く人がいるとし、おそらく無意識のものとする。[（BIS 解説）](https://stor.imslp.org/naxos/booklets/booklet-BIS-1856.pdf)
+
+### 第2楽章 Largo
+
+変ニ長調。金管と低音の木管による7つの和音の進行が、ホ短調から変ニ長調へ転じて楽章を導く。続いてイングリッシュ・ホルンが主旋律を吹く。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)この旋律は民謡ではなく、ドヴォルザーク自身の作である。[（BIS 解説）](https://stor.imslp.org/naxos/booklets/booklet-BIS-1856.pdf)中間部では、フルートとオーボエの3音の音型と、弦のピッツィカートの上の木管の旋律が現れる。[（BHSO）](https://www.bhso.org.uk/work/dvorak-symphony-no-9-new-world-3/)楽章の終わりでは、冒頭の和音進行が転調せずに戻って楽章を閉じる。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)
+
+ドヴォルザークはこの楽章を、後に書くはずのカンタータまたはオペラのための「スケッチまたは習作」と呼んだ。その作品は計画の段階を越えなかった。[（BIS 解説）](https://stor.imslp.org/naxos/booklets/booklet-BIS-1856.pdf)レッドベターによれば、この楽章はロングフェローの『ハイアワサの歌』でミネハハが森で葬られる場面から着想された。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)
+
+### 第3楽章 Scherzo. Molto vivace – Poco sostenuto
+
+冒頭の部分は、チェコの舞曲フリアントに似たリズムの交替をもつ。ほかの楽想はワルツである。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)序奏はベートーヴェンの交響曲第9番を参照している。[（BIS 解説）](https://stor.imslp.org/naxos/booklets/booklet-BIS-1856.pdf)トリオではトライアングルが加わる。[（Dayton Performing Arts Alliance）](https://daytonperformingarts.org/program-note-dvoraks-symphony-no-9-from-the-new-world/)
+
+この楽章は『ハイアワサの歌』で、ハイアワサの婚礼の宴でパウ＝プク＝キーウィスが踊る場面を参照している。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)
+
+### 第4楽章 Allegro con fuoco
+
+ソナタ形式。弦の2音の動機で始まる。[（Dayton Performing Arts Alliance）](https://daytonperformingarts.org/program-note-dvoraks-symphony-no-9-from-the-new-world/)終盤では前の3つの楽章の要素が対位法的に組み合わされて戻り、第2楽章冒頭の和音進行が、荒れる弦の上で金管と木管によりフォルティッシモで奏される。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)ヴァションは、前の楽章の主題がまず順に、次に重ねて現れると説明している。[（BIS 解説）](https://stor.imslp.org/naxos/booklets/booklet-BIS-1856.pdf)シンバルはこの楽章で1回だけ打たれる。[（BHSO）](https://www.bhso.org.uk/work/dvorak-symphony-no-9-new-world-3/)
+
+## 演奏史と解釈
+
+### 版
+
+ジムロックの初版（1894年）のほか、オタカル・シュウレク（Otakar Šourek）校訂の批判版（プラハ、1955年。ドヴォルザーク全集の一冊）と、クリスティアン・ルドルフ・リーデル（Christian Rudolf Riedel）校訂のブライトコップフ・ウント・ヘルテル版（1990年）がある。[（IMSLP）](https://s10.imslp.org/wiki/Symphony_No.9,_Op.95_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn))
+
+### 番号
+
+ジムロックの初版の題では「第5番」（N. 5）であった。今日は第9番と数えるのが普通である。[（Schubertiade Music & Arts）](https://www.schubertiademusic.com/items/details/11939)
+
+### 〈家路〉
+
+ドヴォルザークの弟子ウィリアム・アームズ・フィッシャー（William Arms Fisher）は、第2楽章を霊歌風の歌曲〈家路〉（Goin' Home）に作り変えた。第2楽章はフランクリン・ルーズヴェルトとジェラルド・フォードの両大統領の葬儀で演奏された。[（Carnegie Hall）](https://carnegiehall.org/Explore/Articles/2020/09/21/Carnegie-Hall-Premieres-Dvoraks-New-World-Symphony)
+
+### 代表的な録音
+
+グラモフォン誌（2021年）は次の録音を挙げている。[（Gramophone）](https://gramophone.co.uk/feature/dvorak-symphony-no-9-best-recordings)
+
+- ラファエル・クーベリック（Rafael Kubelík）指揮ベルリン・フィルハーモニー管弦楽団（DG）。
+- イシュトヴァン・ケルテス（István Kertész）指揮ロンドン交響楽団（デッカ）。1960年代半ばに録音した交響曲全集の一部で、1992年にデジタル・リマスターで再発された。
+- カレル・アンチェル（Karel Ančerl）指揮チェコ・フィルハーモニー管弦楽団（スプラフォン）。
+- ニコラウス・アーノンクール（Nikolaus Harnoncourt）指揮ロイヤル・コンセルトヘボウ管弦楽団（テルデック）。交響詩《水の精》と組み合わせ。
+- イヴァン・フィッシャー（Iván Fischer）指揮ブダペスト祝祭管弦楽団（チャンネル・クラシックス）。第8番と組み合わせ。
+- パーヴォ・ヤルヴィ（Paavo Järvi）指揮シンシナティ交響楽団（テラーク）。マルティヌーの交響曲第2番と組み合わせ。
+- マリン・オルソップ（Marin Alsop）指揮ボルティモア交響楽団（ナクソス）。《交響的変奏曲》と組み合わせ。
+
+## もっと深く
+
+- **アメリカの旋律の扱い**：ドヴォルザークは初演前のインタビューで、伝承の旋律の「字句ではなく精神」を求め、それを近代のリズム、対位法、管弦楽の色彩によって展開したと述べた。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)一方で、この交響曲に黒人の旋律をそのまま引用した箇所はないと述べている。[（Carnegie Hall）](https://carnegiehall.org/Explore/Articles/2020/09/21/Carnegie-Hall-Premieres-Dvoraks-New-World-Symphony)チェコの友人には、「アメリカを見ていなければ、この交響曲をこのようには書かなかった」と書いた。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)
+- **バーリーの関与**：音楽院の学生ハリー・T・バーリー（Harry T. Burleigh）は、元奴隷であった祖父から習った歌をドヴォルザークに歌って聞かせた。[（Carnegie Hall）](https://carnegiehall.org/Explore/Articles/2020/09/21/Carnegie-Hall-Premieres-Dvoraks-New-World-Symphony)音楽院で教えていたチェロ奏者ヴィクター・ハーバート（Victor Herbert）は、バーリーがいくつかの旋律をドヴォルザークに渡したと回想し、「否定されているのを見たが、本当だ」と述べた。ボストン交響楽団のプログラムは、素材が南部の農園の黒人の旋律からなると書いた。レッドベターは、こうした説明が年を経て誇張されていったと指摘している。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)
+- **『ハイアワサの歌』**：ドヴォルザークは渡米前にロングフェローの詩をチェコ語訳で知っていた。サーバー夫人はこの詩を新しいオペラの題材に勧めた。[（BIS 解説）](https://stor.imslp.org/naxos/booklets/booklet-BIS-1856.pdf)オペラは実現しなかった。マイケル・ベッカーマン（Michael Beckerman）は、ハイアワサとパウ＝プク＝キーウィスの戦いの詩句を、終楽章冒頭のリズムに合わせて読めることを示し、作曲中にこの詩が念頭にあったと論じている。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)
+- **副題**：「新世界より」（Z nového světa）の副題は作曲者自身が付けた。[（Dayton Performing Arts Alliance）](https://daytonperformingarts.org/program-note-dvoraks-symphony-no-9-from-the-new-world/)助手のコヴァジーク（Josef Jan Kovařík）は、この題は「新世界からの印象と挨拶」以上の意味をもたないと、作曲者が何度も説明したと伝えている。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/dvoak-symphony-no.-9-in-e-minor-opus-95-from-the-new-world)
+- **初演の日付**：12月15日は公開の総稽古、16日が公式の演奏会である。15日を初演とする資料（Aspen、YourClassical）と、16日とする資料（Carnegie Hall、The Morgan の目録、Schubertiade の目録）がある。
