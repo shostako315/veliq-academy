@@ -9021,5 +9021,512 @@
       "spanish",
       "ballets-russes"
     ]
+  },
+  {
+    "id": "copland-appalachian-spring",
+    "composerId": "copland",
+    "title": "アパラチアの春",
+    "titleEn": "Appalachian Spring",
+    "year": "1943-1944",
+    "genre": "orchestral",
+    "subgenre": "ballet",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 24,
+    "difficulty": 1,
+    "shortDescription": "エリザベス・スプレイグ・クーリッジの委嘱でマーサ・グラハムのために書かれた1幕のバレエ。1944年10月30日に議会図書館クーリッジ・オーディトリアムで13の楽器の編成により初演され、1945年に管弦楽のための組曲が作られた。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1部（序奏）",
+        "tempo": "Very slowly",
+        "key": "",
+        "duration": null,
+        "description": "序奏。遅く始まる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2部",
+        "tempo": "Fast",
+        "key": "",
+        "duration": null,
+        "description": "弦のユニゾンに導かれてアレグロに入る。",
+        "highlights": [
+          "弦のユニゾン"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3部（開拓者の夫婦の二重奏）",
+        "tempo": "Moderate",
+        "key": "",
+        "duration": null,
+        "description": "開拓者の夫婦の二重奏。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4部（説教師と信者たちの踊り）",
+        "tempo": "Quite fast",
+        "key": "",
+        "duration": null,
+        "description": "信仰復興運動の説教師と信者たちの踊りで、フィドルの音楽を思わせる速い舞曲。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第5部（花嫁の踊り）",
+        "tempo": "Still faster",
+        "key": "",
+        "duration": null,
+        "description": "花嫁の踊り。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "第6部（経過部）",
+        "tempo": "Very slowly (as at first)",
+        "key": "",
+        "duration": null,
+        "description": "経過部で、冒頭の音楽が戻る。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "第7部（シェーカーの旋律による変奏）",
+        "tempo": "Calm and flowing",
+        "key": "",
+        "duration": null,
+        "description": "シェーカーの旋律《シンプル・ギフツ》による5つの変奏。主題は独奏クラリネットが奏でる。",
+        "highlights": [
+          "独奏クラリネットの《シンプル・ギフツ》",
+          "5つの変奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "第8部（コーダ）",
+        "tempo": "Moderate",
+        "key": "",
+        "duration": null,
+        "description": "夫婦が新しい家に2人で残る場面で、冒頭の音楽が戻る。",
+        "highlights": [
+          "終わり近くの misterioso"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1942年、エリザベス・スプレイグ・クーリッジがマーサ・グラハムのためのバレエをコープランドに委嘱した。コープランドは1943年6月にハリウッドで作曲を始め、約1年後にケンブリッジで書き終えた。仮題は「マーサのためのバレエ」で、題名はグラハムがハート・クレインの詩から取った。初演は1944年10月30日、議会図書館クーリッジ・オーディトリアムで、クーリッジの80歳の誕生日に、ルイス・ホーストの指揮とグラハム、エリック・ホーキンズ、マース・カニングハムらの踊りで行われた。1945年に管弦楽のための組曲が作られて10月4日にロジンスキ指揮ニューヨーク・フィルハーモニックが初演し、同年ピュリッツァー賞を受けた。",
+    "musicalAnalysis": "原典はフルート、クラリネット、ファゴット、ピアノと9人の弦の13の楽器のために書かれた。組曲はバレエの14の場面を8つの部分にまとめ、切れ目なく演奏する。第7部はシェーカーの旋律《シンプル・ギフツ》による5つの変奏で、主題は独奏クラリネットが奏でる。終わりの部分では冒頭の音楽が戻る。",
+    "listeningGuide": {
+      "totalTime": "24分",
+      "recommendedVersion": "レナード・バーンスタイン指揮 ニューヨーク・フィルハーモニック（Sony Classical 63082）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "stravinsky",
+      "tchaikovsky",
+      "bernstein"
+    ],
+    "tags": [
+      "orchestral",
+      "ballet",
+      "american",
+      "famous"
+    ]
+  },
+  {
+    "id": "machaut-messe",
+    "composerId": "machaut",
+    "title": "《ノートルダム・ミサ》",
+    "titleEn": "Messe de Nostre Dame",
+    "year": "1360-1365",
+    "genre": "choral",
+    "subgenre": "mass",
+    "era": "ancient",
+    "key": "",
+    "opus": "",
+    "duration": 29,
+    "difficulty": 2,
+    "shortDescription": "ランス大聖堂の土曜日の聖母のミサのために書かれた4声のミサ曲。ミサ通常文の全体を一人の作曲家が多声で作曲した、現存する最初の例とされる。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Kyrie",
+        "tempo": "",
+        "key": "",
+        "duration": 7,
+        "description": "キリエ第4番《Cunctipotens genitor》を定旋律とする。モテットの書き方で、4声部が同じ歌詞を歌う。",
+        "highlights": [
+          "テノールとコントラテノールの短いリズム型の繰り返し"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Gloria",
+        "tempo": "",
+        "key": "",
+        "duration": 5,
+        "description": "聖歌の定旋律を持たず、全声部が似たリズムで進む。",
+        "highlights": [
+          "最後のアーメンの長い旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Credo",
+        "tempo": "",
+        "key": "",
+        "duration": 7,
+        "description": "グローリアと同じ書き方で、最後に長いアーメンを置く。",
+        "highlights": [
+          "受肉の句で全声部が1音節ずつ延ばす"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Sanctus",
+        "tempo": "",
+        "key": "",
+        "duration": 5,
+        "description": "ヴァティカン版第17番のサンクトゥスを定旋律とするイソリズム・モテットの書き方。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Agnus Dei",
+        "tempo": "",
+        "key": "",
+        "duration": 3,
+        "description": "ヴァティカン版第17番のアニュス・デイを定旋律とする。",
+        "highlights": [
+          "第2アニュス・デイのテノールとコントラテノールの短いリズム型"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Ite missa est",
+        "tempo": "",
+        "key": "",
+        "duration": 2,
+        "description": "閉祭の句と答え「デオ・グラティアス」。サンクトゥス第8番を定旋律とする。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "作曲年は記録に無く、資料により1360年頃、1364年頃、1365年以前とされる。1364年5月19日のシャルル5世の戴冠式のために書かれたという説には裏付けが無い。ランス大聖堂の礼拝堂では1341年から土曜日ごとに聖母のミサが行われ、マショーと兄弟ジャンの寄進で司祭と歌手に報酬が払われ、多声の通常文が歌われた。兄弟の没後（ジャン1372年、ギヨーム1377年）は二人の記念のミサとなり、記録は15世紀初めまで残る。日付の無い5つの写本で伝わる。",
+    "musicalAnalysis": "4声で、テノールと同じ低い音域にコントラテノールを加えている。キリエ、サンクトゥス、アニュス・デイ、イテ・ミサ・エストは聖歌を定旋律とするイソリズム・モテットの書き方、グローリアとクレドは定旋律を持たず全声部が似たリズムで進む書き方で、長いアーメンで終わる。クレドの受肉の句では全声部が1音節ずつ長く延ばす。",
+    "listeningGuide": {
+      "totalTime": "約30分",
+      "recommendedVersion": "アンドルー・パロット指揮 タヴァナー・コンソート（リフレクス）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "choral",
+      "medieval",
+      "mass",
+      "religious",
+      "ars-nova"
+    ]
+  },
+  {
+    "id": "orff-carmina-burana",
+    "composerId": "orff",
+    "title": "《カルミナ・ブラーナ》",
+    "titleEn": "Carmina Burana",
+    "year": "1935-1936",
+    "genre": "choral",
+    "subgenre": "scenic cantata",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 65,
+    "difficulty": 1,
+    "shortDescription": "13世紀の写本「ブラーナ写本」の詩による、独唱・合唱・管弦楽のための舞台カンタータ。1937年6月8日にフランクフルト・アム・マインの歌劇場で舞台上演で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "運命の女神、世界の支配者（Fortuna imperatrix mundi）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第1曲〈おお、運命の女神よ〉と第2曲〈運命の女神の痛手を〉。合唱。第1曲は全曲の最後に第25曲として戻る。",
+        "highlights": [
+          "おお、運命の女神よ（O Fortuna）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第1部 初春に（Primo vere）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第3〜5曲。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "草の上で（Uf dem anger）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第6〜10曲。第1部の後半で、第6曲〈踊り〉、第7曲〈森は花咲き〉、3つの部分からなる第9曲〈円舞〉を含む。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第2部 酒場にて（In taberna）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第11〜14曲。男声だけで歌われる。バリトンの独唱で始まり、第12曲〈昔は湖に住んでいた〉ではテノールと男声合唱が焼かれる白鳥を歌う。",
+        "highlights": [
+          "昔は湖に住んでいた（Olim lacus colueram）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第3部 愛の宮廷（Cour d'amours）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第15〜23曲。ソプラノが初めて歌い、児童合唱が加わる。",
+        "highlights": [
+          "天秤にかけて（In trutina）",
+          "いとしい人よ（Dulcissime）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "ブランツィフロールとヘレナ（Blanziflor et Helena）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第24曲〈最も美しい人よ、ようこそ〉。合唱。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "運命の女神、世界の支配者（Fortuna imperatrix mundi）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第25曲。第1曲〈おお、運命の女神よ〉が戻って全曲を閉じる。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "歌詞は、1230年頃に書かれ1803年にベネディクトボイエルン修道院からミュンヘンに移された写本（バイエルン州立図書館 clm 4660）の詩で、1847年にシュメラーが刊行した版による。オルフは1934年にこの詞華集を知り、同年4月からバンベルクの文書館員ミヒェル・ホフマンと歌詞の選択を進めた。1937年6月8日、フランクフルト・アム・マインの歌劇場でベルティル・ヴェッツェルスベルガーの指揮、オスカー・ヴェルターリンの演出で初演された。初演後、オルフはそれ以前の作品の大部分を撤回した。のちに《カトゥリ・カルミナ》《アフロディテの勝利》と三部作《トリオンフィ》をなし、1953年にミラノ・スカラ座で3作がまとめて上演された。",
+    "musicalAnalysis": "〈運命の女神、世界の支配者〉が始めと終わりに置かれ、〈初春に〉〈酒場にて〉〈愛の宮廷〉の3部をはさむ全25曲からなる。歌詞はラテン語、中高ドイツ語、古フランス語が混じる。〈酒場にて〉は男声だけで歌われ、ソプラノは〈愛の宮廷〉で初めて歌う。管弦楽はフルート・オーボエ・クラリネット各3を含む管楽器に、多数の打楽器、チェレスタ、ピアノ2台を加える。",
+    "listeningGuide": {
+      "totalTime": "65分",
+      "recommendedVersion": "オイゲン・ヨッフム指揮 ベルリン・ドイツ・オペラ管弦楽団・合唱団、ヤノヴィッツ、シュトルツェ、フィッシャー＝ディースカウ（1967年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "stravinsky"
+    ],
+    "tags": [
+      "choral",
+      "cantata",
+      "german",
+      "medieval-texts",
+      "famous"
+    ]
+  },
+  {
+    "id": "poulenc-gloria",
+    "composerId": "poulenc",
+    "title": "グローリア",
+    "titleEn": "Gloria",
+    "year": "1959-1960",
+    "genre": "choral",
+    "subgenre": "sacred",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 28,
+    "difficulty": 2,
+    "shortDescription": "クーセヴィツキー音楽財団の委嘱で1959〜60年に作曲された、ソプラノ独唱、混声合唱と管弦楽のための6曲からなる作品。1961年1月20日にミュンシュ指揮ボストン交響楽団が初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Gloria",
+        "tempo": "",
+        "key": "",
+        "duration": 3,
+        "description": "合唱が「Gloria in excelsis Deo」を歌う。アクセントのある音節が裏拍に置かれ、シンコペーションの効果が生まれる。",
+        "highlights": [
+          "裏拍に置かれた言葉のアクセント"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Laudamus te",
+        "tempo": "",
+        "key": "",
+        "duration": 3,
+        "description": "弦楽器が絶えず裏拍を刻む。初演当時、不敬だと批判された曲で、作曲者はゴッツォリのフレスコ画の舌を出す天使と、サッカーをするベネディクト会士を思い浮かべていたと語った。",
+        "highlights": [
+          "弦の裏拍",
+          "ゴッツォリとベネディクト会士についての作曲者の言葉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Domine Deus",
+        "tempo": "",
+        "key": "",
+        "duration": 5,
+        "description": "ソプラノ独唱が「Domine Deus, Rex coelestis」を歌う。",
+        "highlights": [
+          "ソプラノ独唱"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Domine Fili unigenite",
+        "tempo": "",
+        "key": "",
+        "duration": 1,
+        "description": "6曲の中で最も短い。きわめて活発に、喜ばしくと指示されている。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Domine Deus, Agnus Dei",
+        "tempo": "",
+        "key": "",
+        "duration": 7,
+        "description": "第3曲とともに神秘的な性格をもつ曲とされる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Qui sedes ad dexteram Patris",
+        "tempo": "",
+        "key": "",
+        "duration": 7,
+        "description": "6曲の中で最も長い。最後の部分には「Extraordinairement calme」と記されている。",
+        "highlights": [
+          "結びの Extraordinairement calme"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ボストンのクーセヴィツキー音楽財団の委嘱による。財団ははじめ交響曲、次にオルガン協奏曲を求めたが、プーランクは《グローリア》を書き、セルゲイとナタリー・クーセヴィツキーに献呈した。1961年1月20日にシャルル・ミュンシュ指揮ボストン交響楽団、ソプラノのアデル・アディソン、コーラス・プロ・ムジカが初演し、作曲者も臨席した。ヨーロッパ初演は1961年2月14日にパリで行われた。出版はパリのサラベール社による。",
+    "musicalAnalysis": "ミサ通常文の〈グローリア〉の典礼文を6曲に分ける。第2曲と第4曲は律動が活発で、第3曲と第5曲は神秘的な性格をもつ。第1曲では言葉のアクセントのある音節が裏拍に置かれ、第2曲では弦が絶えず裏拍を刻む。編成は3管編成にハープとテューバを加え、ソプラノ独唱と混声合唱を伴う。",
+    "listeningGuide": {
+      "totalTime": "約26〜28分",
+      "recommendedVersion": "ジョルジュ・プレートル指揮 フランス国立放送管弦楽団・合唱団、ロザンナ・カルテリ（EMI、作曲者の監修による最初の録音）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "vivaldi"
+    ],
+    "tags": [
+      "choral",
+      "sacred",
+      "modern",
+      "french",
+      "latin"
+    ]
+  },
+  {
+    "id": "villa-lobos-bachianas-5",
+    "composerId": "villa-lobos",
+    "title": "《ブラジル風バッハ》第5番",
+    "titleEn": "Bachianas Brasileiras No. 5",
+    "year": "1938-1945",
+    "genre": "vocal",
+    "subgenre": "soprano and cello ensemble",
+    "era": "modern",
+    "key": "",
+    "opus": "W389",
+    "duration": 11,
+    "difficulty": 1,
+    "shortDescription": "ソプラノとチェロ8部のための2楽章の作品。〈アリア（カンティレーナ）〉は1938年に書かれて1939年3月25日にリオデジャネイロで初演され、〈踊り（マルテロ）〉は1945年に加えられた。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "アリア（カンティレーナ）",
+        "tempo": "Adagio",
+        "key": "",
+        "duration": null,
+        "description": "ソプラノが言葉のない旋律を歌い、チェロの一部がピッツィカートでリズムを刻む。中間部でルート・ヴァラダレス・コヘアの詩による夕べの月の歌が歌われ、言葉のない旋律が戻る。",
+        "highlights": [
+          "ギターを思わせるチェロのピッツィカート",
+          "月をたたえる中間部"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "踊り（マルテロ）",
+        "tempo": "Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "1945年に加えられた楽章。マヌエル・バンデイラの詩で、ソプラノがブラジルの森の鳥に呼びかけ、速い音節の歌唱と高音が続く。",
+        "highlights": [
+          "ブラジルの鳥の名",
+          "速い音節の歌唱"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ヴィラ＝ロボスは1930年から1945年にかけて、バッハ風の対位法をブラジルの主題に用いる《ブラジル風バッハ》9曲を書いた。第5番の〈アリア〉は1938年に書かれ、1939年3月25日にリオデジャネイロで、詩を書いたソプラノのルート・ヴァラダレス・コヘアと8人のチェロ奏者により初演された。第2楽章〈踊り〉は1945年に加えられ、詩はマヌエル・バンデイラによる。作品はアルミンダ・ネヴェス・ダルメイダ（ミンジーニャ）に献呈された。作曲者は1947年に声とギターのための版も作った。",
+    "musicalAnalysis": "編成はソプラノとチェロ8部で、他の弦楽器を含まない。〈アリア〉はソプラノの言葉のない旋律、ピッツィカートのチェロ、旋律に寄り添うチェロで始まり、詩の歌われる中間部を経て言葉のない旋律に戻る。〈踊り〉は速度を上げ、ブラジルの森の鳥を歌う。",
+    "listeningGuide": {
+      "totalTime": "約11分",
+      "recommendedVersion": "ビクトリア・デ・ロス・アンヘレス、フランス国立放送管弦楽団のチェロ奏者、ヴィラ＝ロボス指揮（1957年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "bach-js",
+      "rachmaninoff"
+    ],
+    "tags": [
+      "vocal",
+      "modern",
+      "brazilian",
+      "cello",
+      "soprano"
+    ]
   }
 ]
