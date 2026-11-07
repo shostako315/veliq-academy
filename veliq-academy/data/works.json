@@ -9646,5 +9646,248 @@
       "silence",
       "american"
     ]
+  },
+  {
+    "id": "adams-short-ride",
+    "composerId": "adams",
+    "title": "ショート・ライド・イン・ア・ファスト・マシーン",
+    "titleEn": "Short Ride in a Fast Machine",
+    "year": "1986",
+    "genre": "orchestral",
+    "subgenre": "fanfare",
+    "era": "contemporary",
+    "key": "",
+    "opus": "",
+    "duration": 4,
+    "difficulty": 1,
+    "shortDescription": "マイケル・ティルソン・トーマスの委嘱で1986年に書かれた管弦楽のためのファンファーレ。1986年6月13日、マサチューセッツ州マンスフィールドでティルソン・トーマス指揮ピッツバーグ交響楽団が初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "ショート・ライド・イン・ア・ファスト・マシーン",
+        "tempo": "Delirando",
+        "key": "",
+        "duration": 4,
+        "description": "ウッドブロックが強奏で4分音符を刻み続け、4本のトランペットが加わり、クラリネットとシンセサイザーが8分音符を重ねる。管弦楽の他の楽器が別の周期の拍をぶつけ、終わりまで終止は現れない。",
+        "highlights": [
+          "ウッドブロックの4分音符",
+          "トランペットの4分音符",
+          "中間部の後の金管のファンファーレ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1986年、マイケル・ティルソン・トーマスが、マサチューセッツ州で新しく始まるグレート・ウッズ音楽祭の開幕でピッツバーグ交響楽団が演奏する曲として委嘱した。アダムズはケープ・コッドでランボルギーニに乗せられて速く走った記憶を発想の元にした。初演は1986年6月13日、マンスフィールドで、ティルソン・トーマス指揮ピッツバーグ交響楽団により行われた。楽譜はブージー・アンド・ホークスから出ている。",
+    "musicalAnalysis": "冒頭に「デリランド」の表示があり、ウッドブロックが強奏で4分音符の拍を刻み続ける。4本のトランペットがその拍に加わり、クラリネットとシンセサイザーが8分音符を受け持ち、管弦楽の他の楽器が別の周期の拍を重ねる。くり返し、一定の拍、協和音を中心とする和声を用い、終わりまで終止は現れない。",
+    "listeningGuide": {
+      "totalTime": "4分",
+      "recommendedVersion": "エド・デ・ワールト指揮 サンフランシスコ交響楽団（Nonesuch）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "copland"
+    ],
+    "tags": [
+      "orchestral",
+      "american",
+      "fanfare",
+      "minimalism",
+      "contemporary"
+    ]
+  },
+  {
+    "id": "boulez-marteau",
+    "composerId": "boulez",
+    "title": "ル・マルトー・サン・メートル（主なき槌）",
+    "titleEn": "Le Marteau sans maître",
+    "year": "1953-1955",
+    "genre": "chamber",
+    "subgenre": "voice and ensemble",
+    "era": "contemporary",
+    "key": "",
+    "opus": "",
+    "duration": 35,
+    "difficulty": 3,
+    "shortDescription": "ルネ・シャールの詩による、アルトと6人の器楽奏者のための9曲からなる作品。1955年6月18日にバーデン＝バーデンの ISCM 音楽祭でハンス・ロスバウトの指揮により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Avant « L'Artisanat furieux »",
+        "tempo": "",
+        "key": "",
+        "duration": 2,
+        "description": "器楽曲。第3曲〈怒り狂う職人〉の前奏にあたる。",
+        "highlights": [
+          "第3曲の前奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Commentaire I de « Bourreaux de solitude »",
+        "tempo": "",
+        "key": "",
+        "duration": 5,
+        "description": "器楽曲。第6曲〈孤独の死刑執行人〉への3つの注釈の1つ目。",
+        "highlights": [
+          "注釈の1つ目"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "« L'Artisanat furieux »",
+        "tempo": "",
+        "key": "",
+        "duration": 3,
+        "description": "声を含む最初の曲。",
+        "highlights": [
+          "最初の声楽曲"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Commentaire II de « Bourreaux de solitude »",
+        "tempo": "",
+        "key": "",
+        "duration": 4,
+        "description": "器楽曲。〈孤独の死刑執行人〉への注釈の2つ目。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "« Bel édifice et les pressentiments » version première",
+        "tempo": "",
+        "key": "",
+        "duration": 4,
+        "description": "声を含む曲。同じ詩による第9曲と対照的に書かれている。",
+        "highlights": [
+          "第9曲との対比"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "« Bourreaux de solitude »",
+        "tempo": "",
+        "key": "",
+        "duration": 5,
+        "description": "声を含む曲。6人の器楽奏者全員が演奏する2曲のうちの1つ目。",
+        "highlights": [
+          "全員による演奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "Après « L'Artisanat furieux »",
+        "tempo": "",
+        "key": "",
+        "duration": 1,
+        "description": "器楽曲。9曲のうち最も短く、第3曲の後奏にあたる。",
+        "highlights": [
+          "第3曲の後奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "Commentaire III de « Bourreaux de solitude »",
+        "tempo": "",
+        "key": "",
+        "duration": 6,
+        "description": "器楽曲。〈孤独の死刑執行人〉への注釈の3つ目。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "« Bel édifice et les pressentiments » double",
+        "tempo": "",
+        "key": "",
+        "duration": 8,
+        "description": "声を含む最後の曲。初演の延期の間に加えられ、全員が演奏する。ブーレーズはそれまでの曲の迷路に対する「解決」あるいは鍵と述べた。",
+        "highlights": [
+          "全員による演奏",
+          "延期の間に加えられた曲"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1953〜55年に書かれ、1954年のドナウエッシンゲン音楽祭で初演される予定だったが、ギター奏者の病気で延期された。その間にブーレーズは改訂を続け、第9曲を加えた。1955年6月18日、バーデン＝バーデンの国際現代音楽協会（ISCM）音楽祭で、南西ドイツ放送交響楽団のメンバーにより、ハンス・ロスバウトの指揮、アルトのシビラ・プラーテの独唱で初演された。総譜はロスバウトに献呈され、ユニヴァーサル・エディションから出版された。1957年3月にはロサンゼルスでブーレーズの指揮によりアメリカ初演された。",
+    "musicalAnalysis": "シャールの3つの詩にそれぞれの循環を与え、声を含む4曲と器楽だけの5曲を入り組ませて並べる。器楽曲は第3曲の前奏と後奏、第6曲への3つの注釈である。編成はアルト独唱とアルト・フルート、シロリンバ、ヴィブラフォン、打楽器、ギター、ヴィオラで、曲ごとに組み合わせが変わり、全員がそろうのは第6曲と第9曲だけである。声部は通常の歌唱、口を閉じて歌う効果、シュプレッヒシュティンメの拡張を用いる。",
+    "listeningGuide": {
+      "totalTime": "約35分",
+      "recommendedVersion": "ピエール・ブーレーズ指揮 アンサンブル・アンテルコンタンポラン、ヒラリー・サマーズ（ドイツ・グラモフォン、2005年発売）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "schoenberg",
+      "stravinsky"
+    ],
+    "tags": [
+      "contemporary",
+      "serialism",
+      "chamber",
+      "vocal",
+      "french"
+    ]
+  },
+  {
+    "id": "stockhausen-gruppen",
+    "composerId": "stockhausen",
+    "title": "3群の管弦楽のための《グルッペン》",
+    "titleEn": "Gruppen for Three Orchestras",
+    "year": "1955-1957",
+    "genre": "orchestral",
+    "subgenre": "three orchestras",
+    "era": "contemporary",
+    "key": "",
+    "opus": "Op.6",
+    "duration": 24,
+    "difficulty": 3,
+    "shortDescription": "1955〜57年に書かれた、109人の奏者と3人の指揮者のための管弦楽曲。3群の管弦楽が聴衆の前方・左・右に置かれ、多くの部分で異なるテンポを同時に奏する。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "グルッペン",
+        "tempo": "",
+        "key": "",
+        "duration": 24,
+        "description": "楽章に分かれず続けて演奏される。3群の管弦楽はそれぞれ指揮者をもち、結びついては離れ、加速と減速、強まりと弱まりを繰り返す。テンポは四分音符＝60から120までを等しい段階に分けた音階から選ばれる。",
+        "highlights": [
+          "3群が異なるテンポで同時に進む部分",
+          "前方・左・右から届く音",
+          "ピアノ、エレキギター、12人の打楽器"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "シュトックハウゼンは1955年から1957年にかけてこの曲を書いた。ベルリン芸術祭の解説によれば、スイスの村で書かれ、総譜の最後の音の下に「Deo gratias」と書き込まれている。初演は1958年3月24日、ケルンでケルン放送交響楽団により行われ、ピエール・ブーレーズ、ブルーノ・マデルナ、シュトックハウゼンの3人が指揮した。楽譜はウニヴェルザール出版社から出版された。",
+    "musicalAnalysis": "109人の奏者が37人・36人・36人の3つの管弦楽に分かれ、各群に4人の打楽器奏者が置かれる。3群は聴衆の前方・左・右に置かれ、作品の多くの部分で異なるテンポを同時に奏する。シュトックハウゼン財団の編成表は、四分音符＝60から120までを等しい段階に分けたテンポの音階を示している。",
+    "listeningGuide": {
+      "totalTime": "約24分",
+      "recommendedVersion": "WDR交響楽団ケルン、アルトゥーロ・タマーヨ、ペーテル・エトヴェシュ、ジャック・メルシエ指揮（1997年録音、BMC）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "messiaen",
+      "webern"
+    ],
+    "tags": [
+      "orchestral",
+      "contemporary",
+      "spatial",
+      "serialism",
+      "german"
+    ]
   }
 ]
