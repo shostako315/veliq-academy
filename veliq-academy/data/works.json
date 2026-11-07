@@ -1580,7 +1580,7 @@
     "genre": "choral",
     "era": "classical",
     "opus": "Hob. XXI:2",
-    "duration": 100,
+    "duration": 105,
     "difficulty": 2,
     "shortDescription": "旧約聖書の創世記とミルトン「失楽園」に基づく台本によるオラトリオ。1798年にウィーンで初演された。",
     "movements": [
@@ -1738,15 +1738,45 @@
       {
         "number": 1,
         "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 18,
+        "tempo": "Allegro",
+        "key": "G-major",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "tempo": "Romanze: Andante",
+        "key": "C-major",
+        "duration": null
+      },
+      {
+        "number": 3,
+        "title": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "tempo": "Menuetto: Allegretto",
+        "key": "G-major",
+        "duration": null
+      },
+      {
+        "number": 4,
+        "title": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "tempo": "Rondo: Allegro",
+        "key": "G-major",
+        "duration": null
       }
     ],
-    "historicalBackground": "モーツァルトの自作目録に「小さな夜の音楽」として1787年8月10日付で記載されている。目録では5楽章とされているが、第2楽章にあたるメヌエットとトリオは失われ、4楽章で伝わっている。作曲の目的や初演の記録はない。出版はモーツァルトの死後の1827年頃である。",
+    "historicalBackground": "モーツァルトの自作目録に「小さな夜の音楽」として1787年8月10日付で記載されている。目録では5楽章とされているが、第2楽章にあたるメヌエットとトリオは失われ、4楽章で伝わっている。作曲の目的や初演の記録はない。出版はモーツァルトの死後の1825年である。",
     "musicalAnalysis": "現在の4楽章は、ソナタ形式のAllegro、ロマンツェ（Andante）、メヌエット、ロンド（Allegro）である。",
     "listeningGuide": {
       "totalTime": "18分",
@@ -1812,16 +1842,16 @@
     "era": "classical",
     "key": "C-major",
     "opus": "K. 467",
-    "duration": 28,
+    "duration": 29,
     "difficulty": 1,
     "shortDescription": "1785年3月9日に完成し、翌日ウィーンでモーツァルト自身の独奏で初演されたピアノ協奏曲。第2楽章は1967年のスウェーデン映画「みじかくも美しく燃え」で使われた。",
     "movements": [
       {
         "number": 1,
         "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 28,
+        "tempo": "Allegro maestoso",
+        "key": "C-major",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
