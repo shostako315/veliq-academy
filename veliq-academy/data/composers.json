@@ -2633,5 +2633,47 @@
     ],
     "youtubeIds": [],
     "spotifyArtistId": null
+  },
+  {
+    "id": "smetana",
+    "name": "ベドルジハ・スメタナ",
+    "nameEn": "Bedrich Smetana",
+    "born": 1824,
+    "died": 1884,
+    "birthplace": "リトミシュル（オーストリア帝国）",
+    "nationality": "Czech",
+    "era": "romantic",
+    "portrait": null,
+    "thumbnail": null,
+    "shortBio": "ボヘミア（現チェコ）の作曲家・ピアニスト・指揮者。1866年からプラハの仮劇場の指揮者を務め、オペラ《売られた花嫁》と連作交響詩《わが祖国》を書いた。",
+    "longBio": "1824年、リトミシュルの城の醸造所の醸造人の子として生まれた。1843年からプラハでプロクシュに理論を学び、1844年から1847年までトゥーン伯家の音楽教師を務めた。1848年にプラハでピアノ学校を開き、リストは作品1の献呈を受けて出版社を探した。1856年から1861年までスウェーデンのイェーテボリで活動し、交響詩《リチャード3世》などを書いた。1866年にプラハの仮劇場の指揮者となり、同年《ボヘミアのブランデンブルク人》と《売られた花嫁》を初演した。1874年秋に聴力を完全に失い、指揮者を辞めた。1875年からヤプケニツェで暮らし、《わが祖国》、弦楽四重奏曲第1番《わが生涯より》、オペラ《口づけ》《秘密》《悪魔の壁》を書いた。《リブシェ》は1881年6月11日、国民劇場の開場に合わせて初演された。1884年5月12日、プラハで没し、ヴィシェフラド墓地に葬られた。",
+    "style": [
+      "オペラ",
+      "交響詩",
+      "ピアノ曲",
+      "室内楽"
+    ],
+    "keyWorks": [
+      "smetana-ma-vlast"
+    ],
+    "influencedBy": [
+      "liszt"
+    ],
+    "influenced": [
+      "dvorak"
+    ],
+    "teachers": [],
+    "students": [],
+    "historicalContext": "romantic",
+    "difficulty": 2,
+    "tags": [
+      "romantic",
+      "opera",
+      "symphonic-poem",
+      "czech",
+      "nationalism"
+    ],
+    "youtubeIds": [],
+    "spotifyArtistId": null
   }
 ]
