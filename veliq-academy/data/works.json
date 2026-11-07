@@ -4830,7 +4830,7 @@
     "composerId": "messiaen",
     "title": "トゥーランガリーラ交響曲",
     "titleEn": "Turangalîla-Symphonie",
-    "year": 1948,
+    "year": "1946-1948",
     "genre": "symphony",
     "era": "contemporary",
     "duration": 80,
@@ -4840,12 +4840,102 @@
       {
         "number": 1,
         "title": "",
-        "tempo": "",
+        "tempo": "Modéré, un peu vif",
         "key": "",
-        "duration": 80,
+        "duration": 7,
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "title": "",
+        "tempo": "Modéré, lourd",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 2,
+        "duration": 8
+      },
+      {
+        "title": "",
+        "tempo": "Presque lent, rêveur",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 3,
+        "duration": 5
+      },
+      {
+        "title": "",
+        "tempo": "Bien modéré",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 4,
+        "duration": 10
+      },
+      {
+        "title": "",
+        "tempo": "Vif, passionné avec joie",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 5,
+        "duration": 6
+      },
+      {
+        "title": "",
+        "tempo": "Très modéré, très tendre",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 6,
+        "duration": 10
+      },
+      {
+        "title": "",
+        "tempo": "Un peu vif, bien modéré",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 7,
+        "duration": 4
+      },
+      {
+        "title": "",
+        "tempo": "Bien modéré",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 8,
+        "duration": 12
+      },
+      {
+        "title": "",
+        "tempo": "Bien modéré",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 9,
+        "duration": 6
+      },
+      {
+        "title": "",
+        "tempo": "Modéré, presque vif, avec une grande joie",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 10,
+        "duration": 8
       }
     ],
     "historicalBackground": "クーセヴィツキー財団の委嘱で1946年から1948年にかけて作曲された。1949年12月2日、ボストンでレナード・バーンスタインの指揮、ボストン交響楽団により初演された。ピアノはイヴォンヌ・ロリオ（Yvonne Loriod）、オンド・マルトノはジネット・マルトノ（Ginette Martenot）が弾いた。題名はサンスクリット語の2つの語を組み合わせたもの。",
@@ -4868,7 +4958,7 @@
     "composerId": "messiaen",
     "title": "世の終わりのための四重奏曲",
     "titleEn": "Quatuor pour la fin du temps",
-    "year": 1941,
+    "year": "1940-1941",
     "genre": "chamber",
     "era": "contemporary",
     "duration": 50,
@@ -4880,10 +4970,80 @@
         "title": "",
         "tempo": "",
         "key": "",
-        "duration": 50,
+        "duration": 3,
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 2,
+        "duration": 5
+      },
+      {
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 3,
+        "duration": 8
+      },
+      {
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 4,
+        "duration": 2
+      },
+      {
+        "title": "",
+        "tempo": "Infiniment lent, extatique",
+        "key": "E-major",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 5,
+        "duration": 9
+      },
+      {
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 6,
+        "duration": 6
+      },
+      {
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 7,
+        "duration": 7
+      },
+      {
+        "title": "",
+        "tempo": "Extrêmement lent et tendre, extatique",
+        "key": "E-major",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 8,
+        "duration": 11
       }
     ],
     "historicalBackground": "1940年にドイツ軍の捕虜となったメシアンは、ゲルリッツの捕虜収容所第8A（シュタラークVIII-A）で、収容所にいたクラリネット、ヴァイオリン、チェロの奏者と自身のピアノのためにこの曲を書いた。1941年1月15日、収容所内で捕虜と看守を前に初演された。",
