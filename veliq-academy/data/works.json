@@ -10434,5 +10434,83 @@
       "polystylism",
       "violin"
     ]
+  },
+  {
+    "id": "gorecki-symphony-3",
+    "composerId": "gorecki",
+    "title": "交響曲第3番 作品36《悲歌のシンフォニー》",
+    "titleEn": "Symphony No. 3, Op. 36 \"Symphony of Sorrowful Songs\"",
+    "year": "1976",
+    "genre": "symphony",
+    "subgenre": "symphony with soprano",
+    "era": "contemporary",
+    "key": "",
+    "opus": "Op.36",
+    "duration": 54,
+    "difficulty": 2,
+    "shortDescription": "南西ドイツ放送の委嘱で1976年10月30日から12月30日にカトヴィツェで書かれた、ソプラノと管弦楽のための3楽章の交響曲。1977年4月4日にロワイヤンで、ヴォイトヴィチ独唱、ブール指揮南西ドイツ放送交響楽団により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1楽章 Lento – Sostenuto tranquillo ma cantabile",
+        "tempo": "Lento – Sostenuto tranquillo ma cantabile",
+        "key": "",
+        "duration": 27,
+        "description": "弦楽器による10声の厳格なカノンで始まり、主題はスキェルコフスキが集めたクルピエ地方の歌の断片から取られている。ソプラノが15世紀の《聖十字架の哀歌》を歌い、頂点の Doloroso でフリギア旋法に移る。",
+        "highlights": [
+          "10声の弦のカノン",
+          "Dolcissimo のソプラノの入り",
+          "《聖十字架の哀歌》"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2楽章 Lento e Largo – Tranquillissimo",
+        "tempo": "Lento e Largo – Tranquillissimo",
+        "key": "",
+        "duration": null,
+        "description": "最も短い楽章で、ABABC の形をとる。1944年にザコパネの監獄の壁に18歳のヘレナ・ヴァンダ・ブワジュシャクヴナが書き付けた祈りを、ポーランド語のアヴェ・マリアの冒頭とともに歌う。",
+        "highlights": [
+          "アヴェ・マリア冒頭を1音で歌う",
+          "ザコパネの監獄の書き付け"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3楽章 Lento – Cantabile semplice",
+        "tempo": "Lento – Cantabile semplice",
+        "key": "",
+        "duration": null,
+        "description": "ディガチが集めたオポーレ地方の民謡の旋律による変奏で、蜂起で息子を失った母の嘆きを歌う。少しずつ音量を増し、イ長調の和音で終わる。",
+        "highlights": [
+          "オポーレ地方の民謡",
+          "ショパンのマズルカ作品17-4の和音",
+          "イ長調の終止"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "バーデン＝バーデンの南西ドイツ放送の委嘱で、1976年10月30日から12月30日にかけてカトヴィツェで書かれ、作曲者の妻に献呈された。初演は1977年4月4日、ロワイヤンの第14回国際現代芸術祭で、ステファニア・ヴォイトヴィチ独唱、エルネスト・ブール指揮南西ドイツ放送交響楽団により行われ、聴衆の反応は分かれた。ポーランド初演は同年9月25日、第21回ワルシャワの秋の閉幕演奏会で、アンジェイ・マルコフスキが指揮した。1992年4月24日にノンサッチから出たドーン・アップショウ、デイヴィッド・ジンマン指揮ロンドン・シンフォニエッタの録音は、全英ポップ・チャートで6位に入り、販売数は100万枚を超えた。",
+    "musicalAnalysis": "3つの楽章はいずれも Lento で始まる遅い楽章で、それぞれソプラノが聖歌、戦時中の書き付け、民謡の詞を歌う。第1楽章は10声の弦のカノンで、エオリア旋法の主題からフリギア旋法へ移る。第2楽章は ABABC の形をとり、第3楽章は民謡の旋律による変奏でイ長調の和音で終わる。オーボエ、トランペット、打楽器を使わない。",
+    "listeningGuide": {
+      "totalTime": "約54分",
+      "recommendedVersion": "ドーン・アップショウ、デイヴィッド・ジンマン指揮ロンドン・シンフォニエッタ（Nonesuch, 1992）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "chopin",
+      "beethoven"
+    ],
+    "tags": [
+      "symphony",
+      "soprano",
+      "contemporary",
+      "polish",
+      "vocal"
+    ]
   }
 ]

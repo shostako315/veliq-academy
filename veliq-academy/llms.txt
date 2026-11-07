@@ -517,6 +517,7 @@
 - [カールハインツ・シュトックハウゼン](https://veliq-academy.com/music/composers/stockhausen/): 1928–2007
 - [武満徹](https://veliq-academy.com/music/composers/takemitsu/): 1930–1996
 - [クシシュトフ・ペンデレツキ](https://veliq-academy.com/music/composers/penderecki/): 1933–2020
+- [ヘンリク・グレツキ](https://veliq-academy.com/music/composers/gorecki/): 1933–2010
 - [アルフレート・シュニトケ](https://veliq-academy.com/music/composers/schnittke/): 1934–1998
 - [アルヴォ・ペルト](https://veliq-academy.com/music/composers/part/): 1935–
 - [スティーヴ・ライヒ](https://veliq-academy.com/music/composers/reich/): 1936–
@@ -682,7 +683,7 @@
 - [武満徹 ノヴェンバー・ステップス](https://veliq-academy.com/music/works/takemitsu-november/): 武満徹・1967年
 - [ライヒ 《18人の音楽家のための音楽》](https://veliq-academy.com/music/works/reich-music-for-18/): ライヒ・1974–1976年
 - [グラス オペラ《浜辺のアインシュタイン》](https://veliq-academy.com/music/works/glass-einstein/): グラス・1976年
-- [グレツキ 交響曲第3番 作品36《悲歌のシンフォニー》](https://veliq-academy.com/music/works/gorecki-symphony-3/): ・1976年
+- [グレツキ 交響曲第3番 作品36《悲歌のシンフォニー》](https://veliq-academy.com/music/works/gorecki-symphony-3/): グレツキ・1976年
 - [ペルト タブラ・ラサ](https://veliq-academy.com/music/works/part-tabula/): ペルト・1977年
 - [武満徹 鳥は星形の庭に降りる](https://veliq-academy.com/music/works/takemitsu-flock/): 武満徹・1977年
 - [シュニトケ 合奏協奏曲第1番](https://veliq-academy.com/music/works/schnittke-concerto-grosso-1/): シュニトケ・1977年
