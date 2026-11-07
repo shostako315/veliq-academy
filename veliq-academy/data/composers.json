@@ -4602,7 +4602,9 @@
       "民謡",
       "宗教合唱"
     ],
-    "keyWorks": [],
+    "keyWorks": [
+      "gorecki-symphony-3"
+    ],
     "influencedBy": [
       "webern",
       "messiaen"
