@@ -21,7 +21,6 @@ sources:
   - "Edward Lein, program notes「Sergei Prokofiev: Romeo and Juliet」（組曲第1番1936年11月24日モスクワ、第3番1946年3月8日モスクワ、作品75 1937年、ボリショイ1946年、騎士たちの踊りのテナー・サクソフォーン、メヌエット、ティボルトの死の15の和音）. https://sites.google.com/site/edwardlein/Home/program-notes/sergei-prokofiev/romeo-and-juliet（閲覧日 2026-11-07）"
   - "„PROKOFIEV Romeo and Juliet“（Ashkenazy, Sydney Symphony）, Gramophone（ロジェストヴェンスキー盤、マゼール1973年盤、ゲルギエフ盤、ヴィオラ・ダモーレ、バルコニーの場の室内オルガン、各曲の演奏時間）. https://gramophone.co.uk/review/prokofiev-romeo-and-juliet（閲覧日 2026-11-07）"
   - "Matthew Rye, review「Prokofiev: Romeo and Juliet」, BBC Music Magazine, 2012（マゼール指揮クリーヴランド管弦楽団、1973年、Decca 452 970-2）. https://www.classical-music.com/reissues/prokofiev-21（閲覧日 2026-11-07）"
-  - "Classical Candor, review「Prokofiev: Romeo and Juliet, complete」, 2012（プレヴィン指揮ロンドン交響楽団、EMI、マゼール盤と同じ1973年）. https://classicalcandor.blogspot.com/2012/04/prokofiev-romeo-and-juliet-complete-cd.html（閲覧日 2026-11-07）"
 ---
 
 > 要点
@@ -127,9 +126,8 @@ LA フィルの作品頁は、全曲を9場に分けて次のように示して�
 
 - ゲンナジー・ロジェストヴェンスキー（Gennady Rozhdestvensky）指揮。グラモフォン誌は先駆的な録音としている。[（Gramophone）](https://gramophone.co.uk/review/prokofiev-romeo-and-juliet)
 - ロリン・マゼール（Lorin Maazel）指揮クリーヴランド管弦楽団（1973年、デッカ）。[（BBC Music Magazine）](https://www.classical-music.com/reissues/prokofiev-21)
-- アンドレ・プレヴィン（André Previn）指揮ロンドン交響楽団（1973年、EMI）。[（Classical Candor）](https://classicalcandor.blogspot.com/2012/04/prokofiev-romeo-and-juliet-complete-cd.html)
-- ヴァレリー・ゲルギエフ指揮キーロフ劇場管弦楽団（フィリップス）[（Classical Candor）](https://classicalcandor.blogspot.com/2012/04/prokofiev-romeo-and-juliet-complete-cd.html)、同指揮ロンドン交響楽団（LSO Live）。[（Gramophone）](https://gramophone.co.uk/review/prokofiev-romeo-and-juliet)
-- ウラディーミル・アシュケナージ指揮ロイヤル・フィルハーモニー管弦楽団（デッカ）[（Classical Candor）](https://classicalcandor.blogspot.com/2012/04/prokofiev-romeo-and-juliet-complete-cd.html)、同指揮シドニー交響楽団（Roniro）。[（Gramophone）](https://gramophone.co.uk/review/prokofiev-romeo-and-juliet)
+- ヴァレリー・ゲルギエフ指揮ロンドン交響楽団（LSO Live）。[（Gramophone）](https://gramophone.co.uk/review/prokofiev-romeo-and-juliet)
+- ウラディーミル・アシュケナージ指揮シドニー交響楽団（Roniro）。[（Gramophone）](https://gramophone.co.uk/review/prokofiev-romeo-and-juliet)
 
 グラモフォン誌の評では、〈騎士たちの踊り〉の演奏時間がアシュケナージ（シドニー交響楽団）で5分51秒、ゲルギエフ（LSO Live）で5分11秒、〈ジュリエットの葬式〉がそれぞれ7分14秒と5分44秒である。[（Gramophone）](https://gramophone.co.uk/review/prokofiev-romeo-and-juliet)
 

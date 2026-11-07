@@ -62,3 +62,5 @@
 ## データの訂正
 - works.json の duration 50（および movements[0].duration、listeningGuide.totalTime）は全曲の演奏時間ではない。全曲は約130〜150分（corrections/prokofiev-romeo.json）。
 - year 1936 → 1935-1936（記事の前付けもこれに合わせた）。
+
+※ Classical Candor（レビューのブログ）に拠る録音の記載は外した（2026-11-07）。

@@ -4527,11 +4527,11 @@
     "composerId": "prokofiev",
     "title": "バレエ音楽《ロメオとジュリエット》 作品64",
     "titleEn": "Romeo and Juliet",
-    "year": 1936,
+    "year": "1935-1936",
     "genre": "orchestral",
     "era": "modern",
     "opus": "Op. 64",
-    "duration": 50,
+    "duration": 150,
     "difficulty": 2,
     "shortDescription": "シェイクスピアの戯曲による4幕のバレエ。1935年から1936年にかけて作曲され、1938年にブルノで初演された。「モンタギュー家とキャピュレット家」（騎士たちの踊り）を含む。",
     "movements": [
@@ -4540,7 +4540,7 @@
         "title": "",
         "tempo": "",
         "key": "",
-        "duration": 50,
+        "duration": 150,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -4549,7 +4549,7 @@
     "historicalBackground": "レニングラードのキーロフ劇場（のちにモスクワのボリショイ劇場）の依頼で1935年に作曲されたが、ソ連での上演は延期された。1938年12月30日にチェコスロヴァキアのブルノで初演され、ソ連初演は1940年1月11日、レニングラードのキーロフ劇場でラヴロフスキーの振付による。プロコフィエフは曲から3つの管弦楽組曲と10曲のピアノ曲を編んだ。",
     "musicalAnalysis": "第1幕の舞踏会の場面の「騎士たちの踊り」は、管弦楽組曲では「モンタギュー家とキャピュレット家」として演奏される。",
     "listeningGuide": {
-      "totalTime": "50分",
+      "totalTime": "約2時間10分〜2時間30分",
       "recommendedVersion": "",
       "youtubeId": null,
       "checkpoints": []
@@ -4580,9 +4580,9 @@
       {
         "number": 1,
         "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 45,
+        "tempo": "Moderato",
+        "key": "d-minor",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -4602,7 +4602,7 @@
         "title": "Largo",
         "tempo": "Largo",
         "key": "f#-minor",
-        "duration": null,
+        "duration": 13,
         "description": "",
         "highlights": [],
         "youtubeId": null
