@@ -5621,5 +5621,118 @@
       "religious",
       "mass"
     ]
+  },
+  {
+    "id": "smetana-ma-vlast",
+    "composerId": "smetana",
+    "title": "連作交響詩《わが祖国》",
+    "titleEn": "Má vlast (My Country), cycle of six symphonic poems",
+    "year": "1872-1879",
+    "genre": "orchestral",
+    "subgenre": "tone poem",
+    "era": "romantic",
+    "key": "",
+    "opus": "JB 1.112",
+    "duration": 75,
+    "difficulty": 2,
+    "shortDescription": "《ヴィシェフラド》《ヴルタヴァ》《シャールカ》《ボヘミアの牧場と森から》《ターボル》《ブラニーク》の6曲からなる交響詩の連作。全6曲は1882年11月5日にプラハで初めて通して演奏された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "ヴィシェフラド（Vyšehrad）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "プラハの南端の城塞ヴィシェフラドを題材とする。2台のハープが作曲者の頭文字（B–Es）で始まる主題を奏して始まる。",
+        "highlights": [
+          "2台のハープによる開始",
+          "オペラ《リブシェ》から取られた動機"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "ヴルタヴァ（Vltava）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "2つの源流の合流から、森と狩り、村の婚礼、夜の水の精、聖ヨハネの急流を経てプラハに至る川の流れをたどる。",
+        "highlights": [
+          "2つの源流の合流",
+          "《ヴィシェフラド》の主題の回帰"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "シャールカ（Šárka）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "伝説「乙女戦争」の女戦士シャールカがツチラトの兵を罠にかけて殺す筋を描く。",
+        "highlights": [
+          "酔った男たちのポルカ",
+          "激しい終結"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "ボヘミアの牧場と森から（Z českých luhů a hájů）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "1875年にヤプケニツェで作曲された。チェコの田園とそこに暮らす人々を題材とする。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "ターボル（Tábor）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "フス派が建設した南ボヘミアの町ターボルを題材とし、フス派の讃歌を主題に用いる。",
+        "highlights": [
+          "フス派の讃歌「汝ら神の戦士たちよ」"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "ブラニーク（Blaník）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "聖ヴァーツラフの騎士たちが眠るブラニーク山の伝説を題材とする。《ターボル》を結んだ動機で始まり、終わりでフス派の讃歌が《ヴィシェフラド》の動機と組み合わされる。",
+        "highlights": [
+          "羊飼いの笛",
+          "讃歌と《ヴィシェフラド》の動機の結合"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "スメタナは1872年11月に第1曲《ヴィシェフラド》に着手し、1874年11月18日に完成させた。その約1か月前に聴力を完全に失っていた。後半の4曲はヤプケニツェで書かれ、1879年3月9日に《ブラニーク》が完成した。各曲は1875〜80年にプラハで個別に初演され、全6曲は1882年11月5日にジョフィーンでアドルフ・チェフの指揮により初めて通して演奏された。献呈先はプラハ王立市である。",
+    "musicalAnalysis": "6曲はそれぞれ独立した交響詩で、形式の設計はリストの交響詩に基づく。《ヴィシェフラド》の主題は《ヴルタヴァ》と《ブラニーク》で再び現れる。《ターボル》と《ブラニーク》はフス派の讃歌を共有し、《ブラニーク》の終わりで讃歌と《ヴィシェフラド》の動機が組み合わされる。",
+    "listeningGuide": {
+      "totalTime": "75分",
+      "recommendedVersion": "カレル・アンチェル指揮 チェコ・フィルハーモニー管弦楽団（1963年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "dvorak-sym9"
+    ],
+    "relatedComposers": [
+      "liszt",
+      "dvorak"
+    ],
+    "tags": [
+      "orchestral",
+      "symphonic-poem",
+      "romantic",
+      "czech",
+      "nationalism"
+    ]
   }
 ]
