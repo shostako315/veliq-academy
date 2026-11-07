@@ -4061,9 +4061,9 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
+        "title": "月の光",
+        "tempo": "Andante très expressif",
+        "key": "Db-major",
         "duration": 5,
         "description": "",
         "highlights": [],
@@ -4237,13 +4237,63 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 65,
+        "title": "大地の哀愁に寄せる酒の歌",
+        "tempo": "Allegro pesante",
+        "key": "a-minor",
+        "duration": 8,
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "title": "秋に寂しき者",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 2,
+        "tempo": "Etwas schleichend. Ermüdet.",
+        "key": "d-minor",
+        "duration": 10
+      },
+      {
+        "title": "青春について",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 3,
+        "tempo": "Behaglich heiter",
+        "key": "Bb-major",
+        "duration": 3
+      },
+      {
+        "title": "美について",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 4,
+        "tempo": "Comodo. Dolcissimo.",
+        "key": "G-major",
+        "duration": 8
+      },
+      {
+        "title": "春に酔える者",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 5,
+        "tempo": "Allegro",
+        "key": "A-major",
+        "duration": 4
+      },
+      {
+        "title": "告別",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 6,
+        "tempo": "Schwer",
+        "key": "c-minor",
+        "duration": 31
       }
     ],
     "historicalBackground": "1908年夏にトーブラッハで書き始められ、1909年に完成した。マーラーは「テノールとアルト（またはバリトン）の声と管弦楽のための交響曲」と題した。初演はマーラーの死後の1911年11月20日、ミュンヘンでブルーノ・ワルター（Bruno Walter）の指揮による。",
@@ -4976,22 +5026,32 @@
     "year": 1977,
     "genre": "orchestral",
     "era": "contemporary",
-    "duration": 26,
+    "duration": 27,
     "difficulty": 3,
     "shortDescription": "2つのヴァイオリン、弦楽合奏とプリペアド・ピアノのための二重協奏曲。1977年に作曲され、同年タリンで初演された。",
     "movements": [
       {
         "number": 1,
         "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 26,
+        "tempo": "Ludus. Con moto",
+        "key": "a-minor",
+        "duration": 10,
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "title": "",
+        "description": "",
+        "highlights": [],
+        "youtubeId": null,
+        "number": 2,
+        "tempo": "Silentium. Senza moto",
+        "key": "d-minor",
+        "duration": 17
       }
     ],
-    "historicalBackground": "1977年に作曲され、同年9月30日にタリンで、ギドン・クレーメル（Gidon Kremer）とタチアナ・グリンデンコ（Tatjana Grindenko）の独奏、サウリュス・ソンデツキス（Saulius Sondeckis）指揮のリトアニア室内管弦楽団により初演された。題名はラテン語で「何も書かれていない板」の意。",
+    "historicalBackground": "1977年に作曲され、同年9月30日にタリン工業大学の講堂で、ギドン・クレーメル（Gidon Kremer）とタチアナ・グリンデンコ（Tatjana Grindenko）の独奏、ヘリュ・タウク（Helju Tauk）のプリペアド・ピアノ、エリ・クラス（Eri Klas）指揮の「エストニア」国立アカデミー劇場室内管弦楽団により初演された（ピアノをシュニトケとする資料もある）。ソンデツキス指揮リトアニア室内管弦楽団は1977年11月ボンでのライヴ録音（ECM 1275）の演奏者。",
     "musicalAnalysis": "2つの楽章「ルードゥス（遊び）」と「シレンティウム（沈黙）」からなる。",
     "listeningGuide": {
       "totalTime": "26分",
