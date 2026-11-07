@@ -11861,5 +11861,105 @@
       "london",
       "famous"
     ]
+  },
+  {
+    "id": "bach-cello-suites",
+    "composerId": "bach-js",
+    "title": "無伴奏チェロ組曲（全6曲）BWV1007–1012",
+    "titleEn": "Six Suites for Violoncello Solo, BWV 1007–1012",
+    "year": "1717-1723",
+    "genre": "chamber",
+    "subgenre": "solo suite",
+    "era": "baroque",
+    "key": "",
+    "opus": "BWV 1007–1012",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "チェロ独奏のための6曲の組曲。ケーテン時代の作とされ、自筆譜は失われ、アンナ・マグダレーナ・バッハらの筆写譜で伝わる。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1番 ト長調 BWV1007",
+        "tempo": "",
+        "key": "G-major",
+        "duration": null,
+        "description": "プレリュード、アルマンド、クーラント、サラバンド、メヌエットI・II、ジーグ。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2番 ニ短調 BWV1008",
+        "tempo": "",
+        "key": "d-minor",
+        "duration": null,
+        "description": "プレリュード、アルマンド、クーラント、サラバンド、メヌエットI・II、ジーグ。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3番 ハ長調 BWV1009",
+        "tempo": "",
+        "key": "C-major",
+        "duration": null,
+        "description": "プレリュード、アルマンド、クーラント、サラバンド、ブーレI・II、ジーグ。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4番 変ホ長調 BWV1010",
+        "tempo": "",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "プレリュード、アルマンド、クーラント、サラバンド、ブーレI・II、ジーグ。A 弦を独立した開放弦として鳴らせないことが多い調で書かれている。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第5番 ハ短調 BWV1011",
+        "tempo": "",
+        "key": "c-minor",
+        "duration": null,
+        "description": "A 弦を G に下げる変則調弦（C-G-d-g）で書かれている。サラバンドの後にガヴォットI・IIを置く。",
+        "highlights": [
+          "変則調弦"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "第6番 ニ長調 BWV1012",
+        "tempo": "",
+        "key": "D-major",
+        "duration": null,
+        "description": "A 弦の上に e' 弦を加えた5弦の楽器のために書かれている。サラバンドの後にガヴォットI・IIを置く。",
+        "highlights": [
+          "5弦の楽器"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ケーテン宮廷楽長時代の作とされ、1720年頃とする見方が一般的である。無伴奏ヴァイオリンのためのソナタとパルティータを第1部とする曲集の第2部として構想されたとみられる。自筆譜は失われ、アンナ・マグダレーナ・バッハ（1727〜31年）、ヨハン・ペーター・ケルナー（1726年）と18世紀後半の2つの筆写譜で伝わる。初版は1824年にパリで出た。",
+    "musicalAnalysis": "各組曲はプレリュード、アルマンド、クーラント、サラバンド、ジーグを骨組みとし、サラバンドとジーグの間に一対の舞曲（第1・2番はメヌエット、第3・4番はブーレ、第5・6番はガヴォット）を挟む。第5番は変則調弦 C-G-d-g、第6番は e' 弦を加えた5弦の楽器を用いる。",
+    "listeningGuide": {
+      "totalTime": "",
+      "recommendedVersion": "パブロ・カザルス（1936〜39年録音、HMV）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "bach-bwv1004"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "chamber",
+      "baroque",
+      "cello",
+      "solo",
+      "suite"
+    ]
   }
 ]
