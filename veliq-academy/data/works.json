@@ -1117,13 +1117,13 @@
     "composerId": "stravinsky",
     "title": "バレエ音楽《春の祭典》",
     "titleEn": "The Rite of Spring",
-    "year": 1913,
+    "year": "1911-1913",
     "genre": "orchestral",
     "subgenre": "ballet",
     "era": "modern",
     "key": "various",
     "opus": "",
-    "duration": 35,
+    "duration": 33,
     "difficulty": 3,
     "shortDescription": "バレエ・リュスのために書かれた2部からなるバレエ音楽。1913年5月29日にパリのシャンゼリゼ劇場で初演された。",
     "movements": [
@@ -1185,9 +1185,9 @@
       {
         "number": 1,
         "title": "Allegro maestoso",
-        "tempo": "Allegro maestoso",
+        "tempo": "Allegro maestoso. Mit durchaus ernstem und feierlichem Ausdruck",
         "key": "c-minor",
-        "duration": null,
+        "duration": 23,
         "description": "ハ短調。低弦のトレモロと激しい音型で始まる。",
         "highlights": [
           "低弦の冒頭"
@@ -1197,9 +1197,9 @@
       {
         "number": 2,
         "title": "Andante moderato",
-        "tempo": "Andante moderato",
+        "tempo": "Andante moderato. Sehr gemächlich",
         "key": "Ab-major",
-        "duration": null,
+        "duration": 11,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -1209,7 +1209,7 @@
         "title": "In ruhig fließender Bewegung",
         "tempo": "In ruhig fließender Bewegung",
         "key": "c-minor",
-        "duration": null,
+        "duration": 11,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -1217,9 +1217,9 @@
       {
         "number": 4,
         "title": "Urlicht: Sehr feierlich, aber schlicht",
-        "tempo": "Urlicht: Sehr feierlich, aber schlicht",
+        "tempo": "Urlicht. Sehr feierlich, aber schlicht",
         "key": "Db-major",
-        "duration": null,
+        "duration": 6,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -1227,9 +1227,9 @@
       {
         "number": 5,
         "title": "Im Tempo des Scherzos",
-        "tempo": "Im Tempo des Scherzos",
+        "tempo": "Im Tempo des Scherzos. Wild herausfahrend",
         "key": "",
-        "duration": null,
+        "duration": 35,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -1686,7 +1686,7 @@
     "composerId": "mozart-wa",
     "title": "オペラ《フィガロの結婚》 K.492",
     "titleEn": "Le nozze di Figaro",
-    "year": 1786,
+    "year": "1785-1786",
     "genre": "opera",
     "era": "classical",
     "opus": "K. 492",
@@ -1705,7 +1705,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "原作のボーマルシェ「フィガロの結婚」（1784年パリ初演）は、ウィーンでは劇としての上演が禁じられていた。ダ・ポンテは政治的な台詞を削って台本を書いた。1786年5月1日にブルク劇場で初演され、同年12月にはプラハでも上演された。",
+    "historicalBackground": "原作のボーマルシェ「フィガロの結婚」（1784年パリ初演）は、ウィーンでは劇としての上演が禁じられていた。ダ・ポンテは政治的な台詞を削って台本を書いた。1786年5月1日にブルク劇場で初演され、同年のうちにプラハでも上演された（月は資料で確認できず）。",
     "musicalAnalysis": "",
     "listeningGuide": {
       "totalTime": "180分",
@@ -1991,21 +1991,21 @@
     "composerId": "beethoven",
     "title": "ピアノ・ソナタ第8番 ハ短調 作品13《悲愴》",
     "titleEn": "Pathétique Sonata",
-    "year": 1798,
+    "year": "1797-1798",
     "genre": "piano",
     "era": "classical",
     "key": "c-minor",
     "opus": "Op. 13",
     "duration": 18,
     "difficulty": 2,
-    "shortDescription": "1798年から1799年にかけて書かれ、1799年に「大ソナタ・パテティック」の題で出版されたピアノ・ソナタ。",
+    "shortDescription": "1797年半ばから1798年半ばにかけて作曲の大部分が進み、1799年に「大ソナタ・パテティック」の題で出版されたピアノ・ソナタ。",
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 18,
+        "title": "Grave – Allegro di molto e con brio",
+        "tempo": "Grave – Allegro di molto e con brio",
+        "key": "c-minor",
+        "duration": 9,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2015,7 +2015,7 @@
         "title": "Adagio cantabile",
         "tempo": "Adagio cantabile",
         "key": "Ab-major",
-        "duration": null,
+        "duration": 5,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2023,15 +2023,15 @@
       {
         "number": 3,
         "title": "Rondo: Allegro",
-        "tempo": "Rondo: Allegro",
+        "tempo": "Rondo. Allegro",
         "key": "c-minor",
-        "duration": null,
+        "duration": 4,
         "description": "",
         "highlights": [],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1799年にウィーンのエーダー社から「大ソナタ・パテティック」の題で出版され、リヒノフスキー侯爵に献呈された。この題は出版譜に印刷されており、作曲者の承認があったと考えられている。",
+    "historicalBackground": "1799年秋にウィーンのホフマイスターから《大ソナタ・パテティック》の題で出版され（エーダーの版は1800/01年以降、初版の版木による）、リヒノフスキー侯爵に献呈された。この題は出版譜に印刷されており、作曲者の承認があったと考えられている。",
     "musicalAnalysis": "3楽章構成。第1楽章はGraveの序奏で始まり、序奏の音型がAllegroの主部の中でも再び現れる。第2楽章はAdagio cantabile（変イ長調）、第3楽章はロンド。",
     "listeningGuide": {
       "totalTime": "18分",
@@ -2861,16 +2861,16 @@
     "era": "romantic",
     "key": "e-minor",
     "opus": "Op. 64",
-    "duration": 28,
+    "duration": 25,
     "difficulty": 1,
     "shortDescription": "1844年に完成し、1845年3月13日にライプツィヒでフェルディナント・ダーヴィトの独奏で初演されたヴァイオリン協奏曲。",
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 28,
+        "title": "Allegro molto appassionato",
+        "tempo": "Allegro molto appassionato",
+        "key": "e-minor",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3064,16 +3064,16 @@
     "era": "romantic",
     "key": "e-minor",
     "opus": "Op. 95",
-    "duration": 42,
+    "duration": 40,
     "difficulty": 1,
     "shortDescription": "ドヴォルザークがニューヨークのナショナル音楽院の院長だった1893年に作曲した交響曲。同年12月16日にニューヨークで初演された。",
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 42,
+        "title": "Adagio – Allegro molto",
+        "tempo": "Adagio – Allegro molto",
+        "key": "e-minor",
+        "duration": 12,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3083,7 +3083,7 @@
         "title": "Largo",
         "tempo": "Largo",
         "key": "Db-major",
-        "duration": null,
+        "duration": 12,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3091,9 +3091,9 @@
       {
         "number": 3,
         "title": "Scherzo: Molto vivace",
-        "tempo": "Scherzo: Molto vivace",
+        "tempo": "Scherzo. Molto vivace – Poco sostenuto",
         "key": "e-minor",
-        "duration": null,
+        "duration": 7,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3103,7 +3103,7 @@
         "title": "Allegro con fuoco",
         "tempo": "Allegro con fuoco",
         "key": "e-minor",
-        "duration": null,
+        "duration": 11,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3900,10 +3900,30 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
+        "title": "Très lent – Modéré, sans lenteur",
+        "tempo": "Très lent – Modéré, sans lenteur",
         "key": "",
         "duration": 24,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Allegro – Animé",
+        "tempo": "Allegro – Animé",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Animé et tumultueux",
+        "tempo": "Animé et tumultueux",
+        "key": "",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3929,19 +3949,59 @@
     "composerId": "mahler",
     "title": "交響曲第5番",
     "titleEn": "Symphony No.5",
-    "year": 1902,
+    "year": "1901-1902",
     "genre": "symphony",
     "era": "modern",
-    "duration": 72,
+    "duration": 71,
     "difficulty": 3,
     "shortDescription": "1901年から1902年にかけて書かれた5楽章の交響曲。第4楽章アダージェットは、1971年の映画「ヴェニスに死す」で使われた。",
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 72,
+        "title": "Trauermarsch. In gemessenem Schritt. Streng. Wie ein Kondukt",
+        "tempo": "Trauermarsch. In gemessenem Schritt. Streng. Wie ein Kondukt",
+        "key": "c#-minor",
+        "duration": 13,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Stürmisch bewegt, mit größter Vehemenz",
+        "tempo": "Stürmisch bewegt, mit größter Vehemenz",
+        "key": "a-minor",
+        "duration": 15,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scherzo. Kräftig, nicht zu schnell",
+        "tempo": "Scherzo. Kräftig, nicht zu schnell",
+        "key": "D-major",
+        "duration": 18,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Adagietto. Sehr langsam",
+        "tempo": "Adagietto. Sehr langsam",
+        "key": "F-major",
+        "duration": 10,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Rondo-Finale. Allegro – Allegro giocoso. Frisch",
+        "tempo": "Rondo-Finale. Allegro – Allegro giocoso. Frisch",
+        "key": "D-major",
+        "duration": 15,
         "description": "",
         "highlights": [],
         "youtubeId": null
