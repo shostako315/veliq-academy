@@ -1711,7 +1711,7 @@
     "genre": "opera",
     "era": "baroque",
     "opus": "Z. 626",
-    "duration": 60,
+    "duration": null,
     "difficulty": 2,
     "shortDescription": "テイト（Nahum Tate）の英語台本による3幕のオペラ。カルタゴの女王ディドとトロイアの英雄エネアスの物語。",
     "movements": [
@@ -1720,7 +1720,7 @@
         "title": "",
         "tempo": "",
         "key": "",
-        "duration": 60,
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
