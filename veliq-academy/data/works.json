@@ -5366,5 +5366,260 @@
       "contemporary",
       "japanese"
     ]
+  },
+  {
+    "id": "corelli-op6",
+    "composerId": "corelli",
+    "title": "合奏協奏曲集 作品6",
+    "titleEn": "12 Concerti grossi, Op. 6",
+    "year": 1712,
+    "genre": "concerto",
+    "subgenre": "concerto grosso",
+    "era": "baroque",
+    "key": "",
+    "opus": "Op. 6",
+    "duration": 130,
+    "difficulty": 2,
+    "shortDescription": "12曲の合奏協奏曲集。献辞は1712年12月3日の日付で、コレッリの没後1714年にアムステルダムのロジェから出版された。第8番は降誕祭の夜のために作られた。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1番 ニ長調（教会協奏曲）",
+        "tempo": "",
+        "key": "D-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2番 ヘ長調（教会協奏曲）",
+        "tempo": "",
+        "key": "F-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3番 ハ短調（教会協奏曲）",
+        "tempo": "",
+        "key": "c-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4番 ニ長調（教会協奏曲）",
+        "tempo": "",
+        "key": "D-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第5番 変ロ長調（教会協奏曲）",
+        "tempo": "",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "第6番 ヘ長調（教会協奏曲）",
+        "tempo": "",
+        "key": "F-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "第7番 ニ長調（教会協奏曲）",
+        "tempo": "",
+        "key": "D-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "第8番 ト短調「降誕祭の夜のために作られた」",
+        "tempo": "Vivace – Grave – Allegro – Adagio – Vivace – Allegro – Pastorale ad libitum",
+        "key": "g-minor",
+        "duration": null,
+        "description": "表題に「Fatto per la notte di Natale」と記される。最後の Allegro の後に、任意で奏するト長調のパストラーレが置かれる。",
+        "highlights": [
+          "Pastorale ad libitum",
+          "保続音の上の3度・6度の旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "第9番 ヘ長調（室内協奏曲）",
+        "tempo": "",
+        "key": "F-major",
+        "duration": null,
+        "description": "プレリュード、アルマンド、コレンテ、ガヴォッタ、アダージョ、メヌエットからなる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "第10番 ハ長調（室内協奏曲）",
+        "tempo": "",
+        "key": "C-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "第11番 変ロ長調（室内協奏曲）",
+        "tempo": "",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "プレリュード、アルマンド、サラバンド、ジーガを含む。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "第12番 ヘ長調（室内協奏曲）",
+        "tempo": "",
+        "key": "F-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ゲオルク・ムッファトは1682年にローマでコレッリの協奏曲を聴いたと書いており、曲の多くは出版の前から演奏されていた。コレッリは1712年12月3日の日付でプファルツ選帝侯ヨハン・ヴィルヘルムへの献辞に署名し、出版を弟子のフォルナーリに託した。コレッリは1713年1月8日に没し、曲集は1714年にアムステルダムのエティエンヌ・ロジェから7冊のパート譜として出版された。ヘンデルの合奏協奏曲集 作品6はこの曲集を手本にしている。",
+    "musicalAnalysis": "2つのヴァイオリンとチェロの独奏群（コンチェルティーノ）を必須とし、2つのヴァイオリン、ヴィオラ、低音の大合奏（コンチェルト・グロッソ）を任意とする。第1〜8番は速度表示の楽章からなる教会協奏曲、第9〜12番はプレリュードと舞曲の楽章からなる室内協奏曲である。短調の曲は第3番と第8番だけである。",
+    "listeningGuide": {
+      "totalTime": "約130〜146分（全12曲）",
+      "recommendedVersion": "キアラ・バンキーニ、イェスパー・クリステンセン指揮 アンサンブル415（ハルモニア・ムンディ、1992年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "vivaldi-four-seasons",
+      "bach-brandenberg"
+    ],
+    "relatedComposers": [
+      "handel",
+      "vivaldi",
+      "bach-js"
+    ],
+    "tags": [
+      "concerto",
+      "baroque",
+      "strings",
+      "christmas"
+    ]
+  },
+  {
+    "id": "palestrina-missa-papae-marcelli",
+    "composerId": "palestrina",
+    "title": "教皇マルチェルスのミサ",
+    "titleEn": "Missa Papae Marcelli",
+    "year": "1555-1567",
+    "genre": "choral",
+    "subgenre": "mass",
+    "era": "renaissance",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "6声のミサ曲。1567年にローマで出版されたミサ曲集第2巻（スペイン王フェリペ2世に献呈）の最後に収められた。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Kyrie",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Gloria",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "声部がそろって同じ音節を歌う和声的な書法が多い。",
+        "highlights": [
+          "ホモフォニー"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Credo",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "6声で、句の始まりで声部が同じ歌詞を一緒に歌う。",
+        "highlights": [
+          "ホモフォニー",
+          "アーメン"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Sanctus – Benedictus",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Agnus Dei I – II",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "2つに分かれ、第2アニュス・デイは7声になる。",
+        "highlights": [
+          "第2アニュス・デイの7声"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "作曲年は分かっていない。カルス社の解説は1555年から1567年のあいだ、おそらく1560年代とし、イェッペセンは1562〜63年と推定した。題のマルチェルス2世は1555年4月9日に教皇に選ばれ、約3週間後に没した。システィーナ礼拝堂の写本22がこの曲を題なしで写している。1567年にミサ曲集第2巻の最後の曲として出版された。",
+    "musicalAnalysis": "6声部の合唱のためのミサ曲で、キリエ、グローリア、クレド、サンクトゥス、アニュス・デイからなる。歌詞の長いグローリアとクレドでは和声的な書法が多い。第2アニュス・デイは7声になる。",
+    "listeningGuide": {
+      "totalTime": "",
+      "recommendedVersion": "ピーター・フィリップス指揮 タリス・スコラーズ（Gimell）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "josquin-missa-pange-lingua"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "choral",
+      "renaissance",
+      "religious",
+      "mass"
+    ]
   }
 ]
