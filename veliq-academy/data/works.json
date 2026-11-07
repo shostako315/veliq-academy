@@ -7623,5 +7623,505 @@
       "religious",
       "famous"
     ]
+  },
+  {
+    "id": "bellini-norma",
+    "composerId": "bellini",
+    "title": "オペラ《ノルマ》",
+    "titleEn": "Norma",
+    "year": 1831,
+    "genre": "opera",
+    "subgenre": "bel canto",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "スーメの悲劇『ノルマ、または嬰児殺し』をもとにロマーニが台本を書いた2幕のオペラ。1831年12月26日、ミラノのスカラ座でジュディッタ・パスタのノルマで初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "シンフォニア",
+        "tempo": "Allegro maestoso e deciso",
+        "key": "g-minor",
+        "duration": null,
+        "description": "管弦楽による序曲。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "夜のドルイドの森とノルマの住まい。ポリオーネはアダルジーザを愛し、アダルジーザはノルマに恋人の名を明かす。",
+        "highlights": [
+          "ノルマの祈り〈清らかな女神〉",
+          "ノルマとアダルジーザの二重唱",
+          "第1幕フィナーレの三重唱"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ノルマの住まい、森、神殿。ノルマは子どもを殺せず、捕らえられたポリオーネの前で自らの罪を明かし、火刑台へ向かう。",
+        "highlights": [
+          "ノルマとアダルジーザの二重唱",
+          "〈戦いの歌〉",
+          "ノルマとポリオーネの二重唱"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "台本はフェリーチェ・ロマーニで、原作は1831年4月6日にパリのオデオン座で上演されたスーメの悲劇である。作曲は1831年の夏の終わりから11月にかけて進められた。1831年12月26日のスカラ座の初演は失敗に終わったが、そのシーズンに34回上演された。10年のうちに国外の主要な劇場で上演され、1950年代にはマリア・カラスがノルマを持ち役とした。",
+    "musicalAnalysis": "2幕からなり、アリア、二重唱、重唱の番号をレチタティーヴォとアリオーソでつなぐ。ノルマの祈り〈清らかな女神〉は慣用ではヘ長調で歌われるが、自筆譜ではト長調で書かれている。第2幕では舞台上のバンダが加わる。",
+    "listeningGuide": {
+      "totalTime": "約2時間50分（休憩を含む）",
+      "recommendedVersion": "マリア・カラス、エベ・スティニャーニ、トゥリオ・セラフィン指揮 スカラ座管弦楽団・合唱団（1954年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "rossini-barber-of-seville",
+      "verdi-traviata"
+    ],
+    "relatedComposers": [
+      "rossini",
+      "verdi",
+      "wagner",
+      "chopin"
+    ],
+    "tags": [
+      "opera",
+      "romantic",
+      "bel-canto",
+      "italian",
+      "famous"
+    ]
+  },
+  {
+    "id": "borodin-polovtsian",
+    "composerId": "borodin",
+    "title": "《イーゴリ公》より〈ポロヴェツ人の踊り〉",
+    "titleEn": "Polovtsian Dances from Prince Igor",
+    "year": "1869-1887",
+    "genre": "orchestral",
+    "subgenre": "opera excerpt",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": 14,
+    "difficulty": 1,
+    "shortDescription": "オペラ《イーゴリ公》第2幕の終わりに置かれた合唱付きの舞曲。1879〜80年のシーズンに演奏会で先に演奏され、演奏会では合唱を省いて演奏されることが多い。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "ポロヴェツ人の踊り",
+        "tempo": "",
+        "key": "",
+        "duration": 14,
+        "description": "捕らわれのイーゴリ公をもてなす余興の場面。奴隷の女たちの歌と踊りで始まり、男たちの汗への頌歌を経て、付点のリズムによる長い終結部に至る。",
+        "highlights": [
+          "オーボエとイングリッシュ・ホルンの独奏による女たちの歌",
+          "合唱による汗への頌歌",
+          "冒頭部分の回帰と終結"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1869年4月にスターソフが《イーゴリ公》の題材を勧め、ボロディンは1887年に没するまで18年にわたってこのオペラを書き継いだ。〈ポロヴェツ人の踊り〉は1879〜80年のシーズンに自由音楽学校の演奏会で、リムスキー＝コルサコフの助力を得て先に演奏された。オペラはリムスキー＝コルサコフとグラズノフが仕上げ、1890年にマリインスキー劇場でナプラヴニークの指揮により初演された。1909年5月19日にはバレエ・リュスがパリのシャトレ座でフォーキンの振付により上演した。",
+    "musicalAnalysis": "第2幕の終わりのバレエの場面で、合唱が舞曲と交互に歌う。冒頭ではオーボエとイングリッシュ・ホルンが女たちの歌の旋律を奏する。管弦楽にはイングリッシュ・ホルン、テューバ、6種の打楽器、ハープが加わる。",
+    "listeningGuide": {
+      "totalTime": "約14分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "rimsky-scheherazade",
+      "mussorgsky-pictures"
+    ],
+    "relatedComposers": [
+      "rimsky-korsakov",
+      "mussorgsky",
+      "tchaikovsky"
+    ],
+    "tags": [
+      "orchestral",
+      "romantic",
+      "russian",
+      "nationalism",
+      "ballet",
+      "famous"
+    ]
+  },
+  {
+    "id": "donizetti-lucia",
+    "composerId": "donizetti",
+    "title": "オペラ《ランメルモールのルチア》",
+    "titleEn": "Lucia di Lammermoor",
+    "year": 1835,
+    "genre": "opera",
+    "subgenre": "dramma tragico",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "スコットの小説『ラマームアの花嫁』（1819年）をもとにカンマラーノが台本を書いた3幕のドランマ・トラジコ。1835年9月26日、ナポリのサン・カルロ劇場で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ラマームア城の外と森の泉。エンリーコは妹ルチアとエドガルドの恋を知り、ルチアとエドガルドは指輪を交わす。",
+        "highlights": [
+          "ルチアのアリア〈あたりは静けさに包まれ〉",
+          "二重唱〈そよ風に乗って〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "城の大広間。偽の手紙でルチアはアルトゥーロとの結婚の契約に署名し、現れたエドガルドは彼女を呪って去る。",
+        "highlights": [
+          "六重唱〈この時に誰がわたしを止めるのか〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ウルフズ・クラッグ、舞踏の間、レイヴンズウッド家の墓所。ルチアは夫を殺して狂乱の場を歌い、エドガルドはルチアの死を知って自らを刺す。",
+        "highlights": [
+          "狂乱の場〈香炉はくゆり〉（グラス・ハーモニカまたはフルートのオブリガート）",
+          "エドガルドのアリア〈まもなくわたしの安息の場所に〉"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "台本はサルヴァトーレ・カンマラーノで、ドニゼッティとの最初の共作である。原作の小説には、それ以前にもデュカンジュの戯曲（1828年）と3つのオペラ台本があった。ドニゼッティは1835年5月末から7月6日にかけて作曲し、1835年9月26日にナポリのサン・カルロ劇場で、ルチアをペルシアーニ、エドガルドをデュプレが歌って初演された。1839年8月6日には、フランス語に改作した《ルチー・ド・ランメルモール》がパリのルネサンス座で初演された。",
+    "musicalAnalysis": "3幕からなり、第2幕に六重唱、第3幕に狂乱の場がある。狂乱の場はグラス・ハーモニカのオブリガートで書かれたが、初演ではフルートに置き換えられた。作品はプリマドンナのロンドではなく、テノールのアリアで終わる。狂乱の場はヘ長調で書かれ、ホ長調か変ホ長調に下げて歌われることが多い。",
+    "listeningGuide": {
+      "totalTime": "約3時間40分（休憩を含む）",
+      "recommendedVersion": "ジョーン・サザーランド、ルチアーノ・パヴァロッティ、リチャード・ボニング指揮コヴェント・ガーデン王立歌劇場管弦楽団（デッカ、1971年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "rossini-barber-of-seville",
+      "verdi-traviata"
+    ],
+    "relatedComposers": [
+      "rossini",
+      "verdi"
+    ],
+    "tags": [
+      "opera",
+      "romantic",
+      "bel-canto",
+      "famous"
+    ]
+  },
+  {
+    "id": "massenet-manon",
+    "composerId": "massenet",
+    "title": "オペラ《マノン》",
+    "titleEn": "Manon",
+    "year": "1882-1883",
+    "genre": "opera",
+    "subgenre": "opéra comique",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "アベ・プレヴォーの小説に基づき、メイヤックとジルの台本で書かれた5幕6場のオペラ・コミック。1884年1月19日にパリのオペラ＝コミック座で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕 アミアンの宿屋",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "アミアンの宿屋が舞台。マノンとデ・グリューが出会い、幕の終わりに2人は出奔する。",
+        "highlights": [
+          "〈Je suis encore tout étourdie〉",
+          "〈Voyons, Manon, plus de chimères〉",
+          "二重唱〈Nous vivrons à Paris〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕 パリの部屋",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "パリの部屋が舞台。デ・グリューが父に宛てて手紙を書き、レスコーとブレティニが訪れる。",
+        "highlights": [
+          "〈Adieu, notre petite table〉",
+          "〈En fermant les yeux〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3幕 クール・ラ・レーヌ／サン＝シュルピス",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第1場はパリのクール・ラ・レーヌでバレエを含む。第2場はサン＝シュルピスで、メロドラムが用いられる。",
+        "highlights": [
+          "〈Je marche sur tous les chemins〉とガヴォット",
+          "〈Ah! fuyez, douce image〉",
+          "サン＝シュルピスの二重唱"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4幕 オテル・ド・トランシルヴァニー",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "賭博場が舞台で、デ・グリューが逮捕される。18世紀の様式を模したメヌエットがある。",
+        "highlights": [
+          "賭博の場面"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第5幕 ル・アーヴルへの道",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "マノンの流刑と死の場面。第3幕の誘惑の主題が最後の二重唱で戻り、終わり近くにメロドラムがある。",
+        "highlights": [
+          "〈Et c'est là l'histoire de Manon Lescaut〉"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1882年2月2日、マスネは出版社アルトマンと台本作者メイヤック、ジルとともに委嘱の契約に署名した。同年夏にハーグで作曲を進め、1883年8月に総譜を完成させた。1884年1月19日にオペラ＝コミック座でジュール・ダンベの指揮により初演され、マノンはマリー・エルブロンが歌った。最初の連続上演は88回で、オペラ＝コミック座での上演は1959年までに2133回に達した。",
+    "musicalAnalysis": "管弦楽の上で台詞を語るメロドラムが従来の台詞に代わり、場面に切れ目のない流れを与えている。第3幕の誘惑の主題が第5幕の二重唱で戻るなど、旋律の回想が用いられる。第3幕のガヴォット、第4幕のメヌエットには18世紀の様式の模倣がある。",
+    "listeningGuide": {
+      "totalTime": "約3時間〜3時間20分（休憩を含む）",
+      "recommendedVersion": "ピエール・モントゥー指揮オペラ＝コミック座管弦楽団・合唱団、ビクトリア・デ・ロス・アンヘレス（1955年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "puccini"
+    ],
+    "tags": [
+      "opera",
+      "romantic",
+      "french"
+    ]
+  },
+  {
+    "id": "nielsen-symphony-4",
+    "composerId": "nielsen",
+    "title": "交響曲第4番 作品29《不滅》",
+    "titleEn": "Symphony No. 4, Op. 29 \"The Inextinguishable\"",
+    "year": "1914-1916",
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "modern",
+    "key": "",
+    "opus": "Op.29",
+    "duration": 37,
+    "difficulty": 2,
+    "shortDescription": "1914年夏に構想が始まり、1916年1月14日に完成し、同年2月1日にコペンハーゲンで初演された交響曲。4つの楽章は切れ目なく続き、2組のティンパニを向かい合わせに置く。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "",
+        "duration": null,
+        "description": "管楽器とティンパニの強奏で始まり、弦が加わる。冒頭でニとホの2つの調が同時に鳴る。2本のクラリネットが3度で歌う第2主題は、のちに「生への意志」の主題として扱われる。",
+        "highlights": [
+          "ニとホが同時に鳴る冒頭",
+          "3つの音の動機",
+          "クラリネット2本による3度の第2主題"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Poco allegretto",
+        "tempo": "Poco allegretto",
+        "key": "",
+        "duration": null,
+        "description": "短い楽章で、主に木管が受け持ち、弦が軽く応じる。4つの楽章のうち始まりの調に戻って終わるのはこの楽章だけである。",
+        "highlights": [
+          "木管が中心の書法"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Poco adagio quasi andante",
+        "tempo": "Poco adagio quasi andante",
+        "key": "",
+        "duration": null,
+        "description": "讃歌風のゆっくりした部分と対位法的な展開を経て、ppp のヴァイオリンのトリルとオーボエの同音の反復で閉じる。終わりに Con anima の部分がある。",
+        "highlights": [
+          "対位法的な展開",
+          "ppp のヴァイオリンのトリル"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "",
+        "duration": null,
+        "description": "オーケストラの両側に分かれた2組のティンパニが三全音の音程で掛け合い、ホルンと木管が第1楽章の「生への意志」の主題を戻す。全曲の目標の調はホ長調である。",
+        "highlights": [
+          "2組のティンパニの掛け合い",
+          "ティンパニのグリッサンド",
+          "第1楽章の主題の回帰"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1914年5月3日付の妻宛の手紙で、ニルセンは標題のない、生命と運動を表す作品の構想を伝えた。同じ1914年の5月30日に王立歌劇場の副指揮者の職を辞め、夫婦の関係も危機を迎えていた。作曲は1914年夏に始まり、総譜は1916年1月14日に完成した。題名《不滅》は完成後に決まり、総譜の前書きでこの題が「基本的な生への意志」を表すと説明された。初演は1916年2月1日にコペンハーゲンで行われ、ニルセンは第1番以外の交響曲の初演をすべて自ら指揮した。",
+    "musicalAnalysis": "4つの楽章は切れ目なく続き、ニルセンはその手本としてリストのピアノ・ソナタを挙げた。冒頭ではニとホの2つの調が同時に鳴り、全曲の目標の調はホ長調である。2組目のティンパニは1組目の真向かい、客席に近いオーケストラの端に置かれ、終楽章で2組が掛け合う。",
+    "listeningGuide": {
+      "totalTime": "約34〜37分",
+      "recommendedVersion": "ヘルベルト・ブロムシュテット指揮 サンフランシスコ交響楽団（1987年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "liszt",
+      "sibelius"
+    ],
+    "tags": [
+      "symphony",
+      "modern",
+      "danish",
+      "timpani"
+    ]
+  },
+  {
+    "id": "scriabin-poem-of-ecstasy",
+    "composerId": "scriabin",
+    "title": "法悦の詩 作品54",
+    "titleEn": "The Poem of Ecstasy, Op. 54",
+    "year": "1905-1908",
+    "genre": "orchestral",
+    "subgenre": "symphonic poem",
+    "era": "modern",
+    "key": "",
+    "opus": "Op.54",
+    "duration": 20,
+    "difficulty": 3,
+    "shortDescription": "1905〜08年に作曲された単一楽章の管弦楽曲。1908年12月10日にニューヨークでアルトシューラー指揮ロシア交響楽団が初演し、8本のホルンと5本のトランペットを含む大編成で、ハ長調で終わる。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Le Poème de l'Extase",
+        "tempo": "",
+        "key": "",
+        "duration": 20,
+        "description": "ソナタ形式の輪郭に沿う単一楽章。フルートの「憧れ」の主題、クラリネットの「夢」の主題、トランペットの「勝利」の主題が現れ、冒頭の素材の再現を経て、「勝利」の主題が全管弦楽の上で鳴ってハ長調で終わる。",
+        "highlights": [
+          "冒頭のフルートの主題",
+          "トランペットの「勝利」の主題",
+          "ハ長調の終結"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "仮題を《狂乱の詩》とし、1905年から1908年にかけて主にイタリアとフランスで作曲された。スクリャービンは同じ題の約300行の詩を書いている。1908年2月29日に予定されたペテルブルクでの初演は延期され、1908年12月10日にニューヨークでモデスト・アルトシューラー指揮ロシア交響楽団が初演した。ロシアでは1909年初めにペテルブルクとモスクワで演奏された。総譜は1908年にライプツィヒのベリャーエフ社から出版された。",
+    "musicalAnalysis": "単一楽章で、提示部・展開部・再現部・コーダからなるソナタ形式の輪郭に沿う。フルート、クラリネット、トランペットがそれぞれ主題を出し、トランペットの上下する主題をスクリャービンは「勝利」と呼んだ。編成はホルン8、トランペット5、オルガンを含み、曲はハ長調で終わる。",
+    "listeningGuide": {
+      "totalTime": "約20分",
+      "recommendedVersion": "クラウディオ・アバド指揮 ボストン交響楽団（1971年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "modern",
+      "russian",
+      "single-movement"
+    ]
+  },
+  {
+    "id": "vaughan-williams-tallis",
+    "composerId": "vaughan-williams",
+    "title": "トマス・タリスの主題による幻想曲",
+    "titleEn": "Fantasia on a Theme by Thomas Tallis",
+    "year": 1910,
+    "genre": "orchestral",
+    "subgenre": "string orchestra",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 15,
+    "difficulty": 2,
+    "shortDescription": "独奏弦楽四重奏と2群の弦楽合奏のための単一楽章の曲。1910年9月6日にグロスター大聖堂のスリー・クワイアズ音楽祭で、作曲者の指揮、ロンドン交響楽団により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Largo sostenuto",
+        "tempo": "Largo sostenuto",
+        "key": "",
+        "duration": 15,
+        "description": "タリスの旋律が2つの合奏で2回提示された後、合奏の掛け合い、独奏ヴィオラと独奏四重奏、主題の断片の展開を経て、独奏ヴァイオリンと独奏ヴィオラの二重奏で主題全体が戻る。",
+        "highlights": [
+          "2群の合奏の掛け合い",
+          "独奏ヴィオラ",
+          "主題の回帰"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "主題は、トマス・タリスが1567年のパーカー大主教の詩篇歌集に寄せた9つの旋律の第3曲で、ヴォーン・ウィリアムズは1906年の『イングリッシュ・ヒムナル』第92番に収めていた。グロスターのスリー・クワイアズ音楽祭のために書かれ、1910年9月6日にグロスター大聖堂で作曲者の指揮、ロンドン交響楽団により初演された。同じ演奏会ではエルガーの《ゲロンティアスの夢》が演奏された。1913年と1919年に改訂され、1921年に出版された。",
+    "musicalAnalysis": "独奏弦楽四重奏、弦五部の第1合奏、9人の第2合奏の3群で書かれている。主題はフリギア旋法の旋律で、後半では拍子が4分の3、8分の6、4分の4と変わる。曲は区切りごとに主題から取った楽想を展開し、和声は旋法的である。",
+    "listeningGuide": {
+      "totalTime": "15分",
+      "recommendedVersion": "ジョン・バルビローリ指揮 シンフォニア・オブ・ロンドン（1962年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "elgar-enigma"
+    ],
+    "relatedComposers": [
+      "elgar",
+      "ravel"
+    ],
+    "tags": [
+      "orchestral",
+      "strings",
+      "english",
+      "modern"
+    ]
   }
 ]

@@ -89,10 +89,12 @@
   <url><loc>https://veliq-academy.com/music/composers/bach-js/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/bartok/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/beethoven/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/bellini/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/berlioz/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/bernstein/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/bizet/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/boccherini/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/borodin/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/brahms/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/britten/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/bruch/</loc><lastmod>2026-11-07</lastmod></url>
@@ -104,6 +106,7 @@
   <url><loc>https://veliq-academy.com/music/composers/couperin-f/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/dan-ikuma/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/debussy/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/donizetti/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/dvorak/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/elgar/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/faure/</loc><lastmod>2026-11-07</lastmod></url>
@@ -117,11 +120,13 @@
   <url><loc>https://veliq-academy.com/music/composers/ligeti/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/liszt/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/mahler/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/massenet/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/mendelssohn/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/messiaen/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/monteverdi/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/mozart-wa/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/mussorgsky/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/nielsen/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/paganini/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/palestrina/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/part/</loc><lastmod>2026-11-07</lastmod></url>
@@ -142,6 +147,7 @@
   <url><loc>https://veliq-academy.com/music/composers/schoenberg/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/schubert/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/schumann-r/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/scriabin/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/shostakovich/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/sibelius/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/smetana/</loc><lastmod>2026-11-07</lastmod></url>
@@ -151,6 +157,7 @@
   <url><loc>https://veliq-academy.com/music/composers/takemitsu/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/tchaikovsky/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/telemann/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/vaughan-williams/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/verdi/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/vivaldi/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/wagner/</loc><lastmod>2026-11-07</lastmod></url>
@@ -244,8 +251,10 @@
   <url><loc>https://veliq-academy.com/music/works/beethoven-symphony-8/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/beethoven-symphony-9/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/beethoven-violin-concerto/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/bellini-norma/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/berlioz-fantastique/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/bizet-carmen/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/borodin-polovtsian/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/brahms-academic-festival-and-tragic-overtures/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/brahms-double-concerto/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/brahms-german-requiem/</loc><lastmod>2026-10-30</lastmod></url>
@@ -267,6 +276,7 @@
   <url><loc>https://veliq-academy.com/music/works/debussy-clair/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/debussy-la-mer/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/debussy-prelude-afternoon/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/donizetti-lucia/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-sym9/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-vc/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/elgar-cello-concerto/</loc><lastmod>2026-11-07</lastmod></url>
@@ -286,6 +296,7 @@
   <url><loc>https://veliq-academy.com/music/works/mahler-das-lied/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mahler-sym5/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mahler-symphony-2/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/massenet-manon/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mendelssohn-mnd/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mendelssohn-vc/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/messiaen-quartet/</loc><lastmod>2026-11-07</lastmod></url>
@@ -300,6 +311,7 @@
   <url><loc>https://veliq-academy.com/music/works/mozart-symphony-40/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mozart-symphony-41/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mussorgsky-pictures/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/nielsen-symphony-4/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/paganini-caprices/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/palestrina-missa-papae-marcelli/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/part-spiegel/</loc><lastmod>2026-11-07</lastmod></url>
@@ -324,6 +336,7 @@
   <url><loc>https://veliq-academy.com/music/works/schubert-winterreise/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schumann-dichterliebe/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schumann-pc/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/scriabin-poem-of-ecstasy/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/shostakovich-sq8/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/shostakovich-sym5/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/sibelius-finlandia/</loc><lastmod>2026-11-07</lastmod></url>
@@ -342,6 +355,7 @@
   <url><loc>https://veliq-academy.com/music/works/tchaikovsky-swan/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/tchaikovsky-symphony-6/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/telemann-tafelmusik/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/vaughan-williams-tallis/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/verdi-aida/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/verdi-traviata/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/vivaldi-four-seasons/</loc><lastmod>2026-11-07</lastmod></url>
