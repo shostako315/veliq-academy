@@ -16,7 +16,7 @@ sources:
   - "丸山洋子ほか「スカルラッティ」ピティナ・ピアノ曲事典（作品の概観：ヴェネツィア写本とパルマ写本の関係、1742年・1749年の写本の性格、二部形式、弧線による反復の省略、装飾記号、ロンゴ・ギルバート・ファディーニ版）. https://enc.piano.or.jp/en/persons/147（閲覧日 2026-11-07）"
   - "丸山洋子「ソナタ イ短調 K.3 L.378」ピティナ・ピアノ曲事典（Presto、約3分40秒、《練習曲集》の献呈と騎士叙任、序文の解釈、曲順）. https://enc.piano.or.jp/en/musics/1638（閲覧日 2026-11-07）"
   - "丸山洋子「ソナタ《猫のフーガ》ト短調 K.30 L.499」ピティナ・ピアノ曲事典（Moderato、約4分10秒、《練習曲集》で唯一の4声フーガ、増2度・減4度、サトクリフ2003年）. https://enc.piano.or.jp/en/musics/1665（閲覧日 2026-11-07）"
-  - "Encyclopædia Britannica「Domenico Scarlatti」（555曲の内訳、1742・1749・1752〜57年の写本、晩年の楽器、ロンゴ版、カークパトリック1953年、ギルバート版1971〜84年）. https://www.britannica.com:443/biography/Domenico-Scarlatti（閲覧日 2026-11-07）"
+  - "Encyclopædia Britannica「Domenico Scarlatti」（555曲の内訳、1742・1749・1752〜57年の写本、晩年の楽器、ロンゴ版、カークパトリック1953年、ギルバート版1971〜84年）. https://www.britannica.com/biography/Domenico-Scarlatti（閲覧日 2026-11-07）"
   - "Encyclopedia.com「Scarlatti, (Giuseppe) Domenico」（1739年ロンドン、1742〜46年パリの出版、パルマとヴェネツィアの写本、ロンゴ版11巻、ペステッリ目録、作風）. https://encyclopedia.com/literature-and-arts/performing-arts/music-history/domenico-scarlatti（閲覧日 2026-11-07）"
   - "Encyclopedia.com「Scarlatti, Domenico and Alessandro」（《練習曲集》のジョアン5世への献呈、ファリネッリの相続）. https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/scarlatti-domenico-and-alessandro-pietro-alessandro-1660-1725-and-giuseppe-domenico-1685-1757（閲覧日 2026-11-07）"
   - "MusicWeb International「Scarlatti: Complete Keyboard Sonatas（Erato）」2023年11月（スコット・ロスの全集、独奏以外の8曲、K.204a/b、対の配列、レスターの全集）. https://musicwebinternational.com/2023/11/scarlatti-complete-keyboard-sonatas-erato/（閲覧日 2026-11-07）"
@@ -34,7 +34,7 @@ sources:
 
 ### 作曲の時期
 
-作曲の時期は1曲ごとにはわからない。ヘンレ版の校訂者ベングト・ヨンソン（Bengt Johnsson）は、500曲を超えるソナタの大半は、スカルラッティ（Domenico Scarlatti）がポルトガル王に仕えた1719年以後のものだろうとする。[（Henle 序文 I）](https://www.henle.de/media/3a/53/0e/1690886073/0395-1690886073-sync.pdf)ブリタニカは、成熟期の作品の大部分を1753年から1757年のものとしている。[（Britannica）](https://www.britannica.com:443/biography/Domenico-Scarlatti)
+作曲の時期は1曲ごとにはわからない。ヘンレ版の校訂者ベングト・ヨンソン（Bengt Johnsson）は、500曲を超えるソナタの大半は、スカルラッティ（Domenico Scarlatti）がポルトガル王に仕えた1719年以後のものだろうとする。[（Henle 序文 I）](https://www.henle.de/media/3a/53/0e/1690886073/0395-1690886073-sync.pdf)ブリタニカは、成熟期の作品の大部分を1753年から1757年のものとしている。[（Britannica）](https://www.britannica.com/biography/Domenico-Scarlatti)
 
 ピティナ・ピアノ曲事典の作品概観は、作曲はポルトガル宮廷で王女マリア・バルバラ（Maria Bárbara de Bragança）の教師となってから始まったとみる。1742年の写本の曲は初期の比較的単純な曲で、王家の生徒のために書かれたと考えられ、一部は低音と1つの旋律声部だけで弾ける。1749年の写本の曲は、技巧を最も示す時期のものとされる。[（ピティナ）](https://enc.piano.or.jp/en/persons/147)
 
@@ -65,9 +65,9 @@ sources:
 
 ## 編成と演奏時間
 
-大部分はチェンバロのための独奏曲である。ブリタニカによれば555曲のうち約10曲はヴァイオリンと通奏低音、3曲はオルガンのためである。[（Britannica）](https://www.britannica.com:443/biography/Domenico-Scarlatti)MusicWeb International は、独奏チェンバロ以外の曲を K.81、88〜91、287、288、328 の8曲とし、うち3曲がオルガン、5曲が他の楽器を伴う3〜4楽章の曲だとする。[（MusicWeb International）](https://musicwebinternational.com/2023/11/scarlatti-complete-keyboard-sonatas-erato/)
+大部分はチェンバロのための独奏曲である。ブリタニカによれば555曲のうち約10曲はヴァイオリンと通奏低音、3曲はオルガンのためである。[（Britannica）](https://www.britannica.com/biography/Domenico-Scarlatti)MusicWeb International は、独奏チェンバロ以外の曲を K.81、88〜91、287、288、328 の8曲とし、うち3曲がオルガン、5曲が他の楽器を伴う3〜4楽章の曲だとする。[（MusicWeb International）](https://musicwebinternational.com/2023/11/scarlatti-complete-keyboard-sonatas-erato/)
 
-ヨンソンは、ソナタはチェンバロだけでなく、スペイン語で「フエルテ・ピアノ」、イタリア語で「チェンバロ・ディ・マルテッレッティ」と呼ばれた当時新しいフォルテピアノのためにも書かれたとする。[（Henle 序文 I）](https://www.henle.de/media/3a/53/0e/1690886073/0395-1690886073-sync.pdf)ブリタニカは、晩年のソナタを5オクターヴの音域と8フィートの弦2列をもつ1段鍵盤のチェンバロのための曲とみる。[（Britannica）](https://www.britannica.com:443/biography/Domenico-Scarlatti)
+ヨンソンは、ソナタはチェンバロだけでなく、スペイン語で「フエルテ・ピアノ」、イタリア語で「チェンバロ・ディ・マルテッレッティ」と呼ばれた当時新しいフォルテピアノのためにも書かれたとする。[（Henle 序文 I）](https://www.henle.de/media/3a/53/0e/1690886073/0395-1690886073-sync.pdf)ブリタニカは、晩年のソナタを5オクターヴの音域と8フィートの弦2列をもつ1段鍵盤のチェンバロのための曲とみる。[（Britannica）](https://www.britannica.com/biography/Domenico-Scarlatti)
 
 演奏時間は1曲あたり2〜4分程度のものが多い。ピティナ・ピアノ曲事典は K.1 を約2分40秒、K.3 を約3分40秒、K.30 を約4分10秒、K.159 を約2分10秒とする。[（ピティナ）](https://enc.piano.or.jp/en/persons/147)長い曲では、K.247 のミヒャエル・コルスティック（Michael Korstick）の演奏が7分18秒、エフゲニー・ザラフィアンツ（Evgeny Zarafiants）の演奏が9分12秒である。[（MusicWeb International 2022）](https://musicweb-international.com/classrev/2022/Mar/Scarlatti-essential-5554732.htm)
 
@@ -119,7 +119,7 @@ Moderato。《練習曲集》で唯一の4声のフーガで、主題は増2度�
 
 ### 版と番号
 
-ロンゴは1906〜08年に全11巻の版をミラノで出した。[（Encyclopedia.com）](https://encyclopedia.com/literature-and-arts/performing-arts/music-history/domenico-scarlatti)545曲をピアノ用に編み、調ごとに並べ、2曲の対を分けている。カークパトリックは1953年の研究書で555曲を推定の作曲順に番号付けし直し、この番号（K. または Kk.）がロンゴの番号（L.）に代わった。ギルバートの全集（1971〜84年）は年代順と対を保つ。[（Britannica）](https://www.britannica.com:443/biography/Domenico-Scarlatti)ピティナの解説によれば、ギルバート版はヴェネツィア写本に基づき、ファディーニ（Emilia Fadini）の版は1978年に刊行が始まって2012年時点で未完だった。[（ピティナ）](https://enc.piano.or.jp/en/persons/147)
+ロンゴは1906〜08年に全11巻の版をミラノで出した。[（Encyclopedia.com）](https://encyclopedia.com/literature-and-arts/performing-arts/music-history/domenico-scarlatti)545曲をピアノ用に編み、調ごとに並べ、2曲の対を分けている。カークパトリックは1953年の研究書で555曲を推定の作曲順に番号付けし直し、この番号（K. または Kk.）がロンゴの番号（L.）に代わった。ギルバートの全集（1971〜84年）は年代順と対を保つ。[（Britannica）](https://www.britannica.com/biography/Domenico-Scarlatti)ピティナの解説によれば、ギルバート版はヴェネツィア写本に基づき、ファディーニ（Emilia Fadini）の版は1978年に刊行が始まって2012年時点で未完だった。[（ピティナ）](https://enc.piano.or.jp/en/persons/147)
 
 ### 録音
 
@@ -138,7 +138,7 @@ Moderato。《練習曲集》で唯一の4声のフーガで、主題は増2度�
 
 - **曲数**：カークパトリックの目録は555曲だが、K.204 は204aと204bの2曲からなる。[（MusicWeb International）](https://musicwebinternational.com/2023/11/scarlatti-complete-keyboard-sonatas-erato/)ピティナの一覧は556曲のソナタを含む558曲を載せる。[（ピティナ）](https://enc.piano.or.jp/en/persons/147)
 - **K 番号と作曲年**：K 番号はヴェネツィア写本の日付などに基づく推定の作曲順である。《練習曲集》についても、ずっと前に書いた曲を改訂したものとみる研究者が多く、結論は出ていない。[（ピティナ K.3）](https://enc.piano.or.jp/en/musics/1638)
-- **ヴェネツィア第14・15巻の年代**：ヘンレ版の序文は第14巻を1742年、第15巻を1749年とする。ブリタニカは、1742年と1749年の巻がマリア・バルバラのために写されたとする。[（Henle 序文 II）](https://www.henle.de/media/cf/33/da/1690886074/0451-1690886074-sync.pdf)[（Britannica）](https://www.britannica.com:443/biography/Domenico-Scarlatti)
+- **ヴェネツィア第14・15巻の年代**：ヘンレ版の序文は第14巻を1742年、第15巻を1749年とする。ブリタニカは、1742年と1749年の巻がマリア・バルバラのために写されたとする。[（Henle 序文 II）](https://www.henle.de/media/cf/33/da/1690886074/0451-1690886074-sync.pdf)[（Britannica）](https://www.britannica.com/biography/Domenico-Scarlatti)
 - **《猫のフーガ》の解釈**：ピティナの解説は、K.30 を古い対位法への敬意とみる読み方に対して、サトクリフ（Sutcliffe、2003年）が、この曲が対位法のなめらかさを避けていることを理由に異を唱えていると記す。[（ピティナ K.30）](https://enc.piano.or.jp/en/musics/1665)呼び名の由来は、確認した資料には書かれていない。
 - **ウィーン写本**：ブラームス（Johannes Brahms）の旧蔵で、ヘンレ版選集第3巻の校訂者は利用できなかった。[（Henle 序文 III）](https://www.henle.de/media/4f/57/5d/1690886041/0476-1690886040-sync.pdf)
 - **ヘンレ版で初めて印刷された曲**：選集第1巻の第21〜24番は、モンセラートの写本（AM 1770、AM 2158、AM 2786）から初めて印刷された。[（Henle 序文 I）](https://www.henle.de/media/3a/53/0e/1690886073/0395-1690886073-sync.pdf)

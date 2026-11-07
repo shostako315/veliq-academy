@@ -7467,5 +7467,161 @@
       "violin",
       "famous"
     ]
+  },
+  {
+    "id": "pergolesi-stabat-mater",
+    "composerId": "pergolesi",
+    "title": "スターバト・マーテル ヘ短調",
+    "titleEn": "Stabat Mater in F minor",
+    "year": "1735-1736",
+    "genre": "vocal",
+    "subgenre": "sacred",
+    "era": "baroque",
+    "key": "f-minor",
+    "opus": "",
+    "duration": 40,
+    "difficulty": 1,
+    "shortDescription": "ソプラノとアルト独唱、弦楽、通奏低音のための12曲からなる作品。1735〜36年、ポッツオーリのフランシスコ会修道院で書かれ、ペルゴレージは1736年3月16日に同地で没した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Stabat mater dolorosa",
+        "tempo": "Grave",
+        "key": "f-minor",
+        "duration": null,
+        "description": "ソプラノとアルトの二重唱。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Cujus animam gementem",
+        "tempo": "Andante amoroso",
+        "key": "c-minor",
+        "duration": null,
+        "description": "ソプラノの独唱。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "O quam tristis et afflicta",
+        "tempo": "Larghetto",
+        "key": "g-minor",
+        "duration": null,
+        "description": "二重唱。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Quae moerebat et dolebat",
+        "tempo": "Allegro",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "アルトの独唱。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Quis est homo",
+        "tempo": "Largo – Allegro",
+        "key": "c-minor",
+        "duration": null,
+        "description": "3つの詩節による二重唱。3つ目の節で拍子が変わる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Vidit suum dulcem natum",
+        "tempo": "Tempo giusto",
+        "key": "f-minor",
+        "duration": null,
+        "description": "ソプラノのアリア。ヴァイオリンがユニゾンで声を重ねる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "Eja mater fons amoris",
+        "tempo": "Andantino",
+        "key": "c-minor",
+        "duration": null,
+        "description": "アルトのアリア。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "Fac ut ardeat cor meum",
+        "tempo": "Allegro",
+        "key": "g-minor",
+        "duration": null,
+        "description": "バスも加わる3声のフーガ風の二重唱。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "Sancta mater, istud agas",
+        "tempo": "Tempo giusto",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "5つの詩節による二重唱。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "Fac ut portem Christi mortem",
+        "tempo": "Largo",
+        "key": "g-minor",
+        "duration": null,
+        "description": "アルトのアリア。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "Inflammatus et accensus",
+        "tempo": "Allegro ma non troppo",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "二重唱。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "Quando corpus morietur – Amen",
+        "tempo": "Largo assai – Presto assai",
+        "key": "f-minor",
+        "duration": null,
+        "description": "ヘ短調に戻る二重唱と、二重フーガ風のアーメン。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ナポリの信心会が聖金曜日の私的な勤めのために求めたもので、アレッサンドロ・スカルラッティの《スターバト・マーテル》に代わるものであった。ペルゴレージは結核を病み、1736年初めにポッツオーリのフランシスコ会修道院に移って作曲し、同年3月16日に没した。初演はおそらく1736年3月である。1740年代半ばまでに多くの写本と編曲が出回り、バッハは詩篇51のドイツ語詩による《至高者よ、わが罪を消したまえ》BWV 1083に編曲した。",
+    "musicalAnalysis": "12曲からなり、ヘ短調で始まりヘ短調で終わる。独唱と二重唱が交互に置かれる。ヴァイオリンが声を、ヴィオラがバスを重ね、実声部が3つのことが多い。",
+    "listeningGuide": {
+      "totalTime": "40分",
+      "recommendedVersion": "リナルド・アレッサンドリーニ指揮 コンチェルト・イタリアーノ（Naïve、1998年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "bach-js",
+      "salieri"
+    ],
+    "tags": [
+      "vocal",
+      "baroque",
+      "religious",
+      "famous"
+    ]
   }
 ]

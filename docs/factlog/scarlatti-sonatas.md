@@ -7,7 +7,7 @@
 - [PT] ピティナ・ピアノ曲事典「スカルラッティ」 https://enc.piano.or.jp/en/persons/147
 - [PT3] ピティナ K.3 https://enc.piano.or.jp/en/musics/1638
 - [PT30] ピティナ K.30 https://enc.piano.or.jp/en/musics/1665
-- [BR] Britannica https://www.britannica.com:443/biography/Domenico-Scarlatti
+- [BR] Britannica https://www.britannica.com/biography/Domenico-Scarlatti
 - [EC1] Encyclopedia.com（Baker's ほか） https://encyclopedia.com/literature-and-arts/performing-arts/music-history/domenico-scarlatti
 - [EC2] Encyclopedia.com（Europe 1450–1789）
 - [MW] MusicWeb International 2023（Ross 全集）

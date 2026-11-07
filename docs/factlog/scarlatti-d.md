@@ -1,7 +1,7 @@
 # factlog: scarlatti-d（ドメニコ・スカルラッティ）
 
 確認日：2026-11-07。略号：
-- [BR] Encyclopædia Britannica「Domenico Scarlatti」 https://www.britannica.com:443/biography/Domenico-Scarlatti
+- [BR] Encyclopædia Britannica「Domenico Scarlatti」 https://www.britannica.com/biography/Domenico-Scarlatti
 - [EC1] Encyclopedia.com「Scarlatti, (Giuseppe) Domenico」（Baker's／Concise Oxford／Gale の各項目をまとめた頁） https://encyclopedia.com/literature-and-arts/performing-arts/music-history/domenico-scarlatti
 - [EC2] Encyclopedia.com「Scarlatti, Domenico and Alessandro」（Europe, 1450 to 1789） https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/scarlatti-domenico-and-alessandro-pietro-alessandro-1660-1725-and-giuseppe-domenico-1685-1757
 - [MW] MusicWeb International「Scarlatti: Complete Keyboard Sonatas（Erato）」2023年11月 https://musicwebinternational.com/2023/11/scarlatti-complete-keyboard-sonatas-erato/

@@ -60,6 +60,7 @@
 - [ジョヴァンニ・ピエルルイジ・ダ・パレストリーナ](https://veliq-academy.com/music/composers/palestrina/): 1525年頃にローマ近郊のパレストリーナで生まれ、1594年2月2日にローマで没したイタリアの作曲家。サン・ピエトロ大聖堂のジュリア礼拝堂、ラテラノ、サンタ・マリア・マッジョーレの楽長を務め、100曲を超えるミサ曲とモテット、マドリガーレを書いた。1567年のミサ曲集第2巻に《教皇マルチェルスのミサ》を収める。
 - [アルヴォ・ペルト](https://veliq-academy.com/music/composers/part/): 1935年9月11日にエストニアのパイデに生まれた作曲家。タリン音楽院でヘイノ・エッレルに学び、エストニア放送の録音技師を務めた。1976年のピアノ曲《アリーナのために》から「ティンティナブリ」と呼ばれる書法を用い、《フラトレス》《タブラ・ラサ》《鏡の中の鏡》（1977年）、《パッシオ》（1982年）を書いた。1980年に出国してウィーン、次いでベルリンに住み、2010年にエストニアに戻った。
 - [クシシュトフ・ペンデレツキ](https://veliq-academy.com/music/composers/penderecki/): 1933年11月23日にポーランドのデンビツァに生まれ、2020年3月29日にクラクフで没した作曲家・指揮者。52の弦楽器のための《広島の犠牲者に捧げる哀歌》（1960年）で1961年にユネスコの賞を受け、《ルカ受難曲》（1966年ミュンスター大聖堂で初演）、オペラ《ルダンの悪魔》（1969年ハンブルク初演）、8曲の交響曲、《ポーランド・レクイエム》を書いた。
+- [ジョヴァンニ・バッティスタ・ペルゴレージ](https://veliq-academy.com/music/composers/pergolesi/): 1710年1月4日にイェージで生まれ、1736年3月にポッツオーリで26歳で没したイタリアの作曲家。ナポリの音楽院に学び、1733年8月28日にナポリのサン・バルトロメオ劇場でオペラ・セリア《誇り高い囚人》の幕間劇として《奥様女中》を初演した。晩年をポッツオーリの修道院で過ごし、《スターバト・マーテル》を完成させた。
 - [セルゲイ・プロコフィエフ](https://veliq-academy.com/music/composers/prokofiev/): 1891年にロシア帝国のソンツォフカ（現ウクライナ）で生まれ、1953年3月5日にモスクワで没した作曲家・ピアニスト。1918年にロシアを離れてアメリカとパリで活動し、1936年にモスクワへ移った。《三つのオレンジへの恋》、《ロメオとジュリエット》、《ピーターと狼》、交響曲第5番を書いた。
 - [ジャコモ・プッチーニ](https://veliq-academy.com/music/composers/puccini/): 1858年12月22日にルッカで生まれ、1924年11月29日にブリュッセルで没したオペラ作曲家。ミラノ音楽院でバッツィーニとポンキエッリに学び、《マノン・レスコー》（1893年）、《ラ・ボエーム》（1896年）、《トスカ》（1900年）、《蝶々夫人》（1904年）を書いた。遺作《トゥーランドット》は未完のまま残され、1926年にスカラ座で初演された。
 - [ヘンリー・パーセル](https://veliq-academy.com/music/composers/purcell/): 1659年頃にロンドン（ウェストミンスター）で生まれ、1695年11月21日に没したイングランドの作曲家・オルガン奏者。1679年にウェストミンスター寺院のオルガン奏者、1682年に王室礼拝堂のオルガン奏者となり、《ディドとエネアス》、《アーサー王》（1691年）、《妖精の女王》（1692年）などの劇音楽と宮廷の頌歌、アンセムを書いた。
@@ -358,6 +359,7 @@
 - [ヨハン・ゼバスティアン・バッハ](https://veliq-academy.com/music/composers/bach-js/): 1685–1750
 - [ゲオルク・フリードリヒ・ヘンデル](https://veliq-academy.com/music/composers/handel/): 1685–1759
 - [ドメニコ・スカルラッティ](https://veliq-academy.com/music/composers/scarlatti-d/): 1685–1757
+- [ジョヴァンニ・バッティスタ・ペルゴレージ](https://veliq-academy.com/music/composers/pergolesi/): 1710–1736
 - [クリストフ・ヴィリバルト・グルック](https://veliq-academy.com/music/composers/gluck/): 1714–1787
 - [カール・フィリップ・エマヌエル・バッハ](https://veliq-academy.com/music/composers/bach-cpe/): 1714–1788
 - [フランツ・ヨーゼフ・ハイドン](https://veliq-academy.com/music/composers/haydn/): 1732–1809
@@ -430,7 +432,7 @@
 - [ヴィヴァルディ ヴァイオリン協奏曲集《四季》 作品8 第1〜4番](https://veliq-academy.com/music/works/vivaldi-four-seasons/): ヴィヴァルディ・1725年
 - [バッハ ミサ曲 ロ短調 BWV232](https://veliq-academy.com/music/works/bach-mass-b/): バッハ・1733–1749年
 - [テレマン ターフェルムジーク（食卓の音楽）《ミュジック・ド・ターブル》](https://veliq-academy.com/music/works/telemann-tafelmusik/): テレマン・1733年
-- [ペルゴレージ スターバト・マーテル ヘ短調](https://veliq-academy.com/music/works/pergolesi-stabat-mater/): ・1735–1736年
+- [ペルゴレージ スターバト・マーテル ヘ短調](https://veliq-academy.com/music/works/pergolesi-stabat-mater/): ペルゴレージ・1735–1736年
 - [スカルラッティ 鍵盤ソナタ集（K.1〜555）](https://veliq-academy.com/music/works/scarlatti-sonatas/): スカルラッティ・1738–1757年
 - [バッハ ゴルトベルク変奏曲 ト長調 BWV988](https://veliq-academy.com/music/works/bach-goldberg/): バッハ・1739–1741年
 - [ヘンデル オラトリオ《メサイア》 HWV56](https://veliq-academy.com/music/works/handel-messiah/): ヘンデル・1741年

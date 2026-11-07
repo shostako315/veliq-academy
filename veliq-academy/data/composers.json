@@ -3081,5 +3081,42 @@
     ],
     "youtubeIds": [],
     "spotifyArtistId": null
+  },
+  {
+    "id": "pergolesi",
+    "name": "ジョヴァンニ・バッティスタ・ペルゴレージ",
+    "nameEn": "Giovanni Battista Pergolesi",
+    "born": 1710,
+    "died": 1736,
+    "birthplace": "イェージ（教皇領）",
+    "nationality": "Italian",
+    "era": "baroque",
+    "portrait": null,
+    "thumbnail": null,
+    "shortBio": "イタリアの作曲家。ナポリで活動し、幕間劇《奥様女中》（1733年）と《スターバト・マーテル》（1736年）を書いて、26歳で没した。",
+    "longBio": "1710年1月4日、アンコーナに近いイェージに生まれた。イェージの貴族ピアネッティ侯の後援でナポリのポーヴェリ・ディ・ジェズ・クリスト音楽院に学んだ。1732年1月、ナポリのサン・バルトロメオ劇場でオペラ・セリア《サルスティア》を上演し、同じ年にフィオレンティーニ劇場でナポリ方言のオペラ・ブッファ《恋する修道士》を上演した。1733年8月28日、サン・バルトロメオ劇場でオペラ・セリア《誇り高い囚人》の幕間劇として《奥様女中》を初演した。1734年2月にナポリ市の副楽長となり、5月にマッダローニ公に招かれてローマでヘ長調のミサ曲を指揮した。1735年1月にはローマで《オリンピーアデ》が上演された。1735年夏に結核の療養のためポッツオーリに移り、修道院で《スターバト・マーテル》を完成させた。1736年3月にポッツオーリで26歳で没し、大聖堂の共同墓に葬られた。没後、1752年のパリでの《奥様女中》の上演がブフォン論争のきっかけとなった。",
+    "style": [
+      "幕間劇",
+      "ナポリ派オペラ",
+      "宗教曲"
+    ],
+    "keyWorks": [
+      "pergolesi-stabat-mater"
+    ],
+    "influencedBy": [],
+    "influenced": [],
+    "teachers": [],
+    "students": [],
+    "historicalContext": "baroque",
+    "difficulty": 2,
+    "tags": [
+      "baroque",
+      "opera",
+      "sacred",
+      "italian",
+      "naples"
+    ],
+    "youtubeIds": [],
+    "spotifyArtistId": null
   }
 ]
