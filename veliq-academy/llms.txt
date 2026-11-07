@@ -94,6 +94,7 @@
 - [セルゲイ・ラフマニノフ](https://veliq-academy.com/music/composers/rachmaninoff/): 1873年4月1日（旧暦3月20日）にロシアのノヴゴロド地方で生まれ、1943年3月28日にカリフォルニア州ビヴァリーヒルズで没した作曲家・ピアニスト・指揮者。ピアノ協奏曲第2番（1901年初演）、第3番（1909年初演）、《パガニーニの主題による狂詩曲》（1934年初演）を書き、1917年の革命後にロシアを離れて米国とスイスを拠点に演奏した。
 - [ジャン＝フィリップ・ラモー](https://veliq-academy.com/music/composers/rameau/): 1683年にディジョンで洗礼を受け、1764年にパリで没したフランスの作曲家・音楽理論家。1722年に『和声論』を出版し、1733年10月1日に50歳で最初の抒情悲劇《イポリートとアリシー》を初演した。以後《優雅なインドの国々》《カストールとポリュックス》《ダルダニュス》《プラテ》などの舞台作品とクラヴサン曲集を書いた。
 - [モーリス・ラヴェル](https://veliq-academy.com/music/composers/ravel/): 1875年にシブールで生まれ、1937年にパリで没したフランスの作曲家。1889年にパリ音楽院に入りフォーレに学んだ。バレエ・リュスのための《ダフニスとクロエ》（1912年初演）、イダ・ルビンシテインのための《ボレロ》（1928年初演）、2曲のピアノ協奏曲（1929〜31年）を書いた。
+- [スティーヴ・ライヒ](https://veliq-academy.com/music/composers/reich/): 1936年にニューヨークで生まれたアメリカの作曲家。コーネル大学で哲学を学んだのち、ジュリアード音楽院とミルズ・カレッジで作曲を学び、1960年代半ばに録音テープのループがずれていく「フェイズ」の手法を《雨が降りそうだ》（1965年）で用いた。1966年に自らの演奏団体を作り、《ドラミング》（1970〜71年）、《18人の音楽家のための音楽》（1974〜76年）、《ディファレント・トレインズ》（1988年）を書いた。2009年に《ダブル・セクステット》でピュリツァー賞を受けた。
 - [オットリーノ・レスピーギ](https://veliq-academy.com/music/composers/respighi/): 1879年7月9日にボローニャで生まれ、1936年4月18日にローマで没したイタリアの作曲家。サンクトペテルブルクでリムスキー＝コルサコフに学び、1913年からローマのサンタ・チェチーリア音楽院で作曲を教えた。《ローマの噴水》（1914〜16年）、《ローマの松》（1923〜24年）、《ローマの祭》（1928年）、《リュートのための古風な舞曲とアリア》を書いた。
 - [ニコライ・リムスキー＝コルサコフ](https://veliq-academy.com/music/composers/rimsky-korsakov/): 1844年にロシアのチフヴィンで生まれ、1908年にリュベンスクで没した作曲家。海軍兵学校を出て士官となり、1871年からサンクトペテルブルク音楽院で作曲と管弦楽法を教えた。「五人組」の一人で、オペラ15作のほか、《スペイン奇想曲》《シェエラザード》《ロシアの復活祭》序曲を書き、ムソルグスキーとボロディンの遺作を校訂・管弦楽化した。
 - [ジョアキーノ・ロッシーニ](https://veliq-academy.com/music/composers/rossini/): 1792年に教皇領ペーザロで生まれ、1868年にパリ近郊パッシーで没したオペラ作曲家。1810年から1829年の《ギヨーム・テル》までに約40のオペラを書き、《セビリャの理髪師》（1816年）、《チェネレントラ》（1817年）を初演した。オペラから退いたのちは《スターバト・マーテル》（1842年初演）、《小荘厳ミサ曲》（1864年初演）、《老いの過ち》を書いた。
@@ -512,7 +513,9 @@
 - [カールハインツ・シュトックハウゼン](https://veliq-academy.com/music/composers/stockhausen/): 1928–2007
 - [武満徹](https://veliq-academy.com/music/composers/takemitsu/): 1930–1996
 - [クシシュトフ・ペンデレツキ](https://veliq-academy.com/music/composers/penderecki/): 1933–2020
+- [アルフレート・シュニトケ](https://veliq-academy.com/music/composers/schnittke/): 1934–1998
 - [アルヴォ・ペルト](https://veliq-academy.com/music/composers/part/): 1935–
+- [スティーヴ・ライヒ](https://veliq-academy.com/music/composers/reich/): 1936–
 - [フィリップ・グラス](https://veliq-academy.com/music/composers/glass/): 1937–
 - [ジョン・アダムズ](https://veliq-academy.com/music/composers/adams/): 1947–
 - [細川俊夫](https://veliq-academy.com/music/composers/hosokawa/): 1955–
@@ -672,7 +675,7 @@
 - [ペンデレツキ 広島の犠牲者に捧げる哀歌](https://veliq-academy.com/music/works/penderecki-threnody/): ペンデレツキ・1960年
 - [リゲティ アトモスフェール](https://veliq-academy.com/music/works/ligeti-atmospheres/): リゲティ・1961年
 - [武満徹 ノヴェンバー・ステップス](https://veliq-academy.com/music/works/takemitsu-november/): 武満徹・1967年
-- [ライヒ 《18人の音楽家のための音楽》](https://veliq-academy.com/music/works/reich-music-for-18/): ・1974–1976年
+- [ライヒ 《18人の音楽家のための音楽》](https://veliq-academy.com/music/works/reich-music-for-18/): ライヒ・1974–1976年
 - [グレツキ 交響曲第3番 作品36《悲歌のシンフォニー》](https://veliq-academy.com/music/works/gorecki-symphony-3/): ・1976年
 - [ペルト タブラ・ラサ](https://veliq-academy.com/music/works/part-tabula/): ペルト・1977年
 - [武満徹 鳥は星形の庭に降りる](https://veliq-academy.com/music/works/takemitsu-flock/): 武満徹・1977年

@@ -9889,5 +9889,189 @@
       "serialism",
       "german"
     ]
+  },
+  {
+    "id": "reich-music-for-18",
+    "composerId": "reich",
+    "title": "18人の音楽家のための音楽",
+    "titleEn": "Music for 18 Musicians",
+    "year": "1974-1976",
+    "genre": "chamber",
+    "subgenre": "ensemble",
+    "era": "contemporary",
+    "key": "",
+    "opus": "",
+    "duration": 58,
+    "difficulty": 2,
+    "shortDescription": "1974年5月に最初のスケッチが書かれ、1976年3月に完成したアンサンブルと声のための作品。冒頭と終わりの11の和音の周期と、その各和音の上に組み立てられた小さな曲からなり、1976年4月24日にニューヨークのタウン・ホールで作曲者のアンサンブルが初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Pulses",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "11の和音の周期。各和音は2呼吸のあいだ保たれ、冒頭では各和音に15〜20秒かかる。",
+        "highlights": [
+          "声と管楽器の呼吸による脈動"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Section I",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "最初の和音を2台のピアノと2台のマリンバが保ち、その上に小さな曲が組み立てられる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Section II",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "2台のシロフォンと2台のピアノのカノンが初めて現れる。",
+        "highlights": [
+          "シロフォンとピアノのカノン"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Section IIIA",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "脈動がマリンバとシロフォンに移り、低音のピアノの和声が現れる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Section IIIB",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第3の和音の上の2つ目の曲。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Section IV",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "Section V",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "4台のピアノが用いられ、音型は《ヴァイオリン・フェイズ》から取られている。",
+        "highlights": [
+          "4台のピアノ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "Section VI",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "脈動がシロフォンとマラカスに移り、第3A部の低音のピアノの和声が別の旋律と楽器で戻る。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "Section VII",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "脈動はシロフォンとマラカスが受け持つ。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "Section VIII",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "Section IX",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "第2部のシロフォンとピアノのカノンが別の和声の上に戻る。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "Section X",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 13,
+        "title": "Section XI",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 14,
+        "title": "Pulses",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "冒頭の11の和音の周期が繰り返される。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "最初のスケッチは1974年5月に書かれ、作品は1976年3月に完成した。ライヒはこれに先立つ1973〜74年にガムランを学んでいた。初演は1976年4月24日、ニューヨークのタウン・ホールで、作曲者のアンサンブル、スティーヴ・ライヒ・アンド・ミュージシャンズが行った。楽譜はブージー・アンド・ホークスから出版され、作曲者のアンサンブルは1978年にECMに、1998年にノンサッチに録音した。",
+    "musicalAnalysis": "冒頭と終わりに11の和音の周期を置き、その間で各和音の上にひとつずつ（第3の和音には2つ）小さな曲を組み立てる。ピアノと鍵盤打楽器の一定の拍と、声と管楽器の呼吸の長さによる脈動が同時に進む。各部分はABCDCBAのアーチ形か、休符を拍に置き換えていく過程の形をとる。部分の変わり目は指揮者ではなく、ヴィブラフォンが一度だけ奏する音型で合図される。",
+    "listeningGuide": {
+      "totalTime": "約55〜58分",
+      "recommendedVersion": "スティーヴ・ライヒ・アンド・ミュージシャンズ（Nonesuch 79448、1996年録音）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "glass-einstein"
+    ],
+    "relatedComposers": [
+      "reich",
+      "glass"
+    ],
+    "tags": [
+      "contemporary",
+      "minimalism",
+      "american",
+      "ensemble"
+    ]
   }
 ]
