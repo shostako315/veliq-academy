@@ -17,10 +17,10 @@
       {
         "number": 1,
         "title": "Allegro",
-        "tempo": "Allegro",
+        "tempo": "",
         "key": "G-major",
         "duration": 5,
-        "description": "リトルネッロ形式による楽章。冒頭の動機が9つのパートの間で受け渡される。",
+        "description": "下の隣接音に下がって戻る3音の動機が各声部に受け渡される。",
         "highlights": [
           "リトルネッロ形式",
           "9パートによる動機の受け渡し"
@@ -45,7 +45,7 @@
         "tempo": "Allegro",
         "key": "G-major",
         "duration": 5,
-        "description": "12/8拍子の2部形式による終楽章。",
+        "description": "",
         "highlights": [
           "12/8拍子",
           "2部形式"
@@ -148,15 +148,125 @@
     "movements": [
       {
         "number": 1,
-        "title": "《春》第1楽章 Allegro",
+        "title": "《春》第1楽章",
         "tempo": "Allegro",
         "key": "E-major",
-        "duration": 3,
+        "duration": 4,
         "description": "ホ長調。ソネットの鳥の歌、泉のささやき、雷雨の各行に対応する部分がある。",
         "highlights": [
           "鳥の歌（独奏ヴァイオリンのトリル）",
           "雷雨"
         ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "《春》第2楽章",
+        "tempo": "Largo",
+        "key": "",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "《春》第3楽章",
+        "tempo": "Allegro（Danza pastorale）",
+        "key": "E-major",
+        "duration": 5,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "《夏》第1楽章",
+        "tempo": "Allegro non molto",
+        "key": "g-minor",
+        "duration": 6,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "《夏》第2楽章",
+        "tempo": "Adagio",
+        "key": "",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "《夏》第3楽章",
+        "tempo": "Presto",
+        "key": "g-minor",
+        "duration": 4,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "《秋》第1楽章",
+        "tempo": "Allegro",
+        "key": "F-major",
+        "duration": 5,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "《秋》第2楽章",
+        "tempo": "Adagio molto",
+        "key": "",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "《秋》第3楽章",
+        "tempo": "Allegro（La caccia）",
+        "key": "F-major",
+        "duration": 4,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "《冬》第1楽章",
+        "tempo": "Allegro non molto",
+        "key": "f-minor",
+        "duration": 4,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "《冬》第2楽章",
+        "tempo": "Largo",
+        "key": "",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "《冬》第3楽章",
+        "tempo": "Allegro",
+        "key": "f-minor",
+        "duration": 6,
+        "description": "",
+        "highlights": [],
         "youtubeId": null
       }
     ],
@@ -732,7 +842,7 @@
     "composerId": "chopin",
     "title": "バラード第1番 ト短調 作品23",
     "titleEn": "Ballade No. 1 in G minor, Op. 23",
-    "year": 1835,
+    "year": "1831-1835",
     "genre": "piano",
     "subgenre": "solo piano",
     "era": "romantic",
@@ -745,7 +855,7 @@
       {
         "number": 1,
         "title": "Largo – Moderato",
-        "tempo": "Largo - Moderato",
+        "tempo": "Largo – Moderato",
         "key": "g-minor",
         "duration": 10,
         "description": "Largoの短い導入の後、Moderatoでト短調の第1主題が始まる。最後はPresto con fuocoのコーダ。",
@@ -761,7 +871,7 @@
     "musicalAnalysis": "6/4拍子。2つの主題が提示され、調や性格を変えて再び現れる。最後はPresto con fuocoのコーダで終わる。",
     "listeningGuide": {
       "totalTime": "10分",
-      "recommendedVersion": "クリスティアン・ツィメルマン（ピアノ）",
+      "recommendedVersion": null,
       "youtubeId": null,
       "checkpoints": [
         {
@@ -885,7 +995,7 @@
         "title": "Adagio - Allegro non troppo",
         "tempo": "Adagio - Allegro non troppo",
         "key": "b-minor",
-        "duration": 18,
+        "duration": "",
         "description": "ファゴットの低い音域の序奏で始まり、ソナタ形式の主部に入る。",
         "highlights": [
           "ファゴットの序奏",
@@ -924,7 +1034,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1893年に作曲され、10月28日（新暦）にサンクトペテルブルクで初演された。チャイコフスキーは11月6日に没した。副題「悲愴（パテティーチェスカヤ）」は、弟モデストの提案を作曲者が採ったと、モデストが伝えている。甥のダヴィドフ（Vladimir Davydov）に献呈された。",
+    "historicalBackground": "1893年に作曲され、10月28日（新暦）にサンクトペテルブルクで初演された。チャイコフスキーは11月6日に没した。副題「悲愴」は、モデストが自分の提案によると伝えているが、出版者ユルゲンソンの1893年10月2日（新暦）付の書簡にすでに pathétique の語が現れる。甥のダヴィドフ（Vladimir Davydov）に献呈された。",
     "musicalAnalysis": "4楽章構成。第2楽章は5/4拍子のワルツ風の楽章、第3楽章は行進曲風の楽章で、第4楽章をAdagio lamentosoの遅い楽章とし、静かに終わる。",
     "listeningGuide": {
       "totalTime": "46分",
@@ -954,7 +1064,7 @@
     "composerId": "debussy",
     "title": "牧神の午後への前奏曲",
     "titleEn": "Prélude à l'après-midi d'un faune",
-    "year": 1894,
+    "year": "1892-1894",
     "genre": "orchestral",
     "subgenre": "tone poem",
     "era": "modern",
@@ -967,7 +1077,7 @@
       {
         "number": 1,
         "title": "Très modéré",
-        "tempo": "Très modéré",
+        "tempo": "",
         "key": "E-major",
         "duration": 10,
         "description": "独奏フルートの旋律で始まり、ホ長調で終わる。",
@@ -1214,9 +1324,49 @@
     "shortDescription": "アルマンド、クーラント、サラバンド、ジーグ、シャコンヌの5曲からなる無伴奏ヴァイオリン曲。終曲のシャコンヌは単独でも演奏される。",
     "movements": [
       {
+        "number": 1,
+        "title": "Allemanda",
+        "tempo": "Allemanda",
+        "key": "d-minor",
+        "duration": 5,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Corrente",
+        "tempo": "Corrente",
+        "key": "d-minor",
+        "duration": 3,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Sarabanda",
+        "tempo": "Sarabanda",
+        "key": "d-minor",
+        "duration": 4,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Giga",
+        "tempo": "Giga",
+        "key": "d-minor",
+        "duration": 4,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
         "number": 5,
         "title": "Ciaccona（シャコンヌ）",
-        "tempo": "",
+        "tempo": "Ciaccona",
         "key": "d-minor",
         "duration": 15,
         "description": "4小節の和声進行による変奏。ニ短調で始まり、中間部でニ長調に移り、ニ短調に戻って終わる。",
@@ -1476,9 +1626,9 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
+        "title": "Adagio – Vivace assai",
+        "tempo": "Adagio – Vivace assai",
+        "key": "G-major",
         "duration": 23,
         "description": "",
         "highlights": [],
@@ -1507,7 +1657,7 @@
       {
         "number": 4,
         "title": "Finale: Allegro di molto",
-        "tempo": "Finale: Allegro di molto",
+        "tempo": "Allegro di molto",
         "key": "G-major",
         "duration": null,
         "description": "",
@@ -1730,10 +1880,10 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 15,
+        "title": "Adagio sostenuto",
+        "tempo": "Adagio sostenuto",
+        "key": "c#-minor",
+        "duration": 6,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -1743,7 +1893,7 @@
         "title": "Allegretto",
         "tempo": "Allegretto",
         "key": "Db-major",
-        "duration": null,
+        "duration": 3,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -1753,7 +1903,7 @@
         "title": "Presto agitato",
         "tempo": "Presto agitato",
         "key": "c#-minor",
-        "duration": null,
+        "duration": 7,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -1985,22 +2135,32 @@
     "era": "romantic",
     "key": "b-minor",
     "opus": "D. 759",
-    "duration": 25,
+    "duration": 22,
     "difficulty": 1,
     "shortDescription": "1822年に作曲が始められ、2楽章だけが完成された交響曲。1865年にウィーンで初演された。",
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
+        "title": "Allegro moderato",
+        "tempo": "Allegro moderato",
+        "key": "b-minor",
         "duration": 25,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante con moto",
+        "tempo": "Andante con moto",
+        "key": "E-major",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "自筆総譜の第1ページに1822年10月30日の日付がある。第3楽章はピアノ・スケッチと総譜の冒頭部分が残る。シューベルトは楽譜を友人のアンゼルム・ヒュッテンブレンナー（Anselm Hüttenbrenner）に渡しており、作曲を中断した理由は記録に残っていない。1865年12月17日、ウィーンでヨハン・ヘルベック（Johann Herbeck）の指揮で初演された。番号は新しいドイチュ目録では第7番、従来は第8番とされる。",
+    "historicalBackground": "自筆総譜の表紙に1822年10月30日の日付がある（日付の筆跡は題と異なり、真正性に疑問が出されている）。第3楽章はピアノ・スケッチと総譜の冒頭部分が残る。シューベルトは楽譜を友人のアンゼルム・ヒュッテンブレンナー（Anselm Hüttenbrenner）に渡しており、作曲を中断した理由は記録に残っていない。1865年12月17日、ウィーンでヨハン・ヘルベック（Johann Herbeck）の指揮で初演された。番号は新しいドイチュ目録では第7番、従来は第8番とされる。",
     "musicalAnalysis": "完成しているのは第1楽章（Allegro moderato、ロ短調）と第2楽章（Andante con moto、ホ長調）である。",
     "listeningGuide": {
       "totalTime": "25分",
@@ -2026,16 +2186,16 @@
     "era": "romantic",
     "key": "A-major",
     "opus": "D. 667",
-    "duration": 38,
+    "duration": 40,
     "difficulty": 1,
     "shortDescription": "ピアノ、ヴァイオリン、ヴィオラ、チェロ、コントラバスのための5楽章の五重奏曲。第4楽章は自作の歌曲「ます」の旋律による変奏曲である。",
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 38,
+        "title": "Allegro vivace",
+        "tempo": "Allegro vivace",
+        "key": "A-major",
+        "duration": 13,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2045,7 +2205,7 @@
         "title": "Andante",
         "tempo": "Andante",
         "key": "F-major",
-        "duration": null,
+        "duration": 7,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2053,9 +2213,9 @@
       {
         "number": 3,
         "title": "Scherzo: Presto",
-        "tempo": "Scherzo: Presto",
+        "tempo": "Scherzo. Presto",
         "key": "A-major",
-        "duration": null,
+        "duration": 4,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2063,9 +2223,9 @@
       {
         "number": 4,
         "title": "Tema con variazioni: Andantino",
-        "tempo": "Tema con variazioni: Andantino",
+        "tempo": "Thema. Andantino – Variazioni I–V – Allegretto",
         "key": "D-major",
-        "duration": null,
+        "duration": 8,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2073,9 +2233,9 @@
       {
         "number": 5,
         "title": "Finale: Allegro giusto",
-        "tempo": "Finale: Allegro giusto",
+        "tempo": "Finale. Allegro giusto",
         "key": "A-major",
-        "duration": null,
+        "duration": 8,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2102,7 +2262,7 @@
     "composerId": "chopin",
     "title": "夜想曲第2番 変ホ長調 作品9-2",
     "titleEn": "Nocturne Op.9-2",
-    "year": 1832,
+    "year": "1830-1832",
     "genre": "piano",
     "era": "romantic",
     "key": "Eb-major",
@@ -2113,17 +2273,17 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
+        "title": "Andante",
+        "tempo": "Andante",
+        "key": "Eb-major",
         "duration": 5,
         "description": "",
         "highlights": [],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "作品9の3曲は1832年に出版され、マリー・プレイエル（Marie Pleyel）に献呈された。",
-    "musicalAnalysis": "12/8拍子。左手の分散和音の上で主題が装飾を変えながら繰り返される。",
+    "historicalBackground": "ドイツ初版（キストナー）1832年、フランス初版（シュレザンジェ）1833年、マリー・プレイエル（Marie Pleyel）に献呈された。",
+    "musicalAnalysis": "左手の分散和音の上で主題が装飾を変えながら繰り返される。",
     "listeningGuide": {
       "totalTime": "5分",
       "recommendedVersion": "",
@@ -2154,10 +2314,10 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 40,
+        "title": "Allegro maestoso",
+        "tempo": "Allegro maestoso",
+        "key": "e-minor",
+        "duration": 20,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2167,7 +2327,7 @@
         "title": "Romanze: Larghetto",
         "tempo": "Romanze: Larghetto",
         "key": "E-major",
-        "duration": null,
+        "duration": 10,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2177,13 +2337,13 @@
         "title": "Rondo: Vivace",
         "tempo": "Rondo: Vivace",
         "key": "E-major",
-        "duration": null,
+        "duration": 10,
         "description": "",
         "highlights": [],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1830年に作曲され、10月11日にワルシャワ国立劇場でのショパンの演奏会で初演された。ショパンは翌11月にワルシャワを離れ、二度と戻らなかった。1833年に出版され、ピアニストのカルクブレンナー（Friedrich Kalkbrenner）に献呈された。",
+    "historicalBackground": "1830年に作曲され、10月11日にワルシャワ国立劇場でのショパンの演奏会で初演された。ショパンは翌11月にワルシャワを離れ、二度と戻らなかった。1833年にパリとライプツィヒで出版され（初演の指揮はカルロ・ソリーヴァ）、ピアニストのカルクブレンナー（Friedrich Kalkbrenner）に献呈された。",
     "musicalAnalysis": "3楽章構成。第2楽章はロマンツェ（Larghetto、ホ長調）、第3楽章はポーランドの舞曲クラコヴィアクのリズムによるロンド。",
     "listeningGuide": {
       "totalTime": "40分",
@@ -2204,20 +2364,130 @@
     "composerId": "chopin",
     "title": "12の練習曲 作品10",
     "titleEn": "Études Op.10",
-    "year": 1833,
+    "year": "1829-1832",
     "genre": "piano",
     "era": "romantic",
     "opus": "Op. 10",
-    "duration": 25,
+    "duration": 30,
     "difficulty": 5,
     "shortDescription": "1829年から1832年にかけて書かれた12曲のピアノ練習曲。1833年に出版され、リストに献呈された。第12番は「革命」の通称で知られる。",
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 25,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "C-major",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "a-minor",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Lento ma non troppo",
+        "tempo": "Lento ma non troppo",
+        "key": "E-major",
+        "duration": 5,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Presto",
+        "tempo": "Presto",
+        "key": "c#-minor",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Vivace",
+        "tempo": "Vivace",
+        "key": "Gb-major",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Andante",
+        "tempo": "Andante",
+        "key": "eb-minor",
+        "duration": 4,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "Vivace",
+        "tempo": "Vivace",
+        "key": "C-major",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "F-major",
+        "duration": 3,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "Allegro molto agitato",
+        "tempo": "Allegro molto agitato",
+        "key": "f-minor",
+        "duration": 3,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "Vivace assai",
+        "tempo": "Vivace assai",
+        "key": "Ab-major",
+        "duration": 3,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "Allegretto",
+        "tempo": "Allegretto",
+        "key": "Eb-major",
+        "duration": 3,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "Allegro con fuoco",
+        "tempo": "Allegro con fuoco",
+        "key": "c-minor",
+        "duration": 3,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2243,7 +2513,7 @@
     "composerId": "liszt",
     "title": "ピアノ・ソナタ ロ短調 S.178",
     "titleEn": "Piano Sonata in B minor",
-    "year": 1853,
+    "year": "1852-1853",
     "genre": "piano",
     "era": "romantic",
     "key": "b-minor",
@@ -2263,7 +2533,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "自筆譜に1853年2月2日の完成の日付がある。1854年に出版され、ロベルト・シューマンに献呈された。公開初演は1857年1月27日、ベルリンでハンス・フォン・ビューロー（Hans von Bülow）による。",
+    "historicalBackground": "自筆譜に1853年2月2日の完成の日付がある。1854年4月にブライトコップフ・ウント・ヘルテルから出版され、ロベルト・シューマンに献呈された。公開初演は1857年1月22日（とみられる）、ベルリンでハンス・フォン・ビューロー（Hans von Bülow）による。",
     "musicalAnalysis": "切れ目のない単一楽章の中に、ソナタ形式の提示部・展開部・再現部と、複数楽章のソナタの緩徐楽章やフーガにあたる部分が組み込まれている。少数の主題が形を変えて全体に現れる。",
     "listeningGuide": {
       "totalTime": "30分",
@@ -2510,16 +2780,16 @@
     "genre": "symphony",
     "era": "romantic",
     "opus": "Op. 14",
-    "duration": 55,
+    "duration": 54,
     "difficulty": 2,
     "shortDescription": "ベルリオーズ自身が書いた筋書きをもつ5楽章の交響曲。1830年12月5日にパリ音楽院で初演された。",
     "movements": [
       {
         "number": 1,
         "title": "Rêveries – Passions: Largo – Allegro agitato e appassionato assai",
-        "tempo": "Rêveries – Passions: Largo – Allegro agitato e appassionato assai",
-        "key": "",
-        "duration": 55,
+        "tempo": "Largo – Allegro agitato e appassionato assai – Religiosamente",
+        "key": "c-minor",
+        "duration": 15,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2527,9 +2797,9 @@
       {
         "number": 2,
         "title": "Un bal: Allegro non troppo",
-        "tempo": "Un bal: Allegro non troppo",
+        "tempo": "Valse. Allegro non troppo",
         "key": "A-major",
-        "duration": null,
+        "duration": 6,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2537,9 +2807,9 @@
       {
         "number": 3,
         "title": "Scène aux champs: Adagio",
-        "tempo": "Scène aux champs: Adagio",
+        "tempo": "Adagio",
         "key": "F-major",
-        "duration": null,
+        "duration": 17,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2547,9 +2817,9 @@
       {
         "number": 4,
         "title": "Marche au supplice: Allegretto non troppo",
-        "tempo": "Marche au supplice: Allegretto non troppo",
+        "tempo": "Allegretto non troppo",
         "key": "g-minor",
-        "duration": null,
+        "duration": 7,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2557,9 +2827,9 @@
       {
         "number": 5,
         "title": "Songe d'une nuit du sabbat: Larghetto – Allegro",
-        "tempo": "Songe d'une nuit du sabbat: Larghetto – Allegro",
+        "tempo": "Larghetto – Allegro",
         "key": "",
-        "duration": null,
+        "duration": 10,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3077,7 +3347,7 @@
     "composerId": "tchaikovsky",
     "title": "ピアノ協奏曲第1番 変ロ短調 作品23",
     "titleEn": "Piano Concerto No.1",
-    "year": 1875,
+    "year": "1874-1875",
     "genre": "concerto",
     "era": "romantic",
     "key": "bb-minor",
@@ -3088,10 +3358,10 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 35,
+        "title": "Allegro non troppo e molto maestoso – Allegro con spirito",
+        "tempo": "Allegro non troppo e molto maestoso – Allegro con spirito",
+        "key": "bb-minor",
+        "duration": "",
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3117,7 +3387,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1874年12月、チャイコフスキーはモスクワ音楽院院長ニコライ・ルビンシテイン（Nikolai Rubinstein）にこの曲を弾いて聴かせ、厳しく批判されたと、後年の手紙に書いている。作品はハンス・フォン・ビューローに献呈され、1875年10月25日、ボストンでビューローの独奏により初演された。のちに改訂され、現在は主に1879年と1888年の改訂を経た版で演奏される。",
+    "historicalBackground": "1874年12月、チャイコフスキーはモスクワ音楽院院長ニコライ・ルビンシテイン（Nikolai Rubinstein）にこの曲を弾いて聴かせ、厳しく批判されたと、後年の手紙に書いている。作品はハンス・フォン・ビューローに献呈され、1875年10月25日、ボストンでビューローの独奏により初演された。のちに改訂され、現在は主に1879年と1888〜89年の改訂（ラーター社・ユルゲンソンの改訂版は1889年末）を経た版で演奏される。",
     "musicalAnalysis": "3楽章構成。第1楽章は4本のホルンの下行音型と、ピアノの和音の上で弦楽器が旋律を弾く長い序奏で始まる。この序奏の旋律は楽章の中で再び現れない。",
     "listeningGuide": {
       "totalTime": "35分",
@@ -3187,20 +3457,20 @@
     "opus": "Op. 49",
     "duration": 15,
     "difficulty": 1,
-    "shortDescription": "1812年のナポレオンのロシア遠征とその撤退を題材とする演奏会用序曲。1880年に作曲され、1882年にモスクワで初演された。",
+    "shortDescription": "1812年のナポレオンのロシア遠征とその撤退を題材とする演奏会用序曲。1880年に作曲され、1882年8月20日（新暦）にモスクワの博覧会で公式に初演された（それ以前の1882年7月にオゼルキとパヴロフスクで演奏されている）。",
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
+        "title": "Largo – Allegro giusto",
+        "tempo": "Largo – Allegro giusto",
+        "key": "Eb-major",
         "duration": 15,
         "description": "",
         "highlights": [],
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1882年のモスクワ全ロシア芸術産業博覧会のための作品として、ニコライ・ルビンシテインの勧めで1880年に作曲された。1882年8月20日（新暦）にモスクワで初演された。",
+    "historicalBackground": "1881年に予定され、1年延期されて1882年に開かれたモスクワ全ロシア芸術産業博覧会のための作品として、ニコライ・ルビンシテインの勧めで1880年に作曲された。1882年8月20日（新暦）にモスクワで初演された。",
     "musicalAnalysis": "ロシア正教の聖歌「神よ、汝の民を救い給え」で始まる。フランス国歌「ラ・マルセイエーズ」とロシア帝国国歌「神よツァーリを護り給え」の旋律が使われる。総譜には大砲と鐘が指定されている。",
     "listeningGuide": {
       "totalTime": "15分",
@@ -3292,10 +3562,40 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
+        "title": "朝",
+        "tempo": "Allegretto pastorale",
         "key": "",
-        "duration": 30,
+        "duration": 4,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "オーセの死",
+        "tempo": "Andante doloroso",
+        "key": "",
+        "duration": 4,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "アニトラの踊り",
+        "tempo": "Tempo di Mazurka",
+        "key": "",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "山の魔王の宮殿にて",
+        "tempo": "Alla marcia e molto marcato",
+        "key": "",
+        "duration": 3,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3322,14 +3622,14 @@
     "composerId": "saint-saens",
     "title": "交響曲第3番 ハ短調 作品78《オルガン付き》",
     "titleEn": "Organ Symphony",
-    "year": 1886,
+    "year": "1885-1886",
     "genre": "symphony",
     "era": "romantic",
     "key": "c-minor",
     "opus": "Op. 78",
     "duration": 36,
     "difficulty": 2,
-    "shortDescription": "ロンドン・フィルハーモニック協会の依頼で書かれた、オルガンとピアノを加えた交響曲。1886年5月19日にロンドンで作曲者の指揮で初演された。",
+    "shortDescription": "ロンドンのフィルハーモニック協会（現ロイヤル・フィルハーモニック協会）の依頼で書かれた、オルガンとピアノを加えた交響曲。1886年5月19日にロンドンで作曲者の指揮で初演された。",
     "movements": [
       {
         "number": 1,
@@ -3342,7 +3642,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "ロンドン・フィルハーモニック協会の依頼で書かれ、1886年5月19日、ロンドンのセント・ジェームズ・ホールでサン＝サーンスの指揮により初演された。同年7月に没したリストの思い出に献呈された。1995年の映画「ベイブ」で第4楽章の主題が使われた。",
+    "historicalBackground": "ロンドンのフィルハーモニック協会の名誉書記フランチェスコ・ベルジェの依頼で書かれ、1886年5月19日、ロンドンのセント・ジェームズ・ホールでサン＝サーンスの指揮により初演された。同年7月に没したリストの思い出に献呈された。1995年の映画「ベイブ」で第4楽章の主題が使われた。",
     "musicalAnalysis": "2つの部分からなり、それぞれが2つの楽章をつないだ形で、全体は4楽章にあたる。オルガンとピアノ（2人、4手）が加わる。第2部の後半はオルガンのハ長調の和音で始まる。",
     "listeningGuide": {
       "totalTime": "36分",
@@ -3402,7 +3702,7 @@
     "composerId": "bruckner",
     "title": "交響曲第7番 ホ長調 WAB107",
     "titleEn": "Symphony No.7",
-    "year": 1883,
+    "year": "1881-1883",
     "genre": "symphony",
     "era": "romantic",
     "key": "E-major",
@@ -3413,10 +3713,10 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 65,
+        "title": "Allegro moderato",
+        "tempo": "Allegro moderato",
+        "key": "E-major",
+        "duration": 20,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3426,7 +3726,7 @@
         "title": "Adagio: Sehr feierlich und sehr langsam",
         "tempo": "Adagio: Sehr feierlich und sehr langsam",
         "key": "c#-minor",
-        "duration": null,
+        "duration": 24,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3434,9 +3734,9 @@
       {
         "number": 3,
         "title": "Scherzo: Sehr schnell",
-        "tempo": "Scherzo: Sehr schnell",
+        "tempo": "Scherzo: Sehr schnell – Trio: Etwas langsamer",
         "key": "a-minor",
-        "duration": null,
+        "duration": 10,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3452,7 +3752,7 @@
         "youtubeId": null
       }
     ],
-    "historicalBackground": "1881年9月に書き始められ、1883年9月に完成した。第2楽章（Adagio）は1883年1月から4月にかけて書かれ、ブルックナーは後に指揮者モットル（Felix Mottl）への手紙で、ワーグナーの死を予感してこの楽章を書いたと述べている。ワーグナーは同年2月13日に没し、ブルックナーは楽章のコーダにワーグナー・テューバによる葬送の音楽を書いた。1884年12月30日にライプツィヒでアルトゥール・ニキシュ（Arthur Nikisch）の指揮により初演された。バイエルン王ルートヴィヒ2世に献呈された。",
+    "historicalBackground": "1881年9月に書き始められ、1883年9月に完成した。第2楽章は1883年1月22日に書き始められ、総譜は4月21日に完成、ブルックナーは後に指揮者モットル（Felix Mottl）への手紙で、ワーグナーの死を予感してこの楽章を書いたと述べている。ワーグナーは同年2月13日に没し、ブルックナーは楽章のコーダにワーグナー・テューバによる葬送の音楽を書いた。1884年12月30日にライプツィヒでアルトゥール・ニキシュ（Arthur Nikisch）の指揮により初演された。バイエルン王ルートヴィヒ2世に献呈された。",
     "musicalAnalysis": "4楽章構成。第2楽章で4本のワーグナー・テューバが使われる。第2楽章の頂点に打楽器（シンバル、トライアングル、ティンパニ）が入るかどうかは、版によって異なる。",
     "listeningGuide": {
       "totalTime": "65分",
@@ -3484,8 +3784,8 @@
         "number": 1,
         "title": "",
         "tempo": "",
-        "key": "",
-        "duration": 17,
+        "key": "C-major",
+        "duration": 16,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3747,11 +4047,11 @@
     "composerId": "strauss-r",
     "title": "オペラ《ばらの騎士》 作品59",
     "titleEn": "Der Rosenkavalier",
-    "year": 1910,
+    "year": "1909-1910",
     "genre": "opera",
     "era": "modern",
     "opus": "Op. 59",
-    "duration": 190,
+    "duration": 195,
     "difficulty": 3,
     "shortDescription": "ホフマンスタールの台本による3幕の喜劇。1911年1月26日にドレスデン宮廷歌劇場で初演された。",
     "movements": [
