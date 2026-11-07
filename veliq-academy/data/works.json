@@ -6191,5 +6191,300 @@
       "famous",
       "french"
     ]
+  },
+  {
+    "id": "paganini-caprices",
+    "composerId": "paganini",
+    "title": "無伴奏ヴァイオリンのための24のカプリース 作品1",
+    "titleEn": "24 Caprices for Solo Violin, Op. 1",
+    "year": "1802-1817",
+    "genre": "chamber",
+    "subgenre": "solo violin",
+    "era": "romantic",
+    "key": "",
+    "opus": "Op. 1",
+    "duration": 80,
+    "difficulty": 2,
+    "shortDescription": "無伴奏ヴァイオリンのための24曲。1820年にミラノのリコルディから作品1として「芸術家たちに」献じて出版された、パガニーニの最初の出版作品である。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1番",
+        "tempo": "Andante",
+        "key": "E-major",
+        "duration": null,
+        "description": "第1ポジションを拡げた手の形で4本の弦にまたがる分散和音を弾き、3度の重音とリコシェが加わる。",
+        "highlights": [
+          "分散和音",
+          "リコシェ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2番",
+        "tempo": "Moderato",
+        "key": "b-minor",
+        "duration": null,
+        "description": "弓が2本または3本の弦を渡りながら旋律を歌わせる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3番",
+        "tempo": "Sostenuto – Presto – Sostenuto",
+        "key": "e-minor",
+        "duration": null,
+        "description": "オクターヴのトリル。",
+        "highlights": [
+          "オクターヴのトリル"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4番",
+        "tempo": "Maestoso",
+        "key": "c-minor",
+        "duration": null,
+        "description": "3度と10度の重音が連なる。",
+        "highlights": [
+          "10度の重音"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第5番",
+        "tempo": "Agitato",
+        "key": "a-minor",
+        "duration": null,
+        "description": "無窮動の速い動きと、不規則なまとまりのリコシェ。",
+        "highlights": [
+          "無窮動"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "第6番",
+        "tempo": "Lento",
+        "key": "g-minor",
+        "duration": null,
+        "description": "旋律を押さえる指を保ったまま、別の指が伴奏の音型を刻む。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "第7番",
+        "tempo": "Posato",
+        "key": "a-minor",
+        "duration": null,
+        "description": "連続するオクターヴの旋律と上げ弓のリコシェ。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "第8番",
+        "tempo": "Maestoso",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "第9番",
+        "tempo": "Allegretto",
+        "key": "E-major",
+        "duration": null,
+        "description": "〈狩り〉。フルートとホルンの響きをまねる。",
+        "highlights": [
+          "フルートとホルンの模倣"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "第10番",
+        "tempo": "Vivace",
+        "key": "g-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "第11番",
+        "tempo": "Andante – Presto – Andante",
+        "key": "C-major",
+        "duration": null,
+        "description": "旋律と伴奏の両方をレガートで弾く。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "第12番",
+        "tempo": "Allegro",
+        "key": "Ab-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 13,
+        "title": "第13番",
+        "tempo": "Allegro",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "〈悪魔の笑い〉。レガートで下行する3度。",
+        "highlights": [
+          "下行する3度"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 14,
+        "title": "第14番",
+        "tempo": "Moderato",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 15,
+        "title": "第15番",
+        "tempo": "Posato",
+        "key": "e-minor",
+        "duration": null,
+        "description": "連続するオクターヴの旋律。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 16,
+        "title": "第16番",
+        "tempo": "Presto",
+        "key": "g-minor",
+        "duration": null,
+        "description": "無窮動。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 17,
+        "title": "第17番",
+        "tempo": "Sostenuto – Andante",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "中間部でオクターヴの速い移動がある。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 18,
+        "title": "第18番",
+        "tempo": "Corrente – Allegro",
+        "key": "C-major",
+        "duration": null,
+        "description": "最低弦での速い動き。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 19,
+        "title": "第19番",
+        "tempo": "Lento – Allegro assai",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "保続する音の上で旋律を保つ。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 20,
+        "title": "第20番",
+        "tempo": "Allegretto",
+        "key": "D-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 21,
+        "title": "第21番",
+        "tempo": "Amoroso – Presto",
+        "key": "A-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 22,
+        "title": "第22番",
+        "tempo": "Marcato",
+        "key": "F-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 23,
+        "title": "第23番",
+        "tempo": "Posato – Minore – Posato",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "連続するオクターヴの旋律。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 24,
+        "title": "第24番",
+        "tempo": "Tema. Quasi presto – Variazioni I–XI – Finale",
+        "key": "a-minor",
+        "duration": null,
+        "description": "主題、11の変奏、終結部からなる。左手のピッツィカートとハーモニクスが現れる。",
+        "highlights": [
+          "左手のピッツィカート",
+          "ハーモニクス"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "作曲の時期は確定しておらず、ヘンレ版の序文は不明とし、録音の解説には1802〜1817年とするものがある。自筆譜はリコルディ社の歴史資料館にあり、24曲が6曲・6曲・12曲の3部に分かれ、別人の筆で1817年11月24日の日付がある。初版は1820年にミラノのリコルディから版番号403で出版され、24曲がまとめて作品1とされた。パガニーニは初版の校正をしておらず、初版には多くの誤りがある。",
+    "musicalAnalysis": "24曲はそれぞれ調と速度表示が異なり、1曲の中で分散和音、重音、オクターヴ、リコシェ、左手のピッツィカート、ハーモニクスなどの技術が組み合わされる。第24番イ短調は主題、11の変奏、終結部からなり、シューマン、リスト、ブラームスらがこの曲や他のカプリースをピアノ曲に用いた。",
+    "listeningGuide": {
+      "totalTime": "約80分",
+      "recommendedVersion": "イツァーク・パールマン（1972年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "schumann-r",
+      "liszt",
+      "brahms",
+      "rachmaninoff"
+    ],
+    "tags": [
+      "chamber",
+      "romantic",
+      "violin",
+      "virtuoso",
+      "famous"
+    ]
   }
 ]
