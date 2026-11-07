@@ -8815,5 +8815,211 @@
       "furtwangler",
       "isenheim-altarpiece"
     ]
+  },
+  {
+    "id": "berg-violin-concerto",
+    "composerId": "berg",
+    "title": "ヴァイオリン協奏曲《ある天使の思い出に》",
+    "titleEn": "Violin Concerto \"To the Memory of an Angel\"",
+    "year": "1935",
+    "genre": "concerto",
+    "subgenre": "violin concerto",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 25,
+    "difficulty": 3,
+    "shortDescription": "ルイス・クラスナーの依頼で1935年5月から8月に書かれ、同年4月に18歳で没したマノン・グロピウスの思い出に献じられた2楽章の協奏曲。ベルクの没後、1936年4月19日にバルセロナでクラスナー独奏、シェルヘン指揮で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1楽章 Andante – Allegretto",
+        "tempo": "Andante – Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "ベルクが「前奏曲」と呼んだ Andante に、ワルツとレントラーを思わせる Allegretto が続く。Allegretto ではケルンテンの民謡がホルン、独奏ヴァイオリン、2本のトランペットの間で受け渡される。",
+        "highlights": [
+          "ヴァイオリンの開放弦の音で始まる音列",
+          "wienerisch の指示",
+          "ケルンテン民謡"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2楽章 Allegro – Adagio",
+        "tempo": "Allegro – Adagio",
+        "key": "",
+        "duration": null,
+        "description": "密集した不協和音で始まり、カデンツァを含む Allegro が頂点に達したのち、Adagio でバッハのカンタータ第60番のコラール《Es ist genug》が独奏ヴァイオリンと木管楽器に現れ、2つの変奏が続く。",
+        "highlights": [
+          "カデンツァ",
+          "コラール《Es ist genug》"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1935年2月、アメリカのヴァイオリン奏者ルイス・クラスナーがベルクに協奏曲を依頼した。同年4月22日、アルマ・マーラーとヴァルター・グロピウスの娘マノン・グロピウスがポリオのため18歳で没し、ベルクは作品を「ある天使の思い出に」献じた。作曲は5月から8月にケルンテンの森の家で行われ、ベルクは同年12月24日にウィーンで没した。初演は1936年4月19日、バルセロナの国際現代音楽協会の音楽祭で、クラスナー独奏、ヘルマン・シェルヘン指揮パウ・カザルス管弦楽団により行われ、5月1日にはウェーベルンがロンドンでBBCの管弦楽団を指揮した。",
+    "musicalAnalysis": "2つの楽章がそれぞれ2つの部分に分かれ、遅い―速い―速い―遅いのアーチをなす。十二音の音列 G–B♭–D–F♯–A–C–E–G♯–B–C♯–E♭–F は三和音を重ねた形で始まり、最後の4音がバッハのコラール《Es ist genug》の冒頭と一致する。第1楽章でケルンテン民謡、第2楽章の Adagio でコラールが引用される。",
+    "listeningGuide": {
+      "totalTime": "約25分",
+      "recommendedVersion": "イザベル・ファウスト、クラウディオ・アバド指揮オーケストラ・モーツァルト（Harmonia Mundi）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "berg-wozzeck"
+    ],
+    "relatedComposers": [
+      "bach-js",
+      "schoenberg"
+    ],
+    "tags": [
+      "concerto",
+      "violin",
+      "modern",
+      "twelve-tone",
+      "austrian"
+    ]
+  },
+  {
+    "id": "berg-wozzeck",
+    "composerId": "berg",
+    "title": "オペラ《ヴォツェック》作品7",
+    "titleEn": "Wozzeck, Op. 7",
+    "year": "1917-1922",
+    "genre": "opera",
+    "subgenre": "opera",
+    "era": "modern",
+    "key": "",
+    "opus": "Op.7",
+    "duration": 90,
+    "difficulty": 3,
+    "shortDescription": "ビューヒナーの未完の戯曲『ヴォイツェク』に基づき、ベルク自身が台本をまとめた3幕15場のオペラ。1925年12月14日にエーリヒ・クライバーの指揮でベルリン国立歌劇場で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕 ヴォツェックと周囲の世界（5つの性格的小品）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "組曲、3つの和音によるラプソディ、軍隊行進曲と子守歌、十二音の主題によるパッサカリア、アンダンテ・アフェットゥオーソ（クアジ・ロンド）の5場。第3場でマリーが子に子守歌を歌う。",
+        "highlights": [
+          "第3場の軍隊行進曲と子守歌",
+          "第4場のパッサカリア"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕 劇の展開（5楽章の交響曲）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ソナタ形式、幻想曲と三重フーガ、室内管弦楽によるラルゴ、スケルツォ、序奏とロンドの5場。第4場では居酒屋の楽隊が加わる。",
+        "highlights": [
+          "第2場の三重フーガ",
+          "第3場の室内管弦楽",
+          "第4場の居酒屋の楽隊"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3幕 破局と終結（6つのインヴェンション）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "主題、一つの音（ロ音）、リズム、6音の和音、調（ニ短調の間奏）、8分音符の一定の動きによるインヴェンション。第1場でマリーが聖書を読み、第4場のヴォツェックが溺れる音楽からニ短調の間奏に入り、第5場で子が母の死を知らされる。",
+        "highlights": [
+          "第1場の7つの変奏とフーガ",
+          "ニ短調の間奏",
+          "ppp で止まる終わり"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ベルクは1914年5月5日にビューヒナーの戯曲のウィーン初演を見てオペラ化に取りかかり、26の場面を15場に整理して自ら台本を作った。作曲は第一次世界大戦で中断し、短縮総譜が1921年、総譜が1922年4月に完成した。1924年6月11日、シェルヘンの勧めでまとめた《3つの断章》がフランクフルトで初演された。全曲は管弦楽だけで34回の稽古を経て、1925年12月14日にクライバーの指揮でベルリン国立歌劇場で初演され、アルマ・マーラーに献呈された。",
+    "musicalAnalysis": "3幕はそれぞれ「5つの性格的小品」「5楽章の交響曲」「6つのインヴェンション」とされ、各場が組曲、パッサカリア、ソナタ、フーガ、インヴェンションなどの器楽形式で書かれている。舞台上に軍楽隊、室内管弦楽、居酒屋の楽隊が加わる。主役のヴォツェックはバリトンで、シュプレヒシュティンメも用いる。",
+    "listeningGuide": {
+      "totalTime": "約90〜95分",
+      "recommendedVersion": "クラウディオ・アバド指揮ウィーン・フィルハーモニー管弦楽団、ウィーン国立歌劇場合唱団（DG、ライヴ録音）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "berg-violin-concerto"
+    ],
+    "relatedComposers": [
+      "schoenberg"
+    ],
+    "tags": [
+      "opera",
+      "modern",
+      "austrian",
+      "second-viennese-school"
+    ]
+  },
+  {
+    "id": "falla-three-cornered-hat",
+    "composerId": "falla",
+    "title": "バレエ《三角帽子》",
+    "titleEn": "The Three-Cornered Hat (El sombrero de tres picos)",
+    "year": "1916-1919",
+    "genre": "orchestral",
+    "subgenre": "ballet",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 34,
+    "difficulty": 1,
+    "shortDescription": "アラルコンの小説による2部のバレエで、メゾソプラノ独唱を伴う。1917年の室内合奏のパントマイム《代官と粉屋の女房》を改め、1919年7月22日にロンドンのアルハンブラ劇場でバレエ・リュスが初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "序奏・第1部（〈午後〉〈粉屋の女房の踊り（ファンダンゴ）〉〈ぶどう〉）",
+        "tempo": "",
+        "key": "",
+        "duration": 12,
+        "description": "カンテ・ホンドの歌と掛け声、カスタネットで始まる。粉屋の夫婦が登場し、女房が3拍子のファンダンゴを踊る。代官が割り込み、女房はぶどうを差し出してからかうように誘う。",
+        "highlights": [
+          "カンテ・ホンドと掛け声",
+          "ファンダンゴ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2部（〈近所の人たちの踊り（セギディーリャ）〉〈粉屋の踊り（ファルーカ）〉〈代官の踊り〉〈終幕の踊り（ホタ）〉）",
+        "tempo": "",
+        "key": "",
+        "duration": 21,
+        "description": "3拍子のセギディーリャで始まり、4分の4拍子のファルーカでは粉屋が代官と護衛に向き合う。終幕は村じゅうの人々のホタで、拍子は4分の3と8分の6の間で揺れる。",
+        "highlights": [
+          "ファルーカ",
+          "ベートーヴェン交響曲第5番の引用",
+          "終幕のホタ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "原作はアラルコンの小説『三角帽子』（1874年）で、台本はマリア・レハラガとグレゴリオ・マルティネス・シエラによる。ファリャは1916年にパントマイムに着手し、《代官と粉屋の女房》として1917年4月にマドリードのエスラバ劇場で、トゥリーナの指揮する小編成で初演された。ディアギレフの依頼で全管弦楽に広げ、舞曲を2曲加えたバレエ版は、1919年7月22日にロンドンのアルハンブラ劇場でアンセルメの指揮、マシーンの振付、ピカソの美術により初演された。総譜は1921年にチェスター社から出版された。",
+    "musicalAnalysis": "序奏と2部からなり、ファンダンゴ、セギディーリャ、ファルーカ、ホタのスペインの舞曲を中心に組まれている。冒頭と劇中にメゾソプラノの独唱があり、楽員の掛け声とカスタネットが加わる。ファルーカにはベートーヴェンの交響曲第5番の短い引用がある。ファリャはバレエから2つの組曲を編んだ。",
+    "listeningGuide": {
+      "totalTime": "34分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "beethoven"
+    ],
+    "tags": [
+      "orchestral",
+      "ballet",
+      "spanish",
+      "ballets-russes"
+    ]
   }
 ]

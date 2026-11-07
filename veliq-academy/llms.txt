@@ -24,6 +24,7 @@
 - [バルトーク・ベーラ](https://veliq-academy.com/music/composers/bartok/): 1881年にハンガリー王国のナジセントミクローシュで生まれ、1945年にニューヨークで没した作曲家・ピアニスト・民俗音楽研究者。1907年からブダペスト王立音楽院のピアノ教授を務め、コダーイと民謡を収集した。オペラ《青ひげ公の城》、6曲の弦楽四重奏曲、《弦楽器、打楽器とチェレスタのための音楽》、《管弦楽のための協奏曲》を書いた。
 - [ルートヴィヒ・ヴァン・ベートーヴェン](https://veliq-academy.com/music/composers/beethoven/): 1770年12月17日にボンで洗礼を受け、1827年3月26日にウィーンで没した作曲家・ピアニスト。ボンの宮廷楽団で働いたのち1792年11月にウィーンへ移り、ハイドンらに学んだ。交響曲9曲、ピアノ・ソナタ32曲、オペラ《フィデリオ》、ミサ・ソレムニス、後期の弦楽四重奏曲などがある。
 - [ヴィンチェンツォ・ベッリーニ](https://veliq-academy.com/music/composers/bellini/): 1801年にシチリアのカターニアで生まれ、1835年にパリ近郊ピュトーで没したイタリアのオペラ作曲家。ナポリの音楽院で学び、《海賊》（1827年）以降、台本作家フェリーチェ・ロマーニと組んで《夢遊病の女》《ノルマ》（ともに1831年）などを書いた。最後のオペラ《清教徒》は1835年にパリのテアトル・イタリアンで初演された。
+- [アルバン・ベルク](https://veliq-academy.com/music/composers/berg/): 1885年2月9日にウィーンで生まれ、1935年12月24日に同地で没したオーストリアの作曲家。1904年からシェーンベルクに学び、オペラ《ヴォツェック》（1925年ベルリン初演）、弦楽四重奏のための《抒情組曲》、未完のオペラ《ルル》、ヴァイオリン協奏曲《ある天使の思い出に》（1935年）を書いた。
 - [エクトル・ベルリオーズ](https://veliq-academy.com/music/composers/berlioz/): 1803年にイゼール県ラ・コート＝サン＝タンドレで医師の子として生まれ、1869年にパリで没した作曲家・評論家。1830年に《幻想交響曲》を初演し、《レクイエム》、《ロメオとジュリエット》、《ファウストの劫罰》、《キリストの幼時》、オペラ《トロイアの人々》を書いた。
 - [レナード・バーンスタイン](https://veliq-academy.com/music/composers/bernstein/): 1918年8月25日に米国マサチューセッツ州ローレンスで生まれ、1990年10月14日にニューヨークで没した指揮者・作曲家・ピアニスト。1958年から1969年までニューヨーク・フィルハーモニックの音楽監督を務め、米国生まれで初めてその地位に就いた。交響曲3曲、《チチェスター詩篇》（1965年）、ミュージカル《ウエスト・サイド・ストーリー》（1957年）を書いた。
 - [ジョルジュ・ビゼー](https://veliq-academy.com/music/composers/bizet/): 1838年10月25日にパリで生まれ、1875年6月3日にブージヴァルで没したフランスの作曲家。パリ音楽院でアレヴィらに学び、1857年にローマ大賞を得た。《真珠採り》（1863年）、《アルルの女》の付随音楽（1872年）を書き、《カルメン》は1875年3月3日にオペラ＝コミック座で初演された。
@@ -43,6 +44,7 @@
 - [ガエターノ・ドニゼッティ](https://veliq-academy.com/music/composers/donizetti/): 1797年にベルガモで生まれ、1848年に同地で没したイタリアのオペラ作曲家。《アンナ・ボレーナ》（1830年）、《愛の妙薬》（1832年）、《ランメルモールのルチア》（1835年）、《連隊の娘》（1840年）、《ドン・パスクワーレ》（1843年）など、イタリア語とフランス語のオペラを70作以上書いた。1842年にウィーンの宮廷楽長・宮廷作曲家に任じられた。
 - [アントニーン・ドヴォルザーク](https://veliq-academy.com/music/composers/dvorak/): 1841年にボヘミアのネラホゼヴェスで生まれ、1904年にプラハで没した作曲家。仮劇場管弦楽団のヴィオラ奏者を経て、1892〜95年にニューヨークのナショナル音楽院の院長を務め、交響曲第9番《新世界より》とチェロ協奏曲を書いた。1901年にプラハ音楽院の院長となり、同年オペラ《ルサルカ》を初演した。
 - [エドワード・エルガー](https://veliq-academy.com/music/composers/elgar/): 1857年6月2日にウスター近郊のブロードヒースで生まれ、1934年2月23日にウスターで没したイギリスの作曲家。作曲を独学で身につけ、《エニグマ変奏曲》（1899年）、オラトリオ《ゲロンティアスの夢》（1900年）、交響曲2曲、ヴァイオリン協奏曲（1910年）、チェロ協奏曲（1919年）を書いた。1904年にナイト、1924年に国王の音楽師範、1931年に准男爵となった。
+- [マヌエル・デ・ファリャ](https://veliq-academy.com/music/composers/falla/): 1876年11月23日にカディスで生まれ、1946年11月14日にアルゼンチンのアルタ・グラシアで没したスペインの作曲家。マドリードでペドレルに作曲を学び、1907〜14年にパリに住んだ。オペラ《はかなき人生》、バレエ《恋は魔術師》《三角帽子》、ピアノと管弦楽のための《スペインの庭の夜》、人形劇のためのオペラ《ペドロ親方の人形芝居》、チェンバロ協奏曲を書いた。
 - [ガブリエル・フォーレ](https://veliq-academy.com/music/composers/faure/): 1845年にパミエで生まれ、1924年にパリで没したフランスの作曲家・オルガン奏者。1896年にマドレーヌ教会の正オルガン奏者とパリ音楽院の作曲科教授になり、1905年から1920年まで同音楽院の院長を務めた。《レクイエム》作品48、オペラ《ペネロープ》（1913年初演）、100曲を超える歌曲を書いた。
 - [セザール・フランク](https://veliq-academy.com/music/composers/franck/): 1822年12月10日にリエージュで生まれ、1890年11月8日にパリで没した作曲家・オルガン奏者。1858年ごろからパリのサント＝クロティルド教会のオルガン奏者を務め、1872年にパリ音楽院のオルガン教授となった。交響曲 ニ短調、ヴァイオリン・ソナタ イ長調、ピアノ五重奏曲 ヘ短調、オラトリオ《至福》、オルガンのための《6つの小品》《3つのコラール》を書いた。
 - [ジョージ・ガーシュウィン](https://veliq-academy.com/music/composers/gershwin/): 1898年9月26日にニューヨークのブルックリンで生まれ、1937年7月11日にカリフォルニアで脳腫瘍のため没したアメリカの作曲家・ピアニスト。兄アイラの作詞でブロードウェイのミュージカルを書き、《ラプソディ・イン・ブルー》（1924年）、ピアノ協奏曲ヘ調（1925年）、《パリのアメリカ人》（1928年）、オペラ《ポーギーとベス》（1935年）を書いた。
@@ -446,11 +448,13 @@
 - [グスターヴ・ホルスト](https://veliq-academy.com/music/composers/holst/): 1874–1934
 - [チャールズ・アイヴズ](https://veliq-academy.com/music/composers/ives/): 1874–1954
 - [モーリス・ラヴェル](https://veliq-academy.com/music/composers/ravel/): 1875–1937
+- [マヌエル・デ・ファリャ](https://veliq-academy.com/music/composers/falla/): 1876–1946
 - [オットリーノ・レスピーギ](https://veliq-academy.com/music/composers/respighi/): 1879–1936
 - [バルトーク・ベーラ](https://veliq-academy.com/music/composers/bartok/): 1881–1945
 - [イーゴリ・ストラヴィンスキー](https://veliq-academy.com/music/composers/stravinsky/): 1882–1971
 - [ゾルターン・コダーイ](https://veliq-academy.com/music/composers/kodaly/): 1882–1967
 - [アントン・ウェーベルン](https://veliq-academy.com/music/composers/webern/): 1883–1945
+- [アルバン・ベルク](https://veliq-academy.com/music/composers/berg/): 1885–1935
 - [山田耕筰](https://veliq-academy.com/music/composers/yamada-kosaku/): 1886–1965
 - [セルゲイ・プロコフィエフ](https://veliq-academy.com/music/composers/prokofiev/): 1891–1953
 - [パウル・ヒンデミット](https://veliq-academy.com/music/composers/hindemith/): 1895–1963
@@ -592,9 +596,9 @@
 - [ストラヴィンスキー バレエ音楽《春の祭典》](https://veliq-academy.com/music/works/stravinsky-rite-of-spring/): ストラヴィンスキー・1911–1913年
 - [ニルセン 交響曲第4番 作品29《不滅》](https://veliq-academy.com/music/works/nielsen-symphony-4/): ニルセン・1914–1916年
 - [ホルスト 組曲《惑星》 作品32](https://veliq-academy.com/music/works/holst-planets/): ホルスト・1914–1916年
-- [ファリャ バレエ《三角帽子》](https://veliq-academy.com/music/works/falla-three-cornered-hat/): ・1916–1919年
+- [ファリャ バレエ《三角帽子》](https://veliq-academy.com/music/works/falla-three-cornered-hat/): ファリャ・1916–1919年
 - [プロコフィエフ ピアノ協奏曲第3番 ハ長調 作品26](https://veliq-academy.com/music/works/prokofiev-pc3/): プロコフィエフ・1917–1921年
-- [ベルク オペラ《ヴォツェック》作品7](https://veliq-academy.com/music/works/berg-wozzeck/): ・1917–1922年
+- [ベルク オペラ《ヴォツェック》作品7](https://veliq-academy.com/music/works/berg-wozzeck/): ベルク・1917–1922年
 - [エルガー チェロ協奏曲 ホ短調 作品85](https://veliq-academy.com/music/works/elgar-cello-concerto/): エルガー・1918–1919年
 - [レスピーギ 交響詩《ローマの松》](https://veliq-academy.com/music/works/respighi-pines/): レスピーギ・1923–1924年
 - [ガーシュウィン 《ラプソディ・イン・ブルー》](https://veliq-academy.com/music/works/gershwin-rhapsody-in-blue/): ガーシュウィン・1924年
@@ -603,7 +607,7 @@
 - [ラヴェル ボレロ](https://veliq-academy.com/music/works/ravel-bolero/): ラヴェル・1928年
 - [ヒンデミット 交響曲《画家マティス》](https://veliq-academy.com/music/works/hindemith-mathis/): ヒンデミット・1933–1934年
 - [プロコフィエフ バレエ音楽《ロメオとジュリエット》 作品64](https://veliq-academy.com/music/works/prokofiev-romeo/): プロコフィエフ・1935–1936年
-- [ベルク ヴァイオリン協奏曲《ある天使の思い出に》](https://veliq-academy.com/music/works/berg-violin-concerto/): ・1935年
+- [ベルク ヴァイオリン協奏曲《ある天使の思い出に》](https://veliq-academy.com/music/works/berg-violin-concerto/): ベルク・1935年
 - [バルトーク 弦楽器、打楽器とチェレスタのための音楽 Sz.106](https://veliq-academy.com/music/works/bartok-strings/): バルトーク・1936年
 - [ショスタコーヴィチ 交響曲第5番 ニ短調 作品47](https://veliq-academy.com/music/works/shostakovich-sym5/): ショスタコーヴィチ・1937年
 - [メシアン 世の終わりのための四重奏曲](https://veliq-academy.com/music/works/messiaen-quartet/): メシアン・1940–1941年
