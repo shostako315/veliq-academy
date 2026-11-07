@@ -151,6 +151,7 @@
 - [ショパン ピアノ協奏曲第1番 ホ短調 作品11](https://veliq-academy.com/music/works/chopin-concerto1/): 1830年、ヘ短調協奏曲（のちの第2番）の初演の後に作曲され、同年10月11日にワルシャワ国立劇場で、ショパンの独奏、カルロ・ソリーヴァの指揮により初演されたピアノ協奏曲。1833年にパリとライプツィヒで出版され、カルクブレンナーに献呈された。先に出版されたため第1番とされる。
 - [ショパン 12の練習曲 作品10](https://veliq-academy.com/music/works/chopin-etudes/): 1830年から1832年にかけて書かれた12曲のピアノ練習曲集。1833年にライプツィヒのキストナー、パリのシュレザンジェ、ロンドンのウェッセルから出版され、フランツ・リストに献呈された。第12番 ハ短調の通称「革命」は作曲者によるものではない。
 - [ショパン 夜想曲第2番 変ホ長調 作品9-2](https://veliq-academy.com/music/works/chopin-nocturne2/): 1830〜32年に書かれた3曲の夜想曲集作品9の第2曲。1832年にライプツィヒのキストナー、1833年にパリのシュレザンジェから出版され、ピアニストのマリー・プレイエル（カミーユ・プレイエル夫人）に献呈された。弟子の楽譜にショパンが書き込んだ装飾の異稿が残る。
+- [ドビュッシー 《ベルガマスク組曲》より第3曲〈月の光〉 変ニ長調](https://veliq-academy.com/music/works/debussy-clair/): ピアノのための《ベルガマスク組曲》の第3曲。最初の形は1891年2月21日に出版社ショデに渡され、最終稿は1905年4月にフロモンに渡されて同年6月に出版された。当初の題は「感傷的な散歩」。変ニ長調、9/8拍子、Andante très expressif。
 - [ドビュッシー 海 — 管弦楽のための3つの交響的素描](https://veliq-academy.com/music/works/debussy-la-mer/): 1903年8月に着手し、1905年3月5日に完成した3楽章の管弦楽曲。1905年10月15日、パリのラムルー管弦楽団の演奏会でカミーユ・シュヴィヤールの指揮により初演され、同年デュランから出版された。1909年に改訂版が出た。
 - [ドビュッシー 《牧神の午後への前奏曲》](https://veliq-academy.com/music/works/debussy-prelude-afternoon/): マラルメの詩《半獣神の午後》に基づき、1892年から1894年にかけて作曲された管弦楽曲。1894年12月22日、パリのアルクール会館で国民音楽協会の演奏会においてギュスターヴ・ドレの指揮で初演され、1895年10月にフロモン社から出版された。トランペット、トロンボーン、ティンパニを含まない編成で、ハープ2台とアンティーク・シンバルを用いる。
 - [ドヴォルザーク 交響曲第9番 ホ短調 作品95《新世界より》](https://veliq-academy.com/music/works/dvorak-sym9/): ドヴォルザークがニューヨークのナショナル音楽院の院長を務めていた1892年12月にスケッチを始め、1893年5月24日に総譜を完成した交響曲。1893年12月15日の公開総稽古と16日の演奏会で、ザイドル指揮ニューヨーク・フィルハーモニック協会により初演され、1894年にベルリンのジムロックから「第5番」として出版された。
@@ -427,6 +428,7 @@
 - [ブラームス ヴァイオリンとチェロのための協奏曲（二重協奏曲） イ短調 作品102](https://veliq-academy.com/music/works/brahms-double-concerto/): ブラームス・1887年
 - [マーラー 交響曲第2番 ハ短調《復活》](https://veliq-academy.com/music/works/mahler-symphony-2/): マーラー・1888–1894年
 - [グリーグ 《ペール・ギュント》第1組曲 作品46](https://veliq-academy.com/music/works/grieg-peer-gynt/): グリーグ・1888年
+- [ドビュッシー 《ベルガマスク組曲》より第3曲〈月の光〉 変ニ長調](https://veliq-academy.com/music/works/debussy-clair/): ドビュッシー・1890–1905年
 - [ドビュッシー 《牧神の午後への前奏曲》](https://veliq-academy.com/music/works/debussy-prelude-afternoon/): ドビュッシー・1892–1894年
 - [ドヴォルザーク 交響曲第9番 ホ短調 作品95《新世界より》](https://veliq-academy.com/music/works/dvorak-sym9/): ドヴォルザーク・1892–1893年
 - [チャイコフスキー 交響曲第6番 ロ短調 作品74《悲愴》](https://veliq-academy.com/music/works/tchaikovsky-symphony-6/): チャイコフスキー・1893年
@@ -440,7 +442,6 @@
 - [シベリウス 交響曲第2番 ニ長調 作品43](https://veliq-academy.com/music/works/sibelius-symphony-2/): シベリウス・1901–1902年
 - [ドビュッシー 海 — 管弦楽のための3つの交響的素描](https://veliq-academy.com/music/works/debussy-la-mer/): ドビュッシー・1903–1905年
 - [シベリウス ヴァイオリン協奏曲 ニ短調 作品47](https://veliq-academy.com/music/works/sibelius-violin-concerto/): シベリウス・1903–1904（1905年改訂）年
-- [月の光（《ベルガマスク組曲》第3曲）](https://veliq-academy.com/music/works/debussy-clair/): ドビュッシー・1905年
 - [ラヴェル バレエ音楽《ダフニスとクロエ》](https://veliq-academy.com/music/works/ravel-daphnis/): ラヴェル・1909–1912年
 - [大地の歌](https://veliq-academy.com/music/works/mahler-das-lied/): マーラー・1909年
 - [リヒャルト・シュトラウス オペラ《ばらの騎士》 作品59](https://veliq-academy.com/music/works/strauss-rosenkavalier/): シュトラウス・1909–1910年
