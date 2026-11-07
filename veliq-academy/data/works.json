@@ -6786,5 +6786,432 @@
       "english",
       "famous"
     ]
+  },
+  {
+    "id": "monteverdi-vespers",
+    "composerId": "monteverdi",
+    "title": "聖母マリアの夕べの祈り",
+    "titleEn": "Vespro della Beata Vergine (Vespers of 1610)",
+    "year": 1610,
+    "genre": "choral",
+    "subgenre": "vespers",
+    "era": "baroque",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 3,
+    "shortDescription": "1610年9月にヴェネツィアのアマディーノから、6声のミサ曲とともに1冊の曲集として出版され、教皇パウルス5世に献呈された晩課の音楽。詩篇5曲、コンチェルト4曲、ソナタ、賛歌、2つのマニフィカトなど14曲からなる。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Domine ad adiuvandum",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "先唱句と応唱。合唱が1つの和音の上で唱え、楽器が《オルフェオ》冒頭のトッカータの音楽で飾る。",
+        "highlights": [
+          "《オルフェオ》のトッカータ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Dixit Dominus",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "詩篇109。6声の合唱に独唱の部分と器楽の間奏が加わる。",
+        "highlights": [
+          "聖歌の定旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Nigra sum",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "コンチェルト。独唱のモテット。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Laudate pueri",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "詩篇112。合唱と独唱の部分が交替する。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Pulchra es",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "コンチェルト。ソプラノ2人の二重唱。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Laetatus sum",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "詩篇121。歩くバスの上で合唱と独唱が対話する。",
+        "highlights": [
+          "歩くバス"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "Duo Seraphim",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "コンチェルト。2声で始まり、三位一体を歌う箇所で3声目が加わる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "Nisi Dominus",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "詩篇126。5声の合唱2群による二重合唱。",
+        "highlights": [
+          "二重合唱"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "Audi coelum",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "コンチェルト。2人目の独唱者が1人目の句の終わりをこだまのように繰り返す。",
+        "highlights": [
+          "こだま（gaudio→audio）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "Lauda Jerusalem",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "詩篇147。合唱は高声3部、低声3部、定旋律を歌うテノールの3群に分かれる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "Sonata sopra Sancta Maria",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "器楽の上でソプラノが聖歌「聖マリアよ、われらのために祈りたまえ」を11回歌う。",
+        "highlights": [
+          "聖歌の11回の反復"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "Ave maris stella",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "賛歌。2群の合唱が最初と最後の節を一緒に歌い、中間の節は各合唱または独唱者が受け持つ。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 13,
+        "title": "Magnificat a 7",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "7声、楽器付き。節ごとに声と楽器の組み合わせが変わる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 14,
+        "title": "Magnificat a 6",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "6声、楽器なし。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "モンテヴェルディがマントヴァの宮廷楽長だった1610年9月に出版され、各声部のパート譜に教皇パウルス5世への献辞が載る。「聖母マリアの夕べの祈り」という題は通奏低音パートにだけ記されている。1610年10月、モンテヴェルディはローマで教皇に曲集を献上した。晩課の曲が当時演奏されたことを確かめる記録はなく、用途と初演地について説が分かれている。",
+    "musicalAnalysis": "詩篇・賛歌・マニフィカトはグレゴリオ聖歌を定旋律として用いる。詩篇の間に独唱・重唱のコンチェルト4曲が置かれている。第1曲の器楽は《オルフェオ》冒頭のトッカータを転用している。通奏低音パートはオルガンのために書かれ、多くの箇所で楽器は指定されていない。",
+    "listeningGuide": {
+      "totalTime": "",
+      "recommendedVersion": "アンドルー・パロット指揮 タヴァナー・コンソート（エラート）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "monteverdi-orfeo"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "choral",
+      "baroque",
+      "religious"
+    ]
+  },
+  {
+    "id": "mussorgsky-pictures",
+    "composerId": "mussorgsky",
+    "title": "組曲《展覧会の絵》",
+    "titleEn": "Pictures at an Exhibition",
+    "year": 1874,
+    "genre": "piano",
+    "subgenre": "piano suite",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": 35,
+    "difficulty": 1,
+    "shortDescription": "1873年に没した建築家・画家ハルトマンの遺作展に基づき、1874年6月に書かれたピアノ組曲。10曲の絵の間にプロムナードが挟まり、1922年のラヴェルによる管弦楽編曲でも演奏される。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "グノームス",
+        "tempo": "Sempre vivo",
+        "key": "",
+        "duration": null,
+        "description": "クリスマス・ツリーの飾りとしてハルトマンが考えた、くるみ割り人形のような木製の小人を描く。",
+        "highlights": [
+          "冒頭のプロムナードの後に置かれる"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "古城",
+        "tempo": "Andantino molto cantabile e con dolore",
+        "key": "",
+        "duration": null,
+        "description": "吟遊詩人のいる中世の城の水彩による。ラヴェル版では旋律をアルト・サクソフォーンが吹く。",
+        "highlights": [
+          "ラヴェル版のアルト・サクソフォーン"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "テュイルリー",
+        "tempo": "Allegretto non troppo, capriccioso",
+        "key": "",
+        "duration": null,
+        "description": "子どもたちと子守りでにぎわうパリの公園を描く。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "ビドウォ",
+        "tempo": "Sempre moderato, pesante",
+        "key": "",
+        "duration": null,
+        "description": "ポーランド語で「家畜」。大きな車輪の牛車を描く。原曲はフォルティッシモで始まり、ラヴェル版はピアニッシモで始めて旋律をテューバに与える。",
+        "highlights": [
+          "ラヴェル版のテューバ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "殻をつけた雛の踊り",
+        "tempo": "Scherzino – Trio: Vivo leggiero",
+        "key": "",
+        "duration": null,
+        "description": "1871年のバレエのためのハルトマンの衣装の図案による。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "「サムエル」・ゴールデンベルクと「シュムイレ」",
+        "tempo": "Andante. Grave – energico",
+        "key": "",
+        "duration": null,
+        "description": "ハルトマンの素描による、裕福な人物と貧しい人物の2人のポーランドのユダヤ人を描く。",
+        "highlights": [
+          "ラヴェル版のトランペット"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "リモージュ、市場",
+        "tempo": "Allegretto vivo, sempre scherzando",
+        "key": "",
+        "duration": null,
+        "description": "市場で言い争う女たちを描く。ラヴェル版ではこの曲の前のプロムナードが省かれる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "カタコンベ／死者とともに死者の言葉で",
+        "tempo": "Largo – Andante non troppo, con lamento",
+        "key": "",
+        "duration": null,
+        "description": "ランタンの灯りでパリのカタコンベを調べるハルトマン自身の絵による。続く部分はプロムナードの旋律を con lamento で扱う。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "鶏の足の上の小屋（バーバ・ヤガー）",
+        "tempo": "Allegro con brio, feroce",
+        "key": "",
+        "duration": null,
+        "description": "バーバ・ヤガーの小屋の形をした時計の絵による。ムソルグスキーは臼に乗って飛ぶ魔女を加えた。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "勇士の門（キエフの大門）",
+        "tempo": "Allegro alla breve. Maestoso. Con grandezza",
+        "key": "",
+        "duration": null,
+        "description": "アレクサンドル2世が暗殺を免れたことを記念してハルトマンが設計した、建てられなかったキエフの石の門による。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "建築家・挿絵画家ヴィクトル・ハルトマンは1873年夏に39歳で急死し、1874年春にスターソフがサンクトペテルブルクで遺作展を企画した。ムソルグスキーは1874年6月に組曲を書き、自筆譜は6月22日の日付をもつ。自筆譜はスターソフに献呈され、副題は「ヴィクトル・ハルトマンの思い出」である。作曲者の生前には出版されず、1886年にリムスキー＝コルサコフの改訂を含む形でベッセルから出版された。1922年にラヴェルがクーセヴィツキーのために管弦楽に編曲し、同年10月にパリ・オペラ座で初演された。",
+    "musicalAnalysis": "10曲の絵の間に、形を変えたプロムナードが挟まる。〈死者とともに死者の言葉で〉ではプロムナードの旋律が con lamento で扱われる。ラヴェル版は1886年の初版をもとに編曲され、〈リモージュ〉の前のプロムナードを省き、〈古城〉にアルト・サクソフォーン、〈ビドウォ〉にテューバを用いる。",
+    "listeningGuide": {
+      "totalTime": "約35分（ラヴェル編曲版）",
+      "recommendedVersion": "リッカルド・ムーティ指揮 フィラデルフィア管弦楽団（ラヴェル編曲版、1978年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "ravel",
+      "rimsky-korsakov"
+    ],
+    "tags": [
+      "piano",
+      "romantic",
+      "russian",
+      "programmatic",
+      "orchestration"
+    ]
+  },
+  {
+    "id": "scarlatti-sonatas",
+    "composerId": "scarlatti-d",
+    "title": "鍵盤ソナタ集 K.1〜555",
+    "titleEn": "Keyboard Sonatas, K. 1–555",
+    "year": "1738-1757",
+    "genre": "keyboard",
+    "subgenre": "sonata",
+    "era": "baroque",
+    "key": "",
+    "opus": "K. 1–555",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "カークパトリックの目録で555曲を数える単一楽章の鍵盤ソナタ。生前の出版は1738年の《チェンバロのための練習曲集》（K.1〜30）などに限られ、大半はスペインで作られた写本で伝わる。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "ソナタ イ短調 K.3",
+        "tempo": "Presto",
+        "key": "a-minor",
+        "duration": 4,
+        "description": "《練習曲集》の1曲。冒頭で両手が短く模倣し合い、広い音域の音階と分散和音、手の交差を扱う。",
+        "highlights": [
+          "両手の模倣",
+          "半音階とシンコペーション"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "ソナタ ト短調 K.30《猫のフーガ》",
+        "tempo": "Moderato",
+        "key": "g-minor",
+        "duration": 4,
+        "description": "《練習曲集》で唯一の4声のフーガ。主題は増2度と減4度の音程を含む。",
+        "highlights": [
+          "4声のフーガ",
+          "反復進行"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "ソナタ ハ長調 K.159《狩り》",
+        "tempo": "",
+        "key": "C-major",
+        "duration": 2,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "ソナタ イ長調 K.208",
+        "tempo": "Adagio e cantabile",
+        "key": "A-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "ソナタ ホ長調 K.380",
+        "tempo": "",
+        "key": "E-major",
+        "duration": null,
+        "description": "軍楽のファンファーレの音型を含む。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1738年、30曲（K.1〜30）が《チェンバロのための練習曲集》としてロンドンで出版され、ポルトガル王ジョアン5世に献呈された。ソナタの大部分は、スペインで作られたヴェネツィアの写本（15巻496曲、1742〜57年）とパルマの写本（15巻463曲、1752〜57年）で伝わる。自筆譜は残っていない。カークパトリックは1953年に555曲を推定の作曲順に番号付けし、この番号がロンゴの番号に代わった。",
+    "musicalAnalysis": "ほとんどが単一楽章の二部形式で、前半は主調から属調または平行長調へ転調し、後半で主調に戻る。手の交差、広い分散和音、跳躍、同音連打を用いる。多くの曲は写本で同じ調の2曲が対になって並ぶ。",
+    "listeningGuide": {
+      "totalTime": "",
+      "recommendedVersion": "スコット・ロス（チェンバロ、エラート、1984〜85年録音の全曲）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "bach-goldberg",
+      "bach-wtc1"
+    ],
+    "relatedComposers": [
+      "bach-js",
+      "handel",
+      "couperin-f"
+    ],
+    "tags": [
+      "keyboard",
+      "baroque",
+      "harpsichord",
+      "sonata"
+    ]
   }
 ]
