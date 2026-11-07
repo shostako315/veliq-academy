@@ -11771,5 +11771,95 @@
       "venice",
       "famous"
     ]
+  },
+  {
+    "id": "haydn-symphony-104",
+    "composerId": "haydn",
+    "title": "交響曲第104番 ニ長調 Hob. I:104《ロンドン》",
+    "titleEn": "Symphony No. 104 in D major, Hob. I:104 \"London\"",
+    "year": 1795,
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "classical",
+    "key": "D-major",
+    "opus": "Hob. I:104",
+    "duration": 30,
+    "difficulty": 1,
+    "shortDescription": "2度目のロンドン滞在中に1795年のシーズンのために書かれた、ハイドン最後の交響曲。1795年5月4日、キングズ劇場でのハイドン自身の慈善演奏会で演奏された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Adagio – Allegro",
+        "tempo": "Adagio – Allegro",
+        "key": "D-major",
+        "duration": null,
+        "description": "ニ短調の序奏で始まり、短い休止の後、ニ長調の Allegro に入る。第2主題はイ長調。",
+        "highlights": [
+          "ニ短調の序奏",
+          "ソナタ形式"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante",
+        "tempo": "Andante",
+        "key": "G-major",
+        "duration": null,
+        "description": "第1ヴァイオリンの旋律で始まり、ト短調の展開部を含む。",
+        "highlights": [
+          "ト短調の展開部"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Menuet: Allegro",
+        "tempo": "Allegro",
+        "key": "",
+        "duration": null,
+        "description": "メヌエットとトリオ。メヌエットには思いがけない休止が置かれ、トリオではオーボエとファゴットの独奏が前に出る。",
+        "highlights": [
+          "思いがけない休止"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Finale: Spiritoso",
+        "tempo": "Spiritoso",
+        "key": "",
+        "duration": null,
+        "description": "クロアチアのバラード「オイ・イェレナ」と同定された民謡風の主題によるソナタ形式の楽章。",
+        "highlights": [
+          "民謡風の主題"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1794年2月に始まった2度目のロンドン滞在中に、第102番、第103番とともに1795年のシーズンのために書かれた。1795年5月4日、キングズ劇場でのハイドン自身の慈善演奏会「ドクター・ハイドンの夜」で、ヴィオッティの率いる約60人の楽団により演奏され、ハイドンは日記にこの晩4000グルデンを得たと書いた。自筆譜はベルリン国立図書館にあり、表紙には「イングランドで作曲した12番目のもの」と書かれている。「ロンドン」の呼び名はハイドンによるものではない。",
+    "musicalAnalysis": "4楽章構成。第1楽章はニ短調の序奏 Adagio とニ長調の Allegro からなるソナタ形式で、展開部は序奏の溜息の動機と上行する分散和音で組み立てられる。第2楽章はト長調の Andante、第3楽章はメヌエットとトリオ。終楽章 Spiritoso の主題はクロアチアのバラード「オイ・イェレナ」と同定されている。",
+    "listeningGuide": {
+      "totalTime": "約30分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "haydn-sym94",
+      "haydn-creation",
+      "mozart-symphony-41",
+      "beethoven-symphony-3"
+    ],
+    "relatedComposers": [
+      "mozart-wa",
+      "beethoven"
+    ],
+    "tags": [
+      "symphony",
+      "classical",
+      "london",
+      "famous"
+    ]
   }
 ]
