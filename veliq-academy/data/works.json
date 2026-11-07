@@ -3409,11 +3409,11 @@
     "composerId": "tchaikovsky",
     "title": "バレエ音楽《白鳥の湖》 作品20",
     "titleEn": "Swan Lake",
-    "year": 1876,
+    "year": "1875-1876",
     "genre": "orchestral",
     "era": "romantic",
     "opus": "Op. 20",
-    "duration": 150,
+    "duration": 140,
     "difficulty": 1,
     "shortDescription": "モスクワのボリショイ劇場の依頼で書かれた4幕のバレエ。1877年に初演され、1895年にプティパとイワノフの新しい振付でサンクトペテルブルクで上演された。",
     "movements": [
@@ -3422,14 +3422,14 @@
         "title": "",
         "tempo": "",
         "key": "",
-        "duration": 150,
+        "duration": 140,
         "description": "",
         "highlights": [],
         "youtubeId": null
       }
     ],
     "historicalBackground": "1875年から1876年にかけて作曲された。1877年3月4日（新暦）にボリショイ劇場で、ライジンガー（Julius Reisinger）の振付により初演された。チャイコフスキーの没後、1895年1月27日（新暦）にマリインスキー劇場で、マリウス・プティパ（Marius Petipa）とレフ・イワノフ（Lev Ivanov）の振付、ドリゴ（Riccardo Drigo）が編曲・改変した音楽で上演された。現在の上演の多くはこの版を基にしている。",
-    "musicalAnalysis": "情景、ワルツ、各国の踊りなどの曲からなる。オーボエが奏でる「情景」の主題が、白鳥オデットに関わる場面で繰り返し現れる。",
+    "musicalAnalysis": "情景、ワルツ、各国の踊りなどの曲からなる。",
     "listeningGuide": {
       "totalTime": "150分",
       "recommendedVersion": "",
@@ -3491,7 +3491,7 @@
     "composerId": "grieg",
     "title": "ピアノ協奏曲 イ短調 作品16",
     "titleEn": "Piano Concerto",
-    "year": 1868,
+    "year": "1868-1869",
     "genre": "concerto",
     "era": "romantic",
     "key": "a-minor",
@@ -3503,9 +3503,9 @@
       {
         "number": 1,
         "title": "",
-        "tempo": "",
-        "key": "",
-        "duration": 30,
+        "tempo": "Allegro molto moderato",
+        "key": "a-minor",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3523,7 +3523,7 @@
       {
         "number": 3,
         "title": "Allegro moderato molto e marcato",
-        "tempo": "Allegro moderato molto e marcato",
+        "tempo": "Allegro moderato molto e marcato – Quasi presto – Andante maestoso",
         "key": "a-minor",
         "duration": null,
         "description": "",
