@@ -10073,5 +10073,366 @@
       "american",
       "ensemble"
     ]
+  },
+  {
+    "id": "glass-einstein",
+    "composerId": "glass",
+    "title": "浜辺のアインシュタイン",
+    "titleEn": "Einstein on the Beach",
+    "year": "1976",
+    "genre": "opera",
+    "subgenre": "",
+    "era": "contemporary",
+    "key": "",
+    "opus": "",
+    "duration": 270,
+    "difficulty": 3,
+    "shortDescription": "ロバート・ウィルソンとグラスが共同で作った4幕のオペラ。1976年7月25日にアヴィニョン音楽祭で初演され、5つのニー・プレイが幕をつなぎ、合唱は主に数と階名を歌う。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "ニー・プレイ1",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "序曲はなく、クリストファー・ノウルズのテキストで作品が始まる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第1幕第1場〈列車〉",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第1幕第2場〈裁判〉",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "ニー・プレイ2",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第2幕第1場〈ダンス1〉",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "2つの大きな舞踊の場面のひとつ。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "第2幕第2場〈夜行列車〉",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "ニー・プレイ3",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "第3幕第1場〈裁判／監獄〉",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "2つ目の裁判の場で、パティ・ハーストに変わっていく証人が登場する。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "第3幕第2場〈ダンス2〉",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "ニー・プレイ4",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "第4幕第1場〈建物〉",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "第4幕第2場〈ベッド〉",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 13,
+        "title": "第4幕第3場〈宇宙船〉",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "作品の頂点の場面で、合唱が非常に速く歌う。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 14,
+        "title": "ニー・プレイ5",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "作品を閉じる。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ミシェル・ギとアヴィニョン音楽祭の委嘱で、ロバート・ウィルソンとグラスが共同で作った、グラスの最初のオペラである。1976年7月25日にアヴィニョン音楽祭で初演され、ヨーロッパを巡演したのち、同年11月にウィルソンとグラスがメトロポリタン歌劇場を借りて日曜の2夜上演した。2夜とも満席だったが、2人は損失を出した。1984年にBAM、1992年にプリンストン、2012年からはモンペリエを皮切りに国際巡演で再演された。",
+    "musicalAnalysis": "4つの幕の前後と間に5つのニー・プレイを置き、休憩なしで約4時間半かかる。筋も通常のアリアもなく、合唱は主に数と階名を歌い、語りのテキストはノウルズ、ジョンソン、チャイルズが書いた。少数の和音と和音進行の上で、反復される型が加算的なリズムによって少しずつ変わる。木管3人、電気オルガン2、アインシュタインに扮したヴァイオリン独奏、独唱と合唱が増幅されて演奏する。",
+    "listeningGuide": {
+      "totalTime": "約4時間30分",
+      "recommendedVersion": "フィリップ・グラス・アンサンブル、マイケル・リーズマンほか（Nonesuch、1993年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "reich-music-for-18"
+    ],
+    "relatedComposers": [
+      "glass",
+      "reich"
+    ],
+    "tags": [
+      "contemporary",
+      "opera",
+      "minimalism",
+      "american"
+    ]
+  },
+  {
+    "id": "lutoslawski-concerto-for-orchestra",
+    "composerId": "lutoslawski",
+    "title": "管弦楽のための協奏曲",
+    "titleEn": "Concerto for Orchestra",
+    "year": "1950-1954",
+    "genre": "orchestral",
+    "subgenre": "orchestral",
+    "era": "contemporary",
+    "key": "",
+    "opus": "",
+    "duration": 29,
+    "difficulty": 2,
+    "shortDescription": "ワルシャワ・フィルハーモニーの音楽監督ロヴィツキの求めで1950〜54年に書かれた3楽章の管弦楽曲。マゾフシェ地方の民謡を素材とし、1954年11月26日にロヴィツキの指揮で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Intrada",
+        "tempo": "Allegro maestoso",
+        "key": "",
+        "duration": null,
+        "description": "嬰ヘ音の保続音の上で始まり、マゾフシェ地方の旋律がチェロに現れて管弦楽の各群に受け渡される。",
+        "highlights": [
+          "嬰ヘ音の保続音",
+          "チェロの民謡旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Capriccio notturno e Arioso",
+        "tempo": "Vivace – Stesso movimento",
+        "key": "",
+        "duration": null,
+        "description": "スケルツォとトリオに当たる3部分の楽章。中間のアリオーソは同じテンポで、トランペットが民謡風の旋律を出す。",
+        "highlights": [
+          "アリオーソのトランペット",
+          "分割コントラバスと太鼓の終わり"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Passacaglia, Toccata e Corale",
+        "tempo": "Andante con moto – Allegro giusto – Molto allegro – Presto",
+        "key": "",
+        "duration": null,
+        "description": "最も長い楽章。コントラバスとハープで始まるパッサカリア、トッカータ、オーボエとクラリネットのコラール、コーダからなる。",
+        "highlights": [
+          "パッサカリアの主題が低音域から高音域へ上る",
+          "オーボエとクラリネットのコラール"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1950年、ワルシャワ・フィルハーモニーの音楽監督ヴィトルト・ロヴィツキが、新しく組織された楽団のために、民俗音楽に基づき難しすぎない曲をルトスワフスキに求めた。作曲にはほぼ4年を要し、1954年に完成した。素材はコルベルクの民謡集のマゾフシェ地方の巻から取られている。1954年11月26日、ワルシャワのローマ・ホールでロヴィツキ指揮ワルシャワ・フィルハーモニーが初演し、1955年に国家賞を受けた。献呈はロヴィツキ。",
+    "musicalAnalysis": "3楽章からなり、ソナタ形式に近い楽章はない。作品全体の調の中心は嬰ヘ音で、民謡の旋律に12音を自由に用いた和声と対位法を組み合わせている。第3楽章はパッサカリア、トッカータ、コラール、コーダの部分からなり、パッサカリアの主題が形を変えて最後の部分に戻る。",
+    "listeningGuide": {
+      "totalTime": "約29分",
+      "recommendedVersion": "エドワード・ガードナー指揮 BBC交響楽団（Chandos、2010年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "bartok"
+    ],
+    "tags": [
+      "orchestral",
+      "contemporary",
+      "polish",
+      "folk"
+    ]
+  },
+  {
+    "id": "schnittke-concerto-grosso-1",
+    "composerId": "schnittke",
+    "title": "合奏協奏曲第1番",
+    "titleEn": "Concerto Grosso No. 1",
+    "year": "1977",
+    "genre": "concerto",
+    "subgenre": "concerto grosso",
+    "era": "contemporary",
+    "key": "",
+    "opus": "",
+    "duration": 25,
+    "difficulty": 3,
+    "shortDescription": "ギドン・クレーメルとタチアナ・グリンデンコの依頼で1977年に書かれた、2つのヴァイオリン、チェンバロ、プリペアド・ピアノと弦楽のための6楽章の合奏協奏曲。1977年3月21日にレニングラードで初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1楽章 前奏曲 Andante",
+        "tempo": "Andante",
+        "key": "",
+        "duration": null,
+        "description": "映画音楽から取った子どもの合唱のコラールで始まる。プリペアド・ピアノのオクターヴの響きが用いられる。",
+        "highlights": [
+          "子どもの合唱のコラール",
+          "プリペアド・ピアノ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2楽章 トッカータ Allegro",
+        "tempo": "Allegro",
+        "key": "",
+        "duration": null,
+        "description": "2人の独奏者が始める。中間部のトリオに、映画音楽から取った無調のセレナードが置かれる。",
+        "highlights": [
+          "無調のセレナード"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3楽章 レチタティーヴォ Lento",
+        "tempo": "Lento",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4楽章 カデンツァ",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "結びにアニメーション映画《蝶》の音楽が使われる。",
+        "highlights": [
+          "映画《蝶》の音楽"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第5楽章 ロンド Agitato",
+        "tempo": "Agitato",
+        "key": "",
+        "duration": null,
+        "description": "映画《ピョートル大帝がアラップを結婚させた話》の歌に由来するバロック風の旋律で始まり、映画《苦悶》（1974年）のタンゴが現れる。頂点で第1楽章のコラールが戻る。",
+        "highlights": [
+          "タンゴ",
+          "コラールの回帰"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "第6楽章 後奏曲 Andante",
+        "tempo": "Andante",
+        "key": "",
+        "duration": null,
+        "description": "前奏曲と同じく、プリペアド・ピアノのオクターヴの響きが用いられる。",
+        "highlights": [
+          "プリペアド・ピアノ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ヴァイオリン奏者ギドン・クレーメルとタチアナ・グリンデンコの依頼で1977年に書かれ、シュニトケが1993年までに書いた6曲の合奏協奏曲の第1作となった。初演は1977年3月21日、レニングラードで、クレーメルとグリンデンコの独奏、ユーリー・スミルノフの鍵盤、エリ・クラス指揮レニングラード室内管弦楽団により行われた。同じ1977年、シュニトケはこの曲の鍵盤奏者として初めて西側への演奏旅行に出た。1988年にはオーボエ奏者ルパチョフの求めで、独奏をフルートとオーボエに置き換えた版が作られた。",
+    "musicalAnalysis": "前奏曲、トッカータ、レチタティーヴォ、カデンツァ、ロンド、後奏曲の6楽章を切れ目なく演奏する。シュニトケ自身の映画音楽から、子どもの合唱のコラール、無調のセレナード、タンゴなどの素材が転用されている。ピアノは電気的に増幅され、いくつかのオクターヴにプリパレーションが施される。",
+    "listeningGuide": {
+      "totalTime": "約25分",
+      "recommendedVersion": "ギドン・クレーメル、タチアナ・グリンデンコ、ユーリー・スミルノフ、ハインリヒ・シフ指揮ヨーロッパ室内管弦楽団（Deutsche Grammophon）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "corelli",
+      "vivaldi"
+    ],
+    "tags": [
+      "concerto",
+      "concerto-grosso",
+      "contemporary",
+      "polystylism",
+      "violin"
+    ]
   }
 ]

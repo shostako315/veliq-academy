@@ -12,6 +12,7 @@ sources:
   - "IRCAM, Brahms（Base de documentation sur la musique contemporaine）「Witold Lutosławski」（1939年にドイツ軍の捕虜となり脱走、1940〜45年カフェのピアニスト、1944年ワルシャワ蜂起で初期作品の大半を失う、交響曲第1番1948年初演と「形式主義」、弦楽四重奏曲のラサール四重奏団によるストックホルム初演、《書》のハーゲン初演、《ミ・パルティ》のアムステルダム、交響曲第4番のサロネンの要請による委嘱、各賞）. https://brahms.ircam.fr/en/witold-lutoslawski（閲覧日 2026-11-07）"
   - "culture.pl「Witold Lutosławski」（1930年の《キメラの踊り》の演奏、1926〜32年のヴァイオリン、1931〜33年の数学、1936年・1937年の卒業、《交響的変奏曲》1936年着手・1938年初演、時期区分）. https://culture.pl/tr/artist/witold-lutoslawski（閲覧日 2026-11-07）"
   - "Robert Kirzinger, „Concerto for Orchestra“, Boston Symphony Orchestra, program note（1949年からの社会主義リアリズム、交響曲第1番の演奏禁止、1960年にケージのピアノ協奏曲の放送を聴いたこと、没日を2月8日とする）. https://www.bso.org/works/concerto-for-orchestra-lutoslawski（閲覧日 2026-11-07）"
+  - "David B. Levy, „Witold Lutosławski: Concerto for Orchestra“, Winston-Salem Symphony, program note, 2022（父ユゼフ〔1881〜1918〕、モスクワでの処刑、1918年末の帰国。没日を2月9日とする）. https://www.wssymphony.org/program-notes/lutoslawski-concerto-for-orchestra/（閲覧日 2026-11-07）"
   - "Steven Stucky, „Symphony No. 4“, Los Angeles Philharmonic / Hollywood Bowl, program note（1992年8月22日完成、ロサンジェルス・フィルの委嘱とベティ・フリーマン、1993年2月5日に作曲者指揮で初演）. https://www.hollywoodbowl.com/musicdb/pieces/5217/symphony-no-4-la-phil-commission（閲覧日 2026-11-07）"
   - "culture.pl「Concerto for Orchestra — Witold Lutosławski」（1954年11月26日の初演、ローマ・ホール、ロヴィツキ、1955年の国家賞、ZDF Magazin）. https://culture.pl/en/work/concerto-for-orchestra-witold-lutoslawski（閲覧日 2026-11-07）"
   - "Encyclopedia of World Biography（Gale）, „Witold Lutosławski“, Encyclopedia.com（1959年に国際現代音楽協会の会長とする記述、交響曲第3番へのグラウメイヤー賞、交響曲第3番のロサンジェルス・フィルの録音への1986年の諸賞）. https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/witold-lutoslawski（閲覧日 2026-11-07）"
@@ -28,6 +29,7 @@ sources:
 | 年 | 出来事 |
 |---|---|
 | 1913 | 1月25日、ワルシャワに生まれる |
+| 1918 | 父ユゼフがモスクワでボリシェヴィキに処刑される。年末に一家がポーランドへ戻る |
 | 1926 | ヴァイオリンを習い始める（1932年まで） |
 | 1928 | ヴィトルト・マリシェフスキに私的に理論と作曲を学び始める |
 | 1930 | ピアノ曲《キメラの踊り》 |
@@ -57,6 +59,8 @@ sources:
 ### 修業時代（1913〜1939年）
 
 ヴィトルト・ルトスワフスキ（Witold Lutosławski）は1913年1月25日、ワルシャワに生まれた。[（Polish Music Center）](https://polishmusic.usc.edu/?p=258)6歳でヘレナ・ホフマンにピアノを習い始め、1924年からユゼフ・シミドヴィチ、のちにA・タウベに学んだ。1926年から1932年までリディア・キミトヴァにヴァイオリンを習った。1928年から4年間、ヴィトルト・マリシェフスキ（Witold Maliszewski）に私的に理論と作曲を学び、1930年にピアノ曲《キメラの踊り》を書いた。[（POLMIC）](https://polmic.pl/en/encyclopedia/subject-entries/l/lutoslawski-witold-en)マリシェフスキはリムスキー＝コルサコフの弟子である。[（Polish Music Center）](https://polishmusic.usc.edu/?p=258)
+
+ウィンストン・セーラム交響楽団の解説によれば、ルトスワフスキはアマチュアのピアニストであったユゼフ・ルトスワフスキ（1881〜1918）の末子である。一家がモスクワに移った後、父はボリシェヴィキに処刑された。一家はその後ウクライナに移り、1918年末にポーランドへ戻った。[（Winston-Salem Symphony）](https://www.wssymphony.org/program-notes/lutoslawski-concerto-for-orchestra/)
 
 1932年にワルシャワ音楽院に入学し、マリシェフスキに作曲を、イェジ・レフェルト（Jerzy Lefeld）にピアノを学んだ。1931年から1933年まではワルシャワ大学で数学も学んでいる。1936年にピアノ、1937年に作曲の課程を修了した。作曲の修了作品は、ソプラノ、混声合唱と管弦楽のための《レクイエム》である。[（POLMIC）](https://polmic.pl/en/encyclopedia/subject-entries/l/lutoslawski-witold-en)南カリフォルニア大学ポーランド音楽センターは、音楽院入学を1927年（聴講生として）としている。[（Polish Music Center）](https://polishmusic.usc.edu/?p=258)
 
@@ -171,7 +175,7 @@ POLMIC の事典は、ルトスワフスキの作品をおおよそ次のよう�
 
 ## もっと深く
 
-- **没日**：ポーランド音楽センター、POLMIC、IRCAM、ルトスワフスキ協会は1994年2月7日とする。ボストン交響楽団の解説は2月8日としている。[（Boston Symphony Orchestra）](https://www.bso.org/works/concerto-for-orchestra-lutoslawski)
+- **没日**：ポーランド音楽センター、POLMIC、IRCAM、ルトスワフスキ協会は1994年2月7日とする。ボストン交響楽団の解説は2月8日、ウィンストン・セーラム交響楽団の解説は2月9日としている。[（Boston Symphony Orchestra）](https://www.bso.org/works/concerto-for-orchestra-lutoslawski)
 - **《交響的変奏曲》の初演年**：1938年（POLMIC、culture.pl）と1939年（ルトスワフスキ協会）の2説がある。
 - **音楽院入学の年**：POLMIC は1932年、ポーランド音楽センターは聴講生としての入学を1927年とし、IRCAM はマリシェフスキへの師事を1927年からとする。
 - **失われた作品**：1944年のワルシャワ蜂起で初期作品の大半が失われ、戦時中の作品で出版されたのは《パガニーニの主題による変奏曲》だけである。

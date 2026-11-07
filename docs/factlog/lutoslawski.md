@@ -11,12 +11,14 @@
 - [BSO] Boston Symphony, Kirzinger https://www.bso.org/works/concerto-for-orchestra-lutoslawski
 - [LAP] LA Phil / Hollywood Bowl, Stucky「Symphony No. 4」 https://www.hollywoodbowl.com/musicdb/pieces/5217/symphony-no-4-la-phil-commission
 - [WMC] Wise Music Classical「Catalogue Classics」2024
+- [WSS] Winston-Salem Symphony, Levy 2022 https://www.wssymphony.org/program-notes/lutoslawski-concerto-for-orchestra/
 - [GALE] Encyclopedia of World Biography（Gale）, Encyclopedia.com
 
 | 事実 | 資料 | 備考・異説 |
 |---|---|---|
 | 1913年1月25日ワルシャワ生まれ | [PMC]、[POL]、[IRC]、[BSO] | |
-| 1994年2月7日ワルシャワ没 | [PMC]、[POL]、[IRC]、[TWL2]、[GALE] | [BSO] は2月8日 |
+| 1994年2月7日ワルシャワ没 | [PMC]、[POL]、[IRC]、[TWL2]、[GALE] | [BSO] は2月8日、[WSS] は2月9日 |
+| 父ユゼフ（1881〜1918）、モスクワで処刑、1918年末帰国 | [WSS] | この1資料のみ。WSS の頁には他作品の文が混入しており、出典として弱い |
 | 6歳でピアノ（ホフマン）、1924年からシミドヴィチ、のちタウベ | [POL] | [CPL] も6歳 |
 | ヴァイオリン 1926〜32年（キミトヴァ） | [POL]、[CPL] | [PMC] は1926年開始のみ |
 | 1928年からマリシェフスキに私的に4年 | [POL] | [IRC] は1927年から |
@@ -58,4 +60,4 @@
 | 国外では1960年代まで比較的知られず | [WMC] | |
 | グレツキ、ペンデレツキが先達とみなした | [BSO] | |
 
-削った事柄：父ユゼフの死（1918年）、交響曲第3番のシカゴ初演（ショルティ指揮、日付）、チェロ協奏曲のロンドン初演（1970年）、ピアノ協奏曲のザルツブルク初演（1988年）、死因。いずれも開けた資料で確かめられなかった。[GALE] の「占領ドイツ軍の無線部隊に勤務」という記述は他の資料と合わず採らなかった。
+削った事柄：交響曲第3番のシカゴ初演（ショルティ指揮、日付）、チェロ協奏曲のロンドン初演（1970年）、ピアノ協奏曲のザルツブルク初演（1988年）、死因。いずれも開けた資料で確かめられなかった。[GALE] の「占領ドイツ軍の無線部隊に勤務」という記述は他の資料と合わず採らなかった。
