@@ -15,6 +15,7 @@
     ".vq-stk.vq-stk.vq-stk [data-label]::before{content:attr(data-label);display:block;font-size:12px;font-weight:600;opacity:.6;margin:0 0 2px}";
   var st = document.createElement("style"); st.textContent = css; document.head.appendChild(st);
   function txt(c) { return (c.textContent || "").replace(/\s+/g, "").length; }
+  function run() {
   [].forEach.call(document.querySelectorAll("main table, article table, .wrap table"), function (t) {
     if (t.classList.contains("vq-stk") || t.querySelector("input,select,textarea,button,table")) return;
     var rows = [].slice.call(t.rows); if (rows.length < 2) return;
@@ -25,7 +26,7 @@
     var ncol = Math.max.apply(null, body.map(function (r) { return r.cells.length; }));
     if (ncol < 2 || ncol > 5) return;
     if (body.some(function (r) { return [].some.call(r.cells, function (c) { return c.colSpan > 1 || c.rowSpan > 1; }); })) return;
-    var box = t.parentElement; if (box && t.offsetWidth > box.clientWidth + 2) return; /* 横スクロール前提 */
+    /* 横に送る表でも、5列以下で細い列に詰まっていれば段に組み替える（2026-11-07） */
     /* 狭い列で文字が4行以上に折れているセルがあるときだけ組み替える（数字の短い表はそのまま） */
     var tight = body.some(function (r) {
       return [].some.call(r.cells, function (c) {
@@ -45,4 +46,9 @@
     if (head && !(t.tHead && t.tHead.contains(head))) head.classList.add("vq-stk-hide");
     t.classList.add("vq-stk");
   });
+  }
+  run();
+  /* 書体の読み込みや画像で幅が変わったあとにもう一度（組み替え済みの表には触らない） */
+  window.addEventListener("load", run);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(run);
 })();

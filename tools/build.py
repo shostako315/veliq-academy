@@ -40,7 +40,7 @@ QUIZ_BANK = (Path(os.environ["VELIQ_CLUB_DIR"]) / "quiz-bank.js" if os.environ.g
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "11"
+CSS_V = "12"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
@@ -863,7 +863,7 @@ def footer(S, extra_js=""):
   </div>
 </footer>
 <script src="/assets/vq.js?v={CSS_V}" defer></script>{extra_js}
-<script src="/assets/vq-stack.js" defer></script>
+<script src="/assets/vq-stack.js?v={CSS_V}" defer></script>
 </body>
 </html>
 """
@@ -1076,7 +1076,7 @@ def build_work(S, wid):
             w = dict(w, historicalBackground=autolink(S, esc(w["historicalBackground"]), v["path"]))
             body += sec("成立", f'<p>{w["historicalBackground"]}</p>', "va-body")
     # 楽章の表（楽章｜速度｜調｜聴きどころ）
-    mv = [m for m in (w or {}).get("movements", []) if (m.get("title") or m.get("description"))]
+    mv = [m for m in (w or {}).get("movements", []) if (m.get("title") or m.get("description") or m.get("tempo") or m.get("key"))]
     if mv:
         many = len(w["movements"]) > 1 or w.get("genre") in ("symphony", "concerto", "chamber")
         tr = ""

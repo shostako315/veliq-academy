@@ -512,3 +512,16 @@ footer.gf{margin-top:64px;padding:40px 0 48px}
   .va-art .va-body>.va-toc summary::-webkit-details-marker{display:none}
   .va-art .va-body>.va-toc summary::after{display:none}
 }
+/* 楽章の表：スマホでは1楽章ずつの段に（楽章→速度・調→聴きどころ）。細い列に縦書きのように詰まるのを防ぐ（2026-11-07） */
+@media(max-width:640px){
+.va-tbl table.va-mt.va-mt,.va-tbl .va-mt tbody,.va-tbl .va-mt tr,.va-tbl .va-mt th,.va-tbl .va-mt td{display:block!important;width:auto!important;min-width:0!important;max-width:none!important}
+.va-tbl .va-mt thead{display:none}
+.va-tbl .va-mt tr{padding:14px 0;border-bottom:1px solid var(--line)}
+.va-tbl .va-mt tr:last-child{border-bottom:0}
+.va-tbl .va-mt th,.va-tbl .va-mt td{padding:0;border:0;white-space:normal!important;overflow-wrap:anywhere}
+.va-tbl .va-mt th{font-size:15px;font-weight:700;margin:0 0 4px}
+.va-tbl .va-mt td:nth-child(2),.va-tbl .va-mt td:nth-child(3){display:inline!important;font-size:14px;color:var(--ink)}
+.va-tbl .va-mt td:nth-child(3):not(:empty)::before{content:"・"}.va-tbl .va-mt td:nth-child(2):empty+td::before{content:none}
+.va-tbl .va-mt td:nth-child(4){margin-top:6px;font-size:14px;line-height:1.75}
+.va-tbl .va-mt td:nth-child(4):empty{display:none!important}
+}

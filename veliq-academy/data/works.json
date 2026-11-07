@@ -319,6 +319,36 @@
           "ソナタ形式"
         ],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante",
+        "tempo": "Andante",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Menuetto: Allegretto",
+        "tempo": "Menuetto: Allegretto",
+        "key": "g-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Allegro assai",
+        "tempo": "Allegro assai",
+        "key": "g-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "モーツァルトの自作目録によれば1788年7月25日に完成した。第39番（6月26日）、第41番（8月10日）とともに約6週間で書かれた。初演の記録は残っていない。のちにモーツァルト自身がクラリネットを加えた版を作った。",
@@ -374,6 +404,36 @@
         "highlights": [
           "ソナタ形式"
         ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante cantabile",
+        "tempo": "Andante cantabile",
+        "key": "F-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Menuetto: Allegretto",
+        "tempo": "Menuetto: Allegretto",
+        "key": "C-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Molto allegro",
+        "tempo": "Molto allegro",
+        "key": "C-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
         "youtubeId": null
       }
     ],
@@ -832,6 +892,36 @@
           "ニ長調の第2主題"
         ],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Allegro con grazia",
+        "tempo": "Allegro con grazia",
+        "key": "D-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro molto vivace",
+        "tempo": "Allegro molto vivace",
+        "key": "G-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Finale: Adagio lamentoso",
+        "tempo": "Finale: Adagio lamentoso",
+        "key": "b-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "1893年に作曲され、10月28日（新暦）にサンクトペテルブルクで初演された。チャイコフスキーは11月6日に没した。副題「悲愴（パテティーチェスカヤ）」は、弟モデストの提案を作曲者が採ったと、モデストが伝えている。甥のダヴィドフ（Vladimir Davydov）に献呈された。",
@@ -992,6 +1082,46 @@
         "highlights": [
           "低弦の冒頭"
         ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante moderato",
+        "tempo": "Andante moderato",
+        "key": "Ab-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "In ruhig fließender Bewegung",
+        "tempo": "In ruhig fließender Bewegung",
+        "key": "c-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Urlicht: Sehr feierlich, aber schlicht",
+        "tempo": "Urlicht: Sehr feierlich, aber schlicht",
+        "key": "Db-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Im Tempo des Scherzos",
+        "tempo": "Im Tempo des Scherzos",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
         "youtubeId": null
       }
     ],
@@ -1353,6 +1483,36 @@
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante",
+        "tempo": "Andante",
+        "key": "C-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Menuetto: Allegro molto",
+        "tempo": "Menuetto: Allegro molto",
+        "key": "G-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Finale: Allegro di molto",
+        "tempo": "Finale: Allegro di molto",
+        "key": "G-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "1791年に作曲され、1792年3月23日にロンドンのハノーヴァー・スクエア・ルームズで、ザロモンの演奏会で初演された。「驚愕」の呼び名は作曲者によるものではない。ハイドンは後に伝記作家グリージンガー（Georg August Griesinger）に、聴衆を驚かせる新しいものを書きたかったと語っている。",
@@ -1515,6 +1675,26 @@
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante",
+        "tempo": "Andante",
+        "key": "F-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro vivace assai",
+        "tempo": "Allegro vivace assai",
+        "key": "C-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "モーツァルトの自作目録によれば1785年3月9日に完成した。3月10日、ウィーンのブルク劇場でのモーツァルトの演奏会で、作曲者の独奏により初演された。",
@@ -1554,6 +1734,26 @@
         "tempo": "",
         "key": "",
         "duration": 15,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Allegretto",
+        "tempo": "Allegretto",
+        "key": "Db-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Presto agitato",
+        "tempo": "Presto agitato",
+        "key": "c#-minor",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -1598,6 +1798,26 @@
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio un poco mosso",
+        "tempo": "Adagio un poco mosso",
+        "key": "B-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Rondo: Allegro",
+        "tempo": "Rondo: Allegro",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "1809年に作曲された。この年の5月、フランス軍がウィーンを砲撃し占領している。1811年11月28日にライプツィヒのゲヴァントハウスで、フリードリヒ・シュナイダー（Friedrich Schneider）の独奏で初演された。ルドルフ大公に献呈された。",
@@ -1636,6 +1856,26 @@
         "tempo": "",
         "key": "",
         "duration": 18,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio cantabile",
+        "tempo": "Adagio cantabile",
+        "key": "Ab-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Rondo: Allegro",
+        "tempo": "Rondo: Allegro",
+        "key": "c-minor",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -1799,6 +2039,46 @@
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante",
+        "tempo": "Andante",
+        "key": "F-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scherzo: Presto",
+        "tempo": "Scherzo: Presto",
+        "key": "A-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Tema con variazioni: Andantino",
+        "tempo": "Tema con variazioni: Andantino",
+        "key": "D-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Finale: Allegro giusto",
+        "tempo": "Finale: Allegro giusto",
+        "key": "A-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "1819年に作曲されたとされる。シューベルトの友人シュタードラー（Albert Stadler）の回想によれば、オーストリアのシュタイアーの音楽愛好家でチェロを弾いたパウムガルトナー（Sylvester Paumgartner）の依頼で書かれ、歌曲「ます」による変奏曲を入れることもパウムガルトナーの希望だった。出版はシューベルトの死後の1829年。",
@@ -1878,6 +2158,26 @@
         "tempo": "",
         "key": "",
         "duration": 40,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Romanze: Larghetto",
+        "tempo": "Romanze: Larghetto",
+        "key": "E-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Rondo: Vivace",
+        "tempo": "Rondo: Vivace",
+        "key": "E-major",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2084,6 +2384,26 @@
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio",
+        "tempo": "Adagio",
+        "key": "D-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Rondo: Allegro non troppo",
+        "tempo": "Rondo: Allegro non troppo",
+        "key": "d-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "1854年に2台ピアノのためのソナタとして書き始められ、交響曲への改作を経て、ピアノ協奏曲として1858年に完成した。1859年1月22日、ハノーファーでブラームスの独奏、ヨアヒムの指揮により初演された。5日後のライプツィヒ・ゲヴァントハウスでの演奏は聴衆に受け入れられなかったと、ブラームス自身が手紙に書いている。",
@@ -2196,10 +2516,50 @@
     "movements": [
       {
         "number": 1,
-        "title": "",
-        "tempo": "",
+        "title": "Rêveries – Passions: Largo – Allegro agitato e appassionato assai",
+        "tempo": "Rêveries – Passions: Largo – Allegro agitato e appassionato assai",
         "key": "",
         "duration": 55,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Un bal: Allegro non troppo",
+        "tempo": "Un bal: Allegro non troppo",
+        "key": "A-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scène aux champs: Adagio",
+        "tempo": "Scène aux champs: Adagio",
+        "key": "F-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Marche au supplice: Allegretto non troppo",
+        "tempo": "Marche au supplice: Allegretto non troppo",
+        "key": "g-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Songe d'une nuit du sabbat: Larghetto – Allegro",
+        "tempo": "Songe d'une nuit du sabbat: Larghetto – Allegro",
+        "key": "",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2241,6 +2601,26 @@
         "tempo": "",
         "key": "",
         "duration": 28,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante",
+        "tempo": "Andante",
+        "key": "C-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegretto non troppo – Allegro molto vivace",
+        "tempo": "Allegretto non troppo – Allegro molto vivace",
+        "key": "E-major",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2327,6 +2707,26 @@
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Intermezzo: Andantino grazioso",
+        "tempo": "Intermezzo: Andantino grazioso",
+        "key": "F-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro vivace",
+        "tempo": "Allegro vivace",
+        "key": "A-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "1841年にピアノと管弦楽のための単一楽章の「幻想曲」として書かれ、1845年に第2・第3楽章を加えて協奏曲とした。1845年12月4日、ドレスデンでクララ・シューマンの独奏、フェルディナント・ヒラー（Ferdinand Hiller）の指揮で初演された。ヒラーに献呈された。",
@@ -2407,6 +2807,36 @@
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Largo",
+        "tempo": "Largo",
+        "key": "Db-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scherzo: Molto vivace",
+        "tempo": "Scherzo: Molto vivace",
+        "key": "e-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Allegro con fuoco",
+        "tempo": "Allegro con fuoco",
+        "key": "e-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "1893年1月から5月にかけてニューヨークで作曲された。1893年12月16日、カーネギー・ホールでアントン・ザイドル（Anton Seidl）指揮のニューヨーク・フィルハーモニック協会により初演された。「新世界より」の副題はドヴォルザーク自身が総譜に書いた。",
@@ -2445,6 +2875,26 @@
         "tempo": "",
         "key": "",
         "duration": 40,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio ma non troppo",
+        "tempo": "Adagio ma non troppo",
+        "key": "G-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Finale: Allegro moderato",
+        "tempo": "Finale: Allegro moderato",
+        "key": "b-minor",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2645,6 +3095,26 @@
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andantino semplice",
+        "tempo": "Andantino semplice",
+        "key": "Db-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro con fuoco",
+        "tempo": "Allegro con fuoco",
+        "key": "bb-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "1874年12月、チャイコフスキーはモスクワ音楽院院長ニコライ・ルビンシテイン（Nikolai Rubinstein）にこの曲を弾いて聴かせ、厳しく批判されたと、後年の手紙に書いている。作品はハンス・フォン・ビューローに献呈され、1875年10月25日、ボストンでビューローの独奏により初演された。のちに改訂され、現在は主に1879年と1888年の改訂を経た版で演奏される。",
@@ -2766,6 +3236,26 @@
         "tempo": "",
         "key": "",
         "duration": 30,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio",
+        "tempo": "Adagio",
+        "key": "Db-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro moderato molto e marcato",
+        "tempo": "Allegro moderato molto e marcato",
+        "key": "a-minor",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -2927,6 +3417,36 @@
         "tempo": "",
         "key": "",
         "duration": 65,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio: Sehr feierlich und sehr langsam",
+        "tempo": "Adagio: Sehr feierlich und sehr langsam",
+        "key": "c#-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scherzo: Sehr schnell",
+        "tempo": "Scherzo: Sehr schnell",
+        "key": "a-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Finale: Bewegt, doch nicht schnell",
+        "tempo": "Finale: Bewegt, doch nicht schnell",
+        "key": "E-major",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3404,6 +3924,26 @@
         "description": "",
         "highlights": [],
         "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Tema con variazioni: Andantino",
+        "tempo": "Tema con variazioni: Andantino",
+        "key": "e-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro, ma non troppo",
+        "tempo": "Allegro, ma non troppo",
+        "key": "C-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
       }
     ],
     "historicalBackground": "1913年頃から主題の一部が書かれ、1921年夏、フランスのブルターニュで完成した。1921年12月16日、シカゴで作曲者の独奏、フレデリック・ストック（Frederick Stock）指揮のシカゴ交響楽団により初演された。",
@@ -3483,6 +4023,36 @@
         "tempo": "",
         "key": "",
         "duration": 45,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Allegretto",
+        "tempo": "Allegretto",
+        "key": "a-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Largo",
+        "tempo": "Largo",
+        "key": "f#-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Allegro non troppo",
+        "tempo": "Allegro non troppo",
+        "key": "d-minor",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
@@ -3604,6 +4174,26 @@
         "tempo": "",
         "key": "",
         "duration": 32,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio di molto",
+        "tempo": "Adagio di molto",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro, ma non tanto",
+        "tempo": "Allegro, ma non tanto",
+        "key": "D-major",
+        "duration": null,
         "description": "",
         "highlights": [],
         "youtubeId": null
