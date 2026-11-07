@@ -6107,5 +6107,89 @@
       "classical",
       "german"
     ]
+  },
+  {
+    "id": "bizet-carmen",
+    "composerId": "bizet",
+    "title": "オペラ《カルメン》",
+    "titleEn": "Carmen",
+    "year": "1873-1874",
+    "genre": "opera",
+    "subgenre": "opéra comique",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 1,
+    "shortDescription": "メリメの小説に基づき、メイヤックとアレヴィの台本で書かれた4幕のオペラ・コミック。1875年3月3日にパリのオペラ＝コミック座で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕 セビーリャの煙草工場の前",
+        "tempo": "",
+        "key": "",
+        "duration": 58,
+        "description": "1820年ごろのセビーリャの煙草工場が舞台。カルメンの登場の歌〈ハバネラ〉と〈セギディーリャ〉（第10番）がある。",
+        "highlights": [
+          "〈ハバネラ〉",
+          "〈セギディーリャ〉",
+          "ミカエラとホセの二重唱"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕 リリャス・パスティアの酒場",
+        "tempo": "",
+        "key": "",
+        "duration": 48,
+        "description": "城門の外の酒場が舞台。エスカミーリョの〈闘牛士の歌〉が歌われる。",
+        "highlights": [
+          "〈闘牛士の歌〉",
+          "〈花の歌〉の場面"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3幕 密輸業者の野営地",
+        "tempo": "",
+        "key": "",
+        "duration": 41,
+        "description": "セビーリャの城門の外の野営地が舞台。カルメン、フラスキータ、メルセデスの〈カードの三重唱〉がある。",
+        "highlights": [
+          "〈カードの三重唱〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4幕 闘牛場の入口",
+        "tempo": "",
+        "key": "",
+        "duration": 23,
+        "description": "セビーリャの闘牛場の入口が舞台。カルメンとホセの最後の対決が置かれる。",
+        "highlights": [
+          "カルメンとホセの二重唱"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1872年にオペラ＝コミック座がビゼーに委嘱し、台本はメイヤックとアレヴィが書いた。稽古は1874年9月から1875年3月まで続き、〈ハバネラ〉は稽古中に書かれた。1875年3月3日にオペラ＝コミック座で初演され、カルメンはガリ＝マリエが歌った。ビゼーは同年6月3日に没し、10月23日にギローのレチタティーヴォ付きの版がウィーンで上演された。",
+    "musicalAnalysis": "台詞と歌の番号を組み合わせたオペラ・コミックの形で書かれている。〈ハバネラ〉の旋律はイラディエルの〈エル・アレグリート〉（1862年出版）に基づく。幕間の音楽は舞台転換のために稽古中に加えられた。",
+    "listeningGuide": {
+      "totalTime": "約3時間（2023年オペラ＝コミック座の上演、休憩を含む）",
+      "recommendedVersion": "クラウディオ・アバド指揮ロンドン交響楽団、アンブロジアン・シンガーズ（DG）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "romantic",
+      "famous",
+      "french"
+    ]
   }
 ]
