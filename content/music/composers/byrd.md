@@ -55,7 +55,7 @@ sources:
 
 1572年、ロバート・パーソンズ（Robert Parsons）の死で空いた王室礼拝堂（Chapel Royal）の席に任じられ、ロンドンに戻った。[（Hyperion）](https://www.hyperion-records.co.uk/c.asp?c=C107)ブリタニカによれば、礼拝堂ではタリスとオルガン奏者の務めを分け合った。[（Britannica）](https://www.britannica.com/biography/William-Byrd)
 
-1575年、エリザベス1世はバードとタリスに、楽譜の輸入・印刷・出版・販売と五線紙の印刷の独占権を共同で与えた。同じ年に出た『カンティオネス・サクラエ』（Cantiones sacrae）は女王に献呈された2人の共作で、34曲のモテットのうちタリスが16曲、バードが18曲を書いた。[（Britannica）](https://www.britannica.com/biography/William-Byrd)ラルースは特許の期間を21年とする。[（Larousse）](https://www.larousse.fr/encyclopedie/musdico/William_Byrd/166517)
+1575年、エリザベス1世はバードとタリスに、楽譜の輸入・印刷・出版・販売と五線紙の印刷の独占権を共同で与えた。同じ年に出た『カンティオネス・サクラエ』（Cantiones sacrae）は女王に献呈された2人の共作で、34曲のモテットを収める。内訳はタリス16曲・バード18曲とする資料（ブリタニカのバードの項）と、17曲ずつとする資料（同タリスの項）がある。[（Britannica）](https://www.britannica.com/biography/William-Byrd)ラルースは特許の期間を21年とする。[（Larousse）](https://www.larousse.fr/encyclopedie/musdico/William_Byrd/166517)
 
 ### ハーリントン時代と出版（1577〜1590年代前半）
 
