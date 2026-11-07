@@ -9528,5 +9528,55 @@
       "cello",
       "soprano"
     ]
+  },
+  {
+    "id": "barber-adagio",
+    "composerId": "barber",
+    "title": "弦楽のためのアダージョ 作品11",
+    "titleEn": "Adagio for Strings, Op. 11",
+    "year": "1936-1938",
+    "genre": "orchestral",
+    "subgenre": "string orchestra",
+    "era": "modern",
+    "key": "",
+    "opus": "Op.11",
+    "duration": 8,
+    "difficulty": 1,
+    "shortDescription": "1936年の弦楽四重奏曲 作品11の緩徐楽章を弦楽合奏用に編曲した作品。1938年11月5日にトスカニーニ指揮NBC交響楽団の全米ラジオ放送で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Molto adagio",
+        "tempo": "Molto adagio",
+        "key": "",
+        "duration": 8,
+        "description": "1つの主題を第1ヴァイオリンが順次進行で上がる形で出し、ヴィオラがカノン風に模倣し、チェロが受け継ぐ。ヴァイオリンが高音域の頂点に達した後に休止があり、主題がヴァイオリンとヴィオラのオクターヴで戻って静かに終わる。",
+        "highlights": [
+          "ヴィオラのカノン風の模倣",
+          "高音域の頂点と休止",
+          "オクターヴでの主題の回帰"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "バーバーは1936年、ローマのアメリカン・アカデミーのフェローであった時期に、ザルツブルク近郊のザンクト・ヴォルフガングで弦楽四重奏曲 作品11を書き、同年9月に緩徐楽章を完成させた。四重奏曲は1936年12月14日にローマで初演された。1938年1月、バーバーは緩徐楽章を弦楽合奏用に編曲してトスカニーニに送り、総譜は何も言われずに返されたが、トスカニーニはすでに暗譜していた。初演は1938年11月5日、NBC交響楽団の全米ラジオ放送で、《管弦楽のためのエッセイ》第1番とともに行われた。1967年にバーバーはこの曲を合唱曲《アニュス・デイ》に編曲した。",
+    "musicalAnalysis": "弦五部のための単一楽章の作品で、速度表示は Molto adagio。1つの主題が等しい4分音符で動き、第1ヴァイオリン、ヴィオラのカノン風の模倣、チェロへと受け継がれる。長い掛留が和声の緊張を保ち、ヴァイオリンが高音域の頂点に達した後に休止が置かれ、主題がオクターヴで戻って静かに終わる。",
+    "listeningGuide": {
+      "totalTime": "約8分",
+      "recommendedVersion": "アルトゥーロ・トスカニーニ指揮 NBC交響楽団（1938年11月の初演の放送録音）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "mahler"
+    ],
+    "tags": [
+      "orchestral",
+      "modern",
+      "american",
+      "strings",
+      "famous"
+    ]
   }
 ]

@@ -401,6 +401,7 @@
 - [ジョヴァンニ・ピエルルイジ・ダ・パレストリーナ](https://veliq-academy.com/music/composers/palestrina/): 1525–1594
 - [ウィリアム・バード](https://veliq-academy.com/music/composers/byrd/): 1540–1623
 - [クラウディオ・モンテヴェルディ](https://veliq-academy.com/music/composers/monteverdi/): 1567–1643
+- [ハインリヒ・シュッツ](https://veliq-academy.com/music/composers/schutz/): 1585–1672
 - [ディートリヒ・ブクステフーデ](https://veliq-academy.com/music/composers/buxtehude/): 1637–1707
 - [アルカンジェロ・コレッリ](https://veliq-academy.com/music/composers/corelli/): 1653–1713
 - [ヘンリー・パーセル](https://veliq-academy.com/music/composers/purcell/): 1659–1695
@@ -483,6 +484,7 @@
 - [アーロン・コープランド](https://veliq-academy.com/music/composers/copland/): 1900–1990
 - [ドミートリイ・ショスタコーヴィチ](https://veliq-academy.com/music/composers/shostakovich/): 1906–1975
 - [オリヴィエ・メシアン](https://veliq-academy.com/music/composers/messiaen/): 1908–1992
+- [サミュエル・バーバー](https://veliq-academy.com/music/composers/barber/): 1910–1981
 - [ベンジャミン・ブリテン](https://veliq-academy.com/music/composers/britten/): 1913–1976
 - [レナード・バーンスタイン](https://veliq-academy.com/music/composers/bernstein/): 1918–1990
 - [ジェルジ・リゲティ](https://veliq-academy.com/music/composers/ligeti/): 1923–2006
@@ -633,7 +635,7 @@
 - [ベルク ヴァイオリン協奏曲《ある天使の思い出に》](https://veliq-academy.com/music/works/berg-violin-concerto/): ベルク・1935年
 - [オルフ 《カルミナ・ブラーナ》](https://veliq-academy.com/music/works/orff-carmina-burana/): オルフ・1935–1936年
 - [バルトーク 弦楽器、打楽器とチェレスタのための音楽 Sz.106](https://veliq-academy.com/music/works/bartok-strings/): バルトーク・1936年
-- [バーバー 弦楽のためのアダージョ 作品11](https://veliq-academy.com/music/works/barber-adagio/): ・1936–1938年
+- [バーバー 弦楽のためのアダージョ 作品11](https://veliq-academy.com/music/works/barber-adagio/): バーバー・1936–1938年
 - [ショスタコーヴィチ 交響曲第5番 ニ短調 作品47](https://veliq-academy.com/music/works/shostakovich-sym5/): ショスタコーヴィチ・1937年
 - [ヴィラ＝ロボス 《ブラジル風バッハ》第5番（ソプラノとチェロ8部のための）](https://veliq-academy.com/music/works/villa-lobos-bachianas-5/): ヴィラ＝ロボス・1938–1945年
 - [メシアン 世の終わりのための四重奏曲](https://veliq-academy.com/music/works/messiaen-quartet/): メシアン・1940–1941年
