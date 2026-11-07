@@ -69,6 +69,7 @@
 - [ロベルト・シューマン](https://veliq-academy.com/music/composers/schumann-r/): 1810年にツヴィッカウで生まれ、1856年にボン近郊エンデニヒで没した作曲家・音楽評論家。1834年に「新音楽時報」を創刊し、1840年にクララ・ヴィークと結婚した。ピアノ曲、歌曲集《詩人の恋》、4曲の交響曲、室内楽、オペラ《ゲノフェーファ》を書いた。
 - [ドミートリイ・ショスタコーヴィチ](https://veliq-academy.com/music/composers/shostakovich/): 1906年9月25日にサンクトペテルブルクで生まれ、1975年8月9日にモスクワで没したソ連の作曲家。15曲の交響曲と15曲の弦楽四重奏曲を書いた。オペラ《ムツェンスク郡のマクベス夫人》が1936年に『プラウダ』で非難され、1948年のジダーノフ批判で音楽院の職を失った。
 - [ジャン・シベリウス](https://veliq-academy.com/music/composers/sibelius/): 1865年12月8日にフィンランド大公国のハメーンリンナで生まれ、1957年9月20日にヤルヴェンパーで没した作曲家。《クレルヴォ》（1892年）で世に出て、7曲の交響曲、《フィンランディア》、ヴァイオリン協奏曲、《タピオラ》（1926年）を書いた。1904年からヤルヴェンパーの自宅アイノラに住み、1930年代に取り組んだ交響曲第8番は破棄された。
+- [ベドルジハ・スメタナ](https://veliq-academy.com/music/composers/smetana/): 1824年にボヘミアのリトミシュルで生まれ、1884年にプラハで没した作曲家・ピアニスト・指揮者。1866年からプラハの仮劇場の指揮者を務め、同年オペラ《売られた花嫁》を初演した。1874年に聴力を失った後、連作交響詩《わが祖国》と弦楽四重奏曲第1番《わが生涯より》を書いた。
 - [リヒャルト・シュトラウス](https://veliq-academy.com/music/composers/strauss-r/): 1864年にミュンヘンで生まれ、1949年にガルミッシュ＝パルテンキルヒェンで没したドイツの作曲家・指揮者。1890年代までに《ドン・ファン》《ツァラトゥストラはかく語りき》などの交響詩を書き、1905年の《サロメ》以降はオペラを中心に、ホフマンスタールの台本で《エレクトラ》《ばらの騎士》などを書いた。
 - [イーゴリ・ストラヴィンスキー](https://veliq-academy.com/music/composers/stravinsky/): 1882年にロシアのオラニエンバウムで生まれ、1971年にニューヨークで没した作曲家。ディアギレフのバレエ・リュスのために《火の鳥》（1910年）、《ペトルーシュカ》（1911年）、《春の祭典》（1913年）を書き、1920年ごろから新古典主義、1950年代半ばからセリー技法に移った。1934年にフランス、1945年にアメリカの国籍を得た。
 - [武満徹](https://veliq-academy.com/music/composers/takemitsu/): 1930年10月8日に東京で生まれ、1996年2月20日に東京で没した作曲家。作曲はほぼ独学で、1951年に実験工房の結成に加わった。《弦楽のためのレクイエム》（1957年）、琵琶と尺八と管弦楽のための《ノヴェンバー・ステップス》（1967年）、《鳥は星形の庭に降りる》（1977年）などの演奏会用作品と、『切腹』『怪談』『乱』など90本を超える映画の音楽を書いた。
@@ -315,8 +316,10 @@
 - [雑談（天気・音楽）（イタリア語）——演奏会のあと、広場のカフェで天気と音楽の話をする](https://veliq-academy.com/lingua/it/it-chiacchiere/): 雑談は天気から始まり、相手の好きなものへ広がります。暑さ寒さの fare と、「〜が好き」の piacere の形を覚えると、話が続きます。
 
 ## 作曲家
+- [ジョヴァンニ・ピエルルイジ・ダ・パレストリーナ](https://veliq-academy.com/music/composers/palestrina/): 1525–1594
 - [クラウディオ・モンテヴェルディ](https://veliq-academy.com/music/composers/monteverdi/): 1567–1643
 - [ディートリヒ・ブクステフーデ](https://veliq-academy.com/music/composers/buxtehude/): 1637–1707
+- [アルカンジェロ・コレッリ](https://veliq-academy.com/music/composers/corelli/): 1653–1713
 - [ヘンリー・パーセル](https://veliq-academy.com/music/composers/purcell/): 1659–1695
 - [フランソワ・クープラン](https://veliq-academy.com/music/composers/couperin-f/): 1668–1733
 - [アントニオ・ヴィヴァルディ](https://veliq-academy.com/music/composers/vivaldi/): 1678–1741
@@ -348,6 +351,7 @@
 - [アントニーン・ドヴォルザーク](https://veliq-academy.com/music/composers/dvorak/): 1841–1904
 - [エドヴァルド・グリーグ](https://veliq-academy.com/music/composers/grieg/): 1843–1907
 - [ガブリエル・フォーレ](https://veliq-academy.com/music/composers/faure/): 1845–1924
+- [エドワード・エルガー](https://veliq-academy.com/music/composers/elgar/): 1857–1934
 - [ジャコモ・プッチーニ](https://veliq-academy.com/music/composers/puccini/): 1858–1924
 - [グスタフ・マーラー](https://veliq-academy.com/music/composers/mahler/): 1860–1911
 - [クロード・ドビュッシー](https://veliq-academy.com/music/composers/debussy/): 1862–1918
