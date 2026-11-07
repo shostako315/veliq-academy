@@ -8123,5 +8123,212 @@
       "english",
       "modern"
     ]
+  },
+  {
+    "id": "holst-planets",
+    "composerId": "holst",
+    "title": "組曲《惑星》 作品32",
+    "titleEn": "The Planets, Op. 32",
+    "year": "1914-1916",
+    "genre": "orchestral",
+    "subgenre": "suite",
+    "era": "modern",
+    "key": "",
+    "opus": "Op. 32",
+    "duration": 50,
+    "difficulty": 1,
+    "shortDescription": "占星術で惑星に結びつけられた性格をもとにした7楽章の管弦楽組曲。1918年9月29日にクイーンズ・ホールでボールトの指揮により非公開で初演され、全曲の公開初演は1920年11月15日に行われた。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "火星、戦争をもたらす者",
+        "tempo": "Allegro",
+        "key": "",
+        "duration": null,
+        "description": "4分の5拍子。弦楽器のコル・レーニョと繰り返される太鼓のリズムに、オルガンが加わる。",
+        "highlights": [
+          "4分の5拍子",
+          "コル・レーニョ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "金星、平和をもたらす者",
+        "tempo": "Adagio",
+        "key": "",
+        "duration": null,
+        "description": "冒頭にホルンの独奏があり、独奏ヴァイオリン、オーボエ、チェロが前に出る。",
+        "highlights": [
+          "ホルンの独奏",
+          "独奏ヴァイオリン"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "水星、翼のある使者",
+        "tempo": "Vivace",
+        "key": "",
+        "duration": null,
+        "description": "トリオをもつスケルツォ。独奏ヴァイオリンの旋律が楽器の組み合わせを変えて十数回現れる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "木星、快楽をもたらす者",
+        "tempo": "Allegro giocoso",
+        "key": "",
+        "duration": null,
+        "description": "ホルンのシンコペーションのある主題で始まり、中間部の旋律は1921年に讃美歌〈I Vow to Thee, My Country〉になった。",
+        "highlights": [
+          "中間部の旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "土星、老いをもたらす者",
+        "tempo": "Adagio",
+        "key": "",
+        "duration": null,
+        "description": "7楽章のうち最も長く、ホルストが最も好んだ楽章とされる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "天王星、魔術師",
+        "tempo": "Allegro",
+        "key": "",
+        "duration": null,
+        "description": "4音の主題が高音の金管、低音の金管、ティンパニに次第に速くなりながら現れる。",
+        "highlights": [
+          "4音の主題"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "海王星、神秘主義者",
+        "tempo": "Andante",
+        "key": "",
+        "duration": null,
+        "description": "4分の5拍子。舞台裏の6声部の女声合唱が歌詞なしで歌い、声が遠のいて終わる。",
+        "highlights": [
+          "舞台裏の女声合唱"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ホルストは1913年夏に占星術を知り、アラン・レオの著書を読んだ。1914年から1916年にかけてロンドンとサクステッドで作曲し、〈火星〉は1914年夏、〈水星〉は1916年に書かれた。1918年9月29日、バルフォア・ガーディナーの費用でクイーンズ・ホールでボールトの指揮により招待客の前で初演された。全曲の公開初演は1920年11月15日、アルバート・コーツ指揮ロンドン交響楽団によった。総譜は1921年にグッドウィン・アンド・タブから出版された。",
+    "musicalAnalysis": "7楽章からなり、各楽章に惑星の名と占星術上の性格が題として付く。〈火星〉と〈海王星〉は4分の5拍子で書かれている。6本のホルン、バス・オーボエ、テナー・テューバ、オルガンを含む大編成で、〈海王星〉では舞台裏の女声合唱が加わる。",
+    "listeningGuide": {
+      "totalTime": "50分",
+      "recommendedVersion": "エイドリアン・ボールト指揮 ロンドン・フィルハーモニー管弦楽団（1978年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "vaughan-williams-tallis"
+    ],
+    "relatedComposers": [
+      "schoenberg"
+    ],
+    "tags": [
+      "orchestral",
+      "suite",
+      "english",
+      "famous"
+    ]
+  },
+  {
+    "id": "janacek-sinfonietta",
+    "composerId": "janacek",
+    "title": "シンフォニエッタ",
+    "titleEn": "Sinfonietta",
+    "year": "1926",
+    "genre": "orchestral",
+    "subgenre": "orchestral",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 22,
+    "difficulty": 2,
+    "shortDescription": "プラハの全国ソコル祭のために1926年3月から約1か月で書かれた5楽章の管弦楽曲。1926年6月26日にターリヒ指揮チェコ・フィルが初演し、トランペットを合わせて12本使う。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegretto",
+        "tempo": "Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "ファンファーレの楽章。初演の日には、昼の祭典の行進でトランペット奏者たちが演奏した。",
+        "highlights": [
+          "トランペットのファンファーレ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "城",
+        "tempo": "Andante – Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "ブルノの城を題とする楽章。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "王妃の修道院",
+        "tempo": "Moderato",
+        "key": "",
+        "duration": null,
+        "description": "ブルノの王妃の修道院を題とする楽章。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "城へ通じる通り",
+        "tempo": "Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "城へ通じる通りを題とする楽章。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "ブルノの市庁舎",
+        "tempo": "Andante con moto",
+        "key": "",
+        "duration": null,
+        "description": "ブルノの市庁舎を題とする楽章。曲は Prestissimo の部分で終わる。",
+        "highlights": [
+          "Prestissimo の結び"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1925年夏、ヤナーチェクはカミラ・ステスロヴァーとピーセクの公園で軍楽隊の演奏会を聴いた。作品はプラハの全国ソコル祭のために依頼され、1926年3月に着手して約1か月で書き上げられた。ヤナーチェクはステスロヴァー宛の手紙で「ファンファーレ付きの小さなシンフォニエッタ」と書いた。1926年6月26日、プラハ市民会館のスメタナ・ホールでヴァーツラフ・ターリヒ指揮チェコ・フィルハーモニーが初演し、ファンファーレは同じ日の昼に祭典の行進でも演奏された。アメリカ初演は1927年3月4日、オットー・クレンペラー指揮ニューヨーク交響楽協会による。",
+    "musicalAnalysis": "5楽章からなり、第2〜5楽章の題はブルノの城、王妃の修道院、城へ通じる通り、市庁舎を指す。楽章ごとに楽器の組み合わせが異なり、トランペットは C管9本と F管3本の計12本、ほかにバス・トランペット2本とテノール・テューバ2本を使う。定まった調性を持たず、終楽章は Prestissimo の部分で終わる。",
+    "listeningGuide": {
+      "totalTime": "約22〜25分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "modern",
+      "czech",
+      "fanfare",
+      "brass"
+    ]
   }
 ]

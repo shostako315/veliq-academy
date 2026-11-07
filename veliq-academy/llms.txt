@@ -415,6 +415,7 @@
 - [エドヴァルド・グリーグ](https://veliq-academy.com/music/composers/grieg/): 1843–1907
 - [ニコライ・リムスキー＝コルサコフ](https://veliq-academy.com/music/composers/rimsky-korsakov/): 1844–1908
 - [ガブリエル・フォーレ](https://veliq-academy.com/music/composers/faure/): 1845–1924
+- [レオシュ・ヤナーチェク](https://veliq-academy.com/music/composers/janacek/): 1854–1928
 - [エドワード・エルガー](https://veliq-academy.com/music/composers/elgar/): 1857–1934
 - [ジャコモ・プッチーニ](https://veliq-academy.com/music/composers/puccini/): 1858–1924
 - [グスタフ・マーラー](https://veliq-academy.com/music/composers/mahler/): 1860–1911
@@ -570,7 +571,7 @@
 - [ホルスト 組曲《惑星》 作品32](https://veliq-academy.com/music/works/holst-planets/): ホルスト・1914–1916年
 - [プロコフィエフ ピアノ協奏曲第3番 ハ長調 作品26](https://veliq-academy.com/music/works/prokofiev-pc3/): プロコフィエフ・1917–1921年
 - [エルガー チェロ協奏曲 ホ短調 作品85](https://veliq-academy.com/music/works/elgar-cello-concerto/): エルガー・1918–1919年
-- [ヤナーチェク シンフォニエッタ](https://veliq-academy.com/music/works/janacek-sinfonietta/): ・1926年
+- [ヤナーチェク シンフォニエッタ](https://veliq-academy.com/music/works/janacek-sinfonietta/): ヤナーチェク・1926年
 - [ラヴェル ボレロ](https://veliq-academy.com/music/works/ravel-bolero/): ラヴェル・1928年
 - [プロコフィエフ バレエ音楽《ロメオとジュリエット》 作品64](https://veliq-academy.com/music/works/prokofiev-romeo/): プロコフィエフ・1935–1936年
 - [バルトーク 弦楽器、打楽器とチェレスタのための音楽 Sz.106](https://veliq-academy.com/music/works/bartok-strings/): バルトーク・1936年
