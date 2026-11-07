@@ -8330,5 +8330,251 @@
       "fanfare",
       "brass"
     ]
+  },
+  {
+    "id": "ives-unanswered-question",
+    "composerId": "ives",
+    "title": "答えのない質問",
+    "titleEn": "The Unanswered Question",
+    "year": "1908",
+    "genre": "orchestral",
+    "subgenre": "chamber orchestra",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 6,
+    "difficulty": 2,
+    "shortDescription": "弦楽器、独奏トランペット、4本のフルートの3群が別々のテンポで進む室内管弦楽のための小品。1908年ごろに書かれ、1930〜35年に改訂され、1946年5月11日にニューヨークで初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "答えのない質問",
+        "tempo": "",
+        "key": "",
+        "duration": 6,
+        "description": "弦楽器が全音階の和音を一定のテンポで保ち、トランペットが同じ問いを7回発し、フルートが最初の6回に応じて、そのたびに速く大きく不協和になる。最後の問いには沈黙が応じる。",
+        "highlights": [
+          "弦楽器の持続する和音",
+          "トランペットの7回の問い",
+          "フルートの応答"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "最初の稿は1906〜08年ごろ室内合奏のために書かれ、1930〜35年に改訂された。アイヴズは改訂の際に、3つの群の役割を説明する序文を加えた。楽譜は1941年に出版された。初演は1946年5月11日、ニューヨークのコロンビア大学マクミリン劇場で、ジュリアード音楽院大学院の学生により、舞台上と舞台外の2人の指揮者で行われた。",
+    "musicalAnalysis": "弦楽器、独奏トランペット、4本のフルートの3群が、音色、テンポ、調性、空間上の配置で分けられている。弦楽器は讃美歌風の全音階の和音を一定のテンポで保ち、トランペットは無調の同じ句を7回くり返す。フルートは最初の6回の問いに応じ、弦楽器のテンポを無視してしだいに速く大きく不協和になったのち沈黙する。",
+    "listeningGuide": {
+      "totalTime": "6分",
+      "recommendedVersion": "レナード・バーンスタイン指揮 ニューヨーク・フィルハーモニック（DG）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "bernstein"
+    ],
+    "tags": [
+      "orchestral",
+      "american",
+      "modern",
+      "spatial"
+    ]
+  },
+  {
+    "id": "kodaly-hary-janos",
+    "composerId": "kodaly",
+    "title": "組曲《ハーリ・ヤーノシュ》",
+    "titleEn": "Háry János Suite",
+    "year": "1927",
+    "genre": "orchestral",
+    "subgenre": "suite",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 23,
+    "difficulty": 1,
+    "shortDescription": "1926年初演のジングシュピール《ハーリ・ヤーノシュ》の音楽から1927年に編まれた6曲の管弦楽組曲。1927年3月24日にバルセロナでフライシャー指揮パウ・カザルス管弦楽団が初演し、ツィンバロンとサクソフォーンを含む。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "前奏曲〈おとぎ話が始まる〉",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "話を疑う学生のくしゃみを表すグリッサンドで始まり、英雄的な主題が頂点に達しないまま途切れる。",
+        "highlights": [
+          "冒頭のくしゃみ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "ウィーンの音楽時計",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "もとの題は〈塔の時計〉。主題が4回戻り3つのエピソードを挟むロンドで、豚飼いの角笛の動機を使う。",
+        "highlights": [
+          "ロンド"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "歌",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "バルトークが1906年にトルナ県で採集した民謡を主題とし、ツィンバロン、クラリネット、弦の独奏が加わる。主題は形を変えて4回現れる。",
+        "highlights": [
+          "ツィンバロン"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "ナポレオンの戦いと敗北",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "管楽器と打楽器が中心で、フランス軍の行進は《ラ・マルセイエーズ》のパロディ。コーダはサクソフォーンを伴う葬送行進曲。",
+        "highlights": [
+          "マルセイエーズのパロディ",
+          "サクソフォーンの葬送行進曲"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "間奏曲",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "1802年のガーティのピアノ教本の歌をもとに、ジングシュピールの場面転換のために拡大したヴェルブンコシュ。",
+        "highlights": [
+          "ヴェルブンコシュ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "皇帝と廷臣の入場",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "2つの主題と2つのエピソードによる行進曲。第1主題は英雄の名を呼ぶ民謡を写す。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "原作はヤーノシュ・ガライの叙事詩『老兵』で、ベーラ・パウリーニとジョルト・ハルシャーニが台本にした。コダーイは1925〜26年にジングシュピールを作曲し、1926年10月16日にブダペストの王立ハンガリー歌劇場でネンドル・レーカイの指揮で初演された。組曲は1927年に編まれ、1927年3月24日にバルセロナでアンタル・フライシャー指揮パウ・カザルス管弦楽団が初演した。同年12月15・16日にメンゲルベルクがニューヨークのカーネギー・ホールで演奏し、1928年8月30日にはコダーイがロンドンのクイーンズ・ホールで指揮した。総譜は1927年にウニヴェルザール・エディツィオンから出版され（UE 8943）、2011年にフェレンツ・ボーニシュ校訂の新版が出た。",
+    "musicalAnalysis": "6曲からなり、ジングシュピールの声のパートと台詞を除いて管弦楽だけで構成される。編成にはツィンバロン、コルネット3、ピアノ、チェレスタが含まれ、第2クラリネットはアルト・サクソフォーンを持ち替える。〈歌〉の主題は1906年にバルトークが採集した民謡、〈間奏曲〉は1802年のピアノ教本の歌に基づく。〈ウィーンの音楽時計〉はロンド、終曲は2つの主題と2つのエピソードによる行進曲である。",
+    "listeningGuide": {
+      "totalTime": "約23〜25分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "bartok"
+    ],
+    "tags": [
+      "orchestral",
+      "modern",
+      "hungarian",
+      "suite",
+      "cimbalom",
+      "folk"
+    ]
+  },
+  {
+    "id": "respighi-pines",
+    "composerId": "respighi",
+    "title": "交響詩《ローマの松》",
+    "titleEn": "Pines of Rome",
+    "year": "1923-1924",
+    "genre": "orchestral",
+    "subgenre": "symphonic poem",
+    "era": "modern",
+    "key": "",
+    "opus": "P.141",
+    "duration": 23,
+    "difficulty": 1,
+    "shortDescription": "ローマを題材とするレスピーギの3つの交響詩の第2作で、1924年12月14日にローマで初演された。4部からなり、第3部でナイチンゲールの鳴き声の録音を、第4部で舞台外のブッチーナ6本を用いる。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "ボルゲーゼ荘の松",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ボルゲーゼ荘の松林で遊び、兵隊や戦いのまねをする子どもたちを描く。木管のトリル、ハープと鍵盤楽器のグリッサンド、高音域の金管を用い、低音の楽器を用いない。",
+        "highlights": [
+          "低音楽器を用いない書法"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "カタコンベのそばの松",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "カタコンベの入口を覆う松の影と、深みから立ちのぼって消える聖歌を描く。オルガンの低音の上でトロンボーンが旋律を唱え、舞台外の独奏トランペットが加わる。",
+        "highlights": [
+          "舞台外の独奏トランペット"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "ジャニコロの松",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "満月の夜のジャニコロの丘を描く。銅鑼とピアノで始まり、ピアノのカデンツァと独奏クラリネットが続き、終わり近くにナイチンゲールの鳴き声の録音が鳴らされる。",
+        "highlights": [
+          "ナイチンゲールの録音（総譜の指定は R6105）",
+          "独奏クラリネット"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "アッピア街道の松",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "霧の夜明けのアッピア街道を進む執政官の軍がカピトリーノの丘へ向かう情景を描く。行進の拍子で始まり、イングリッシュ・ホルンの独奏ののち、舞台外のブッチーナが加わる。",
+        "highlights": [
+          "舞台外のブッチーナ6本",
+          "イングリッシュ・ホルンの独奏"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "レスピーギは1913年にローマのサンタ・チェチーリア音楽院の作曲科教授となり、ローマを題材とする3つの交響詩《ローマの噴水》《ローマの松》《ローマの祭》を書いた。《ローマの松》は1923〜24年に作曲され、1924年12月14日にローマでベルナルディーノ・モリナーリ指揮アウグステオ管弦楽団により初演された。初演では第1部で非難の声が上がったが、終わりには聴衆が喝采した。イタリアでの初演の1年余りのち、トスカニーニがニューヨーク・フィルハーモニックへのデビューの演奏会で米国初演を指揮した。初版の総譜は1925年にミラノのリコルディから出版された。",
+    "musicalAnalysis": "4部からなり、総譜には各部の情景を記した作曲者の序文がある。第1部は低音楽器を用いず、第2部はオルガンの低音とトロンボーンによる聖歌風の旋律、舞台外の独奏トランペットを用いる。第3部ではナイチンゲールの鳴き声の録音を管弦楽とともに鳴らし、第4部では古代ローマの金管楽器ブッチーナ6本（現代ではフリューゲルホルンなどで代用）を舞台外に置く。",
+    "listeningGuide": {
+      "totalTime": "約23分",
+      "recommendedVersion": "フリッツ・ライナー指揮 シカゴ交響楽団（1959年、RCA）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mussorgsky-pictures"
+    ],
+    "relatedComposers": [
+      "rimsky-korsakov",
+      "ravel"
+    ],
+    "tags": [
+      "orchestral",
+      "modern",
+      "italian",
+      "programmatic",
+      "orchestration"
+    ]
   }
 ]
