@@ -10512,5 +10512,1264 @@
       "polish",
       "vocal"
     ]
+  },
+  {
+    "id": "bach-matthaus",
+    "composerId": "bach-js",
+    "title": "マタイ受難曲 BWV244",
+    "titleEn": "St Matthew Passion, BWV 244",
+    "year": "1727-1736",
+    "genre": "choral",
+    "subgenre": "passion",
+    "era": "baroque",
+    "key": "",
+    "opus": "BWV 244",
+    "duration": null,
+    "difficulty": 3,
+    "shortDescription": "ピカンダーの自由詩とマタイによる福音書による2部の受難曲。1727年4月11日（聖金曜日）にライプツィヒの聖トーマス教会で初演されたとされ、1736年に改訂された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1部（第1〜29曲）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "裏切り、最後の晩餐、ゲツセマネでの祈りと捕縛までを扱う。第1曲と第29曲ではソプラノ・イン・リピエーノがコラールの旋律を歌う。",
+        "highlights": [
+          "第1曲〈来たれ、娘たちよ〉",
+          "テノールのレチタティーヴォ〈おお痛み〉と合唱IIのコラール",
+          "第27曲b〈稲妻よ、雷よ〉",
+          "第29曲〈おお人よ、汝の大いなる罪を嘆け〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2部（第30〜68曲）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "十字架刑、死、埋葬までの残りの物語を扱う。",
+        "highlights": [
+          "第39曲〈憐れみたまえ〉",
+          "第49曲〈愛ゆえに〉",
+          "第63曲b〈まことにこの人は神の子であった〉"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "バッハは1723年からライプツィヒの聖トーマス教会カントルを務めた。確認できる最も早い上演は1727年4月11日の聖金曜日、聖トーマス教会での上演で、1729年を初演とする見方もある。1729年3月のケーテン侯レオポルトの葬送音楽と10の楽章が共通する。1736年の上演のために改訂され、自筆総譜（ベルリン国立図書館 P 25）はこの稿を伝える。1829年3月11日、メンデルスゾーンがベルリン・ジングアカデミーで短縮版を上演した。",
+    "musicalAnalysis": "2組の合唱と2組の管弦楽を用い、第1部の最初と最後の曲にはソプラノ・イン・リピエーノが加わる。福音史家はテノール、イエスはバスが歌う。アリアの多くは木管楽器やヴィオラ・ダ・ガンバの独奏と組み合わされる。新バッハ全集の番号で全68曲、コラールとされる曲は13曲ある。",
+    "listeningGuide": {
+      "totalTime": "3時間弱",
+      "recommendedVersion": "ヨス・ファン・フェルトホーフェン指揮 オランダ・バッハ協会（2014年録音）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "bach-mass-b"
+    ],
+    "relatedComposers": [
+      "mendelssohn"
+    ],
+    "tags": [
+      "choral",
+      "baroque",
+      "passion",
+      "sacred"
+    ]
+  },
+  {
+    "id": "beethoven-quartet-op131",
+    "composerId": "beethoven",
+    "title": "弦楽四重奏曲第14番 嬰ハ短調 作品131",
+    "titleEn": "String Quartet No. 14 in C-sharp minor, Op. 131",
+    "year": 1826,
+    "genre": "chamber",
+    "subgenre": "string quartet",
+    "era": "classical",
+    "key": "c#-minor",
+    "opus": "Op. 131",
+    "duration": 44,
+    "difficulty": 3,
+    "shortDescription": "1826年前半に作曲された7楽章の弦楽四重奏曲で、楽章を切れ目なく続けて演奏する。作曲者の没後の1827年にショット社から出版され、シュトゥッターハイム男爵に献呈された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Adagio ma non troppo e molto espressivo",
+        "tempo": "Adagio ma non troppo e molto espressivo",
+        "key": "c#-minor",
+        "duration": 9,
+        "description": "4つの楽器が順に主題を出して入るフーガ。上行オクターヴの跳躍で終わり、次の楽章の始まりで繰り返される。",
+        "highlights": [
+          "フーガ",
+          "上行オクターヴで第2楽章へ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Allegro molto vivace",
+        "tempo": "Allegro molto vivace",
+        "key": "D-major",
+        "duration": 3,
+        "description": "8分の6拍子。主調の半音上のニ長調に移る。",
+        "highlights": [
+          "8分の6拍子"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro moderato – Adagio",
+        "tempo": "Allegro moderato – Adagio",
+        "key": "b-minor",
+        "duration": 1,
+        "description": "ロ短調からイ長調へ転調する短い経過の楽章。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Andante ma non troppo e molto cantabile",
+        "tempo": "Andante ma non troppo e molto cantabile",
+        "key": "A-major",
+        "duration": 15,
+        "description": "主題と変奏。主題は8＋8＋8＋8小節で、第1・第2ヴァイオリンが分け合う。第6変奏は4分の9拍子。",
+        "highlights": [
+          "主題と変奏",
+          "第6変奏の4分の9拍子"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Presto",
+        "tempo": "Presto",
+        "key": "E-major",
+        "duration": 5,
+        "description": "スケルツォ―トリオ―スケルツォ―トリオ―スケルツォの5部分。2オクターヴの跳躍によるコーダが嬰トへ向かう。",
+        "highlights": [
+          "スケルツォとトリオの反復"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Adagio quasi un poco andante",
+        "tempo": "Adagio quasi un poco andante",
+        "key": "g#-minor",
+        "duration": 2,
+        "description": "短い緩徐楽章で、そのまま終楽章に入る。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "c#-minor",
+        "duration": 8,
+        "description": "ソナタ形式。主要主題は第1楽章のフーガ主題の最初の4音を並べ替えたもの。第2主題はホ長調。",
+        "highlights": [
+          "第1楽章の主題との関係",
+          "ソナタ形式"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ゴリツィン侯の委嘱による3曲の弦楽四重奏曲を1825年12月までに書き終えた後に着手し、1826年6月頃に完成した。1826年8月12日にマインツのショット社へ送られ、作曲者の没後の1827年にパート譜、同年5月に総譜が出版された。献呈先は、自殺を図った甥カールの面倒を見た軍の将校シュトゥッターハイム男爵である。初演は1828年6月5日のハルバーシュタットの音楽祭とされる。",
+    "musicalAnalysis": "7楽章を切れ目なく続ける構成で、楽章間はリズムの連続かフェルマータでつながる。第1楽章は嬰ハ短調のフーガ、第4楽章はイ長調の主題と変奏、第5楽章はスケルツォとトリオを2回ずつ交互にする形、終楽章は嬰ハ短調のソナタ形式で、主要主題は第1楽章のフーガ主題の4音を並べ替えたものである。",
+    "listeningGuide": {
+      "totalTime": "44分",
+      "recommendedVersion": "タカーチ四重奏団（2003〜04年録音、デッカ）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "beethoven-symphony-9"
+    ],
+    "relatedComposers": [
+      "schubert",
+      "wagner"
+    ],
+    "tags": [
+      "chamber",
+      "classical",
+      "string-quartet",
+      "fugue"
+    ]
+  },
+  {
+    "id": "beethoven-sonata-op111",
+    "composerId": "beethoven",
+    "title": "ピアノ・ソナタ第32番 ハ短調 作品111",
+    "titleEn": "Piano Sonata No. 32 in C minor, Op. 111",
+    "year": "1821-1822",
+    "genre": "piano",
+    "subgenre": "sonata",
+    "era": "classical",
+    "key": "c-minor",
+    "opus": "Op. 111",
+    "duration": 26,
+    "difficulty": 3,
+    "shortDescription": "ベートーヴェン最後のピアノ・ソナタで、1822年春に完成した。ハ短調のソナタ形式とハ長調の《アリエッタ》の変奏の2楽章からなり、ルドルフ大公に献呈された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Maestoso – Allegro con brio ed appassionato",
+        "tempo": "Maestoso – Allegro con brio ed appassionato",
+        "key": "c-minor",
+        "duration": 9,
+        "description": "18小節の Maestoso の序奏の後、19小節目から主部に入るソナタ形式。第2主題は変イ長調、再現部ではハ長調。展開部はフーガ風に書かれる。",
+        "highlights": [
+          "付点リズムの序奏",
+          "フーガ風の展開部",
+          "ピカルディの3度による終止"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Arietta. Adagio molto semplice e cantabile",
+        "tempo": "Adagio molto semplice e cantabile",
+        "key": "C-major",
+        "duration": 18,
+        "description": "16小節の主題《アリエッタ》と5つの変奏。第1〜第3変奏で拍子が9/16、6/16、12/32と変わり、コーダに長いトリルがある。",
+        "highlights": [
+          "第3変奏の12/32拍子",
+          "変ホ長調への転調",
+          "コーダのトリル"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1820年にベルリンの出版者アドルフ・マルティン・シュレージンガーに提供された3曲のソナタ（作品109〜111）の3曲目である。病気とミサ・ソレムニスの作業で中断し、1821年秋から集中して書かれ、1822年春に完成した。1823年4月にパリのモーリス・シュレージンガー、5月にベルリンのシュレージンガーから出版され、ベルリン版の誤りのためディアベッリが訂正版を出した。献呈先はルドルフ大公で、英国の版はアントーニエ・ブレンターノに献呈された。",
+    "musicalAnalysis": "2楽章構成で、ハ短調のソナタ形式とハ長調の変奏曲が対になる。第1楽章は序奏付きのソナタ形式で、ハ長調の静かなコーダで終わる。第2楽章は16小節の主題と5つの変奏からなり、変奏ごとに拍子が変わる。",
+    "listeningGuide": {
+      "totalTime": "26分",
+      "recommendedVersion": "アルトゥル・シュナーベル（1932年、アビー・ロード第3スタジオ録音）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "beethoven-pathetique",
+      "beethoven-moonlight"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "piano",
+      "classical",
+      "sonata",
+      "variations",
+      "late-beethoven"
+    ]
+  },
+  {
+    "id": "handel-giulio-cesare",
+    "composerId": "handel",
+    "title": "オペラ《ジュリオ・チェーザレ》 HWV 17",
+    "titleEn": "Giulio Cesare in Egitto, HWV 17",
+    "year": "1723-1724",
+    "genre": "opera",
+    "subgenre": "opera seria",
+    "era": "baroque",
+    "key": "",
+    "opus": "HWV 17",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "ニコラ・フランチェスコ・ハイムがブッサーニの台本をもとに書いた3幕のイタリア語オペラ。1724年2月20日にロンドンのキングズ劇場で、王立音楽アカデミーの公演として、セネジーノのチェーザレ、クッツォーニのクレオパトラで初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "アレクサンドリアに着いたチェーザレに、トロメーオの将軍アキッラがポンペーオの首を差し出す。クレオパトラは侍女リディアに変装してチェーザレに近づく。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "クレオパトラは9人のムーサに囲まれたパルナッソスの場でチェーザレを誘う。舞台上の伴奏はハープ、ヴィオラ・ダ・ガンバ、テオルボなど9つの独奏楽器による。",
+        "highlights": [
+          "クレオパトラ〈あなたを崇めます、瞳よ〉（パルナッソスの場）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "チェーザレは海から生還してクレオパトラを救い出し、セストがトロメーオを討つ。チェーザレはクレオパトラをエジプトの唯一の女王とする。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "王立音楽アカデミーの1723–24年のシーズンにヘンデルが書いた唯一の新作オペラで、自筆譜には1723年の日付がある。台本はハイムで、1677年にヴェネツィアでサルトーリオが作曲したブッサーニの台本を主な原典とし、パルナッソスの場は1685年のミラノの台本から取った。1724年2月20日の初演に続いて12回上演され、1724/25年、1729/30年、1731/32年の再演を合わせて計25回上演された。1725年にはブラウンシュヴァイクとハンブルクでも上演され、1922年にはゲッティンゲンでオスカー・ハーゲンの改作版が上演された。",
+    "musicalAnalysis": "3幕からなり、独唱8人のための声楽曲40曲と器楽曲4曲で構成される。管弦楽はホルン4本を含み、チェーザレのアリア〈ひそかに、静かに〉にはホルンの独奏がある。第2幕のパルナッソスの場では、オーボエ、独奏弦楽器、ハープ、ヴィオラ・ダ・ガンバ、テオルボ、ファゴットの9つの独奏楽器が舞台上で奏する。",
+    "listeningGuide": {
+      "totalTime": "約3時間50分〜4時間（全曲録音の収録時間）",
+      "recommendedVersion": "ルネ・ヤーコプス指揮 コンチェルト・ケルン、ジェニファー・ラーモア、バーバラ・シュリック（ハルモニア・ムンディ）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "handel-messiah",
+      "handel-water",
+      "monteverdi-orfeo",
+      "gluck-orfeo"
+    ],
+    "relatedComposers": [
+      "vivaldi",
+      "bach-js",
+      "gluck"
+    ],
+    "tags": [
+      "opera",
+      "baroque",
+      "opera-seria",
+      "italian",
+      "london"
+    ]
+  },
+  {
+    "id": "haydn-quartets-op76",
+    "composerId": "haydn",
+    "title": "弦楽四重奏曲集 作品76 Hob.III:75–80《エルデーディ四重奏曲》",
+    "titleEn": "String Quartets, Op. 76 (Erdődy Quartets)",
+    "year": "1796-1797",
+    "genre": "chamber",
+    "subgenre": "string quartet",
+    "era": "classical",
+    "key": "",
+    "opus": "Op. 76",
+    "duration": 147,
+    "difficulty": 2,
+    "shortDescription": "エルデーディ伯の委嘱で1796〜97年に書かれた6曲の弦楽四重奏曲。第3番の第2楽章は《神よ、皇帝フランツを守り給え》を主題とする変奏曲である。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1番 ト長調 Hob.III:75",
+        "tempo": "Allegro con spirito – Adagio sostenuto – Menuet. Presto – Finale. Allegro ma non troppo",
+        "key": "G-major",
+        "duration": 24,
+        "description": "メヌエットのトリオは、6曲の中で例外的にテンポを落とす場合があるとヘンレ版は注記する。",
+        "highlights": [
+          "第4楽章 第59・62小節のトリル"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2番 ニ短調 Hob.III:76《五度》",
+        "tempo": "Allegro – Andante o più tosto allegretto – Menuet. Allegro – Finale. Vivace assai",
+        "key": "d-minor",
+        "duration": 23,
+        "description": "6曲のうち唯一の短調の曲。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3番 ハ長調 Hob.III:77《皇帝》",
+        "tempo": "Allegro – Poco adagio. Cantabile – Menuet. Allegro – Finale. Presto",
+        "key": "C-major",
+        "duration": 29,
+        "description": "第2楽章は《神よ、皇帝フランツを守り給え》の旋律による主題と4つの変奏で、4つの楽器が順に旋律を受け持つ。",
+        "highlights": [
+          "第2楽章 主題と変奏 I〜IV"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4番 変ロ長調 Hob.III:78《日の出》",
+        "tempo": "Allegro con spirito – Adagio – Menuet. Allegro – Finale. Allegro ma non troppo – Più allegro – Più presto",
+        "key": "Bb-major",
+        "duration": 25,
+        "description": "下の3つの楽器が保つ和音の上で、第1ヴァイオリンの旋律が上昇して始まる。",
+        "highlights": [
+          "第1楽章冒頭の第1ヴァイオリン"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第5番 ニ長調 Hob.III:79",
+        "tempo": "Allegretto – Allegro – Largo. Cantabile e mesto – Menuet. Allegro – Finale. Presto",
+        "key": "D-major",
+        "duration": 20,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "第6番 変ホ長調 Hob.III:80",
+        "tempo": "Allegretto – Allegro – Fantasia. Adagio – Menuet. Presto – Alternativo – Finale. Allegro spiritoso",
+        "key": "Eb-major",
+        "duration": 25,
+        "description": "第1楽章は変奏の後にフーガが続く。第2楽章〈ファンタジア〉は調号なしで記譜されている。",
+        "highlights": [
+          "第2楽章 Fantasia"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ハンガリーの宮廷尚書ヨーゼフ・エルデーディ伯が1796年に委嘱した。1797年6月14日、スウェーデンの外交官シルヴェルストルペはハイドンがこれらを弾いて聴かせたと報告し、同年9月にはアイゼンシュタットで演奏された。自筆譜はおそらく1797年9月に委嘱者へ渡され、今は失われている。初版は1799〜1800年にウィーンのアルタリアとロンドンのロングマン・クレメンティ社から出た。",
+    "musicalAnalysis": "6曲とも4楽章からなり、第2番だけが短調で書かれている。第3番の第2楽章は、1797年2月12日に初めて歌われた《神よ、皇帝フランツを守り給え》を主題とする4つの変奏である。ヘンレ版の校訂者は、メヌエットはどれも非常に速く、トリオは切れ目なく同じテンポで続くと注記している。「五度」「皇帝」「日の出」の愛称は19世紀後半から使われた。",
+    "listeningGuide": {
+      "totalTime": "約147分（全6曲）",
+      "recommendedVersion": "ドーリック弦楽四重奏団（シャンドス、2015年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "haydn-sym94",
+      "haydn-creation"
+    ],
+    "relatedComposers": [
+      "mozart-wa"
+    ],
+    "tags": [
+      "chamber",
+      "classical",
+      "string-quartet",
+      "famous"
+    ]
+  },
+  {
+    "id": "mozart-clarinet-concerto",
+    "composerId": "mozart-wa",
+    "title": "クラリネット協奏曲 イ長調 K.622",
+    "titleEn": "Clarinet Concerto in A major, K. 622",
+    "year": 1791,
+    "genre": "concerto",
+    "subgenre": "clarinet concerto",
+    "era": "classical",
+    "key": "A-major",
+    "opus": "K. 622",
+    "duration": 30,
+    "difficulty": 1,
+    "shortDescription": "1791年秋、クラリネット奏者アントン・シュタードラーのために、低音域を4半音広げたバセット・クラリネット用に書かれた協奏曲。シュタードラーが1791年10月16日にプラハで初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "A-major",
+        "duration": null,
+        "description": "ソナタ形式。第1主題は管弦楽の全奏で出され、のちに独奏者が5度上で吹く。第187〜191小節は、出版の際に普通のクラリネット用に書き換えられた箇所の例として知られる。",
+        "highlights": [
+          "管弦楽の全奏による第1主題",
+          "バセット・クラリネットの低音域"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio",
+        "tempo": "Adagio",
+        "key": "D-major",
+        "duration": null,
+        "description": "三部形式（A–B–A）。コーダでは冒頭の主題が下行する形に変えられて出る。",
+        "highlights": [
+          "三部形式",
+          "下行形に変えた主題のコーダ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Rondo: Allegro",
+        "tempo": "Allegro",
+        "key": "",
+        "duration": null,
+        "description": "8分の6拍子の主題で始まり、第57小節で第2主題が出る。モーツァルトが1791年10月の手紙で「シュタードラーのロンド」と呼んだ楽章である。",
+        "highlights": [
+          "8分の6拍子の主題",
+          "管弦楽の短いコーダ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "モーツァルトはクラリネット奏者アントン・シュタードラーのためにこの協奏曲を書いた。先に書き始めたト長調のバセットホルン協奏曲の草稿（K.621b）が第1楽章の第199小節まで残る。1791年10月7・8日の妻宛の手紙で「シュタードラーのロンド」の管弦楽の書き込みをほぼ終えたと書き、シュタードラーが10月16日にプラハで初演した。自筆譜は失われ、1801年にアンドレ、ブライトコップフ・ウント・ヘルテル、ジーバーが、独奏パートを普通のクラリネット用に書き換えた形で出版した。",
+    "musicalAnalysis": "3楽章構成で、管楽器はフルート2、ファゴット2、ホルン2で、オーボエ、トランペット、ティンパニを含まない。原曲の独奏パートは普通のクラリネットより4半音低いハ音まで使う。モーツァルトはカデンツァを書いていない。新モーツァルト全集は従来の形と、バセット・クラリネットのための再構成版の両方を収める。",
+    "listeningGuide": {
+      "totalTime": "30分",
+      "recommendedVersion": "ヴォルフガング・マイヤー（バセット・クラリネット）、ニコラウス・アーノンクール指揮 ウィーン・コンツェントゥス・ムジクス（1998年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mozart-magic-flute",
+      "mozart-requiem"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "classical",
+      "clarinet",
+      "famous"
+    ]
+  },
+  {
+    "id": "mozart-cosi",
+    "composerId": "mozart-wa",
+    "title": "オペラ《コジ・ファン・トゥッテ》 K.588",
+    "titleEn": "Così fan tutte",
+    "year": "1789-1790",
+    "genre": "opera",
+    "subgenre": "dramma giocoso",
+    "era": "classical",
+    "key": "",
+    "opus": "K. 588",
+    "duration": 193,
+    "difficulty": 2,
+    "shortDescription": "ダ・ポンテの台本による2幕のドランマ・ジョコーソで、2人の青年が変装して互いの婚約者の心変わりを試す。1790年1月26日にウィーンのブルク劇場で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ドン・アルフォンソはフェルランドとグリエルモに婚約者の貞節を賭けさせる。2人は出征を装って別れ、アルバニア人に変装して姉妹に言い寄るが拒まれる。フィナーレでは毒を飲んだふりをし、医者に化けたデスピーナが磁石で治療する。",
+        "highlights": [
+          "三重唱〈風よ穏やかに〉（Soave sia il vento）",
+          "フィオルディリージ〈岩のように〉（Come scoglio）",
+          "フェルランド〈いとしい人の愛の息吹は〉（Un'aura amorosa）",
+          "第15番 グリエルモ〈恥ずかしがらずに〉（初稿は〈あの人に目を向けて〉）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ドラベッラはグリエルモに、フィオルディリージはフェルランドに屈する。婚礼の宴で公証人に化けたデスピーナが契約書に署名させ、戻ってきた2人が種を明かす。",
+        "highlights": [
+          "フィオルディリージ〈恋人よ、許して〉（Per pietà）",
+          "第31番フィナーレ 第173小節からの変イ長調のカノン"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ダ・ポンテの台本《恋人たちの学校》ははじめサリエリのために書かれ、サリエリは最初の2曲に手をつけていた。作曲はおそらく1789年の晩夏か初秋にモーツァルトに移り、モーツァルトは秋から冬の数か月で650頁を超える総譜を書いた。1790年1月26日にブルク劇場で作曲者の指揮により初演され、フィオルディリージはフェラレーゼ・デル・ベーネが歌った。上演はヨーゼフ2世の死で中断し、6〜8月に5回上演された。",
+    "musicalAnalysis": "2幕で、曲番号は第31番まである。第15番のグリエルモのアリアは初演前に差し替えられ、第24番のフェルランドのアリアはモーツァルトの了承のもとで削られた。セッコのレチタティーヴォはチェンバロかハンマークラヴィーアとチェロが伴奏する。第2幕フィナーレには変イ長調のカノンがある。",
+    "listeningGuide": {
+      "totalTime": "約3時間10分",
+      "recommendedVersion": "ヘルベルト・フォン・カラヤン指揮 フィルハーモニア管弦楽団・合唱団、エリーザベト・シュヴァルツコップ、ナン・メリマン（EMI、1954年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mozart-figaro",
+      "mozart-don-giovanni"
+    ],
+    "relatedComposers": [
+      "salieri",
+      "haydn"
+    ],
+    "tags": [
+      "opera",
+      "classical",
+      "famous"
+    ]
+  },
+  {
+    "id": "mozart-don-giovanni",
+    "composerId": "mozart-wa",
+    "title": "オペラ《ドン・ジョヴァンニ》 K.527",
+    "titleEn": "Don Giovanni",
+    "year": 1787,
+    "genre": "opera",
+    "subgenre": "opera buffa",
+    "era": "classical",
+    "key": "",
+    "opus": "K. 527",
+    "duration": 162,
+    "difficulty": 2,
+    "shortDescription": "プラハのボンディーニの委嘱で、ダ・ポンテの台本により書かれた2幕のオペラ。1787年10月29日にプラハで初演され、1788年5月7日のウィーン初演では曲の差し替えと追加が行われた。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ジョヴァンニは騎士長を殺して逃げ、レポレッロはエルヴィーラに主人の女性遍歴を語る。ジョヴァンニは農民の娘ツェルリーナを口説き、アンナは声から父の仇に気づく。舞踏会でツェルリーナの悲鳴が上がり、ジョヴァンニは逃れる。",
+        "highlights": [
+          "レポレッロ〈カタログの歌〉（Madamina, il catalogo è questo）",
+          "ジョヴァンニとツェルリーナの二重唱〈お手をどうぞ〉（Là ci darem la mano）",
+          "第11番〈シャンパンのアリア〉",
+          "フィナーレの舞踏会（舞台上のメヌエット、コントルダンス、ドイツ舞曲）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ジョヴァンニとレポレッロは服を取り替え、ジョヴァンニはマンドリンを手にセレナードを歌う。墓地で騎士長の石像を晩餐に招き、石像は晩餐の場に現れる。悔い改めを拒んだジョヴァンニは地獄へ引き込まれ、終景で残された人々がそれぞれの行く末を告げる。",
+        "highlights": [
+          "マンドリンのセレナード",
+          "オッターヴィオ〈私の恋人を慰めて〉（Il mio tesoro、プラハ稿）",
+          "石像〈ドン・ジョヴァンニ、晩餐に招かれたので〉（トロンボーンの初出）"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1787年初め、プラハの劇場支配人パスクアーレ・ボンディーニが新作を委嘱した。ダ・ポンテは、1787年2月5日にヴェネツィアで初演されたベルターティ台本・ガッツァニーガ作曲の《ドン・ジョヴァンニ》をもとに台本を書いた。1787年10月14日の予定が延び、10月29日にプラハのノスティッツ国民劇場で初演された。1788年5月7日のウィーン初演では、K.540a、K.540b、K.540c が加えられ、オッターヴィオの〈私の恋人を慰めて〉が削られた。",
+    "musicalAnalysis": "モーツァルトの自作目録では「opera Buffa in 2 Atti」とされ、24曲からなる。第1幕フィナーレの舞踏会では舞台上で舞曲が奏され、第2幕の晩餐の場では《椿事》の編曲とサルティ《漁夫の利》の引用が奏される。石像が現れる場面で、このオペラで初めてトロンボーンが加わる。",
+    "listeningGuide": {
+      "totalTime": "約2時間40分",
+      "recommendedVersion": "カルロ・マリア・ジュリーニ指揮 フィルハーモニア管弦楽団、エーベルハルト・ヴェヒター、ジョーン・サザーランド、エリーザベト・シュヴァルツコップ（EMI、1959年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mozart-figaro",
+      "mozart-cosi",
+      "mozart-magic-flute"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "classical",
+      "famous"
+    ]
+  },
+  {
+    "id": "mozart-pc20",
+    "composerId": "mozart-wa",
+    "title": "ピアノ協奏曲第20番 ニ短調 K.466",
+    "titleEn": "Piano Concerto No. 20 in D minor, K. 466",
+    "year": 1785,
+    "genre": "concerto",
+    "subgenre": "piano concerto",
+    "era": "classical",
+    "key": "d-minor",
+    "opus": "K. 466",
+    "duration": 32,
+    "difficulty": 2,
+    "shortDescription": "1785年2月10日に完成し、翌2月11日にウィーンのメールグルーベの広間で開かれた予約演奏会の初回で、作曲者の独奏により初演されたピアノ協奏曲。モーツァルトのピアノ協奏曲で短調のものは、この曲とハ短調 K.491 の2曲である。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "d-minor",
+        "duration": null,
+        "description": "主要主題をはっきり示さず、ヴァイオリンとヴィオラのシンコペーションで始まる。独奏ピアノは管弦楽の序奏とは別の新しい主題をニ短調で出して入る。",
+        "highlights": [
+          "弦のシンコペーションによる開始",
+          "独奏ピアノの新しい主題",
+          "ピアニッシモの結び"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Romance",
+        "tempo": "",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "変ロ長調。モーツァルトは速度表示を書いていない。中ほどでト短調の部分が旋律を中断し、独奏者に技巧が求められる。",
+        "highlights": [
+          "速度表示のない楽章",
+          "ト短調の中間部"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Rondo: Allegro assai",
+        "tempo": "Allegro assai",
+        "key": "d-minor",
+        "duration": null,
+        "description": "独奏ピアノが主題を出して始まる。木管楽器の旋律はヘ長調、ニ短調の順に出て、カデンツァのあとニ長調で出る。楽章はニ長調で終わる。",
+        "highlights": [
+          "ピアノによる開始",
+          "木管の旋律の調の変化",
+          "ニ長調の結び"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1785年の四旬節に、モーツァルトは自分の収益となる演奏会のためにピアノ協奏曲 K.466 と K.467 を書いた。K.466 は2月10日に完成し、翌2月11日にメールグルーベの広間で始まった6回の金曜予約演奏会の初回で、作曲者の独奏により初演された。父レオポルトは2月14日付の娘宛の書簡で、着いたときにまだ写譜が続いており、ヴォルフガングはロンドを通して弾く時間もなかったと書いた。19世紀を通じて演目に残ったモーツァルトのピアノ協奏曲は、この曲とハ短調 K.491 であった。",
+    "musicalAnalysis": "3楽章構成で、第2楽章「ロマンス」には速度表示がない。第1楽章は主題を示さないシンコペーションで始まり、独奏ピアノは新しい主題で入る。終楽章はニ短調で始まりニ長調で終わる。モーツァルト自身のカデンツァは残っておらず、ベートーヴェンのカデンツァが最もよく使われる。",
+    "listeningGuide": {
+      "totalTime": "32分",
+      "recommendedVersion": "アルフレート・ブレンデル（ピアノ）、チャールズ・マッケラス指揮 スコットランド室内管弦楽団（Philips）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mozart-pc21"
+    ],
+    "relatedComposers": [
+      "beethoven",
+      "brahms",
+      "hummel"
+    ],
+    "tags": [
+      "concerto",
+      "classical",
+      "piano",
+      "famous"
+    ]
+  },
+  {
+    "id": "mozart-symphony-25",
+    "composerId": "mozart-wa",
+    "title": "交響曲第25番 ト短調 K.183",
+    "titleEn": "Symphony No. 25 in G minor, K. 183",
+    "year": 1773,
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "classical",
+    "key": "g-minor",
+    "opus": "K. 183",
+    "duration": 24,
+    "difficulty": 1,
+    "shortDescription": "1773年、17歳のモーツァルトがザルツブルクで書いた交響曲で、モーツァルトが短調で書いた最初の交響曲である。自筆譜には「1773年10月5日」の日付が消された跡とともに残る。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro con brio",
+        "tempo": "Allegro con brio",
+        "key": "g-minor",
+        "duration": null,
+        "description": "減七の音程で下降する動機で始まり、シンコペーションと休止が続く。第2主題は変ロ長調で出て、再現部ではト短調で再現される。",
+        "highlights": [
+          "減七の下降で始まる冒頭",
+          "変ロ長調の第2主題",
+          "第75小節の校訂"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante",
+        "tempo": "Andante",
+        "key": "",
+        "duration": null,
+        "description": "弱音器を付けたヴァイオリンとファゴットが対話する。旋律はほとんど下行する順次進行で作られている。",
+        "highlights": [
+          "弱音器付きのヴァイオリン",
+          "ファゴットとの対話"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Menuetto – Trio",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "メヌエットは裸のオクターヴで始まる。トリオは弦楽器を休ませ、管楽器だけで演奏される。",
+        "highlights": [
+          "オクターヴで始まるメヌエット",
+          "管楽器だけのトリオ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ソナタ形式。第1楽章の気分に戻り、強弱が急に変わる。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "モーツァルトは1773年のウィーン訪問からザルツブルクに戻ったあとにこの交響曲を書いた。自筆譜の「1773年10月5日」の日付は何者かに消されたが、読むことができる。イタリア旅行のあとに書かれた9曲のザルツブルク交響曲のうち、1773年末から1774年初めにかけての4楽章の4曲（K.183、200、201、202）の最初の曲である。自筆譜はほかのザルツブルク交響曲と1冊に綴じられ、1987年5月22日にロンドンのサザビーズで競売にかけられた。",
+    "musicalAnalysis": "4楽章構成で、オーボエ2、ファゴット2、ホルン4（変ロ管とト管が2本ずつ）、弦楽の編成をとる。自筆譜ではファゴットは第2楽章とメヌエットのトリオにしか書かれていない。モーツァルトの短調の交響曲は2曲で、どちらもト短調である。",
+    "listeningGuide": {
+      "totalTime": "24分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mozart-symphony-40"
+    ],
+    "relatedComposers": [
+      "haydn"
+    ],
+    "tags": [
+      "symphony",
+      "classical",
+      "famous",
+      "dramatic"
+    ]
+  },
+  {
+    "id": "schubert-death-and-maiden",
+    "composerId": "schubert",
+    "title": "弦楽四重奏曲第14番 ニ短調 D810《死と乙女》",
+    "titleEn": "String Quartet No. 14 in D minor, D 810 \"Death and the Maiden\"",
+    "year": 1824,
+    "genre": "chamber",
+    "subgenre": "string quartet",
+    "era": "romantic",
+    "key": "d-minor",
+    "opus": "D. 810",
+    "duration": 44,
+    "difficulty": 2,
+    "shortDescription": "1824年3月に作曲された4楽章の弦楽四重奏曲。第2楽章は1817年の自作の歌曲《死と乙女》のピアノ部分を主題とする変奏曲である。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "d-minor",
+        "duration": 17,
+        "description": "強奏の3連符の音型で始まり、ピアニッシモの楽句に変わる。主要な主題はのちに3連符のファンファーレを伴って戻る。",
+        "highlights": [
+          "冒頭の3連符の音型",
+          "ピアニッシモの楽句",
+          "3連符のファンファーレ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante con moto",
+        "tempo": "Andante con moto",
+        "key": "g-minor",
+        "duration": 13,
+        "description": "歌曲《死と乙女》のピアノの前奏（第1〜8小節）と伴奏の一部（第30〜37小節）による主題と変奏。第3変奏はダクティルのリズムで書かれ、楽章は長調で終わる。",
+        "highlights": [
+          "歌曲による主題",
+          "第3変奏のダクティル",
+          "長調の終結"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scherzo. Allegro molto",
+        "tempo": "Scherzo. Allegro molto",
+        "key": "",
+        "duration": 4,
+        "description": "強いシンコペーションのスケルツォと穏やかなトリオ。ピアノのためのドイツ舞曲 D790 第6曲にもとづくとする解説がある。",
+        "highlights": [
+          "シンコペーション",
+          "穏やかなトリオ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Presto",
+        "tempo": "Presto – Prestissimo",
+        "key": "",
+        "duration": 10,
+        "description": "タランテラのリズムによる大きなロンド。主要主題はほとんど和声を伴わずに示され、最後に Prestissimo に上がる。",
+        "highlights": [
+          "タランテラのリズム",
+          "Prestissimo の結尾"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1824年にウィーンで作曲され、自筆総譜の表紙に1824年3月の日付がある。同年3月31日のクーペルヴィーザー宛の手紙で、シューベルトはイ短調とニ短調の四重奏曲を書き終えたと伝えた。生前には公開の場で演奏されず、1826年初めに私的に演奏された。シュパンツィヒとその四重奏団はこの曲を退けたと伝えられる。1831年2月にウィーンのヨーゼフ・ツェルニーからパート譜で出版された。",
+    "musicalAnalysis": "4楽章構成で、第2楽章は1817年の歌曲《死と乙女》（クラウディウス詩）のピアノ部分を主題とする変奏曲である。自筆総譜は第2楽章の第142小節で途切れており、第3・第4楽章は初版のパート譜だけが資料である。",
+    "listeningGuide": {
+      "totalTime": "約44分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "schubert-symphony-9",
+      "schubert-trout"
+    ],
+    "relatedComposers": [
+      "mahler"
+    ],
+    "tags": [
+      "chamber",
+      "romantic",
+      "string-quartet",
+      "famous"
+    ]
+  },
+  {
+    "id": "schubert-sonata-d960",
+    "composerId": "schubert",
+    "title": "ピアノ・ソナタ 変ロ長調 D960",
+    "titleEn": "Piano Sonata in B-flat major, D 960",
+    "year": 1828,
+    "genre": "piano",
+    "subgenre": "sonata",
+    "era": "romantic",
+    "key": "Bb-major",
+    "opus": "D. 960",
+    "duration": 42,
+    "difficulty": 3,
+    "shortDescription": "1828年に書かれた晩年の3つのソナタの最後の曲で、9月26日に書き上げられたとされる。フンメルに献呈する予定だったが、死後の出版時にシューマンに献呈された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Molto moderato",
+        "tempo": "Molto moderato",
+        "key": "Bb-major",
+        "duration": 20,
+        "description": "ソナタ形式。主題の終わりに低音の変ト音の弱音のトリルが鳴り、フェルマータが続く。提示部には嬰ヘ短調の経過的な主題とヘ長調の第2主題があり、展開部は嬰ハ短調で始まる。",
+        "highlights": [
+          "低音のトリル",
+          "嬰ヘ短調の経過主題",
+          "再現部前のトリルの回帰"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante sostenuto",
+        "tempo": "Andante sostenuto",
+        "key": "c#-minor",
+        "duration": 10,
+        "description": "A–B–A' の三部形式で、中間部はイ長調。中間部の主題は繰り返されるたびに動きが増す。",
+        "highlights": [
+          "嬰ハ短調の主題",
+          "イ長調の中間部"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scherzo. Allegro vivace con delicatezza",
+        "tempo": "Scherzo. Allegro vivace con delicatezza – Trio",
+        "key": "Bb-major",
+        "duration": 4,
+        "description": "スケルツォは変ロ長調、トリオは変ロ短調。旋律が高音、中声部、低音の間を移る。",
+        "highlights": [
+          "声部を移る旋律",
+          "変ロ短調のトリオ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Allegro ma non troppo",
+        "tempo": "Allegro ma non troppo",
+        "key": "Bb-major",
+        "duration": 8,
+        "description": "ソナタ・ロンド形式（ソナタ形式とする解説もある）。ト音の信号が繰り返され、ヘ長調とヘ短調の主題を経て、プレストのコーダで終わる。",
+        "highlights": [
+          "ト音の信号",
+          "プレストのコーダ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1828年夏に書かれたハ短調 D958、イ長調 D959 とともに晩年の3つのソナタをなし、9月26日に書き上げられたとされる。シューベルトはヨハン・ネポムク・フンメルに献呈するつもりだったが、出版時にはフンメルが没しており、ディアベッリがロベルト・シューマンに献呈した。初版の年は1838年5月とも1839年ともされる。",
+    "musicalAnalysis": "4楽章構成。第1楽章 Molto moderato は主題の終わりに低音の弱音のトリルを置き、このトリルが楽章の要所で戻る。第2楽章は嬰ハ短調の三部形式、第3楽章はトリオを変ロ短調とするスケルツォ、終楽章は Allegro ma non troppo である。",
+    "listeningGuide": {
+      "totalTime": "約40分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "schubert-symphony-9",
+      "schubert-winterreise"
+    ],
+    "relatedComposers": [
+      "schumann-r",
+      "hummel"
+    ],
+    "tags": [
+      "piano",
+      "romantic",
+      "sonata"
+    ]
+  },
+  {
+    "id": "schubert-symphony-9",
+    "composerId": "schubert",
+    "title": "交響曲第8（9）番 ハ長調 D944《グレート》",
+    "titleEn": "Symphony No. 8 (9) in C major, D 944 \"The Great\"",
+    "year": "1825-1826",
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "romantic",
+    "key": "C-major",
+    "opus": "D. 944",
+    "duration": 50,
+    "difficulty": 2,
+    "shortDescription": "1825年に書き始められた4楽章の交響曲。シューベルトの生前には公開で演奏されず、1839年3月21日にライプツィヒでメンデルスゾーン指揮ゲヴァントハウス管弦楽団が初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Andante – Allegro ma non troppo",
+        "tempo": "Andante – Allegro ma non troppo",
+        "key": "C-major",
+        "duration": null,
+        "description": "ホルンの民謡風の旋律で遅い序奏が始まる。付点のリズムと3度の音程が主題のもとになる。主部の第2主題はホ短調で木管が出し、コーダは序奏のホルンの主題で終わる。",
+        "highlights": [
+          "序奏冒頭のホルン",
+          "付点のリズムと3連符",
+          "コーダでのホルン主題"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante con moto",
+        "tempo": "Andante con moto",
+        "key": "a-minor",
+        "duration": null,
+        "description": "行進曲風の一定のリズムで始まる ABABA の形の楽章。強奏の不協和な和音のあとに長い全休止が置かれ、チェロが再び弾き始める。",
+        "highlights": [
+          "行進曲風のリズム",
+          "強奏の和音と全休止",
+          "チェロの再開"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scherzo. Allegro vivace – Trio",
+        "tempo": "Scherzo. Allegro vivace – Trio",
+        "key": "C-major",
+        "duration": null,
+        "description": "スケルツォは田舎風の舞曲。トリオはレントラー風の旋律を管楽器が受け持ち、トロンボーンが目立つ。",
+        "highlights": [
+          "レントラー風のトリオ",
+          "トリオのトロンボーン"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Finale. Allegro vivace",
+        "tempo": "Finale. Allegro vivace",
+        "key": "C-major",
+        "duration": null,
+        "description": "反復するリズムで組み立てられた速い楽章。副次的な主題の1つがベートーヴェンの第9交響曲の終楽章の楽句を思わせる。コーダは総譜で約6頁にわたってハ長調だけで書かれている。",
+        "highlights": [
+          "金管のファンファーレ",
+          "ベートーヴェン第9を思わせる楽句",
+          "ハ長調のコーダ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1824年3月、シューベルトはベートーヴェンの第9交響曲の初演を前に、翌年に同様の演奏会を開くつもりだと書いた。用紙の研究では総譜の本体は1825年夏の紙に書かれ、遅くとも1827年初めには現在の形になっていた。ウィーン楽友協会は総譜を受け取って試演したが、長さと難しさから演奏を見送った。1838年1月にシューマンが兄フェルディナントのもとで筆写譜を見つけ、1839年3月21日にメンデルスゾーンの指揮で初演された。",
+    "musicalAnalysis": "4楽章構成で、編成はフルート、オーボエ、クラリネット、ファゴット、ホルン、トランペット各2、トロンボーン3、ティンパニ、弦楽。トロンボーンは全楽章で使われる。付点のリズムと3度の音程が4つの楽章の主題のもとになっている。",
+    "listeningGuide": {
+      "totalTime": "約50分",
+      "recommendedVersion": "ギュンター・ヴァント指揮 ベルリン・フィルハーモニー管弦楽団（1995年ライヴ）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "schubert-unfinished",
+      "beethoven-symphony-9",
+      "brahms-sym1"
+    ],
+    "relatedComposers": [
+      "beethoven",
+      "schumann-r",
+      "mendelssohn",
+      "brahms"
+    ],
+    "tags": [
+      "symphony",
+      "romantic",
+      "famous"
+    ]
+  },
+  {
+    "id": "vivaldi-gloria",
+    "composerId": "vivaldi",
+    "title": "グローリア ニ長調 RV 589",
+    "titleEn": "Gloria in D major, RV 589",
+    "year": "1713-1719",
+    "genre": "choral",
+    "subgenre": "sacred",
+    "era": "baroque",
+    "key": "D-major",
+    "opus": "RV 589",
+    "duration": 30,
+    "difficulty": 1,
+    "shortDescription": "ヴェネツィアのピエタ慈善院のために1713年から1719年頃に書かれた、独唱・合唱・管弦楽のためのグローリア。12曲からなり、終曲のフーガはルッジェーリのグローリア（1708年）から取られている。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Gloria in excelsis Deo",
+        "tempo": "",
+        "key": "D-major",
+        "duration": null,
+        "description": "合唱。オクターヴの跳躍と反復音型で始まり、トランペットとオーボエが加わる。",
+        "highlights": [
+          "トランペットとオーボエ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Et in terra pax",
+        "tempo": "",
+        "key": "b-minor",
+        "duration": null,
+        "description": "合唱。脈打つ低音の上で、半音階的なポリフォニーと掛留が進む。",
+        "highlights": [
+          "半音階と掛留"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Laudamus te",
+        "tempo": "",
+        "key": "G-major",
+        "duration": null,
+        "description": "ソプラノ2人の二重唱。器楽のリトルネッロが声の部分を区切る。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Gratias agimus tibi",
+        "tempo": "",
+        "key": "e-minor",
+        "duration": null,
+        "description": "合唱。6小節の和声的な部分で、第5曲に続く。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Propter magnam gloriam",
+        "tempo": "",
+        "key": "e-minor",
+        "duration": null,
+        "description": "合唱によるフーガ。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Domine Deus, Rex coelestis",
+        "tempo": "",
+        "key": "C-major",
+        "duration": null,
+        "description": "ソプラノ独唱。8分の12拍子のシチリアーノで、オーボエの対旋律が付く。",
+        "highlights": [
+          "オーボエの対旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "Domine Fili unigenite",
+        "tempo": "",
+        "key": "F-major",
+        "duration": null,
+        "description": "合唱。3拍子の付点リズムで書かれる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "Domine Deus, Agnus Dei",
+        "tempo": "",
+        "key": "d-minor",
+        "duration": null,
+        "description": "アルト独唱と合唱。アルトの部分にチェロの独奏が付く。",
+        "highlights": [
+          "チェロの独奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "Qui tollis peccata mundi",
+        "tempo": "",
+        "key": "a-minor",
+        "duration": null,
+        "description": "合唱。二部形式。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "Qui sedes ad dexteram Patris",
+        "tempo": "",
+        "key": "b-minor",
+        "duration": null,
+        "description": "アルト独唱。8分の3拍子で、弦楽と通奏低音が伴う。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "Quoniam tu solus Sanctus",
+        "tempo": "",
+        "key": "D-major",
+        "duration": null,
+        "description": "合唱。第1曲の音楽が短く戻る。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "Cum Sancto Spiritu",
+        "tempo": "",
+        "key": "D-major",
+        "duration": null,
+        "description": "合唱による二重フーガ。ルッジェーリのグローリアの終結部を改作したもの。",
+        "highlights": [
+          "ルッジェーリからの借用"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ピエタ慈善院の合唱長の職が空いていた1713年から1719年の時期に書かれたとされ、1715年6月にはピエタの理事会がヴィヴァルディの宗教声楽曲の仕事に報奨を与えている。終曲はジョヴァンニ・マリア・ルッジェーリの1708年のグローリアの終結部を改作したもので、同じ終曲はもう1曲のニ長調のグローリア RV 588 にも使われた。ヴィヴァルディの没後は忘れられ、1939年9月にシエナでアルフレード・カゼッラらの音楽週間で演奏された。楽譜は1941年に初めて印刷された。",
+    "musicalAnalysis": "グローリアの典礼文を12曲に分け、合唱の曲と独唱のアリアや二重唱を交互に置く。独唱はソプラノ2人とアルト、楽器はオーボエ、トランペット、弦楽、通奏低音で、ティンパニは用いない。第11曲で第1曲の音楽が戻り、二重フーガの第12曲で終わる。",
+    "listeningGuide": {
+      "totalTime": "約30分",
+      "recommendedVersion": "サイモン・プレストン指揮 オックスフォード・クライスト・チャーチ大聖堂聖歌隊、エンシェント室内管弦楽団、エマ・カークビー（1978年、ロワゾー・リール）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "vivaldi-four-seasons",
+      "bach-mass-b",
+      "handel-messiah",
+      "pergolesi-stabat-mater",
+      "poulenc-gloria"
+    ],
+    "relatedComposers": [
+      "handel",
+      "bach-js",
+      "pergolesi"
+    ],
+    "tags": [
+      "choral",
+      "sacred",
+      "baroque",
+      "venice",
+      "famous"
+    ]
   }
 ]
