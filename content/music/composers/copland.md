@@ -81,7 +81,7 @@ sources:
 
 1950年に《エミリー・ディキンソンの12の詩》を完成させた。1951〜52年、ハーヴァード大学のチャールズ・エリオット・ノートン詩学教授として6回の講義を行い、1952年に『音楽と想像力』として出版した。[（Library of Congress 目録）](https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu002006/mu002006.pdf)アメリカ生まれの人がこの講座を担当したのは初めてだった。[（Copland House）](https://coplandhouse.org/aaron-copland/timeline/)1951年にはフルブライト奨学金でローマのアメリカン・アカデミーに滞在した。[（IRCAM）](https://brahms.ircam.fr/en/aaron-copland)
 
-1953年5月26日、マッカーシー（Joseph McCarthy）上院議員の小委員会に出頭した。[（Library of Congress 目録）](https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu002006/mu002006.pdf)この召喚により、いくつかの仕事が取り消された。[（Copland House）](https://coplandhouse.org/aaron-copland/timeline/)1954年、オペラ《テンダー・ランド》がニューヨーク・シティ・オペラで初演された。[（Library of Congress 目録）](https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu002006/mu002006.pdf)
+1953年5月26日、マッカーシー（McCarthy）上院議員の小委員会に出頭した。[（Library of Congress 目録）](https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu002006/mu002006.pdf)この召喚により、いくつかの仕事が取り消された。[（Copland House）](https://coplandhouse.org/aaron-copland/timeline/)1954年、オペラ《テンダー・ランド》がニューヨーク・シティ・オペラで初演された。[（Library of Congress 目録）](https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu002006/mu002006.pdf)
 
 1951年にイタリアで初めて他の作曲家の作品（ダイアモンドの《ラウンズ》）を指揮し、1958年にニューヨーク・フィルハーモニックを初めて指揮した。[（Copland House）](https://coplandhouse.org/aaron-copland/timeline/)1962年、《コノテーションズ》がリンカーン・センターのフィルハーモニック・ホールの開場で初演された。1964年にジョンソン大統領から大統領自由勲章を受けた。1967年、ニューヨーク・フィルハーモニックの創立125周年のために《インスケイプ》を書いた。[（Library of Congress 目録）](https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mu002006/mu002006.pdf)
 
