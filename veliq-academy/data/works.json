@@ -2362,7 +2362,7 @@
     ]
   },
   {
-    "id": "brahms-pc1",
+    "id": "brahms-piano-concerto-1",
     "composerId": "brahms",
     "title": "ピアノ協奏曲第1番 ニ短調 作品15",
     "titleEn": "Piano Concerto No.1",
@@ -4155,7 +4155,7 @@
     ]
   },
   {
-    "id": "sibelius-vc",
+    "id": "sibelius-violin-concerto",
     "composerId": "sibelius",
     "title": "ヴァイオリン協奏曲 ニ短調 作品47",
     "titleEn": "Violin Concerto",
