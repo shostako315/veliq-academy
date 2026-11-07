@@ -7213,5 +7213,180 @@
       "harpsichord",
       "sonata"
     ]
+  },
+  {
+    "id": "elgar-cello-concerto",
+    "composerId": "elgar",
+    "title": "チェロ協奏曲 ホ短調 作品85",
+    "titleEn": "Cello Concerto in E minor, Op. 85",
+    "year": "1918-1919",
+    "genre": "concerto",
+    "subgenre": "cello",
+    "era": "modern",
+    "key": "e-minor",
+    "opus": "Op. 85",
+    "duration": 32,
+    "difficulty": 2,
+    "shortDescription": "1919年夏にサセックスのブリンクウェルズで書かれたチェロ協奏曲で、エルガーが完成させた最後の大きな管弦楽曲。1919年10月27日にフェリックス・サモンドの独奏、作曲者指揮ロンドン交響楽団で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Adagio – Moderato",
+        "tempo": "Adagio – Moderato",
+        "key": "e-minor",
+        "duration": null,
+        "description": "独奏チェロだけの4つの和音によるレチタティーヴォで始まる。第1主題は8分の9拍子で、1918年3月に書かれた。",
+        "highlights": [
+          "冒頭のレチタティーヴォ",
+          "8分の9拍子の主題"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Lento – Allegro molto",
+        "tempo": "Lento – Allegro molto",
+        "key": "",
+        "duration": null,
+        "description": "第1楽章の主題の回想とピッツィカートの和音ののち、16分音符が動き続けるスケルツォ風の部分に入る。",
+        "highlights": [
+          "無窮動の性格"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Adagio",
+        "tempo": "Adagio",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "独奏チェロの長い旋律を、編成を絞った管弦楽が支える。半終止からそのまま終楽章に入る。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Allegro – Moderato – Allegro, ma non troppo",
+        "tempo": "Allegro – Moderato – Allegro, ma non troppo",
+        "key": "e-minor",
+        "duration": null,
+        "description": "変ロ短調で始まり、短3度ずつ上がってホ短調に戻る。終わり近くで第3楽章の主題と第1楽章のレチタティーヴォが戻る。",
+        "highlights": [
+          "第3楽章と第1楽章の回想"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "第1楽章の主題は1918年3月、扁桃腺の手術から回復する間に書かれた。作曲の大部分は1919年夏にブリンクウェルズで行われ、8月初めに仕上がり、シドニー・コルヴィンとフランシス・コルヴィンに献呈された。1919年10月27日の初演はリハーサルが足りず不首尾に終わり、2度目の演奏は1921年1月27日（ジョン・バルビローリ独奏）であった。エルガーはベアトリス・ハリソンの独奏で1919〜20年と1928年にこの曲を録音した。",
+    "musicalAnalysis": "4楽章からなり、第1・第2楽章、第3・第4楽章がそれぞれ続けて演奏される。第1楽章は独奏チェロのレチタティーヴォで始まり、第3楽章は変ロ長調。ソナタ形式に近いのは終楽章だけで、終わり近くで第3楽章の主題と第1楽章のレチタティーヴォが戻る。",
+    "listeningGuide": {
+      "totalTime": "32分",
+      "recommendedVersion": "ジャクリーヌ・デュ・プレ（チェロ）、ジョン・バルビローリ指揮 ロンドン交響楽団（1965年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "elgar-enigma"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "concerto",
+      "cello",
+      "english",
+      "modern"
+    ]
+  },
+  {
+    "id": "josquin-missa-pange-lingua",
+    "composerId": "josquin",
+    "title": "ミサ曲《パンジェ・リングァ》",
+    "titleEn": "Missa Pange lingua",
+    "year": "1510-1515",
+    "genre": "choral",
+    "subgenre": "mass",
+    "era": "renaissance",
+    "key": "",
+    "opus": "NJE 4.3",
+    "duration": 30,
+    "difficulty": 2,
+    "shortDescription": "聖体の祝日の讃歌《パンジェ・リングァ》の旋律を4声部すべてに用いた、ジョスカン晩年の4声のミサ曲。1515年頃から写本に現れ、没後の1539年にハンス・オットのミサ曲集で初めて印刷された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Kyrie",
+        "tempo": "",
+        "key": "",
+        "duration": 3,
+        "description": "第1キリエは讃歌の第1句と第2句、クリステは第3句と第4句、第2キリエは第5句と第6句にもとづく。",
+        "highlights": [
+          "冒頭9小節は讃歌の第1句"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Gloria",
+        "tempo": "",
+        "key": "",
+        "duration": 4,
+        "description": "キリエと同じ讃歌の出だしで始まる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Credo",
+        "tempo": "",
+        "key": "",
+        "duration": 7,
+        "description": "冒頭は2声の厳格なカノン。中心に4声の和声的な部分があり、終わり近くの「コンフィテオル」で3拍子に変わる。",
+        "highlights": [
+          "2声のカノンによる開始",
+          "コンフィテオルでの拍子の変化"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Sanctus – Benedictus",
+        "tempo": "",
+        "key": "",
+        "duration": 8,
+        "description": "「プレニ・スント・チェリ」は長い二重唱。ベネディクトゥスは讃歌を引用せず、2つの声部が応答し合う。",
+        "highlights": [
+          "プレニ・スント・チェリの二重唱",
+          "ホザンナの3拍子"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Agnus Dei",
+        "tempo": "",
+        "key": "",
+        "duration": 7,
+        "description": "第2アニュス・デイは二重唱。第3アニュス・デイで初めて讃歌の旋律全体が最上声に長い音価で現れる。",
+        "highlights": [
+          "第3アニュス・デイの讃歌全体の引用"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ペトルッチの3巻のミサ曲集（最後は1514年）に入っていないことから1514年以後の作とされてきたが、1515年頃には各地の7つの資料に現れており、ファロウズは1510年頃とする。コンデで書かれたとみられる。イェーナとウィーンの写本では「尊い秘跡のミサ」と題されている。1539年、ハンス・オットがニュルンベルクで出した《4声のミサ曲13曲集》で初めて印刷された。",
+    "musicalAnalysis": "トマス・アクィナスの聖体の祝日の讃歌の6つの句を、4声部すべてに分けて用いるパラフレーズ・ミサである。キリエでは讃歌の句が順に用いられ、第3アニュス・デイで初めて旋律全体が長い音価で引用される。サンクトゥスとアニュス・デイには長い二重唱がある。",
+    "listeningGuide": {
+      "totalTime": "約30分",
+      "recommendedVersion": "ピーター・フィリップス指揮 タリス・スコラーズ（ギメル、1986年録音）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "choral",
+      "renaissance",
+      "mass",
+      "religious"
+    ]
   }
 ]

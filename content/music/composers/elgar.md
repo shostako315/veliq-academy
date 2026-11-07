@@ -39,7 +39,7 @@ sources:
 | 1889 | 5月8日、ロンドンのブロンプトン礼拝堂でアリスと結婚。ロンドンに住む |
 | 1890 | 8月14日、娘カリス誕生。9月、演奏会序曲《フロワサール》をウスターで初演 |
 | 1891 | マルヴァーン・リンクの「フォルリ」に移る |
-| 1899 | 3月、マルヴァーンの「クレグ・リー」に移る。6月、《エニグマ変奏曲》をロンドンで初演（リヒター指揮） |
+| 1899 | 3月、マルヴァーンの「クレグ・リー」に移る。6月19日、《エニグマ変奏曲》をロンドンで初演（リヒター指揮） |
 | 1900 | 10月3日、《ゲロンティアスの夢》をバーミンガム音楽祭で初演。ケンブリッジ大学の名誉博士 |
 | 1901 | 《コケイン》初演。《威風堂々》第1番・第2番をリヴァプールで初演 |
 | 1904 | 3月14〜16日、コヴェント・ガーデンでエルガー音楽祭。ナイトに叙される。7月、ヘレフォードの「プラス・グウィン」に移る |
@@ -51,7 +51,7 @@ sources:
 | 1913 | 10月1日、《ファルスタッフ》をリーズ音楽祭で初演 |
 | 1917 | 5月からサセックスの「ブリンクウェルズ」を借りる（1921年まで） |
 | 1918 | ブリンクウェルズでヴァイオリン・ソナタ、弦楽四重奏曲、ピアノ五重奏曲を書く |
-| 1919 | 10月、チェロ協奏曲をロンドンで初演 |
+| 1919 | 10月27日、チェロ協奏曲をロンドンで初演 |
 | 1920 | 4月7日、アリスがロンドンで没する |
 | 1924 | 国王の音楽師範（Master of the King's Musick）となる |
 | 1929 | 12月、ウスターの「マール・バンク」に移る |
@@ -75,7 +75,7 @@ sources:
 
 1891年からマルヴァーン・リンクの「フォルリ」に住み、ここで《黒騎士》、《オラフ王》、《カラクタクス》の大部分、《エニグマ変奏曲》を書いた。1898〜1903年には近くのバーチウッド・ロッジを別宅とし、《ゲロンティアスの夢》のほぼすべてをそこで書いた。1899年3月に同じマルヴァーンの「クレグ・リー」へ移った。[（Elgar Society）](https://elgarsociety.org/wp-content/uploads/2014/04/The-Elgar-Trail.-A-Short-Illustrated-Tour-of-Elgars-Houses..pdf)
 
-1899年6月、《エニグマ変奏曲》作品36がロンドンでハンス・リヒター（Hans Richter）の指揮により初演された。同年10月5日にはノリッジ音楽祭でクララ・バット（Clara Butt）が歌曲集《海の絵》作品37を初演した。1900年10月3日、オラトリオ《ゲロンティアスの夢》作品38がバーミンガム音楽祭で初演された。[（Encyclopedia.com）](https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/elgar-sir-edward-william-0)この初演は成功しなかった。同年11月22日、ケンブリッジ大学から名誉博士号を受けた。[（Victorian Web）](https://victorianweb.org/mt/elgar/chronology.html)1901年には序曲《コケイン》作品40と、行進曲《威風堂々》第1番・第2番が初演された。
+1899年6月19日、《エニグマ変奏曲》作品36がロンドンのセント・ジェイムズ・ホールでハンス・リヒター（Hans Richter）の指揮により初演された。同年10月5日にはノリッジ音楽祭でクララ・バット（Clara Butt）が歌曲集《海の絵》作品37を初演した。1900年10月3日、オラトリオ《ゲロンティアスの夢》作品38がバーミンガム音楽祭で初演された。[（Encyclopedia.com）](https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/elgar-sir-edward-william-0)この初演は成功しなかった。同年11月22日、ケンブリッジ大学から名誉博士号を受けた。[（Victorian Web）](https://victorianweb.org/mt/elgar/chronology.html)1901年には序曲《コケイン》作品40と、行進曲《威風堂々》第1番・第2番が初演された。
 
 ### ヘレフォードとロンドン（1904〜1920年）
 
@@ -85,7 +85,7 @@ sources:
 
 1912年1月1日、ハムステッドの「セヴァーン・ハウス」に移った。[（Elgar Society）](https://elgarsociety.org/wp-content/uploads/2014/04/The-Elgar-Trail.-A-Short-Illustrated-Tour-of-Elgars-Houses..pdf)交響的習作《ファルスタッフ》作品68は1913年10月1日にリーズ音楽祭で初演された。第一次世界大戦中には朗読と管弦楽のための《カリヨン》作品75（1914年）、《イングランドの精神》作品80（全曲初演1917年）を書いた。[（Encyclopedia.com）](https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/elgar-sir-edward-william-0)1916年4月8日には列車の中で倒れた。[（Victorian Web）](https://victorianweb.org/mt/elgar/chronology.html)
 
-1917年5月から1921年8月まで、サセックス州フィトルワース近くの小屋「ブリンクウェルズ」を借り、ヴァイオリン・ソナタ作品82、弦楽四重奏曲作品83、ピアノ五重奏曲作品84をそこで書いた。[（Elgar Society）](https://elgarsociety.org/wp-content/uploads/2014/04/The-Elgar-Trail.-A-Short-Illustrated-Tour-of-Elgars-Houses..pdf)3曲は1919年にロンドンで初演され、同年10月にチェロ協奏曲 ホ短調 作品85がロンドンでフェリックス・サモンド（Felix Salmond）の独奏で初演された。[（Encyclopedia.com）](https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/elgar-sir-edward-william-0)
+1917年5月から1921年8月まで、サセックス州フィトルワース近くの小屋「ブリンクウェルズ」を借り、ヴァイオリン・ソナタ作品82、弦楽四重奏曲作品83、ピアノ五重奏曲作品84をそこで書いた。[（Elgar Society）](https://elgarsociety.org/wp-content/uploads/2014/04/The-Elgar-Trail.-A-Short-Illustrated-Tour-of-Elgars-Houses..pdf)3曲は1919年にロンドンで初演され、同年10月27日にチェロ協奏曲 ホ短調 作品85がロンドンでフェリックス・サモンド（Felix Salmond）の独奏で初演された。[（Bärenreiter, Del Mar 序文）](https://www.barenreiter.co.uk/prefaces/9790006204762_Innenansicht.pdf)
 
 1920年4月7日、アリスがロンドンで没し、4月10日にリトル・マルヴァーンの聖ウルスタン・カトリック教会の墓地に葬られた。[（Encyclopedia.com）](https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/elgar-alice-1848-1920)
 
@@ -111,7 +111,7 @@ sources:
 |---|---|---|
 | 演奏会序曲《フロワサール》 | 19 | 1890年9月、ウスター |
 | 弦楽セレナード ホ短調 | 20 | 全曲初演1896年7月23日、アントワープ |
-| 《エニグマ変奏曲》（創作主題による変奏曲） | 36 | 1899年6月、ロンドン（リヒター） |
+| 《エニグマ変奏曲》（創作主題による変奏曲） | 36 | 1899年6月19日、ロンドン（リヒター） |
 | 行進曲《威風堂々》第1〜5番 | 39 | 1901〜1930年 |
 | 序曲《コケイン（ロンドンの下町で）》 | 40 | 1901年6月20日、ロンドン |
 | 《序奏とアレグロ》（弦楽四重奏と弦楽合奏） | 47 | 1905年3月8日、ロンドン |
@@ -126,7 +126,7 @@ sources:
 | 作品 | 作品番号 | 初演 |
 |---|---|---|
 | ヴァイオリン協奏曲 ロ短調 | 61 | 1910年11月10日、ロンドン（クライスラー独奏） |
-| チェロ協奏曲 ホ短調 | 85 | 1919年10月、ロンドン（サモンド独奏） |
+| チェロ協奏曲 ホ短調 | 85 | 1919年10月27日、ロンドン（サモンド独奏） |
 
 ### 室内楽
 
