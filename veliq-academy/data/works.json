@@ -8741,5 +8741,79 @@
       "atonal",
       "second-viennese-school"
     ]
+  },
+  {
+    "id": "hindemith-mathis",
+    "composerId": "hindemith",
+    "title": "交響曲《画家マティス》",
+    "titleEn": "Symphony \"Mathis der Maler\"",
+    "year": "1933-1934",
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 27,
+    "difficulty": 2,
+    "shortDescription": "フルトヴェングラーとベルリン・フィルの委嘱で、作曲中のオペラ《画家マティス》の音楽から作られた3楽章の交響曲。1934年3月12日にベルリンでフルトヴェングラー指揮ベルリン・フィルが初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "天使の合奏（Engelkonzert）",
+        "tempo": "Ruhig bewegt – Ziemlich lebhafte Halbe",
+        "key": "",
+        "duration": null,
+        "description": "イーゼンハイム祭壇画の降誕図で天使たちが楽器を奏でる場面に対応する。数小節後にトロンボーンが民謡「3人の天使が歌った」をコラール風に奏し、展開部でこの旋律が対位法的に戻ってオーケストラ全体の強奏に至る。オペラの前奏曲にあたる。",
+        "highlights": [
+          "トロンボーンの「3人の天使が歌った」",
+          "旋律の対位法的な回帰"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "埋葬（Grablegung）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "祭壇画の裾絵のキリストの埋葬に対応する。弱音器を付けた弦の静かな葬送行進曲で始まり、中間部とコーダで主題がカノンの形で展開される。オペラでは最後の場の間奏曲である。",
+        "highlights": [
+          "弱音器付きの弦",
+          "カノンによる展開"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "聖アントニウスの誘惑（Versuchung des heiligen Antonius）",
+        "tempo": "Sehr langsam, frei im Zeitmaß – Sehr lebhaft",
+        "key": "",
+        "duration": null,
+        "description": "祭壇画の右翼に対応する。弦のレチタティーヴォ風の主題で始まり、主題はクラリネット、さらにホルンで13回繰り返される。木管のグレゴリオ聖歌「Lauda Sion Salvatorem」と組み合わされて「アレルヤ」の頂点に至り、金管のコラールで閉じる。",
+        "highlights": [
+          "レチタティーヴォ風の弦の主題",
+          "Lauda Sion Salvatorem",
+          "金管のコラール"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1932年の《フィルハーモニー協奏曲》に続き、フルトヴェングラーは1933年にベルリン・フィルの1933/34年のシーズンのための作品を委嘱した。ヒンデミットは画家マティアス・グリューネヴァルトを主人公とするオペラの計画と結びつけ、1934年2月に交響曲を完成した。初演は1934年3月12日、ベルリンでフルトヴェングラー指揮ベルリン・フィルにより行われた。同年11月にフルトヴェングラーが擁護の記事「ヒンデミット事件」を書き、12月にゲッベルスが非難し、1936年にドイツでヒンデミットの作品の演奏が禁じられた。オペラは1935年夏に完成し、1938年5月28日にチューリヒ市立劇場で初演された。",
+    "musicalAnalysis": "3つの楽章はイーゼンハイム祭壇画の場面に対応し、第1・第2楽章はオペラの前奏曲と間奏曲に用いられた。第1楽章では民謡「3人の天使が歌った」がトロンボーンで示され、展開部で対位法的に戻る。第3楽章は祭壇画のアントニウスを囲む11の悪魔に合わせて11の部分からなり、グレゴリオ聖歌の続唱「Lauda Sion Salvatorem」が木管に現れる。",
+    "listeningGuide": {
+      "totalTime": "約25〜27分",
+      "recommendedVersion": "パウル・ヒンデミット指揮 ベルリン・フィルハーモニー管弦楽団（ドイツ・グラモフォン、1954〜57年録音のセット）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "modern",
+      "german",
+      "furtwangler",
+      "isenheim-altarpiece"
+    ]
   }
 ]
