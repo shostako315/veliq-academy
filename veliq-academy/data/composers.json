@@ -2920,5 +2920,85 @@
     ],
     "youtubeIds": [],
     "spotifyArtistId": null
+  },
+  {
+    "id": "mussorgsky",
+    "name": "モデスト・ムソルグスキー",
+    "nameEn": "Modest Mussorgsky",
+    "born": 1839,
+    "died": 1881,
+    "birthplace": "カレヴォ（ロシア帝国）",
+    "nationality": "Russian",
+    "era": "romantic",
+    "portrait": null,
+    "thumbnail": null,
+    "shortBio": "ロシアの作曲家。近衛連隊の士官を経て官吏として働きながら作曲し、オペラ《ボリス・ゴドゥノフ》とピアノ組曲《展覧会の絵》を書いた。",
+    "longBio": "1839年、プスコフ県カレヴォの地主の家に生まれ、母からピアノの手ほどきを受けた。1852年に近衛士官候補生学校に入り、1856年にプレオブラジェンスキー近衛連隊の士官となった。1859年に連隊を辞め、ダルゴムイシスキーを通じてバラキレフと知り合い、師とした。1863年から官吏として働いた。1867年に《禿山の一夜》を完成させた。《ボリス・ゴドゥノフ》は1869年に第1版、1872年に第2版が完成し、1874年2月8日にサンクトペテルブルクで初演された。1874年、ハルトマンの遺作展をもとにピアノ組曲《展覧会の絵》を書いた。《ホヴァンシチナ》と《ソローチンツィの市》は未完に終わった。1881年3月16日（新暦28日）、サンクトペテルブルクで没した。没後、リムスキー＝コルサコフが多くの作品を改訂して出版した。",
+    "style": [
+      "オペラ",
+      "歌曲",
+      "ピアノ曲",
+      "交響詩"
+    ],
+    "keyWorks": [],
+    "influencedBy": [],
+    "influenced": [],
+    "teachers": [],
+    "students": [],
+    "historicalContext": "romantic",
+    "difficulty": 2,
+    "tags": [
+      "romantic",
+      "opera",
+      "russian",
+      "nationalism",
+      "the-five"
+    ],
+    "youtubeIds": [],
+    "spotifyArtistId": null
+  },
+  {
+    "id": "paganini",
+    "name": "ニコロ・パガニーニ",
+    "nameEn": "Niccolò Paganini",
+    "born": 1782,
+    "died": 1840,
+    "birthplace": "ジェノヴァ（ジェノヴァ共和国）",
+    "nationality": "Italian",
+    "era": "romantic",
+    "portrait": null,
+    "thumbnail": null,
+    "shortBio": "イタリアのヴァイオリン奏者・作曲家。ルッカの宮廷に仕えたのちイタリア各地と国外で演奏し、1820年に《24のカプリース》作品1を出版した。",
+    "longBio": "1782年10月27日にジェノヴァで生まれ、父、コスタらにヴァイオリンを学び、1794年に最初の公開演奏を行った。1795年にパルマへ行き、ロッラ、パエール、ギレッティに学んだ。1805〜09年、ナポレオンの妹エリザ・バチョッキのルッカの宮廷に仕え、その後イタリア各地で演奏した。1820年にミラノのリコルディから《24のカプリース》作品1を出版した。1828年3月にウィーン、1829年にベルリン、1831年にパリとロンドンで演奏会を開き、英国では150回演奏した。1833年にパリに住み、ベルリオーズにヴィオラのための作品を依頼し、《イタリアのハロルド》が生まれた。1834年に国際的な演奏活動を終え、1838年に病で声を失い、1840年5月27日にニースで没した。愛用のグァルネリ・デル・ジェズ（1743年）《カノーネ》をジェノヴァ市に遺贈した。カプリースの主題はリスト、シューマン、ブラームス、ラフマニノフの作品のもとになった。",
+    "style": [
+      "ヴァイオリン",
+      "無伴奏カプリース",
+      "協奏曲",
+      "ハーモニクス",
+      "ギター"
+    ],
+    "keyWorks": [
+      "paganini-caprices"
+    ],
+    "influencedBy": [],
+    "influenced": [
+      "liszt",
+      "schumann-r",
+      "brahms",
+      "rachmaninoff"
+    ],
+    "teachers": [],
+    "students": [],
+    "historicalContext": "romantic",
+    "difficulty": 2,
+    "tags": [
+      "romantic",
+      "violin",
+      "virtuoso",
+      "concerto",
+      "italian"
+    ],
+    "youtubeIds": [],
+    "spotifyArtistId": null
   }
 ]
