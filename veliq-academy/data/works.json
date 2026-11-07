@@ -5734,5 +5734,54 @@
       "czech",
       "nationalism"
     ]
+  },
+  {
+    "id": "strauss-j2-blue-danube",
+    "composerId": "strauss-j2",
+    "title": "ワルツ《美しく青きドナウ》作品314",
+    "titleEn": "An der schönen blauen Donau (The Blue Danube), Waltz, Op. 314",
+    "year": 1867,
+    "genre": "orchestral",
+    "subgenre": "waltz",
+    "era": "romantic",
+    "key": "",
+    "opus": "Op. 314",
+    "duration": null,
+    "difficulty": 1,
+    "shortDescription": "ウィーン男声合唱協会の依頼で書かれた合唱付きワルツ。1867年2月15日に合唱版が、同年3月10日に作曲者指揮の管弦楽版が初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "導入とワルツ1〜5",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "弦に続いてホルンが呼びかけ、木管が応える導入の後、5つのワルツの主題が続く。",
+        "highlights": [
+          "導入のホルン",
+          "5つのワルツの主題"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1865年夏、ウィーン男声合唱協会はシュトラウスに作品を依頼したが、シュトラウスはパヴロフスクでの契約のため応じられず、新作を約束した。作品は1867年の謝肉祭の時期に届き、1866〜67年の冬に書かれたとみられる。合唱版は1867年2月15日にディアナバートの広間で、ヨーゼフ・ヴァイルの風刺的な歌詞で初演され、管弦楽版は同年3月10日にフォルクスガルテンで作曲者の指揮で初演された。同年のパリ万国博覧会でのシュトラウス楽団の演奏で広く知られるようになった。今日よく歌われる歌詞は1889年にフランツ・フォン・ゲルネルトが書いた。",
+    "musicalAnalysis": "導入と5つのワルツの主題からなる。導入には主要な主題の断片が現れる。合唱版では、最初の4つの部分の合唱パートを合唱指揮者ルドルフ・ヴァインヴルムが、5つ目をシュトラウスが書いた。",
+    "listeningGuide": {
+      "totalTime": "",
+      "recommendedVersion": "カルロス・クライバー指揮 ウィーン・フィルハーモニー管弦楽団（1989年・1992年 新年演奏会ライヴ）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "brahms"
+    ],
+    "tags": [
+      "orchestral",
+      "romantic",
+      "famous",
+      "waltz",
+      "vienna"
+    ]
   }
 ]
