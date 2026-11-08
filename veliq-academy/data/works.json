@@ -15392,5 +15392,76 @@
       "french",
       "requiem"
     ]
+  },
+  {
+    "id": "satie-gymnopedies",
+    "composerId": "satie",
+    "title": "3つのジムノペディ",
+    "titleEn": "Gymnopédies",
+    "year": "1888",
+    "genre": "piano",
+    "subgenre": "piano pieces",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 10,
+    "difficulty": 1,
+    "shortDescription": "1888年2月から4月初めにパリで書かれた3曲のピアノ曲。第1番は1888年8月に週刊誌の付録として出版され、ドビュッシーが第1番と第3番を管弦楽に編曲した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1番 Lent et douloureux",
+        "tempo": "Lent et douloureux",
+        "key": "D-major",
+        "duration": 4,
+        "description": "ジャンヌ・ド・ブレに献呈。1888年8月18日に『ラ・ミュジック・デ・ファミーユ』の付録として、ラトゥールの詩の一節を添えて出版された。自筆譜の速度表示は Très lent。",
+        "highlights": [
+          "ラトゥールの詩《古代のもの》の題辞",
+          "ドビュッシーの管弦楽版では第2番"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2番 Lent et triste",
+        "tempo": "Lent et triste",
+        "key": "C-major",
+        "duration": 3,
+        "description": "自筆譜はアルチュール・ドドマン、印刷譜は弟コンラッド・サティに献呈。1895年に自費出版された。ドビュッシーは管弦楽に編曲しなかった。",
+        "highlights": [
+          "自筆譜第5小節の Lent et grave の表示"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3番 Lent et grave",
+        "tempo": "Lent et grave",
+        "key": "a-minor",
+        "duration": 3,
+        "description": "和声の師シャルル＝ガストン・ルヴァデに献呈。1888年に自費出版された。自筆譜の日付は1888年4月2日。",
+        "highlights": [
+          "ドビュッシーの管弦楽版では第1番"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "サティは1887年12月、シャ・ノワールの主人サリスに「ジムノペディスト」と名乗ってピアニストとして雇われ、翌1888年2月から4月初めに3曲を書いた。第1番は1888年8月に週刊誌『ラ・ミュジック・デ・ファミーユ』の付録として、第3番は1888年、第2番は1895年に自費で出版された。ドビュッシーは指揮者ドレの依頼で第1番と第3番を管弦楽に編曲し、1897年2月20日にサル・エラールの国民音楽協会の演奏会でドレの指揮により初演された。",
+    "musicalAnalysis": "3曲ともゆっくりした3拍子で、2つの部分からなり、展開を行わない。上行または下行する音階の動機を3曲が共有し、4分音符より長い音価だけで書かれ、機能和声によらず同じ型を繰り返す。",
+    "listeningGuide": {
+      "totalTime": "約9分30秒",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [
+      "debussy"
+    ],
+    "tags": [
+      "piano",
+      "modern",
+      "french"
+    ]
   }
 ]
