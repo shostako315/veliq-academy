@@ -1,4 +1,4 @@
-# factlog: verdi-otello（ヴェルディ オペラ《オテッロ》）
+# factlog: verdi-otello（ヴェルディ オペラ《オテロ》）
 
 確認日：2026-11-08。略号：
 - [BRI] Encyclopædia Britannica「Otello, opera by Verdi」 https://www.britannica.com/topic/Otello-opera-by-Verdi

@@ -1,11 +1,11 @@
 ---
-title: ヴェルディ オペラ《オテッロ》
+title: ヴェルディ オペラ《オテロ》
 slug: verdi-otello
 section: works
-summary: シェイクスピアの『オセロー』をもとにボーイトが台本を書いた4幕の「抒情劇」。1884〜86年に作曲され、1887年2月5日にミラノのスカラ座で、フランコ・ファッチョの指揮、タマーニョのオテッロで初演された。
+summary: シェイクスピアの『オセロー』をもとにボーイトが台本を書いた4幕の「抒情劇」。1884〜86年に作曲され、1887年2月5日にミラノのスカラ座で、フランコ・ファッチョの指揮、タマーニョのオテロで初演された。
 composer: verdi
 year: 1884-1886
-scoring: テノール（オテッロ、カッシオ、ロデリーゴ）、ソプラノ（デズデーモナ）、バリトン（イアーゴ）、メゾソプラノ（エミーリア）、バス（ロドヴィーコ、モンターノ、伝令）、合唱、管弦楽、舞台裏の楽隊
+scoring: テノール（オテロ、カッシオ、ロデリーゴ）、ソプラノ（デズデーモナ）、バリトン（イアーゴ）、メゾソプラノ（エミーリア）、バス（ロドヴィーコ、モンターノ、伝令）、合唱、管弦楽、舞台裏の楽隊
 updated: 2026-11-08
 sources:
   - "Encyclopædia Britannica「Otello, opera by Verdi」（1887年2月5日スカラ座初演、ボーイトの台本、1879年のリコルディの提案、4幕、15世紀末のキプロス、登場人物と声種、〈喜べ〉〈喉を潤せ〉〈すでに夜も更けた〉、ワーグナーとの比較、独立したアリアの少なさ、《ファルスタッフ》）. https://www.britannica.com/topic/Otello-opera-by-Verdi（閲覧日 2026-11-08）"
@@ -20,9 +20,9 @@ sources:
 ---
 
 > **要点**
-> - シェイクスピアの『オセロー』をもとに、アッリーゴ・ボーイト（Arrigo Boito）がイタリア語の台本を書いた4幕の「抒情劇（dramma lirico）」。《オテロ》とも表記される。
+> - シェイクスピアの『オセロー』をもとに、アッリーゴ・ボーイト（Arrigo Boito）がイタリア語の台本を書いた4幕の「抒情劇（dramma lirico）」。《オテッロ》とも表記される。
 > - 1879年に出版社のジューリオ・リコルディ（Giulio Ricordi）が題材を持ちかけ、ヴェルディは1884年3月に第1幕に着手し、1886年まで作曲した。
-> - 1887年2月5日、ミラノのスカラ座で、フランコ・ファッチョ（Franco Faccio）の指揮により初演された。オテッロはフランチェスコ・タマーニョ（Francesco Tamagno）、イアーゴはヴィクトル・モーレル（Victor Maurel）、デズデーモナはロミルダ・パンタレオーニ（Romilda Pantaleoni）。
+> - 1887年2月5日、ミラノのスカラ座で、フランコ・ファッチョ（Franco Faccio）の指揮により初演された。オテロはフランチェスコ・タマーニョ（Francesco Tamagno）、イアーゴはヴィクトル・モーレル（Victor Maurel）、デズデーモナはロミルダ・パンタレオーニ（Romilda Pantaleoni）。
 > - 台本はシェイクスピアの第1幕（ヴェネツィアの場）を省き、舞台を15世紀末のキプロスに置く。1894年のパリ・オペラ座の上演のために、ヴェルディは第3幕にバレエを加えた。
 
 ## 成立
@@ -35,7 +35,7 @@ sources:
 
 ### 《シモン・ボッカネグラ》の改訂
 
-ヴェルディとボーイトが最初に共同で手がけたのは、《シモン・ボッカネグラ》の改訂であった。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)改訂版の《シモン・ボッカネグラ》でガブリエーレ・アドルノを歌ったのは、のちに初代オテッロとなるタマーニョであった。タマーニョは4幕版の《ドン・カルロ》でも題名役を歌っている。[（Gramophone）](https://gramophone.co.uk/feature/verdi-otello-best-recordings)
+ヴェルディとボーイトが最初に共同で手がけたのは、《シモン・ボッカネグラ》の改訂であった。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)改訂版の《シモン・ボッカネグラ》でガブリエーレ・アドルノを歌ったのは、のちに初代オテロとなるタマーニョであった。タマーニョは4幕版の《ドン・カルロ》でも題名役を歌っている。[（Gramophone）](https://gramophone.co.uk/feature/verdi-otello-best-recordings)
 
 ### 作曲
 
@@ -55,7 +55,7 @@ sources:
 
 | 役 | 歌手 |
 |---|---|
-| オテッロ | フランチェスコ・タマーニョ |
+| オテロ | フランチェスコ・タマーニョ |
 | デズデーモナ | ロミルダ・パンタレオーニ |
 | イアーゴ | ヴィクトル・モーレル |
 | カッシオ | ジョヴァンニ・パローリ（Giovanni Paroli） |
@@ -74,11 +74,11 @@ sources:
 
 | 役 | 声種 | 役柄 |
 |---|---|---|
-| オテッロ | テノール | ムーア人、ヴェネツィアの将軍 |
-| デズデーモナ | ソプラノ | オテッロの妻 |
-| イアーゴ | バリトン | オテッロの旗手 |
+| オテロ | テノール | ムーア人、ヴェネツィアの将軍 |
+| デズデーモナ | ソプラノ | オテロの妻 |
+| イアーゴ | バリトン | オテロの旗手 |
 | エミーリア | メゾソプラノ | イアーゴの妻 |
-| カッシオ | テノール | オテッロの副官 |
+| カッシオ | テノール | オテロの副官 |
 | ロデリーゴ | テノール | デズデーモナに恋するヴェネツィア人 |
 | ロドヴィーコ | バス | ヴェネツィアの大使 |
 | モンターノ | バス | キプロスの前総督 |
@@ -94,35 +94,35 @@ sources:
 
 ### 第1幕 キプロスの港
 
-嵐の中、キプロスの人々はオテッロの帰還を待つ。ヴェルディは楽譜に雷と稲妻を書き込み、管弦楽で風、荒れる海、波に揺れる船を描いた。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
+嵐の中、キプロスの人々はオテロの帰還を待つ。ヴェルディは楽譜に雷と稲妻を書き込み、管弦楽で風、荒れる海、波に揺れる船を描いた。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
 
-オテッロは勝利した艦隊とともに上陸し、〈喜べ（Esultate）〉を歌う。人々はかがり火を焚いて祝う。イアーゴはここで企みを始め、カッシオは乾杯の歌〈喉を潤せ（Inaffia l'ugola）〉を歌う。幕の終わりにオテッロとデズデーモナが再会し、夜の二重唱〈すでに夜も更けた（Già nella notte densa）〉を歌う。[（Britannica）](https://www.britannica.com/topic/Otello-opera-by-Verdi)[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
+オテロは勝利した艦隊とともに上陸し、〈喜べ（Esultate）〉を歌う。人々はかがり火を焚いて祝う。イアーゴはここで企みを始め、カッシオは乾杯の歌〈喉を潤せ（Inaffia l'ugola）〉を歌う。幕の終わりにオテロとデズデーモナが再会し、夜の二重唱〈すでに夜も更けた（Già nella notte densa）〉を歌う。[（Britannica）](https://www.britannica.com/topic/Otello-opera-by-Verdi)[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
 
 ### 第2幕 城内の一室
 
 イアーゴはカッシオに、デズデーモナにとりなしを頼むよう勧める。イアーゴの中心となるアリア〈クレド（Credo）〉は、ヴェルディとボーイトが作った場面で、シェイクスピアに直接対応する箇所はない。イアーゴはここで、自分は残酷な神によって悪に造られたと言い、自らを「卑しく生まれた」と呼ぶ。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)〈クレド〉は1888年頃、リコルディから単独の楽譜としても出版された。[（IMSLP）](https://cn.imslp.org/wiki/Otello_(Verdi,_Giuseppe))
 
-イアーゴはオテッロにデズデーモナの貞節への疑いを吹き込み、ハンカチの一件で疑いは深まる。幕の終わりに、オテッロとイアーゴはカッシオとデズデーモナへの復讐を誓う。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
+イアーゴはオテロにデズデーモナの貞節への疑いを吹き込み、ハンカチの一件で疑いは深まる。幕の終わりに、オテロとイアーゴはカッシオとデズデーモナへの復讐を誓う。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
 
 ### 第3幕 城の大広間
 
-オテッロはカッシオの手にハンカチがあるのを見て、妻を殺すと誓う。ヴェネツィアの使節が到着し、オテッロを本国に呼び戻してカッシオを総督に任じる。オテッロは激昂してデズデーモナを打ち、発作を起こして倒れる。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
+オテロはカッシオの手にハンカチがあるのを見て、妻を殺すと誓う。ヴェネツィアの使節が到着し、オテロを本国に呼び戻してカッシオを総督に任じる。オテロは激昂してデズデーモナを打ち、発作を起こして倒れる。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
 
 1894年のパリ・オペラ座の上演のために、ヴェルディはこの幕にバレエを加えた。[（Gramophone）](https://gramophone.co.uk/feature/verdi-otello-best-recordings)パリ初演のためには、第3幕の合奏の短い代替稿も書かれた。[（MusicWeb International）](https://www.musicweb-international.com/classrev/2019/Mar/Verdi-Otello-survey.htm)
 
 ### 第4幕 デズデーモナの寝室
 
-オテッロはデズデーモナを窒息させて殺す。エミーリアがイアーゴの企みを明かし、オテッロは自らを刺して、最後の口づけとともに息絶える。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
+オテロはデズデーモナを窒息させて殺す。エミーリアがイアーゴの企みを明かし、オテロは自らを刺して、最後の口づけとともに息絶える。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
 
 ## 演奏史と解釈
 
 ### 初演後の上演
 
-《オテッロ》は初演の年にスカラ座で24回上演され、同じ年のうちにメキシコシティ、サンクトペテルブルク、ニューヨーク、コンスタンティノープルなどで舞台にかけられた。[（EBSCO）](https://ebsco.com/research-starters/music/verdis-opera-otello-premieres)
+《オテロ》は初演の年にスカラ座で24回上演され、同じ年のうちにメキシコシティ、サンクトペテルブルク、ニューヨーク、コンスタンティノープルなどで舞台にかけられた。[（EBSCO）](https://ebsco.com/research-starters/music/verdis-opera-otello-premieres)
 
-メトロポリタン歌劇場の初演は1891年11月23日、巡業中のシカゴで、シカゴ交響楽団がピットに入って行われた。オテッロはジャン・ド・レシュケ（Jean de Reszke）、デズデーモナはエマ・アルバーニ（Emma Albani）、イアーゴはエドゥアルド・カメーラ（Eduardo Camera）であった。タマーニョは1894〜95年のシーズンにメトでオテッロを13回歌った。[（PBS）](https://www.pbs.org/wnet/gperf/gp-at-the-met-otello-2016-otello-in-historical-context/4640)
+メトロポリタン歌劇場の初演は1891年11月23日、巡業中のシカゴで、シカゴ交響楽団がピットに入って行われた。オテロはジャン・ド・レシュケ（Jean de Reszke）、デズデーモナはエマ・アルバーニ（Emma Albani）、イアーゴはエドゥアルド・カメーラ（Eduardo Camera）であった。タマーニョは1894〜95年のシーズンにメトでオテロを13回歌った。[（PBS）](https://www.pbs.org/wnet/gperf/gp-at-the-met-otello-2016-otello-in-historical-context/4640)
 
-2016年2月21日、PBSの「グレート・パフォーマンス・アット・ザ・メット」でメトロポリタン歌劇場の新演出が放送された。オテッロはアレクサンドルス・アントネンコ（Aleksandrs Antonenko）、デズデーモナはソーニャ・ヨンチェヴァ（Sonya Yoncheva）で、演出は時代を19世紀末に移している。[（PBS）](https://www.pbs.org/wnet/gperf/gp-at-the-met-otello-2016-otello-in-historical-context/4640)
+2016年2月21日、PBSの「グレート・パフォーマンス・アット・ザ・メット」でメトロポリタン歌劇場の新演出が放送された。オテロはアレクサンドルス・アントネンコ（Aleksandrs Antonenko）、デズデーモナはソーニャ・ヨンチェヴァ（Sonya Yoncheva）で、演出は時代を19世紀末に移している。[（PBS）](https://www.pbs.org/wnet/gperf/gp-at-the-met-otello-2016-otello-in-historical-context/4640)
 
 ### パリ稿のバレエ
 
@@ -132,7 +132,7 @@ sources:
 
 グラモフォン誌の録音比較（リチャード・ローレンス、2016年）が挙げた主な録音は次のとおりである。[（Gramophone）](https://gramophone.co.uk/feature/verdi-otello-best-recordings)
 
-| 年 | 指揮 | 管弦楽 | オテッロ | デズデーモナ | イアーゴ |
+| 年 | 指揮 | 管弦楽 | オテロ | デズデーモナ | イアーゴ |
 |---|---|---|---|---|---|
 | 1938 | エットーレ・パニッツァ（Ettore Panizza） | メトロポリタン歌劇場 | ジョヴァンニ・マルティネッリ（Giovanni Martinelli） | エリーザベト・レートベルク（Elisabeth Rethberg） | ローレンス・ティベット（Lawrence Tibbett） |
 | 1947 | トスカニーニ | NBC交響楽団 | ラモン・ビナイ（Ramón Vinay） | ヘルヴァ・ネッリ（Herva Nelli） | ジュゼッペ・ヴァルデンゴ（Giuseppe Valdengo） |
@@ -150,6 +150,6 @@ sources:
 
 - **作曲年の幅**：ベイカーの人名事典とメトロポリタン歌劇場の教材は1884〜86年とする。[（Encyclopedia.com）](https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/verdi-giuseppe-fortunino-francesco-0)[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)IMSLP の作品表は1885年を挙げている。[（IMSLP）](https://cn.imslp.org/wiki/Otello_(Verdi,_Giuseppe))
 - **題名**：作曲の途中では《イアーゴ（ジャーゴ）》という題も考えられていた。[（Gramophone）](https://gramophone.co.uk/feature/verdi-otello-best-recordings)[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
-- **ワーグナーとの比較**：ブリタニカは、ヴェルディの晩年のオペラの管弦楽法と和声がワーグナーとの比較を招いてきたこと、ボーイトの台本の柔軟さによって切れ目のない音楽劇になったことを記す。[（Britannica）](https://www.britannica.com/topic/Otello-opera-by-Verdi)作曲家記事が引くブリタニカの記述も、《オテッロ》の音楽を《アイーダ》より連続的で柔軟なものとしている。
+- **ワーグナーとの比較**：ブリタニカは、ヴェルディの晩年のオペラの管弦楽法と和声がワーグナーとの比較を招いてきたこと、ボーイトの台本の柔軟さによって切れ目のない音楽劇になったことを記す。[（Britannica）](https://www.britannica.com/topic/Otello-opera-by-Verdi)作曲家記事が引くブリタニカの記述も、《オテロ》の音楽を《アイーダ》より連続的で柔軟なものとしている。
 - **〈クレド〉の出自**：〈クレド〉はシェイクスピアの原作に直接の対応がない、台本作家と作曲者による追加である。[（The Metropolitan Opera）](https://www.metopera.org/globalassets/discover/education/educator-guides/otello/otello.15-16.guide.pdf)
 - **ボーイトとの次の仕事**：ヴェルディとボーイトは、続けて最後のオペラ《ファルスタッフ》（1893年）を作った。[（Britannica）](https://www.britannica.com/topic/Otello-opera-by-Verdi)
