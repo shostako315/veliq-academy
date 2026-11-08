@@ -4,7 +4,8 @@
 入力
 - data-src/catalog/raw/composers.json, raw/imslp/<id>.jsonl, raw/wd/<id>.json   … tools/catalog_fetch.py の取り込み
 - data-src/catalog/nyp/performances.json, nyp/scores.json                       … ニューヨーク・フィルの公開データ（CC0）と所蔵スコアの書誌
-- veliq-academy/data/catalog/beethoven.json                                      … 手で確かめたベートーヴェンの41件（上書きしない）
+- data-src/catalog/curated/beethoven.json, curated/index.json                    … 手で確かめたベートーヴェンの41件と全曲収録の範囲（上書きしない）
+- data-src/catalog/openopus/dump.json                                             … Open Opus（CC0）。IMSLP・Wikidata に無い作品を補う
 出力
 - veliq-academy/data/catalog/<composer>.json, index.json
 
@@ -18,6 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from catalog_build import key_id, key_ja, key_en, strip_wiki, ded_clean, years, movements, minutes, first_perf  # noqa: E402
+from catalog_openopus import oo_records, SNAPSHOT as OO_SNAPSHOT  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data-src" / "catalog" / "raw"
@@ -60,6 +62,7 @@ G = [
     ("impromptu", r"^impromptus?\b"),
     ("fugue", r"\bfugue\b"),
     ("cantata", r"^cantata|^kantate"),
+    ("song", r"^songs?\b|^lieder\b"),
     ("oratorio", r"oratorio"),
 ]
 G_JA = {
@@ -70,7 +73,7 @@ G_JA = {
     "requiem": "レクイエム", "mass": "ミサ曲", "serenade": "セレナード", "suite": "組曲", "variations": "変奏曲",
     "prelude": "前奏曲", "etude": "練習曲", "nocturne": "夜想曲", "waltz": "ワルツ", "mazurka": "マズルカ",
     "polonaise": "ポロネーズ", "ballade": "バラード", "scherzo": "スケルツォ", "impromptu": "即興曲", "fugue": "フーガ",
-    "cantata": "カンタータ", "oratorio": "オラトリオ", "opera": "歌劇",
+    "cantata": "カンタータ", "oratorio": "オラトリオ", "opera": "歌劇", "song": "歌曲", "other": "",
 }
 # 題名で種類が決まるものだけ「種類＋番号」の和題を組む（組曲・変奏曲などは固有の題が多いので組まない）
 NUMBERED = {"symphony", "piano-sonata", "violin-sonata", "cello-sonata", "piano-concerto", "violin-concerto", "cello-concerto",
@@ -107,6 +110,7 @@ CAT = re.compile(r"(Op\.\s*posth\.?|Op\.\s*\d+[a-z]?(?:\s*No\.\s*\d+)?|WoO\s*\d+
 
 def cat_norm(s):
     s = (s or "").replace(" ", " ")
+    s = re.sub(r"(?i)\b(op\.\s*\d+[a-z]?)\s*,\s*(no\.)", r"\1 \2", s)  # op. 6, no. 11 → op. 6 no. 11
     m = CAT.search(s)
     if not m:
         return ""
@@ -118,7 +122,7 @@ def cat_norm(s):
 
 def cat_key(c):
     """照合用：Op.27 No.2 → ('op','27','2')、K.550 → ('k','550','')"""
-    m = re.match(r"([A-Za-z]+)\.?\s*([IVXLC]+:)?\s*(\d+[a-z]?)(?:.*?No\.(\d+))?", c or "")
+    m = re.match(r"([A-Za-z]+)\.?\s*([IVXLC]+:)?\s*(\d+[a-zA-Z]?)(?:.*?No\.(\d+))?", c or "")
     if not m:
         return None
     return (m.group(1).lower(), (m.group(2) or "") + m.group(3).lower(), m.group(4) or "")
@@ -228,6 +232,18 @@ def build_composer(c, comp_meta):
         nm = re.search(r"No\.\s*(\d+)", en)
         no = int(nm.group(1)) if nm and genre in NUMBERED else None
         recs.append(make(cid, comp_meta, "", re.sub(r"\s*\([^()]*\)\s*$", "", en), genre, no, cat, kc, {}, w, q, [], "", []))
+    # Open Opus（CC0）：IMSLP・Wikidata に無い作品を足す。作品番号か題が既にあるものは足さない
+    have_cat = {cat_key(r["catalog"].get("opus", "")) for r in recs} - {None}
+    have_title = {r["titleEn"].lower() for r in recs}
+    oo_name, oo = oo_records(cid, c.get("nameEn", ""))
+    for x in oo:
+        cat = cat_norm(x["catText"])
+        if (cat and cat_key(cat) in have_cat) or x["title"].lower() in have_title:
+            continue
+        r = make_oo(cid, comp_meta, x, cat)
+        recs.append(r)
+        if cat:
+            have_cat.add(cat_key(cat))
     # 重複（同じ作品番号・同じ題）を1件に
     seen, uniq = {}, []
     for r in recs:
@@ -274,6 +290,76 @@ def make(cid, comp_meta, page, title, genre, no, cat, kc, f, w, q, alt, nick, co
     return rec
 
 
+CAT_SEG = re.compile(r"(?i)(op\.?\s*(posth\.?)?\s*[\d]+[a-z]?(\s*no\.\s*\d+[a-z]?)?|no\.\s*\d+[a-z]?|(bwv|hwv|rv|woo|twv|bb|th|fp|jw|wwv|trv|av|cd|js|sz|wq|hob|[kdslbmh])\.?\s*[ivxlc]*[:.]?\s*\d+[a-z]?(\s*/\s*r\s*\w+)?|anh\.?\s*\d+)")
+
+
+# Open Opus の大分類 → Veliq の category（API の genre=ピアノ曲 などで絞れる）
+OO_CAT = {"Keyboard": "keyboard", "Chamber": "chamber", "Orchestral": "orchestral", "Vocal": "vocal", "Stage": "stage"}
+
+
+def compact(r):
+    """空の項目を省く（API は欠けた項目を空として扱う）。手で確かめたレコードには使わない"""
+    keep = {"id", "composer", "genre", "catalog", "titleJa", "titleEn", "key", "sources"}
+    return {k: v for k, v in r.items() if k in keep or v not in ("", None, [], {})}
+
+
+def make_oo(cid, comp_meta, x, cat):
+    title, kc = x["title"], x["key"]
+    genre = genre_of(title)
+    sub = x["subtitle"].lower()
+    if not genre and x["category"] == "Stage" and "opera" in sub:
+        genre = "opera"
+    if not genre and x["category"] == "Vocal" and sub in ("song", "lied", "songs", "song cycle"):
+        genre = "song"
+    no = x["no"] if genre in NUMBERED else None
+    nicks = x["nick"]
+    nick = next((NICK[a.lower()] for a in nicks if NICK.get(a.lower())), "")
+    r = make(cid, comp_meta, "", title, genre, no, cat, kc, {}, {}, "", nicks, nick, [])
+    r["titleEn"] = title + "".join(f', "{a}"' for a in nicks)
+    if not (genre in NUMBERED and (no or kc)):
+        # 種類で和題が組めないもの：原題から英語の調と作品番号の部分だけを外し、和の調と作品番号を付ける（題そのものは訳さない）
+        head = re.sub(r"(?i)\s+in [A-G](?:[ -](?:flat|sharp))? (?:major|minor)\b", "", title)
+        segs = [g for g in head.split(", ") if not CAT_SEG.fullmatch(g.strip())]
+        r["titleJa"] = ", ".join(segs).strip() + (f" {key_ja(kc)}" if kc else "") + (f" {cat_ja(cat)}" if cat else "") + (f"《{nick}》" if nick else "")
+    r["id"] = cid + "-" + (slug(cat) if cat else slug(title))
+    if x["subtitle"].lower().startswith("for "):
+        r["instrumentation"] = [x["subtitle"][4:]]
+    if x["category"] in OO_CAT:
+        r["category"] = OO_CAT[x["category"]]
+    if x["popular"]:
+        r["popular"] = True
+    r["sources"] = [{"name": "Open Opus", "url": "https://github.com/PaulLikesToCode/openopus-data",
+                     "fields": "題名・調・作品番号・番号・種類（題名から機械的に読み取り）", "fetched": OO_SNAPSHOT, "license": "CC0"}]
+    return r
+
+
+NYP_KEY = re.compile(r"\b([A-G])(?:[- ](FLAT|SHARP))?,? (MAJOR|MINOR)\b")
+
+
+def nyp_key(title):
+    m = NYP_KEY.search(title.upper())
+    if not m:
+        return ""
+    n = m.group(1)
+    acc = {"FLAT": "b", "SHARP": "#"}.get(m.group(2) or "", "")
+    return key_id((n.lower() if m.group(3) == "MINOR" else n) + acc)
+
+
+SUBCAT = re.compile(r"(?i)\b(G|HWV|BWV|RV|WoO|D|B|Hob|TWV|Wq|Sz|BB|FP|TH|L|S)\.?\s*((?:[IVXLC]+[a-z]?:)?\d+)")
+
+
+def sub_cat_clash(a, b):
+    """両方の題名に同じ種類の目録番号があって、番号が違うなら True"""
+    ta = {}
+    for m in SUBCAT.finditer(a):
+        ta.setdefault(m.group(1).upper(), set()).add(m.group(2).upper())
+    for m in SUBCAT.finditer(b):
+        k = m.group(1).upper()
+        if k in ta and m.group(2).upper() not in ta[k]:
+            return True
+    return False
+
+
 # ---- ニューヨーク・フィル ----
 def nyp_attach(recs_by_comp, comps):
     perf = json.loads((NYP / "performances.json").read_text())
@@ -287,6 +373,8 @@ def nyp_attach(recs_by_comp, comps):
         ids = last.get(ln) or []
         return ids[0] if len(ids) == 1 else None
     def keyed(title):
+        # NYP は新ケッヘル（K.186A (OLD K.201)）。Open Opus・IMSLP の旧番号に合わせる
+        title = re.sub(r"K\.\s*\d+[A-Z]+\s*\((?:OLD\s*)?(K\.\s*\d+[A-Z]?)\)", r"\1", title)
         ck = cat_key(cat_norm(title.replace("OP. ", "Op.").replace("OP.", "Op.").replace("NO. ", "No.").title().replace("Op.", "Op.")))
         g = genre_of(re.sub(r"^CONCERTO, (\w+)", lambda m: m.group(1) + " concerto", title, flags=re.I).replace(",", " "))
         nm = re.search(r"NO\.\s*(\d+)", title, re.I)
@@ -309,12 +397,19 @@ def nyp_attach(recs_by_comp, comps):
         if len(cands) != 1:
             continue
         r = cands[0]
+        if g and r["genre"] not in ("other", g) and not (g == "concerto" and r["genre"].endswith("concerto")):
+            continue  # 種類が違う（スケルツォとソナタなど）ものは結合しない
+        if sub_cat_clash(p["t"], r["titleEn"]):
+            continue  # 第2の番号（ボッケリーニの G. など）が食い違うものは結合しない
         old = r.get("nyp")
         if old and old["performances"] >= p["n"]:
             continue
         r["nyp"] = {"workId": p["wid"], "title": p["t"], "performances": p["n"], "first": p["f"], "last": p["l"],
                     "conductors": [[re.sub(r"^(.+?),\s*(.+)$", r"\2 \1", a), b] for a, b in p["cd"]],
                     "source": "https://github.com/nyphilarchive/PerformanceHistory"}
+        nk = nyp_key(p["t"])
+        if nk and r["key"] and nk != r["key"] and not any(c.get("field") == "key" and c.get("nyp") for c in r.get("conflicts", [])):
+            r.setdefault("conflicts", []).append({"field": "key", r["sources"][0]["name"]: r["key"], "nyp": nk, "nypTitle": p["t"]})
         hit += 1
     sc = 0
     for s in scores:
@@ -326,6 +421,8 @@ def nyp_attach(recs_by_comp, comps):
         if len(cands) != 1:
             continue
         r = cands[0]
+        if g and r["genre"] not in ("other", g) and not (g == "concerto" and r["genre"].endswith("concerto")):
+            continue
         r.setdefault("nyp", {"performances": 0}).setdefault("scores", []).append({
             "id": s["id"], "markedBy": s["markedBy"] if s["markedBy"] not in (None, "", "Unknown", "Other(s)") else None,
             "publisher": s["publisher"], "url": "https://archives.nyphil.org/"})
@@ -337,11 +434,12 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     comps = json.loads((ROOT / "veliq-academy" / "data" / "composers.json").read_text())
     rawc = {c["id"]: c for c in json.loads((RAW / "composers.json").read_text())} if (RAW / "composers.json").exists() else {}
-    curated = json.loads((OUT / "beethoven.json").read_text()) if (OUT / "beethoven.json").exists() else []
-    curated = [r for r in curated if not r.get("nyp") or True]
+    # 手で確かめたレコードと全曲収録の範囲は data-src/catalog/curated/ から読む（出力先を読むと前回の結果が混ざるため）
+    CUR = ROOT / "data-src" / "catalog" / "curated"
+    curated = json.loads((CUR / "beethoven.json").read_text()) if (CUR / "beethoven.json").exists() else []
     for r in curated:
         r.pop("nyp", None)
-    old_idx = json.loads((OUT / "index.json").read_text()) if (OUT / "index.json").exists() else {"coverage": []}
+    old_idx = json.loads((CUR / "index.json").read_text()) if (CUR / "index.json").exists() else {"coverage": []}
     by = {}
     for c in comps:
         recs = build_composer(c, rawc.get(c["id"], {}))
@@ -353,17 +451,26 @@ def main():
     hit, sc = nyp_attach(by, comps)
     files = []
     for cid, recs in by.items():
+        # 同じ id（同名の別作品）は末尾に -2, -3 を付けて一意にする
+        cnt = {}
+        for r in recs:
+            n = cnt.get(r["id"], 0) + 1
+            cnt[r["id"]] = n
+            if n > 1:
+                r["id"] = f'{r["id"]}-{n}'
+        recs[:] = [r if any(s.get("name") != "Open Opus" for s in r["sources"]) else compact(r) for r in recs]
         (OUT / f"{cid}.json").write_text(json.dumps(recs, ensure_ascii=False, separators=(",", ":")) + "\n")
         files.append({"composer": cid, "url": f"{SITE}/data/catalog/{cid}.json", "count": len(recs)})
     total = sum(f["count"] for f in files)
     idx = {
-        "name": "Veliq 作品目録", "updated": FETCHED, "license": "事実データ。出典は各レコードの sources。ニューヨーク・フィルの演奏記録は CC0（New York Philharmonic）",
-        "fields": old_idx.get("fields", "") + ", nyp{performances,first,last,conductors,scores[id,markedBy,publisher]}",
+        "name": "Veliq 作品目録", "updated": FETCHED, "license": "事実データ。出典は各レコードの sources。Open Opus（CC0）とニューヨーク・フィルの演奏記録（CC0, New York Philharmonic）を含む",
+        "fields": old_idx.get("fields", "") + ", category（keyboard/chamber/orchestral/vocal/stage。Open Opus 由来）, popular, conflicts, nyp{performances,first,last,conductors,scores[id,markedBy,publisher]}",
         "files": files, "coverage": old_idx.get("coverage", []), "count": total,
     }
     (OUT / "index.json").write_text(json.dumps(idx, ensure_ascii=False, indent=1) + "\n")
     keyed = sum(1 for rs in by.values() for r in rs if r["key"])
-    print(f"作曲家 {len(by)}人／作品 {total}件（調あり {keyed}）／NYP演奏記録 {hit}件・所蔵スコア {sc}冊を結合")
+    conf = sum(1 for rs in by.values() for r in rs if r.get("conflicts"))
+    print(f"作曲家 {len(by)}人／作品 {total}件（調あり {keyed}）／NYP演奏記録 {hit}件・所蔵スコア {sc}冊を結合／出典の食い違い {conf}件")
 
 
 if __name__ == "__main__":

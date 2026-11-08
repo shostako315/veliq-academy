@@ -1,13 +1,528 @@
 {
  "name": "Veliq 作品目録",
  "updated": "2026-11-08",
- "license": "事実データ。出典は各レコードの sources",
- "fields": "id, composer, genre, number, catalog.opus, titleJa, titleEn, nicknames, key（例 Eb-major, c#-minor）, keyJa, instrumentation, movements[number,title,key,bars,sections], composed[from,to], firstPublished, firstPerformance, dedication, durationMin[min,max], articleId, ids{wikidata,imslp,musicbrainz}, sources",
+ "license": "事実データ。出典は各レコードの sources。Open Opus（CC0）とニューヨーク・フィルの演奏記録（CC0, New York Philharmonic）を含む",
+ "fields": "id, composer, genre, number, catalog.opus, titleJa, titleEn, nicknames, key（例 Eb-major, c#-minor）, keyJa, instrumentation, movements[number,title,key,bars,sections], composed[from,to], firstPublished, firstPerformance, dedication, durationMin[min,max], articleId, ids{wikidata,imslp,musicbrainz}, sources, category（keyboard/chamber/orchestral/vocal/stage。Open Opus 由来）, popular, conflicts, nyp{performances,first,last,conductors,scores[id,markedBy,publisher]}",
  "files": [
+  {
+   "composer": "bach-js",
+   "url": "https://veliq-academy.com/data/catalog/bach-js.json",
+   "count": 928
+  },
+  {
+   "composer": "handel",
+   "url": "https://veliq-academy.com/data/catalog/handel.json",
+   "count": 348
+  },
+  {
+   "composer": "vivaldi",
+   "url": "https://veliq-academy.com/data/catalog/vivaldi.json",
+   "count": 576
+  },
+  {
+   "composer": "telemann",
+   "url": "https://veliq-academy.com/data/catalog/telemann.json",
+   "count": 571
+  },
+  {
+   "composer": "purcell",
+   "url": "https://veliq-academy.com/data/catalog/purcell.json",
+   "count": 276
+  },
+  {
+   "composer": "couperin-f",
+   "url": "https://veliq-academy.com/data/catalog/couperin-f.json",
+   "count": 84
+  },
+  {
+   "composer": "rameau",
+   "url": "https://veliq-academy.com/data/catalog/rameau.json",
+   "count": 50
+  },
+  {
+   "composer": "buxtehude",
+   "url": "https://veliq-academy.com/data/catalog/buxtehude.json",
+   "count": 185
+  },
+  {
+   "composer": "haydn",
+   "url": "https://veliq-academy.com/data/catalog/haydn.json",
+   "count": 497
+  },
+  {
+   "composer": "mozart-wa",
+   "url": "https://veliq-academy.com/data/catalog/mozart-wa.json",
+   "count": 545
+  },
   {
    "composer": "beethoven",
    "url": "https://veliq-academy.com/data/catalog/beethoven.json",
-   "count": 41
+   "count": 336
+  },
+  {
+   "composer": "gluck",
+   "url": "https://veliq-academy.com/data/catalog/gluck.json",
+   "count": 27
+  },
+  {
+   "composer": "bach-cpe",
+   "url": "https://veliq-academy.com/data/catalog/bach-cpe.json",
+   "count": 216
+  },
+  {
+   "composer": "salieri",
+   "url": "https://veliq-academy.com/data/catalog/salieri.json",
+   "count": 61
+  },
+  {
+   "composer": "boccherini",
+   "url": "https://veliq-academy.com/data/catalog/boccherini.json",
+   "count": 152
+  },
+  {
+   "composer": "schubert",
+   "url": "https://veliq-academy.com/data/catalog/schubert.json",
+   "count": 851
+  },
+  {
+   "composer": "chopin",
+   "url": "https://veliq-academy.com/data/catalog/chopin.json",
+   "count": 112
+  },
+  {
+   "composer": "liszt",
+   "url": "https://veliq-academy.com/data/catalog/liszt.json",
+   "count": 420
+  },
+  {
+   "composer": "brahms",
+   "url": "https://veliq-academy.com/data/catalog/brahms.json",
+   "count": 158
+  },
+  {
+   "composer": "wagner",
+   "url": "https://veliq-academy.com/data/catalog/wagner.json",
+   "count": 48
+  },
+  {
+   "composer": "schumann-r",
+   "url": "https://veliq-academy.com/data/catalog/schumann-r.json",
+   "count": 155
+  },
+  {
+   "composer": "mendelssohn",
+   "url": "https://veliq-academy.com/data/catalog/mendelssohn.json",
+   "count": 262
+  },
+  {
+   "composer": "berlioz",
+   "url": "https://veliq-academy.com/data/catalog/berlioz.json",
+   "count": 58
+  },
+  {
+   "composer": "tchaikovsky",
+   "url": "https://veliq-academy.com/data/catalog/tchaikovsky.json",
+   "count": 147
+  },
+  {
+   "composer": "dvorak",
+   "url": "https://veliq-academy.com/data/catalog/dvorak.json",
+   "count": 143
+  },
+  {
+   "composer": "verdi",
+   "url": "https://veliq-academy.com/data/catalog/verdi.json",
+   "count": 66
+  },
+  {
+   "composer": "puccini",
+   "url": "https://veliq-academy.com/data/catalog/puccini.json",
+   "count": 46
+  },
+  {
+   "composer": "grieg",
+   "url": "https://veliq-academy.com/data/catalog/grieg.json",
+   "count": 149
+  },
+  {
+   "composer": "saint-saens",
+   "url": "https://veliq-academy.com/data/catalog/saint-saens.json",
+   "count": 165
+  },
+  {
+   "composer": "bruckner",
+   "url": "https://veliq-academy.com/data/catalog/bruckner.json",
+   "count": 61
+  },
+  {
+   "composer": "debussy",
+   "url": "https://veliq-academy.com/data/catalog/debussy.json",
+   "count": 140
+  },
+  {
+   "composer": "ravel",
+   "url": "https://veliq-academy.com/data/catalog/ravel.json",
+   "count": 76
+  },
+  {
+   "composer": "mahler",
+   "url": "https://veliq-academy.com/data/catalog/mahler.json",
+   "count": 23
+  },
+  {
+   "composer": "strauss-r",
+   "url": "https://veliq-academy.com/data/catalog/strauss-r.json",
+   "count": 158
+  },
+  {
+   "composer": "schoenberg",
+   "url": "https://veliq-academy.com/data/catalog/schoenberg.json",
+   "count": 121
+  },
+  {
+   "composer": "stravinsky",
+   "url": "https://veliq-academy.com/data/catalog/stravinsky.json",
+   "count": 104
+  },
+  {
+   "composer": "bartok",
+   "url": "https://veliq-academy.com/data/catalog/bartok.json",
+   "count": 96
+  },
+  {
+   "composer": "prokofiev",
+   "url": "https://veliq-academy.com/data/catalog/prokofiev.json",
+   "count": 136
+  },
+  {
+   "composer": "shostakovich",
+   "url": "https://veliq-academy.com/data/catalog/shostakovich.json",
+   "count": 160
+  },
+  {
+   "composer": "sibelius",
+   "url": "https://veliq-academy.com/data/catalog/sibelius.json",
+   "count": 368
+  },
+  {
+   "composer": "messiaen",
+   "url": "https://veliq-academy.com/data/catalog/messiaen.json",
+   "count": 64
+  },
+  {
+   "composer": "ligeti",
+   "url": "https://veliq-academy.com/data/catalog/ligeti.json",
+   "count": 55
+  },
+  {
+   "composer": "penderecki",
+   "url": "https://veliq-academy.com/data/catalog/penderecki.json",
+   "count": 75
+  },
+  {
+   "composer": "part",
+   "url": "https://veliq-academy.com/data/catalog/part.json",
+   "count": 103
+  },
+  {
+   "composer": "takemitsu",
+   "url": "https://veliq-academy.com/data/catalog/takemitsu.json",
+   "count": 100
+  },
+  {
+   "composer": "faure",
+   "url": "https://veliq-academy.com/data/catalog/faure.json",
+   "count": 121
+  },
+  {
+   "composer": "satie",
+   "url": "https://veliq-academy.com/data/catalog/satie.json",
+   "count": 97
+  },
+  {
+   "composer": "rachmaninoff",
+   "url": "https://veliq-academy.com/data/catalog/rachmaninoff.json",
+   "count": 122
+  },
+  {
+   "composer": "britten",
+   "url": "https://veliq-academy.com/data/catalog/britten.json",
+   "count": 181
+  },
+  {
+   "composer": "bernstein",
+   "url": "https://veliq-academy.com/data/catalog/bernstein.json",
+   "count": 66
+  },
+  {
+   "composer": "monteverdi",
+   "url": "https://veliq-academy.com/data/catalog/monteverdi.json",
+   "count": 337
+  },
+  {
+   "composer": "scarlatti-d",
+   "url": "https://veliq-academy.com/data/catalog/scarlatti-d.json",
+   "count": 585
+  },
+  {
+   "composer": "corelli",
+   "url": "https://veliq-academy.com/data/catalog/corelli.json",
+   "count": 88
+  },
+  {
+   "composer": "elgar",
+   "url": "https://veliq-academy.com/data/catalog/elgar.json",
+   "count": 171
+  },
+  {
+   "composer": "palestrina",
+   "url": "https://veliq-academy.com/data/catalog/palestrina.json",
+   "count": 191
+  },
+  {
+   "composer": "smetana",
+   "url": "https://veliq-academy.com/data/catalog/smetana.json",
+   "count": 45
+  },
+  {
+   "composer": "bizet",
+   "url": "https://veliq-academy.com/data/catalog/bizet.json",
+   "count": 43
+  },
+  {
+   "composer": "franck",
+   "url": "https://veliq-academy.com/data/catalog/franck.json",
+   "count": 64
+  },
+  {
+   "composer": "rimsky-korsakov",
+   "url": "https://veliq-academy.com/data/catalog/rimsky-korsakov.json",
+   "count": 76
+  },
+  {
+   "composer": "rossini",
+   "url": "https://veliq-academy.com/data/catalog/rossini.json",
+   "count": 157
+  },
+  {
+   "composer": "strauss-j2",
+   "url": "https://veliq-academy.com/data/catalog/strauss-j2.json",
+   "count": 532
+  },
+  {
+   "composer": "weber",
+   "url": "https://veliq-academy.com/data/catalog/weber.json",
+   "count": 86
+  },
+  {
+   "composer": "mussorgsky",
+   "url": "https://veliq-academy.com/data/catalog/mussorgsky.json",
+   "count": 58
+  },
+  {
+   "composer": "paganini",
+   "url": "https://veliq-academy.com/data/catalog/paganini.json",
+   "count": 148
+  },
+  {
+   "composer": "bruch",
+   "url": "https://veliq-academy.com/data/catalog/bruch.json",
+   "count": 42
+  },
+  {
+   "composer": "josquin",
+   "url": "https://veliq-academy.com/data/catalog/josquin.json",
+   "count": 124
+  },
+  {
+   "composer": "pergolesi",
+   "url": "https://veliq-academy.com/data/catalog/pergolesi.json",
+   "count": 32
+  },
+  {
+   "composer": "bellini",
+   "url": "https://veliq-academy.com/data/catalog/bellini.json",
+   "count": 34
+  },
+  {
+   "composer": "borodin",
+   "url": "https://veliq-academy.com/data/catalog/borodin.json",
+   "count": 32
+  },
+  {
+   "composer": "donizetti",
+   "url": "https://veliq-academy.com/data/catalog/donizetti.json",
+   "count": 154
+  },
+  {
+   "composer": "massenet",
+   "url": "https://veliq-academy.com/data/catalog/massenet.json",
+   "count": 66
+  },
+  {
+   "composer": "nielsen",
+   "url": "https://veliq-academy.com/data/catalog/nielsen.json",
+   "count": 92
+  },
+  {
+   "composer": "scriabin",
+   "url": "https://veliq-academy.com/data/catalog/scriabin.json",
+   "count": 82
+  },
+  {
+   "composer": "vaughan-williams",
+   "url": "https://veliq-academy.com/data/catalog/vaughan-williams.json",
+   "count": 159
+  },
+  {
+   "composer": "holst",
+   "url": "https://veliq-academy.com/data/catalog/holst.json",
+   "count": 77
+  },
+  {
+   "composer": "janacek",
+   "url": "https://veliq-academy.com/data/catalog/janacek.json",
+   "count": 68
+  },
+  {
+   "composer": "gershwin",
+   "url": "https://veliq-academy.com/data/catalog/gershwin.json",
+   "count": 66
+  },
+  {
+   "composer": "ives",
+   "url": "https://veliq-academy.com/data/catalog/ives.json",
+   "count": 277
+  },
+  {
+   "composer": "kodaly",
+   "url": "https://veliq-academy.com/data/catalog/kodaly.json",
+   "count": 82
+  },
+  {
+   "composer": "respighi",
+   "url": "https://veliq-academy.com/data/catalog/respighi.json",
+   "count": 93
+  },
+  {
+   "composer": "hindemith",
+   "url": "https://veliq-academy.com/data/catalog/hindemith.json",
+   "count": 146
+  },
+  {
+   "composer": "webern",
+   "url": "https://veliq-academy.com/data/catalog/webern.json",
+   "count": 49
+  },
+  {
+   "composer": "berg",
+   "url": "https://veliq-academy.com/data/catalog/berg.json",
+   "count": 58
+  },
+  {
+   "composer": "falla",
+   "url": "https://veliq-academy.com/data/catalog/falla.json",
+   "count": 32
+  },
+  {
+   "composer": "byrd",
+   "url": "https://veliq-academy.com/data/catalog/byrd.json",
+   "count": 273
+  },
+  {
+   "composer": "copland",
+   "url": "https://veliq-academy.com/data/catalog/copland.json",
+   "count": 86
+  },
+  {
+   "composer": "hummel",
+   "url": "https://veliq-academy.com/data/catalog/hummel.json",
+   "count": 103
+  },
+  {
+   "composer": "machaut",
+   "url": "https://veliq-academy.com/data/catalog/machaut.json",
+   "count": 63
+  },
+  {
+   "composer": "orff",
+   "url": "https://veliq-academy.com/data/catalog/orff.json",
+   "count": 13
+  },
+  {
+   "composer": "poulenc",
+   "url": "https://veliq-academy.com/data/catalog/poulenc.json",
+   "count": 152
+  },
+  {
+   "composer": "villa-lobos",
+   "url": "https://veliq-academy.com/data/catalog/villa-lobos.json",
+   "count": 195
+  },
+  {
+   "composer": "barber",
+   "url": "https://veliq-academy.com/data/catalog/barber.json",
+   "count": 63
+  },
+  {
+   "composer": "schutz",
+   "url": "https://veliq-academy.com/data/catalog/schutz.json",
+   "count": 59
+  },
+  {
+   "composer": "cage",
+   "url": "https://veliq-academy.com/data/catalog/cage.json",
+   "count": 132
+  },
+  {
+   "composer": "lassus",
+   "url": "https://veliq-academy.com/data/catalog/lassus.json",
+   "count": 186
+  },
+  {
+   "composer": "lully",
+   "url": "https://veliq-academy.com/data/catalog/lully.json",
+   "count": 58
+  },
+  {
+   "composer": "stockhausen",
+   "url": "https://veliq-academy.com/data/catalog/stockhausen.json",
+   "count": 20
+  },
+  {
+   "composer": "adams",
+   "url": "https://veliq-academy.com/data/catalog/adams.json",
+   "count": 26
+  },
+  {
+   "composer": "boulez",
+   "url": "https://veliq-academy.com/data/catalog/boulez.json",
+   "count": 26
+  },
+  {
+   "composer": "glass",
+   "url": "https://veliq-academy.com/data/catalog/glass.json",
+   "count": 106
+  },
+  {
+   "composer": "lutoslawski",
+   "url": "https://veliq-academy.com/data/catalog/lutoslawski.json",
+   "count": 58
+  },
+  {
+   "composer": "reich",
+   "url": "https://veliq-academy.com/data/catalog/reich.json",
+   "count": 25
+  },
+  {
+   "composer": "schnittke",
+   "url": "https://veliq-academy.com/data/catalog/schnittke.json",
+   "count": 96
+  },
+  {
+   "composer": "gorecki",
+   "url": "https://veliq-academy.com/data/catalog/gorecki.json",
+   "count": 28
   }
  ],
  "coverage": [
@@ -25,5 +540,6 @@
    "count": 9,
    "scope": "交響曲第1〜9番"
   }
- ]
+ ],
+ "count": 16173
 }

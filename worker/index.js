@@ -1,5 +1,5 @@
 // Veliq Academy の Worker。静的ページはそのまま返し、/api/* と /mcp だけここで答える
-// - GET /api/works?composer=&key=&mode=&genre=&instrument=&opusFrom=&opusTo=&yearFrom=&yearTo=&exclude=&q=
+// - GET /api/works?composer=&key=&mode=&genre=&number=&instrument=&opusFrom=&opusTo=&yearFrom=&yearTo=&exclude=&q=&limit=
 // - GET /api/works/<id>
 // - POST /mcp（MCP・読み取り専用。ツール search_works / get_work）
 // 作品目録は静的ファイル /data/catalog/*.json（ビルドで作る）を読む。推測で作品を足さない
@@ -17,7 +17,8 @@ async function catalog(env) {
   const get = async (p) => (await env.ASSETS.fetch(new Request(SITE + p))).json();
   const idx = await get("/data/catalog/index.json");
   const works = [];
-  for (const f of idx.files) works.push(...(await get(new URL(f.url).pathname)));
+  const parts = await Promise.all(idx.files.map((f) => get(new URL(f.url).pathname)));
+  for (const ws of parts) works.push(...ws);
   let composers = [];
   try { composers = await get("/data/composers.json"); } catch (_) { /* 無くても検索はできる */ }
   CACHE = { at: Date.now(), idx, works, composers };
@@ -90,10 +91,27 @@ const GENRE = [
   ["fugue", /^(fugues?|フーガ)$/],
 ];
 const GENRE_FAMILY = [["concerto", /^(concertos?|協奏曲|コンチェルト)$/], ["sonata", /^(sonatas?|ソナタ)$/], ["quartet", /^(quartets?|四重奏曲?)$/], ["trio", /^(trios?|三重奏曲?)$/], ["quintet", /^(quintets?|五重奏曲?)$/]];
+// 大分類（Open Opus 由来の category）。genre=ピアノ曲 などで使う。curated のレコードは種類から推す
+const CATEGORY = [
+  ["keyboard", /^(keyboard|piano( works?| music)?|ピアノ曲|ピアノ作品|鍵盤(楽器)?(曲|作品)?|オルガン曲)$/],
+  ["chamber", /^(chamber( music)?|室内楽(曲)?)$/],
+  ["orchestral", /^(orchestral( works?| music)?|管弦楽(曲)?|オーケストラ曲)$/],
+  ["vocal", /^(vocal( works?| music)?|声楽(曲)?|合唱曲)$/],
+  ["stage", /^(stage( works?)?|舞台作品|劇音楽)$/],
+];
+const CAT_OF_GENRE = {
+  "piano-sonata": "keyboard", prelude: "keyboard", etude: "keyboard", nocturne: "keyboard", waltz: "keyboard", mazurka: "keyboard",
+  polonaise: "keyboard", ballade: "keyboard", impromptu: "keyboard", "string-quartet": "chamber", "string-quintet": "chamber",
+  "piano-trio": "chamber", "piano-quartet": "chamber", "piano-quintet": "chamber", "violin-sonata": "chamber", "cello-sonata": "chamber",
+  symphony: "orchestral", "symphonic-poem": "orchestral", overture: "orchestral", "piano-concerto": "orchestral", "violin-concerto": "orchestral",
+  "cello-concerto": "orchestral", concerto: "orchestral", mass: "vocal", requiem: "vocal", cantata: "vocal", oratorio: "vocal", song: "vocal", opera: "stage",
+};
+const categoryOf = (w) => w.category || CAT_OF_GENRE[w.genre] || null;
 function genreOf(s) {
   if (!s) return null;
   const t = String(s).trim().toLowerCase().replace(/・/g, "・");
   for (const [g, re] of GENRE) if (re.test(t)) return g;
+  for (const [c, re] of CATEGORY) if (re.test(t)) return "@" + c;
   for (const [g, re] of GENRE_FAMILY) if (re.test(t)) return g + "*";
   return t;
 }
@@ -123,11 +141,13 @@ function search(cat, p) {
   const num = (v) => (v === undefined || v === null || v === "" ? null : +v);
   const of = num(p.opusFrom), ot = num(p.opusTo), yf = num(p.yearFrom), yt = num(p.yearTo), nb = num(p.number);
   const q = p.q ? String(p.q).toLowerCase() : null;
+  const lim = Math.min(Math.max(num(p.limit) || 100, 1), 500);
   const out = [];
   for (const w of cat.works) {
     if (comps && !comps.includes(w.composer)) continue;
     if (excl && excl.includes(w.composer)) continue;
-    if (genre && !genre.endsWith("*") && w.genre !== genre) continue;
+    if (genre && genre.startsWith("@")) { if (categoryOf(w) !== genre.slice(1)) continue; }
+    else if (genre && !genre.endsWith("*") && w.genre !== genre) continue;
     if (genre && genre.endsWith("*") && !String(w.genre || "").includes(genre.slice(0, -1))) continue;
     if (nb !== null && w.number !== nb) continue;
     const keys = [w.key, ...(anyMov ? (w.movements || []).flatMap((m) => [m.key, ...(m.keys || [])]) : [])].filter(Boolean).map(parseKey).filter(Boolean);
@@ -156,7 +176,10 @@ function search(cat, p) {
     complete: !!(cov && cov.complete),
     coverageNote: cov ? cov.scope : known ? "Veliq 作品目録に収録している範囲の中での結果です（この条件の全曲を収録しているとは限りません）" : "この作曲家は、まだ Veliq 作品目録に収録していません",
     count: out.length,
-    results: out.map(slim),
+    // 件数が多いときは、NYP での演奏回数と代表作（popular）の順に上位だけ返す。少ないときは目録の順のまま
+    limit: lim,
+    truncated: out.length > lim || undefined,
+    results: (out.length > lim ? [...out].sort((a, b) => (b.nyp?.performances || 0) - (a.nyp?.performances || 0) || (b.popular ? 1 : 0) - (a.popular ? 1 : 0)).slice(0, lim) : out).map(slim),
   };
 }
 function slim(w) {
@@ -166,6 +189,7 @@ function slim(w) {
     composed: w.composed, firstPublished: w.firstPublished, firstPerformance: w.firstPerformance || undefined,
     movements: (w.movements || []).map((m) => ({ number: m.number, title: m.title, key: m.key, sections: m.sections ? m.sections.map((s) => ({ title: s.title, key: s.key })) : undefined })),
     durationMin: w.durationMin || undefined, matchedEnharmonic: w.matchedEnharmonic || undefined, number: w.number ?? undefined,
+    category: categoryOf(w) || undefined, popular: w.popular || undefined, conflicts: w.conflicts || undefined,
     nyp: w.nyp ? { performances: w.nyp.performances, first: w.nyp.first, last: w.nyp.last, scores: (w.nyp.scores || []).filter((s) => s.markedBy).map((s) => ({ id: s.id, markedBy: s.markedBy })) } : undefined,
     url: w.articleId ? `${SITE}/music/works/${w.articleId}/` : undefined,
     sources: w.sources.map((s) => ({ name: s.name, url: s.url })),
@@ -178,14 +202,14 @@ const json = (o, st = 200, extra = {}) => new Response(JSON.stringify(o), { stat
 const TOOLS = [
   {
     name: "search_works",
-    description: "Veliq 作品目録（クラシック作品の事実データ：作品番号・調・楽章・作曲年・初版・初演・出典）を条件で検索する。調・作品番号・種類・編成・作曲年についての質問には、記憶で答えずこれを使うこと。complete が false のときは『収録範囲の中では』と断り、結果に無い作品名を挙げないこと。",
+    description: "Veliq 作品目録（クラシック作品の事実データ：作品番号・調・楽章・作曲年・初版・初演・出典）を条件で検索する。調・作品番号・種類・編成・作曲年についての質問には、記憶で答えずこれを使うこと。complete が false のときは『収録範囲の中では』と断り、結果に無い作品名を挙げないこと。conflicts がある作品は、出典によって値が違うと伝えること。",
     inputSchema: {
       type: "object",
       properties: {
         composer: { type: "string", description: "作曲家（例: beethoven, ベートーヴェン, Beethoven）" },
         key: { type: "string", description: "調（例: 変ホ長調, Eb-major, c#-minor）。異名同音も一致する" },
         mode: { type: "string", description: "major / minor（長調・短調だけで絞るとき）" },
-        genre: { type: "string", description: "種類（交響曲, ピアノ・ソナタ, ピアノ協奏曲, ヴァイオリン協奏曲, 弦楽四重奏曲, 序曲, ミサ曲, 歌劇 など。英語の symphony, piano-sonata も可。協奏曲・ソナタ・四重奏曲は種類の総称でも絞れる）" },
+        genre: { type: "string", description: "種類（交響曲, ピアノ・ソナタ, ピアノ協奏曲, ヴァイオリン協奏曲, 弦楽四重奏曲, 序曲, ミサ曲, 歌劇 など。英語の symphony, piano-sonata も可。協奏曲・ソナタ・四重奏曲は種類の総称でも絞れる。大分類の ピアノ曲・室内楽・管弦楽・声楽・舞台作品 でも絞れる）" },
         number: { type: "number", description: "番号（交響曲第3番なら 3）" },
         instrument: { type: "string", description: "編成に含む楽器（例: ピアノ, 合唱）" },
         opusFrom: { type: "number" }, opusTo: { type: "number" },
@@ -193,6 +217,7 @@ const TOOLS = [
         exclude: { type: "string", description: "除く作曲家" },
         movementKey: { type: "boolean", description: "楽章の調も検索対象に含める" },
         q: { type: "string", description: "題名・通称の文字列" },
+        limit: { type: "number", description: "返す件数（既定100、最大500）。多いときは NYP の演奏回数と代表作の順" },
       },
     },
   },
