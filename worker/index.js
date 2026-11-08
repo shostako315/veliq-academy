@@ -203,7 +203,7 @@ async function search(cat, p) {
 function slim(w) {
   return {
     id: w.id, composer: w.composer, titleJa: w.titleJa, titleEn: w.titleEn, nicknameJa: w.nicknameJa || undefined,
-    opus: w.catalog?.opus, key: w.key, keyJa: w.keyJa, genre: w.genre, instrumentation: w.instrumentation,
+    opus: w.catalog?.opus, key: w.key, keyJa: w.keyJa, keyStatus: w.keyStatus, keyNote: w.keyNote || undefined, genre: w.genre, instrumentation: w.instrumentation,
     composed: w.composed, firstPublished: w.firstPublished, firstPerformance: w.firstPerformance || undefined,
     movements: (w.movements || []).map((m) => ({ number: m.number, title: m.title, key: m.key, sections: m.sections ? m.sections.map((s) => ({ title: s.title, key: s.key })) : undefined })),
     durationMin: w.durationMin || undefined, matchedEnharmonic: w.matchedEnharmonic || undefined, number: w.number ?? undefined,
@@ -220,7 +220,7 @@ const json = (o, st = 200, extra = {}) => new Response(JSON.stringify(o), { stat
 const TOOLS = [
   {
     name: "search_works",
-    description: "Veliq 作品目録（クラシック作品の事実データ：作品番号・調・楽章・作曲年・初版・初演・出典）を条件で検索する。調・作品番号・種類・編成・作曲年についての質問には、記憶で答えずこれを使うこと。complete が false のときは『収録範囲の中では』と断り、結果に無い作品名を挙げないこと。conflicts がある作品は、出典によって値が違うと伝えること。",
+    description: "Veliq 作品目録（クラシック作品の事実データ：作品番号・調・楽章・作曲年・初版・初演・出典）を条件で検索する。調・作品番号・種類・編成・作曲年についての質問には、記憶で答えずこれを使うこと。complete が false のときは『収録範囲の中では』と断り、結果に無い作品名を挙げないこと。調（key）が空の作品は keyNote（「調性なし」「旋法による」「曲集のため1つの調で表せない」「調は未確認」など）をそのまま伝え、調を推測で補わないこと。keyStatus が disputed の作品は keyNote の諸説も添えること。",
     inputSchema: {
       type: "object",
       properties: {

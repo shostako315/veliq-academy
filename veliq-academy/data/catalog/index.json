@@ -2,7 +2,7 @@
  "name": "Veliq 作品目録",
  "updated": "2026-11-08",
  "license": "事実データ。出典は各レコードの sources。Wikidata（CC0）・Open Opus（CC0）・IMSLP の作品情報欄とニューヨーク・フィルの演奏記録（CC0, New York Philharmonic）を含む",
- "fields": "id, composer, genre, number, catalog.opus, titleJa, titleEn, nicknames, key（例 Eb-major, c#-minor）, keyJa, instrumentation, movements[number,title,key,bars,sections], composed[from,to], firstPublished, firstPerformance, dedication, durationMin[min,max], articleId, ids{wikidata,imslp,musicbrainz}, sources, category（keyboard/chamber/orchestral/vocal/stage。Open Opus 由来）, popular, conflicts, nyp{performances,first,last,conductors,scores[id,markedBy,publisher]}",
+ "fields": "id, composer, genre, number, catalog.opus, titleJa, titleEn, nicknames, key（例 Eb-major, c#-minor）, keyJa, instrumentation, movements[number,title,key,bars,sections], composed[from,to], firstPublished, firstPerformance, dedication, durationMin[min,max], articleId, ids{wikidata,imslp,musicbrainz}, sources, keyStatus（stated/unverified/disputed/none/modal/not-applicable/unstated-modern/unknown）, keyNote（調が空・諸説あるときの説明）, category（keyboard/chamber/orchestral/vocal/stage。Open Opus 由来）, popular, conflicts, nyp{performances,first,last,conductors,scores[id,markedBy,publisher]}",
  "files": [
   {
    "composer": "bach-js",
@@ -132,7 +132,7 @@
   {
    "composer": "dvorak",
    "url": "https://veliq-academy.com/data/catalog/dvorak.json",
-   "count": 218
+   "count": 217
   },
   {
    "composer": "verdi",
@@ -566,5 +566,5 @@
    "scope": "交響曲第1〜9番"
   }
  ],
- "count": 23634
+ "count": 23633
 }

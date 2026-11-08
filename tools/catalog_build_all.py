@@ -272,6 +272,9 @@ def build_composer(c, comp_meta):
             continue
         cats = wd_cats(w.get("cats"))
         cat = cat_norm(en) or (cats[0] if cats else "")
+        fx = FIXES.get("wikidata", {}).get(q)
+        if fx and fx.get("catalog"):
+            cat, cats = fx["catalog"], [fx["catalog"]]
         wkeys = [wd_key_code(k) for k in (w.get("keys") or "").split("|") if k]
         kc = wkeys[0] if len(wkeys) == 1 else ""
         genre = genre_of(en, w.get("types", "") + "|" + w.get("genres", ""))
@@ -523,6 +526,96 @@ def nyp_attach(recs_by_comp, comps):
     return hit, sc
 
 
+_fp = ROOT / "data-src" / "catalog" / "curated" / "fixes.json"
+FIXES = json.loads(_fp.read_text(encoding="utf-8")) if _fp.exists() else {}
+
+# ---- 調の状態（keyStatus）と注記（keyNote） ----
+# 調が空の作品も、なぜ空なのかを書く。調べて分かったものは data-src/catalog/curated/keys.jsonl から足す
+KEY_RESEARCH = {}
+_kp = ROOT / "data-src" / "catalog" / "curated" / "keys.jsonl"
+if _kp.exists():
+    for _l in _kp.read_text(encoding="utf-8").splitlines():
+        if _l.strip():
+            _x = json.loads(_l)
+            KEY_RESEARCH[_x["id"]] = _x
+
+KEY_NOTE = {
+    "stated": "",
+    "disputed": "調の判断に諸説ある",
+    "unverified": "出典によって調の記載が異なる（確認中）",
+    "none": "作品全体を1つの調で表せない、または調性のない作品（出典による）",
+    "modal": "長調・短調の体系より前の作品（旋法による）",
+    "not-applicable": "曲集・舞台作品など、作品全体を1つの調で表せない",
+    "unstated-modern": "出典に調の記載なし（20世紀後半以降の作品。無調や旋法による作品を含む）",
+    "unknown": "調は未確認",
+}
+SET_TITLE = re.compile(r"(?i)^(\d+|two|three|four|five|six|seven|eight|nine|ten|twelve|24)\s|^(nocturnes|etudes|études|preludes|préludes|waltzes|valses|mazurkas|polonaises|impromptus|ballades|lieder|songs|bagatelles|sonatas|quartets|dances|pieces)\b|\b(book|cycle|collection|set)\b|liederkreis|songs? (of|from)|nos?\.\s*\d+\s*[-–&]")
+
+
+def key_code_of(kid):
+    """Eb-major → Eb、c#-minor → c#（key_ja などが受け取る形）"""
+    m = re.match(r"([A-Ga-g])(b|#)?-(major|minor)$", kid or "")
+    if not m:
+        return ""
+    return (m.group(1).lower() if m.group(3) == "minor" else m.group(1).upper()) + (m.group(2) or "")
+
+
+def apply_key_research(r, x):
+    """調べた結果を反映する。出典どうしの食い違い（データの誤記を含む）は、調べて確定したらその調だけを載せ、食い違いは keyHistory に移す。
+    本当に学説が分かれるもの（status=disputed）だけを「諸説あり」にする"""
+    if not x or x.get("status") == "notfound":
+        return
+    src = {"name": "調査", "url": x.get("source", ""), "fields": "調（" + (x.get("evidence") or "") + "）", "fetched": x.get("checked", "")}
+    kc = key_code_of(x.get("key"))
+    if x["status"] in ("stated", "disputed") and kc:
+        old = [c for c in r.get("conflicts", []) if c.get("field") == "key"]
+        if old:
+            r["keyHistory"] = old
+            r["conflicts"] = [c for c in r["conflicts"] if c.get("field") != "key"] or None
+            if r["conflicts"] is None:
+                r.pop("conflicts")
+        new_ja = key_ja(kc)
+        if r.get("keyJa") and r["keyJa"] != new_ja and r["keyJa"] in r["titleJa"]:
+            r["titleJa"] = r["titleJa"].replace(r["keyJa"], new_ja)  # 和題に組み込んだ調も直す
+        elif not r.get("keyJa") and r["genre"] in NUMBERED and "第" in r["titleJa"] and new_ja not in r["titleJa"]:
+            r["titleJa"] = re.sub(r"(第\d+番)", r"\1 " + new_ja, r["titleJa"], count=1)
+        r["key"], r["keyJa"] = key_id(kc), new_ja
+        r["sources"] = r["sources"] + [src]
+        if x.get("noteJa"):
+            r["keyNoteCustom"] = x["noteJa"]
+        if x["status"] == "disputed":
+            r["keyDisputed"] = [key_id(key_code_of(a)) for a in (x.get("alt") or []) if key_code_of(a)]
+    elif x["status"] == "none":
+        r["keyResearch"] = "none"
+        r["sources"] = r["sources"] + [src]
+
+
+def set_key_status(r, era):
+    alts = r.pop("keyDisputed", None)
+    if r.get("key"):
+        # 出典の食い違いが未調査のものは「調あり（要確認）」。諸説ありは調べた結果だけ
+        st = "disputed" if alts is not None else ("unverified" if any(c.get("field") == "key" for c in r.get("conflicts", [])) else "stated")
+    elif r.pop("keyResearch", None) == "none":
+        st = "none"
+    elif era in ("renaissance", "ancient"):
+        st = "modal"
+    elif r["genre"] in ("opera", "oratorio", "cantata", "song") or r.get("category") == "stage" or SET_TITLE.search(r["titleEn"]):
+        st = "not-applicable"
+    elif era == "contemporary":
+        st = "unstated-modern"
+    else:
+        st = "unknown"
+    r["keyStatus"] = st
+    note = KEY_NOTE[st]
+    custom = r.pop("keyNoteCustom", None)
+    if st == "disputed" and custom:
+        note = custom
+    elif st == "disputed" and alts:
+        note += "（" + "・".join(key_ja(key_code_of(a)) for a in alts) + "とする説もある）"
+    if note:
+        r["keyNote"] = note
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     comps = json.loads((ROOT / "veliq-academy" / "data" / "composers.json").read_text())
@@ -542,6 +635,7 @@ def main():
         if recs:
             by[c["id"]] = recs
     hit, sc = nyp_attach(by, comps)
+    comp_era = {c["id"]: c.get("era") for c in comps}
     files = []
     for cid, recs in by.items():
         # 同じ id（同名の別作品）は末尾に -2, -3 を付けて一意にする
@@ -551,13 +645,16 @@ def main():
             cnt[r["id"]] = n
             if n > 1:
                 r["id"] = f'{r["id"]}-{n}'
+        for r in recs:
+            apply_key_research(r, KEY_RESEARCH.get(r["id"]))
+            set_key_status(r, comp_era.get(cid))
         recs[:] = [r if any(s.get("name") != "Open Opus" for s in r["sources"]) else compact(r) for r in recs]
         (OUT / f"{cid}.json").write_text(json.dumps(recs, ensure_ascii=False, separators=(",", ":")) + "\n")
         files.append({"composer": cid, "url": f"{SITE}/data/catalog/{cid}.json", "count": len(recs)})
     total = sum(f["count"] for f in files)
     idx = {
         "name": "Veliq 作品目録", "updated": FETCHED, "license": "事実データ。出典は各レコードの sources。Wikidata（CC0）・Open Opus（CC0）・IMSLP の作品情報欄とニューヨーク・フィルの演奏記録（CC0, New York Philharmonic）を含む",
-        "fields": old_idx.get("fields", "") + ", category（keyboard/chamber/orchestral/vocal/stage。Open Opus 由来）, popular, conflicts, nyp{performances,first,last,conductors,scores[id,markedBy,publisher]}",
+        "fields": old_idx.get("fields", "") + ", keyStatus（stated/unverified/disputed/none/modal/not-applicable/unstated-modern/unknown）, keyNote（調が空・諸説あるときの説明）, category（keyboard/chamber/orchestral/vocal/stage。Open Opus 由来）, popular, conflicts, nyp{performances,first,last,conductors,scores[id,markedBy,publisher]}",
         "files": files, "coverage": old_idx.get("coverage", []), "count": total,
     }
     (OUT / "index.json").write_text(json.dumps(idx, ensure_ascii=False, indent=1) + "\n")

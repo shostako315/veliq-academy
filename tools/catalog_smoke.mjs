@@ -27,7 +27,9 @@ const CASES = [
   ["コレッリ 作品6-8《クリスマス協奏曲》", { composer: "corelli", key: "ト短調" }, (r) => r.results.some((x) => x.opus === "Op.6 No.8")],
   ["目録に無い作曲家（久石譲）", { composer: "hisaishi" }, (r) => r.count === 0 && /まだ/.test(r.coverageNote)],
   ["ショパンの嬰ハ短調の夜想曲（第7番 Op.27-1 を含む）", { composer: "chopin", key: "嬰ハ短調", genre: "夜想曲" }, (r) => r.results.some((x) => x.opus === "Op.27 No.1")],
-  ["モーツァルト K.172 は変ロ長調（Open Opus の誤りは食い違いとして残る）", { composer: "mozart", q: "K.172" }, (r) => r.results.some((x) => x.key === "Bb-major" && x.conflicts)],
+  ["モーツァルト K.172 は変ロ長調（Open Opus の誤記は調べて解消）", { composer: "mozart", q: "K.172" }, (r) => r.results.some((x) => x.key === "Bb-major" && x.keyStatus === "stated")],
+  ["ショパン 作品22 は前後半で調が違うと注記", { composer: "chopin", q: "spianato" }, (r) => r.results.some((x) => x.keyStatus === "disputed" && /ト長調/.test(x.keyNote || ""))],
+  ["ルネサンスの作品は旋法の注記", { composer: "palestrina", limit: 3 }, (r) => r.results.every((x) => x.keyStatus === "modal" || x.key)],
   ["メンデルスゾーンの交響曲は5曲（弦楽のための交響曲は別）", { composer: "mendelssohn", genre: "交響曲" }, (r) => r.count === 5],
 ];
 let ng = 0;
