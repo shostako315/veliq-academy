@@ -14702,5 +14702,82 @@
       "famous",
       "ballet"
     ]
+  },
+  {
+    "id": "rachmaninoff-pc2",
+    "composerId": "rachmaninoff",
+    "title": "ピアノ協奏曲第2番 ハ短調 作品18",
+    "titleEn": "Piano Concerto No. 2 in C minor, Op. 18",
+    "year": "1900-1901",
+    "genre": "concerto",
+    "subgenre": "piano",
+    "era": "modern",
+    "key": "c-minor",
+    "opus": "Op. 18",
+    "duration": 32,
+    "difficulty": 1,
+    "shortDescription": "医師ニコライ・ダーリの治療の後に書かれ、ダーリに献呈されたピアノ協奏曲。全曲は1901年10月27日（新暦11月9日）に作曲者の独奏、シロティの指揮で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Moderato",
+        "tempo": "Moderato",
+        "key": "c-minor",
+        "duration": 10,
+        "description": "独奏ピアノの和音が8小節続いた後、管弦楽が第1主題を出す。ソナタ形式で、第2主題は変ホ長調。",
+        "highlights": [
+          "冒頭8小節のピアノの和音",
+          "変ホ長調の第2主題"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio sostenuto",
+        "tempo": "Adagio sostenuto",
+        "key": "E-major",
+        "duration": 11,
+        "description": "ピアノの3連符の上でクラリネットが第1主題を吹く三部形式の楽章。中間部の後にピアノのカデンツァがある。",
+        "highlights": [
+          "クラリネットの主題",
+          "ピアノのカデンツァ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro scherzando",
+        "tempo": "Allegro scherzando",
+        "key": "C-major",
+        "duration": 11,
+        "description": "ピアノがスタッカートの主題を弾き、オーボエとヴィオラが第2主題を奏する。管弦楽の全奏で終わる。",
+        "highlights": [
+          "スタッカートの主題",
+          "オーボエとヴィオラの第2主題"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1897年の交響曲第1番の初演が失敗した後、ラフマニノフは3年間ほとんど作曲しなかった。1900年初めから医師ニコライ・ダーリの治療を受け、同年に第2・第3楽章を書いた。この2楽章は1900年12月2日（新暦15日）にモスクワの慈善演奏会で作曲者の独奏、シロティの指揮で演奏された。全曲は1901年10月27日（新暦11月9日）に同じ演奏者で初演され、同年モスクワのグートヘイルから出版された。",
+    "musicalAnalysis": "3楽章構成。第1楽章はハ短調のソナタ形式で、独奏ピアノの和音で始まり、主な旋律を管弦楽が受け持つことが多い。第2楽章はホ長調の三部形式、第3楽章はハ長調で終わる。",
+    "listeningGuide": {
+      "totalTime": "32分",
+      "recommendedVersion": "スヴャトスラフ・リヒテル（ピアノ）、スタニスワフ・ヴィスウォツキ指揮 ワルシャワ・フィルハーモニー管弦楽団（1959年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "tchaikovsky-pc1"
+    ],
+    "relatedComposers": [
+      "tchaikovsky",
+      "chopin"
+    ],
+    "tags": [
+      "concerto",
+      "modern",
+      "famous",
+      "piano"
+    ]
   }
 ]
