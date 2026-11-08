@@ -12141,5 +12141,107 @@
       "german",
       "famous"
     ]
+  },
+  {
+    "id": "bach-art-of-fugue",
+    "composerId": "bach-js",
+    "title": "フーガの技法 BWV1080",
+    "titleEn": "The Art of Fugue, BWV 1080",
+    "year": "1742-1750",
+    "genre": "keyboard",
+    "subgenre": "fugue",
+    "era": "baroque",
+    "key": "d-minor",
+    "opus": "BWV 1080",
+    "duration": 75,
+    "difficulty": 3,
+    "shortDescription": "ニ短調の一つの主題による14のフーガと4つのカノン。バッハの没後、1751年に未完のまま出版され、最後のフーガは B-A-C-H の主題が入ったところで途切れている。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "コントラプンクトゥス1〜4（単純フーガ）",
+        "tempo": "",
+        "key": "d-minor",
+        "duration": null,
+        "description": "コントラプンクトゥス4は自筆譜になく、初版で伝わる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "コントラプンクトゥス5〜7（反行フーガ）",
+        "tempo": "",
+        "key": "d-minor",
+        "duration": null,
+        "description": "答えが主題の反行形で入る。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "コントラプンクトゥス8〜11（二重フーガ・三重フーガ）",
+        "tempo": "",
+        "key": "d-minor",
+        "duration": null,
+        "description": "初版にはコントラプンクトゥス10の初期稿も誤って収められた。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "コントラプンクトゥス12〜13（鏡像フーガ）",
+        "tempo": "",
+        "key": "d-minor",
+        "duration": null,
+        "description": "コントラプンクトゥス13には2台チェンバロ用の編曲がある。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "4つのカノン",
+        "tempo": "",
+        "key": "d-minor",
+        "duration": null,
+        "description": "in Hypodiapason、alla Decima、alla Duodecima、in Hypodiatessaron。10度と12度のカノンは自筆譜にない。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "コントラプンクトゥス14（未完の四重フーガ）",
+        "tempo": "",
+        "key": "d-minor",
+        "duration": null,
+        "description": "B-A-C-H の音名による主題が入ったところで途切れる。印刷譜は7小節短縮して載せた。",
+        "highlights": [
+          "B-A-C-H の主題",
+          "C・P・E・バッハの書き込み"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "自筆譜（ベルリン国立図書館 P 200）の紙と筆跡は1742年頃を示し、1746年頃までに15曲が仕上げられた。バッハは彫版の一部を監督したが、1750年7月28日に没し、家族が出版を引き継いだ。1751年に未完のまま21曲で出版され、1752年にマールプルクの序文を付けて再刊された。1927年6月26日、ライプツィヒでグレーザーの管弦楽編曲がシュトラウベの指揮で初演された。",
+    "musicalAnalysis": "単純フーガ、反行フーガ、二重・三重フーガ、鏡像フーガ、カノンの順に並び、最後に未完の四重フーガが置かれる。楽譜は総譜の形で書かれ、楽器の指定はない。校訂者のホフマンとモロニーは鍵盤楽器、とくにチェンバロのための曲とみる。",
+    "listeningGuide": {
+      "totalTime": "約75分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "bach-goldberg",
+      "bach-wtc1"
+    ],
+    "relatedComposers": [
+      "bach-cpe"
+    ],
+    "tags": [
+      "keyboard",
+      "baroque",
+      "fugue",
+      "counterpoint",
+      "unfinished"
+    ]
   }
 ]
