@@ -12803,7 +12803,7 @@
     "year": "1920-1924",
     "genre": "opera",
     "subgenre": "dramma lirico",
-    "era": "modern",
+    "era": "romantic",
     "key": "",
     "opus": "",
     "duration": 120,
@@ -14290,6 +14290,417 @@
       "romantic",
       "famous",
       "dramatic"
+    ]
+  },
+  {
+    "id": "bartok-concerto-for-orchestra",
+    "composerId": "bartok",
+    "title": "管弦楽のための協奏曲 Sz.116",
+    "titleEn": "Concerto for Orchestra, Sz. 116",
+    "year": "1943",
+    "genre": "orchestral",
+    "subgenre": "concerto for orchestra",
+    "era": "modern",
+    "key": "",
+    "opus": "Sz. 116",
+    "duration": 35,
+    "difficulty": 2,
+    "shortDescription": "クーセヴィツキー音楽財団の委嘱により、1943年8月15日から10月8日にかけてニューヨーク州サラナク・レイクで書かれた5楽章の管弦楽曲。1944年12月1日にボストンでクーセヴィツキー指揮ボストン交響楽団により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Introduzione",
+        "tempo": "Andante non troppo – Allegro vivace",
+        "key": "",
+        "duration": null,
+        "description": "遅い序奏の後、弦楽器が主要主題を出す Allegro vivace に入る。作曲者が「ほぼ規則どおりのソナタ形式」とした楽章で、展開部に金管楽器のフガートがある。",
+        "highlights": [
+          "弦楽器の主要主題",
+          "展開部の金管のフガート"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Giuoco delle coppie",
+        "tempo": "Allegretto scherzando",
+        "key": "",
+        "duration": null,
+        "description": "管楽器が2本ずつ組になり、ファゴットは6度、オーボエは3度、クラリネットは7度、フルートは5度、トランペットは2度で順に現れる。中央に金管のコラールが置かれ、その後、組の連なりが繰り返される。",
+        "highlights": [
+          "組ごとに決まった音程",
+          "金管のコラール"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Elegia",
+        "tempo": "Andante, non troppo",
+        "key": "",
+        "duration": null,
+        "description": "作曲者が「悲しげな死の歌」と呼んだ中央の楽章。旋律はパルランド・ルバートの様式による。",
+        "highlights": [
+          "パルランド・ルバートの旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Intermezzo interrotto",
+        "tempo": "Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "作曲者が「A B A―中断―B A」と示した楽章。ヴィオラの旋律はヴィンツェ・ジグモンドのオペレッタの歌による。中断の部分でショスタコーヴィチの交響曲第7番第1楽章の行進の主題がもじられる。",
+        "highlights": [
+          "ヴィオラの旋律",
+          "交響曲第7番の主題のもじり"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Finale",
+        "tempo": "Pesante – Presto",
+        "key": "",
+        "duration": null,
+        "description": "ホルンの呼びかけで始まり、弦楽器の無窮動の走句が主要主題となる。展開部にトランペットの主題による大きなフーガがある。終結は2通りあり、最初の版は下降して、改訂後の版は上昇して終わる。",
+        "highlights": [
+          "ホルンの呼びかけ",
+          "トランペット主題のフーガ",
+          "2つの終結"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1943年初め、ニューヨークの病院に入院していたバルトークに、ライナーとシゲティの働きかけを受けたクーセヴィツキーが、クーセヴィツキー音楽財団を通じて作品を委嘱した。委嘱は前年に没したナタリー・クーセヴィツキーの追悼のためで、委嘱料は1,000ドルだった。バルトークはサラナク・レイクの療養所で1943年8月15日に作曲を始め、10月8日に完成させた。初演は1944年12月1日、ボストンのシンフォニー・ホールでクーセヴィツキー指揮ボストン交響楽団により行われ、作曲者が立ち会った。初演の後に終結が約15小節延ばされ、出版譜には2つの終結が載っている。",
+    "musicalAnalysis": "5楽章は、両端の大きな楽章、内側の2つのスケルツォ風の楽章、中央の遅い楽章という、弦楽四重奏曲第4番と同じ配置をとる。題名は個々の楽器を協奏的、独奏的に扱うことによると作曲者は説明した。第2楽章では管楽器の組ごとに音程が決まっており、第4楽章ではショスタコーヴィチの交響曲第7番の主題がもじられる。",
+    "listeningGuide": {
+      "totalTime": "約35〜38分",
+      "recommendedVersion": "フリッツ・ライナー指揮シカゴ交響楽団（1955年録音、RCA）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "bartok-strings",
+      "shostakovich-symphony-7"
+    ],
+    "relatedComposers": [
+      "shostakovich"
+    ],
+    "tags": [
+      "orchestral",
+      "modern",
+      "hungarian",
+      "koussevitzky-commission"
+    ]
+  },
+  {
+    "id": "mahler-symphony-9",
+    "composerId": "mahler",
+    "title": "交響曲第9番 ニ長調",
+    "titleEn": "Symphony No. 9 in D major",
+    "year": "1909-1910",
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "modern",
+    "key": "D-major",
+    "opus": "",
+    "duration": 75,
+    "difficulty": 3,
+    "shortDescription": "1909年夏にトブラッハで草稿が書かれ、1910年4月1日にニューヨークで浄書が完成した、マーラーが完成させた最後の交響曲。作曲者の没後、1912年6月26日にウィーンでブルーノ・ヴァルター指揮ウィーン・フィルハーモニーが初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Andante comodo",
+        "tempo": "Andante comodo",
+        "key": "D-major",
+        "duration": 25,
+        "description": "チェロと低いホルンの拍をずらしたリズムとハープの4音で始まる。2度下行の「別れ」の動機が全体を貫き、ヨハン・シュトラウス（子）のワルツ《人生を楽しめ》の主題が3回引用される。",
+        "highlights": [
+          "2度下行の「別れ」の動機",
+          "第267〜271小節のワルツの引用",
+          "「重い葬列のように」の部分"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Im Tempo eines gemächlichen Ländlers. Etwas täppisch und sehr derb",
+        "tempo": "Im Tempo eines gemächlichen Ländlers. Etwas täppisch und sehr derb",
+        "key": "",
+        "duration": 15,
+        "description": "レントラーで始まり、3拍子のままレントラーと速いワルツ風の部分が交互に現れる。",
+        "highlights": [
+          "レントラーとワルツの交代"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Rondo-Burleske. Allegro assai. Sehr trotzig",
+        "tempo": "Rondo-Burleske. Allegro assai. Sehr trotzig",
+        "key": "",
+        "duration": null,
+        "description": "ロンド形式で、トランペットの主題が二重フーガとして扱われる。「アポロンの兄弟たちへ」の献辞をもつ。",
+        "highlights": [
+          "二重フーガ",
+          "「アポロンの兄弟たちへ」の献辞"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Adagio. Sehr langsam und noch zurückhaltend",
+        "tempo": "Adagio. Sehr langsam und noch zurückhaltend",
+        "key": "Db-major",
+        "duration": 25,
+        "description": "弦楽器だけで始まる。終わり近くで《亡き子をしのぶ歌》第4曲の結びの句が引用され、第1楽章より半音低い変ニ長調で終わる。",
+        "highlights": [
+          "弦楽のみの開始",
+          "《亡き子をしのぶ歌》の引用",
+          "変ニ長調の終結"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1907年に娘マリア・アンナを亡くし、心臓病と診断された後に書かれた。1909年夏にトブラッハで草稿を書き、1909〜10年の冬、ニューヨーク・フィルハーモニックの最初のシーズンの間に管弦楽化して、1910年4月1日に浄書を終えた。マーラーは1911年5月に没し、この曲を聴かなかった。初演は1912年6月26日、ウィーン音楽祭でブルーノ・ヴァルター指揮ウィーン・フィルハーモニーが手稿から行い、総譜は1912年12月にユニヴァーサル・エディションから納品された。",
+    "musicalAnalysis": "4楽章のうち第1楽章と終楽章が遅い楽章で、ニ長調で始まり変ニ長調で終わる。第1楽章は2度下行の「別れ」の動機を軸に、ソナタ形式とロンドの要素を併せもつ。第2楽章はレントラーとワルツ、第3楽章は二重フーガを含むロンド・ブルレスケ、終楽章は弦楽で始まるアダージョである。",
+    "listeningGuide": {
+      "totalTime": "75〜90分",
+      "recommendedVersion": "ヘルベルト・フォン・カラヤン指揮 ベルリン・フィルハーモニー（1982年ライヴ）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mahler-das-lied",
+      "mahler-symphony-1"
+    ],
+    "relatedComposers": [
+      "berg",
+      "schoenberg"
+    ],
+    "tags": [
+      "symphony",
+      "modern",
+      "mahler"
+    ]
+  },
+  {
+    "id": "ravel-piano-concerto-g",
+    "composerId": "ravel",
+    "title": "ピアノ協奏曲 ト長調",
+    "titleEn": "Piano Concerto in G major",
+    "year": "1929-1931",
+    "genre": "concerto",
+    "subgenre": "piano",
+    "era": "modern",
+    "key": "G-major",
+    "opus": "",
+    "duration": 20,
+    "difficulty": 2,
+    "shortDescription": "左手のためのピアノ協奏曲と並行して1929〜31年に書かれたラヴェルのピアノ協奏曲。1932年1月14日、パリのサル・プレイエルでマルグリット・ロンの独奏、作曲者指揮ラムルー管弦楽団により初演され、ロンに献呈された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegramente",
+        "tempo": "Allegramente",
+        "key": "",
+        "duration": null,
+        "description": "鞭の一打で始まり、ピッコロが第1主題を吹く。ジャズの影響をもつ主題を含み、ハープの独奏に導かれたカデンツァを経て再現部に入る。",
+        "highlights": [
+          "冒頭の鞭とピッコロ",
+          "ハープに導かれるカデンツァ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio assai",
+        "tempo": "Adagio assai",
+        "key": "",
+        "duration": null,
+        "description": "独奏ピアノの長い独白で始まり、管弦楽は楽章のほぼ3分の1を過ぎてから入る。のちにイングリッシュホルンが冒頭の旋律を奏し、ピアノが伴奏する。",
+        "highlights": [
+          "ピアノ独奏による開始",
+          "イングリッシュホルンによる旋律の回帰"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Presto",
+        "tempo": "Presto",
+        "key": "",
+        "duration": null,
+        "description": "4分に満たない楽章。クラリネットの走句やトロンボーンのグリッサンドが加わり、大太鼓の一打で終わる。",
+        "highlights": [
+          "トロンボーンのグリッサンド"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "最初のスケッチは1906年にさかのぼり、1929年初めから本格的に書かれた。ヴィトゲンシュタインの依頼による左手のための協奏曲と並行して書かれ、左手の協奏曲が先に完成した。ラヴェルは自分で独奏を弾く予定だったが断念し、1932年1月14日の初演ではマルグリット・ロンの独奏で指揮をとった。同年4月14日、ロンはフレイタス・ブランコの指揮でこの曲を録音した。",
+    "musicalAnalysis": "Allegramente、Adagio assai、Prestoの3楽章からなる。管楽器はほぼ1本ずつで、ピッコロ、変ホ調クラリネット、鞭、ウッドブロックを含む。第2楽章は独奏ピアノの長い独白で始まる。ラヴェルは「モーツァルトとサン＝サーンスの協奏曲の精神で」書いたと述べた。",
+    "listeningGuide": {
+      "totalTime": "20分",
+      "recommendedVersion": "マルグリット・ロン（ピアノ）、ペドロ・デ・フレイタス・ブランコ指揮（1932年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "gershwin-rhapsody-in-blue",
+      "ravel-bolero"
+    ],
+    "relatedComposers": [
+      "gershwin",
+      "mozart-wa",
+      "saint-saens"
+    ],
+    "tags": [
+      "concerto",
+      "piano",
+      "french",
+      "modern",
+      "jazz"
+    ]
+  },
+  {
+    "id": "sibelius-symphony-5",
+    "composerId": "sibelius",
+    "title": "交響曲第5番 変ホ長調 作品82",
+    "titleEn": "Symphony No. 5 in E-flat major, Op. 82",
+    "year": "1914-1919",
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "modern",
+    "key": "Eb-major",
+    "opus": "Op. 82",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "1915年12月8日、作曲者50歳の誕生日にヘルシンキで4楽章の形で初演され、1916年と1919年に改訂された交響曲。3楽章の最終稿は1919年11月24日に作曲者の指揮で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Tempo molto moderato – Allegro moderato (ma poco a poco stretto)",
+        "tempo": "Tempo molto moderato – Allegro moderato (ma poco a poco stretto)",
+        "key": "",
+        "duration": null,
+        "description": "ティンパニのトレモロに続いてホルンが呼びかける。後半の舞曲風の Allegro moderato は、1915年稿では独立したスケルツォだった。",
+        "highlights": [
+          "冒頭のホルンの呼びかけ",
+          "徐々に速度を上げる Allegro moderato"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante mosso, quasi allegretto",
+        "tempo": "Andante mosso, quasi allegretto",
+        "key": "",
+        "duration": null,
+        "description": "主題はフルートと弦楽器のピッツィカートの対話として現れ、変奏が続く。",
+        "highlights": [
+          "フルートとピッツィカートの対話"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro molto",
+        "tempo": "Allegro molto",
+        "key": "",
+        "duration": null,
+        "description": "弦楽器の急速な音型で始まり、1915年4月に日記に記された白鳥の情景と結びつく主題がホルンに現れる。突然の休止をはさむ4つの和音と2つのユニゾンで終わる。",
+        "highlights": [
+          "ホルンの白鳥の主題",
+          "休止をはさむ最後の和音"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "シベリウスは1914年晩夏から第5番と第6番を並行して書き始めた。1915年12月8日、50歳の誕生日に作曲者の指揮でヘルシンキで4楽章の形で初演された。1916年12月8日にトゥルクで改訂稿を初演し、1919年11月24日にヘルシンキで3楽章の最終稿を初演した。初版は1921年にコペンハーゲンのヴィルヘルム・ハンセンから出た。",
+    "musicalAnalysis": "最終稿は3楽章で、1915年稿の第1楽章とスケルツォが一つの楽章にまとめられている。第2楽章は変奏の形をとる。終楽章の小節数は1915年稿が679小節、1919年稿が702小節で、最終稿は1915年稿のバス・クラリネットを除いている。",
+    "listeningGuide": {
+      "totalTime": "30〜35分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "sibelius-finlandia",
+      "sibelius-violin-concerto",
+      "nielsen-symphony-4"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "modern",
+      "famous",
+      "revision"
+    ]
+  },
+  {
+    "id": "tchaikovsky-nutcracker",
+    "composerId": "tchaikovsky",
+    "title": "バレエ音楽《くるみ割り人形》 作品71",
+    "titleEn": "The Nutcracker, Op. 71",
+    "year": "1891-1892",
+    "genre": "orchestral",
+    "subgenre": "ballet",
+    "era": "romantic",
+    "key": "",
+    "opus": "Op. 71",
+    "duration": 90,
+    "difficulty": 1,
+    "shortDescription": "ホフマンの物語のデュマによる翻案をもとにした2幕3場のバレエ。1892年12月18日（新暦）にマリインスキー劇場で《イオランタ》と同じ夜に、イワノフの振付で初演された。チェレスタを用いる。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕（序曲、第1〜9番）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "クリスマス・ツリーの場面から、ねずみとの戦い、王子への変身を経て、冬の森の〈雪片のワルツ〉（第9番）で終わる。",
+        "highlights": [
+          "行進曲（第2番）",
+          "祖父の踊り（第5番）",
+          "〈雪片のワルツ〉（第9番）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕（第10〜15番）",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "魔法の城の場面に続き、第12番のディヴェルティスマン（チョコレート、コーヒー、お茶、トレパック、葦笛の踊り、ジゴーニュおばさん）、〈花のワルツ〉、パ・ド・ドゥ、終幕のワルツとアポテオーズが置かれる。",
+        "highlights": [
+          "ディヴェルティスマン（第12番）",
+          "〈花のワルツ〉（第13番）",
+          "〈金平糖の精の踊り〉のチェレスタ（第14番）"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "帝室劇場支配人フセヴォロジスキーが《眠れる森の美女》の後に委嘱した。1891年2月25日（新暦）に着手し、姉の死で上演が1892〜93年のシーズンに延期された。1891年3月にパリで知ったチェレスタを使い、その音を初演まで秘密にするよう出版者に頼んだ。1892年3月19日（新暦）に組曲作品71aが初演され、12月18日（新暦）にマリインスキー劇場でバレエが初演された。振付は病気のプティパに代わってレフ・イワノフが担当した。",
+    "musicalAnalysis": "2幕3場、序曲と第1〜15番からなる。第2幕の第12番は各国の踊りを並べたディヴェルティスマンで、〈コーヒー〉はグルジア民謡に基づく。チェレスタはパ・ド・ドゥの〈金平糖の精の踊り〉で旋律を受け持ち、アポテオーズではハープとともに使われる。",
+    "listeningGuide": {
+      "totalTime": "約90分（全曲）",
+      "recommendedVersion": "アンドレ・プレヴィン指揮 ロンドン交響楽団、アンブロジアン・シンガーズ（1972年、EMI）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "tchaikovsky-swan"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "orchestral",
+      "romantic",
+      "famous",
+      "ballet"
     ]
   }
 ]

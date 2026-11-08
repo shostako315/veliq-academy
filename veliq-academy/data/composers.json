@@ -20,9 +20,9 @@
       "フーガ"
     ],
     "keyWorks": [
-      "work-bach-matthaus",
-      "work-bach-goldberg",
-      "work-bach-wohltemperierte"
+      "bach-matthaus",
+      "bach-goldberg",
+      "bach-brandenberg"
     ],
     "influencedBy": [
       "buxtehude",
@@ -72,9 +72,9 @@
       "オルガン協奏曲"
     ],
     "keyWorks": [
-      "work-handel-messiah",
-      "work-handel-watermusic",
-      "work-handel-fireworks"
+      "handel-messiah",
+      "handel-water",
+      "handel-giulio-cesare"
     ],
     "influencedBy": [
       "corelli"
@@ -118,9 +118,8 @@
       "ヴァイオリン曲"
     ],
     "keyWorks": [
-      "work-vivaldi-fourseasons",
-      "work-vivaldi-gloria",
-      "work-vivaldi-stabat"
+      "vivaldi-gloria",
+      "vivaldi-four-seasons"
     ],
     "influencedBy": [
       "corelli"
@@ -164,8 +163,7 @@
       "受難曲"
     ],
     "keyWorks": [
-      "work-telemann-tafelmusik",
-      "work-telemann-viola-concerto"
+      "telemann-tafelmusik"
     ],
     "influencedBy": [
       "vivaldi",
@@ -208,8 +206,7 @@
       "アンセム"
     ],
     "keyWorks": [
-      "work-purcell-dido",
-      "work-purcell-fairyqueen"
+      "purcell-dido"
     ],
     "influencedBy": [
       "lully"
@@ -250,10 +247,7 @@
       "室内楽",
       "宗教声楽曲"
     ],
-    "keyWorks": [
-      "work-couperin-ordres",
-      "work-couperin-lecons"
-    ],
+    "keyWorks": [],
     "influencedBy": [
       "lully"
     ],
@@ -292,10 +286,7 @@
       "クラヴサン曲",
       "和声理論"
     ],
-    "keyWorks": [
-      "work-rameau-indes",
-      "work-rameau-castor"
-    ],
+    "keyWorks": [],
     "influencedBy": [
       "lully",
       "couperin-f"
@@ -335,10 +326,7 @@
       "カンタータ",
       "トリオ・ソナタ"
     ],
-    "keyWorks": [
-      "work-buxtehude-praeludium",
-      "work-buxtehude-passacaglia"
-    ],
+    "keyWorks": [],
     "influencedBy": [],
     "influenced": [
       "bach-js",
@@ -378,9 +366,9 @@
       "ピアノ・ソナタ"
     ],
     "keyWorks": [
-      "work-haydn-symphony94",
-      "work-haydn-creation",
-      "work-haydn-quartet-emperor"
+      "haydn-creation",
+      "haydn-sym94",
+      "haydn-quartets-op76"
     ],
     "influencedBy": [
       "bach-cpe"
@@ -426,9 +414,9 @@
       "宗教音楽"
     ],
     "keyWorks": [
-      "work-mozart-figaro",
-      "work-mozart-requiem",
-      "work-mozart-symphony41"
+      "mozart-figaro",
+      "mozart-requiem",
+      "mozart-symphony-40"
     ],
     "influencedBy": [
       "bach-js",
@@ -477,9 +465,9 @@
       "協奏曲"
     ],
     "keyWorks": [
-      "work-beethoven-symphony5",
-      "work-beethoven-symphony9",
-      "work-beethoven-moonlight"
+      "beethoven-moonlight",
+      "beethoven-symphony-5",
+      "beethoven-symphony-3"
     ],
     "influencedBy": [
       "haydn",
@@ -526,10 +514,7 @@
       "練習曲",
       "交響曲"
     ],
-    "keyWorks": [
-      "work-clementi-gradus",
-      "work-clementi-sonatas"
-    ],
+    "keyWorks": [],
     "influencedBy": [],
     "influenced": [
       "beethoven",
@@ -565,8 +550,7 @@
       "バレエ音楽"
     ],
     "keyWorks": [
-      "work-gluck-orfeo",
-      "work-gluck-alceste"
+      "gluck-orfeo"
     ],
     "influencedBy": [
       "rameau"
@@ -607,10 +591,7 @@
       "協奏曲",
       "オラトリオ"
     ],
-    "keyWorks": [
-      "work-cpe-bach-sonatas",
-      "work-cpe-bach-concertos"
-    ],
+    "keyWorks": [],
     "influencedBy": [
       "bach-js"
     ],
@@ -651,10 +632,7 @@
       "宗教音楽",
       "声楽曲"
     ],
-    "keyWorks": [
-      "work-salieri-tarare",
-      "work-salieri-europa"
-    ],
+    "keyWorks": [],
     "influencedBy": [
       "gluck"
     ],
@@ -699,10 +677,7 @@
       "チェロ協奏曲",
       "チェロ・ソナタ"
     ],
-    "keyWorks": [
-      "work-boccherini-minuet",
-      "work-boccherini-cello-concerto"
-    ],
+    "keyWorks": [],
     "influencedBy": [],
     "influenced": [],
     "teachers": [],
@@ -737,9 +712,9 @@
       "ピアノ曲"
     ],
     "keyWorks": [
-      "work-schubert-erlkoenig",
-      "work-schubert-unfinished",
-      "work-schubert-winterreise"
+      "schubert-unfinished",
+      "schubert-winterreise",
+      "schubert-trout"
     ],
     "influencedBy": [
       "beethoven",
@@ -788,9 +763,9 @@
       "ポロネーズ"
     ],
     "keyWorks": [
-      "work-chopin-ballade1",
-      "work-chopin-nocturnes",
-      "work-chopin-etudes"
+      "chopin-etudes",
+      "chopin-ballade-1",
+      "chopin-nocturne2"
     ],
     "influencedBy": [
       "bach-js",
@@ -835,9 +810,8 @@
       "編曲"
     ],
     "keyWorks": [
-      "work-liszt-sonata-b",
-      "work-liszt-hungarian-rhapsodies",
-      "work-liszt-liebestraum"
+      "liszt-sonata",
+      "liszt-hungarian2"
     ],
     "influencedBy": [
       "chopin",
@@ -886,9 +860,9 @@
       "合唱曲"
     ],
     "keyWorks": [
-      "work-brahms-symphony1",
-      "work-brahms-requiem",
-      "work-brahms-violin-concerto"
+      "brahms-violin-concerto",
+      "brahms-symphony-4",
+      "brahms-sym1"
     ],
     "influencedBy": [
       "bach-js",
@@ -935,9 +909,9 @@
       "著作"
     ],
     "keyWorks": [
-      "work-wagner-ring",
-      "work-wagner-tristan",
-      "work-wagner-parsifal"
+      "wagner-ring-walkure",
+      "wagner-tristan",
+      "wagner-parsifal"
     ],
     "influencedBy": [
       "beethoven",
@@ -985,9 +959,9 @@
       "評論"
     ],
     "keyWorks": [
-      "work-schumann-dichterliebe",
-      "work-schumann-kinderszenen",
-      "work-schumann-piano-concerto"
+      "schumann-dichterliebe",
+      "schumann-pc",
+      "schumann-symphony-3"
     ],
     "influencedBy": [
       "bach-js",
@@ -1033,9 +1007,9 @@
       "ピアノ曲"
     ],
     "keyWorks": [
-      "work-mendelssohn-midsummer",
-      "work-mendelssohn-violin-concerto",
-      "work-mendelssohn-italian"
+      "mendelssohn-vc",
+      "mendelssohn-mnd",
+      "mendelssohn-symphony-4"
     ],
     "influencedBy": [
       "bach-js",
@@ -1080,9 +1054,7 @@
       "評論"
     ],
     "keyWorks": [
-      "work-berlioz-symphonie-fantastique",
-      "work-berlioz-requiem",
-      "work-berlioz-damnation"
+      "berlioz-fantastique"
     ],
     "influencedBy": [
       "beethoven",
@@ -1127,9 +1099,9 @@
       "協奏曲"
     ],
     "keyWorks": [
-      "work-tchaikovsky-nutcracker",
-      "work-tchaikovsky-symphony6",
-      "work-tchaikovsky-piano-concerto1"
+      "tchaikovsky-symphony-6",
+      "tchaikovsky-pc1",
+      "tchaikovsky-swan"
     ],
     "influencedBy": [
       "mozart-wa",
@@ -1174,9 +1146,9 @@
       "協奏曲"
     ],
     "keyWorks": [
-      "work-dvorak-symphony9",
-      "work-dvorak-cello-concerto",
-      "work-dvorak-slavonic-dances"
+      "dvorak-sym9",
+      "dvorak-vc",
+      "dvorak-symphony-8"
     ],
     "influencedBy": [
       "brahms",
@@ -1219,9 +1191,9 @@
       "レクイエム"
     ],
     "keyWorks": [
-      "work-verdi-aida",
-      "work-verdi-traviata",
-      "work-verdi-otello"
+      "verdi-aida",
+      "verdi-traviata",
+      "verdi-otello"
     ],
     "influencedBy": [
       "rossini",
@@ -1262,9 +1234,9 @@
       "オペラ"
     ],
     "keyWorks": [
-      "work-puccini-boheme",
-      "work-puccini-butterfly",
-      "work-puccini-tosca"
+      "puccini-boheme",
+      "puccini-butterfly",
+      "puccini-tosca"
     ],
     "influencedBy": [
       "verdi",
@@ -1305,9 +1277,8 @@
       "民謡編曲"
     ],
     "keyWorks": [
-      "work-grieg-piano-concerto",
-      "work-grieg-peer-gynt",
-      "work-grieg-lyric-pieces"
+      "grieg-peer-gynt",
+      "grieg-pc"
     ],
     "influencedBy": [
       "schumann-r",
@@ -1352,9 +1323,8 @@
       "オルガン曲"
     ],
     "keyWorks": [
-      "work-saint-saens-organ-symphony",
-      "work-saint-saens-carnival",
-      "work-saint-saens-samson"
+      "saint-saens-organ",
+      "saint-saens-carnival"
     ],
     "influencedBy": [
       "mozart-wa",
@@ -1400,9 +1370,8 @@
       "オルガン曲"
     ],
     "keyWorks": [
-      "work-bruckner-symphony7",
-      "work-bruckner-symphony8",
-      "work-bruckner-te-deum"
+      "bruckner-sym7",
+      "bruckner-symphony-8"
     ],
     "influencedBy": [
       "wagner",
@@ -1447,9 +1416,9 @@
       "オペラ"
     ],
     "keyWorks": [
-      "work-debussy-prelude-afternoon",
-      "work-debussy-la-mer",
-      "work-debussy-preludes"
+      "debussy-prelude-afternoon",
+      "debussy-la-mer",
+      "debussy-clair"
     ],
     "influencedBy": [
       "chopin",
@@ -1499,9 +1468,8 @@
       "編曲"
     ],
     "keyWorks": [
-      "work-ravel-bolero",
-      "work-ravel-daphnis",
-      "work-ravel-gaspard"
+      "ravel-bolero",
+      "ravel-daphnis"
     ],
     "influencedBy": [
       "debussy",
@@ -1547,9 +1515,9 @@
       "指揮"
     ],
     "keyWorks": [
-      "work-mahler-symphony2",
-      "work-mahler-symphony5",
-      "work-mahler-das-lied"
+      "mahler-das-lied",
+      "mahler-symphony-2",
+      "mahler-sym5"
     ],
     "influencedBy": [
       "beethoven",
@@ -1596,9 +1564,9 @@
       "指揮"
     ],
     "keyWorks": [
-      "work-strauss-zarathustra",
-      "work-strauss-rosenkavalier",
-      "work-strauss-four-last-songs"
+      "strauss-zarathustra",
+      "strauss-rosenkavalier",
+      "strauss-r-four-last-songs"
     ],
     "influencedBy": [
       "wagner",
@@ -1643,9 +1611,7 @@
       "オペラ"
     ],
     "keyWorks": [
-      "work-schoenberg-verklarte",
-      "work-schoenberg-pierrot",
-      "work-schoenberg-survivor"
+      "schoenberg-verklarte"
     ],
     "influencedBy": [
       "brahms",
@@ -1695,9 +1661,8 @@
       "宗教合唱曲"
     ],
     "keyWorks": [
-      "work-stravinsky-rite",
-      "work-stravinsky-firebird",
-      "work-stravinsky-petrushka"
+      "stravinsky-rite-of-spring",
+      "stravinsky-firebird"
     ],
     "influencedBy": [
       "debussy",
@@ -1743,9 +1708,7 @@
       "民謡研究"
     ],
     "keyWorks": [
-      "work-bartok-concerto-orchestra",
-      "work-bartok-quartets",
-      "work-bartok-mikrokosmos"
+      "bartok-strings"
     ],
     "influencedBy": [
       "debussy",
@@ -1791,9 +1754,8 @@
       "ピアノ・ソナタ"
     ],
     "keyWorks": [
-      "work-prokofiev-romeo",
-      "work-prokofiev-peter-wolf",
-      "work-prokofiev-piano-concerto3"
+      "prokofiev-romeo",
+      "prokofiev-pc3"
     ],
     "influencedBy": [
       "tchaikovsky",
@@ -1837,9 +1799,8 @@
       "映画音楽"
     ],
     "keyWorks": [
-      "work-shostakovich-symphony5",
-      "work-shostakovich-symphony7",
-      "work-shostakovich-quartet8"
+      "shostakovich-sym5",
+      "shostakovich-sq8"
     ],
     "influencedBy": [
       "mahler",
@@ -1883,9 +1844,8 @@
       "歌曲"
     ],
     "keyWorks": [
-      "work-sibelius-finlandia",
-      "work-sibelius-symphony2",
-      "work-sibelius-violin-concerto"
+      "sibelius-finlandia",
+      "sibelius-violin-concerto"
     ],
     "influencedBy": [
       "tchaikovsky",
@@ -1928,9 +1888,8 @@
       "リズム法"
     ],
     "keyWorks": [
-      "work-messiaen-quartet-end",
-      "work-messiaen-turangalila",
-      "work-messiaen-catalogue-oiseaux"
+      "messiaen-quartet",
+      "messiaen-turangalila"
     ],
     "influencedBy": [
       "debussy",
@@ -1978,9 +1937,7 @@
       "合唱曲"
     ],
     "keyWorks": [
-      "work-ligeti-atmospheres",
-      "work-ligeti-etudes",
-      "work-ligeti-requiem"
+      "ligeti-atmospheres"
     ],
     "influencedBy": [
       "bartok"
@@ -2019,9 +1976,7 @@
       "オペラ"
     ],
     "keyWorks": [
-      "work-penderecki-threnody",
-      "work-penderecki-st-luke",
-      "work-penderecki-requiem"
+      "penderecki-threnody"
     ],
     "influencedBy": [],
     "influenced": [],
@@ -2059,9 +2014,8 @@
       "ティンティナブリ様式"
     ],
     "keyWorks": [
-      "work-part-fratres",
-      "work-part-tabula-rasa",
-      "work-part-spiegel"
+      "part-tabula",
+      "part-spiegel"
     ],
     "influencedBy": [
       "bach-js"
@@ -2101,9 +2055,8 @@
       "映画音楽"
     ],
     "keyWorks": [
-      "work-takemitsu-november-steps",
-      "work-takemitsu-requiem",
-      "work-takemitsu-rain-tree"
+      "takemitsu-november",
+      "takemitsu-flock"
     ],
     "influencedBy": [
       "debussy",
@@ -2147,11 +2100,7 @@
       "童謡",
       "指揮"
     ],
-    "keyWorks": [
-      "work-yamada-akatombo",
-      "work-yamada-karatachi",
-      "work-yamada-symphony"
-    ],
+    "keyWorks": [],
     "influencedBy": [],
     "influenced": [],
     "teachers": [],
@@ -2188,10 +2137,7 @@
       "童謡",
       "随筆"
     ],
-    "keyWorks": [
-      "work-dan-yuzuru",
-      "work-dan-symphonies"
-    ],
+    "keyWorks": [],
     "influencedBy": [],
     "influenced": [],
     "teachers": [],
@@ -2227,11 +2173,7 @@
       "室内楽",
       "邦楽器の作品"
     ],
-    "keyWorks": [
-      "work-hosokawa-matsukaze",
-      "work-hosokawa-lotus",
-      "work-hosokawa-hiroshima"
-    ],
+    "keyWorks": [],
     "influencedBy": [],
     "influenced": [],
     "teachers": [],
@@ -2332,7 +2274,9 @@
   {
     "portrait": null,
     "thumbnail": null,
-    "keyWorks": [],
+    "keyWorks": [
+      "rachmaninoff-paganini-rhapsody"
+    ],
     "teachers": [],
     "students": [],
     "youtubeIds": [],
