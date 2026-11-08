@@ -13844,5 +13844,452 @@
       "italian",
       "famous"
     ]
+  },
+  {
+    "id": "bruckner-symphony-8",
+    "composerId": "bruckner",
+    "title": "交響曲第8番 ハ短調 WAB108",
+    "titleEn": "Symphony No. 8 in C minor, WAB 108",
+    "year": "1884-1890",
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "romantic",
+    "key": "c-minor",
+    "opus": "WAB 108",
+    "duration": null,
+    "difficulty": 3,
+    "shortDescription": "1887年に第1稿が完成し、ヘルマン・レーヴィが初演を断ったため改訂されて1890年に第2稿が完成した。1892年12月18日にウィーンでハンス・リヒター指揮ウィーン・フィルが初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro moderato",
+        "tempo": "Allegro moderato",
+        "key": "c-minor",
+        "duration": null,
+        "description": "ピアニッシモのトレモロで始まり、主要主題は低弦に現れる。第2稿では下降する動機を繰り返して静かに終わる。",
+        "highlights": [
+          "第2稿の静かな結尾"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Scherzo: Allegro moderato – Trio: Langsam",
+        "tempo": "Allegro moderato – Langsam",
+        "key": "",
+        "duration": null,
+        "description": "1つの主題によるスケルツォ。トリオではハープが使われ、スケルツォがダ・カーポで戻る。",
+        "highlights": [
+          "トリオのハープ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Adagio: Feierlich langsam, doch nicht schleppend",
+        "tempo": "Feierlich langsam, doch nicht schleppend",
+        "key": "Db-major",
+        "duration": null,
+        "description": "半音の上下と上行する分散和音から作られ、第2主題群はチェロが最初に奏する。頂点はシンバルの一撃で迎えられる。",
+        "highlights": [
+          "シンバルの頂点"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Finale: Feierlich, nicht schnell",
+        "tempo": "Feierlich, nicht schnell",
+        "key": "",
+        "duration": null,
+        "description": "3つの主題群からなり、結尾で4つの楽章の主要主題が同時に重ねられ、ハ長調で終わる。",
+        "highlights": [
+          "金管の第1主題群",
+          "4楽章の主題の同時再現"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1884年に着手し、1887年に第1稿を完成した。初演を頼まれたヘルマン・レーヴィが断ったため改訂し、1890年に第2稿が完成した。第2稿は1892年12月18日、ウィーンのムジークフェラインザールでハンス・リヒター指揮ウィーン・フィルが初演した。皇帝フランツ・ヨーゼフ1世に献呈され、皇帝が印刷費を負担し、同年ベルリンのシュレジンガー社から出版された。",
+    "musicalAnalysis": "第2稿では木管を3管とし、ワーグナー・チューバとハープを用いる。ハープを使うブルックナーの交響曲はこの曲だけである。第1楽章は第2稿で静かに終わるように書き換えられた。終楽章の結尾では4つの楽章の主要主題が同時に重ねられる。",
+    "listeningGuide": {
+      "totalTime": "",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "bruckner-sym7"
+    ],
+    "relatedComposers": [
+      "wagner",
+      "beethoven"
+    ],
+    "tags": [
+      "symphony",
+      "romantic",
+      "versions"
+    ]
+  },
+  {
+    "id": "mahler-symphony-1",
+    "composerId": "mahler",
+    "title": "交響曲第1番 ニ長調",
+    "titleEn": "Symphony No. 1 in D major",
+    "year": 1888,
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "modern",
+    "key": "D-major",
+    "opus": "",
+    "duration": 50,
+    "difficulty": 2,
+    "shortDescription": "主に1888年2〜3月にライプツィヒで書かれ、1889年11月20日にブダペストで作曲者の指揮により2部5楽章の「交響詩」として初演された。1896年3月16日のベルリンの演奏で〈花の章〉と標題を外し、4楽章の交響曲となった。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Langsam. Schleppend – Immer sehr gemächlich",
+        "tempo": "Langsam. Schleppend – Immer sehr gemächlich",
+        "key": "D-major",
+        "duration": null,
+        "description": "7オクターヴにわたるイ音の保続音による序奏で始まる。総譜には「自然の音のように」と書かれている。主部の主題は《さすらう若者の歌》の第2曲から取られている。",
+        "highlights": [
+          "イ音の保続音の序奏",
+          "舞台裏のトランペット",
+          "4度のカッコウの声"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Kräftig bewegt, doch nicht zu schnell – Trio. Recht gemächlich",
+        "tempo": "Kräftig bewegt, doch nicht zu schnell",
+        "key": "A-major",
+        "duration": null,
+        "description": "3拍子のレントラーによるスケルツォ。トリオはヘ長調。",
+        "highlights": [
+          "レントラー",
+          "ヘ長調のトリオ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Feierlich und gemessen, ohne zu schleppen",
+        "tempo": "Feierlich und gemessen, ohne zu schleppen",
+        "key": "d-minor",
+        "duration": null,
+        "description": "童謡〈フレール・ジャック〉（〈ブルーダー・マルティン〉）を短調にしたカノンによる葬送行進曲。コントラバスの独奏で始まり、中間部で《さすらう若者の歌》の第4曲がト長調で引用される。",
+        "highlights": [
+          "コントラバス独奏によるカノン",
+          "《さすらう若者の歌》第4曲の引用"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Stürmisch bewegt",
+        "tempo": "Stürmisch bewegt",
+        "key": "f-minor",
+        "duration": null,
+        "description": "シンバルの一撃で始まり、ヘ短調から変ニ長調の第2主題を経て、ニ長調の金管のコラールで終わる。第1楽章の素材が回想される。",
+        "highlights": [
+          "冒頭のシンバル",
+          "変ニ長調の第2主題",
+          "ニ長調のコラールとホルンの起立"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "マーラーがライプツィヒ歌劇場の第2指揮者だった時期に、主に1888年2〜3月に書かれた。1884年の《さすらう若者の歌》の主題と、劇の付随音楽から転用した〈花の章〉を含む。1889年11月20日、ブダペストで作曲者の指揮により2部5楽章の「交響詩」として初演された。1893年10月27日のハンブルクと1894年6月3日のヴァイマルではジャン・パウルの小説による《巨人》の題で演奏され、1896年3月16日のベルリンの演奏で〈花の章〉と標題が外された。初版は1898〜99年にウィーンのエーベルレ社から出た。",
+    "musicalAnalysis": "第1楽章はイ音の保続音による序奏をもつソナタ形式で、主題は《さすらう若者の歌》の第2曲による。第2楽章はレントラーによるスケルツォ。第3楽章は〈フレール・ジャック〉を短調のカノンにした葬送行進曲。終楽章はヘ短調で始まり、ニ長調で終わる。",
+    "listeningGuide": {
+      "totalTime": "50分",
+      "recommendedVersion": "ラファエル・クーベリック指揮 バイエルン放送交響楽団（DG）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mahler-symphony-2",
+      "mahler-symphony-9"
+    ],
+    "relatedComposers": [
+      "strauss-r"
+    ],
+    "tags": [
+      "symphony",
+      "modern",
+      "mahler"
+    ]
+  },
+  {
+    "id": "rachmaninoff-paganini-rhapsody",
+    "composerId": "rachmaninoff",
+    "title": "パガニーニの主題による狂詩曲 作品43",
+    "titleEn": "Rhapsody on a Theme of Paganini, Op. 43",
+    "year": 1934,
+    "genre": "concerto",
+    "subgenre": "piano",
+    "era": "modern",
+    "key": "a-minor",
+    "opus": "Op. 43",
+    "duration": 24,
+    "difficulty": 1,
+    "shortDescription": "1934年の夏、スイスのルツェルン湖畔の自宅で書かれた独奏ピアノと管弦楽のための作品。パガニーニのカプリース第24番の主題による序奏と24の変奏からなり、1934年11月7日にボルティモアで作曲者の独奏、ストコフスキー指揮フィラデルフィア管弦楽団により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "序奏、第1変奏、主題、第2〜10変奏",
+        "tempo": "Allegro vivace",
+        "key": "a-minor",
+        "duration": null,
+        "description": "8小節の序奏の後、主題より先に第1変奏（precedente）が主題の骨組みを示し、16小節の主題がヴァイオリンに現れる。第7変奏でピアノの和音が〈怒りの日〉を奏し、第10変奏にも現れる。",
+        "highlights": [
+          "主題より先に置かれた第1変奏",
+          "第7変奏の〈怒りの日〉",
+          "第8〜10変奏のコル・レーニョ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第11変奏",
+        "tempo": "Moderato",
+        "key": "",
+        "duration": null,
+        "description": "4分の3拍子。ピアノのカデンツァ風の推移。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第12〜18変奏",
+        "tempo": "Tempo di minuetto",
+        "key": "d-minor",
+        "duration": null,
+        "description": "第12変奏はニ短調のメヌエットのテンポ。第14・15変奏はヘ長調。第18変奏（Andante cantabile、変ニ長調）は主題の反行形で、12小節のピアノ独奏に弦楽器が加わる。",
+        "highlights": [
+          "第12変奏 Tempo di minuetto",
+          "第18変奏の反行形の主題"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第19〜24変奏、コーダ",
+        "tempo": "Vivace",
+        "key": "a-minor",
+        "duration": null,
+        "description": "第19変奏のピアノには quasi pizzicato と記される。第23変奏は変イ長調で始まり、管弦楽がイ調へ戻す。第24変奏で金管が〈怒りの日〉を奏し、主題の末尾が弱く示されて終わる。",
+        "highlights": [
+          "第19変奏の quasi pizzicato",
+          "第24変奏の金管の〈怒りの日〉",
+          "2小節のコーダ"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1934年の夏、ルツェルン湖畔の自宅で約7週間で書かれた（ボストン響の解説は7月1日〜8月半ば、スタインバーグは7月3日〜8月18日とする）。1934年11月7日、ボルティモアのリリック劇場で作曲者の独奏、ストコフスキー指揮フィラデルフィア管弦楽団により初演され、同年12月24日に同じ顔ぶれでカムデンで録音された。初版は1934年にニューヨークのチャールズ・フォーリーから出た。1939年には、ラフマニノフの筋書きをもとにしたフォーキンのバレエ《パガニーニ》がロンドンで上演された。",
+    "musicalAnalysis": "パガニーニのカプリース第24番イ短調の主題による序奏と24の変奏で、切れ目なく演奏される。第1〜10変奏がイ短調、第11変奏が推移、第12〜18変奏がニ短調から変ニ長調へ、第19〜24変奏がイ短調に戻る。〈怒りの日〉の旋律が第7・10・22・24変奏に現れ、第18変奏では主題が反行形で現れる。",
+    "listeningGuide": {
+      "totalTime": "24分",
+      "recommendedVersion": "セルゲイ・ラフマニノフ（ピアノ）、レオポルド・ストコフスキー指揮 フィラデルフィア管弦楽団（1934年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "paganini-caprices"
+    ],
+    "relatedComposers": [
+      "paganini",
+      "brahms",
+      "liszt"
+    ],
+    "tags": [
+      "concerto",
+      "piano",
+      "variations",
+      "modern",
+      "famous"
+    ]
+  },
+  {
+    "id": "strauss-r-four-last-songs",
+    "composerId": "strauss-r",
+    "title": "《4つの最後の歌》",
+    "titleEn": "Vier letzte Lieder (Four Last Songs)",
+    "year": "1946-1948",
+    "genre": "vocal",
+    "subgenre": "orchestral-song",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 24,
+    "difficulty": 2,
+    "shortDescription": "ソプラノと管弦楽のための4曲で、1948年5月から9月に完成した。作曲者の没後、1950年5月22日にロンドンでフラグスタートの独唱、フルトヴェングラー指揮フィルハーモニア管弦楽団により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "春（Frühling）",
+        "tempo": "",
+        "key": "",
+        "duration": 4,
+        "description": "ヘッセの詩。1948年7月18日にポントレジーナで総譜が完成した。声域は4曲の中で最も高く、トランペットとトロンボーンは加わらない。",
+        "highlights": [
+          "フルートの鳥の声",
+          "多くの声部に分かれる弦楽器"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "9月（September）",
+        "tempo": "",
+        "key": "",
+        "duration": 5,
+        "description": "ヘッセの詩。1948年9月20日に完成し、シュトラウスが完成した最後の作品となった。最後をホルンの独奏が締めくくる。",
+        "highlights": [
+          "終わりのホルン独奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "眠りにつくとき（Beim Schlafengehen）",
+        "tempo": "",
+        "key": "Db-major",
+        "duration": 6,
+        "description": "ヘッセの詩。1948年8月4日に完成した。第2節と第3節の間に独奏ヴァイオリンが旋律を弾く。",
+        "highlights": [
+          "独奏ヴァイオリン",
+          "チェレスタ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "夕映えの中で（Im Abendrot）",
+        "tempo": "",
+        "key": "",
+        "duration": 8,
+        "description": "アイヒェンドルフの詩。1948年5月6日に4曲の中で最初に完成した。死を問う箇所で交響詩《死と変容》の変容の主題が引用され、変ホ長調で終わる。",
+        "highlights": [
+          "《死と変容》の引用",
+          "2羽のひばりを描く管楽器"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "第二次世界大戦後、シュトラウスは妻パウリーネとスイスで暮らし、息子フランツの勧めで歌曲を書いた。アイヒェンドルフの詩による〈夕映えの中で〉を1948年5月6日に完成し、同年7月18日から9月20日にヘッセの詩による3曲を書いた。シュトラウスは1949年9月8日に没し、演奏を聴かなかった。題名と今日の曲順は、ブージー・アンド・ホークス社のエルンスト・ロートが決めた。初演は1950年5月22日、ロンドンでフラグスタート、フルトヴェングラー指揮フィルハーモニア管弦楽団により、〈眠りにつくとき〉〈9月〉〈春〉〈夕映えの中で〉の順で行われた。",
+    "musicalAnalysis": "4曲は編成がそれぞれ異なり、〈春〉にはトランペットとトロンボーンが加わらない。〈9月〉はホルン独奏で終わり、〈眠りにつくとき〉（変ニ長調）は独奏ヴァイオリンの旋律を中ほどに置く。〈夕映えの中で〉は約60年前の交響詩《死と変容》の変容の主題を引用し、変ホ長調で終わる。",
+    "listeningGuide": {
+      "totalTime": "24分",
+      "recommendedVersion": "エリーザベト・シュヴァルツコップ（ソプラノ）、ジョージ・セル指揮 ベルリン放送交響楽団",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "strauss-zarathustra",
+      "mahler-das-lied"
+    ],
+    "relatedComposers": [
+      "mahler"
+    ],
+    "tags": [
+      "vocal",
+      "modern",
+      "famous",
+      "soprano",
+      "orchestral-song"
+    ]
+  },
+  {
+    "id": "tchaikovsky-symphony-4",
+    "composerId": "tchaikovsky",
+    "title": "交響曲第4番 ヘ短調 作品36",
+    "titleEn": "Symphony No. 4 in F minor, Op. 36",
+    "year": "1877-1878",
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "romantic",
+    "key": "f-minor",
+    "opus": "Op. 36",
+    "duration": 40,
+    "difficulty": 2,
+    "shortDescription": "1877年春に着手され、1878年1月にサンレモで書き終えられた交響曲。フォン・メックに「私の最良の友へ」として献呈され、1878年2月22日（新暦）にモスクワでニコライ・ルビンシテインの指揮により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Andante sostenuto — Moderato con anima",
+        "tempo": "Andante sostenuto — Moderato con anima",
+        "key": "f-minor",
+        "duration": null,
+        "description": "序奏の金管のファンファーレを、作曲者は「運命」と説明した。主部の第1主題は弦楽器のワルツ風の主題、第2主題はクラリネットが出す。",
+        "highlights": [
+          "「運命」のファンファーレ",
+          "クラリネットの第2主題"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andantino in modo di canzona",
+        "tempo": "Andantino in modo di canzona",
+        "key": "bb-minor",
+        "duration": null,
+        "description": "オーボエの独奏で始まり、終わりにはその歌がファゴットにピアニッシモで戻る。",
+        "highlights": [
+          "オーボエの独奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Scherzo. Pizzicato ostinato. Allegro",
+        "tempo": "Allegro",
+        "key": "F-major",
+        "duration": null,
+        "description": "主部は弦楽器が終始ピッツィカートで弾き、イ長調の中間部は管楽器だけで奏される。",
+        "highlights": [
+          "弦楽器のピッツィカート",
+          "管楽器だけの中間部"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Finale. Allegro con fuoco",
+        "tempo": "Allegro con fuoco",
+        "key": "F-major",
+        "duration": null,
+        "description": "ロシア民謡〈野に立つ白樺〉の変形を主要主題とし、途中で冒頭のファンファーレが戻る。",
+        "highlights": [
+          "民謡〈野に立つ白樺〉",
+          "ファンファーレの回帰"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1877年春に《エフゲニー・オネーギン》と並行して着手され、同年の結婚の時期に書かれた。管弦楽化はヴェネツィアとサンレモで進められ、1878年1月7日（新暦）に終わった。パトロンのナジェジダ・フォン・メックに名を伏せて献呈された。1878年2月22日（新暦）にモスクワのロシア音楽協会でニコライ・ルビンシテインの指揮により初演され、1879年にユルゲンソンから出版された。",
+    "musicalAnalysis": "4楽章構成。冒頭のファンファーレの動機が全曲に繰り返し現れ、終楽章にも戻る。第3楽章の主部は弦楽器のピッツィカートだけで書かれ、終楽章はロシア民謡を主題とする。作曲者はタネーエフに、ベートーヴェンの第5番の模倣であると書いた。",
+    "listeningGuide": {
+      "totalTime": "約40〜45分",
+      "recommendedVersion": "エフゲニー・ムラヴィンスキー指揮 レニングラード・フィルハーモニー管弦楽団（1960年、DG）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "tchaikovsky-symphony-6",
+      "beethoven-symphony-5"
+    ],
+    "relatedComposers": [
+      "beethoven"
+    ],
+    "tags": [
+      "symphony",
+      "romantic",
+      "famous",
+      "dramatic"
+    ]
   }
 ]
