@@ -218,6 +218,7 @@
 - [ブラームス 交響曲第3番 ヘ長調 作品90](https://veliq-academy.com/music/works/brahms-symphony-3/): 1883年の夏にヴィースバーデンで作曲された交響曲。1883年12月2日にウィーン楽友協会大ホールでハンス・リヒター指揮のウィーン・フィルハーモニーにより初演され、1884年5月にジムロックから出版された。
 - [ブラームス 交響曲第4番 ホ短調 作品98](https://veliq-academy.com/music/works/brahms-symphony-4/): 1884年と1885年の夏にシュタイアーマルクのミュルツツーシュラークで作曲されたブラームス最後の交響曲。1885年10月25日にマイニンゲン宮廷劇場で作曲者自身の指揮により初演され、1886年10月にジムロックから出版された。終楽章は8小節の主題による30の変奏とコーダからなるパッサカリア（シャコンヌ）である。
 - [ブラームス ヴァイオリン協奏曲 ニ長調 作品77](https://veliq-academy.com/music/works/brahms-violin-concerto/): 1878年夏にヴェルター湖畔ペルチャッハで作曲され、ヨーゼフ・ヨアヒムの助言を受けて独奏パートが整えられた協奏曲。1879年1月1日にライプツィヒ・ゲヴァントハウスで、ヨアヒムの独奏、ブラームスの指揮により初演され、1879年10月にジムロックから出版された。ヨアヒムに献呈。
+- [ブリテン オペラ《ピーター・グライムズ》作品33](https://veliq-academy.com/music/works/britten-peter-grimes/): ジョージ・クラッブの詩《村》（1810年）に基づき、モンタギュー・スレイターが台本を書いたプロローグと3幕のオペラ。クーセヴィツキー音楽財団の委嘱で1944年に作曲が始まり、1945年2月10日に総譜が完成した。1945年6月7日、ロンドンのサドラーズ・ウェルズ劇場でレジナルド・グッドールの指揮により初演された。
 - [ブルッフ ヴァイオリン協奏曲第1番 ト短調 作品26](https://veliq-academy.com/music/works/bruch-violin-concerto-1/): 1864年夏に書き始められ、初稿が1866年4月24日にコブレンツで演奏されたのち、ヨアヒムの助言で改訂されて1867年10月に完成したヴァイオリン協奏曲。決定稿は1868年1月7日にブレーメンでヨアヒムの独奏により初演され、同年3月末にブレーメンのクランツ社から出版された。
 - [ブルックナー 交響曲第7番 ホ長調 WAB107](https://veliq-academy.com/music/works/bruckner-sym7/): 1881年9月から1883年9月にかけて作曲された交響曲。第2楽章のコーダはワーグナーの死を受けて書かれた。1884年12月30日にライプツィヒでアルトゥール・ニキシュの指揮で初演され、1885年に出版された。バイエルン王ルートヴィヒ2世に献呈。
 - [ブルックナー 交響曲第8番 ハ短調 WAB108](https://veliq-academy.com/music/works/bruckner-symphony-8/): 1884年に着手し1887年に第1稿を完成したが、指揮者レーヴィが初演を断ったため改訂され、1890年に第2稿が完成した交響曲。1892年12月18日にウィーンのムジークフェラインザールでハンス・リヒター指揮ウィーン・フィルが初演し、同年皇帝フランツ・ヨーゼフ1世の費用負担で出版された。
@@ -758,6 +759,7 @@
 - [メシアン 世の終わりのための四重奏曲](https://veliq-academy.com/music/works/messiaen-quartet/): メシアン・1940–1941年
 - [コープランド バレエ《アパラチアの春》](https://veliq-academy.com/music/works/copland-appalachian-spring/): コープランド・1943–1944年
 - [バルトーク 管弦楽のための協奏曲 Sz.116](https://veliq-academy.com/music/works/bartok-concerto-for-orchestra/): バルトーク・1943年
+- [ブリテン オペラ《ピーター・グライムズ》作品33](https://veliq-academy.com/music/works/britten-peter-grimes/): ブリテン・1944–1945年
 - [メシアン トゥーランガリーラ交響曲](https://veliq-academy.com/music/works/messiaen-turangalila/): メシアン・1946–1948年
 - [R. シュトラウス 《4つの最後の歌》](https://veliq-academy.com/music/works/strauss-r-four-last-songs/): シュトラウス・1946–1948年
 - [ルトスワフスキ 管弦楽のための協奏曲](https://veliq-academy.com/music/works/lutoslawski-concerto-for-orchestra/): ルトスワフスキ・1950–1954年
