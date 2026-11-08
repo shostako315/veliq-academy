@@ -11961,5 +11961,185 @@
       "solo",
       "suite"
     ]
+  },
+  {
+    "id": "beethoven-missa-solemnis",
+    "composerId": "beethoven",
+    "title": "ミサ・ソレムニス ニ長調 作品123",
+    "titleEn": "Missa solemnis in D major, Op. 123",
+    "year": "1819-1823",
+    "genre": "choral",
+    "subgenre": "mass",
+    "era": "classical",
+    "key": "D-major",
+    "opus": "Op. 123",
+    "duration": 80,
+    "difficulty": 3,
+    "shortDescription": "ルドルフ大公のオルミュッツ大司教就任のために1819年に書き始められ、1823年1月までに完成したミサ曲。独唱4人、混声合唱、管弦楽、オルガンのために書かれ、1827年にショット社から出版された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Kyrie",
+        "tempo": "",
+        "key": "",
+        "duration": 10,
+        "description": "「Mit Andacht」（敬虔に）と書かれる。声楽の前に木管楽器が主要な楽想を出し、クリステでは独唱者が前に出る。",
+        "highlights": [
+          "木管による導入",
+          "クリステの独唱"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Gloria",
+        "tempo": "",
+        "key": "",
+        "duration": 18,
+        "description": "「Gratias agimus tibi」と「Qui tollis」で木管楽器が声楽の楽想を先取りし、「miserere nobis」はテノール独唱で強められる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Credo",
+        "tempo": "",
+        "key": "",
+        "duration": 20,
+        "description": "歌詞に合わせた描写があり、「Et homo factus est」はニ長調、「Crucifixus」にはスフォルツァートが置かれる。",
+        "highlights": [
+          "Et homo factus est",
+          "Crucifixus"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Sanctus – Benedictus",
+        "tempo": "",
+        "key": "",
+        "duration": 17,
+        "description": "サンクトゥスは合唱より先に独唱者が歌う。管弦楽だけのプレルディウムを経て、ベネディクトゥスでは独奏ヴァイオリンが声楽を導く。",
+        "highlights": [
+          "プレルディウム",
+          "ベネディクトゥスの独奏ヴァイオリン"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Agnus Dei",
+        "tempo": "",
+        "key": "b-minor",
+        "duration": 16,
+        "description": "ロ短調で始まる。「Dona nobis pacem」に「内と外の平和を願って」と書かれ、トランペットとティンパニの合図と管弦楽のフガートが祈りを中断する。",
+        "highlights": [
+          "内と外の平和を願って",
+          "戦いを示す挿入"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ルドルフ大公が1819年2月にオルミュッツ大司教に任命されたのを受けて書き始められたが、1820年3月9日の即位式には間に合わず、1823年1月までに完成した。献呈筆写譜は1823年3月19日に大公に渡され、出版前に10部の予約筆写譜が各国の宮廷などに売られた。全曲の初演は1824年4月にサンクトペテルブルクでゴリツィン侯の写しにより行われ、ウィーンでは1824年5月7日に交響曲第9番の初演と同じ演奏会で3つの楽章が演奏された。原版は1827年3〜4月にマインツのショット社から出た。",
+    "musicalAnalysis": "ミサ通常文の5楽章からなり、全体の主調はニ長調である。サンクトゥスとベネディクトゥスの間に管弦楽のプレルディウムが置かれ、ベネディクトゥスには独奏ヴァイオリンがつく。アニュス・デイはロ短調で始まり、戦いを示す管弦楽の挿入が祈りを中断する。",
+    "listeningGuide": {
+      "totalTime": "80分",
+      "recommendedVersion": "オットー・クレンペラー指揮 ニュー・フィルハーモニア管弦楽団・合唱団（EMI、1965年発売）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "beethoven-symphony-9",
+      "beethoven-quartet-op131"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "choral",
+      "classical",
+      "mass",
+      "sacred",
+      "late-beethoven"
+    ]
+  },
+  {
+    "id": "brahms-violin-concerto",
+    "composerId": "brahms",
+    "title": "ヴァイオリン協奏曲 ニ長調 作品77",
+    "titleEn": "Violin Concerto in D major, Op. 77",
+    "year": 1878,
+    "genre": "concerto",
+    "subgenre": "violin concerto",
+    "era": "romantic",
+    "key": "D-major",
+    "opus": "Op. 77",
+    "duration": 38,
+    "difficulty": 2,
+    "shortDescription": "1878年夏にペルチャッハで作曲され、ヨーゼフ・ヨアヒムの助言を受けて独奏パートが整えられた協奏曲。1879年1月1日にライプツィヒ・ゲヴァントハウスで、ヨアヒムの独奏、ブラームスの指揮により初演され、ヨアヒムに献呈された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro non troppo",
+        "tempo": "Allegro non troppo",
+        "key": "D-major",
+        "duration": null,
+        "description": "4分の3拍子。独奏の前に長い管弦楽の提示部が置かれ、独奏ヴァイオリンはニ短調で行進曲風の音型に導かれて入る。カデンツァの箇所は総譜で空けられている。",
+        "highlights": [
+          "長い管弦楽の提示部",
+          "ニ短調での独奏の入り",
+          "カデンツァ（ヨアヒムの作が最も多く弾かれる）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio",
+        "tempo": "Adagio",
+        "key": "F-major",
+        "duration": null,
+        "description": "管楽器だけで始まり、オーボエが主題を吹く。弦は独奏ヴァイオリンが入るところで加わり、独奏は主題を装飾し変奏する。1878年12月、当初の2つの中間楽章に代えて書かれた。",
+        "highlights": [
+          "オーボエの主題",
+          "中間部 più sostenuto",
+          "終わり近くのオーボエと独奏の二重奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegro giocoso, ma non troppo vivace",
+        "tempo": "Allegro giocoso, ma non troppo vivace",
+        "key": "D-major",
+        "duration": null,
+        "description": "ロンドとソナタ形式の要素を合わせた楽章で、独奏ヴァイオリンが最初から主題を弾く。コーダは Poco più presto。",
+        "highlights": [
+          "独奏による主題の開始",
+          "コーダ Poco più presto"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ブラームスは1878年夏、ヴェルター湖畔ペルチャッハでこの協奏曲を書き、8月22日に第1楽章と終楽章冒頭の独奏パートをヨーゼフ・ヨアヒムに送って意見を求めた。当初はスケルツォを含む4楽章の計画だったが、12月に中間の2楽章を外し、新たにアダージョを書いた。初演は1879年1月1日、ライプツィヒ・ゲヴァントハウスでヨアヒムの独奏、ブラームスの指揮で行われた。改訂の後、総譜とパート譜は1879年10月初めにジムロックから出版され、ヨアヒムに献呈された。",
+    "musicalAnalysis": "3楽章構成。第1楽章は独奏と管弦楽の交替をソナタ形式と組み合わせ、第1楽章だけで残りの2楽章の合計より長い。第2楽章ヘ長調はオーボエが主題を出し、第3楽章はロンドとソナタ形式の要素を合わせる。第1楽章のカデンツァはブラームスの依頼でヨアヒムが書き、1902年に出版された。",
+    "listeningGuide": {
+      "totalTime": "38分",
+      "recommendedVersion": "ヤッシャ・ハイフェッツ（ヴァイオリン）、フリッツ・ライナー指揮 シカゴ交響楽団（1955年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "beethoven-violin-concerto",
+      "brahms-symphony-2",
+      "brahms-double-concerto"
+    ],
+    "relatedComposers": [
+      "beethoven"
+    ],
+    "tags": [
+      "concerto",
+      "romantic",
+      "violin",
+      "german",
+      "famous"
+    ]
   }
 ]
