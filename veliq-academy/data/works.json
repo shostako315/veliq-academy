@@ -15170,5 +15170,227 @@
       "american",
       "famous"
     ]
+  },
+  {
+    "id": "britten-war-requiem",
+    "composerId": "britten",
+    "title": "戦争レクイエム 作品66",
+    "titleEn": "War Requiem, Op. 66",
+    "year": "1961",
+    "genre": "choral",
+    "subgenre": "requiem",
+    "era": "modern",
+    "key": "",
+    "opus": "Op. 66",
+    "duration": 85,
+    "difficulty": 3,
+    "shortDescription": "新しいコヴェントリー大聖堂の献堂を祝う音楽祭のために書かれ、1961年12月に完成したレクイエム。ラテン語の死者のためのミサの典礼文にウィルフレッド・オーエンの詩9篇を組み合わせ、1962年5月30日に聖ミカエル大聖堂で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Requiem aeternam",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "鐘が嬰ヘとハの音で三全音をつくる。テノールと室内オーケストラがオーエンの「死すべき運命の若者への賛歌」を歌い、無伴奏の合唱と2つの鐘の打音で終わる。",
+        "highlights": [
+          "鐘の三全音",
+          "「死すべき運命の若者への賛歌」"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Dies irae",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "最も長い楽章。ホルンの呼び交わしと合唱の行進のリズムに、オーエンの「ラッパが歌った」「次の戦争」「戦闘に入る大砲を見て」「むなしさ」が挟まれる。「ラクリモサ」でソプラノと合唱の典礼文とテノールの「むなしさ」が重ねられる。",
+        "highlights": [
+          "ホルンの呼び交わし",
+          "ラクリモサ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Offertorium",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "少年合唱とオルガンで始まる。オーエンの「老人と若者の寓話」は《カンティクル第2番「アブラハムとイサク」》（1952年）に一部基づく音楽で歌われ、合唱が「かつてアブラハムに約束したように」の句を繰り返す。",
+        "highlights": [
+          "少年合唱とオルガン",
+          "「老人と若者の寓話」"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Sanctus",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ソプラノに鐘と鍵盤打楽器が伴う。合唱の「天と地は満ち」は12の半音すべてに及び、「ホザンナ」はニ長調に据えられる。その後バリトンがオーエンの「終わり」を歌う。",
+        "highlights": [
+          "鐘と鍵盤打楽器",
+          "「終わり」"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Agnus Dei",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "テノールがオーエンの「アンクル近くのキリスト磔刑像にて」を歌い、ラテン語の「神の子羊」の句が各連の間にリフレインとして挟まれる。",
+        "highlights": [
+          "「アンクル近くのキリスト磔刑像にて」"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Libera me",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "最後の審判の場面がト短調の崩落に至った後、テノールとバリトンがオーエンの「奇妙な出会い」を歌い、少年合唱の「楽園へ」が重なる。無伴奏の合唱で終わり、ヘ長調に解決する。",
+        "highlights": [
+          "「奇妙な出会い」",
+          "「さあ、眠ろう」と「楽園へ」"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1940年11月14日から15日の空襲で破壊されたコヴェントリー大聖堂に代わる新しい大聖堂の献堂を祝う音楽祭のために、1958年にブリテンへ依頼があった。作品は1961年12月に完成し、戦争で亡くなった4人の友人の思い出に献呈された。初演のソプラノに予定されたヴィシネフスカヤはソ連の文化相に渡航を許されず、ヘザー・ハーパーが代わった。初演は1962年5月30日、聖ミカエル大聖堂で、メレディス・デイヴィスが合唱と大管弦楽を、ブリテンが室内オーケストラを指揮した。1963年1月にはヴィシネフスカヤ、ピアーズ、フィッシャー＝ディースカウの独唱、作曲者の指揮でデッカが録音した。",
+    "musicalAnalysis": "演奏者は3群に分かれ、ソプラノと混声合唱が大管弦楽とともにラテン語の典礼文を、テノールとバリトンが室内オーケストラとともにオーエンの詩を、少年合唱がオルガンとともに離れた位置で典礼文を歌う。第1楽章の鐘の嬰ヘとハがつくる三全音は終楽章で戻り、作品はヘ長調で終わる。オーエンの詩9篇が死者のためのミサの6つの部分に挟み込まれる。",
+    "listeningGuide": {
+      "totalTime": "約80〜85分",
+      "recommendedVersion": "ベンジャミン・ブリテン指揮ロンドン交響楽団、メロス・アンサンブル、ヴィシネフスカヤ、ピアーズ、フィッシャー＝ディースカウ（1963年録音、デッカ）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "britten-peter-grimes"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "choral",
+      "requiem",
+      "modern",
+      "british",
+      "war"
+    ]
+  },
+  {
+    "id": "faure-requiem",
+    "composerId": "faure",
+    "title": "レクイエム ニ短調 作品48",
+    "titleEn": "Requiem in D minor, Op. 48",
+    "year": "1887-1900",
+    "genre": "choral",
+    "subgenre": "sacred",
+    "era": "modern",
+    "key": "d-minor",
+    "opus": "Op.48",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "1888年1月16日にマドレーヌ教会で5曲の形で初演され、のちに7曲になったレクイエム。大編成の管弦楽による版は1900年7月12日にパリのトロカデロで初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "入祭唱とキリエ",
+        "tempo": "Molto largo – Andante moderato",
+        "key": "",
+        "duration": null,
+        "description": "合唱。ヴィオラとオルガンの対旋律と合唱が句を交互に受け渡す。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "奉献唱",
+        "tempo": "Adagio molto",
+        "key": "",
+        "duration": null,
+        "description": "バリトン独唱と合唱。中ほどにバリトン独唱の〈ホスティアス〉があり、和声づけされた「アーメン」で閉じる。",
+        "highlights": [
+          "〈ホスティアス〉のバリトン独唱"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "サンクトゥス",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "合唱。ハープとヴィオラの伴奏の上でソプラノが歌い、テノールとバスが応える。1900年の版では第1ヴァイオリンがこの曲から加わる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "ピエ・イエズ",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ソプラノ独唱。初演では聖歌隊の少年が歌った。",
+        "highlights": [
+          "ソプラノ独唱"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "アニュス・デイ",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "合唱。「ルクス・エテルナ」の箇所で半音階的に移る和声が続く。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "リベラ・メ",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "バリトン独唱と合唱。1877年に独唱とオルガンのために書かれた曲が改訂されて組み込まれた。トロンボーン3本が加わる。",
+        "highlights": [
+          "1877年に遡る曲"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "楽園へ",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "合唱。オルガンにハープが加わり、その上でソプラノが歌う。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "最も早い〈リベラ・メ〉は1877年に独唱とオルガンのために書かれた。主な部分は1887年秋から1888年初めに作られ、1888年1月16日、マドレーヌ教会で建築家ルスファシェの葬儀において5曲の形で初演された。1889年に〈ホスティアス〉が書かれ、〈リベラ・メ〉とともに加わって7曲になった。出版社アメルの勧めで大編成の版が作られ、1900年7月12日にトロカデロでタファネルの指揮により初演された。ピアノ伴奏譜は1900年、総譜は1901年にアメル社から出版された。",
+    "musicalAnalysis": "〈怒りの日〉を作曲せず、7曲からなる。独唱は〈奉献唱〉と〈リベラ・メ〉がバリトン、〈ピエ・イエズ〉がソプラノ。1893年の版は分割したヴィオラとチェロを中心に通常の木管を欠く編成で、1900年の版は木管・金管を加えるが第2ヴァイオリンを置かない。",
+    "listeningGuide": {
+      "totalTime": "",
+      "recommendedVersion": "マシュー・ベスト指揮コリドン・シンガーズ、イギリス室内管弦楽団（Hyperion、1987年、1893年版）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "choral",
+      "sacred",
+      "french",
+      "requiem"
+    ]
   }
 ]
