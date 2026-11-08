@@ -1,0 +1,223 @@
+// Veliq Academy の Worker。静的ページはそのまま返し、/api/* と /mcp だけここで答える
+// - GET /api/works?composer=&key=&mode=&genre=&instrument=&opusFrom=&opusTo=&yearFrom=&yearTo=&exclude=&q=
+// - GET /api/works/<id>
+// - POST /mcp（MCP・読み取り専用。ツール search_works / get_work）
+// 作品目録は静的ファイル /data/catalog/*.json（ビルドで作る）を読む。推測で作品を足さない
+
+const CORS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type, Accept, Mcp-Session-Id, MCP-Protocol-Version",
+};
+const SITE = "https://veliq-academy.com";
+
+let CACHE = null;
+async function catalog(env) {
+  if (CACHE && Date.now() - CACHE.at < 300000) return CACHE;
+  const get = async (p) => (await env.ASSETS.fetch(new Request(SITE + p))).json();
+  const idx = await get("/data/catalog/index.json");
+  const works = [];
+  for (const f of idx.files) works.push(...(await get(new URL(f.url).pathname)));
+  let composers = [];
+  try { composers = await get("/data/composers.json"); } catch (_) { /* 無くても検索はできる */ }
+  CACHE = { at: Date.now(), idx, works, composers };
+  return CACHE;
+}
+
+// ---- 調 ----
+const PC = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
+const JA_NOTE = { "ハ": "C", "ニ": "D", "ホ": "E", "ヘ": "F", "ト": "G", "イ": "A", "ロ": "B" };
+function parseKey(s) {
+  if (!s) return null;
+  let t = String(s).trim().replace(/♭/g, "b").replace(/♯/g, "#").replace(/[－―‐]/g, "-");
+  // 日本語：変ホ長調・嬰ハ短調・ハ短調
+  let m = t.match(/^(変|嬰)?([ハニホヘトイロ])(長調|短調)$/);
+  if (m) return mk(JA_NOTE[m[2]], m[1] === "変" ? "b" : m[1] === "嬰" ? "#" : "", m[3] === "短調");
+  // 英語・ドイツ式の略記：Eb-major, E-flat major, c#-minor, C# minor, Es-Dur は扱わない
+  m = t.match(/^([A-Ga-g])\s*(b|#|-flat|-sharp| flat| sharp)?[\s-]*(major|minor|maj|min|m)?$/i);
+  if (m) {
+    const acc = /flat|^b$/i.test(m[2] || "") ? "b" : /sharp|#/.test(m[2] || "") ? "#" : "";
+    const minor = m[3] ? /^min|^m$/i.test(m[3]) && !/^maj/i.test(m[3]) : m[1] === m[1].toLowerCase();
+    return mk(m[1].toUpperCase(), acc, minor);
+  }
+  return null;
+}
+function mk(n, acc, minor) {
+  const pc = (PC[n] + (acc === "#" ? 1 : acc === "b" ? -1 : 0) + 12) % 12;
+  return { pc, minor, id: `${minor ? n.toLowerCase() : n}${acc}-${minor ? "minor" : "major"}` };
+}
+function modeOf(s) {
+  if (!s) return null;
+  if (/^(minor|短調|短)$/i.test(s)) return "minor";
+  if (/^(major|長調|長)$/i.test(s)) return "major";
+  return null;
+}
+
+// ---- 種類・作曲家 ----
+const GENRE = [
+  ["piano-sonata", /^(piano[- ]?sonatas?|ピアノ[・ ]?ソナタ)$/i],
+  ["symphony", /^(symphon(y|ies)|交響曲|シンフォニー)$/i],
+];
+function genreOf(s) {
+  if (!s) return null;
+  for (const [g, re] of GENRE) if (re.test(String(s).trim())) return g;
+  if (/^(sonatas?|ソナタ)$/i.test(String(s).trim())) return "sonata*";
+  return String(s).trim().toLowerCase();
+}
+function composerIds(q, composers) {
+  if (!q) return null;
+  const s = String(q).trim().toLowerCase().replace(/ベートーベン/g, "ベートーヴェン");
+  const hits = composers.filter((c) => {
+    const names = [c.id, c.name, c.nameEn, (c.nameEn || "").split(" ").pop(), (c.name || "").split("・").pop()]
+      .filter(Boolean).map((x) => x.toLowerCase());
+    return names.some((n) => n === s);
+  }).map((c) => c.id);
+  return hits.length ? hits : [s];
+}
+function opusNum(w) {
+  const m = String(w.catalog?.opus || "").match(/(\d+)/);
+  return m ? +m[1] : null;
+}
+
+function search(cat, p) {
+  const key = parseKey(p.key);
+  const mode = modeOf(p.mode) || (p.key && !key ? modeOf(p.key) : null);
+  const genre = genreOf(p.genre);
+  const comps = composerIds(p.composer, cat.composers);
+  const excl = composerIds(p.exclude, cat.composers);
+  const inst = p.instrument ? String(p.instrument).toLowerCase() : null;
+  const anyMov = p.movementKey === "1" || p.movementKey === true;
+  const num = (v) => (v === undefined || v === null || v === "" ? null : +v);
+  const of = num(p.opusFrom), ot = num(p.opusTo), yf = num(p.yearFrom), yt = num(p.yearTo);
+  const q = p.q ? String(p.q).toLowerCase() : null;
+  const out = [];
+  for (const w of cat.works) {
+    if (comps && !comps.includes(w.composer)) continue;
+    if (excl && excl.includes(w.composer)) continue;
+    if (genre && genre !== "sonata*" && w.genre !== genre) continue;
+    if (genre === "sonata*" && !/sonata/.test(w.genre)) continue;
+    const keys = [w.key, ...(anyMov ? w.movements.flatMap((m) => [m.key, ...(m.keys || [])]) : [])].filter(Boolean).map(parseKey).filter(Boolean);
+    let enh = false;
+    if (key) {
+      const hit = keys.find((k) => k.pc === key.pc && k.minor === key.minor);
+      if (!hit) continue;
+      enh = hit.id !== key.id;
+    }
+    if (mode && !keys.some((k) => k.minor === (mode === "minor"))) continue;
+    if (inst && !w.instrumentation.some((i) => i.toLowerCase().includes(inst))) continue;
+    const op = opusNum(w);
+    if ((of !== null || ot !== null) && (op === null || (of !== null && op < of) || (ot !== null && op > ot))) continue;
+    const y0 = w.composed?.[0], y1 = w.composed?.[1];
+    if (yf !== null && (y1 ?? 0) < yf) continue;
+    if (yt !== null && (y0 ?? 9999) > yt) continue;
+    if (q && ![w.titleJa, w.titleEn, w.nicknameJa, ...(w.nicknames || [])].some((x) => (x || "").toLowerCase().includes(q))) continue;
+    out.push(enh ? { ...w, matchedEnharmonic: true } : w);
+  }
+  // 「全部」と言ってよいか：作曲家と種類の両方を指定し、その組が全曲収録のときだけ
+  const gKey = genre && genre !== "sonata*" ? genre : null;
+  const cov = comps && comps.length === 1 && gKey ? cat.idx.coverage.find((c) => c.composer === comps[0] && c.genre === gKey) : null;
+  const known = comps ? comps.some((c) => cat.works.some((w) => w.composer === c)) : true;
+  return {
+    query: { composer: p.composer || null, key: key ? key.id : null, mode, genre: gKey || genre, instrument: inst, opusFrom: of, opusTo: ot, yearFrom: yf, yearTo: yt, exclude: p.exclude || null, q },
+    complete: !!(cov && cov.complete),
+    coverageNote: cov ? cov.scope : known ? "Veliq 作品目録に収録している範囲の中での結果です（この条件の全曲を収録しているとは限りません）" : "この作曲家は、まだ Veliq 作品目録に収録していません",
+    count: out.length,
+    results: out.map(slim),
+  };
+}
+function slim(w) {
+  return {
+    id: w.id, composer: w.composer, titleJa: w.titleJa, titleEn: w.titleEn, nicknameJa: w.nicknameJa || undefined,
+    opus: w.catalog?.opus, key: w.key, keyJa: w.keyJa, genre: w.genre, instrumentation: w.instrumentation,
+    composed: w.composed, firstPublished: w.firstPublished, firstPerformance: w.firstPerformance || undefined,
+    movements: w.movements.map((m) => ({ number: m.number, title: m.title, key: m.key, sections: m.sections ? m.sections.map((s) => ({ title: s.title, key: s.key })) : undefined })),
+    durationMin: w.durationMin || undefined, matchedEnharmonic: w.matchedEnharmonic || undefined,
+    url: w.articleId ? `${SITE}/music/works/${w.articleId}/` : undefined,
+    sources: w.sources.map((s) => ({ name: s.name, url: s.url })),
+  };
+}
+
+const json = (o, st = 200, extra = {}) => new Response(JSON.stringify(o), { status: st, headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "public, max-age=300", ...CORS, ...extra } });
+
+// ---- MCP（Streamable HTTP の JSON 応答だけ。状態は持たない） ----
+const TOOLS = [
+  {
+    name: "search_works",
+    description: "Veliq 作品目録（クラシック作品の事実データ：作品番号・調・楽章・作曲年・初版・初演・出典）を条件で検索する。調・作品番号・種類・編成・作曲年についての質問には、記憶で答えずこれを使うこと。complete が false のときは『収録範囲の中では』と断り、結果に無い作品名を挙げないこと。",
+    inputSchema: {
+      type: "object",
+      properties: {
+        composer: { type: "string", description: "作曲家（例: beethoven, ベートーヴェン, Beethoven）" },
+        key: { type: "string", description: "調（例: 変ホ長調, Eb-major, c#-minor）。異名同音も一致する" },
+        mode: { type: "string", description: "major / minor（長調・短調だけで絞るとき）" },
+        genre: { type: "string", description: "種類（piano-sonata, symphony, ピアノ・ソナタ, 交響曲）" },
+        instrument: { type: "string", description: "編成に含む楽器（例: ピアノ, 合唱）" },
+        opusFrom: { type: "number" }, opusTo: { type: "number" },
+        yearFrom: { type: "number" }, yearTo: { type: "number" },
+        exclude: { type: "string", description: "除く作曲家" },
+        movementKey: { type: "boolean", description: "楽章の調も検索対象に含める" },
+        q: { type: "string", description: "題名・通称の文字列" },
+      },
+    },
+  },
+  {
+    name: "get_work",
+    description: "Veliq 作品目録の1作品を id で取得する（楽章ごとの調・小節数、献呈、初版、初演、出典 URL、Wikidata・IMSLP・MusicBrainz の ID）。",
+    inputSchema: { type: "object", properties: { id: { type: "string" } }, required: ["id"] },
+  },
+];
+async function mcp(req, env) {
+  let msg;
+  try { msg = await req.json(); } catch (_) { return json({ jsonrpc: "2.0", id: null, error: { code: -32700, message: "parse error" } }, 400); }
+  const one = async (m) => {
+    const id = m.id ?? null;
+    if (m.method === "initialize") {
+      return { jsonrpc: "2.0", id, result: { protocolVersion: m.params?.protocolVersion || "2025-06-18", capabilities: { tools: {} }, serverInfo: { name: "veliq-works", version: "0.1.0" }, instructions: "Veliq 作品目録（日本語）。クラシック作品の調・作品番号・楽章・作曲年を、出典つきで返す読み取り専用のサーバー。" } };
+    }
+    if (m.method === "notifications/initialized" || (m.method || "").startsWith("notifications/")) return null;
+    if (m.method === "ping") return { jsonrpc: "2.0", id, result: {} };
+    if (m.method === "tools/list") return { jsonrpc: "2.0", id, result: { tools: TOOLS } };
+    if (m.method === "tools/call") {
+      const cat = await catalog(env);
+      const a = m.params?.arguments || {};
+      let r;
+      if (m.params?.name === "search_works") r = search(cat, a);
+      else if (m.params?.name === "get_work") { const w = cat.works.find((x) => x.id === a.id); r = w || { error: "not_found" }; }
+      else return { jsonrpc: "2.0", id, error: { code: -32602, message: "unknown tool" } };
+      return { jsonrpc: "2.0", id, result: { content: [{ type: "text", text: JSON.stringify(r) }], structuredContent: r, isError: !!r.error } };
+    }
+    return { jsonrpc: "2.0", id, error: { code: -32601, message: "method not found" } };
+  };
+  if (Array.isArray(msg)) {
+    const rs = (await Promise.all(msg.map(one))).filter(Boolean);
+    return rs.length ? json(rs, 200, { "Cache-Control": "no-store" }) : new Response(null, { status: 202, headers: CORS });
+  }
+  const r = await one(msg);
+  return r ? json(r, 200, { "Cache-Control": "no-store" }) : new Response(null, { status: 202, headers: CORS });
+}
+
+export default {
+  async fetch(req, env) {
+    const url = new URL(req.url);
+    if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
+    if (url.pathname === "/mcp") {
+      if (req.method === "POST") return mcp(req, env);
+      return json({ name: "veliq-works", transport: "streamable-http", tools: TOOLS.map((t) => t.name) }, 200);
+    }
+    if (url.pathname === "/api/works" || url.pathname === "/api/works/") {
+      const cat = await catalog(env);
+      return json(search(cat, Object.fromEntries(url.searchParams)));
+    }
+    const m = url.pathname.match(/^\/api\/works\/([a-z0-9-]+)$/);
+    if (m) {
+      const cat = await catalog(env);
+      const w = cat.works.find((x) => x.id === m[1]);
+      return w ? json(w) : json({ error: "not_found" }, 404);
+    }
+    if (url.pathname === "/api" || url.pathname === "/api/") {
+      const cat = await catalog(env);
+      return json({ name: cat.idx.name, updated: cat.idx.updated, endpoints: ["/api/works?composer=&key=&mode=&genre=&instrument=&opusFrom=&opusTo=&yearFrom=&yearTo=&exclude=&movementKey=1&q=", "/api/works/<id>", "/mcp (POST, MCP)"], coverage: cat.idx.coverage, fields: cat.idx.fields });
+    }
+    return env.ASSETS.fetch(req);
+  },
+};

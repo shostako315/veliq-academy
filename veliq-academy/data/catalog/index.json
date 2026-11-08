@@ -1,0 +1,29 @@
+{
+ "name": "Veliq 作品目録",
+ "updated": "2026-11-08",
+ "license": "事実データ。出典は各レコードの sources",
+ "fields": "id, composer, genre, number, catalog.opus, titleJa, titleEn, nicknames, key（例 Eb-major, c#-minor）, keyJa, instrumentation, movements[number,title,key,bars,sections], composed[from,to], firstPublished, firstPerformance, dedication, durationMin[min,max], articleId, ids{wikidata,imslp,musicbrainz}, sources",
+ "files": [
+  {
+   "composer": "beethoven",
+   "url": "https://veliq-academy.com/data/catalog/beethoven.json",
+   "count": 41
+  }
+ ],
+ "coverage": [
+  {
+   "composer": "beethoven",
+   "genre": "piano-sonata",
+   "complete": true,
+   "count": 32,
+   "scope": "作品番号の付いたピアノ・ソナタ第1〜32番。作品番号の無いソナタ（WoO 47 など）は含まない"
+  },
+  {
+   "composer": "beethoven",
+   "genre": "symphony",
+   "complete": true,
+   "count": 9,
+   "scope": "交響曲第1〜9番"
+  }
+ ]
+}
