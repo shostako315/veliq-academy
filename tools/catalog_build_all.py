@@ -588,6 +588,8 @@ def apply_key_research(r, x):
     elif x["status"] == "none":
         r["keyResearch"] = "none"
         r["sources"] = r["sources"] + [src]
+        if x.get("noteJa"):
+            r["keyNoteCustom"] = x["noteJa"]
 
 
 def set_key_status(r, era):
@@ -608,8 +610,8 @@ def set_key_status(r, era):
     r["keyStatus"] = st
     note = KEY_NOTE[st]
     custom = r.pop("keyNoteCustom", None)
-    if st == "disputed" and custom:
-        note = custom
+    if custom:
+        note = custom  # 調べた結果に添えた個別の注記（版違い・原曲の調・終わりの調など）
     elif st == "disputed" and alts:
         note += "（" + "・".join(key_ja(key_code_of(a)) for a in alts) + "とする説もある）"
     if note:
