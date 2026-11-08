@@ -13677,5 +13677,172 @@
       "italian",
       "famous"
     ]
+  },
+  {
+    "id": "dvorak-american-quartet",
+    "composerId": "dvorak",
+    "title": "弦楽四重奏曲第12番 ヘ長調 作品96《アメリカ》",
+    "titleEn": "String Quartet No. 12 in F major, Op. 96 \"American\"",
+    "year": 1893,
+    "genre": "chamber",
+    "subgenre": "string quartet",
+    "era": "romantic",
+    "key": "F-major",
+    "opus": "Op. 96",
+    "duration": 26,
+    "difficulty": 1,
+    "shortDescription": "1893年6月、アイオワ州スピルヴィルで書かれた弦楽四重奏曲。1894年1月1日にボストンでクナイゼル四重奏団が初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro ma non troppo",
+        "tempo": "Allegro ma non troppo",
+        "key": "F-major",
+        "duration": 10,
+        "description": "ヘ長調の和音のトレモロの上で、五音音階の主主題をヴィオラ、次に第1ヴァイオリンが奏する。ソナタ形式。",
+        "highlights": [
+          "ヴィオラによる主主題",
+          "イ短調の第2主題とチェロのピッツィカート"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Lento",
+        "tempo": "Lento",
+        "key": "",
+        "duration": 7,
+        "description": "下声部のオスティナートの上で長い旋律が続き、全体の3分の2ほどで頂点に達する。",
+        "highlights": [
+          "第1ヴァイオリンからチェロへの主題の受け渡し"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Molto vivace",
+        "tempo": "Molto vivace",
+        "key": "F-major",
+        "duration": 4,
+        "description": "1つの主題によるスケルツォで、A–B–A–B–Aの形。Bはヘ短調で主題を拡大する。",
+        "highlights": [
+          "第1ヴァイオリンの高音の鳥の歌とされる旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Finale: Vivace ma non troppo",
+        "tempo": "Vivace ma non troppo",
+        "key": "",
+        "duration": 6,
+        "description": "A–B–A–C–A–B–Aのロンド。AとCの間にオルガン風の短い間奏がある。",
+        "highlights": [
+          "スタッカートのオスティナート",
+          "コラール風の間奏"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ナショナル音楽院の夏休みに滞在したアイオワ州スピルヴィルで、1893年6月8日から10日に下書きが、12日から25日に総譜が書かれた（作品目録は6月23日とする）。完成後にスピルヴィルで試奏され、作曲者が第1ヴァイオリンを弾いた。1894年1月1日にボストンでクナイゼル四重奏団が初演し、同年ベルリンのジムロック社から出版された。「アメリカ」の呼び名は作曲者が付けたものではない。",
+    "musicalAnalysis": "五音音階の主題、短7度、シンコペーション、オスティナートのリズムを用いる。第1楽章はソナタ形式で、第2主題はイ短調、結尾主題はイ長調。第3楽章はA–B–A–B–A、第4楽章はA–B–A–C–A–B–Aのロンドである。",
+    "listeningGuide": {
+      "totalTime": "26分",
+      "recommendedVersion": "パヴェル・ハース四重奏団（2010年録音、スプラフォン）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "dvorak-sym9",
+      "dvorak-symphony-8"
+    ],
+    "relatedComposers": [
+      "haydn",
+      "brahms"
+    ],
+    "tags": [
+      "chamber",
+      "romantic",
+      "string-quartet",
+      "pentatonic"
+    ]
+  },
+  {
+    "id": "verdi-rigoletto",
+    "composerId": "verdi",
+    "title": "オペラ《リゴレット》",
+    "titleEn": "Rigoletto",
+    "year": "1850-1851",
+    "genre": "opera",
+    "subgenre": "melodramma",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": 113,
+    "difficulty": 2,
+    "shortDescription": "ユゴーの戯曲『王は楽しむ』に基づき、ピアーヴェの台本で書かれた3幕のオペラ。検閲によって舞台をマントヴァに移すなどの変更を受け、1851年3月11日にヴェネツィアのフェニーチェ劇場で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "公爵の宮殿の舞踏会でモンテローネ伯爵がリゴレットを呪う。リゴレットの家では公爵が学生を装ってジルダに愛を告げ、廷臣たちがジルダをさらう。",
+        "highlights": [
+          "公爵の〈あれかこれか〉",
+          "リゴレットの〈俺たちは同じだ〉",
+          "ジルダの〈慕わしい人の名は〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "公爵の宮殿。リゴレットは娘を探して廷臣たちに懇願し、戻ったジルダからいきさつを聞いて公爵への復讐を誓う。",
+        "highlights": [
+          "公爵の〈ほおに涙が〉",
+          "リゴレットの〈悪魔め、鬼め〉",
+          "ジルダの〈いつも日曜日に教会で〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "マントヴァのはずれのスパラフチーレの宿。リゴレットは公爵の殺害を頼むが、ジルダが公爵の身代わりとなって刺され、袋の中で父に許しを求める。",
+        "highlights": [
+          "公爵の〈女心の歌〉",
+          "四重唱〈愛らしい乙女よ〉",
+          "嵐の場面"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "原作のユゴーの戯曲は1832年にパリで1回上演されただけで禁止された。ヴェルディは1850年4月にフェニーチェ劇場と契約し、当初《呪い》と題した作品は1850年12月に検閲で禁止された。舞台はマントヴァに、王は公爵に、道化トリブレはリゴレットに改められ、1851年3月11日に初演された。最初の上演は13回で、1852年までにイタリアの主要な劇場で上演された。",
+    "musicalAnalysis": "ヴェルディはこの作品を「アリアも終曲もほとんどなく、二重唱の長い連なり」として構想し、幕開きは合唱とアリアではなく対話で始まる。題名役は主に二重唱、アリオーソ、レチタティーヴォで歌い、呪いを示す減和音が繰り返し現れる。終幕では〈女心の歌〉が遠くから戻ってくる。",
+    "listeningGuide": {
+      "totalTime": "約1時間55分（ショルティ盤の収録時間）",
+      "recommendedVersion": "ゲオルク・ショルティ指揮 RCAイタリアーナ歌劇場管弦楽団・合唱団、ロバート・メリル、アンナ・モッフォ、アルフレード・クラウス（1963年、RCA）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "verdi-traviata",
+      "verdi-aida"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "romantic",
+      "italian",
+      "famous"
+    ]
   }
 ]
