@@ -1,0 +1,3031 @@
+[
+ {
+  "id": "beethoven-op21",
+  "composer": "beethoven",
+  "genre": "symphony",
+  "number": 1,
+  "catalog": {
+   "opus": "Op.21"
+  },
+  "titleJa": "交響曲第1番 ハ長調 作品21",
+  "titleEn": "Symphony No. 1 in C major, Op. 21",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "C-major",
+  "keyJa": "ハ長調",
+  "instrumentation": [
+   "管弦楽"
+  ],
+  "movements": [
+   {
+    "title": "Adagio molto – Allegro con brio",
+    "key": "C-major",
+    "bars": 298,
+    "number": 1
+   },
+   {
+    "title": "Andante cantabile con moto",
+    "key": "F-major",
+    "bars": 195,
+    "number": 2
+   },
+   {
+    "title": "Menuetto. Allegro molto e vivace – Trio",
+    "key": "C-major",
+    "bars": 137,
+    "number": 3
+   },
+   {
+    "title": "Finale. Adagio – Allegro molto e vivace",
+    "key": "C-major",
+    "bars": 304,
+    "number": 4
+   }
+  ],
+  "composed": [
+   1799,
+   1800
+  ],
+  "firstPublished": 1801,
+  "firstPerformance": {
+   "date": "1800-04-02",
+   "place": "Vienna",
+   "venue": "K.K. Hoftheater nächst der Burg"
+  },
+  "dedication": "Gottfried van Swieten",
+  "durationMin": [
+   25,
+   25
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q163493",
+   "imslp": "Symphony_No.1,_Op.21_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "3c9a74de-88aa-361a-bdea-d200eae8073c"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Symphony_No.1,_Op.21_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q163493",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op36",
+  "composer": "beethoven",
+  "genre": "symphony",
+  "number": 2,
+  "catalog": {
+   "opus": "Op.36"
+  },
+  "titleJa": "交響曲第2番 ニ長調 作品36",
+  "titleEn": "Symphony No. 2 in D major, Op. 36",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "D-major",
+  "keyJa": "ニ長調",
+  "instrumentation": [
+   "管弦楽"
+  ],
+  "movements": [
+   {
+    "title": "Adagio molto – Allegro con brio",
+    "key": "D-major",
+    "bars": 360,
+    "number": 1
+   },
+   {
+    "title": "Larghetto",
+    "key": "A-major",
+    "bars": 276,
+    "number": 2
+   },
+   {
+    "title": "Scherzo. Allegro – Trio",
+    "key": "D-major",
+    "bars": 130,
+    "number": 3
+   },
+   {
+    "title": "Allegro molto",
+    "key": "D-major",
+    "bars": 442,
+    "number": 4
+   }
+  ],
+  "composed": [
+   1800,
+   1802
+  ],
+  "firstPublished": 1804,
+  "firstPerformance": {
+   "date": "1803-04-05",
+   "place": "Vienna",
+   "venue": "Theater an der Wien"
+  },
+  "dedication": "Karl Lichnowsky",
+  "durationMin": [
+   30,
+   30
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q210451",
+   "imslp": "Symphony_No.2,_Op.36_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "3c33b26a-6683-3b37-84e1-42f3f5221322"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Symphony_No.2,_Op.36_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q210451",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op55",
+  "composer": "beethoven",
+  "genre": "symphony",
+  "number": 3,
+  "catalog": {
+   "opus": "Op.55"
+  },
+  "titleJa": "交響曲第3番 変ホ長調 作品55《英雄》",
+  "titleEn": "Symphony No. 3 in E-flat major, Op. 55",
+  "nicknames": [
+   "Eroica"
+  ],
+  "nicknameJa": "英雄",
+  "key": "Eb-major",
+  "keyJa": "変ホ長調",
+  "instrumentation": [
+   "管弦楽"
+  ],
+  "movements": [
+   {
+    "title": "Allegro con brio",
+    "key": "Eb-major",
+    "number": 1
+   },
+   {
+    "title": "Marcia funebre. Adagio assai",
+    "key": "c-minor",
+    "number": 2
+   },
+   {
+    "title": "Scherzo. Allegro vivace - Trio",
+    "key": "Eb-major",
+    "number": 3
+   },
+   {
+    "title": "Finale. Allegro molto",
+    "key": "Eb-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1803,
+   1804
+  ],
+  "firstPublished": 1806,
+  "firstPerformance": {
+   "date": "1805-04-07",
+   "place": "Vienna",
+   "venue": "Theater an der Wien"
+  },
+  "dedication": "Franz Joseph Maximilian Fürst von Lobkowitz",
+  "durationMin": [
+   45,
+   45
+  ],
+  "articleId": "beethoven-symphony-3",
+  "ids": {
+   "wikidata": "Q157489",
+   "imslp": "Symphony_No.3,_Op.55_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "80737426-8ef3-3a9c-a3a6-9507afb93e93"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Symphony_No.3,_Op.55_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q157489",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op60",
+  "composer": "beethoven",
+  "genre": "symphony",
+  "number": 4,
+  "catalog": {
+   "opus": "Op.60"
+  },
+  "titleJa": "交響曲第4番 変ロ長調 作品60",
+  "titleEn": "Symphony No. 4 in B-flat major, Op. 60",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "Bb-major",
+  "keyJa": "変ロ長調",
+  "instrumentation": [
+   "管弦楽"
+  ],
+  "movements": [
+   {
+    "title": "Adagio - Allegro vivace",
+    "key": "Bb-major",
+    "number": 1
+   },
+   {
+    "title": "Adagio",
+    "key": "Eb-major",
+    "number": 2
+   },
+   {
+    "title": "Menuetto. Allegro vivace - Trio un poco meno Allegro. )",
+    "key": "Bb-major",
+    "number": 3
+   },
+   {
+    "title": "Allegro ma non troppo",
+    "key": "Bb-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1806,
+   1806
+  ],
+  "firstPublished": 1808,
+  "firstPerformance": {
+   "date": "1807-03",
+   "place": "Vienna",
+   "venue": "Palais Lobkowitz"
+  },
+  "dedication": "Graf Franz von Oppersdorff",
+  "durationMin": [
+   30,
+   30
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q231117",
+   "imslp": "Symphony_No.4,_Op.60_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "273fea50-59bf-4711-81c8-035502b40c24"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Symphony_No.4,_Op.60_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q231117",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op67",
+  "composer": "beethoven",
+  "genre": "symphony",
+  "number": 5,
+  "catalog": {
+   "opus": "Op.67"
+  },
+  "titleJa": "交響曲第5番 ハ短調 作品67",
+  "titleEn": "Symphony No. 5 in C minor, Op. 67",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "c-minor",
+  "keyJa": "ハ短調",
+  "instrumentation": [
+   "管弦楽"
+  ],
+  "movements": [
+   {
+    "title": "Allegro con brio",
+    "key": "c-minor",
+    "bars": 502,
+    "number": 1
+   },
+   {
+    "title": "Andante con moto",
+    "key": "Ab-major",
+    "bars": 247,
+    "number": 2
+   },
+   {
+    "title": "Scherzo. Allegro - Trio",
+    "key": "c-minor",
+    "keys": [
+     "c-minor",
+     "C-major"
+    ],
+    "bars": 374,
+    "number": 3
+   },
+   {
+    "title": "Allegro",
+    "key": "C-major",
+    "bars": 446,
+    "number": 4
+   }
+  ],
+  "composed": [
+   1804,
+   1808
+  ],
+  "firstPublished": 1809,
+  "firstPerformance": {
+   "date": "1808-12-22",
+   "place": "Vienna",
+   "venue": "Theater an der Wien"
+  },
+  "dedication": "Joseph Franz von Lobkowitz / Andrey Razumovsky",
+  "durationMin": [
+   30,
+   30
+  ],
+  "articleId": "beethoven-symphony-5",
+  "ids": {
+   "wikidata": "Q188709",
+   "imslp": "Symphony_No.5,_Op.67_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "d03bff61-26fc-301b-98ac-4d8e85771cbc"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Symphony_No.5,_Op.67_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q188709",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op68",
+  "composer": "beethoven",
+  "genre": "symphony",
+  "number": 6,
+  "catalog": {
+   "opus": "Op.68"
+  },
+  "titleJa": "交響曲第6番 ヘ長調 作品68《田園》",
+  "titleEn": "Symphony No. 6 in F major, Op. 68",
+  "nicknames": [
+   "Pastoral"
+  ],
+  "nicknameJa": "田園",
+  "key": "F-major",
+  "keyJa": "ヘ長調",
+  "instrumentation": [
+   "管弦楽"
+  ],
+  "movements": [
+   {
+    "title": "Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande. / Allegro ma non troppo",
+    "key": "F-major",
+    "number": 1
+   },
+   {
+    "title": "Scene am Bach. Andante molto moto",
+    "key": "Bb-major",
+    "number": 2
+   },
+   {
+    "title": "Lustiges Zusammensein der Landleute. Allegro",
+    "key": "F-major",
+    "number": 3
+   },
+   {
+    "title": "Gewitter. Sturm. Allegro",
+    "key": "f-minor",
+    "number": 4
+   },
+   {
+    "title": "Hirtengesang. Frohe und dankbare Gefühle nach dem Sturm. Allegretto",
+    "key": "F-major",
+    "number": 5
+   }
+  ],
+  "composed": [
+   1808,
+   1808
+  ],
+  "firstPublished": 1809,
+  "firstPerformance": {
+   "date": "1808-12-22",
+   "place": "Vienna",
+   "venue": "Theater an der Wien"
+  },
+  "dedication": "Joseph Franz von Lobkowitz / Andrey Razumovsky",
+  "durationMin": [
+   40,
+   40
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q246433",
+   "imslp": "Symphony_No.6,_Op.68_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "60e1dcf6-e728-35be-8948-ba74500b6c6e"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Symphony_No.6,_Op.68_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q246433",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op92",
+  "composer": "beethoven",
+  "genre": "symphony",
+  "number": 7,
+  "catalog": {
+   "opus": "Op.92"
+  },
+  "titleJa": "交響曲第7番 イ長調 作品92",
+  "titleEn": "Symphony No. 7 in A major, Op. 92",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "A-major",
+  "keyJa": "イ長調",
+  "instrumentation": [
+   "管弦楽"
+  ],
+  "movements": [
+   {
+    "title": "Poco sostenuto - Vivace",
+    "key": "A-major",
+    "number": 1
+   },
+   {
+    "title": "Allegretto",
+    "key": "a-minor",
+    "number": 2
+   },
+   {
+    "title": "Presto",
+    "key": "F-major",
+    "number": 3
+   },
+   {
+    "title": "Allegro con brio",
+    "key": "A-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1811,
+   1812
+  ],
+  "firstPublished": 1816,
+  "firstPerformance": {
+   "date": "1813-12-08",
+   "place": "Vienna",
+   "venue": "Universitätssaale"
+  },
+  "dedication": "Moritz Reichsgraf von Fries (original) / Ihrer Majestät der Kaiserinn Elisabeth Alexiewna (Diabelli piano arrangements)",
+  "durationMin": [
+   38,
+   38
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q260957",
+   "imslp": "Symphony_No.7,_Op.92_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "c7caedf2-954f-394b-9601-5878b76577ac"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Symphony_No.7,_Op.92_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q260957",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op93",
+  "composer": "beethoven",
+  "genre": "symphony",
+  "number": 8,
+  "catalog": {
+   "opus": "Op.93"
+  },
+  "titleJa": "交響曲第8番 ヘ長調 作品93",
+  "titleEn": "Symphony No. 8 in F major, Op. 93",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "F-major",
+  "keyJa": "ヘ長調",
+  "instrumentation": [
+   "管弦楽"
+  ],
+  "movements": [
+   {
+    "title": "Allegro vivace e con brio",
+    "key": "F-major",
+    "number": 1
+   },
+   {
+    "title": "Allegretto scherzando",
+    "key": "Bb-major",
+    "number": 2
+   },
+   {
+    "title": "Tempo di Menuetto",
+    "key": "F-major",
+    "number": 3
+   },
+   {
+    "title": "Allegro vivace",
+    "key": "F-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1812,
+   1812
+  ],
+  "firstPublished": 1816,
+  "firstPerformance": {
+   "date": "1814-02-27",
+   "place": "Vienna",
+   "venue": "Redoutensaale"
+  },
+  "dedication": "",
+  "durationMin": [
+   25,
+   25
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q270785",
+   "imslp": "Symphony_No.8,_Op.93_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "256f32ec-94c5-44e8-b3fc-a027d92eec09"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Symphony_No.8,_Op.93_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q270785",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ],
+  "conflicts": [
+   {
+    "field": "firstPublished",
+    "imslp": 1816,
+    "wikidata": 1817
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op125",
+  "composer": "beethoven",
+  "genre": "symphony",
+  "number": 9,
+  "catalog": {
+   "opus": "Op.125"
+  },
+  "titleJa": "交響曲第9番 ニ短調 作品125《合唱》",
+  "titleEn": "Symphony No. 9 in D minor, Op. 125",
+  "nicknames": [
+   "Choral"
+  ],
+  "nicknameJa": "合唱",
+  "key": "d-minor",
+  "keyJa": "ニ短調",
+  "instrumentation": [
+   "ソプラノ",
+   "アルト",
+   "テノール",
+   "バス",
+   "混声合唱",
+   "管弦楽"
+  ],
+  "movements": [
+   {
+    "title": "Allegro ma non troppo, un poco maestoso",
+    "key": "d-minor",
+    "number": 1
+   },
+   {
+    "title": "Scherzo. Molto vivace - Presto",
+    "key": "d-minor",
+    "keys": [
+     "d-minor",
+     "D-major"
+    ],
+    "number": 2
+   },
+   {
+    "title": "Adagio molto e cantabile",
+    "key": "Bb-major",
+    "number": 3
+   },
+   {
+    "title": "Presto - Allegro assai / Allegro molto assai (Alla marcia) / Andante maestoso - Adagio ma non troppo, ma divoto / Allegro energico, sempre ben marcato - Allegro ma non tanto - Prestissimo",
+    "key": "d-minor",
+    "keys": [
+     "d-minor",
+     "D-major",
+     "Bb-major",
+     "G-major",
+     "g-minor"
+    ],
+    "number": 4
+   }
+  ],
+  "composed": [
+   1822,
+   1824
+  ],
+  "firstPublished": 1826,
+  "firstPerformance": {
+   "date": "1824-05-07",
+   "place": "Vienna",
+   "venue": "Kärntnertortheater"
+  },
+  "dedication": "König Friedrich Wilhelm III von Preußen",
+  "durationMin": [
+   65,
+   65
+  ],
+  "articleId": "beethoven-symphony-9",
+  "ids": {
+   "wikidata": "Q11989",
+   "imslp": "Symphony_No.9,_Op.125_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "c35b4956-d4f8-321a-865b-5b13d9ed192b"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Symphony_No.9,_Op.125_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q11989",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op2-1",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 1,
+  "catalog": {
+   "opus": "Op.2 No.1"
+  },
+  "titleJa": "ピアノ・ソナタ第1番 ヘ短調 作品2-1",
+  "titleEn": "Piano Sonata No. 1 in F minor, Op. 2, No. 1",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "f-minor",
+  "keyJa": "ヘ短調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro",
+    "key": "f-minor",
+    "number": 1
+   },
+   {
+    "title": "Adagio",
+    "key": "F-major",
+    "number": 2
+   },
+   {
+    "title": "Minuet. Allegretto - Trio",
+    "key": "f-minor",
+    "keys": [
+     "f-minor",
+     "F-major"
+    ],
+    "number": 3
+   },
+   {
+    "title": "Prestissimo",
+    "key": "f-minor",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1793,
+   1795
+  ],
+  "firstPublished": 1796,
+  "firstPerformance": null,
+  "dedication": "Joseph Haydn",
+  "durationMin": [
+   18,
+   18
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q145813",
+   "imslp": "Piano_Sonata_No.1,_Op.2_No.1_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "d99b54dc-9a4c-4b34-ba9c-1223d7e0b1c5"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.1,_Op.2_No.1_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q145813",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op2-2",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 2,
+  "catalog": {
+   "opus": "Op.2 No.2"
+  },
+  "titleJa": "ピアノ・ソナタ第2番 イ長調 作品2-2",
+  "titleEn": "Piano Sonata No. 2 in A major, Op. 2, No. 2",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "A-major",
+  "keyJa": "イ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro vivace",
+    "key": "A-major",
+    "number": 1
+   },
+   {
+    "title": "Largo appassionato",
+    "key": "D-major",
+    "number": 2
+   },
+   {
+    "title": "Scherzo. Allegretto - Trio",
+    "key": "A-major",
+    "keys": [
+     "A-major",
+     "a-minor"
+    ],
+    "number": 3
+   },
+   {
+    "title": "Rondo. Grazioso",
+    "key": "A-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1794,
+   1795
+  ],
+  "firstPublished": 1796,
+  "firstPerformance": null,
+  "dedication": "Joseph Haydn",
+  "durationMin": [
+   24,
+   24
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q145873",
+   "imslp": "Piano_Sonata_No.2,_Op.2_No.2_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "2a2ed89a-05ea-4c0d-9833-8cd659d1bd20"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.2,_Op.2_No.2_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q145873",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op2-3",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 3,
+  "catalog": {
+   "opus": "Op.2 No.3"
+  },
+  "titleJa": "ピアノ・ソナタ第3番 ハ長調 作品2-3",
+  "titleEn": "Piano Sonata No. 3 in C major, Op. 2, No. 3",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "C-major",
+  "keyJa": "ハ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro con brio",
+    "key": "C-major",
+    "number": 1
+   },
+   {
+    "title": "Adagio",
+    "key": "E-major",
+    "number": 2
+   },
+   {
+    "title": "Scherzo. Allegro - Trio",
+    "key": "C-major",
+    "keys": [
+     "C-major",
+     "a-minor"
+    ],
+    "number": 3
+   },
+   {
+    "title": "Allegro assai",
+    "key": "C-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1794,
+   1795
+  ],
+  "firstPublished": 1796,
+  "firstPerformance": null,
+  "dedication": "Joseph Haydn",
+  "durationMin": [
+   25,
+   25
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q145937",
+   "imslp": "Piano_Sonata_No.3,_Op.2_No.3_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "e4ad988b-b0b2-4c25-863b-e2b8e13c78d3"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.3,_Op.2_No.3_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q145937",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op7",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 4,
+  "catalog": {
+   "opus": "Op.7"
+  },
+  "titleJa": "ピアノ・ソナタ第4番 変ホ長調 作品7",
+  "titleEn": "Piano Sonata No. 4 in E-flat major, Op. 7",
+  "nicknames": [
+   "Grand Sonata"
+  ],
+  "nicknameJa": "",
+  "key": "Eb-major",
+  "keyJa": "変ホ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro molto e con brio",
+    "key": "Eb-major",
+    "number": 1
+   },
+   {
+    "title": "Largo con gran espressione",
+    "key": "C-major",
+    "number": 2
+   },
+   {
+    "title": "Allegro - Trio",
+    "key": "Eb-major",
+    "keys": [
+     "Eb-major",
+     "eb-minor"
+    ],
+    "number": 3
+   },
+   {
+    "title": "Rondo. Poco Allegretto e grazioso",
+    "key": "Eb-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1796,
+   1797
+  ],
+  "firstPublished": 1797,
+  "firstPerformance": null,
+  "dedication": "Gräfin Babette von Keglevics",
+  "durationMin": [
+   28,
+   28
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q145985",
+   "imslp": "Piano_Sonata_No.4,_Op.7_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "f99c736a-9e65-4c13-813a-51776987993d"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.4,_Op.7_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q145985",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op10-1",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 5,
+  "catalog": {
+   "opus": "Op.10 No.1"
+  },
+  "titleJa": "ピアノ・ソナタ第5番 ハ短調 作品10-1",
+  "titleEn": "Piano Sonata No. 5 in C minor, Op. 10, No. 1",
+  "nicknames": [
+   "The Little Pathetique"
+  ],
+  "nicknameJa": "",
+  "key": "c-minor",
+  "keyJa": "ハ短調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro molto e con brio",
+    "key": "c-minor",
+    "number": 1
+   },
+   {
+    "title": "Adagio molto",
+    "key": "Ab-major",
+    "number": 2
+   },
+   {
+    "title": "Prestissimo",
+    "key": "c-minor",
+    "number": 3
+   }
+  ],
+  "composed": [
+   1795,
+   1797
+  ],
+  "firstPublished": 1798,
+  "firstPerformance": null,
+  "dedication": "Gräfin Anna Margarete von Browne",
+  "durationMin": [
+   16,
+   18
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146031",
+   "imslp": "Piano_Sonata_No.5,_Op.10_No.1_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "0aeaff78-1cc6-47e6-b0af-5250ef923974"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.5,_Op.10_No.1_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146031",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op10-2",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 6,
+  "catalog": {
+   "opus": "Op.10 No.2"
+  },
+  "titleJa": "ピアノ・ソナタ第6番 ヘ長調 作品10-2",
+  "titleEn": "Piano Sonata No. 6 in F major, Op. 10, No. 2",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "F-major",
+  "keyJa": "ヘ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro",
+    "key": "F-major",
+    "bars": 203,
+    "number": 1
+   },
+   {
+    "title": "Allegretto",
+    "key": "f-minor",
+    "bars": 170,
+    "number": 2
+   },
+   {
+    "title": "Presto",
+    "key": "F-major",
+    "number": 3
+   }
+  ],
+  "composed": [
+   1796,
+   1798
+  ],
+  "firstPublished": 1798,
+  "firstPerformance": null,
+  "dedication": "Gräfin Anna Margarete von Browne",
+  "durationMin": [
+   14,
+   14
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146060",
+   "imslp": "Piano_Sonata_No.6,_Op.10_No.2_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "5f914810-c6ef-47d1-b7fc-a0e61d5d98f5"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.6,_Op.10_No.2_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146060",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op10-3",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 7,
+  "catalog": {
+   "opus": "Op.10 No.3"
+  },
+  "titleJa": "ピアノ・ソナタ第7番 ニ長調 作品10-3",
+  "titleEn": "Piano Sonata No. 7 in D major, Op. 10, No. 3",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "D-major",
+  "keyJa": "ニ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Presto",
+    "key": "D-major",
+    "number": 1
+   },
+   {
+    "title": "Largo e mesto",
+    "key": "d-minor",
+    "number": 2
+   },
+   {
+    "title": "Minuet. Allegro",
+    "key": "D-major",
+    "number": 3
+   },
+   {
+    "title": "Rondo. Allegro",
+    "key": "D-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1797,
+   1798
+  ],
+  "firstPublished": 1798,
+  "firstPerformance": null,
+  "dedication": "Gräfin Anna Margarete von Browne",
+  "durationMin": [
+   20,
+   23
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146086",
+   "imslp": "Piano_Sonata_No.7,_Op.10_No.3_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "8e093609-d578-4fd6-a919-92962dc9899d"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.7,_Op.10_No.3_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146086",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op13",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 8,
+  "catalog": {
+   "opus": "Op.13"
+  },
+  "titleJa": "ピアノ・ソナタ第8番 ハ短調 作品13《悲愴》",
+  "titleEn": "Piano Sonata No. 8 in C minor, Op. 13",
+  "nicknames": [
+   "Pathétique"
+  ],
+  "nicknameJa": "悲愴",
+  "key": "c-minor",
+  "keyJa": "ハ短調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Grave - Allegro di molto e con brio",
+    "key": "c-minor",
+    "number": 1
+   },
+   {
+    "title": "Adagio cantabile",
+    "key": "Ab-major",
+    "number": 2
+   },
+   {
+    "title": "Rondo. Allegro",
+    "key": "c-minor",
+    "number": 3
+   }
+  ],
+  "composed": [
+   1798,
+   1798
+  ],
+  "firstPublished": 1799,
+  "firstPerformance": null,
+  "dedication": "Karl Lichnowsky",
+  "durationMin": [
+   19,
+   20
+  ],
+  "articleId": "beethoven-pathetique",
+  "ids": {
+   "wikidata": "Q146113",
+   "imslp": "Piano_Sonata_No.8,_Op.13_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "c366ec5b-9d61-3057-827c-afd61a237b23"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.8,_Op.13_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146113",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ],
+  "conflicts": [
+   {
+    "field": "composed",
+    "imslp": [
+     1798,
+     1798
+    ],
+    "wikidata": 1797
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op14-1",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 9,
+  "catalog": {
+   "opus": "Op.14 No.1"
+  },
+  "titleJa": "ピアノ・ソナタ第9番 ホ長調 作品14-1",
+  "titleEn": "Piano Sonata No. 9 in E major, Op. 14, No. 1",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "E-major",
+  "keyJa": "ホ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro",
+    "key": "E-major",
+    "number": 1
+   },
+   {
+    "title": "Allegretto",
+    "key": "e-minor",
+    "number": 2
+   },
+   {
+    "title": "Rondo. Allegro comodo",
+    "key": "E-major",
+    "number": 3
+   }
+  ],
+  "composed": [
+   1798,
+   1798
+  ],
+  "firstPublished": 1799,
+  "firstPerformance": null,
+  "dedication": "Baronin Josefa von Braun",
+  "durationMin": [
+   13,
+   13
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146133",
+   "imslp": "Piano_Sonata_No.9,_Op.14_No.1_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "ee8cc1d1-eda4-4505-964f-ba5bce7d577c"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.9,_Op.14_No.1_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146133",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op14-2",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 10,
+  "catalog": {
+   "opus": "Op.14 No.2"
+  },
+  "titleJa": "ピアノ・ソナタ第10番 ト長調 作品14-2",
+  "titleEn": "Piano Sonata No. 10 in G major, Op. 14, No. 2",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "G-major",
+  "keyJa": "ト長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro",
+    "key": "G-major",
+    "number": 1
+   },
+   {
+    "title": "Andante",
+    "key": "C-major",
+    "number": 2
+   },
+   {
+    "title": "Scherzo. Allegro assai",
+    "key": "G-major",
+    "number": 3
+   }
+  ],
+  "composed": [
+   1798,
+   1799
+  ],
+  "firstPublished": 1799,
+  "firstPerformance": null,
+  "dedication": "Baroness von Braun",
+  "durationMin": [
+   15,
+   16
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146148",
+   "imslp": "Piano_Sonata_No.10,_Op.14_No.2_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "bab36973-3546-4f24-8bc1-2c7bc3e14e83"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.10,_Op.14_No.2_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146148",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op22",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 11,
+  "catalog": {
+   "opus": "Op.22"
+  },
+  "titleJa": "ピアノ・ソナタ第11番 変ロ長調 作品22",
+  "titleEn": "Piano Sonata No. 11 in B-flat major, Op. 22",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "Bb-major",
+  "keyJa": "変ロ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro con brio",
+    "key": "Bb-major",
+    "number": 1
+   },
+   {
+    "title": "Adagio con molto espressione",
+    "key": "Eb-major",
+    "number": 2
+   },
+   {
+    "title": "Minuet - Trio",
+    "key": "Bb-major",
+    "keys": [
+     "Bb-major",
+     "g-minor"
+    ],
+    "number": 3
+   },
+   {
+    "title": "Rondo. Allegretto",
+    "key": "Bb-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1799,
+   1800
+  ],
+  "firstPublished": 1800,
+  "firstPerformance": null,
+  "dedication": "Johann Georg Browne",
+  "durationMin": [
+   23,
+   24
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146164",
+   "imslp": "Piano_Sonata_No.11,_Op.22_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "94bc3c50-ea92-421f-b9a7-c9bc2b0b4695"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.11,_Op.22_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146164",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ],
+  "conflicts": [
+   {
+    "field": "firstPublished",
+    "imslp": 1800,
+    "wikidata": 1802
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op26",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 12,
+  "catalog": {
+   "opus": "Op.26"
+  },
+  "titleJa": "ピアノ・ソナタ第12番 変イ長調 作品26",
+  "titleEn": "Piano Sonata No. 12 in A-flat major, Op. 26",
+  "nicknames": [
+   "Funeral March"
+  ],
+  "nicknameJa": "",
+  "key": "Ab-major",
+  "keyJa": "変イ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Andante con variazioni",
+    "key": "Ab-major",
+    "number": 1
+   },
+   {
+    "title": "Scherzo. Allegro molto - Trio",
+    "key": "Ab-major",
+    "keys": [
+     "Ab-major",
+     "Db-major"
+    ],
+    "number": 2
+   },
+   {
+    "title": "Marcia funebre sulla morte d'un eroe. Maestoso andante",
+    "key": "ab-minor",
+    "number": 3
+   },
+   {
+    "title": "Allegro",
+    "key": "Ab-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1800,
+   1801
+  ],
+  "firstPublished": 1801,
+  "firstPerformance": null,
+  "dedication": "Karl Lichnowsky",
+  "durationMin": [
+   20,
+   20
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146182",
+   "imslp": "Piano_Sonata_No.12,_Op.26_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "bff859ad-5e24-4a7f-8717-855dfac72925"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.12,_Op.26_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146182",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ],
+  "conflicts": [
+   {
+    "field": "firstPublished",
+    "imslp": 1801,
+    "wikidata": 1802
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op27-1",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 13,
+  "catalog": {
+   "opus": "Op.27 No.1"
+  },
+  "titleJa": "ピアノ・ソナタ第13番 変ホ長調 作品27-1",
+  "titleEn": "Piano Sonata No. 13 in E-flat major, Op. 27, No. 1",
+  "nicknames": [
+   "Sonata quasi una fantasia"
+  ],
+  "nicknameJa": "",
+  "key": "Eb-major",
+  "keyJa": "変ホ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Andante",
+    "key": "Eb-major",
+    "number": 1
+   },
+   {
+    "title": "Allegro molto e vivace",
+    "key": "c-minor",
+    "number": 2
+   },
+   {
+    "title": "Adagio con espressione",
+    "key": "Ab-major",
+    "number": 3
+   },
+   {
+    "title": "Allegro vivace",
+    "key": "Eb-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1800,
+   1801
+  ],
+  "firstPublished": 1801,
+  "firstPerformance": null,
+  "dedication": "Fürstin Josephine von Liechtenstein",
+  "durationMin": [
+   15,
+   16
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146203",
+   "imslp": "Piano_Sonata_No.13,_Op.27_No.1_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "98f63744-cec6-393a-8868-c5a0b6facbfe"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.13,_Op.27_No.1_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146203",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ],
+  "conflicts": [
+   {
+    "field": "firstPublished",
+    "imslp": 1801,
+    "wikidata": 1802
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op27-2",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 14,
+  "catalog": {
+   "opus": "Op.27 No.2"
+  },
+  "titleJa": "ピアノ・ソナタ第14番 嬰ハ短調 作品27-2《月光》",
+  "titleEn": "Piano Sonata No. 14 in C-sharp minor, Op. 27, No. 2",
+  "nicknames": [
+   "Sonata quasi una fantasia",
+   "Moonlight Sonata"
+  ],
+  "nicknameJa": "月光",
+  "key": "c#-minor",
+  "keyJa": "嬰ハ短調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Adagio sostenuto",
+    "key": "c#-minor",
+    "bars": 69,
+    "number": 1
+   },
+   {
+    "title": "Allegretto - Trio",
+    "key": "Db-major",
+    "bars": 60,
+    "number": 2
+   },
+   {
+    "title": "Presto agitato",
+    "key": "c#-minor",
+    "bars": 200,
+    "number": 3
+   }
+  ],
+  "composed": [
+   1802,
+   1802
+  ],
+  "firstPublished": 1802,
+  "firstPerformance": null,
+  "dedication": "Gräfin Giulietta Guicciardi",
+  "durationMin": [
+   15,
+   16
+  ],
+  "articleId": "beethoven-moonlight",
+  "ids": {
+   "wikidata": "Q12008",
+   "imslp": "Piano_Sonata_No.14,_Op.27_No.2_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "d754d820-2036-39f6-9fd5-636cda85b3b2"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.14,_Op.27_No.2_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q12008",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ],
+  "conflicts": [
+   {
+    "field": "composed",
+    "imslp": [
+     1802,
+     1802
+    ],
+    "wikidata": 1801
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op28",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 15,
+  "catalog": {
+   "opus": "Op.28"
+  },
+  "titleJa": "ピアノ・ソナタ第15番 ニ長調 作品28《田園》",
+  "titleEn": "Piano Sonata No. 15 in D major, Op. 28",
+  "nicknames": [
+   "Pastoral"
+  ],
+  "nicknameJa": "田園",
+  "key": "D-major",
+  "keyJa": "ニ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro",
+    "key": "D-major",
+    "number": 1
+   },
+   {
+    "title": "Andante",
+    "key": "d-minor",
+    "number": 2
+   },
+   {
+    "title": "Scherzo. Allegro vivace - Trio",
+    "key": "D-major",
+    "keys": [
+     "D-major",
+     "b-minor"
+    ],
+    "number": 3
+   },
+   {
+    "title": "Rondo. Allegro ma non troppo",
+    "key": "D-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1801,
+   1801
+  ],
+  "firstPublished": 1801,
+  "firstPerformance": null,
+  "dedication": "Joseph Edler von Sonnenfels",
+  "durationMin": [
+   23,
+   24
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146272",
+   "imslp": "Piano_Sonata_No.15,_Op.28_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "85b66ee4-ada7-3256-8423-a48d849b9b55"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.15,_Op.28_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146272",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ],
+  "conflicts": [
+   {
+    "field": "firstPublished",
+    "imslp": 1801,
+    "wikidata": 1802
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op31-1",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 16,
+  "catalog": {
+   "opus": "Op.31 No.1"
+  },
+  "titleJa": "ピアノ・ソナタ第16番 ト長調 作品31-1",
+  "titleEn": "Piano Sonata No. 16 in G major, Op. 31, No. 1",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "G-major",
+  "keyJa": "ト長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro vivace",
+    "key": "G-major",
+    "number": 1
+   },
+   {
+    "title": "Adagio grazioso",
+    "key": "C-major",
+    "number": 2
+   },
+   {
+    "title": "Rondo. Allegretto",
+    "key": "G-major",
+    "number": 3
+   }
+  ],
+  "composed": [
+   1801,
+   1802
+  ],
+  "firstPublished": 1803,
+  "firstPerformance": null,
+  "dedication": "",
+  "durationMin": [
+   24,
+   24
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146296",
+   "imslp": "Piano_Sonata_No.16,_Op.31_No.1_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "4e9f3cae-aebd-408e-9d12-6f86e39604d1"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.16,_Op.31_No.1_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146296",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op31-2",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 17,
+  "catalog": {
+   "opus": "Op.31 No.2"
+  },
+  "titleJa": "ピアノ・ソナタ第17番 ニ短調 作品31-2",
+  "titleEn": "Piano Sonata No. 17 in D minor, Op. 31, No. 2",
+  "nicknames": [
+   "The Tempest",
+   "Der Sturm"
+  ],
+  "nicknameJa": "",
+  "key": "d-minor",
+  "keyJa": "ニ短調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Largo - Allegro",
+    "key": "d-minor",
+    "number": 1
+   },
+   {
+    "title": "Adagio",
+    "key": "Bb-major",
+    "number": 2
+   },
+   {
+    "title": "Allegretto",
+    "key": "d-minor",
+    "number": 3
+   }
+  ],
+  "composed": [
+   1801,
+   1802
+  ],
+  "firstPublished": 1802,
+  "firstPerformance": null,
+  "dedication": "",
+  "durationMin": null,
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146311",
+   "imslp": "Piano_Sonata_No.17,_Op.31_No.2_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "3edecd40-7725-4037-ad2c-b4d34fe903d9"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.17,_Op.31_No.2_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146311",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ],
+  "conflicts": [
+   {
+    "field": "firstPublished",
+    "imslp": 1802,
+    "wikidata": 1803
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op31-3",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 18,
+  "catalog": {
+   "opus": "Op.31 No.3"
+  },
+  "titleJa": "ピアノ・ソナタ第18番 変ホ長調 作品31-3《狩》",
+  "titleEn": "Piano Sonata No. 18 in E-flat major, Op. 31, No. 3",
+  "nicknames": [
+   "The Hunt"
+  ],
+  "nicknameJa": "狩",
+  "key": "Eb-major",
+  "keyJa": "変ホ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro",
+    "key": "Eb-major",
+    "bars": 254,
+    "number": 1
+   },
+   {
+    "title": "Scherzo. Allegretto vivace",
+    "key": "Ab-major",
+    "bars": 171,
+    "number": 2
+   },
+   {
+    "title": "Minuet. Moderato e grazioso - Trio",
+    "key": "Eb-major",
+    "bars": 62,
+    "number": 3
+   },
+   {
+    "title": "Presto con fuoco",
+    "key": "Eb-major",
+    "bars": 333,
+    "number": 4
+   }
+  ],
+  "composed": [
+   1801,
+   1802
+  ],
+  "firstPublished": 1802,
+  "firstPerformance": null,
+  "dedication": "",
+  "durationMin": [
+   22,
+   23
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146343",
+   "imslp": "Piano_Sonata_No.18,_Op.31_No.3_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "eab83ac8-7c6e-42f2-ab1a-f4f75418bd8e"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.18,_Op.31_No.3_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146343",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ],
+  "conflicts": [
+   {
+    "field": "firstPublished",
+    "imslp": 1802,
+    "wikidata": 1804
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op49-1",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 19,
+  "catalog": {
+   "opus": "Op.49 No.1"
+  },
+  "titleJa": "ピアノ・ソナタ第19番 ト短調 作品49-1",
+  "titleEn": "Piano Sonata No. 19 in G minor, Op. 49, No. 1",
+  "nicknames": [
+   "Leichte Sonaten"
+  ],
+  "nicknameJa": "",
+  "key": "g-minor",
+  "keyJa": "ト短調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Andante",
+    "key": "g-minor",
+    "bars": 110,
+    "number": 1
+   },
+   {
+    "title": "Rondo. Allegro",
+    "key": "G-major",
+    "bars": 164,
+    "number": 2
+   }
+  ],
+  "composed": [
+   1797,
+   1797
+  ],
+  "firstPublished": 1805,
+  "firstPerformance": null,
+  "dedication": "",
+  "durationMin": null,
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146396",
+   "imslp": "Piano_Sonata_No.19,_Op.49_No.1_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "05ffeac8-0648-43b5-9a7b-ebfae308dada"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.19,_Op.49_No.1_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146396",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op49-2",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 20,
+  "catalog": {
+   "opus": "Op.49 No.2"
+  },
+  "titleJa": "ピアノ・ソナタ第20番 ト長調 作品49-2",
+  "titleEn": "Piano Sonata No. 20 in G major, Op. 49, No. 2",
+  "nicknames": [
+   "Leichte Sonaten"
+  ],
+  "nicknameJa": "",
+  "key": "G-major",
+  "keyJa": "ト長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro ma non troppo",
+    "key": "G-major",
+    "bars": 122,
+    "number": 1
+   },
+   {
+    "title": "Tempo di minuet",
+    "key": "G-major",
+    "bars": 120,
+    "number": 2
+   }
+  ],
+  "composed": [
+   1795,
+   1796
+  ],
+  "firstPublished": 1805,
+  "firstPerformance": null,
+  "dedication": "",
+  "durationMin": null,
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146423",
+   "imslp": "Piano_Sonata_No.20,_Op.49_No.2_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "69f6660b-42e7-4aa4-94e6-ec358c79d0a1"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.20,_Op.49_No.2_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146423",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op53",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 21,
+  "catalog": {
+   "opus": "Op.53"
+  },
+  "titleJa": "ピアノ・ソナタ第21番 ハ長調 作品53《ワルトシュタイン》",
+  "titleEn": "Piano Sonata No. 21 in C major, Op. 53",
+  "nicknames": [
+   "Waldstein sonata"
+  ],
+  "nicknameJa": "ワルトシュタイン",
+  "key": "C-major",
+  "keyJa": "ハ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro con brio",
+    "key": "C-major",
+    "bars": 302,
+    "number": 1
+   },
+   {
+    "title": "Introduzione. Adagio molto",
+    "key": "F-major",
+    "bars": 28,
+    "number": 2
+   },
+   {
+    "title": "Rondo. Allegretto moderato - Prestissimo",
+    "key": "C-major",
+    "bars": 543,
+    "number": 3
+   }
+  ],
+  "composed": [
+   1803,
+   1804
+  ],
+  "firstPublished": 1805,
+  "firstPerformance": null,
+  "dedication": "Count Ferdinand Ernst Gabriel von Waldstein",
+  "durationMin": [
+   25,
+   25
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146535",
+   "imslp": "Piano_Sonata_No.21,_Op.53_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "a3c9dc10-0f58-3fcd-9b9f-bd455e386941"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.21,_Op.53_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146535",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op54",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 22,
+  "catalog": {
+   "opus": "Op.54"
+  },
+  "titleJa": "ピアノ・ソナタ第22番 ヘ長調 作品54",
+  "titleEn": "Piano Sonata No. 22 in F major, Op. 54",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "F-major",
+  "keyJa": "ヘ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "In tempo d'un menuetto",
+    "key": "F-major",
+    "bars": 154,
+    "number": 1
+   },
+   {
+    "title": "Allegretto - Più allegro",
+    "key": "F-major",
+    "bars": 188,
+    "number": 2
+   }
+  ],
+  "composed": [
+   1804,
+   1804
+  ],
+  "firstPublished": 1806,
+  "firstPerformance": null,
+  "dedication": "",
+  "durationMin": [
+   8,
+   14
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146561",
+   "imslp": "Piano_Sonata_No.22,_Op.54_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "4b943c15-b04f-4c37-b4e9-bdddc5471bd6"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.22,_Op.54_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146561",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op57",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 23,
+  "catalog": {
+   "opus": "Op.57"
+  },
+  "titleJa": "ピアノ・ソナタ第23番 ヘ短調 作品57《熱情》",
+  "titleEn": "Piano Sonata No. 23 in F minor, Op. 57",
+  "nicknames": [
+   "Appassionata"
+  ],
+  "nicknameJa": "熱情",
+  "key": "f-minor",
+  "keyJa": "ヘ短調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro assai",
+    "key": "f-minor",
+    "bars": 262,
+    "number": 1
+   },
+   {
+    "title": "Andante con moto",
+    "key": "Db-major",
+    "bars": 97,
+    "number": 2
+   },
+   {
+    "title": "Allegro ma non troppo - Presto",
+    "key": "f-minor",
+    "bars": 367,
+    "number": 3
+   }
+  ],
+  "composed": [
+   1804,
+   1806
+  ],
+  "firstPublished": 1807,
+  "firstPerformance": null,
+  "dedication": "Graf Franz von Brunsvik",
+  "durationMin": null,
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146614",
+   "imslp": "Piano_Sonata_No.23,_Op.57_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "88a8eaa9-d07b-3b9b-b284-72289e2eeb43"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.23,_Op.57_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146614",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op78",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 24,
+  "catalog": {
+   "opus": "Op.78"
+  },
+  "titleJa": "ピアノ・ソナタ第24番 嬰ヘ長調 作品78《テレーゼ》",
+  "titleEn": "Piano Sonata No. 24 in F-sharp major, Op. 78",
+  "nicknames": [
+   "À Thérèse"
+  ],
+  "nicknameJa": "テレーゼ",
+  "key": "F#-major",
+  "keyJa": "嬰ヘ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Adagio cantabile - Allegro ma non troppo",
+    "key": "F#-major",
+    "bars": 106,
+    "number": 1
+   },
+   {
+    "title": "Allegro vivace",
+    "key": "F#-major",
+    "bars": 183,
+    "number": 2
+   }
+  ],
+  "composed": [
+   1809,
+   1809
+  ],
+  "firstPublished": 1810,
+  "firstPerformance": null,
+  "dedication": "Countess Teréz Brunszvik de Korompa",
+  "durationMin": [
+   10,
+   10
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146631",
+   "imslp": "Piano_Sonata_No.24,_Op.78_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "47207de2-91f8-3cd3-a029-47ab5f12fd5c"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.24,_Op.78_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146631",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op79",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 25,
+  "catalog": {
+   "opus": "Op.79"
+  },
+  "titleJa": "ピアノ・ソナタ第25番 ト長調 作品79《かっこう》",
+  "titleEn": "Piano Sonata No. 25 in G major, Op. 79",
+  "nicknames": [
+   "Cuckoo",
+   "Sonatina alla Tedesca"
+  ],
+  "nicknameJa": "かっこう",
+  "key": "G-major",
+  "keyJa": "ト長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Presto alla tedesca",
+    "key": "G-major",
+    "bars": 201,
+    "number": 1
+   },
+   {
+    "title": "Andante",
+    "key": "g-minor",
+    "bars": 34,
+    "number": 2
+   },
+   {
+    "title": "Vivace",
+    "key": "G-major",
+    "bars": 117,
+    "number": 3
+   }
+  ],
+  "composed": [
+   1809,
+   1809
+  ],
+  "firstPublished": 1810,
+  "firstPerformance": null,
+  "dedication": "",
+  "durationMin": null,
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146651",
+   "imslp": "Piano_Sonata_No.25,_Op.79_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "318b575a-a5f8-3408-8ed5-0c5b85611b86"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.25,_Op.79_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146651",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op81a",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 26,
+  "catalog": {
+   "opus": "Op.81a"
+  },
+  "titleJa": "ピアノ・ソナタ第26番 変ホ長調 作品81a《告別》",
+  "titleEn": "Piano Sonata No. 26 in E-flat major, Op. 81a",
+  "nicknames": [
+   "Les Adieux/Das Lebewohl"
+  ],
+  "nicknameJa": "告別",
+  "key": "Eb-major",
+  "keyJa": "変ホ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Das Lebewohl. Adagio - Allegro",
+    "key": "Eb-major",
+    "number": 1
+   },
+   {
+    "title": "Abwesenheit. Andante espressivo",
+    "key": "c-minor",
+    "number": 2
+   },
+   {
+    "title": "Das Wiedersehen. Vivacissimamente (im Lebhastesten Zeitmasse)",
+    "key": "Eb-major",
+    "number": 3
+   }
+  ],
+  "composed": [
+   1809,
+   1810
+  ],
+  "firstPublished": 1811,
+  "firstPerformance": null,
+  "dedication": "Erzherzog Rudolph",
+  "durationMin": [
+   17,
+   18
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146669",
+   "imslp": "Piano_Sonata_No.26,_Op.81a_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "9406d239-0efc-40e5-be6c-fbb15a3a091f"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.26,_Op.81a_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146669",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op90",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 27,
+  "catalog": {
+   "opus": "Op.90"
+  },
+  "titleJa": "ピアノ・ソナタ第27番 ホ短調 作品90",
+  "titleEn": "Piano Sonata No. 27 in E minor, Op. 90",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "e-minor",
+  "keyJa": "ホ短調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Mit Lebhaftigkeit und durchaus mit Empfindung und Ausdruck",
+    "key": "e-minor",
+    "bars": 245,
+    "number": 1
+   },
+   {
+    "title": "Nicht zu geschwind und sehr singbar vorgetragen",
+    "key": "E-major",
+    "bars": 290,
+    "number": 2
+   }
+  ],
+  "composed": [
+   1814,
+   1814
+  ],
+  "firstPublished": 1815,
+  "firstPerformance": null,
+  "dedication": "Graf Moritz von Lichnowsky",
+  "durationMin": null,
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146692",
+   "imslp": "Piano_Sonata_No.27,_Op.90_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "fabb904b-bf7f-3698-8c1b-ce2923850e09"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.27,_Op.90_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146692",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op101",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 28,
+  "catalog": {
+   "opus": "Op.101"
+  },
+  "titleJa": "ピアノ・ソナタ第28番 イ長調 作品101",
+  "titleEn": "Piano Sonata No. 28 in A major, Op. 101",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "A-major",
+  "keyJa": "イ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Etwas lebhaft und mit der innigsten Empfindung. / Allegretto ma non troppo",
+    "key": "A-major",
+    "bars": 102,
+    "number": 1
+   },
+   {
+    "title": "Lebhaft. Marschmäßig. / Vivace alla marcia",
+    "key": "F-major",
+    "bars": 94,
+    "number": 2
+   },
+   {
+    "title": "Langsam und sehnsuchtsvoll. / Adagio, ma non troppo, con affetto",
+    "key": "a-minor",
+    "number": 3
+   },
+   {
+    "title": "Geschwind, doch nicht zu sehr, und mit Entschlossenheit. / Allegro",
+    "key": "A-major",
+    "number": 4
+   }
+  ],
+  "composed": [
+   1815,
+   1816
+  ],
+  "firstPublished": 1817,
+  "firstPerformance": null,
+  "dedication": "Freiin Dorothea von Ertmann",
+  "durationMin": null,
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146712",
+   "imslp": "Piano_Sonata_No.28,_Op.101_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "494b657c-aa57-4df6-a750-ee79ac323967"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.28,_Op.101_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146712",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op106",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 29,
+  "catalog": {
+   "opus": "Op.106"
+  },
+  "titleJa": "ピアノ・ソナタ第29番 変ロ長調 作品106《ハンマークラヴィーア》",
+  "titleEn": "Piano Sonata No. 29 in B-flat major, Op. 106",
+  "nicknames": [
+   "Hammerklavier, Große Sonate für das Hammerklavier"
+  ],
+  "nicknameJa": "ハンマークラヴィーア",
+  "key": "Bb-major",
+  "keyJa": "変ロ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Allegro",
+    "key": "Bb-major",
+    "bars": 405,
+    "number": 1
+   },
+   {
+    "title": "Scherzo. Assai vivace",
+    "key": "Bb-major",
+    "bars": 175,
+    "number": 2
+   },
+   {
+    "title": "Adagio sostenuto",
+    "key": "f#-minor",
+    "bars": 187,
+    "number": 3
+   },
+   {
+    "title": "Introduzione. Largo / Fuga. Allegro risoluto",
+    "key": "Bb-major",
+    "bars": 400,
+    "number": 4
+   }
+  ],
+  "composed": [
+   1817,
+   1818
+  ],
+  "firstPublished": 1819,
+  "firstPerformance": null,
+  "dedication": "Erzherzog Rudolph",
+  "durationMin": null,
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146730",
+   "imslp": "Piano_Sonata_No.29,_Op.106_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "4a622b0d-b0c0-405e-b49e-05b70c108284"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.29,_Op.106_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146730",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op109",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 30,
+  "catalog": {
+   "opus": "Op.109"
+  },
+  "titleJa": "ピアノ・ソナタ第30番 ホ長調 作品109",
+  "titleEn": "Piano Sonata No. 30 in E major, Op. 109",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "E-major",
+  "keyJa": "ホ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Vivace ma non troppo, sempre legato / Adagio espressivo",
+    "key": "E-major",
+    "bars": 99,
+    "number": 1
+   },
+   {
+    "title": "Prestissimo",
+    "key": "e-minor",
+    "bars": 177,
+    "number": 2
+   },
+   {
+    "title": "Gesangvoll, mit innigster Empfindung. / Andante molto cantabile ed espressivo",
+    "key": "E-major",
+    "bars": 203,
+    "number": 3
+   }
+  ],
+  "composed": [
+   1820,
+   1820
+  ],
+  "firstPublished": 1821,
+  "firstPerformance": null,
+  "dedication": "Maximiliane Brentano",
+  "durationMin": [
+   20,
+   20
+  ],
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146752",
+   "imslp": "Piano_Sonata_No.30,_Op.109_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "7405e6a1-130e-4c22-bc33-bcd43c560a55"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.30,_Op.109_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146752",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op110",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 31,
+  "catalog": {
+   "opus": "Op.110"
+  },
+  "titleJa": "ピアノ・ソナタ第31番 変イ長調 作品110",
+  "titleEn": "Piano Sonata No. 31 in A-flat major, Op. 110",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "Ab-major",
+  "keyJa": "変イ長調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Moderato cantabile molto espressivo",
+    "key": "Ab-major",
+    "bars": 116,
+    "number": 1
+   },
+   {
+    "title": "Allegro molto",
+    "key": "f-minor",
+    "bars": 158,
+    "number": 2
+   },
+   {
+    "title": "Adagio ma non troppo",
+    "key": "bb-minor",
+    "bars": 213,
+    "number": 3,
+    "sections": [
+     {
+      "title": "Arioso dolente",
+      "key": "ab-minor",
+      "keys": [
+       "ab-minor"
+      ]
+     },
+     {
+      "title": "Fuga. Allegro ma non troppo",
+      "key": "Ab-major",
+      "keys": [
+       "Ab-major"
+      ]
+     }
+    ]
+   }
+  ],
+  "composed": [
+   1821,
+   1821
+  ],
+  "firstPublished": 1822,
+  "firstPerformance": null,
+  "dedication": "",
+  "durationMin": null,
+  "articleId": "",
+  "ids": {
+   "wikidata": "Q146767",
+   "imslp": "Piano_Sonata_No.31,_Op.110_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "1c310018-3a56-400a-a6bb-ec0cbebe0545"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.31,_Op.110_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146767",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ]
+ },
+ {
+  "id": "beethoven-op111",
+  "composer": "beethoven",
+  "genre": "piano-sonata",
+  "number": 32,
+  "catalog": {
+   "opus": "Op.111"
+  },
+  "titleJa": "ピアノ・ソナタ第32番 ハ短調 作品111",
+  "titleEn": "Piano Sonata No. 32 in C minor, Op. 111",
+  "nicknames": [],
+  "nicknameJa": "",
+  "key": "c-minor",
+  "keyJa": "ハ短調",
+  "instrumentation": [
+   "ピアノ"
+  ],
+  "movements": [
+   {
+    "title": "Maestoso - Allegro con brio ed appassionato",
+    "key": "c-minor",
+    "bars": 158,
+    "number": 1
+   },
+   {
+    "title": "Arietta. Adagio molto semplice cantabile",
+    "key": "C-major",
+    "bars": 177,
+    "number": 2
+   }
+  ],
+  "composed": [
+   1821,
+   1822
+  ],
+  "firstPublished": 1822,
+  "firstPerformance": null,
+  "dedication": "Erzherzog Rudolph",
+  "durationMin": null,
+  "articleId": "beethoven-sonata-op111",
+  "ids": {
+   "wikidata": "Q146793",
+   "imslp": "Piano_Sonata_No.32,_Op.111_(Beethoven,_Ludwig_van)",
+   "musicbrainz": "1767f1b8-6374-3ad8-8772-3b5ebd40a53a"
+  },
+  "sources": [
+   {
+    "name": "IMSLP",
+    "url": "https://imslp.org/wiki/Piano_Sonata_No.32,_Op.111_(Beethoven,_Ludwig_van)",
+    "fields": "調・作品番号・楽章・作曲年・初版・初演・献呈・平均演奏時間",
+    "fetched": "2026-11-08"
+   },
+   {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Q146793",
+    "fields": "ID の照合・調（P826）",
+    "fetched": "2026-11-08"
+   }
+  ],
+  "conflicts": [
+   {
+    "field": "firstPublished",
+    "imslp": 1822,
+    "wikidata": 1823
+   }
+  ]
+ }
+]
