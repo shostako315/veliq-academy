@@ -14779,5 +14779,326 @@
       "famous",
       "piano"
     ]
+  },
+  {
+    "id": "britten-peter-grimes",
+    "composerId": "britten",
+    "title": "オペラ《ピーター・グライムズ》作品33",
+    "titleEn": "Peter Grimes, Op. 33",
+    "year": "1944-1945",
+    "genre": "opera",
+    "subgenre": "opera",
+    "era": "modern",
+    "key": "",
+    "opus": "Op.33",
+    "duration": 150,
+    "difficulty": 3,
+    "shortDescription": "ジョージ・クラッブの詩《村》に基づき、モンタギュー・スレイターが台本を書いたプロローグと3幕のオペラ。1945年6月7日、ロンドンのサドラーズ・ウェルズ劇場でレジナルド・グッドールの指揮により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "プロローグ 公会堂の審問",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "弁護士スワローが、嵐の中で死んだ徒弟についてグライムズを審問し、事故死と認める。新しい徒弟を雇うのは世話をする女性と暮らしてからにするよう警告する。人が去った後、エレン・オーフォードがグライムズを励ます。",
+        "highlights": [
+          "証言の場面の持続和音",
+          "グライムズとエレンの二重唱（半音離れた調）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第1幕 浜辺と居酒屋",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "間奏曲I〈夜明け〉の後、浜辺の場でバルストロードが嵐を予告し、エレンが新しい徒弟を迎えに行くと申し出る。間奏曲II〈嵐〉を経て居酒屋の場となり、エレンとホブソンが徒弟ジョンを連れて着くと、グライムズは少年を嵐の中、小屋へ連れて行く。",
+        "highlights": [
+          "間奏曲I〈夜明け〉",
+          "間奏曲II〈嵐〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第2幕 日曜の朝とグライムズの小屋",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "間奏曲III〈日曜の朝〉で始まる。エレンがジョンのあざを見つけ、グライムズはエレンを打って少年を連れ去る。間奏曲IV〈パッサカリア〉を経て小屋の場となり、村人が近づく中でジョンが崖から落ちる。",
+        "highlights": [
+          "間奏曲III〈日曜の朝〉",
+          "間奏曲IV〈パッサカリア〉（7音のバスの39回の反復）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第3幕 舞踏会の夜と浜辺",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "間奏曲V〈月光〉が前奏曲となる。バルストロードとエレンがグライムズの舟の帰還とジョンのセーターを知り、村人はグライムズを捜しに出る。間奏曲VIの後、正気を失ったグライムズにバルストロードが舟で沖へ出るよう告げ、夜が明けて村人は日々の仕事に戻る。",
+        "highlights": [
+          "間奏曲V〈月光〉（第2転回形の和音）",
+          "間奏曲VI"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ブリテンは1941年、米国滞在中にフォースターの記事を読んでクラッブの詩《村》を知った。オペラはクーセヴィツキー音楽財団の委嘱で、ナタリー・クーセヴィツキーの追悼に献呈された。台本はイシャウッドが断った後にスレイターが引き受け、1942年末までに第一稿ができた。作曲は1944年に始まり、総譜は1945年2月10日に完成した。初演は1945年6月7日、戦後に再開したサドラーズ・ウェルズ劇場で、ピアーズが題名役、ジョーン・クロスがエレンを歌った。",
+    "musicalAnalysis": "プロローグと3幕からなり、6つの管弦楽の間奏曲が切れ目なく次の場へつながる。第2幕の2つの場をつなぐパッサカリアでは、7音のバスが39回繰り返され、その上でヴィオラの主題が変奏される。第1、第3、第5、第2の間奏曲は《4つの海の間奏曲》作品33a、第4の間奏曲は《パッサカリア》作品33bとして演奏会用にまとめられた。",
+    "listeningGuide": {
+      "totalTime": "約2時間30分",
+      "recommendedVersion": "ベンジャミン・ブリテン指揮コヴェント・ガーデン王立歌劇場管弦楽団・合唱団、ピーター・ピアーズ、クレア・ワトソン（デッカ、1958年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "modern",
+      "british"
+    ]
+  },
+  {
+    "id": "shostakovich-symphony-7",
+    "composerId": "shostakovich",
+    "title": "交響曲第7番 ハ長調 作品60《レニングラード》",
+    "titleEn": "Symphony No. 7 in C major, Op. 60 \"Leningrad\"",
+    "year": "1941",
+    "genre": "symphony",
+    "subgenre": "symphony",
+    "era": "modern",
+    "key": "C-major",
+    "opus": "Op. 60",
+    "duration": 75,
+    "difficulty": 2,
+    "shortDescription": "1941年7月19日に書き始められ、第3楽章までをレニングラードで、第4楽章をクイビシェフで書いて12月27日に完成した交響曲。1942年3月5日にクイビシェフで初演され、同年8月9日に包囲下のレニングラードでエリアスベルクの指揮により演奏された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1楽章",
+        "tempo": "Allegretto",
+        "key": "",
+        "duration": null,
+        "description": "フルートの独奏で始まる静かな部分が「侵攻」の部分で断ち切られる。2小節の小太鼓の音型が繰り返される上で、単純な主題が楽器を増やしながら何度も繰り返される。",
+        "highlights": [
+          "小太鼓の2小節の音型",
+          "繰り返される行進の主題",
+          "ファゴットの独奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2楽章",
+        "tempo": "Moderato (poco allegretto)",
+        "key": "",
+        "duration": null,
+        "description": "作曲者が「回想」の題を付けた楽章。ヴァイオリンの主題の後にオーボエの独奏が続き、速い中間部を経て主題が戻る。終わりにアルト・フルートが現れる。",
+        "highlights": [
+          "オーボエの独奏",
+          "バス・クラリネット",
+          "アルト・フルート"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3楽章",
+        "tempo": "Adagio – Moderato risoluto",
+        "key": "",
+        "duration": null,
+        "description": "管楽器と弦楽器が交互に現れて始まり、フルートの独奏が中間部を導く。ヴィオラのセクションが旋律を歌った後、冒頭の音楽に戻り、切れ目なく終楽章に続く。",
+        "highlights": [
+          "フルートの独奏",
+          "ヴィオラのセクションの旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4楽章",
+        "tempo": "Allegro non troppo",
+        "key": "",
+        "duration": null,
+        "description": "作曲者が「勝利」と呼んだ楽章。ごく弱い音で始まり、最後に第1楽章冒頭の主題がハ長調で戻る。",
+        "highlights": [
+          "第1楽章冒頭主題の回帰"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ショスタコーヴィチは1941年7月19日に第1楽章の下書きを始め、第1〜3楽章をレニングラードで9月29日までに書き上げた。終楽章は疎開先のクイビシェフで12月27日に完成し、「レニングラード市に」献呈された。初演は1942年3月5日、クイビシェフの文化宮殿でサモスード指揮ボリショイ劇場管弦楽団により行われた。同年8月9日には包囲下のレニングラードでエリアスベルク指揮の合同オーケストラが演奏し、ラジオと拡声器で放送された。総譜はマイクロフィルムで連合国に送られ、6月にロンドンでウッド、7月19日にニューヨークでトスカニーニが演奏した。",
+    "musicalAnalysis": "4楽章からなり、第3楽章は切れ目なく終楽章に続く。第1楽章の中間部では、2小節の小太鼓の音型の上で単純な主題が楽器を増やしながら繰り返される。終楽章の最後に第1楽章冒頭の主題がハ長調で戻る。編成には別働の金管群（ホルン4、トランペット3、トロンボーン3）が加わる。",
+    "listeningGuide": {
+      "totalTime": "約75〜80分",
+      "recommendedVersion": "レナード・バーンスタイン指揮シカゴ交響楽団（1988年6月ライヴ録音、ドイツ・グラモフォン）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "shostakovich-sym5",
+      "shostakovich-sq8",
+      "bartok-concerto-for-orchestra"
+    ],
+    "relatedComposers": [
+      "bartok"
+    ],
+    "tags": [
+      "symphony",
+      "modern",
+      "soviet",
+      "world-war-ii",
+      "leningrad"
+    ]
+  },
+  {
+    "id": "strauss-r-don-juan",
+    "composerId": "strauss-r",
+    "title": "交響詩《ドン・ファン》 作品20",
+    "titleEn": "Don Juan, Op. 20",
+    "year": 1888,
+    "genre": "orchestral",
+    "subgenre": "symphonic poem",
+    "era": "modern",
+    "key": "",
+    "opus": "Op. 20",
+    "duration": 18,
+    "difficulty": 2,
+    "shortDescription": "ニコラウス・レーナウの劇詩による交響詩。1888年に作曲され、1889年11月11日にヴァイマルで作曲者の指揮するヴァイマル宮廷楽団が初演した。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Don Juan",
+        "tempo": "",
+        "key": "",
+        "duration": 18,
+        "description": "上行する音型の後、ヴァイオリンがドン・ファンの主題を奏する。独奏ヴァイオリンとオーボエの挿話、4本のホルンのユニゾンによる新しい主題を経て、再現の後に音楽は急に止まり、トランペットの不協和音とピアニッシモの和音で終わる。",
+        "highlights": [
+          "独奏ヴァイオリンの句",
+          "オーボエの長い旋律",
+          "4本のホルンのユニゾンの主題",
+          "トランペットの不協和音による結尾"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "レーナウが1844年に書き、没後の1851年に出版された未完の劇詩《ドン・ファン》による。シュトラウスはミュンヘン宮廷歌劇場の楽長だった1888年に作曲し、自筆総譜には1888年9月30日の日付がある。1889年9月にヴァイマル宮廷劇場の第2楽長となり、同年11月11日に自らヴァイマル宮廷楽団を指揮して初演した。総譜は1890年にミュンヘンのヨーゼフ・アイブル社から出版された。",
+    "musicalAnalysis": "単一楽章で、ソナタ楽章のように始まる。展開部に独奏ヴァイオリン、オーボエの挿話と4本のホルンによる新しい主題が加わり、再現部で主要主題が戻る。結尾は華々しい終結を避け、トランペットの不協和音と弱い和音で終わる。",
+    "listeningGuide": {
+      "totalTime": "18分",
+      "recommendedVersion": "フリッツ・ライナー指揮 シカゴ交響楽団（1954年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "strauss-zarathustra",
+      "strauss-rosenkavalier"
+    ],
+    "relatedComposers": [
+      "liszt",
+      "wagner",
+      "mahler"
+    ],
+    "tags": [
+      "orchestral",
+      "symphonic-poem",
+      "modern",
+      "programmatic"
+    ]
+  },
+  {
+    "id": "stravinsky-petrushka",
+    "composerId": "stravinsky",
+    "title": "バレエ音楽《ペトルーシュカ》",
+    "titleEn": "Petrushka",
+    "year": "1910-1911",
+    "genre": "orchestral",
+    "subgenre": "ballet",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 35,
+    "difficulty": 2,
+    "shortDescription": "ピアノと管弦楽のための演奏会用作品として書き始められ、ディアギレフの勧めでバレエになった4場の作品。1911年6月13日、パリのシャトレ座でバレエ・リュスにより、モントゥーの指揮、ニジンスキーの題名役で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1場 謝肉祭の市",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "1830年代のサンクトペテルブルクの謝肉祭の市。見世物師が笛で3体の人形に命を吹き込み、人形たちは民謡にもとづく〈ロシアの踊り〉を踊る。ペトルーシュカの役はピアノの独奏が受け持つ。",
+        "highlights": [
+          "手回しオルガンの旋律",
+          "〈ロシアの踊り〉のピアノ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2場 ペトルーシュカの部屋",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ペトルーシュカがバレリーナの気を引こうとして失敗する。ハ長調と嬰ヘ長調を同時に鳴らす和音がクラリネットに初めて現れる。",
+        "highlights": [
+          "ペトルーシュカ和音"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3場 ムーア人の部屋",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "低音の木管とコントラバスのオスティナートがムーア人を描く。バレリーナはランナーの舞曲を組み合わせたワルツを踊り、割って入ったペトルーシュカは追い出される。",
+        "highlights": [
+          "ランナーの舞曲によるワルツ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4場 夕方の謝肉祭の市",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "乳母たち、御者たちの踊りと熊の踊りの後、ムーア人がペトルーシュカを斬り殺す。最後にトランペットとともにペトルーシュカの亡霊が現れる。",
+        "highlights": [
+          "〈熊の踊り〉のテューバ",
+          "タンブリンの一打",
+          "亡霊の出現"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "《火の鳥》の後、ストラヴィンスキーはピアノと管弦楽のための演奏会用作品を書き始め、これを聴いたディアギレフがバレエ化を勧めた。台本と美術はベノワで、楽譜はベノワに献呈された。作曲は1910年8月から1911年5月26日にかけてスイス、南フランス、ローマで行われ、1911年6月13日にシャトレ座で初演された。1946年に編成を改めた版が「1947年版」として出版された。",
+    "musicalAnalysis": "4場からなり、市の場面ではロシア民謡や手回しオルガンの旋律、ランナーの舞曲が使われる。ハ長調と嬰ヘ長調を重ねた和音がペトルーシュカに結びつけられ、八音音階が用いられる。1911年版は4管編成にコルネット2とハープ2を含み、1947年版は木管と金管を減らしてピアノの受け持ちを増やしている。",
+    "listeningGuide": {
+      "totalTime": "35分",
+      "recommendedVersion": "ピエール・モントゥー指揮 パリ音楽院管弦楽団、ジュリアス・カッチェン（ピアノ）（1956年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "stravinsky-firebird",
+      "stravinsky-rite-of-spring"
+    ],
+    "relatedComposers": [
+      "rimsky-korsakov"
+    ],
+    "tags": [
+      "orchestral",
+      "modern",
+      "famous",
+      "ballet"
+    ]
   }
 ]
