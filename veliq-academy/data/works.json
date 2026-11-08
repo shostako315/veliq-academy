@@ -12243,5 +12243,1110 @@
       "counterpoint",
       "unfinished"
     ]
+  },
+  {
+    "id": "brahms-clarinet-quintet",
+    "composerId": "brahms",
+    "title": "クラリネット五重奏曲 ロ短調 作品115",
+    "titleEn": "Clarinet Quintet in B minor, Op. 115",
+    "year": 1891,
+    "genre": "chamber",
+    "subgenre": "clarinet quintet",
+    "era": "romantic",
+    "key": "b-minor",
+    "opus": "Op. 115",
+    "duration": 37,
+    "difficulty": 2,
+    "shortDescription": "1891年夏、マイニンゲン宮廷楽団のクラリネット奏者リヒャルト・ミュールフェルトのために、クラリネット三重奏曲作品114と並行して書かれた五重奏曲。1891年12月12日にベルリンでミュールフェルトとヨアヒム四重奏団により公開初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro",
+        "tempo": "Allegro",
+        "key": "b-minor",
+        "duration": null,
+        "description": "弦楽器だけで始まり、クラリネットがその中から現れる。第2主題はニ長調で、和声はニ長調とロ短調の間を行き来する。",
+        "highlights": [
+          "弦楽器だけの開始",
+          "ニ長調の第2主題"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio",
+        "tempo": "Adagio",
+        "key": "B-major",
+        "duration": null,
+        "description": "3部形式で、弦楽器は弱音器を付ける。中間部 più lento はロ短調に移り、クラリネットが弦のトレモロの上で装飾的な句を吹く。",
+        "highlights": [
+          "弱音器を付けた弦",
+          "中間部 più lento"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Andantino — Presto non assai, ma con sentimento",
+        "tempo": "Andantino — Presto non assai, ma con sentimento",
+        "key": "",
+        "duration": null,
+        "description": "Andantino で始まり、主部の Presto non assai, ma con sentimento に移る。最後のフレーズでニ長調の音楽が戻る。",
+        "highlights": [
+          "Andantino から Presto への移行"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Con moto",
+        "tempo": "Con moto",
+        "key": "b-minor",
+        "duration": null,
+        "description": "ロ短調の主題と5つの変奏、コーダからなる。第4変奏はロ長調に移り、コーダで第1楽章の冒頭の音楽が戻る。",
+        "highlights": [
+          "主題と5つの変奏",
+          "コーダでの第1楽章の回帰"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1890年に作曲をやめると表明していたブラームスは、1891年3月にマイニンゲンでクラリネット奏者リヒャルト・ミュールフェルトを聴いた。同年夏、バート・イシュルでクラリネット三重奏曲作品114とこの五重奏曲を書いた。公開初演は1891年12月12日、ベルリンのジングアカデミーで、ミュールフェルトとヨアヒム四重奏団による。初版は1892年3月にジムロックから出版され、題には「または ヴィオラ」とあり、ヴィオラの独奏パートが付く。",
+    "musicalAnalysis": "4楽章構成で、モーツァルトのクラリネット五重奏曲と同じ編成である。第1楽章はニ長調とロ短調の間を行き来し、第2楽章ロ長調の中間部はロ短調に移る。終楽章は主題と5つの変奏とコーダで、コーダで第1楽章の冒頭が戻り、ロ短調で終わる。",
+    "listeningGuide": {
+      "totalTime": "37分",
+      "recommendedVersion": "レジナルド・ケル（クラリネット）、ブッシュ四重奏団（1937年）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mozart-clarinet-concerto"
+    ],
+    "relatedComposers": [
+      "mozart-wa"
+    ],
+    "tags": [
+      "chamber",
+      "romantic",
+      "clarinet",
+      "german",
+      "variations"
+    ]
+  },
+  {
+    "id": "chopin-preludes",
+    "composerId": "chopin",
+    "title": "24の前奏曲 作品28",
+    "titleEn": "24 Preludes, Op. 28",
+    "year": "1838-1839",
+    "genre": "piano",
+    "subgenre": "prelude",
+    "era": "romantic",
+    "key": "",
+    "opus": "Op. 28",
+    "duration": 35,
+    "difficulty": 2,
+    "shortDescription": "24の長調と短調を1曲ずつ使うピアノ曲集。1838〜39年の冬にマヨルカ島で仕上げられ、1839年8月にパリのカトラン、9月にライプツィヒのブライトコップフ・ウント・ヘルテルから出版された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1番 Agitato",
+        "tempo": "Agitato",
+        "key": "C-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2番 Lento",
+        "tempo": "Lento",
+        "key": "a-minor",
+        "duration": null,
+        "description": "1838年11月28日の日付のスケッチが残り、マヨルカで書かれたとみられる。",
+        "highlights": [
+          "パルマで日付を記したスケッチ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3番 Vivace",
+        "tempo": "Vivace",
+        "key": "G-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4番 Largo",
+        "tempo": "Largo",
+        "key": "e-minor",
+        "duration": null,
+        "description": "1838年11月28日の日付のスケッチが残り、マヨルカで書かれたとみられる。",
+        "highlights": [
+          "パルマで日付を記したスケッチ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "第5番",
+        "tempo": "",
+        "key": "D-major",
+        "duration": null,
+        "description": "39小節。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "第6番 Lento assai",
+        "tempo": "Lento assai",
+        "key": "b-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "第7番 Andantino",
+        "tempo": "Andantino",
+        "key": "A-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "第8番 Molto agitato",
+        "tempo": "Molto agitato",
+        "key": "f#-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "第9番 Largo",
+        "tempo": "Largo",
+        "key": "E-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "第10番 Molto allegro",
+        "tempo": "Molto allegro",
+        "key": "c#-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "第11番 Vivace",
+        "tempo": "Vivace",
+        "key": "B-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "第12番 Presto",
+        "tempo": "Presto",
+        "key": "g#-minor",
+        "duration": null,
+        "description": "第78小節以下の2小節は、フォンタナの写しとドイツ初版に無い。",
+        "highlights": [
+          "資料による小節の有無"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 13,
+        "title": "第13番 Lento",
+        "tempo": "Lento",
+        "key": "F#-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 14,
+        "title": "第14番 Allegro",
+        "tempo": "Allegro",
+        "key": "eb-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 15,
+        "title": "第15番 Sostenuto",
+        "tempo": "Sostenuto",
+        "key": "Db-major",
+        "duration": null,
+        "description": "「雨だれ」の通称で呼ばれる。1838年10月にパリを発つ前に下書きの形で存在していた。",
+        "highlights": [
+          "通称「雨だれ」"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 16,
+        "title": "第16番 Presto con fuoco",
+        "tempo": "Presto con fuoco",
+        "key": "bb-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 17,
+        "title": "第17番 Allegretto",
+        "tempo": "Allegretto",
+        "key": "Ab-major",
+        "duration": null,
+        "description": "終わり近くでバスに11回打たれる音を、ショパンはディミヌエンドせずに弾くよう求めたと伝えられる。",
+        "highlights": [
+          "バスの11音"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 18,
+        "title": "第18番 Molto allegro",
+        "tempo": "Molto allegro",
+        "key": "f-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 19,
+        "title": "第19番 Vivace",
+        "tempo": "Vivace",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 20,
+        "title": "第20番 Largo",
+        "tempo": "Largo",
+        "key": "c-minor",
+        "duration": null,
+        "description": "第9〜12小節は自筆譜では書き出されず、反復の指示で示されている。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 21,
+        "title": "第21番 Cantabile",
+        "tempo": "Cantabile",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 22,
+        "title": "第22番 Molto agitato",
+        "tempo": "Molto agitato",
+        "key": "g-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 23,
+        "title": "第23番 Moderato",
+        "tempo": "Moderato",
+        "key": "F-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 24,
+        "title": "第24番 Allegro appassionato",
+        "tempo": "Allegro appassionato",
+        "key": "d-minor",
+        "duration": null,
+        "description": "第51小節の強弱は、フォンタナの写しとドイツ初版が f、フランス初版が ff。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "一部は1830年代初めにさかのぼる可能性があり、第15番は1838年10月にパリを発つ前に下書きの形で存在していた。ショパンは1838年11月8日にジョルジュ・サンドとマヨルカ島に着き、第2番と第4番には11月28日の日付のスケッチが残る。1839年1月22日、ヴァルデモサからカミーユ・プレイエルに、プレイエルのピアノで仕上げた前奏曲を送ると書いた。フランス初版は1839年8月にカトラン社、ドイツ初版は同年9月にブライトコップフ・ウント・ヘルテルから出た。献呈はフランス版と英国版がプレイエル、ドイツ版がヨーゼフ・クリストフ・ケスラーである。",
+    "musicalAnalysis": "ハ長調とイ短調から始め、長調とその平行短調を組にして5度ずつ上がり、第24番ニ短調で24の調が一巡する。自筆譜（ポーランド国立図書館 Mus. 93）はフランス初版の版下となり、フォンタナの写しはドイツ初版の版下となった。両系統の間には、第12番の2小節の有無などの異同がある。",
+    "listeningGuide": {
+      "totalTime": "35分",
+      "recommendedVersion": "アルフレッド・コルトー（1933〜34年、HMV）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "chopin-etudes",
+      "chopin-ballade-1"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "piano",
+      "romantic",
+      "polish",
+      "solo",
+      "famous"
+    ]
+  },
+  {
+    "id": "dvorak-symphony-8",
+    "composerId": "dvorak",
+    "title": "交響曲第8番 ト長調 作品88",
+    "titleEn": "Symphony No. 8 in G major, Op. 88",
+    "year": 1889,
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "romantic",
+    "key": "G-major",
+    "opus": "Op. 88",
+    "duration": 36,
+    "difficulty": 1,
+    "shortDescription": "1889年8月26日から11月8日にかけて主にヴィソカーで書かれ、1890年2月2日にプラハで作曲者の指揮により初演された。初版は1892年にロンドンのノヴェロ社から出た。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro con brio",
+        "tempo": "Allegro con brio",
+        "key": "G-major",
+        "duration": 10,
+        "description": "チェロの主題がト短調で始まり、変ホ長調、変イ長調を経てト長調に達する。この序奏は提示部・展開部・再現部の始めに戻る。",
+        "highlights": [
+          "序奏の回帰",
+          "序奏のあとのフルート独奏"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Adagio",
+        "tempo": "Adagio",
+        "key": "c-minor",
+        "duration": 11,
+        "description": "冒頭の句は第8小節でハ短調に落ち着く。ハ長調の中間部をもつ自由なロンド。",
+        "highlights": [
+          "A–B–A′–C–B′–A′の形"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Allegretto grazioso – Molto vivace",
+        "tempo": "Allegretto grazioso – Molto vivace",
+        "key": "g-minor",
+        "duration": 6,
+        "description": "ト短調の舞曲で、トリオはト長調。トリオの旋律はオペラ《がんこ者たち》のトニークのアリアから取られている。",
+        "highlights": [
+          "ト長調のトリオ",
+          "Molto vivace のコーダ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Allegro ma non troppo",
+        "tempo": "Allegro ma non troppo",
+        "key": "",
+        "duration": 10,
+        "description": "トランペットのファンファーレで始まり、主主題が変奏の形で繰り返し現れる。",
+        "highlights": [
+          "トランペットのファンファーレ",
+          "フルートの変奏"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "作曲は1889年8月26日から11月8日にかけてで、大部分は夏の家のあったヴィソカーで書かれた。1890年2月2日、プラハのルドルフィヌムで国民劇場管弦楽団と作曲者の指揮により初演され、同年4月24日にはロンドンのフィルハーモニー協会で作曲者がイギリス初演を指揮した。ジムロック社との報酬の交渉が決裂したため、1892年にロンドンのノヴェロ・ユーワー社から出版された。献辞は皇帝フランツ・ヨーゼフ・ボヘミア科学・文学・芸術アカデミー宛てである。",
+    "musicalAnalysis": "第1楽章の序奏は提示部・展開部・再現部の始めに戻る。第2楽章は自由なロンドで、ハ短調の部分とハ長調の中間部をもつ。第3楽章はト短調の舞曲とト長調のトリオからなる。第4楽章はトランペットのファンファーレで始まり、主主題を変奏する。",
+    "listeningGuide": {
+      "totalTime": "36分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "dvorak-sym9",
+      "dvorak-vc"
+    ],
+    "relatedComposers": [
+      "brahms",
+      "beethoven"
+    ],
+    "tags": [
+      "symphony",
+      "romantic",
+      "bohemian"
+    ]
+  },
+  {
+    "id": "mendelssohn-symphony-4",
+    "composerId": "mendelssohn",
+    "title": "交響曲第4番 イ長調 作品90《イタリア》",
+    "titleEn": "Symphony No. 4 in A major, Op. 90 \"Italian\"",
+    "year": "1830-1833",
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "romantic",
+    "key": "A-major",
+    "opus": "Op. 90",
+    "duration": 30,
+    "difficulty": 1,
+    "shortDescription": "1830〜31年のイタリア旅行中に書き始められ、1833年にロンドンのフィルハーモニック協会のために完成した交響曲。作曲者の生前には出版されず、1851年に出版された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Allegro vivace",
+        "tempo": "Allegro vivace",
+        "key": "A-major",
+        "duration": null,
+        "description": "ソナタ形式。木管とホルンの和音の上で第1主題が始まり、展開部ではフガートによる主題が現れる。",
+        "highlights": [
+          "木管とホルンの和音による開始",
+          "展開部のフガート"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Andante con moto",
+        "tempo": "Andante con moto",
+        "key": "d-minor",
+        "duration": null,
+        "description": "行進曲の形をとり、巡礼の歌に似た旋律が対位法的な声部を伴って繰り返される。",
+        "highlights": [
+          "巡礼の歌に似た旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Con moto moderato",
+        "tempo": "Con moto moderato",
+        "key": "",
+        "duration": null,
+        "description": "メヌエットとトリオ。トリオはホルンの呼びかけで導かれる。",
+        "highlights": [
+          "トリオを導くホルン"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Saltarello: Presto",
+        "tempo": "Presto",
+        "key": "a-minor",
+        "duration": null,
+        "description": "サルタレッロとタランテラの要素を組み合わせた短調の舞曲。イ長調の交響曲が同主短調で終わる。",
+        "highlights": [
+          "サルタレッロ",
+          "短調で終わる"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "メンデルスゾーンは1830年11月1日にローマに着き、この交響曲を書き始めた。ロンドンのフィルハーモニック協会の委嘱により1833年3月13日に完成し、同年5月13日にロンドンで作曲者の指揮で初演された。1834年に後半3楽章を改訂したが第1楽章の改訂には着手せず、生前は出版しなかった。1849年にライプツィヒで指揮したユリウス・リーツが取り上げ、1851年にブライトコップフ・ウント・ヘルテルから出版された。",
+    "musicalAnalysis": "4楽章構成。第1楽章はイ長調のソナタ形式、第2楽章はニ短調の Andante con moto、第3楽章はメヌエットとトリオ、第4楽章はサルタレッロで、イ長調で始まった交響曲が同主短調で終わる。ホグウッド校訂のベーレンライター版は1833年稿と1834年改訂の後半3楽章の両方を収める。",
+    "listeningGuide": {
+      "totalTime": "30分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "mendelssohn-vc",
+      "mendelssohn-mnd"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "romantic",
+      "italy",
+      "famous"
+    ]
+  },
+  {
+    "id": "puccini-turandot",
+    "composerId": "puccini",
+    "title": "オペラ《トゥーランドット》",
+    "titleEn": "Turandot",
+    "year": "1920-1924",
+    "genre": "opera",
+    "subgenre": "dramma lirico",
+    "era": "modern",
+    "key": "",
+    "opus": "",
+    "duration": 120,
+    "difficulty": 2,
+    "shortDescription": "ゴッツィの戯曲に基づき、アダーミとシモーニの台本で書かれた3幕5場のオペラ。プッチーニの死で未完となり、アルファーノが終幕を補筆した。1926年4月25日にスカラ座でトスカニーニの指揮により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": 33,
+        "description": "民謡〈茉莉花〉の旋律が舞台裏の児童合唱で初めて歌われ、トゥーランドットの主な主題となる。リューのアリア〈ご主人様、お聞きください〉がある。",
+        "highlights": [
+          "〈茉莉花〉の児童合唱",
+          "ピン・パン・ポンの登場",
+          "〈ご主人様、お聞きください〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": 45,
+        "description": "2場からなる。第1場のピン・パン・ポンの場は1922年3月に加えられた。第2場の玉座の間で皇帝の讃歌が聞こえ、トゥーランドットが〈この宮殿の中で〉を歌い、カラフが3つの謎に答える。",
+        "highlights": [
+          "ピン・パン・ポンの場",
+          "〈この宮殿の中で〉",
+          "3つの謎"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3幕",
+        "tempo": "",
+        "key": "",
+        "duration": 42,
+        "description": "カラフの〈誰も寝てはならぬ〉で始まる。リューは拷問を受けて死ぬ。プッチーニの音楽はリューの死の場面で終わり、その後の二重唱と終曲はアルファーノの補筆である。",
+        "highlights": [
+          "〈誰も寝てはならぬ〉",
+          "リューの死",
+          "アルファーノの補筆による終幕"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1920年初めにシモーニがゴッツィの寓話劇を提案し、プッチーニは同年に着手した。1920年8月にファッシーニ男爵のオルゴールで中国の旋律を聴き、その3つを総譜に用いた。1924年11月29日にブリュッセルで没し、終幕のための36枚のスケッチが残された。1926年4月25日のスカラ座の初演で、トスカニーニはリューの死の場面で演奏を止め、アルファーノの終幕は翌日の上演から加えられた。",
+    "musicalAnalysis": "3幕5場。〈茉莉花〉などの中国の旋律と五音音階が用いられ、管弦楽にはアルト・サクソフォン、チェレスタ、バス・シロフォン、オルガン、中国の銅鑼が加わる。印刷された総譜の終幕は、アルファーノの最初の補筆を短縮したものである。",
+    "listeningGuide": {
+      "totalTime": "約2時間（音楽のみ。スカラ座2026年の上演で休憩2回を含め約2時間50分）",
+      "recommendedVersion": "ズービン・メータ指揮ロンドン・フィルハーモニー管弦楽団、ジョン・オールディス合唱団、サザーランド、パヴァロッティ、カバリエ（1972年、デッカ）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "puccini-boheme",
+      "puccini-butterfly"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "modern",
+      "famous",
+      "italian"
+    ]
+  },
+  {
+    "id": "schumann-symphony-3",
+    "composerId": "schumann-r",
+    "title": "交響曲第3番 変ホ長調 作品97《ライン》",
+    "titleEn": "Symphony No. 3 in E-flat major, Op. 97 \"Rhenish\"",
+    "year": 1850,
+    "genre": "symphony",
+    "subgenre": "orchestral",
+    "era": "romantic",
+    "key": "Eb-major",
+    "opus": "Op. 97",
+    "duration": 33,
+    "difficulty": 2,
+    "shortDescription": "デュッセルドルフ市の音楽監督に着任した直後の1850年11月2日から12月9日にかけて書かれた5楽章の交響曲。1851年2月6日にデュッセルドルフで作曲者の指揮で初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Lebhaft",
+        "tempo": "Lebhaft",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "遅い序奏なしに始まる3拍子の楽章。主要動機は2分の3拍子を感じさせたのち4分の3拍子に落ち着く。",
+        "highlights": [
+          "遅い序奏なしの開始",
+          "4本のホルンによる主題の拡大"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Scherzo: Sehr mäßig",
+        "tempo": "Sehr mäßig",
+        "key": "",
+        "duration": null,
+        "description": "レントラーの形をとるスケルツォ。民謡風の旋律をファゴット、ヴィオラ、チェロが提示する。当初の題は「ラインの朝」。",
+        "highlights": [
+          "レントラー",
+          "短調のホルンの旋律"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Nicht schnell",
+        "tempo": "Nicht schnell",
+        "key": "",
+        "duration": null,
+        "description": "クラリネットとファゴットの旋律、ヴァイオリンの刻む音型、ヴィオラの歌う主題の3つの楽想が組み合わされる。",
+        "highlights": [
+          "3つの楽想の組み合わせ"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Feierlich",
+        "tempo": "Feierlich",
+        "key": "eb-minor",
+        "duration": null,
+        "description": "トロンボーンが初めて加わり、ファゴット、トロンボーン、ホルンが対位法的なコラールを奏する。当初は「荘厳な儀式の伴奏の性格で」と表示されていた。",
+        "highlights": [
+          "トロンボーンの登場",
+          "対位法的なコラール"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Lebhaft",
+        "tempo": "Lebhaft",
+        "key": "",
+        "duration": null,
+        "description": "前の楽章の動機を回想し、コーダで第4楽章のコラールの主題が戻る。初演のプログラムでは Allegro vivace と記されていた。",
+        "highlights": [
+          "第4楽章のコラールの回帰"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "シューマンは1850年にデュッセルドルフ市の音楽監督となり、同年9月と11月にケルン大聖堂を訪れた。11月2日に作曲を始め、12月9日に総譜を完成した。1851年2月6日にデュッセルドルフで作曲者の指揮で初演され、総譜は同年10月にボンのジムロックから出版された。「ライン」の呼び名は作曲者ではなくヴァジェレフスキに由来するとされる。",
+    "musicalAnalysis": "5楽章構成で、緩徐楽章は第3楽章に置かれる。4度音程と変ホ長調の主和音が全楽章に現れる。トロンボーンは変ホ短調の第4楽章で初めて加わり、終楽章のコーダでその楽章のコラールの主題が戻る。",
+    "listeningGuide": {
+      "totalTime": "33分",
+      "recommendedVersion": "ヴォルフガング・サヴァリッシュ指揮 シュターツカペレ・ドレスデン（1973年、EMI）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "schumann-pc",
+      "schumann-dichterliebe",
+      "schumann-carnaval"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "symphony",
+      "romantic",
+      "rhine",
+      "cologne"
+    ]
+  },
+  {
+    "id": "verdi-otello",
+    "composerId": "verdi",
+    "title": "オペラ《オテッロ》",
+    "titleEn": "Otello",
+    "year": "1884-1886",
+    "genre": "opera",
+    "subgenre": "dramma lirico",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "シェイクスピアの『オセロー』をもとにボーイトが台本を書いた4幕の抒情劇。1887年2月5日、ミラノのスカラ座でファッチョの指揮により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "キプロスの港。嵐の中でオテッロが上陸し、イアーゴが企みを始める。幕の終わりにオテッロとデズデーモナが再会する。",
+        "highlights": [
+          "嵐の場面",
+          "オテッロの〈喜べ〉",
+          "カッシオの乾杯の歌〈喉を潤せ〉",
+          "二重唱〈すでに夜も更けた〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "城内の一室。イアーゴがオテッロにデズデーモナへの疑いを吹き込み、ハンカチの一件で疑いが深まる。2人は復讐を誓う。",
+        "highlights": [
+          "イアーゴの〈クレド〉"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第3幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "城の大広間。ヴェネツィアの使節がオテッロを呼び戻し、カッシオを総督に任じる。オテッロはデズデーモナを打ち、倒れる。",
+        "highlights": [
+          "1894年パリ上演のためのバレエ（通常は省略）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第4幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "デズデーモナの寝室。オテッロはデズデーモナを殺し、エミーリアが企みを明かすと、自らを刺して死ぬ。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1879年に出版社のジューリオ・リコルディが題材を提案した。ヴェルディとボーイトは《シモン・ボッカネグラ》の改訂で協働したのち、ヴェルディは1884年3月に第1幕に着手し、1886年まで作曲した。1887年2月5日、スカラ座でファッチョの指揮、タマーニョのオテッロ、モーレルのイアーゴ、パンタレオーニのデズデーモナにより初演された。1894年のパリ・オペラ座の上演のために第3幕にバレエが加えられた。",
+    "musicalAnalysis": "台本はシェイクスピアの第1幕を省き、舞台を15世紀末のキプロスに置く。独立して歌われるアリアが少ない。第2幕のイアーゴの〈クレド〉は原作に直接対応する箇所のない、台本作家と作曲者による場面である。",
+    "listeningGuide": {
+      "totalTime": "",
+      "recommendedVersion": "チョン・ミョンフン指揮 パリ・オペラ座（バスティーユ）、プラシド・ドミンゴ、シェリル・ステューダー、セルゲイ・レイフェルクス（1993年、DG）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "verdi-aida",
+      "verdi-requiem"
+    ],
+    "relatedComposers": [
+      "wagner"
+    ],
+    "tags": [
+      "opera",
+      "romantic",
+      "italian",
+      "shakespeare",
+      "famous"
+    ]
+  },
+  {
+    "id": "verdi-requiem",
+    "composerId": "verdi",
+    "title": "レクイエム（マンゾーニ・レクイエム）",
+    "titleEn": "Messa da Requiem",
+    "year": "1873-1874",
+    "genre": "choral",
+    "subgenre": "requiem",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 2,
+    "shortDescription": "アレッサンドロ・マンゾーニの死を受けて書かれた、4人の独唱、混声合唱、管弦楽のためのレクイエム。1874年5月22日、ミラノのサン・マルコ教会でヴェルディの指揮により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "レクイエム",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "冒頭の部分。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "怒りの日",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "続唱を〈怒りの日〉〈奇しきラッパの響き〉〈書き記された書物〉〈あわれなるわれ〉〈涙の日〉などに分けて作曲する。〈書き記された書物〉は1875年の改訂でメゾソプラノの独唱になった。",
+        "highlights": [
+          "〈奇しきラッパの響き〉の8本のトランペット（4本は舞台外）",
+          "〈涙の日〉（《ドン・カルロス》の二重唱の主題）"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "奉献唱",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "聖なるかな",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "古い様式による合唱のフーガ。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "神の小羊",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "ソプラノとメゾソプラノが無伴奏のオクターヴで歌い、合唱と管弦楽が応える。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "永遠の光",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "われを解き放ちたまえ",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "1868〜69年にロッシーニ追悼の合作レクイエムのために書いた〈リベラ・メ〉が元になっている。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "1868年にロッシーニが没すると、ヴェルディは合作の追悼レクイエムを提案して〈リベラ・メ〉を書いたが、合作は演奏されなかった。1873年5月22日にマンゾーニが没すると、ヴェルディはその一周忌のためにレクイエムを作曲した。1874年5月22日、ミラノのサン・マルコ教会でヴェルディの指揮により初演され、3日後にスカラ座で再演された。1875年5月、〈書き記された書物〉が合唱のフーガからメゾソプラノの独唱に改められた。",
+    "musicalAnalysis": "7つの部分からなる。〈怒りの日〉の〈奇しきラッパの響き〉では8本のトランペットのうち4本が舞台外で吹かれる。〈聖なるかな〉は合唱のフーガで、〈神の小羊〉はソプラノとメゾソプラノの無伴奏のオクターヴで始まる。宗教曲としてオペラ的すぎるという批判を受け、ビューローは「教会の衣を着たオペラ」と評した。",
+    "listeningGuide": {
+      "totalTime": "",
+      "recommendedVersion": "カルロ・マリア・ジュリーニ指揮 フィルハーモニア管弦楽団・合唱団、シュヴァルツコップ、ルートヴィヒ、ゲッダ、ギャウロフ（1963〜64年、EMI）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "verdi-aida",
+      "verdi-otello"
+    ],
+    "relatedComposers": [
+      "rossini"
+    ],
+    "tags": [
+      "choral",
+      "sacred",
+      "requiem",
+      "romantic",
+      "italian",
+      "famous"
+    ]
+  },
+  {
+    "id": "wagner-meistersinger",
+    "composerId": "wagner",
+    "title": "楽劇《ニュルンベルクのマイスタージンガー》",
+    "titleEn": "Die Meistersinger von Nürnberg",
+    "year": "1862-1867",
+    "genre": "opera",
+    "subgenre": "music drama",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 3,
+    "shortDescription": "ワーグナーが自ら台本を書いた3幕の作品で、16世紀半ばのニュルンベルクを舞台に詩人ハンス・ザックスが登場する。1868年6月21日、ミュンヘンの宮廷・国民劇場でハンス・フォン・ビューローの指揮により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "前奏曲",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "1862年3月、台本の完成前に書かれた。冒頭の主題は前奏曲の結びとオペラの終わりに戻り、ヴァルターの懸賞の歌の旋律と徒弟たちのフガートを含む。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "教会の礼拝の後、親方たちの予備審査。ポーグナーは娘エーファを歌合戦の賞とし、ヴァルターは規則を破る歌を歌ってベックメッサーに誤りを数えられ、不合格となる。",
+        "highlights": [
+          "礼拝の合唱",
+          "ヴァルターの試験の歌"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "その夜。ベックメッサーのセレナードをザックスが靴作りの歌でかき消し、ダーヴィトがベックメッサーに殴りかかって乱闘になる。夜警の角笛で人々は散る。",
+        "highlights": [
+          "ザックスの靴作りの歌",
+          "ベックメッサーのセレナード",
+          "乱闘の場面"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第3幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "翌日。ザックスはヴァルターの夢の歌を書き取って形を整え、歌合戦ではベックメッサーが失敗し、ヴァルターが勝者となる。ワーグナーの作品で最も長い幕である。",
+        "highlights": [
+          "懸賞の歌",
+          "五重唱",
+          "《トリスタンとイゾルデ》の引用",
+          "終幕の合唱"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ワーグナーは1845年7月にマリエンバートで散文の草稿を書いた。1861年に出版社ショットとの書簡でこの作品を再び取り上げ、1862年に台本を完成し、総譜は1867年に完成した。1868年6月21日にミュンヘンで初演され、ルートヴィヒ2世に献呈された。初演から1年のうちに中部ヨーロッパの各地で上演され、1882年5月30日にはロンドンのドルリー・レーン劇場でリヒターの指揮により英国初演された。",
+    "musicalAnalysis": "台本の中心となる場面が独立した番号を必要としたため、ワーグナーは連続する音楽の書法から部分的に離れた。第3幕には五重唱と《トリスタンとイゾルデ》からの引用がある。ベックメッサーの歌はイタリアのコロラトゥーラのパロディとされる。",
+    "listeningGuide": {
+      "totalTime": "全曲録音で約4時間20分〜4時間55分（休憩を含まない）",
+      "recommendedVersion": "ヘルベルト・フォン・カラヤン指揮 バイロイト祝祭管弦楽団・合唱団、オットー・エーデルマン、ハンス・ホップ、エリーザベト・シュヴァルツコップ（1951年、バイロイト祝祭劇場でのライヴ）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "wagner-tristan",
+      "wagner-ring-walkure"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "romantic",
+      "german",
+      "comic-opera"
+    ]
+  },
+  {
+    "id": "wagner-parsifal",
+    "composerId": "wagner",
+    "title": "舞台神聖祝典劇《パルジファル》",
+    "titleEn": "Parsifal",
+    "year": "1877-1882",
+    "genre": "opera",
+    "subgenre": "music drama",
+    "era": "romantic",
+    "key": "",
+    "opus": "",
+    "duration": null,
+    "difficulty": 3,
+    "shortDescription": "ヴォルフラム・フォン・エッシェンバッハの『パルツィヴァール』を主な典拠に、ワーグナーが自ら台本を書いた3幕の作品。1882年7月26日、バイロイト祝祭劇場でヘルマン・レーヴィの指揮により初演された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "前奏曲",
+        "tempo": "",
+        "key": "",
+        "duration": 15,
+        "description": "ユニゾンの弦楽器が単純な旋律を出し、聖杯と槍の動機が現れる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "第1幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "聖杯の聖域の近く。グルネマンツがクリングゾルとアンフォルタスの傷のいきさつを語り、白鳥を射た若者が連れて来られる。聖杯の儀式でアンフォルタスは覆いを取ることを拒む。",
+        "highlights": [
+          "アンフォルタスの〈悲しみの遺産〉",
+          "聖杯の儀式"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "第2幕",
+        "tempo": "",
+        "key": "",
+        "duration": 65,
+        "description": "クリングゾルの城と魔法の庭。花の乙女たちとクンドリが若者を誘惑し、パルジファルはアンフォルタスの痛みを感じてクンドリを拒み、クリングゾルの投げた槍をつかむ。",
+        "highlights": [
+          "花の乙女たちの場面",
+          "クンドリの〈私はその子を見た〉",
+          "槍をつかむ場面"
+        ],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "第3幕",
+        "tempo": "",
+        "key": "",
+        "duration": null,
+        "description": "数年後。パルジファルが槍を携えて戻り、クンドリに洗礼を施す。聖域でアンフォルタスの傷を槍で癒し、聖杯の覆いを取る。",
+        "highlights": [
+          "聖金曜日の音楽",
+          "終結部の聖杯と槍の動機"
+        ],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "ワーグナーは1845年夏にヴォルフラムの物語を知り、1865年にルートヴィヒ2世のために散文の草稿を書いた。台本は1877年に書かれ、総譜は1882年1月13日に完成した。1882年7月26日にバイロイトで初演され、コジマ・ワーグナーは30年の著作権の期間中、舞台上演をバイロイトに限った。1903年12月24日にメトロポリタン歌劇場がバイロイトの外で初めて舞台上演し、著作権が切れた1914年1月1日以後、8か月で約50のヨーロッパの歌劇場が上演した。",
+    "musicalAnalysis": "音楽の動機を人物・物・観念に結びつけるワーグナーの手法による最後の作品である。前奏曲には聖杯と槍の動機が含まれ、第3幕の聖金曜日の音楽はパルジファルの主題と花の草原の動機を用いる。終結部では聖杯と槍の動機が一つの上昇する線に合わさり、長い五度圏の進行を経て冒頭の調に戻る。",
+    "listeningGuide": {
+      "totalTime": "全曲録音で約4時間10分〜4時間45分（休憩を含まない）",
+      "recommendedVersion": "ハンス・クナッパーツブッシュ指揮 バイロイト祝祭管弦楽団・合唱団、ジェス・トーマス、ハンス・ホッター、ジョージ・ロンドン、アイリーン・ダリス（1962年、バイロイトでのライヴ、フィリップス）",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "wagner-tristan",
+      "wagner-ring-walkure",
+      "wagner-meistersinger"
+    ],
+    "relatedComposers": [],
+    "tags": [
+      "opera",
+      "romantic",
+      "german",
+      "bayreuth"
+    ]
   }
 ]

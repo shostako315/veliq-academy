@@ -298,6 +298,7 @@
   <url><loc>https://veliq-academy.com/music/works/borodin-polovtsian/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/boulez-marteau/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/brahms-academic-festival-and-tragic-overtures/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/brahms-clarinet-quintet/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/brahms-double-concerto/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/brahms-german-requiem/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/brahms-haydn-variations/</loc><lastmod>2026-10-29</lastmod></url>
@@ -315,6 +316,7 @@
   <url><loc>https://veliq-academy.com/music/works/chopin-concerto1/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/chopin-etudes/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/chopin-nocturne2/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/chopin-preludes/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/copland-appalachian-spring/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/corelli-op6/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/debussy-clair/</loc><lastmod>2026-11-07</lastmod></url>
@@ -322,6 +324,7 @@
   <url><loc>https://veliq-academy.com/music/works/debussy-prelude-afternoon/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/donizetti-lucia/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-sym9/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/dvorak-symphony-8/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-vc/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/elgar-cello-concerto/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/elgar-enigma/</loc><lastmod>2026-11-07</lastmod></url>
@@ -388,6 +391,7 @@
   <url><loc>https://veliq-academy.com/music/works/prokofiev-romeo/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/puccini-boheme/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/puccini-butterfly/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/puccini-turandot/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/purcell-dido/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/ravel-bolero/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/ravel-daphnis/</loc><lastmod>2026-11-07</lastmod></url>
@@ -406,8 +410,10 @@
   <url><loc>https://veliq-academy.com/music/works/schubert-trout/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schubert-unfinished/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schubert-winterreise/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/schumann-carnaval/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schumann-dichterliebe/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schumann-pc/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/schumann-symphony-3/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/scriabin-poem-of-ecstasy/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/shostakovich-sq8/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/shostakovich-sym5/</loc><lastmod>2026-11-07</lastmod></url>
@@ -430,10 +436,14 @@
   <url><loc>https://veliq-academy.com/music/works/telemann-tafelmusik/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/vaughan-williams-tallis/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/verdi-aida/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/verdi-otello/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/verdi-requiem/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/verdi-traviata/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/villa-lobos-bachianas-5/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/vivaldi-four-seasons/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/vivaldi-gloria/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/wagner-meistersinger/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/wagner-parsifal/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/wagner-ring-walkure/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/wagner-tristan/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/weber-freischutz/</loc><lastmod>2026-11-07</lastmod></url>
