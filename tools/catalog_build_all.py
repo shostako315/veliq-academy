@@ -663,6 +663,9 @@ def main():
     keyed = sum(1 for rs in by.values() for r in rs if r["key"])
     conf = sum(1 for rs in by.values() for r in rs if r.get("conflicts"))
     print(f"作曲家 {len(by)}人／作品 {total}件（調あり {keyed}）／NYP演奏記録 {hit}件・所蔵スコア {sc}冊を結合／出典の食い違い {conf}件")
+    # 作曲家を指定しない検索のための軽い索引（Worker が全作曲家の本体を読まずに済む）
+    import subprocess, sys
+    subprocess.run([sys.executable, str(Path(__file__).with_name("catalog_index.py"))], check=True)
 
 
 if __name__ == "__main__":

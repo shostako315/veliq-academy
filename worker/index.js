@@ -32,6 +32,15 @@ async function catalog(env) {
       const hit = idx.files.map((f) => f.composer).filter((c) => String(id).startsWith(c + "-")).sort((a, b) => b.length - a.length);
       return hit[0] || null;
     },
+    // 作曲家を指定しない検索：全作曲家の本体（約16MB）を読まず、軽い索引（調ごと、または全体約5MB）だけを読む
+    shards: {},
+    async index(keyPc) {
+      const name = keyPc ? `key-${keyPc.pc}-${keyPc.minor ? "minor" : "major"}` : "all";
+      if (!this.shards[name]) {
+        try { this.shards[name] = await get(`/data/catalog/_search/${name}.json`); } catch (_) { this.shards[name] = []; }
+      }
+      return this.shards[name];
+    },
     async getWork(id) {
       const c = this.composerOfId(id);
       await this.load(c ? [c] : null);
@@ -153,7 +162,10 @@ async function search(cat, p) {
   const genre = genreOf(p.genre);
   const comps = composerIds(p.composer, cat.composers);
   const excl = composerIds(p.exclude, cat.composers);
-  await cat.load(comps);  // 作曲家の指定があればその分だけ読む
+  // 作曲家の指定があればその分だけ読む。無ければ索引だけを引き、最後に該当する作曲家の本体を読む
+  const useIdx = !comps;
+  let pool;
+  if (useIdx) pool = await cat.index(key || null); else { await cat.load(comps); pool = cat.works; }
   const inst = p.instrument ? String(p.instrument).toLowerCase() : null;
   const anyMov = p.movementKey === "1" || p.movementKey === true;
   const num = (v) => (v === undefined || v === null || v === "" ? null : +v);
@@ -161,7 +173,7 @@ async function search(cat, p) {
   const q = p.q ? String(p.q).toLowerCase() : null;
   const lim = Math.min(Math.max(num(p.limit) || 100, 1), 500);
   const out = [];
-  for (const w of cat.works) {
+  for (const w of pool) {
     if (comps && !comps.includes(w.composer)) continue;
     if (excl && excl.includes(w.composer)) continue;
     if (genre && genre.startsWith("@")) { if (categoryOf(w) !== genre.slice(1)) continue; }
@@ -197,8 +209,17 @@ async function search(cat, p) {
     // 件数が多いときは、NYP での演奏回数と代表作（popular）の順に上位だけ返す。少ないときは目録の順のまま
     limit: lim,
     truncated: out.length > lim || undefined,
-    results: (out.length > lim ? [...out].sort((a, b) => (b.nyp?.performances || 0) - (a.nyp?.performances || 0) || (b.popular ? 1 : 0) - (a.popular ? 1 : 0)).slice(0, lim) : out).map(slim),
+    results: (await full(cat, useIdx, out.length > lim ? [...out].sort((a, b) => (b.nyp?.performances || 0) - (a.nyp?.performances || 0) || (b.popular ? 1 : 0) - (a.popular ? 1 : 0)).slice(0, lim) : out)).map(slim),
   };
+}
+// 索引の行を、作曲家ごとの本体の記録に置き換える（出典・注記・NYP などは本体にだけある）
+async function full(cat, useIdx, rows) {
+  if (!useIdx || !rows.length) return rows;
+  await cat.load([...new Set(rows.map((r) => r.composer))]);
+  return rows.map((r) => {
+    const w = (cat.byComp[r.composer] || []).find((x) => x.id === r.id) || r;
+    return r.matchedEnharmonic ? { ...w, matchedEnharmonic: true } : w;
+  });
 }
 function slim(w) {
   return {
