@@ -11,17 +11,33 @@ const CORS = {
 };
 const SITE = "https://veliq-academy.com";
 
+// 目録は作曲家ごとのファイル（全部で十数MB）。必要な作曲家の分だけ読み、読んだものは5分間持つ
 let CACHE = null;
 async function catalog(env) {
   if (CACHE && Date.now() - CACHE.at < 300000) return CACHE;
   const get = async (p) => (await env.ASSETS.fetch(new Request(SITE + p))).json();
   const idx = await get("/data/catalog/index.json");
-  const works = [];
-  const parts = await Promise.all(idx.files.map((f) => get(new URL(f.url).pathname)));
-  for (const ws of parts) works.push(...ws);
   let composers = [];
   try { composers = await get("/data/composers.json"); } catch (_) { /* 無くても検索はできる */ }
-  CACHE = { at: Date.now(), idx, works, composers };
+  const byComp = {};
+  CACHE = {
+    at: Date.now(), idx, composers, byComp,
+    get works() { return Object.values(byComp).flat(); },
+    async load(ids) {
+      const want = idx.files.filter((f) => (!ids || ids.includes(f.composer)) && !byComp[f.composer]);
+      const parts = await Promise.all(want.map((f) => get(new URL(f.url).pathname)));
+      want.forEach((f, i) => { byComp[f.composer] = parts[i]; });
+    },
+    composerOfId(id) {
+      const hit = idx.files.map((f) => f.composer).filter((c) => String(id).startsWith(c + "-")).sort((a, b) => b.length - a.length);
+      return hit[0] || null;
+    },
+    async getWork(id) {
+      const c = this.composerOfId(id);
+      await this.load(c ? [c] : null);
+      return (byComp[c] || this.works).find((x) => x.id === id) || null;
+    },
+  };
   return CACHE;
 }
 
@@ -70,6 +86,7 @@ const GENRE = [
   ["piano-quintet", /^(piano[- ]?quintets?|ピアノ五重奏曲?)$/],
   ["overture", /^(overtures?|序曲)$/],
   ["symphonic-poem", /^(symphonic[- ]?poems?|tone[- ]?poems?|交響詩)$/],
+  ["string-symphony", /^(string[- ]?symphon(y|ies)|弦楽のための交響曲|弦楽交響曲)$/],
   ["suite", /^(suites?|組曲)$/],
   ["variations", /^(variations?|変奏曲)$/],
   ["serenade", /^(serenades?|セレナー[デド])$/],
@@ -103,7 +120,7 @@ const CAT_OF_GENRE = {
   "piano-sonata": "keyboard", prelude: "keyboard", etude: "keyboard", nocturne: "keyboard", waltz: "keyboard", mazurka: "keyboard",
   polonaise: "keyboard", ballade: "keyboard", impromptu: "keyboard", "string-quartet": "chamber", "string-quintet": "chamber",
   "piano-trio": "chamber", "piano-quartet": "chamber", "piano-quintet": "chamber", "violin-sonata": "chamber", "cello-sonata": "chamber",
-  symphony: "orchestral", "symphonic-poem": "orchestral", overture: "orchestral", "piano-concerto": "orchestral", "violin-concerto": "orchestral",
+  symphony: "orchestral", "string-symphony": "orchestral", "symphonic-poem": "orchestral", overture: "orchestral", "piano-concerto": "orchestral", "violin-concerto": "orchestral",
   "cello-concerto": "orchestral", concerto: "orchestral", mass: "vocal", requiem: "vocal", cantata: "vocal", oratorio: "vocal", song: "vocal", opera: "stage",
 };
 const categoryOf = (w) => w.category || CAT_OF_GENRE[w.genre] || null;
@@ -130,12 +147,13 @@ function opusNum(w) {
   return m ? +m[1] : null;
 }
 
-function search(cat, p) {
+async function search(cat, p) {
   const key = parseKey(p.key);
   const mode = modeOf(p.mode) || (p.key && !key ? modeOf(p.key) : null);
   const genre = genreOf(p.genre);
   const comps = composerIds(p.composer, cat.composers);
   const excl = composerIds(p.exclude, cat.composers);
+  await cat.load(comps);  // 作曲家の指定があればその分だけ読む
   const inst = p.instrument ? String(p.instrument).toLowerCase() : null;
   const anyMov = p.movementKey === "1" || p.movementKey === true;
   const num = (v) => (v === undefined || v === null || v === "" ? null : +v);
@@ -242,8 +260,8 @@ async function mcp(req, env) {
       const cat = await catalog(env);
       const a = m.params?.arguments || {};
       let r;
-      if (m.params?.name === "search_works") r = search(cat, a);
-      else if (m.params?.name === "get_work") { const w = cat.works.find((x) => x.id === a.id); r = w || { error: "not_found" }; }
+      if (m.params?.name === "search_works") r = await search(cat, a);
+      else if (m.params?.name === "get_work") { const w = await cat.getWork(a.id); r = w || { error: "not_found" }; }
       else return { jsonrpc: "2.0", id, error: { code: -32602, message: "unknown tool" } };
       return { jsonrpc: "2.0", id, result: { content: [{ type: "text", text: JSON.stringify(r) }], structuredContent: r, isError: !!r.error } };
     }
@@ -267,12 +285,12 @@ export default {
     }
     if (url.pathname === "/api/works" || url.pathname === "/api/works/") {
       const cat = await catalog(env);
-      return json(search(cat, Object.fromEntries(url.searchParams)));
+      return json(await search(cat, Object.fromEntries(url.searchParams)));
     }
     const m = url.pathname.match(/^\/api\/works\/([a-z0-9-]+)$/);
     if (m) {
       const cat = await catalog(env);
-      const w = cat.works.find((x) => x.id === m[1]);
+      const w = await cat.getWork(m[1]);
       return w ? json(w) : json({ error: "not_found" }, 404);
     }
     if (url.pathname === "/api" || url.pathname === "/api/") {

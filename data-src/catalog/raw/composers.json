@@ -1,0 +1,979 @@
+[
+ {
+  "id": "bach-js",
+  "nameEn": "Johann Sebastian Bach",
+  "born": 1685,
+  "qid": "Q1339",
+  "imslp": "Category:Bach,_Johann_Sebastian",
+  "label": "Johann Sebastian Bach",
+  "labelJa": "ヨハン・ゼバスティアン・バッハ"
+ },
+ {
+  "id": "handel",
+  "nameEn": "George Frideric Handel",
+  "born": 1685,
+  "qid": "Q7302",
+  "imslp": "Category:Handel,_George_Frideric",
+  "label": "George Frideric Handel",
+  "labelJa": "ゲオルク・フリードリヒ・ヘンデル"
+ },
+ {
+  "id": "vivaldi",
+  "nameEn": "Antonio Vivaldi",
+  "born": 1678,
+  "qid": "Q1340",
+  "imslp": "Category:Vivaldi,_Antonio",
+  "label": "Antonio Vivaldi",
+  "labelJa": "アントニオ・ヴィヴァルディ"
+ },
+ {
+  "id": "telemann",
+  "nameEn": "Georg Philipp Telemann",
+  "born": 1681,
+  "qid": "Q75854",
+  "imslp": "Category:Telemann,_Georg_Philipp",
+  "label": "Georg Philipp Telemann",
+  "labelJa": "ゲオルク・フィリップ・テレマン"
+ },
+ {
+  "id": "purcell",
+  "nameEn": "Henry Purcell",
+  "born": 1659,
+  "qid": "Q9695",
+  "imslp": "Category:Purcell,_Henry",
+  "label": "Henry Purcell",
+  "labelJa": "ヘンリー・パーセル"
+ },
+ {
+  "id": "couperin-f",
+  "nameEn": "Francois Couperin",
+  "born": 1668,
+  "qid": "Q50186",
+  "imslp": "Category:Couperin,_François",
+  "label": "François Couperin",
+  "labelJa": "フランソワ・クープラン"
+ },
+ {
+  "id": "rameau",
+  "nameEn": "Jean-Philippe Rameau",
+  "born": 1683,
+  "qid": "Q1145",
+  "imslp": "Category:Rameau,_Jean-Philippe",
+  "label": "Jean-Philippe Rameau",
+  "labelJa": "ジャン＝フィリップ・ラモー"
+ },
+ {
+  "id": "buxtehude",
+  "nameEn": "Dieterich Buxtehude",
+  "born": 1637,
+  "qid": "Q153637",
+  "imslp": "Category:Buxtehude,_Dietrich",
+  "label": "Dietrich Buxtehude",
+  "labelJa": "ディートリヒ・ブクステフーデ"
+ },
+ {
+  "id": "haydn",
+  "nameEn": "Franz Joseph Haydn",
+  "born": 1732,
+  "qid": "Q7349",
+  "imslp": "Category:Haydn,_Joseph",
+  "label": "Joseph Haydn",
+  "labelJa": "フランツ・ヨーゼフ・ハイドン"
+ },
+ {
+  "id": "mozart-wa",
+  "nameEn": "Wolfgang Amadeus Mozart",
+  "born": 1756,
+  "qid": "Q254",
+  "imslp": "Category:Mozart,_Wolfgang_Amadeus",
+  "label": "Wolfgang Amadeus Mozart",
+  "labelJa": "ヴォルフガング・アマデウス・モーツァルト"
+ },
+ {
+  "id": "beethoven",
+  "nameEn": "Ludwig van Beethoven",
+  "born": 1770,
+  "qid": "Q255",
+  "imslp": "Category:Beethoven,_Ludwig_van",
+  "label": "Ludwig van Beethoven",
+  "labelJa": "ルートヴィヒ・ヴァン・ベートーヴェン"
+ },
+ {
+  "id": "clementi",
+  "nameEn": "Muzio Clementi",
+  "born": 1752,
+  "qid": "Q193673",
+  "imslp": "Category:Clementi,_Muzio",
+  "label": "Muzio Clementi",
+  "labelJa": "ムツィオ・クレメンティ"
+ },
+ {
+  "id": "gluck",
+  "nameEn": "Christoph Willibald Gluck",
+  "born": 1714,
+  "qid": "Q130759",
+  "imslp": "Category:Gluck,_Christoph_Willibald",
+  "label": "Christoph Willibald von Gluck",
+  "labelJa": "クリストフ・ヴィリバルト・グルック"
+ },
+ {
+  "id": "bach-cpe",
+  "nameEn": "Carl Philipp Emanuel Bach",
+  "born": 1714,
+  "qid": "Q76428",
+  "imslp": "Category:Bach,_Carl_Philipp_Emanuel",
+  "label": "Carl Philipp Emanuel Bach",
+  "labelJa": "カール・フィリップ・エマヌエル・バッハ"
+ },
+ {
+  "id": "salieri",
+  "nameEn": "Antonio Salieri",
+  "born": 1750,
+  "qid": "Q51088",
+  "imslp": "Category:Salieri,_Antonio",
+  "label": "Antonio Salieri",
+  "labelJa": "アントニオ・サリエリ"
+ },
+ {
+  "id": "boccherini",
+  "nameEn": "Luigi Boccherini",
+  "born": 1743,
+  "qid": "Q189766",
+  "imslp": "Category:Boccherini,_Luigi",
+  "label": "Luigi Boccherini",
+  "labelJa": "ルイジ・ボッケリーニ"
+ },
+ {
+  "id": "schubert",
+  "nameEn": "Franz Schubert",
+  "born": 1797,
+  "qid": "Q7312",
+  "imslp": "Category:Schubert,_Franz",
+  "label": "Franz Schubert",
+  "labelJa": "フランツ・シューベルト"
+ },
+ {
+  "id": "chopin",
+  "nameEn": "Frederic Chopin",
+  "born": 1810,
+  "qid": "Q1268",
+  "imslp": "Category:Chopin,_Frédéric",
+  "label": "Frédéric Chopin",
+  "labelJa": "フレデリック・ショパン"
+ },
+ {
+  "id": "liszt",
+  "nameEn": "Franz Liszt",
+  "born": 1811,
+  "qid": "Q41309",
+  "imslp": "Category:Liszt,_Franz",
+  "label": "Franz Liszt",
+  "labelJa": "フランツ・リスト"
+ },
+ {
+  "id": "brahms",
+  "nameEn": "Johannes Brahms",
+  "born": 1833,
+  "qid": "Q7294",
+  "imslp": "Category:Brahms,_Johannes",
+  "label": "Johannes Brahms",
+  "labelJa": "ヨハネス・ブラームス"
+ },
+ {
+  "id": "wagner",
+  "nameEn": "Richard Wagner",
+  "born": 1813,
+  "qid": "Q1511",
+  "imslp": "Category:Wagner,_Richard",
+  "label": "Richard Wagner",
+  "labelJa": "リヒャルト・ワーグナー"
+ },
+ {
+  "id": "schumann-r",
+  "nameEn": "Robert Schumann",
+  "born": 1810,
+  "qid": "Q7351",
+  "imslp": "Category:Schumann,_Robert",
+  "label": "Robert Schumann",
+  "labelJa": "ロベルト・シューマン"
+ },
+ {
+  "id": "mendelssohn",
+  "nameEn": "Felix Mendelssohn",
+  "born": 1809,
+  "qid": "Q46096",
+  "imslp": "Category:Mendelssohn,_Felix",
+  "label": "Felix Mendelssohn",
+  "labelJa": "フェリックス・メンデルスゾーン"
+ },
+ {
+  "id": "berlioz",
+  "nameEn": "Hector Berlioz",
+  "born": 1803,
+  "qid": "Q1151",
+  "imslp": "Category:Berlioz,_Hector",
+  "label": "Hector Berlioz",
+  "labelJa": "エクトル・ベルリオーズ"
+ },
+ {
+  "id": "tchaikovsky",
+  "nameEn": "Pyotr Ilyich Tchaikovsky",
+  "born": 1840,
+  "qid": "Q7315",
+  "imslp": "Category:Tchaikovsky,_Pyotr",
+  "label": "Pyotr Ilyich Tchaikovsky",
+  "labelJa": "ピョートル・チャイコフスキー"
+ },
+ {
+  "id": "dvorak",
+  "nameEn": "Antonin Dvorak",
+  "born": 1841,
+  "qid": "Q7298",
+  "imslp": "Category:Dvořák,_Antonín",
+  "label": "Antonín Dvořák",
+  "labelJa": "アントニン・ドヴォルザーク"
+ },
+ {
+  "id": "verdi",
+  "nameEn": "Giuseppe Verdi",
+  "born": 1813,
+  "qid": "Q7317",
+  "imslp": "Category:Verdi,_Giuseppe",
+  "label": "Giuseppe Verdi",
+  "labelJa": "ジュゼッペ・ヴェルディ"
+ },
+ {
+  "id": "puccini",
+  "nameEn": "Giacomo Puccini",
+  "born": 1858,
+  "qid": "Q7311",
+  "imslp": "Category:Puccini,_Giacomo",
+  "label": "Giacomo Puccini",
+  "labelJa": "ジャコモ・プッチーニ"
+ },
+ {
+  "id": "grieg",
+  "nameEn": "Edvard Grieg",
+  "born": 1843,
+  "qid": "Q80621",
+  "imslp": "Category:Grieg,_Edvard",
+  "label": "Edvard Grieg",
+  "labelJa": "エドヴァルド・グリーグ"
+ },
+ {
+  "id": "saint-saens",
+  "nameEn": "Camille Saint-Saëns",
+  "born": 1835,
+  "qid": "Q150445",
+  "imslp": "Category:Saint-Saëns,_Camille",
+  "label": "Camille Saint-Saëns",
+  "labelJa": "カミーユ・サン＝サーンス"
+ },
+ {
+  "id": "bruckner",
+  "nameEn": "Anton Bruckner",
+  "born": 1824,
+  "qid": "Q81752",
+  "imslp": "Category:Weiß,_Johann_Baptist",
+  "label": "Anton Bruckner",
+  "labelJa": "アントン・ブルックナー"
+ },
+ {
+  "id": "debussy",
+  "nameEn": "Claude Debussy",
+  "born": 1862,
+  "qid": "Q4700",
+  "imslp": "Category:Debussy,_Claude",
+  "label": "Claude Debussy",
+  "labelJa": "クロード・ドビュッシー"
+ },
+ {
+  "id": "ravel",
+  "nameEn": "Maurice Ravel",
+  "born": 1875,
+  "qid": "Q1178",
+  "imslp": "Category:Ravel,_Maurice",
+  "label": "Maurice Ravel",
+  "labelJa": "モーリス・ラヴェル"
+ },
+ {
+  "id": "mahler",
+  "nameEn": "Gustav Mahler",
+  "born": 1860,
+  "qid": "Q7304",
+  "imslp": "Category:Mahler,_Gustav",
+  "label": "Gustav Mahler",
+  "labelJa": "グスタフ・マーラー"
+ },
+ {
+  "id": "strauss-r",
+  "nameEn": "Richard Strauss",
+  "born": 1864,
+  "qid": "Q13894",
+  "imslp": "Category:Strauss,_Richard",
+  "label": "Richard Strauss",
+  "labelJa": "リヒャルト・シュトラウス"
+ },
+ {
+  "id": "schoenberg",
+  "nameEn": "Arnold Schoenberg",
+  "born": 1874,
+  "qid": "Q154770",
+  "imslp": "Category:Schoenberg,_Arnold",
+  "label": "Arnold Schoenberg",
+  "labelJa": "アルノルト・シェーンベルク"
+ },
+ {
+  "id": "stravinsky",
+  "nameEn": "Igor Stravinsky",
+  "born": 1882,
+  "qid": "Q7314",
+  "imslp": "Category:Stravinsky,_Igor",
+  "label": "Igor Stravinsky",
+  "labelJa": "イーゴリ・ストラヴィンスキー"
+ },
+ {
+  "id": "bartok",
+  "nameEn": "Bela Bartok",
+  "born": 1881,
+  "qid": "Q83326",
+  "imslp": "Category:Bartók,_Béla",
+  "label": "Béla Bartók",
+  "labelJa": "バルトーク・ベーラ"
+ },
+ {
+  "id": "prokofiev",
+  "nameEn": "Sergei Prokofiev",
+  "born": 1891,
+  "qid": "Q49481",
+  "imslp": "Category:Prokofiev,_Sergey",
+  "label": "Sergei Prokofiev",
+  "labelJa": "セルゲイ・プロコフィエフ"
+ },
+ {
+  "id": "shostakovich",
+  "nameEn": "Dmitri Shostakovich",
+  "born": 1906,
+  "qid": "Q80135",
+  "imslp": "Category:Shostakovich,_Dmitry",
+  "label": "Dmitri Shostakovich",
+  "labelJa": "ドミートリイ・ショスタコーヴィチ"
+ },
+ {
+  "id": "sibelius",
+  "nameEn": "Jean Sibelius",
+  "born": 1865,
+  "qid": "Q45682",
+  "imslp": "Category:Sibelius,_Jean",
+  "label": "Jean Sibelius",
+  "labelJa": "ジャン・シベリウス"
+ },
+ {
+  "id": "messiaen",
+  "nameEn": "Olivier Messiaen",
+  "born": 1908,
+  "qid": "Q151593",
+  "imslp": "Category:Messiaen,_Olivier",
+  "label": "Olivier Messiaen",
+  "labelJa": "オリヴィエ・メシアン"
+ },
+ {
+  "id": "ligeti",
+  "nameEn": "Gyorgy Ligeti",
+  "born": 1923,
+  "qid": "Q154331",
+  "imslp": "Category:Ligeti,_György",
+  "label": "György Ligeti",
+  "labelJa": "リゲティ・ジェルジュ"
+ },
+ {
+  "id": "penderecki",
+  "nameEn": "Krzysztof Penderecki",
+  "born": 1933,
+  "qid": "Q153469",
+  "imslp": "Category:Penderecki,_Krzysztof",
+  "label": "Krzysztof Penderecki",
+  "labelJa": "クシシュトフ・ペンデレツキ"
+ },
+ {
+  "id": "part",
+  "nameEn": "Arvo Part",
+  "born": 1935,
+  "qid": "Q189534",
+  "imslp": "Category:Pärt,_Arvo",
+  "label": "Arvo Pärt",
+  "labelJa": "アルヴォ・ペルト"
+ },
+ {
+  "id": "takemitsu",
+  "nameEn": "Toru Takemitsu",
+  "born": 1930,
+  "qid": "Q155467",
+  "imslp": "",
+  "label": "Tōru Takemitsu",
+  "labelJa": "武満徹"
+ },
+ {
+  "id": "yamada-kosaku",
+  "nameEn": "Kosaku Yamada",
+  "born": 1886,
+  "qid": "Q947908",
+  "imslp": "Category:Yamada,_Kōsaku",
+  "label": "Kōsaku Yamada",
+  "labelJa": "山田耕筰"
+ },
+ {
+  "id": "dan-ikuma",
+  "nameEn": "Ikuma Dan",
+  "born": 1924,
+  "qid": "Q2381947",
+  "imslp": "",
+  "label": "Ikuma Dan",
+  "labelJa": "團伊玖磨"
+ },
+ {
+  "id": "hosokawa",
+  "nameEn": "Toshio Hosokawa",
+  "born": 1955,
+  "qid": "Q1483651",
+  "imslp": "",
+  "label": "Toshio Hosokawa",
+  "labelJa": "細川俊夫"
+ },
+ {
+  "id": "faure",
+  "nameEn": "Gabriel Fauré",
+  "born": 1845,
+  "qid": "Q104919",
+  "imslp": "Category:Fauré,_Gabriel",
+  "label": "Gabriel Fauré",
+  "labelJa": "ガブリエル・フォーレ"
+ },
+ {
+  "id": "satie",
+  "nameEn": "Erik Satie",
+  "born": 1866,
+  "qid": "Q187192",
+  "imslp": "Category:Satie,_Erik",
+  "label": "Erik Satie",
+  "labelJa": "エリック・サティ"
+ },
+ {
+  "id": "rachmaninoff",
+  "nameEn": "Sergei Rachmaninoff",
+  "born": 1873,
+  "qid": "Q131861",
+  "imslp": "Category:Rachmaninoff,_Sergei",
+  "label": "Sergei Rachmaninoff",
+  "labelJa": "セルゲイ・ラフマニノフ"
+ },
+ {
+  "id": "britten",
+  "nameEn": "Benjamin Britten",
+  "born": 1913,
+  "qid": "Q150767",
+  "imslp": "Category:Britten,_Benjamin",
+  "label": "Benjamin Britten",
+  "labelJa": "ベンジャミン・ブリテン"
+ },
+ {
+  "id": "bernstein",
+  "nameEn": "Leonard Bernstein",
+  "born": 1918,
+  "qid": "Q152505",
+  "imslp": "Category:Bernstein,_Leonard",
+  "label": "Leonard Bernstein",
+  "labelJa": "レナード・バーンスタイン"
+ },
+ {
+  "id": "monteverdi",
+  "nameEn": "Claudio Monteverdi",
+  "born": 1567,
+  "qid": "Q53068",
+  "imslp": "Category:Monteverdi,_Claudio",
+  "label": "Claudio Monteverdi",
+  "labelJa": "クラウディオ・モンテヴェルディ"
+ },
+ {
+  "id": "scarlatti-d",
+  "nameEn": "Domenico Scarlatti",
+  "born": 1685,
+  "qid": "Q167837",
+  "imslp": "Category:Scarlatti,_Domenico",
+  "label": "Domenico Scarlatti",
+  "labelJa": "ドメニコ・スカルラッティ"
+ },
+ {
+  "id": "corelli",
+  "nameEn": "Arcangelo Corelli",
+  "born": 1653,
+  "qid": "Q164475",
+  "imslp": "Category:Corelli,_Arcangelo",
+  "label": "Arcangelo Corelli",
+  "labelJa": "アルカンジェロ・コレッリ"
+ },
+ {
+  "id": "elgar",
+  "nameEn": "Edward Elgar",
+  "born": 1857,
+  "qid": "Q179631",
+  "imslp": "Category:Elgar,_Edward",
+  "label": "Edward Elgar",
+  "labelJa": "エドワード・エルガー"
+ },
+ {
+  "id": "palestrina",
+  "nameEn": "Giovanni Pierluigi da Palestrina",
+  "born": 1525,
+  "qid": "Q179277",
+  "imslp": "Category:Palestrina,_Giovanni_Pierluigi_da",
+  "label": "Giovanni Pierluigi da Palestrina",
+  "labelJa": "ジョヴァンニ・ダ・パレストリーナ"
+ },
+ {
+  "id": "smetana",
+  "nameEn": "Bedrich Smetana",
+  "born": 1824,
+  "qid": "Q48173",
+  "imslp": "Category:Smetana,_Bedřich",
+  "label": "Bedřich Smetana",
+  "labelJa": "ベドルジハ・スメタナ"
+ },
+ {
+  "id": "bizet",
+  "nameEn": "Georges Bizet",
+  "born": 1838,
+  "qid": "Q56158",
+  "imslp": "Category:Bizet,_Georges",
+  "label": "Georges Bizet",
+  "labelJa": "ジョルジュ・ビゼー"
+ },
+ {
+  "id": "franck",
+  "nameEn": "César Franck",
+  "born": 1822,
+  "qid": "Q50187",
+  "imslp": "Category:Franck,_César",
+  "label": "César Franck",
+  "labelJa": "セザール・フランク"
+ },
+ {
+  "id": "rimsky-korsakov",
+  "nameEn": "Nikolay Rimsky-Korsakov",
+  "born": 1844,
+  "qid": "Q93227",
+  "imslp": "Category:Rimsky-Korsakov,_Nikolay",
+  "label": "Nikolai Rimsky-Korsakov",
+  "labelJa": "ニコライ・リムスキー＝コルサコフ"
+ },
+ {
+  "id": "rossini",
+  "nameEn": "Gioachino Rossini",
+  "born": 1792,
+  "qid": "Q9726",
+  "imslp": "Category:Rossini,_Gioachino",
+  "label": "Gioachino Rossini",
+  "labelJa": "ジョアキーノ・ロッシーニ"
+ },
+ {
+  "id": "strauss-j2",
+  "nameEn": "Johann Strauss II",
+  "born": 1825,
+  "qid": "Q83309",
+  "imslp": "Category:Strauss_Jr.,_Johann",
+  "label": "Johann Strauss II",
+  "labelJa": "ヨハン・シュトラウス2世"
+ },
+ {
+  "id": "weber",
+  "nameEn": "Carl Maria von Weber",
+  "born": 1786,
+  "qid": "Q154812",
+  "imslp": "Category:Weber,_Carl_Maria_von",
+  "label": "Carl Maria von Weber",
+  "labelJa": "カール・マリア・フォン・ウェーバー"
+ },
+ {
+  "id": "mussorgsky",
+  "nameEn": "Modest Mussorgsky",
+  "born": 1839,
+  "qid": "Q132682",
+  "imslp": "Category:Mussorgsky,_Modest",
+  "label": "Modest Petrovich Mussorgsky",
+  "labelJa": "モデスト・ムソルグスキー"
+ },
+ {
+  "id": "paganini",
+  "nameEn": "Niccolò Paganini",
+  "born": 1782,
+  "qid": "Q66075",
+  "imslp": "Category:Paganini,_Niccolò",
+  "label": "Niccolò Paganini",
+  "labelJa": "ニコロ・パガニーニ"
+ },
+ {
+  "id": "bruch",
+  "nameEn": "Max Bruch",
+  "born": 1838,
+  "qid": "Q106434",
+  "imslp": "Category:Bruch,_Max",
+  "label": "Max Bruch",
+  "labelJa": "マックス・ブルッフ"
+ },
+ {
+  "id": "josquin",
+  "nameEn": "Josquin des Prez",
+  "born": 1450
+ },
+ {
+  "id": "pergolesi",
+  "nameEn": "Giovanni Battista Pergolesi",
+  "born": 1710,
+  "qid": "Q185312",
+  "imslp": "Category:Pergolesi,_Giovanni_Battista",
+  "label": "Giovanni Battista Pergolesi",
+  "labelJa": "ジョヴァンニ・バッティスタ・ペルゴレージ"
+ },
+ {
+  "id": "bellini",
+  "nameEn": "Vincenzo Bellini",
+  "born": 1801,
+  "qid": "Q170209",
+  "imslp": "Category:Bellini,_Vincenzo",
+  "label": "Vincenzo Bellini",
+  "labelJa": "ヴィンチェンツォ・ベッリーニ"
+ },
+ {
+  "id": "borodin",
+  "nameEn": "Alexander Borodin",
+  "born": 1833,
+  "qid": "Q164004",
+  "imslp": "Category:Borodin,_Aleksandr",
+  "label": "Alexander Borodin",
+  "labelJa": "アレクサンドル・ボロディン"
+ },
+ {
+  "id": "donizetti",
+  "nameEn": "Gaetano Donizetti",
+  "born": 1797,
+  "qid": "Q101698",
+  "imslp": "Category:Donizetti,_Gaetano",
+  "label": "Gaetano Donizetti",
+  "labelJa": "ガエターノ・ドニゼッティ"
+ },
+ {
+  "id": "massenet",
+  "nameEn": "Jules Massenet",
+  "born": 1842,
+  "qid": "Q194436",
+  "imslp": "Category:Massenet,_Jules",
+  "label": "Jules Massenet",
+  "labelJa": "ジュール・マスネ"
+ },
+ {
+  "id": "nielsen",
+  "nameEn": "Carl Nielsen",
+  "born": 1865,
+  "qid": "Q205139",
+  "imslp": "Category:Nielsen,_Carl",
+  "label": "Carl Nielsen",
+  "labelJa": "カール・ニールセン"
+ },
+ {
+  "id": "scriabin",
+  "nameEn": "Alexander Scriabin",
+  "born": 1872,
+  "qid": "Q185647",
+  "imslp": "Category:Scriabin,_Aleksandr",
+  "label": "Alexander Scriabin",
+  "labelJa": "アレクサンドル・スクリャービン"
+ },
+ {
+  "id": "vaughan-williams",
+  "nameEn": "Ralph Vaughan Williams",
+  "born": 1872,
+  "qid": "Q207947",
+  "imslp": "Category:Vaughan_Williams,_Ralph",
+  "label": "Ralph Vaughan Williams",
+  "labelJa": "レイフ・ヴォーン・ウィリアムズ"
+ },
+ {
+  "id": "holst",
+  "nameEn": "Gustav Holst",
+  "born": 1874,
+  "qid": "Q200867",
+  "imslp": "Category:Holst,_Gustav",
+  "label": "Gustav Holst",
+  "labelJa": "グスターヴ・ホルスト"
+ },
+ {
+  "id": "janacek",
+  "nameEn": "Leoš Janáček",
+  "born": 1854,
+  "qid": "Q184933",
+  "imslp": "Category:Janáček,_Leoš",
+  "label": "Leoš Janáček",
+  "labelJa": "レオシュ・ヤナーチェク"
+ },
+ {
+  "id": "gershwin",
+  "nameEn": "George Gershwin",
+  "born": 1898,
+  "qid": "Q123829",
+  "imslp": "Category:Gershwin,_George",
+  "label": "George Gershwin",
+  "labelJa": "ジョージ・ガーシュウィン"
+ },
+ {
+  "id": "ives",
+  "nameEn": "Charles Ives",
+  "born": 1874,
+  "qid": "Q309648",
+  "imslp": "Category:Ives,_Charles",
+  "label": "Charles Ives",
+  "labelJa": "チャールズ・アイヴズ"
+ },
+ {
+  "id": "kodaly",
+  "nameEn": "Zoltán Kodály",
+  "born": 1882,
+  "qid": "Q153008",
+  "imslp": "Category:Kodály,_Zoltán",
+  "label": "Zoltán Kodály",
+  "labelJa": "コダーイ・ゾルターン"
+ },
+ {
+  "id": "respighi",
+  "nameEn": "Ottorino Respighi",
+  "born": 1879,
+  "qid": "Q243837",
+  "imslp": "Category:Respighi,_Ottorino",
+  "label": "Ottorino Respighi",
+  "labelJa": "オットリーノ・レスピーギ"
+ },
+ {
+  "id": "hindemith",
+  "nameEn": "Paul Hindemith",
+  "born": 1895,
+  "qid": "Q57244",
+  "imslp": "Category:Hindemith,_Paul",
+  "label": "Paul Hindemith",
+  "labelJa": "パウル・ヒンデミット"
+ },
+ {
+  "id": "webern",
+  "nameEn": "Anton Webern",
+  "born": 1883,
+  "qid": "Q190933",
+  "imslp": "Category:Webern,_Anton",
+  "label": "Anton Webern",
+  "labelJa": "アントン・ヴェーベルン"
+ },
+ {
+  "id": "berg",
+  "nameEn": "Alban Berg",
+  "born": 1885,
+  "qid": "Q78475",
+  "imslp": "Category:Berg,_Alban",
+  "label": "Alban Berg",
+  "labelJa": "アルバン・ベルク"
+ },
+ {
+  "id": "falla",
+  "nameEn": "Manuel de Falla",
+  "born": 1876,
+  "qid": "Q193283",
+  "imslp": "Category:Falla,_Manuel_de",
+  "label": "Manuel de Falla",
+  "labelJa": "マヌエル・デ・ファリャ"
+ },
+ {
+  "id": "byrd",
+  "nameEn": "William Byrd",
+  "born": null,
+  "qid": "Q124646561",
+  "imslp": "",
+  "label": "William Byrd",
+  "labelJa": ""
+ },
+ {
+  "id": "copland",
+  "nameEn": "Aaron Copland",
+  "born": 1900,
+  "qid": "Q192185",
+  "imslp": "Category:Copland,_Aaron",
+  "label": "Aaron Copland",
+  "labelJa": "アーロン・コープランド"
+ },
+ {
+  "id": "hummel",
+  "nameEn": "Johann Nepomuk Hummel",
+  "born": 1778,
+  "qid": "Q151953",
+  "imslp": "Category:Hummel,_Johann_Nepomuk",
+  "label": "Johann Nepomuk Hummel",
+  "labelJa": "ヨハン・ネポムク・フンメル"
+ },
+ {
+  "id": "machaut",
+  "nameEn": "Guillaume de Machaut",
+  "born": 1300,
+  "qid": "Q200580",
+  "imslp": "Category:Machaut,_Guillaume_de",
+  "label": "Guillaume de Machaut",
+  "labelJa": "ギヨーム・ド・マショー"
+ },
+ {
+  "id": "orff",
+  "nameEn": "Carl Orff",
+  "born": 1895,
+  "qid": "Q44086",
+  "imslp": "",
+  "label": "Carl Orff",
+  "labelJa": "カール・オルフ"
+ },
+ {
+  "id": "poulenc",
+  "nameEn": "Francis Poulenc",
+  "born": 1899,
+  "qid": "Q191408",
+  "imslp": "Category:Poulenc,_Francis",
+  "label": "Francis Poulenc",
+  "labelJa": "フランシス・プーランク"
+ },
+ {
+  "id": "villa-lobos",
+  "nameEn": "Heitor Villa-Lobos",
+  "born": 1887,
+  "qid": "Q203514",
+  "imslp": "Category:Villa-Lobos,_Heitor",
+  "label": "Heitor Villa-Lobos",
+  "labelJa": "エイトル・ヴィラ＝ロボス"
+ },
+ {
+  "id": "barber",
+  "nameEn": "Samuel Barber",
+  "born": 1910,
+  "qid": "Q216870",
+  "imslp": "",
+  "label": "Samuel Barber",
+  "labelJa": "サミュエル・バーバー"
+ },
+ {
+  "id": "schutz",
+  "nameEn": "Heinrich Schütz",
+  "born": 1585,
+  "qid": "Q153643",
+  "imslp": "Category:Schütz,_Heinrich",
+  "label": "Heinrich Schütz",
+  "labelJa": "ハインリヒ・シュッツ"
+ },
+ {
+  "id": "cage",
+  "nameEn": "John Cage",
+  "born": 1912,
+  "qid": "Q180727",
+  "imslp": "Category:Cage,_John",
+  "label": "John Cage",
+  "labelJa": "ジョン・ケージ"
+ },
+ {
+  "id": "lassus",
+  "nameEn": "Orlande de Lassus",
+  "born": 1532,
+  "qid": "Q154792",
+  "imslp": "Category:Lassus,_Orlande_de",
+  "label": "Orlande de Lassus",
+  "labelJa": "オルランド・ディ・ラッソ"
+ },
+ {
+  "id": "lully",
+  "nameEn": "Jean-Baptiste Lully",
+  "born": 1632,
+  "qid": "Q1192",
+  "imslp": "Category:Lully,_Jean-Baptiste",
+  "label": "Jean-Baptiste Lully",
+  "labelJa": "ジャン＝バティスト・リュリ"
+ },
+ {
+  "id": "stockhausen",
+  "nameEn": "Karlheinz Stockhausen",
+  "born": 1928,
+  "qid": "Q154556",
+  "imslp": "",
+  "label": "Karlheinz Stockhausen",
+  "labelJa": "カールハインツ・シュトックハウゼン"
+ },
+ {
+  "id": "adams",
+  "nameEn": "John Adams",
+  "born": 1947,
+  "qid": "Q84114",
+  "imslp": "",
+  "label": "John Adams",
+  "labelJa": "ジョン・クーリッジ・アダムズ"
+ },
+ {
+  "id": "boulez",
+  "nameEn": "Pierre Boulez",
+  "born": 1925,
+  "qid": "Q156193",
+  "imslp": "Category:Boulez,_Pierre",
+  "label": "Pierre Boulez",
+  "labelJa": "ピエール・ブーレーズ"
+ },
+ {
+  "id": "glass",
+  "nameEn": "Philip Glass",
+  "born": 1937,
+  "qid": "Q189729",
+  "imslp": "Category:Glass,_Philip",
+  "label": "Philip Glass",
+  "labelJa": "フィリップ・グラス"
+ },
+ {
+  "id": "lutoslawski",
+  "nameEn": "Witold Lutosławski",
+  "born": 1913,
+  "qid": "Q156472",
+  "imslp": "Category:Lutosławski,_Witold_Roman",
+  "label": "Witold Lutosławski",
+  "labelJa": "ヴィトルト・ルトスワフスキ"
+ },
+ {
+  "id": "reich",
+  "nameEn": "Steve Reich",
+  "born": 1936,
+  "qid": "Q262791",
+  "imslp": "Category:Reich,_Steve",
+  "label": "Steve Reich",
+  "labelJa": "スティーヴ・ライヒ"
+ },
+ {
+  "id": "schnittke",
+  "nameEn": "Alfred Schnittke",
+  "born": 1934,
+  "qid": "Q158078",
+  "imslp": "Category:Schnittke,_Alfred",
+  "label": "Alfred Schnittke",
+  "labelJa": "アルフレット・シュニトケ"
+ },
+ {
+  "id": "gorecki",
+  "nameEn": "Henryk Górecki",
+  "born": null,
+  "qid": "Q102124394",
+  "imslp": "",
+  "label": "Henryk Gorecki",
+  "labelJa": ""
+ },
+ {
+  "id": "ifukube",
+  "nameEn": "Akira Ifukube",
+  "born": 1914,
+  "qid": "Q135570",
+  "imslp": "Category:Ifukube,_Akira",
+  "label": "Akira Ifukube",
+  "labelJa": "伊福部昭"
+ }
+]

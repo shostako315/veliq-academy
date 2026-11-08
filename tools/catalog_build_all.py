@@ -43,6 +43,7 @@ G = [
     ("piano-trio", r"^piano trio"),
     ("piano-quartet", r"^piano quartet"),
     ("piano-quintet", r"^piano quintet"),
+    ("string-symphony", r"^(sinfonia|symphony)\b.*\bfor strings?( orchestra)?\b|^string symphon"),  # メンデルスゾーンの弦楽のための交響曲など。交響曲と番号が重なる
     ("symphonic-poem", r"symphonic poem|tone poem"),
     ("symphony", r"^symphon(y|ie)(?!.*concertante)|^sinfonia(?! concertante)"),
     ("overture", r"overture|ouverture"),
@@ -69,14 +70,14 @@ G_JA = {
     "symphony": "交響曲", "piano-sonata": "ピアノ・ソナタ", "violin-sonata": "ヴァイオリン・ソナタ", "cello-sonata": "チェロ・ソナタ",
     "sonata": "ソナタ", "piano-concerto": "ピアノ協奏曲", "violin-concerto": "ヴァイオリン協奏曲", "cello-concerto": "チェロ協奏曲",
     "concerto": "協奏曲", "string-quartet": "弦楽四重奏曲", "string-quintet": "弦楽五重奏曲", "piano-trio": "ピアノ三重奏曲",
-    "piano-quartet": "ピアノ四重奏曲", "piano-quintet": "ピアノ五重奏曲", "symphonic-poem": "交響詩", "overture": "序曲",
+    "piano-quartet": "ピアノ四重奏曲", "piano-quintet": "ピアノ五重奏曲", "symphonic-poem": "交響詩", "string-symphony": "弦楽のための交響曲", "overture": "序曲",
     "requiem": "レクイエム", "mass": "ミサ曲", "serenade": "セレナード", "suite": "組曲", "variations": "変奏曲",
     "prelude": "前奏曲", "etude": "練習曲", "nocturne": "夜想曲", "waltz": "ワルツ", "mazurka": "マズルカ",
     "polonaise": "ポロネーズ", "ballade": "バラード", "scherzo": "スケルツォ", "impromptu": "即興曲", "fugue": "フーガ",
     "cantata": "カンタータ", "oratorio": "オラトリオ", "opera": "歌劇", "song": "歌曲", "other": "",
 }
 # 題名で種類が決まるものだけ「種類＋番号」の和題を組む（組曲・変奏曲などは固有の題が多いので組まない）
-NUMBERED = {"symphony", "piano-sonata", "violin-sonata", "cello-sonata", "piano-concerto", "violin-concerto", "cello-concerto",
+NUMBERED = {"symphony", "string-symphony", "piano-sonata", "violin-sonata", "cello-sonata", "piano-concerto", "violin-concerto", "cello-concerto",
             "string-quartet", "string-quintet", "piano-trio", "piano-quartet", "piano-quintet", "prelude", "etude", "nocturne",
             "waltz", "mazurka", "polonaise", "ballade", "scherzo", "impromptu"}
 # 通称（IMSLP の Alternative Title・英語の通称 → 日本で通っている表記）。ここに無いものは英語のまま aliases に残す
@@ -183,6 +184,49 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:80]
 
 
+# Wikidata の P86（作曲者）には映画・上演記録・録音・楽章単体・編曲版も入る。作品そのものだけを残す
+WD_EXCL = re.compile(r"(?i)\b(film|television|production|album|single|audio track|movement|version, edition|arrangement|derivative work|"
+                     r"printed sheet music|manuscript|literary work|series|episode|video game|recording)\b")
+
+
+# Wikidata の作品番号（P528）は「番号@目録名」。Open Opus と同じ書き方（K.172、BWV 32 など）に読み替える
+WD_CAT = {"Bach-Werke-Verzeichnis": "BWV ", "Ryom-Verzeichnis": "RV ", "Köchel catalogue": "K.", "Kirkpatrick catalogue": "K.",
+          "Deutsch catalogue": "D.", "Hoboken-Verzeichnis": "Hob. ", "Händel-Werke-Verzeichnis": "HWV ", "Brown catalog": "B.",
+          "Burghauser catalog": "B.", "Lesure catalog of Debussy compositions": "L.", "The Music of Liszt": "S.",
+          "Richard-Strauss-Werkverzeichnis": "TrV ", "Wagner-Werk-Verzeichnis": "WWV ", "Telemann-Werke-Verzeichnis": "TWV ",
+          "Wotquenne's Catalogue": "Wq.", "Buxtehude-Werke-Verzeichnis": "BuxWV ", "Szőllősy index": "Sz. ",
+          "Werkverzeichnis Anton Bruckner": "WAB "}
+
+
+def wd_cats(s):
+    out = []
+    for x in (s or "").split("|"):
+        if "@" not in x:
+            continue
+        num, name = x.split("@", 1)
+        if name in WD_CAT:
+            n = re.sub(r"^[A-Za-zÁ-ž]+\.?\s*", "", num.strip()) if re.match(r"^[A-Za-z]", num.strip()) else num.strip()
+            if re.match(r"\d|[IVXLC]+:", n):
+                out.append(WD_CAT[name] + n)
+        elif not name:
+            c = cat_norm(num)
+            if c.startswith("Op."):
+                out.insert(0, c)  # 作品番号（Op.）を先に
+    return out
+
+
+def wd_is_work(types):
+    ts = [t for t in (types or "").split("|") if t]
+    return bool(ts) and not any(WD_EXCL.search(t) for t in ts)
+
+
+def head_no(title):
+    """「第○番」の番号。題名の頭（最初のカンマ・「in 調」・作品番号より前）にある No. だけを使う。
+    Étude Op. 10, No. 11 の 11 は作品番号の枝番なので使わない"""
+    head = re.split(r",|\s+in\s+[A-G]\b|\s+(?:Op|BWV|K|D|Hob|RV|HWV|WoO)\.?\s*\d", title or "", maxsplit=1)[0]
+    return re.search(r"(?i)No\.\s*(\d+)", head)
+
+
 def build_composer(c, comp_meta):
     cid = c["id"]
     wd = {}
@@ -212,7 +256,7 @@ def build_composer(c, comp_meta):
         elif kc and wkeys and kc not in wkeys:
             conflicts.append({"field": "key", "imslp": key_id(kc), "wikidata": [key_id(k) for k in wkeys]})
         genre = genre_of(title, w.get("types", "") + "|" + w.get("genres", ""))
-        nm = re.search(r"No\.\s*(\d+)", title)
+        nm = head_no(title)
         no = int(nm.group(1)) if nm and genre in NUMBERED else None
         alt = [a.strip() for a in re.split(r"\s*;\s*", strip_wiki(f.get("Alternative Title", "")).strip("()")) if a.strip()]
         nick = next((NICK[a.lower()] for a in alt if a.lower() in NICK and NICK[a.lower()]), "")
@@ -224,26 +268,51 @@ def build_composer(c, comp_meta):
         en = w["en"]
         if re.search(r"(?i)\b(arrangement|transcription|catalogue|list of)\b", en):
             continue
-        cats = [x.split("@")[0] for x in (w.get("cats") or "").split("|") if x]
-        cat = cat_norm(" ".join(cats)) or cat_norm(en)
+        if not wd_is_work(w.get("types", "")):
+            continue
+        cats = wd_cats(w.get("cats"))
+        cat = cat_norm(en) or (cats[0] if cats else "")
         wkeys = [wd_key_code(k) for k in (w.get("keys") or "").split("|") if k]
         kc = wkeys[0] if len(wkeys) == 1 else ""
         genre = genre_of(en, w.get("types", "") + "|" + w.get("genres", ""))
-        nm = re.search(r"No\.\s*(\d+)", en)
+        nm = head_no(en)
         no = int(nm.group(1)) if nm and genre in NUMBERED else None
-        recs.append(make(cid, comp_meta, "", re.sub(r"\s*\([^()]*\)\s*$", "", en), genre, no, cat, kc, {}, w, q, [], "", []))
-    # Open Opus（CC0）：IMSLP・Wikidata に無い作品を足す。作品番号か題が既にあるものは足さない
-    have_cat = {cat_key(r["catalog"].get("opus", "")) for r in recs} - {None}
+        rec = make(cid, comp_meta, "", re.sub(r"\s*\([^()]*\)\s*$", "", en), genre, no, cat, kc, {}, w, q, [], "", [])
+        rec["_cats"] = cats  # 突き合わせ用（出力前に外す）
+        recs.append(rec)
+    # Open Opus（CC0）：既にある作品（作品番号か「種類＋番号」が同じもの）には作品番号・愛称・分類を足し、
+    # 無い作品は新しく足す。Wikidata には作品番号の無い記録が多いので「種類＋番号」でも突き合わせる
+    by_cat, by_gn = {}, {}
+    for r in recs:
+        for k in {cat_key(x) for x in [r["catalog"].get("opus", "")] + r.get("_cats", [])} - {None}:
+            by_cat.setdefault(k, []).append(r)
+        if r["genre"] in NUMBERED and r.get("number"):
+            by_gn.setdefault((r["genre"], r["number"]), []).append(r)
     have_title = {r["titleEn"].lower() for r in recs}
     oo_name, oo = oo_records(cid, c.get("nameEn", ""))
     for x in oo:
         cat = cat_norm(x["catText"])
-        if (cat and cat_key(cat) in have_cat) or x["title"].lower() in have_title:
+        o = make_oo(cid, comp_meta, x, cat)
+        hit = by_cat.get(cat_key(cat)) if cat else None
+        if not hit and o["genre"] in NUMBERED and o.get("number"):
+            cand = by_gn.get((o["genre"], o["number"])) or []
+            # 作品番号が両方にあって違うなら別の作品（同じ番号の別系列）として扱う
+            hit = [r for r in cand if not (r["catalog"].get("opus") and cat and cat_key(r["catalog"]["opus"]) != cat_key(cat))]
+        if hit and not (by_cat.get(cat_key(cat)) if cat else None):
+            # 「種類＋番号」だけで当たったものは、調が両方にあって違えば別の作品とみなす（シンフォニアと交響曲など）
+            hit = [r for r in hit if not (r.get("key") and o.get("key") and r["key"] != o["key"])]
+        if hit and len(hit) == 1:
+            merge_oo(hit[0], o)
             continue
-        r = make_oo(cid, comp_meta, x, cat)
-        recs.append(r)
+        if hit or x["title"].lower() in have_title:
+            continue  # 候補が複数あって決められないものは足さない（二重登録を避ける）
+        recs.append(o)
         if cat:
-            have_cat.add(cat_key(cat))
+            by_cat.setdefault(cat_key(cat), []).append(o)
+        if o["genre"] in NUMBERED and o.get("number"):
+            by_gn.setdefault((o["genre"], o["number"]), []).append(o)
+    for r in recs:
+        r.pop("_cats", None)
     # 重複（同じ作品番号・同じ題）を1件に
     seen, uniq = {}, []
     for r in recs:
@@ -331,6 +400,30 @@ def make_oo(cid, comp_meta, x, cat):
     r["sources"] = [{"name": "Open Opus", "url": "https://github.com/PaulLikesToCode/openopus-data",
                      "fields": "題名・調・作品番号・番号・種類（題名から機械的に読み取り）", "fetched": OO_SNAPSHOT, "license": "CC0"}]
     return r
+
+
+def merge_oo(r, o):
+    """既存レコード r に Open Opus の o を足す。値は上書きせず、空のところだけ埋める。調が違えば両方を conflicts に残す"""
+    if o.get("catalog") and not r["catalog"].get("opus"):
+        r["catalog"] = dict(o["catalog"])
+        cj = cat_ja(o["catalog"]["opus"])
+        if cj and cj not in r["titleJa"]:
+            r["titleJa"] = (r["titleJa"].split("《")[0] + f" {cj}" + ("《" + r["titleJa"].split("《", 1)[1] if "《" in r["titleJa"] else "")).strip()
+    if o.get("key") and r.get("key") and o["key"] != r["key"]:
+        r.setdefault("conflicts", []).append({"field": "key", r["sources"][0]["name"]: r["key"], "Open Opus": o["key"]})
+    elif o.get("key") and not r.get("key"):
+        r["key"], r["keyJa"] = o["key"], o["keyJa"]
+    if o.get("nicknameJa") and not r.get("nicknameJa"):
+        r["nicknameJa"] = o["nicknameJa"]
+        if "《" not in r["titleJa"]:
+            r["titleJa"] += f"《{o['nicknameJa']}》"
+    r["nicknames"] = list(dict.fromkeys((r.get("nicknames") or []) + (o.get("nicknames") or [])))
+    for k in ("category", "popular"):
+        if o.get(k) and not r.get(k):
+            r[k] = o[k]
+    if not r.get("instrumentation") and o.get("instrumentation"):
+        r["instrumentation"] = o["instrumentation"]
+    r["sources"] = r["sources"] + [s for s in o["sources"] if s["name"] not in {x["name"] for x in r["sources"]}]
 
 
 NYP_KEY = re.compile(r"\b([A-G])(?:[- ](FLAT|SHARP))?,? (MAJOR|MINOR)\b")
@@ -463,7 +556,7 @@ def main():
         files.append({"composer": cid, "url": f"{SITE}/data/catalog/{cid}.json", "count": len(recs)})
     total = sum(f["count"] for f in files)
     idx = {
-        "name": "Veliq 作品目録", "updated": FETCHED, "license": "事実データ。出典は各レコードの sources。Open Opus（CC0）とニューヨーク・フィルの演奏記録（CC0, New York Philharmonic）を含む",
+        "name": "Veliq 作品目録", "updated": FETCHED, "license": "事実データ。出典は各レコードの sources。Wikidata（CC0）・Open Opus（CC0）・IMSLP の作品情報欄とニューヨーク・フィルの演奏記録（CC0, New York Philharmonic）を含む",
         "fields": old_idx.get("fields", "") + ", category（keyboard/chamber/orchestral/vocal/stage。Open Opus 由来）, popular, conflicts, nyp{performances,first,last,conductors,scores[id,markedBy,publisher]}",
         "files": files, "coverage": old_idx.get("coverage", []), "count": total,
     }

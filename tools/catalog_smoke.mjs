@@ -25,7 +25,10 @@ const CASES = [
   ["ドヴォルザークの室内楽", { composer: "dvorak", genre: "室内楽" }, (r) => r.count >= 10],
   ["シューベルトの声楽（上限で切れる）", { composer: "schubert", genre: "声楽" }, (r) => r.truncated && r.results.length === 100],
   ["コレッリ 作品6-8《クリスマス協奏曲》", { composer: "corelli", key: "ト短調" }, (r) => r.results.some((x) => x.opus === "Op.6 No.8")],
-  ["目録に無い作曲家（伊福部昭）", { composer: "ifukube" }, (r) => r.count === 0 && /まだ/.test(r.coverageNote)],
+  ["目録に無い作曲家（久石譲）", { composer: "hisaishi" }, (r) => r.count === 0 && /まだ/.test(r.coverageNote)],
+  ["ショパンの嬰ハ短調の夜想曲（第7番 Op.27-1 を含む）", { composer: "chopin", key: "嬰ハ短調", genre: "夜想曲" }, (r) => r.results.some((x) => x.opus === "Op.27 No.1")],
+  ["モーツァルト K.172 は変ロ長調（Open Opus の誤りは食い違いとして残る）", { composer: "mozart", q: "K.172" }, (r) => r.results.some((x) => x.key === "Bb-major" && x.conflicts)],
+  ["メンデルスゾーンの交響曲は5曲（弦楽のための交響曲は別）", { composer: "mendelssohn", genre: "交響曲" }, (r) => r.count === 5],
 ];
 let ng = 0;
 for (const [label, qs, ok] of CASES) {
