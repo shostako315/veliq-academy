@@ -2,7 +2,7 @@
 title: リヒャルト・シュトラウス 交響詩《ツァラトゥストラはかく語りき》 作品30
 slug: strauss-zarathustra
 section: works
-summary: ニーチェの同名の著作に「自由に基づいて」書かれた大編成の交響詩。1896年2月4日にミュンヒェンで着手され、同年8月24日に完成し、11月27日にフランクフルト・アム・マインで作曲者の指揮により初演された。同年ミュンヒェンのヨーゼフ・アイブルから出版された。
+summary: ニーチェの同名の著作に「自由に基づいて」書かれた大編成の交響詩。1896年2月4日にミュンヘンで着手され、同年8月24日に完成し、11月27日にフランクフルト・アム・マインで作曲者の指揮により初演された。同年ミュンヘンのヨーゼフ・アイブルから出版された。
 composer: strauss-r
 year: 1896
 catalog: Op.30
@@ -11,19 +11,19 @@ duration: 約33〜34分
 updated: 2026-11-07
 sources:
   - "Anna Vogt, Programme notes: Richard Strauss, Also sprach Zarathustra, Op. 30, Berliner Philharmoniker（1895年夏のイタリアでの着想、1896年11月27日フランクフルト初演、1896年11月30日ニキシュ指揮のベルリン・フィル初演、9つの部分の題、ロ長調とハ長調の対立、1894年のメモ、ヘンケル宛書簡、演奏時間34分）. https://www.berliner-philharmoniker.de/en/programme-notes/richard-strauss-also-sprach-zarathustra-thus-spoke-zarathustra-op-30/（閲覧日 2026-11-07）"
-  - "Herbert Glass, About this Piece: Also sprach Zarathustra, Op. 30, Los Angeles Philharmonic / Hollywood Bowl（1896年のミュンヒェン宮廷歌劇場首席指揮者就任、8つの章題の使用、初演前の解説、総譜冒頭のニーチェの文、1933年1月12日のロサンゼルス・フィル初演、各部分の音楽、編成、映画『2001年宇宙の旅』）. https://www.hollywoodbowl.com/musicdb/pieces/184/also-sprach-zarathustra-op-30（閲覧日 2026-11-07）"
+  - "Herbert Glass, About this Piece: Also sprach Zarathustra, Op. 30, Los Angeles Philharmonic / Hollywood Bowl（1896年のミュンヘン宮廷歌劇場首席指揮者就任、8つの章題の使用、初演前の解説、総譜冒頭のニーチェの文、1933年1月12日のロサンゼルス・フィル初演、各部分の音楽、編成、映画『2001年宇宙の旅』）. https://www.hollywoodbowl.com/musicdb/pieces/184/also-sprach-zarathustra-op-30（閲覧日 2026-11-07）"
   - "Santa Rosa Symphony, Program notes: Also sprach Zarathustra, Op. 30（1896年2月4日着手・8月24日完成、1896年11月27日フランクフルト市立管弦楽団、各部分の調と楽器、編成、演奏時間約33分、「人類の進化を音楽で伝える」の発言）. https://www.srsymphony.org/?p=24838（閲覧日 2026-11-07）"
   - "American Symphony Orchestra, Concert notes: Also Sprach Zarathustra, Op. 30 (1896)（4本のトランペットによる自然の動機、空虚5度、ハとロの2つの調的中心、12の鐘、シュトラウスの解説文の引用、マーラー第3番との関係）. https://americansymphony.org/?p=2153（閲覧日 2026-11-07）"
-  - "IMSLP, Also sprach Zarathustra, Op.30 (Strauss, Richard)（初版1896年ミュンヒェン、ヨーゼフ・アイブル、総譜プレート番号2859、パート譜2860、編成、弦の人数16.16.12.12.8）. https://cn.imslp.org/wiki/Also_sprach_Zarathustra%2C_Op.30_(Strauss%2C_Richard)（閲覧日 2026-11-07）"
+  - "IMSLP, Also sprach Zarathustra, Op.30 (Strauss, Richard)（初版1896年ミュンヘン、ヨーゼフ・アイブル、総譜プレート番号2859、パート譜2860、編成、弦の人数16.16.12.12.8）. https://cn.imslp.org/wiki/Also_sprach_Zarathustra%2C_Op.30_(Strauss%2C_Richard)（閲覧日 2026-11-07）"
   - "IRCAM, B.R.A.H.M.S. 作品データベース: Richard Strauss, Also sprach Zarathustra（作曲年1896年、Trenner 176、編成）. https://brahms-old.ircam.fr/en/works/work/36711（閲覧日 2026-11-07）"
   - "Pentatone, Also sprach Zarathustra, Rundfunk-Sinfonieorchester Berlin / Vladimir Jurowski, PTC 5187121（2023年8月11日発売、各部分の演奏時間）. https://www.pentatonemusic.com/product/also-sprach-zarathustra/（閲覧日 2026-11-07）"
 ---
 
 > 要点
-> - **1896年2月4日**にミュンヒェンで着手、**8月24日**に完成。同年**11月27日**、フランクフルト・アム・マインで作曲者の指揮により初演された。
+> - **1896年2月4日**にミュンヘンで着手、**8月24日**に完成。同年**11月27日**、フランクフルト・アム・マインで作曲者の指揮により初演された。
 > - 単一の楽章で、序奏（日の出）とニーチェの著作から取った8つの章題をもつ部分からなる。
 > - 「自然」を表すハ音と「人間」を表すロ音という2つの調的中心が全体を貫き、最後まで解決されない。
-> - 1896年にミュンヒェンのヨーゼフ・アイブルから出版された。冒頭は1968年の映画『2001年宇宙の旅』に使われた。
+> - 1896年にミュンヘンのヨーゼフ・アイブルから出版された。冒頭は1968年の映画『2001年宇宙の旅』に使われた。
 
 ## 成立
 
@@ -35,11 +35,11 @@ sources:
 
 ### 作曲
 
-サンタローザ交響楽団の解説によれば、作曲は1896年2月4日にミュンヒェンで始まり、同年8月24日に完成した。[（Santa Rosa Symphony）](https://www.srsymphony.org/?p=24838)1896年はシュトラウスがミュンヒェン宮廷歌劇場の首席指揮者になった年である。[（LA Phil / Glass）](https://www.hollywoodbowl.com/musicdb/pieces/184/also-sprach-zarathustra-op-30)
+サンタローザ交響楽団の解説によれば、作曲は1896年2月4日にミュンヘンで始まり、同年8月24日に完成した。[（Santa Rosa Symphony）](https://www.srsymphony.org/?p=24838)1896年はシュトラウスがミュンヘン宮廷歌劇場の首席指揮者になった年である。[（LA Phil / Glass）](https://www.hollywoodbowl.com/musicdb/pieces/184/also-sprach-zarathustra-op-30)
 
 ### 初演
 
-初演は1896年11月27日、フランクフルト・アム・マインで、フランクフルト市立管弦楽団を作曲者自身が指揮して行われた。[（Santa Rosa Symphony）](https://www.srsymphony.org/?p=24838)ロサンゼルス・フィルの解説を書いたハーバート・グラス（Herbert Glass）は、保守的なミュンヒェンの聴衆がシュトラウスの音楽を奇抜とみなしたのに対し、進歩的なフランクフルトが初演の場になったと記している。[（LA Phil / Glass）](https://www.hollywoodbowl.com/musicdb/pieces/184/also-sprach-zarathustra-op-30)3日後の11月30日、ベルリン・フィルハーモニー管弦楽団がアルトゥール・ニキシュ（Arthur Nikisch）の指揮で演奏した。初演は激しい論争を呼び、熱狂的な賛辞と辛辣な批判の両方を受けた。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/richard-strauss-also-sprach-zarathustra-thus-spoke-zarathustra-op-30/)
+初演は1896年11月27日、フランクフルト・アム・マインで、フランクフルト市立管弦楽団を作曲者自身が指揮して行われた。[（Santa Rosa Symphony）](https://www.srsymphony.org/?p=24838)ロサンゼルス・フィルの解説を書いたハーバート・グラス（Herbert Glass）は、保守的なミュンヘンの聴衆がシュトラウスの音楽を奇抜とみなしたのに対し、進歩的なフランクフルトが初演の場になったと記している。[（LA Phil / Glass）](https://www.hollywoodbowl.com/musicdb/pieces/184/also-sprach-zarathustra-op-30)3日後の11月30日、ベルリン・フィルハーモニー管弦楽団がアルトゥール・ニキシュ（Arthur Nikisch）の指揮で演奏した。初演は激しい論争を呼び、熱狂的な賛辞と辛辣な批判の両方を受けた。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/richard-strauss-also-sprach-zarathustra-thus-spoke-zarathustra-op-30/)
 
 ロサンゼルス・フィルの初演は1933年1月12日、アルトゥール・ロジンスキ（Artur Rodziński）の指揮による。[（LA Phil / Glass）](https://www.hollywoodbowl.com/musicdb/pieces/184/also-sprach-zarathustra-op-30)
 
@@ -51,7 +51,7 @@ sources:
 
 ### 出版
 
-初版は1896年、ミュンヒェンのヨーゼフ・アイブル（Joseph Aibl）から出版された。総譜のプレート番号は2859、パート譜は2860である。[（IMSLP）](https://cn.imslp.org/wiki/Also_sprach_Zarathustra%2C_Op.30_(Strauss%2C_Richard))トレンナー（Trenner）の作品目録ではTrV 176である。[（IRCAM）](https://brahms-old.ircam.fr/en/works/work/36711)
+初版は1896年、ミュンヘンのヨーゼフ・アイブル（Joseph Aibl）から出版された。総譜のプレート番号は2859、パート譜は2860である。[（IMSLP）](https://cn.imslp.org/wiki/Also_sprach_Zarathustra%2C_Op.30_(Strauss%2C_Richard))トレンナー（Trenner）の作品目録ではTrV 176である。[（IRCAM）](https://brahms-old.ircam.fr/en/works/work/36711)
 
 ## 編成と演奏時間
 

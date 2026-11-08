@@ -21,7 +21,7 @@ sources:
   - "Teatro alla Scala, Dispensa „Der Rosenkavalier“ 2024（1909年2月の書簡、台本の典拠、1909年8月13日の書簡と《ファルスタッフ》、各幕のワルツ、第2幕の楽器）. https://www.teatroallascala.org/static/upload/dis/dispensa-rosenkavalier-2024.pdf（閲覧日 2026-11-07）"
   - "Staatstheater Nürnberg, Programmheft „Der Rosenkavalier“ 2021/22（デーメルを介した出会い、ケスラーとの散歩、ニュルンベルク上演が初演の翌日、ワルツの時代錯誤の議論、ばらの献呈の和音）. https://www.opern.news/media/pdfs/STN_PH_2021_22_Rosenkavalier.pdf（閲覧日 2026-11-07）"
   - "The Metropolitan Opera, Der Rosenkavalier（Live in HD 2022-23）作品紹介（《エレクトラ》が最初の協働、ホフマンスタールのその後の5作、舞台設定1740年代、銀のばらの風習は架空）. https://www.metopera.org/season/in-cinemas/2022-23-season/der-rosenkavalier/（閲覧日 2026-11-07）"
-  - "Harvard Library, Online exhibit „Solti: Richard Strauss“（1949年6月11日のミュンヒェン上演、葬儀での三重唱と歌手、1959年12月4日のコヴェント・ガーデン・デビュー）. https://library.harvard.edu/sites/default/files/static/onlineexhibits/solti/opera-choral/strauss/index.html（閲覧日 2026-11-07）"
+  - "Harvard Library, Online exhibit „Solti: Richard Strauss“（1949年6月11日のミュンヘン上演、葬儀での三重唱と歌手、1959年12月4日のコヴェント・ガーデン・デビュー）. https://library.harvard.edu/sites/default/files/static/onlineexhibits/solti/opera-choral/strauss/index.html（閲覧日 2026-11-07）"
   - "Sheet Music International, Program notes: Strauss, Der Rosenkavalier（各幕の筋）. https://sheetmusicinternational.com/program-notes/strauss-richard-1864-1949-opera-der-rosenkavalier-782（閲覧日 2026-11-07）"
 ---
 
@@ -125,7 +125,7 @@ sources:
 
 ### 1949年の上演と葬儀
 
-ゲオルク・ショルティ（Georg Solti）は1949年6月11日、シュトラウスの85歳の誕生日にミュンヒェンでこの作品を指揮した（演出ゲオルク・ハルトマン）。約3か月後のシュトラウスの葬儀では、ショルティの指揮で第3幕の三重唱が演奏された。歌手はマリアンネ・シェヒ（元帥夫人）、マウト・クーニッツ（オクタヴィアン）、ゲルダ・ゾマーシュー（ゾフィー）である。ショルティのコヴェント・ガーデン・デビューも1959年12月4日のこの作品だった。[（Harvard Library）](https://library.harvard.edu/sites/default/files/static/onlineexhibits/solti/opera-choral/strauss/index.html)
+ゲオルク・ショルティ（Georg Solti）は1949年6月11日、シュトラウスの85歳の誕生日にミュンヘンでこの作品を指揮した（演出ゲオルク・ハルトマン）。約3か月後のシュトラウスの葬儀では、ショルティの指揮で第3幕の三重唱が演奏された。歌手はマリアンネ・シェヒ（元帥夫人）、マウト・クーニッツ（オクタヴィアン）、ゲルダ・ゾマーシュー（ゾフィー）である。ショルティのコヴェント・ガーデン・デビューも1959年12月4日のこの作品だった。[（Harvard Library）](https://library.harvard.edu/sites/default/files/static/onlineexhibits/solti/opera-choral/strauss/index.html)
 
 ### 録音
 
