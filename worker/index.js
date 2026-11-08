@@ -55,14 +55,47 @@ function modeOf(s) {
 
 // ---- 種類・作曲家 ----
 const GENRE = [
-  ["piano-sonata", /^(piano[- ]?sonatas?|ピアノ[・ ]?ソナタ)$/i],
-  ["symphony", /^(symphon(y|ies)|交響曲|シンフォニー)$/i],
+  ["symphony", /^(symphon(y|ies)|交響曲|シンフォニー)$/],
+  ["piano-sonata", /^(piano[- ]?sonatas?|ピアノ[・ ]?ソナタ)$/],
+  ["violin-sonata", /^(violin[- ]?sonatas?|(ヴァ|バ)イオリン[・ ]?ソナタ)$/],
+  ["cello-sonata", /^(cello[- ]?sonatas?|チェロ[・ ]?ソナタ)$/],
+  ["piano-concerto", /^(piano[- ]?concertos?|ピアノ協奏曲)$/],
+  ["violin-concerto", /^(violin[- ]?concertos?|(ヴァ|バ)イオリン協奏曲)$/],
+  ["cello-concerto", /^(cello[- ]?concertos?|チェロ協奏曲)$/],
+  ["string-quartet", /^(string[- ]?quartets?|弦楽四重奏曲?)$/],
+  ["string-quintet", /^(string[- ]?quintets?|弦楽五重奏曲?)$/],
+  ["piano-trio", /^(piano[- ]?trios?|ピアノ三重奏曲?)$/],
+  ["piano-quartet", /^(piano[- ]?quartets?|ピアノ四重奏曲?)$/],
+  ["piano-quintet", /^(piano[- ]?quintets?|ピアノ五重奏曲?)$/],
+  ["overture", /^(overtures?|序曲)$/],
+  ["symphonic-poem", /^(symphonic[- ]?poems?|tone[- ]?poems?|交響詩)$/],
+  ["suite", /^(suites?|組曲)$/],
+  ["variations", /^(variations?|変奏曲)$/],
+  ["serenade", /^(serenades?|セレナー[デド])$/],
+  ["mass", /^(mass(es)?|ミサ曲?)$/],
+  ["requiem", /^(requiems?|レクイエム)$/],
+  ["opera", /^(operas?|オペラ|歌劇)$/],
+  ["oratorio", /^(oratorios?|オラトリオ)$/],
+  ["cantata", /^(cantatas?|カンタータ)$/],
+  ["song", /^(songs?|lieder|歌曲|リート)$/],
+  ["prelude", /^(preludes?|前奏曲|プレリュード)$/],
+  ["etude", /^([eé]tudes?|練習曲|エチュード)$/],
+  ["nocturne", /^(nocturnes?|夜想曲|ノクターン)$/],
+  ["waltz", /^(waltz(es)?|ワルツ|円舞曲)$/],
+  ["mazurka", /^(mazurkas?|マズルカ)$/],
+  ["polonaise", /^(polonaises?|ポロネーズ)$/],
+  ["ballade", /^(ballades?|バラード)$/],
+  ["scherzo", /^(scherz(o|os|i)|スケルツォ)$/],
+  ["impromptu", /^(impromptus?|即興曲)$/],
+  ["fugue", /^(fugues?|フーガ)$/],
 ];
+const GENRE_FAMILY = [["concerto", /^(concertos?|協奏曲|コンチェルト)$/], ["sonata", /^(sonatas?|ソナタ)$/], ["quartet", /^(quartets?|四重奏曲?)$/], ["trio", /^(trios?|三重奏曲?)$/], ["quintet", /^(quintets?|五重奏曲?)$/]];
 function genreOf(s) {
   if (!s) return null;
-  for (const [g, re] of GENRE) if (re.test(String(s).trim())) return g;
-  if (/^(sonatas?|ソナタ)$/i.test(String(s).trim())) return "sonata*";
-  return String(s).trim().toLowerCase();
+  const t = String(s).trim().toLowerCase().replace(/・/g, "・");
+  for (const [g, re] of GENRE) if (re.test(t)) return g;
+  for (const [g, re] of GENRE_FAMILY) if (re.test(t)) return g + "*";
+  return t;
 }
 function composerIds(q, composers) {
   if (!q) return null;
@@ -88,15 +121,16 @@ function search(cat, p) {
   const inst = p.instrument ? String(p.instrument).toLowerCase() : null;
   const anyMov = p.movementKey === "1" || p.movementKey === true;
   const num = (v) => (v === undefined || v === null || v === "" ? null : +v);
-  const of = num(p.opusFrom), ot = num(p.opusTo), yf = num(p.yearFrom), yt = num(p.yearTo);
+  const of = num(p.opusFrom), ot = num(p.opusTo), yf = num(p.yearFrom), yt = num(p.yearTo), nb = num(p.number);
   const q = p.q ? String(p.q).toLowerCase() : null;
   const out = [];
   for (const w of cat.works) {
     if (comps && !comps.includes(w.composer)) continue;
     if (excl && excl.includes(w.composer)) continue;
-    if (genre && genre !== "sonata*" && w.genre !== genre) continue;
-    if (genre === "sonata*" && !/sonata/.test(w.genre)) continue;
-    const keys = [w.key, ...(anyMov ? w.movements.flatMap((m) => [m.key, ...(m.keys || [])]) : [])].filter(Boolean).map(parseKey).filter(Boolean);
+    if (genre && !genre.endsWith("*") && w.genre !== genre) continue;
+    if (genre && genre.endsWith("*") && !String(w.genre || "").includes(genre.slice(0, -1))) continue;
+    if (nb !== null && w.number !== nb) continue;
+    const keys = [w.key, ...(anyMov ? (w.movements || []).flatMap((m) => [m.key, ...(m.keys || [])]) : [])].filter(Boolean).map(parseKey).filter(Boolean);
     let enh = false;
     if (key) {
       const hit = keys.find((k) => k.pc === key.pc && k.minor === key.minor);
@@ -104,21 +138,21 @@ function search(cat, p) {
       enh = hit.id !== key.id;
     }
     if (mode && !keys.some((k) => k.minor === (mode === "minor"))) continue;
-    if (inst && !w.instrumentation.some((i) => i.toLowerCase().includes(inst))) continue;
+    if (inst && !(w.instrumentation || []).some((i) => i.toLowerCase().includes(inst))) continue;
     const op = opusNum(w);
     if ((of !== null || ot !== null) && (op === null || (of !== null && op < of) || (ot !== null && op > ot))) continue;
     const y0 = w.composed?.[0], y1 = w.composed?.[1];
     if (yf !== null && (y1 ?? 0) < yf) continue;
     if (yt !== null && (y0 ?? 9999) > yt) continue;
-    if (q && ![w.titleJa, w.titleEn, w.nicknameJa, ...(w.nicknames || [])].some((x) => (x || "").toLowerCase().includes(q))) continue;
+    if (q && ![w.titleJa, w.titleEn, w.nicknameJa, ...(w.nicknames || []), ...(w.aliases || [])].some((x) => (x || "").toLowerCase().includes(q))) continue;
     out.push(enh ? { ...w, matchedEnharmonic: true } : w);
   }
   // 「全部」と言ってよいか：作曲家と種類の両方を指定し、その組が全曲収録のときだけ
-  const gKey = genre && genre !== "sonata*" ? genre : null;
+  const gKey = genre && !genre.endsWith("*") ? genre : null;
   const cov = comps && comps.length === 1 && gKey ? cat.idx.coverage.find((c) => c.composer === comps[0] && c.genre === gKey) : null;
   const known = comps ? comps.some((c) => cat.works.some((w) => w.composer === c)) : true;
   return {
-    query: { composer: p.composer || null, key: key ? key.id : null, mode, genre: gKey || genre, instrument: inst, opusFrom: of, opusTo: ot, yearFrom: yf, yearTo: yt, exclude: p.exclude || null, q },
+    query: { composer: p.composer || null, key: key ? key.id : null, mode, genre: gKey || genre, number: nb, instrument: inst, opusFrom: of, opusTo: ot, yearFrom: yf, yearTo: yt, exclude: p.exclude || null, q },
     complete: !!(cov && cov.complete),
     coverageNote: cov ? cov.scope : known ? "Veliq 作品目録に収録している範囲の中での結果です（この条件の全曲を収録しているとは限りません）" : "この作曲家は、まだ Veliq 作品目録に収録していません",
     count: out.length,
@@ -130,8 +164,9 @@ function slim(w) {
     id: w.id, composer: w.composer, titleJa: w.titleJa, titleEn: w.titleEn, nicknameJa: w.nicknameJa || undefined,
     opus: w.catalog?.opus, key: w.key, keyJa: w.keyJa, genre: w.genre, instrumentation: w.instrumentation,
     composed: w.composed, firstPublished: w.firstPublished, firstPerformance: w.firstPerformance || undefined,
-    movements: w.movements.map((m) => ({ number: m.number, title: m.title, key: m.key, sections: m.sections ? m.sections.map((s) => ({ title: s.title, key: s.key })) : undefined })),
-    durationMin: w.durationMin || undefined, matchedEnharmonic: w.matchedEnharmonic || undefined,
+    movements: (w.movements || []).map((m) => ({ number: m.number, title: m.title, key: m.key, sections: m.sections ? m.sections.map((s) => ({ title: s.title, key: s.key })) : undefined })),
+    durationMin: w.durationMin || undefined, matchedEnharmonic: w.matchedEnharmonic || undefined, number: w.number ?? undefined,
+    nyp: w.nyp ? { performances: w.nyp.performances, first: w.nyp.first, last: w.nyp.last, scores: (w.nyp.scores || []).filter((s) => s.markedBy).map((s) => ({ id: s.id, markedBy: s.markedBy })) } : undefined,
     url: w.articleId ? `${SITE}/music/works/${w.articleId}/` : undefined,
     sources: w.sources.map((s) => ({ name: s.name, url: s.url })),
   };
@@ -150,7 +185,8 @@ const TOOLS = [
         composer: { type: "string", description: "作曲家（例: beethoven, ベートーヴェン, Beethoven）" },
         key: { type: "string", description: "調（例: 変ホ長調, Eb-major, c#-minor）。異名同音も一致する" },
         mode: { type: "string", description: "major / minor（長調・短調だけで絞るとき）" },
-        genre: { type: "string", description: "種類（piano-sonata, symphony, ピアノ・ソナタ, 交響曲）" },
+        genre: { type: "string", description: "種類（交響曲, ピアノ・ソナタ, ピアノ協奏曲, ヴァイオリン協奏曲, 弦楽四重奏曲, 序曲, ミサ曲, 歌劇 など。英語の symphony, piano-sonata も可。協奏曲・ソナタ・四重奏曲は種類の総称でも絞れる）" },
+        number: { type: "number", description: "番号（交響曲第3番なら 3）" },
         instrument: { type: "string", description: "編成に含む楽器（例: ピアノ, 合唱）" },
         opusFrom: { type: "number" }, opusTo: { type: "number" },
         yearFrom: { type: "number" }, yearTo: { type: "number" },
@@ -162,7 +198,7 @@ const TOOLS = [
   },
   {
     name: "get_work",
-    description: "Veliq 作品目録の1作品を id で取得する（楽章ごとの調・小節数、献呈、初版、初演、出典 URL、Wikidata・IMSLP・MusicBrainz の ID）。",
+    description: "Veliq 作品目録の1作品を id で取得する（楽章ごとの調・小節数、献呈、初版、初演、出典 URL、Wikidata・IMSLP・MusicBrainz の ID、ニューヨーク・フィルの演奏記録と所蔵スコア）。",
     inputSchema: { type: "object", properties: { id: { type: "string" } }, required: ["id"] },
   },
 ];
