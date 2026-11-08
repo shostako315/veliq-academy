@@ -13348,5 +13348,256 @@
       "german",
       "bayreuth"
     ]
+  },
+  {
+    "id": "schumann-carnaval",
+    "composerId": "schumann-r",
+    "title": "《謝肉祭》作品9",
+    "titleEn": "Carnaval, Op. 9",
+    "year": "1834-1835",
+    "genre": "piano",
+    "subgenre": "character-pieces",
+    "era": "romantic",
+    "key": "",
+    "opus": "Op. 9",
+    "duration": 32,
+    "difficulty": 2,
+    "shortDescription": "婚約者エルネスティーネ・フォン・フリッケンの故郷アッシュ（Asch）の文字による4つの音から作られた、22の小品からなるピアノ曲集。1837年に出版され、リピンスキに献呈された。",
+    "movements": [
+      {
+        "number": 1,
+        "title": "Préambule",
+        "tempo": "Quasi maestoso",
+        "key": "Ab-major",
+        "duration": null,
+        "description": "《憧れのワルツ》による未完の変奏曲の冒頭から転用された。4つの音を用いない。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 2,
+        "title": "Pierrot",
+        "tempo": "",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 3,
+        "title": "Arlequin",
+        "tempo": "Vivo",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 4,
+        "title": "Valse noble",
+        "tempo": "Un poco maestoso",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 5,
+        "title": "Eusebius",
+        "tempo": "Adagio",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "シューマンの分身オイゼビウス。A–Es–C–H を用いる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 6,
+        "title": "Florestan",
+        "tempo": "Appassionato",
+        "key": "g-minor",
+        "duration": null,
+        "description": "シューマンの分身フロレスタン。A–Es–C–H を用いる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 7,
+        "title": "Coquette",
+        "tempo": "Vivo",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 8,
+        "title": "Réplique",
+        "tempo": "L'istesso tempo",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "この曲と〈蝶々〉の間に、3つの音型〈スフィンクス〉が楽譜に記されている。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 9,
+        "title": "Papillons",
+        "tempo": "Prestissimo",
+        "key": "Bb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 10,
+        "title": "A.S.C.H.–S.C.H.A (Lettres dansantes)",
+        "tempo": "Presto",
+        "key": "Eb-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 11,
+        "title": "Chiarina",
+        "tempo": "Appassionato",
+        "key": "c-minor",
+        "duration": null,
+        "description": "クララ・ヴィークのダヴィッド同盟での名。As–C–H を用いる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 12,
+        "title": "Chopin",
+        "tempo": "Agitato",
+        "key": "Ab-major",
+        "duration": null,
+        "description": "ショパンを題にした曲。4つの音の音型を用いない。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 13,
+        "title": "Estrella",
+        "tempo": "Con affetto",
+        "key": "f-minor",
+        "duration": null,
+        "description": "エルネスティーネ・フォン・フリッケンを指す。As–C–H を用いる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 14,
+        "title": "Reconnaissance",
+        "tempo": "Animato",
+        "key": "Ab-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 15,
+        "title": "Pantalon et Colombine",
+        "tempo": "Presto",
+        "key": "f-minor",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 16,
+        "title": "Valse allemande",
+        "tempo": "Molto vivace",
+        "key": "Ab-major",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 17,
+        "title": "Paganini",
+        "tempo": "Presto",
+        "key": "f-minor",
+        "duration": null,
+        "description": "〈ドイツ風ワルツ〉の中に挟まる。",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 18,
+        "title": "Aveu",
+        "tempo": "Appassionato",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 19,
+        "title": "Promenade",
+        "tempo": "Comodo",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 20,
+        "title": "Pause",
+        "tempo": "Vivo",
+        "key": "",
+        "duration": null,
+        "description": "",
+        "highlights": [],
+        "youtubeId": null
+      },
+      {
+        "number": 21,
+        "title": "Marche des Davidsbündler contre les Philistins",
+        "tempo": "Non allegro – Vivo",
+        "key": "Ab-major",
+        "duration": null,
+        "description": "3拍子で書かれた行進。ヘンレ版の序文は、〈前口上〉とともに4つの音から作られていない曲とする。",
+        "highlights": [],
+        "youtubeId": null
+      }
+    ],
+    "historicalBackground": "シューマンは1834年にツヴィッカウで作曲を進め、1834〜35年の冬に清書した。原題は「Fasching. Schwänke auf vier Noten」である。出版社との交渉を重ねたのち、1837年8月にライプツィヒのブライトコップフ・ウント・ヘルテルから出版され、パリのシュレザンジェ版はそれより早い1837年7月末に出た。献呈先はポーランドのヴァイオリン奏者カロル・リピンスキである。1840年3月30日にリストがゲヴァントハウスで一部を省いて弾いた。",
+    "musicalAnalysis": "副題は「4つの音による小さな情景」。アッシュの文字を音名に読みかえた A–Es–C–H と As–C–H の音型が、〈前口上〉と終曲の行進を除くほとんどの曲の素材になる。シューマンの分身オイゼビウスとフロレスタン、クララ（キアリーナ）、エルネスティーネ（エストレッラ）、ショパン、パガニーニ、コンメディア・デッラルテの人物が題に現れる。〈返事〉と〈蝶々〉の間には、演奏されることの少ない3つの音型〈スフィンクス〉が記されている。",
+    "listeningGuide": {
+      "totalTime": "32分",
+      "recommendedVersion": "",
+      "youtubeId": null,
+      "checkpoints": []
+    },
+    "relatedWorks": [
+      "schumann-dichterliebe",
+      "schumann-pc",
+      "schumann-symphony-3"
+    ],
+    "relatedComposers": [
+      "chopin",
+      "paganini",
+      "liszt"
+    ],
+    "tags": [
+      "piano",
+      "romantic",
+      "character-pieces",
+      "musical-cipher"
+    ]
   }
 ]
