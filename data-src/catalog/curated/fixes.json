@@ -1,6 +1,48 @@
 {
-  "_note": "出典側の誤りを個別に直す表。wikidata: Wikidata の記録（QID）ごとの修正。理由と根拠を必ず書く",
-  "wikidata": {
-    "Q48847621": {"catalog": "B.56", "reason": "ピアノ三重奏曲第2番 ト短調は B.56（作品26）。B.57 はホ長調の弦楽四重奏曲", "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Antonín_Dvořák"}
+ "_note": "出典側の誤りを個別に直す表。wikidata: Wikidata の記録（QID）ごとの修正。理由と根拠を必ず書く",
+ "wikidata": {
+  "Q48847621": {
+   "catalog": "B.56",
+   "reason": "ピアノ三重奏曲第2番 ト短調は B.56（作品26）。B.57 はホ長調の弦楽四重奏曲",
+   "source": "https://en.wikipedia.org/wiki/List_of_compositions_by_Antonín_Dvořák"
   }
+ },
+ "ids": {
+  "mozart-wa-k-171": {
+   "articleId": "mozart-flute-quartet-3",
+   "titleJa": "フルート四重奏曲第3番 ハ長調 K.285b（K.Anh.171）",
+   "catalog": {
+    "opus": "K.285b"
+   },
+   "reason": "12/19公演の作品頁と結ぶ。第3番は K.285b（K.Anh.171）",
+   "source": "Bärenreiter TP 150（新モーツァルト全集 VIII/20/2 序文）"
+  },
+  "mozart-wa-k-285": {
+   "articleId": "mozart-flute-quartet-1",
+   "titleJa": "フルート四重奏曲第1番 ニ長調 K.285",
+   "catalog": {
+    "opus": "K.285"
+   },
+   "reason": "12/19公演の作品頁と結ぶ。第3番は K.285b（K.Anh.171）",
+   "source": "Bärenreiter TP 150（新モーツァルト全集 VIII/20/2 序文）"
+  },
+  "mozart-wa-k-298": {
+   "articleId": "mozart-flute-quartet-4",
+   "titleJa": "フルート四重奏曲第4番 イ長調 K.298",
+   "catalog": {
+    "opus": "K.298"
+   },
+   "reason": "12/19公演の作品頁と結ぶ。第3番は K.285b（K.Anh.171）",
+   "source": "Bärenreiter TP 150（新モーツァルト全集 VIII/20/2 序文）"
+  },
+  "mozart-wa-k-285a": {
+   "articleId": "mozart-flute-quartet-2",
+   "titleJa": "フルート四重奏曲第2番 ト長調 K.285a",
+   "catalog": {
+    "opus": "K.285a"
+   },
+   "reason": "12/19公演の作品頁と結ぶ。第3番は K.285b（K.Anh.171）",
+   "source": "Bärenreiter TP 150（新モーツァルト全集 VIII/20/2 序文）"
+  }
+ }
 }

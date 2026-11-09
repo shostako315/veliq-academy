@@ -688,6 +688,13 @@ def main():
             for k in [k for k in r if k.startswith("_")]:
                 r.pop(k)
         recs[:] = [r if any(s.get("name") != "Open Opus" for s in r["sources"]) else compact(r) for r in recs]
+        # 手で確かめた個別の修正（fixes.json の ids）。作り直しても消えないよう最後に当てる
+        for r in recs:
+            fx = (FIXES.get("ids") or {}).get(r.get("id"))
+            if fx:
+                for k, v in fx.items():
+                    if k not in ("reason", "source"):
+                        r[k] = v
         (OUT / f"{cid}.json").write_text(json.dumps(recs, ensure_ascii=False, separators=(",", ":")) + "\n")
         files.append({"composer": cid, "url": f"{SITE}/data/catalog/{cid}.json", "count": len(recs)})
     REPORT.mkdir(parents=True, exist_ok=True)
