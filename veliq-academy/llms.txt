@@ -826,5 +826,5 @@
 - MCP サーバー（読み取り専用、Streamable HTTP）: https://veliq-academy.com/mcp（ツール search_works・get_work）
 
 ## 運営
-- [プライバシーポリシー](https://veliq-academy.com/privacy.html)
+- [プライバシーポリシー](https://veliq-academy.com/privacy)
 - 姉妹サイト: [VELIQ](https://veliq.jp/) / [Veliq Club](https://veliqclub.com/)

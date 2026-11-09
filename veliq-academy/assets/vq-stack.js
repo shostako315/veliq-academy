@@ -3,17 +3,7 @@
    - 横にスクロールさせる前提の表（枠より広い表）・6列以上の表・入力欄を含む表・計算結果のように後から作られる表には触らない */
 (function () {
   if (!window.matchMedia || !matchMedia("(max-width:640px)").matches) return;
-  var css = ".vq-stk.vq-stk.vq-stk,.vq-stk.vq-stk.vq-stk tbody,.vq-stk.vq-stk.vq-stk tr,.vq-stk.vq-stk.vq-stk th,.vq-stk.vq-stk.vq-stk td{display:block!important;width:auto!important;min-width:0!important;max-width:none!important}" +
-    ".vq-stk.vq-stk.vq-stk{border:0!important}.vq-stk.vq-stk.vq-stk thead,.vq-stk.vq-stk.vq-stk .vq-stk-hide{display:none!important}" +
-    ".vq-stk.vq-stk.vq-stk caption{display:block!important;width:auto!important;text-align:left;padding:10px 0 2px}" +
-    ".vq-stk.vq-stk.vq-stk tr{padding:14px 0!important;border:0!important;border-bottom:1px solid rgba(0,0,0,.08)!important;background:none!important}" +
-    ".vq-stk.vq-stk.vq-stk tr:last-child{border-bottom:0!important}" +
-    ".vq-stk.vq-stk.vq-stk th,.vq-stk.vq-stk.vq-stk td{padding:0!important;border:0!important;background:none!important;box-shadow:none!important;position:static!important;text-align:left!important;white-space:normal!important;height:auto!important}" +
-    ".vq-stk.vq-stk.vq-stk .vq-stk-h{font-size:15px!important;font-weight:700!important;margin:0 0 6px!important;line-height:1.6}" +
-    ".vq-stk.vq-stk.vq-stk td:not(.vq-stk-h),.vq-stk.vq-stk.vq-stk th:not(.vq-stk-h){font-size:14px;line-height:1.75}" +
-    ".vq-stk.vq-stk.vq-stk [data-label]{margin-top:8px!important}" +
-    ".vq-stk.vq-stk.vq-stk [data-label]::before{content:attr(data-label);display:block;font-size:12px;font-weight:600;opacity:.6;margin:0 0 2px}";
-  var st = document.createElement("style"); st.textContent = css; document.head.appendChild(st);
+  /* 見た目は vq-ui.css の末尾（この site の CSP は style-src 'self' で、JS から足す <style> は効かないため） */
   function txt(c) { return (c.textContent || "").replace(/\s+/g, "").length; }
   function run() {
   [].forEach.call(document.querySelectorAll("main table, article table, .wrap table"), function (t) {

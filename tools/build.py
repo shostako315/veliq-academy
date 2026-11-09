@@ -40,7 +40,7 @@ QUIZ_BANK = (Path(os.environ["VELIQ_CLUB_DIR"]) / "quiz-bank.js" if os.environ.g
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "14"
+CSS_V = "15"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
@@ -874,7 +874,7 @@ def footer(S, extra_js=""):
     conc = [("/concerts/", "演奏会")] + [(f'/concerts/{e["id"]}/', e["title"]) for e in S.events] + \
         [(f"{APP}?from=academy", "Veliq アプリで学ぶ"), (CLUB, "Veliq Club")]
     ops = [(VO, "VariOrchestra"), ("https://veliq.jp/", "VELIQ"), ("mailto:info@variorchestra.com", "お問い合わせ")]
-    legal = [("/privacy.html", "プライバシーポリシー")]
+    legal = [("/privacy", "プライバシーポリシー")]
     return f"""<footer class="gf">
   <div class="wrap">
     <div class="gf-brand">Veliq <b>Academy</b></div>
@@ -1676,18 +1676,19 @@ def wrap_static(S, name, title, cur=""):
     desc_m = re.search(r'<meta name="description" content="([^"]*)"', s)
     desc = html.unescape(desc_m.group(1)) if desc_m else title
     noindex = name == "404.html"
+    url = "/" + re.sub(r"\.html$", "", name)  # 正規 URL は拡張子なし（/privacy.html は 307 で /privacy へ移るため）
     if not noindex:
-        bc, bld = crumbs([("トップ", "/"), (title, "/" + name)])
+        bc, bld = crumbs([("トップ", "/"), (title, url)])
         ld = [bld]
         inner_wrapped = f'<div class="va-bc-wrap">{bc}</div><!--/bc-->' + inner.strip()
     else:
         ld = []
         inner_wrapped = inner.strip()
-    out = head(title, desc, "/" + name, ld, "article", noindex=noindex) + header(S, cur) + \
+    out = head(title, desc, url, ld, "article", noindex=noindex) + header(S, cur) + \
         f'<main id="main" class="va-main va-doc"><div class="wrap"><div class="va-art va-body">\n{inner_wrapped}\n</div></div></main>\n' + footer(S)
     p.write_text(out, encoding="utf-8")
     if not noindex:
-        S.pages.append(("/" + name, S.data_mtime, title))
+        S.pages.append((url, S.data_mtime, title))
 
 
 def unwrap_static_main(name):
@@ -1743,7 +1744,7 @@ def build_meta_files(S):
           f"- [検索 API]({SITE}/api/works?composer=beethoven&genre=piano-sonata&mode=minor): composer, key（変ホ長調・Eb-major・c#-minor。異名同音も一致）, mode, genre, instrument, opusFrom, opusTo, yearFrom, yearTo, exclude, movementKey=1, q。応答の complete が true のときだけ、その条件の全曲です",
           f"- [1作品]({SITE}/api/works/beethoven-op27-2) / [目録の説明と収録範囲]({SITE}/api) / [目録ファイル]({SITE}/data/catalog/index.json)",
           f"- MCP サーバー（読み取り専用、Streamable HTTP）: {SITE}/mcp（ツール search_works・get_work）",
-          "", "## 運営", f"- [プライバシーポリシー]({SITE}/privacy.html)", f"- 姉妹サイト: [VELIQ](https://veliq.jp/) / [Veliq Club]({CLUB})", ""]
+          "", "## 運営", f"- [プライバシーポリシー]({SITE}/privacy)", f"- 姉妹サイト: [VELIQ](https://veliq.jp/) / [Veliq Club]({CLUB})", ""]
     (OUT / "llms.txt").write_text("\n".join(L), encoding="utf-8")
 
 
