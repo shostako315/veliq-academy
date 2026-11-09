@@ -315,6 +315,67 @@ async function mcp(req, env) {
   return r ? json(r, 200, { "Cache-Control": "no-store" }) : new Response(null, { status: 202, headers: CORS });
 }
 
+// ---- 人が読む作品のページ（/music/catalog/ と /music/catalog/<id>/）----
+// 見た目は既存のページ（作曲家の一覧）を型にして、title・説明・本文だけ差し替える。中身は目録の事実だけ
+const H = (t) => String(t ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const KJ = { C: "ハ", D: "ニ", E: "ホ", F: "ヘ", G: "ト", A: "イ", B: "ロ" };
+function keyJaOf(k) {
+  const m = String(k || "").match(/^([A-Ga-g])(b|#)?-(major|minor)$/);
+  return m ? (m[2] === "b" ? "変" : m[2] === "#" ? "嬰" : "") + KJ[m[1].toUpperCase()] + (m[3] === "minor" ? "短調" : "長調") : "";
+}
+async function shell(env, { title, desc, canon, crumbs, body }) {
+  const tpl = await (await env.ASSETS.fetch(new Request(SITE + "/music/composers/"))).text();
+  const ld = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: crumbs.map(([n, u], i) => ({ "@type": "ListItem", position: i + 1, name: n, ...(u ? { item: SITE + u } : {}) })) };
+  const bc = '<nav class="va-bc" aria-label="パンくず"><ol>' + crumbs.map(([n, u], i) => i < crumbs.length - 1 ? `<li><a href="${u}">${H(n)}</a></li>` : `<li><span aria-current="page">${H(n)}</span></li>`).join("") + "</ol></nav>";
+  return tpl
+    .replace(/<title>[\s\S]*?<\/title>/, `<title>${H(title)}｜Veliq Academy</title>`)
+    .replace(/(<meta name="description" content=")[^"]*/, `$1${H(desc)}`)
+    .replace(/(<meta property="og:description" content=")[^"]*/, `$1${H(desc)}`)
+    .replace(/(<meta property="og:title" content=")[^"]*/, `$1${H(title)}｜Veliq Academy`)
+    .replace(/(<link rel="canonical" href=")[^"]*/, `$1${SITE}${canon}`)
+    .replace(/(<meta property="og:url" content=")[^"]*/, `$1${SITE}${canon}`)
+    .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(ld)}</script>`)
+    .replace(/<main[\s\S]*<\/main>/, `<main id="main" class="va-main"><div class="wrap">${bc}${body}</div></main>`);
+}
+const CSS = `<style>.wk h1{margin:.2em 0 .1em}.wk .en{color:#6E6E73;margin:0 0 1.2em}.wk dl{display:grid;grid-template-columns:7em 1fr;margin:0 0 1.6em;border-top:1px solid rgba(0,0,0,.1)}.wk dt,.wk dd{margin:0;padding:.7em 0;border-bottom:1px solid rgba(0,0,0,.1)}.wk dt{color:#6E6E73;font-size:.9em}.wk h2{margin:1.8em 0 .6em}.wk ol.mv{padding-left:1.4em}.wk ol.mv li{margin:.3em 0}.wk .nt{color:#6E6E73;font-size:.9em}.wk ul.src{padding-left:1.2em;font-size:.9em}.wk table{width:100%;border-collapse:collapse}.wk td,.wk th{padding:.5em .4em;border-bottom:1px solid rgba(0,0,0,.1);text-align:left;font-size:.95em}.wk form{display:flex;gap:.5em;margin:1em 0}.wk input{flex:1;font:inherit;padding:.6em .8em;border:1px solid rgba(0,0,0,.2);border-radius:10px}.wk button{font:inherit;padding:.6em 1.1em;border:0;border-radius:10px;background:#1D1D1F;color:#fff}.wk .rl a{display:block;padding:.7em 0;border-bottom:1px solid rgba(0,0,0,.1);color:inherit;text-decoration:none}.wk .rl small{display:block;color:#6E6E73}</style>`;
+async function workPage(env, cat, id) {
+  const w = await cat.getWork(id);
+  if (!w) return null;
+  if (w.id !== id) return Response.redirect(`${SITE}/music/catalog/${w.id}/`, 301);
+  const comp = (cat.composers || []).find((c) => c.id === w.composer) || {};
+  const row = (k, v) => (v ? `<dt>${k}</dt><dd>${v}</dd>` : "");
+  const yr = (a) => (a && a[0] ? a[0] + (a[1] && a[1] !== a[0] ? "〜" + a[1] : "") + "年" : "");
+  const fp = w.firstPerformance ? [w.firstPerformance.date, w.firstPerformance.venue, w.firstPerformance.place, w.firstPerformance.text].filter(Boolean).map(H).join("　") : "";
+  const keyTxt = w.keyJa ? H(w.keyJa) + (w.keyNote ? `<br><span class="nt">${H(w.keyNote)}</span>` : "") : w.keyNote ? `<span class="nt">${H(w.keyNote)}</span>` : "";
+  const cat0 = Object.values(w.catalog || {}).filter(Boolean).map(H).join("　");
+  const mv = (w.movements || []).length ? `<h2>楽章</h2><ol class="mv">${w.movements.map((m) => `<li>${H(m.title)}${m.key ? `（${keyJaOf(m.key)}）` : ""}</li>`).join("")}</ol>` : "";
+  const n = w.nyp;
+  const nyp = n ? `<h2>ニューヨーク・フィルの記録</h2><dl>${row("演奏回数", n.performances + "回")}${row("初回", H(n.first))}${row("直近", H(n.last))}${row("多く振った指揮者", (n.conductors || []).slice(0, 5).map(([a, b]) => `${H(a)}（${b}回）`).join("、"))}</dl>` +
+    ((n.scores || []).length ? `<table><thead><tr><th>所蔵スコア</th><th>書き込み</th><th>版元</th></tr></thead><tbody>${n.scores.map((s) => `<tr><td><a href="https://archives.nyphil.org/" target="_blank" rel="noopener">${H(s.id)}</a></td><td>${H(s.markedBy || "記載なし")}</td><td>${H(s.publisher || "")}</td></tr>`).join("")}</tbody></table><p class="nt">書き込みの中身は掲載していません。所蔵の所在までです。</p>` : "") +
+    `<p class="nt">演奏記録・所蔵スコア：New York Philharmonic（CC0）</p>` : "";
+  const art = w.articleId ? `<p><a href="/music/works/${H(w.articleId)}/">読みもの：${H(w.titleJa)}</a></p>` : "";
+  const src = (w.sources || []).length ? `<h2>出典</h2><ul class="src">${w.sources.map((s) => `<li><a href="${H(s.url)}" target="_blank" rel="noopener">${H(s.name)}</a>${s.fields ? `：${H(s.fields)}` : ""}</li>`).join("")}</ul>` : "";
+  const st = w.status ? `<p class="nt">${w.status === "lost" ? "消失した作品です。" : "未完・断片、または他の人の補筆による版です。"}${H(w.statusNote || "")}</p>` : "";
+  const body = CSS + `<article class="wk"><h1>${H(w.titleJa)}</h1>${w.titleEn && w.titleEn !== w.titleJa ? `<p class="en">${H(w.titleEn)}</p>` : ""}${st}<dl>` +
+    row("作曲家", comp.name ? `<a href="/music/composers/${H(comp.id)}/">${H(comp.name)}</a>` : H(w.composer)) + row("調", keyTxt) + row("作品番号", cat0) +
+    row("作曲", yr(w.composed)) + row("初版", w.firstPublished ? w.firstPublished + "年" : "") + row("初演", fp) + row("献呈", H(w.dedication)) +
+    row("編成", (w.instrumentation || []).map(H).join("、")) + row("演奏時間", w.durationMin && w.durationMin[0] ? "約" + w.durationMin[0] + (w.durationMin[1] !== w.durationMin[0] ? "〜" + w.durationMin[1] : "") + "分" : "") +
+    `</dl>${art}${mv}${nyp}${src}<p class="nt">Veliq 作品目録より。出典に書かれていることだけを載せています。<a href="/music/catalog/">作品目録で探す</a></p></article>`;
+  const desc = [w.titleJa, comp.name, w.keyJa, yr(w.composed) && "作曲" + yr(w.composed), n && `ニューヨーク・フィルで${n.performances}回演奏`].filter(Boolean).join("。");
+  return new Response(await shell(env, { title: w.titleJa, desc, canon: `/music/catalog/${w.id}/`, crumbs: [["トップ", "/"], ["音楽", "/music/"], ["作品目録", "/music/catalog/"], [w.titleJa]], body }), { headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "public, max-age=600" } });
+}
+async function catalogPage(env, cat, params) {
+  const q = String(params.get("q") || "").slice(0, 60), composer = String(params.get("composer") || "");
+  let list = "";
+  if (q || composer) {
+    const r = await search(cat, { q, composer, limit: "100" });
+    list = `<p class="nt">${r.count}件${r.count > (r.results || []).length ? `（先頭${r.results.length}件）` : ""}</p><div class="rl">` + (r.results || []).map((w) => `<a href="/music/catalog/${H(w.id)}/">${H(w.titleJa)}<small>${H(((cat.composers || []).find((c) => c.id === w.composer) || {}).name || w.composer)}${w.nyp ? `・ニューヨーク・フィルで${w.nyp.performances}回演奏` : ""}</small></a>`).join("") + "</div>";
+  }
+  const body = CSS + `<article class="wk"><h1>作品目録</h1><p>作曲家109人の作品の、調・作品番号・楽章・作曲年・初演と、ニューヨーク・フィルの演奏記録。出典に書かれていることだけを載せています。</p>` +
+    `<form action="/music/catalog/" method="get"><input name="q" value="${H(q)}" placeholder="曲名・通称（例：英雄、エグモント）" aria-label="曲名"><button>探す</button></form>${list}</article>`;
+  return new Response(await shell(env, { title: "作品目録", desc: "作曲家109人の作品の調・作品番号・楽章・作曲年・初演と、ニューヨーク・フィルの演奏記録。", canon: "/music/catalog/", crumbs: [["トップ", "/"], ["音楽", "/music/"], ["作品目録"]], body }), { headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "public, max-age=300" } });
+}
+
 export default {
   async fetch(req, env) {
     const url = new URL(req.url);
@@ -332,6 +393,12 @@ export default {
       const cat = await catalog(env);
       const w = await cat.getWork(m[1]);
       return w ? json(w) : json({ error: "not_found" }, 404);
+    }
+    const pg = url.pathname.match(/^\/music\/catalog\/(?:([a-z0-9-]+)\/?)?$/);
+    if (pg) {
+      const cat = await catalog(env);
+      if (pg[1]) { const r = await workPage(env, cat, pg[1]); if (r) return r; }
+      else return catalogPage(env, cat, url.searchParams);
     }
     if (url.pathname === "/api" || url.pathname === "/api/") {
       const cat = await catalog(env);
