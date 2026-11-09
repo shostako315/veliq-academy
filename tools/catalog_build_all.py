@@ -20,11 +20,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from catalog_build import key_id, key_ja, key_en, strip_wiki, ded_clean, years, movements, minutes, first_perf  # noqa: E402
 from catalog_openopus import oo_records, SNAPSHOT as OO_SNAPSHOT  # noqa: E402
+from catalog_dedupe import flag_status, dedupe, ja_label_collisions, apply_ja_titles  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data-src" / "catalog" / "raw"
 NYP = ROOT / "data-src" / "catalog" / "nyp"
 OUT = ROOT / "veliq-academy" / "data" / "catalog"
+REPORT = ROOT / "data-src" / "catalog" / "report"
 SITE = "https://veliq-academy.com"
 FETCHED = "2026-11-08"
 
@@ -334,7 +336,7 @@ def make(cid, comp_meta, page, title, genre, no, cat, kc, f, w, q, alt, nick, co
     if genre in NUMBERED and (no or kc):
         title_ja = G_JA[genre] + (f"第{no}番" if no else "") + (f" {kj}" if kj else "") + (f" {cat_ja(cat)}" if cat else "")
     elif w.get("ja"):
-        title_ja = w["ja"]
+        title_ja = re.sub(r"\s*[\(（][\u30a0-\u30ff・]+[\)）]$", "", w["ja"])  # Wikidata の曖昧さ回避（「(ブラームス)」「(オペラ)」）は外す
     else:
         title_ja = title + (f" {kj}" if kj and kj not in title else "") + (f" {cat_ja(cat)}" if cat and cat not in title else "")
     if nick:
@@ -359,6 +361,12 @@ def make(cid, comp_meta, page, title, genre, no, cat, kc, f, w, q, alt, nick, co
     }
     if conflicts:
         rec["conflicts"] = conflicts
+    # 出力前に外す作業用の項目（未完・断片の判定と重複の統合に使う）
+    rec["_wdtypes"] = w.get("types", "") if q else ""
+    rec["_jaSrc"] = "wikidata" if (w.get("ja") and not (genre in NUMBERED and (no or kc))) else ""
+    rec["_imslpOp"] = cat_norm((w.get("imslp") or "").replace("_", " ")) if q else ""
+    if f:
+        rec["_imslpf"] = {k: f.get(k, "") for k in ("Work Title", "Alternative Title", "Number of Movements/Sections", "Movements Header", "Extra Information")}
     return rec
 
 
@@ -400,6 +408,7 @@ def make_oo(cid, comp_meta, x, cat):
         r["category"] = OO_CAT[x["category"]]
     if x["popular"]:
         r["popular"] = True
+    r["_sub"] = x["subtitle"]
     r["sources"] = [{"name": "Open Opus", "url": "https://github.com/PaulLikesToCode/openopus-data",
                      "fields": "題名・調・作品番号・番号・種類（題名から機械的に読み取り）", "fetched": OO_SNAPSHOT, "license": "CC0"}]
     return r
@@ -426,6 +435,8 @@ def merge_oo(r, o):
             r[k] = o[k]
     if not r.get("instrumentation") and o.get("instrumentation"):
         r["instrumentation"] = o["instrumentation"]
+    if o.get("_sub") and not r.get("_sub"):
+        r["_sub"] = o["_sub"]
     r["sources"] = r["sources"] + [s for s in o["sources"] if s["name"] not in {x["name"] for x in r["sources"]}]
 
 
@@ -636,27 +647,59 @@ def main():
             recs = curated + [r for r in recs if r["ids"].get("imslp") not in have and (r["catalog"].get("opus") or "~") not in have]
         if recs:
             by[c["id"]] = recs
-    hit, sc = nyp_attach(by, comps)
-    comp_era = {c["id"]: c.get("era") for c in comps}
-    files = []
+    # 同じ id（同名の別作品）は末尾に -2, -3 を付けて一意にする（調査結果 keys.jsonl はこの id で引くので、統合より先に付ける）
     for cid, recs in by.items():
-        # 同じ id（同名の別作品）は末尾に -2, -3 を付けて一意にする
         cnt = {}
         for r in recs:
             n = cnt.get(r["id"], 0) + 1
             cnt[r["id"]] = n
             if n > 1:
                 r["id"] = f'{r["id"]}-{n}'
+    # 未完・断片・消失の印（出典にあるものだけ）
+    flagged = []
+    for cid, recs in by.items():
         for r in recs:
-            apply_key_research(r, KEY_RESEARCH.get(r["id"]))
+            st = flag_status(r)
+            if st:
+                r["status"], r["statusNote"] = st[0], st[1]
+                flagged.append((r["id"], st[0], st[2], r["titleEn"]))
+    # 重複の統合（NYP の結合より先に。重複があると NYP の候補が2件になり結合されないため）
+    curated_ids = {r["id"] for r in curated}
+    for recs in by.values():
+        for r in recs:
+            x = KEY_RESEARCH.get(r["id"])
+            if x and x.get("status") in ("stated", "disputed") and key_code_of(x.get("key")):
+                r["_rkey"] = key_id(key_code_of(x["key"]))  # 統合の判定だけに使う（調の反映は NYP の結合の後）
+    merges, collide, titled = [], [], []
+    for cid in list(by):
+        by[cid] = dedupe(cid, by[cid], curated_ids, merges)
+    hit, sc = nyp_attach(by, comps)
+    comp_era = {c["id"]: c.get("era") for c in comps}
+    files = []
+    nja = 0
+    for cid, recs in by.items():
+        for r in recs:
+            x = KEY_RESEARCH.get(r["id"]) or next((KEY_RESEARCH[a] for a in r.get("aliases", []) if a in KEY_RESEARCH), None)
+            apply_key_research(r, x)
+        ja_label_collisions(cid, recs, collide)
+        nja += apply_ja_titles(recs, curated_ids, NICK, titled)
+        for r in recs:
             set_key_status(r, comp_era.get(cid))
+            for k in [k for k in r if k.startswith("_")]:
+                r.pop(k)
         recs[:] = [r if any(s.get("name") != "Open Opus" for s in r["sources"]) else compact(r) for r in recs]
         (OUT / f"{cid}.json").write_text(json.dumps(recs, ensure_ascii=False, separators=(",", ":")) + "\n")
         files.append({"composer": cid, "url": f"{SITE}/data/catalog/{cid}.json", "count": len(recs)})
+    REPORT.mkdir(parents=True, exist_ok=True)
+    (REPORT / "fragments.tsv").write_text("id\tstatus\t根拠\ttitleEn\n" + "".join("\t".join(map(str, x)) + "\n" for x in sorted(flagged)))
+    (REPORT / "merges.tsv").write_text("残した id\t統合した id\t理由\t残した題\t統合した題\n" + "".join("\t".join(map(str, x)) + "\n" for x in merges + collide))
+    (REPORT / "titles-ja.tsv").write_text("id\t前の titleJa\t新しい titleJa\n" + "".join("\t".join(map(str, x)) + "\n" for x in titled))
+    nm = sum(1 for x in merges if not x[2].startswith("保留"))
+    print(f"未完・断片・消失 {len(flagged)}件／重複の統合 {nm}件（保留 {len(merges) - nm}件・日本語名の付け直し {len(collide)}件）／和題を組んだもの {nja}件 → {REPORT.relative_to(ROOT)}/")
     total = sum(f["count"] for f in files)
     idx = {
         "name": "Veliq 作品目録", "updated": FETCHED, "license": "事実データ。出典は各レコードの sources。Wikidata（CC0）・Open Opus（CC0）・IMSLP の作品情報欄とニューヨーク・フィルの演奏記録（CC0, New York Philharmonic）を含む",
-        "fields": old_idx.get("fields", "") + ", keyStatus（stated/unverified/disputed/none/modal/not-applicable/unstated-modern/unknown）, keyNote（調が空・諸説あるときの説明）, category（keyboard/chamber/orchestral/vocal/stage。Open Opus 由来）, popular, conflicts, nyp{performances,first,last,conductors,scores[id,markedBy,publisher]}",
+        "fields": old_idx.get("fields", "") + ", status（fragment＝未完・断片・他者の補筆版／lost＝消失。出典に印のあるものだけ。API は既定で件数から除く）, statusNote, aliases（統合して消えた記録の旧 id）, otherTitles（統合した記録の題）, keyStatus（stated/unverified/disputed/none/modal/not-applicable/unstated-modern/unknown）, keyNote（調が空・諸説あるときの説明）, category（keyboard/chamber/orchestral/vocal/stage。Open Opus 由来）, popular, conflicts, nyp{performances,first,last,conductors,scores[id,markedBy,publisher]}",
         "files": files, "coverage": old_idx.get("coverage", []), "count": total,
     }
     (OUT / "index.json").write_text(json.dumps(idx, ensure_ascii=False, indent=1) + "\n")

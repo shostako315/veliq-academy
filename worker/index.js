@@ -1,6 +1,7 @@
 // Veliq Academy の Worker。静的ページはそのまま返し、/api/* と /mcp だけここで答える
-// - GET /api/works?composer=&key=&mode=&genre=&number=&instrument=&opusFrom=&opusTo=&yearFrom=&yearTo=&exclude=&q=&limit=
-// - GET /api/works/<id>
+// - GET /api/works?composer=&key=&mode=&genre=&number=&instrument=&opusFrom=&opusTo=&yearFrom=&yearTo=&exclude=&q=&limit=&includeFragments=
+// - GET /api/works/<id>（統合して消えた記録の旧 id＝aliases でも引ける）
+// 未完・断片・他者の補筆版・消失した作品（status あり）は、既定では結果と件数から除く（includeFragments=1 で含める。q で題を指定したときは含める）
 // - POST /mcp（MCP・読み取り専用。ツール search_works / get_work）
 // 作品目録は静的ファイル /data/catalog/*.json（ビルドで作る）を読む。推測で作品を足さない
 
@@ -44,7 +45,8 @@ async function catalog(env) {
     async getWork(id) {
       const c = this.composerOfId(id);
       await this.load(c ? [c] : null);
-      return (byComp[c] || this.works).find((x) => x.id === id) || null;
+      const pool = byComp[c] || this.works;
+      return pool.find((x) => x.id === id) || pool.find((x) => (x.aliases || []).includes(id)) || null;
     },
   };
   return CACHE;
@@ -172,7 +174,10 @@ async function search(cat, p) {
   const of = num(p.opusFrom), ot = num(p.opusTo), yf = num(p.yearFrom), yt = num(p.yearTo), nb = num(p.number);
   const q = p.q ? String(p.q).toLowerCase() : null;
   const lim = Math.min(Math.max(num(p.limit) || 100, 1), 500);
+  // 未完・断片・消失の作品は、件数（「全9曲」など）に入れない。題で探したとき（q）と includeFragments=1 のときだけ含める
+  const incFrag = p.includeFragments === "1" || p.includeFragments === "true" || p.includeFragments === true || !!q;
   const out = [];
+  const skipped = [];
   for (const w of pool) {
     if (comps && !comps.includes(w.composer)) continue;
     if (excl && excl.includes(w.composer)) continue;
@@ -194,22 +199,34 @@ async function search(cat, p) {
     const y0 = w.composed?.[0], y1 = w.composed?.[1];
     if (yf !== null && (y1 ?? 0) < yf) continue;
     if (yt !== null && (y0 ?? 9999) > yt) continue;
-    if (q && ![w.titleJa, w.titleEn, w.nicknameJa, ...(w.nicknames || []), ...(w.aliases || [])].some((x) => (x || "").toLowerCase().includes(q))) continue;
+    if (q && ![w.titleJa, w.titleEn, w.nicknameJa, ...(w.nicknames || []), ...(w.otherTitles || [])].some((x) => (x || "").toLowerCase().includes(q))) continue;
+    if (w.status && !incFrag) { skipped.push(w); continue; }
     out.push(enh ? { ...w, matchedEnharmonic: true } : w);
+  }
+  // 題で探したときは、題の一致の強さ（完全一致 → 前方一致）、NYP の演奏回数の順に並べる（「エグモント」で Op.84 が先に来るように）
+  if (q) {
+    const rank = (w) => {
+      const ts = [w.titleJa, w.titleEn, w.nicknameJa, ...(w.nicknames || []), ...(w.otherTitles || [])].map((x) => (x || "").toLowerCase().replace(/[《》「」"“”]/g, ""));
+      if (ts.some((t) => t === q)) return 0;
+      if (ts.some((t) => t.startsWith(q) || t.includes("《" + q))) return 1;
+      return 2;
+    };
+    out.sort((a, b) => rank(a) - rank(b) || (b.nyp?.performances || 0) - (a.nyp?.performances || 0) || (a.status ? 1 : 0) - (b.status ? 1 : 0));
   }
   // 「全部」と言ってよいか：作曲家と種類の両方を指定し、その組が全曲収録のときだけ
   const gKey = genre && !genre.endsWith("*") ? genre : null;
   const cov = comps && comps.length === 1 && gKey ? cat.idx.coverage.find((c) => c.composer === comps[0] && c.genre === gKey) : null;
   const known = comps ? comps.some((c) => cat.works.some((w) => w.composer === c)) : true;
   return {
-    query: { composer: p.composer || null, key: key ? key.id : null, mode, genre: gKey || genre, number: nb, instrument: inst, opusFrom: of, opusTo: ot, yearFrom: yf, yearTo: yt, exclude: p.exclude || null, q },
+    query: { composer: p.composer || null, key: key ? key.id : null, mode, genre: gKey || genre, number: nb, instrument: inst, opusFrom: of, opusTo: ot, yearFrom: yf, yearTo: yt, exclude: p.exclude || null, q, includeFragments: incFrag },
     complete: !!(cov && cov.complete),
     coverageNote: cov ? cov.scope : known ? "Veliq 作品目録に収録している範囲の中での結果です（この条件の全曲を収録しているとは限りません）" : "この作曲家は、まだ Veliq 作品目録に収録していません",
     count: out.length,
+    excludedFragments: skipped.length ? { count: skipped.length, note: "未完・断片・他者の補筆版・消失した作品は件数に含めていません（includeFragments=1 で含めます）", works: skipped.slice(0, 10).map((w) => ({ id: w.id, titleJa: w.titleJa, status: w.status, statusNote: w.statusNote })) } : undefined,
     // 件数が多いときは、NYP での演奏回数と代表作（popular）の順に上位だけ返す。少ないときは目録の順のまま
     limit: lim,
     truncated: out.length > lim || undefined,
-    results: (await full(cat, useIdx, out.length > lim ? [...out].sort((a, b) => (b.nyp?.performances || 0) - (a.nyp?.performances || 0) || (b.popular ? 1 : 0) - (a.popular ? 1 : 0)).slice(0, lim) : out)).map(slim),
+    results: (await full(cat, useIdx, out.length > lim ? (q ? out.slice(0, lim) : [...out].sort((a, b) => (b.nyp?.performances || 0) - (a.nyp?.performances || 0) || (b.popular ? 1 : 0) - (a.popular ? 1 : 0)).slice(0, lim)) : out)).map(slim),
   };
 }
 // 索引の行を、作曲家ごとの本体の記録に置き換える（出典・注記・NYP などは本体にだけある）
@@ -229,6 +246,7 @@ function slim(w) {
     movements: (w.movements || []).map((m) => ({ number: m.number, title: m.title, key: m.key, sections: m.sections ? m.sections.map((s) => ({ title: s.title, key: s.key })) : undefined })),
     durationMin: w.durationMin || undefined, matchedEnharmonic: w.matchedEnharmonic || undefined, number: w.number ?? undefined,
     category: categoryOf(w) || undefined, popular: w.popular || undefined, conflicts: w.conflicts || undefined,
+    status: w.status || undefined, statusNote: w.statusNote || undefined, otherTitles: w.otherTitles?.length ? w.otherTitles : undefined,
     nyp: w.nyp ? { performances: w.nyp.performances, first: w.nyp.first, last: w.nyp.last, scores: (w.nyp.scores || []).filter((s) => s.markedBy).map((s) => ({ id: s.id, markedBy: s.markedBy })) } : undefined,
     url: w.articleId ? `${SITE}/music/works/${w.articleId}/` : undefined,
     sources: w.sources.map((s) => ({ name: s.name, url: s.url })),
@@ -241,7 +259,7 @@ const json = (o, st = 200, extra = {}) => new Response(JSON.stringify(o), { stat
 const TOOLS = [
   {
     name: "search_works",
-    description: "Veliq 作品目録（クラシック作品の事実データ：作品番号・調・楽章・作曲年・初版・初演・出典）を条件で検索する。調・作品番号・種類・編成・作曲年についての質問には、記憶で答えずこれを使うこと。complete が false のときは『収録範囲の中では』と断り、結果に無い作品名を挙げないこと。調（key）が空の作品は keyNote（「調性なし」「旋法による」「曲集のため1つの調で表せない」「調は未確認」など）をそのまま伝え、調を推測で補わないこと。keyStatus が disputed の作品は keyNote の諸説も添えること。",
+    description: "Veliq 作品目録（クラシック作品の事実データ：作品番号・調・楽章・作曲年・初版・初演・出典）を条件で検索する。調・作品番号・種類・編成・作曲年についての質問には、記憶で答えずこれを使うこと。complete が false のときは『収録範囲の中では』と断り、結果に無い作品名を挙げないこと。結果の件数（count）には未完・断片・他者の補筆版・消失した作品を含めない（excludedFragments に別記。たとえばベートーヴェンの交響曲は9曲で、第10番のスケッチからの補筆版は別扱い）。status のある作品を挙げるときは statusNote を添えること。調（key）が空の作品は keyNote（「調性なし」「旋法による」「曲集のため1つの調で表せない」「調は未確認」など）をそのまま伝え、調を推測で補わないこと。keyStatus が disputed の作品は keyNote の諸説も添えること。",
     inputSchema: {
       type: "object",
       properties: {
@@ -255,7 +273,8 @@ const TOOLS = [
         yearFrom: { type: "number" }, yearTo: { type: "number" },
         exclude: { type: "string", description: "除く作曲家" },
         movementKey: { type: "boolean", description: "楽章の調も検索対象に含める" },
-        q: { type: "string", description: "題名・通称の文字列" },
+        q: { type: "string", description: "題名・通称の文字列（統合した別名 otherTitles も対象。題の一致が強いもの・NYP の演奏回数が多いものから並ぶ）" },
+        includeFragments: { type: "boolean", description: "未完・断片・他者の補筆版・消失した作品（status あり）も含める。既定では件数から除く（q を指定したときは含める）" },
         limit: { type: "number", description: "返す件数（既定100、最大500）。多いときは NYP の演奏回数と代表作の順" },
       },
     },
@@ -316,7 +335,7 @@ export default {
     }
     if (url.pathname === "/api" || url.pathname === "/api/") {
       const cat = await catalog(env);
-      return json({ name: cat.idx.name, updated: cat.idx.updated, endpoints: ["/api/works?composer=&key=&mode=&genre=&instrument=&opusFrom=&opusTo=&yearFrom=&yearTo=&exclude=&movementKey=1&q=", "/api/works/<id>", "/mcp (POST, MCP)"], coverage: cat.idx.coverage, fields: cat.idx.fields });
+      return json({ name: cat.idx.name, updated: cat.idx.updated, endpoints: ["/api/works?composer=&key=&mode=&genre=&instrument=&opusFrom=&opusTo=&yearFrom=&yearTo=&exclude=&movementKey=1&q=&includeFragments=1", "/api/works/<id>", "/mcp (POST, MCP)"], coverage: cat.idx.coverage, fields: cat.idx.fields });
     }
     return env.ASSETS.fetch(req);
   },

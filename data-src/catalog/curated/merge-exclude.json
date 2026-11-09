@@ -1,0 +1,6 @@
+{
+ "about": "重複の統合（tools/catalog_dedupe.py）で結ばない組。機械的な規則では同じ作品に見えるが、別の作品の可能性があるもの。[残す側の id, 統合されかけた id, 理由]",
+ "pairs": [
+  ["elgar-op-44", "elgar-land-of-hope-and-glory", "Open Opus の通称「Land of Hope and Glory」は戴冠式頌歌 作品44 の終曲を指すが、Wikidata の同名の記録は独立した歌曲（1902年）の可能性があり、同じ作品とは決められない"]
+ ]
+}

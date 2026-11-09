@@ -23,7 +23,7 @@ def pc_of(k):
 
 def row(w):
     r = {k: w[k] for k in ("id", "composer", "genre", "category", "number", "key", "instrumentation", "composed",
-                           "titleJa", "titleEn", "nicknameJa", "nicknames", "popular") if w.get(k) not in (None, "", [], False)}
+                           "titleJa", "titleEn", "nicknameJa", "nicknames", "otherTitles", "popular", "status") if w.get(k) not in (None, "", [], False)}
     if (w.get("catalog") or {}).get("opus"):
         r["catalog"] = {"opus": w["catalog"]["opus"]}
     mv = [{k: m[k] for k in ("key", "keys") if m.get(k)} for m in (w.get("movements") or [])]

@@ -31,6 +31,12 @@ const CASES = [
   ["ショパン 作品22 は前後半で調が違うと注記", { composer: "chopin", q: "spianato" }, (r) => r.results.some((x) => x.keyStatus === "disputed" && /ト長調/.test(x.keyNote || ""))],
   ["ルネサンスの作品は旋法の注記", { composer: "palestrina", limit: 3 }, (r) => r.results.every((x) => x.keyStatus === "modal" || x.key)],
   ["メンデルスゾーンの交響曲は5曲（弦楽のための交響曲は別）", { composer: "mendelssohn", genre: "交響曲" }, (r) => r.count === 5],
+  ["ベートーヴェンの交響曲は9曲（第10番のスケッチからの補筆版は除く）・全曲収録", { composer: "beethoven", genre: "symphony" }, (r) => r.count === 9 && r.complete && r.excludedFragments?.count === 1],
+  ["includeFragments=1 なら第10番も含む", { composer: "beethoven", genre: "symphony", includeFragments: "1" }, (r) => r.count === 10 && r.results.some((x) => x.status === "fragment")],
+  ["「エグモント」は劇付随音楽 作品84（NYP あり）が先頭", { q: "エグモント" }, (r) => r.results[0]?.opus === "Op.84" && r.results[0].nyp?.performances > 0],
+  ["q=Egmont も作品84が先頭", { q: "Egmont" }, (r) => r.results[0]?.opus === "Op.84" && r.results[0].nyp?.performances > 0],
+  ["ブラームスの短調は和題（クラリネット・ソナタ第1番 ヘ短調 作品120-1）", { composer: "brahms", mode: "minor" }, (r) => r.results.some((x) => x.titleJa === "クラリネット・ソナタ第1番 ヘ短調 作品120-1") && r.results.filter((x) => /Sonata for Clarinet/.test(x.titleEn)).length === 0],
+  ["コレッリのクリスマス協奏曲は1件", { composer: "corelli", q: "クリスマス" }, (r) => r.count === 1 && r.results[0].opus === "Op.6 No.8"],
 ];
 let ng = 0;
 for (const [label, qs, ok] of CASES) {
@@ -38,5 +44,13 @@ for (const [label, qs, ok] of CASES) {
   const pass = ok(r);
   if (!pass) ng++;
   console.log(`${pass ? "OK " : "NG "} ${label}：${r.count}件`, r.results.slice(0, 4).map((x) => `${x.titleJa}${x.nyp ? `［NYP ${x.nyp.performances}回］` : ""}${x.conflicts ? "［食い違い］" : ""}`).join(" / "));
+}
+// 統合して消えた記録の旧 id でも引ける
+for (const old of ["beethoven-egmont-overture", "beethoven-egmont", "corelli-christmas-concerto"]) {
+  const res = await worker.fetch(new Request("https://veliq-academy.com/api/works/" + old), env);
+  const w = await res.json();
+  const pass = res.status === 200 && (w.aliases || []).includes(old);
+  if (!pass) ng++;
+  console.log(`${pass ? "OK " : "NG "} 旧 id ${old} → ${w.id}（${w.titleJa}）`);
 }
 process.exit(ng ? 1 : 0);
