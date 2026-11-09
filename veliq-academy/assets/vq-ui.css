@@ -131,7 +131,7 @@ svg text{font-family:var(--u-font)!important}
 .ghost:hover{background:var(--u-surface)!important}
 .dark,.dk,[style*="background:#26241F"]{background:var(--u-surface)!important;color:var(--ink)!important}
 .vdock a .ic{display:none!important}
-h1,h2{word-break:auto-phrase}
+h1,h2{word-break:normal}
 body{margin:0}
 p,li,dd{text-wrap:pretty}
 @media(max-width:640px){
@@ -541,3 +541,12 @@ html,body{overflow-x:clip}
 .menu .mg{margin-bottom:28px}
 /* vq-stack.js（スマホで表を行ごとの段に組み替える）の見た目。CSP で JS からの <style> が効かないためここに置く */
 .vq-stk.vq-stk.vq-stk,.vq-stk.vq-stk.vq-stk tbody,.vq-stk.vq-stk.vq-stk tr,.vq-stk.vq-stk.vq-stk th,.vq-stk.vq-stk.vq-stk td{display:block!important;width:auto!important;min-width:0!important;max-width:none!important}.vq-stk.vq-stk.vq-stk{border:0!important}.vq-stk.vq-stk.vq-stk thead,.vq-stk.vq-stk.vq-stk .vq-stk-hide{display:none!important}.vq-stk.vq-stk.vq-stk caption{display:block!important;width:auto!important;text-align:left;padding:10px 0 2px}.vq-stk.vq-stk.vq-stk tr{padding:14px 0!important;border:0!important;border-bottom:1px solid rgba(0,0,0,.08)!important;background:none!important}.vq-stk.vq-stk.vq-stk tr:last-child{border-bottom:0!important}.vq-stk.vq-stk.vq-stk th,.vq-stk.vq-stk.vq-stk td{padding:0!important;border:0!important;background:none!important;box-shadow:none!important;position:static!important;text-align:left!important;white-space:normal!important;height:auto!important}.vq-stk.vq-stk.vq-stk .vq-stk-h{font-size:15px!important;font-weight:700!important;margin:0 0 6px!important;line-height:1.6}.vq-stk.vq-stk.vq-stk td:not(.vq-stk-h),.vq-stk.vq-stk.vq-stk th:not(.vq-stk-h){font-size:14px;line-height:1.75}.vq-stk.vq-stk.vq-stk [data-label]{margin-top:8px!important}.vq-stk.vq-stk.vq-stk [data-label]::before{content:attr(data-label);display:block;font-size:12px;font-weight:600;opacity:.6;margin:0 0 2px}
+
+/* vq-wrap 2026-11-10 文字の寄り：本文は端から端まで文字数で折り返す（文節での折り返し・行の長さをそろえる折り返しはやめる）。見出しだけ行の長さをそろえる。固有名詞を守るのは .nb の最小限だけ */
+html body :is(h1,h2,h3,h4,h5,h6){word-break:normal!important;line-break:strict;text-wrap:balance}
+html body :is(p,li,dd,dt,blockquote,figcaption,caption,small,q,cite,label,summary,.lead,.lede,.note,.fine,.desc){word-break:normal!important;line-break:strict!important;text-wrap:wrap!important}
+html body :is(footer a,.gf a,.menu a,a[data-vq=solo],.media a){word-break:normal!important}
+@media(max-width:899px){html body :is(p,li,dd,blockquote,figcaption,.lead,.lede,.sec-l,.hero-lead,.s-note){max-width:none!important}}
+/* 主ボタンは墨色（2026-11-10。Finance の緑を全サイトに使っていたのをやめる） */
+:root{--vq-btn:#1D1D1F;--vq-btn-d:#000}
+/* /vq-wrap */
