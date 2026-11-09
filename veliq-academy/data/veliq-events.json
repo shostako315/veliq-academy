@@ -1,5 +1,46 @@
 [
   {
+    "id": "cm1219",
+    "title": "Chamber Music Concert",
+    "subtitle": "W.A.モーツァルト フルート四重奏曲 第1〜4番（全曲）／G.エネスク 弦楽八重奏曲 ハ長調 作品7",
+    "date": "2026-12-19",
+    "time": "19:00",
+    "doors": "18:30",
+    "venue": "武蔵野市民文化会館 小ホール",
+    "price": "全席自由 2,500円",
+    "program": [
+      {
+        "composerId": "mozart-wa",
+        "workId": "mozart-flute-quartet-1",
+        "title": "W.A.モーツァルト：フルート四重奏曲 第1番 ニ長調 K.285"
+      },
+      {
+        "composerId": "mozart-wa",
+        "workId": "mozart-flute-quartet-2",
+        "title": "W.A.モーツァルト：フルート四重奏曲 第2番 ト長調 K.285a"
+      },
+      {
+        "composerId": "mozart-wa",
+        "workId": "mozart-flute-quartet-3",
+        "title": "W.A.モーツァルト：フルート四重奏曲 第3番 ハ長調 K.285b"
+      },
+      {
+        "composerId": "mozart-wa",
+        "workId": "mozart-flute-quartet-4",
+        "title": "W.A.モーツァルト：フルート四重奏曲 第4番 イ長調 K.298"
+      },
+      {
+        "composerId": "enescu",
+        "workId": "enescu-octet",
+        "title": "G.エネスク：弦楽八重奏曲 ハ長調 作品7"
+      }
+    ],
+    "ticketUrl": "https://veliqclub.com/seats.html?e=cm1219",
+    "sponsor": "一般社団法人VariOrchestra",
+    "conductor": null,
+    "studyPathId": null
+  },
+  {
     "id": "vo-vol3-2027-03",
     "title": "VariOrchestra Vol.3",
     "subtitle": "ベートーヴェン《エグモント》序曲／ブラームス ヴァイオリン協奏曲（独奏 的場桃）／ベートーヴェン 交響曲第3番《英雄》",

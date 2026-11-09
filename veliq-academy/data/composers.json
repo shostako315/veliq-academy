@@ -4606,5 +4606,49 @@
     ],
     "youtubeIds": [],
     "spotifyArtistId": null
+  },
+  {
+    "id": "enescu",
+    "name": "ジョルジェ・エネスク",
+    "nameEn": "George Enescu",
+    "born": 1881,
+    "died": 1955,
+    "birthplace": "リヴェニ（ルーマニア）",
+    "nationality": "Romanian",
+    "era": "modern",
+    "portrait": null,
+    "thumbnail": null,
+    "shortBio": "ルーマニアの作曲家・ヴァイオリン奏者・指揮者。ウィーン音楽院とパリ音楽院で学び、弦楽八重奏曲 作品7、2曲のルーマニア狂詩曲、オペラ《オイディプス》を書いた。",
+    "longBio": "1881年8月19日にルーマニア北東部のリヴェニに生まれた。1888年から1894年までウィーン音楽院、1895年から1899年までパリ音楽院で学び、1899年にヴァイオリンで一等賞を得た。1900年に弦楽八重奏曲 作品7を完成し、1901〜1902年に2曲のルーマニア狂詩曲を書いた。1920年から1946年までブカレスト・フィルハーモニーを指揮した。オペラ《オイディプス》は1936年3月13日にパリで初演された。ヴァイオリンの教師としてユーディ・メニューインらを教えた。第二次世界大戦後にルーマニアを離れてパリに住み、1955年5月4日にパリで没した。",
+    "style": [
+      "室内楽",
+      "管弦楽曲",
+      "オペラ",
+      "ヴァイオリン"
+    ],
+    "keyWorks": [
+      "enescu-octet"
+    ],
+    "influencedBy": [
+      "massenet",
+      "faure",
+      "brahms"
+    ],
+    "influenced": [],
+    "teachers": [
+      "massenet",
+      "faure"
+    ],
+    "students": [],
+    "historicalContext": "modern",
+    "difficulty": 3,
+    "tags": [
+      "modern",
+      "chamber",
+      "violin",
+      "romanian"
+    ],
+    "youtubeIds": [],
+    "spotifyArtistId": null
   }
 ]

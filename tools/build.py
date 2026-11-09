@@ -963,8 +963,38 @@ def _h1_keep(body):
     return re.sub(r"<h1([^>]*)>(.*?)</h1>", lambda m: f"<h1{m.group(1)}>" + _KEEP.sub(r'<span class="kn">\1</span>', m.group(2)) + "</h1>", body, count=1, flags=re.S)
 
 
+_FAQ_SEC = re.compile(r'<section class="va-faq">(.*?)</section>', re.S)
+_FAQ_Q = re.compile(r'<h3 class="va-q">(.*?)</h3>(.*?)(?=<h3 class="va-q">|\Z)', re.S)
+
+
+def faq_ld(body, path):
+    """本文の「よくある質問」（見えている質問と答え）から FAQPage の構造化データを作る。無ければ None"""
+    m = _FAQ_SEC.search(body)
+    if not m:
+        return None
+    sec_ = re.sub(r'<aside class="va-key">.*?</aside>', "", m.group(1), flags=re.S)
+    pairs = _FAQ_Q.findall(sec_)
+    if not pairs:
+        # 別の書き方：<p><strong>問い</strong> 答え</p>（答えが次の <p> に続く形も）
+        for blk in re.split(r"(?=<p>\s*<strong>)", sec_):
+            mq = re.match(r"<p>\s*<strong>(.*?)</strong>(.*)", blk, re.S)
+            if mq:
+                pairs.append((mq.group(1), mq.group(2)))
+    qa = []
+    for q, a in pairs:
+        qt, at = _plain(q), re.sub(r"\s+", " ", _plain(a)).strip()
+        if qt and at:
+            qa.append({"@type": "Question", "name": qt, "acceptedAnswer": {"@type": "Answer", "text": at}})
+    if not qa:
+        return None
+    return {"@context": "https://schema.org", "@type": "FAQPage", "@id": url_of(path) + "#faq", "mainEntity": qa}
+
+
 def page(S, path, title, desc, body, ld, cur="", lastmod=None, og="article", extra_js=""):
     body = _h1_keep(body)
+    fq = faq_ld(body, path)
+    if fq:
+        ld = list(ld) + [fq]
     write(S, path, head(title, desc, path, ld, og) + header(S, cur) +
           f'<main id="main" class="va-main"><div class="wrap">{body}</div></main>\n' + footer(S, extra_js),
           lastmod, title)
@@ -1035,10 +1065,21 @@ def program_work(S, ev, it):
 
 
 def ticket_url(ev):
+    tu = ev.get("ticketUrl") or ""
+    if "veliqclub.com" in tu:
+        return tu, "チケットを申し込む"
     for k, val in ev.items():
         if isinstance(val, str) and "teket" in val and val.startswith("http"):
             return val, "チケット（teket）"
     return VO, "VariOrchestra の公演案内"
+
+
+def ev_time(e):
+    """開演・開場の表示（データにあるときだけ）"""
+    t = e.get("time") or ""
+    if t and e.get("doors"):
+        return f'{t}開演（{e["doors"]}開場）'
+    return f"{t}開演" if t else ""
 
 
 # 出典の中の URL は押せるリンクにする（外部へは新しいタブ・nofollow なし・noopener）
@@ -1067,7 +1108,7 @@ def tail(S, path, sources, related, events, quiz, supervised=True, cites=None, e
         inner = ""
         for e in events:
             tu, tl = ticket_url(e)
-            inner += f"""<div class="va-box"><h3>{esc(e['title'])}</h3>{meta_dl([('日付', jdate(e.get('date'))), ('会場', esc(e.get('venue'))), ('指揮', esc(e.get('conductor')))])}
+            inner += f"""<div class="va-box"><h3>{esc(e['title'])}</h3>{meta_dl([('日付', jdate(e.get('date'))), ('開演', esc(ev_time(e))), ('会場', esc(e.get('venue'))), ('指揮', esc(e.get('conductor')))])}
 <div class="va-acts"><a class="va-btn" href="{esc(tu)}">{esc(tl)}</a><a class="va-btn ln" href="/concerts/{esc(e['id'])}/">曲目と予習</a></div></div>"""
         h += sec("演奏会の案内", inner)
     if quiz:
@@ -1076,6 +1117,25 @@ def tail(S, path, sources, related, events, quiz, supervised=True, cites=None, e
     h += extra
     h += sec("Veliq Club", f'<div class="va-acts"><a class="va-btn ln" href="{CLUB}">Veliq Club に入会する</a></div>')
     return h
+
+
+_CATALOG = {}
+
+
+def catalog_title(cid):
+    """作品目録（data/catalog/<作曲家>.json）の id → 題名。見つからなければ id のまま（警告）"""
+    if not _CATALOG:
+        for f in (DATA / "catalog").glob("*.json"):
+            if not f.name.startswith("_") and f.stem != "index":
+                _CATALOG[f.stem] = None
+    comp = max((k for k in _CATALOG if cid.startswith(k + "-")), key=len, default=None)
+    if comp and _CATALOG[comp] is None:
+        _CATALOG[comp] = {w["id"]: w for w in json.loads((DATA / "catalog" / f"{comp}.json").read_text(encoding="utf-8"))}
+    w = (_CATALOG.get(comp) or {}).get(cid) if comp else None
+    if not w:
+        warn(f"作品目録に id「{cid}」がありません")
+        return cid
+    return w.get("titleJa") or cid
 
 
 # ---------------------------------------------------------------- 各ページ
@@ -1090,7 +1150,8 @@ def build_work(S, wid):
     body = (a or {}).get("hero") or ""
     body += sec("基本情報", kv_table([("作曲家", cname), ("作曲年", esc(v["year_str"] + "年") if v["year_str"] else ""),
                                    ("調", esc(v["key"])), ("作品番号", esc(v["catalog"])), ("編成", esc(v["scoring"])),
-                                   ("演奏時間", esc(v["duration"])), ("ジャンル", esc(v["genre"]) if not a else ""), ("時代", era_l)]))
+                                   ("演奏時間", esc(v["duration"])), ("ジャンル", esc(v["genre"]) if not a else ""), ("時代", era_l),
+                                   ("作品目録", "・".join(f'<a href="/music/catalog/{esc(x)}/">{esc(catalog_title(x))}</a>' for x in (a or {}).get("catalog_ids") or []))]))
     if a:
         body += f'<div class="va-body">{autolink(S, a["html"], v["path"])}</div>'
     else:
@@ -1295,6 +1356,28 @@ def build_era(S, e, i):
          (a or {}).get("updated"))
 
 
+def related_items(S, paths):
+    """前付けの related（サイト内のパスの一覧）→ 一覧の行。記事・作品・作曲家・時代の題名を引く"""
+    out = []
+    for p_ in paths or []:
+        p_ = str(p_)
+        t = next((x["title"] for x in S.articles.values() if x["path"] == p_), None)
+        m = re.match(r"^/music/(works|composers|eras)/([^/]+)/$", p_)
+        if not t and m:
+            if m.group(1) == "works":
+                v = work_view(S, m.group(2))
+                t = v["title"] if v else None
+            elif m.group(1) == "composers":
+                t = (S.C.get(m.group(2)) or {}).get("name")
+            else:
+                t = (S.E.get(m.group(2)) or {}).get("name")
+        if t:
+            out.append((p_, t, ""))
+        else:
+            warn(f"related「{p_}」に当たるページがありません")
+    return out
+
+
 def build_concept(S, k):
     path = f'/music/concepts/{k["id"]}/'
     a = S.articles.get(("concepts", k["id"]))
@@ -1309,6 +1392,9 @@ def build_concept(S, k):
     rp = [S.C[x] for x in k.get("relatedComposers", []) if x in S.C]
     if rp:
         rel.append(("関連する作曲家", [(f'/music/composers/{x["id"]}/', x["name"], S.life(x)) for x in rp]))
+    ra = related_items(S, (a or {}).get("related"))
+    if ra:
+        rel.append(("関連する記事", ra))
     t = tail(S, path, (a or {}).get("sources"), rel, [S.EV[x] for x in (a or {}).get("concert", []) if x in S.EV], None)
     desc = (a or {}).get("summary") or k.get("shortDescription") or k["title"]
     hd = f'<header class="va-hd">' + tagline("music", ("concepts", SEC_NAME["concepts"]), (a or {}).get("updated")) + \
@@ -1520,7 +1606,7 @@ def build_timeline(S):
 def build_concerts(S):
     path = "/concerts/"
     bc, bld = crumbs([("トップ", "/"), ("演奏会", path)])
-    desc = "VariOrchestra の演奏会。日付・会場・曲目と、曲目の作品ページ。"
+    desc = "VariOrchestra の演奏会と、VariOrchestra が後援する演奏会。日付・会場・曲目と、曲目の作品ページ。"
     page(S, path, "演奏会", desc, bc + f'<header class="va-hd"><h1>演奏会</h1><p class="va-lede">{esc(desc)}</p></header>' +
          rows([(f'/concerts/{e["id"]}/', e["title"], f'{jdate(e.get("date"))}・{e.get("venue", "")}') for e in S.events]),
          [bld], "concerts")
@@ -1538,7 +1624,7 @@ def build_concerts(S):
             (f'<li><a href="{h}"><span><b>{esc(t)}</b><small>{esc(s)}</small></span></a></li>' if h else
              f'<li><div><span><b>{esc(t)}</b></span></div></li>') for h, t, s in prog) + "</ul>"
         tu, tl = ticket_url(e)
-        arts = [a for a in S.articles.values() if e["id"] in a.get("concert", [])]
+        arts = [a for a in S.articles.values() if e["id"] in a.get("concert", []) and a["path"] not in [h for h, _, _ in prog]]
         prep = rows([(a["path"], a["title"], sec_name(a["faculty"], a["section"])) for a in arts])
         comps = []
         for it in e.get("program", []):
@@ -1546,17 +1632,30 @@ def build_concerts(S):
             if c and c not in comps:
                 comps.append(c)
         body = f'<header class="va-hd"><h1>{esc(e["title"])}</h1></header>' + \
-            meta_dl([("日付", jdate(e.get("date"))), ("会場", esc(e.get("venue"))), ("指揮", esc(e.get("conductor")))]) + \
+            meta_dl([("日付", jdate(e.get("date"))), ("開演", esc(ev_time(e))), ("会場", esc(e.get("venue"))), ("指揮", esc(e.get("conductor"))),
+                     ("料金", esc(e.get("price"))), ("後援", esc(e.get("sponsor")))]) + \
             f'<div class="va-acts va-top-acts"><a class="va-btn" href="{esc(tu)}">{esc(tl)}</a></div>' + \
             sec("曲目", pl) + sec("予習の記事", prep) + \
             sec("作曲家", rows([(f'/music/composers/{c["id"]}/', c["name"], S.life(c)) for c in comps])) + \
             sec("Veliq Club", f'<div class="va-acts"><a class="va-btn ln" href="{CLUB}">Veliq Club に入会する</a></div>')
-        ev_ld = {"@context": "https://schema.org", "@type": "MusicEvent", "name": e["title"], "startDate": e.get("date"),
+        sd = f'{e["date"]}T{e["time"]}:00+09:00' if e.get("time") and e.get("date") else e.get("date")
+        ev_ld = {"@context": "https://schema.org", "@type": "MusicEvent", "name": e["title"], "startDate": sd,
                  "eventStatus": "https://schema.org/EventScheduled",
                  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
                  "location": {"@type": "Place", "name": e.get("venue"), "address": e.get("venue")},
-                 "organizer": {"@type": "Organization", "name": PUBLISHER, "url": VO},
                  "offers": {"@type": "Offer", "url": tu}, "url": url_of(p)}
+        if e.get("sponsor"):
+            # 後援の公演：主催者は出さず、後援を sponsor として出す
+            ev_ld["sponsor"] = {"@type": "Organization", "name": e["sponsor"], "url": VO}
+        else:
+            ev_ld["organizer"] = {"@type": "Organization", "name": PUBLISHER, "url": VO}
+        if e.get("doors") and e.get("date"):
+            ev_ld["doorTime"] = f'{e["date"]}T{e["doors"]}:00+09:00'
+        mp = re.search(r"([\d,]+)円", e.get("price") or "")
+        if mp:
+            ev_ld["offers"].update({"price": mp.group(1).replace(",", ""), "priceCurrency": "JPY"})
+        if e.get("subtitle"):
+            ev_ld["description"] = e["subtitle"]
         if e.get("conductor"):
             ev_ld["performer"] = {"@type": "Person", "name": e["conductor"]}
         page(S, p, e["title"], f'{e["title"]}（{jdate(e.get("date"))}・{e.get("venue", "")}）の曲目と作品の解説。',
