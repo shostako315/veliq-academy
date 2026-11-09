@@ -525,3 +525,9 @@ footer.gf{margin-top:64px;padding:40px 0 48px}
 .va-tbl .va-mt td:nth-child(4){margin-top:6px;font-size:14px;line-height:1.75}
 .va-tbl .va-mt td:nth-child(4):empty{display:none!important}
 }
+
+/* 横に数px揺れないように（ヘッダーのメニューボタンが右へはみ出すため）*/
+html,body{overflow-x:clip}
+.burger{margin-right:-4px}
+/* 作品目録のページ（/music/catalog/）*/
+.wk h1{margin:.2em 0 .1em}.wk .en{color:#6E6E73;margin:0 0 1.2em}.wk dl{display:grid;grid-template-columns:7em 1fr;margin:0 0 1.6em;border-top:1px solid rgba(0,0,0,.1)}.wk dt,.wk dd{margin:0;padding:.7em 0;border-bottom:1px solid rgba(0,0,0,.1)}.wk dt{color:#6E6E73;font-size:.9em}.wk h2{margin:1.8em 0 .6em}.wk ol.mv{padding-left:1.4em}.wk ol.mv li{margin:.3em 0}.wk .nt{color:#6E6E73;font-size:.9em}.wk ul.src{padding-left:1.2em;font-size:.9em}.wk table{width:100%;border-collapse:collapse}.wk td,.wk th{padding:.5em .4em;border-bottom:1px solid rgba(0,0,0,.1);text-align:left;font-size:.95em}.wk form{display:flex;gap:.5em;margin:1em 0}.wk input{flex:1;font:inherit;padding:.6em .8em;border:1px solid rgba(0,0,0,.2);border-radius:10px}.wk button{font:inherit;padding:.6em 1.1em;border:0;border-radius:10px;background:#1D1D1F;color:#fff}.wk .rl a{display:block;padding:.7em 0;border-bottom:1px solid rgba(0,0,0,.1);color:inherit;text-decoration:none}.wk .rl small{display:block;color:#6E6E73}
