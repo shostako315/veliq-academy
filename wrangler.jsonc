@@ -9,7 +9,7 @@
   "assets": {
     "directory": "veliq-academy", "not_found_handling": "404-page",
     "binding": "ASSETS",
-    "run_worker_first": ["/api", "/api/*", "/mcp"]
+    "run_worker_first": ["/api", "/api/*", "/mcp", "/music/catalog", "/music/catalog/*"]
   },
   "compatibility_flags": [
     "nodejs_compat"
