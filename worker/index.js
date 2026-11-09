@@ -328,6 +328,7 @@ async function shell(env, { title, desc, canon, crumbs, body }) {
   const ld = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: crumbs.map(([n, u], i) => ({ "@type": "ListItem", position: i + 1, name: n, ...(u ? { item: SITE + u } : {}) })) };
   const bc = '<nav class="va-bc" aria-label="パンくず"><ol>' + crumbs.map(([n, u], i) => i < crumbs.length - 1 ? `<li><a href="${u}">${H(n)}</a></li>` : `<li><span aria-current="page">${H(n)}</span></li>`).join("") + "</ol></nav>";
   return tpl
+    .replace(' class="on">作曲家</a>', ">作曲家</a>").replace('href="/music/catalog/">', 'href="/music/catalog/" class="on">')
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${H(title)}｜Veliq Academy</title>`)
     .replace(/(<meta name="description" content=")[^"]*/, `$1${H(desc)}`)
     .replace(/(<meta property="og:description" content=")[^"]*/, `$1${H(desc)}`)

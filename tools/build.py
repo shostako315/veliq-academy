@@ -806,6 +806,28 @@ def fac_of(cur):
     return ""
 
 
+MENU_GROUPS = [("探す", ["/music/works/", "/music/catalog/", "/music/composers/", "/music/glossary/"]),
+               ("歴史をたどる", ["/music/eras/", "/music/timeline/", "/music/history/", "/music/orchestra/", "/music/conductors/", "/music/early/"]),
+               ("仕組みを知る", ["/music/instruments/", "/music/opera/", "/music/theory/", "/music/concepts/"])]
+
+
+def music_menu(music, cur):
+    """メニューの音楽：トップの下を「探す・歴史をたどる・仕組みを知る」に分けて2列で並べる。作品目録（Worker のページ）も入れる"""
+    d = {h: (t, c == cur) for h, t, c in music}
+    d.setdefault("/music/catalog/", ("作品目録", False))
+    a = lambda h: f'<a href="{h}"{" class=\"on\"" if d[h][1] else ""}>{esc(d[h][0])}</a>'
+    out, used = '<div class="mg"><div class="mh">音楽</div><div class="ml">' + a("/music/") + "</div>", {"/music/"}
+    for name, hs in MENU_GROUPS:
+        items = [h for h in hs if h in d]
+        if items:
+            used |= set(items)
+            out += f'<div class="msub">{name}</div><div class="ml ml2">' + "".join(a(h) for h in items) + "</div>"
+    rest = [h for h, _, _ in music if h not in used]
+    if rest:
+        out += '<div class="msub">そのほか</div><div class="ml ml2">' + "".join(a(h) for h in rest) + "</div>"
+    return out + "</div>"
+
+
 def header(S, cur):
     """56px のヘッダー：左にワードマーク、「音楽」「美術」「語学」の文字タブ、右にメニュー"""
     fac = fac_of(cur)
@@ -836,7 +858,7 @@ def header(S, cur):
   </div>
 </header>
 <div class="menu" id="navMenu">
-  <div class="mg"><div class="mh">音楽</div><div class="ml">{ml}</div></div>
+  {music_menu(music, cur)}
   {ag}<div class="mg"><div class="mh">公演・Club</div><div class="ml"><a href="/concerts/">演奏会</a>{cl}<a href="{APP}?from=academy">Veliq アプリで学ぶ</a><a href="{CLUB}">Veliq Club に入会する</a></div></div>
   <div class="mfoot">運営：{PUBLISHER}・監修：{SUPERVISOR}</div>
 </div>
