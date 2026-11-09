@@ -550,3 +550,4 @@ html body :is(footer a,.gf a,.menu a,a[data-vq=solo],.media a){word-break:normal
 /* 主ボタンは墨色（2026-11-10。Finance の緑を全サイトに使っていたのをやめる） */
 :root{--vq-btn:#1D1D1F;--vq-btn-d:#000}
 /* /vq-wrap */
+@media (max-width:400px){.burger{margin-right:0!important}.gnav a{padding:0 6px}}
