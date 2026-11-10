@@ -38,9 +38,10 @@
         b.innerHTML='<div class="t">'+esc(e.start)+'–'+esc(e.end||'')+'</div><div class="n">'+esc(e.n)+'</div><div class="m">'+(STL[e.sk]?'<span class="st '+STC[e.sk]+'">'+STL[e.sk]+'</span>':'')+'</div>';
         b.addEventListener('click',function(){openEv(e)})}
       else{var p=plans[it.id];b.className='blk plan'+nar;b.tabIndex=0;b.setAttribute('role','button');
-        b.innerHTML='<div class="t">'+esc(p.start)+'–'+esc(p.end)+'</div><div class="n">'+esc(p.title)+'</div>'+(p.note?'<div class="m">'+esc(p.note)+'</div>':'')+'<div class="rz" aria-hidden="true"></div>';
+        if(p.fixed)b.className+=' fixed';
+        b.innerHTML='<div class="t">'+esc(p.start)+'–'+esc(p.end)+(p.fixed?'<span class="fx">確定</span>':'')+'</div><div class="n">'+esc(p.title)+'</div>'+(p.fixed?'':'<div class="rz" aria-hidden="true"></div>');
         attachDrag(b,it.id);
-        b.addEventListener('keydown',function(ev){if(ev.key==='Enter')openPl(it.id)})}
+        b.addEventListener('keydown',function(ev){if(ev.key==='Enter')openPv(it.id)})}
       lane.appendChild(b);
     });
   }
@@ -56,6 +57,7 @@
       if(!DRAG||DRAG.el!==el)return;
       var dy=ev.clientY-DRAG.y0,dx=ev.clientX-DRAG.x0;
       if(!DRAG.moved&&Math.abs(dy)<6&&Math.abs(dx)<6)return;
+      if(plans[DRAG.id]&&plans[DRAG.id].fixed)return;
       DRAG.moved=true;el.classList.add('drag');
       var dmin=Math.round(dy/HH*60/15)*15;
       if(DRAG.mode==='move'){var len=DRAG.e-DRAG.s;var ns=Math.max(START*60,Math.min(END*60-len,DRAG.s+dmin));DRAG.ns=ns;DRAG.ne=ns+len;
@@ -70,9 +72,13 @@
     });
     function end(){
       if(!DRAG||DRAG.el!==el)return;var d=DRAG;DRAG=null;
-      if(!d.moved){openPl(d.id);return}
-      var p=Object.assign({},plans[d.id]);p.start=hm(d.ns);p.end=hm(d.ne);if(d.nday)p.day=d.nday;
-      plans[d.id]=p;save(d.id,p);render();
+      if(!d.moved){openPv(d.id);return}
+      var o=plans[d.id],p=Object.assign({},o);p.start=hm(d.ns);p.end=hm(d.ne);if(d.nday)p.day=d.nday;
+      if(p.start===o.start&&p.end===o.end&&p.day===o.day){render();return}
+      PEND={id:d.id,p:p};
+      $('mvT').textContent=o.title;
+      $('mvB').innerHTML='<s>'+esc(o.day+' '+o.start+'–'+o.end)+'</s><br>→ <b>'+esc(p.day+' '+p.start+'–'+p.end)+'</b>';
+      $('dMv').showModal();
     }
     el.addEventListener('pointerup',end);
     el.addEventListener('pointercancel',function(){DRAG=null;render()});
@@ -96,10 +102,25 @@
     var u=$('evU');if(e.u){u.href=e.u;u.hidden=false}else u.hidden=true;
     $('dEv').showModal();
   }
+  var PEND=null,viewing=null;
+  function openPv(id){
+    var p=plans[id];if(!p)return;viewing=id;
+    $('pvW').textContent=p.day+' '+p.start+'–'+p.end+'｜'+(p.c==='b'?'ブダペスト':'ウィーン');
+    $('pvT').textContent=p.title;
+    var bd=$('pvF');bd.textContent=p.fixed?'✓ 確定':'未確定（案）';bd.className='pv-badge'+(p.fixed?' on':'');
+    $('pvN').textContent=p.note||'';$('pvN').hidden=!p.note;
+    $('pvFix').textContent=p.fixed?'確定を外す':'確定にする';
+    $('dPv').showModal();
+  }
+  $('pvFix').addEventListener('click',function(){if(!viewing)return;var p=Object.assign({},plans[viewing]);p.fixed=!p.fixed;plans[viewing]=p;save(viewing,p);render();openPv(viewing)});
+  $('pvEd').addEventListener('click',function(){var id=viewing;$('dPv').close();openPl(id)});
+  $('mvOk').addEventListener('click',function(){if(PEND){plans[PEND.id]=PEND.p;save(PEND.id,PEND.p);PEND=null}$('dMv').close();render()});
+  $('mvNo').addEventListener('click',function(){$('dMv').close()});
+  $('dMv').addEventListener('close',function(){PEND=null;render()});
   function openPl(id){
     editing=id||null; var p=id?plans[id]:{title:'',day:cur,c:(cur==='11/12'||cur==='11/13')?'v':'v',start:'21:30',end:'23:30',note:''};
     $('plT').textContent=id?'予定を編集':'予定を追加';
-    $('plN').value=p.title||'';$('plD').value=p.day;$('plC').value=p.c||'v';$('plS').value=p.start;$('plE').value=p.end;$('plM').value=p.note||'';
+    $('plN').value=p.title||'';$('plD').value=p.day;$('plC').value=p.c||'v';$('plS').value=p.start;$('plE').value=p.end;$('plM').value=p.note||'';$('plX').checked=!!p.fixed;$('plM').rows=Math.min(14,Math.max(3,(p.note||'').split('\n').length+1));
     $('plDel').hidden=!id; $('dPl').showModal();
   }
   $('presets').addEventListener('click',function(ev){var b=ev.target.closest('button');if(!b)return;var t=b.dataset.p;if(!$('plN').value)$('plN').value=t;
@@ -109,7 +130,7 @@
     if(s<START*60){e+=START*60-s;s=START*60}if(e>END*60){s-=e-END*60;e=END*60}
     $('plS').value=hm(s);$('plE').value=hm(e)});
   $('plF').addEventListener('submit',function(ev){ev.preventDefault();
-    var p={title:$('plN').value.trim(),day:$('plD').value,c:$('plC').value,start:$('plS').value,end:$('plE').value,note:$('plM').value.trim()};
+    var p={title:$('plN').value.trim(),day:$('plD').value,c:$('plC').value,start:$('plS').value,end:$('plE').value,note:$('plM').value.trim(),fixed:$('plX').checked};
     if(!p.title||m(p.end)<=m(p.start)){$('plE').focus();return}
     var id=editing||('p'+Date.now().toString(36)+Math.random().toString(36).slice(2,6));
     plans[id]=p; cur=p.day; save(id,p); $('dPl').close(); render()});
@@ -118,9 +139,9 @@
   document.querySelectorAll('[data-close]').forEach(function(b){b.addEventListener('click',function(){b.closest('dialog').close()})});
   document.querySelectorAll('dialog').forEach(function(d){d.addEventListener('click',function(ev){if(ev.target===d)d.close()})});
   // storage
-  var SEED={"p1": {"c": "v", "day": "11/10", "end": "21:00", "note": "Villachから IC 532、20:07着。U1でロイマンプラッツへ", "start": "20:00", "title": "ウィーン中央駅着 → 宿"}, "p10": {"c": "v", "day": "11/11", "end": "10:15", "note": "Gumpendorfer Str. 11。月〜土 7–22時。U1 ロイマンプラッツ→カールスプラッツ、徒歩7分。朝食あり", "start": "08:30", "title": "朝カフェ（Café Sperl）"}, "p11": {"c": "v", "day": "11/11", "end": "17:00", "note": "遺書の家（Probusgasse 6）火〜日 10–13時・14–17時。U4 ハイリゲンシュタット駅から歩いて20分ほど。昼はホイリゲ（ワイン酒場）で", "start": "11:00", "title": "ハイリゲンシュタット（遺書の家・散歩道・ホイリゲ）"}, "p12": {"c": "b", "day": "11/13", "end": "09:30", "note": "Nagyvásárcsarnok、Vámház krt. 1-3。月〜金 6–18時。M4 Fővám tér。2階が軽食とお土産", "start": "08:00", "title": "中央市場（朝ごはん・お土産）"}, "p13": {"c": "b", "day": "11/13", "end": "12:45", "note": "毎日営業。水着・タオル・サンダルは持参か現地購入。スーツケースは個室（キャビン）に入る。チケットのQRを事前にダウンロード", "start": "10:00", "title": "セーチェーニ温泉"}, "p3": {"c": "v", "day": "11/11", "end": "23:45", "note": "コンツェルトハウス周辺。帰りはU1", "start": "22:00", "title": "飲み"}, "p4": {"c": "v", "day": "11/14", "end": "12:30", "note": "パスクァラティハウス 火〜日 10–13時・14–17時／Doblinger 土 10–13時（土曜は短いので先にDoblinger）", "start": "10:15", "title": "パスクァラティハウス・Doblinger"}, "p5": {"c": "b", "day": "11/12", "end": "13:15", "note": "ライプニッツを10時にチェックアウトしてスーツケースごと。中央駅からRailjet 約2時間40分、ほぼ毎時。Keleti駅着", "start": "10:30", "title": "移動 ウィーン → ブダペスト"}, "p6": {"c": "v", "day": "11/13", "end": "16:20", "note": "Keleti駅からRailjet 約2時間40分。中央駅から新しい宿へ荷物を置き、19:00 国立歌劇場『連隊の娘』（立見は場所の番号付き）", "start": "13:40", "title": "移動 ブダペスト → ウィーン"}, "p7": {"c": "v", "day": "11/16", "end": "12:00", "note": "15:05 LH6335 ウィーン → フランクフルト", "start": "09:00", "title": "空港へ（12:13 中央駅発）"}, "p8": {"c": "b", "day": "11/12", "end": "18:30", "note": "宿に荷物を置いて。ブダ城・漁夫の砦、くさり橋、国会議事堂。温泉は13日の朝に", "start": "14:00", "title": "ブダペスト観光"}, "p9": {"c": "b", "day": "11/12", "end": "23:30", "note": "国会議事堂のライトアップ。リスト音楽院から近いのはゲットー地区の飲み屋街", "start": "21:30", "title": "ドナウの夜景・飲み"}};
-  function loadLocal(){var r=null;try{r=localStorage.getItem('vb-plans-3')}catch(e){}if(r){try{plans=JSON.parse(r)}catch(e){plans=JSON.parse(JSON.stringify(SEED))}}else{plans=JSON.parse(JSON.stringify(SEED))}}
-  function saveLocal(){try{localStorage.setItem('vb-plans-3',JSON.stringify(plans))}catch(e){}}
+  var SEED={"p1": {"c": "v", "day": "11/10", "end": "21:00", "note": "Villachから IC 532、20:07着。U1でロイマンプラッツへ", "start": "20:00", "title": "ウィーン中央駅着 → 宿"}, "p10": {"c": "v", "day": "11/11", "end": "10:15", "note": "【場所】Café Sperl, Gumpendorfer Str. 11（6区）\n【時間】月〜土 7:00–22:00\n【行き方】宿の前のU1 Reumannplatz → Karlsplatz（約8分）、そこから徒歩7分\n【メモ】1880年創業の古いカフェ。朝食メニューあり。ここからハイリゲンシュタットへはKarlsplatzでU4に乗り換え1本", "start": "08:30", "title": "朝カフェ（Café Sperl）"}, "p11": {"c": "v", "day": "11/11", "end": "18:00", "note": "【遺書の家】Beethoven Museum, Probusgasse 6（19区）。火〜日 10–13時・14–17時（13–14時は閉まる）。大人約€9\n【行き方】U4 終点Heiligenstadt → バス37A「Fernsprechamt Heiligenstadt」か「Armbrustergasse」下車。Karlsplatzから約35分\n【回り方】①午前中に遺書の家（1時間ほど）②小川沿いの散歩道 Beethovengang ③16時からホイリゲ\n【ホイリゲ】Mayer am Pfarrplatz（Pfarrplatz 2、ベートーヴェンが住んだ家）。月〜木は16:00開店\n【戻り】19:30の公演なら18時に出れば間に合う（コンツェルトハウスまで約40分）", "start": "11:00", "title": "ハイリゲンシュタット（遺書の家・散歩道・ホイリゲ）"}, "p12": {"c": "b", "day": "11/13", "end": "09:30", "note": "【場所】中央市場 Nagyvásárcsarnok, Vámház krt. 1-3（自由橋のペスト側たもと）\n【時間】月〜金 6:00–18:00、入場無料\n【行き方】M4 Fővám tér すぐ。トラム2・47・49も前に停まる\n【中】1階が食料品（パプリカ・サラミ・トカイワイン）、2階が軽食とお土産。お土産はここでまとめて買える", "start": "08:00", "title": "中央市場（朝ごはん・お土産）"}, "p13": {"c": "b", "day": "11/13", "end": "12:45", "note": "【場所】Széchenyi fürdő, Állatkerti krt. 9-11。M1（地下鉄1号線）Széchenyi fürdő駅すぐ。中央市場からはM4→Deák tér乗換M1で約25分\n【時間】金曜 7:00–22:00（プールは21:40まで、窓口は閉館1時間前まで）\n【料金（2026・金曜）】ロッカー付き1日券 14,800Ft（約€38）。個室（キャビン）は+1,000Ft。公式サイトで買ってQRをスマホに入れておく\n【持ち物】水着・タオル・サンダルは含まれない（サンダル必須）。現地の売店で買えるがサイズ不揃い・レンタルなし\n【スーツケース】ロッカーは120×30×65cmで大型スーツケースは入らない。個室は「標準的なスーツケースなら入る」とされるが、大きいものは保証なし → 宿に預けて温泉に行き、帰りに取って駅へ。宿が預かれない場合はKeleti駅のコインロッカー（大：内寸50×60×75cm、地下通路の旅客センター向かい）", "start": "10:00", "title": "セーチェーニ温泉"}, "p3": {"c": "v", "day": "11/11", "end": "23:45", "note": "コンツェルトハウス周辺。帰りはU1", "start": "22:00", "title": "飲み"}, "p4": {"c": "v", "day": "11/14", "end": "12:30", "note": "【Doblinger（楽譜）】Dorotheergasse 10（1区）。土曜は10:00–13:00だけ（平日9:30–18:30）。U1・U3 Stephansplatz 徒歩5分 → 先にこちら\n【パスクァラティハウス】Mölker Bastei 8（1区）。火〜日 10–13時・14–17時、大人約€6。U2 Schottentor 徒歩3分。エレベーターなし、階段で上の階へ\n【移動】DoblingerからMölker Basteiまで徒歩15分", "start": "10:15", "title": "パスクァラティハウス・Doblinger"}, "p5": {"c": "b", "day": "11/12", "end": "13:15", "note": "【宿】ライプニッツは10:00までにチェックアウト\n【列車】ウィーン中央駅 → Budapest-Keleti。Railjet 約2時間40分、ほぼ毎時。ÖBBアプリで購入（Sparschieneは安いが便の変更不可）\n【スーツケース】そのまま持って乗る（車両の端に荷物棚）。Keleti駅からM2・M4の地下鉄で宿へ", "start": "10:30", "title": "移動 ウィーン → ブダペスト"}, "p6": {"c": "v", "day": "11/13", "end": "16:20", "note": "【流れ】温泉 → 宿でスーツケースを受け取る → Budapest-Keleti（M2・M4）\n【列車】Railjet 約2時間40分でウィーン中央駅\n【着いたら】新しい宿に荷物を置いて、19:00 国立歌劇場『連隊の娘』。立見は場所の番号付きなので18:30着で間に合う（PLUSなら前日12日10:00に取っておく）", "start": "13:40", "title": "移動 ブダペスト → ウィーン"}, "p7": {"c": "v", "day": "11/16", "end": "12:00", "note": "15:05 LH6335 ウィーン → フランクフルト", "start": "09:00", "title": "空港へ（12:13 中央駅発）"}, "p8": {"c": "b", "day": "11/12", "end": "18:30", "note": "【まず】宿に荷物を置く\n【ブダ城・漁夫の砦】Deák Ferenc térからバス16番（くさり橋を渡る）→ Szentháromság tér下車、徒歩2分。切符500Ft（運転手から買うと700Ft）。ケーブルカーは片道4,500Ftと高いのでバスで十分\n・漁夫の砦：下のテラスは無料。上の塔だけ1,700Ft、9–19時、カードのみ（現金不可）\n・マーチャーシュ教会：3,400Ft\n【国会議事堂（中に入るなら）】ガイドツアー約45分、EU外の大人14,000Ft（約€35）。11月は8–16時。公式サイトで事前予約、保安検査に20–30分。M2 Kossuth Lajos tér\n【くさり橋】歩いて渡れる（無料）。夕方に渡ると国会議事堂の灯りが見える", "start": "14:00", "title": "ブダペスト観光"}, "p9": {"c": "b", "day": "11/12", "end": "23:30", "note": "【夜景】国会議事堂のライトアップは、対岸のブダ側ドナウ沿い（Batthyány tér付近）か、くさり橋の上から\n【飲み】リスト音楽院の近く（M1 Oktogon周辺）と、ゲットー地区（7区、Kazinczy utca周辺）に店が集まっている", "start": "21:30", "title": "ドナウの夜景・飲み"}};
+  function loadLocal(){var r=null;try{r=localStorage.getItem('vb-plans-4')}catch(e){}if(r){try{plans=JSON.parse(r)}catch(e){plans=JSON.parse(JSON.stringify(SEED))}}else{plans=JSON.parse(JSON.stringify(SEED))}}
+  function saveLocal(){try{localStorage.setItem('vb-plans-4',JSON.stringify(plans))}catch(e){}}
   function save(id,p){if(col){col.doc(id).set(p).catch(function(e){$('sync').textContent='保存できませんでした（'+(e&&e.code||'error')+'）。この端末にだけ残しています。';saveLocal()})}else saveLocal()}
   function remove(id){if(col){col.doc(id).delete().catch(function(){saveLocal()})}else saveLocal()}
   loadLocal(); render();

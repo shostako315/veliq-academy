@@ -111,6 +111,20 @@
   <dl class="mt16"><dt>曲目・出演</dt><dd id="evP"></dd><dt>会場</dt><dd id="evV"></dd><dt>住所</dt><dd id="evA"></dd><dt>行き方</dt><dd id="evC"></dd></dl>
 </div></dialog>
 
+<dialog id="dPv" aria-labelledby="pvT"><div class="sh">
+  <div class="top"><div class="when" id="pvW"></div><button type="button" class="x" data-close aria-label="閉じる">×</button></div>
+  <h3 id="pvT"></h3>
+  <span class="pv-badge" id="pvF"></span>
+  <p class="pv-note" id="pvN"></p>
+  <div class="acts"><button type="button" class="sub" id="pvFix">確定にする</button><button type="button" class="save" id="pvEd">編集</button></div>
+</div></dialog>
+
+<dialog id="dMv" aria-labelledby="mvT"><div class="sh">
+  <div class="top"><h3 id="mvT"></h3></div>
+  <p class="mv">この時間に動かしますか？<br><span id="mvB"></span></p>
+  <div class="acts"><button type="button" class="sub" id="mvNo">元に戻す</button><button type="button" class="save" id="mvOk">動かす</button></div>
+</div></dialog>
+
 <dialog id="dPl" aria-labelledby="plT"><div class="sh">
   <div class="top"><h3 id="plT">予定</h3><button type="button" class="x" data-close aria-label="閉じる">×</button></div>
   <form class="f" id="plF">
@@ -130,7 +144,8 @@
       <button type="button" data-n="up">↑ 30分早く</button><button type="button" data-n="down">↓ 30分遅く</button>
       <button type="button" data-n="long">＋30分 伸ばす</button><button type="button" data-n="short">−30分 縮める</button>
     </div>
-    <label>メモ<textarea id="plM" rows="2" placeholder="店の名前、集合場所など"></textarea></label>
+    <label class="ck"><input type="checkbox" id="plX">確定した予定</label>
+    <label>メモ<textarea id="plM" rows="3" placeholder="店の名前、集合場所など"></textarea></label>
     <div class="acts"><button type="button" class="del" id="plDel">削除</button><button type="submit" class="save">保存</button></div>
   </form>
 </div></dialog>
