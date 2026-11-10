@@ -14,6 +14,44 @@
   <header>
     <h1>ウィーンとブダペストの1週間</h1>
   </header>
+  <section class="cmp" aria-label="2つの案">
+    <input type="radio" name="pa" id="paA" checked><input type="radio" name="pa" id="paB">
+    <div class="seg"><label for="paA">案A　連隊の娘</label><label for="paB">案B　フィッシャー</label></div>
+    <div class="cards">
+      <article class="pc pcA">
+        <h2><span class="tag">案A</span>連隊の娘を観る</h2>
+        <ol class="nights">
+          <li class="v"><b>11 水</b><span>ハーデリッヒ／ヤノシュカ（コンツェルトハウス）か『シカゴ』（フォルクスオーパー）</span></li>
+          <li class="b"><b>12 木</b><span>ハンガリー放送響（リスト音楽院）<i>昼はブダ城・くさり橋、夜はドナウの夜景</i></span></li>
+          <li class="v"><b>13 金</b><span>『連隊の娘』（国立歌劇場・立見）<i>朝に中央市場と温泉、13:40の列車で戻る</i></span></li>
+          <li class="v"><b>14 土</b><span>『愛の妙薬』（国立歌劇場・立見）<i>午前にドブリンガーとパスクァラティハウス</i></span></li>
+          <li class="v"><b>15 日</b><span>15:30 トーンキュンストラー管（楽友協会）→ 19:00『蝶々夫人』（国立歌劇場・立見）</span></li>
+        </ol>
+        <div class="stay"><span class="sv w2">ライプニッツ<br>10・11日</span><span class="sb w1">ブダ<br>12日</span><span class="sv w3">ウィーン<br>13〜15日</span></div>
+        <dl class="note">
+          <dt>観られない</dt><dd>フィッシャー（ブダペスト祝祭管）、12日のウィーンの公演</dd>
+          <dt>劇場</dt><dd>国立歌劇場3回（PLUSの無料枠で収まる）。コンツェルトハウスとフォルクスオーパーは11日にどちらか一方だけ</dd>
+          <dt>宿</dt><dd>2か所を新たに取る（ブダペスト1泊、ウィーン3泊）</dd>
+        </dl>
+      </article>
+      <article class="pc pcB">
+        <h2><span class="tag">案B</span>フィッシャーを観る</h2>
+        <ol class="nights">
+          <li class="v"><b>11 水</b><span>『シカゴ』（フォルクスオーパー）かハーデリッヒ（コンツェルトハウス）</span></li>
+          <li class="v"><b>12 木</b><span>フランス放送フィル（コンツェルトハウス）／ウィーン響（楽友協会）／キーンリーサイド（国立歌劇場）から1つ</span></li>
+          <li class="b"><b>13 金</b><span>フィッシャー＆ブダペスト祝祭管（Müpa、オルガン席のみ 約€30）<i>朝に移動、昼は観光</i></span></li>
+          <li class="v"><b>14 土</b><span>『愛の妙薬』（国立歌劇場・立見）<i>朝に温泉、昼過ぎの列車で戻る</i></span></li>
+          <li class="v"><b>15 日</b><span>15:30 トーンキュンストラー管（楽友協会）→ 19:00『蝶々夫人』（国立歌劇場・立見）</span></li>
+        </ol>
+        <div class="stay"><span class="sv w2">ライプニッツ<br>10・11日</span><span class="sv w1">ウィ<br>12日</span><span class="sb w1">ブダ<br>13日</span><span class="sv w2">ウィーン<br>14・15日</span></div>
+        <dl class="note">
+          <dt>観られない</dt><dd>『連隊の娘』（この期間は今夜と13日だけ）</dd>
+          <dt>劇場</dt><dd>11日にフォルクスオーパー、12日にコンツェルトハウスで両方行ける。国立歌劇場は2回（12日にキーンリーサイドを選べば3回）</dd>
+          <dt>宿</dt><dd>3か所を新たに取る（12日は1泊だけ。ライプニッツを延長できれば移動が減る）</dd>
+        </dl>
+      </article>
+    </div>
+  </section>
   <div class="bar">
     <div class="days" id="days"></div>
     <div class="legend">
@@ -33,9 +71,28 @@
     <ul>
       <li>ウィーン中央駅 ⇄ ブダペスト東駅：Railjet 約2時間40分、ほぼ毎時。ブダペスト発の最終は20:40頃</li>
       <li>ÖBBのSparschiene（安い）は便の変更不可、Standardは同日どの便でも可</li>
-      <li>国立歌劇場の立見：当日10時からオンライン、開演80分前から窓口（Operngasse側）</li>
       <li>11/16は15:05ウィーン空港発。中央駅から空港は列車14分</li>
       <li>終演時刻は目安。値段・残席は11/10時点（HUFは1€≈390で換算）</li>
+    </ul>
+  </div>
+  <div class="info plus">
+    <h3>国立歌劇場の立見とStehplatzPLUS</h3>
+    <table class="pt">
+      <thead><tr><th></th><th>当日に買う</th><th>PLUS</th></tr></thead>
+      <tbody>
+        <tr><th>平土間の後ろ</th><td>€18</td><td rowspan="3" class="hl">最初の4枚は無料<br>5枚目から€4〜7</td></tr>
+        <tr><th>バルコニー</th><td>€13</td></tr>
+        <tr><th>ギャラリー</th><td>€15</td></tr>
+        <tr><th>買える時間</th><td>公演当日10:00〜（ネット、1アカウント2枚）／開演80分前〜窓口</td><td class="hl">公演前日10:00〜（1公演1枚）</td></tr>
+        <tr><th>費用</th><td>案Aの3回で€54（平土間）</td><td class="hl">€28（1回だけ払う）</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>作り方：国立歌劇場の向かいの切符売り場（Bundestheaterkassen、Opernring 2）で、無料のBundestheaterCardを作ってPLUSを付ける。メールでも申し込めるが、使えるまでの日数が書かれていない</li>
+      <li>無料枠で取るときは「Stehplatz ermäßigt」を選び、会員番号を入れて「Redeem」</li>
+      <li>1枚のカードで1公演1枚。友達は自分のカードを作る（観るのが2回以下なら当日買いのほうが安い）</li>
+      <li>立見には場所の番号が付くので、早く並ぶ必要はない。手すりに英語字幕</li>
+      <li>フォルクスオーパーは定価が安く、立見€4〜5（PLUSは国立歌劇場だけ）</li>
     </ul>
   </div>
 </div>
