@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>ウィーンとブダペストの演奏会</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="wrap">
+  <header>
+    <h1>ウィーンとブダペストの演奏会</h1>
+    <p class="lead">公演をタップすると曲目・値段・残席・チケット。紫の点線は自分たちの予定（飲み・移動など）：ドラッグで時間をずらし、下端を引っぱって伸ばす。タップで編集。タブレット・PCでは1週間を横に並べて表示。</p>
+  </header>
+  <div class="bar">
+    <div class="days" id="days"></div>
+    <div class="legend">
+      <span><span class="sw sw-v"></span>ウィーン</span>
+      <span><span class="sw sw-b"></span>ブダペスト</span>
+      <span><span class="sw sw-p"></span>予定（動かせる）</span>
+    </div>
+  </div>
+  <div class="single">
+  <div class="dayhead"><h2 id="dtitle"></h2><span class="where" id="dwhere"></span></div>
+  <div class="tl" id="tl"></div>
+  </div>
+  <div class="week"><div class="wk" id="wk"></div></div>
+  <p class="sync" id="sync"></p>
+  <div class="info">
+    <h3>移動と注意</h3>
+    <ul>
+      <li>ウィーン中央駅 ⇄ ブダペスト東駅：Railjet 約2時間40分、ほぼ毎時。ブダペスト発の最終は20:40頃</li>
+      <li>ÖBBのSparschiene（安い）は便の変更不可、Standardは同日どの便でも可</li>
+      <li>国立歌劇場の立見：当日10時からオンライン、開演80分前から窓口（Operngasse側）</li>
+      <li>11/16は15:05ウィーン空港発。中央駅から空港は列車14分</li>
+      <li>終演時刻は目安。値段・残席は11/10時点（HUFは1€≈390で換算）</li>
+    </ul>
+  </div>
+</div>
+
+<button type="button" class="fab" id="add">＋ 予定</button>
+
+<dialog id="dEv" aria-labelledby="evT"><div class="sh">
+  <div class="top"><div class="when" id="evW"></div><button type="button" class="x" data-close aria-label="閉じる">×</button></div>
+  <h3 id="evT"></h3>
+  <div class="tix">
+    <div class="tbox"><div class="lbl">値段</div><div class="val" id="evPr"></div></div>
+    <div class="tbox"><div class="lbl">残席（11/10時点）</div><div class="val" id="evS"></div></div>
+  </div>
+  <p class="buy" id="evB"></p>
+  <a class="go" id="evU" href="#" target="_blank" rel="noopener">チケットを見る（残席・座席図）</a>
+  <dl class="mt16"><dt>曲目・出演</dt><dd id="evP"></dd><dt>会場</dt><dd id="evV"></dd><dt>住所</dt><dd id="evA"></dd><dt>行き方</dt><dd id="evC"></dd></dl>
+</div></dialog>
+
+<dialog id="dPl" aria-labelledby="plT"><div class="sh">
+  <div class="top"><h3 id="plT">予定</h3><button type="button" class="x" data-close aria-label="閉じる">×</button></div>
+  <form class="f" id="plF">
+    <div class="chips" id="presets">
+      <button type="button" data-p="飲み">🍷 飲み</button><button type="button" data-p="食事">🍽 食事</button><button type="button" data-p="移動">🚆 移動</button><button type="button" data-p="見学">🏛 見学</button><button type="button" data-p="休憩">☕ 休憩</button>
+    </div>
+    <label>内容<input id="plN" required placeholder="例：ホイリゲで飲み"></label>
+    <div class="row2">
+      <label>日<select id="plD"></select></label>
+      <label>場所<select id="plC"><option value="v">ウィーン</option><option value="b">ブダペスト</option></select></label>
+    </div>
+    <div class="row2">
+      <label>開始<input id="plS" type="time" step="900" required></label>
+      <label>終了<input id="plE" type="time" step="900" required></label>
+    </div>
+    <div class="nudge">
+      <button type="button" data-n="up">↑ 30分早く</button><button type="button" data-n="down">↓ 30分遅く</button>
+      <button type="button" data-n="long">＋30分 伸ばす</button><button type="button" data-n="short">−30分 縮める</button>
+    </div>
+    <label>メモ<textarea id="plM" rows="2" placeholder="店の名前、集合場所など"></textarea></label>
+    <div class="acts"><button type="button" class="del" id="plDel">削除</button><button type="submit" class="save">保存</button></div>
+  </form>
+</div></dialog>
+
+
+<script src="app.js"></script>
+</body>
+</html>
