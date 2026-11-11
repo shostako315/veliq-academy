@@ -4,7 +4,11 @@
   var DAYS=[["11/10","火","ブレッド → ウィーン"],["11/11","水","ウィーン"],["11/12","木","ウィーン → ブダペスト"],["11/13","金","ブダペスト → ウィーン"],["11/14","土","ウィーン"],["11/15","日","ウィーン"],["11/16","月","帰国"]];
   var START=8, END=24, HH=56;
   var cur="11/11"; try{cur=localStorage.getItem('vb-day')||cur}catch(e){}
-  var plans={}; var db=null; var col=null; var editing=null;
+  var plans={}; var db=null; var col=null; var editing=null; var picks={}; var pcol=null; var curEv=null;
+  try{picks=JSON.parse(localStorage.getItem('vb-picks')||'{}')}catch(e){picks={}}
+  function evKey(e){var s=e.day+'|'+e.start+'|'+e.n,h=0;for(var i=0;i<s.length;i++){h=((h<<5)-h+s.charCodeAt(i))|0}return 'k'+(h>>>0).toString(36)}
+  function setPick(k,v){if(v)picks[k]={go:true};else delete picks[k];try{localStorage.setItem('vb-picks',JSON.stringify(picks))}catch(e){}
+    if(pcol){(v?pcol.doc(k).set({go:true}):pcol.doc(k).delete()).catch(function(){})}}
   var STC={ok:"ok",few:"few",wait:"wait",busy:"busy",stand:"stand",unk:"unk"};
   var STL={ok:"発売中",few:"残りわずか",wait:"ウェイティング",busy:"購入待ち列",stand:"立見",unk:"座席図で確認"};
   function $(i){return document.getElementById(i)}
@@ -34,12 +38,12 @@
       b.style.top=top+'px';b.style.height=ht+'px';
       b.style.left='calc('+(it._c/it._n*100)+'% + 2px)';b.style.width='calc('+(100/it._n)+'% - 4px)';
       var nar=(it._n>=3||lane.dataset.week)?' narrow':'';
-      if(it.kind==='ev'){var e=EV[it.i];b.className='blk '+e.c+nar;
-        b.innerHTML='<div class="t">'+esc(e.start)+'–'+esc(e.end||'')+'</div><div class="n">'+esc(e.n)+'</div><div class="m">'+(STL[e.sk]?'<span class="st '+STC[e.sk]+'">'+STL[e.sk]+'</span>':'')+'</div>';
+      if(it.kind==='ev'){var e=EV[it.i];b.className='blk '+e.c+nar+(picks[evKey(e)]?' picked':'');
+        b.innerHTML='<div class="t">'+esc(e.start)+'–'+esc(e.end||'')+'</div><div class="n">'+esc(e.n)+'</div><div class="m">'+(STL[e.sk]?'<span class="st '+STC[e.sk]+'">'+STL[e.sk]+'</span>':'')+'</div>'+(picks[evKey(e)]?'<span class="star">★</span>':'');
         b.addEventListener('click',function(){openEv(e)})}
       else{var p=plans[it.id];b.className='blk plan'+nar;b.tabIndex=0;b.setAttribute('role','button');
         if(p.fixed)b.className+=' fixed';
-        b.innerHTML='<div class="t">'+esc(p.start)+'–'+esc(p.end)+(p.fixed?'<span class="fx">確定</span>':'')+'</div><div class="n">'+esc(p.title)+'</div>'+(p.fixed?'':'<div class="rz" aria-hidden="true"></div>');
+        b.innerHTML='<div class="t">'+esc(p.start)+'–'+esc(p.end)+'</div><div class="n">'+esc(p.title)+'</div>'+(p.fixed?'<span class="star">★</span>':'<div class="rz" aria-hidden="true"></div>');
         attachDrag(b,it.id);
         b.addEventListener('keydown',function(ev){if(ev.key==='Enter')openPv(it.id)})}
       lane.appendChild(b);
@@ -50,9 +54,9 @@
     el.addEventListener('pointerdown',function(ev){
       if(ev.button>0)return;
       var p=plans[id];
-      DRAG={id:id,el:el,y0:ev.clientY,x0:ev.clientX,s:m(p.start),e:m(p.end),day:p.day,mode:ev.target.classList.contains('rz')?'resize':'move',moved:false,armed:ev.pointerType==='mouse',pid:ev.pointerId};
-      if(ev.pointerType==='mouse'){el.setPointerCapture(ev.pointerId)}
-      else{DRAG.timer=setTimeout(function(){if(DRAG&&DRAG.el===el&&!DRAG.gone&&!p.fixed){DRAG.armed=true;el.classList.add('armed');try{el.setPointerCapture(DRAG.pid)}catch(e){}try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}}},400)}
+      DRAG={id:id,el:el,y0:ev.clientY,x0:ev.clientX,s:m(p.start),e:m(p.end),day:p.day,mode:ev.target.classList.contains('rz')?'resize':'move',moved:false,armed:ev.pointerType==='mouse'||ev.target.classList.contains('rz'),pid:ev.pointerId};
+      if(DRAG.armed){el.setPointerCapture(ev.pointerId)}
+      else{DRAG.timer=setTimeout(function(){if(DRAG&&DRAG.el===el&&!DRAG.gone&&!p.fixed){DRAG.armed=true;el.classList.add('armed');try{el.setPointerCapture(DRAG.pid)}catch(e){}try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}}},300)}
     });
     el.addEventListener('touchmove',function(ev){if(DRAG&&DRAG.el===el&&DRAG.armed)ev.preventDefault()},{passive:false});
     el.addEventListener('contextmenu',function(ev){ev.preventDefault()});
@@ -104,12 +108,12 @@
       if(!items.length){var n=document.createElement('div');n.className='agr none';n.textContent='予定なし';s.appendChild(n)}
       items.forEach(function(it){
         var r=document.createElement('button');r.type='button';
-        if(it.kind==='ev'){var e=EV[it.i];r.className='agr '+e.c;
-          r.innerHTML='<div class="tm">'+esc(e.start)+'<small>'+esc(dur(it.start,it.end))+'</small></div><div class="bar2"></div><div class="tx"><b>'+esc(e.n)+'</b><span>'+(STL[e.sk]?'<i class="st '+STC[e.sk]+'">'+STL[e.sk]+'</i>':'')+esc(e.venue||'')+'</span></div>';
+        if(it.kind==='ev'){var e=EV[it.i];r.className='agr '+e.c+(picks[evKey(e)]?' go':'');
+          r.innerHTML='<div class="tm">'+esc(e.start)+'<small>'+esc(dur(it.start,it.end))+'</small></div><div class="bar2"></div><div class="tx"><b>'+esc(e.n)+(picks[evKey(e)]?'<span class="gs">★</span>':'')+'</b><span>'+(STL[e.sk]?'<i class="st '+STC[e.sk]+'">'+STL[e.sk]+'</i>':'')+esc(e.venue||'')+'</span></div>';
           r.addEventListener('click',function(){openEv(e)})}
         else{var p=plans[it.id];r.className='agr pl'+(p.fixed?' fixed':'');
           var first=(p.note||'').split('\n')[0].replace(/^【[^】]*】/,'');
-          r.innerHTML='<div class="tm">'+esc(p.start)+'<small>'+esc(dur(p.start,p.end))+'</small></div><div class="bar2"></div><div class="tx"><b>'+esc(p.title)+(p.fixed?'<span class="fx">確定</span>':'')+'</b><span>'+esc(first)+'</span></div>';
+          r.innerHTML='<div class="tm">'+esc(p.start)+'<small>'+esc(dur(p.start,p.end))+'</small></div><div class="bar2"></div><div class="tx"><b>'+esc(p.title)+(p.fixed?'<span class="gs">★</span>':'')+'</b><span>'+esc(first)+'</span></div>';
           r.addEventListener('click',function(){openPv(it.id)})}
         s.appendChild(r);
       });
@@ -134,19 +138,27 @@
     $('evW').textContent=e.day+' '+e.start+(e.end?'–'+e.end:'')+'｜'+(e.c==='v'?'ウィーン':'ブダペスト');
     $('evT').textContent=e.n;$('evP').textContent=e.prog;$('evV').textContent=e.venue;$('evA').textContent=e.addr;$('evC').textContent=e.acc;$('evPr').textContent=e.p||'—';$('evS').textContent=e.s||'—';$('evS').className='val '+({few:'few',wait:'few',busy:'few',ok:'ok',stand:'stand'}[e.sk]||'');$('evB').textContent=e.buy||'';
     var u=$('evU');if(e.u){u.href=e.u;u.hidden=false}else u.hidden=true;
-    $('dEv').showModal();
+    curEv=e;var g=!!picks[evKey(e)];$('evGo').setAttribute('aria-pressed',g);$('evGo').textContent=(g?'★':'☆')+' 行く';
+    if(!$('dEv').open)$('dEv').showModal();
   }
   var PEND=null,viewing=null;
   function openPv(id){
     var p=plans[id];if(!p)return;viewing=id;
     $('pvW').textContent=p.day+' '+p.start+'–'+p.end+'｜'+(p.c==='b'?'ブダペスト':'ウィーン');
     $('pvT').textContent=p.title;
-    var bd=$('pvF');bd.textContent=p.fixed?'✓ 確定':'未確定（案）';bd.className='pv-badge'+(p.fixed?' on':'');
     $('pvN').textContent=p.note||'';$('pvN').hidden=!p.note;
-    $('pvFix').textContent=p.fixed?'確定を外す':'確定にする';
-    $('dPv').showModal();
+    $('pvFix').setAttribute('aria-pressed',!!p.fixed);$('pvFix').textContent=(p.fixed?'★':'☆')+' 確定';
+    if(!$('dPv').open)$('dPv').showModal();
   }
   $('pvFix').addEventListener('click',function(){if(!viewing)return;var p=Object.assign({},plans[viewing]);p.fixed=!p.fixed;plans[viewing]=p;save(viewing,p);render();openPv(viewing)});
+  $('evGo').addEventListener('click',function(){if(!curEv)return;var k=evKey(curEv);setPick(k,!picks[k]);render();openEv(curEv)});
+  [].forEach.call(document.querySelectorAll('.adj button'),function(btn){btn.addEventListener('click',function(){
+    if(!viewing)return;var p=Object.assign({},plans[viewing]),a=btn.dataset.a,k=a[0],n=+a.slice(1);
+    var s=m(p.start),e=m(p.end);
+    if(k==='s'){var len=e-s;s=Math.max(START*60,Math.min(END*60-len,s+n));e=s+len}
+    else if(k==='e'){e=Math.max(s+15,Math.min(END*60,e+n))}
+    else{var idx=DAYS.map(function(x){return x[0]}).indexOf(p.day)+n;if(idx<0||idx>=DAYS.length)return;p.day=DAYS[idx][0];cur=p.day}
+    p.start=hm(s);p.end=hm(e);plans[viewing]=p;save(viewing,p);render();openPv(viewing)})});
   $('pvEd').addEventListener('click',function(){var id=viewing;$('dPv').close();openPl(id)});
   $('mvOk').addEventListener('click',function(){if(PEND){plans[PEND.id]=PEND.p;save(PEND.id,PEND.p);PEND=null}$('dMv').close();render()});
   $('mvNo').addEventListener('click',function(){$('dMv').close()});
@@ -184,7 +196,11 @@
     var timer=setTimeout(function(){if(!col)$('sync').textContent='予定はこの端末にだけ保存されます。'},10000);
     claude.use('db').then(function(d){
       if(!d){clearTimeout(timer);$('sync').textContent='予定はこの端末にだけ保存されます（共有するにはclaude.aiにログイン）。';return}
-      db=d; col=db.collection('plans');
+      db=d; col=db.collection('plans'); pcol=db.collection('picks');
+      var lp=Object.keys(picks);
+      pcol.onSnapshot(function(snap){var n={};snap.docs.forEach(function(doc){var v=doc.data();if(v&&v.go)n[doc.id]=v});
+        if(lp){lp.forEach(function(k){if(!n[k]){n[k]={go:true};pcol.doc(k).set({go:true}).catch(function(){})}});lp=null}
+        picks=n;try{localStorage.setItem('vb-picks',JSON.stringify(picks))}catch(e){}render()},function(){pcol=null});
       col.onSnapshot(function(snap){clearTimeout(timer);var n={};snap.docs.forEach(function(doc){var v=doc.data();if(v)n[doc.id]=v});plans=n;render();$('sync').textContent='予定は共有されています。一緒に見ている人の変更もここに出ます。'},
         function(e){clearTimeout(timer);col=null;$('sync').textContent='共有の読み込みに失敗。この端末にだけ保存します。'});
     }).catch(function(){clearTimeout(timer);$('sync').textContent='予定はこの端末にだけ保存されます。'});
