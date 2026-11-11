@@ -239,5 +239,13 @@ html,body{overflow-x:clip;max-width:100%}
 .days button{min-width:0}
 .days button b{font-size:clamp(14px,4.4vw,17px)}
 @media (max-width:340px){.vt button{padding:5px 9px}.row2 .legend{font-size:10.5px}}
+.blk.dimd,.agr.dimd{opacity:.35}
+.blk.hidd{opacity:.25;outline:1px dashed var(--muted)}
+.stb.sm{padding:4px 9px;font-weight:600;color:var(--muted)}
+.stb.sm[aria-pressed="true"]{color:var(--ink);background:var(--hour);border-color:var(--line)}
+.sh .top .when{min-width:0}
+.tr{flex-wrap:nowrap;gap:4px}
+.shh{margin:6px 0 0;text-align:right}.shh button{border:0;background:none;color:var(--muted);font-size:12.5px;text-decoration:underline;cursor:pointer;padding:4px 0}
+.shh button:empty{display:none}
 
 .sw-v{background:var(--vie)}.sw-b{background:var(--bud)}.sw-p{background:var(--plan)}.mt16{margin-top:16px}

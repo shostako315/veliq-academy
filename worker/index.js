@@ -382,13 +382,19 @@ async function trip(req, env) {
   if (!env.TRIP) return new Response(JSON.stringify({ error: "no_store" }), { status: 503, headers: H });
   const KEY = "vienna-2026";
   let st = (await env.TRIP.get(KEY, "json")) || { plans: {}, picks: {}, rev: 0, init: false };
+  if (st.init && st.mig !== "m1") {
+    for (const k of ["p5", "p6", "p8", "p9", "p12", "p13"]) delete st.plans[k];
+    Object.assign(st.plans, {"p22": {"day": "11/12", "start": "10:00", "end": "11:00", "c": "v", "title": "チェックアウト・荷物", "note": "【ライプニッツ】10:00までにチェックアウト。荷物は預かり不可\n【荷物】次の宿に預けるか、中央駅のコインロッカー\n【夜】19:30 フランス放送フィル（コンツェルトハウス）"}, "p20": {"day": "11/13", "start": "10:00", "end": "11:00", "c": "v", "title": "朝カフェ（Café Goldegg）", "note": "【場所】Argentinierstraße 49（4区）。中央駅から歩いて10分\n【時間】平日8:00〜20:00\n【メモ】古いウィーンのカフェ。朝食あり。このあと中央駅の11:14の列車へ"}, "p21": {"day": "11/13", "start": "11:14", "end": "12:10", "c": "b", "title": "移動 ウィーン → ブラチスラヴァ", "note": "【列車】ウィーン中央駅 毎時14分発のREX、56分。Bratislava hlavná stanica 着\n【切符】片道€12.70（当日買える、予約不要）。ÖBBの「Bratislava Ticket」往復なら、その日のブラチスラヴァ市内交通も込み\n【着いたら】駅から旧市街まで歩いて15分"}, "p23": {"day": "11/13", "start": "12:10", "end": "15:35", "c": "b", "title": "ブラチスラヴァ観光", "note": "【昼ごはん】Slovak Pub（Obchodná 62、11〜22時）。スロバキアの家庭料理、ニンニクスープ、ハルシュキ\n【回る順】ミハエル門 → 中央広場（ローランドの噴水、マンホールから顔を出すチュミルの像）→ 聖マルティン大聖堂 → ブラチスラヴァ城 → UFO（橋の上の展望台）\n【城】庭は無料で8〜22時。博物館は10〜18時で約€14（火曜休み）\n【メモ】支払いはユーロ、カードが使える。物価はウィーンより安い"}, "p24": {"day": "11/13", "start": "15:50", "end": "16:46", "c": "b", "title": "移動 ブラチスラヴァ → ウィーン", "note": "【列車】Bratislava hlavná stanica 毎時50分発、56分でウィーン中央駅\n【着いたら】宿に寄って、19:00 国立歌劇場『連隊の娘』"}});
+    st.mig = "m1"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
     if (b.op === "init" && !st.init) { st.plans = b.plans && typeof b.plans === "object" ? b.plans : {}; st.picks = b.picks && typeof b.picks === "object" ? b.picks : {}; st.init = true; }
     else if (b.op === "set" && ok(b.id) && b.data && typeof b.data === "object") { st.plans[b.id] = b.data; st.init = true; }
     else if (b.op === "del" && ok(b.id)) { delete st.plans[b.id]; }
-    else if (b.op === "pick" && ok(b.id)) { if (b.on) st.picks[b.id] = { go: true }; else delete st.picks[b.id]; }
+    else if (b.op === "pick" && ok(b.id)) { const v = b.val || (b.on ? "go" : null); if (v === "go" || v === "dim" || v === "hide") st.picks[b.id] = { [v]: true }; else delete st.picks[b.id]; }
     if (JSON.stringify(st).length > 200000) return new Response('{"error":"too_big"}', { status: 413, headers: H });
     st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
