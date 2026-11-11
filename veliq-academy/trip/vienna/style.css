@@ -197,5 +197,17 @@ body.ag .single{display:none}body:not(.ag) .agenda{display:none}
 .blk .rz{height:22px!important}
 .blk .rz.rzt{top:0;bottom:auto}
 .blk.plan .t{padding-top:4px}
+.evst{margin:0 0 8px;font-size:14px;font-weight:700;display:flex;gap:8px;align-items:baseline}
+.evst small{font-weight:400;color:var(--muted);font-size:12px}
+.evst .few{color:var(--warn)}.evst .ok{color:var(--okc)}.evst .stand{color:var(--gold)}
+.pr{width:100%;border-collapse:collapse;font-size:15px;margin:0 0 6px}
+.pr th{text-align:left;font-weight:400;color:var(--ink);padding:9px 0;border-bottom:1px solid var(--line)}
+.pr td{text-align:right;font-weight:700;padding:9px 0 9px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+.pr tr:last-child th,.pr tr:last-child td{border-bottom:0}
+.pr td{white-space:normal;max-width:60%}
+.tn{margin:6px 0 0;padding-left:1.1em;font-size:13px;color:var(--muted);line-height:1.6}
+.tn li{margin:2px 0}
+.buy{font-size:13px!important;color:var(--muted)}
+.go{display:block!important;text-align:center;margin:14px 0 18px!important}
 
 .sw-v{background:var(--vie)}.sw-b{background:var(--bud)}.sw-p{background:var(--plan)}.mt16{margin-top:16px}
