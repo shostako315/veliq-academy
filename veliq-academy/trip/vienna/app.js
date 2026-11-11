@@ -12,7 +12,7 @@
   function hm(x){x=Math.max(START*60,Math.min(END*60,x));var h=Math.floor(x/60),mi=x%60;return (h<10?'0':'')+h+':'+(mi<10?'0':'')+mi}
   function esc(s){var d=document.createElement('div');d.textContent=s==null?'':String(s);return d.innerHTML}
   // day chips
-  DAYS.forEach(function(d){var b=document.createElement('button');b.type='button';b.innerHTML='<b>'+d[0]+'</b><span>'+d[1]+'</span>';b.dataset.d=d[0];b.addEventListener('click',function(){cur=d[0];try{localStorage.setItem('vb-day',cur)}catch(e){}render()});$('days').appendChild(b)});
+  DAYS.forEach(function(d){var b=document.createElement('button');b.type='button';b.innerHTML='<b>'+d[0].split('/')[1]+'</b><span>'+d[1]+'</span>';b.setAttribute('aria-label',d[0]+'（'+d[1]+'）');b.dataset.d=d[0];b.addEventListener('click',function(){cur=d[0];try{localStorage.setItem('vb-day',cur)}catch(e){}render();goDay(cur)});$('days').appendChild(b)});
   DAYS.forEach(function(d){var o=document.createElement('option');o.value=d[0];o.textContent=d[0]+'（'+d[1]+'）';$('plD').appendChild(o)});
   function layout(items){
     items.sort(function(a,b){return m(a.start)-m(b.start)||m(b.end)-m(a.end)});
@@ -50,13 +50,17 @@
     el.addEventListener('pointerdown',function(ev){
       if(ev.button>0)return;
       var p=plans[id];
-      DRAG={id:id,el:el,y0:ev.clientY,x0:ev.clientX,s:m(p.start),e:m(p.end),day:p.day,mode:ev.target.classList.contains('rz')?'resize':'move',moved:false,top0:parseFloat(el.style.top),h0:parseFloat(el.style.height)};
-      el.setPointerCapture(ev.pointerId);
+      DRAG={id:id,el:el,y0:ev.clientY,x0:ev.clientX,s:m(p.start),e:m(p.end),day:p.day,mode:ev.target.classList.contains('rz')?'resize':'move',moved:false,armed:ev.pointerType==='mouse',pid:ev.pointerId};
+      if(ev.pointerType==='mouse'){el.setPointerCapture(ev.pointerId)}
+      else{DRAG.timer=setTimeout(function(){if(DRAG&&DRAG.el===el&&!DRAG.gone&&!p.fixed){DRAG.armed=true;el.classList.add('armed');try{el.setPointerCapture(DRAG.pid)}catch(e){}try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}}},400)}
     });
+    el.addEventListener('touchmove',function(ev){if(DRAG&&DRAG.el===el&&DRAG.armed)ev.preventDefault()},{passive:false});
+    el.addEventListener('contextmenu',function(ev){ev.preventDefault()});
     el.addEventListener('pointermove',function(ev){
       if(!DRAG||DRAG.el!==el)return;
       var dy=ev.clientY-DRAG.y0,dx=ev.clientX-DRAG.x0;
       if(!DRAG.moved&&Math.abs(dy)<6&&Math.abs(dx)<6)return;
+      if(!DRAG.armed){DRAG.gone=true;clearTimeout(DRAG.timer);return}
       if(plans[DRAG.id]&&plans[DRAG.id].fixed)return;
       DRAG.moved=true;el.classList.add('drag');
       var dmin=Math.round(dy/HH*60/15)*15;
@@ -71,7 +75,8 @@
       el.querySelector('.t').textContent=hm(DRAG.ns)+'–'+hm(DRAG.ne)+(DRAG.nday&&DRAG.nday!==DRAG.day?' → '+DRAG.nday:'');
     });
     function end(){
-      if(!DRAG||DRAG.el!==el)return;var d=DRAG;DRAG=null;
+      if(!DRAG||DRAG.el!==el)return;var d=DRAG;DRAG=null;clearTimeout(d.timer);el.classList.remove('armed');
+      if(d.gone)return;
       if(!d.moved){openPv(d.id);return}
       var o=plans[d.id],p=Object.assign({},o);p.start=hm(d.ns);p.end=hm(d.ne);if(d.nday)p.day=d.nday;
       if(p.start===o.start&&p.end===o.end&&p.day===o.day){render();return}
@@ -81,9 +86,38 @@
       $('dMv').showModal();
     }
     el.addEventListener('pointerup',end);
-    el.addEventListener('pointercancel',function(){DRAG=null;render()});
+    el.addEventListener('pointercancel',function(){if(DRAG&&DRAG.el===el){clearTimeout(DRAG.timer);var was=DRAG.moved;DRAG=null;el.classList.remove('armed');if(was)render()}});
+  }
+  var view='ag';try{view=localStorage.getItem('vb-view')||'ag'}catch(e){}
+  function setView(v){view=v;try{localStorage.setItem('vb-view',v)}catch(e){}document.body.classList.toggle('ag',v==='ag');$('vAg').setAttribute('aria-pressed',v==='ag');$('vTl').setAttribute('aria-pressed',v!=='ag')}
+  $('vAg').addEventListener('click',function(){setView('ag');render();goDay(cur)});
+  $('vTl').addEventListener('click',function(){setView('tl');render()});
+  setView(view);
+  function dur(a,b){var x=m(b)-m(a);if(x<=0)return'';var h=Math.floor(x/60),mi=x%60;return (h?h+'時間':'')+(mi?mi+'分':'')}
+  function goDay(d){var el=$('ag-'+d.replace('/','-'));if(el&&view==='ag')el.scrollIntoView({behavior:'smooth',block:'start'})}
+  function agenda(){
+    var ag=$('ag');ag.innerHTML='';
+    DAYS.forEach(function(x){
+      var s=document.createElement('section');s.className='agd';s.id='ag-'+x[0].replace('/','-');
+      s.innerHTML='<h2>'+esc(x[0])+'（'+esc(x[1])+'）<small>'+esc(x[2])+'</small></h2>';
+      var items=itemsFor(x[0]).slice().sort(function(a,b){return m(a.start)-m(b.start)});
+      if(!items.length){var n=document.createElement('div');n.className='agr none';n.textContent='予定なし';s.appendChild(n)}
+      items.forEach(function(it){
+        var r=document.createElement('button');r.type='button';
+        if(it.kind==='ev'){var e=EV[it.i];r.className='agr '+e.c;
+          r.innerHTML='<div class="tm">'+esc(e.start)+'<small>'+esc(dur(it.start,it.end))+'</small></div><div class="bar2"></div><div class="tx"><b>'+esc(e.n)+'</b><span>'+(STL[e.sk]?'<i class="st '+STC[e.sk]+'">'+STL[e.sk]+'</i>':'')+esc(e.venue||'')+'</span></div>';
+          r.addEventListener('click',function(){openEv(e)})}
+        else{var p=plans[it.id];r.className='agr pl'+(p.fixed?' fixed':'');
+          var first=(p.note||'').split('\n')[0].replace(/^【[^】]*】/,'');
+          r.innerHTML='<div class="tm">'+esc(p.start)+'<small>'+esc(dur(p.start,p.end))+'</small></div><div class="bar2"></div><div class="tx"><b>'+esc(p.title)+(p.fixed?'<span class="fx">確定</span>':'')+'</b><span>'+esc(first)+'</span></div>';
+          r.addEventListener('click',function(){openPv(it.id)})}
+        s.appendChild(r);
+      });
+      ag.appendChild(s);
+    });
   }
   function render(){
+    agenda();
     document.querySelectorAll('#days button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.d===cur?'true':'false')});
     var d=DAYS.filter(function(x){return x[0]===cur})[0];
     $('dtitle').textContent=d[0]+'（'+d[1]+'）'; $('dwhere').textContent=d[2];
