@@ -1,31 +1,23 @@
 
 /* Layout: phone-first day planner — sticky day chips, one day per view as an hourly timeline; concerts are fixed blocks, our own plans are editable dashed blocks. */
 :root{
-  --bg:#F5F5F2; --paper:#FFFFFF; --ink:#1B1C1F; --muted:#666970; --line:#E3E2DD; --hour:#EDECE8;
-  --vie:#7E2532; --vie-soft:#F6E9EA; --bud:#2F5D50; --bud-soft:#E3EFEA; --plan:#5B4A8A; --plan-soft:#EFECF7;
-  --warn:#B4541F; --warn-soft:#FBEADF; --okc:#2F6B3A; --ok-soft:#E5F2E7; --gold:#9A7633; --gold-soft:#F5EEDF;
-  --display:"Shippori Mincho B1","Hiragino Mincho ProN",serif;
-  --body:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
-  --hh:56px;
+  --bg:#FFFFFF; --paper:#FFFFFF; --ink:#1A1A1A; --muted:#707070; --line:#E5E5E5; --hour:#F1F1F1;
+  --vie:#C8414B; --vie-soft:#FBEDEE; --bud:#2E8A5C; --bud-soft:#E9F5EF; --plan:#2F6FDB; --plan-soft:#EDF3FD;
+  --warn:#C2571A; --warn-soft:transparent; --okc:#2E8A5C; --ok-soft:transparent; --gold:#8A6D2F; --gold-soft:#F6F1E6;
+  --display:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
+  --body:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
+  --mono:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;
+  --hh:56px; color-scheme:light;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#141518; --paper:#1D1F23; --ink:#ECEBE7; --muted:#A3A6AD; --line:#30333A; --hour:#25272C;
-  --vie:#E3909B; --vie-soft:#3A2227; --bud:#7FC2AE; --bud-soft:#1C3029; --plan:#B7A6F0; --plan-soft:#2A2540;
-  --warn:#F0A372; --warn-soft:#3A271B; --okc:#8FCF99; --ok-soft:#1E3122; --gold:#D8B46E; --gold-soft:#332B1C; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#141518; --paper:#1D1F23; --ink:#ECEBE7; --muted:#A3A6AD; --line:#30333A; --hour:#25272C;
-  --vie:#E3909B; --vie-soft:#3A2227; --bud:#7FC2AE; --bud-soft:#1C3029; --plan:#B7A6F0; --plan-soft:#2A2540;
-  --warn:#F0A372; --warn-soft:#3A271B; --okc:#8FCF99; --ok-soft:#1E3122; --gold:#D8B46E; --gold-soft:#332B1C; color-scheme:dark}
 *{box-sizing:border-box}
 html,body{-webkit-text-size-adjust:100%}
-body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-variant-numeric:tabular-nums;font-size:15px;line-height:1.5;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 96px}
 .wrap{max-width:620px;margin:0 auto}
 @media (min-width:760px){.wrap{max-width:1400px}}
 button{font:inherit;color:inherit}
 header{padding-block:20px 6px}
-h1{font-family:var(--display);font-weight:800;font-size:24px;line-height:1.3;margin:0 0 4px}
+h1{font-family:var(--display);font-weight:700;font-size:24px;line-height:1.3;margin:0 0 4px}
 .lead{margin:0;color:var(--muted);font-size:13.5px}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:20;background:var(--bg)}
 .bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);padding-block:10px 8px;border-bottom:1px solid var(--line)}
@@ -35,7 +27,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .days button b{display:block;font-family:var(--mono);font-size:17px;line-height:1.1;order:2}
 .days button span{order:1}
 .days button span{font-size:11px;color:var(--muted)}
-.days button[aria-pressed="true"]{background:var(--plan);color:#fff}
+.days button[aria-pressed="true"]{background:var(--ink);color:#fff}
 .days button[aria-pressed="true"] span{color:inherit;opacity:.8}
 .legend{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:8px;font-size:12px;color:var(--muted)}
 .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;vertical-align:-1px}
@@ -180,5 +172,13 @@ body.ag .single{display:none}body:not(.ag) .agenda{display:none}
 .blk.plan.armed{outline:2px solid var(--plan);outline-offset:1px}
 .lane{right:30px!important}
 @media (min-width:760px){.vt{display:none}body.ag .agenda{display:none}.col .lane{right:2px!important}}
+.st{padding:0!important;background:none!important;font-weight:600;font-style:normal}
+.st.unk{color:var(--muted)}
+.fab{background:var(--ink)!important;box-shadow:0 2px 8px rgba(0,0,0,.15)!important}
+.vt{background:#F1F1F1}.vt button[aria-pressed="true"]{box-shadow:none;border:1px solid var(--line)}
+.tl{border-radius:10px}
+.blk{border-radius:6px}
+.dayhead h2,.sh h3{font-weight:700}
+.bar{border-bottom-color:var(--line)}
 
 .sw-v{background:var(--vie)}.sw-b{background:var(--bud)}.sw-p{background:var(--plan)}.mt16{margin-top:16px}

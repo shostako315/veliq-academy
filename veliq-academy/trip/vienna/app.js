@@ -88,8 +88,8 @@
     el.addEventListener('pointerup',end);
     el.addEventListener('pointercancel',function(){if(DRAG&&DRAG.el===el){clearTimeout(DRAG.timer);var was=DRAG.moved;DRAG=null;el.classList.remove('armed');if(was)render()}});
   }
-  var view='ag';try{view=localStorage.getItem('vb-view')||'ag'}catch(e){}
-  function setView(v){view=v;try{localStorage.setItem('vb-view',v)}catch(e){}document.body.classList.toggle('ag',v==='ag');$('vAg').setAttribute('aria-pressed',v==='ag');$('vTl').setAttribute('aria-pressed',v!=='ag')}
+  var view='tl';try{view=localStorage.getItem('vb-view2')||'tl'}catch(e){}
+  function setView(v){view=v;try{localStorage.setItem('vb-view2',v)}catch(e){}document.body.classList.toggle('ag',v==='ag');$('vAg').setAttribute('aria-pressed',v==='ag');$('vTl').setAttribute('aria-pressed',v!=='ag')}
   $('vAg').addEventListener('click',function(){setView('ag');render();goDay(cur)});
   $('vTl').addEventListener('click',function(){setView('tl');render()});
   setView(view);
