@@ -196,6 +196,8 @@ body.ag .single{display:none}body:not(.ag) .agenda{display:none}
 .ar:last-child{grid-template-columns:40px 1fr 1fr}
 .blk .rz{height:22px!important}
 .blk .rz.rzt{top:0;bottom:auto}
+.blk .rz{background:none!important}
+.blk.armed .rz{background:linear-gradient(transparent 40%,var(--plan) 40%,var(--plan) 60%,transparent 60%) center/28px 100% no-repeat!important}
 .blk.plan .t{padding-top:4px}
 .evst{margin:0 0 8px;font-size:14px;font-weight:700;display:flex;gap:8px;align-items:baseline}
 .evst small{font-weight:400;color:var(--muted);font-size:12px}
