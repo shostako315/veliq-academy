@@ -377,9 +377,29 @@ async function catalogPage(env, cat, params) {
   return new Response(await shell(env, { title: "作品目録", desc: "作曲家109人の作品の調・作品番号・楽章・作曲年・初演と、ニューヨーク・フィルの演奏記録。", canon: "/music/catalog/", crumbs: [["トップ", "/"], ["音楽", "/music/"], ["作品目録"]], body }), { headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "public, max-age=300" } });
 }
 
+async function trip(req, env) {
+  const H = { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" };
+  if (!env.TRIP) return new Response(JSON.stringify({ error: "no_store" }), { status: 503, headers: H });
+  const KEY = "vienna-2026";
+  let st = (await env.TRIP.get(KEY, "json")) || { plans: {}, picks: {}, rev: 0, init: false };
+  if (req.method === "POST") {
+    let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
+    const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
+    if (b.op === "init" && !st.init) { st.plans = b.plans && typeof b.plans === "object" ? b.plans : {}; st.picks = b.picks && typeof b.picks === "object" ? b.picks : {}; st.init = true; }
+    else if (b.op === "set" && ok(b.id) && b.data && typeof b.data === "object") { st.plans[b.id] = b.data; st.init = true; }
+    else if (b.op === "del" && ok(b.id)) { delete st.plans[b.id]; }
+    else if (b.op === "pick" && ok(b.id)) { if (b.on) st.picks[b.id] = { go: true }; else delete st.picks[b.id]; }
+    if (JSON.stringify(st).length > 200000) return new Response('{"error":"too_big"}', { status: 413, headers: H });
+    st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
+  return new Response(JSON.stringify(st), { headers: H });
+}
+
 export default {
   async fetch(req, env) {
     const url = new URL(req.url);
+    if (url.pathname === "/api/trip/vienna") return trip(req, env);
     if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
     if (url.pathname === "/mcp") {
       if (req.method === "POST") return mcp(req, env);

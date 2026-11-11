@@ -11,6 +11,9 @@
     "binding": "ASSETS",
     "run_worker_first": ["/api", "/api/*", "/mcp", "/music/catalog", "/music/catalog/*"]
   },
+  "kv_namespaces": [
+    { "binding": "TRIP" }
+  ],
   "compatibility_flags": [
     "nodejs_compat"
   ]

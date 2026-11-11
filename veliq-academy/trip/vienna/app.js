@@ -204,5 +204,19 @@
       col.onSnapshot(function(snap){clearTimeout(timer);var n={};snap.docs.forEach(function(doc){var v=doc.data();if(v)n[doc.id]=v});plans=n;render();$('sync').textContent='予定は共有されています。一緒に見ている人の変更もここに出ます。'},
         function(e){clearTimeout(timer);col=null;$('sync').textContent='共有の読み込みに失敗。この端末にだけ保存します。'});
     }).catch(function(){clearTimeout(timer);$('sync').textContent='予定はこの端末にだけ保存されます。'});
-  }else{$('sync').textContent='予定の追加・移動はこの端末にだけ保存されます（ほかの人には見えません）。'}
+  }else{
+    var API='/api/trip/vienna',lastRev=-1;
+    function post(b){return fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)}).then(function(r){if(!r.ok)throw r.status;return r.json()}).then(apply)}
+    function apply(st){if(!st||st.rev===lastRev)return;lastRev=st.rev;if(DRAG||PEND)return;plans=st.plans||{};picks=st.picks||{};saveLocal();try{localStorage.setItem('vb-picks',JSON.stringify(picks))}catch(e){}render()}
+    var shared={doc:function(id){return{set:function(d){return post({op:'set',id:id,data:d})},delete:function(){return post({op:'del',id:id})}}}};
+    var sharedP={doc:function(id){return{set:function(){return post({op:'pick',id:id,on:true})},delete:function(){return post({op:'pick',id:id,on:false})}}}};
+    fetch(API,{cache:'no-store'}).then(function(r){if(!r.ok)throw r.status;return r.json()}).then(function(st){
+      col=shared;pcol=sharedP;
+      if(!st.init){return post({op:'init',plans:plans,picks:picks})}
+      apply(st);
+    }).then(function(){
+      setInterval(function(){if(document.hidden)return;fetch(API,{cache:'no-store'}).then(function(r){return r.json()}).then(apply).catch(function(){})},15000);
+      document.addEventListener('visibilitychange',function(){if(!document.hidden)fetch(API,{cache:'no-store'}).then(function(r){return r.json()}).then(apply).catch(function(){})});
+    }).catch(function(){col=null;pcol=null});
+  }
 })();
