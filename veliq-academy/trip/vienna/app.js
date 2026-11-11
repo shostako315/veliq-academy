@@ -43,7 +43,7 @@
         b.addEventListener('click',function(){openEv(e)})}
       else{var p=plans[it.id];b.className='blk plan'+nar;b.tabIndex=0;b.setAttribute('role','button');
         if(p.fixed)b.className+=' fixed';
-        b.innerHTML='<div class="t">'+esc(p.start)+'–'+esc(p.end)+'</div><div class="n">'+esc(p.title)+'</div>'+(p.fixed?'<span class="star">★</span>':'<div class="rz" aria-hidden="true"></div>');
+        b.innerHTML='<div class="t">'+esc(p.start)+'–'+esc(p.end)+'</div><div class="n">'+esc(p.title)+'</div>'+(p.fixed?'<span class="star">★</span>':'')+'<div class="rz" aria-hidden="true"></div>';
         attachDrag(b,it.id);
         b.addEventListener('keydown',function(ev){if(ev.key==='Enter')openPv(it.id)})}
       lane.appendChild(b);
@@ -54,9 +54,9 @@
     el.addEventListener('pointerdown',function(ev){
       if(ev.button>0)return;
       var p=plans[id];
-      DRAG={id:id,el:el,y0:ev.clientY,x0:ev.clientX,s:m(p.start),e:m(p.end),day:p.day,mode:ev.target.classList.contains('rz')?'resize':'move',moved:false,armed:ev.pointerType==='mouse'||ev.target.classList.contains('rz'),pid:ev.pointerId};
+      DRAG={id:id,el:el,y0:ev.clientY,x0:ev.clientX,s:m(p.start),e:m(p.end),day:p.day,mode:ev.target.classList.contains('rz')?'resize':'move',moved:false,armed:ev.pointerType==='mouse',pid:ev.pointerId};
       if(DRAG.armed){el.setPointerCapture(ev.pointerId)}
-      else{DRAG.timer=setTimeout(function(){if(DRAG&&DRAG.el===el&&!DRAG.gone&&!p.fixed){DRAG.armed=true;el.classList.add('armed');try{el.setPointerCapture(DRAG.pid)}catch(e){}try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}}},300)}
+      else{DRAG.timer=setTimeout(function(){if(DRAG&&DRAG.el===el&&!DRAG.gone){DRAG.armed=true;el.classList.add('armed');try{el.setPointerCapture(DRAG.pid)}catch(e){}try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}}},300)}
     });
     el.addEventListener('touchmove',function(ev){if(DRAG&&DRAG.el===el&&DRAG.armed)ev.preventDefault()},{passive:false});
     el.addEventListener('contextmenu',function(ev){ev.preventDefault()});
@@ -65,7 +65,6 @@
       var dy=ev.clientY-DRAG.y0,dx=ev.clientX-DRAG.x0;
       if(!DRAG.moved&&Math.abs(dy)<6&&Math.abs(dx)<6)return;
       if(!DRAG.armed){DRAG.gone=true;clearTimeout(DRAG.timer);return}
-      if(plans[DRAG.id]&&plans[DRAG.id].fixed)return;
       DRAG.moved=true;el.classList.add('drag');
       var dmin=Math.round(dy/HH*60/15)*15;
       if(DRAG.mode==='move'){var len=DRAG.e-DRAG.s;var ns=Math.max(START*60,Math.min(END*60-len,DRAG.s+dmin));DRAG.ns=ns;DRAG.ne=ns+len;
