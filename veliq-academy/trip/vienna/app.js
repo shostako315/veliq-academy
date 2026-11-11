@@ -43,7 +43,7 @@
         b.addEventListener('click',function(){openEv(e)})}
       else{var p=plans[it.id];b.className='blk plan'+nar;b.tabIndex=0;b.setAttribute('role','button');
         if(p.fixed)b.className+=' fixed';
-        b.innerHTML='<div class="t">'+esc(p.start)+'–'+esc(p.end)+'</div><div class="n">'+esc(p.title)+'</div>'+(p.fixed?'<span class="star">★</span>':'')+'<div class="rz" aria-hidden="true"></div>';
+        b.innerHTML='<div class="t">'+esc(p.start)+'–'+esc(p.end)+'</div><div class="n">'+esc(p.title)+'</div>'+(p.fixed?'<span class="star">★</span>':'')+'<div class="rz rzt" aria-hidden="true"></div><div class="rz" aria-hidden="true"></div>';
         attachDrag(b,it.id);
         b.addEventListener('keydown',function(ev){if(ev.key==='Enter')openPv(it.id)})}
       lane.appendChild(b);
@@ -54,7 +54,7 @@
     el.addEventListener('pointerdown',function(ev){
       if(ev.button>0)return;
       var p=plans[id];
-      DRAG={id:id,el:el,y0:ev.clientY,x0:ev.clientX,s:m(p.start),e:m(p.end),day:p.day,mode:ev.target.classList.contains('rz')?'resize':'move',moved:false,armed:ev.pointerType==='mouse',pid:ev.pointerId};
+      DRAG={id:id,el:el,y0:ev.clientY,x0:ev.clientX,s:m(p.start),e:m(p.end),day:p.day,mode:ev.target.classList.contains('rzt')?'top':ev.target.classList.contains('rz')?'resize':'move',moved:false,armed:ev.pointerType==='mouse',pid:ev.pointerId};
       if(DRAG.armed){el.setPointerCapture(ev.pointerId)}
       else{DRAG.timer=setTimeout(function(){if(DRAG&&DRAG.el===el&&!DRAG.gone){DRAG.armed=true;el.classList.add('armed');try{el.setPointerCapture(DRAG.pid)}catch(e){}try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}}},300)}
     });
@@ -74,6 +74,7 @@
           var cols=[].slice.call(document.querySelectorAll('.col'));
           cols.forEach(function(c){var r=c.getBoundingClientRect();if(ev.clientX>=r.left&&ev.clientX<r.right)DRAG.nday=c.dataset.day});
         }}
+      else if(DRAG.mode==='top'){var ns2=Math.max(START*60,Math.min(DRAG.e-15,DRAG.s+dmin));DRAG.ns=ns2;DRAG.ne=DRAG.e;el.style.top=((ns2-START*60)/60*HH)+'px';el.style.height=Math.max(24,(DRAG.e-ns2)/60*HH-2)+'px'}
       else{var ne=Math.max(DRAG.s+15,Math.min(END*60,DRAG.e+dmin));DRAG.ns=DRAG.s;DRAG.ne=ne;el.style.height=Math.max(24,(ne-DRAG.s)/60*HH-2)+'px'}
       el.querySelector('.t').textContent=hm(DRAG.ns)+'–'+hm(DRAG.ne)+(DRAG.nday&&DRAG.nday!==DRAG.day?' → '+DRAG.nday:'');
     });

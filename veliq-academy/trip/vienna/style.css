@@ -195,5 +195,7 @@ body.ag .single{display:none}body:not(.ag) .agenda{display:none}
 .ar button:active{background:var(--hour)}
 .ar:last-child{grid-template-columns:40px 1fr 1fr}
 .blk .rz{height:22px!important}
+.blk .rz.rzt{top:0;bottom:auto}
+.blk.plan .t{padding-top:4px}
 
 .sw-v{background:var(--vie)}.sw-b{background:var(--bud)}.sw-p{background:var(--plan)}.mt16{margin-top:16px}
