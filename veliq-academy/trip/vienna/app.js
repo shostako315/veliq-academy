@@ -136,7 +136,7 @@
   }
   function openEv(e){
     $('evW').textContent=e.day+' '+e.start+(e.end?'–'+e.end:'')+'｜'+(e.c==='v'?'ウィーン':'ブダペスト');
-    $('evT').textContent=e.n;$('evP').textContent=e.prog;$('evV').textContent=e.venue;$('evA').textContent=e.addr;$('evC').textContent=e.acc;$('evPr').innerHTML=(e.tix||[]).map(function(r){return '<tr><th>'+esc(r[0])+'</th><td>'+esc(r[1])+'</td></tr>'}).join('');$('evPr').hidden=!(e.tix&&e.tix.length);$('evN').innerHTML=(e.tn||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join('');$('evS').textContent=e.s||'—';$('evS').className=({few:'few',wait:'few',busy:'few',ok:'ok',stand:'stand'}[e.sk]||'');$('evB').textContent=e.buy||'';
+    $('evT').textContent=e.n;$('evP').textContent=e.prog;$('evV').textContent=e.venue;$('evA').textContent=e.addr;$('evC').textContent=e.acc;$('evPr').innerHTML=(e.tix||[]).map(function(r){return '<tr><th>'+esc(r[0])+'</th><td>'+esc(r[1])+'</td></tr>'}).join('');$('evPr').hidden=!(e.tix&&e.tix.length);$('evN').innerHTML=(e.tn||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join('');var sc=({few:'few',wait:'few',busy:'few',ok:'ok',stand:'stand'}[e.sk]||'unk');$('evS').textContent=STL[e.sk]||e.s||'—';$('evS').className=sc;$('evDot').className='dot '+sc;$('evAt').textContent=/11\/11/.test((e.tn||[]).join(''))?'11/11時点':'11/10時点';$('evB').textContent=e.buy||'';
     var u=$('evU');if(e.u){u.href=e.u;u.hidden=false}else u.hidden=true;
     curEv=e;var g=!!picks[evKey(e)];$('evGo').setAttribute('aria-pressed',g);$('evGo').textContent=(g?'★':'☆')+' 行く';
     if(!$('dEv').open)$('dEv').showModal();
