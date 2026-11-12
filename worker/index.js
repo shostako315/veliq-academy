@@ -424,6 +424,12 @@ async function trip(req, env) {
     st.mig = "m8"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m8") {
+    for (const k of ["p31","p25"]) delete st.plans[k];
+    Object.assign(st.plans, {"p4": {"day": "11/12", "start": "14:40", "end": "15:40", "c": "v", "title": "パスクァラティハウス", "note": "【場所】Mölker Bastei 8（1区）の4階。U2 Schottentor 徒歩3分\n【時間】14:00–17:00、大人約€6。エレベーターなし\n【中】ベートーヴェンが1804〜15年に何度も住んだ家。『運命』『フィデリオ』『エリーゼのために』の頃"}, "p35": {"day": "11/12", "start": "15:55", "end": "16:30", "c": "v", "title": "Doblinger（楽譜）", "note": "【場所】Dorotheergasse 10（1区）。パスクァラティから歩いて15分\n【時間】平日18:30まで"}, "p34": {"day": "11/12", "start": "16:35", "end": "17:15", "c": "v", "title": "シュテファン大聖堂＋マーケット", "note": "【場所】Stephansplatz。Doblingerから歩いて5分\n【大聖堂】入口付近は無料。奥・塔・地下墓所は有料\n【マーケット】大聖堂前（11/6から開催中）"}, "p36": {"day": "11/12", "start": "17:15", "end": "18:50", "c": "v", "title": "休憩（宿かカフェ）", "note": "【宿へ】U3 Stephansplatz → Schweglerstraße（約12分）、徒歩8分\n【カフェなら】Café Hawelka（Dorotheergasse 6）やCafé Bräunerhof（Stallburggasse 2）が大聖堂から歩いて5分\n【このあと】18:50に出る。宿からはU3 Stephansplatz → U1 Karlsplatz、徒歩7分でコンツェルトハウス"}, "p26": {"day": "11/13", "start": "13:30", "end": "17:30", "c": "v", "title": "美術史美術館（KHM）", "note": "【場所】Maria-Theresien-Platz（1区）。U2・U3 Volkstheater／U2 Museumsquartier 徒歩5分\n【時間】金曜は18:00まで\n【入場】時間指定の予約が必要（無料で予約でき、窓口でもできる）\n【見どころ】ブリューゲルの部屋（『バベルの塔』『雪中の狩人』）、フェルメール『絵画芸術』、ラファエロ、カラヴァッジョ、ベラスケスの王女マルガリータ。2階の丸天井のカフェで休憩"}, "p32": {"day": "11/13", "start": "17:30", "end": "18:30", "c": "v", "title": "宿で休む", "note": "【宿】Holochergasse 9。KHMからU3 Volkstheater → Schweglerstraße（約8分）\n【このあと】18:30に出て、19:00 国立歌劇場『連隊の娘』"}, "p29": {"day": "11/15", "start": "13:00", "end": "14:30", "c": "v", "title": "音楽の家（Haus der Musik）", "note": "【場所】Seilerstätte 30（1区）。楽友協会から歩いて7分\n【時間】毎日10:00–22:00\n【中】ウィーン・フィルの歴史、ベートーヴェン・モーツァルトの部屋、画面のウィーン・フィルを指揮できる「バーチャル指揮者」\n【このあと】15:30 楽友協会 トーンキュンストラー管（立見なら14:30には並ぶ）"}});
+    st.mig = "m9"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
