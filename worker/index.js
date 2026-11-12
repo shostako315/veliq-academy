@@ -435,6 +435,12 @@ async function trip(req, env) {
     st.mig = "m10"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m10") {
+    for (const k of ["p27","p28"]) delete st.plans[k];
+    Object.assign(st.plans, {"p37": {"day": "11/13", "start": "10:00", "end": "11:30", "c": "v", "title": "朝寝坊・部屋で朝昼ごはん", "note": "【10:00】フォルクスオーパーのU30残券がウェブショップと窓口で発売。パスポート必要\n【だめなら】18:00から窓口でU30 €15（売り切れでなければ）\n【ごはん】部屋のキッチンで"}, "p26": {"day": "11/13", "start": "12:30", "end": "16:30", "c": "v", "title": "美術史美術館（KHM）", "note": "【場所】Maria-Theresien-Platz（1区）。U3 Schweglerstraße → Volkstheater、徒歩6分\n【時間】金曜は18:00まで\n【入場】時間指定の予約が必要（無料で予約でき、窓口でもできる）\n【見どころ】ブリューゲルの部屋（『バベルの塔』『雪中の狩人』『農民の婚宴』）、フェルメール『絵画芸術』、ラファエロ、カラヴァッジョ、ベラスケス。2階の丸天井のカフェで休憩"}, "p32": {"day": "11/13", "start": "16:45", "end": "18:20", "c": "v", "title": "宿で休む", "note": "【宿】Holochergasse 9。KHMからU3 Volkstheater → Schweglerstraße\n【このあと】18:20に出る。西駅からU6でWähringer Straße–Volksoper（約10分）"}, "p38": {"day": "11/13", "start": "19:00", "end": "22:15", "c": "v", "title": "フォルクスオーパー『こうもり』", "note": "【演目】J.シュトラウス『こうもり』（Die Fledermaus）\n【場所】Volksoper Wien, Währinger Straße 78（9区）。U6 Währinger Straße–Volksoper すぐ\n【券】U30：当日10:00から残券（ウェブショップ・窓口）、開演1時間前から窓口で€15。パスポート持参\n【帰り】U6でWestbahnhof → 宿まで徒歩"}});
+    st.mig = "m11"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
