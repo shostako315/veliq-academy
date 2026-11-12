@@ -394,6 +394,11 @@ async function trip(req, env) {
     st.mig = "m2"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m2") {
+    Object.assign(st.plans, {"p22": {"day": "11/12", "start": "10:00", "end": "11:00", "c": "v", "title": "チェックアウト → 荷物", "note": "【ライプニッツ】10:00までにチェックアウト\n【次の宿】Studioapartment 1B（西駅の近く、U3 Schweglerstraße 徒歩8分）。チェックイン15:00、チェックアウト11:00。受付なしのセルフチェックイン\n【荷物】ホストに早めの預かりを依頼中。だめなら西駅のÖBBロッカー（ジャンボ€4.50/24時間）\n【移動】27kgなのでBolt/Uberが楽\n【夜】19:30 フランス放送フィル（ギャラリー右13列6番）"}, "p7": {"day": "11/16", "start": "10:45", "end": "12:13", "c": "v", "title": "空港へ（12:13 中央駅発）", "note": "【宿】11:00までにチェックアウト\n【行き方】西駅からトラム18番で中央駅まで乗り換えなし。またはU3でWien Mitteへ出て、S7かCATで空港\n【便】15:05 LH6335 ウィーン → フランクフルト"}});
+    st.mig = "m3"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
