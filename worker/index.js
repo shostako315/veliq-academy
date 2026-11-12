@@ -404,6 +404,11 @@ async function trip(req, env) {
     st.mig = "m4"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m4") {
+    Object.assign(st.plans, {"p27": {"day": "11/13", "start": "10:00", "end": "12:00", "c": "v", "title": "ベルヴェデーレ上宮", "note": "【場所】Prinz-Eugen-Straße 27（3区）。トラムD「Schloss Belvedere」すぐ。中央駅から歩いて10分\n【時間】毎日9:00–18:00\n【料金】大人€23\n【見どころ】クリムト『接吻』『ユディト』、シーレ、ダヴィッド『アルプス越えのナポレオン』"}, "p28": {"day": "11/13", "start": "12:15", "end": "13:15", "c": "v", "title": "昼ごはん（ナッシュマルクト）", "note": "【場所】Naschmarkt（Karlsplatz〜Kettenbrückengasse、U4）。ベルヴェデーレからトラムDとU4、または歩いて20分\n【メモ】屋台と小さな食堂が並ぶ市場。屋根の下で食べられる店が多い"}, "p31": {"day": "11/13", "start": "13:30", "end": "15:00", "c": "v", "title": "ホーフブルク王宮（皇帝の部屋）", "note": "【入口】Michaelerplatz（ミヒャエル門のドームの下）。U3 Herrengasse 徒歩3分\n【時間】毎日10:00–16:30（最終入場16:00）\n【料金】€20\n【注意】シシィ博物館の展示部分は改装中で11/19再開。フランツ・ヨーゼフとエリーザベトの居室は見学できる\n【このあと】音楽の家まで歩いて10分"}, "p29": {"day": "11/13", "start": "15:30", "end": "17:00", "c": "v", "title": "音楽の家（Haus der Musik）", "note": "【場所】Seilerstätte 30（1区）。王宮から歩いて10分\n【時間】毎日10:00–22:00\n【中】ウィーン・フィルの歴史（ニューイヤーコンサートの資料）、ベートーヴェン・モーツァルトなどの部屋、画面のウィーン・フィルを指揮できる「バーチャル指揮者」"}, "p32": {"day": "11/13", "start": "17:00", "end": "18:30", "c": "v", "title": "宿で休む", "note": "【宿】Holochergasse 9。U3でStephansplatz → Schweglerstraße\n【このあと】18:30に出て、19:00 国立歌劇場『連隊の娘』"}});
+    st.mig = "m5"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
