@@ -430,6 +430,11 @@ async function trip(req, env) {
     st.mig = "m9"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m9") {
+    Object.assign(st.plans, {"p25": {"day": "11/12", "start": "12:45", "end": "14:30", "c": "v", "title": "ランチ（Café Sperl）", "note": "【食べたもの】Geröstete Knödel mit Ei＋サラダ（€11.2）、Gösser Märzen 0.5L（€4.9）、Melange（€4.9）\n【場所】Gumpendorfer Straße 11（6区）"}, "p4": {"day": "11/12", "start": "14:45", "end": "15:45", "c": "v", "title": "パスクァラティハウス", "note": "【場所】Mölker Bastei 8（1区）の4階。U2 Museumsquartier → Schottentor、徒歩3分\n【時間】14:00–17:00、大人約€6。エレベーターなし\n【中】ベートーヴェンが1804〜15年に何度も住んだ家。『運命』『フィデリオ』『エリーゼのために』の頃"}});
+    st.mig = "m10"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
