@@ -249,3 +249,4 @@ html,body{overflow-x:clip;max-width:100%}
 .shh button:empty{display:none}
 
 .sw-v{background:var(--vie)}.sw-b{background:var(--bud)}.sw-p{background:var(--plan)}.mt16{margin-top:16px}
+.blk .t{display:none}.blk.plan.drag .t,.blk.plan.armed .t{display:block}.blk .n{-webkit-line-clamp:4}
