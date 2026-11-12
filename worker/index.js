@@ -409,6 +409,11 @@ async function trip(req, env) {
     st.mig = "m5"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m5") {
+    Object.assign(st.plans, {"p33": {"day": "11/15", "start": "17:30", "end": "20:00", "c": "v", "title": "クリスマスマーケット巡り", "note": "【17:30 カールス教会前】Art Advent（アート系の手作り市）。楽友協会から歩いて3分。11/13開始\n【18:15 市庁舎前】Wiener Christkindlmarkt。ウィーンで一番大きいマーケット、夜のライトアップ。U2 Karlsplatz → Rathaus。11/13開始\n【19:15 Freyung・Am Hof】市庁舎から歩いて10分。昔ながらの小さなマーケット（Freyungは11/14開始）\n【メモ】グリューワイン（ホットワイン）はカップ代のデポジット込み。カップを返すと数ユーロ戻る"}});
+    st.mig = "m6"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
