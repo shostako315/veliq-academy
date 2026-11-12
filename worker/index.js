@@ -399,6 +399,11 @@ async function trip(req, env) {
     st.mig = "m3"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m3") {
+    Object.assign(st.plans, {"p22": {"day": "11/12", "start": "10:00", "end": "11:00", "c": "v", "title": "チェックアウト → 1Bへ", "note": "【ライプニッツ】10:00までにチェックアウト\n【次の宿】Studioapartment 1B（西駅の近く、U3 Schweglerstraße 徒歩8分）。ホストから「朝からチェックインOK」。部屋の情報は当日朝に届く\n【移動】27kgなのでBolt/Uberで直行（15〜20分）\n【夜】19:30 フランス放送フィル（ギャラリー右13列6番）"}});
+    st.mig = "m4"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
