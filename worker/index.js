@@ -414,6 +414,11 @@ async function trip(req, env) {
     st.mig = "m6"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m6") {
+    Object.assign(st.plans, {"p34": {"day": "11/12", "start": "14:45", "end": "15:30", "c": "v", "title": "シュテファン大聖堂＋マーケット", "note": "【場所】Stephansplatz（1区）。Figlmüllerから歩いて2分、U1・U3 Stephansplatz すぐ\n【大聖堂】入口付近は無料で入れる。身廊の奥・塔・地下墓所は有料。ミサの時間は見学が制限される\n【マーケット】大聖堂前のクリスマスマーケット（11/6から開催中）。グリューワインはカップのデポジット込み、返すと戻る"}, "p26": {"day": "11/12", "start": "15:30", "end": "18:30", "c": "v", "title": "美術史美術館（KHM）", "note": "【場所】Maria-Theresien-Platz（1区）。シュテファンからU3でVolkstheater、徒歩6分\n【時間】木曜は10:00–21:00（夜間開館）\n【入場】時間指定の予約が必要（無料で予約でき、窓口でもできる）\n【見どころ】ブリューゲルの部屋（『バベルの塔』『雪中の狩人』）、フェルメール『絵画芸術』、ラファエロ、カラヴァッジョ。2階のカフェ（丸天井の下）も名物\n【このあと】コンツェルトハウスへは歩いて20分ほど。19:30 フランス放送フィル"}});
+    st.mig = "m7"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
