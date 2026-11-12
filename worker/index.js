@@ -419,6 +419,11 @@ async function trip(req, env) {
     st.mig = "m7"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m7") {
+    Object.assign(st.plans, {"p22": {"day": "11/12", "start": "10:00", "end": "12:30", "c": "v", "title": "チェックアウト → 1B → 荷物整理", "note": "【宿】Studioapartment 1B（Holochergasse 9, 1150）。鍵は玄関そばの上のキーボックス\n【夜】19:30 フランス放送フィル（ギャラリー右13列6番）"}, "p25": {"day": "11/12", "start": "12:45", "end": "13:45", "c": "v", "title": "ランチ（Café Sperl）", "note": "【場所】Gumpendorfer Straße 11（6区）。U2 Museumsquartier 徒歩5分\n【このあと】U2でMuseumsquartier → Schottentor（約5分）"}, "p4": {"day": "11/12", "start": "14:00", "end": "15:30", "c": "v", "title": "パスクァラティハウス → Doblinger", "note": "【14:00 パスクァラティハウス】Mölker Bastei 8。U2 Schottentor 徒歩3分。午後は14:00–17:00、大人約€6。エレベーターなし\n【15:00 Doblinger（楽譜）】Dorotheergasse 10。歩いて15分。平日18:30まで"}, "p34": {"day": "11/12", "start": "15:45", "end": "16:30", "c": "v", "title": "シュテファン大聖堂＋マーケット", "note": "【場所】Stephansplatz。Doblingerから歩いて5分\n【大聖堂】入口付近は無料。奥・塔・地下墓所は有料\n【マーケット】大聖堂前（11/6から開催中）"}, "p26": {"day": "11/12", "start": "16:45", "end": "18:45", "c": "v", "title": "美術史美術館（KHM）", "note": "【場所】Maria-Theresien-Platz。シュテファンからU3でVolkstheater、徒歩6分\n【時間】木曜は21:00まで\n【見どころ】ブリューゲルの部屋（『バベルの塔』『雪中の狩人』）、フェルメール『絵画芸術』。2階の丸天井のカフェ\n【このあと】18:45に出る。U2 Museumsquartier → Karlsplatz、徒歩7分でコンツェルトハウス"}});
+    st.mig = "m8"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
