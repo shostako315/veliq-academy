@@ -447,6 +447,11 @@ async function trip(req, env) {
     st.mig = "m12"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m12") {
+    Object.assign(st.plans, {"p40": {"day": "11/14", "start": "08:15", "end": "08:50", "c": "v", "title": "朝ごはん（中央駅）", "note": "【宿から】U3 Schweglerstraße → Westbahnhof、トラム18で中央駅（約25分）\n【中央駅】構内のパン屋（Anker、Ströckなど）でパンとコーヒー\n【このあと】歩いて10分でベルヴェデーレ上宮"}, "p20": {"day": "11/14", "start": "09:00", "end": "10:00", "c": "v", "title": "ベルヴェデーレ上宮（クリムト）", "note": "【場所】Prinz-Eugen-Straße 27（3区）。中央駅から歩いて10分\n【時間】毎日9:00–18:00（開館と同時に入る）\n【料金】大人€23。オンラインで時間指定の券を買っておくと早い\n【見どころ】クリムト『接吻』『ユディト』、シーレ、ダヴィッド『アルプス越えのナポレオン』。1時間なら2階のクリムトとシーレの部屋に絞る\n【このあと】10:00に出て、歩いて10分で中央駅。10:14の列車"}, "p21": {"day": "11/14", "start": "10:14", "end": "11:10", "c": "b", "title": "移動 ウィーン → ブラチスラヴァ", "note": "【列車】ウィーン中央駅 毎時14分発のREX、56分。Bratislava hlavná stanica 着\n【切符】片道€12.70（当日買える、予約不要）。ÖBBの「Bratislava Ticket」往復なら、その日のブラチスラヴァ市内交通も込み\n【メモ】乗り遅れたら次の11:14発でよい\n【天気】14日は雨の確率0%、最高9℃"}});
+    st.mig = "m13"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
