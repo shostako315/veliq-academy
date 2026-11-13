@@ -441,6 +441,12 @@ async function trip(req, env) {
     st.mig = "m11"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m11") {
+    Object.assign(st.plans, {"p30": {"day": "11/15", "start": "09:15", "end": "10:30", "c": "v", "title": "ホーフブルク礼拝堂のミサ", "note": "【場所】Hofburgkapelle（王宮、Schweizerhof）。U3 Herrengasse 徒歩5分\n【内容】シューベルト『ミサ曲 ト長調』。ウィーン少女合唱団がソプラノとアルト\n【メモ】日曜のミサとして行われる。座席は有料（culturallで予約）\n【このあと】同じ王宮の新王宮（Neue Burg）へ歩いて5分、古楽器コレクション"}, "p39": {"day": "11/15", "start": "10:45", "end": "12:30", "c": "v", "title": "古楽器コレクション（新王宮）", "note": "【場所】Neue Burg, Heldenplatz（ホーフブルク王宮）。礼拝堂から歩いて5分。U3 Herrengasse／U2 Volkstheater\n【時間】水〜日 10:00–18:00（月曜休み）\n【券】美術史美術館の券とは別。「Neue Hofburg」の券（民族学博物館・武器コレクションとのセット）\n【見どころ】ベートーヴェン、シューベルト、ハイドンゆかりのピアノ、ルネサンス〜バロックの楽器\n【このあと】昼ごはん → 13:00 音楽の家"}});
+    st.picks = st.picks || {}; st.picks["k10vebo9"] = { dim: true };
+    st.mig = "m12"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
