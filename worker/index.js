@@ -464,6 +464,11 @@ async function trip(req, env) {
     st.mig = "m15"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m15") {
+    Object.assign(st.plans, {"p45": {"day": "11/15", "start": "13:00", "end": "14:30", "c": "v", "title": "昼ごはん（Café Sperl）", "note": "【場所】Gumpendorfer Str. 11（6区）。11/12と同じ店\n【時間】日曜10:00–20:00\n【このあと】楽友協会まで歩いて15分。トーンキュンストラー管を立見で聴くなら14:30には並ぶ"}});
+    st.mig = "m16"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
