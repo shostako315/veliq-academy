@@ -452,6 +452,12 @@ async function trip(req, env) {
     st.mig = "m13"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m13") {
+    for (const k of ["p40", "p21", "p23", "p24"]) delete st.plans[k];
+    Object.assign(st.plans, {"p41": {"day": "11/14", "start": "09:30", "end": "10:30", "c": "v", "title": "ゆっくり起きる・立見を買う", "note": "【10:00】国立歌劇場の立見をオンラインで買う（発売開始）。Stehparterre €18、1アカウント2枚まで\n【ページ】wiener-staatsoper.at/en/calendar/detail/lelisir-damore/2026-11-14/\n【10:30】宿を出る"}, "p20": {"day": "11/14", "start": "11:00", "end": "13:00", "c": "v", "title": "ベルヴェデーレ上宮（クリムト）", "note": "【行き方】U3 Schweglerstraße → Westbahnhof、トラム18で Quartier Belvedere、歩いて数分\n【時間】毎日9:00–18:00\n【料金】大人€23。オンラインで時間指定券を買うと早い\n【見どころ】クリムト『接吻』『ユディト』、シーレ、ダヴィッド『アルプス越えのナポレオン』"}, "p42": {"day": "11/14", "start": "13:15", "end": "14:30", "c": "v", "title": "昼ごはん（Café Goldegg）", "note": "【場所】Argentinierstraße 49（4区）。ベルヴェデーレから歩いて10分\n【時間】土曜9:00–20:00\n【メモ】古いウィーンのカフェ"}, "p43": {"day": "11/14", "start": "15:00", "end": "17:45", "c": "v", "title": "宿で休憩", "note": "夜は立ちっぱなしなので、ここでしっかり休む"}, "p44": {"day": "11/14", "start": "18:15", "end": "21:30", "c": "v", "title": "国立歌劇場『愛の妙薬』（立見）", "note": "【開演】19:00、終演21:30ごろ、休憩1回\n【行き方】U3 Schweglerstraße → Stephansplatz、U1で Karlsplatz（約20分）\n【買えなかったら】Operngasse側の立見窓口で開演80分前（17:40）から当日販売\n【代わり】19:30 楽友協会 ウィーン響／コパチンスカヤ（立見）"}});
+    st.mig = "m14"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
