@@ -495,6 +495,12 @@ async function trip(req, env) {
     st.mig = "m21"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m21") {
+    for (const k of ["p30", "p48"]) delete st.plans[k];
+    Object.assign(st.plans, {"p39": {"day": "11/15", "start": "10:00", "end": "11:15", "c": "v", "title": "古楽器コレクション（ノイエ・ブルク）", "note": "【時間】10:00開館。時間が押したら外してよい\n【券】Neue Hofburg／Weltmuseumの共通券"}, "p45": {"day": "11/15", "start": "11:30", "end": "13:00", "c": "v", "title": "昼ごはん（Café Sperl）", "note": "【場所】Gumpendorfer Str. 11（6区）\n【時間】日曜10:00–20:00\n【このあと】ベルヴェデーレへ（トラムまたは徒歩）"}, "p47": {"day": "11/15", "start": "13:30", "end": "14:45", "c": "v", "title": "ベルヴェデーレ上宮（クリムト）", "note": "【予約済み】13:30の時間指定（注文番号 681932、€23）\n【見どころ】クリムト『接吻』『ユディト』、シーレ\n【このあと】トラムD「Schloss Belvedere」→ Karlsplatz方面で楽友協会へ（約10分）"}, "p49": {"day": "11/15", "start": "15:00", "end": "15:30", "c": "v", "title": "楽友協会へ", "note": "トーンキュンストラー管 15:30開演（指揮 ガベル、チェロ コベキナ）。席は楽友協会のサイトで（shop.musikverein.at）。立見なら最前列・柱の真後ろを避ける"}});
+    st.mig = "m22"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
