@@ -480,6 +480,11 @@ async function trip(req, env) {
     st.mig = "m18"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m18") {
+    Object.assign(st.plans, {"p47": {"day": "11/14", "start": "15:15", "end": "17:15", "c": "v", "title": "ベルヴェデーレ上宮（クリムト）", "note": "【行き方】U4 Schönbrunn → Karlsplatz、トラムD「Schloss Belvedere」（約25分）\n【時間】毎日9:00–18:00\n【料金】大人€23\n【見どころ】クリムト『接吻』『ユディト』、シーレ、ダヴィッド『アルプス越えのナポレオン』\n【このあと】トラムDで国立歌劇場まで約10分"}, "p43": {"day": "11/14", "start": "17:30", "end": "18:40", "c": "v", "title": "カフェで休憩", "note": "国立歌劇場の近くで（Café Mozart、Sacherなど）。開演の15分前には劇場へ"}, "p44": {"day": "11/14", "start": "18:45", "end": "21:30", "c": "v", "title": "国立歌劇場『愛の妙薬』", "note": "【チケット】取得済み\n【開演】19:00、終演21:30ごろ、休憩1回\n【出演】ポゴレルツ、ヴォルコフ、マエストリ／指揮 シーニ\n【字幕】座席の画面で日本語が選べる"}});
+    st.mig = "m19"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
