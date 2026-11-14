@@ -490,6 +490,11 @@ async function trip(req, env) {
     st.mig = "m20"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m20") {
+    Object.assign(st.plans, {"p47": {"day": "11/14", "start": "15:45", "end": "16:30", "c": "v", "title": "ベルヴェデーレの庭園（無料）", "note": "上宮は今日は売り切れ。庭園を下宮側へ下ると街並みが見える。日の入りは16:20ごろ\n【このあと】トラムD「Schloss Belvedere」→「Oper, Karlsplatz」約10分"}, "p43": {"day": "11/14", "start": "16:45", "end": "18:30", "c": "v", "title": "カフェで休憩・充電", "note": "オペラ座の周辺で座って休む（Café Mozart、Café Sacher、Café Tirolerhofなど）。スマホの充電もここで\n【別案】音楽の家（Seilerstätte 30、22:00まで、オペラ座から徒歩7分）"}, "p48": {"day": "11/16", "start": "08:30", "end": "10:15", "c": "v", "title": "ベルヴェデーレ上宮（クリムト）", "note": "【予約】9:00の時間指定枠（belvedere.at/en/tickets、€23）\n【行き方】宿から約30分（U3 → Westbahnhof、トラム18 → Quartier Belvedere）\n【このあと】宿に戻って11:00までにチェックアウト"}});
+    st.mig = "m21"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
