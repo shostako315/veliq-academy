@@ -469,6 +469,11 @@ async function trip(req, env) {
     st.mig = "m16"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m16") {
+    Object.assign(st.plans, {"p41": {"day": "11/14", "start": "11:00", "end": "12:00", "c": "v", "title": "ゆっくり準備", "note": "【12:00】宿を出る\n【立見】オンラインは10:08時点で売り切れ。戻りチケットを見張り中"}, "p20": {"day": "11/14", "start": "12:20", "end": "14:30", "c": "v", "title": "シェーンブルン宮殿", "note": "【行き方】U3 Schweglerstraße → Westbahnhof、U6 Längenfeldgasse、U4 Schönbrunn（約20分）\n【時間】宮殿 8:30–17:00（最終入場16:15）、庭園 6:30–17:30（無料）\n【券】時間指定。imperialtickets.com で事前に買うと待たない。Grand Tour（皇帝・皇妃の私室まで）か、短い State Apartments\n【メモ】噴水は冬は止まっている。グロリエッテの丘まで登ると宮殿と街が見渡せる"}, "p42": {"day": "11/14", "start": "14:45", "end": "15:45", "c": "v", "title": "昼ごはん", "note": "宿に戻る途中で。Westbahnhof周辺なら店が多い"}, "p43": {"day": "11/14", "start": "15:45", "end": "16:30", "c": "v", "title": "宿で休憩", "note": "【チケットがない場合】16:10に宿を出て、16:30から国立歌劇場の立見窓口（Operngasse側）に並ぶ。窓口は17:40から"}, "p29": {"day": "11/14", "start": "17:00", "end": "18:20", "c": "v", "title": "音楽の家（チケットが取れたら）", "note": "【場所】Seilerstätte 30（1区）。U3 Stephansplatz 徒歩7分（宿から約20分）\n【時間】毎日10:00–22:00\n【中】ウィーン・フィルの歴史、ベートーヴェン・モーツァルトの部屋、画面のウィーン・フィルを指揮できる「バーチャル指揮者」\n【このあと】国立歌劇場まで歩いて7分\n【チケットがない場合】ここは行かずに立見窓口に並ぶ"}});
+    st.mig = "m17"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
