@@ -485,6 +485,11 @@ async function trip(req, env) {
     st.mig = "m19"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m19") {
+    Object.assign(st.plans, {"p43": {"day": "11/14", "start": "17:30", "end": "18:15", "c": "v", "title": "休憩（座る）", "note": "夜は立見なので、ここで座って休む。宿に戻るなら17:00にベルヴェデーレを出て30分、18:15に宿を出る。近くで済ますならオペラ座周辺のカフェ（Café Mozart、Sacherなど）"}, "p44": {"day": "11/14", "start": "18:45", "end": "21:30", "c": "v", "title": "国立歌劇場『愛の妙薬』（立見）", "note": "【チケット】立見（20番）取得済み。入口はOperngasse側の立見入口\n【開演】19:00、終演21:30ごろ、休憩1回（第1幕70分・休憩25分・第2幕50分）\n【出演】ポゴレルツ、ヴォルコフ、マエストリ／指揮 シーニ\n【字幕】手すりの画面で日本語が選べる"}});
+    st.mig = "m20"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
