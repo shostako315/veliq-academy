@@ -474,6 +474,12 @@ async function trip(req, env) {
     st.mig = "m17"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m17") {
+    for (const k of ["p29"]) delete st.plans[k];
+    Object.assign(st.plans, {"p20": {"day": "11/14", "start": "12:20", "end": "14:00", "c": "v", "title": "シェーンブルン宮殿", "note": "【行き方】U3 Schweglerstraße → Westbahnhof、U6 Längenfeldgasse、U4 Schönbrunn（約20分）\n【時間】宮殿 8:30–17:00、庭園 6:30–17:30（無料）\n【券】時間指定。imperialtickets.com で事前に買うと待たない。短い State Apartments で十分\n【メモ】噴水は冬は止まっている"}, "p42": {"day": "11/14", "start": "14:00", "end": "14:45", "c": "v", "title": "昼ごはん（軽く）", "note": "シェーンブルン駅周辺か、移動途中のKarlsplatzで"}, "p47": {"day": "11/14", "start": "15:15", "end": "16:45", "c": "v", "title": "ベルヴェデーレ上宮（クリムト）", "note": "【行き方】U4 Schönbrunn → Karlsplatz、トラムD「Schloss Belvedere」（約25分）\n【時間】毎日9:00–18:00\n【料金】大人€23。オンラインで時間指定券を買うと早い\n【見どころ】クリムト『接吻』『ユディト』、シーレ、ダヴィッド『アルプス越えのナポレオン』\n【このあと】トラムDで国立歌劇場まで約10分"}, "p43": {"day": "11/14", "start": "17:00", "end": "18:30", "c": "v", "title": "立見窓口に並ぶ（チケットがなければ）", "note": "【場所】国立歌劇場 Operngasse側の立見窓口。17:40から販売\n【チケットが取れていたら】近くのカフェで休憩（Café Mozart、Sacherなど）"}, "p46": {"day": "11/16", "start": "10:00", "end": "11:00", "c": "v", "title": "チェックアウト", "note": "【宿】11:00までにチェックアウト\n【行き方】U3 Schweglerstraße → Westbahnhof、トラム18で中央駅（約25分）"}, "p7": {"day": "11/16", "start": "11:00", "end": "12:13", "c": "v", "title": "空港へ（12:13 中央駅発）", "note": "【便】15:05 LH6335 ウィーン → フランクフルト"}});
+    st.mig = "m18"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
