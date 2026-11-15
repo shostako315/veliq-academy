@@ -501,6 +501,12 @@ async function trip(req, env) {
     st.mig = "m22"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m22") {
+    for (const k of ["p39"]) delete st.plans[k];
+    Object.assign(st.plans, {"p41": {"day": "11/15", "start": "11:30", "end": "12:55", "c": "v", "title": "宿で洗濯・昼ごはん", "note": "今すぐ洗濯機を回す→昼ごはん（買い置き）→干してから出る\n【12:55】宿を出る（ベルヴェデーレまで約30分：U3 → Westbahnhof、トラム18 → Quartier Belvedere）"}, "p45": {"day": "11/15", "start": "17:45", "end": "18:40", "c": "v", "title": "Café Sperlで休憩", "note": "【場所】Gumpendorfer Str. 11。楽友協会から歩いて15分\n【時間】日曜10:00–20:00\n【このあと】国立歌劇場まで歩いて10分"}, "p50": {"day": "11/15", "start": "18:50", "end": "21:45", "c": "v", "title": "国立歌劇場『蝶々夫人』", "note": "【開演】19:00、終演21:45ごろ（第1幕55分・休憩25分・第2＋3幕85分）\n【出演】ヤホ（蝶々さん）、ゲレーロ／指揮 ビザンティ。ミンゲラ演出"}, "p51": {"day": "11/16", "start": "09:00", "end": "10:40", "c": "v", "title": "ドブリンガー（楽譜店）", "note": "【場所】Dorotheergasse 10（1区）\n【時間】月〜金9:30–18:30（日曜は休み）\n【行き方】宿から約25分。10:15に出て宿へ戻り、11:00までにチェックアウト"}});
+    st.mig = "m23"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
