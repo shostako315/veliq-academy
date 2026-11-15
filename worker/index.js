@@ -507,6 +507,11 @@ async function trip(req, env) {
     st.mig = "m23"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m23") {
+    delete st.plans["p33"];
+    st.mig = "m24"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
