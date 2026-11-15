@@ -517,6 +517,11 @@ async function trip(req, env) {
     st.mig = "m25"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m25") {
+    Object.assign(st.plans, {"p46": {"day": "11/16", "start": "08:30", "end": "09:30", "c": "v", "title": "荷造り・チェックアウト → 中央駅", "note": "【荷造り】重いもの（楽譜・本・充電器）はリュックへ。スーツケースは23kg以内に\n【鍵】鍵ボックスに戻して閉め、暗証番号の数字をバラバラにする\n【行き方】U3 Schweglerstraße → Westbahnhof、トラム18で中央駅（約25分）\n【荷物】中央駅のコインロッカーに預ける"}, "p51": {"day": "11/16", "start": "09:50", "end": "11:10", "c": "v", "title": "Café Sperl で朝ごはん", "note": "【場所】Gumpendorfer Str. 11（6区）\n【行き方】中央駅からU1でKarlsplatz、歩いて約10分（計20分）\n【時間】月曜は朝7:00から\n【11:10】店を出て中央駅へ"}, "p7": {"day": "11/16", "start": "11:30", "end": "12:13", "c": "v", "title": "中央駅 → 空港（12:13発）", "note": "【中央駅】ロッカーから荷物を出す。駅のスーパーで会社用のお菓子（マナー、モーツァルトクーゲル）\n【列車】12:13 中央駅発 → 空港\n【便】15:05 LH6335 ウィーン → フランクフルト → NH224 羽田"}});
+    st.mig = "m26"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
