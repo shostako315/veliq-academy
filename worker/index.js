@@ -512,6 +512,11 @@ async function trip(req, env) {
     st.mig = "m24"; st.rev = (st.rev || 0) + 1;
     await env.TRIP.put(KEY, JSON.stringify(st));
   }
+  if (st.init && st.mig === "m24") {
+    Object.assign(st.plans, {"p41": {"day": "11/15", "start": "11:45", "end": "13:05", "c": "v", "title": "市庁舎のクリスマスマーケット＋昼ごはん", "note": "【行き方】U3 Schweglerstraße → Volkstheater、歩いて約7分（計20分）\n【時間】毎日10:00–22:00（11/13開幕）\n【昼】屋台で軽く（ソーセージ、Langos、Kartoffelpuffer など）\n【13:05】トラムD「Rathausplatz/Burgtheater」→ Hauptbahnhof方面「Schloss Belvedere」（約20分）\n【洗濯】今夜オペラ後に（乾燥機が空いていれば使う）"}});
+    st.mig = "m25"; st.rev = (st.rev || 0) + 1;
+    await env.TRIP.put(KEY, JSON.stringify(st));
+  }
   if (req.method === "POST") {
     let b; try { b = await req.json(); } catch (e) { return new Response('{"error":"bad_json"}', { status: 400, headers: H }); }
     const ok = (s) => typeof s === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(s);
