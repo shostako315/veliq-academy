@@ -369,7 +369,7 @@ def main():
         w = wd.get(p.qid or "", {})
         if w:
             sources.append({"name": "Wikidata " + p.qid, "url": f"https://www.wikidata.org/wiki/{p.qid}", "license": "CC0 1.0",
-                            "retrieved": w.get("retrieved", ""), "fields": "日本語ラベル・生没年・流派・師弟"})
+                            "retrieved": w.get("retrieved", ""), "fields": "日本語ラベル・流派・代表作" if not w.get("born") else "日本語ラベル・生没年・流派・師弟"})
         for s in used_src:
             fields = []
             if s in p.yr:
@@ -398,6 +398,9 @@ def main():
             "kinds": dict(Counter(KIND[k.split(":")[1]] for k in p.counts for _ in range(p.counts[k]) if KIND[k.split(":")[1]])),
             "counts": counts, "workCount": p.n, "works": works,
             "wikidata": p.qid, "ulan": p.ulan, "tier2": tier2[id(p)]["slug"] if id(p) in tier2 else None,
+            # 代表作の画像（Wikidata の「主な作品」に Commons の画像があるときだけ）。
+            # 日本で著作権が切れていると言える人（没年1967年まで）に限る
+            "work": w.get("work") if (w.get("work") and p.dy and p.dy <= 1967) else None,
             "sources": sources,
         }
         entries[eid] = e

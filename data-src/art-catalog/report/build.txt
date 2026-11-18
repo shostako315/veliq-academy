@@ -1,5 +1,5 @@
 2026-11-18 項目 300（画家ページあり 21）、名前だけ 300、シャード 6
-日本語表記：{'none': 205, 'museum': 56, 'page': 21, 'checked': 18}
+日本語表記：{'wikidata': 112, 'checked': 107, 'museum': 56, 'page': 21, 'none': 4}
 条件を満たす人 996
 別人の記録とみなして外した：Yoshida Hiroshi の ナショナル・ギャラリー・オブ・アート（ワシントン）（1911–1995）
 別人の記録とみなして外した：Yoshida Hiroshi の ニューヨーク近代美術館（MoMA）（1911–1995）
@@ -55,430 +55,341 @@
 画家ページ velazquez → Diego Velázquez（Q297 / ULAN 500016881）
 画家ページ vermeer → Johannes Vermeer（Q41264 / ULAN 500032927）
 生没年の食い違い：Sandro Botticelli（sandro-botticelli）：生年：メトロポリタン美術館 1444、ナショナル・ギャラリー・オブ・アート（ワシントン） 1446、クリーブランド美術館 1444
-日本語表記の候補を照合できず出さない：Yasuo Kuniyoshi → 国吉康雄
 生没年の食い違い：Tani Bunchō（tani-buncho）：没年：メトロポリタン美術館 1840、クリーブランド美術館 1841
 生没年の食い違い：Nishikawa Sukenobu（nishikawa-sukenobu）：没年：メトロポリタン美術館 1750、クリーブランド美術館 1754
 生没年の食い違い：Utagawa Kunisada（utagawa-kunisada）：没年：メトロポリタン美術館 1864、ナショナル・ギャラリー・オブ・アート（ワシントン） 1864、クリーブランド美術館 1865
-日本語表記の候補を照合できず出さない：Kawabata Gyokushō → 川端玉章
-日本語表記の候補を照合できず出さない：Kano Tsunenobu → 狩野常信
-日本語表記の候補を照合できず出さない：Koshiro Onchi → 恩地孝四郎
 生没年の食い違い：Suzuki Harunobu（suzuki-harunobu）：生年：メトロポリタン美術館 1725、クリーブランド美術館 1724
-日本語表記の候補を照合できず出さない：Watanabe Seitei → 渡辺省亭
 生没年の食い違い：Yoshida Hiroshi（yoshida-hiroshi）：ナショナル・ギャラリー・オブ・アート（ワシントン）の記録（1911–1995）は別人の可能性があるため使っていません／ニューヨーク近代美術館（MoMA）の記録（1911–1995）は別人の可能性があるため使っていません
 生没年の食い違い：Kitao Shigemasa（kitao-shigemasa）：没年：メトロポリタン美術館 1820、クリーブランド美術館 1819
-日本語表記の候補を照合できず出さない：Ike no Taiga → 池大雅
 生没年の食い違い：Kano Motonobu（kano-motonobu）：生年：メトロポリタン美術館 1477、クリーブランド美術館 1476
-日本語表記の候補を照合できず出さない：Itō Jakuchū → 伊藤若冲
-日本語表記の候補を照合できず出さない：Hashimoto Gahō → 橋本雅邦
-日本語表記の候補を照合できず出さない：Iwasa Matabei → 岩佐又兵衛
-日本語表記の候補を照合できず出さない：Tosa Mitsuoki → 土佐光起
-日本語表記の候補を照合できず出さない：Tsukioka Yoshitoshi → 月岡芳年
-日本語表記の候補を照合できず出さない：Kitano Tsunetomi → 北野恒富
-日本語表記の候補を照合できず出さない：Takeuchi Seihō → 竹内栖鳳
-日本語表記の候補を照合できず出さない：Isoda Koryūsai → 礒田湖龍斎
-日本語表記の候補を照合できず出さない：Henri Matisse → アンリ・マティス
 日本語表記の候補を照合できず出さない：Jean Baptiste Camille Corot → カミーユ・コロー
-日本語表記の候補を照合できず出さない：Albrecht Dürer → アルブレヒト・デューラー
-日本語表記の候補を照合できず出さない：Anthony van Dyck → アンソニー・ヴァン・ダイク
-日本語表記の候補を照合できず出さない：Francisco de Goya → フランシスコ・デ・ゴヤ
-日本語表記の候補を照合できず出さない：Pierre Bonnard → ピエール・ボナール
 日本語表記の候補を照合できず出さない：Jean-Auguste-Dominique Ingres → ジャン＝オーギュスト＝ドミニク・アングル
-日本語表記の候補を照合できず出さない：Giovanni Battista Tiepolo → ジョヴァンニ・バッティスタ・ティエポロ
-日本語表記の候補を照合できず出さない：Peter Paul Rubens → ピーテル・パウル・ルーベンス
-日本語表記の候補を照合できず出さない：Gustave Courbet → ギュスターヴ・クールベ
 生没年の食い違い：Giovanni di Paolo（giovanni-di-paolo）：生年：メトロポリタン美術館 1398、ナショナル・ギャラリー・オブ・アート（ワシントン） 1403、クリーブランド美術館 1403
-日本語表記の候補を照合できず出さない：James McNeill Whistler → ジェームズ・マクニール・ホイッスラー
-日本語表記の候補を照合できず出さない：Georgia O'Keeffe → ジョージア・オキーフ
 日本語表記の候補を照合できず出さない：Joseph Mallord William Turner → ジョゼフ・マロード・ウィリアム・ターナー
-日本語表記の候補を照合できず出さない：Claude Lorrain → クロード・ロラン
-日本語表記の候補を照合できず出さない：Nicolas Poussin → ニコラ・プッサン
-日本語表記の候補を照合できず出さない：André Derain → アンドレ・ドラン
 日本語表記の候補を照合できず出さない：Lucas Cranach the Elder → ルーカス・クラーナハ（父）
-日本語表記の候補を照合できず出さない：Jean-Honoré Fragonard → ジャン・オノレ・フラゴナール
-日本語表記の候補を照合できず出さない：François Boucher → フランソワ・ブーシェ
-日本語表記の候補を照合できず出さない：Francesco Guardi → フランチェスコ・グアルディ
-日本語表記の候補を照合できず出さない：Jacques-Louis David → ジャック＝ルイ・ダヴィッド
-日本語表記の候補を照合できず出さない：Thomas Gainsborough → トマス・ゲインズバラ
-日本語表記の候補を照合できず出さない：Max Beckmann → マックス・ベックマン
-日本語表記の候補を照合できず出さない：Odilon Redon → オディロン・ルドン
-日本語表記の候補を照合できず出さない：Paul Klee → パウル・クレー
-日本語表記の候補を照合できず出さない：Henri Fantin-Latour → アンリ・ファンタン＝ラトゥール
-日本語表記の候補を照合できず出さない：Joan Miró → ジョアン・ミロ
-日本語表記の候補を照合できず出さない：Honoré Daumier → オノレ・ドーミエ
 日本語表記の候補を照合できず出さない：Josef Albers → ヨーゼフ・アルバース
 日本語表記の候補を照合できず出さない：Jacob van Ruisdael → ヤーコプ・ファン・ライスダール
-日本語表記の候補を照合できず出さない：Winslow Homer → ウィンスロー・ホーマー
-日本語表記の候補を照合できず出さない：Édouard Vuillard → エドゥアール・ヴュイヤール
-日本語表記の候補を照合できず出さない：Théodore Rousseau → テオドール・ルソー
-日本語表記の候補を照合できず出さない：Charles François Daubigny → シャルル＝フランソワ・ドービニー
-日本語表記の候補を照合できず出さない：Jean-François Millet → ジャン＝フランソワ・ミレー
 日本語表記の候補を照合できず出さない：Hans Holbein the Younger → ハンス・ホルバイン（子）
-日本語表記の候補を照合できず出さない：Frans Hals → フランス・ハルス
 生没年の食い違い：Frans Hals（frans-hals）：生年：メトロポリタン美術館 1582、ナショナル・ギャラリー・オブ・アート（ワシントン） 1582、クリーブランド美術館 1581
-日本語表記の候補を照合できず出さない：Titian → ティツィアーノ・ヴェチェッリオ
 生没年の食い違い：Titian（titian）：生年：メトロポリタン美術館 1485、ナショナル・ギャラリー・オブ・アート（ワシントン） 1490、クリーブランド美術館 1488
-日本語表記の候補を照合できず出さない：John Singer Sargent → ジョン・シンガー・サージェント
 日本語表記の候補を照合できず出さない：Ernst Ludwig Kirchner → エルンスト・ルートヴィヒ・キルヒナー
-日本語表記の候補を照合できず出さない：Hubert Robert → ユベール・ロベール
 生没年の食い違い：Stuart Davis（stuart-davis）：生年：メトロポリタン美術館 1892、ナショナル・ギャラリー・オブ・アート（ワシントン） 1892、ニューヨーク近代美術館（MoMA） 1892、クリーブランド美術館 1894
-日本語表記の候補を照合できず出さない：Paul Signac → ポール・シニャック
 生没年の食い違い：Sano di Pietro（sano-di-pietro）：生年：メトロポリタン美術館 1405、ナショナル・ギャラリー・オブ・アート（ワシントン） 1405、クリーブランド美術館 1406
-日本語表記の候補を照合できず出さない：Amedeo Modigliani → アメデオ・モディリアーニ
-日本語表記の候補を照合できず出さない：Andrea Mantegna → アンドレア・マンテーニャ
 生没年の食い違い：Andrea Mantegna（andrea-mantegna）：生年：メトロポリタン美術館 1430、ナショナル・ギャラリー・オブ・アート（ワシントン） 1431、クリーブランド美術館 1431
-日本語表記の候補を照合できず出さない：Georges Rouault → ジョルジュ・ルオー
-日本語表記の候補を照合できず出さない：Pierre Puvis de Chavannes → ピエール・ピュヴィス・ド・シャヴァンヌ
-日本語表記の候補を照合できず出さない：Jean-Siméon Chardin → ジャン・シメオン・シャルダン
-日本語表記の候補を照合できず出さない：Maurice de Vlaminck → モーリス・ド・ヴラマンク
-日本語表記の候補を照合できず出さない：Raoul Dufy → ラウル・デュフィ
 日本語表記の候補を照合できず出さない：Childe Hassam → チャイルド・ハッサム
-日本語表記の候補を照合できず出さない：Annibale Carracci → アンニーバレ・カラッチ
 生没年の食い違い：Walt Kuhn（walt-kuhn）：生年：メトロポリタン美術館 1877、ナショナル・ギャラリー・オブ・アート（ワシントン） 1877、ニューヨーク近代美術館（MoMA） 1877、クリーブランド美術館 1880
 日本語表記の候補を照合できず出さない：Salvator Rosa → サルヴァトール・ローザ
-日本語表記の候補を照合できず出さない：Alfred Sisley → アルフレッド・シスレー
 生没年の食い違い：Alfred Sisley（alfred-sisley）：生年：メトロポリタン美術館 1839、ナショナル・ギャラリー・オブ・アート（ワシントン） 1839、クリーブランド美術館 1840
-日本語表記の候補を照合できず出さない：Maurice Utrillo → モーリス・ユトリロ
-日本語表記の候補を照合できず出さない：Guercino → グエルチーノ
-日本語表記の候補を照合できず出さない：Marc Chagall → マルク・シャガール
-日本語表記の候補を照合できず出さない：Edward Hopper → エドワード・ホッパー
-日本語表記の候補を照合できず出さない：Diego Rivera → ディエゴ・リベラ
-日本語表記の候補を照合できず出さない：Albert Marquet → アルベール・マルケ
-日本語表記の候補を照合できず出さない：Bartolomé Esteban Murillo → バルトロメ・エステバン・ムリーリョ
-日本語表記の候補を照合できず出さない：Henri Rousseau → アンリ・ルソー
 生没年の食い違い：Narcisse Diaz de la Peña（narcisse-diaz-de-la-pena）：生年：メトロポリタン美術館 1808、ナショナル・ギャラリー・オブ・アート（ワシントン） 1807、クリーブランド美術館 1807
-日本語表記の候補を照合できず出さない：Anders Zorn → アンデシュ・ソーン
-日本語表記の候補を照合できず出さない：Rosa Bonheur → ローザ・ボヌール
-日本語表記の候補を照合できず出さない：Piet Mondrian → ピート・モンドリアン
 日本語表記の候補を照合できず出さない：Jusepe de Ribera → ジュゼペ・デ・リベーラ
-日本語表記の候補を照合できず出さない：Giorgio Morandi → ジョルジョ・モランディ
-日本語表記の候補を照合できず出さない：Chaïm Soutine → シャイム・スーティン
 生没年の食い違い：Bernardo Bellotto（bernardo-bellotto）：生年：メトロポリタン美術館 1722、ナショナル・ギャラリー・オブ・アート（ワシントン） 1722、クリーブランド美術館 1721
 生没年の食い違い：Gerard David（gerard-david）：生年：メトロポリタン美術館 1455、ナショナル・ギャラリー・オブ・アート（ワシントン） 1460
-日本語表記の候補を照合できず出さない：Maurice Denis → モーリス・ドニ
-日本語表記の候補を照合できず出さない：Eugène Carrière → ウジェーヌ・カリエール
-日本語表記の候補を照合できず出さない：Guido Reni → グイド・レーニ
-日本語表記の候補を照合できず出さない：James Tissot → ジェームズ・ティソ
-日本語表記の候補を照合できず出さない：Meindert Hobbema → メインデルト・ホッベマ
-日本語表記の候補を照合できず出さない：Jan Steen → ヤン・ステーン
 生没年の食い違い：Jan Steen（jan-steen）：生年：メトロポリタン美術館 1626、ナショナル・ギャラリー・オブ・アート（ワシントン） 1625、クリーブランド美術館 1626
-日本語表記の候補を照合できず出さない：Félix Vallotton → フェリックス・ヴァロットン
 生没年の食い違い：Adriaen van Ostade（adriaen-van-ostade）：没年：メトロポリタン美術館 1685、ナショナル・ギャラリー・オブ・アート（ワシントン） 1685、クリーブランド美術館 1684
 生没年の食い違い：Giovanni Battista Piazzetta（giovanni-battista-piazzetta）：生年：メトロポリタン美術館 1682、ナショナル・ギャラリー・オブ・アート（ワシントン） 1683、クリーブランド美術館 1682
-日本語表記の候補を照合できず出さない：Rufino Tamayo → ルフィーノ・タマヨ
-日本語表記の候補を照合できず出さない：Ben Shahn → ベン・シャーン
 生没年の食い違い：Salomon van Ruysdael（salomon-van-ruysdael）：生年：メトロポリタン美術館 1600、ナショナル・ギャラリー・オブ・アート（ワシントン） 1602、クリーブランド美術館 1602
-日本語表記の候補を照合できず出さない：Max Ernst → マックス・エルンスト
-日本語表記の候補を照合できず出さない：Giovanni Bellini → ジョヴァンニ・ベッリーニ
 生没年の食い違い：Giovanni Bellini（giovanni-bellini）：生年：メトロポリタン美術館 1424、ナショナル・ギャラリー・オブ・アート（ワシントン） 1430
-日本語表記の候補を照合できず出さない：Otto Dix → オットー・ディクス
-日本語表記の候補を照合できず出さない：Paolo Veronese → パオロ・ヴェロネーゼ
-日本語表記の候補を照合できず出さない：René Magritte → ルネ・マグリット
-日本語表記の候補を照合できず出さない：William Blake → ウィリアム・ブレイク
-日本語表記の候補を照合できず出さない：Gustav Klimt → グスタフ・クリムト
 日本語表記の候補を照合できず出さない：Elisabeth Louise Vigée Le Brun → エリザベート・ルイーズ・ヴィジェ＝ルブラン
-日本語表記の候補を照合できず出さない：Pieter de Hooch → ピーテル・デ・ホーホ
-日本語表記の候補を照合できず出さない：Simon Vouet → シモン・ヴーエ
-日本語表記の候補を照合できず出さない：Marie Laurencin → マリー・ローランサン
 生没年の食い違い：Marie Laurencin（marie-laurencin）：生年：メトロポリタン美術館 1883、ナショナル・ギャラリー・オブ・アート（ワシントン） 1885、ニューヨーク近代美術館（MoMA） 1883、クリーブランド美術館 1885
 
 選んだ人：
-giovanni-di-paolo		Giovanni di Paolo	1403–1482	32
-sano-di-pietro		Sano di Pietro	1405–1481	17
-giovanni-bellini		Giovanni Bellini	1424–1516	17
+giovanni-di-paolo	ジョヴァンニ・ディ・パオロ	Giovanni di Paolo	1403–1482	32
+sano-di-pietro	サーノ・ディ・ピエトロ	Sano di Pietro	1405–1481	17
+giovanni-bellini	ジョヴァンニ・ベッリーニ	Giovanni Bellini	1424–1516	17
 shen-zhou	沈周	Shen Zhou	1427–1509	22
-carlo-crivelli		Carlo Crivelli	1430–1495	10
-andrea-mantegna		Andrea Mantegna	1431–1506	73
+carlo-crivelli	カルロ・クリヴェッリ	Carlo Crivelli	1430–1495	10
+andrea-mantegna	アンドレア・マンテーニャ	Andrea Mantegna	1431–1506	73
 sandro-botticelli	サンドロ・ボッティチェリ	Sandro Botticelli	1444–1510	13
-gerard-david		Gerard David	1455–1523	18
-albrecht-durer		Albrecht Dürer	1471–1528	1604
-lucas-cranach-the-elder		Lucas Cranach the Elder	1472–1553	322
+gerard-david	ヘラルト・ダヴィト	Gerard David	1455–1523	18
+albrecht-durer	アルブレヒト・デューラー	Albrecht Dürer	1471–1528	1604
+lucas-cranach-the-elder	ルーカス・クラナッハ	Lucas Cranach the Elder	1472–1553	322
 kano-motonobu	狩野元信	Kano Motonobu	1477–1559	3
 raphael	ラファエロ・サンツィオ	Raphael	1483–1520	59
-hans-baldung		Hans Baldung	1484–1545	187
-titian		Titian	1485–1576	56
-andrea-del-sarto		Andrea del Sarto	1486–1530	20
-hans-holbein-the-younger		Hans Holbein the Younger	1497–1543	104
+hans-baldung	ハンス・バルドゥング	Hans Baldung	1484–1545	187
+titian	ティツィアーノ・ヴェチェッリオ	Titian	1485–1576	56
+andrea-del-sarto	アンドレア・デル・サルト	Andrea del Sarto	1486–1530	20
+hans-holbein-the-younger	ハンス・ホルバイン	Hans Holbein the Younger	1497–1543	104
 sesson-shukei	雪村周継	Sesson Shūkei	1504–1589	5
-jacopo-bassano		Jacopo Bassano	1510–1592	14
+jacopo-bassano	ヤコポ・バッサーノ	Jacopo Bassano	1510–1592	14
 pieter-bruegel-the-elder	ピーテル・ブリューゲル（父）	Pieter Bruegel the Elder	1525–1569	13
-paolo-veronese		Paolo Veronese	1528–1588	19
+paolo-veronese	パオロ・ヴェロネーゼ	Paolo Veronese	1528–1588	19
 el-greco	エル・グレコ	El Greco	1541–1614	18
 unkoku-togan	雲谷等顔	Unkoku Tōgan	1547–1618	8
 kano-sanraku	狩野山楽	Kano Sanraku	1559–1635	4
-annibale-carracci		Annibale Carracci	1560–1609	120
+annibale-carracci	アンニーバレ・カラッチ	Annibale Carracci	1560–1609	120
 tawaraya-sotatsu	俵屋宗達	Tawaraya Sōtatsu	1570–1640	6
-guido-reni		Guido Reni	1575–1642	103
-peter-paul-rubens		Peter Paul Rubens	1577–1640	79
-iwasa-matabei		Iwasa Matabei	1578–1650	5
-frans-hals		Frans Hals	1582–1666	22
-simon-vouet		Simon Vouet	1590–1649	17
-guercino		Guercino	1591–1666	79
-jusepe-de-ribera		Jusepe de Ribera	1591–1652	67
+guido-reni	グイド・レーニ	Guido Reni	1575–1642	103
+peter-paul-rubens	ピーテル・パウル・ルーベンス	Peter Paul Rubens	1577–1640	79
+iwasa-matabei	岩佐又兵衛	Iwasa Matabei	1578–1650	5
+frans-hals	フランス・ハルス	Frans Hals	1582–1666	22
+simon-vouet	シモン・ヴーエ	Simon Vouet	1590–1649	17
+guercino	グエルチーノ	Guercino	1591–1666	79
+jusepe-de-ribera	ホセ・デ・リベーラ	Jusepe de Ribera	1591–1652	67
 unkoku-toeki	雲谷等益	Unkoku Tōeki	1591–1644	5
-nicolas-poussin		Nicolas Poussin	1594–1665	37
-jan-van-goyen		Jan van Goyen	1596–1656	57
+nicolas-poussin	ニコラ・プッサン	Nicolas Poussin	1594–1665	37
+jan-van-goyen	ヤン・ファン・ホーイェン	Jan van Goyen	1596–1656	57
 chen-hongshou	陳洪綬	Chen Hongshou	1598–1652	34
 francisco-de-zurbaran	フランシスコ・デ・スルバラン	Francisco de Zurbarán	1598–1664	8
-anthony-van-dyck		Anthony van Dyck	1599–1641	189
+anthony-van-dyck	アンソニー・ヴァン・ダイク	Anthony van Dyck	1599–1641	189
 diego-velazquez	ディエゴ・ベラスケス	Diego Velázquez	1599–1660	9
 kano-tanyu	狩野探幽	Kano Tan’yū	1602–1674	30
-philippe-de-champaigne		Philippe de Champaigne	1602–1674	8
-salomon-van-ruysdael		Salomon van Ruysdael	1602–1670	10
-claude-lorrain		Claude Lorrain	1604–1682	172
+philippe-de-champaigne	フィリップ・ド・シャンパーニュ	Philippe de Champaigne	1602–1674	8
+salomon-van-ruysdael	サロモン・ファン・ロイスダール	Salomon van Ruysdael	1602–1670	10
+claude-lorrain	クロード・ロラン	Claude Lorrain	1604–1682	172
 rembrandt-van-rijn	レンブラント・ファン・レイン	Rembrandt van Rijn	1606–1669	1000
 kano-naonobu	狩野尚信	Kano Naonobu	1607–1650	8
-giovanni-benedetto-castiglione		Giovanni Benedetto Castiglione	1609–1664	198
-adriaen-van-ostade		Adriaen van Ostade	1610–1685	222
-salvator-rosa		Salvator Rosa	1615–1673	312
-bartolome-esteban-murillo		Bartolomé Esteban Murillo	1617–1682	20
-gerard-ter-borch-the-younger		Gerard ter Borch the Younger	1617–1681	16
-tosa-mitsuoki		Tosa Mitsuoki	1617–1691	10
-aelbert-cuyp		Aelbert Cuyp	1620–1691	25
-jan-steen		Jan Steen	1626–1679	8
-jacob-van-ruisdael		Jacob van Ruisdael	1628–1682	49
-pieter-de-hooch		Pieter de Hooch	1629–1684	12
+giovanni-benedetto-castiglione	ジョヴァンニ・ベネデット・カスティリオーネ	Giovanni Benedetto Castiglione	1609–1664	198
+adriaen-van-ostade	アドリアーン・ファン・オスターデ	Adriaen van Ostade	1610–1685	222
+salvator-rosa	サルヴァトル・ローザ	Salvator Rosa	1615–1673	312
+bartolome-esteban-murillo	バルトロメ・エステバン・ムリーリョ	Bartolomé Esteban Murillo	1617–1682	20
+gerard-ter-borch-the-younger	ヘラルト・テル・ボルフ	Gerard ter Borch the Younger	1617–1681	16
+tosa-mitsuoki	土佐光起	Tosa Mitsuoki	1617–1691	10
+aelbert-cuyp	アルベルト・カイプ	Aelbert Cuyp	1620–1691	25
+jan-steen	ヤン・ステーン	Jan Steen	1626–1679	8
+jacob-van-ruisdael	ヤーコプ・ファン・ロイスダール	Jacob van Ruisdael	1628–1682	49
+pieter-de-hooch	ピーテル・デ・ホーホ	Pieter de Hooch	1629–1684	12
 johannes-vermeer	ヨハネス・フェルメール	Johannes Vermeer	1632–1675	8
 wang-hui	王翬	Wang Hui	1632–1717	13
-kano-tsunenobu		Kano Tsunenobu	1636–1713	16
-kano-shoun		Kano Shōun	1637–1702	18
-meindert-hobbema		Meindert Hobbema	1638–1709	12
+kano-tsunenobu	狩野常信	Kano Tsunenobu	1636–1713	16
+kano-shoun	狩野昌運	Kano Shōun	1637–1702	18
+meindert-hobbema	メインデルト・ホッベマ	Meindert Hobbema	1638–1709	12
 kiyohara-yukinobu	清原雪信	Kiyohara Yukinobu	1643–1682	7
 hanabusa-itcho	英一蝶	Hanabusa Itchō	1652–1724	6
 ogata-korin	尾形光琳	Ogata Kōrin	1658–1716	16
-sebastiano-ricci		Sebastiano Ricci	1659–1734	20
+sebastiano-ricci	セバスティアーノ・リッチ	Sebastiano Ricci	1659–1734	20
 kano-chikanobu	狩野周信	Kano Chikanobu	1660–1728	6
 ogata-kenzan	尾形乾山	Ogata Kenzan	1663–1743	7
 torii-kiyonobu-i	鳥居清信	Torii Kiyonobu I	1664–1729	60
 nishikawa-sukenobu	西川祐信	Nishikawa Sukenobu	1671–1750	33
-giovanni-battista-piazzetta		Giovanni Battista Piazzetta	1682–1754	53
+giovanni-battista-piazzetta	ジョヴァンニ・バッティスタ・ピアッツェッタ	Giovanni Battista Piazzetta	1682–1754	53
 miyagawa-choshun	宮川長春	Miyagawa Chōshun	1683–1753	8
 watanabe-shiko	渡辺始興	Watanabe Shikō	1683–1755	9
-jean-marc-nattier		Jean-Marc Nattier	1685–1766	11
-jean-baptiste-oudry		Jean-Baptiste Oudry	1686–1755	51
+jean-marc-nattier	ジャン＝マルク・ナティエ	Jean-Marc Nattier	1685–1766	11
+jean-baptiste-oudry	ジャン＝バティスト・ウードリー	Jean-Baptiste Oudry	1686–1755	51
 okumura-masanobu	奥村政信	Okumura Masanobu	1686–1764	192
-miyagawa-issho		Miyagawa Isshō	1689–1780	4
-nicolas-lancret		Nicolas Lancret	1690–1743	35
-giovanni-paolo-panini		Giovanni Paolo Panini	1691–1765	23
-giovanni-battista-tiepolo		Giovanni Battista Tiepolo	1696–1770	424
-canaletto		Canaletto	1697–1768	206
-jean-simeon-chardin		Jean-Siméon Chardin	1699–1779	19
-francois-boucher		François Boucher	1703–1770	209
+miyagawa-issho	宮川一笑	Miyagawa Isshō	1689–1780	4
+nicolas-lancret	ニコラ・ランクレ	Nicolas Lancret	1690–1743	35
+giovanni-paolo-panini	ジョバンニ・パオロ・パンニーニ	Giovanni Paolo Panini	1691–1765	23
+giovanni-battista-tiepolo	ジョヴァンニ・バッティスタ・ティエポロ	Giovanni Battista Tiepolo	1696–1770	424
+canaletto	カナレット	Canaletto	1697–1768	206
+jean-simeon-chardin	ジャン・シメオン・シャルダン	Jean-Siméon Chardin	1699–1779	19
+francois-boucher	フランソワ・ブーシェ	François Boucher	1703–1770	209
 tsukioka-settei	月岡雪鼎	Tsukioka Settei	1710–1786	8
 ishikawa-toyonobu	石川豊信	Ishikawa Toyonobu	1711–1785	81
-francesco-guardi		Francesco Guardi	1712–1793	89
-ito-jakuchu		Itō Jakuchū	1716–1800	14
+francesco-guardi	フランチェスコ・グアルディ	Francesco Guardi	1712–1793	89
+ito-jakuchu	伊藤若冲	Itō Jakuchū	1716–1800	14
 yosa-buson	与謝蕪村	Yosa Buson	1716–1783	13
-bernardo-bellotto		Bernardo Bellotto	1722–1780	66
-ike-no-taiga		Ike no Taiga	1723–1776	18
-sir-joshua-reynolds		Sir Joshua Reynolds	1723–1792	26
-jean-baptiste-greuze		Jean-Baptiste Greuze	1725–1805	43
+bernardo-bellotto	ベルナルド・ベッロット	Bernardo Bellotto	1722–1780	66
+ike-no-taiga	池大雅	Ike no Taiga	1723–1776	18
+sir-joshua-reynolds	ジョシュア・レノルズ	Sir Joshua Reynolds	1723–1792	26
+jean-baptiste-greuze	ジャン＝バティスト・グルーズ	Jean-Baptiste Greuze	1725–1805	43
 suzuki-harunobu	鈴木春信	Suzuki Harunobu	1725–1770	483
 katsukawa-shunsho	勝川春章	Katsukawa Shunshō	1726–1792	873
-giovanni-domenico-tiepolo		Giovanni Domenico Tiepolo	1727–1804	541
-thomas-gainsborough		Thomas Gainsborough	1727–1788	75
+giovanni-domenico-tiepolo	ジョヴァンニ・ドメニコ・ティエポロ	Giovanni Domenico Tiepolo	1727–1804	541
+thomas-gainsborough	トマス・ゲインズバラ	Thomas Gainsborough	1727–1788	75
 soga-shohaku	曾我蕭白	Soga Shōhaku	1730–1781	17
-jean-honore-fragonard		Jean-Honoré Fragonard	1732–1806	186
-hubert-robert		Hubert Robert	1733–1808	170
+jean-honore-fragonard	ジャン・オノレ・フラゴナール	Jean-Honoré Fragonard	1732–1806	186
+hubert-robert	ユベール・ロベール	Hubert Robert	1733–1808	170
 maruyama-okyo	円山応挙	Maruyama Ōkyo	1733–1795	20
-george-romney		George Romney	1734–1802	52
-isoda-koryusai		Isoda Koryūsai	1735–1790	68
+george-romney	ジョージ・ロムニー	George Romney	1734–1802	52
+isoda-koryusai	礒田湖龍斎	Isoda Koryūsai	1735–1790	68
 utagawa-toyoharu	歌川豊春	Utagawa Toyoharu	1735–1814	33
-benjamin-west		Benjamin West	1738–1820	55
-john-singleton-copley		John Singleton Copley	1738–1815	41
+benjamin-west	ベンジャミン・ウエスト	Benjamin West	1738–1820	55
+john-singleton-copley	ジョン・シングルトン・コプリー	John Singleton Copley	1738–1815	41
 kitao-shigemasa	北尾重政	Kitao Shigemasa	1739–1820	96
-angelica-kauffmann		Angelica Kauffmann	1741–1807	29
+angelica-kauffmann	アンゲリカ・カウフマン	Angelica Kauffmann	1741–1807	29
 katsukawa-shunko	勝川春好	Katsukawa Shunkō	1743–1812	86
-francisco-de-goya		Francisco de Goya	1746–1828	946
+francisco-de-goya	フランシスコ・デ・ゴヤ	Francisco de Goya	1746–1828	946
 mori-sosen	森狙仙	Mori Sosen	1747–1821	10
-jacques-louis-david		Jacques-Louis David	1748–1825	150
-pierre-henri-de-valenciennes		Pierre Henri de Valenciennes	1750–1819	20
+jacques-louis-david	ジャック＝ルイ・ダヴィッド	Jacques-Louis David	1748–1825	150
+pierre-henri-de-valenciennes	ピエール＝アンリ・ド・ヴァランシエンヌ	Pierre Henri de Valenciennes	1750–1819	20
 matsumura-goshun	松村呉春	Matsumura Goshun	1752–1811	14
 torii-kiyonaga	鳥居清長	Torii Kiyonaga	1752–1815	395
 kitagawa-utamaro	喜多川歌麿	Kitagawa Utamaro	1754–1806	574
 nagasawa-rosetsu	長澤蘆雪	Nagasawa Rosetsu	1754–1799	23
-elisabeth-louise-vigee-le-brun		Elisabeth Louise Vigée Le Brun	1755–1842	11
-gilbert-stuart		Gilbert Stuart	1755–1828	56
+elisabeth-louise-vigee-le-brun	エリザベート＝ルイーズ・ヴィジェ＝ルブラン	Elisabeth Louise Vigée Le Brun	1755–1842	11
+gilbert-stuart	ギルバート・ステュアート	Gilbert Stuart	1755–1828	56
 chobunsai-eishi	鳥文斎栄之	Chōbunsai Eishi	1756–1829	183
-sir-henry-raeburn		Sir Henry Raeburn	1756–1823	26
+sir-henry-raeburn	ヘンリー・レイバーン	Sir Henry Raeburn	1756–1823	26
 kubo-shunman	窪俊満	Kubo Shunman	1757–1820	266
-william-blake		William Blake	1757–1827	389
+william-blake	ウィリアム・ブレイク	William Blake	1757–1827	389
 katsushika-hokusai	葛飾北斎	Katsushika Hokusai	1760–1849	887
-louis-leopold-boilly		Louis Léopold Boilly	1761–1845	53
+louis-leopold-boilly	ルイ＝レオポルド・ボワイー	Louis Léopold Boilly	1761–1845	53
 sakai-hoitsu	酒井抱一	Sakai Hōitsu	1761–1828	17
 tani-buncho	谷文晁	Tani Bunchō	1763–1840	15
-jean-victor-bertin		Jean-Victor Bertin	1767–1842	13
+jean-victor-bertin	ジャン＝ヴィクトール・ベルタン	Jean-Victor Bertin	1767–1842	13
 utagawa-toyokuni-i	歌川豊国	Utagawa Toyokuni I	1769–1825	206
-katsukawa-shuntei		Katsukawa Shuntei	1770–1820	14
-antoine-jean-gros		Antoine-Jean Gros	1771–1835	19
+katsukawa-shuntei	勝川春亭	Katsukawa Shuntei	1770–1820	14
+antoine-jean-gros	アントワーヌ＝ジャン・グロ	Antoine-Jean Gros	1771–1835	19
 teisai-hokuba	蹄斎北馬	Teisai Hokuba	1771–1844	41
 utagawa-kunimasa	歌川国政	Utagawa Kunimasa	1773–1810	13
 caspar-david-friedrich	カスパー・ダーヴィト・フリードリヒ	Caspar David Friedrich	1774–1840	14
-joseph-mallord-william-turner		Joseph Mallord William Turner	1775–1851	346
+joseph-mallord-william-turner	ジョーゼフ・マロード・ウィリアム・ターナー	Joseph Mallord William Turner	1775–1851	346
 john-constable	ジョン・コンスタブル	John Constable	1776–1837	32
-nakabayashi-chikuto		Nakabayashi Chikutō	1776–1853	10
+nakabayashi-chikuto	中林竹洞	Nakabayashi Chikutō	1776–1853	10
 tanomura-chikuden	田能村竹田	Tanomura Chikuden	1777–1835	9
-rembrandt-peale		Rembrandt Peale	1778–1860	21
-jean-auguste-dominique-ingres		Jean-Auguste-Dominique Ingres	1780–1867	106
+rembrandt-peale	レンブラント・ピール	Rembrandt Peale	1778–1860	21
+jean-auguste-dominique-ingres	ドミニク・アングル	Jean-Auguste-Dominique Ingres	1780–1867	106
 totoya-hokkei	魚屋北渓	Totoya Hokkei	1780–1850	244
-thomas-sully		Thomas Sully	1783–1872	35
+thomas-sully	トマス・サリー	Thomas Sully	1783–1872	35
 yamamoto-baiitsu	山本梅逸	Yamamoto Baiitsu	1783–1856	14
 utagawa-kunisada	歌川国貞	Utagawa Kunisada	1786–1864	197
-horace-vernet		Horace Vernet	1789–1863	123
+horace-vernet	オラース・ヴェルネ	Horace Vernet	1789–1863	123
 keisai-eisen	渓斎英泉	Keisai Eisen	1790–1848	80
 theodore-gericault	テオドール・ジェリコー	Théodore Géricault	1791–1824	150
-george-catlin		George Catlin	1796–1872	354
-jean-baptiste-camille-corot		Jean Baptiste Camille Corot	1796–1875	304
+george-catlin	ジョージ・カトリン	George Catlin	1796–1872	354
+jean-baptiste-camille-corot	ジャン＝バティスト・カミーユ・コロー	Jean Baptiste Camille Corot	1796–1875	304
 suzuki-kiitsu	鈴木其一	Suzuki Kiitsu	1796–1858	14
 utagawa-hiroshige	歌川広重	Utagawa Hiroshige	1797–1858	2387
 utagawa-kuniyoshi	歌川国芳	Utagawa Kuniyoshi	1797–1861	237
 eugene-delacroix	ウジェーヌ・ドラクロワ	Eugène Delacroix	1798–1863	499
 tsubaki-chinzan	椿椿山	Tsubaki Chinzan	1801–1854	19
-richard-parkes-bonington		Richard Parkes Bonington	1802–1828	105
-alexandre-gabriel-decamps		Alexandre-Gabriel Decamps	1803–1860	72
-eugene-isabey		Eugène Isabey	1803–1886	116
-narcisse-diaz-de-la-pena		Narcisse Diaz de la Peña	1807–1876	33
+richard-parkes-bonington	リチャード・パークス・ボニントン	Richard Parkes Bonington	1802–1828	105
+alexandre-gabriel-decamps	アレクサンドル＝ガブリエル・ドゥカン	Alexandre-Gabriel Decamps	1803–1860	72
+eugene-isabey	ウジェーヌ・イザベイ	Eugène Isabey	1803–1886	116
+narcisse-diaz-de-la-pena	ナルシス・ディアズ・ド・ラ・ペーニャ	Narcisse Diaz de la Peña	1807–1876	33
 shibata-zeshin	柴田是真	Shibata Zeshin	1807–1891	117
-honore-daumier		Honoré Daumier	1808–1879	4149
-alexandre-calame		Alexandre Calame	1810–1864	89
-constant-troyon		Constant Troyon	1810–1865	25
-jules-dupre		Jules Dupré	1811–1889	32
-theodore-rousseau		Théodore Rousseau	1812–1867	54
-charles-emile-jacque		Charles-Émile Jacque	1813–1894	525
-hine-taizan		Hine Taizan	1813–1869	5
-jean-francois-millet		Jean-François Millet	1814–1875	237
-ernest-meissonier		Ernest Meissonier	1815–1891	30
-john-frederick-kensett		John Frederick Kensett	1816–1872	17
-charles-francois-daubigny		Charles François Daubigny	1817–1878	343
-gustave-courbet		Gustave Courbet	1819–1877	60
-henri-joseph-harpignies		Henri Joseph Harpignies	1819–1916	43
-johan-barthold-jongkind		Johan Barthold Jongkind	1819–1891	61
-theodore-chasseriau		Théodore Chassériau	1819–1856	95
-rosa-bonheur		Rosa Bonheur	1822–1899	27
-eastman-johnson		Eastman Johnson	1824–1906	35
+honore-daumier	オノレ・ドーミエ	Honoré Daumier	1808–1879	4149
+alexandre-calame	アレクサンドル・カラム	Alexandre Calame	1810–1864	89
+constant-troyon	コンスタン・トロワイヨン	Constant Troyon	1810–1865	25
+jules-dupre	ジュール・デュプレ	Jules Dupré	1811–1889	32
+theodore-rousseau	テオドール・ルソー	Théodore Rousseau	1812–1867	54
+charles-emile-jacque	チャールズ・ヤクエ	Charles-Émile Jacque	1813–1894	525
+hine-taizan	日根対山	Hine Taizan	1813–1869	5
+jean-francois-millet	ジャン＝フランソワ・ミレー	Jean-François Millet	1814–1875	237
+ernest-meissonier	エルネスト・メソニエ	Ernest Meissonier	1815–1891	30
+john-frederick-kensett	ジョン・フレデリック・ケンセット	John Frederick Kensett	1816–1872	17
+charles-francois-daubigny	シャルル＝フランソワ・ドービニー	Charles François Daubigny	1817–1878	343
+gustave-courbet	ギュスターヴ・クールベ	Gustave Courbet	1819–1877	60
+henri-joseph-harpignies	アンリ＝ジョゼフ・アルピニー	Henri Joseph Harpignies	1819–1916	43
+johan-barthold-jongkind	ヨハン・ヨンキント	Johan Barthold Jongkind	1819–1891	61
+theodore-chasseriau	テオドール・シャセリオー	Théodore Chassériau	1819–1856	95
+rosa-bonheur	ローザ・ボヌール	Rosa Bonheur	1822–1899	27
+eastman-johnson	イーストマン・ジョンソン	Eastman Johnson	1824–1906	35
 eugene-boudin	ウジェーヌ・ブーダン	Eugène Boudin	1824–1898	84
 jean-leon-gerome	ジャン＝レオン・ジェローム	Jean-Léon Gérôme	1824–1904	36
-pierre-puvis-de-chavannes		Pierre Puvis de Chavannes	1824–1898	71
-george-inness		George Inness	1825–1894	53
-jean-jacques-henner		Jean-Jacques Henner	1829–1905	9
+pierre-puvis-de-chavannes	ピエール・ピュヴィス・ド・シャヴァンヌ	Pierre Puvis de Chavannes	1824–1898	71
+george-inness	ジョージ・イネス	George Inness	1825–1894	53
+jean-jacques-henner	ジャン＝ジャック・エンネル	Jean-Jacques Henner	1829–1905	9
 camille-pissarro	カミーユ・ピサロ	Camille Pissarro	1830–1903	223
 kawanabe-kyosai	河鍋暁斎	Kawanabe Kyōsai	1831–1889	71
 edouard-manet	エドゥアール・マネ	Édouard Manet	1832–1883	337
 edgar-degas	エドガー・ドガ	Edgar Degas	1834–1917	266
-james-mcneill-whistler		James McNeill Whistler	1834–1903	2514
-hashimoto-gaho		Hashimoto Gahō	1835–1908	7
-henri-fantin-latour		Henri Fantin-Latour	1836–1904	266
-james-tissot		James Tissot	1836–1902	87
+james-mcneill-whistler	ジェームズ・マクニール・ホイッスラー	James McNeill Whistler	1834–1903	2514
+hashimoto-gaho	橋本雅邦	Hashimoto Gahō	1835–1908	7
+henri-fantin-latour	アンリ・ファンタン＝ラトゥール	Henri Fantin-Latour	1836–1904	266
+james-tissot	ジェームズ・ティソ	James Tissot	1836–1902	87
 tomioka-tessai	富岡鐵齋	Tomioka Tessai	1836–1924	17
-winslow-homer		Winslow Homer	1836–1910	652
-alphonse-legros		Alphonse Legros	1837–1911	1144
-thomas-moran		Thomas Moran	1837–1926	83
-anton-mauve		Anton Mauve	1838–1888	17
-alfred-sisley		Alfred Sisley	1839–1899	36
+winslow-homer	ウィンスロー・ホーマー	Winslow Homer	1836–1910	652
+alphonse-legros	アルフォンス・ルグロ	Alphonse Legros	1837–1911	1144
+thomas-moran	トーマス・モラン	Thomas Moran	1837–1926	83
+anton-mauve	アントン・モーヴ	Anton Mauve	1838–1888	17
+alfred-sisley	アルフレッド・シスレー	Alfred Sisley	1839–1899	36
 paul-cezanne	ポール・セザンヌ	Paul Cezanne	1839–1906	206
-tsukioka-yoshitoshi		Tsukioka Yoshitoshi	1839–1892	67
+tsukioka-yoshitoshi	月岡芳年	Tsukioka Yoshitoshi	1839–1892	67
 claude-monet	クロード・モネ	Claude Monet	1840–1926	122
-odilon-redon		Odilon Redon	1840–1916	666
+odilon-redon	オディロン・ルドン	Odilon Redon	1840–1916	666
 berthe-morisot	ベルト・モリゾ	Berthe Morisot	1841–1895	72
-jean-charles-cazin		Jean-Charles Cazin	1841–1901	23
+jean-charles-cazin	ジャン＝シャルル・カザン	Jean-Charles Cazin	1841–1901	23
 pierre-auguste-renoir	ピエール＝オーギュスト・ルノワール	Pierre-Auguste Renoir	1841–1919	248
-kawabata-gyokusho		Kawabata Gyokushō	1842–1913	16
-henri-rousseau		Henri Rousseau	1844–1910	19
+kawabata-gyokusho	川端玉章	Kawabata Gyokushō	1842–1913	16
+henri-rousseau	アンリ・ルソー	Henri Rousseau	1844–1910	19
 mary-cassatt	メアリー・カサット	Mary Cassatt	1844–1926	316
 gustave-caillebotte	ギュスターヴ・カイユボット	Gustave Caillebotte	1848–1894	12
-jules-bastien-lepage		Jules Bastien-Lepage	1848–1884	11
+jules-bastien-lepage	ジュール・バスティアン＝ルパージュ	Jules Bastien-Lepage	1848–1884	11
 paul-gauguin	ポール・ゴーギャン	Paul Gauguin	1848–1903	492
-edouard-detaille		Édouard Detaille	1848–1912	20
-albert-besnard		Albert Besnard	1849–1934	242
-eugene-carriere		Eugène Carrière	1849–1906	54
+edouard-detaille	エドゥアール・デタイユ	Édouard Detaille	1848–1912	20
+albert-besnard	アルバート・ベナール	Albert Besnard	1849–1934	242
+eugene-carriere	ウジェーヌ・カリエール	Eugène Carrière	1849–1906	54
 suzuki-shonen	鈴木松年	Suzuki Shōnen	1849–1918	4
-william-merritt-chase		William Merritt Chase	1849–1916	35
-watanabe-seitei		Watanabe Seitei	1851–1918	25
-jean-louis-forain		Jean Louis Forain	1852–1931	1159
-julian-alden-weir		Julian Alden Weir	1852–1919	86
-john-henry-twachtman		John Henry Twachtman	1853–1902	64
+william-merritt-chase	ウィリアム・メリット・チェイス	William Merritt Chase	1849–1916	35
+watanabe-seitei	渡辺省亭	Watanabe Seitei	1851–1918	25
+jean-louis-forain	ジャン＝ルイ・フォラン	Jean Louis Forain	1852–1931	1159
+julian-alden-weir	J・オールデン・ウィア	Julian Alden Weir	1852–1919	86
+john-henry-twachtman	ジョン・トワヒトマン	John Henry Twachtman	1853–1902	64
 vincent-van-gogh	フィンセント・ファン・ゴッホ	Vincent van Gogh	1853–1890	73
-henri-edmond-cross		Henri-Edmond Cross	1856–1910	28
-john-singer-sargent		John Singer Sargent	1856–1925	207
-maurice-prendergast		Maurice Prendergast	1858–1924	90
-childe-hassam		Childe Hassam	1859–1935	287
+henri-edmond-cross	アンリ＝エドモン・クロス	Henri-Edmond Cross	1856–1910	28
+john-singer-sargent	ジョン・シンガー・サージェント	John Singer Sargent	1856–1925	207
+maurice-prendergast	モーリス・プレンダーガスト	Maurice Prendergast	1858–1924	90
+childe-hassam	フレデリック・チャイルド・ハッサム	Childe Hassam	1859–1935	287
 georges-seurat	ジョルジュ・スーラ	Georges Seurat	1859–1891	57
-anders-zorn		Anders Zorn	1860–1920	687
-arthur-b-davies		Arthur B. Davies	1862–1928	308
-frank-w-benson		Frank W. Benson	1862–1951	96
-gustav-klimt		Gustav Klimt	1862–1918	24
-theo-van-rysselberghe		Theo van Rysselberghe	1862–1926	15
-paul-signac		Paul Signac	1863–1935	83
+anders-zorn	アンデシュ・ソーン	Anders Zorn	1860–1920	687
+arthur-b-davies	アーサー・ボーウェン・デービス	Arthur B. Davies	1862–1928	308
+frank-w-benson	フランク・ウェストン・ベンソン	Frank W. Benson	1862–1951	96
+gustav-klimt	グスタフ・クリムト	Gustav Klimt	1862–1918	24
+theo-van-rysselberghe	テオ・ファン・レイセルベルヘ	Theo van Rysselberghe	1862–1926	15
+paul-signac	ポール・シニャック	Paul Signac	1863–1935	83
 henri-de-toulouse-lautrec	アンリ・ド・トゥールーズ＝ロートレック	Henri de Toulouse-Lautrec	1864–1901	1086
 qi-baishi	齊白石	Qi Baishi	1864–1957	53
-takeuchi-seiho		Takeuchi Seihō	1864–1942	5
-felix-vallotton		Félix Vallotton	1865–1925	91
-robert-henri		Robert Henri	1865–1929	24
+takeuchi-seiho	竹内栖鳳	Takeuchi Seihō	1864–1942	5
+felix-vallotton	フェリックス・ヴァロットン	Félix Vallotton	1865–1925	91
+robert-henri	ロバート・ヘンライ	Robert Henri	1865–1929	24
 kamisaka-sekka	神坂雪佳	Kamisaka Sekka	1866–1942	44
-pierre-bonnard		Pierre Bonnard	1867–1947	512
-edouard-vuillard		Édouard Vuillard	1868–1940	195
-henri-matisse		Henri Matisse	1869–1954	497
-ignacio-zuloaga		Ignacio Zuloaga	1870–1945	18
-john-marin		John Marin	1870–1953	1273
-maurice-denis		Maurice Denis	1870–1943	99
-georges-rouault		Georges Rouault	1871–1958	424
-john-sloan		John Sloan	1871–1951	400
-lyonel-feininger		Lyonel Feininger	1871–1956	248
-piet-mondrian		Piet Mondrian	1872–1944	19
-albert-marquet		Albert Marquet	1875–1947	25
-jacques-villon		Jacques Villon	1875–1963	397
-maurice-de-vlaminck		Maurice de Vlaminck	1876–1958	56
+pierre-bonnard	ピエール・ボナール	Pierre Bonnard	1867–1947	512
+edouard-vuillard	エドゥアール・ヴュイヤール	Édouard Vuillard	1868–1940	195
+henri-matisse	アンリ・マティス	Henri Matisse	1869–1954	497
+ignacio-zuloaga	イグナシオ・スロアガ	Ignacio Zuloaga	1870–1945	18
+john-marin	ジョン・マリン	John Marin	1870–1953	1273
+maurice-denis	モーリス・ドニ	Maurice Denis	1870–1943	99
+georges-rouault	ジョルジュ・ルオー	Georges Rouault	1871–1958	424
+john-sloan	ジョン・スローン	John Sloan	1871–1951	400
+lyonel-feininger	リオネル・ファイニンガー	Lyonel Feininger	1871–1956	248
+piet-mondrian	ピート・モンドリアン	Piet Mondrian	1872–1944	19
+albert-marquet	アルベール・マルケ	Albert Marquet	1875–1947	25
+jacques-villon	ジャック・ヴィヨン	Jacques Villon	1875–1963	397
+maurice-de-vlaminck	モーリス・ド・ヴラマンク	Maurice de Vlaminck	1876–1958	56
 yoshida-hiroshi	吉田博	Yoshida Hiroshi	1876–1950	115
-marsden-hartley		Marsden Hartley	1877–1943	63
-raoul-dufy		Raoul Dufy	1877–1953	107
-walt-kuhn		Walt Kuhn	1877–1949	71
-paul-klee		Paul Klee	1879–1940	254
-andre-derain		André Derain	1880–1954	86
-arthur-dove		Arthur Dove	1880–1946	130
-ernst-ludwig-kirchner		Ernst Ludwig Kirchner	1880–1938	237
-hans-hofmann		Hans Hofmann	1880–1966	63
-kitano-tsunetomi		Kitano Tsunetomi	1880–1947	5
+marsden-hartley	マースデン・ハートレー	Marsden Hartley	1877–1943	63
+raoul-dufy	ラウル・デュフィ	Raoul Dufy	1877–1953	107
+walt-kuhn	ウォルト・クーン	Walt Kuhn	1877–1949	71
+paul-klee	パウル・クレー	Paul Klee	1879–1940	254
+andre-derain	アンドレ・ドラン	André Derain	1880–1954	86
+arthur-dove	アーサー・ダヴ	Arthur Dove	1880–1946	130
+ernst-ludwig-kirchner	エルンスト・ルートヴィッヒ・キルヒナー	Ernst Ludwig Kirchner	1880–1938	237
+hans-hofmann	ハンス・ホフマン	Hans Hofmann	1880–1966	63
+kitano-tsunetomi	北野恒富	Kitano Tsunetomi	1880–1947	5
 fernand-leger	フェルナン・レジェ	Fernand Léger	1881–1955	86
-max-weber		Max Weber	1881–1961	190
+max-weber	マックス・ウェーバー	Max Weber	1881–1961	190
 pablo-picasso	パブロ・ピカソ	Pablo Picasso	1881–1973	1202
-edward-hopper		Edward Hopper	1882–1967	78
-george-bellows		George Bellows	1882–1925	361
+edward-hopper	エドワード・ホッパー	Edward Hopper	1882–1967	78
+george-bellows	ジョージ・ベローズ	George Bellows	1882–1925	361
 georges-braque	ジョルジュ・ブラック	Georges Braque	1882–1963	149
-rockwell-kent		Rockwell Kent	1882–1971	222
-charles-sheeler		Charles Sheeler	1883–1965	46
+rockwell-kent	ロックウェル・ケント	Rockwell Kent	1882–1971	222
+charles-sheeler	チャールズ・シーラー	Charles Sheeler	1883–1965	46
 eugene-speicher		Eugene Speicher	1883–1962	29
 hashimoto-kansetsu	橋本関雪	Hashimoto Kansetsu	1883–1945	5
 kawase-hasui	川瀬巴水	Kawase Hasui	1883–1957	653
-marie-laurencin		Marie Laurencin	1883–1956	64
-maurice-utrillo		Maurice Utrillo	1883–1955	58
-amedeo-modigliani		Amedeo Modigliani	1884–1920	48
-guy-pene-du-bois		Guy Pène du Bois	1884–1958	33
-max-beckmann		Max Beckmann	1884–1950	1185
-george-biddle		George Biddle	1885–1973	229
-jules-pascin		Jules Pascin	1885–1930	66
+marie-laurencin	マリー・ローランサン	Marie Laurencin	1883–1956	64
+maurice-utrillo	モーリス・ユトリロ	Maurice Utrillo	1883–1955	58
+amedeo-modigliani	アメデオ・モディリアーニ	Amedeo Modigliani	1884–1920	48
+guy-pene-du-bois	ガイ・ペン・デュボワ	Guy Pène du Bois	1884–1958	33
+max-beckmann	マックス・ベックマン	Max Beckmann	1884–1950	1185
+george-biddle	ジョージ・ビドル	George Biddle	1885–1973	229
+jules-pascin	ジュール・パスキン	Jules Pascin	1885–1930	66
 milton-avery		Milton Avery	1885–1965	411
-diego-rivera		Diego Rivera	1886–1957	58
-georgia-okeeffe		Georgia O'Keeffe	1887–1986	83
+diego-rivera	ディエゴ・リベラ	Diego Rivera	1886–1957	58
+georgia-okeeffe	ジョージア・オキーフ	Georgia O'Keeffe	1887–1986	83
 juan-gris	フアン・グリス	Juan Gris	1887–1927	51
-marc-chagall		Marc Chagall	1887–1985	638
-miki-suizan		Miki Suizan	1887–1957	11
-josef-albers		Josef Albers	1888–1976	474
-thomas-hart-benton		Thomas Hart Benton	1889–1975	125
-yasuo-kuniyoshi		Yasuo Kuniyoshi	1889–1953	61
-giorgio-morandi		Giorgio Morandi	1890–1964	48
-koshiro-onchi		Koshiro Onchi	1891–1955	65
-max-ernst		Max Ernst	1891–1976	73
-otto-dix		Otto Dix	1891–1969	111
-stuart-davis		Stuart Davis	1892–1964	83
-chaim-soutine		Chaïm Soutine	1893–1943	13
-joan-miro		Joan Miró	1893–1983	239
-john-steuart-curry		John Steuart Curry	1897–1946	39
-ben-shahn		Ben Shahn	1898–1969	86
+marc-chagall	マルク・シャガール	Marc Chagall	1887–1985	638
+miki-suizan	三木翠山	Miki Suizan	1887–1957	11
+josef-albers	ヨゼフ・アルバース	Josef Albers	1888–1976	474
+thomas-hart-benton	トマス・ハート・ベントン	Thomas Hart Benton	1889–1975	125
+yasuo-kuniyoshi	国吉康雄	Yasuo Kuniyoshi	1889–1953	61
+giorgio-morandi	ジョルジョ・モランディ	Giorgio Morandi	1890–1964	48
+koshiro-onchi	恩地孝四郎	Koshiro Onchi	1891–1955	65
+max-ernst	マックス・エルンスト	Max Ernst	1891–1976	73
+otto-dix	オットー・ディクス	Otto Dix	1891–1969	111
+stuart-davis	スチュアート・デイヴィス	Stuart Davis	1892–1964	83
+chaim-soutine	シャイム・スーティン	Chaïm Soutine	1893–1943	13
+joan-miro	ジョアン・ミロ	Joan Miró	1893–1983	239
+john-steuart-curry	ジョン・スチュアート・カリー	John Steuart Curry	1897–1946	39
+ben-shahn	ベン・シャーン	Ben Shahn	1898–1969	86
 ito-shinsui	伊東深水	Itō Shinsui	1898–1972	39
-pavel-tchelitchew		Pavel Tchelitchew	1898–1957	84
-reginald-marsh		Reginald Marsh	1898–1954	1181
-rene-magritte		René Magritte	1898–1967	27
+pavel-tchelitchew	パーヴェル・チェリチェフ	Pavel Tchelitchew	1898–1957	84
+reginald-marsh	レジナルド・マーシュ	Reginald Marsh	1898–1954	1181
+rene-magritte	ルネ・マグリット	René Magritte	1898–1967	27
 raphael-soyer		Raphael Soyer	1899–1987	108
-rufino-tamayo		Rufino Tamayo	1899–1991	93
+rufino-tamayo	ルフィーノ・タマヨ	Rufino Tamayo	1899–1991	93
 zhang-daqian	張大千	Zhang Daqian	1899–1983	54
-alice-neel		Alice Neel	1900–1984	17
+alice-neel	アリス・ニール	Alice Neel	1900–1984	17
 jack-tworkov		Jack Tworkov	1900–1982	29

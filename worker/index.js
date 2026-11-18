@@ -380,7 +380,7 @@ async function catalogPage(env, cat, params) {
 // ---- 画家の目録（/art/catalog/ と /art/catalog/<id>/）----
 // データは /data/art-catalog/index.json（全員の1行分）と e/<n>.json（本体を約100人ずつ）。tools/art_catalog_build.py で作る
 // 見た目は作品目録と同じ（.wk）。型は /art/artists/ のページ。中身は出典の事実だけで、文章は足さない
-const ART_HDR = { "Content-Type": "text/html; charset=utf-8", "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests" };
+const ART_HDR = { "Content-Type": "text/html; charset=utf-8", "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://commons.wikimedia.org https://upload.wikimedia.org; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests" };
 let ART = null;
 async function artCatalog(env) {
   if (ART && Date.now() - ART.at < 300000) return ART;
@@ -435,11 +435,12 @@ async function artEntryPage(env, A, id) {
   const works = (e.works || []).length ? `<h2>公的なコレクションにある作品</h2><div class="rl">` + e.works.map((w) => `<a href="${H(w.u)}" target="_blank" rel="noopener">${H(w.t || "題の記載なし")}<small>${[w.d, ART_MUSEUM[w.m] || w.m, w.k].filter(Boolean).map(H).join("・")}</small></a>`).join("") + "</div>" +
     (e.workCount > e.works.length ? `<p class="nt">全${e.workCount}点のうち${e.works.length}点。絵画を先に、所蔵館が作品の年を書いた順に並べています。</p>` : "") : "";
   const src = (e.sources || []).length ? `<h2>出典</h2><ul class="src">${e.sources.map((s) => `<li><a href="${H(s.url)}" target="_blank" rel="noopener">${H(s.name)}</a>（${H(s.license)}、${H(s.retrieved)}取得）${s.fields ? `：${H(s.fields)}` : ""}</li>`).join("")}${e.nameJaSource ? `<li>日本語表記：${H(e.nameJaSource)}</li>` : ""}</ul>` : "";
-  const body = `<article class="wk"><h1>${H(artName(e))}</h1>${sub ? `<p class="en">${sub}</p>` : ""}${jaNote ? `<p class="nt">${jaNote}</p>` : ""}${more}<dl>` +
+  const fig = e.work && e.work.file ? `<figure class="awk"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(e.work.file)}?width=960" alt="${H(e.work.title)}" loading="lazy" decoding="async"><figcaption>${H(e.work.title)}　<a href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(e.work.file)}" target="_blank" rel="noopener">画像：Wikimedia Commons</a></figcaption></figure>` : "";
+  const body = `<article class="wk"><h1>${H(artName(e))}</h1>${sub ? `<p class="en">${sub}</p>` : ""}${jaNote ? `<p class="nt">${jaNote}</p>` : ""}${fig}${more}<dl>` +
     row("生年", e.born ? `${e.born}年${e.approx ? "頃" : ""}${e.birthPlace ? `　${H(e.birthPlace)}` : ""}` : "") +
     row("没年", e.died ? `${e.died}年${e.approx ? "頃" : ""}${e.deathPlace ? `　${H(e.deathPlace)}` : ""}` : "") +
     row("国籍・地域", (e.country || []).map(H).join("、")) + row("時代", (e.jpPeriods || []).map(H).join("、")) +
-    row("流派・運動", (e.movement || []).map((m) => H(m.ja || m.en || m)).join("、")) +
+    row("流派・運動", (e.movement || []).map((m) => H(m.ja || m.en || m)).join("、")) + row("代表作", e.work ? H(e.work.title) : "") +
     row("師", (e.teachers || []).map(link).join("、")) + row("弟子", (e.students || []).map(link).join("、")) +
     row("作品の種類", kinds) + row("所蔵", counts) + row("ID", ids) + `</dl>` +
     ((e.yearsNote || []).length ? `<p class="nt">出典によって年が異なります。${e.yearsNote.map(H).join("。")}。</p>` : "") +
