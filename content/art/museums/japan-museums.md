@@ -9,7 +9,7 @@ aliases:
   - 大原美術館
   - MOA美術館
 quiz: a-museums-japan
-updated: 2026-11-03
+updated: 2026-11-18
 sources:
   - '東京国立博物館「東京国立博物館とは」（創立150年） https://www.tnm.jp/150th/about.html 閲覧日 2026-11-03'
   - '東京国立博物館「History of the TNM 1. Yushima Seido Exposition」 https://www.tnm.jp/modules/r_free_page/index.php?id=144 閲覧日 2026-11-03'
@@ -102,6 +102,21 @@ MOA美術館の記録では、江戸時代・18世紀、紙本金地著色、2�
 | 国立西洋美術館 | 東京・上野 | 1959年、松方コレクションの返還 | ロダンの彫刻群、ブールデル《弓をひくヘラクレス》 |
 | 大原美術館 | 岡山・倉敷 | 1930年、大原孫三郎と児島虎次郎 | エル・グレコ《受胎告知》 |
 | MOA美術館 | 静岡・熱海 | — | 光琳《紅白梅図屏風》 |
+
+## 名品の個別ページ
+
+各館の名品を、作品ひとつにつき1ページで解説している。所蔵・制作年・技法・寸法は所蔵館の公式ページなどで確かめた。一覧は[名品](/art/artworks/)にある。
+
+| 館 | 名品 |
+|---|---|
+| 東京国立博物館（上野） | [雪舟《秋冬山水図》](/art/artworks/sesshu-shuto-sansuizu/)、[狩野永徳《檜図屏風》](/art/artworks/eitoku-hinoki/)、[酒井抱一《夏秋草図屏風》](/art/artworks/hoitsu-natsuaki-kusa/)、[写楽《三代目大谷鬼次の江戸兵衛》](/art/artworks/sharaku-edobee/)、[歌麿《ポッピンを吹く娘》](/art/artworks/utamaro-poppin/)、[北斎《神奈川沖浪裏》](/art/artworks/hokusai-great-wave/)、[黒田清輝《湖畔》](/art/artworks/kuroda-kohan/)、[黒田清輝《読書》](/art/artworks/kuroda-dokusho/) |
+| 国立西洋美術館（上野） | [モネ《睡蓮》（1916年）](/art/artworks/monet-water-lilies-nmwa/)、[ゴッホ《ばら》](/art/artworks/vangogh-roses-nmwa/)、[ルーベンス《眠る二人の子供》](/art/artworks/rubens-two-sleeping-children/) |
+| 京都国立博物館 | [雪舟《天橋立図》](/art/artworks/sesshu-amanohashidate/)。[俵屋宗達《風神雷神図屏風》](/art/artworks/sotatsu-fujin-raijin/)（建仁寺所蔵、寄託） |
+| 皇居三の丸尚蔵館 | [狩野永徳《唐獅子図屏風》](/art/artworks/eitoku-karajishi/)、[伊藤若冲《動植綵絵》](/art/artworks/jakuchu-doshoku-saie/) |
+| 根津美術館（南青山） | [尾形光琳《燕子花図屏風》](/art/artworks/korin-kakitsubata/) |
+| 三井記念美術館（日本橋） | [円山応挙《雪松図屏風》](/art/artworks/okyo-sekisho/) |
+| 東京国立近代美術館（竹橋） | [横山大観《生々流転》](/art/artworks/taikan-seisei-ruten/) |
+| SOMPO美術館（新宿） | [ゴッホ《ひまわり》](/art/artworks/vangogh-sunflowers-sompo/) |
 
 ## よくある質問
 

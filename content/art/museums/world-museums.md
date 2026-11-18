@@ -9,7 +9,7 @@ aliases:
   - ニューヨーク近代美術館
   - ナショナル・ギャラリー
 quiz: a-museums-world
-updated: 2026-11-03
+updated: 2026-11-18
 sources:
   - 'Encyclopædia Britannica「Musée d''Orsay」 https://www.britannica.com/topic/Musee-dOrsay 閲覧日 2026-11-03'
   - 'Encyclopaedia Britannica「Édouard Manet」 https://www.britannica.com/print/article/361791 閲覧日 2026-11-03'
@@ -105,6 +105,30 @@ MoMAの記録では、油彩、73.7×92.1cm。ゴッホは最後の1年半をサ
 | プラド美術館 | マドリード | 《快楽の園》《ラス・メニーナス》 | 王室コレクション由来 |
 | ニューヨーク近代美術館（MoMA） | ニューヨーク | 《星月夜》《記憶の固執》《アヴィニョンの娘たち》 | |
 | ナショナル・ギャラリー | ロンドン | 《アルノルフィーニ夫妻の肖像》《戦艦テメレール号》、ゴッホ《ひまわり》 | |
+
+## 名品の個別ページ
+
+この記事の館と、ほかの海外の館の名品を、作品ひとつにつき1ページで解説している。一覧は[名品](/art/artworks/)にある。
+
+| 館 | 都市 | 名品 |
+|---|---|---|
+| オルセー美術館 | パリ | [マネ《草上の昼食》](/art/artworks/manet-dejeuner/) |
+| プラド美術館 | マドリード | [ベラスケス《ラス・メニーナス》](/art/artworks/velazquez-las-meninas/)、[ゴヤ《1808年5月3日》](/art/artworks/goya-third-of-may/) |
+| ニューヨーク近代美術館（MoMA） | ニューヨーク | [マティス《ダンス（I）》](/art/artworks/matisse-dance/)、[モンドリアン《ブロードウェイ・ブギウギ》](/art/artworks/mondrian-broadway/) |
+| ナショナル・ギャラリー | ロンドン | [ターナー《雨、蒸気、速度》](/art/artworks/turner-rain-steam-speed/) |
+| ルーヴル美術館 | パリ | [レオナルド《モナ・リザ》](/art/artworks/leonardo-mona-lisa/) |
+| マルモッタン・モネ美術館 | パリ | [モネ《印象、日の出》](/art/artworks/monet-impression-sunrise/) |
+| ヴァチカン美術館 | ローマ | [ラファエロ《アテネの学堂》](/art/artworks/raphael-school-of-athens/)、[ミケランジェロ　システィーナ礼拝堂天井画](/art/artworks/michelangelo-sistine-ceiling/) |
+| アムステルダム国立美術館 | アムステルダム | [レンブラント《夜警》](/art/artworks/rembrandt-night-watch/)、[フェルメール《牛乳を注ぐ女》](/art/artworks/vermeer-milkmaid/) |
+| アルテ・ピナコテーク | ミュンヘン | [デューラー《毛皮のコートの自画像》](/art/artworks/durer-self-portrait-1500/) |
+| ベルヴェデーレ | ウィーン | [クリムト《接吻（恋人たち）》](/art/artworks/klimt-kiss/) |
+| レオポルト美術館 | ウィーン | [シーレ《ほおずきの実のある自画像》](/art/artworks/schiele-self-portrait-lantern/) |
+| ノルウェー国立美術館 | オスロ | [ムンク《叫び》](/art/artworks/munch-scream/) |
+| ソフィア王妃芸術センター | マドリード | [ピカソ《ゲルニカ》](/art/artworks/picasso-guernica/) |
+| メトロポリタン美術館 | ニューヨーク | [カラヴァッジョ《音楽家たち》](/art/artworks/caravaggio-musicians/)、[デューラー《メレンコリアI》](/art/artworks/durer-melencolia/)。北斎《神奈川沖浪裏》の摺りも所蔵 |
+| ナショナル・ギャラリー・オブ・アート | ワシントン | [レオナルド《ジネヴラ・デ・ベンチ》](/art/artworks/leonardo-ginevra/) |
+| シカゴ美術館 | シカゴ | [スーラ《グランド・ジャット島の日曜日の午後》](/art/artworks/seurat-grande-jatte/) |
+| ソロモン・R・グッゲンハイム美術館 | ニューヨーク | [カンディンスキー《コンポジション8》](/art/artworks/kandinsky-composition-8/) |
 
 ## よくある質問
 
