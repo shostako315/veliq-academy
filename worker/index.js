@@ -402,7 +402,7 @@ async function artCatalog(env) {
   };
   return ART;
 }
-async function artShell(env, { title, desc, canon, crumbs, body }) {
+async function artShell(env, { title, desc, canon, crumbs, body, en, ld2 }) {
   const tpl = await (await env.ASSETS.fetch(new Request(SITE + "/art/artists/"))).text();
   const ld = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: crumbs.map(([n, u], i) => ({ "@type": "ListItem", position: i + 1, name: n, ...(u ? { item: SITE + u } : {}) })) };
   const bc = '<nav class="va-bc" aria-label="パンくず"><ol>' + crumbs.map(([n, u], i) => i < crumbs.length - 1 ? `<li><a href="${u}">${H(n)}</a></li>` : `<li><span aria-current="page">${H(n)}</span></li>`).join("") + "</ol></nav>";
@@ -415,7 +415,8 @@ async function artShell(env, { title, desc, canon, crumbs, body }) {
     .replace(/(<link rel="canonical" href=")[^"]*/, `$1${SITE}${canon}`)
     .replace(/(<meta property="og:url" content=")[^"]*/, `$1${SITE}${canon}`)
     .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(ld)}</script>`)
-    .replace(/<main[\s\S]*<\/main>/, `<main id="main" class="va-main"><div class="wrap">${bc}${body}</div></main>`);
+    .replace(/<main[\s\S]*<\/main>/, `<main id="main" class="va-main"><div class="wrap">${bc}${body}</div></main>`)
+    .replace("</head>", (en ? `<link rel="alternate" hreflang="ja" href="${SITE}${canon}"><link rel="alternate" hreflang="en" href="${SITE}${en}"><link rel="alternate" hreflang="x-default" href="${SITE}${en}">` : "") + (ld2 ? `<script type="application/ld+json">${JSON.stringify(ld2).replace(/</g, "\\u003c")}</script>` : "") + "</head>");
 }
 const ART_MUSEUM = { met: "メトロポリタン美術館", nga: "ナショナル・ギャラリー・オブ・アート", cma: "クリーブランド美術館", aic: "シカゴ美術館", moma: "MoMA" };
 const artYears = (b, d, approx) => (b || d ? `${b ? b + (approx ? "頃" : "") : "？"}–${d ? d + (approx ? "頃" : "") : ""}` : "");
@@ -445,9 +446,9 @@ async function artEntryPage(env, A, id) {
     row("作品の種類", kinds) + row("所蔵", counts) + row("ID", ids) + `</dl>` +
     ((e.yearsNote || []).length ? `<p class="nt">出典によって年が異なります。${e.yearsNote.map(H).join("。")}。</p>` : "") +
     (e.birthPlace || e.deathPlace ? `<p class="nt">出生地・死没地はメトロポリタン美術館の記載のままです。</p>` : "") +
-    works + src + `<p class="nt">Veliq 画家の目録より。出典に書かれていることだけを載せています。<a href="/art/catalog/">画家の目録で探す</a></p></article>`;
+    works + src + `<p class="nt">Veliq 画家の目録より。出典に書かれていることだけを載せています。<a href="/art/catalog/">画家の目録で探す</a>　<a href="/en/art/catalog/${H(e.id)}/" hreflang="en" lang="en">English</a></p></article>`;
   const desc = [artName(e), e.nameJa ? e.nameEn : "", artYears(e.born, e.died, e.approx), (e.country || []).join("・"), `公的なコレクションの所蔵作品${e.workCount}点`].filter(Boolean).join("。");
-  return new Response(await artShell(env, { title: artName(e), desc, canon: `/art/catalog/${e.id}/`, crumbs: [["トップ", "/"], ["美術", "/art/"], ["画家の目録", "/art/catalog/"], [artName(e)]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=600" } });
+  return new Response(await artShell(env, { title: artName(e), desc, canon: `/art/catalog/${e.id}/`, en: `/en/art/catalog/${e.id}/`, ld2: artPersonLd(e, "ja"), crumbs: [["トップ", "/"], ["美術", "/art/"], ["画家の目録", "/art/catalog/"], [artName(e)]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=600" } });
 }
 async function artIndexPage(env, A, params) {
   const q = String(params.get("q") || "").slice(0, 60), era = String(params.get("era") || ""), country = String(params.get("country") || ""), mv = String(params.get("movement") || "");
@@ -474,7 +475,95 @@ async function artIndexPage(env, A, params) {
     `<form action="/art/catalog/" method="get" class="af"><input name="q" value="${H(q)}" placeholder="名前（例：北斎、Monet）" aria-label="名前">${opt("era", "生まれた世紀", eras, era)}${opt("country", "国籍・地域", countries, country)}${mvs.length ? opt("movement", "流派・運動", mvs, mv) : ""}<button>探す</button></form>` +
     `<p class="nt">${list.length}人${q || era || country || mv ? `（全${A.rows.length}人から）` : ""}。生まれた年の順。</p>${nav}<div class="rl">${items}</div>${nav}${minorList}${srcs}</article>`;
   const desc = `美術館の公開データから、画家${A.rows.length}人の生没年・国籍と公的なコレクションにある作品をまとめた目録。`;
-  return new Response(await artShell(env, { title: "画家の目録", desc, canon: "/art/catalog/", crumbs: [["トップ", "/"], ["美術", "/art/"], ["画家の目録"]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=300" } });
+  return new Response(await artShell(env, { title: "画家の目録", desc, canon: "/art/catalog/", en: "/en/art/catalog/", crumbs: [["トップ", "/"], ["美術", "/art/"], ["画家の目録"]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=300" } });
+}
+
+// ---- 画家の目録の英語版（/en/art/catalog/）。中身は日本語版と同じデータ。訳した文は足さず、出典の英語表記をそのまま使う ----
+const EN_MUSEUM = { met: "The Metropolitan Museum of Art", nga: "National Gallery of Art", cma: "Cleveland Museum of Art", aic: "Art Institute of Chicago", moma: "MoMA" };
+const EN_KIND = { 絵画: "paintings", 版画: "prints", 素描: "drawings", 種類の記載なし: "unspecified" };
+const EN_PERIOD = { 室町時代: "Muromachi period", 桃山時代: "Momoyama period", 江戸時代: "Edo period", 明治時代: "Meiji period", 大正時代: "Taishō period", 昭和時代: "Shōwa period" };
+const EN_COUNTRY = { フランス: "France", 日本: "Japan", アメリカ: "United States", イタリア: "Italy", オランダ: "Netherlands", スペイン: "Spain", イギリス: "United Kingdom", ドイツ: "Germany", 中国: "China", スイス: "Switzerland", ネーデルラント: "Low Countries", メキシコ: "Mexico", ベルギー: "Belgium", フランドル: "Flanders", ギリシャ: "Greece", ロシア: "Russia", スコットランド: "Scotland", スウェーデン: "Sweden", オーストリア: "Austria" };
+const enCentury = (y) => { if (!y) return ""; const c = Math.floor((y - 1) / 100) + 1; return `${c}${c % 10 === 1 && c !== 11 ? "st" : c % 10 === 2 && c !== 12 ? "nd" : c % 10 === 3 && c !== 13 ? "rd" : "th"} century`; };
+const enYears = (b, d, approx) => (b || d ? `${b ? (approx ? "c. " : "") + b : "?"}–${d ? (approx ? "c. " : "") + d : ""}` : "");
+function artPersonLd(e, lang) {
+  const sameAs = [e.wikidata ? `https://www.wikidata.org/wiki/${e.wikidata}` : "", e.ulan ? `http://vocab.getty.edu/page/ulan/${e.ulan}` : ""].filter(Boolean);
+  const alt = [...new Set([e.nameJa, e.nameOrig, e.nameEn].filter(Boolean))].filter((x) => x !== (lang === "en" ? e.nameEn : artName(e)));
+  return { "@context": "https://schema.org", "@type": "Person", name: lang === "en" ? e.nameEn : artName(e), ...(alt.length ? { alternateName: alt } : {}),
+    ...(e.born ? { birthDate: String(e.born) } : {}), ...(e.died ? { deathDate: String(e.died) } : {}),
+    ...(e.birthPlace ? { birthPlace: e.birthPlace } : {}), ...(e.deathPlace ? { deathPlace: e.deathPlace } : {}),
+    ...((e.nationality || []).length ? { nationality: e.nationality } : {}), hasOccupation: "artist",
+    ...(e.work && e.work.titleEn ? { subjectOf: { "@type": "VisualArtwork", name: lang === "en" ? e.work.titleEn : e.work.title } } : {}),
+    url: `${SITE}${lang === "en" ? "/en" : ""}/art/catalog/${e.id}/`, sameAs, inLanguage: lang };
+}
+function enShell({ title, desc, canon, ja, crumbs, body, ld2 }) {
+  const ld = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: crumbs.map(([n, u], i) => ({ "@type": "ListItem", position: i + 1, name: n, ...(u ? { item: SITE + u } : {}) })) };
+  const bc = '<nav class="va-bc" aria-label="Breadcrumb"><ol>' + crumbs.map(([n, u], i) => i < crumbs.length - 1 ? `<li><a href="${u}">${H(n)}</a></li>` : `<li><span aria-current="page">${H(n)}</span></li>`).join("") + "</ol></nav>";
+  const j = (o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, "\\u003c")}</script>`;
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${H(title)} | Veliq Academy</title>
+<meta name="description" content="${H(desc)}"><link rel="canonical" href="${SITE}${canon}">
+<link rel="alternate" hreflang="en" href="${SITE}${canon}"><link rel="alternate" hreflang="ja" href="${SITE}${ja}"><link rel="alternate" hreflang="x-default" href="${SITE}${canon}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Veliq Academy"><meta property="og:title" content="${H(title)} | Veliq Academy"><meta property="og:description" content="${H(desc)}"><meta property="og:url" content="${SITE}${canon}"><meta property="og:locale" content="en_US">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/veliq-mark.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="/assets/vq-ui.css?v=17">${j(ld)}${ld2 ? j(ld2) : ""}</head>
+<body><a class="va-skip" href="#main">Skip to content</a><header class="gh"><div class="wrap gh-in"><a class="brand" href="/en/art/catalog/">Veliq <b>Academy</b></a><nav class="gnav" aria-label="Language"><a href="/en/art/catalog/" class="on">Artists</a><a href="${ja}" hreflang="ja" lang="ja">日本語</a></nav></div></header>
+<main id="main" class="va-main"><div class="wrap">${bc}${body}</div></main>
+<footer class="gf"><div class="wrap"><div class="gf-brand">Veliq <b>Academy</b></div><p class="nt">Published by VariOrchestra (Musashino, Tokyo). Editor: Eigo Sato. <a href="mailto:info@variorchestra.com">info@variorchestra.com</a></p></div></footer></body></html>`;
+}
+async function artEntryPageEn(env, A, id) {
+  const e = await A.entry(id);
+  if (!e) return null;
+  const row = (k, v) => (v ? `<dt>${k}</dt><dd>${v}</dd>` : "");
+  const link = (x) => (x.id ? `<a href="/en/art/catalog/${H(x.id)}/">${H(x.en || x.ja || x.qid)}</a>` : H(x.en || x.ja || x.qid));
+  const jaName = e.nameJa && e.nameJa !== e.nameEn ? e.nameJa : "";
+  const sub = [jaName ? `${jaName}${e.nameJaStatus === "wikidata" || e.nameJaStatus === "none" ? "" : ""}` : "", e.nameOrig && e.nameOrig !== jaName ? e.nameOrig : ""].filter(Boolean).map(H).join("　");
+  const counts = Object.entries(e.counts || {}).map(([m, c]) => `${H(EN_MUSEUM[m] || m)}: ${Object.entries(c).map(([k, n]) => `${n} ${H(EN_KIND[k] || k)}`).join(", ")}`).join("<br>");
+  const kinds = Object.entries(e.kinds || {}).map(([k, n]) => `${n} ${H(EN_KIND[k] || k)}`).join(", ");
+  const ids = [e.wikidata ? `<a href="https://www.wikidata.org/wiki/${H(e.wikidata)}" target="_blank" rel="noopener">Wikidata ${H(e.wikidata)}</a>` : "", e.ulan ? `<a href="https://vocab.getty.edu/page/ulan/${H(e.ulan)}" target="_blank" rel="noopener">ULAN ${H(e.ulan)}</a>` : ""].filter(Boolean).join("　");
+  const wt = e.work ? e.work.titleEn || "" : "";
+  const fig = e.work && e.work.file ? `<figure class="awk"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(e.work.file)}?width=960" alt="${H(wt || e.nameEn)}" loading="lazy" decoding="async"><figcaption>${H(wt)}　<a href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(e.work.file)}" target="_blank" rel="noopener">Image: Wikimedia Commons</a></figcaption></figure>` : "";
+  const works = (e.works || []).length ? `<h2>Works in public collections</h2><div class="rl">` + e.works.map((w) => `<a href="${H(w.u)}" target="_blank" rel="noopener">${H(w.t || "Untitled")}<small>${[w.d, EN_MUSEUM[w.m] || w.m, EN_KIND[w.k] ? EN_KIND[w.k].replace(/s$/, "") : ""].filter(Boolean).map(H).join(" · ")}</small></a>`).join("") + "</div>" +
+    (e.workCount > e.works.length ? `<p class="nt">${e.works.length} of ${e.workCount} works. Paintings first, then in order of the date given by the museum.</p>` : "") : "";
+  const src = (e.sources || []).length ? `<h2>Sources</h2><ul class="src">${e.sources.map((s) => `<li><a href="${H(s.url)}" target="_blank" rel="noopener">${H(s.name)}</a> (${H(s.license)}, retrieved ${H(s.retrieved)})</li>`).join("")}</ul>` : "";
+  const body = `<article class="wk" lang="en"><h1>${H(e.nameEn)}</h1>${sub ? `<p class="en" lang="ja">${sub}</p>` : ""}${fig}<dl>` +
+    row("Born", e.born ? `${e.approx ? "c. " : ""}${e.born}${e.birthPlace ? `, ${H(e.birthPlace)}` : ""}` : "") +
+    row("Died", e.died ? `${e.approx ? "c. " : ""}${e.died}${e.deathPlace ? `, ${H(e.deathPlace)}` : ""}` : "") +
+    row("Nationality", (e.nationality || []).map(H).join(", ")) + row("Japanese name", jaName ? `<span lang="ja">${H(jaName)}</span>` : "") +
+    row("Period", (e.jpPeriods || []).map((p) => H(EN_PERIOD[p] || p)).join(", ")) +
+    row("Movement", (e.movementEn || []).map(H).join(", ")) + row("Notable work", H(wt)) +
+    row("Teacher", (e.teachers || []).map(link).join(", ")) + row("Student", (e.students || []).map(link).join(", ")) +
+    row("Works by type", kinds) + row("Collections", counts) + row("Identifiers", ids) + `</dl>` +
+    works + src + `<p class="nt">From the Veliq Academy artist catalog, compiled only from the sources listed above. <a href="/en/art/catalog/">Search the catalog</a>　<a href="/art/catalog/${H(e.id)}/" hreflang="ja" lang="ja">日本語</a></p></article>`;
+  const desc = [e.nameEn, jaName, enYears(e.born, e.died, e.approx), (e.nationality || []).join(", "), `${e.workCount} works in public collections`].filter(Boolean).join(". ");
+  return new Response(enShell({ title: e.nameEn, desc, canon: `/en/art/catalog/${e.id}/`, ja: `/art/catalog/${e.id}/`, ld2: artPersonLd(e, "en"), crumbs: [["Veliq Academy", "/en/art/catalog/"], ["Artist catalog", "/en/art/catalog/"], [e.nameEn]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=600" } });
+}
+async function artIndexPageEn(env, A, params) {
+  const q = String(params.get("q") || "").slice(0, 60), country = String(params.get("country") || ""), era = String(params.get("century") || "");
+  const PER = 100, page = Math.max(1, parseInt(params.get("p") || "1", 10) || 1);
+  const fq = artFold(q);
+  const cen = (r) => enCentury(r.born || (r.died ? r.died - 50 : 0));
+  const list = A.rows.filter((r) => (!fq || [r.nameJa, r.nameEn, r.nameOrig].some((x) => artFold(x).includes(fq))) && (!country || (r.country || []).some((c) => (EN_COUNTRY[c] || c) === country)) && (!era || cen(r) === era));
+  const cc = {};
+  A.rows.forEach((r) => (r.country || []).forEach((c) => { const k = EN_COUNTRY[c] || c; cc[k] = (cc[k] || 0) + 1; }));
+  const countries = Object.keys(cc).sort((a, b) => cc[b] - cc[a]);
+  const eras = [...new Set(A.rows.map(cen).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
+  const opt = (name, label, vals, cur) => `<select name="${name}" aria-label="${label}"><option value="">${label}</option>${vals.map((v) => `<option${v === cur ? " selected" : ""}>${H(v)}</option>`).join("")}</select>`;
+  const pages = Math.max(1, Math.ceil(list.length / PER));
+  const shown = list.slice((page - 1) * PER, page * PER);
+  const qs = (p) => "?" + new URLSearchParams(Object.entries({ q, country, century: era, p: p > 1 ? String(p) : "" }).filter(([, v]) => v)).toString();
+  const nav = pages > 1 ? `<p class="pg">${page > 1 ? `<a href="/en/art/catalog/${qs(page - 1)}">Previous ${PER}</a>` : ""}<span>${page} / ${pages}</span>${page < pages ? `<a href="/en/art/catalog/${qs(page + 1)}">Next ${PER}</a>` : ""}</p>` : "";
+  const items = shown.map((r) => `<a href="/en/art/catalog/${H(r.id)}/">${H(r.nameEn)}<small>${[r.nameJa && r.nameJa !== r.nameEn && /[\u3040-\u30ff\u4e00-\u9fff]/.test(r.nameOrig || "") ? r.nameOrig : "", enYears(r.born, r.died, r.approx), (r.country || []).map((c) => EN_COUNTRY[c] || c).join(", "), `${r.workCount} works`].filter(Boolean).map(H).join(" · ")}</small></a>`).join("");
+  const srcs = `<h2>Sources</h2><ul class="src">${A.idx.sources.filter((s, i, a) => a.findIndex((x) => x.home === s.home) === i).map((s) => `<li><a href="${H(s.home)}" target="_blank" rel="noopener">${H(s.name)}</a> (${H(s.license)}, retrieved ${H(s.retrieved)})</li>`).join("")}<li><a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a> (CC0 1.0): Japanese names, movements, notable works</li></ul>`;
+  const body = `<article class="wk" lang="en"><h1>Artist catalog</h1><p>${A.rows.length} artists, with dates, nationality and works held in public collections, compiled from museum open data. Japanese artists are listed with their names in kanji and the periods given by the museums.</p>` +
+    `<form action="/en/art/catalog/" method="get" class="af"><input name="q" value="${H(q)}" placeholder="Name (e.g. Hokusai, 北斎, Monet)" aria-label="Name">${opt("century", "Century of birth", eras, era)}${opt("country", "Country", countries, country)}<button>Search</button></form>` +
+    `<p class="nt">${list.length} artists${q || era || country ? ` (of ${A.rows.length})` : ""}, in order of birth.</p>${nav}<div class="rl">${items}</div>${nav}${srcs}</article>`;
+  const desc = `${A.rows.length} artists with dates, nationality and works in public collections, compiled from museum open data. Includes ${A.rows.filter((r) => (r.country || []).includes("日本")).length} Japanese artists with kanji names.`;
+  return new Response(enShell({ title: "Artist catalog", desc, canon: "/en/art/catalog/", ja: "/art/catalog/", crumbs: [["Veliq Academy", "/en/art/catalog/"], ["Artist catalog"]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=300" } });
+}
+async function artSitemap(env) {
+  const A = await artCatalog(env);
+  const u = (p, alt) => `<url><loc>${SITE}${p}</loc><xhtml:link rel="alternate" hreflang="ja" href="${SITE}${alt[0]}"/><xhtml:link rel="alternate" hreflang="en" href="${SITE}${alt[1]}"/></url>`;
+  const ps = [["/art/catalog/", "/en/art/catalog/"], ...A.rows.map((r) => [`/art/catalog/${r.id}/`, `/en/art/catalog/${r.id}/`])];
+  const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n` + ps.flatMap((x) => [u(x[0], x), u(x[1], x)]).join("\n") + "\n</urlset>\n";
+  return new Response(body, { headers: { "Content-Type": "application/xml; charset=utf-8", "Cache-Control": "public, max-age=3600" } });
 }
 
 async function trip(req, env) {
@@ -667,6 +756,23 @@ export default {
       const A = await artCatalog(env);
       if (ap[1]) { const r = await artEntryPage(env, A, ap[1]); if (r) return r; }
       else return artIndexPage(env, A, url.searchParams);
+    }
+    const ape = url.pathname.match(/^\/en\/art\/catalog(?:\/([a-z0-9-]+))?\/?$/);
+    if (ape) {
+      if (!url.pathname.endsWith("/")) return Response.redirect(`${SITE}${url.pathname}/${url.search}`, 301);
+      const A = await artCatalog(env);
+      if (ape[1]) { const r = await artEntryPageEn(env, A, ape[1]); if (r) return r; }
+      else return artIndexPageEn(env, A, url.searchParams);
+    }
+    if (url.pathname === "/sitemap-art-catalog.xml") return artSitemap(env);
+    // robots.txt と llms.txt はビルドが作る。目録（Worker が組むページ）の案内だけここで足す
+    if (url.pathname === "/robots.txt" || url.pathname === "/llms.txt") {
+      const r = await env.ASSETS.fetch(req);
+      if (!r.ok) return r;
+      const t = await r.text();
+      const add = url.pathname === "/robots.txt" ? `Sitemap: ${SITE}/sitemap-art-catalog.xml\n`
+        : `\n## Artist catalog (English)\n\n- [Artist catalog](${SITE}/en/art/catalog/): ${(await artCatalog(env)).rows.length} artists compiled from museum open data (The Met, National Gallery of Art, Cleveland Museum of Art, Art Institute of Chicago, MoMA) and Wikidata. Japanese artists include kanji names and periods. Each page: /en/art/catalog/<id>/ (Japanese: /art/catalog/<id>/).\n`;
+      return new Response(t.replace(/\s*$/, "\n") + add, { headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "public, max-age=3600" } });
     }
     if (url.pathname === "/api" || url.pathname === "/api/") {
       const cat = await catalog(env);

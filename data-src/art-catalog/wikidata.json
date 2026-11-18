@@ -12,8 +12,14 @@
 ],
 "work": {
 "file": "\"The School of Athens\" by Raffaello Sanzio da Urbino.jpg",
-"title": "アテナイの学堂"
-}
+"title": "アテナイの学堂",
+"titleEn": "The School of Athens"
+},
+"en": "Raphael",
+"movementsEn": [
+"High Renaissance",
+"Italian Renaissance"
+]
 },
 "Q5669": {
 "retrieved": "2026-11-18",
@@ -25,8 +31,14 @@
 ],
 "work": {
 "file": "Sandro Botticelli - La nascita di Venere - Google Art Project - edited.jpg",
-"title": "ヴィーナスの誕生"
-}
+"title": "ヴィーナスの誕生",
+"titleEn": "The Birth of Venus"
+},
+"en": "Sandro Botticelli",
+"movementsEn": [
+"Florentine School",
+"Early Renaissance"
+]
 },
 "Q318769": {
 "retrieved": "2026-11-18",
@@ -38,8 +50,13 @@
 ],
 "work": {
 "file": "Guardi - Le Départ du Bucentaure vers le Lido de Venise, le jour de l'Ascension, vers 1770 - 1780, INV 20009.jpg",
-"title": "昇天祭の日にリード島に出航するブチェンタウロ"
-}
+"title": "昇天祭の日にリード島に出航するブチェンタウロ",
+"titleEn": "The Doge Alvise IV. Mocenigo on the Bucentaur near the Riva di Sant'Elena"
+},
+"en": "Francesco Guardi",
+"movementsEn": [
+"Rococo"
+]
 },
 "Q333380": {
 "retrieved": "2026-11-18",
@@ -51,8 +68,13 @@
 ],
 "work": {
 "file": "Gerard David Tryptique de la famille Sedano Bruges 1523.jpg",
-"title": "セダノ家の三連祭壇画"
-}
+"title": "セダノ家の三連祭壇画",
+"titleEn": "Triptych of the Sedano family"
+},
+"en": "Gerard David",
+"movementsEn": [
+"Early Netherlandish painting"
+]
 },
 "Q334262": {
 "retrieved": "2026-11-18",
@@ -64,8 +86,13 @@
 ],
 "work": {
 "file": "Et-in-Arcadia-ego.jpg",
-"title": "われアルカディアにもありき"
-}
+"title": "われアルカディアにもありき",
+"titleEn": "Et in Arcadia ego"
+},
+"en": "Guercino",
+"movementsEn": [
+"Baroque"
+]
 },
 "Q348024": {
 "retrieved": "2026-11-18",
@@ -77,8 +104,13 @@
 ],
 "work": {
 "file": "Crivelli Carlo, Annunciation.jpg",
-"title": "聖エミディウスのいる受胎告知"
-}
+"title": "聖エミディウスのいる受胎告知",
+"titleEn": "The Annunciation, with Saint Emidius"
+},
+"en": "Carlo Crivelli",
+"movementsEn": [
+"Gothic art"
+]
 },
 "Q381248": {
 "retrieved": "2026-11-18",
@@ -93,8 +125,14 @@
 ],
 "work": {
 "file": "James Tissot - The Circle of the Rue Royale - Google Art Project.jpg",
-"title": "サークル"
-}
+"title": "サークル",
+"titleEn": "Le Cercle de la rue Royale"
+},
+"en": "James Tissot",
+"movementsEn": [
+"realism",
+"Japonisme"
+]
 },
 "Q83155": {
 "retrieved": "2026-11-18",
@@ -106,8 +144,13 @@
 ],
 "work": {
 "file": "David - Napoleon crossing the Alps - Malmaison2.jpg",
-"title": "サン＝ベルナール峠を越えるボナパルト"
-}
+"title": "サン＝ベルナール峠を越えるボナパルト",
+"titleEn": "Napoleon Crossing the Alps"
+},
+"en": "Jacques-Louis David",
+"movementsEn": [
+"Neoclassicism"
+]
 },
 "Q104884": {
 "retrieved": "2026-11-18",
@@ -119,8 +162,13 @@
 ],
 "work": {
 "file": "Friedrich, Caspar David - Eismeer.jpg",
-"title": "氷の海"
-}
+"title": "氷の海",
+"titleEn": "The Sea of Ice"
+},
+"en": "Caspar David Friedrich",
+"movementsEn": [
+"German Romanticism"
+]
 },
 "Q148475": {
 "retrieved": "2026-11-18",
@@ -135,8 +183,14 @@
 ],
 "work": {
 "file": "Le pont de Narni - Jean-Baptiste Camille Corot - Musée du Louvre Peintures RF 1613 - photo 2.jpg",
-"title": "ナルニの橋"
-}
+"title": "ナルニの橋",
+"titleEn": "The Bridge at Narni"
+},
+"en": "Jean-Baptiste Camille Corot",
+"movementsEn": [
+"French Realism",
+"Barbizon school"
+]
 },
 "Q342467": {
 "retrieved": "2026-11-18",
@@ -151,8 +205,14 @@
 ],
 "work": {
 "file": "1838 Théodore Chasseriau - Venus Anadyomene.jpg",
-"title": "海から上がるヴィーナス"
-}
+"title": "海から上がるヴィーナス",
+"titleEn": "Venus of the sea"
+},
+"en": "Théodore Chassériau",
+"movementsEn": [
+"Orientalism",
+"Romanticism"
+]
 },
 "Q346808": {
 "retrieved": "2026-11-18",
@@ -164,8 +224,13 @@
 ],
 "work": {
 "file": "Helena van der Schalcke Rijksmuseum SK-A-1786.jpeg",
-"title": "ヘレナ・ファン・デル・スハルケの肖像"
-}
+"title": "ヘレナ・ファン・デル・スハルケの肖像",
+"titleEn": "Portrait of Helena van der Schalcke"
+},
+"en": "Gerard ter Borch",
+"movementsEn": [
+"Baroque"
+]
 },
 "Q347139": {
 "retrieved": "2026-11-18",
@@ -177,16 +242,23 @@
 ],
 "work": {
 "file": "Jean-Baptiste Greuze - The Village Agreement.jpg",
-"title": "村の花嫁"
-}
+"title": "村の花嫁",
+"titleEn": "The Village Bride"
+},
+"en": "Jean-Baptiste Greuze",
+"movementsEn": [
+"Rococo"
+]
 },
 "Q352438": {
 "retrieved": "2026-11-18",
 "ja": "アドリアーン・ファン・オスターデ",
 "work": {
 "file": "Adriaen van Ostade 038.jpg",
-"title": "魚市場 (オスターデの絵画)"
-}
+"title": "魚市場 (オスターデの絵画)",
+"titleEn": "The Fish Market"
+},
+"en": "Adriaen van Ostade"
 },
 "Q5582": {
 "retrieved": "2026-11-18",
@@ -201,8 +273,14 @@
 ],
 "work": {
 "file": "Van Gogh - Starry Night - Google Art Project.jpg",
-"title": "星月夜"
-}
+"title": "星月夜",
+"titleEn": "The Starry Night"
+},
+"en": "Vincent van Gogh",
+"movementsEn": [
+"Expressionism",
+"Post-impressionism"
+]
 },
 "Q5599": {
 "retrieved": "2026-11-18",
@@ -214,8 +292,14 @@
 ],
 "work": {
 "file": "Peter Paul Rubens - Rubens and Isabella Brant in the honeysuckle bower.jpg",
-"title": "ルーベンスとイザベラ・ブラント"
-}
+"title": "ルーベンスとイザベラ・ブラント",
+"titleEn": "Rubens and Isabella Brant in the honeysuckle bower"
+},
+"en": "Peter Paul Rubens",
+"movementsEn": [
+"Flemish Baroque painting",
+"Baroque"
+]
 },
 "Q5598": {
 "retrieved": "2026-11-18",
@@ -227,8 +311,13 @@
 ],
 "work": {
 "file": "La ronda de noche, por Rembrandt van Rijn.jpg",
-"title": "夜警"
-}
+"title": "夜警",
+"titleEn": "The Night Watch"
+},
+"en": "Rembrandt",
+"movementsEn": [
+"Dutch Golden Age painting"
+]
 },
 "Q109061": {
 "retrieved": "2026-11-18",
@@ -240,8 +329,13 @@
 ],
 "work": {
 "file": "Guido Reni - Massacre of the Innocents - Pinacoteca Nazionale Bologna.jpg",
-"title": "嬰児虐殺"
-}
+"title": "嬰児虐殺",
+"titleEn": "Massacre of the Innocents"
+},
+"en": "Guido Reni",
+"movementsEn": [
+"Baroque"
+]
 },
 "Q148458": {
 "retrieved": "2026-11-18",
@@ -253,8 +347,13 @@
 ],
 "work": {
 "file": "JEAN-FRANÇOIS MILLET - El Ángelus (Museo de Orsay, 1857-1859. Óleo sobre lienzo, 55.5 x 66 cm).jpg",
-"title": "晩鐘"
-}
+"title": "晩鐘",
+"titleEn": "The Angelus"
+},
+"en": "Jean-François Millet",
+"movementsEn": [
+"French Realism"
+]
 },
 "Q405444": {
 "retrieved": "2026-11-18",
@@ -266,8 +365,13 @@
 ],
 "work": {
 "file": "Oyuki.jpg",
-"title": "幽霊図"
-}
+"title": "幽霊図",
+"titleEn": "The Ghost of Oyuki"
+},
+"en": "Maruyama Ōkyo",
+"movementsEn": [
+"Maruyama school"
+]
 },
 "Q156386": {
 "retrieved": "2026-11-18",
@@ -285,8 +389,15 @@
 ],
 "work": {
 "file": "Surprised-Rousseau.jpg",
-"title": "熱帯嵐のなかのトラ"
-}
+"title": "熱帯嵐のなかのトラ",
+"titleEn": "Tiger in a Tropical Storm"
+},
+"en": "Henri Rousseau",
+"movementsEn": [
+"naïve art",
+"primitivism",
+"Post-impressionism"
+]
 },
 "Q167654": {
 "retrieved": "2026-11-18",
@@ -301,8 +412,14 @@
 ],
 "work": {
 "file": "Frans Hals 042.jpg",
-"title": "剣を持ってポーズをとるウィレム・ファン・ヘイトゥイセン"
-}
+"title": "剣を持ってポーズをとるウィレム・ファン・ヘイトゥイセン",
+"titleEn": "Willem van Heythuysen posing with a sword"
+},
+"en": "Frans Hals",
+"movementsEn": [
+"Dutch Golden Age painting",
+"Baroque"
+]
 },
 "Q82445": {
 "retrieved": "2026-11-18",
@@ -314,8 +431,13 @@
 ],
 "work": {
 "file": "Henri de Toulouse-Lautrec - At the Moulin Rouge - 1928.610 - Art Institute of Chicago.jpg",
-"title": "ムーラン・ルージュ"
-}
+"title": "ムーラン・ルージュ",
+"titleEn": "At the Moulin Rouge"
+},
+"en": "Henri de Toulouse-Lautrec",
+"movementsEn": [
+"Post-impressionism"
+]
 },
 "Q105320": {
 "retrieved": "2026-11-18",
@@ -327,8 +449,13 @@
 ],
 "work": {
 "file": "Berthe Morisot, The Harbor at Lorient, 1869, NGA 52192.jpg",
-"title": "ロリアンの港"
-}
+"title": "ロリアンの港",
+"titleEn": "The Port at Lorient"
+},
+"en": "Berthe Morisot",
+"movementsEn": [
+"Impressionism"
+]
 },
 "Q127171": {
 "retrieved": "2026-11-18",
@@ -340,8 +467,13 @@
 ],
 "work": {
 "file": "Le Verrou - Jean-Honoré Fragonard - Musée du Louvre Peintures RF 1974 2.jpg",
-"title": "閂 (絵画)"
-}
+"title": "閂 (絵画)",
+"titleEn": "The Lock"
+},
+"en": "Jean-Honoré Fragonard",
+"movementsEn": [
+"Rococo"
+]
 },
 "Q150679": {
 "retrieved": "2026-11-18",
@@ -353,16 +485,23 @@
 ],
 "work": {
 "file": "Anthony van Dyck - Jupiter and Antiope - WGA07440.jpg",
-"title": "ユピテルとアンティオペ"
-}
+"title": "ユピテルとアンティオペ",
+"titleEn": "Jupiter and Antiope"
+},
+"en": "Anthony van Dyck",
+"movementsEn": [
+"Baroque painting"
+]
 },
 "Q118798": {
 "retrieved": "2026-11-18",
 "ja": "ウォルト・クーン",
 "work": {
 "file": "ArmoryShow poster.jpg",
-"title": "武器庫ショー"
-}
+"title": "武器庫ショー",
+"titleEn": "Armory Show"
+},
+"en": "Walt Kuhn"
 },
 "Q120993": {
 "retrieved": "2026-11-18",
@@ -374,8 +513,13 @@
 ],
 "work": {
 "file": "Amedeo Modigliani 028.jpg",
-"title": "扇を持つ女性"
-}
+"title": "扇を持つ女性",
+"titleEn": "Ritratto di Lunia Czechowska con ventaglio"
+},
+"en": "Amedeo Modigliani",
+"movementsEn": [
+"modern art"
+]
 },
 "Q297": {
 "retrieved": "2026-11-18",
@@ -387,8 +531,13 @@
 ],
 "work": {
 "file": "Las Meninas, by Diego Velázquez, from Prado in Google Earth.jpg",
-"title": "ラス・メニーナス"
-}
+"title": "ラス・メニーナス",
+"titleEn": "Las Meninas"
+},
+"en": "Diego Velázquez",
+"movementsEn": [
+"Baroque"
+]
 },
 "Q5586": {
 "retrieved": "2026-11-18",
@@ -409,8 +558,16 @@
 ],
 "work": {
 "file": "Red Fuji southern wind clear morning.jpg",
-"title": "富嶽三十六景"
-}
+"title": "富嶽三十六景",
+"titleEn": "Thirty-six Views of Mount Fuji"
+},
+"en": "Katsushika Hokusai",
+"movementsEn": [
+"Kasei culture",
+"Japonisme",
+"ukiyo-e",
+"woodblock printing in Japan"
+]
 },
 "Q7824": {
 "retrieved": "2026-11-18",
@@ -422,8 +579,13 @@
 ],
 "work": {
 "file": "CarracciHercules.jpg",
-"title": "分かれ道のヘラクレス (カラッチ)"
-}
+"title": "分かれ道のヘラクレス (カラッチ)",
+"titleEn": "The Choice of Hercules"
+},
+"en": "Annibale Carracci",
+"movementsEn": [
+"Baroque"
+]
 },
 "Q5681": {
 "retrieved": "2026-11-18",
@@ -435,8 +597,13 @@
 ],
 "work": {
 "file": "Lamentación sobre Cristo muerto, por Andrea Mantegna.jpg",
-"title": "死せるキリスト"
-}
+"title": "死せるキリスト",
+"titleEn": "Lamentation of Christ"
+},
+"en": "Andrea Mantegna",
+"movementsEn": [
+"Italian Renaissance"
+]
 },
 "Q296": {
 "retrieved": "2026-11-18",
@@ -448,8 +615,13 @@
 ],
 "work": {
 "file": "Claude Monet - Jardin à Sainte-Adresse.jpg",
-"title": "サン＝タドレスのテラス"
-}
+"title": "サン＝タドレスのテラス",
+"titleEn": "Garden at Sainte-Adresse"
+},
+"en": "Claude Monet",
+"movementsEn": [
+"Impressionism"
+]
 },
 "Q5432": {
 "retrieved": "2026-11-18",
@@ -464,8 +636,14 @@
 ],
 "work": {
 "file": "San Bernardino de Siena (Goya).jpg",
-"title": "アラゴンのアルフォンソ5世の前で説教するシエナの聖ベルナルディーノ"
-}
+"title": "アラゴンのアルフォンソ5世の前で説教するシエナの聖ベルナルディーノ",
+"titleEn": "San Bernardino of Siena preaching before Alfonso V of Aragon"
+},
+"en": "Francisco Goya",
+"movementsEn": [
+"Rococo",
+"Romanticism"
+]
 },
 "Q123098": {
 "retrieved": "2026-11-18",
@@ -477,8 +655,13 @@
 ],
 "work": {
 "file": "Angelika Kauffmann - Bildnis Johann Joachim Winckelmann - 98 - Kunsthaus Zürich.jpg",
-"title": "ヨハン・ヨアヒム・ヴィンケルマンの肖像"
-}
+"title": "ヨハン・ヨアヒム・ヴィンケルマンの肖像",
+"titleEn": "Portrait of Winckelmann"
+},
+"en": "Angelica Kauffmann",
+"movementsEn": [
+"Neoclassicism"
+]
 },
 "Q301": {
 "retrieved": "2026-11-18",
@@ -490,8 +673,14 @@
 ],
 "work": {
 "file": "El Greco - The Burial of the Count of Orgaz.JPG",
-"title": "オルガス伯の埋葬"
-}
+"title": "オルガス伯の埋葬",
+"titleEn": "The Burial of the Count of Orgaz"
+},
+"en": "El Greco",
+"movementsEn": [
+"Spanish Renaissance",
+"Mannerism"
+]
 },
 "Q152384": {
 "retrieved": "2026-11-18",
@@ -503,8 +692,13 @@
 ],
 "work": {
 "file": "Dona i Ocell.JPG",
-"title": "ドナ・イ・オセル（女性と鳥）"
-}
+"title": "ドナ・イ・オセル（女性と鳥）",
+"titleEn": "Dona i Ocell"
+},
+"en": "Joan Miró",
+"movementsEn": [
+"surrealism"
+]
 },
 "Q155626": {
 "retrieved": "2026-11-18",
@@ -516,8 +710,12 @@
 ],
 "work": {
 "file": "John Singer Sargent 001.jpg",
-"title": "エドワード・D・ボイトの娘たち"
-}
+"title": "エドワード・D・ボイトの娘たち",
+"titleEn": "The Daughters of Edward Darley Boit"
+},
+"movementsEn": [
+"Impressionism"
+]
 },
 "Q159758": {
 "retrieved": "2026-11-18",
@@ -529,8 +727,14 @@
 ],
 "work": {
 "file": "Turner, The Battle of Trafalgar (1822).jpg",
-"title": "トラファルガーの海戦 (ターナー)"
-}
+"title": "トラファルガーの海戦 (ターナー)",
+"titleEn": "The Battle of Trafalgar"
+},
+"en": "J. M. W. Turner",
+"movementsEn": [
+"English painting",
+"Romanticism"
+]
 },
 "Q5589": {
 "retrieved": "2026-11-18",
@@ -554,8 +758,17 @@
 ],
 "work": {
 "file": "La Danse I, par Henri Matisse.jpg",
-"title": "ダンス I"
-}
+"title": "ダンス I",
+"titleEn": "Dance"
+},
+"en": "Henri Matisse",
+"movementsEn": [
+"divisionism",
+"Fauvism",
+"Post-impressionism",
+"Neo-impressionism",
+"Impressionism"
+]
 },
 "Q5593": {
 "retrieved": "2026-11-18",
@@ -573,8 +786,15 @@
 ],
 "work": {
 "file": "Mural del \"Guernica\" de Picasso.jpg",
-"title": "ゲルニカ"
-}
+"title": "ゲルニカ",
+"titleEn": "Guernica"
+},
+"en": "Pablo Picasso",
+"movementsEn": [
+"Post-impressionism",
+"surrealism",
+"cubism"
+]
 },
 "Q151803": {
 "retrieved": "2026-11-18",
@@ -592,8 +812,15 @@
 ],
 "work": {
 "file": "Piet Mondrian, 1942 - Broadway Boogie Woogie.jpg",
-"title": "ブロードウェイ・ブギウギ"
-}
+"title": "ブロードウェイ・ブギウギ",
+"titleEn": "Broadway Boogie Woogie"
+},
+"en": "Piet Mondrian",
+"movementsEn": [
+"De Stijl",
+"Symbolism",
+"Post-impressionism"
+]
 },
 "Q159297": {
 "retrieved": "2026-11-18",
@@ -608,8 +835,14 @@
 ],
 "work": {
 "file": "Constable Salisbury meadows.jpg",
-"title": "草原から見たソールズベリー大聖堂"
-}
+"title": "草原から見たソールズベリー大聖堂",
+"titleEn": "Salisbury Cathedral from the Meadows"
+},
+"en": "John Constable",
+"movementsEn": [
+"realism",
+"Romanticism"
+]
 },
 "Q154349": {
 "retrieved": "2026-11-18",
@@ -621,8 +854,13 @@
 ],
 "work": {
 "file": "Odilon Redon - The Cyclops, c. 1914.jpg",
-"title": "The Cyclops (Redon)"
-}
+"title": "The Cyclops (Redon)",
+"titleEn": "The Cyclops"
+},
+"en": "Odilon Redon",
+"movementsEn": [
+"Symbolism"
+]
 },
 "Q164696": {
 "retrieved": "2026-11-18",
@@ -634,8 +872,13 @@
 ],
 "work": {
 "file": "Hans baldus grien, copia da durer, adamo ed eva.jpg",
-"title": "アダムとイヴ"
-}
+"title": "アダムとイヴ",
+"titleEn": "Adam and Eve"
+},
+"en": "Hans Baldung Grien",
+"movementsEn": [
+"German Renaissance"
+]
 },
 "Q5580": {
 "retrieved": "2026-11-18",
@@ -647,8 +890,12 @@
 ],
 "work": {
 "file": "Albrecht Dürer - Praying Hands, 1508 - Google Art Project.jpg",
-"title": "祈る手"
-}
+"title": "祈る手",
+"titleEn": "Praying Hands"
+},
+"movementsEn": [
+"German Renaissance"
+]
 },
 "Q123740": {
 "retrieved": "2026-11-18",
@@ -672,8 +919,16 @@
 ],
 "work": {
 "file": "Epreuve-justificative-de-la-destruction-des-bois-1898.jpg",
-"title": "アンティミテ"
-}
+"title": "アンティミテ",
+"titleEn": "Intimités"
+},
+"movementsEn": [
+"Les Nabis",
+"Symbolism",
+"Post-impressionism",
+"Impressionism",
+"Art Nouveau"
+]
 },
 "Q7836": {
 "retrieved": "2026-11-18",
@@ -685,8 +940,13 @@
 ],
 "work": {
 "file": "Magritte treachery.jpg",
-"title": "イメージの裏切り"
-}
+"title": "イメージの裏切り",
+"titleEn": "The Treachery of Images"
+},
+"en": "René Magritte",
+"movementsEn": [
+"Belgian surrealism"
+]
 },
 "Q200798": {
 "retrieved": "2026-11-18",
@@ -701,8 +961,14 @@
 ],
 "work": {
 "file": "Hiroshige Full moon over a mountain landscape.jpg",
-"title": "近江八景"
-}
+"title": "近江八景",
+"titleEn": "Eight Views of Ōmi"
+},
+"en": "Utagawa Hiroshige",
+"movementsEn": [
+"Utagawa school",
+"Kasei culture"
+]
 },
 "Q34618": {
 "retrieved": "2026-11-18",
@@ -714,8 +980,13 @@
 ],
 "work": {
 "file": "Gustave Courbet - Le Sommeil (1866), Paris, Petit Palais.jpg",
-"title": "眠り"
-}
+"title": "眠り",
+"titleEn": "The Sleepers"
+},
+"en": "Gustave Courbet",
+"movementsEn": [
+"French Realism"
+]
 },
 "Q205863": {
 "retrieved": "2026-11-18",
@@ -727,8 +998,13 @@
 ],
 "work": {
 "file": "Jan Havicksz. Steen – Het Sint-Nicolaasfeest – Google Art Project.jpg",
-"title": "聖ニコラウスのお祭り"
-}
+"title": "聖ニコラウスのお祭り",
+"titleEn": "The Feast of Saint Nicholas"
+},
+"en": "Jan Steen",
+"movementsEn": [
+"Dutch Golden Age painting"
+]
 },
 "Q17169": {
 "retrieved": "2026-11-18",
@@ -740,8 +1016,13 @@
 ],
 "work": {
 "file": "Andrea previtali e giovanni bellini, allegorie, 1490 ca. 01.JPG",
-"title": "四つの寓意 (ベッリーニ)"
-}
+"title": "四つの寓意 (ベッリーニ)",
+"titleEn": "Allegories"
+},
+"en": "Giovanni Bellini",
+"movementsEn": [
+"Renaissance"
+]
 },
 "Q23380": {
 "retrieved": "2026-11-18",
@@ -756,8 +1037,14 @@
 ],
 "work": {
 "file": "Jean-Auguste-Dominique Ingres - La maladie d'Antiochus, ou Antiochus et Stratonice - Google Art Project.jpg",
-"title": "アンティオコスとストラトニケ"
-}
+"title": "アンティオコスとストラトニケ",
+"titleEn": "Antiochus and Stratonice"
+},
+"en": "Jean-Auguste-Dominique Ingres",
+"movementsEn": [
+"Romanticism",
+"Neoclassicism"
+]
 },
 "Q33477": {
 "retrieved": "2026-11-18",
@@ -769,16 +1056,23 @@
 ],
 "work": {
 "file": "Palais Bourbon, Malerei in der Kuppel der Theologie, Szene- Babylonische Gefangenschaft (Eugène Delacroix).jpg",
-"title": "バビロン捕囚"
-}
+"title": "バビロン捕囚",
+"titleEn": "Babylonian Captivity"
+},
+"en": "Eugène Delacroix",
+"movementsEn": [
+"Romanticism"
+]
 },
 "Q336908": {
 "retrieved": "2026-11-18",
 "ja": "メインデルト・ホッベマ",
 "work": {
 "file": "Meindert Hobbema 001.jpg",
-"title": "ミッデルハルニスの並木道"
-}
+"title": "ミッデルハルニスの並木道",
+"titleEn": "The Avenue at Middelharnis"
+},
+"en": "Meindert Hobbema"
 },
 "Q346502": {
 "retrieved": "2026-11-18",
@@ -790,8 +1084,13 @@
 ],
 "work": {
 "file": "Bassano-Chiens-Louvre.jpg",
-"title": "切り株につながれた2頭の猟犬"
-}
+"title": "切り株につながれた2頭の猟犬",
+"titleEn": "Two Hounds"
+},
+"en": "Jacopo Bassano",
+"movementsEn": [
+"Venetian school"
+]
 },
 "Q354786": {
 "retrieved": "2026-11-18",
@@ -803,8 +1102,13 @@
 ],
 "work": {
 "file": "Jean-Louis-Ernest Meissonier-Campagne de France.jpg",
-"title": "1814年のフランス戦役でのナポレオン."
-}
+"title": "1814年のフランス戦役でのナポレオン.",
+"titleEn": "1814, La Campagne de France"
+},
+"en": "Jean-Louis-Ernest Meissonier",
+"movementsEn": [
+"academic art"
+]
 },
 "Q359421": {
 "retrieved": "2026-11-18",
@@ -816,16 +1120,23 @@
 ],
 "work": {
 "file": "Salvator Rosa - The Shade of Samuel Appears to Saul - WGA20058.jpg",
-"title": "エンドルの女霊媒師のもとでサウルに現れるサムエルの亡霊"
-}
+"title": "エンドルの女霊媒師のもとでサウルに現れるサムエルの亡霊",
+"titleEn": "Saul and the Witch of Endor"
+},
+"en": "Salvator Rosa",
+"movementsEn": [
+"Baroque"
+]
 },
 "Q164688": {
 "retrieved": "2026-11-18",
 "ja": "ベルナルド・ベッロット",
 "work": {
 "file": "Canaletto - Dresden seen from the Right Bank of the Elbe, beneath the Augusts Bridge - Google Art Project.jpg",
-"title": "アウグストゥス橋下流のエルベ川右岸から見たドレスデン"
-}
+"title": "アウグストゥス橋下流のエルベ川右岸から見たドレスデン",
+"titleEn": "Dresden From the Right Bank of the Elbe Below the Augustus Bridge"
+},
+"en": "Bernardo Bellotto"
 },
 "Q40599": {
 "retrieved": "2026-11-18",
@@ -837,8 +1148,13 @@
 ],
 "work": {
 "file": "Edouard Manet - Luncheon on the Grass - Google Art Project.jpg",
-"title": "草上の昼食"
-}
+"title": "草上の昼食",
+"titleEn": "Luncheon on the Grass"
+},
+"en": "Édouard Manet",
+"movementsEn": [
+"Impressionism"
+]
 },
 "Q41264": {
 "retrieved": "2026-11-18",
@@ -853,8 +1169,14 @@
 ],
 "work": {
 "file": "Johannes Vermeer - Het melkmeisje - Google Art Project.jpg",
-"title": "牛乳を注ぐ女"
-}
+"title": "牛乳を注ぐ女",
+"titleEn": "The Milkmaid"
+},
+"en": "Johannes Vermeer",
+"movementsEn": [
+"Dutch Golden Age painting",
+"Baroque painting"
+]
 },
 "Q184212": {
 "retrieved": "2026-11-18",
@@ -866,8 +1188,13 @@
 ],
 "work": {
 "file": "JEAN LOUIS THÉODORE GÉRICAULT - La Balsa de la Medusa (Museo del Louvre, 1818-19).jpg",
-"title": "メデューズ号の筏"
-}
+"title": "メデューズ号の筏",
+"titleEn": "The Raft of the Medusa"
+},
+"en": "Théodore Géricault",
+"movementsEn": [
+"Romanticism"
+]
 },
 "Q9440": {
 "retrieved": "2026-11-18",
@@ -885,8 +1212,16 @@
 ],
 "work": {
 "file": "Les Noces de Cana - Paolo Veronese - Musée du Louvre Peintures INV 142 ; MR 384.jpg",
-"title": "カナの婚礼"
-}
+"title": "カナの婚礼",
+"titleEn": "The Wedding at Cana"
+},
+"en": "Paolo Veronese",
+"movementsEn": [
+"Veronese school",
+"High Renaissance",
+"Venetian school",
+"Mannerism"
+]
 },
 "Q209615": {
 "retrieved": "2026-11-18",
@@ -898,8 +1233,13 @@
 ],
 "work": {
 "file": "Francisco de Zurbarán - Immaculate Conception - Google Art Project.jpg",
-"title": "無原罪の御宿り (スルバラン、カタルーニャ美術館)"
-}
+"title": "無原罪の御宿り (スルバラン、カタルーニャ美術館)",
+"titleEn": "Immaculate Conception"
+},
+"en": "Francisco de Zurbarán",
+"movementsEn": [
+"Baroque"
+]
 },
 "Q212499": {
 "retrieved": "2026-11-18",
@@ -917,8 +1257,16 @@
 ],
 "work": {
 "file": "Jean-Léon Gérôme - Vente d'esclaves à Rome, 1884.jpg",
-"title": "ローマの奴隷販売"
-}
+"title": "ローマの奴隷販売",
+"titleEn": "Slave Market in Rome"
+},
+"en": "Jean-Léon Gérôme",
+"movementsEn": [
+"neo-Pompeian",
+"Neo-Grec",
+"academic art",
+"Orientalism"
+]
 },
 "Q34661": {
 "retrieved": "2026-11-18",
@@ -936,8 +1284,15 @@
 ],
 "work": {
 "file": "Gustav Klimt, 1907, Adele Bloch-Bauer I, Neue Galerie New York.jpg",
-"title": "アデーレ・ブロッホ＝バウアーの肖像 I"
-}
+"title": "アデーレ・ブロッホ＝バウアーの肖像 I",
+"titleEn": "Portrait of Adele Bloch-Bauer I"
+},
+"en": "Gustav Klimt",
+"movementsEn": [
+"Jugendstil",
+"Symbolism",
+"Art Nouveau"
+]
 },
 "Q47551": {
 "retrieved": "2026-11-18",
@@ -952,8 +1307,14 @@
 ],
 "work": {
 "file": "Portrait d'une Femme à sa Toilette, by Titian, from C2RMF retouched.jpg",
-"title": "鏡の前の女"
-}
+"title": "鏡の前の女",
+"titleEn": "Woman with a Mirror"
+},
+"en": "Titian",
+"movementsEn": [
+"High Renaissance",
+"Venetian school"
+]
 },
 "Q43270": {
 "retrieved": "2026-11-18",
@@ -965,8 +1326,14 @@
 ],
 "work": {
 "file": "Pieter Bruegel (der Ältere) (ca. 1525 - 1569) - Zwei angekettete Affen - 2077 - Gemäldegalerie.jpg",
-"title": "2匹の猿"
-}
+"title": "2匹の猿",
+"titleEn": "Two Chained Monkeys"
+},
+"en": "Pieter Bruegel the Elder",
+"movementsEn": [
+"Dutch and Flemish Renaissance painting",
+"Northern Renaissance"
+]
 },
 "Q203401": {
 "retrieved": "2026-11-18",
@@ -981,8 +1348,15 @@
 ],
 "work": {
 "file": "Nighthawks by Edward Hopper 1942.jpg",
-"title": "ナイトホークス"
-}
+"title": "ナイトホークス",
+"titleEn": "Nighthawks"
+},
+"en": "Edward Hopper",
+"movementsEn": [
+"American realism",
+"American scene painting",
+"neorealism"
+]
 },
 "Q37693": {
 "retrieved": "2026-11-18",
@@ -1012,8 +1386,19 @@
 ],
 "work": {
 "file": "Paul Gauguin Ia Orana Maria (Hail Mary) The Metropolitan Museum of Art1.jpg",
-"title": "イア・オラナ・マリア"
-}
+"title": "イア・オラナ・マリア",
+"titleEn": "Ia Orana Maria"
+},
+"en": "Paul Gauguin",
+"movementsEn": [
+"primitivism",
+"synthetism",
+"cloisonnism",
+"Pont-Aven School",
+"Symbolism",
+"Post-impressionism",
+"Impressionism"
+]
 },
 "Q39931": {
 "retrieved": "2026-11-18",
@@ -1025,8 +1410,13 @@
 ],
 "work": {
 "file": "Swing-Renoir.jpeg",
-"title": "ぶらんこ (ルノワールの絵画)"
-}
+"title": "ぶらんこ (ルノワールの絵画)",
+"titleEn": "The Swing"
+},
+"en": "Pierre-Auguste Renoir",
+"movementsEn": [
+"Impressionism"
+]
 },
 "Q41513": {
 "retrieved": "2026-11-18",
@@ -1041,8 +1431,14 @@
 ],
 "work": {
 "file": "Songs of Innocence and of Experience, copy Z, 1826 (Library of Congress) object 01 Frontispiece to Songs of Innocence.jpg",
-"title": "無垢と経験の歌"
-}
+"title": "無垢と経験の歌",
+"titleEn": "Songs of Innocence and of Experience"
+},
+"en": "William Blake",
+"movementsEn": [
+"fairy painting",
+"Romanticism"
+]
 },
 "Q203643": {
 "retrieved": "2026-11-18",
@@ -1054,8 +1450,13 @@
 ],
 "work": {
 "file": "Whistlers Mother high res.jpg",
-"title": "灰色と黒のアレンジメント-母の肖像"
-}
+"title": "灰色と黒のアレンジメント-母の肖像",
+"titleEn": "Whistler's Mother"
+},
+"en": "James McNeill Whistler",
+"movementsEn": [
+"Aestheticism"
+]
 },
 "Q34013": {
 "retrieved": "2026-11-18",
@@ -1073,8 +1474,15 @@
 ],
 "work": {
 "file": "A Sunday on La Grande Jatte, Georges Seurat, 1884.jpg",
-"title": "グランド・ジャット島の日曜日の午後"
-}
+"title": "グランド・ジャット島の日曜日の午後",
+"titleEn": "A Sunday Afternoon on the Island of La Grande Jatte"
+},
+"en": "Georges Seurat",
+"movementsEn": [
+"pointillism",
+"Post-impressionism",
+"Neo-impressionism"
+]
 },
 "Q171128": {
 "retrieved": "2026-11-18",
@@ -1089,8 +1497,14 @@
 ],
 "work": {
 "file": "Detroit Institute of Arts 2025b.jpg",
-"title": "デトロイト産業の壁画"
-}
+"title": "デトロイト産業の壁画",
+"titleEn": "Detroit Industry Murals"
+},
+"en": "Diego Rivera",
+"movementsEn": [
+"Mexican muralism",
+"social realism"
+]
 },
 "Q187506": {
 "retrieved": "2026-11-18",
@@ -1102,8 +1516,13 @@
 ],
 "work": {
 "file": "Honoré Daumier 016.jpg",
-"title": "洗濯女"
-}
+"title": "洗濯女",
+"titleEn": "The Laundress"
+},
+"en": "Honoré Daumier",
+"movementsEn": [
+"realism"
+]
 },
 "Q561916": {
 "retrieved": "2026-11-18",
@@ -1115,8 +1534,13 @@
 ],
 "work": {
 "file": "Reverend Robert Walker (1755 - 1808) Skating on Duddingston Loch.jpg",
-"title": "スケートをする牧師"
-}
+"title": "スケートをする牧師",
+"titleEn": "The Skating Minister"
+},
+"en": "Henry Raeburn",
+"movementsEn": [
+"Romanticism"
+]
 },
 "Q41402": {
 "retrieved": "2026-11-18",
@@ -1128,8 +1552,13 @@
 ],
 "work": {
 "file": "Gilbert Stuart - George Washington (Lansdowne Portrait) - Google Art Project.jpg",
-"title": "ランズダウンの肖像"
-}
+"title": "ランズダウンの肖像",
+"titleEn": "Lansdowne Portrait"
+},
+"en": "Gilbert Stuart",
+"movementsEn": [
+"Neoclassicism"
+]
 },
 "Q192720": {
 "retrieved": "2026-11-18",
@@ -1141,8 +1570,14 @@
 ],
 "work": {
 "file": "Thomas Gainsborough - Mr. und Mrs. Andrews (c. 1750).jpg",
-"title": "アンドリューズ夫妻"
-}
+"title": "アンドリューズ夫妻",
+"titleEn": "Mr and Mrs Andrews"
+},
+"en": "Thomas Gainsborough",
+"movementsEn": [
+"English painting",
+"Rococo"
+]
 },
 "Q191748": {
 "retrieved": "2026-11-18",
@@ -1154,16 +1589,23 @@
 ],
 "work": {
 "file": "Lucas Cranach d.Ä. - Drei Grazien, 1531 (Musée du Louvre).jpg",
-"title": "三美神"
-}
+"title": "三美神",
+"titleEn": "The Three Graces"
+},
+"en": "Lucas Cranach the Elder",
+"movementsEn": [
+"German Renaissance"
+]
 },
 "Q207447": {
 "retrieved": "2026-11-18",
 "ja": "ジャン・シメオン・シャルダン",
 "work": {
 "file": "Les Attributs de la musique - Jean Siméon Chardin - Musée du Louvre Peintures INV 3200 ; B 497.jpg",
-"title": "音楽の象徴、芸術の象徴、科学の象徴"
-}
+"title": "音楽の象徴、芸術の象徴、科学の象徴",
+"titleEn": "Allegory of Music, Arts and Science"
+},
+"en": "Jean-Baptiste-Siméon Chardin"
 },
 "Q5571": {
 "retrieved": "2026-11-18",
@@ -1175,8 +1617,13 @@
 ],
 "work": {
 "file": "Andrea del Sarto - Virgin and Child between St Francis of Assisi and St John the Evangelist ('Madonna of the Harpies'), 1517, 1890 no.1577.jpg",
-"title": "ハルピュイアの聖母"
-}
+"title": "ハルピュイアの聖母",
+"titleEn": "Madonna of the Harpies"
+},
+"en": "Andrea del Sarto",
+"movementsEn": [
+"High Renaissance"
+]
 },
 "Q180932": {
 "retrieved": "2026-11-18",
@@ -1188,8 +1635,13 @@
 ],
 "work": {
 "file": "Resting Girl by François Boucher (1753) - Alte Pinakothek - Munich - Germany 2017 (crop).jpg",
-"title": "黄金のオダリスク"
-}
+"title": "黄金のオダリスク",
+"titleEn": "Blond Odalisque"
+},
+"en": "François Boucher",
+"movementsEn": [
+"Rococo"
+]
 },
 "Q440369": {
 "retrieved": "2026-11-18",
@@ -1207,8 +1659,15 @@
 ],
 "work": {
 "file": "Maurice Denis Homage to Cezanne 1900.jpg",
-"title": "セザンヌ礼賛"
-}
+"title": "セザンヌ礼賛",
+"titleEn": "Homage to Cézanne"
+},
+"en": "Maurice Denis",
+"movementsEn": [
+"Pont-Aven School",
+"Les Nabis",
+"Symbolism"
+]
 },
 "Q35548": {
 "retrieved": "2026-11-18",
@@ -1220,8 +1679,13 @@
 ],
 "work": {
 "file": "1904, Cézanne, Mont Sainte-Victoire.jpg",
-"title": "サント＝ヴィクトワール山"
-}
+"title": "サント＝ヴィクトワール山",
+"titleEn": "Mont Sainte-Victoire"
+},
+"en": "Paul Cézanne",
+"movementsEn": [
+"Post-impressionism"
+]
 },
 "Q41554": {
 "retrieved": "2026-11-18",
@@ -1233,8 +1697,13 @@
 ],
 "work": {
 "file": "Les Bergers d'Arcadie - Nicolas Poussin - Musée du Louvre Peintures INV 7300 ; MR 2339.jpg",
-"title": "我アルカディアにもあり"
-}
+"title": "我アルカディアにもあり",
+"titleEn": "Et in Arcadia ego"
+},
+"en": "Nicolas Poussin",
+"movementsEn": [
+"Classicism"
+]
 },
 "Q216999": {
 "retrieved": "2026-11-18",
@@ -1246,8 +1715,14 @@
 ],
 "work": {
 "file": "1801 Antoine-Jean Gros - Bonaparte on the Bridge at Arcole.jpg",
-"title": "アルコレ橋のボナパルト"
-}
+"title": "アルコレ橋のボナパルト",
+"titleEn": "Bonaparte at the Pont d'Arcole"
+},
+"en": "Antoine-Jean Gros",
+"movementsEn": [
+"Pre-romanticism",
+"Neoclassicism"
+]
 },
 "Q295144": {
 "retrieved": "2026-11-18",
@@ -1259,8 +1734,13 @@
 ],
 "work": {
 "file": "Gustave Caillebotte - Paris Street, Rainy Day - 1964.336 - Art Institute of Chicago.jpg",
-"title": "パリの通り、雨"
-}
+"title": "パリの通り、雨",
+"titleEn": "Paris Street; Rainy Day"
+},
+"en": "Gustave Caillebotte",
+"movementsEn": [
+"Impressionism"
+]
 },
 "Q310715": {
 "retrieved": "2026-11-18",
@@ -1278,8 +1758,15 @@
 ],
 "work": {
 "file": "Hommage à Delacroix - Henri Fantin-Latour.jpg",
-"title": "ドラクロワ礼賛"
-}
+"title": "ドラクロワ礼賛",
+"titleEn": "Homage to Delacroix"
+},
+"en": "Henri Fantin-Latour",
+"movementsEn": [
+"French Realism",
+"Symbolism",
+"Impressionism"
+]
 },
 "Q213612": {
 "retrieved": "2026-11-18",
@@ -1291,8 +1778,13 @@
 ],
 "work": {
 "file": "Jacob Isaaksz. van Ruisdael 003.jpg",
-"title": "光線"
-}
+"title": "光線",
+"titleEn": "The Ray of Light"
+},
+"en": "Jacob van Ruisdael",
+"movementsEn": [
+"Baroque painting"
+]
 },
 "Q252357": {
 "retrieved": "2026-11-18",
@@ -1304,8 +1796,13 @@
 ],
 "work": {
 "file": "Landscape by Charles-François Daubigny - BMA.jpg",
-"title": "風景"
-}
+"title": "風景",
+"titleEn": "Landscape"
+},
+"en": "Charles-François Daubigny",
+"movementsEn": [
+"Barbizon school"
+]
 },
 "Q272045": {
 "retrieved": "2026-11-18",
@@ -1317,16 +1814,23 @@
 ],
 "work": {
 "file": "Kitagawa Utamaro - Moonlight Revelry at Dozo Sagami - Google Art Project.jpg",
-"title": "土蔵相模月下遊宴図"
-}
+"title": "土蔵相模月下遊宴図",
+"titleEn": "Moonlight Revelry at Dozo Sagami"
+},
+"en": "Kitagawa Utamaro",
+"movementsEn": [
+"ukiyo-e"
+]
 },
 "Q1240575": {
 "retrieved": "2026-11-18",
 "ja": "伊藤若冲",
 "work": {
 "file": "Jakuchu - Cranes (1) - Google Art Project.jpg",
-"title": "鶴"
-}
+"title": "鶴",
+"titleEn": "Cranes"
+},
+"en": "Itō Jakuchū"
 },
 "Q1281252": {
 "retrieved": "2026-11-18",
@@ -1338,8 +1842,13 @@
 ],
 "work": {
 "file": "俵屋宗達《松島図》17世紀、フリーア美術館.jpg",
-"title": "松島図屏風"
-}
+"title": "松島図屏風",
+"titleEn": "Waves at Matsushima"
+},
+"en": "Tawara Sōtatsu",
+"movementsEn": [
+"Rimpa school"
+]
 },
 "Q46373": {
 "retrieved": "2026-11-18",
@@ -1351,8 +1860,13 @@
 ],
 "work": {
 "file": "Edgar Degas - Ludovic Lepic et ses Filles - 36 - Foundation E.G. Bührle Collection.jpg",
-"title": "リュドヴィック・ルピック伯爵と娘たち"
-}
+"title": "リュドヴィック・ルピック伯爵と娘たち",
+"titleEn": "Count Lepic and His Daughters"
+},
+"en": "Edgar Degas",
+"movementsEn": [
+"Impressionism"
+]
 },
 "Q48319": {
 "retrieved": "2026-11-18",
@@ -1367,8 +1881,14 @@
 ],
 "work": {
 "file": "Darmstadtmadonna.jpg",
-"title": "ダルムシュタットの聖母"
-}
+"title": "ダルムシュタットの聖母",
+"titleEn": "Darmstadt Madonna"
+},
+"en": "Hans Holbein the Younger",
+"movementsEn": [
+"German Renaissance",
+"Northern Renaissance"
+]
 },
 "Q946420": {
 "retrieved": "2026-11-18",
@@ -1380,8 +1900,13 @@
 ],
 "work": {
 "file": "Giovanni di paolo, madonna col bambino e santi.jpg",
-"title": "聖母子と聖人たち (ジョヴァンニ・ディ・パオロ)"
-}
+"title": "聖母子と聖人たち (ジョヴァンニ・ディ・パオロ)",
+"titleEn": "Madonna and Child with Saints"
+},
+"en": "Giovanni di Paolo",
+"movementsEn": [
+"Sienese school"
+]
 },
 "Q44007": {
 "retrieved": "2026-11-18",
@@ -1405,8 +1930,16 @@
 ],
 "work": {
 "file": "Angelus Novus, 1920 - Paul Klee.jpg",
-"title": "新しい天使"
-}
+"title": "新しい天使",
+"titleEn": "Angelus Novus"
+},
+"movementsEn": [
+"Color Field",
+"Expressionism",
+"pointillism",
+"Bauhaus",
+"surrealism"
+]
 },
 "Q173223": {
 "retrieved": "2026-11-18",
@@ -1418,8 +1951,13 @@
 ],
 "work": {
 "file": "Mary Stevenson Cassatt, American - Woman with a Pearl Necklace in a Loge - Google Art Project.jpg",
-"title": "桟敷席の真珠の首飾りをした女性"
-}
+"title": "桟敷席の真珠の首飾りをした女性",
+"titleEn": "Woman with a Pearl Necklace in a Loge"
+},
+"en": "Mary Cassatt",
+"movementsEn": [
+"Impressionism"
+]
 },
 "Q286670": {
 "retrieved": "2026-11-18",
@@ -1431,8 +1969,13 @@
 ],
 "work": {
 "file": "Giovanni Paolo Pannini - Picture Gallery with Views of Modern Rome - WGA16969.jpg",
-"title": "近代ローマ (パンニーニの絵画)"
-}
+"title": "近代ローマ (パンニーニの絵画)",
+"titleEn": "Modern Rome (series of 4)"
+},
+"en": "Giovanni Paolo Panini",
+"movementsEn": [
+"Baroque"
+]
 },
 "Q1632536": {
 "retrieved": "2026-11-18",
@@ -1444,16 +1987,23 @@
 ],
 "work": {
 "file": "Tiger, by Nagasawa Rosetsu.jpg",
-"title": "虎図襖"
-}
+"title": "虎図襖",
+"titleEn": "Tiger Fusuma"
+},
+"en": "Nagasawa Rosetsu",
+"movementsEn": [
+"Maruyama school"
+]
 },
 "Q3156405": {
 "retrieved": "2026-11-18",
 "ja": "岩佐又兵衛",
 "work": {
 "file": "Scenes in and around Kyoto Funaki 1.jpg",
-"title": "舟木本洛中洛外図屏風"
-}
+"title": "舟木本洛中洛外図屏風",
+"titleEn": "Rakuchū rakugai zu (Funaki)"
+},
+"en": "Iwasa Matabē"
 },
 "Q3469342": {
 "retrieved": "2026-11-18",
@@ -1465,8 +2015,13 @@
 ],
 "work": {
 "file": "Summer and Autumn Flower Plants (left).jpg",
-"title": "夏秋草図屏風"
-}
+"title": "夏秋草図屏風",
+"titleEn": "Flowering Plants of Summer and Autumn"
+},
+"en": "Sakai Hōitsu",
+"movementsEn": [
+"Rimpa school"
+]
 },
 "Q213163": {
 "retrieved": "2026-11-18",
@@ -1481,8 +2036,14 @@
 ],
 "work": {
 "file": "Louise Elisabeth Vigée-Lebrun - Marie-Antoinette dit « à la Rose » - Google Art Project.jpg",
-"title": "バラを持つマリー・アントワネット"
-}
+"title": "バラを持つマリー・アントワネット",
+"titleEn": "Marie Antoinette with a Rose"
+},
+"en": "Élisabeth Louise Vigée Le Brun",
+"movementsEn": [
+"Rococo",
+"Neoclassicism"
+]
 },
 "Q214074": {
 "retrieved": "2026-11-18",
@@ -1494,8 +2055,13 @@
 ],
 "work": {
 "file": "Claude Lorrain - Seaport with the Embarkation of Saint Ursula.jpg",
-"title": "聖ウルスラの乗船"
-}
+"title": "聖ウルスラの乗船",
+"titleEn": "Seaport with the Embarkation of Saint Ursula"
+},
+"en": "Claude Lorrain",
+"movementsEn": [
+"Classicism"
+]
 },
 "Q313194": {
 "retrieved": "2026-11-18",
@@ -1507,8 +2073,13 @@
 ],
 "work": {
 "file": "Aelbert Cuyp - The Maas at Dordrecht - Google Art Project.jpg",
-"title": "ドルドレヒトのマース川"
-}
+"title": "ドルドレヒトのマース川",
+"titleEn": "The Maas at Dordrecht"
+},
+"en": "Aelbert Cuyp",
+"movementsEn": [
+"Dutch Golden Age painting"
+]
 },
 "Q314814": {
 "retrieved": "2026-11-18",
@@ -1523,8 +2094,14 @@
 ],
 "work": {
 "file": "La Mère Catherine-Agnès Arnault et la sœur Catherine de Sainte Suzanne de Champaigne - Philippe de Champaigne - Musée du Louvre Peintures INV 1138.jpg",
-"title": "1662年の奉納画"
-}
+"title": "1662年の奉納画",
+"titleEn": "Mother Catherine-Agnès Arnault and Sister Catherine de Sainte Suzanne de Champaigne"
+},
+"en": "Philippe de Champaigne",
+"movementsEn": [
+"Baroque painting",
+"Classicism"
+]
 },
 "Q314889": {
 "retrieved": "2026-11-18",
@@ -1539,8 +2116,14 @@
 ],
 "work": {
 "file": "A Boy Bringing Bread Pieter de Hooch.jpg",
-"title": "パンを持ってくる少年"
-}
+"title": "パンを持ってくる少年",
+"titleEn": "A Boy Bringing Bread"
+},
+"en": "Pieter de Hooch",
+"movementsEn": [
+"Dutch Golden Age painting",
+"Baroque"
+]
 },
 "Q317920": {
 "retrieved": "2026-11-18",
@@ -1552,8 +2135,13 @@
 ],
 "work": {
 "file": "Simon Vouet - Presentation in the Temple - WGA25366.jpg",
-"title": "神殿奉献 (ヴーエ)"
-}
+"title": "神殿奉献 (ヴーエ)",
+"titleEn": "The Presentation in the Temple"
+},
+"en": "Simon Vouet",
+"movementsEn": [
+"Baroque painting"
+]
 },
 "Q216873": {
 "retrieved": "2026-11-18",
@@ -1565,8 +2153,13 @@
 ],
 "work": {
 "file": "Pierre Puvis de Chavannes - The Poor Fisherman - Google Art Project.jpg",
-"title": "貧しき漁夫"
-}
+"title": "貧しき漁夫",
+"titleEn": "The Poor Fisherman"
+},
+"en": "Pierre Puvis de Chavannes",
+"movementsEn": [
+"Symbolism"
+]
 },
 "Q219403": {
 "retrieved": "2026-11-18",
@@ -1578,16 +2171,23 @@
 ],
 "work": {
 "file": "Boeufs allant au labour-Constant Troyon-IMG 8342.JPG",
-"title": "耕作に向かう牛、朝の効果"
-}
+"title": "耕作に向かう牛、朝の効果",
+"titleEn": "Oxes watching to tillage, morning sky"
+},
+"en": "Constant Troyon",
+"movementsEn": [
+"Barbizon school"
+]
 },
 "Q31523": {
 "retrieved": "2026-11-18",
 "ja": "与謝蕪村",
 "work": {
 "file": "与謝蕪村《十宜図 宜春図》1771、川端康成記念会.jpg",
-"title": "十宜帖"
-}
+"title": "十宜帖",
+"titleEn": "Ten Pleasures"
+},
+"en": "Yosa Buson"
 },
 "Q241732": {
 "retrieved": "2026-11-18",
@@ -1602,8 +2202,14 @@
 ],
 "work": {
 "file": "Rosa Bonheur, The Horse Fair, 1852–55.jpg",
-"title": "馬の市"
-}
+"title": "馬の市",
+"titleEn": "The Horse Fair"
+},
+"en": "Rosa Bonheur",
+"movementsEn": [
+"French Realism",
+"Naturalism"
+]
 },
 "Q313498": {
 "retrieved": "2026-11-18",
@@ -1618,32 +2224,47 @@
 ],
 "work": {
 "file": "Benjamin West 005.jpg",
-"title": "ウルフ将軍の死"
-}
+"title": "ウルフ将軍の死",
+"titleEn": "The Death of General Wolfe"
+},
+"en": "Benjamin West",
+"movementsEn": [
+"Romanticism",
+"Neoclassicism"
+]
 },
 "Q467337": {
 "retrieved": "2026-11-18",
 "ja": "月岡芳年",
 "work": {
 "file": "Yoshitoshi - 36 Ghosts - Title page.jpg",
-"title": "新形三十六怪撰"
-}
+"title": "新形三十六怪撰",
+"titleEn": "New Forms of the Thirty-six Ghosts"
+},
+"en": "Yoshitoshi"
 },
 "Q548205": {
 "retrieved": "2026-11-18",
 "ja": "ユベール・ロベール",
 "work": {
 "file": "Projet pour la transformation de la Grande Galerie 01.jpg",
-"title": "ルーヴル美術館グランド・ギャラリーの改造計画"
-}
+"title": "ルーヴル美術館グランド・ギャラリーの改造計画",
+"titleEn": "Projet pour éclairer la galerie du Musée par la voûte, et pour la diviser sans ôter la vue de la prolongation du local"
+},
+"en": "Hubert Robert",
+"movementsEn": [
+"Pre-romanticism"
+]
 },
 "Q621994": {
 "retrieved": "2026-11-18",
 "ja": "アレクサンドル・カラム",
 "work": {
 "file": "Landschap Rijksmuseum SK-C-302.jpeg",
-"title": "風景"
-}
+"title": "風景",
+"titleEn": "Landscape"
+},
+"en": "Alexandre Calame"
 },
 "Q724148": {
 "retrieved": "2026-11-18",
@@ -1656,7 +2277,11 @@
 "work": {
 "file": "La Bataille de Champigny, dessin, 1882.jpg",
 "title": "シャンピニーの戦い"
-}
+},
+"en": "Édouard Detaille",
+"movementsEn": [
+"academic art"
+]
 },
 "Q93284": {
 "retrieved": "2026-11-18",
@@ -1668,6 +2293,11 @@
 {
 "ja": "表現主義"
 }
+],
+"en": "Marc Chagall",
+"movementsEn": [
+"Catalan modernism",
+"Expressionism"
 ]
 },
 "Q108301": {
@@ -1677,11 +2307,16 @@
 {
 "ja": "エコール・ド・パリ"
 }
+],
+"en": "Maurice Utrillo",
+"movementsEn": [
+"School of Paris"
 ]
 },
 "Q114405": {
 "retrieved": "2026-11-18",
-"ja": "ロックウェル・ケント"
+"ja": "ロックウェル・ケント",
+"en": "Rockwell Kent"
 },
 "Q125409": {
 "retrieved": "2026-11-18",
@@ -1690,6 +2325,10 @@
 {
 "ja": "バルビゾン派"
 }
+],
+"en": "Charles Jacque",
+"movementsEn": [
+"Barbizon school"
 ]
 },
 "Q134741": {
@@ -1702,6 +2341,11 @@
 {
 "ja": "印象派"
 }
+],
+"en": "Camille Pissarro",
+"movementsEn": [
+"Neo-impressionism",
+"Impressionism"
 ]
 },
 "Q151152": {
@@ -1711,6 +2355,10 @@
 {
 "ja": "キュビスム"
 }
+],
+"en": "Juan Gris",
+"movementsEn": [
+"cubism"
 ]
 },
 "Q151573": {
@@ -1720,6 +2368,10 @@
 {
 "ja": "点描"
 }
+],
+"en": "Paul Signac",
+"movementsEn": [
+"pointillism"
 ]
 },
 "Q153104": {
@@ -1732,6 +2384,11 @@
 {
 "ja": "表現主義"
 }
+],
+"en": "Otto Dix",
+"movementsEn": [
+"New Objectivity",
+"Expressionism"
 ]
 },
 "Q153793": {
@@ -1744,6 +2401,11 @@
 {
 "ja": "キュビスム"
 }
+],
+"en": "Georges Braque",
+"movementsEn": [
+"Fauvism",
+"cubism"
 ]
 },
 "Q154842": {
@@ -1756,6 +2418,11 @@
 {
 "ja": "ダダイスム"
 }
+],
+"en": "Max Ernst",
+"movementsEn": [
+"surrealism",
+"Dada"
 ]
 },
 "Q156128": {
@@ -1771,6 +2438,11 @@
 {
 "ja": "表現主義"
 }
+],
+"movementsEn": [
+"Fauvism",
+"Symbolism",
+"Expressionism"
 ]
 },
 "Q156272": {
@@ -1783,6 +2455,11 @@
 {
 "ja": "キュビスム"
 }
+],
+"en": "André Derain",
+"movementsEn": [
+"Fauvism",
+"cubism"
 ]
 },
 "Q157183": {
@@ -1795,6 +2472,11 @@
 {
 "ja": "キュビスム"
 }
+],
+"en": "Fernand Léger",
+"movementsEn": [
+"modernism",
+"cubism"
 ]
 },
 "Q158255": {
@@ -1804,6 +2486,10 @@
 {
 "ja": "表現主義"
 }
+],
+"en": "Lyonel Feininger",
+"movementsEn": [
+"Expressionism"
 ]
 },
 "Q160141": {
@@ -1813,6 +2499,10 @@
 {
 "ja": "表現主義"
 }
+],
+"en": "Chaïm Soutine",
+"movementsEn": [
+"Expressionism"
 ]
 },
 "Q161145": {
@@ -1822,11 +2512,16 @@
 {
 "ja": "ロマン主義"
 }
+],
+"en": "Horace Vernet",
+"movementsEn": [
+"Romanticism"
 ]
 },
 "Q163298": {
 "retrieved": "2026-11-18",
-"ja": "張大千"
+"ja": "張大千",
+"en": "Chang Ta-chien"
 },
 "Q164683": {
 "retrieved": "2026-11-18",
@@ -1838,6 +2533,11 @@
 {
 "ja": "表現主義"
 }
+],
+"en": "Max Beckmann",
+"movementsEn": [
+"New Objectivity",
+"Expressionism"
 ]
 },
 "Q167132": {
@@ -1850,6 +2550,11 @@
 {
 "ja": "アッシュカン・スクール"
 }
+],
+"en": "George Bellows",
+"movementsEn": [
+"American realism",
+"Ashcan School"
 ]
 },
 "Q170071": {
@@ -1862,6 +2567,11 @@
 {
 "ja": "抽象絵画"
 }
+],
+"en": "Josef Albers",
+"movementsEn": [
+"op art",
+"abstract art"
 ]
 },
 "Q175130": {
@@ -1871,6 +2581,10 @@
 {
 "ja": "印象派"
 }
+],
+"en": "Alfred Sisley",
+"movementsEn": [
+"Impressionism"
 ]
 },
 "Q182664": {
@@ -1880,6 +2594,10 @@
 {
 "ja": "ロココ"
 }
+],
+"en": "Giovanni Antonio Canal",
+"movementsEn": [
+"Rococo"
 ]
 },
 "Q186202": {
@@ -1892,15 +2610,22 @@
 {
 "ja": "バロック"
 }
+],
+"en": "Giovanni Battista Tiepolo",
+"movementsEn": [
+"Rococo",
+"Baroque"
 ]
 },
 "Q187496": {
 "retrieved": "2026-11-18",
-"ja": "アンリ＝ジョゼフ・アルピニー"
+"ja": "アンリ＝ジョゼフ・アルピニー",
+"en": "Henri Harpignies"
 },
 "Q188172": {
 "retrieved": "2026-11-18",
-"ja": "ニコラ・ランクレ"
+"ja": "ニコラ・ランクレ",
+"en": "Nicolas Lancret"
 },
 "Q192062": {
 "retrieved": "2026-11-18",
@@ -1909,6 +2634,10 @@
 {
 "ja": "バロック絵画"
 }
+],
+"en": "Bartolomé Esteban Murillo",
+"movementsEn": [
+"Baroque painting"
 ]
 },
 "Q194402": {
@@ -1918,6 +2647,10 @@
 {
 "ja": "新古典主義"
 }
+],
+"en": "Joshua Reynolds",
+"movementsEn": [
+"Neoclassicism"
 ]
 },
 "Q206820": {
@@ -1927,6 +2660,10 @@
 {
 "ja": "印象派"
 }
+],
+"en": "Anders Zorn",
+"movementsEn": [
+"Impressionism"
 ]
 },
 "Q212600": {
@@ -1936,6 +2673,10 @@
 {
 "ja": "印象派"
 }
+],
+"en": "Eugène Louis Boudin",
+"movementsEn": [
+"Impressionism"
 ]
 },
 "Q215461": {
@@ -1945,6 +2686,10 @@
 {
 "ja": "抽象表現主義"
 }
+],
+"en": "Hans Hofmann",
+"movementsEn": [
+"abstract expressionism"
 ]
 },
 "Q229272": {
@@ -1954,6 +2699,11 @@
 {
 "ja": "表現主義"
 }
+],
+"en": "Ernst Ludwig Kirchner",
+"movementsEn": [
+"expressionism",
+"Expressionism"
 ]
 },
 "Q233088": {
@@ -1966,6 +2716,11 @@
 {
 "ja": "キュビスム"
 }
+],
+"en": "Marie Laurencin",
+"movementsEn": [
+"Fauvism",
+"cubism"
 ]
 },
 "Q239394": {
@@ -1981,6 +2736,12 @@
 {
 "ja": "ジャポニスム"
 }
+],
+"en": "Édouard Vuillard",
+"movementsEn": [
+"Japonisme",
+"Les Nabis",
+"Post-impressionism"
 ]
 },
 "Q241098": {
@@ -1993,11 +2754,17 @@
 {
 "ja": "キュビスム"
 }
+],
+"en": "Maurice de Vlaminck",
+"movementsEn": [
+"Fauvism",
+"cubism"
 ]
 },
 "Q247005": {
 "retrieved": "2026-11-18",
-"ja": "サロモン・ファン・ロイスダール"
+"ja": "サロモン・ファン・ロイスダール",
+"en": "Salomon van Ruysdael"
 },
 "Q248707": {
 "retrieved": "2026-11-18",
@@ -2009,6 +2776,11 @@
 {
 "ja": "ポスト印象派"
 }
+],
+"en": "Maurice Prendergast",
+"movementsEn": [
+"Ashcan School",
+"Post-impressionism"
 ]
 },
 "Q265820": {
@@ -2018,6 +2790,10 @@
 {
 "ja": "印象派"
 }
+],
+"en": "William Merritt Chase",
+"movementsEn": [
+"Impressionism"
 ]
 },
 "Q267858": {
@@ -2027,6 +2803,10 @@
 {
 "ja": "フォーヴィスム"
 }
+],
+"en": "Albert Marquet",
+"movementsEn": [
+"Fauvism"
 ]
 },
 "Q277738": {
@@ -2036,11 +2816,16 @@
 {
 "ja": "ロココ"
 }
+],
+"en": "Jean-Marc Nattier",
+"movementsEn": [
+"Rococo"
 ]
 },
 "Q282670": {
 "retrieved": "2026-11-18",
-"ja": "ジョヴァンニ・バッティスタ・ピアッツェッタ"
+"ja": "ジョヴァンニ・バッティスタ・ピアッツェッタ",
+"en": "Giovanni Battista Piazzetta"
 },
 "Q297838": {
 "retrieved": "2026-11-18",
@@ -2049,6 +2834,10 @@
 {
 "ja": "バロック"
 }
+],
+"en": "Jusepe de Ribera",
+"movementsEn": [
+"Baroque"
 ]
 },
 "Q309618": {
@@ -2061,6 +2850,11 @@
 {
 "ja": "未来派"
 }
+],
+"en": "Giorgio Morandi",
+"movementsEn": [
+"metaphysical painting",
+"Futurism"
 ]
 },
 "Q310025": {
@@ -2070,6 +2864,10 @@
 {
 "ja": "バルビゾン派"
 }
+],
+"en": "Théodore Rousseau",
+"movementsEn": [
+"Barbizon school"
 ]
 },
 "Q315996": {
@@ -2079,6 +2877,10 @@
 {
 "ja": "オランダ黄金時代の絵画"
 }
+],
+"en": "Jan van Goyen",
+"movementsEn": [
+"Dutch Golden Age painting"
 ]
 },
 "Q316016": {
@@ -2088,6 +2890,10 @@
 {
 "ja": "写実主義"
 }
+],
+"en": "John Singleton Copley",
+"movementsEn": [
+"realism"
 ]
 },
 "Q317736": {
@@ -2097,6 +2903,10 @@
 {
 "ja": "浮世絵"
 }
+],
+"en": "Utagawa Kuniyoshi",
+"movementsEn": [
+"ukiyo-e"
 ]
 },
 "Q320821": {
@@ -2105,15 +2915,21 @@
 {
 "ja": "抽象表現主義"
 }
+],
+"en": "Jack Tworkov",
+"movementsEn": [
+"abstract expressionism"
 ]
 },
 "Q331884": {
 "retrieved": "2026-11-18",
-"ja": "ジャン＝ヴィクトール・ベルタン"
+"ja": "ジャン＝ヴィクトール・ベルタン",
+"en": "Jean-Victor Bertin"
 },
 "Q334946": {
 "retrieved": "2026-11-18",
-"ja": "ピエール＝アンリ・ド・ヴァランシエンヌ"
+"ja": "ピエール＝アンリ・ド・ヴァランシエンヌ",
+"en": "Pierre-Henri de Valenciennes"
 },
 "Q344166": {
 "retrieved": "2026-11-18",
@@ -2125,6 +2941,11 @@
 {
 "ja": "新版画"
 }
+],
+"en": "Hasui Kawase",
+"movementsEn": [
+"shin-hanga",
+"Nihonga"
 ]
 },
 "Q344838": {
@@ -2134,6 +2955,10 @@
 {
 "ja": "写実主義"
 }
+],
+"en": "Winslow Homer",
+"movementsEn": [
+"realism"
 ]
 },
 "Q360978": {
@@ -2146,11 +2971,17 @@
 {
 "ja": "浮世絵"
 }
+],
+"en": "Suzuki Harunobu",
+"movementsEn": [
+"nishiki-e",
+"ukiyo-e"
 ]
 },
 "Q369608": {
 "retrieved": "2026-11-18",
-"ja": "斉白石"
+"ja": "斉白石",
+"en": "Qi Baishi"
 },
 "Q371280": {
 "retrieved": "2026-11-18",
@@ -2159,6 +2990,10 @@
 {
 "ja": "ロココ"
 }
+],
+"en": "George Romney",
+"movementsEn": [
+"Rococo"
 ]
 },
 "Q375926": {
@@ -2168,6 +3003,10 @@
 {
 "ja": "新古典主義"
 }
+],
+"en": "Rembrandt Peale",
+"movementsEn": [
+"Neoclassicism"
 ]
 },
 "Q380395": {
@@ -2177,6 +3016,10 @@
 {
 "ja": "オリエンタリズム"
 }
+],
+"en": "Richard Parkes Bonington",
+"movementsEn": [
+"Orientalism"
 ]
 },
 "Q424348": {
@@ -2186,6 +3029,10 @@
 {
 "ja": "象徴主義"
 }
+],
+"en": "Paul-Albert Besnard",
+"movementsEn": [
+"Symbolism"
 ]
 },
 "Q427642": {
@@ -2195,15 +3042,21 @@
 {
 "ja": "鳥居派"
 }
+],
+"en": "Torii Kiyonaga",
+"movementsEn": [
+"Torii school"
 ]
 },
 "Q435316": {
 "retrieved": "2026-11-18",
-"ja": "ジョヴァンニ・ドメニコ・ティエポロ"
+"ja": "ジョヴァンニ・ドメニコ・ティエポロ",
+"en": "Giovanni Domenico Tiepolo"
 },
 "Q452254": {
 "retrieved": "2026-11-18",
-"ja": "ジャック・ヴィヨン"
+"ja": "ジャック・ヴィヨン",
+"en": "Jacques Villon"
 },
 "Q455133": {
 "retrieved": "2026-11-18",
@@ -2212,6 +3065,9 @@
 {
 "ja": "写実主義"
 }
+],
+"movementsEn": [
+"realism"
 ]
 },
 "Q458288": {
@@ -2224,6 +3080,11 @@
 {
 "ja": "ロマン主義"
 }
+],
+"en": "Alexandre-Gabriel Decamps",
+"movementsEn": [
+"Orientalism",
+"Romanticism"
 ]
 },
 "Q460186": {
@@ -2239,11 +3100,18 @@
 {
 "ja": "アナキズム"
 }
+],
+"en": "Alice Neel",
+"movementsEn": [
+"social realism",
+"Expressionism",
+"anarchism"
 ]
 },
 "Q460198": {
 "retrieved": "2026-11-18",
-"ja": "イグナシオ・スロアガ"
+"ja": "イグナシオ・スロアガ",
+"en": "Ignacio Zuloaga"
 },
 "Q461464": {
 "retrieved": "2026-11-18",
@@ -2252,6 +3120,10 @@
 {
 "ja": "象徴主義"
 }
+],
+"en": "Eugène Carrière",
+"movementsEn": [
+"Symbolism"
 ]
 },
 "Q467427": {
@@ -2261,6 +3133,10 @@
 {
 "ja": "歌川派"
 }
+],
+"en": "Utagawa Kunisada",
+"movementsEn": [
+"Utagawa school"
 ]
 },
 "Q469063": {
@@ -2270,6 +3146,9 @@
 {
 "ja": "表現主義"
 }
+],
+"movementsEn": [
+"Expressionism"
 ]
 },
 "Q471764": {
@@ -2279,6 +3158,10 @@
 {
 "ja": "リージョナリズム"
 }
+],
+"en": "Thomas Hart Benton",
+"movementsEn": [
+"Regionalism"
 ]
 },
 "Q506483": {
@@ -2288,11 +3171,16 @@
 {
 "ja": "バロック絵画"
 }
+],
+"en": "Sebastiano Ricci",
+"movementsEn": [
+"Baroque painting"
 ]
 },
 "Q534279": {
 "retrieved": "2026-11-18",
-"ja": "尾形乾山"
+"ja": "尾形乾山",
+"en": "Ogata Kenzan"
 },
 "Q535334": {
 "retrieved": "2026-11-18",
@@ -2304,11 +3192,20 @@
 {
 "ja": "キュビスム"
 }
+],
+"en": "Max Weber",
+"movementsEn": [
+"cubism",
+"Expressionism"
 ]
 },
 "Q541859": {
 "retrieved": "2026-11-18",
-"ja": "ジュール・バスティアン＝ルパージュ"
+"ja": "ジュール・バスティアン＝ルパージュ",
+"en": "Jules Bastien-Lepage",
+"movementsEn": [
+"potato"
+]
 },
 "Q553259": {
 "retrieved": "2026-11-18",
@@ -2320,11 +3217,17 @@
 {
 "ja": "ダダイスム"
 }
+],
+"en": "Marsden Hartley",
+"movementsEn": [
+"Expressionism",
+"Dada"
 ]
 },
 "Q11400282": {
 "retrieved": "2026-11-18",
-"ja": "勝川春亭"
+"ja": "勝川春亭",
+"en": "Katsukawa Shuntei"
 },
 "Q11404291": {
 "retrieved": "2026-11-18",
@@ -2333,6 +3236,10 @@
 {
 "ja": "日本画"
 }
+],
+"en": "Kitano Tsunetomi",
+"movementsEn": [
+"Nihonga"
 ]
 },
 "Q11479106": {
@@ -2342,11 +3249,16 @@
 {
 "ja": "円山派"
 }
+],
+"en": "Kawabata Gyokushō",
+"movementsEn": [
+"Maruyama school"
 ]
 },
 "Q11509541": {
 "retrieved": "2026-11-18",
-"ja": "日根対山"
+"ja": "日根対山",
+"en": "Hine Taizan"
 },
 "Q11516064": {
 "retrieved": "2026-11-18",
@@ -2359,26 +3271,35 @@
 {
 "ja": "狩野派"
 }
+],
+"en": "Kiyohara Yukinobu",
+"movementsEn": [
+"Kanō school"
 ]
 },
 "Q11562189": {
 "retrieved": "2026-11-18",
-"ja": "渡辺始興"
+"ja": "渡辺始興",
+"en": "Watanabe Shikō"
 },
 "Q11637181": {
 "retrieved": "2026-11-18",
-"ja": "蹄斎北馬"
+"ja": "蹄斎北馬",
+"en": "Teisai Hokuba"
 },
 "Q11648946": {
 "retrieved": "2026-11-18",
-"ja": "鈴木松年"
+"ja": "鈴木松年",
+"en": "Suzuki Shōnen"
 },
 "Q15503771": {
-"retrieved": "2026-11-18"
+"retrieved": "2026-11-18",
+"en": "Eugene Speicher"
 },
 "Q17225707": {
 "retrieved": "2026-11-18",
-"ja": "狩野昌運"
+"ja": "狩野昌運",
+"en": "Kanō Shōun"
 },
 "Q17989250": {
 "retrieved": "2026-11-18",
@@ -2387,11 +3308,16 @@
 {
 "ja": "雲谷派"
 }
+],
+"en": "Unkoku Tōeki",
+"movementsEn": [
+"Unkoku school"
 ]
 },
 "Q22124811": {
 "retrieved": "2026-11-18",
-"ja": "狩野周信"
+"ja": "狩野周信",
+"en": "Kanō Chikanobu"
 },
 "Q52154484": {
 "retrieved": "2026-11-18"
@@ -2403,6 +3329,10 @@
 {
 "ja": "ナビ派"
 }
+],
+"en": "Pierre Bonnard",
+"movementsEn": [
+"Les Nabis"
 ]
 },
 "Q40823": {
@@ -2412,6 +3342,10 @@
 {
 "ja": "バロック"
 }
+],
+"en": "Giovanni Benedetto Castiglione",
+"movementsEn": [
+"Baroque"
 ]
 },
 "Q45205": {
@@ -2421,11 +3355,18 @@
 {
 "ja": "フォーヴィスム"
 }
+],
+"en": "Raoul Dufy",
+"movementsEn": [
+"Fauvism"
 ]
 },
 "Q46408": {
 "retrieved": "2026-11-18",
-"ja": "ジョージア・オキーフ"
+"ja": "ジョージア・オキーフ",
+"movementsEn": [
+"American modernism"
+]
 },
 "Q555224": {
 "retrieved": "2026-11-18",
@@ -2437,6 +3378,11 @@
 {
 "ja": "新印象派"
 }
+],
+"en": "Henri-Edmond Cross",
+"movementsEn": [
+"pointillism",
+"Neo-impressionism"
 ]
 },
 "Q558863": {
@@ -2446,11 +3392,16 @@
 {
 "ja": "呉派"
 }
+],
+"en": "Shen Zhou",
+"movementsEn": [
+"Wu School"
 ]
 },
 "Q588110": {
 "retrieved": "2026-11-18",
-"ja": "陳洪綬"
+"ja": "陳洪綬",
+"en": "Chen Hongshou"
 },
 "Q591907": {
 "retrieved": "2026-11-18",
@@ -2459,6 +3410,10 @@
 {
 "ja": "ハーグ派"
 }
+],
+"en": "Anton Mauve",
+"movementsEn": [
+"Hague School"
 ]
 },
 "Q624868": {
@@ -2468,6 +3423,10 @@
 {
 "ja": "プレシジョニズム"
 }
+],
+"en": "Charles Sheeler",
+"movementsEn": [
+"Precisionism"
 ]
 },
 "Q665818": {
@@ -2477,11 +3436,16 @@
 {
 "ja": "象徴主義"
 }
+],
+"en": "Jean-Jacques Henner",
+"movementsEn": [
+"Symbolism"
 ]
 },
 "Q666171": {
 "retrieved": "2026-11-18",
-"ja": "ジョン・マリン"
+"ja": "ジョン・マリン",
+"en": "John Marin"
 },
 "Q671883": {
 "retrieved": "2026-11-18",
@@ -2490,6 +3454,10 @@
 {
 "ja": "新印象派"
 }
+],
+"en": "Théo van Rysselberghe",
+"movementsEn": [
+"Neo-impressionism"
 ]
 },
 "Q690790": {
@@ -2499,6 +3467,10 @@
 {
 "ja": "モダニズム"
 }
+],
+"en": "Rufino Tamayo",
+"movementsEn": [
+"modernism"
 ]
 },
 "Q695239": {
@@ -2508,15 +3480,24 @@
 {
 "ja": "ソーシャル・リアリズム"
 }
+],
+"en": "Ben Shahn",
+"movementsEn": [
+"social realism"
 ]
 },
 "Q704585": {
 "retrieved": "2026-11-18",
-"ja": "ヨハン・ヨンキント"
+"ja": "ヨハン・ヨンキント",
+"en": "Johan Jongkind"
 },
 "Q704588": {
 "retrieved": "2026-11-18",
-"ja": "スチュアート・デイヴィス"
+"ja": "スチュアート・デイヴィス",
+"en": "Stuart Davis",
+"movementsEn": [
+"American modernism"
+]
 },
 "Q704868": {
 "retrieved": "2026-11-18",
@@ -2525,6 +3506,10 @@
 {
 "ja": "ハドソン・リバー派"
 }
+],
+"en": "George Inness",
+"movementsEn": [
+"Hudson River school"
 ]
 },
 "Q708502": {
@@ -2534,27 +3519,39 @@
 {
 "ja": "アッシュカン・スクール"
 }
+],
+"en": "Arthur Bowen Davies",
+"movementsEn": [
+"Ashcan School"
 ]
 },
 "Q709461": {
 "retrieved": "2026-11-18",
-"ja": "アーサー・ダヴ"
+"ja": "アーサー・ダヴ",
+"en": "Arthur Dove"
 },
 "Q714341": {
 "retrieved": "2026-11-18",
-"ja": "ウジェーヌ・イザベイ"
+"ja": "ウジェーヌ・イザベイ",
+"en": "Eugène Isabey"
 },
 "Q715909": {
 "retrieved": "2026-11-18",
-"ja": "ルイ＝レオポルド・ボワイー"
+"ja": "ルイ＝レオポルド・ボワイー",
+"en": "Louis-Léopold Boilly"
 },
 "Q716222": {
 "retrieved": "2026-11-18",
-"ja": "王翬"
+"ja": "王翬",
+"en": "Wang Hui",
+"movementsEn": [
+"Yushan School"
+]
 },
 "Q719614": {
 "retrieved": "2026-11-18",
-"ja": "ジャン＝ルイ・フォラン"
+"ja": "ジャン＝ルイ・フォラン",
+"en": "Jean-Louis Forain"
 },
 "Q724140": {
 "retrieved": "2026-11-18",
@@ -2563,6 +3560,10 @@
 {
 "ja": "バルビゾン派"
 }
+],
+"en": "Narcisse Virgilio Díaz",
+"movementsEn": [
+"Barbizon school"
 ]
 },
 "Q724860": {
@@ -2575,11 +3576,17 @@
 {
 "ja": "アッシュカン・スクール"
 }
+],
+"en": "Robert Henri",
+"movementsEn": [
+"French Realism",
+"Ashcan School"
 ]
 },
 "Q737137": {
 "retrieved": "2026-11-18",
-"ja": "ジャン＝バティスト・ウードリー"
+"ja": "ジャン＝バティスト・ウードリー",
+"en": "Jean-Baptiste Oudry"
 },
 "Q737635": {
 "retrieved": "2026-11-18",
@@ -2588,6 +3595,10 @@
 {
 "ja": "印象派"
 }
+],
+"en": "Childe Hassam",
+"movementsEn": [
+"Impressionism"
 ]
 },
 "Q786545": {
@@ -2597,6 +3608,10 @@
 {
 "ja": "新古典主義"
 }
+],
+"en": "Thomas Sully",
+"movementsEn": [
+"Neoclassicism"
 ]
 },
 "Q861756": {
@@ -2606,6 +3621,10 @@
 {
 "ja": "アッシュカン・スクール"
 }
+],
+"en": "John Sloan",
+"movementsEn": [
+"Ashcan School"
 ]
 },
 "Q950316": {
@@ -2615,6 +3634,10 @@
 {
 "ja": "歌川派"
 }
+],
+"en": "Utagawa Toyokuni I",
+"movementsEn": [
+"Utagawa school"
 ]
 },
 "Q952938": {
@@ -2624,6 +3647,10 @@
 {
 "ja": "琳派"
 }
+],
+"en": "Ogata Kōrin",
+"movementsEn": [
+"Rimpa school"
 ]
 },
 "Q956055": {
@@ -2633,6 +3660,10 @@
 {
 "ja": "印象派"
 }
+],
+"en": "Frank Weston Benson",
+"movementsEn": [
+"Impressionism"
 ]
 },
 "Q957538": {
@@ -2642,6 +3673,10 @@
 {
 "ja": "写実主義"
 }
+],
+"en": "Alphonse Legros",
+"movementsEn": [
+"French Realism"
 ]
 },
 "Q959212": {
@@ -2651,6 +3686,10 @@
 {
 "ja": "バルビゾン派"
 }
+],
+"en": "Jules Dupré",
+"movementsEn": [
+"Barbizon school"
 ]
 },
 "Q960116": {
@@ -2660,6 +3699,10 @@
 {
 "ja": "四条派"
 }
+],
+"en": "Matsumura Goshun",
+"movementsEn": [
+"Shijō school"
 ]
 },
 "Q961405": {
@@ -2669,6 +3712,10 @@
 {
 "ja": "狩野派"
 }
+],
+"en": "Kanō Tan'yū",
+"movementsEn": [
+"Kanō school"
 ]
 },
 "Q982284": {
@@ -2678,6 +3725,10 @@
 {
 "ja": "ハドソン・リバー派"
 }
+],
+"en": "John Frederick Kensett",
+"movementsEn": [
+"Hudson River school"
 ]
 },
 "Q983441": {
@@ -2687,15 +3738,21 @@
 {
 "ja": "ハドソン・リバー派"
 }
+],
+"en": "Thomas Moran",
+"movementsEn": [
+"Hudson River school"
 ]
 },
 "Q1078015": {
 "retrieved": "2026-11-18",
-"ja": "狩野元信"
+"ja": "狩野元信",
+"en": "Kanō Motonobu"
 },
 "Q1278282": {
 "retrieved": "2026-11-18",
-"ja": "イーストマン・ジョンソン"
+"ja": "イーストマン・ジョンソン",
+"en": "Eastman Johnson"
 },
 "Q1284220": {
 "retrieved": "2026-11-18",
@@ -2704,6 +3761,10 @@
 {
 "ja": "ポン＝タヴァン派"
 }
+],
+"en": "J. Alden Weir",
+"movementsEn": [
+"Pont-Aven School"
 ]
 },
 "Q1342683": {
@@ -2713,11 +3774,16 @@
 {
 "ja": "印象派"
 }
+],
+"en": "John Henry Twachtman",
+"movementsEn": [
+"Impressionism"
 ]
 },
 "Q1358543": {
 "retrieved": "2026-11-18",
-"ja": "田能村竹田"
+"ja": "田能村竹田",
+"en": "Tanomura Chikuden"
 },
 "Q1358636": {
 "retrieved": "2026-11-18",
@@ -2726,11 +3792,16 @@
 {
 "ja": "勝川派"
 }
+],
+"en": "Katsukawa Shunshō",
+"movementsEn": [
+"Katsukawa school"
 ]
 },
 "Q1375891": {
 "retrieved": "2026-11-18",
-"ja": "谷文晁"
+"ja": "谷文晁",
+"en": "Tani Bunchō"
 },
 "Q1377454": {
 "retrieved": "2026-11-18",
@@ -2739,6 +3810,10 @@
 {
 "ja": "南画"
 }
+],
+"en": "Tomioka Tessai",
+"movementsEn": [
+"Nanga"
 ]
 },
 "Q1379714": {
@@ -2748,6 +3823,10 @@
 {
 "ja": "シエナ派"
 }
+],
+"en": "Sano di Pietro",
+"movementsEn": [
+"Sienese school"
 ]
 },
 "Q1995312": {
@@ -2757,11 +3836,16 @@
 {
 "ja": "雲谷派"
 }
+],
+"en": "Unkoku Tōgan",
+"movementsEn": [
+"Unkoku school"
 ]
 },
 "Q2038322": {
 "retrieved": "2026-11-18",
-"ja": "恩地孝四郎"
+"ja": "恩地孝四郎",
+"en": "Kōshirō Onchi"
 },
 "Q2060569": {
 "retrieved": "2026-11-18",
@@ -2770,6 +3854,10 @@
 {
 "ja": "日本画"
 }
+],
+"en": "Itō Shinsui",
+"movementsEn": [
+"Nihonga"
 ]
 },
 "Q2131415": {
@@ -2778,6 +3866,10 @@
 {
 "ja": "ソーシャル・リアリズム"
 }
+],
+"en": "Raphael Soyer",
+"movementsEn": [
+"social realism"
 ]
 },
 "Q2361741": {
@@ -2787,22 +3879,30 @@
 {
 "ja": "新ロマン主義"
 }
+],
+"en": "Pavel Tchelitchew",
+"movementsEn": [
+"Neo-romanticism"
 ]
 },
 "Q2386947": {
 "retrieved": "2026-11-18",
-"ja": "柴田是真"
+"ja": "柴田是真",
+"en": "Shibata Zeshin"
 },
 "Q2661041": {
 "retrieved": "2026-11-18",
-"ja": "池大雅"
+"ja": "池大雅",
+"en": "Ike no Taiga"
 },
 "Q2714574": {
-"retrieved": "2026-11-18"
+"retrieved": "2026-11-18",
+"en": "Milton Avery"
 },
 "Q2741529": {
 "retrieved": "2026-11-18",
-"ja": "宮川一笑"
+"ja": "宮川一笑",
+"en": "Miyagawa Issho"
 },
 "Q2778951": {
 "retrieved": "2026-11-18",
@@ -2811,11 +3911,16 @@
 {
 "ja": "自然主義"
 }
+],
+"en": "Jean-Charles Cazin",
+"movementsEn": [
+"Naturalism"
 ]
 },
 "Q2838030": {
 "retrieved": "2026-11-18",
-"ja": "河鍋暁斎"
+"ja": "河鍋暁斎",
+"en": "Kawanabe Kyōsai"
 },
 "Q2916723": {
 "retrieved": "2026-11-18",
@@ -2827,23 +3932,32 @@
 {
 "ja": "新版画"
 }
+],
+"en": "Hiroshi Yoshida",
+"movementsEn": [
+"Yōga",
+"shin-hanga"
 ]
 },
 "Q2963561": {
 "retrieved": "2026-11-18",
-"ja": "中林竹洞"
+"ja": "中林竹洞",
+"en": "Chikutō Nakabayashi"
 },
 "Q2972127": {
 "retrieved": "2026-11-18",
-"ja": "鳥文斎栄之"
+"ja": "鳥文斎栄之",
+"en": "Hosoda Eishi"
 },
 "Q3038261": {
 "retrieved": "2026-11-18",
-"ja": "石川豊信"
+"ja": "石川豊信",
+"en": "Ishikawa Toyonobu"
 },
 "Q3046492": {
 "retrieved": "2026-11-18",
-"ja": "渓斎英泉"
+"ja": "渓斎英泉",
+"en": "Keisai Eisen"
 },
 "Q3064625": {
 "retrieved": "2026-11-18",
@@ -2852,6 +3966,10 @@
 {
 "ja": "京狩野"
 }
+],
+"en": "Kanō Sanraku",
+"movementsEn": [
+"Kyō-Kanō School"
 ]
 },
 "Q3074364": {
@@ -2869,11 +3987,16 @@
 {
 "ja": "雲谷派"
 }
+],
+"en": "Soga Shōhaku",
+"movementsEn": [
+"Unkoku school"
 ]
 },
 "Q3109209": {
 "retrieved": "2026-11-18",
-"ja": "英一蝶"
+"ja": "英一蝶",
+"en": "Hanabusa Itchō"
 },
 "Q3109421": {
 "retrieved": "2026-11-18",
@@ -2882,6 +4005,10 @@
 {
 "ja": "歌川派"
 }
+],
+"en": "Utagawa Toyoharu",
+"movementsEn": [
+"Utagawa school"
 ]
 },
 "Q3109429": {
@@ -2891,11 +4018,15 @@
 {
 "ja": "浮世絵"
 }
+],
+"movementsEn": [
+"ukiyo-e"
 ]
 },
 "Q3128088": {
 "retrieved": "2026-11-18",
-"ja": "橋本関雪"
+"ja": "橋本関雪",
+"en": "Hashimoto Kansetsu"
 },
 "Q3128092": {
 "retrieved": "2026-11-18",
@@ -2907,19 +4038,27 @@
 {
 "ja": "狩野派"
 }
+],
+"en": "Hashimoto Gahō",
+"movementsEn": [
+"Nihonga",
+"Kanō school"
 ]
 },
 "Q3136181": {
 "retrieved": "2026-11-18",
-"ja": "歌川国政"
+"ja": "歌川国政",
+"en": "Utagawa Kunimasa"
 },
 "Q3155497": {
 "retrieved": "2026-11-18",
-"ja": "礒田湖龍斎"
+"ja": "礒田湖龍斎",
+"en": "Isoda Koryūsai"
 },
 "Q3179022": {
 "retrieved": "2026-11-18",
-"ja": "鳥居清信"
+"ja": "鳥居清信",
+"en": "Torii Kiyonobu"
 },
 "Q3180225": {
 "retrieved": "2026-11-18",
@@ -2928,15 +4067,21 @@
 {
 "ja": "土佐派"
 }
+],
+"en": "Tosa Mitsuoki",
+"movementsEn": [
+"Tosa school"
 ]
 },
 "Q3192787": {
 "retrieved": "2026-11-18",
-"ja": "狩野尚信"
+"ja": "狩野尚信",
+"en": "Kanō Naonobu"
 },
 "Q3192797": {
 "retrieved": "2026-11-18",
-"ja": "狩野常信"
+"ja": "狩野常信",
+"en": "Kanō Tsunenobu"
 },
 "Q3196514": {
 "retrieved": "2026-11-18",
@@ -2945,11 +4090,16 @@
 {
 "ja": "琳派"
 }
+],
+"en": "Suzuki Kiitsu",
+"movementsEn": [
+"Rimpa school"
 ]
 },
 "Q3200184": {
 "retrieved": "2026-11-18",
-"ja": "窪俊満"
+"ja": "窪俊満",
+"en": "Kubo Shunman"
 },
 "Q3290532": {
 "retrieved": "2026-11-18",
@@ -2958,15 +4108,21 @@
 {
 "ja": "リージョナリズム"
 }
+],
+"en": "John Steuart Curry",
+"movementsEn": [
+"Regionalism"
 ]
 },
 "Q3317298": {
 "retrieved": "2026-11-18",
-"ja": "宮川長春"
+"ja": "宮川長春",
+"en": "Miyagawa Chōshun"
 },
 "Q3324063": {
 "retrieved": "2026-11-18",
-"ja": "森狙仙"
+"ja": "森狙仙",
+"en": "Mori Sosen"
 },
 "Q3350120": {
 "retrieved": "2026-11-18",
@@ -2978,11 +4134,17 @@
 {
 "ja": "浮絵"
 }
+],
+"en": "Okumura Masanobu",
+"movementsEn": [
+"uki-e",
+"hashira-e"
 ]
 },
 "Q3480606": {
 "retrieved": "2026-11-18",
-"ja": "雪村"
+"ja": "雪村",
+"en": "Sesson Shukei"
 },
 "Q3514329": {
 "retrieved": "2026-11-18",
@@ -2991,19 +4153,26 @@
 {
 "ja": "日本画"
 }
+],
+"en": "Takeuchi Seihō",
+"movementsEn": [
+"Nihonga"
 ]
 },
 "Q3541614": {
 "retrieved": "2026-11-18",
-"ja": "椿椿山"
+"ja": "椿椿山",
+"en": "Tsubaki Chinzan"
 },
 "Q3566605": {
 "retrieved": "2026-11-18",
-"ja": "渡辺省亭"
+"ja": "渡辺省亭",
+"en": "Watanabe Shōtei"
 },
 "Q3571447": {
 "retrieved": "2026-11-18",
-"ja": "山本梅逸"
+"ja": "山本梅逸",
+"en": "Yamamoto Baiitsu"
 },
 "Q3571991": {
 "retrieved": "2026-11-18",
@@ -3012,19 +4181,26 @@
 {
 "ja": "モデルニスモ"
 }
+],
+"en": "Yasuo Kuniyoshi",
+"movementsEn": [
+"Catalan modernism"
 ]
 },
 "Q5536970": {
 "retrieved": "2026-11-18",
-"ja": "ジョージ・ビドル"
+"ja": "ジョージ・ビドル",
+"en": "George Biddle"
 },
 "Q5622550": {
 "retrieved": "2026-11-18",
-"ja": "ガイ・ペン・デュボワ"
+"ja": "ガイ・ペン・デュボワ",
+"en": "Guy Pène du Bois"
 },
 "Q6358490": {
 "retrieved": "2026-11-18",
-"ja": "神坂雪佳"
+"ja": "神坂雪佳",
+"en": "Kamisaka Sekka"
 },
 "Q7308806": {
 "retrieved": "2026-11-18",
@@ -3033,10 +4209,15 @@
 {
 "ja": "ソーシャル・リアリズム"
 }
+],
+"en": "Reginald Marsh",
+"movementsEn": [
+"social realism"
 ]
 },
 "Q11355693": {
 "retrieved": "2026-11-18",
-"ja": "三木翠山"
+"ja": "三木翠山",
+"en": "Miki Suizan"
 }
 }

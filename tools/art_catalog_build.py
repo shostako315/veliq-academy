@@ -393,7 +393,7 @@ def main():
             "nameOrigVariants": orig_differs if len(orig_differs) > 1 else [],
             "born": p.by, "died": p.dy, "approx": p.approx, "birthPlace": bp, "deathPlace": dp,
             "yearsNote": p.conflicts() + [f"{MUSEUM[s_][0]}の記録（{b or '？'}–{d or ''}）は別人の可能性があるため使っていません" for s_, b, d in p.dropped], "nationality": p.nats[:3], "country": [NAT.get(n, n) for n in p.nats[:2]],
-            "jpPeriods": [k for k, _ in periods.most_common(3)], "movement": w.get("movements") or [],
+            "jpPeriods": [k for k, _ in periods.most_common(3)], "movement": w.get("movements") or [], "movementEn": w.get("movementsEn") or [],
             "teachers": w.get("teachers") or [], "students": w.get("students") or [],
             "kinds": dict(Counter(KIND[k.split(":")[1]] for k in p.counts for _ in range(p.counts[k]) if KIND[k.split(":")[1]])),
             "counts": counts, "workCount": p.n, "works": works,
