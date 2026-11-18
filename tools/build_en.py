@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "content-en" / "art"
 OUT = ROOT / "veliq-academy"
 SITE = "https://veliq-academy.com"
-SECTIONS = [("artworks", "Masterpieces in Japanese museums"), ("artists", "Japanese artists")]
+SECTIONS = [("artworks", "Masterpieces in Japanese museums"), ("artists", "Japanese artists"), ("japan", "Essays on Japanese art")]
 
 
 def esc(s):
@@ -139,6 +139,8 @@ def build():
                   "description": a["summary"], "dateCreated": str(a.get("year") or ""), "artMedium": a.get("medium"), "inLanguage": "en", "url": SITE + path,
                   "creator": {"@type": "Person", "name": a.get("artist_name"), **({"sameAs": [f"https://www.wikidata.org/wiki/{ce['wikidata']}"]} if ce and ce.get("wikidata") else {})},
                   **({"sameAs": [a["collection_url"]]} if a.get("collection_url") else {})}
+        elif s == "japan":
+            head, rel, ld = "", "", None
         else:
             ce = cat.get(a.get("catalog") or "")
             head = meta_dl([("Japanese name", f'<span lang="ja">{esc(a.get("name_ja"))}</span>'), ("Dates", esc(a.get("dates"))),
@@ -155,7 +157,7 @@ def build():
                 f'<h2>Sources</h2><ul class="src">{src}</ul>'
                 f'<p class="nt">Translated from the Japanese edition, which is compiled only from the sources above. <a href="{ja}" hreflang="ja" lang="ja">日本語版</a></p></article>')
         crumbs = [("Japanese art", "/en/art/"), (dict(SECTIONS)[s], f"/en/art/#{s}"), (a.get("short") or a["name"], "")]
-        write(path, shell(a["title"], a["summary"], path, ja, crumbs, page, [ld, art_ld]))
+        write(path, shell(a["title"], a["summary"], path, ja, crumbs, page, [x for x in (ld, art_ld) if x]))
         urls.append((path, ja, str(a.get("updated") or "")))
 
     # 入口 /en/art/
@@ -163,6 +165,8 @@ def build():
         xs = sorted([a for (s, _), a in arts.items() if s == sec], key=lambda a: a.get("sort") or a["slug"])
         if sec == "artworks":
             return "".join(f'<a href="/en/art/artworks/{a["slug"]}/">{esc(a["short"])}<small>{esc(a.get("artist_name"))} · {esc(a.get("year"))} · {esc(a.get("collection"))}</small></a>' for a in xs)
+        if sec == "japan":
+            return "".join(f'<a href="/en/art/japan/{a["slug"]}/">{esc(a["short"])}<small>{esc(a["summary"][:90])}…</small></a>' for a in xs)
         return "".join(f'<a href="/en/art/artists/{a["slug"]}/">{esc(a["name"])}<small><span lang="ja">{esc(a.get("name_ja"))}</span> · {esc(a.get("dates"))}</small></a>' for a in xs)
     n_w = sum(1 for (s, _) in arts if s == "artworks")
     n_a = sum(1 for (s, _) in arts if s == "artists")
@@ -170,6 +174,7 @@ def build():
     body = (f'<article class="va-art" lang="en"><h1>Japanese art</h1><p class="va-lede">{esc(desc)} Each page is translated from the Japanese edition and cites the museums\' own records.</p>'
             f'<h2 id="artworks">{SECTIONS[0][1]}</h2><div class="rl">{li("artworks")}</div>'
             f'<h2 id="artists">{SECTIONS[1][1]}</h2><div class="rl">{li("artists")}</div>'
+            + (f'<h2 id="japan">{SECTIONS[2][1]}</h2><div class="rl">{li("japan")}</div>' if any(s == "japan" for (s, _) in arts) else "") +
             f'<h2>Artist catalog</h2><p><a href="/en/art/catalog/">300 artists</a> with dates, nationality and works held in public collections, from museum open data.</p></article>')
     write("/en/art/", shell("Japanese art", desc, "/en/art/", "/art/", [("Japanese art", "")], body, []))
     urls.insert(0, ("/en/art/", "/art/", ""))
