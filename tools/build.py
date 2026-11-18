@@ -77,6 +77,9 @@ ART_SECTIONS = [
     ("museums", "美術館"),
 ]
 ART_SEC_NAME = dict(ART_SECTIONS)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import build_en  # noqa: E402  英語版（日本の美術）
+EN_MAP = build_en.en_map()
 # 画家の目録（/art/catalog/。Worker が data/art-catalog/ から組む）の人数。メニューと美術学科トップに出す
 try:
     CATALOG_N = len(json.loads((Path(__file__).resolve().parent.parent / "veliq-academy" / "data" / "art-catalog" / "index.json").read_text(encoding="utf-8"))["rows"])
@@ -780,6 +783,13 @@ def url_of(path):
     return SITE + path
 
 
+def _alt_en(path):
+    """英語版（tools/build_en.py）があるページは、日英の対応を hreflang で示す"""
+    p = "/" + str(path).strip("/") + "/"
+    en = EN_MAP.get(p)
+    return (f'<link rel="alternate" hreflang="ja" href="{SITE}{p}"><link rel="alternate" hreflang="en" href="{SITE}{en}">\n') if en else ""
+
+
 def head(title, desc, path, ld, og_type="article", noindex=False):
     full = f"{title}｜Veliq Academy" if title != "Veliq Academy" else "Veliq Academy｜音楽の作品・作曲家・時代の解説"
     lds = "".join('<script type="application/ld+json">' + json.dumps(x, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") +
@@ -801,7 +811,7 @@ def head(title, desc, path, ld, og_type="article", noindex=False):
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/veliq-mark.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/vq-ui.css?v={CSS_V}">
-{lds}{VQ_ORG if path in ("", "/", "index.html") else ""}</head>
+{_alt_en(path)}{lds}{VQ_ORG if path in ("", "/", "index.html") else ""}</head>
 """
 
 
@@ -1888,7 +1898,7 @@ def build_meta_files(S):
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text("User-agent: *\nAllow: /\n\nUser-agent: GPTBot\nAllow: /\n\nUser-agent: ClaudeBot\nAllow: /\n\n"
                                     "User-agent: Claude-Web\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\n"
-                                    "User-agent: Google-Extended\nAllow: /\n\n" + f"Sitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
+                                    "User-agent: Google-Extended\nAllow: /\n\n" + f"Sitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/sitemap-en.xml\n", encoding="utf-8")
     L = ["# Veliq Academy", "",
          f"> 音楽の作品・作曲家・時代を解説する日本語の学習サイト。1記事1ページ。監修:{SUPERVISOR}({SUPERVISOR_ROLE})。運営:{PUBLISHER}(info@variorchestra.com)。", "",
          "## 音楽", f"- [音楽学科のトップ]({SITE}/music/)"]
@@ -1967,6 +1977,7 @@ def main():
         wrap_static(S, n, t)
     S.pages.sort(key=lambda x: (x[0] != "/", x[0]))
     build_meta_files(S)
+    print(f"英語版 {len(build_en.build())} ページ")
     print(f"ページ {len(S.pages)}（sitemap に載せた数）・記事 {len(S.articles)}（音楽 {len(S.arts_of('music'))}・美術 {len(S.arts_of('art'))}・語学 {len(S.arts_of('lingua'))}）・警告 {len(WARN)}")
 
 
