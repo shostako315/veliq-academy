@@ -1,0 +1,123 @@
+# 画家の目録：日本語表記の候補（キー<TAB>表記）
+# キーは name:<目録の英語表記> / ulan:<ULAN ID> / qid:<Wikidata QID>
+# この表だけでは表示しない。tools/art_catalog_build.py が、リポジトリ内の記事（content/）に同じ表記があるか、
+# Wikidata の日本語ラベル（tools/art_catalog_wikidata.py）と一致するときだけ「確かめた表記」として出す
+name:Giovanni Bellini	ジョヴァンニ・ベッリーニ
+name:Andrea Mantegna	アンドレア・マンテーニャ
+name:Albrecht Dürer	アルブレヒト・デューラー
+name:Lucas Cranach the Elder	ルーカス・クラーナハ（父）
+name:Raphael	ラファエロ・サンツィオ
+name:Titian	ティツィアーノ・ヴェチェッリオ
+name:Hans Holbein the Younger	ハンス・ホルバイン（子）
+name:Paolo Veronese	パオロ・ヴェロネーゼ
+name:El Greco	エル・グレコ
+name:Annibale Carracci	アンニーバレ・カラッチ
+name:Guido Reni	グイド・レーニ
+name:Peter Paul Rubens	ピーテル・パウル・ルーベンス
+name:Frans Hals	フランス・ハルス
+name:Simon Vouet	シモン・ヴーエ
+name:Guercino	グエルチーノ
+name:Jusepe de Ribera	ジュゼペ・デ・リベーラ
+name:Nicolas Poussin	ニコラ・プッサン
+name:Francisco de Zurbarán	フランシスコ・デ・スルバラン
+name:Anthony van Dyck	アンソニー・ヴァン・ダイク
+name:Claude Lorrain	クロード・ロラン
+name:Rembrandt van Rijn	レンブラント・ファン・レイン
+name:Salvator Rosa	サルヴァトール・ローザ
+name:Bartolomé Esteban Murillo	バルトロメ・エステバン・ムリーリョ
+name:Jan Steen	ヤン・ステーン
+name:Jacob van Ruisdael	ヤーコプ・ファン・ライスダール
+name:Pieter de Hooch	ピーテル・デ・ホーホ
+name:Meindert Hobbema	メインデルト・ホッベマ
+name:Giovanni Battista Tiepolo	ジョヴァンニ・バッティスタ・ティエポロ
+name:Jean-Siméon Chardin	ジャン・シメオン・シャルダン
+name:François Boucher	フランソワ・ブーシェ
+name:Francesco Guardi	フランチェスコ・グアルディ
+name:Thomas Gainsborough	トマス・ゲインズバラ
+name:Jean-Honoré Fragonard	ジャン・オノレ・フラゴナール
+name:Hubert Robert	ユベール・ロベール
+name:Francisco de Goya	フランシスコ・デ・ゴヤ
+name:Jacques-Louis David	ジャック＝ルイ・ダヴィッド
+name:Elisabeth Louise Vigée Le Brun	エリザベート・ルイーズ・ヴィジェ＝ルブラン
+name:William Blake	ウィリアム・ブレイク
+name:Joseph Mallord William Turner	ジョゼフ・マロード・ウィリアム・ターナー
+name:Jean-Auguste-Dominique Ingres	ジャン＝オーギュスト＝ドミニク・アングル
+name:Théodore Géricault	テオドール・ジェリコー
+name:Jean Baptiste Camille Corot	カミーユ・コロー
+name:Eugène Delacroix	ウジェーヌ・ドラクロワ
+name:Honoré Daumier	オノレ・ドーミエ
+name:Théodore Rousseau	テオドール・ルソー
+name:Jean-François Millet	ジャン＝フランソワ・ミレー
+name:Charles François Daubigny	シャルル＝フランソワ・ドービニー
+name:Gustave Courbet	ギュスターヴ・クールベ
+name:Rosa Bonheur	ローザ・ボヌール
+name:Eugène Boudin	ウジェーヌ・ブーダン
+name:Jean-Léon Gérôme	ジャン＝レオン・ジェローム
+name:Pierre Puvis de Chavannes	ピエール・ピュヴィス・ド・シャヴァンヌ
+name:Édouard Manet	エドゥアール・マネ
+name:James McNeill Whistler	ジェームズ・マクニール・ホイッスラー
+name:Henri Fantin-Latour	アンリ・ファンタン＝ラトゥール
+name:James Tissot	ジェームズ・ティソ
+name:Winslow Homer	ウィンスロー・ホーマー
+name:Alfred Sisley	アルフレッド・シスレー
+name:Odilon Redon	オディロン・ルドン
+name:Berthe Morisot	ベルト・モリゾ
+name:Henri Rousseau	アンリ・ルソー
+name:Eugène Carrière	ウジェーヌ・カリエール
+name:John Singer Sargent	ジョン・シンガー・サージェント
+name:Childe Hassam	チャイルド・ハッサム
+name:Anders Zorn	アンデシュ・ソーン
+name:Gustav Klimt	グスタフ・クリムト
+name:Paul Signac	ポール・シニャック
+name:Félix Vallotton	フェリックス・ヴァロットン
+name:Pierre Bonnard	ピエール・ボナール
+name:Édouard Vuillard	エドゥアール・ヴュイヤール
+name:Henri Matisse	アンリ・マティス
+name:Maurice Denis	モーリス・ドニ
+name:Georges Rouault	ジョルジュ・ルオー
+name:Piet Mondrian	ピート・モンドリアン
+name:Albert Marquet	アルベール・マルケ
+name:Maurice de Vlaminck	モーリス・ド・ヴラマンク
+name:Raoul Dufy	ラウル・デュフィ
+name:Paul Klee	パウル・クレー
+name:André Derain	アンドレ・ドラン
+name:Ernst Ludwig Kirchner	エルンスト・ルートヴィヒ・キルヒナー
+name:Fernand Léger	フェルナン・レジェ
+name:Pablo Picasso	パブロ・ピカソ
+name:Edward Hopper	エドワード・ホッパー
+name:Georges Braque	ジョルジュ・ブラック
+name:Marie Laurencin	マリー・ローランサン
+name:Maurice Utrillo	モーリス・ユトリロ
+name:Amedeo Modigliani	アメデオ・モディリアーニ
+name:Max Beckmann	マックス・ベックマン
+name:Diego Rivera	ディエゴ・リベラ
+name:Georgia O'Keeffe	ジョージア・オキーフ
+name:Juan Gris	フアン・グリス
+name:Marc Chagall	マルク・シャガール
+name:Josef Albers	ヨーゼフ・アルバース
+name:Giorgio Morandi	ジョルジョ・モランディ
+name:Max Ernst	マックス・エルンスト
+name:Otto Dix	オットー・ディクス
+name:Chaïm Soutine	シャイム・スーティン
+name:Joan Miró	ジョアン・ミロ
+name:René Magritte	ルネ・マグリット
+name:Ben Shahn	ベン・シャーン
+name:Rufino Tamayo	ルフィーノ・タマヨ
+name:Iwasa Matabei	岩佐又兵衛
+name:Tosa Mitsuoki	土佐光起
+name:Kano Tsunenobu	狩野常信
+name:Ogata Kenzan	尾形乾山
+name:Itō Jakuchū	伊藤若冲
+name:Ike no Taiga	池大雅
+name:Isoda Koryūsai	礒田湖龍斎
+name:Utagawa Toyoharu	歌川豊春
+name:Utagawa Toyokuni I	歌川豊国
+name:Suzuki Kiitsu	鈴木其一
+name:Hashimoto Gahō	橋本雅邦
+name:Tsukioka Yoshitoshi	月岡芳年
+name:Kawabata Gyokushō	川端玉章
+name:Watanabe Seitei	渡辺省亭
+name:Takeuchi Seihō	竹内栖鳳
+name:Kitano Tsunetomi	北野恒富
+name:Yasuo Kuniyoshi	国吉康雄
+name:Koshiro Onchi	恩地孝四郎

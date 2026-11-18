@@ -1,0 +1,65 @@
+{
+ "met-objects.csv": {
+  "retrieved": "2026-11-18",
+  "url": "https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv",
+  "name": "The Metropolitan Museum of Art Open Access",
+  "license": "CC0 1.0",
+  "home": "https://github.com/metmuseum/openaccess",
+  "bytes": 341062985,
+  "sha256": "f53eb3bd6e321a051ce11ad40bd7f5ee204c6c534cb07508f0f617d03bea0d3a"
+ },
+ "cma-data.json": {
+  "retrieved": "2026-11-18",
+  "url": "https://media.githubusercontent.com/media/ClevelandMuseumArt/openaccess/master/data.json",
+  "name": "The Cleveland Museum of Art Open Access",
+  "license": "CC0 1.0",
+  "home": "https://github.com/ClevelandMuseumArt/openaccess",
+  "bytes": 344749305,
+  "sha256": "313efb4eb936582c412744ca1b3fd41bf045d863b71063fc8a242b5b32ac33b0"
+ },
+ "nga-constituents.csv": {
+  "retrieved": "2026-11-18",
+  "url": "https://raw.githubusercontent.com/NationalGalleryOfArt/opendata/main/data/constituents.csv",
+  "name": "National Gallery of Art Open Data",
+  "license": "CC0 1.0",
+  "home": "https://github.com/NationalGalleryOfArt/opendata",
+  "bytes": 4492454,
+  "sha256": "4d7ecb6fcd13d73378e1e93c5d4f87f7c07643840f0f9588d719e3500083ce99"
+ },
+ "nga-objects.csv": {
+  "retrieved": "2026-11-18",
+  "url": "https://raw.githubusercontent.com/NationalGalleryOfArt/opendata/main/data/objects.csv",
+  "name": "National Gallery of Art Open Data",
+  "license": "CC0 1.0",
+  "home": "https://github.com/NationalGalleryOfArt/opendata",
+  "bytes": 82745147,
+  "sha256": "2d5cb7d5aa715c684b389b101d205c099665376a441c5c5e3ffe500356c65c32"
+ },
+ "nga-objects-constituents.csv": {
+  "retrieved": "2026-11-18",
+  "url": "https://raw.githubusercontent.com/NationalGalleryOfArt/opendata/main/data/objects_constituents.csv",
+  "name": "National Gallery of Art Open Data",
+  "license": "CC0 1.0",
+  "home": "https://github.com/NationalGalleryOfArt/opendata",
+  "bytes": 39200740,
+  "sha256": "24eb12ec53ab405c54d164a9b08896e47760def53680ceb2c1eda4c3d7906f85"
+ },
+ "aic-artworks.jsonl": {
+  "retrieved": "2026-11-18",
+  "url": "https://raw.githubusercontent.com/art-institute-of-chicago/api-data/master/getting-started/allArtworks.jsonl",
+  "name": "Art Institute of Chicago API data",
+  "license": "CC0 1.0（データ）",
+  "home": "https://github.com/art-institute-of-chicago/api-data",
+  "bytes": 23240552,
+  "sha256": "067b59efb271d9b1849f57a1084f7d7a30ae4c1f170484e39712da9fab61b3ba"
+ },
+ "moma-artists.json": {
+  "retrieved": "2026-11-18",
+  "url": "https://media.githubusercontent.com/media/MuseumofModernArt/collection/main/Artists.json",
+  "name": "The Museum of Modern Art Collection",
+  "license": "CC0 1.0",
+  "home": "https://github.com/MuseumofModernArt/collection",
+  "bytes": 3617980,
+  "sha256": "b3331c78a0a259640ab0bd66093a7468ab98d99dcf387532a90861f2f48ea6b6"
+ }
+}
