@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://veliq-academy.com/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://veliq-academy.com/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/art/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://veliq-academy.com/art/artists/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://veliq-academy.com/art/artists/botticelli/</loc><lastmod>2026-11-03</lastmod></url>
@@ -44,9 +44,9 @@
   <url><loc>https://veliq-academy.com/art/western/renaissance-three-masters/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://veliq-academy.com/art/western/romantic-painters/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://veliq-academy.com/art/western/twentieth-century-art/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://veliq-academy.com/concerts/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/concerts/cm1219/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/concerts/vo-vol3-2027-03/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://veliq-academy.com/concerts/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/concerts/cm1219/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/concerts/vo-vol3-2027-03/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/lingua/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://veliq-academy.com/lingua/en/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://veliq-academy.com/lingua/en/cafe/</loc><lastmod>2026-11-03</lastmod></url>
@@ -84,8 +84,8 @@
   <url><loc>https://veliq-academy.com/lingua/it/u0-presentarsi/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://veliq-academy.com/lingua/it/u0-saluti/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://veliq-academy.com/lingua/it/u0-suono/</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/composers/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/adams/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/bach-cpe/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/bach-js/</loc><lastmod>2026-11-07</lastmod></url>
@@ -137,6 +137,7 @@
   <url><loc>https://veliq-academy.com/music/composers/janacek/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/josquin/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/kodaly/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/lanner/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/lassus/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/ligeti/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/liszt/</loc><lastmod>2026-11-07</lastmod></url>
@@ -182,7 +183,9 @@
   <url><loc>https://veliq-academy.com/music/composers/sibelius/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/smetana/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/stockhausen/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/strauss-j1/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/strauss-j2/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/composers/strauss-josef/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/strauss-r/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/stravinsky/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/takemitsu/</loc><lastmod>2026-11-07</lastmod></url>
@@ -196,7 +199,7 @@
   <url><loc>https://veliq-academy.com/music/composers/weber/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/webern/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/composers/yamada-kosaku/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/concepts/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/concepts/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/concepts/concept-concerto/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://veliq-academy.com/music/concepts/concept-counterpoint/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://veliq-academy.com/music/concepts/concept-fugue/</loc><lastmod>2026-11-10</lastmod></url>
@@ -209,14 +212,14 @@
   <url><loc>https://veliq-academy.com/music/conductors/history-of-conducting/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://veliq-academy.com/music/early/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://veliq-academy.com/music/early/early-music-and-historical-performance/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/eras/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/eras/ancient/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/eras/baroque/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/eras/classical/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/eras/contemporary/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/eras/modern/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/eras/renaissance/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/eras/romantic/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/eras/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/eras/ancient/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/eras/baroque/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/eras/classical/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/eras/contemporary/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/eras/modern/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/eras/renaissance/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/eras/romantic/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/glossary/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://veliq-academy.com/music/history/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://veliq-academy.com/music/history/bach-life-and-works/</loc><lastmod>2026-11-03</lastmod></url>
@@ -256,8 +259,8 @@
   <url><loc>https://veliq-academy.com/music/orchestra/history-of-the-orchestra/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://veliq-academy.com/music/theory/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://veliq-academy.com/music/theory/music-theory-basics/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/timeline/</loc><lastmod>2026-11-10</lastmod></url>
-  <url><loc>https://veliq-academy.com/music/works/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/timeline/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/adams-short-ride/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/bach-art-of-fugue/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/bach-brandenberg/</loc><lastmod>2026-11-07</lastmod></url>
@@ -294,6 +297,7 @@
   <url><loc>https://veliq-academy.com/music/works/beethoven-symphony-9/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/beethoven-violin-concerto/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/bellini-norma/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/berg-strauss-wein-weib-gesang/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/berg-violin-concerto/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/berg-wozzeck/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/berlioz-fantastique/</loc><lastmod>2026-11-07</lastmod></url>
@@ -359,6 +363,7 @@
   <url><loc>https://veliq-academy.com/music/works/janacek-sinfonietta/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/josquin-missa-pange-lingua/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/kodaly-hary-janos/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/lanner-schonbrunner/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/ligeti-atmospheres/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/liszt-hungarian2/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/liszt-sonata/</loc><lastmod>2026-11-07</lastmod></url>
@@ -424,6 +429,8 @@
   <url><loc>https://veliq-academy.com/music/works/satie-gymnopedies/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/scarlatti-sonatas/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schnittke-concerto-grosso-1/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/schoenberg-strauss-kaiser-walzer/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/schoenberg-strauss-rosen-aus-dem-suden/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schoenberg-verklarte/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schubert-death-and-maiden/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schubert-sonata-d960/</loc><lastmod>2026-11-07</lastmod></url>
@@ -445,7 +452,22 @@
   <url><loc>https://veliq-academy.com/music/works/sibelius-violin-concerto/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/smetana-ma-vlast/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/stockhausen-gruppen/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j1-radetzky-march/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-annen-polka/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/strauss-j2-blue-danube/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-fledermaus-overture/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-fruhlingsstimmen/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-kaiser-walzer/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-kunstlerleben/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-pizzicato-polka/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-rosen-aus-dem-suden/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-schatz-walzer/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-thunder-lightning/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-tritsch-tratsch/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-vienna-woods/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-j2-wein-weib-gesang/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-josef-dorfschwalben/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/strauss-josef-spharenklange/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/strauss-r-don-juan/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/strauss-r-four-last-songs/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/strauss-rosenkavalier/</loc><lastmod>2026-11-07</lastmod></url>
@@ -477,5 +499,6 @@
   <url><loc>https://veliq-academy.com/music/works/wagner-tristan/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/weber-freischutz/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/webern-op6/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://veliq-academy.com/privacy</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/webern-strauss-schatz-walzer/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/privacy</loc><lastmod>2026-11-18</lastmod></url>
 </urlset>

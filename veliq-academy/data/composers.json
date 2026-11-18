@@ -2788,6 +2788,79 @@
     "spotifyArtistId": null
   },
   {
+    "portrait": null,
+    "thumbnail": null,
+    "influencedBy": [],
+    "influenced": [],
+    "teachers": [],
+    "students": [],
+    "historicalContext": "romantic",
+    "difficulty": 1,
+    "youtubeIds": [],
+    "spotifyArtistId": null,
+    "era": "romantic",
+    "id": "lanner",
+    "name": "ヨーゼフ・ランナー",
+    "nameEn": "Joseph Lanner",
+    "born": 1801,
+    "died": 1843,
+    "birthplace": "ウィーン（オーストリア帝国）",
+    "nationality": "Austrian",
+    "shortBio": "オーストリアの作曲家・ヴァイオリン奏者・楽長。ヨハン・シュトラウス1世とともにウィーンのワルツを形づくった。",
+    "longBio": "1801年4月12日、ウィーンに手袋職人の子として生まれた。ヴァイオリンを習い、理論と管弦楽法は独学した。1813年にミヒャエル・パーマーの楽団でヴァイオリンを弾き、1819年に小さな合奏団を作り、そこにヨハン・シュトラウス1世がヴィオラ奏者として加わった。1824年に弦楽オーケストラを組み、1825年に楽団を2つに分けてその一方をシュトラウスに任せたが、同年9月に2人は決裂した。1829年に宮廷のレドゥーテンザールの音楽監督となった。作品番号付きの作品は208曲で、ワルツ《求婚者》《シェーンブルンの人々》作品200などがある。1843年4月14日、ウィーン近郊のオーバーデープリングでチフスのため没した。",
+    "style": [
+      "ワルツ",
+      "レントラー",
+      "ギャロップ"
+    ],
+    "keyWorks": [
+      "lanner-schonbrunner"
+    ],
+    "tags": [
+      "romantic",
+      "orchestral",
+      "dance",
+      "vienna"
+    ]
+  },
+  {
+    "portrait": null,
+    "thumbnail": null,
+    "influencedBy": [],
+    "influenced": [],
+    "teachers": [],
+    "students": [],
+    "historicalContext": "romantic",
+    "difficulty": 1,
+    "youtubeIds": [],
+    "spotifyArtistId": null,
+    "era": "romantic",
+    "id": "strauss-j1",
+    "name": "ヨハン・シュトラウス1世",
+    "nameEn": "Johann Strauss I",
+    "born": 1804,
+    "died": 1849,
+    "birthplace": "ウィーン（オーストリア帝国）",
+    "nationality": "Austrian",
+    "shortBio": "オーストリアの作曲家・楽長。ランナーの楽団を経て自分の楽団を率い、ワルツと《ラデツキー行進曲》を書いた。ヨハン2世・ヨーゼフ・エドゥアルトの父。",
+    "longBio": "1804年3月14日、ウィーン近郊のレオポルトシュタットに生まれた。1817年から製本職人の修業をし、ヴァイオリンをヨハン・ポリシャンスキーに習った。ミヒャエル・パーマーの楽団で弾き、1823年からヨーゼフ・ランナーの四重奏団でヴィオラを弾いた。新ドイツ伝記事典（NDB）は自分の12人の楽団を作った年を1827年とする。ドイツ、パリ、イギリスに演奏旅行し、1838年にはロンドンでヴィクトリア女王の前で演奏した。1846年に宮廷舞踏会音楽監督の称号を受けた。1848年8月31日に《ラデツキー行進曲》作品228を初演した。1849年9月25日、ウィーンで猩紅熱のため没した。",
+    "style": [
+      "ワルツ",
+      "ギャロップ",
+      "行進曲",
+      "カドリーユ"
+    ],
+    "keyWorks": [
+      "strauss-j1-radetzky-march"
+    ],
+    "tags": [
+      "romantic",
+      "orchestral",
+      "dance",
+      "vienna"
+    ]
+  },
+  {
     "id": "strauss-j2",
     "name": "ヨハン・シュトラウス2世",
     "nameEn": "Johann Strauss II",
@@ -2824,6 +2897,42 @@
     ],
     "youtubeIds": [],
     "spotifyArtistId": null
+  },
+  {
+    "portrait": null,
+    "thumbnail": null,
+    "influencedBy": [],
+    "influenced": [],
+    "teachers": [],
+    "students": [],
+    "historicalContext": "romantic",
+    "difficulty": 1,
+    "youtubeIds": [],
+    "spotifyArtistId": null,
+    "era": "romantic",
+    "id": "strauss-josef",
+    "name": "ヨーゼフ・シュトラウス",
+    "nameEn": "Josef Strauss",
+    "born": 1827,
+    "died": 1870,
+    "birthplace": "ウィーン近郊マリアヒルフ（オーストリア帝国）",
+    "nationality": "Austrian",
+    "shortBio": "オーストリアの作曲家・指揮者。ヨハン・シュトラウス1世の次男で、技師として働いたのち兄ヨハン2世の代役として楽団を指揮し、ワルツ《天体の音楽》などを書いた。",
+    "longBio": "1827年8月20日、ウィーン近郊のマリアヒルフに生まれた。ショッテン・ギムナジウムを経て、1841〜46年にウィーンのポリテクニクムで機械工学を学び、製図技師・現場監督として働いた。1853年7月23日、病気の兄ヨハン2世に代わって初めてシュトラウス楽団を指揮した。ワルツ《オーストリアの村つばめ》作品164（1864年）、《デリリエン》作品212（1867年）、《天体の音楽》作品235（1868年）などを書き、1869年には兄と《ピツィカート・ポルカ》を共作した。1870年のワルシャワでの演奏旅行中に指揮台で倒れ、ウィーンに戻って7月22日に没した。",
+    "style": [
+      "ワルツ",
+      "ポルカ",
+      "カドリーユ"
+    ],
+    "keyWorks": [
+      "strauss-josef-spharenklange"
+    ],
+    "tags": [
+      "romantic",
+      "orchestral",
+      "dance",
+      "vienna"
+    ]
   },
   {
     "id": "weber",
