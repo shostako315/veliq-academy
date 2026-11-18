@@ -77,6 +77,11 @@ ART_SECTIONS = [
     ("museums", "美術館"),
 ]
 ART_SEC_NAME = dict(ART_SECTIONS)
+# 画家の目録（/art/catalog/。Worker が data/art-catalog/ から組む）の人数。メニューと美術学科トップに出す
+try:
+    CATALOG_N = len(json.loads((Path(__file__).resolve().parent.parent / "veliq-academy" / "data" / "art-catalog" / "index.json").read_text(encoding="utf-8"))["rows"])
+except Exception:
+    CATALOG_N = 0
 # 語学学科（記事だけ）。content/lingua/<lang>/<unit-id>.md → /lingua/<lang>/<unit-id>/
 # 記事は tools/lingua_export.js が veliq-club/lingua-bank.js（アプリの場面ノート）から書き出す
 LINGUA_SECTIONS = [
@@ -847,6 +852,9 @@ def header(S, cur):
         if s in DATA_SECTIONS or S.arts_in(s)]
     ml = "".join(f'<a href="{h}"{" class=\"on\"" if c == cur else ""}>{esc(t)}</a>' for h, t, c in music)
     art = [("/art/", "美術学科のトップ", "art")] + [(f"/art/{s}/", n, s) for s, n in ART_SECTIONS if S.arts_in(s)]
+    if CATALOG_N:  # 画家の目録（Worker が組むページ）は画家の後ろに置く
+        i = next((k + 1 for k, x in enumerate(art) if x[2] == "artists"), len(art))
+        art.insert(i, ("/art/catalog/", "画家の目録", "catalog"))
     al = "".join(f'<a href="{h}"{" class=\"on\"" if c == cur else ""}>{esc(t)}</a>' for h, t, c in art)
     ag = f'<div class="mg"><div class="mh">美術</div><div class="ml">{al}</div></div>\n  ' if S.arts_of("art") else ""
     lg = [("/lingua/", "語学学科のトップ", "lingua")] + [(f"/lingua/{s}/", n, s) for s, n in LINGUA_SECTIONS if S.arts_in(s)]
@@ -1636,7 +1644,8 @@ def build_art(S):
              max(str(a.get("updated", "")) for a in arts) or None)
     path = "/art/"
     bc, bld = crumbs([("トップ", "/"), ("美術", path)])
-    h = sec("分野", count_rows([(f"/art/{s}/", n, f"{len(S.arts_in(s))}") for s, n in ART_SECTIONS if S.arts_in(s)]))
+    h = sec("分野", count_rows([(f"/art/{s}/", n, f"{len(S.arts_in(s))}") for s, n in ART_SECTIONS if S.arts_in(s)]
+                             + ([("/art/catalog/", "画家の目録", f"{CATALOG_N}")] if CATALOG_N else [])))
     jp = [a for a in S.arts_in("artworks") if a.get("held_in") == "japan"]
     if jp:
         jp = sorted(jp, key=lambda a: (str(a.get("collection") or ""), a["slug"]))

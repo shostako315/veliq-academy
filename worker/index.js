@@ -407,7 +407,7 @@ async function artShell(env, { title, desc, canon, crumbs, body, en, ld2 }) {
   const ld = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: crumbs.map(([n, u], i) => ({ "@type": "ListItem", position: i + 1, name: n, ...(u ? { item: SITE + u } : {}) })) };
   const bc = '<nav class="va-bc" aria-label="パンくず"><ol>' + crumbs.map(([n, u], i) => i < crumbs.length - 1 ? `<li><a href="${u}">${H(n)}</a></li>` : `<li><span aria-current="page">${H(n)}</span></li>`).join("") + "</ol></nav>";
   return tpl
-    .replace('<a href="/art/artists/" class="on">画家</a>', '<a href="/art/artists/">画家</a><a href="/art/catalog/" class="on">画家の目録</a>')
+    .replace('<a href="/art/artists/" class="on">画家</a>', '<a href="/art/artists/">画家</a>').replace('<a href="/art/catalog/">画家の目録</a>', '<a href="/art/catalog/" class="on">画家の目録</a>')
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${H(title)}｜Veliq Academy</title>`)
     .replace(/(<meta name="description" content=")[^"]*/, `$1${H(desc)}`)
     .replace(/(<meta property="og:description" content=")[^"]*/, `$1${H(desc)}`)
