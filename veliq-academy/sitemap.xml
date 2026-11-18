@@ -322,6 +322,7 @@
   <url><loc>https://veliq-academy.com/music/works/britten-war-requiem/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/bruch-violin-concerto-1/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/bruckner-sym7/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/bruckner-symphony-4/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/bruckner-symphony-8/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/cage-433/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/chopin-ballade-1/</loc><lastmod>2026-11-07</lastmod></url>
@@ -336,9 +337,12 @@
   <url><loc>https://veliq-academy.com/music/works/debussy-prelude-afternoon/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/donizetti-lucia/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-american-quartet/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/dvorak-carnival-overture/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-serenade-strings/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-slavonic-dances-op46/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/dvorak-slavonic-dances-op72/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-sym9/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/dvorak-symphony-6/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-symphony-7/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-symphony-8/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/dvorak-vc/</loc><lastmod>2026-11-07</lastmod></url>
@@ -380,7 +384,9 @@
   <url><loc>https://veliq-academy.com/music/works/mahler-symphony-4/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mahler-symphony-9/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/massenet-manon/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/mendelssohn-hebrides/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mendelssohn-mnd/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/mendelssohn-symphony-3/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mendelssohn-symphony-4/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mendelssohn-vc/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/messiaen-quartet/</loc><lastmod>2026-11-07</lastmod></url>
@@ -399,10 +405,16 @@
   <url><loc>https://veliq-academy.com/music/works/mozart-magic-flute/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mozart-pc20/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mozart-pc21/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/mozart-pc23/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mozart-requiem/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/mozart-sinfonia-concertante/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mozart-symphony-25/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/mozart-symphony-35/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/mozart-symphony-38/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/mozart-symphony-39/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mozart-symphony-40/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mozart-symphony-41/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/mozart-violin-concerto-5/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/mussorgsky-pictures/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/nielsen-symphony-4/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/orff-carmina-burana/</loc><lastmod>2026-11-07</lastmod></url>
@@ -441,6 +453,7 @@
   <url><loc>https://veliq-academy.com/music/works/schoenberg-verklarte/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schubert-death-and-maiden/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schubert-sonata-d960/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/schubert-symphony-5/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schubert-symphony-9/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schubert-trout/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schubert-unfinished/</loc><lastmod>2026-11-07</lastmod></url>
@@ -448,6 +461,7 @@
   <url><loc>https://veliq-academy.com/music/works/schumann-carnaval/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schumann-dichterliebe/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schumann-pc/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://veliq-academy.com/music/works/schumann-symphony-1/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/schumann-symphony-3/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/scriabin-poem-of-ecstasy/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://veliq-academy.com/music/works/shostakovich-sq8/</loc><lastmod>2026-11-07</lastmod></url>
