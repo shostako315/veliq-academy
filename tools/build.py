@@ -66,11 +66,13 @@ SEC_NAME = dict(SECTIONS)
 DATA_SECTIONS = {"works", "composers", "eras", "concepts", "timeline"}
 ARTICLE_SECTIONS = [s for s, _ in SECTIONS if s not in ("timeline",)]
 
-# 美術学科（記事だけ）。content/art/<section>/<slug>.md → /art/<section>/<slug>/（artists は画家ひとりにつき1本）
+# 美術学科（記事だけ）。content/art/<section>/<slug>.md → /art/<section>/<slug>/（artists は画家ひとりにつき1本、artworks は作品ひとつにつき1本）
+# artworks の前付け：artist（画家の slug）・original（原題）・year・medium・size・collection・collection_url・designation・held_in（japan／abroad）
 ART_SECTIONS = [
     ("western", "西洋美術"),
     ("japan", "日本美術"),
     ("artists", "画家"),
+    ("artworks", "名品"),
     ("sculpture-architecture", "彫刻と建築"),
     ("museums", "美術館"),
 ]
@@ -160,6 +162,9 @@ class Site:
         self.EV = {e["id"]: e for e in self.events}
         self.data_mtime = dt.date.fromtimestamp(max(p.stat().st_mtime for p in DATA.glob("*.json"))).isoformat()
         self.articles = self.load_articles(content_dir)
+        for (sec, _), a in self.articles.items():  # 名品の一覧に出す画家の名前
+            if sec == "artworks" and ("artists", str(a.get("artist") or "")) in self.articles:
+                a["artist_label"] = re.split(r"——", self.articles[("artists", str(a["artist"]))]["title"])[0].strip()
         self.quiz = self.load_quiz()
         self.pages = []  # (path, lastmod, title)
 
@@ -1415,6 +1420,18 @@ def build_article(S, a):
     era = S.E.get(a.get("era"))
     meta = kv_table([("作曲家", f'<a href="/music/composers/{esc(c["id"])}/">{esc(c["name"])}</a>' if c else ""),
                      ("時代", f'<a href="/music/eras/{esc(era["id"])}/">{esc(era["name"])}</a>' if era else "")])
+    painter = S.articles.get(("artists", str(a.get("artist") or ""))) if fac == "art" else None
+    if fac == "art" and sec_ == "artworks":
+        if a.get("artist") and not painter:
+            warn(f'{a["file"]}: artist「{a["artist"]}」は content/art/artists/ にありません')
+        cu = str(a.get("collection_url") or "")
+        coll = esc(a.get("collection") or "")
+        if coll and cu.startswith("http"):
+            coll = f'<a href="{esc(url_enc(cu))}" target="_blank" rel="noopener">{coll}</a>'
+        meta = kv_table([("画家", f'<a href="{painter["path"]}">{esc(artist_name(painter))}</a>' if painter else esc(a.get("artist") or "")),
+                         ("原題", esc(a.get("original") or "")), ("制作年", esc(a.get("year") or "")),
+                         ("技法・素材", esc(a.get("medium") or "")), ("寸法", esc(a.get("size") or "")),
+                         ("所蔵", coll), ("指定", esc(a.get("designation") or ""))])
     if fac == "lingua":
         return build_lingua_unit(S, a, bc, bld)
     body = f'<div class="va-body">{autolink(S, a["html"], path)}</div>'
@@ -1422,6 +1439,16 @@ def build_article(S, a):
     if c:
         rel.append(("作曲家", [(f'/music/composers/{c["id"]}/', c["name"], S.life(c))]))
     others = [x for x in S.arts_in(sec_) if x["slug"] != a["slug"]]
+    if fac == "art" and sec_ == "artists":
+        mine = artworks_of(S, a["slug"])
+        if mine:
+            rel.append(("この画家の名品", [(x["path"], work_name(x), work_sub(x)) for x in mine]))
+    if painter and sec_ == "artworks":
+        rel.append(("画家", [(painter["path"], artist_name(painter), painter.get("summary", ""))]))
+        same = [x for x in artworks_of(S, painter["slug"]) if x["slug"] != a["slug"]]
+        if same:
+            rel.append(("同じ画家の名品", [(x["path"], work_name(x), work_sub(x)) for x in same]))
+        others = [x for x in others if x not in same]
     if others:
         rel.append((f"{sn}のほかの記事", [(x["path"], x["title"], x.get("summary", "")) for x in others[:8]]))
     quiz = S.quiz_for(a.get("composer"), a.get("era") or (c or {}).get("era"), a.get("quiz"))
@@ -1429,10 +1456,37 @@ def build_article(S, a):
         warn(f'{a["file"]}: quiz「{a["quiz"]}」は quiz-bank.js にありません')
     t = tail(S, path, a.get("sources"), rel, [S.EV[x] for x in a.get("concert", []) if x in S.EV], quiz, cites=a.get("cites"))
     desc = a.get("summary") or a["title"]
-    hd = (a.get("hero") or "") + f'<header class="va-hd">' + tagline(fac, (sec_, sn), a.get("updated")) + f'<h1>{esc(a["title"])}</h1>' + \
+    h1 = kana_nobr(a["title"]) if fac == "art" else esc(a["title"])
+    hd = (a.get("hero") or "") + f'<header class="va-hd">' + tagline(fac, (sec_, sn), a.get("updated")) + f'<h1>{h1}</h1>' + \
         (f'<p class="va-lede">{esc(a["summary"])}</p>' if a.get("summary") else "") + '</header>'
     ld = [article_ld(a["title"], desc, path, a.get("updated")), bld]
     page(S, path, a["title"], desc, bc + f'<article class="va-art">{hd}{meta}{body}{t}</article>', ld, sec_, a.get("updated"))
+
+
+def kana_nobr(t):
+    """美術の題名：カタカナの語（クリムト、ベルヴェデーレ など）の途中で折り返さないよう .kn で包む。・や＝の位置では折り返してよい"""
+    return re.sub(r"[ァ-ヶー]{2,14}", lambda m: f'<span class="kn">{m.group(0)}</span>', esc(t))
+
+
+def artist_name(a):
+    """画家の記事の題名「カミーユ・ピサロ——…」→「カミーユ・ピサロ」"""
+    return re.split(r"——", a["title"])[0].strip()
+
+
+def work_name(a):
+    """名品の記事の題名「《モナ・リザ》——…」→「《モナ・リザ》」"""
+    return re.split(r"——", a["title"])[0].strip()
+
+
+def work_sub(a):
+    """名品の一覧の小さい字：画家の名・制作年・所蔵（画家の記事があれば姓だけでなく題名の名前）"""
+    return "／".join(str(x) for x in (a.get("artist_label"), a.get("year"), a.get("collection")) if x)
+
+
+def artworks_of(S, artist):
+    """画家の slug → その画家の名品（制作年の順）"""
+    ws = [x for x in S.arts_in("artworks") if str(x.get("artist") or "") == artist]
+    return sorted(ws, key=lambda x: (re.sub(r"\D.*", "", str(x.get("year") or "")).zfill(4) or "9999", x["slug"]))
 
 
 def lingua_name(a):
@@ -1552,6 +1606,18 @@ def build_indexes(S):
              max(str(a.get("updated", "")) for a in arts) or None)
 
 
+def build_artworks_index(S, path, n, arts, bc, bld):
+    """名品の一覧：日本の美術館にあるもの → 海外の美術館にあるもの。それぞれ画家の生年の順ではなく所蔵館の順"""
+    jp = sorted([a for a in arts if a.get("held_in") == "japan"], key=lambda a: (str(a.get("collection") or ""), a["slug"]))
+    ab = sorted([a for a in arts if a.get("held_in") != "japan"], key=lambda a: (str(a.get("collection") or ""), a["slug"]))
+    h = sec(f"日本の美術館（{len(jp)}点）", rows([(a["path"], work_name(a), work_sub(a)) for a in jp]))
+    h += sec(f"海外の美術館（{len(ab)}点）", rows([(a["path"], work_name(a), work_sub(a)) for a in ab]))
+    lede = f"作品ひとつにつき1ページ。制作年・技法・寸法・所蔵館は所蔵館の公式ページなどで確かめた。{len(arts)}点。"
+    page(S, path, n, f"{n}の解説{len(arts)}点。所蔵館・制作年・技法・寸法と見どころ。", bc +
+         f'<header class="va-hd"><h1>{esc(n)}</h1><p class="va-lede">{esc(lede)}</p></header>' + h, [bld], "artworks",
+         max(str(a.get("updated", "")) for a in arts) or None)
+
+
 def build_art(S):
     """美術学科のトップと分野の一覧（記事があるときだけ）"""
     if not S.arts_of("art"):
@@ -1562,12 +1628,20 @@ def build_art(S):
             continue
         path = f"/art/{s}/"
         bc, bld = crumbs([("トップ", "/"), ("美術", "/art/"), (n, path)])
+        if s == "artworks":
+            build_artworks_index(S, path, n, arts, bc, bld)
+            continue
         page(S, path, n, f"{n}の記事{len(arts)}本。", bc + f'<header class="va-hd"><h1>{esc(n)}</h1><p class="va-lede">記事 {len(arts)}本。新しい順。</p></header>' +
              rows([(a["path"], a["title"], a.get("summary")) for a in arts]), [bld], s,
              max(str(a.get("updated", "")) for a in arts) or None)
     path = "/art/"
     bc, bld = crumbs([("トップ", "/"), ("美術", path)])
     h = sec("分野", count_rows([(f"/art/{s}/", n, f"{len(S.arts_in(s))}") for s, n in ART_SECTIONS if S.arts_in(s)]))
+    jp = [a for a in S.arts_in("artworks") if a.get("held_in") == "japan"]
+    if jp:
+        jp = sorted(jp, key=lambda a: (str(a.get("collection") or ""), a["slug"]))
+        h += sec("日本の美術館で見られる名品", rows([(a["path"], work_name(a), work_sub(a)) for a in jp[:8]]) +
+                 f'<p><a class="va-more" href="/art/artworks/">名品をすべて見る（{len(S.arts_in("artworks"))}点）</a></p>')
     news = sorted(S.arts_of("art"), key=lambda a: (str(a.get("updated", "")), a["title"]), reverse=True)[:6]
     if news:
         h += sec("新着", rows([(a["path"], a["title"], ART_SEC_NAME[a["section"]]) for a in news]))

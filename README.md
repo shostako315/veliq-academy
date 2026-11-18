@@ -37,7 +37,7 @@ cd veliq-academy && python3 -m http.server 8080
 ```
 
 ## 2026-11-03 の変更（美術学科・記事の型・用語リンク）
-- 美術学科：`content/art/<section>/<slug>.md`（section は `western`／`japan`／`artists`（画家ひとりにつき1本）／`sculpture-architecture`／`museums`）→ `/art/<section>/<slug>/`。前付けに `quiz: a-...`（アプリの章 key）を書くと「関連章」の導線が出る。章→記事の対応は `docs/art-read-map.json`
+- 美術学科：`content/art/<section>/<slug>.md`（section は `western`／`japan`／`artists`（画家ひとりにつき1本）／`artworks`（名品。作品ひとつにつき1本）／`sculpture-architecture`／`museums`）→ `/art/<section>/<slug>/`。前付けに `quiz: a-...`（アプリの章 key）を書くと「関連章」の導線が出る。章→記事の対応は `docs/art-read-map.json`
 - 記事の前付けに `aliases:`（用語リンクの別名）、`image:`／`image_credit:`／`image_alt:`（題名の上の全幅の図。Wikimedia Commons のパブリックドメイン画像のみ）を書ける
 - 本文の `==語==` は金のマーカー、`> 要点` で始まる引用は左罫線の箱。見出しの番号（1／1-1）と目次はビルドが付けるので手で書かない。最初の `## 要点` は箱として目次の前に出る。`## よくある質問` の `###` は Q の見出しになる
 - 本文中の外部リンク（`[（出典名）](URL)` など）はビルドで外し、末尾の「参考文献」に前付けの `sources` と重複排除してまとめる。本文末尾に `## 参考文献` を書いた記事も自動の節に統合される。britannica.com の `print/`・`EBchecked/` は無条件に落とす。`python3 tools/linkcheck.py` で URL を確認すると、200 以外の URL の項目も落ちる（結果は `tools/linkcheck.json`）
@@ -46,3 +46,10 @@ cd veliq-academy && python3 -m http.server 8080
 - 参考文献：URL の ( ) は %28 %29 にして出す。`/blog`・`blog.`・`wp-json` を含む URL は出典にしない
 - 作曲家・作品のデータだけの頁は、基本情報の表・年表・代表作の表・関連章・聴く（Apple Music／Spotify／YouTube）・参考文献の順で組む。`data/composers.json` の `portrait`／`portraitCredit` があれば題名の上に出す
 - 390px の確認は `docs/screens/`（Playwright で撮影）
+
+## 2026-11-18 の変更（美術：名品の新設）
+- `content/art/artworks/<slug>.md` → `/art/artworks/<slug>/`（音楽の `works` と分けるため section 名は `artworks`）。前付けに `artist`（`content/art/artists/` の slug）・`original`・`year`・`medium`・`size`・`collection`・`collection_url`（所蔵館の作品ページ）・`designation`・`held_in`（`japan`／`abroad`）を書くと、基本情報の表と画家へのリンクが出る
+- 画家の頁には「この画家の名品」、名品の頁には「画家」「同じ画家の名品」がビルドで付く。一覧 `/art/artworks/` は日本の美術館／海外の美術館に分け、美術学科のトップに「日本の美術館で見られる名品」を出す
+- 美術の記事の題名（h1）は、カタカナの語を `.kn` で包んで語の途中で折り返さない
+- 確認記録：`docs/factlog/art-expansion-2026-11-18.md`
+
