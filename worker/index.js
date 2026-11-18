@@ -504,7 +504,7 @@ function enShell({ title, desc, canon, ja, crumbs, body, ld2 }) {
 <link rel="alternate" hreflang="en" href="${SITE}${canon}"><link rel="alternate" hreflang="ja" href="${SITE}${ja}"><link rel="alternate" hreflang="x-default" href="${SITE}${canon}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Veliq Academy"><meta property="og:title" content="${H(title)} | Veliq Academy"><meta property="og:description" content="${H(desc)}"><meta property="og:url" content="${SITE}${canon}"><meta property="og:locale" content="en_US">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/veliq-mark.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="/assets/vq-ui.css?v=17">${j(ld)}${ld2 ? j(ld2) : ""}</head>
-<body><a class="va-skip" href="#main">Skip to content</a><header class="gh"><div class="wrap gh-in"><a class="brand" href="/en/art/catalog/">Veliq <b>Academy</b></a><nav class="gnav" aria-label="Language"><a href="/en/art/catalog/" class="on">Artists</a><a href="${ja}" hreflang="ja" lang="ja">日本語</a></nav></div></header>
+<body><a class="va-skip" href="#main">Skip to content</a><header class="gh"><div class="wrap gh-in"><a class="brand" href="/en/art/catalog/">Veliq <b>Academy</b></a><nav class="gnav" aria-label="Language"><a href="${ja}" hreflang="ja" lang="ja">日本語</a></nav></div></header>
 <main id="main" class="va-main"><div class="wrap">${bc}${body}</div></main>
 <footer class="gf"><div class="wrap"><div class="gf-brand">Veliq <b>Academy</b></div><p class="nt">Published by VariOrchestra (Musashino, Tokyo). Editor: Eigo Sato. <a href="mailto:info@variorchestra.com">info@variorchestra.com</a></p></div></footer></body></html>`;
 }
@@ -533,7 +533,7 @@ async function artEntryPageEn(env, A, id) {
     row("Works by type", kinds) + row("Collections", counts) + row("Identifiers", ids) + `</dl>` +
     works + src + `<p class="nt">From the Veliq Academy artist catalog, compiled only from the sources listed above. <a href="/en/art/catalog/">Search the catalog</a>　<a href="/art/catalog/${H(e.id)}/" hreflang="ja" lang="ja">日本語</a></p></article>`;
   const desc = [e.nameEn, jaName, enYears(e.born, e.died, e.approx), (e.nationality || []).join(", "), `${e.workCount} works in public collections`].filter(Boolean).join(". ");
-  return new Response(enShell({ title: e.nameEn, desc, canon: `/en/art/catalog/${e.id}/`, ja: `/art/catalog/${e.id}/`, ld2: artPersonLd(e, "en"), crumbs: [["Veliq Academy", "/en/art/catalog/"], ["Artist catalog", "/en/art/catalog/"], [e.nameEn]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=600" } });
+  return new Response(enShell({ title: e.nameEn, desc, canon: `/en/art/catalog/${e.id}/`, ja: `/art/catalog/${e.id}/`, ld2: artPersonLd(e, "en"), crumbs: [["Artist catalog", "/en/art/catalog/"], [e.nameEn]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=600" } });
 }
 async function artIndexPageEn(env, A, params) {
   const q = String(params.get("q") || "").slice(0, 60), country = String(params.get("country") || ""), era = String(params.get("century") || "");
@@ -556,7 +556,7 @@ async function artIndexPageEn(env, A, params) {
     `<form action="/en/art/catalog/" method="get" class="af"><input name="q" value="${H(q)}" placeholder="Name (e.g. Hokusai, 北斎, Monet)" aria-label="Name">${opt("century", "Century of birth", eras, era)}${opt("country", "Country", countries, country)}<button>Search</button></form>` +
     `<p class="nt">${list.length} artists${q || era || country ? ` (of ${A.rows.length})` : ""}, in order of birth.</p>${nav}<div class="rl">${items}</div>${nav}${srcs}</article>`;
   const desc = `${A.rows.length} artists with dates, nationality and works in public collections, compiled from museum open data. Includes ${A.rows.filter((r) => (r.country || []).includes("日本")).length} Japanese artists with kanji names.`;
-  return new Response(enShell({ title: "Artist catalog", desc, canon: "/en/art/catalog/", ja: "/art/catalog/", crumbs: [["Veliq Academy", "/en/art/catalog/"], ["Artist catalog"]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=300" } });
+  return new Response(enShell({ title: "Artist catalog", desc, canon: "/en/art/catalog/", ja: "/art/catalog/", crumbs: [["Artist catalog"]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=300" } });
 }
 async function artSitemap(env) {
   const A = await artCatalog(env);
