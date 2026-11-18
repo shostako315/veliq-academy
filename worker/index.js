@@ -377,6 +377,105 @@ async function catalogPage(env, cat, params) {
   return new Response(await shell(env, { title: "作品目録", desc: "作曲家109人の作品の調・作品番号・楽章・作曲年・初演と、ニューヨーク・フィルの演奏記録。", canon: "/music/catalog/", crumbs: [["トップ", "/"], ["音楽", "/music/"], ["作品目録"]], body }), { headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "public, max-age=300" } });
 }
 
+// ---- 画家の目録（/art/catalog/ と /art/catalog/<id>/）----
+// データは /data/art-catalog/index.json（全員の1行分）と e/<n>.json（本体を約100人ずつ）。tools/art_catalog_build.py で作る
+// 見た目は作品目録と同じ（.wk）。型は /art/artists/ のページ。中身は出典の事実だけで、文章は足さない
+const ART_HDR = { "Content-Type": "text/html; charset=utf-8", "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests" };
+let ART = null;
+async function artCatalog(env) {
+  if (ART && Date.now() - ART.at < 300000) return ART;
+  const get = async (p) => (await env.ASSETS.fetch(new Request(SITE + p))).json();
+  const idx = await get("/data/art-catalog/index.json");
+  const col = Object.fromEntries(idx.row.map((k, i) => [k, i]));
+  const rows = idx.rows.map((r) => Object.fromEntries(idx.row.map((k, i) => [k, r[i]])));
+  const minor = idx.minor.map((r) => Object.fromEntries(idx.minorRow.map((k, i) => [k, r[i]])));
+  const shards = {};
+  ART = {
+    at: Date.now(), idx, col, rows, minor,
+    byId: Object.fromEntries(rows.map((r) => [r.id, r])),
+    async entry(id) {
+      const r = this.byId[id];
+      if (!r) return null;
+      if (!shards[r.shard]) shards[r.shard] = await get(`/data/art-catalog/e/${r.shard}.json`);
+      return shards[r.shard][id] || null;
+    },
+  };
+  return ART;
+}
+async function artShell(env, { title, desc, canon, crumbs, body }) {
+  const tpl = await (await env.ASSETS.fetch(new Request(SITE + "/art/artists/"))).text();
+  const ld = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: crumbs.map(([n, u], i) => ({ "@type": "ListItem", position: i + 1, name: n, ...(u ? { item: SITE + u } : {}) })) };
+  const bc = '<nav class="va-bc" aria-label="パンくず"><ol>' + crumbs.map(([n, u], i) => i < crumbs.length - 1 ? `<li><a href="${u}">${H(n)}</a></li>` : `<li><span aria-current="page">${H(n)}</span></li>`).join("") + "</ol></nav>";
+  return tpl
+    .replace('<a href="/art/artists/" class="on">画家</a>', '<a href="/art/artists/">画家</a><a href="/art/catalog/" class="on">画家の目録</a>')
+    .replace(/<title>[\s\S]*?<\/title>/, `<title>${H(title)}｜Veliq Academy</title>`)
+    .replace(/(<meta name="description" content=")[^"]*/, `$1${H(desc)}`)
+    .replace(/(<meta property="og:description" content=")[^"]*/, `$1${H(desc)}`)
+    .replace(/(<meta property="og:title" content=")[^"]*/, `$1${H(title)}｜Veliq Academy`)
+    .replace(/(<link rel="canonical" href=")[^"]*/, `$1${SITE}${canon}`)
+    .replace(/(<meta property="og:url" content=")[^"]*/, `$1${SITE}${canon}`)
+    .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${JSON.stringify(ld)}</script>`)
+    .replace(/<main[\s\S]*<\/main>/, `<main id="main" class="va-main"><div class="wrap">${bc}${body}</div></main>`);
+}
+const ART_MUSEUM = { met: "メトロポリタン美術館", nga: "ナショナル・ギャラリー・オブ・アート", cma: "クリーブランド美術館", aic: "シカゴ美術館", moma: "MoMA" };
+const artYears = (b, d, approx) => (b || d ? `${b ? b + (approx ? "頃" : "") : "？"}–${d ? d + (approx ? "頃" : "") : ""}` : "");
+const artName = (r) => r.nameJa || r.nameEn;
+const artFold = (s) => String(s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[・＝=\-\s.]/g, "");
+async function artEntryPage(env, A, id) {
+  const e = await A.entry(id);
+  if (!e) return null;
+  const row = (k, v) => (v ? `<dt>${k}</dt><dd>${v}</dd>` : "");
+  const link = (x) => (x.id ? `<a href="/art/catalog/${H(x.id)}/">${H(x.ja || x.en || x.qid)}</a>` : H(x.ja || x.en || x.qid));
+  const jaNote = { none: "日本語表記は未確認です。", wikidata: "日本語表記は仮（Wikidata の日本語ラベル）です。", museum: "漢字の表記は所蔵館の記載です。" }[e.nameJaStatus] || "";
+  const sub = [e.nameJa ? e.nameEn : "", e.nameOrig && e.nameOrig !== e.nameJa ? e.nameOrig : ""].filter(Boolean).map(H).join("　");
+  const counts = Object.entries(e.counts || {}).map(([m, c]) => `${H(ART_MUSEUM[m] || m)}：${Object.entries(c).map(([k, n]) => `${H(k)}${n}点`).join("、")}`).join("<br>");
+  const kinds = Object.entries(e.kinds || {}).map(([k, n]) => `${H(k)} ${n}点`).join("、");
+  const ids = [e.wikidata ? `<a href="https://www.wikidata.org/wiki/${H(e.wikidata)}" target="_blank" rel="noopener">Wikidata ${H(e.wikidata)}</a>` : "", e.ulan ? `<a href="https://vocab.getty.edu/page/ulan/${H(e.ulan)}" target="_blank" rel="noopener">ULAN ${H(e.ulan)}</a>` : ""].filter(Boolean).join("　");
+  const more = e.tier2 ? `<p class="more"><a href="/art/artists/${H(e.tier2)}/">詳しく読む：${H(artName(e))}</a></p>` : "";
+  const works = (e.works || []).length ? `<h2>公的なコレクションにある作品</h2><div class="rl">` + e.works.map((w) => `<a href="${H(w.u)}" target="_blank" rel="noopener">${H(w.t || "題の記載なし")}<small>${[w.d, ART_MUSEUM[w.m] || w.m, w.k].filter(Boolean).map(H).join("・")}</small></a>`).join("") + "</div>" +
+    (e.workCount > e.works.length ? `<p class="nt">全${e.workCount}点のうち${e.works.length}点。絵画を先に、所蔵館が作品の年を書いた順に並べています。</p>` : "") : "";
+  const src = (e.sources || []).length ? `<h2>出典</h2><ul class="src">${e.sources.map((s) => `<li><a href="${H(s.url)}" target="_blank" rel="noopener">${H(s.name)}</a>（${H(s.license)}、${H(s.retrieved)}取得）${s.fields ? `：${H(s.fields)}` : ""}</li>`).join("")}${e.nameJaSource ? `<li>日本語表記：${H(e.nameJaSource)}</li>` : ""}</ul>` : "";
+  const body = `<article class="wk"><h1>${H(artName(e))}</h1>${sub ? `<p class="en">${sub}</p>` : ""}${jaNote ? `<p class="nt">${jaNote}</p>` : ""}${more}<dl>` +
+    row("生年", e.born ? `${e.born}年${e.approx ? "頃" : ""}${e.birthPlace ? `　${H(e.birthPlace)}` : ""}` : "") +
+    row("没年", e.died ? `${e.died}年${e.approx ? "頃" : ""}${e.deathPlace ? `　${H(e.deathPlace)}` : ""}` : "") +
+    row("国籍・地域", (e.country || []).map(H).join("、")) + row("時代", (e.jpPeriods || []).map(H).join("、")) +
+    row("流派・運動", (e.movement || []).map((m) => H(m.ja || m.en || m)).join("、")) +
+    row("師", (e.teachers || []).map(link).join("、")) + row("弟子", (e.students || []).map(link).join("、")) +
+    row("作品の種類", kinds) + row("所蔵", counts) + row("ID", ids) + `</dl>` +
+    ((e.yearsNote || []).length ? `<p class="nt">出典によって年が異なります。${e.yearsNote.map(H).join("。")}。</p>` : "") +
+    (e.birthPlace || e.deathPlace ? `<p class="nt">出生地・死没地はメトロポリタン美術館の記載のままです。</p>` : "") +
+    works + src + `<p class="nt">Veliq 画家の目録より。出典に書かれていることだけを載せています。<a href="/art/catalog/">画家の目録で探す</a></p></article>`;
+  const desc = [artName(e), e.nameJa ? e.nameEn : "", artYears(e.born, e.died, e.approx), (e.country || []).join("・"), `公的なコレクションの所蔵作品${e.workCount}点`].filter(Boolean).join("。");
+  return new Response(await artShell(env, { title: artName(e), desc, canon: `/art/catalog/${e.id}/`, crumbs: [["トップ", "/"], ["美術", "/art/"], ["画家の目録", "/art/catalog/"], [artName(e)]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=600" } });
+}
+async function artIndexPage(env, A, params) {
+  const q = String(params.get("q") || "").slice(0, 60), era = String(params.get("era") || ""), country = String(params.get("country") || ""), mv = String(params.get("movement") || "");
+  const PER = 100, page = Math.max(1, parseInt(params.get("p") || "1", 10) || 1);
+  const fq = artFold(q);
+  const hitQ = (...xs) => !fq || xs.some((x) => artFold(x).includes(fq));
+  const list = A.rows.filter((r) => hitQ(r.nameJa, r.nameEn, r.nameOrig) && (!era || r.era === era) && (!country || (r.country || []).includes(country)) && (!mv || (r.movement || []).some((m) => (m.ja || m.en || m) === mv)));
+  const eraOf = (y) => (y ? `${Math.floor((y - 1) / 100) + 1}世紀` : "");
+  const minor = A.minor.filter((r) => hitQ(r.nameEn, r.nameOrig) && (!era || eraOf(r.born || (r.died ? r.died - 50 : 0)) === era) && (!country || (r.country || []).includes(country)) && !mv);
+  const opt = (name, label, vals, cur) => `<select name="${name}" aria-label="${label}"><option value="">${label}</option>${vals.map((v) => `<option${v === cur ? " selected" : ""}>${H(v)}</option>`).join("")}</select>`;
+  const eras = [...new Set(A.rows.map((r) => r.era).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
+  const cc = {};
+  A.rows.forEach((r) => (r.country || []).forEach((c) => (cc[c] = (cc[c] || 0) + 1)));
+  const countries = Object.keys(cc).sort((a, b) => cc[b] - cc[a]);
+  const mvs = [...new Set(A.rows.flatMap((r) => (r.movement || []).map((m) => m.ja || m.en || m)))].sort();
+  const pages = Math.max(1, Math.ceil(list.length / PER));
+  const shown = list.slice((page - 1) * PER, page * PER);
+  const qs = (p) => "?" + new URLSearchParams(Object.entries({ q, era, country, movement: mv, p: p > 1 ? String(p) : "" }).filter(([, v]) => v)).toString();
+  const nav = pages > 1 ? `<p class="pg">${page > 1 ? `<a href="/art/catalog/${qs(page - 1)}">前の${PER}人</a>` : ""}<span>${page} / ${pages}</span>${page < pages ? `<a href="/art/catalog/${qs(page + 1)}">次の${PER}人</a>` : ""}</p>` : "";
+  const items = shown.map((r) => `<a href="/art/catalog/${H(r.id)}/">${H(artName(r))}<small>${[r.nameJa ? r.nameEn : "", r.nameOrig && r.nameOrig !== r.nameJa ? r.nameOrig : "", artYears(r.born, r.died, r.approx), (r.country || []).join("・"), `所蔵${r.workCount}点`, r.tier2 ? "画家ページあり" : ""].filter(Boolean).map(H).join("・")}</small></a>`).join("");
+  const minorList = minor.length ? `<h2>所蔵作品が2点以下の画家</h2><p class="nt">項目はまだありません。名前と生没年だけ載せています。</p><details><summary>${minor.length}人を表示</summary><ul class="mnr">${minor.map((r) => `<li>${H(r.nameEn)}${r.nameOrig ? `（${H(r.nameOrig)}）` : ""}　${H(artYears(r.born, r.died, r.approx))}${(r.country || []).length ? `　${H(r.country.join("・"))}` : ""}</li>`).join("")}</ul></details>` : "";
+  const srcs = `<h2>出典</h2><ul class="src">${A.idx.sources.filter((s, i, a) => a.findIndex((x) => x.home === s.home) === i).map((s) => `<li><a href="${H(s.home)}" target="_blank" rel="noopener">${H(s.name)}</a>（${H(s.license)}、${H(s.retrieved)}取得）</li>`).join("")}</ul><p class="nt">次の出典には接続できず、今回は使っていません：${H(A.idx.unreachable)}。</p>`;
+  const body = `<article class="wk"><h1>画家の目録</h1><p>美術館が公開しているデータから、画家${A.rows.length}人の生没年・国籍と、公的なコレクションにある作品をまとめた目録です。出典に書かれていることだけを載せています。手書きの解説がある画家には「詳しく読む」を付けています。</p>` +
+    `<form action="/art/catalog/" method="get" class="af"><input name="q" value="${H(q)}" placeholder="名前（例：北斎、Monet）" aria-label="名前">${opt("era", "生まれた世紀", eras, era)}${opt("country", "国籍・地域", countries, country)}${mvs.length ? opt("movement", "流派・運動", mvs, mv) : ""}<button>探す</button></form>` +
+    `<p class="nt">${list.length}人${q || era || country || mv ? `（全${A.rows.length}人から）` : ""}。生まれた年の順。</p>${nav}<div class="rl">${items}</div>${nav}${minorList}${srcs}</article>`;
+  const desc = `美術館の公開データから、画家${A.rows.length}人の生没年・国籍と公的なコレクションにある作品をまとめた目録。`;
+  return new Response(await artShell(env, { title: "画家の目録", desc, canon: "/art/catalog/", crumbs: [["トップ", "/"], ["美術", "/art/"], ["画家の目録"]], body }), { headers: { ...ART_HDR, "Cache-Control": "public, max-age=300" } });
+}
+
 async function trip(req, env) {
   const H = { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" };
   if (!env.TRIP) return new Response(JSON.stringify({ error: "no_store" }), { status: 503, headers: H });
@@ -560,6 +659,13 @@ export default {
       const cat = await catalog(env);
       if (pg[1]) { const r = await workPage(env, cat, pg[1]); if (r) return r; }
       else return catalogPage(env, cat, url.searchParams);
+    }
+    const ap = url.pathname.match(/^\/art\/catalog(?:\/([a-z0-9-]+))?\/?$/);
+    if (ap) {
+      if (!url.pathname.endsWith("/")) return Response.redirect(`${SITE}${url.pathname}/${url.search}`, 301);
+      const A = await artCatalog(env);
+      if (ap[1]) { const r = await artEntryPage(env, A, ap[1]); if (r) return r; }
+      else return artIndexPage(env, A, url.searchParams);
     }
     if (url.pathname === "/api" || url.pathname === "/api/") {
       const cat = await catalog(env);
