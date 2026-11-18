@@ -902,7 +902,7 @@ def footer(S, extra_js=""):
   <div class="wrap">
     <div class="gf-brand">Veliq <b>Academy</b></div>
     {grp("学科", fac)}{grp("公演・Club", conc)}{grp("運営", ops)}{grp("法的", legal)}
-    <nav class="vq-fam" aria-label="Veliq のメディア"><p class="vq-fam-h">Veliq のメディア</p><ul><li><a href="https://veliq.jp/">VELIQ</a></li><li><a href="https://veliq-finance.com/">Veliq Finance</a></li><li><a href="https://veliq-table.com/">Veliq Table</a></li><li><a href="https://veliq-living.com/">Veliq Living</a></li><li><a href="https://veliq-vita.com/">Veliq Vita</a></li><li><a href="https://veliq-atelier.com/">Veliq Atelier</a></li><li><a href="https://veliq-career.com/">Veliq Career</a></li><li><a href="https://veliq-works.com/">Veliq Works</a></li><li><a href="https://veliq-academy.com/" aria-current="page">Veliq Academy</a></li><li><a href="https://veliqclub.com/">Veliq Club</a></li></ul></nav>
+    <nav class="vq-fam" aria-label="Veliq のメディア"><p class="vq-fam-h">Veliq のメディア</p><ul><li><a href="https://veliq.jp/">VELIQ</a></li><li><a href="https://veliq-finance.com/">Veliq Finance</a></li><li><a href="https://veliq-table.com/">Veliq Table</a></li><li><a href="https://veliq-living.com/">Veliq Living</a></li><li><a href="https://veliq-vita.com/">Veliq Vita</a></li><li><a href="https://veliq-atelier.com/">Veliq Atelier</a></li><li><a href="https://veliq-career.com/">Veliq Career</a></li><li><a href="https://veliq-academy.com/" aria-current="page">Veliq Academy</a></li><li><a href="https://veliqclub.com/">Veliq Club</a></li></ul></nav>
     <p class="gf-line">運営：{PUBLISHER}・監修：{SUPERVISOR}（{SUPERVISOR_ROLE}）</p>
     <p class="gf-copy">© {PUBLISHER}</p>
   </div>
