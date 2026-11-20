@@ -89,7 +89,7 @@ def shell(title, desc, path, ja, crumbs, body, lds):
 <link rel="canonical" href="{SITE}{path}">{alt}
 <meta property="og:type" content="article"><meta property="og:site_name" content="Veliq Academy"><meta property="og:title" content="{esc(title)} | Veliq Academy"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{SITE}{path}"><meta property="og:locale" content="en_US">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/veliq-mark.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/vq-ui.css?v=22">
+<link rel="stylesheet" href="/assets/vq-ui.css?v=23">
 <script type="application/ld+json">{json.dumps(bc_ld, ensure_ascii=False, separators=(",", ":"))}</script>{j}
 </head>
 <body>

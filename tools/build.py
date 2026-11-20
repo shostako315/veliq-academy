@@ -43,7 +43,7 @@ QUIZ_BANK = (Path(os.environ["VELIQ_CLUB_DIR"]) / "quiz-bank.js" if os.environ.g
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "22"
+CSS_V = "23"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
