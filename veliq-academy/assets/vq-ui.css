@@ -580,5 +580,8 @@ main table[data-stack] td[data-label]{display:grid!important;grid-template-colum
 main table[data-stack] td[data-label]::before{content:attr(data-label);font-size:12px;font-weight:600;color:var(--ink-3);padding-top:2px}}
 main table:not([role=presentation]):not(.matrix):not(.pr):not(.pt):not(.stack) :is(th,td):not(.n):not(.c):not([style*=text-align]){text-align:left!important}
 main table :is(th,td).c{text-align:center!important}
+main table:not([role=presentation]):not(.matrix):not(.pr):not(.pt):not(.stack){border:0!important;border-radius:0!important;box-shadow:none!important;background:transparent!important}
 main table :is(th,td).n{text-align:right!important;font-variant-numeric:tabular-nums}
 @media(max-width:600px){main table[data-stack] td.n{text-align:left!important}}
+@media(max-width:600px){main table :is(th,td).n{min-width:0!important;padding-right:12px!important}main table :is(th,td).n:last-child{padding-right:0!important}}
+html body h1:has(wbr){word-break:keep-all!important;overflow-wrap:break-word!important;line-break:strict}

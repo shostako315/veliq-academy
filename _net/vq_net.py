@@ -347,6 +347,30 @@ def fix_tables(t):
     return TABLE_RE.sub(lambda m: fix_table(m.group(0)), t)
 
 
+# 見出し(h1)を言葉の区切りで折り返す：句読点のあとと、助詞で終わるひらがなのあとに <wbr> を入れ、CSS は keep-all（2026-11-20）
+_H1_RE = re.compile(r'(<h1\b[^>]*>)(.*?)(</h1>)', re.S)
+_BRK = re.compile(r'([。、・?？!！」』）]|[をはがにでとのもへやか](?=[\ue000-\uf8ff]*[一-龥々〆ァ-ヺ0-9０-９A-Za-zＡ-Ｚ「『（(]))(?=[\ue000-\uf8ff]*[^\ue000-\uf8ff\s]{2})')
+
+
+def fix_h1(t):
+    def one(m):
+        inner = m.group(2).replace('<wbr>', '')
+        if 'data-nowbr' in m.group(1):
+            return m.group(0)
+        tags = []
+
+        def hide(t):
+            tags.append(t.group(0))
+            return chr(0xE000 + len(tags) - 1)
+        inner = re.sub(r'<[^>]+>', hide, inner)
+        inner = _BRK.sub(lambda x: x.group(1) + '\uf8ff', inner)
+        inner = re.sub(r'(?<=[^\s\ue000-\uf8ff])(?=[《「『（(])', '\uf8ff', inner)
+        inner = re.sub(r'(?<=[ァ-ヺー一-龥])(?=とは)', '\uf8ff', inner)
+        inner = inner.replace('\uf8ff', '<wbr>')
+        return m.group(1) + re.sub(r'[\ue000-\uf8fe]', lambda x: tags[ord(x.group(0)) - 0xE000], inner) + m.group(3)
+    return _H1_RE.sub(one, t, count=1)
+
+
 def process(site, root):
     XL = load_xl()
     stats = dict(pages=0, changed=0, xl=0, xl_missing=[])
@@ -370,6 +394,7 @@ def process(site, root):
             t = fix_pr(t, site)
             t = fix_gold(t)
             t = fix_tables(t)
+            t = fix_h1(t)
             t = asset_ver(t, root, rel)
             if XL:
                 t = XL_RE.sub('', t)

@@ -43,7 +43,7 @@ QUIZ_BANK = (Path(os.environ["VELIQ_CLUB_DIR"]) / "quiz-bank.js" if os.environ.g
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "19"
+CSS_V = "22"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
@@ -979,7 +979,7 @@ def sec(title, inner, cls=""):
 def write(S, path, html_, lastmod=None, title=""):
     p = OUT / path.strip("/") / "index.html" if path.endswith("/") else OUT / path.lstrip("/")
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(_vqt.fix_tables(html_) if "<table" in html_ else html_, encoding="utf-8")
+    p.write_text(_vqt.fix_h1(_vqt.fix_tables(html_) if "<table" in html_ else html_), encoding="utf-8")
     S.pages.append((path, lastmod or S.data_mtime, title))
 
 
