@@ -21,6 +21,9 @@ import re
 import shutil
 import sys
 from pathlib import Path
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location("vq_net", str(__import__("pathlib").Path(__file__).resolve().parent.parent / "_net" / "vq_net.py"))
+_vqt = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_vqt)  # 表の数字の列・スマホの段組み（2026-11-20）
 from urllib.parse import quote, unquote
 
 try:
@@ -40,7 +43,7 @@ QUIZ_BANK = (Path(os.environ["VELIQ_CLUB_DIR"]) / "quiz-bank.js" if os.environ.g
 APP = "https://veliqclub.com/app.html"
 CLUB = "https://veliqclub.com/"
 VO = "https://variorchestra.com/"
-CSS_V = "18"
+CSS_V = "19"
 
 SUPERVISOR = "佐藤瑛吾"
 SUPERVISOR_ROLE = "指揮者・VariOrchestra 音楽監督"
@@ -976,7 +979,7 @@ def sec(title, inner, cls=""):
 def write(S, path, html_, lastmod=None, title=""):
     p = OUT / path.strip("/") / "index.html" if path.endswith("/") else OUT / path.lstrip("/")
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(html_, encoding="utf-8")
+    p.write_text(_vqt.fix_tables(html_) if "<table" in html_ else html_, encoding="utf-8")
     S.pages.append((path, lastmod or S.data_mtime, title))
 
 

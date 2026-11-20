@@ -10,6 +10,9 @@
 
 英語版の本文は、日本語版の記事を英語にしたもの。日本語版に無い事実は足さない。
 """
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location("vq_net", str(__import__("pathlib").Path(__file__).resolve().parent.parent / "_net" / "vq_net.py"))
+_vqt = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_vqt)  # 表の数字の列・スマホの段組み（2026-11-20）
 import datetime as dt
 import html
 import json
@@ -86,7 +89,7 @@ def shell(title, desc, path, ja, crumbs, body, lds):
 <link rel="canonical" href="{SITE}{path}">{alt}
 <meta property="og:type" content="article"><meta property="og:site_name" content="Veliq Academy"><meta property="og:title" content="{esc(title)} | Veliq Academy"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{SITE}{path}"><meta property="og:locale" content="en_US">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/veliq-mark.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/vq-ui.css?v=18">
+<link rel="stylesheet" href="/assets/vq-ui.css?v=19">
 <script type="application/ld+json">{json.dumps(bc_ld, ensure_ascii=False, separators=(",", ":"))}</script>{j}
 </head>
 <body>
@@ -194,7 +197,7 @@ def build():
 def write(path, h):
     p = OUT / path.strip("/") / "index.html"
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(h, encoding="utf-8")
+    p.write_text(_vqt.fix_tables(h) if "<table" in h else h, encoding="utf-8")
 
 
 def shutil_rm(d, keep=()):

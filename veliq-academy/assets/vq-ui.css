@@ -578,3 +578,7 @@ main table[data-stack] tr>th{font-size:15px;margin:0 0 6px}
 main table[data-stack] td{font-size:14px;line-height:1.75}
 main table[data-stack] td[data-label]{display:grid!important;grid-template-columns:4.5em 1fr;column-gap:12px;margin-top:4px}
 main table[data-stack] td[data-label]::before{content:attr(data-label);font-size:12px;font-weight:600;color:var(--ink-3);padding-top:2px}}
+main table:not([role=presentation]):not(.matrix):not(.pr):not(.pt):not(.stack) :is(th,td):not(.n):not(.c):not([style*=text-align]){text-align:left!important}
+main table :is(th,td).c{text-align:center!important}
+main table :is(th,td).n{text-align:right!important;font-variant-numeric:tabular-nums}
+@media(max-width:600px){main table[data-stack] td.n{text-align:left!important}}
