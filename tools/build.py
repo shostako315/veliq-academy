@@ -1738,7 +1738,10 @@ def build_concerts(S):
         ev_ld = {"@context": "https://schema.org", "@type": "MusicEvent", "name": e["title"], "startDate": sd,
                  "eventStatus": "https://schema.org/EventScheduled",
                  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-                 "location": {"@type": "Place", "name": e.get("venue"), "address": e.get("venue")},
+                 "location": {"@type": "Place", "name": e.get("venue"),
+                              "address": ({"@type": "PostalAddress", "streetAddress": "中町3-9-11", "addressLocality": "武蔵野市",
+                                           "addressRegion": "東京都", "addressCountry": "JP"}
+                                          if "武蔵野市民文化会館" in (e.get("venue") or "") else e.get("venue"))},
                  "offers": {"@type": "Offer", "url": tu}, "url": url_of(p)}
         if e.get("sponsor"):
             # 後援の公演：主催者は出さず、後援を sponsor として出す
