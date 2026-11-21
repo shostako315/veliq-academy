@@ -1753,6 +1753,20 @@ def build_concerts(S):
         mp = re.search(r"([\d,]+)円", e.get("price") or "")
         if mp:
             ev_ld["offers"].update({"price": mp.group(1).replace(",", ""), "priceCurrency": "JPY"})
+        if e.get("date"):
+            ev_ld["endDate"] = e["date"]
+        off_extra = {}
+        if e.get("availability"):
+            off_extra["availability"] = "https://schema.org/" + e["availability"]
+        if e.get("salesFrom"):
+            off_extra["validFrom"] = e["salesFrom"]
+        if e.get("offers"):
+            ev_ld["offers"] = [dict({"@type": "Offer", "name": o["name"], "url": tu, "price": str(o["price"]),
+                                     "priceCurrency": "JPY"}, **off_extra) for o in e["offers"]]
+        else:
+            ev_ld["offers"].update(off_extra)
+        if e.get("image"):
+            ev_ld["image"] = [e["image"]]
         if e.get("subtitle"):
             ev_ld["description"] = e["subtitle"]
         if e.get("conductor"):

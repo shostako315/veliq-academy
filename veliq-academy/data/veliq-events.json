@@ -38,7 +38,10 @@
     "ticketUrl": "https://veliqclub.com/seats.html?e=cm1219",
     "sponsor": "一般社団法人VariOrchestra",
     "conductor": null,
-    "studyPathId": null
+    "studyPathId": null,
+    "salesFrom": "2026-11-06",
+    "availability": "InStock",
+    "image": "https://veliqclub.com/img/events/cm1219-wide.jpg"
   },
   {
     "id": "vo-vol3-2027-03",
@@ -63,9 +66,30 @@
         "title": "ベートーヴェン：交響曲第3番変ホ長調 Op.55《英雄》"
       }
     ],
-    "ticketUrl": "https://variorchestra.com/",
+    "ticketUrl": "https://teket.jp/768/62360",
     "bannerColor": "#4A3C20",
     "conductor": "佐藤 瑛吾",
-    "studyPathId": null
+    "studyPathId": null,
+    "price": "S席 5,000円／A席 4,000円／B席 3,000円／学生 2,000円",
+    "salesFrom": "2026-07-12",
+    "availability": "InStock",
+    "offers": [
+      {
+        "name": "S席",
+        "price": 5000
+      },
+      {
+        "name": "A席",
+        "price": 4000
+      },
+      {
+        "name": "B席",
+        "price": 3000
+      },
+      {
+        "name": "学生",
+        "price": 2000
+      }
+    ]
   }
 ]
