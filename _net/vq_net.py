@@ -11,6 +11,7 @@
   4. フッター「Veliq のメディア」の並び・表記と © 2026 の行
   5. Veliq 各サイトへの .html 付きリンクを拡張子なしに
   6. パンくずの先頭「トップ」・区切り「›」、PR表記の文言、CSS/JS の版（内容のハッシュ）
+  7. 表：数字の列の右寄せ・列ごとの寄せの統一・スマホの段組み（data-stack）・短い2列の表（data-k2）、表のある頁に vq-stack.js
 各サイトの生成スクリプト（table: tools/build-articles.js、living: build.sh）の最後でも呼ぶ。
 この _net/ は 8 リポジトリで同じ内容。直すときは全部に同じものを入れる。
 """
@@ -263,15 +264,29 @@ def asset_ver(t, root, rel):
         src = m.group(2)
         base = os.path.dirname(rel)
         p = os.path.normpath(os.path.join(root, src.lstrip('/')) if src.startswith('/') else os.path.join(root, base, src))
+        if not os.path.exists(p) and src.startswith('/'):
+            p = os.path.join(os.path.dirname(os.path.abspath(root)), src.lstrip('/'))  # /toukei/ のように親の配信ディレクトリから見たパス
         if not os.path.exists(p):
             return m.group(0)
         h = hashlib.md5(open(p, 'rb').read()).hexdigest()[:8]
         return '%s="%s?v=%s"' % (m.group(1), src, h)
-    return re.sub(r'(href|src)="((?:[./]*|/)(?:assets/)?(?:vq-ui\.css|ui\.css|vq-book\.js|vq-book\.css))(?:\?v=[^"]*)?"', rep, t)
+    return re.sub(r'(href|src)="((?:[./]*|/)(?:toukei/)?(?:assets/)?(?:vq-ui\.css|ui\.css|vq-book\.js|vq-book\.css|vq-stack\.js))(?:\?v=[^"]*)?"', rep, t)
 
 
-# 表の数字の列：見出しも数字も右寄せにそろえる（class="n"）。4列以上で行見出しのある表はスマホで行ごとの段に組む（data-stack・data-label）。2026-11-20
-NUM_RE = re.compile(r'^[約~〜+\-−▲△±]?\s*[0-9０-９][0-9０-９,，.．]*\s*[%％]?\s*(億|万|千)?\s*(円|ドル|人|件|倍|年|歳|時間|分|日|回|点|位|pt|kL|ml|L|℃|g|kg|本|杯)?\s*(以上|以下|未満|超|前後)?$')
+# 表の数字の列：見出しも数字も右寄せにそろえる（class="n"）。数字の列でない列からは n を外し、列の中で寄せをそろえる（2026-11-23）。4列以上で行見出しのある表はスマホで行ごとの段に組む（data-stack・data-label）。2026-11-20
+_NUM = r'[約~〜+\-−▲△±]?\s*[0-9０-９][0-9０-９,，.．]*'
+NUM_RE = re.compile(r'^' + _NUM + r'(\s*[〜~～–\-−]\s*[0-9０-９][0-9０-９,，.．]*)?\s*[%％]?\s*(億|万|千)?\s*(円|ドル|人|件|倍|年|歳|時間|分|日|回|点|位|pt|kL|ml|mL|L|℃|g|kg|mg|kcal|本|杯|cm|mm|m|km|㎡|m²|bpm|か月|カ月|ヶ月|週|秒|個|枚|社)?\s*(以上|以下|未満|超|前後|程度)?$')
+
+
+def _isnum(v):
+    """数字の列に入れてよい値か：NUM_RE か、数字で始まる短い値（漢字・かなが3字以下）。2026-11-23"""
+    if NUM_RE.match(v):
+        return True
+    return (len(v) <= 16 and re.match(r'^[約~〜+\-−▲△±]?\s*[0-9０-９]', v) is not None
+            and len(re.findall(r'[ぁ-んァ-ヶ一-龥々]', v)) <= 3 and not re.search(r'[、。]', v))
+_HASN = re.compile(r'\sclass="[^"]*(?<![\w-])n(?![\w-])')
+
+
 TABLE_RE = re.compile(r'<table\b[^>]*>.*?</table>', re.S)
 CELL_RE = re.compile(r'<(th|td)\b([^>]*)>(.*?)</\1>', re.S)
 
@@ -301,19 +316,24 @@ def fix_table(tb):
     if not body:
         return tb
     width = max(len(CELL_RE.findall(r)) for r in rows)
-    numcols, symcols = set(), set()
+    numcols, symcols, textcols = set(), set(), set()
     for ci in range(1, width):
-        vals = []
+        vals, pre = [], 0
         for r in body:
             cs = CELL_RE.findall(r)
             if ci < len(cs) and cs[ci][0] == 'td':
                 v = _txt(cs[ci][2])
-                if v and v not in ('-', '—', '―', '–'):
+                if v and v not in ('-', '—', '―', '–', '−', '／', '/'):
                     vals.append(v)
-        if len(vals) >= 2 and sum(1 for v in vals if NUM_RE.match(v)) >= 0.8 * len(vals):
+                    pre += 1 if _HASN.search(cs[ci][1]) else 0
+        nnum = sum(1 for v in vals if _isnum(v))
+        if vals and nnum >= 0.8 * len(vals) and (len(vals) >= 2 or pre):
             numcols.add(ci)
         elif len(vals) >= 2 and all(len(v) <= 2 for v in vals) and sum(1 for v in vals if re.search(r'[○◎△×✓✔●▲−-]', v)) >= 0.5 * len(vals):
             symcols.add(ci)
+        else:
+            # 数字の列でないのに一部のセルだけ右寄せ（class="n"）だと、見出しとセルの位置がずれる。列ごと左にそろえる（2026-11-23）
+            textcols.add(ci)
     heads = [_txt(c[2]) for c in CELL_RE.findall(hdr[-1])] if hdr else []
     stack = (len(heads) >= 4 and 'class="vt' not in head and any(re.search(r'<tr\b[^>]*>\s*<th', r) for r in body))
 
@@ -323,8 +343,8 @@ def fix_table(tb):
         def cell(m):
             i[0] += 1
             tag, attrs, inner = m.group(1), m.group(2), m.group(3)
-            if tag == 'td' and re.search(r'\sclass="[^"]*\bn\b', attrs) and not NUM_RE.match(_txt(inner)) and len(re.findall(r'[ぁ-んァ-ヶ一-龥]', _txt(inner))) >= 3:
-                attrs = re.sub(r'(\sclass="[^"]*?)\s*\bn\b', r'\1', attrs).replace(' class=""', '')
+            if i[0] in textcols and _HASN.search(attrs):
+                attrs = re.sub(r'(\sclass="[^"]*?)\s*(?<![\w-])n(?![\w-])', r'\1', attrs).replace(' class=""', '')
             if i[0] in numcols:
                 attrs = _addcls(attrs, 'n')
             elif i[0] in symcols:
@@ -338,6 +358,10 @@ def fix_table(tb):
         out = out.replace(r, mark(r, '<td' in r), 1)
     if stack and 'data-stack' not in head:
         out = out.replace('<table', '<table data-stack', 1)
+    # 2列で左の列が短い表（年表・項目と値）：左の列を折り返さず、右の列に本文を流す（スマホでも段に組まない）。2026-11-23
+    if width == 2 and len(body) >= 2 and 'data-k2' not in head and all(
+            len(re.sub(r'\s+', '', _txt(CELL_RE.findall(r)[0][2]))) <= 11 for r in body if CELL_RE.findall(r)):
+        out = out.replace('<table', '<table data-k2', 1)
     return out
 
 
@@ -371,6 +395,17 @@ def fix_h1(t):
     return _H1_RE.sub(one, t, count=1)
 
 
+def fix_stackjs(t, site, root):
+    """表のある頁に vq-stack.js（スマホで表を段に組む・枠に収める）を読み込ませる。サイトに assets/vq-stack.js があるときだけ（2026-11-23）"""
+    if '<table' not in t or 'vq-stack.js' in t or '</body>' not in t:
+        return t
+    if not os.path.exists(os.path.join(root, 'assets', 'vq-stack.js')):
+        return t
+    src = '/toukei/assets/vq-stack.js' if site == 'works' else '/assets/vq-stack.js'
+    i = t.rindex('</body>')
+    return t[:i] + '<script src="%s" defer></script>\n' % src + t[i:]
+
+
 def process(site, root):
     XL = load_xl()
     stats = dict(pages=0, changed=0, xl=0, xl_missing=[])
@@ -395,6 +430,7 @@ def process(site, root):
             t = fix_gold(t)
             t = fix_tables(t)
             t = fix_h1(t)
+            t = fix_stackjs(t, site, root)
             t = asset_ver(t, root, rel)
             if XL:
                 t = XL_RE.sub('', t)
