@@ -10,10 +10,11 @@ catalog: K.285b
 scoring: fl, vn, va, vc
 catalog_ids: [mozart-wa-k-171]
 concert: cm1219
-updated: 2026-11-10
+updated: 2026-11-24
 sources:
   - "Jaroslav Pohanka (ed.), W. A. Mozart, Quartette für Flöte, Violine, Viola und Violoncello KV 285, 285a, Anh. 171 (285b), 298, Bärenreiter Urtext TP 150（Neue Mozart-Ausgabe VIII/20/2 準拠）, Vorwort / Preface（ケッヘル目録での扱い、K.361 との関係、アインシュタインの年代、スケッチと所在、1962年のリーヴィスの疑問、1788年のボスラー初版、校訂上の判断）. https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf（閲覧日 2026-11-10）"
   - "G. Henle Verlag「Mozart: Flute Quartets」HN 635（ヘンリク・ヴィーゼ校訂、作品頁の紹介文：K.Anh.171 はおそらくモーツァルトの作ではない）. https://www.henle.de/Flute-Quartets-for-Flute-Violin-Viola-and-Violoncello/HN-635（閲覧日 2026-11-10）"
+  - "G. Henle Verlag, Mozart: Flute Quartets HN 635, Preface（スケッチの年代と、1781年春のウィーンでの成立の可能性）. https://www.henle.de/media/49/1c/b4/1690886057/0635-1690886057-sync.pdf（閲覧日 2026-11-24）"
   - "Jörg Peter Urbach, booklet note, Mozart: Flute Quartets（Ulf-Dieter Schaaff ほか, PENTATONE, 2016年録音）（ドゥジャンの四重奏曲に数えたのは誤りとされること、1781年のスケッチ、ヴィーゼのヴェンドリング説、ザイフェルトの評、真作性への疑い）. https://eclassical.textalk.se/shop/17115/art5/5010405-92c622-827949056765.pdf（閲覧日 2026-11-10）"
 ---
 
@@ -31,7 +32,7 @@ sources:
 
 ### 残っている資料
 
-曲全体の自筆譜はない。残っているのは第1楽章の第149〜158小節のスケッチで、これは《後宮からの誘拐》K.384 のスケッチと同じ紙に書かれ、ベルリン国立図書館にある。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)PENTATONE 盤の解説は、このスケッチを1781年のものとし、ドゥジャンの四重奏曲に数えた従来の見方は誤りとされるようになったと書いている。[（PENTATONE 解説）](https://eclassical.textalk.se/shop/17115/art5/5010405-92c622-827949056765.pdf)
+曲全体の自筆譜はない。残っているのは第1楽章の第149〜158小節のスケッチで、これは《後宮からの誘拐》K.384 のスケッチと同じ紙に書かれ、ベルリン国立図書館にある。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)PENTATONE 盤の解説は、このスケッチを1781年のものとし、ドゥジャンの四重奏曲に数えた従来の見方は誤りとされるようになったと書いている。[（PENTATONE 解説）](https://eclassical.textalk.se/shop/17115/art5/5010405-92c622-827949056765.pdf)ヘンレ版（HN 635）の序文も、このスケッチから、1781年春にウィーンで書かれた可能性を挙げている。[（Henle 序文）](https://www.henle.de/media/49/1c/b4/1690886057/0635-1690886057-sync.pdf)
 
 初版は1788年、シュパイアーのボスラー社から作品14としてパート譜で出た。新モーツァルト全集は、残っているすべての資料を突き合わせた版を作っている。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
 

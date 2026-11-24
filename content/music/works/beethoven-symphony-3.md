@@ -10,7 +10,7 @@ catalog: Op.55
 scoring: 2fl, 2ob, 2cl, 2fg, 3hr, 2tp, timp, 弦五部
 duration: 約50分
 concert: vo-vol3-2027-03
-updated: 2026-10-29
+updated: 2026-11-24
 sources:
   - "Bathia Churgin, Preface / Comments. In: Beethoven, Symphony no. 3 in E-flat major op. 55 „Eroica“, Studien-Edition HN 9810, München: G. Henle, 2015/2016（Beethoven Werke I/2 準拠）. 序文 https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf 、校訂注 https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf（閲覧日 2026-10-29）"
   - "Bathia Churgin, Vorwort / Preface. In: Beethoven, Sinfonie Nr. 3 op. 55, Partitur-Bibliothek PB 14613, Wiesbaden: Breitkopf & Härtel, 2015. https://www.breitkopf.com/assets/pdf/PB_14613_Vorw_d_e.pdf（閲覧日 2026-10-29）"
@@ -24,6 +24,11 @@ sources:
   - "Christopher Howell, Review: Beethoven Symphonies, Chamber Orchestra of Europe / Harnoncourt（Teldec）, MusicWeb International, 2003. https://musicweb-international.com/classrev/2003/Aug03/Beethoven_symphonies_Harnoncourt.htm（閲覧日 2026-10-29）"
   - "John Quinn, Review: Beethoven Symphonies, London Classical Players / Norrington, MusicWeb International, December 2001. https://www.musicweb-international.com/classrev/2001/Dec01/Beethoven_symphonies_Norrington.htm（閲覧日 2026-10-29）"
   - "Bärenreiter, Beethoven Symphony No. 5 Critical Commentary（BA 9005-40）商品頁（デル・マー校訂の交響曲全9曲が1996〜2000年に刊行）. https://www.barenreiter.co.uk/symphony-no-5-in-c-minor-op-67-critical-commentary.html（閲覧日 2026-10-29）"
+  - "Gesellschaft der Musikfreunde in Wien, Archiv, „Beethoven's Eroica“（筆写総譜の写譜師と書き込み、表紙の削り跡、1803年秋のリースの手紙、来歴）. https://musikverein.at/en/archiv/beethovens_eroica/（閲覧日 2026-11-24）"
+  - "Berliner Philharmoniker, Programme notes: Ludwig van Beethoven, Symphony No. 3 in E-flat major op. 55 „Eroica“（第1楽章の発想、葬送行進曲の動機、終楽章、1807年の評、ロプコヴィッツ侯への献呈）. https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-symphony-no-3-in-e-flat-major-op-55-eroica（閲覧日 2026-11-24）"
+  - "Beethoven-Haus Bonn, Digital Archive, Werk „Die Geschöpfe des Prometheus op. 43“（初演の日付と振付）. https://www.beethoven.de/en/work/view/4528720714924032/（閲覧日 2026-11-24）"
+  - "Beethoven-Haus Bonn, „Schicksal“（ハイリゲンシュタットの遺書）. https://www.beethoven.de/en/g/schicksal（閲覧日 2026-11-24）"
+  - "Stefano Russomanno, „How Beethoven went from Napoleon's biggest fan to his worst critic“, National Geographic（リースが伝えたベートーヴェンの言葉）. https://www.nationalgeographic.com/history/world-history-magazine/article/napoleon-inspiration-beethoven-third-symphony（閲覧日 2026-11-24）"
 ---
 
 ## 成立
@@ -32,33 +37,39 @@ sources:
 
 ベートーヴェン（Ludwig van Beethoven）がこの交響曲の最初の楽想を書きとめたのは1802年秋である。新全集版の校訂者バティア・チャーギン（Bathia Churgin）によれば、第1〜3楽章の最初のスケッチは「ヴィエルホルスキ・スケッチ帳」にあり、同じ年に書かれたピアノのための《エロイカ変奏曲》作品35のスケッチのすぐ後に続いている。このスケッチ帳にある2頁の変ホ長調の楽章構想は、ナタン・フィシュマン（Nathan Fishman）がこの交響曲のためのものと同定した。
 
+同じ1802年の10月6日と10日の日付で、ベートーヴェンはウィーン郊外のハイリゲンシュタットで、弟カスパー・カールとヨハンに宛てた文書を書いている。いわゆる「ハイリゲンシュタットの遺書」で、ハンブルク州立・大学図書館が所蔵する。その中には「芸術が、ただ芸術だけが私を引き留めた」という一節がある。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/g/schicksal)
+
 全楽章の詳しいスケッチは「ランツベルク6」と呼ばれるスケッチ帳の4〜92頁にある。ルイス・ロックウッド（Lewis Lockwood）とアラン・ゴスマン（Alan Gosman）は2013年にこのスケッチ帳の校訂版とファクシミリを出版した。このスケッチ帳には、ほかにピアノ・ソナタ《ヴァルトシュタイン》、オペラ《レオノーレ》の最初のスケッチ、未完のオペラ《ヴェスタの火》、オラトリオ《オリーヴ山上のキリスト》、三重協奏曲が含まれ、ピアノ協奏曲第4番、交響曲第5番と第6番の初期の楽想も見られる。
 
-終楽章の主題は、低音の線とともに、コントルダンス WoO 14 の第7曲とバレエ《プロメテウスの創造物》作品43の終曲（いずれも1800〜01年の冬）に由来する。ベートーヴェンは1802年に同じ主題で作品35を書いた。ロックウッドは、交響曲の第1〜3楽章も作品35から生まれ、第1楽章の主要主題は作品35の低音主題に遡ると論じている。
+終楽章の主題は、低音の線とともに、コントルダンス WoO 14 の第7曲とバレエ《プロメテウスの創造物》作品43の終曲（いずれも1800〜01年の冬）に由来する。《プロメテウスの創造物》は、ウィーン宮廷劇場のバレエ・マスター、サルヴァトーレ・ヴィガノ（Salvatore Viganò）の振付で、1801年3月28日にウィーンのブルク劇場で初演された。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/4528720714924032/)ベートーヴェンは1802年に同じ主題で作品35を書いた。ロックウッドは、交響曲の第1〜3楽章も作品35から生まれ、第1楽章の主要主題は作品35の低音主題に遡ると論じている。
 
 ### 作曲と完成
 
-チャーギンは本格的な作曲の時期を1803年5月か6月から9月か10月までとする。ベートーヴェンは1803年5月21日、ブライトコップフ・ウント・ヘルテルにこの交響曲を初めて申し出た。フェルディナント・リース（Ferdinand Ries）は1803年10月22日付でボンの出版者ニコラウス・ジムロック（Nikolaus Simrock）に宛て、ベートーヴェン自身がこれを「これまでに書いた最大の作品」と考えていると書いた。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)リースはこの書簡でジムロックに100グルデンで申し出ており、ロプコヴィッツ侯は半年間の権利を400グルデンで求めていた。ベートーヴェン・ハウスは、最後の修正と補筆が1804年初めまで続いたとしている。筆写者による総譜は1804年5月半ばまでに整った。自筆総譜は伝わらない。
+チャーギンは本格的な作曲の時期を1803年5月か6月から9月か10月までとする。ウィーン楽友協会は、作曲が1803年、おそらく夏のデープリングで集中して進められたとしている。[（Gesellschaft der Musikfreunde）](https://musikverein.at/en/archiv/beethovens_eroica/)ベートーヴェン・ハウスは完成を1804年初めとし、1803年秋の可能性もあるとしている。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)ベートーヴェンは1803年5月21日、ブライトコップフ・ウント・ヘルテルにこの交響曲を初めて申し出た。フェルディナント・リース（Ferdinand Ries）は1803年10月22日付でボンの出版者ニコラウス・ジムロック（Nikolaus Simrock）に宛て、ベートーヴェン自身がこれを「これまでに書いた最大の作品」と考えていると書いた。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)楽友協会によれば、リースは1803年秋の手紙で、ベートーヴェンがこの交響曲を「ボナパルト」と名付けるつもりだとも伝えている。[（Gesellschaft der Musikfreunde）](https://musikverein.at/en/archiv/beethovens_eroica/)リースはこの書簡でジムロックに100グルデンで申し出ており、ロプコヴィッツ侯は半年間の権利を400グルデンで求めていた。ベートーヴェン・ハウスは、最後の修正と補筆が1804年初めまで続いたとしている。筆写者による総譜は1804年5月半ばまでに整った。自筆総譜は伝わらない。
 
 ### ナポレオンと題名
 
-ベートーヴェンは当初、この交響曲をナポレオン・ボナパルト（Napoléon Bonaparte）に献呈するつもりだった。ナポレオンは1804年5月18日に皇帝と宣言された。ウィーン楽友協会が所蔵する筆写総譜の表紙には、もとの題「Sinfonia grande / intitolata Bonaparte」のうち「intitolata Bonaparte」の語が、紙に穴があくほど強く削り取られている。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)その横にベートーヴェンは「Geschrieben auf Bonaparte（ボナパルトに寄せて書かれた）」と書き添えた。1804年8月26日のブライトコップフ宛書簡でも、ベートーヴェンはこの交響曲の題は本来「ボナパルト」であると書いている。この時点で作品はすでにロプコヴィッツ侯に売られていた。
+ベートーヴェンは当初、この交響曲をナポレオン・ボナパルト（Napoléon Bonaparte）に献呈するつもりだった。ナポレオンは1804年5月18日に皇帝と宣言された。楽友協会は、表紙の削り跡を、1804年5月にこの知らせがウィーンに届いたことと結びつけて説明している。[（Gesellschaft der Musikfreunde）](https://musikverein.at/en/archiv/beethovens_eroica/)ウィーン楽友協会が所蔵する筆写総譜の表紙には、もとの題「Sinfonia grande / intitolata Bonaparte」のうち「intitolata Bonaparte」の語が、紙に穴があくほど強く削り取られている。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)その横にベートーヴェンは「Geschrieben auf Bonaparte（ボナパルトに寄せて書かれた）」と書き添えた。この筆写総譜は写譜師ベンヤミン・ゲバウアー（Benjamin Gebauer）の手によるもので、ベートーヴェンは濃いインクや赤いチョークで修正を書き込んでいる。表紙には本人の書き込みが2か所ある。[（Gesellschaft der Musikfreunde）](https://musikverein.at/en/archiv/beethovens_eroica/)1804年8月26日のブライトコップフ宛書簡でも、ベートーヴェンはこの交響曲の題は本来「ボナパルト」であると書いている。この時点で作品はすでにロプコヴィッツ侯に売られていた。
 
-リースは1838年の回想で、ナポレオンの皇帝即位を伝えたところベートーヴェンが怒り、「あれもまた普通の人間にすぎないのか」と言って表紙を二つに裂いたと書いた。ベートーヴェン・ハウスは、ナポレオンへの失望についてのリースの報告は史実と認められるが、表紙は裂かれておらず削られたものであると指摘している。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)ベルナドット（Jean-Baptiste Bernadotte）の勧めで作曲したという話（アントン・シンドラー（Anton Schindler）経由）や、アブキール湾の海戦をめぐる話（ベルトリーニ（Bertolini）経由）は、伝えた人物がベートーヴェンと知り合った時期から見て疑わしいとされる。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)
+リースは1838年の回想で、ナポレオンの皇帝即位を伝えたところベートーヴェンが怒り、「あれもまた普通の人間にすぎないのか」と言って表紙を二つに裂いたと書いた。リースはこのときベートーヴェンが、彼もまた人間の権利をすべて踏みにじり、暴君になるだろう、と続けたと伝えている。[（National Geographic）](https://www.nationalgeographic.com/history/world-history-magazine/article/napoleon-inspiration-beethoven-third-symphony)ベートーヴェン・ハウスは、ナポレオンへの失望についてのリースの報告は史実と認められるが、表紙は裂かれておらず削られたものであると指摘している。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)ベルナドット（Jean-Baptiste Bernadotte）の勧めで作曲したという話（アントン・シンドラー（Anton Schindler）経由）や、アブキール湾の海戦をめぐる話（ベルトリーニ（Bertolini）経由）は、伝えた人物がベートーヴェンと知り合った時期から見て疑わしいとされる。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)
 
 ### 初演
 
-ロプコヴィッツ侯（Franz Joseph Maximilian Fürst Lobkowitz）の会計記録によれば、1804年6月9日付で、この交響曲と三重協奏曲作品56の2回のリハーサルに対する奏者への支払いが記録されている。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)楽長アントン・ヴラニツキー（Anton Wranitzky）のもとで雇われた奏者は22人で、その中に第3ホルン奏者が含まれる。チャーギンはこれを、1804年5月末か6月初めにウィーンのロプコヴィッツ侯邸で行われた最初の演奏の記録とみる。同じ支払いはこの夏、ボヘミアのアイゼンベルク（イェゼジー）とラウドニッツ（ロウドニツェ）の侯の領地での私的演奏にも及んでいた。1805年1月20日に銀行家ヨーゼフ・ヴュルト（Joseph Würth）の家で、1月23日にロプコヴィッツ侯邸で演奏された。1月20日の演奏について、2月13日の『一般音楽新聞』は「途方もなく拡大された、大胆で奔放な幻想曲」と書いた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
+ロプコヴィッツ侯（Franz Joseph Maximilian Fürst Lobkowitz）の会計記録によれば、1804年6月9日付で、この交響曲と三重協奏曲作品56の2回のリハーサルに対する奏者への支払いが記録されている。[（Henle 序文）](https://www.henle.de/media/ab/c4/b9/1697725907/9810-1697725906-sync.pdf)楽長アントン・ヴラニツキー（Anton Wranitzky）のもとで雇われた奏者は22人で、その中に第3ホルン奏者が含まれる。チャーギンはこれを、1804年5月末か6月初めにウィーンのロプコヴィッツ侯邸で行われた最初の演奏の記録とみる。同じ支払いはこの夏、ボヘミアのアイゼンベルク（イェゼジー）とラウドニッツ（ロウドニツェ）の侯の領地での私的演奏にも及んでいた。ブライトコップフ版の序文は、ボヘミアでの演奏を1804年8月と9月としている。[（Breitkopf 序文）](https://www.breitkopf.com/assets/pdf/PB_14613_Vorw_d_e.pdf)1805年1月20日に銀行家ヨーゼフ・ヴュルト（Joseph Würth）の家で、1月23日にロプコヴィッツ侯邸で演奏された。1月20日の演奏について、2月13日の『一般音楽新聞』は「途方もなく拡大された、大胆で奔放な幻想曲」と書いた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
 
 公開初演は1805年4月7日、アン・デア・ウィーン劇場で、ヴァイオリン奏者フランツ・クレメント（Franz Clement）の慈善演奏会においてベートーヴェンの指揮で行われた。『一般音楽新聞』はこの演奏について、交響曲は短くなれば大いに得るところがある（演奏は1時間かかる）と書き、一般には受け入れられなかったと報じた。4月17日の『デア・フライミューティゲ』は、傑作とみる聴衆と、奇抜さを求めた際限のない努力にすぎないとみる聴衆に分かれたと伝えた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
 
+1807年1月3日の『一般音楽新聞』は、第1楽章を「堂々として力と崇高さに満ちている」、葬送行進曲を「新しく、気高い憂いの性格を持つ」と評し、終楽章には「ある種の価値」を認めつつ「大いなる奇妙さ」の非難は免れないと書いた。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-symphony-no-3-in-e-flat-major-op-55-eroica)ほかの評者も異例の長さに不満を述べており、ドレスデンに残る初版の一部には、貼り紙で覆われた箇所がある。[（Breitkopf 序文）](https://www.breitkopf.com/assets/pdf/PB_14613_Vorw_d_e.pdf)
+
 ### 出版と献呈
 
-初版はウィーンの美術工芸社（Contor delle arti e d'industria、Bureau des Arts et d'Industrie）からパート譜で出された（版番号512）。チャーギンは告知の日付を1806年10月29日とする。表題は「Sinfonia eroica, composta per festeggiare il sovvenire di un grand Uomo（英雄交響曲、ある偉大な人物の思い出を記念するために作曲）」で、ロプコヴィッツ侯に献呈された。初版には「この交響曲は意図して通常より長く書かれているので、演奏会の終わりではなく初めの方で演奏すべきである」という趣旨のイタリア語の注記がある。[（Henle 校訂注）](https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf)
+初版はウィーンの美術工芸社（Contor delle arti e d'industria、Bureau des Arts et d'Industrie）からパート譜で出された（版番号512）。チャーギンは告知の日付を1806年10月29日とする。表題は「Sinfonia eroica, composta per festeggiare il sovvenire di un grand Uomo（英雄交響曲、ある偉大な人物の思い出を記念するために作曲）」で、ロプコヴィッツ侯に献呈された。初版には「この交響曲は意図して通常より長く書かれているので、演奏会の終わりではなく初めの方で演奏すべきである」という趣旨のイタリア語の注記がある。[（Henle 校訂注）](https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf)ロプコヴィッツ侯は、のちに交響曲第5番・第6番と三重協奏曲の献呈も受けている。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-symphony-no-3-in-e-flat-major-op-55-eroica)
+
+1809年にロンドンで出た最初の総譜には「ある英雄の死を祝うために作曲されたシンフォニア・エロイカ」と記され、のちに「ある偉大な人物の思い出を祝うために」に改められた。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/5529920004423680)イーストマン音楽学校の解説は、最初に出版された総譜を1820年のジムロック版としており、ベートーヴェン・ハウスの1809年ロンドン版とする記述と食い違う。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
 
 ## 編成と演奏時間
 
-フルート2、オーボエ2、クラリネット2、ファゴット2、ホルン3、トランペット2、ティンパニ、弦五部。3本のホルンは交響曲としては異例で、第3楽章のトリオではこの3本だけで主題を奏する。
+フルート2、オーボエ2、クラリネット2、ファゴット2、ホルン3、トランペット2、ティンパニ、弦五部。3本のホルンは交響曲としては異例で、第3楽章のトリオではこの3本だけで主題を奏する。イーストマン音楽学校の解説は、交響的な作品で3本のホルンが使われたのはこれが初めてとしている。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
 
 演奏時間は第1楽章の提示部の反復の有無とテンポにより、45〜55分程度である。
 
@@ -66,29 +77,29 @@ sources:
 
 ### 第1楽章 Allegro con brio
 
-変ホ長調、4分の3拍子。ソナタ形式。序奏の代わりに主和音の打撃が2回置かれ、続いて三和音による主題が始まる。
+変ホ長調、4分の3拍子。ソナタ形式。序奏の代わりに主和音の打撃が2回置かれ、続いて三和音による主題がチェロで始まる。ベルリン・フィルの解説は、この楽章が「2つの和音の一撃と、それに導かれる歌うような主題」という一つの単純な発想の上に立っているとする。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-symphony-no-3-in-e-flat-major-op-55-eroica)この第1楽章だけで、ハイドンの交響曲の全体より長いものがある。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
 
 再現部の直前、第394〜395小節では、弦が属和音を保っている間に1本のホルンが主調の主題を2小節早く吹く。リースは、これをホルン奏者の数え間違いだと言ってベートーヴェンに叱られたと回想している。チャーギンの校訂注によれば、ベートーヴェンはこの小節のヴァイオリンの「pp」に赤鉛筆で3つ目の「p」を書き足しており、これはベートーヴェンの交響曲で最初の「ppp」である。[（Henle 校訂注）](https://www.henle.de/media/98/35/e1/1697725738/9810-1697725737-sync.pdf)
 
 ### 第2楽章 Marcia funebre. Adagio assai
 
-ハ短調、4分の2拍子。葬送行進曲。チャーギンによれば、筆写総譜では速度表示が後からインクで書き加えられており、初版の刷りのうち最も訂正の進んだ版（C5）でだけ全パートにこの表示がある。
+ハ短調、4分の2拍子。葬送行進曲。低弦のくぐもった音型で始まり、軍隊の太鼓を思わせる。中間部はハ長調に転じ、そのあとフーガが続き、コーダでは主題が切れ切れになって戻る。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)ベルリン・フィルの解説によれば、この楽章にはフランス共和国の葬送行進曲の動機がいくつも使われている。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-symphony-no-3-in-e-flat-major-op-55-eroica)チャーギンによれば、筆写総譜では速度表示が後からインクで書き加えられており、初版の刷りのうち最も訂正の進んだ版（C5）でだけ全パートにこの表示がある。
 
 1807年2月の『一般音楽新聞』の評者は、この楽章の後に数分間の静かな休止を置くことを提案した。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)
 
 ### 第3楽章 Scherzo. Allegro vivace
 
-変ホ長調、4分の3拍子。トリオは3本のホルンが主題を奏する。チャーギンによれば、ホルンのパート（第99〜113小節）は筆写総譜で改訂されており、新全集版はその改訂を再現の対応箇所（第355〜371小節の範囲）にも反映させている。
+変ホ長調、4分の3拍子。トリオは3本のホルンが主題を奏する。当時のホルンにはバルブがなく、替え管で調を変えていた。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)チャーギンによれば、ホルンのパート（第99〜113小節）は筆写総譜で改訂されており、新全集版はその改訂を再現の対応箇所（第355〜371小節の範囲）にも反映させている。
 
 ### 第4楽章 Finale. Allegro molto
 
-変ホ長調、4分の2拍子。《プロメテウス》の主題による変奏曲である。
+変ホ長調、4分の2拍子。《プロメテウス》の主題による変奏曲である。激しい導入のあと、弦のピッツィカートで主題の低音部（バッソ・デル・テーマ）から始まる。[（Eastman School of Music）](https://www.esm.rochester.edu/beethoven/symphony-no-3/)楽章は400小節を超え、フーガの部分を含む。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-symphony-no-3-in-e-flat-major-op-55-eroica)
 
 ## 演奏史と解釈
 
 ### 版
 
-自筆総譜は伝わらず、本文の主な資料は、ベートーヴェンの訂正が入った筆写総譜（ウィーン楽友協会、1827年の遺品競売で購入され1870年に同協会へ寄贈）、一部が訂正されたパート譜、そして初版のパート譜である。チャーギンは初版の刷りを5種（C1〜C5）比較している。新全集「Beethoven Werke」第I部第2巻（チャーギン校訂、ヘンレ、2013年、HN 4012）が出ており、ブライトコップフの指揮用総譜（PB 14613）とヘンレのスタディ・スコア（HN 9810）はこれに基づく。ベーレンライターのジョナサン・デル・マー（Jonathan Del Mar）校訂版は1996〜2000年に刊行された全9曲の一部である。
+自筆総譜は伝わらず、本文の主な資料は、ベートーヴェンの訂正が入った筆写総譜（ウィーン楽友協会、1827年の遺品競売で購入され1870年に同協会へ寄贈）、一部が訂正されたパート譜、そして初版のパート譜である。楽友協会によれば、筆写総譜はベートーヴェンが亡くなるまで手元に置いていたもので、1827年11月の遺品競売でピアニスト・作曲家のヨーゼフ・デッサウアー（Joseph Dessauer）が買い取り、1870年、ベートーヴェン生誕100年に寄贈した。[（Gesellschaft der Musikfreunde）](https://musikverein.at/en/archiv/beethovens_eroica/)チャーギンは初版の刷りを5種（C1〜C5）比較している。新全集「Beethoven Werke」第I部第2巻（チャーギン校訂、ヘンレ、2013年、HN 4012）が出ており、ブライトコップフの指揮用総譜（PB 14613）とヘンレのスタディ・スコア（HN 9810）はこれに基づく。ベーレンライターのジョナサン・デル・マー（Jonathan Del Mar）校訂版は1996〜2000年に刊行された全9曲の一部である。
 
 チャーギンの校訂注は次のような問題を扱っている。第1楽章の提示部の反復をどこから始めるか（ベートーヴェンは一時、反復記号を第3小節に移そうとしたが、最終的に第5小節からの反復を残した）。初版では第150小節以下の2小節が、第1・第2括弧の前で誤って繰り返されている。第544小節の第1ヴァイオリンはすべての資料で変ロ音だが、第141小節に合わせるならロ音になり、どちらを弾くかは指揮者に委ねられている。
 

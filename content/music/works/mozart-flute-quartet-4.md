@@ -11,12 +11,13 @@ catalog: K.298
 scoring: fl, vn, va, vc
 catalog_ids: [mozart-wa-k-298]
 concert: cm1219
-updated: 2026-11-10
+updated: 2026-11-24
 sources:
   - "Jaroslav Pohanka (ed.), W. A. Mozart, Quartette für Flöte, Violine, Viola und Violoncello KV 285, 285a, Anh. 171 (285b), 298, Bärenreiter Urtext TP 150（Neue Mozart-Ausgabe VIII/20/2 準拠）, Vorwort / Preface（自筆譜の所在と書き込み、1939年のサン＝フォワ、「quatuor d'airs dialogués」、ホフマイスターの歌曲、フランスのロンド、パイジエッロ《寛大な競争》の初演、1787年1月15日の手紙、ジャカン家の所蔵、変奏楽章の構成）. https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf（閲覧日 2026-11-10）"
   - "G. Henle Verlag「Mozart: Flute Quartets」HN 635（ヘンリク・ヴィーゼ校訂、作品頁の紹介文：K.298 はケッヘル目録で年代が誤っている）. https://www.henle.de/Flute-Quartets-for-Flute-Violin-Viola-and-Violoncello/HN-635（閲覧日 2026-11-10）"
   - "IMSLP「Flute Quartet in A major, K.298 (Mozart, Wolfgang Amadeus)」（楽章と速度表示、作曲年 1786–87?、NMA による1786年末説）. https://www.imslp.org/wiki/Flute_Quartet,_K.298_(Mozart,_Wolfgang_Amadeus)（閲覧日 2026-11-10）"
   - "Jörg Peter Urbach, booklet note, Mozart: Flute Quartets（Ulf-Dieter Schaaff ほか, PENTATONE, 2016年録音）（トリオの歌「Il a des bottes, des bottes Bastien」、ヴィーゼのジャカン説、変奏に短調と終結部がないこと）. https://eclassical.textalk.se/shop/17115/art5/5010405-92c622-827949056765.pdf（閲覧日 2026-11-10）"
+  - "Brilliant Classics「Mozart: Flute Quartets」レーベル解説（終楽章のアリアの題）. https://www.brilliantclassics.com/articles/m/mozart-flute-quartets/（閲覧日 2026-11-24）"
   - "Internationale Stiftung Mozarteum, Köchel-Verzeichnis online「KV 298/01」（第1楽章 Andante、編成 fl, vl, vla, vlc）. https://kv.mozarteum.at/en/work/3965（閲覧日 2026-11-10）"
 ---
 
@@ -55,7 +56,7 @@ PENTATONE 盤の解説は、ヘンレ版の校訂者ヘンリク・ヴィーゼ�
 | 第2楽章（メヌエットとトリオ） | 古いフランスのロンド。トリオはフランスの歌「Il a des bottes, des bottes Bastien」 |
 | 第3楽章（ロンド） | パイジエッロ《寛大な競争》のアリア |
 
-トリオの歌の題は PENTATONE 盤の解説による。[（PENTATONE 解説）](https://eclassical.textalk.se/shop/17115/art5/5010405-92c622-827949056765.pdf)
+トリオの歌の題は PENTATONE 盤の解説による。[（PENTATONE 解説）](https://eclassical.textalk.se/shop/17115/art5/5010405-92c622-827949056765.pdf)終楽章のアリアは、ブリリアント・クラシックス盤の解説によれば「Chi mi mostra」（〈愛の喜びを教えてくれるのは誰〉）である。[（Brilliant Classics）](https://www.brilliantclassics.com/articles/m/mozart-flute-quartets/)
 
 ## 楽章ごとの聴きどころ
 

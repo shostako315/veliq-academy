@@ -10,7 +10,7 @@ catalog: Op.77
 scoring: 独奏vn, 2fl, 2ob, 2cl, 2fg, 4hr, 2tp, timp, 弦五部
 duration: 約38分
 concert: vo-vol3-2027-03
-updated: 2026-10-29
+updated: 2026-11-24
 sources:
   - 'Michael Struck, Preface. In: Johannes Brahms, Violinkonzert D-dur op. 77, Studien-Edition HN 9854, G. Henle Verlag（序文の日付 Kiel, Sommer 2005）. https://www.henle.de/media/0d/ce/6c/1690899702/9854-1690899702-sync.pdf（閲覧日 2026-10-29）'
   - 'Michael Struck, Preface. In: Johannes Brahms, Violinkonzert D-dur op. 77, Ausgabe für Violine und Klavier HN 818, G. Henle Verlag（序文の日付 Kiel, Frühjahr 2009）. https://www.henle.de/media/e3/d0/e0/1690886056/0818-1690886056-sync.pdf（閲覧日 2026-10-29）'
@@ -21,6 +21,15 @@ sources:
   - 'Malte Krasting, Programme notes: Johannes Brahms, Concerto for Violin and Orchestra in D major op. 77, Berliner Philharmoniker. https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77（閲覧日 2026-10-29）'
   - 'Joanna Wyld, programme note, Royal Concertgebouw Orchestra, Barbican, 4 November 2022. https://www.barbican.org.uk/sites/default/files/documents/2022-11/04112022_RCO_digitalprogramme.pdf（閲覧日 2026-10-29）'
   - 'David B. Levy, Program note, Winston-Salem Symphony, 2014. https://www.wssymphony.org/program-notes/brahms-violin-concerto/（閲覧日 2026-10-29）'
+  - 'Fort Worth Symphony Orchestra, ブラームス交響曲第2番の曲目解説（作曲時期と初演）. https://fwsymphony.org/program-notes/brahms-johannes-symphony-no-2-in-d-major-opus-73（閲覧日 2026-11-24）'
+  - 'Los Angeles Philharmonic, Hollywood Bowl Music Database, この協奏曲の曲目解説（ベートーヴェンの型）. https://www.hollywoodbowl.com/musicdb/pieces/6755/violin-concerto-in-d-major-op-77（閲覧日 2026-11-24）'
+  - 'Boston Symphony Orchestra, この協奏曲の曲目解説（終楽章のハンガリー風の性格）. https://www.bso.org/works/brahms-violin-concerto（閲覧日 2026-11-24）'
+  - 'Aspen Music Festival and School, この協奏曲の曲目解説（定番になった時期）. https://www.aspenmusicfestival.com/program_notes/view/brahms-violin-concerto-in-d-major-op.-77（閲覧日 2026-11-24）'
+  - 'Berliner Philharmoniker, ブラームスとヨアヒムについての記事（1848年のハンブルク、1853年の出会い）. https://www.berliner-philharmoniker.de/en/stories/johannes-brahms-and-joseph-joachim/（閲覧日 2026-11-24）'
+  - 'Houston Symphony, この協奏曲の曲目解説（ブラームスがヨアヒムに書いた言葉）. https://houstonsymphony.org/brahms-violin-concerto/（閲覧日 2026-11-24）'
+  - 'josephjoachim.com, ヨアヒムのロンドン・フィルハーモニック協会デビューについての記事（1844年5月27日のロンドンでのベートーヴェンの協奏曲）. https://josephjoachim.com/2013/07/03/philharmonic-debut/（閲覧日 2026-11-24）'
+  - 'josephjoachim.com, Eleventh Gewandhaus Subscription Concert, Leipzig, 1 January 1879（プログラムの複写）. https://josephjoachim.com/wp-content/uploads/2026/08/Eleventh-Gewandhaus-Subscription-Concert-Leipzig-1-January-1879-1.pdf（閲覧日 2026-11-24）'
+  - 'Universität Leipzig, Musik und Musiker in Leipzig（演奏会データベース）, Elftes Abonnement-Concert, 1. Januar 1879. https://musiclpz.dl.uni-leipzig.de/receive/MusicLpzEvent_event_00000221（閲覧日 2026-11-24）'
   - '録音データ：Audiophile Audition（Kreisler, Pristine PASC 765 評）, Casals Classical（Heifetz/Reiner RCA LSC-1903）, The Listeners'' Club（Oistrakh/Klemperer 1960）, Gramophone（Faust/Harding, harmonia mundi HMC902075 評）, harmonia mundi（HMM932075 商品頁）（閲覧日 2026-10-29）'
 ---
 
@@ -28,7 +37,9 @@ sources:
 
 ### ペルチャッハの夏（1878年）
 
-ブラームスは1878年の夏、前年に交響曲第2番を書いたヴェルター湖畔ペルチャッハ（Pörtschach am Wörthersee）で、この協奏曲を書いた。ブラームス自身の作品目録には「1878年夏」と記されている。
+ブラームスは1878年の夏、前年に交響曲第2番を書いたヴェルター湖畔ペルチャッハ（Pörtschach am Wörthersee）で、この協奏曲を書いた。ブラームス自身の作品目録には「1878年夏」と記されている。交響曲第2番 ニ長調 作品73は1877年6月から9月にかけてペルチャッハで書かれ、1877年12月30日にウィーン楽友協会で、ハンス・リヒター（Hans Richter）指揮ウィーン・フィルによって初演されている。[（Fort Worth Symphony Orchestra）](https://fwsymphony.org/program-notes/brahms-johannes-symphony-no-2-in-d-major-opus-73)
+
+ブラームスはこの協奏曲を「交響的な精神」で構想し、ヨアヒムの技量に合わせて書いたと述べている。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77)ロサンゼルス・フィルの解説は、ブラームスがパガニーニ型ではなく、同じニ長調のベートーヴェンのヴァイオリン協奏曲の型に倣ったと説明しており、ベルリン・フィルの解説もベートーヴェンの協奏曲を手本にした作品として紹介している。[（LA Phil / Hollywood Bowl）](https://www.hollywoodbowl.com/musicdb/pieces/6755/violin-concerto-in-d-major-op-77)[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77)
 
 8月21日、ブラームスはヨーゼフ・ヨアヒム（Joseph Joachim）に葉書で「いくつかのヴァイオリンのパッセージ」を送ると知らせ、翌22日、第1楽章と終楽章の冒頭部分を書いた自筆の独奏パートを手紙とともに送った。ブラームスはヨアヒムにそれを直してもらうつもりだった。ヨアヒムは重音の多さから技術的に難しいと受け止めたが、8月24日には好意的な返事を書いている。
 
@@ -36,11 +47,11 @@ sources:
 
 9月初め、2人はペルチャッハで会い、独奏パートを検討した。9月下旬にはハンブルクで、2人がクララ・シューマン（Clara Schumann）に第1楽章を弾いて聴かせた。クララはその雰囲気を同じニ長調の交響曲第2番になぞらえ、10月3日付のヘルマン・レーヴィ（Hermann Levi）あての手紙でこの曲のことを書いている。[（Henle 序文）](https://www.henle.de/media/0d/ce/6c/1690899702/9854-1690899702-sync.pdf)
 
-10月23日、ブラームスは1879年のライプツィヒ新年演奏会で初演する案を「急ぐのは好まない」と断った。12月10日には、中間の2つの楽章を外し、代わりに「貧弱なアダージョ」（ein armes Adagio）を書いたと伝えている。[（Henle 序文）](https://www.henle.de/media/0d/ce/6c/1690899702/9854-1690899702-sync.pdf)これが現在の第2楽章である。12月半ばになってブラームスは、1879年1月1日のライプツィヒでの初演を承諾した。
+10月23日、ブラームスは1879年のライプツィヒ新年演奏会で初演する案を「急ぐのは好まない」と断った。同じ手紙で「結局アダージョとスケルツォにつまずいた」とも書いている。[（Henle 序文 HN 818）](https://www.henle.de/media/e3/d0/e0/1690886056/0818-1690886056-sync.pdf)12月10日には、中間の2つの楽章を外し、代わりに「貧弱なアダージョ」（ein armes Adagio）を書いたと伝えている。[（Henle 序文）](https://www.henle.de/media/0d/ce/6c/1690899702/9854-1690899702-sync.pdf)これが現在の第2楽章である。12月半ばになってブラームスは、1879年1月1日のライプツィヒでの初演を承諾した。
 
 ### 初演
 
-初演は1879年1月1日、ライプツィヒ・ゲヴァントハウスの第11回演奏会で、ヨアヒムの独奏、ブラームスの指揮による。新ブラームス全集の編者は、この時点の作品はまだ暫定的な完成段階にあったとしている。[（新ブラームス全集 序文）](https://www.henle.de/media/88/1e/1a/1759224932/6005.pdf)ヨアヒムはこの演奏会で、同じニ長調のベートーヴェンのヴァイオリン協奏曲も弾いた。
+初演は1879年1月1日、ライプツィヒ・ゲヴァントハウスの第11回演奏会で、ヨアヒムの独奏、ブラームスの指揮による。新ブラームス全集の編者は、この時点の作品はまだ暫定的な完成段階にあったとしている。[（新ブラームス全集 序文）](https://www.henle.de/media/88/1e/1a/1759224932/6005.pdf)ヨアヒムはこの演奏会で、同じニ長調のベートーヴェンのヴァイオリン協奏曲も弾いた、とする資料がある。一方、当日のプログラムの複写とライプツィヒ大学の演奏会データベースでは、曲目はラハナー（Franz Lachner）の序曲（組曲第4番から）、モーツァルト《後宮からの誘拐》のアリア（独唱マルチェラ・ゼンブリッヒ（Marcella Sembrich））、この協奏曲、ゼンブリッヒの歌うショパンの歌曲、ヨアヒムの独奏によるバッハのシャコンヌで、後半はベートーヴェンの交響曲第7番であり、ベートーヴェンのヴァイオリン協奏曲は載っていない。指揮はカール・ライネッケ（Carl Reinecke）とブラームスである。[（josephjoachim.com）](https://josephjoachim.com/wp-content/uploads/2026/08/Eleventh-Gewandhaus-Subscription-Concert-Leipzig-1-January-1879-1.pdf)[（Universität Leipzig）](https://musiclpz.dl.uni-leipzig.de/receive/MusicLpzEvent_event_00000221)ベルリン・フィルの解説によると、終楽章の終わりで主題が三連符に変わって加速する部分は、初演で大きな拍手を呼んだ。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77)
 
 その後の主な演奏は次のとおりである。
 
@@ -62,6 +73,8 @@ sources:
 ### 献呈
 
 協奏曲はヨアヒムに献呈された。ブラームスが同じ人に2曲を献呈したのは、クララ・シューマンのほかにはヨアヒムだけである。[（Henle 序文）](https://www.henle.de/media/0d/ce/6c/1690899702/9854-1690899702-sync.pdf)ヨアヒムへの最初の献呈は1853年のピアノ・ソナタ第1番 作品1であった。献辞の文言は1879年6月にジムロックとの間で相談されている。
+
+ヨアヒムは1844年5月27日、ロンドンのハノーヴァー・スクエア・ルームズで、12歳でメンデルスゾーンの指揮のもとベートーヴェンのヴァイオリン協奏曲を暗譜で弾き、カデンツァは自作だった。それまでこの協奏曲は公の場でなかなか評価されず、1832年のロンドン初演は酷評されていた。[（josephjoachim.com）](https://josephjoachim.com/2013/07/03/philharmonic-debut/)1848年、ハンブルクで少年ブラームスは、ヨアヒムの弾くベートーヴェンのヴァイオリン協奏曲を聴いた。このとき2人は言葉を交わしておらず、知り合ったのは1853年、ハノーファーで、ブラームスがヴァイオリン奏者レメーニ（Reményi）の伴奏者として旅をしていたときである。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/stories/johannes-brahms-and-joseph-joachim/)ブラームスはのちにヨアヒムに、あの協奏曲はあなた自身の作だと思っていた、自分は誰よりも夢中になった聴き手だった、と書いている。[（Houston Symphony）](https://houstonsymphony.org/brahms-violin-concerto/)
 
 ## 編成と演奏時間
 
@@ -85,7 +98,7 @@ sources:
 
 ### 第3楽章 Allegro giocoso, ma non troppo vivace（ニ長調）
 
-ロンドとソナタ形式の要素を合わせた楽章で、独奏ヴァイオリンが最初から主題を弾く。コーダは Poco più presto で、最後は管弦楽の強い和音で終わる。
+ロンドとソナタ形式の要素を合わせた楽章で、独奏ヴァイオリンが最初から主題を弾く。民謡の直接の引用はないが、当時の聴衆は「ハンガリー風」と受け取った。ハンガリー生まれの献呈者ヨアヒムへの目配せとされる。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77)ボストン交響楽団の解説は、ブラームスの協奏曲はどれもハンガリー／ジプシー風の調子で終わり、この曲がその中で最もにぎやかだと書いている。[（Boston Symphony Orchestra）](https://www.bso.org/works/brahms-violin-concerto)コーダは Poco più presto で、最後は管弦楽の強い和音で終わる。
 
 速度表示について、ヨアヒムは「non troppo vivace? sonst zu schwer」と書き込んだ。ブラームスはこれに応じて「ma non troppo vivace」を書き足し、一度消し、最終稿で再び採用した。前述のとおり、終楽章第21〜26小節は1879年8月の校正の段階で改められている。
 
@@ -109,7 +122,7 @@ sources:
 
 ウィーン初演を評したエドゥアルト・ハンスリック（Eduard Hanslick）は、この曲をベートーヴェンとメンデルスゾーンの協奏曲以来の最も重要なヴァイオリン協奏曲と評し、交響曲第2番との近さにも触れた。同時に、いくつかの見事な楽想が十分な効果を上げないのではないかとも書いている。『シグナーレ』（Signale）誌のエドゥアルト・ベルンスドルフ（Eduard Bernsdorf）は称賛しつつ独奏の難しさを指摘し、『新音楽時報』のヘルマン・ツォップフ（Hermann Zopff）は重要だが温かみに欠けると評した。1879年10月16日の『新ベルリン音楽新聞』に載った敵意のある批評は、のちにハインリヒ・エールリヒ（Heinrich Ehrlich）のものとされた。[（新ブラームス全集 序文）](https://www.henle.de/media/88/1e/1a/1759224932/6005.pdf)
 
-「ヴァイオリンのための協奏曲ではなく、ヴァイオリンに逆らう協奏曲だ」という評は、ハンス・フォン・ビューロー（Hans von Bülow）とヘルメスベルガーの両方に帰されている。ヘンリク・ヴィエニャフスキ（Henryk Wieniawski）は「演奏不可能」と言ったと伝えられる。ゾルダート、ガブリエーレ・ヴィートロヴェッツ（Gabriele Wietrowetz）、レオノーラ・ジャクソン（Leonora Jackson）らヨアヒムの弟子たちが、この曲を演奏会の曲目に定着させた。ベルリン・フィルハーモニー管弦楽団での初演は1885年4月8日、ヨアヒムの指揮、ゾルダートの独奏による。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77)
+「ヴァイオリンのための協奏曲ではなく、ヴァイオリンに逆らう協奏曲だ」という評は、ハンス・フォン・ビューロー（Hans von Bülow）とヘルメスベルガーの両方に帰されている。ヘンリク・ヴィエニャフスキ（Henryk Wieniawski）は「演奏不可能」と言ったと伝えられる。ゾルダート、ガブリエーレ・ヴィートロヴェッツ（Gabriele Wietrowetz）、レオノーラ・ジャクソン（Leonora Jackson）らヨアヒムの弟子たちが、この曲を演奏会の曲目に定着させた。ベルリン・フィルハーモニー管弦楽団での初演は1885年4月8日、ヨアヒムの指揮、ゾルダートの独奏による。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/johannes-brahms-concerto-for-violin-and-orchestra-in-d-major-op-77)アスペン音楽祭の解説は、この協奏曲が演奏会の定番になったのは1900年以降としている。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/brahms-violin-concerto-in-d-major-op.-77)
 
 ### 録音
 
@@ -125,7 +138,7 @@ sources:
 - 自筆総譜（彫版用の版下）：ワシントン、米国議会図書館。2014年に Laaber 社からファクシミリが出ている
 - 第1楽章と終楽章冒頭を含む初期の自筆独奏パート：ベルリン国立図書館
 - 一部が自筆のピアノ伴奏譜（版下）：ウィーン、オーストリア国立図書館
-- 筆写の独奏パート（ブラームスとヨアヒムの鉛筆の書き込みがある）：米国議会図書館、ハイネマン財団コレクション
+- 筆写の独奏パート（ブラームスとヨアヒムの鉛筆の書き込みがある）：米国議会図書館、ハイネマン財団コレクション。インクで書かれた24頁で、オンラインで全頁を見られる[（Library of Congress）](https://www.loc.gov/resource/music.musihas-200215529/?st=gallery)
 - ブラームス所蔵の初版総譜：ウィーン楽友協会。新全集はこれを主要資料とする
 
 ### ヴィオッティと協奏曲の理想

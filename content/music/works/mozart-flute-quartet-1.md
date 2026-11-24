@@ -11,12 +11,19 @@ catalog: K.285
 scoring: fl, vn, va, vc
 catalog_ids: [mozart-wa-k-285]
 concert: cm1219
-updated: 2026-11-10
+updated: 2026-11-24
 sources:
   - "Jaroslav Pohanka (ed.), W. A. Mozart, Quartette für Flöte, Violine, Viola und Violoncello KV 285, 285a, Anh. 171 (285b), 298, Bärenreiter Urtext TP 150（Neue Mozart-Ausgabe VIII/20/2 準拠）, Vorwort / Preface（滞在期間、ドゥジャンの注文と報酬200グルデン、1777年12月18日の手紙、自筆譜の日付と所在、第3楽章の Allegretto、旧全集の1882年の刊行）. https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf（閲覧日 2026-11-10）"
   - "G. Henle Verlag「Mozart: Flute Quartets」HN 635（ヘンリク・ヴィーゼ校訂、作品頁の紹介文：時期をはっきり特定できるのは K.285 だけ）. https://www.henle.de/Flute-Quartets-for-Flute-Violin-Viola-and-Violoncello/HN-635（閲覧日 2026-11-10）"
   - "John Henken, program note「Flute Quartet in D major, K. 285」, Hollywood Bowl / Los Angeles Philharmonic（ドゥジャンの出発と報酬、各楽章）. https://www.hollywoodbowl.com/musicdb/pieces/1796/flute-quartet-in-d-major-k-285（閲覧日 2026-11-10）"
   - "Jörg Peter Urbach, booklet note, Mozart: Flute Quartets（Ulf-Dieter Schaaff ほか, PENTATONE, 2016年録音）（1777年12月10日の手紙の「200 fl」、ザルツブルクでの年俸150グルデン、マンハイム滞在の期間）. https://eclassical.textalk.se/shop/17115/art5/5010405-92c622-827949056765.pdf（閲覧日 2026-11-10）"
+  - "Mozart, Brief an den Vater, Mannheim, 10. Dezember 1777. In: Mozarts Briefe, Projekt Gutenberg（「僕たちのインド人」、注文の内容）. https://projekt-gutenberg.org/authors/wolfgang-amadeus-mozart/books/mozarts-briefe/chapter/42（閲覧日 2026-11-24）"
+  - "Internationale Stiftung Mozarteum, Digitale Mozart-Edition, Briefe und Aufzeichnungen（1777年12月10日の手紙の原本の所在、暗号部分の解読）. https://dme.mozarteum.at/DME/briefe/letter.php?mid=952（閲覧日 2026-11-24）"
+  - "„Was the VOC funding Mozart? The diaries of Wilhelm Buschman on Kharg Island“, Journal of the Royal Asiatic Society, Cambridge University Press, 2023（ドゥジャンの経歴）. https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/was-the-voc-funding-mozart-the-diaries-of-wilhelm-buschman-on-kharg-island/A932D3AB43F2643B90FFD270E606FC45（閲覧日 2026-11-24）"
+  - "Internationale Stiftung Mozarteum「Wolfgang Amadé Mozart」（母アンナ・マリアの死）. https://mozarteum.at/en/wolfgang-amade-mozart（閲覧日 2026-11-24）"
+  - "G. Henle Verlag, Mozart: Flute Quartets HN 635, Preface（12月25日までの完成）. https://www.henle.de/media/49/1c/b4/1690886057/0635-1690886057-sync.pdf（閲覧日 2026-11-24）"
+  - "Project Gutenberg EBook #5307（モーツァルトの書簡の英訳。1778年2月14日の手紙）. https://www.gutenberg.org/files/5307/5307.txt（閲覧日 2026-11-24）"
+  - "Internationale Stiftung Mozarteum, Köchel-Verzeichnis online「Quartett in D KV 285」（作曲の日付と場所、初版）. https://kv.mozarteum.at/de/work/quartett-in-d-3850（閲覧日 2026-11-24）"
   - "IMSLP「Flute Quartet in D major, K.285 (Mozart, Wolfgang Amadeus)」（楽章数、自筆譜の日付 1777年12月25日、旧全集の版）. https://imslp.org/wiki/Flute_Quartet_K.285_(Mozart,_Wolfgang_Amadeus)（閲覧日 2026-11-10）"
 ---
 
@@ -30,23 +37,25 @@ sources:
 
 ### マンハイムでの注文
 
-モーツァルトは母とともに、1777年10月30日から1778年3月14日までマンハイムに滞在した。ザルツブルクを出てパリへ向かう旅の途中である。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
+モーツァルトは母とともに、1777年10月30日から1778年3月14日までマンハイムに滞在した。ザルツブルクを出てパリへ向かう旅の途中である。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)母アンナ・マリアはこの旅から戻らず、1778年7月3日にパリで亡くなった。[（Mozarteum）](https://mozarteum.at/en/wolfgang-amade-mozart)
 
-1777年12月10日ごろ、マンハイムの宮廷楽団のフルート奏者ヨハン・バプティスト・ヴェンドリング（Johann Baptist Wendling）が、ドゥジャンからの注文を取り次いだ。内容は「小さく、易しく、短い協奏曲3曲」と、フルート四重奏曲を2曲ほど。報酬は200グルデンである。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)モーツァルトは12月10日の父あての手紙にこの金額を書いている。比較のために挙げると、モーツァルトのザルツブルクでの年俸は150グルデンだった。[（PENTATONE 解説）](https://eclassical.textalk.se/shop/17115/art5/5010405-92c622-827949056765.pdf)
+1777年12月10日ごろ、マンハイムの宮廷楽団のフルート奏者ヨハン・バプティスト・ヴェンドリング（Johann Baptist Wendling）が、ドゥジャンからの注文を取り次いだ。内容は「小さく、易しく、短い協奏曲3曲」と、フルート四重奏曲を2曲ほど。報酬は200グルデンである。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)モーツァルトは12月10日の父あての手紙にこの金額を書いている。比較のために挙げると、モーツァルトのザルツブルクでの年俸は150グルデンだった。[（PENTATONE 解説）](https://eclassical.textalk.se/shop/17115/art5/5010405-92c622-827949056765.pdf)父レオポルトは12月18日の手紙で、高くつくマンハイム滞在の助けになるとして、この注文を受けるよう勧めている。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
+
+12月10日の手紙でモーツァルトは注文主を「僕たちのインド人」と呼び、自分の資産で暮らす、学問全般の愛好家だと説明している。[（Projekt Gutenberg）](https://projekt-gutenberg.org/authors/wolfgang-amadeus-mozart/books/mozarts-briefe/chapter/42)この手紙の原本はザルツブルクのモーツァルテウム財団にあり、暗号で書かれた部分はのちにニッセン（Nissen）が解読した。[（Mozarteum, Digitale Mozart-Edition）](https://dme.mozarteum.at/DME/briefe/letter.php?mid=952)
 
 ### 注文主ドゥジャン
 
-手紙で「De Jean」と書かれた人物は、1981年の研究でフェルディナント・ドゥジャン（1731年10月9日ボン受洗、1797年2月23日ウィーン没）と特定された。オランダ東インド会社（VOC）の医師で、アマチュアのフルート奏者だった。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)モーツァルトは12月18日の手紙で「インドのオランダ人、あの真の人類の友のための四重奏曲も、もうすぐできあがる」と書いている。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
+手紙で「De Jean」と書かれた人物は、1981年の研究でフェルディナント・ドゥジャン（1731年10月9日ボン受洗、1797年2月23日ウィーン没）と特定された。オランダ東インド会社（VOC）の医師で、アマチュアのフルート奏者だった。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)2023年の『王立アジア協会誌』の論文は、ドゥジャンをVOCの外科医とし、VOC上級商務員の未亡人と結婚してその遺産を受け継いだこと、モーツァルトのフルート作品の多くを注文したことを記している。[（Journal of the Royal Asiatic Society）](https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/was-the-voc-funding-mozart-the-diaries-of-wilhelm-buschman-on-kharg-island/A932D3AB43F2643B90FFD270E606FC45)モーツァルトは12月18日の手紙で「インドのオランダ人、あの真の人類の友のための四重奏曲も、もうすぐできあがる」と書いている。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
 
 ### 完成と報酬
 
-自筆譜には「Mannheim il 25 decre. 1777」（マンハイム、1777年12月25日）と書かれていた。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)ドゥジャンは1778年2月半ばにマンハイムを発ってパリへ向かった。注文は一部しか果たされず、モーツァルトが受け取ったのは当初の額の半分に満たない額だった。[（Henken）](https://www.hollywoodbowl.com/musicdb/pieces/1796/flute-quartet-in-d-major-k-285)モーツァルトは1778年2月14日の父あての手紙で、独奏楽器としてのフルートは「我慢できない」と書いている。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
+自筆譜には「Mannheim il 25 decre. 1777」（マンハイム、1777年12月25日）と書かれていた。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)ヘンレ版の序文も、12月25日までに K.285 を書き上げていたとしている。[（Henle 序文）](https://www.henle.de/media/49/1c/b4/1690886057/0635-1690886057-sync.pdf)ドゥジャンは1778年2月半ばにマンハイムを発ってパリへ向かった。注文は一部しか果たされず、モーツァルトが受け取ったのは当初の額の半分に満たない額だった。[（Henken）](https://www.hollywoodbowl.com/musicdb/pieces/1796/flute-quartet-in-d-major-k-285)モーツァルトは1778年2月14日の父あての手紙で、独奏楽器としてのフルートは「我慢できない」と書いている。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)新モーツァルト全集の序文によれば、同じ手紙でモーツァルトは、仕上がったのは協奏曲2曲と四重奏曲3曲だけで、受け取ったのは200グルデンではなく96グルデンだったと報告しており、父はこれをさらに責めた。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)この手紙には、マンハイムでは落ち着いた時間がなかったこと、我慢できない楽器のために書き続けると頭が鈍ることも書かれている。[（Project Gutenberg）](https://www.gutenberg.org/files/5307/5307.txt)
 
 ### 自筆譜と出版
 
 自筆譜は旧プロイセン国立図書館にあったが、第二次世界大戦後に行方が分からなくなった。1979〜80年から再び閲覧できるようになり、現在はクラクフのヤギェウォ図書館にある。新モーツァルト全集の校訂には、19世紀の筆写譜2点が使われた。筆写譜の終楽章には、第57〜94小節の、消された最初の稿が残っている。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
 
-3楽章そろった形で初めて印刷されたのは、1882年の旧モーツァルト全集（第14部、第28番）である。それ以前の印刷譜は、この曲の第1楽章に別の2つの楽章（アンダンテとテンポ・ディ・メヌエット）を組み合わせていた。この2楽章が、のちに K.285a とされた作品である。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
+ケッヘル目録オンライン版は、初版を1792年、ウィーンのアルタリアとしている。[（Köchel-Verzeichnis online）](https://kv.mozarteum.at/de/work/quartett-in-d-3850)3楽章そろった形で初めて印刷されたのは、1882年の旧モーツァルト全集（第14部、第28番）である。それ以前の印刷譜は、この曲の第1楽章に別の2つの楽章（アンダンテとテンポ・ディ・メヌエット）を組み合わせていた。この2楽章が、のちに K.285a とされた作品である。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
 
 ## 楽章ごとの聴きどころ
 
@@ -56,7 +65,7 @@ sources:
 
 ### 第2楽章 Adagio（ロ短調）
 
-ヴァイオリン、ヴィオラ、チェロがピッツィカートで和音を刻み、その上でフルートが歌う。[（Henken）](https://www.hollywoodbowl.com/musicdb/pieces/1796/flute-quartet-in-d-major-k-285)終止で閉じずに、そのまま終楽章に入る。新モーツァルト全集の校訂者は、この終わり方を慣例にないものとし、楽譜には「attacca」（切れ目なく続ける）だけを補っている。チェロのパートは「Basso」と書かれている。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
+ヴァイオリン、ヴィオラ、チェロがピッツィカートで和音を刻み、その上でフルートが歌う。[（Henken）](https://www.hollywoodbowl.com/musicdb/pieces/1796/flute-quartet-in-d-major-k-285)終止で閉じずに、そのまま終楽章に入る。新モーツァルト全集の校訂者は、この終わり方を慣例にないものとし、楽譜には「attacca」（切れ目なく続ける）だけを補っている。チェロのパートは「Basso」と書かれている。アダージョ冒頭の「Bassi pizzicato」という指示はヤーンが所蔵した筆写譜にしかなく、校訂者は筆写者の誤りの可能性が高いとしている。また、弦と管のための四重奏曲の資料には強弱記号がとても少なく、校訂者が補ったのは最小限だという。[（Bärenreiter 序文）](https://www.barenreiter.co.uk/prefaces/9790006201280_Innenansicht.pdf)
 
 ### 第3楽章 Rondeau: Allegretto（ニ長調）
 

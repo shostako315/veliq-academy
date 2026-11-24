@@ -10,7 +10,7 @@ catalog: Op.84
 scoring: 2fl（2番は picc 持ち替え）, 2ob, 2cl, 2fg, 4hr, 2tp, timp, 弦五部
 duration: 約9分
 concert: vo-vol3-2027-03
-updated: 2026-10-29
+updated: 2026-11-24
 sources:
   - "Ernst Herttrich, Preface. In: Beethoven, Music to Goethe's tragedy „Egmont“ op. 84, Studien-Edition HN 9043, München: G. Henle, 2016（Beethoven Werke IX/7, hrsg. von Helmut Hell, 1998 準拠。依頼、初演、出版の経過、ゲーテとの関係、資料）. https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf（閲覧日 2026-10-29）"
   - "Beethoven-Haus Bonn, Digital Archive, Werk „Musik zu Goethes Trauerspiel ‚Egmont‘ op. 84“（作曲時期、依頼の経緯、曲目一覧、スケッチ、初版の版番号、関連書簡）. https://www.beethoven.de/en/work/view/6262639948726272（閲覧日 2026-10-29）"
@@ -21,6 +21,9 @@ sources:
   - "Richard Thompson, Program note „Egmont Overture“, CODA（Brandon Hill Chamber Orchestra 提供, 2021）. https://codaweb.org/?p=3275（閲覧日 2026-10-29）"
   - "UC Davis Arts, „Beethoven: ‚Egmont‘ Overture, op. 84“（冒頭のユニゾン、主題の関係、コーダの楽器）. https://arts.ucdavis.edu/post/beethoven-egmont-overture-op-84（閲覧日 2026-10-29）"
   - "John Newman, Programme notes, St. Cecilia Orchestra, University of Alberta, 24 March 1985（拍子と劇中の場面との対応）. https://era.library.ualberta.ca/items/3aa2f79d-f8e5-4696-bff3-20f81c7fd926/download/1df30cf1-c0c9-46be-a341-c689dc06218a（閲覧日 2026-10-29）"
+  - "Steven Ledbetter, program note „Ludwig van Beethoven: Overture to Egmont, op. 84“, Aspen Music Festival and School（史実のエグモント伯、ゲーテの描き替え、劇の結末、初演の日付）. https://www.aspenmusicfestival.com/program_notes/view/ludwig-van-beethoven-overture-to-iegmont-op.-84（閲覧日 2026-11-24）"
+  - "Berliner Philharmoniker, Programme notes: Ludwig van Beethoven, Incidental music to Goethe's „Egmont“ op. 84（ゲーテの歌曲、1811年5月の出版社宛の手紙）. https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-incidental-music-to-goethes-egmont-op-84（閲覧日 2026-11-24）"
+  - "James McCarthy, „A meeting of genius: Beethoven and Goethe, July 1812“, Gramophone, 2 July 2012（1811年の楽譜の送付とゲーテの返事、テプリッツでの面会、1814年のワイマールでの上演）. https://gramophone.co.uk/features/article/a-meeting-of-genius-beethoven-and-goethe-july-1812（閲覧日 2026-11-24）"
   - "IMSLP, „Egmont, Op.84 (Beethoven, Ludwig van)“（パート譜の構成、刊本一覧）. https://imslp.org/wiki/Egmont,%20Op.84%20(Beethoven,%20Ludwig%20van)（閲覧日 2026-10-29）"
   - "Richard Osborne, Review: Beethoven, Egmont Incidental Music / The Consecration of the House, Orchester Wiener Akademie / Haselböck（Alpha 472）, Gramophone, September 2016. https://www.gramophone.co.uk/review/beethoven-egmont-incidental-music-the-consecration-of-the-house（閲覧日 2026-10-29）"
   - "Elusive Disc, Beethoven: Egmont (Complete), Decca / Speakers Corner LP 商品頁（ローレンガー、ヴソウの参加）. https://elusivedisc.com/beethoven-egmont-complete-decca-180g-lp/（閲覧日 2026-10-29）"
@@ -31,7 +34,7 @@ sources:
 
 ### 劇場からの依頼
 
-ゲーテ（Johann Wolfgang von Goethe）の悲劇《エグモント》は1788年の作品である。16世紀のネーデルラントの貴族ラモラール・エグモント伯（Lamoral, Graf von Egmont、1522–1568）を主人公とし、スペインの支配に抵抗したエグモントが捕らえられ、処刑されるまでを描く。
+ゲーテ（Johann Wolfgang von Goethe）の悲劇《エグモント》は1788年の作品である。16世紀のネーデルラントの貴族ラモラール・エグモント伯（Lamoral, Graf von Egmont、1522–1568）を主人公とし、スペインの支配に抵抗したエグモントが捕らえられ、処刑されるまでを描く。史実のエグモント伯はアルバ公に捕らえられ、1568年6月4日にブリュッセルで処刑された。ゲーテは中年の既婚者だった史実の伯爵を、若い恋人クレールヒェンを持つ独身の人物に描き替えている。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/ludwig-van-beethoven-overture-to-iegmont-op.-84)
 
 ウィーンのブルク劇場（宮廷劇場）は1810年春にこの劇を上演する計画を立て、ベートーヴェン（Ludwig van Beethoven）に付随音楽を依頼した。ボンのベートーヴェン・ハウスによれば、依頼したのは宮廷劇場の監督ヨーゼフ・ハルトル（Joseph Hartl）で、時期は1809年秋である。ヘンレ版の序文を書いたエルンスト・ヘルトリヒ（Ernst Herttrich）は、依頼の正確な日付は分からないとしている。1809年のウィーンはフランス軍の占領下にあり、ベートーヴェン・ハウスは、圧政からの解放という劇の主題がベートーヴェンの関心を引いたと記している。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6262639948726272)
 
@@ -39,7 +42,7 @@ sources:
 
 ヘルトリヒによれば、「ランツベルク5」スケッチ帳にあるクレールヒェンの歌のスケッチから、作業は遅くとも1809年秋には始まっていた。[（Henle 序文）](https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf)ベートーヴェン・ハウスには《エグモント》のスケッチ（BH 102、BH 103、BH 116）があり、BH 116には《エリーゼのために》WoO 59と行進曲 WoO 19のスケッチも含まれる。[（Beethoven-Haus Bonn）](https://www.beethoven.de/en/work/view/6262639948726272)
 
-ゲーテの台本は、劇中の歌、背景の音楽、そして終幕でエグモントが刑場に向かう場面の「勝利の交響曲（Siegessymphonie）」を指定していた。ベートーヴェンはこれに序曲と幕間の音楽を加えて全10曲とした。
+ゲーテの台本は、劇中の歌、背景の音楽、そして終幕でエグモントが刑場に向かう場面の「勝利の交響曲（Siegessymphonie）」を指定していた。アスペン音楽祭の解説によれば、劇の最後、獄中のエグモントはクレールヒェンの姿をした「自由」の幻を見る。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/ludwig-van-beethoven-overture-to-iegmont-op.-84)ベートーヴェンはこれに序曲と幕間の音楽を加えて全10曲とした。
 
 | 番号 | 曲 |
 |---|---|
@@ -56,13 +59,13 @@ sources:
 
 ### 初演
 
-劇の上演は1810年5月24日に始まったが、音楽は間に合わず、音楽なしで上演された。[（Henle 序文）](https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf)ベートーヴェンの音楽が初めて演奏されたのは1810年6月15日の上演である。ヘルトリヒの序文のドイツ語版はこれを「3回目の再演」、英語版は「4回目の上演」と書いており、同じ回を数え方の違いで表している。
+劇の上演は1810年5月24日に始まったが、音楽は間に合わず、音楽なしで上演された。[（Henle 序文）](https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf)ベートーヴェンの音楽が初めて演奏されたのは1810年6月15日の上演である。ヘルトリヒの序文のドイツ語版はこれを「3回目の再演」、英語版は「4回目の上演」と書いており、同じ回を数え方の違いで表している。これに対し、アスペン音楽祭の解説は、音楽の大半が1810年5月24日にウィーンで初演され、序曲は6月15日の上演から加わったとしており、資料によって記述が分かれる。[（Aspen Music Festival）](https://www.aspenmusicfestival.com/program_notes/view/ludwig-van-beethoven-overture-to-iegmont-op.-84)
 
 序曲が単独で演奏会に取り上げられた最初の日付は確認されていない。ヘルトリヒは、ゴットフリート・ヴェーバー（Gottfried Weber）の1814年の評に、マンハイムの演奏会でこの序曲が冒頭と終わりの両方で演奏されたとあることを挙げている。[（Henle 序文）](https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf)
 
 ### 報酬とゲーテ
 
-ベートーヴェンは1810年6月6日、この音楽をブライトコップフ・ウント・ヘルテルに申し出た。同年8月21日の同社宛の書簡では、劇場からは報酬を受け取っておらず、「ひとえに詩人への愛から」書いたと述べている。[（Henle 序文）](https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf)ベートーヴェンはまた、総譜が不要になったらゲーテに送るよう出版社に繰り返し求めた。1811年4月12日にはゲーテ自身に手紙を書き、敬意を表してこの音楽への評価を求めた。ゲーテは1812年1月23日に楽譜を受け取ったが、日記に短い記述があるだけで、ベートーヴェンへの返信は伝わらない。[（Henle 序文）](https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf)2人は1812年7月、ボヘミアの温泉地テプリッツで初めて会った。
+ベートーヴェンは1810年6月6日、この音楽をブライトコップフ・ウント・ヘルテルに申し出た。同年8月21日の同社宛の書簡では、劇場からは報酬を受け取っておらず、「ひとえに詩人への愛から」書いたと述べている。[（Henle 序文）](https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf)ベートーヴェンはまた、総譜が不要になったらゲーテに送るよう出版社に繰り返し求めた。1811年4月12日にはゲーテ自身に手紙を書き、敬意を表してこの音楽への評価を求めた。ゲーテは1812年1月23日に楽譜を受け取ったが、日記に短い記述があるだけで、ベートーヴェンへの返信は伝わらない。[（Henle 序文）](https://www.henle.de/media/27/0f/96/1697725883/9043-1697725883-sync.pdf)ベートーヴェンはゲーテの詩に多くの歌曲を書いており、《エグモント》の総譜を誤りのない形でゲーテに届けたいと考えていた。1811年5月には出版社に「誤り、誤り、それ自体がひとつの大きな誤りだ」と書き送っている。[（Berliner Philharmoniker）](https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-incidental-music-to-goethes-egmont-op-84)グラモフォン誌の記事は、1811年にベートーヴェンが楽譜を送ったのに対し、ゲーテが会うことを望む返事を書いたとしている。2人は1812年7月、ボヘミアの温泉地テプリッツで初めて会った。ゲーテは7月21日の日記に、ベートーヴェンが「見事に弾いた」と記している。ゲーテは1814年、ワイマールでベートーヴェンの音楽を使って『エグモント』を上演した。[（Gramophone）](https://gramophone.co.uk/features/article/a-meeting-of-genius-beethoven-and-goethe-july-1812)
 
 ### 出版
 
